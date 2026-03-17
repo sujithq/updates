@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-17T16:54:38.045569+00:00",
-  "totalArticles": 285,
+  "lastUpdated": "2026-03-17T17:16:25.911396+00:00",
+  "totalArticles": 287,
   "articles": [
     {
       "title": "VS Code 1.112 Insiders",
@@ -16,13 +16,35 @@
     {
       "title": "Detect, correlate, contain: New Azure Firewall IDPS detections in Microsoft Sentinel and XDR",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/detect-correlate-contain-new-azure-firewall-idps-detections-in/ba-p/4502128",
-      "published": "2026-03-17T16:47:38+00:00",
+      "published": "2026-03-17T17:14:47+00:00",
       "summary": "As threat actors continue to blend reconnaissance, exploitation, and post-compromise activity, network-level signals remain critical for early detection and correlated response. To strengthen this layer, we're introducing five new Azure Firewall IDPS detections, now available out of the box in the...",
       "blog": "Azure Network Security",
       "blogId": "azurenetworksecurityblog",
       "author": "Mohit_Kumar",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "RT.Assistant: A Multi-Agent Voice Bot Using .NET and OpenAI",
+      "link": "https://devblogs.microsoft.com/dotnet/rt-assistant-a-realtime-multiagent-voice-bot-using-dotnet-and-open-ai-api/",
+      "published": "2026-03-17T17:05:00+00:00",
+      "summary": "Guest blog post on building a real time assistant using OpenAI Realtime API using .NET, F#, Microsoft.Extensions.AI and .NET MAUI. The post RT.Assistant: A Multi-Agent Voice Bot Using .NET and OpenAI appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Faisal Waris",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Introducing the Azure Cosmos DB Plugin for Cursor",
+      "link": "https://devblogs.microsoft.com/cosmosdb/introducing-the-azure-cosmos-db-plugin-for-cursor/",
+      "published": "2026-03-17T17:03:09+00:00",
+      "summary": "We’re excited to announce the bringing AI-powered database expertise, best practices guidance, and live database connectivity directly into your coding workflow. Whether you’re designing a new data model, optimizing queries, or building a RAG application with vector search, the Cursor plugin gives...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Sajeetharan Sinnathurai",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Push protection exemptions for roles, teams, and apps",
@@ -3137,5 +3159,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Microsoft’s Azure and GitHub updates centered on AI platform maturity, stronger security workflows, and enterprise-scale developer tooling. Key announcements included general availability of Evaluations, Monitoring, and Tracing in Microsoft Foundry plus public preview of voice-native agents, a new Azure Cosmos DB plugin for Cursor, an Azure DevOps Remote MCP Server in public preview, and a .NET/OpenAI multi-agent voice bot reference app, all pointing to deeper AI-assisted app development on Azure.\n\nSecurity and operations were the other major theme: Azure Firewall IDPS detections now integrate more tightly with Microsoft Sentinel and Microsoft XDR, GitHub simplified Advanced Security setup while expanding push protection exemption controls and pull-request code quality automation, and Azure guidance highlighted resiliency patterns for Azure Front Door and AKS release updates. Broader enterprise signals included pricing urgency around Microsoft 365 Copilot bundles, analysis of LLM inference economics on Azure, and modernization/migration stories spanning Kubernetes image promotion and C++ workloads moving from IBM Power to x86."
 }
