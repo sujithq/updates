@@ -7,6 +7,28 @@ infra:
   path: infra
 
 hooks:
+  preprovision:
+    windows:
+      shell: pwsh
+      run: |
+        if (-not $env:GITHUB_REPOSITORY) {
+          throw "GITHUB_REPOSITORY is required to create the GitHub federated credential. Run 'azd env set GITHUB_REPOSITORY sujithq/updates' and retry."
+        }
+        if (-not $env:GITHUB_BRANCH) {
+          Write-Host "GITHUB_BRANCH not set. Defaulting to 'main'."
+          azd env set GITHUB_BRANCH main
+        }
+    posix:
+      shell: sh
+      run: |
+        if [ -z "$GITHUB_REPOSITORY" ]; then
+          echo "GITHUB_REPOSITORY is required to create the GitHub federated credential. Run 'azd env set GITHUB_REPOSITORY sujithq/updates' and retry." >&2
+          exit 1
+        fi
+        if [ -z "$GITHUB_BRANCH" ]; then
+          echo "GITHUB_BRANCH not set. Defaulting to 'main'."
+          azd env set GITHUB_BRANCH main
+        fi
   postprovision:
     windows:
       shell: pwsh
