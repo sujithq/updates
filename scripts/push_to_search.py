@@ -18,7 +18,9 @@ import hashlib
 import json
 import os
 import sys
+import time
 from datetime import datetime, timezone
+from urllib.parse import urlparse
 from dotenv import load_dotenv
 
 load_dotenv(override=False)
@@ -163,6 +165,29 @@ def upload_batches(search_client: SearchClient, docs: list[dict]) -> None:
     print(f"\nUpload complete: {uploaded} succeeded, {failed} failed out of {total} documents")
 
 
+def get_service_name(endpoint: str) -> str:
+    host = urlparse(endpoint).netloc
+    if host.endswith(".search.windows.net"):
+        return host.replace(".search.windows.net", "")
+    return host
+
+
+def wait_for_document_count(search_client: SearchClient, expected_minimum: int, timeout_seconds: int = 30) -> int:
+    """Poll until index reflects writes or timeout; indexing is near-real-time but not instant."""
+    deadline = time.time() + timeout_seconds
+    last_count = 0
+    while time.time() < deadline:
+        try:
+            last_count = search_client.get_document_count()
+            if last_count >= expected_minimum:
+                return last_count
+        except Exception:
+            # Keep retrying transient read-after-write/data-plane delays.
+            pass
+        time.sleep(2)
+    return last_count
+
+
 def main():
     print("=" * 60)
     print("Azure News Feed - Push to Azure AI Search")
@@ -182,6 +207,11 @@ def main():
     print(f"Prepared {len(docs)} documents for indexing")
 
     upload_batches(search_client, docs)
+
+    service_name = get_service_name(endpoint)
+    visible_count = wait_for_document_count(search_client, len(docs))
+    print(f"Search service: {service_name}.search.windows.net")
+    print(f"Index '{index_name}' current document count: {visible_count}")
 
     print(f"\n{'=' * 60}")
     print(f"Done! Index '{index_name}' at {endpoint}")
