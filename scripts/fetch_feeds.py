@@ -16,13 +16,16 @@ import os
 import re
 import time
 from collections import Counter
+from dotenv import load_dotenv
+
+load_dotenv()
 from email.utils import parsedate_to_datetime
 from datetime import datetime, timedelta, timezone
 from html import unescape
 
 
 TECHCOMMUNITY_RSS_TEMPLATE = (
-    "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id={board_id}"
+    "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id={board_id}&page.size=50"
 )
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(SCRIPT_DIR)

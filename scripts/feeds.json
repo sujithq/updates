@@ -1,7 +1,7 @@
 {
   "defaults": {
     "sleep_seconds": 0.5,
-    "max_age_days": 30,
+    "max_age_days": 31,
     "summary_max_length": 300,
     "author": "Microsoft"
   },
@@ -367,7 +367,7 @@
       "id": "terraform",
       "name": "Terraform",
       "type": "rss",
-      "feed_url": "https://www.hashicorp.com/blog/products/terraform/feed.xml",
+      "feed_url": "https://github.com/hashicorp/terraform/releases.atom",
       "enabled": true
     },
     {
@@ -410,6 +410,41 @@
       "name": "Let's do DevOps",
       "type": "rss",
       "feed_url": "https://www.letsdodevops.com/feed",
+      "enabled": true
+    },
+    {
+      "id": "microsoft365copilotblog",
+      "name": "Microsoft 365 Copilot Blog",
+      "type": "techcommunity",
+      "board_id": "microsoft365copilotblog",
+      "enabled": true
+    },
+    {
+      "id": "securitycopilotblog",
+      "name": "Security Copilot Blog",
+      "type": "techcommunity",
+      "board_id": "securitycopilotblog",
+      "enabled": true
+    },
+    {
+      "id": "agent-365-blog",
+      "name": "Agent 365 Blog",
+      "type": "techcommunity",
+      "board_id": "agent-365-blog",
+      "enabled": true
+    },
+    {
+      "id": "azure-ai-foundry-blog",
+      "name": "Azure AI Foundry Blog",
+      "type": "techcommunity",
+      "board_id": "azure-ai-foundry-blog",
+      "enabled": true
+    },
+    {
+      "id": "modernizationbestpracticesblog",
+      "name": "Modernization Best Practices Blog",
+      "type": "techcommunity",
+      "board_id": "modernizationbestpracticesblog",
       "enabled": true
     }
   ]
