@@ -1,0 +1,75 @@
+# Fetch RSS feeds, generate AI summary, and index into Azure AI Search.
+#
+# Authentication uses OIDC (keyless) for Azure — no long-lived secrets.
+# Required GitHub Secrets:
+#   AZURE_CLIENT_ID         - App registration / User-assigned MI client ID
+#   AZURE_TENANT_ID         - Azure AD tenant ID
+#   AZURE_SUBSCRIPTION_ID   - Azure subscription ID
+#   FOUNDRY_PROJECT_ENDPOINT - e.g. https://<project>.api.azureml.ms
+#   AZURE_SEARCH_ENDPOINT   - e.g. https://<service>.search.windows.net
+#
+# Required GitHub Variables (non-sensitive config):
+#   FOUNDRY_MODEL_DEPLOYMENT_NAME - e.g. gpt-5.4
+#   AZURE_SEARCH_INDEX            - e.g. azure-news-feed
+#
+# Azure RBAC required for the identity above:
+#   - Azure AI Developer  (on the Foundry project resource)
+#   - Search Service Contributor  (on the Search service)
+#   - Search Index Data Contributor  (on the Search service)
+
+name: Fetch Feeds
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # 06:00 UTC daily
+  workflow_dispatch:        # manual trigger from the GitHub UI
+
+permissions:
+  contents: write   # commit data/ back to the repo
+  id-token: write   # OIDC token for azure/login
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      # OIDC login — after this step DefaultAzureCredential resolves via AzureCliCredential
+      - name: Azure Login (OIDC)
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Fetch feeds
+        env:
+          FOUNDRY_PROJECT_ENDPOINT: ${{ secrets.FOUNDRY_PROJECT_ENDPOINT }}
+          FOUNDRY_MODEL_DEPLOYMENT_NAME: ${{ vars.FOUNDRY_MODEL_DEPLOYMENT_NAME }}
+        run: python scripts/fetch_feeds.py
+
+      - name: Push to Azure AI Search
+        env:
+          AZURE_SEARCH_ENDPOINT: ${{ secrets.AZURE_SEARCH_ENDPOINT }}
+          AZURE_SEARCH_INDEX: ${{ vars.AZURE_SEARCH_INDEX }}
+        run: python scripts/push_to_search.py
+
+      - name: Commit updated feed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "chore: update feed data [skip ci]"
+          git push

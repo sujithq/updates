@@ -1,0 +1,69 @@
+name: Provision Azure Resources
+
+on:
+  workflow_dispatch:
+    inputs:
+      azure_environment_name:
+        description: azd environment name
+        required: true
+        default: prod
+      azure_location:
+        description: Azure region
+        required: true
+        default: eastus2
+      search_service_name:
+        description: Globally unique Azure AI Search service name
+        required: true
+      github_branch:
+        description: Git branch allowed for OIDC subject
+        required: true
+        default: main
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  provision:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Azure Login (OIDC)
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Set up azd
+        uses: Azure/setup-azd@v1.0.0
+
+      - name: Configure azd environment
+        shell: bash
+        env:
+          AZURE_ENV_NAME: ${{ inputs.azure_environment_name }}
+          AZURE_LOCATION: ${{ inputs.azure_location }}
+          SEARCH_SERVICE_NAME: ${{ inputs.search_service_name }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_BRANCH: ${{ inputs.github_branch }}
+          FOUNDRY_PROJECT_ENDPOINT: ${{ secrets.FOUNDRY_PROJECT_ENDPOINT }}
+          FOUNDRY_MODEL_DEPLOYMENT_NAME: ${{ vars.FOUNDRY_MODEL_DEPLOYMENT_NAME }}
+        run: |
+          azd config set auth.useAzCliAuth true
+          azd env new "$AZURE_ENV_NAME" --no-prompt
+          azd env set AZURE_ENV_NAME "$AZURE_ENV_NAME"
+          azd env set AZURE_LOCATION "$AZURE_LOCATION"
+          azd env set SEARCH_SERVICE_NAME "$SEARCH_SERVICE_NAME"
+          azd env set GITHUB_REPOSITORY "$GITHUB_REPOSITORY"
+          azd env set GITHUB_BRANCH "$GITHUB_BRANCH"
+          azd env set FOUNDRY_PROJECT_ENDPOINT "$FOUNDRY_PROJECT_ENDPOINT"
+          azd env set FOUNDRY_MODEL_DEPLOYMENT_NAME "$FOUNDRY_MODEL_DEPLOYMENT_NAME"
+
+      - name: Provision infrastructure
+        run: azd provision --no-prompt
+
+      - name: Show azd outputs
+        run: azd env get-values

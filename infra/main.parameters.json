@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "environmentName": {
+      "value": "${AZURE_ENV_NAME}"
+    },
+    "location": {
+      "value": "${AZURE_LOCATION}"
+    },
+    "searchServiceName": {
+      "value": "${SEARCH_SERVICE_NAME}"
+    },
+    "githubRepository": {
+      "value": "${GITHUB_REPOSITORY}"
+    },
+    "githubBranch": {
+      "value": "${GITHUB_BRANCH}"
+    },
+    "foundryProjectEndpoint": {
+      "value": "${FOUNDRY_PROJECT_ENDPOINT}"
+    },
+    "foundryModelDeploymentName": {
+      "value": "${FOUNDRY_MODEL_DEPLOYMENT_NAME}"
+    }
+  }
+}

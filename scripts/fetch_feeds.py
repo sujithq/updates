@@ -10,6 +10,7 @@ Supported source types:
 - rss: requires "feed_url"
 """
 
+import asyncio
 import feedparser
 import json
 import os
@@ -18,10 +19,12 @@ import time
 from collections import Counter
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=False)
 from email.utils import parsedate_to_datetime
 from datetime import datetime, timedelta, timezone
 from html import unescape
+from agent_framework.azure import AzureAIClient
+from azure.identity.aio import DefaultAzureCredential
 
 
 TECHCOMMUNITY_RSS_TEMPLATE = (
@@ -292,52 +295,52 @@ def generate_rss_feed(articles):
 
 
 def generate_ai_summary(articles):
-    """Generate an AI summary of today's articles using OpenAI (optional)."""
-    api_key = os.environ.get("OPENAI_API_KEY", "")
-    if not api_key:
-        print("No OPENAI_API_KEY set, skipping AI summary")
+    """Generate an AI summary of today's articles using Microsoft Foundry (optional)."""
+    endpoint = os.environ.get("FOUNDRY_PROJECT_ENDPOINT", "")
+    if not endpoint:
+        print("No FOUNDRY_PROJECT_ENDPOINT set, skipping AI summary")
         return None
 
+    today = datetime.now(timezone.utc).date().isoformat()
+    today_articles = [
+        a for a in articles if a.get("published", "").startswith(today)
+    ]
+
+    if not today_articles:
+        print("No articles published today, skipping AI summary")
+        return None
+
+    titles = "\n".join(
+        [f"- {a['title']} ({a['blog']})" for a in today_articles[:20]]
+    )
+    prompt = (
+        "Summarize today's Azure blog posts in 2-3 sentences highlighting the most "
+        "important themes and announcements. Be specific about technologies mentioned. "
+        "Here are the articles:\n\n" + titles
+    )
+
     try:
-        import openai
-
-        today = datetime.now(timezone.utc).date().isoformat()
-        today_articles = [
-            a for a in articles if a.get("published", "").startswith(today)
-        ]
-
-        if not today_articles:
-            print("No articles published today, skipping AI summary")
-            return None
-
-        titles = "\n".join(
-            [
-                f"- {a['title']} ({a['blog']})"
-                for a in today_articles[:20]
-            ]
-        )
-
-        prompt = (
-            "You are a concise tech news editor. Summarize today's Azure blog posts "
-            "in 2-3 sentences highlighting the most important themes and announcements. "
-            "Be specific about technologies mentioned. Here are the articles:\n\n"
-            + titles
-        )
-
-        client = openai.OpenAI(api_key=api_key)
-        response = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[{"role": "user", "content": prompt}],
-            max_tokens=200,
-        )
-
-        summary = response.choices[0].message.content.strip()
-        print(f"AI summary generated: {summary[:100]}...")
-        return summary
-
+        return asyncio.run(_generate_ai_summary_async(endpoint, prompt))
     except Exception as e:
         print(f"AI summary failed: {e}")
         return None
+
+
+async def _generate_ai_summary_async(endpoint: str, prompt: str) -> str:
+    deployment = os.environ.get("FOUNDRY_MODEL_DEPLOYMENT_NAME", "gpt-5.4")
+    async with DefaultAzureCredential() as credential:
+        async with AzureAIClient(
+            project_endpoint=endpoint,
+            model_deployment_name=deployment,
+            credential=credential,
+        ).as_agent(
+            name="NewsSummarizer",
+            instructions="You are a concise tech news editor.",
+        ) as agent:
+            response = await agent.run(prompt)
+            summary = response.text.strip()
+            print(f"AI summary generated: {summary[:100]}...")
+            return summary
 
 
 def validate_sources(sources):

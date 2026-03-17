@@ -10,7 +10,7 @@ for a Copilot agent out of the box.
 
 Required environment variables (set in .env or CI secrets):
   AZURE_SEARCH_ENDPOINT  - e.g. https://my-service.search.windows.net
-  AZURE_SEARCH_KEY       - Admin API key (or use DefaultAzureCredential instead)
+    AZURE_SEARCH_KEY       - Optional admin API key fallback
   AZURE_SEARCH_INDEX     - Index name (default: azure-news-feed)
 """
 
@@ -21,9 +21,10 @@ import sys
 from datetime import datetime, timezone
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=False)
 
 from azure.core.credentials import AzureKeyCredential
+from azure.identity import DefaultAzureCredential
 from azure.search.documents import SearchClient
 from azure.search.documents.indexes import SearchIndexClient
 from azure.search.documents.indexes.models import (
@@ -51,6 +52,16 @@ def get_env(name: str, default: str = "") -> str:
         print(f"Error: environment variable '{name}' is not set.", file=sys.stderr)
         sys.exit(1)
     return value
+
+
+def get_search_credential():
+    key = os.environ.get("AZURE_SEARCH_KEY", "").strip()
+    if key:
+        print("Using Azure AI Search admin key authentication")
+        return AzureKeyCredential(key)
+
+    print("Using Azure AI Search DefaultAzureCredential authentication")
+    return DefaultAzureCredential()
 
 
 def make_doc_id(link: str) -> str:
@@ -158,10 +169,9 @@ def main():
     print("=" * 60)
 
     endpoint = get_env("AZURE_SEARCH_ENDPOINT")
-    key = get_env("AZURE_SEARCH_KEY")
     index_name = os.environ.get("AZURE_SEARCH_INDEX", "azure-news-feed").strip() or "azure-news-feed"
 
-    credential = AzureKeyCredential(key)
+    credential = get_search_credential()
     index_client = SearchIndexClient(endpoint=endpoint, credential=credential)
     search_client = SearchClient(endpoint=endpoint, index_name=index_name, credential=credential)
 
