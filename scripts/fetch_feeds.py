@@ -25,8 +25,9 @@ TECHCOMMUNITY_RSS_TEMPLATE = (
     "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id={board_id}"
 )
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+ROOT_DIR = os.path.dirname(SCRIPT_DIR)
 CONFIG_PATH = os.path.join(SCRIPT_DIR, "feeds.json")
-DATA_DIR = os.path.join(SCRIPT_DIR, "data")
+DATA_DIR = os.path.join(ROOT_DIR, "data")
 JSON_OUTPUT_PATH = os.path.join(DATA_DIR, "feeds.json")
 RSS_OUTPUT_PATH = os.path.join(DATA_DIR, "feed.xml")
 
