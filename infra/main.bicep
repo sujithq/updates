@@ -115,6 +115,7 @@ resource searchIndexDataContributorAssignment 'Microsoft.Authorization/roleAssig
 }
 
 output AZURE_CLIENT_ID string = githubIdentity.properties.clientId
+output AZURE_PRINCIPAL_ID string = githubIdentity.properties.principalId
 output AZURE_TENANT_ID string = tenant().tenantId
 output AZURE_SUBSCRIPTION_ID string = subscription().subscriptionId
 output AZURE_SEARCH_ENDPOINT string = 'https://${searchService.name}.search.windows.net'

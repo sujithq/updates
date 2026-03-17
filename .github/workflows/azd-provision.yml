@@ -18,6 +18,10 @@ on:
         description: Git branch allowed for OIDC subject
         required: true
         default: main
+      foundry_project_resource_id:
+        description: Optional override for Foundry project resource ID (defaults to secret FOUNDRY_PROJECT_RESOURCE_ID)
+        required: false
+        default: ""
 
 permissions:
   contents: read
@@ -50,6 +54,7 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_BRANCH: ${{ inputs.github_branch }}
           FOUNDRY_PROJECT_ENDPOINT: ${{ secrets.FOUNDRY_PROJECT_ENDPOINT }}
+          FOUNDRY_PROJECT_RESOURCE_ID: ${{ inputs.foundry_project_resource_id || secrets.FOUNDRY_PROJECT_RESOURCE_ID }}
           FOUNDRY_MODEL_DEPLOYMENT_NAME: ${{ vars.FOUNDRY_MODEL_DEPLOYMENT_NAME }}
         run: |
           azd config set auth.useAzCliAuth true
@@ -60,6 +65,9 @@ jobs:
           azd env set GITHUB_REPOSITORY "$GITHUB_REPOSITORY"
           azd env set GITHUB_BRANCH "$GITHUB_BRANCH"
           azd env set FOUNDRY_PROJECT_ENDPOINT "$FOUNDRY_PROJECT_ENDPOINT"
+          if [ -n "$FOUNDRY_PROJECT_RESOURCE_ID" ]; then
+            azd env set FOUNDRY_PROJECT_RESOURCE_ID "$FOUNDRY_PROJECT_RESOURCE_ID"
+          fi
           azd env set FOUNDRY_MODEL_DEPLOYMENT_NAME "$FOUNDRY_MODEL_DEPLOYMENT_NAME"
 
       - name: Provision infrastructure
