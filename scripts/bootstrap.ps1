@@ -94,7 +94,7 @@ if ([string]::IsNullOrWhiteSpace($spObjectId)) {
 }
 
 # 3) Configure federated credential for GitHub OIDC
-$subject = "repo:$Repository:ref:refs/heads/$Branch"
+$subject = "repo:{0}:ref:refs/heads/{1}" -f $Repository, $Branch
 Write-Host "Configuring federated credential subject: $subject"
 
 $existingFc = Invoke-AzCli -Args @('ad', 'app', 'federated-credential', 'list', '--id', $appObjectId, '--query', "[?name=='$FederatedCredentialName'] | [0]", '-o', 'json') -ParseJson -FailureMessage "Failed to query federated credentials."
@@ -130,6 +130,29 @@ if (-not $existingFc) {
   Invoke-AzCli -Args @('ad', 'app', 'federated-credential', 'update', '--id', $appObjectId, '--federated-credential-id', $FederatedCredentialName, '--parameters', $tmp) -FailureMessage "Failed to update federated credential." | Out-Null
   Remove-Item $tmp -Force
   Write-Host "Federated credential updated."
+}
+
+$verifiedFc = Invoke-AzCli -Args @(
+  'ad', 'app', 'federated-credential', 'list',
+  '--id', $appObjectId,
+  '--query', "[?name=='$FederatedCredentialName'] | [0]",
+  '-o', 'json'
+) -ParseJson -FailureMessage "Failed to verify federated credential after update."
+
+if (-not $verifiedFc) {
+  throw "Federated credential '$FederatedCredentialName' was not found after create/update."
+}
+
+if ($verifiedFc.subject -ne $subject) {
+  throw "Federated credential subject mismatch. Expected '$subject' but found '$($verifiedFc.subject)'."
+}
+
+if ($verifiedFc.issuer -ne 'https://token.actions.githubusercontent.com') {
+  throw "Federated credential issuer mismatch. Expected 'https://token.actions.githubusercontent.com' but found '$($verifiedFc.issuer)'."
+}
+
+if (-not ($verifiedFc.audiences -contains 'api://AzureADTokenExchange')) {
+  throw "Federated credential audience mismatch. Expected 'api://AzureADTokenExchange'."
 }
 
 # 4) Assign required roles at subscription scope
