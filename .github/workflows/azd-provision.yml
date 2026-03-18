@@ -40,7 +40,30 @@ jobs:
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
       - name: Set up azd
+        id: setup_azd
         uses: Azure/setup-azd@v1.0.0
+        continue-on-error: true
+
+      - name: Fallback install azd
+        if: steps.setup_azd.outcome == 'failure'
+        shell: bash
+        run: |
+          for attempt in 1 2 3; do
+            echo "setup-azd failed. Fallback install attempt $attempt/3"
+            if curl -fsSL https://aka.ms/install-azd.sh | bash; then
+              break
+            fi
+            if [ "$attempt" = "3" ]; then
+              echo "Fallback install failed after 3 attempts." >&2
+              exit 1
+            fi
+            sleep $((attempt * 10))
+          done
+          echo "$HOME/.azd/bin" >> "$GITHUB_PATH"
+
+      - name: Verify azd
+        shell: bash
+        run: azd version
 
       - name: Validate Foundry project scope
         shell: bash
