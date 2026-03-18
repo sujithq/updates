@@ -2,7 +2,8 @@
 #
 # Authentication uses OIDC (keyless) for Azure — no long-lived secrets.
 # Required GitHub Secrets:
-#   AZURE_CLIENT_ID         - App registration / User-assigned MI client ID
+#   AZURE_CLIENT_ID         - Runtime user-assigned MI client ID (output from azd provision)
+#   AZURE_PROVISION_CLIENT_ID - Bootstrap provisioning identity client ID (must be different)
 #   AZURE_TENANT_ID         - Azure AD tenant ID
 #   AZURE_SUBSCRIPTION_ID   - Azure subscription ID
 #   FOUNDRY_PROJECT_ENDPOINT - e.g. https://<project>.api.azureml.ms
@@ -45,6 +46,21 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
+
+      - name: Validate runtime identity secrets
+        shell: bash
+        env:
+          AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
+          AZURE_PROVISION_CLIENT_ID: ${{ secrets.AZURE_PROVISION_CLIENT_ID }}
+        run: |
+          if [ -z "$AZURE_CLIENT_ID" ]; then
+            echo "AZURE_CLIENT_ID is required for fetch workflow and should come from azd provision outputs." >&2
+            exit 1
+          fi
+          if [ -n "$AZURE_PROVISION_CLIENT_ID" ] && [ "$AZURE_CLIENT_ID" = "$AZURE_PROVISION_CLIENT_ID" ]; then
+            echo "AZURE_CLIENT_ID must be the runtime identity, not the bootstrap provisioning identity. Update AZURE_CLIENT_ID from 'azd env get-values'." >&2
+            exit 1
+          fi
 
       # OIDC login — after this step DefaultAzureCredential resolves via AzureCliCredential
       - name: Azure Login (OIDC)
