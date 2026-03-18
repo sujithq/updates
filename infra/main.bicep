@@ -32,14 +32,19 @@ param searchIndexName string = 'azure-news-feed'
 @description('User-assigned identity name for GitHub Actions OIDC login.')
 param githubIdentityName string = '${environmentName}-github-mi'
 
-@description('GitHub repository in owner/name format. Leave empty to skip federated credential creation.')
-param githubRepository string = ''
+@description('GitHub repository in owner/name format.')
+@minLength(1)
+param githubRepository string
 
 @description('Git branch used by the GitHub Actions workflow subject.')
 param githubBranch string = 'main'
 
 @description('Existing Foundry project endpoint to export into azd environment values.')
 param foundryProjectEndpoint string = ''
+
+@description('Foundry project resource ID (Microsoft.CognitiveServices/accounts/<account>/projects/<project>).')
+@minLength(1)
+param foundryProjectResourceId string
 
 @description('Foundry model deployment name to export into azd environment values.')
 param foundryModelDeploymentName string = 'gpt-5.4'
@@ -50,9 +55,14 @@ var tags = {
   workload: 'feed-ingestion'
 }
 
-var githubSubject = empty(githubRepository) ? '' : 'repo:${githubRepository}:ref:refs/heads/${githubBranch}'
+var githubSubject = 'repo:${githubRepository}:ref:refs/heads/${githubBranch}'
 var searchServiceContributorRoleId = subscriptionResourceId('Microsoft.Authorization/roleDefinitions', '7ca78c08-252a-4471-8644-bb5ff32d4ba0')
 var searchIndexDataContributorRoleId = subscriptionResourceId('Microsoft.Authorization/roleDefinitions', '8ebe5a00-799e-43f5-93ac-243d3dce84a7')
+var foundryProjectIdParts = split(foundryProjectResourceId, '/')
+var foundrySubscriptionId = foundryProjectIdParts[2]
+var foundryResourceGroupName = foundryProjectIdParts[4]
+var foundryAccountName = foundryProjectIdParts[8]
+var foundryProjectName = foundryProjectIdParts[10]
 
 resource githubIdentity 'Microsoft.ManagedIdentity/userAssignedIdentities@2024-11-30' = {
   name: githubIdentityName
@@ -60,7 +70,7 @@ resource githubIdentity 'Microsoft.ManagedIdentity/userAssignedIdentities@2024-1
   tags: tags
 }
 
-resource githubFederatedCredential 'Microsoft.ManagedIdentity/userAssignedIdentities/federatedIdentityCredentials@2024-11-30' = if (!empty(githubRepository)) {
+resource githubFederatedCredential 'Microsoft.ManagedIdentity/userAssignedIdentities/federatedIdentityCredentials@2024-11-30' = {
   parent: githubIdentity
   name: 'github-actions'
   properties: {
@@ -94,6 +104,16 @@ resource searchService 'Microsoft.Search/searchServices@2025-02-01-preview' = {
   }
 }
 
+module foundryProjectRbac './modules/foundry-project-rbac.bicep' = {
+  name: 'foundry-project-rbac'
+  scope: resourceGroup(foundrySubscriptionId, foundryResourceGroupName)
+  params: {
+    foundryAccountName: foundryAccountName
+    foundryProjectName: foundryProjectName
+    githubPrincipalId: githubIdentity.properties.principalId
+  }
+}
+
 resource searchServiceContributorAssignment 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
   name: guid(searchService.id, githubIdentity.id, searchServiceContributorRoleId)
   scope: searchService
@@ -114,6 +134,26 @@ resource searchIndexDataContributorAssignment 'Microsoft.Authorization/roleAssig
   }
 }
 
+resource foundryProjectSearchServiceContributorAssignment 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
+  name: guid(searchService.id, foundryProjectResourceId, searchServiceContributorRoleId)
+  scope: searchService
+  properties: {
+    principalId: foundryProjectRbac.outputs.foundryProjectPrincipalId
+    roleDefinitionId: searchServiceContributorRoleId
+    principalType: 'ServicePrincipal'
+  }
+}
+
+resource foundryProjectSearchIndexDataContributorAssignment 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
+  name: guid(searchService.id, foundryProjectResourceId, searchIndexDataContributorRoleId)
+  scope: searchService
+  properties: {
+    principalId: foundryProjectRbac.outputs.foundryProjectPrincipalId
+    roleDefinitionId: searchIndexDataContributorRoleId
+    principalType: 'ServicePrincipal'
+  }
+}
+
 output AZURE_CLIENT_ID string = githubIdentity.properties.clientId
 output AZURE_PRINCIPAL_ID string = githubIdentity.properties.principalId
 output AZURE_TENANT_ID string = tenant().tenantId
@@ -123,5 +163,7 @@ output AZURE_SEARCH_INDEX string = searchIndexName
 @secure()
 output AZURE_SEARCH_KEY string = searchService.listAdminKeys().primaryKey
 output FOUNDRY_PROJECT_ENDPOINT string = foundryProjectEndpoint
+output FOUNDRY_PROJECT_RESOURCE_ID string = foundryProjectResourceId
+output FOUNDRY_PROJECT_PRINCIPAL_ID string = foundryProjectRbac.outputs.foundryProjectPrincipalId
 output FOUNDRY_MODEL_DEPLOYMENT_NAME string = foundryModelDeploymentName
 output GITHUB_OIDC_SUBJECT string = githubSubject
