@@ -14,6 +14,7 @@ on:
       search_service_name:
         description: Globally unique Azure AI Search service name
         required: true
+        default: updatesrag
       github_branch:
         description: Git branch allowed for OIDC subject
         required: true
