@@ -1,7 +1,205 @@
 {
-  "lastUpdated": "2026-03-18T14:39:23.239688+00:00",
-  "totalArticles": 145,
+  "lastUpdated": "2026-03-18T20:44:18.914556+00:00",
+  "totalArticles": 164,
   "articles": [
+    {
+      "title": "Visual Studio Code 1.113",
+      "link": "https://code.visualstudio.com/updates/v1_113",
+      "published": "2026-03-25T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.113 (Insiders) Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Configure Copilot coding agent’s validation tools",
+      "link": "https://github.blog/changelog/2026-03-18-configure-copilot-coding-agents-validation-tools",
+      "published": "2026-03-18T19:46:44+00:00",
+      "summary": "When Copilot coding agent writes code, it automatically runs your project’s tests and linter. It also runs GitHub’s security and quality validation tools, including CodeQL, the GitHub Advisory Database, secret… The post Configure Copilot coding agent’s validation tools appeared first on The GitHub...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Authentication Tokens Are Not a Data Contract",
+      "link": "https://devblogs.microsoft.com/devops/authentication-tokens-are-not-a-data-contract/",
+      "published": "2026-03-18T18:46:49+00:00",
+      "summary": "Authentication tokens exist to answer one question: is this caller authorized to do this? They are not intended to be a stable data interface, a schema you can depend on, or an input into application logic. If your application decodes tokens and reads claims from them, this is an important...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Angel Wong",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Retirement: Emissions Impact Dashboard for Azure",
+      "link": "https://azure.microsoft.com/updates?id=558278",
+      "published": "2026-03-18T18:45:54+00:00",
+      "summary": "Effective March 31, 2027, the Emissions Impact Dashboard for Azure hosted by Power BI will be retired. After this date, the dashboard will no longer be accessible and technical support will be discontinued. We strongly encourage customers to export their",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] General availability: Azure SQL updates for mid-March 2026",
+      "link": "https://azure.microsoft.com/updates?id=558121",
+      "published": "2026-03-18T18:30:05+00:00",
+      "summary": "In mid-March 2026, the following updates and enhancements were made to Azure SQL: Publish SQL database projects directly from Visual Studio Code to streamline database deployment workflows. View and edit SQL table data directly in the MSSQ",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Red Hat OpenShift Managed Identity and Workload Identity",
+      "link": "https://azure.microsoft.com/updates?id=557917",
+      "published": "2026-03-18T18:30:05+00:00",
+      "summary": "Azure Red Hat OpenShift now supports managed identities and workload identities as a generally available capability, enabling you to run OpenShift clusters and applications on Azure without long lived service principal credentials. This aligns Azure Red H",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public preview: GitHub Copilot integration in Schema Designer for the MSSQL extension",
+      "link": "https://azure.microsoft.com/updates?id=558169",
+      "published": "2026-03-18T18:15:04+00:00",
+      "summary": "The MSSQL extension for Visual Studio Code now introduces GitHub Copilot integration in Schema Designer, expanding the visual schema design experience with AI-assisted capabilities. Based on developer feedback and evolving workflows, you can now understan",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Database DevOps in SSMS powered by SQL projects",
+      "link": "https://azure.microsoft.com/updates?id=558155",
+      "published": "2026-03-18T18:15:04+00:00",
+      "summary": "Bring the benefits of schema-as-code to your database development workflow. SQL database projects enable you to source control your database schema, perform reliable deployments to any environment, and integrate code quality checks into your development p",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: SQL MCP Server",
+      "link": "https://azure.microsoft.com/updates?id=558150",
+      "published": "2026-03-18T18:15:04+00:00",
+      "summary": "Announcing SQL MCP Server, our Model Context Protocol (MCP) connector for production databases. SQL MCP Server is a feature rich component of data API builder (DAB) that gives you a simple, predictable, secure way to bring AI agents into your data workflo",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: GitHub Copilot in SQL Server Management Studio 22",
+      "link": "https://azure.microsoft.com/updates?id=558134",
+      "published": "2026-03-18T18:15:04+00:00",
+      "summary": "GitHub Copilot is now generally available in SQL Server Management Studio (SSMS) 22, bringing AI‑powered assistance directly into the application that you use every day. With GitHub Copilot in SSMS, you can use natural language to develop, explain, fix,",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Pin Clustering in .NET MAUI Maps",
+      "link": "https://devblogs.microsoft.com/dotnet/pin-clustering-in-dotnet-maui-maps/",
+      "published": "2026-03-18T18:00:00+00:00",
+      "summary": ".NET MAUI 11 adds pin clustering to the Map control, automatically grouping nearby pins into cluster markers. Learn how to enable clustering, create separate clustering groups, and handle cluster taps on Android and iOS. The post Pin Clustering in .NET MAUI Maps appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "David Ortinau",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Securing Production Debugging in Kubernetes",
+      "link": "https://kubernetes.io/blog/2026/03/18/securing-production-debugging-in-kubernetes/",
+      "published": "2026-03-18T18:00:00+00:00",
+      "summary": "During production debugging, the fastest route is often broad access such as cluster-admin (a ClusterRole that grants administrator-level access), shared bastions/jump boxes, or long-lived SSH keys. It works in the moment, but it comes with two common problems: auditing becomes difficult, and...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure Developer CLI (azd): Run and test AI agents locally with azd",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azd-ai-agent-run-invoke/",
+      "published": "2026-03-18T17:49:36+00:00",
+      "summary": "New azd ai agent run and invoke commands let you start and test AI agents from your terminal—locally or in the cloud. The post Azure Developer CLI (azd): Run and test AI agents locally with azd appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "PuiChee (PC) Chan, Travis Angevine",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "v1.15.0-beta1",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-beta1",
+      "published": "2026-03-18T17:26:18+00:00",
+      "summary": "1.15.0-beta1 (March 18, 2026) NEW FEATURES: We now produce builds for Windows ARM64 (#32719) You can set a deprecated attribute on variable and output blocks to indicate that they are deprecated. This will produce warnings when passing in a value for a deprecated variable or when referencing a...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "DiskANN Vector Index Improvements",
+      "link": "https://devblogs.microsoft.com/azure-sql/diskann-vector-index-improvements/",
+      "published": "2026-03-18T17:00:33+00:00",
+      "summary": "Remember when we announced the Public Preview of DiskANN vector indexes back in November and mentioned that once you created the index, your table became read‑only? Yeah… about that… 😅 We shipped early because the demand for Vector search in SQL was overwhelming. We knew the constraints weren’t...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Davide Mauri, Pooja Kamath",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Lakeflow Connect Free Tier now available in Azure Databricks",
+      "link": "https://azure.microsoft.com/updates?id=558810",
+      "published": "2026-03-18T17:00:05+00:00",
+      "summary": "Azure Databricks now offers a Lakeflow Connect Free Tier that gives each workspace 100 free DBUs per workspace per day for ingestion from SaaS applications and databases. This allows you to bring roughly 100 million records of data per workspace per day i",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Versionless key support for transparent data encryption in Azure SQL Database",
+      "link": "https://azure.microsoft.com/updates?id=558183",
+      "published": "2026-03-18T17:00:05+00:00",
+      "summary": "Azure SQL Database now supports versionless keys for transparent data encryption (TDE), giving you a simpler and more reliable way to manage your own encryption keys. You no longer need to reference a specific key version from Azure Key Vault or Managed H",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Data API builder with built-in GitHub Copilot in MSSQL extension",
+      "link": "https://azure.microsoft.com/updates?id=558178",
+      "published": "2026-03-18T17:00:05+00:00",
+      "summary": "The MSSQL extension for Visual Studio Code now introduces Data API builder in public preview with built-in GitHub Copilot integration, bringing a guided back-end generation experience directly into your development workflow. You can generate REST, GraphQL",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
     {
       "title": "Visual Studio Code 1.112",
       "link": "https://code.visualstudio.com/updates/v1_112",
@@ -11,6 +209,50 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "GPT-5.3-Codex long-term support in GitHub Copilot",
+      "link": "https://github.blog/changelog/2026-03-18-gpt-5-3-codex-long-term-support-in-github-copilot",
+      "published": "2026-03-18T16:55:41+00:00",
+      "summary": "To give enterprises the stability they need for internal security and safety reviews, GitHub has established a new commitment with long-term support (LTS) models available for Copilot Business and Copilot… The post GPT-5.3-Codex long-term support in GitHub Copilot appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "When Infrastructure Scales But Understanding Doesn’t",
+      "link": "https://devblogs.microsoft.com/all-things-azure/when-infrastructure-scales-but-understanding-doesnt/",
+      "published": "2026-03-18T16:22:59+00:00",
+      "summary": "We all know this, even if we don’t like to admit it: modern infrastructure can scale infinitely, but human understanding doesn’t. We’ve all seen it happen – organizations going from managing dozens of servers to thousands of containers, from deploying weekly to deploying hundreds of times per day,...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "Diego Casati, Ray Kao",
+      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Observability for AI Systems: Strengthening visibility for proactive risk detection",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/03/18/observability-ai-systems-strengthening-visibility-proactive-risk-detection/",
+      "published": "2026-03-18T16:00:00+00:00",
+      "summary": "As AI systems grow more autonomous, observability becomes essential. Learn how visibility into AI behavior helps detect risk and strengthen secure development. The post Observability for AI Systems: Strengthening visibility for proactive risk detection appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Angela Argentati, Matthew Dressman, Habiba Mohamed and Microsoft AI Security",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "MSSQL Extension for VS Code: SQL Notebooks, AI-Powered Schema Design, Data API builder & More",
+      "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-march-2026/",
+      "published": "2026-03-18T15:55:12+00:00",
+      "summary": "The MSSQL extension for VS Code v1.41 continues to evolve, delivering features that make SQL development more integrated, more powerful, and more developer-friendly. In this release, we’re introducing the Public Preview of Schema Designer with GitHub Copilot, Data API builder, and SQL Notebooks,...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Yo-Lei Chen, Tauseef Siddique, Carlos Robles",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
     },
     {
@@ -223,17 +465,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "GitHub Code Quality: Batch apply quality suggestions on pull requests",
-      "link": "https://github.blog/changelog/2026-03-17-github-code-quality-batch-apply-quality-suggestions-on-pull-requests",
-      "published": "2026-03-17T10:01:32+00:00",
-      "summary": "GitHub Code Quality findings on pull requests are now easier to address with bulk actions. You can now apply fixes for Code Quality findings in the Files changed tab by… The post GitHub Code Quality: Batch apply quality suggestions on pull requests appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "The Invisible Rewrite: Modernizing the Kubernetes Image Promoter",
       "link": "https://kubernetes.io/blog/2026/03/17/image-promoter-rewrite/",
       "published": "2026-03-17T00:00:00+00:00",
@@ -374,17 +605,6 @@
       "blogId": "cosmosdbblog",
       "author": "Jai Maldonado",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Deprecating the cost center integration on the enterprise People page",
-      "link": "https://github.blog/changelog/2026-03-16-deprecating-the-cost-center-integration-on-the-enterprise-people-page",
-      "published": "2026-03-16T12:55:31+00:00",
-      "summary": "We are deprecating the cost center integration on the enterprise People page and in the People/Licensing CSV export. When the cost center integration was originally shipped in 2023, cost center… The post Deprecating the cost center integration on the enterprise People page appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -901,17 +1121,6 @@
       "blog": "Microsoft Security Blog",
       "blogId": "microsoftsecurity",
       "author": "Vasu Jakkal",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Malicious AI Assistant Extensions Harvest LLM Chat Histories",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/03/05/malicious-ai-assistant-extensions-harvest-llm-chat-histories/",
-      "published": "2026-03-05T16:02:12+00:00",
-      "summary": "Malicious AI browser extensions collected LLM chat histories and browsing data from platforms such as ChatGPT and DeepSeek. With nearly 900,000 installs and activity across more than 20,000 enterprise tenants, the campaign highlights the growing risk of data exposure through browser extensions. The...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Defender Security Research Team",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
@@ -1598,5 +1807,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure-related updates center on developer productivity and Kubernetes operations. **Visual Studio Code 1.112** highlights improvements to the editor and developer workflow in Microsoft’s flagship coding environment, while the **AKS Release Notes for 2026-03-05** document the latest Azure Kubernetes Service platform updates, including version and feature changes relevant to managed Kubernetes clusters.\n\nThe main themes are **tooling modernization** and **cloud-native infrastructure maintenance**: Microsoft is advancing the local development experience with Visual Studio Code, while continuing to evolve **AKS** for containerized application deployment and cluster management on Azure."
+  "summary": "Today’s Azure news is dominated by AI-assisted developer tooling and data platform updates: Microsoft highlighted GitHub Copilot across the stack, including Copilot coding agent validation tools, GPT-5.3-Codex LTS in GitHub Copilot, Copilot integrations in the MSSQL extension Schema Designer and Data API builder, and general availability of GitHub Copilot in SQL Server Management Studio 22. On the Azure data side, there were multiple Azure SQL announcements—mid-March 2026 GA updates, DiskANN vector index improvements, versionless key support for TDE in Azure SQL Database, SQL MCP Server preview, and Database DevOps in SSMS powered by SQL projects—alongside Azure Red Hat OpenShift managed/workload identity GA and Azure Databricks Lakeflow Connect Free Tier GA.\n\nA second major theme is secure, scalable cloud operations: Azure DevOps warned that authentication tokens should not be treated as stable data contracts, Kubernetes covered securing production debugging, and the Azure Developer CLI added local run/test workflows for AI agents with `azd`. Other notable items include the retirement of the Emissions Impact Dashboard for Azure, new .NET MAUI Maps pin clustering support, and Visual Studio Code 1.112."
 }
