@@ -6,11 +6,11 @@ on:
       azure_environment_name:
         description: azd environment name
         required: true
-        default: prod
+        default: updatesrag
       azure_location:
         description: Azure region
         required: true
-        default: eastus2
+        default: Sweden Central
       search_service_name:
         description: Globally unique Azure AI Search service name
         required: true
