@@ -79,6 +79,8 @@ jobs:
         shell: bash
         env:
           AZURE_ENV_NAME: ${{ inputs.azure_environment_name }}
+          AZURE_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+          AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
           AZURE_LOCATION: ${{ inputs.azure_location }}
           SEARCH_SERVICE_NAME: ${{ inputs.search_service_name }}
           GITHUB_REPOSITORY: ${{ github.repository }}
@@ -87,9 +89,12 @@ jobs:
           FOUNDRY_PROJECT_RESOURCE_ID: ${{ secrets.FOUNDRY_PROJECT_RESOURCE_ID }}
           FOUNDRY_MODEL_DEPLOYMENT_NAME: ${{ vars.FOUNDRY_MODEL_DEPLOYMENT_NAME }}
         run: |
+          az account set --subscription "$AZURE_SUBSCRIPTION_ID"
           azd config set auth.useAzCliAuth true
           azd env new "$AZURE_ENV_NAME" --no-prompt
           azd env set AZURE_ENV_NAME "$AZURE_ENV_NAME"
+          azd env set AZURE_SUBSCRIPTION_ID "$AZURE_SUBSCRIPTION_ID"
+          azd env set AZURE_TENANT_ID "$AZURE_TENANT_ID"
           azd env set AZURE_LOCATION "$AZURE_LOCATION"
           azd env set SEARCH_SERVICE_NAME "$SEARCH_SERVICE_NAME"
           azd env set GITHUB_REPOSITORY "$GITHUB_REPOSITORY"
@@ -99,6 +104,9 @@ jobs:
           azd env set FOUNDRY_MODEL_DEPLOYMENT_NAME "$FOUNDRY_MODEL_DEPLOYMENT_NAME"
 
       - name: Provision infrastructure
+        env:
+          AZURE_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+          AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
         run: azd provision --no-prompt
 
       - name: Show azd outputs
