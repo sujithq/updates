@@ -32,10 +32,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Validate provisioning identity secrets
+        shell: bash
+        env:
+          AZURE_PROVISION_CLIENT_ID: ${{ secrets.AZURE_PROVISION_CLIENT_ID }}
+        run: |
+          if [ -z "$AZURE_PROVISION_CLIENT_ID" ]; then
+            echo "AZURE_PROVISION_CLIENT_ID is required for provisioning workflow bootstrap. Configure a stable app registration/identity for OIDC provisioning." >&2
+            exit 1
+          fi
+
       - name: Azure Login (OIDC)
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          client-id: ${{ secrets.AZURE_PROVISION_CLIENT_ID }}
           tenant-id: ${{ secrets.AZURE_TENANT_ID }}
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
