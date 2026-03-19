@@ -1,0 +1,50 @@
+name: GitHub Updates Agent
+version: 1.0.0
+description: Expert on Microsoft Azure, GitHub, and Copilot announcements with Azure AI Search knowledge base
+
+tools:
+  - name: search_azure_news_feed
+    description: "Search the Azure news and updates feed index for announcements, product releases, and feature availability status"
+    type: azure_search_tool
+    enabled: true
+    always_invoke: true  # Force invocation on every user query
+    config:
+      index_name: "azure-news-feed"
+      search_endpoint: "${AZURE_SEARCH_ENDPOINT}"
+      search_api_key: "${AZURE_SEARCH_API_KEY}"
+      top_k: 5  # Return top 5 most relevant documents
+      include_source_fields:
+        - "title"
+        - "link"           # ⭐ CRITICAL: Direct source URL
+        - "url"            # Canonical citation URL (mirrors link)
+        - "published"
+        - "summary"
+        - "blog"
+        - "blogId"
+        - "author"
+        - "sourceType"
+      semantic_configuration: "default"  # Optional: if using semantic search
+      query_type: "simple"  # or "semantic" if vector search enabled
+
+# System prompt instruction location
+system_prompt_file: "agent-search-instructions.md"
+
+# Model configuration
+model:
+  provider: "azure"
+  deployment: "${FOUNDRY_MODEL_DEPLOYMENT_NAME}"  # e.g., gpt-5.4
+  temperature: 0.7
+  max_tokens: 2000
+
+# Execution parameters
+execution:
+  timeout_seconds: 60
+  max_tool_calls: 10
+  trace_level: "verbose"  # Enable Foundry trace logging
+
+# Response validation
+response_validation:
+  require_citations: true
+  require_search_query: true
+  check_hallucination: true  # Validate against index
+  enforce_status_categories: true  # Enforce ✅/🧪/🔒 format

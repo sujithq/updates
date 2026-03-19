@@ -76,6 +76,8 @@ def build_index(index_name: str) -> SearchIndex:
         SimpleField(name="id", type=SearchFieldDataType.String, key=True, filterable=True),
         SearchableField(name="title", type=SearchFieldDataType.String, analyzer_name="en.microsoft"),
         SimpleField(name="link", type=SearchFieldDataType.String, filterable=True),
+        # Canonical URL for tools/runtimes that auto-pick a URL field for citations.
+        SimpleField(name="url", type=SearchFieldDataType.String, filterable=True),
         SimpleField(name="published", type=SearchFieldDataType.DateTimeOffset, filterable=True, sortable=True),
         SearchableField(name="summary", type=SearchFieldDataType.String, analyzer_name="en.microsoft"),
         SearchableField(name="blog", type=SearchFieldDataType.String, filterable=True, facetable=True),
@@ -137,6 +139,7 @@ def articles_to_docs(articles: list[dict]) -> list[dict]:
             "id": make_doc_id(link),
             "title": a.get("title", ""),
             "link": link,
+            "url": link,
             "published": normalize_date(a.get("published", "")),
             "summary": a.get("summary", ""),
             "blog": a.get("blog", ""),

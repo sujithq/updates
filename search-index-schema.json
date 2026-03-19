@@ -1,0 +1,170 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "description": "Azure AI Search index schema for GitHub/Azure news and announcements",
+  "metadata": {
+    "comments": "This schema defines the index used by the Foundry agent for retrieving announcements with proper source linking"
+  },
+  "index": {
+    "name": "azure-news-feed",
+    "defaultScoringProfile": "default_scoring",
+    "fields": [
+      {
+        "name": "id",
+        "type": "Edm.String",
+        "key": true,
+        "retrievable": true,
+        "searchable": false,
+        "analyzer": null
+      },
+      {
+        "name": "title",
+        "type": "Edm.String",
+        "retrievable": true,
+        "searchable": true,
+        "filterable": false,
+        "sortable": true,
+        "facetable": false,
+        "analyzer": "standard.lucene"
+      },
+      {
+        "name": "content",
+        "type": "Edm.String",
+        "retrievable": true,
+        "searchable": true,
+        "filterable": false,
+        "sortable": false,
+        "facetable": false,
+        "analyzer": "standard.lucene"
+      },
+      {
+        "name": "link",
+        "type": "Edm.String",
+        "retrievable": true,
+        "searchable": false,
+        "filterable": false,
+        "sortable": false,
+        "facetable": false,
+        "comments": "⭐ CRITICAL: Direct source URL for markdown link generation [title](link)"
+      },
+      {
+        "name": "source",
+        "type": "Edm.String",
+        "retrievable": true,
+        "searchable": true,
+        "filterable": true,
+        "sortable": false,
+        "facetable": true,
+        "comments": "e.g., 'GitHub Blog', 'Azure Updates', 'Microsoft Learn'"
+      },
+      {
+        "name": "status",
+        "type": "Edm.String",
+        "retrievable": true,
+        "searchable": false,
+        "filterable": true,
+        "sortable": false,
+        "facetable": true,
+        "comments": "Values: 'GA' (Generally Available), 'Preview' (Public Preview), 'Internal' (Private/Internal)"
+      },
+      {
+        "name": "category",
+        "type": "Edm.String",
+        "retrievable": true,
+        "searchable": true,
+        "filterable": true,
+        "sortable": false,
+        "facetable": true,
+        "comments": "e.g., 'GitHub Copilot', 'Azure AI', 'Microsoft Foundry', 'Azure Functions'"
+      },
+      {
+        "name": "date",
+        "type": "Edm.DateTimeOffset",
+        "retrievable": true,
+        "searchable": false,
+        "filterable": true,
+        "sortable": true,
+        "facetable": false,
+        "comments": "Publication/announcement date in ISO 8601 format"
+      },
+      {
+        "name": "tags",
+        "type": "Collection(Edm.String)",
+        "retrievable": true,
+        "searchable": true,
+        "filterable": true,
+        "sortable": false,
+        "facetable": true,
+        "comments": "e.g., ['security', 'performance', 'ai', 'enterprise']"
+      },
+      {
+        "name": "vector",
+        "type": "Collection(Edm.Single)",
+        "retrievable": false,
+        "searchable": true,
+        "analyzer": null,
+        "dimensions": 1536,
+        "vectorSearchProfile": "myHnswProfile",
+        "comments": "Embedding vector for semantic/hybrid search (OpenAI text-embedding-3-small)"
+      }
+    ],
+    "scoringProfiles": [
+      {
+        "name": "default_scoring",
+        "textWeights": {
+          "weights": {
+            "title": 3,
+            "category": 2,
+            "content": 1
+          }
+        }
+      }
+    ],
+    "vectorSearch": {
+      "algorithms": [
+        {
+          "name": "myHnsw",
+          "kind": "hnsw",
+          "hnswParameters": {
+            "m": 4,
+            "efConstruction": 400,
+            "efSearch": 500,
+            "metric": "cosine"
+          }
+        }
+      ],
+      "profiles": [
+        {
+          "name": "myHnswProfile",
+          "algorithm": "myHnsw"
+        }
+      ]
+    },
+    "semantic": {
+      "configurations": [
+        {
+          "name": "default",
+          "prioritizedFields": {
+            "titleField": {
+              "fieldName": "title"
+            },
+            "contentFields": [
+              {
+                "fieldName": "content"
+              }
+            ],
+            "keywordsFields": [
+              {
+                "fieldName": "category"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "deployment": {
+    "azureCli": "az search index create --resource-group <rg> --service-name <search-service> --index-definition @search-index-schema.json",
+    "bicep": "See infra/main.bicep for Azure Search index creation via ARM"
+  }
+}
