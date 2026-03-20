@@ -12,16 +12,18 @@ scripts/feeds.json (source config)
         ▼
 scripts/fetch_feeds.py ──► data/feeds.json + data/feed.xml
         │
-        ▼
-scripts/push_to_search.py ──► Azure AI Search ("azure-news-feed" index)
+        ├──► scripts/push_to_search.py ──► Azure AI Search ("azure-news-feed" index)
+        │                                        │
+        │                                        ▼
+        │                              Foundry Agent (agent.yaml)
         │
-        ▼
-Foundry Agent (agent.yaml + agent-search-instructions.md)
+        └──► scripts/weekly_digest.py ──► digests/YYYY-WXX.md + GitHub Issue
 ```
 
 - **Feed ingestion**: `fetch_feeds.py` reads source definitions from `scripts/feeds.json`, fetches RSS feeds (TechCommunity boards and direct RSS URLs), deduplicates by link, filters by age, optionally generates an AI summary via Foundry, and writes to `data/`.
 - **Search indexing**: `push_to_search.py` reads `data/feeds.json` and upserts documents into Azure AI Search with semantic search configured. Index schema is created/updated automatically on each run.
 - **Foundry agent**: Defined in `agent.yaml` with system prompt in `agent-search-instructions.md`. The agent always invokes `search_azure_news_feed` before answering and formats responses with ✅ GA / 🧪 Preview / 🔒 Internal status buckets.
+- **Weekly digest**: `weekly_digest.py` filters the last 7 days of articles from `data/feeds.json`, groups by category, generates an AI-curated summary via Foundry, writes to `digests/`, and creates a GitHub Issue. Falls back to a plain structured listing if Foundry is unavailable.
 - **Infrastructure**: Bicep templates in `infra/` provision Azure AI Search and RBAC assignments (via `azd provision`). The Foundry project itself is pre-existing and referenced by resource ID.
 
 ## Build & Run Commands
@@ -51,6 +53,14 @@ python scripts/push_to_search.py
 ```powershell
 python scripts/discover_techcommunity.py
 ```
+
+### Generate weekly digest
+
+```powershell
+python scripts/weekly_digest.py
+```
+
+Set `DIGEST_DAYS` to override the default 7-day lookback window.
 
 ### Provision infrastructure
 
@@ -102,4 +112,5 @@ Bicep templates use `azd` parameter substitution via `main.parameters.json` with
 ### GitHub Actions
 
 - `fetch-feeds.yml` — Runs every 3 hours on schedule. Fetches feeds, pushes to search, commits updated `data/` back to the repo.
+- `weekly-digest.yml` — Runs every Monday at 07:00 UTC. Generates an AI-curated weekly digest, commits to `digests/`, and creates a GitHub Issue. Also supports manual trigger.
 - `azd-provision.yml` — Manual trigger only. Provisions Azure AI Search + RBAC via `azd provision`.
