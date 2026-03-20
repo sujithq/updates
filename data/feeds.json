@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-20T18:31:59.432228+00:00",
-  "totalArticles": 1141,
+  "lastUpdated": "2026-03-20T21:20:36.287742+00:00",
+  "totalArticles": 1142,
   "articles": [
     {
       "title": "Visual Studio Code 1.113",
@@ -11,6 +11,116 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Detect, correlate, contain: New Azure Firewall IDPS detections in Microsoft Sentinel and XDR",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/detect-correlate-contain-new-azure-firewall-idps-detections-in/ba-p/4502128",
+      "published": "2026-03-20T21:03:45+00:00",
+      "summary": "As threat actors continue to blend reconnaissance, exploitation, and post-compromise activity, network-level signals remain critical for early detection and correlated response. To strengthen this layer, we're introducing five new Azure Firewall IDPS detections, now available out of the box in the...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "Mohit_Kumar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Agentic Use Cases for Developers on the Microsoft Sentinel Platform",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/agentic-use-cases-for-developers-on-the-microsoft-sentinel/ba-p/4503041",
+      "published": "2026-03-20T20:46:02+00:00",
+      "summary": "Interested in building an agent with Sentinel platform solutions but not sure where to start? This blog will help you understand some common use cases for agent development that we’ve seen across our partner ecosystem. SOC teams don’t need more alerts - they need fast, repeatable investigation and...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Sai_Marapareddy",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Extending App Assure’s Sentinel Promise through the Sentinel Advisory Service",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/extending-app-assure-s-sentinel-promise-through-the-sentinel/ba-p/4503045",
+      "published": "2026-03-20T20:23:18+00:00",
+      "summary": "At RSAC last year, we introduced the Microsoft Sentinel Promise with a straightforward commitment to our customers: that third-party data ingestion for Sentinel is reliable, predictable, and scalable without the need for complex custom coding and architecting. In other words, your connectors for...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "MikeAdams",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Shaping the Next Era of Energy Decision Making with Geospatial Intelligence",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/shaping-the-next-era-of-energy-decision-making-with-geospatial/ba-p/4503662",
+      "published": "2026-03-20T20:20:42+00:00",
+      "summary": "Blog draft Shaping the Next Era of Energy Decision Making with Geospatial Intelligence By Yves Pitsch, GM, Azure Space, Microsoft The global energy system is entering a new phase—one defined not just by a single transition to renewables, but by the convergence of forces that are reshaping how...",
+      "blog": "Planetary Computer",
+      "blogId": "microsoft-planetary-computer-blog",
+      "author": "Yves-Pitsch",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft-planetary-computer-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[In preview] Public Preview: Azure SQL updates for mid-March 2026",
+      "link": "https://azure.microsoft.com/updates?id=558116",
+      "published": "2026-03-20T19:15:35+00:00",
+      "summary": "In mid-March 2026, the following updates and enhancements were made to Azure SQL: Reduce the consumption of storage space, I/O, and memory and improve performance without investing time and effort into index maintenance jobs. Configure",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Retirement: Azure SQL Elastic query - Shard_Map_Manager mode",
+      "link": "https://azure.microsoft.com/updates?id=558086",
+      "published": "2026-03-20T19:00:50+00:00",
+      "summary": "Starting March 31, 2027 Elastic query using Shard_Map_Manager external data source type reaches end of support.Existing workloads can continue to run using Azure SQL Elastic query - Shard_Map_Manager mode, but will no longer receive updates or support fro",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing Ingress2Gateway 1.0: Your Path to Gateway API",
+      "link": "https://kubernetes.io/blog/2026/03/20/ingress2gateway-1-0-release/",
+      "published": "2026-03-20T19:00:00+00:00",
+      "summary": "With the Ingress-NGINX retirement scheduled for March 2026, the Kubernetes networking landscape is at a turning point. For most organizations, the question isn't whether to migrate to Gateway API, but how to do so safely. Migrating from Ingress to Gateway API is a fundamental shift in API design....",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "RSAC 2026: New Microsoft Sentinel Connectors Announcement",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/rsac-2026-new-microsoft-sentinel-connectors-announcement/ba-p/4503042",
+      "published": "2026-03-20T18:45:22+00:00",
+      "summary": "Microsoft Sentinel helps organizations detect, investigate, and respond to security threats across increasingly complex environments. With the rollout of the Microsoft Sentinel data lake in the fall, and the App Assure-backed Sentinel promise that supports it, customers now have access to...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "JesseKopavi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Copilot usage metrics now resolve auto model selection to actual models",
+      "link": "https://github.blog/changelog/2026-03-20-copilot-usage-metrics-now-resolve-auto-model-selection-to-actual-models",
+      "published": "2026-03-20T18:37:18+00:00",
+      "summary": "Copilot usage metrics now provides full clarity into model usage when auto model selection is enabled. Activity that previously appeared under a generic “Auto” label now resolves to the actual… The post Copilot usage metrics now resolve auto model selection to actual models appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Running Agents on Kubernetes with Agent Sandbox",
+      "link": "https://kubernetes.io/blog/2026/03/20/running-agents-on-kubernetes-with-agent-sandbox/",
+      "published": "2026-03-20T18:00:00+00:00",
+      "summary": "The landscape of artificial intelligence is undergoing a massive architectural shift. In the early days of generative AI, interacting with a model was often treated as a transient, stateless function call: a request that spun up, executed for perhaps 50 milliseconds, and terminated. Today, the...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -65,39 +175,6 @@
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
       "author": "Yossi Basha",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Agentic Use Cases for Developers on the Microsoft Sentinel Platform",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/agentic-use-cases-for-developers-on-the-microsoft-sentinel/ba-p/4503041",
-      "published": "2026-03-20T16:01:05+00:00",
-      "summary": "Interested in building an agent with Sentinel platform solutions but not sure where to start? This blog will help you understand some common use cases for agent development that we’ve seen across our partner ecosystem. SOC teams don’t need more alerts - they need fast, repeatable investigation and...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Sai_Marapareddy",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "RSAC 2026: New Microsoft Sentinel Connectors Announcement",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/rsac-2026-new-microsoft-sentinel-connectors-announcement/ba-p/4503042",
-      "published": "2026-03-20T16:00:00+00:00",
-      "summary": "Microsoft Sentinel helps organizations detect, investigate, and respond to security threats across increasingly complex environments. With the rollout of the Microsoft Sentinel data lake in the fall, and the App Assure-backed Sentinel promise that supports it, customers now have access to...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "JesseKopavi",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Extending App Assure’s Sentinel Promise through the Sentinel Advisory Service",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/extending-app-assure-s-sentinel-promise-through-the-sentinel/ba-p/4503045",
-      "published": "2026-03-20T16:00:00+00:00",
-      "summary": "At RSAC last year, we introduced the Microsoft Sentinel Promise with a straightforward commitment to our customers: that third-party data ingestion for Sentinel is reliable, predictable, and scalable without the need for complex custom coding and architecting. In other words, your connectors for...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "MikeAdams",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -436,17 +513,6 @@
       "link": "https://github.blog/changelog/2026-03-19-view-code-and-comments-side-by-side-in-pull-request-files-changed-page",
       "published": "2026-03-19T16:25:45+00:00",
       "summary": "Docked panels for the pull request “Files changed” page are rolling out now. They let you review code with key pull request context open side-by-side: overview, comments, merge status, and… The post View code and comments side-by-side in pull request Files changed page appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Hierarchy view in GitHub Projects is now generally available",
-      "link": "https://github.blog/changelog/2026-03-19-hierarchy-view-in-github-projects-is-now-generally-available",
-      "published": "2026-03-19T16:18:09+00:00",
-      "summary": "Hierarchy view in GitHub Projects is now generally available. Starting today, hierarchy view is enabled by default for all new project views. If you have existing views, you can turn… The post Hierarchy view in GitHub Projects is now generally available appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -935,17 +1001,6 @@
       "blogId": "appsonazureblog",
       "author": "bobmital",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Detect, correlate, contain: New Azure Firewall IDPS detections in Microsoft Sentinel and XDR",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/detect-correlate-contain-new-azure-firewall-idps-detections-in/ba-p/4502128",
-      "published": "2026-03-17T18:02:43+00:00",
-      "summary": "As threat actors continue to blend reconnaissance, exploitation, and post-compromise activity, network-level signals remain critical for early detection and correlated response. To strengthen this layer, we're introducing five new Azure Firewall IDPS detections, now available out of the box in the...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "Mohit_Kumar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8495,28 +8550,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Vector indexing performance improvements in Azure Cosmos DB for NoSQL",
-      "link": "https://azure.microsoft.com/updates?id=523803",
-      "published": "2025-11-18T17:01:02+00:00",
-      "summary": "This release gives you faster vector inserts and index builds in Azure Cosmos DB for NoSQL, helping you reduce end-to-end ingestion and indexing times for large AI workloads. This improvement is powered by algorithmic enhancements to our vector indexing e",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Float16 data type for vector indexes in Azure Cosmos DB",
-      "link": "https://azure.microsoft.com/updates?id=523796",
-      "published": "2025-11-18T17:01:02+00:00",
-      "summary": "Azure Cosmos DB now supports float 16 data types for vector indexes. With this update, you can store and query vectors using half-precision floating-point numbers. Using float16 cuts storage usage in half compared to float32, while maintaining high retrie",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Announcing the Public Preview of AMLFS 20: Azure Managed Lustre New SKU for Massive AI&HPC Workloads",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/announcing-the-public-preview-of-amlfs-20-azure-managed-lustre/ba-p/4470665",
       "published": "2025-11-18T17:00:00+00:00",
@@ -10541,17 +10574,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Kubernetes v1.34: PSI Metrics for Kubernetes Graduates to Beta",
-      "link": "https://kubernetes.io/blog/2025/09/04/kubernetes-v1-34-introducing-psi-metrics-beta/",
-      "published": "2025-09-04T18:30:00+00:00",
-      "summary": "As Kubernetes clusters grow in size and complexity, understanding the health and performance of individual nodes becomes increasingly critical. We are excited to announce that as of Kubernetes v1.34, Pressure Stall Information (PSI) Metrics has graduated to Beta. What is Pressure Stall Information...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "General Availability of Teams Phone extensibility",
       "link": "https://techcommunity.microsoft.com/t5/azure-communication-services/general-availability-of-teams-phone-extensibility/ba-p/4446092",
       "published": "2025-09-04T00:17:57+00:00",
@@ -10561,17 +10583,6 @@
       "author": "AnkurAgarwal",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecommunicationservicesblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Kubernetes v1.34: Service Account Token Integration for Image Pulls Graduates to Beta",
-      "link": "https://kubernetes.io/blog/2025/09/03/kubernetes-v1-34-sa-tokens-image-pulls-beta/",
-      "published": "2025-09-03T18:30:00+00:00",
-      "summary": "The Kubernetes community continues to advance security best practices by reducing reliance on long-lived credentials. Following the successful alpha release in Kubernetes v1.33, Service Account Token Integration for Kubelet Credential Providers has now graduated to beta in Kubernetes v1.34,...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
     },
     {
       "title": "Azure Linux 3.0 Achieves Level 1 CIS Benchmark Certification",
@@ -12554,5 +12565,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Microsoft’s updates were dominated by AI agents, security, and governance: Azure AI Foundry published a practical guide to evaluating AI agents, Security introduced CTI-REALM for testing end-to-end AI-driven detection rule generation, and multiple posts detailed “agentic” security workflows across Microsoft Sentinel and Security Copilot, including new Sentinel connectors announced around RSAC 2026. Microsoft also emphasized protecting AI itself, with Defender for Cloud announcing new capabilities for AI, multi-cloud, container, and model security, alongside broader guidance on securing agentic AI end-to-end and using Unified RBAC with row-level access plus GDAP for tighter Sentinel access control.\n\nOutside security, the biggest platform and productivity news included Azure Sphere’s retirement date of July 31, 2031, guidance for migrating Heroku workloads to Azure, and new disaster recovery planning advice for enterprise Azure workloads. Microsoft 365 expanded People Skills intelligence across more Copilot and Microsoft 365 surfaces, while GitHub added better observability for Copilot coding agents through commit-to-session traceability and live log monitoring in Raycast, and Power Apps highlighted its new “Vibe” experience for rapidly building business apps."
+  "summary": "Microsoft’s Azure and security blogs today were dominated by **AI-powered security and agentic workflows**, with major **Microsoft Sentinel** updates spanning new **Azure Firewall IDPS detections** integrated into **Sentinel and Microsoft XDR**, new **Sentinel connectors announced at RSAC 2026**, **Unified RBAC with row-level access**, **GDAP-based delegated access**, and services like **Sentinel Advisory Service** and agentic developer use cases. Across the broader security stack, Microsoft also emphasized **end-to-end protection for AI and AI agents** through **Security Copilot agents**, **Microsoft Defender for Cloud** capabilities to secure AI, and research such as **CTI-REALM** for AI-generated detection rules and practical guidance on evaluating agents with **Microsoft Foundry**.\n\nOutside security, notable platform news included **Azure SQL mid-March 2026 preview updates** alongside the retirement of **Azure SQL Elastic Query Shard_Map_Manager mode**, **Ingress2Gateway 1.0** and **Agent Sandbox for Kubernetes** for modern app and agent runtime patterns, and strategic data/industry announcements like **geospatial intelligence in Planetary Computer for energy decision-making**. Microsoft also flagged lifecycle and productivity changes, including the long-term retirement of **Azure Sphere on July 31, 2031**, **GitHub Copilot metrics** now attributing usage to the actual selected models, and expanded **People Skills** intelligence across **Microsoft 365**."
 }
