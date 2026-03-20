@@ -22,7 +22,7 @@ name: Fetch Feeds
 
 on:
   schedule:
-    - cron: '0 6 * * *'   # 06:00 UTC daily
+    - cron: '0 */3 * * *'   # every 3 hours (UTC)
   workflow_dispatch:        # manual trigger from the GitHub UI
 
 permissions:
