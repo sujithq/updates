@@ -51,6 +51,7 @@ CATEGORY_MAP = {
     # Azure platform & services
     "appsonazureblog": "Azure Platform",
     "azurepaasblog": "Azure Platform",
+    "azure-functions-blog": "Azure Platform",
     "integrationsonazureblog": "Azure Platform",
     "messagingonazureblog": "Azure Platform",
     "azurecommunicationservicesblog": "Azure Platform",

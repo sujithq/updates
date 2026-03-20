@@ -1,0 +1,291 @@
+{
+  "lastUpdated": "2026-03-20T13:38:37.392135+00:00",
+  "items": [
+    {
+      "link": "https://azure.microsoft.com/updates?id=548543",
+      "title": "Retirement: HC-series Azure Virtual Machines will be retired on May 31, 2027",
+      "severity": "warning",
+      "deadline": "2027-05-31",
+      "impact": "HC-series VMs retire; users of listed HC sizes must migrate",
+      "action": "Migrate affected HC VMs to current supported alternatives",
+      "detected": "2026-03-20T13:38:37.392075+00:00",
+      "published": "2026-03-19T16:30:27+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=548525",
+      "title": "Retirement: HBv2-series Azure Virtual Machines will be retired on May 31, 2027",
+      "severity": "warning",
+      "deadline": "2027-05-31",
+      "impact": "HBv2-series VMs retire; users of listed HBv2 sizes must migrate",
+      "action": "Migrate affected HBv2 VMs to current supported alternatives",
+      "detected": "2026-03-20T13:38:37.392086+00:00",
+      "published": "2026-03-19T16:30:27+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=548497",
+      "title": "Retirement: NP-series Azure Virtual Machines will be retired on May 31, 2027",
+      "severity": "warning",
+      "deadline": "2027-05-31",
+      "impact": "NP-series VMs retire; users of listed GPU VM sizes must migrate",
+      "action": "Move NP-series workloads to supported Azure GPU VM sizes",
+      "detected": "2026-03-20T13:38:37.392089+00:00",
+      "published": "2026-03-19T16:30:27+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=558278",
+      "title": "Retirement: Emissions Impact Dashboard for Azure",
+      "severity": "warning",
+      "deadline": "2027-03-31",
+      "impact": "Emissions Impact Dashboard for Azure retires; Power BI dashboard users affected",
+      "action": "Export dashboard data and plan alternate reporting before retirement",
+      "detected": "2026-03-20T13:38:37.392091+00:00",
+      "published": "2026-03-18T18:45:54+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-beta1",
+      "title": "v1.15.0-beta1",
+      "severity": "info",
+      "deadline": null,
+      "impact": "Terraform adds deprecated attribute warnings for variables and outputs",
+      "action": null,
+      "detected": "2026-03-20T13:38:37.392093+00:00",
+      "published": "2026-03-18T17:26:18+00:00",
+      "blog": "Terraform"
+    },
+    {
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-03-05",
+      "title": "Release Notes - 2026-03-05",
+      "severity": "critical",
+      "deadline": "2026-06-08",
+      "impact": "AKS Flatcar Container Linux preview retires; AKS users must switch OS",
+      "action": "Transition AKS nodes from Flatcar preview to a supported alternative",
+      "detected": "2026-03-20T13:38:37.392095+00:00",
+      "published": "2026-03-18T06:45:23+00:00",
+      "blog": "Release notes from AKS"
+    },
+    {
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/after-ingress-nginx-migrating-to-application-gateway-for/ba-p/4503110",
+      "title": "After Ingress NGINX: Migrating to Application Gateway for Containers",
+      "severity": "critical",
+      "deadline": "2026-03-31",
+      "impact": "Ingress NGINX upstream ends in March 2026; AKS users must migrate",
+      "action": "Plan migration to Application Gateway for Containers or other ingress",
+      "detected": "2026-03-20T13:38:37.392097+00:00",
+      "published": "2026-03-17T21:03:22+00:00",
+      "blog": "Apps on Azure"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=557094",
+      "title": "Retirement: Azure VMware Solution AV36P and AV52 node retirement on June 30, 2029",
+      "severity": "warning",
+      "deadline": "2029-06-30",
+      "impact": "AVS AV36P and AV52 nodes retire; Azure VMware Solution users affected",
+      "action": "Review RI expirations and plan migration off AV36P/AV52 nodes",
+      "detected": "2026-03-20T13:38:37.392099+00:00",
+      "published": "2026-03-17T17:30:11+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=549077",
+      "title": "Retirement: Support for Windows Server 2016 Marketplace images on Azure Batch pools will end on January 12, 2027",
+      "severity": "warning",
+      "deadline": "2027-01-12",
+      "impact": "Azure Batch drops Windows Server 2016 Marketplace images for pools",
+      "action": "Move Batch pools to supported Windows Server images before deadline",
+      "detected": "2026-03-20T13:38:37.392101+00:00",
+      "published": "2026-03-16T18:45:11+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=543279",
+      "title": "Retirement: Migration of Azure Batch Low-Priority VMs to Spot VMs in early March",
+      "severity": "critical",
+      "deadline": "2026-03-01",
+      "impact": "Batch Low-Priority VMs already retired; system migration to Spot VMs started",
+      "action": "Validate Batch workloads on Spot VMs and update any VM assumptions",
+      "detected": "2026-03-20T13:38:37.392102+00:00",
+      "published": "2026-03-16T18:45:11+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=516070",
+      "title": "Retirement: End of life reminder of NVv3 and NVv4-series Azure virtual machine in Azure Batch pools",
+      "severity": "warning",
+      "deadline": "2026-09-30",
+      "impact": "Azure Batch support for NVv3/NVv4 VM pools ends; GPU users affected",
+      "action": "Migrate Batch pools off NVv3/NVv4 to supported GPU VM series",
+      "detected": "2026-03-20T13:38:37.392104+00:00",
+      "published": "2026-03-16T18:30:34+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=557929",
+      "title": "Retirement: Flatcar Container Linux for AKS (preview)",
+      "severity": "critical",
+      "deadline": "2026-06-08",
+      "impact": "Flatcar Container Linux for AKS preview retires; AKS users affected",
+      "action": "Transition from Flatcar Container Linux to a supported AKS option",
+      "detected": "2026-03-20T13:38:37.392106+00:00",
+      "published": "2026-03-16T18:15:54+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-02-08",
+      "title": "Release 2026-02-08",
+      "severity": "critical",
+      "deadline": "2026-03-01",
+      "impact": "AKS Windows Server 2019 retired; no new node images or support",
+      "action": "Upgrade AKS Windows node pools to Windows Server 2022 or later",
+      "detected": "2026-03-20T13:38:37.392108+00:00",
+      "published": "2026-03-09T21:38:58+00:00",
+      "blog": "Release notes from AKS"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=558102",
+      "title": "Retirement: Azure Policy faster enforcement and retirement of login/logout workaround",
+      "severity": "info",
+      "deadline": null,
+      "impact": "Azure Policy retires login/logout workaround due to faster enforcement",
+      "action": "Stop relying on login/logout workaround for policy enforcement",
+      "detected": "2026-03-20T13:38:37.392110+00:00",
+      "published": "2026-03-04T21:15:02+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-alpha20260304",
+      "title": "v1.15.0-alpha20260304",
+      "severity": "info",
+      "deadline": null,
+      "impact": "Terraform adds deprecated attribute warnings for variables and outputs",
+      "action": null,
+      "detected": "2026-03-20T13:38:37.392112+00:00",
+      "published": "2026-03-04T13:01:42+00:00",
+      "blog": "Terraform"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=555839",
+      "title": "Retirement: Managed NGINX Ingress with Application Routing Add-on Retiring November 2026",
+      "severity": "warning",
+      "deadline": "2026-11-30",
+      "impact": "Managed NGINX ingress add-on support ends; AKS ingress users affected",
+      "action": "Migrate from Application Routing NGINX add-on to a supported ingress",
+      "detected": "2026-03-20T13:38:37.392114+00:00",
+      "published": "2026-02-27T21:45:03+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://kubernetes.io/blog/2026/02/27/ingress-nginx-before-you-migrate/",
+      "title": "Before You Migrate: Five Surprising Ingress-NGINX Behaviors You Need to Know",
+      "severity": "critical",
+      "deadline": "2026-03-31",
+      "impact": "Kubernetes retires Ingress-NGINX in March 2026; cluster operators affected",
+      "action": "Migrate off Ingress-NGINX to a supported ingress controller now",
+      "detected": "2026-03-20T13:38:37.392116+00:00",
+      "published": "2026-02-27T15:30:00+00:00",
+      "blog": "Kubernetes Official Blog"
+    },
+    {
+      "link": "https://devblogs.microsoft.com/dotnet/the-dongle-died-at-midnight/",
+      "title": "The Dongle Died at Midnight – WinForms Agent Saved my German Mom’s Business Trip",
+      "severity": "info",
+      "deadline": null,
+      "impact": "No deprecation or retirement announcement relevant to Azure/GitHub",
+      "action": null,
+      "detected": "2026-03-20T13:38:37.392117+00:00",
+      "published": "2026-02-24T23:00:00+00:00",
+      "blog": ".NET"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=557224",
+      "title": "Retirement: Windows Server Annual Channel (preview)",
+      "severity": "critical",
+      "deadline": "2026-05-15",
+      "impact": "AKS Windows Server Annual Channel preview retires; users must switch",
+      "action": "Transition AKS Windows nodes to LTSC before retirement",
+      "detected": "2026-03-20T13:38:37.392119+00:00",
+      "published": "2026-02-23T18:15:17+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-alpha20260218",
+      "title": "v1.15.0-alpha20260218",
+      "severity": "info",
+      "deadline": null,
+      "impact": "Terraform adds deprecated attribute warnings for variables and outputs",
+      "action": null,
+      "detected": "2026-03-20T13:38:37.392121+00:00",
+      "published": "2026-02-19T10:25:09+00:00",
+      "blog": "Terraform"
+    },
+    {
+      "link": "https://devblogs.microsoft.com/devops/tfvc-remove-existing-obsolete-policies-asap/",
+      "title": "TFVC Remove Existing Obsolete Policies ASAP",
+      "severity": "info",
+      "deadline": null,
+      "impact": "Legacy TFVC check-in policies deprecated; Azure DevOps TFVC users affected",
+      "action": "Replace obsolete TFVC check-in policies with supported equivalents",
+      "detected": "2026-03-20T13:38:37.392122+00:00",
+      "published": "2026-02-18T16:35:23+00:00",
+      "blog": "Azure DevOps Blog"
+    },
+    {
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-alpha20260204",
+      "title": "v1.15.0-alpha20260204",
+      "severity": "info",
+      "deadline": null,
+      "impact": "Terraform adds deprecated attribute warnings for variables and outputs",
+      "action": null,
+      "detected": "2026-03-20T13:38:37.392125+00:00",
+      "published": "2026-02-04T11:09:29+00:00",
+      "blog": "Terraform"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=553527",
+      "title": "Retirement: Azure Front Door and Azure CDN profiles will end support for DHE cipher suites on April 1, 2026",
+      "severity": "critical",
+      "deadline": "2026-04-01",
+      "impact": "AFD and Azure CDN end DHE cipher support; clients using weak ciphers break",
+      "action": "Update clients and TLS configs to avoid deprecated DHE cipher suites",
+      "detected": "2026-03-20T13:38:37.392127+00:00",
+      "published": "2026-02-02T18:15:39+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=551523",
+      "title": "Retirement: \"Send data to Event Hubs & Storage (Preview)\" retiring July 31, 2026",
+      "severity": "warning",
+      "deadline": "2026-07-31",
+      "impact": "VM client data to Event Hubs/Storage preview retires; users must migrate",
+      "action": "Stop using preview feature and move to supported data collection options",
+      "detected": "2026-03-20T13:38:37.392129+00:00",
+      "published": "2026-01-30T18:30:02+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://kubernetes.io/blog/2026/01/29/ingress-nginx-statement/",
+      "title": "Ingress NGINX: Statement from the Kubernetes Steering and Security Response Committees",
+      "severity": "critical",
+      "deadline": "2026-03-31",
+      "impact": "Kubernetes retires Ingress NGINX in March 2026; operators affected",
+      "action": "Migrate off Ingress NGINX immediately to a supported alternative",
+      "detected": "2026-03-20T13:38:37.392131+00:00",
+      "published": "2026-01-29T00:00:00+00:00",
+      "blog": "Kubernetes Official Blog"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=545771",
+      "title": "Retirement: Support for Python 3.10 ends on October 1, 2026 – upgrade your Azure Functions apps to Python 3.13",
+      "severity": "warning",
+      "deadline": "2026-10-01",
+      "impact": "Azure Functions ends Python 3.10 support; Python apps must upgrade",
+      "action": "Upgrade Azure Functions apps from Python 3.10 to Python 3.13",
+      "detected": "2026-03-20T13:38:37.392133+00:00",
+      "published": "2026-01-28T23:15:47+00:00",
+      "blog": "Azure Updates"
+    }
+  ]
+}
