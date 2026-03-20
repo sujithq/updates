@@ -1,0 +1,73 @@
+# Track Azure/GitHub feature maturity transitions (Preview → GA) weekly.
+#
+# Scans feed data for status signals, classifies with Foundry AI,
+# writes a radar report to digests/, and creates a GitHub Issue.
+#
+# Authentication uses the same runtime OIDC identity as fetch-feeds.yml.
+# Required GitHub Secrets:
+#   AZURE_CLIENT_ID                - Runtime user-assigned MI client ID
+#   AZURE_TENANT_ID                - Azure AD tenant ID
+#   AZURE_SUBSCRIPTION_ID          - Azure subscription ID
+#   FOUNDRY_PROJECT_ENDPOINT       - Foundry project endpoint (for AI classification)
+#
+# Required GitHub Variables:
+#   FOUNDRY_MODEL_DEPLOYMENT_NAME  - e.g. gpt-5.4
+
+name: Technology Radar
+
+on:
+  schedule:
+    - cron: '30 7 * * 1'   # Every Monday at 07:30 UTC (after weekly digest)
+  workflow_dispatch:
+    inputs:
+      days:
+        description: Number of days to look back
+        required: false
+        default: '7'
+
+permissions:
+  contents: write   # commit data/radar-state.json and digests/
+  issues: write     # create GitHub Issues
+  id-token: write   # OIDC token for azure/login
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Azure Login (OIDC)
+        uses: azure/login@v3
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Generate technology radar
+        env:
+          FOUNDRY_PROJECT_ENDPOINT: ${{ secrets.FOUNDRY_PROJECT_ENDPOINT }}
+          FOUNDRY_MODEL_DEPLOYMENT_NAME: ${{ vars.FOUNDRY_MODEL_DEPLOYMENT_NAME }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          RADAR_DAYS: ${{ inputs.days || '7' }}
+        run: python scripts/technology_radar.py
+
+      - name: Commit radar data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/radar-state.json digests/
+          git diff --staged --quiet || git commit -m "docs: technology radar [skip ci]"
+          git push

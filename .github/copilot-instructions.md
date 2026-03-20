@@ -17,13 +17,19 @@ scripts/fetch_feeds.py ──► data/feeds.json + data/feed.xml
         │                                        ▼
         │                              Foundry Agent (agent.yaml)
         │
-        └──► scripts/weekly_digest.py ──► digests/YYYY-WXX.md + GitHub Issue
+        ├──► scripts/weekly_digest.py ──► digests/YYYY-WXX.md + GitHub Issue
+        │
+        ├──► scripts/breaking_changes.py ──► data/breaking-changes.json + GitHub Issues
+        │
+        └──► scripts/technology_radar.py ──► digests/radar-YYYY-WXX.md + data/radar-state.json + GitHub Issue
 ```
 
 - **Feed ingestion**: `fetch_feeds.py` reads source definitions from `scripts/feeds.json`, fetches RSS feeds (TechCommunity boards and direct RSS URLs), deduplicates by link, filters by age, optionally generates an AI summary via Foundry, and writes to `data/`.
 - **Search indexing**: `push_to_search.py` reads `data/feeds.json` and upserts documents into Azure AI Search with semantic search configured. Index schema is created/updated automatically on each run.
 - **Foundry agent**: Defined in `agent.yaml` with system prompt in `agent-search-instructions.md`. The agent always invokes `search_azure_news_feed` before answering and formats responses with ✅ GA / 🧪 Preview / 🔒 Internal status buckets.
 - **Weekly digest**: `weekly_digest.py` filters the last 7 days of articles from `data/feeds.json`, groups by category, generates an AI-curated summary via Foundry, writes to `digests/`, and creates a GitHub Issue. Falls back to a plain structured listing if Foundry is unavailable.
+- **Breaking changes tracker**: `breaking_changes.py` scans articles for deprecations and breaking changes using keyword heuristics, then classifies severity (🔴 critical / 🟡 warning / 🔵 info) and extracts deadlines via Foundry AI. Persists state in `data/breaking-changes.json` to avoid duplicate alerts. Creates individual GitHub Issues for critical/warning items and a consolidated daily report.
+- **Technology radar**: `technology_radar.py` detects feature maturity transitions (🟢 GA / 🔵 Preview / 🟣 Private Preview) using keyword heuristics + Foundry AI classification. Tracks state in `data/radar-state.json` to detect movements between tiers over time. Writes a weekly radar to `digests/` and creates a GitHub Issue.
 - **Infrastructure**: Bicep templates in `infra/` provision Azure AI Search and RBAC assignments (via `azd provision`). The Foundry project itself is pre-existing and referenced by resource ID.
 
 ## Build & Run Commands
@@ -61,6 +67,22 @@ python scripts/weekly_digest.py
 ```
 
 Set `DIGEST_DAYS` to override the default 7-day lookback window.
+
+### Scan for breaking changes
+
+```powershell
+python scripts/breaking_changes.py
+```
+
+Set `TRACKER_DAYS` to override the default 1-day lookback. Set `TRACKER_SKIP_ISSUES=true` for local testing without creating GitHub Issues.
+
+### Generate technology radar
+
+```powershell
+python scripts/technology_radar.py
+```
+
+Set `RADAR_DAYS` to override the default 7-day lookback window.
 
 ### Provision infrastructure
 
@@ -113,4 +135,6 @@ Bicep templates use `azd` parameter substitution via `main.parameters.json` with
 
 - `fetch-feeds.yml` — Runs every 3 hours on schedule. Fetches feeds, pushes to search, commits updated `data/` back to the repo.
 - `weekly-digest.yml` — Runs every Monday at 07:00 UTC. Generates an AI-curated weekly digest, commits to `digests/`, and creates a GitHub Issue. Also supports manual trigger.
+- `breaking-changes.yml` — Runs daily at 08:00 UTC. Scans for breaking changes/deprecations, creates GitHub Issues for critical/warning items, commits tracker state to `data/breaking-changes.json`. Supports manual trigger with configurable lookback days.
+- `technology-radar.yml` — Runs every Monday at 07:30 UTC (after weekly digest). Detects feature maturity transitions (Preview → GA), writes radar to `digests/`, commits state to `data/radar-state.json`, and creates a GitHub Issue. Supports manual trigger.
 - `azd-provision.yml` — Manual trigger only. Provisions Azure AI Search + RBAC via `azd provision`.
