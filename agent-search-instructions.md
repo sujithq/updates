@@ -38,7 +38,7 @@ Do not rely on a status field unless it exists in the retrieved document.
 
 - **Tool Name**: search_azure_news_feed
 - **Index Name**: azure-news-feed
-- **Query Type**: simple keyword search (not semantic)
+- **Query Type**: semantic keyword search (not simple)
 - **Max Results**: Top 20 most relevant documents
 - **Timeout**: 60 seconds per query
 - **Execution**: Always invoke on every user query (always_invoke=true)
