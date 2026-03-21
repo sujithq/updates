@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-20T13:38:37.392135+00:00",
+  "lastUpdated": "2026-03-21T07:21:35.427035+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -285,6 +285,39 @@
       "action": "Upgrade Azure Functions apps from Python 3.10 to Python 3.13",
       "detected": "2026-03-20T13:38:37.392133+00:00",
       "published": "2026-01-28T23:15:47+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=558086",
+      "title": "Retirement: Azure SQL Elastic query - Shard_Map_Manager mode",
+      "severity": "warning",
+      "deadline": "2027-03-31",
+      "impact": "Azure SQL Elastic query Shard_Map_Manager mode loses support for existing users",
+      "action": "Plan migration off Shard_Map_Manager mode before support ends",
+      "detected": "2026-03-21T07:21:35.426995+00:00",
+      "published": "2026-03-20T19:00:50+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://kubernetes.io/blog/2026/03/20/ingress2gateway-1-0-release/",
+      "title": "Announcing Ingress2Gateway 1.0: Your Path to Gateway API",
+      "severity": "critical",
+      "deadline": "2026-03-31",
+      "impact": "Ingress-NGINX retires in March 2026; Kubernetes ingress users must migrate",
+      "action": "Migrate from Ingress-NGINX to Gateway API immediately",
+      "detected": "2026-03-21T07:21:35.427028+00:00",
+      "published": "2026-03-20T19:00:00+00:00",
+      "blog": "Kubernetes Official Blog"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=557123",
+      "title": "Retirement: Azure Sphere will be retired on July 31, 2031",
+      "severity": "warning",
+      "deadline": "2031-07-31",
+      "impact": "Azure Sphere retires; devices lose updates, support, and DAA cert issuance",
+      "action": "Create a long-term migration plan away from Azure Sphere",
+      "detected": "2026-03-21T07:21:35.427031+00:00",
+      "published": "2026-03-20T17:15:50+00:00",
       "blog": "Azure Updates"
     }
   ]
