@@ -62,15 +62,25 @@ Before inserting the entry into `scripts/feeds.json`:
 
 Insert the new entry at the end of the `sources` array in `scripts/feeds.json`, before the closing `]`.
 
-## 5. Suggest a test run
+## 5. Refresh feeds and verify
 
-After adding, suggest the user run:
-```powershell
+After adding the entry, use the **refresh-feeds** skill (or run the fetcher directly) to verify the new source is picked up:
+
+```bash
 python scripts/fetch_feeds.py
 ```
-to verify the new source is fetched successfully. The script will print how many articles were found from the new source.
 
-## 6. Category mapping (optional)
+The script prints how many articles were found per source. Confirm the new source appears in the output and that `data/feeds.json` was updated.
+
+## 6. Sync the search index
+
+Once feeds are refreshed and `data/feeds.json` is updated, use the **push-to-search** skill (or run the indexer directly) to make the new articles available in Azure AI Search:
+
+```bash
+python scripts/push_to_search.py
+```
+
+## 7. Category mapping (optional)
 
 If the user wants the new source to appear in weekly digest categories, suggest adding a mapping in `scripts/weekly_digest.py` in the `CATEGORY_MAP` dictionary. Show the existing categories and ask which one fits, or suggest creating a new one.
 
