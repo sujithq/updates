@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-22T15:15:46.676873+00:00",
+  "lastUpdated": "2026-03-22T18:20:33.886674+00:00",
   "totalArticles": 1136,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Run OpenClaw Agents on Azure Linux VMs (with Secure Defaults)",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/run-openclaw-agents-on-azure-linux-vms-with-secure-defaults/ba-p/4502944",
+      "published": "2026-03-22T16:34:46+00:00",
+      "summary": "Many teams want an enterprise-ready personal AI assistant, but they need it on infrastructure they control, with security boundaries they can explain to IT. That is exactly where OpenClaw fits on Azure. OpenClaw is a self-hosted, always-on personal agent runtime you run in your enterprise...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "johnsonshi_msft",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "What’s new in Microsoft Sentinel: RSAC 2026",
@@ -10717,17 +10728,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Troubleshooting Network Issues with Retina",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/troubleshooting-network-issues-with-retina/ba-p/4446071",
-      "published": "2025-08-22T16:38:59+00:00",
-      "summary": "The Kubernetes environment comes with its own unique challenges, particularly at enterprise level scale. Hundreds or thousands of pods may exist at any given point in time and are continuously being created, deleted, restarted, reallocated etc. On top of that, these pods are also distributed...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "kamilp",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Entra ID Sensitive Groups",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-identity/entra-id-sensitive-groups/m-p/4446619#M4266",
       "published": "2025-08-21T20:12:49+00:00",
@@ -12498,5 +12498,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog highlights running **OpenClaw Agents** on **Azure Linux Virtual Machines** with a focus on **secure-by-default deployment practices**. The key theme is enabling **Linux and open-source AI/agent workloads** on Azure while emphasizing hardened VM configurations and security-conscious operational setup for agent-based applications."
 }
