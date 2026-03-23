@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-23T04:57:13.557319+00:00",
+  "lastUpdated": "2026-03-23T06:56:26.695928+00:00",
   "totalArticles": 1136,
   "articles": [
     {
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure update is focused on **Azure Kubernetes Service (AKS)** networking and security, with the announcement of **public preview support for Cilium mTLS encryption**. The new capability uses **Cilium** to provide **mutual TLS (mTLS)** encryption for **pod-to-pod traffic** in AKS, strengthening zero-trust security for Kubernetes workloads while leveraging Azure’s networking stack."
+  "summary": "Today’s Azure update is focused on **Azure Kubernetes Service (AKS)** networking and security, with the announcement of **public preview support for Cilium mTLS encryption**. The preview brings **mutual TLS between Kubernetes workloads** using **Cilium** in AKS, highlighting stronger **in-cluster service-to-service encryption** and identity-based protection for containerized applications without requiring a separate service mesh."
 }
