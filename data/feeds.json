@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-23T09:51:53.350822+00:00",
+  "lastUpdated": "2026-03-23T12:37:03.308784+00:00",
   "totalArticles": 1136,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Shaping the Next Era of Energy Decision Making with Geospatial Intelligence",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/shaping-the-next-era-of-energy-decision-making-with-geospatial/ba-p/4503662",
+      "published": "2026-03-23T12:00:00+00:00",
+      "summary": "Blog draft Shaping the Next Era of Energy Decision Making with Geospatial Intelligence By Yves Pitsch, GM, Azure Space, Microsoft The global energy system is entering a new phase—one defined not just by a single transition to renewables, but by the convergence of forces that are reshaping how...",
+      "blog": "Planetary Computer",
+      "blogId": "microsoft-planetary-computer-blog",
+      "author": "Yves-Pitsch",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft-planetary-computer-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Reliable blob processing using Azure Logic Apps: Recommended architecture",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/reliable-blob-processing-using-azure-logic-apps-recommended/ba-p/4408091",
+      "published": "2026-03-23T10:53:35+00:00",
+      "summary": "Understanding the Limitations of In-App Blob Triggers The Logic App Blob - In-App trigger https://learn.microsoft.com/en-us/azure/logic-apps/connectors/built-in/reference/azureblob/ is built upon the same architecture as the Azure Function App Blob trigger and therefore inherits similar features...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "SwathiK",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Building real-world AI automation with Foundry Local and the Microsoft Agent Framework",
@@ -44,17 +66,6 @@
       "blogId": "azurenetworkingblog",
       "author": "chandanAggarwal",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Shaping the Next Era of Energy Decision Making with Geospatial Intelligence",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/shaping-the-next-era-of-energy-decision-making-with-geospatial/ba-p/4503662",
-      "published": "2026-03-22T21:28:35+00:00",
-      "summary": "Blog draft Shaping the Next Era of Energy Decision Making with Geospatial Intelligence By Yves Pitsch, GM, Azure Space, Microsoft The global energy system is entering a new phase—one defined not just by a single transition to renewables, but by the convergence of forces that are reshaping how...",
-      "blog": "Planetary Computer",
-      "blogId": "microsoft-planetary-computer-blog",
-      "author": "Yves-Pitsch",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft-planetary-computer-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -7197,17 +7208,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "🎙️Public Preview: Azure Logic Apps Connectors as MCP Tools in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/%EF%B8%8Fpublic-preview-azure-logic-apps-connectors-as-mcp-tools-in/ba-p/4473062",
-      "published": "2025-11-25T21:19:33+00:00",
-      "summary": "At Ignite 2025, Foundry tools were introduced in Microsoft Foundry – a unified catalog of tools, connectors and MCP servers. We are excited to share more about Azure Logic Apps connectors now available as tools in Microsoft Foundry. This unlocks a seamless way for developers to give their agents...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "DivSwa",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Celebrating Community Contributions in Aspire 13",
       "link": "https://devblogs.microsoft.com/aspire/thanksgiving-contributions/",
       "published": "2025-11-25T20:22:38+00:00",
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on production-ready AI agents and stronger cloud-native security. Two Azure Dev Community articles focused on Microsoft Foundry and the Microsoft Agent Framework: one showed how Foundry Local enables real-world AI automation patterns, while the other detailed how to secure Azure AI Agents with identity, access control, and guardrails.\n\nThe key platform announcement was from Azure Networking: public preview of Cilium mTLS encryption for Azure Kubernetes Service, bringing built-in mutual TLS–based workload-to-workload encryption for AKS clusters using Cilium. Overall, the themes were operationalizing AI agents safely and improving zero-trust security for Kubernetes environments."
+  "summary": "Today’s Azure posts focused on enterprise AI, cloud reliability, and secure infrastructure. Microsoft highlighted geospatial intelligence in Planetary Computer for energy-sector decision-making, practical AI automation with Foundry Local and the Microsoft Agent Framework, and security patterns for Azure AI Agents using identity, access control, and guardrails in Microsoft Foundry.\n\nOn the platform side, Azure shared a recommended Azure Logic Apps architecture for reliable Azure Blob Storage processing and announced public preview support for Cilium mTLS encryption in Azure Kubernetes Service, strengthening zero-trust, service-to-service security for containerized workloads."
 }
