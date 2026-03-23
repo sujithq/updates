@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-23T15:50:51.346040+00:00",
-  "totalArticles": 1136,
+  "lastUpdated": "2026-03-23T18:37:55.306661+00:00",
+  "totalArticles": 1137,
   "articles": [
     {
       "title": "Visual Studio Code 1.113",
@@ -11,6 +11,105 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Get started with NeuBird Hawkeye MCP server in Azure SRE Agent",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/get-started-with-neubird-hawkeye-mcp-server-in-azure-sre-agent/ba-p/4504860",
+      "published": "2026-03-23T18:07:39+00:00",
+      "summary": "Integrate NeuBird Hawkeye MCP with Azure SRE Agent TL;DR If your infrastructure spans multiple clouds say Azure and GCP, or Azure alongside any other cloud provider investigating incidents means jumping between completely separate consoles, log systems, and monitoring stacks. Azure SRE Agent now...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "dbandaru",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure Event Grid MQTT Broker: Enterprise-Grade Messaging for the Connected World",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/azure-event-grid-mqtt-broker-enterprise-grade-messaging-for-the/ba-p/4504246",
+      "published": "2026-03-23T17:48:18+00:00",
+      "summary": "Azure Messaging · What's New · March 2026 The Enterprise MQTT Brokerfor Every Connected Ecosystem Scale to millions of devices, enforce zero-trust security, and route real-time events across every service, system, and application — all on Azure's hyperscaler-grade messaging backbone. 1,000...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "Connected-Seth",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Microsoft Sentinel is now supported in Unified RBAC with row-level access",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/microsoft-sentinel-is-now-supported-in-unified-rbac-with-row/ba-p/4503121",
+      "published": "2026-03-23T17:31:35+00:00",
+      "summary": "Enabling streamlined, granular, and scalable permissions We’re excited to announce the Public Preview of Unified Role Based Access Control (URBAC) for Microsoft Sentinel, together with row-level access. This new capability, available in April, extends the Microsoft Defender Unified RBAC model to...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "tomasbeerthuis",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Generative AI for Beginners .NET: Version 2 on .NET 10",
+      "link": "https://devblogs.microsoft.com/dotnet/generative-ai-for-beginners-dotnet-version-2-on-dotnet-10/",
+      "published": "2026-03-23T17:05:00+00:00",
+      "summary": "Announcement of Version 2 of Generative AI for Beginners .NET, a free course rebuilt for .NET 10 with Microsoft.Extensions.AI, updated RAG patterns, and new agent framework content across five structured lessons for building production-ready AI apps. The post Generative AI for Beginners .NET:...",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Pablo Lopes, Bruno Capuano",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "From code to cloud: Deploy an AI agent to Microsoft Foundry in minutes with azd",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azd-ai-agent-end-to-end/",
+      "published": "2026-03-23T16:54:40+00:00",
+      "summary": "Deploy and monitor an AI agent on Microsoft Foundry using the Azure Developer CLI (azd). This tutorial covers infrastructure scaffolding with Bicep, one-command deployment, local development, and real-time log streaming—all from Visual Studio Code. The post From code to cloud: Deploy an AI agent to...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "PuiChee (PC) Chan",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Migrating Ant Builds to Maven with GitHub Copilot app modernization",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/migrating-ant-builds-to-maven-with-github-copilot-app/ba-p/4491992",
+      "published": "2026-03-23T16:49:01+00:00",
+      "summary": "Many legacy Java applications still rely on Apache Ant for building, packaging, and dependency management. While Ant remains flexible, it lacks the structured lifecycle, dependency resolution, and ecosystem support that modern build tools like Maven provide. Migrating from Ant to Maven improves...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "ayangupta",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Announcing Priority Processing in Microsoft Foundry for Performance-Sensitive AI Workloads",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/announcing-priority-processing-in-microsoft-foundry-for/ba-p/4504788",
+      "published": "2026-03-23T16:09:10+00:00",
+      "summary": "Authors: Sethu Raman, Chris Hoder As generative AI solutions move from experimentation to production, consistent performance under variable demand is becoming a critical requirement. Today, we are announcing Priority Processing is now generally available in Microsoft Foundry, a new capability...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Sethu_Raman",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "GitHub expands application security coverage with AI‑powered detections",
+      "link": "https://github.blog/security/application-security/github-expands-application-security-coverage-with-ai-powered-detections/",
+      "published": "2026-03-23T16:00:00+00:00",
+      "summary": "CodeQL and AI‑powered detections work together in GitHub Code Security to identify vulnerabilities across more languages and frameworks. The post GitHub expands application security coverage with AI‑powered detections appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Marcelo Oliveira",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Case study: How predictive shielding in Defender stopped GPO-based ransomware before it started",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/03/23/case-study-predictive-shielding-defender-stopped-gpo-based-ransomware-before-started/",
+      "published": "2026-03-23T16:00:00+00:00",
+      "summary": "Microsoft Defender stopped a human-operated ransomware attack that abused Group Policy Objects (GPOs) to disable defenses and push encryption at scale. This case study breaks down the attacker’s playbook and shows how predictive shielding hardened 700 devices in time, resulting in zero GPO-based...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Defender Security Research Team",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -322,17 +421,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Microsoft Sentinel is now supported in Unified RBAC with row-level access",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/microsoft-sentinel-is-now-supported-in-unified-rbac-with-row/ba-p/4503121",
-      "published": "2026-03-20T15:30:00+00:00",
-      "summary": "Enabling streamlined, granular, and scalable permissions We’re excited to announce the Public Preview of Unified Role Based Access Control (URBAC) for Microsoft Sentinel, together with row-level access. This new capability, available April 1st, extends the Microsoft Defender Unified RBAC model to...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "tomasbeerthuis",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "New innovations in Microsoft Defender to strengthen multi-cloud, containers, and AI model security",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/new-innovations-in-microsoft-defender-to-strengthen-multi-cloud/ba-p/4503886",
       "published": "2026-03-20T15:30:00+00:00",
@@ -562,17 +650,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Migrating to the next generation of Virtual Nodes on Azure Container Instances (ACI)",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/migrating-to-the-next-generation-of-virtual-nodes-on-azure/ba-p/4496565",
-      "published": "2026-03-19T16:55:56+00:00",
-      "summary": "What is ACI/Virtual Nodes? Azure Container Instances (ACI) is a fully-managed serverless container platform which gives you the ability to run containers on-demand without provisioning infrastructure. Virtual Nodes on ACI allows you to run Kubernetes pods managed by an AKS cluster in a serverless...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "adamsharif-msft",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Retirement: HC-series Azure Virtual Machines will be retired on May 31, 2027",
@@ -1257,17 +1334,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Inference at Enterprise Scale: Why LLM Inference Is a Capital Allocation Problem",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/inference-at-enterprise-scale-why-llm-inference-is-a-capital/ba-p/4498754",
-      "published": "2026-03-17T04:44:51+00:00",
-      "summary": "Most enterprise AI conversations focus on model selection and fine-tuning. The harder problem — and the one that determines whether AI investments produce returns or just costs — is inference: serving those models reliably, at scale, under real production load. For organizations running millions of...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "bobmital",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "The Invisible Rewrite: Modernizing the Kubernetes Image Promoter",
       "link": "https://kubernetes.io/blog/2026/03/17/image-promoter-rewrite/",
       "published": "2026-03-17T00:00:00+00:00",
@@ -1759,17 +1825,6 @@
       "blog": "Microsoft Security Blog",
       "blogId": "microsoftsecurity",
       "author": "Jeff Pinkston",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Detecting and analyzing prompt abuse in AI tools",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/03/12/detecting-analyzing-prompt-abuse-in-ai-tools/",
-      "published": "2026-03-12T14:00:00+00:00",
-      "summary": "Hidden instructions in content can subtly bias AI, and our scenario shows how prompt injection works, highlighting the need for oversight and a structured response playbook. The post Detecting and analyzing prompt abuse in AI tools appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Incident Response",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
@@ -2379,17 +2434,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "How to scan for vulnerabilities with GitHub Security Lab’s open source AI-powered framework",
-      "link": "https://github.blog/security/how-to-scan-for-vulnerabilities-with-github-security-labs-open-source-ai-powered-framework/",
-      "published": "2026-03-06T21:09:04+00:00",
-      "summary": "GitHub Security Lab Taskflow Agent is very effective at finding Auth Bypasses, IDORs, Token Leaks, and other high-impact vulnerabilities. The post How to scan for vulnerabilities with GitHub Security Lab’s open source AI-powered framework appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Man Yue Mo",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "MCP vs mcp-cli: Dynamic Tool Discovery for Token-Efficient AI Agents",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/mcp-vs-mcp-cli-dynamic-tool-discovery-for-token-efficient-ai/ba-p/4494272",
       "published": "2026-03-06T08:00:00+00:00",
@@ -2962,17 +3006,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Microsoft Foundry: An End-to-End Platform for Building, Governing, and Scaling AI",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/microsoft-foundry-an-end-to-end-platform-for-building-governing/ba-p/4496736",
-      "published": "2026-02-27T17:00:00+00:00",
-      "summary": "Microsoft Foundry: What It Is and How to Get Started As organizations accelerate their adoption of AI, one challenge consistently emerges: how to move from experimentation to production at scale in a secure, responsible, and efficient way. Microsoft Foundry exists to address exactly that challenge....",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "DivyaPaduvalli",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Top 5 Microsoft Sentinel Queries for Threat Hunting",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/top-5-microsoft-sentinel-queries-for-threat-hunting/ba-p/4497667",
       "published": "2026-02-27T16:00:00+00:00",
@@ -3114,17 +3147,6 @@
       "author": "PragyaDwivedi",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Vector Data in .NET – Building Blocks for AI Part 2",
-      "link": "https://devblogs.microsoft.com/dotnet/vector-data-in-dotnet-building-blocks-for-ai-part-2/",
-      "published": "2026-02-26T18:00:00+00:00",
-      "summary": "Discover how Microsoft.Extensions.VectorData brings unified vector database access to .NET - one interface for semantic search across any vector store with built-in support for embeddings, filtering, and RAG patterns. The post Vector Data in .NET – Building Blocks for AI Part 2 appeared first on...",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": "Jeremy Likness",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Azure SDK Release (February 2026)",
@@ -10794,17 +10816,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Azure Developer CLI (azd) – August 2025",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-august-2025/",
-      "published": "2025-08-18T18:44:14+00:00",
-      "summary": "This post announces the August release of the Azure Developer CLI (`azd`). The post Azure Developer CLI (azd) – August 2025 appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "PuiChee (PC) Chan",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Alert Not Found",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-identity/alert-not-found/m-p/4444283#M4263",
       "published": "2025-08-15T21:03:39+00:00",
@@ -12499,5 +12510,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on developer productivity, secure AI/automation, and cloud infrastructure reliability. Microsoft highlighted **Aspire 13.2** for improving cloud-native .NET app development, **VS Code support for Azure App Service code optimizations**, lessons from using a **Copilot coding agent in dotnet/runtime**, and new AI agent patterns using **Foundry Local**, the **Microsoft Agent Framework**, and security controls for **Azure AI Agents** in Microsoft Foundry.\n\nOn the platform side, Azure emphasized stronger operations and security with guidance for **Blob Inventory** to measure **Total Blob Count** and **Total Capacity**, a recommended **Azure Logic Apps** architecture for reliable blob processing, and a new **public preview of Cilium mTLS encryption for Azure Kubernetes Service (AKS)**. There was also a notable industry-focused post on using **geospatial intelligence in Planetary Computer** to improve energy-sector decision making."
+  "summary": "Today’s Azure news centered on AI agents and developer productivity: Microsoft highlighted Azure AI Foundry updates including **Priority Processing** for latency-sensitive AI workloads, fast agent deployment to **Microsoft Foundry with `azd`**, local/real-world agent automation with the **Microsoft Agent Framework**, and security guidance for AI agents around **identity, access control, and guardrails**. On the developer side, Azure and .NET posts covered **Generative AI for Beginners .NET v2 on .NET 10**, **Aspire 13.2**, **VS Code code optimizations for Azure App Service**, and using **GitHub Copilot** for modernization such as migrating **Ant builds to Maven**.\n\nA second major theme was security and cloud infrastructure: Microsoft announced **Microsoft Sentinel support in Unified RBAC with row-level access**, **AI-powered application security detections in GitHub**, and a Defender case study on stopping **GPO-based ransomware** with predictive shielding. Infrastructure and platform updates included **Azure Event Grid MQTT Broker** for enterprise IoT messaging, **public preview of Cilium mTLS encryption for AKS**, guidance for reliable **Azure Logic Apps** blob processing, **Blob Inventory** reporting for total blob count/capacity, and new operational tooling like the **NeuBird Hawkeye MCP server in Azure SRE Agent**."
 }
