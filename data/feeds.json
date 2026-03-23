@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-23T06:56:26.695928+00:00",
+  "lastUpdated": "2026-03-23T09:51:53.350822+00:00",
   "totalArticles": 1136,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Building real-world AI automation with Foundry Local and the Microsoft Agent Framework",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-real-world-ai-automation-with-foundry-local-and-the/ba-p/4501898",
+      "published": "2026-03-23T07:00:00+00:00",
+      "summary": "A hands-on guide to building real-world AI automation with Foundry Local, the Microsoft Agent Framework, and PyBullet. No cloud subscription, no API keys, no internet required. Why Developers Should Care About Offline AI Imagine telling a robot arm to \"pick up the cube\" and watching it execute the...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Securing Azure AI Agents: Identity, Access Control, and Guardrails in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/securing-azure-ai-agents-identity-access-control-and-guardrails/ba-p/4500242",
+      "published": "2026-03-23T07:00:00+00:00",
+      "summary": "As AI agents evolve from simple chatbots to autonomous systems that access enterprise data, call APIs, and orchestrate workflows, security becomes non negotiable. Unlike traditional applications, AI agents introduce new risks — such as prompt injection, over privileged access, unsafe tool...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "SudhaS",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Announcing public preview: Cilium mTLS encryption for Azure Kubernetes Service",
@@ -3072,17 +3094,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Exploring Azure Face API: Facial Landmark Detection and Real-Time Analysis with C#",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/exploring-azure-face-api-facial-landmark-detection-and-real-time/ba-p/4495335",
-      "published": "2026-02-26T11:09:25+00:00",
-      "summary": "In today’s world, applications that understand and respond to human facial cues are no longer science fiction—they’re becoming a reality in domains like security, driver monitoring, gaming, and AR/VR. With Azure Face API, developers can leverage powerful cloud-based facial recognition and analysis...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "ravimodi",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Measuring actual AI Impact for Engineering with Apache DevLake",
       "link": "https://devblogs.microsoft.com/all-things-azure/measuring-actual-ai-impact-for-engineering-with-apache-devlake/",
       "published": "2026-02-26T10:06:19+00:00",
@@ -3092,17 +3103,6 @@
       "author": "Eldrick Wega",
       "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Building a Privacy-First Hybrid AI Briefing Tool with Foundry Local and Azure OpenAI",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-a-privacy-first-hybrid-ai-briefing-tool-with-foundry/ba-p/4490535",
-      "published": "2026-02-26T08:00:00+00:00",
-      "summary": "Introduction Management consultants face a critical challenge: they need instant AI-powered insights from sensitive client documents, but traditional cloud-only AI solutions create unacceptable data privacy risks. Every document uploaded to a cloud API potentially exposes confidential client...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Building a Secure MCP Server with OAuth 2.1 and Azure AD: Lessons from the Field",
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure update is focused on **Azure Kubernetes Service (AKS)** networking and security, with the announcement of **public preview support for Cilium mTLS encryption**. The preview brings **mutual TLS between Kubernetes workloads** using **Cilium** in AKS, highlighting stronger **in-cluster service-to-service encryption** and identity-based protection for containerized applications without requiring a separate service mesh."
+  "summary": "Today’s Azure posts centered on production-ready AI agents and stronger cloud-native security. Two Azure Dev Community articles focused on Microsoft Foundry and the Microsoft Agent Framework: one showed how Foundry Local enables real-world AI automation patterns, while the other detailed how to secure Azure AI Agents with identity, access control, and guardrails.\n\nThe key platform announcement was from Azure Networking: public preview of Cilium mTLS encryption for Azure Kubernetes Service, bringing built-in mutual TLS–based workload-to-workload encryption for AKS clusters using Cilium. Overall, the themes were operationalizing AI agents safely and improving zero-trust security for Kubernetes environments."
 }
