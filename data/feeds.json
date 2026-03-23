@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-23T01:04:48.240360+00:00",
+  "lastUpdated": "2026-03-23T04:57:13.557319+00:00",
   "totalArticles": 1136,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Announcing public preview: Cilium mTLS encryption for Azure Kubernetes Service",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/announcing-public-preview-cilium-mtls-encryption-for-azure/ba-p/4504423",
+      "published": "2026-03-23T01:50:18+00:00",
+      "summary": "We are thrilled to announce the public preview of Cilium mTLS encryption in Azure Kubernetes Service (AKS), delivered as part of Advanced Container Networking Services and powered by the Azure CNI dataplane built on Cilium. This capability is the result of a close engineering collaboration between...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "chandanAggarwal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Shaping the Next Era of Energy Decision Making with Geospatial Intelligence",
@@ -10233,17 +10244,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Microsoft Azure scales Hollow Core Fiber (HCF) production through outsourced manufacturing",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/microsoft-azure-scales-hollow-core-fiber-hcf-production-through/ba-p/4455953",
-      "published": "2025-09-23T15:00:12+00:00",
-      "summary": "Introduction As cloud and AI workloads surge, the pressure on datacenter (DC), Metro and Wide Area Network (WAN) networks has never been greater. Microsoft is tackling the physical limits of traditional networking head-on. From pioneering research in microLED technologies to deploying Hollow Core...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "frrey",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Discover and Assess PostgreSQL databases for migration to Azure using Azure Migrate",
       "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/discover-and-assess-postgresql-databases-for-migration-to-azure/ba-p/4456108",
       "published": "2025-09-23T08:09:24+00:00",
@@ -12498,5 +12498,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure update is focused on **Azure Kubernetes Service (AKS)** networking and security, with the announcement of **public preview support for Cilium mTLS encryption**. The new capability uses **Cilium** to provide **mutual TLS (mTLS)** encryption for **pod-to-pod traffic** in AKS, strengthening zero-trust security for Kubernetes workloads while leveraging Azure’s networking stack."
 }
