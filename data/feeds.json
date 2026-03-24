@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-24T06:49:18.706405+00:00",
-  "totalArticles": 1137,
+  "lastUpdated": "2026-03-24T09:43:58.249343+00:00",
+  "totalArticles": 1138,
   "articles": [
     {
       "title": "Visual Studio Code 1.113",
@@ -12,6 +12,50 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Synchronizing Azure Storage Across Isolated Private Endpoint Networks",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/synchronizing-azure-storage-across-isolated-private-endpoint/ba-p/4504564",
+      "published": "2026-03-24T08:27:32+00:00",
+      "summary": "Introduction In Azure repatriation programs, enterprises often need to migrate large volumes of blob data from a source Azure environment to a target Azure environment under strict security and network isolation constraints. A typical repatriation setup includes fully isolated source and target...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "deepakkumarv",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Announcing Public Preview of Argo CD extension on AKS and Azure Arc enabled Kubernetes clusters",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/announcing-public-preview-of-argo-cd-extension-on-aks-and-azure/ba-p/4504497",
+      "published": "2026-03-24T08:00:00+00:00",
+      "summary": "We are excited to announce public preview of the Argo CD extension for Azure Kubernetes Service (AKS) and Azure Arc-enabled Kubernetes clusters. As GitOps becomes the standard for deploying and operating applications at scale, enterprises need a way to implement GitOps while staying compliant with...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Poornima99",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "New Oracle Autonomous AI Database - Dedicated option on Oracle AI Database@Azure",
+      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/new-oracle-autonomous-ai-database-dedicated-option-on-oracle-ai/ba-p/4504929",
+      "published": "2026-03-24T08:00:00+00:00",
+      "summary": "At Microsoft, our partnership with Oracle reflects a shared commitment to meeting customers where they are — helping them modernize mission-critical workloads on Azure without sacrificing the performance, control, or compliance posture they've built over years. As part of this continued evolution,...",
+      "blog": "Oracle on Azure",
+      "blogId": "oracleonazureblog",
+      "author": "SparshAgrawat",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=oracleonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Hosted Containers and AI Agent Solutions",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/hosted-containers-and-ai-agent-solutions/ba-p/4500627",
+      "published": "2026-03-24T07:00:00+00:00",
+      "summary": "If you have built a proof-of-concept AI agent on your laptop and wondered how to turn it into something other people can actually use, you are not alone. The gap between a working prototype and a production-ready service is where most agent projects stall. Hosted containers close that gap faster...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Take Control of Every Message: Partial Failure Handling for Service Bus Triggers in Azure Functions",
@@ -3080,17 +3124,6 @@
       "blogId": "telecommunications-industry-blog",
       "author": "rickliev",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=telecommunications-industry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Optimising AI Costs with Microsoft Foundry Model Router",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/optimising-ai-costs-with-microsoft-foundry-model-router/ba-p/4494776",
-      "published": "2026-02-27T08:00:00+00:00",
-      "summary": "Microsoft Foundry Model Router analyses each prompt in real-time and forwards it to the most appropriate LLM from a pool of underlying models. Simple requests go to fast, cheap models; complex requests go to premium ones, all automatically. I built an interactive demo app so you can see the routing...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -7703,17 +7736,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Workload Identity support for Azure Arc-enabled Kubernetes clusters now Generally Available!",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/workload-identity-support-for-azure-arc-enabled-kubernetes/ba-p/4467851",
-      "published": "2025-11-19T19:14:25+00:00",
-      "summary": "We’re excited to announce that Workload Identity support for Azure Arc-enabled Kubernetes is now Generally Available (GA)! This milestone brings a secure way for applications running on Arc-connected clusters running outside of Azure to authenticate to Azure services without managing secrets....",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Poornima99",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure CLI and Azure PowerShell Ignite 2025 Announcement",
       "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-cli-and-azure-powershell-ignite-2025-announcement/ba-p/4471182",
       "published": "2025-11-19T19:13:15+00:00",
@@ -7833,17 +7855,6 @@
       "author": "PuiChee (PC) Chan",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Managing Multiple Deployment Stacks in Azure Bicep: Patterns and Best Practices",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/managing-multiple-deployment-stacks-in-azure-bicep-patterns-and/ba-p/4471392",
-      "published": "2025-11-19T15:56:34+00:00",
-      "summary": "Deployment Stacks: Deployment Stacks are a logical grouping of Azure resources defined using Bicep or ARM. When you deploy a stack: Azure tracks which resources belong to that stack You can update or delete resources as a group Governance rules can prevent accidental changes Environments...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Roslin_Nivetha",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Azure CycleCloud 8.8 and CCWS 1.2 at SC25 and Ignite",
@@ -12510,5 +12521,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blogs focused on developer productivity and operational control across Azure Functions and Azure SQL tooling in VS Code. The biggest announcement was new partial failure handling for Azure Functions Service Bus triggers, giving teams finer-grained control over how individual messages are completed, abandoned, or dead-lettered instead of failing an entire batch; meanwhile, Azure SQL Dev Corner highlighted easier SQL development workflows in Visual Studio Code with configurable SQL code analysis rules that don’t require editing the project file, plus improved schema management through a Publish dialog and reusable item templates."
+  "summary": "Today’s Azure posts centered on hybrid cloud/Kubernetes management, developer tooling, and data platform resilience. Key announcements include the public preview of the **Argo CD extension for AKS and Azure Arc–enabled Kubernetes**, enabling GitOps across Azure and hybrid environments, and the new **Oracle Autonomous AI Database – Dedicated** option on **Oracle Database@Azure**, aimed at enterprise AI and database workloads with tighter Oracle–Azure integration.\n\nOther notable themes were reliability and developer productivity: Azure highlighted **cross-network synchronization for Azure Storage across isolated Private Endpoint networks**, **partial failure handling for Azure Functions Service Bus triggers** for finer-grained message processing, and new **VS Code tooling for Azure SQL** including configurable **SQL code analysis rules**, a **publish dialog**, and **schema item templates**. Azure also featured community content on **hosted containers and AI agent solutions**, reflecting continued focus on containerized app hosting and AI application patterns."
 }
