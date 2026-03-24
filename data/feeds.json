@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24T15:54:59.313895+00:00",
+  "lastUpdated": "2026-03-24T18:45:34.912749+00:00",
   "totalArticles": 1138,
   "articles": [
     {
@@ -12,6 +12,105 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Hosted Containers and AI Agent Solutions",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/hosted-containers-and-ai-agent-solutions/ba-p/4500627",
+      "published": "2026-03-24T18:32:11+00:00",
+      "summary": "If you have built a proof-of-concept AI agent on your laptop and wondered how to turn it into something other people can actually use, you are not alone. The gap between a working prototype and a production-ready service is where most agent projects stall. Hosted containers close that gap faster...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "HTTP Triggers in Azure SRE Agent: From Jira Ticket to Automated Investigation",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/http-triggers-in-azure-sre-agent-from-jira-ticket-to-automated/ba-p/4504960",
+      "published": "2026-03-24T18:13:32+00:00",
+      "summary": "Introduction Many teams run their observability, incident management, ticketing, and deployment on platforms outside of Azure—Jira, Opsgenie, Grafana, Zendesk, GitLab, Jenkins, Harness, or homegrown internal tools. These are the systems where alerts fire, tickets get filed, deployments happen, and...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Vineela-Suri",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Closing the Last Mile in Document AI: Improving Extraction Quality in Azure Content Understanding",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/closing-the-last-mile-in-document-ai-improving-extraction/ba-p/4502029",
+      "published": "2026-03-24T17:54:41+00:00",
+      "summary": "The Promise (and Pain) of Automated Document Processing Every enterprise runs on documents. Invoices, contracts, tax forms, medical records, insurance claims…the list never ends. Intelligent Document Processing (IDP) promises to eliminate the manual work of reading, interpreting, and entering data...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "chu_lahlou",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Monitor Prometheus community recommended alerts for Azure Arc-enabled Kubernetes",
+      "link": "https://azure.microsoft.com/updates?id=558825",
+      "published": "2026-03-24T17:30:29+00:00",
+      "summary": "Azure Monitor now offers one-click enablement of Prometheus recommended alerts directly in the Azure Portal for Azure Arc-enabled Kubernetes clusters. These alerts, based on enhanced Prometheus community rules, provide comprehensive coverage across cluste",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Application routing with meshless Istio in AKS",
+      "link": "https://azure.microsoft.com/updates?id=557927",
+      "published": "2026-03-24T17:30:29+00:00",
+      "summary": "Following the deprecation of ingress‑nginx, Kubernetes operators need a supported, standards‑aligned migration path for ingress without the complexity of a full service mesh. Application Routing with Meshless Istio enables adoption of the Kubernetes Gatew",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Microsoft Azure Kubernetes Application Network",
+      "link": "https://azure.microsoft.com/updates?id=557922",
+      "published": "2026-03-24T17:30:29+00:00",
+      "summary": "As Kubernetes environments scale across regions and clusters, IP‑based networking becomes difficult to manage and provides limited application‑level visibility and security controls. Azure Kubernetes Application Network introduces application‑layer abstra",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Ingest OTLP data into Azure Monitor with the OpenTelemetry Collector",
+      "link": "https://azure.microsoft.com/updates?id=559273",
+      "published": "2026-03-24T17:15:45+00:00",
+      "summary": "Azure Monitor now supports native ingestion of OpenTelemetry Protocol (OTLP) signals, enabling you to send telemetry data directly from OpenTelemetry-instrumented applications and platforms to Azure Monitor. You can configure your OpenTelemetry Collector",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Building AI-powered GitHub issue triage with the Copilot SDK",
+      "link": "https://github.blog/ai-and-ml/github-copilot/building-ai-powered-github-issue-triage-with-the-copilot-sdk/",
+      "published": "2026-03-24T16:00:00+00:00",
+      "summary": "Learn how to integrate the Copilot SDK into a React Native app to generate AI-powered issue summaries, with production patterns for graceful degradation and caching. The post Building AI-powered GitHub issue triage with the Copilot SDK appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Andrea Griffiths",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Microsoft 365 Copilot Declarative Agents Are Getting Smarter with GPT‑5.2",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/microsoft-365-copilot-declarative-agents-are-getting-smarter/ba-p/4504774",
+      "published": "2026-03-24T16:00:00+00:00",
+      "summary": "We’re continuing to improve the intelligence behind Microsoft 365 Copilot Declarative Agents. As part of this effort, Declarative Agents are being updated to use GPT‑5.2, a newer large language model designed to deliver higher‑quality responses across complex agent scenarios. This update focuses on...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "Shikha_Varshney",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Unlock More Power in Your Development Workflow: Syncfusion for Visual Studio Subscribers",
@@ -77,17 +176,6 @@
       "blogId": "oracleonazureblog",
       "author": "SparshAgrawat",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=oracleonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Hosted Containers and AI Agent Solutions",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/hosted-containers-and-ai-agent-solutions/ba-p/4500627",
-      "published": "2026-03-24T07:00:00+00:00",
-      "summary": "If you have built a proof-of-concept AI agent on your laptop and wondered how to turn it into something other people can actually use, you are not alone. The gap between a working prototype and a production-ready service is where most agent projects stall. Hosted containers close that gap faster...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -1290,17 +1378,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "The LLM Inference Optimization Stack: A Prioritized Playbook for Enterprise Teams",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/the-llm-inference-optimization-stack-a-prioritized-playbook-for/ba-p/4498818",
-      "published": "2026-03-17T18:29:02+00:00",
-      "summary": "The Solutions — An Optimization Stack for Enterprise Inference The optimizations below are ordered by implementation priority — starting with the highest-leverage. The Three-Layer Serving Stack Most enterprise LLM deployments operate across three layers, each responsible for a different part of the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "bobmital",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "PowerToys 0.98 is here: new Keyboard Manager UX, the Command Palette Dock and better CursorWrap!",
       "link": "https://devblogs.microsoft.com/commandline/powertoys-0-98-is-here-new-keyboard-manager-ux-the-command-palette-dock-and-better-cursorwrap/",
       "published": "2026-03-17T17:47:43+00:00",
@@ -2434,17 +2511,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Under the hood: Security architecture of GitHub Agentic Workflows",
-      "link": "https://github.blog/ai-and-ml/generative-ai/under-the-hood-security-architecture-of-github-agentic-workflows/",
-      "published": "2026-03-09T16:00:00+00:00",
-      "summary": "GitHub Agentic Workflows are built with isolation, constrained outputs, and comprehensive logging. Learn how our threat model and security architecture help teams run agents safely in GitHub Actions. The post Under the hood: Security architecture of GitHub Agentic Workflows appeared first on The...",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Landon Cox",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Visual Studio Dev Essentials: Free, Practical Tools for Every Developer",
       "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-dev-essentials-free-practical-tools-for-every-developer/",
       "published": "2026-03-09T15:35:00+00:00",
@@ -3047,17 +3113,6 @@
       "blogId": "integrationsonazureblog",
       "author": "WSilveira",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Unlocking High-Performance Inference for DeepSeek with NVFP4 on NVIDIA Blackwell",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/unlocking-high-performance-inference-for-deepseek-with-nvfp4-on/ba-p/4497936",
-      "published": "2026-02-27T23:22:36+00:00",
-      "summary": "Summary We partnered closely with NVIDIA to unlock high-performance single-node inference for DeepSeek-V3.2 on NVIDIA Blackwell. By leveraging NVIDIA’s new NVFP4 checkpoint for DeepSeek-V3.2 combined with NVIDIA TensorRT LLM on NVIDIA Blackwell, we achieved breakthrough inference performance. These...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "xiaoranli",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -5910,17 +5965,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Customer Story: EPAM's Data-Driven Copilot Adoption Journey",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/customer-story-epam-s-data-driven-copilot-adoption-journey/ba-p/4483556",
-      "published": "2026-01-08T17:21:13+00:00",
-      "summary": "EPAM is a global engineering consulting organization with a deep technical foundation and a culture that embraces innovation. The organization was among the first in Europe to provision Copilot licenses through Microsoft’s Early Access Program, taking a proactive approach to AI enablement. EPAM’s...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "Mike_Walsh",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Scaling AI Agents with Aspire: The Missing Isolation Layer for Parallel Development",
       "link": "https://devblogs.microsoft.com/aspire/scaling-ai-agents-with-aspire-isolation/",
       "published": "2026-01-08T17:00:00+00:00",
@@ -8565,50 +8609,6 @@
       "link": "https://azure.microsoft.com/updates?id=525405",
       "published": "2025-11-18T17:01:02+00:00",
       "summary": "StandardV2 SKU NAT Gateway is now in public preview, delivering next-generation capabilities for scalable and resilient outbound connectivity. New offerings: Zone-Redundancy: Built for high availability in availability zone supported regions. Traffic surv",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: SQL database in Microsoft Fabric",
-      "link": "https://azure.microsoft.com/updates?id=525388",
-      "published": "2025-11-18T17:01:02+00:00",
-      "summary": "SQL database in Fabric is now generally available. Built on the trusted SQL Server and Azure SQL Database engine, this fully SaaS-native solution empowers developers and data professionals to unify operational and analytical workloads with speed, security",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Support for Italian and Portuguese in Azure Cosmos DB for NoSQL full-text search",
-      "link": "https://azure.microsoft.com/updates?id=523824",
-      "published": "2025-11-18T17:01:02+00:00",
-      "summary": "Azure Cosmos DB for NoSQL now supports Italian and Portuguese languages in full-text search, available today in public preview. This update adds to the list of supported languages, enabling you to build rich, language-aware search experiences that underst",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Azure Cosmos DB MCP ToolKit for Microsoft Foundry Agent Service",
-      "link": "https://azure.microsoft.com/updates?id=523814",
-      "published": "2025-11-18T17:01:02+00:00",
-      "summary": "Azure Cosmos DB for NoSQL now offers an MCP Toolkit that can be used with Microsoft Foundry Agent Service, available today in public preview. This new integration allows you to connect Microsoft Foundry Agents directly to data in Azure Cosmos DB. By dep",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Fuzzy search in Azure Cosmos DB for NoSQL full-text search",
-      "link": "https://azure.microsoft.com/updates?id=523809",
-      "published": "2025-11-18T17:01:02+00:00",
-      "summary": "Azure Cosmos DB for NoSQL now supports fuzzy search in full-text search. With fuzzy search, you can deliver typo-tolerant, error-resilient search experiences directly within Azure Cosmos DB, helping your users find the right results even when queries or t",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -12521,5 +12521,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news focused on developer productivity, cloud automation, and hybrid AI/Kubernetes operations. Key announcements included public preview of the **Argo CD extension for AKS and Azure Arc–enabled Kubernetes**, a new **Oracle Autonomous AI Database – Dedicated** option on **Oracle Database@Azure**, and practical governance guidance for **Azure OpenAI** using **Budgets, Action Groups, and Automation Runbooks**.\n\nThere was also a strong developer tooling theme: **CodeQL** now offers faster incremental pull request analysis, **Visual Studio** subscribers get access to **Syncfusion** components, **Azure Functions** added clearer **partial failure handling for Service Bus triggers**, and **VS Code** SQL tooling gained easier **code analysis rule configuration**, plus **schema publish dialogs and item templates**."
+  "summary": "Today’s Azure news centered on AI agents, cloud-native operations, and developer productivity. Microsoft highlighted hosted containers for AI agent solutions, Azure SRE Agent HTTP triggers that can turn a Jira ticket into an automated investigation, better document extraction in Azure Content Understanding, and stronger Copilot/GPT integrations across GitHub and Microsoft 365, alongside practical governance guidance like automating Azure OpenAI cost controls with Budgets, Action Groups, and Automation Runbooks.\n\nOn the platform side, Azure pushed a heavy Kubernetes and observability story: GA for Azure Monitor Prometheus community-recommended alerts on Azure Arc-enabled Kubernetes, previews for meshless Istio application routing in AKS, Azure Kubernetes Application Network, OTLP ingestion into Azure Monitor via the OpenTelemetry Collector, and an Argo CD extension for AKS and Azure Arc. Additional updates focused on resilient app and data workflows—including partial failure handling for Azure Functions Service Bus triggers, cross-network Azure Storage synchronization over isolated private endpoints, Oracle Autonomous AI Database Dedicated on Oracle Database@Azure, faster CodeQL PR analysis, and new SQL/Visual Studio tooling improvements."
 }
