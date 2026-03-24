@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24T12:40:38.991815+00:00",
+  "lastUpdated": "2026-03-24T15:54:59.313895+00:00",
   "totalArticles": 1138,
   "articles": [
     {
@@ -11,6 +11,39 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Unlock More Power in Your Development Workflow: Syncfusion for Visual Studio Subscribers",
+      "link": "https://devblogs.microsoft.com/visualstudio/syncfusion-for-visual-studio/",
+      "published": "2026-03-24T15:00:12+00:00",
+      "summary": "A few months ago, I was talking with a developer who said something that stuck with me: “I love building apps. I just don’t love rebuilding the same UI controls over and over again.” That’s the reality for a lot of teams. You want to focus on your business logic, your architecture, your...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Jim Harrer",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Automating Azure OpenAI Cost Control Using Budgets, Action Groups, and Automation Runbooks",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/automating-azure-openai-cost-control-using-budgets-action-groups/ba-p/4505164",
+      "published": "2026-03-24T13:28:40+00:00",
+      "summary": "Introduction As organizations increasingly adopt Azure OpenAI for use cases such as generative AI, analytics, and experimentation, cost governance becomes a critical operational concern. Azure OpenAI workloads can scale quickly, and without proper controls, unmonitored usage may lead to unexpected...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "trisha1302",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Faster incremental analysis with CodeQL in pull requests",
+      "link": "https://github.blog/changelog/2026-03-24-faster-incremental-analysis-with-codeql-in-pull-requests",
+      "published": "2026-03-24T13:25:15+00:00",
+      "summary": "CodeQL scans on pull requests for C#, Java, JavaScript/TypeScript, Python, and Ruby are now incremental, making them faster. Earlier this year, we sped up scans during pull requests with CodeQL… The post Faster incremental analysis with CodeQL in pull requests appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -689,17 +722,6 @@
       "link": "https://github.blog/changelog/2026-03-19-actions-runner-controller-release-0-14-0",
       "published": "2026-03-19T19:17:41+00:00",
       "summary": "GitHub Actions Runner Controller (ARC) 0.14.0 is now generally available. This release introduces multilabel support for runner scale sets, switches to the actions/scaleset library client, adds resource customization options, and… The post Actions Runner Controller release 0.14.0 appeared first on...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Copilot coding agent now starts work 50% faster",
-      "link": "https://github.blog/changelog/2026-03-19-copilot-coding-agent-now-starts-work-50-faster",
-      "published": "2026-03-19T19:04:28+00:00",
-      "summary": "We’ve optimized Copilot coding agent so it now starts work 50% faster. You can hand work to Copilot coding agent in many ways, including assigning an issue to Copilot, entering… The post Copilot coding agent now starts work 50% faster appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -6009,17 +6031,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Welcome to 2026, A Growth Year for All of Us",
-      "link": "https://devblogs.microsoft.com/visualstudio/vs-live-2026-immersive-learning-for-vs2026/",
-      "published": "2026-01-05T14:29:43+00:00",
-      "summary": "I always enjoy the quiet stretch between Christmas and New Year’s. It’s one of the few moments in the year when things slow down just enough to reflect on what actually resonated. While many of us were unplugging, our digital team was doing the opposite, editing and publishing 19 sessions from VS...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Jim Harrer",
-      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Implementing Oracle Autonomous Transactions in Azure SQL for Seamless Logging",
       "link": "https://techcommunity.microsoft.com/t5/modernization-best-practices-and/implementing-oracle-autonomous-transactions-in-azure-sql-for/ba-p/4448130",
       "published": "2026-01-05T12:00:00+00:00",
@@ -7216,17 +7227,6 @@
       "blogId": "azureadvancedthreatprotection",
       "author": "kuglidani",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Transforming SAP for the Intelligent Enterprise with Azure, Microsoft Fabric, and AI",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/transforming-sap-for-the-intelligent-enterprise-with-azure/ba-p/4473309",
-      "published": "2025-11-27T15:51:55+00:00",
-      "summary": "Why SAP on Azure Matters: Azure gives SAP systems the performance, stability, and global reach they need. It also includes built-in tools for analytics, AI, governance, and security, which are all essential for modern businesses. Microsoft’s documentation on SAP workloads in Azure explains this...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "srhulsus",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12521,5 +12521,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focused on hybrid cloud and developer productivity: Microsoft announced the public preview of the Argo CD extension for AKS and Azure Arc–enabled Kubernetes, enabling GitOps-based app delivery across Azure and on-prem clusters, and highlighted Azure Storage synchronization patterns for isolated private endpoint networks. On the data side, Azure introduced the new Oracle Autonomous AI Database – Dedicated option on Oracle Database@Azure, while Azure SQL tooling in VS Code gained easier SQL code analysis rule configuration and improved schema management with a publish dialog and item templates.\n\nOther key updates centered on application resilience and AI-native development: Azure Functions now supports finer-grained partial failure handling for Service Bus triggers so individual message issues can be managed without failing entire batches, and Azure’s developer community spotlighted hosted containers and AI agent solutions as emerging app architecture patterns."
+  "summary": "Today’s Azure news focused on developer productivity, cloud automation, and hybrid AI/Kubernetes operations. Key announcements included public preview of the **Argo CD extension for AKS and Azure Arc–enabled Kubernetes**, a new **Oracle Autonomous AI Database – Dedicated** option on **Oracle Database@Azure**, and practical governance guidance for **Azure OpenAI** using **Budgets, Action Groups, and Automation Runbooks**.\n\nThere was also a strong developer tooling theme: **CodeQL** now offers faster incremental pull request analysis, **Visual Studio** subscribers get access to **Syncfusion** components, **Azure Functions** added clearer **partial failure handling for Service Bus triggers**, and **VS Code** SQL tooling gained easier **code analysis rule configuration**, plus **schema publish dialogs and item templates**."
 }
