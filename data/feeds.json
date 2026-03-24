@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24T04:47:45.925191+00:00",
+  "lastUpdated": "2026-03-24T06:49:18.706405+00:00",
   "totalArticles": 1137,
   "articles": [
     {
@@ -14,6 +14,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Take Control of Every Message: Partial Failure Handling for Service Bus Triggers in Azure Functions",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/take-control-of-every-message-partial-failure-handling-for/ba-p/4504893",
+      "published": "2026-03-24T05:34:12+00:00",
+      "summary": "The Problem: All-or-Nothing Batch Processing in Azure Service Bus Azure Service Bus is one of the most widely used messaging services for building event-driven applications on Azure. When you use Azure Functions with a Service Bus trigger in batch mode, your function receives multiple messages at...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "swapnil_nagar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "SQL code analysis in VS Code: Configure rules without editing your project file",
       "link": "https://devblogs.microsoft.com/azure-sql/sql-code-analysis-in-vs-code-configure-rules-without-editing-your-project-file/",
       "published": "2026-03-24T03:30:13+00:00",
@@ -23,17 +34,6 @@
       "author": "Iqra Shaikh",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Take Control of Every Message: Partial Failure Handling for Service Bus Triggers in Azure Functions",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/take-control-of-every-message-partial-failure-handling-for/ba-p/4504893",
-      "published": "2026-03-24T02:11:47+00:00",
-      "summary": "The Problem: All-or-Nothing Batch Processing in Azure Service Bus Azure Service Bus is one of the most widely used messaging services for building event-driven applications on Azure. When you use Azure Functions with a Service Bus trigger in batch mode, your function receives multiple messages at...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "swapnil_nagar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Manage SQL database schemas in VS Code: Publish dialog and item templates",
@@ -12510,5 +12510,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focused on improving developer workflows in VS Code and giving teams finer-grained control over cloud app behavior. Two Azure SQL Dev Corner updates highlighted SQL code analysis rule configuration without editing project files, plus new schema-management features in VS Code such as a Publish dialog and item templates for SQL database projects.\n\nThe Apps on Azure post centered on Azure Functions with Service Bus triggers, introducing partial failure handling so developers can better manage individual message failures instead of treating a batch as all-or-nothing. Overall, the themes were stronger local tooling for Azure SQL development and more resilient message processing for event-driven apps on Azure."
+  "summary": "Today’s Azure blogs focused on developer productivity and operational control across Azure Functions and Azure SQL tooling in VS Code. The biggest announcement was new partial failure handling for Azure Functions Service Bus triggers, giving teams finer-grained control over how individual messages are completed, abandoned, or dead-lettered instead of failing an entire batch; meanwhile, Azure SQL Dev Corner highlighted easier SQL development workflows in Visual Studio Code with configurable SQL code analysis rules that don’t require editing the project file, plus improved schema management through a Publish dialog and reusable item templates."
 }
