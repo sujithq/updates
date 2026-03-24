@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24T00:57:34.225099+00:00",
+  "lastUpdated": "2026-03-24T04:47:45.925191+00:00",
   "totalArticles": 1137,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "SQL code analysis in VS Code: Configure rules without editing your project file",
+      "link": "https://devblogs.microsoft.com/azure-sql/sql-code-analysis-in-vs-code-configure-rules-without-editing-your-project-file/",
+      "published": "2026-03-24T03:30:13+00:00",
+      "summary": "SQL code analysis has been part of the SSDT workflow for a long time. Before deploying a schema change, you could run a set of static analysis rules against your project to catch potential issues, things like missing primary keys, deprecated syntax, or objects that could break under certain...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Iqra Shaikh",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Take Control of Every Message: Partial Failure Handling for Service Bus Triggers in Azure Functions",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/take-control-of-every-message-partial-failure-handling-for/ba-p/4504893",
+      "published": "2026-03-24T02:11:47+00:00",
+      "summary": "The Problem: All-or-Nothing Batch Processing in Azure Service Bus Azure Service Bus is one of the most widely used messaging services for building event-driven applications on Azure. When you use Azure Functions with a Service Bus trigger in batch mode, your function receives multiple messages at...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "swapnil_nagar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Manage SQL database schemas in VS Code: Publish dialog and item templates",
@@ -2533,17 +2555,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Even simpler to Safely Execute AI-generated Code with Azure Container Apps Dynamic Sessions",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/even-simpler-to-safely-execute-ai-generated-code-with-azure/ba-p/4499795",
-      "published": "2026-03-05T21:04:59+00:00",
-      "summary": "AI agents are writing code. The question is: where does that code run? If it runs in your process, a single hallucinated import os; os.remove('/') can ruin your day. Azure Container Apps dynamic sessions solve this with on-demand sandboxed environments — Hyper-V isolated, fully managed, and ready...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Jan-Kalis",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "How Netstar Streamlined Fleet Monitoring and Reduced Custom Integrations with Drasi",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/how-netstar-streamlined-fleet-monitoring-and-reduced-custom/ba-p/4499592",
       "published": "2026-03-05T19:23:46+00:00",
@@ -3818,17 +3829,6 @@
       "author": "HilaryWang",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Dear Copilot, can you help me with SQL?",
-      "link": "https://devblogs.microsoft.com/azure-sql/dear-copilot-azure-sql/",
-      "published": "2026-02-17T17:00:59+00:00",
-      "summary": "Perhaps we missed it at first, but Copilot is more than comfortable with SQL. This goes beyond autocomplete. This is moving from nothing to a working database without leaving our tools. Have we really arrived? Yes, sort of. For database engineers and app engineers alike, we have crossed an...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "[Launched] Generally Available: Instant access support for incremental snapshots of Azure Premium SSD v2 and Ultra Disk",
@@ -12510,5 +12510,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage centers on developer productivity for **Azure SQL** in **Visual Studio Code**. The featured post, **“Manage SQL database schemas in VS Code: Publish dialog and item templates”** from **Azure SQL Dev Corner**, highlights new tooling for schema management—specifically a **Publish dialog** to deploy database projects and **item templates** to speed creation of SQL objects—making it easier for developers to build and publish SQL database changes directly from VS Code."
+  "summary": "Today’s Azure posts focused on improving developer workflows in VS Code and giving teams finer-grained control over cloud app behavior. Two Azure SQL Dev Corner updates highlighted SQL code analysis rule configuration without editing project files, plus new schema-management features in VS Code such as a Publish dialog and item templates for SQL database projects.\n\nThe Apps on Azure post centered on Azure Functions with Service Bus triggers, introducing partial failure handling so developers can better manage individual message failures instead of treating a batch as all-or-nothing. Overall, the themes were stronger local tooling for Azure SQL development and more resilient message processing for event-driven apps on Azure."
 }
