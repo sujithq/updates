@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24T21:27:40.295571+00:00",
+  "lastUpdated": "2026-03-25T01:02:46.007641+00:00",
   "totalArticles": 1138,
   "articles": [
     {
@@ -11,6 +11,39 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Guidance for detecting, investigating, and defending against the Trivy supply chain compromise",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/03/24/detecting-investigating-defending-against-trivy-supply-chain-compromise/",
+      "published": "2026-03-25T00:03:03+00:00",
+      "summary": "Threat actors abused trusted Trivy distribution channels to inject credential‑stealing malware into CI/CD pipelines worldwide. This analysis walks through the Trivy supply‑chain compromise, attacker techniques, and concrete steps security teams can take to detect and defend against similar attacks....",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Defender Security Research Team",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Container network metrics filtering for AKS",
+      "link": "https://azure.microsoft.com/updates?id=557902",
+      "published": "2026-03-24T23:00:18+00:00",
+      "summary": "Network observability can generate large volumes of metrics, making it difficult for teams to focus on data that is operationally relevant. Container network metrics filtering in Azure Container Networking Services (ACNS) allows operators to control which",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: AI Agent for container networking troubleshooting",
+      "link": "https://azure.microsoft.com/updates?id=557887",
+      "published": "2026-03-24T21:45:26+00:00",
+      "summary": "Troubleshooting Kubernetes networking issues is often slowed by logs and metrics scattered across multiple tools, forcing engineers to manually correlate signals during incidents. The container networking agent provides a lightweight, web‑based interface",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -2057,17 +2090,6 @@
       "blogId": "dotnet",
       "author": "Rahul Bhandari (MSFT)",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Storm-2561 uses SEO poisoning to distribute fake VPN clients for credential theft",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/03/12/storm-2561-uses-seo-poisoning-to-distribute-fake-vpn-clients-for-credential-theft/",
-      "published": "2026-03-12T17:00:00+00:00",
-      "summary": "Storm-2561 uses SEO poisoning to push fake VPN downloads that install signed trojans and steal VPN credentials. Active since 2025, Storm-2561 mimics trusted brands and abuses legitimate services. This post reviews TTPs, IOCs, and mitigation guidance. The post Storm-2561 uses SEO poisoning to...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Threat Intelligence and Microsoft Defender Experts",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -8605,28 +8627,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Azure Functions enables OpenTelemetry support",
-      "link": "https://azure.microsoft.com/updates?id=525479",
-      "published": "2025-11-18T17:01:02+00:00",
-      "summary": "Azure Functions now supports OpenTelemetry in general availability (GA), enabling developers to export logs, traces, and metrics using open standards. This release builds on the public preview and delivers a production-ready observability experience for s",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Azure Container Apps adds support for agentic Docker Compose",
-      "link": "https://azure.microsoft.com/updates?id=525470",
-      "published": "2025-11-18T17:01:02+00:00",
-      "summary": "Azure Container Apps is bringing the familiar developer workflow of Docker Compose directly to Azure Container Apps. As one of the most widely adopted tools among developers, Docker Compose simplifies defining and running multi-container applications, and",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Announcing the Public Preview of AMLFS 20: Azure Managed Lustre New SKU for Massive AI&HPC Workloads",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/announcing-the-public-preview-of-amlfs-20-azure-managed-lustre/ba-p/4470665",
       "published": "2025-11-18T17:00:00+00:00",
@@ -12521,5 +12521,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure ecosystem news was dominated by AI agents, GitHub Copilot, and Kubernetes observability/networking. Microsoft highlighted new agent workflows—from Azure SRE Agent HTTP triggers that turn Jira tickets into automated investigations, to GitHub Copilot features that can modify any pull request, manage coding-agent repo access via API, and power issue triage—alongside stronger AI governance guidance and a GPT‑5.2 upgrade for Microsoft 365 Copilot Declarative Agents.\n\nOn the platform side, AKS and Azure Monitor saw a wave of container-focused announcements: preview support for managed GPU metrics, cross-cluster networking in Azure Kubernetes Fleet Manager, meshless Istio application routing, Azure Kubernetes Application Network, and OTLP ingestion via the OpenTelemetry Collector, plus GA for container network logs, Azure Container Storage v2.1.0 with Elastic SAN integration, and Prometheus recommended alerts for Azure Arc-enabled Kubernetes. Other notable themes included better Document AI extraction quality in Azure Content Understanding, practical Azure OpenAI cost-control automation, hosted containers for AI agent solutions, faster CodeQL incremental PR analysis, and guidance for synchronizing Azure Storage across isolated private endpoint networks."
+  "summary": "Today’s Azure/Microsoft blog highlights two clear themes: developer productivity and software supply chain security. **Visual Studio Code 1.113** introduces updates across the editor and developer workflow, while the **Microsoft Security Blog** post provides concrete guidance for identifying exposure to the **Trivy** supply chain compromise, investigating affected environments, and hardening defenses.\n\nSpecifically, the security guidance focuses on detecting malicious activity tied to **Trivy**, validating potentially impacted systems and pipelines, and using Microsoft security tooling and best practices to reduce risk from compromised dependencies and CI/CD components."
 }
