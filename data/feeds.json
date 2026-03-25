@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-25T06:47:35.035068+00:00",
+  "lastUpdated": "2026-03-25T09:41:51.957534+00:00",
   "totalArticles": 1138,
   "articles": [
     {
@@ -12,6 +12,39 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "v1.14.8",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.14.8",
+      "published": "2026-03-25T07:56:42+00:00",
+      "summary": "1.14.8 (March 25, 2026) BUG FIXES: Prevent crash in the display of relevant attributes after provider upgrades (#38264)",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Microsoft Foundry Labs: A Practical Fast Lane from Research to Real Developer Work",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/microsoft-foundry-labs-a-practical-fast-lane-from-research-to/ba-p/4502127",
+      "published": "2026-03-25T07:00:00+00:00",
+      "summary": "Why developers need a fast lane from research → prototypes AI engineering has a speed problem, but it is not a shortage of announcements. The hard part is turning research into a useful prototype before the next wave of models, tools, or agent patterns shows up. That gap matters. AI engineers want...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Vectorless Reasoning-Based RAG: A New Approach to Retrieval-Augmented Generation",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/vectorless-reasoning-based-rag-a-new-approach-to-retrieval/ba-p/4502238",
+      "published": "2026-03-25T07:00:00+00:00",
+      "summary": "Introduction Retrieval-Augmented Generation (RAG) has become a widely adopted architecture for building AI applications that combine Large Language Models (LLMs) with external knowledge sources. Traditional RAG pipelines rely heavily on vector embeddings and similarity search to retrieve relevant...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Rajapriya",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "🚀 Securing Enterprise AI: From Red Teaming to Risk Cards and Azure Guardrails",
@@ -2819,17 +2852,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "GenRec Direct Learning: Moving Ranking from Feature Pipelines to Token-Native Sequence Modeling",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/genrec-direct-learning-moving-ranking-from-feature-pipelines-to/ba-p/4494252",
-      "published": "2026-03-05T13:17:16+00:00",
-      "summary": "Authors: Chunlong Yu, Han Zheng, Jie Zhu, I-Hong Jhuo, Neal Zhang, Li Xia, Lin Zhu, Sawyer Shen, Yulan Yan TL;DR Most modern ranking stacks rely on large generative models as feature extractors, flattening their outputs into vectors that are then fed into downstream rankers. While effective, this...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "chunlongyu",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Building High-Performance Agentic Systems",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-high-performance-agentic-systems/ba-p/4497391",
       "published": "2026-03-05T08:00:00+00:00",
@@ -3102,17 +3124,6 @@
       "blogId": "microsoftdefendercloudblog",
       "author": "Fernanda_Vela",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Giving Your AI Agents Reliable Skills with the Agent Skills SDK",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/giving-your-ai-agents-reliable-skills-with-the-agent-skills-sdk/ba-p/4497074",
-      "published": "2026-03-03T08:00:00+00:00",
-      "summary": "AI agents are becoming increasingly capable, but they often do not have the context they need to do real work reliably. Your agent can reason well, but it does not actually know how to do the specific things your team needs it to do. For example, it cannot follow your company's incident response...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "pratikpanda",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -6766,17 +6777,6 @@
       "author": "DianaGrigore",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "v1.14.2",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.14.2",
-      "published": "2025-12-11T12:47:33+00:00",
-      "summary": "1.14.2 (December 11, 2025) ENHANCEMENTS: Add component registry source resolution support to Terraform Stacks (#37888) BUG FIXES: stacks: surface runtime issues with local values to user during plan (#37980) resource instance apply failures should not cause the resource instance state to be empty....",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
     },
     {
       "title": "November 2025 (version 1.107)",
@@ -12521,5 +12521,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft posts centered on securing and operationalizing AI and developer tooling: Microsoft detailed enterprise AI safeguards spanning red teaming, risk cards, and Azure guardrails, while Azure AI Foundry highlighted better document extraction quality in Azure Content Understanding to improve “last mile” Document AI accuracy. On the developer and security side, Visual Studio Code 1.113 delivered the latest editor updates, one Azure commentary examined broad engineering productivity disruption, and Microsoft Security published concrete detection and defense guidance for the Trivy supply chain compromise."
+  "summary": "Today’s Azure and Microsoft posts centered on developer tooling, AI system quality, and security hardening. Key updates included Visual Studio Code 1.113, Terraform v1.14.8, and several Azure AI pieces covering Microsoft Foundry Labs, a “vectorless” reasoning-based RAG approach, stronger enterprise AI controls such as red teaming, risk cards, and Azure guardrails, plus improvements to document extraction quality in Azure Content Understanding.\n\nSecurity was another major theme, with Microsoft publishing guidance on detecting and responding to the Trivy supply chain compromise, while opinion and community posts highlighted broader shifts in engineering workflows as AI becomes more embedded across the Azure ecosystem."
 }
