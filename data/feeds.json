@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-25T18:40:53.180040+00:00",
-  "totalArticles": 1139,
+  "lastUpdated": "2026-03-25T21:27:20.525334+00:00",
+  "totalArticles": 1138,
   "articles": [
     {
       "title": "Visual Studio Code 1.114",
@@ -11,6 +11,61 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Cosmos DB Mirroring in Microsoft Fabric with private endpoints",
+      "link": "https://azure.microsoft.com/updates?id=558836",
+      "published": "2026-03-25T20:00:39+00:00",
+      "summary": "We're excited to announce that private endpoint support for Azure Cosmos DB Mirroring in Microsoft Fabric is now generally available. You can now unlock powerful analytics on your operational data while keeping your enhanced network security posture intac",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Blue-green agent pool upgrade in AKS",
+      "link": "https://azure.microsoft.com/updates?id=557862",
+      "published": "2026-03-25T20:00:39+00:00",
+      "summary": "In‑place node pool upgrades can introduce risk by applying changes directly to running environments. Blue‑green agent pool upgrades create a parallel node pool with the new configuration, allowing validation before workloads are shifted and providing a cl",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Updates to GitHub Copilot interaction data usage policy",
+      "link": "https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/",
+      "published": "2026-03-25T19:02:29+00:00",
+      "summary": "From April 24 onward, interaction data—specifically inputs, outputs, code snippets, and associated context—from Copilot Free, Pro, and Pro+ users will be used to train and improve our AI models unless they opt out. The post Updates to GitHub Copilot interaction data usage policy appeared first on...",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Mario Rodriguez",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Updates to our Privacy Statement and Terms of Service: How we use your data",
+      "link": "https://github.blog/changelog/2026-03-25-updates-to-our-privacy-statement-and-terms-of-service-how-we-use-your-data",
+      "published": "2026-03-25T18:56:45+00:00",
+      "summary": "Hey GitHub Community, We’ve made some important updates to our Privacy Statement and Terms of Service to keep you informed about how we handle your data. Notably, from April 24… The post Updates to our Privacy Statement and Terms of Service: How we use your data appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Copilot usage metrics now identify active Copilot coding agent users",
+      "link": "https://github.blog/changelog/2026-03-25-copilot-usage-metrics-now-identify-active-copilot-coding-agent-users",
+      "published": "2026-03-25T18:49:10+00:00",
+      "summary": "Copilot usage metrics now indicate which users have Copilot coding agent (CCA) activity. Enterprise and organization admins can identify which users are actively using Copilot coding agent on daily and… The post Copilot usage metrics now identify active Copilot coding agent users appeared first on...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1008,28 +1063,6 @@
       "link": "https://github.blog/changelog/2026-03-20-trace-any-copilot-coding-agent-commit-to-its-session-logs",
       "published": "2026-03-20T12:21:49+00:00",
       "summary": "Every commit from Copilot coding agent, our cloud-based background agent, is authored by Copilot, with the human who gave Copilot the task marked as the co-author. This makes it easier… The post Trace any Copilot coding agent commit to its session logs appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Monitor Copilot coding agent logs live in Raycast",
-      "link": "https://github.blog/changelog/2026-03-20-monitor-copilot-coding-agent-logs-live-in-raycast",
-      "published": "2026-03-20T12:21:30+00:00",
-      "summary": "Raycast is a powerful free launcher for macOS and Windows. It can launch apps, search files, control your system, and leverage community-built extensions. With the GitHub Copilot extension for Raycast,… The post Monitor Copilot coding agent logs live in Raycast appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "A smoother navigation experience in GitHub Mobile for Android",
-      "link": "https://github.blog/changelog/2026-03-20-a-smoother-navigation-experience-in-github-mobile-for-android",
-      "published": "2026-03-20T10:45:48+00:00",
-      "summary": "We’ve revamped navigation in GitHub Mobile for Android to create a more consistent and intuitive experience across the app. With this update, moving between key areas such as Home and… The post A smoother navigation experience in GitHub Mobile for Android appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -2497,17 +2530,6 @@
       "blogId": "dotnet",
       "author": "Rahul Bhandari (MSFT), Tara Overfield",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "The era of “AI as text” is over. Execution is the new interface.",
-      "link": "https://github.blog/ai-and-ml/github-copilot/the-era-of-ai-as-text-is-over-execution-is-the-new-interface/",
-      "published": "2026-03-10T20:16:01+00:00",
-      "summary": "AI is shifting from prompt-response interactions to programmable execution. See how the GitHub Copilot SDK enables agentic workflows directly inside your applications. The post The era of “AI as text” is over. Execution is the new interface. appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Gwen Davis",
-      "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -8638,28 +8660,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[In preview] Public Preview: Azure Functions support for Java 25",
-      "link": "https://azure.microsoft.com/updates?id=526072",
-      "published": "2025-11-18T17:01:02+00:00",
-      "summary": "You can now develop functions using Java 25 locally and deploy them to Azure Functions on Windows and Linux. Upgrade your apps to Java 25 to take advantage of enhanced security, a longer support window, and continued compatibility with the Azure Function",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Application Gateway for Containers – Slow start",
-      "link": "https://azure.microsoft.com/updates?id=525893",
-      "published": "2025-11-18T17:01:02+00:00",
-      "summary": "Slow start is now generally available as a load balancing algorithm in Application Gateway for Containers. This feature improves stability and performance during backend scale-up by gradually increasing traffic to new pods over a configurable time window.",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Announcing the Public Preview of AMLFS 20: Azure Managed Lustre New SKU for Massive AI&HPC Workloads",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/announcing-the-public-preview-of-amlfs-20-azure-managed-lustre/ba-p/4470665",
       "published": "2025-11-18T17:00:00+00:00",
@@ -12519,18 +12519,7 @@
       "author": "Rob Conery, Harald Kirschner",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Part 2: Performance Configurations for Connecting PBI to a Private Link ADB Workspace",
-      "link": "https://techcommunity.microsoft.com/t5/azure-databricks/part-2-performance-configurations-for-connecting-pbi-to-a/ba-p/4396060",
-      "published": "2025-03-24T19:19:58+00:00",
-      "summary": "This blog was written in conjunction with Leo Furlong, Lead Solutions Architect at Databricks. In Part 1, we discussed networking options for connecting Power BI to an Azure Databricks workspace with a Public Endpoint protected with a workspace IP Access List. In Part 2, we continue our discussion...",
-      "blog": "Azure Databricks",
-      "blogId": "azure-databricks",
-      "author": "katiecummiskey",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-databricks&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news centered on data platform modernization and AI-enabled app development. Microsoft highlighted multiple Azure Database advances: Fabric Mirroring for Azure Database for MySQL in preview, Azure SQL Managed Instance change event streaming in preview, and several PostgreSQL migration improvements now generally available, including support for EDB and Google AlloyDB migrations, pgoutput-based online migration, and pg_cron custom time zones via `cron.timezone`; it also showcased a Db2-to-Azure SQL Database Hyperscale modernization story and a low-latency architecture combining Azure Managed Redis with Azure Databricks for real-time feature serving.\n\nThe other major themes were developer productivity, cloud-native apps, and secure AI. Key announcements included Aspire on Azure App Service reaching GA, Azure Functions Service Bus triggers gaining partial failure handling, GitHub Copilot CLI for infrastructure deployments, VS Code 1.113, and GitHub’s new ability to disable comments on individual commits, alongside guidance on enterprise AI safety in Azure AI Foundry, improved extraction quality in Azure Content Understanding, identity-security warnings from Microsoft Security, and new Microsoft 365 Copilot learning scenarios."
+  "summary": "Microsoft’s updates centered on data platform modernization and AI-assisted development: Microsoft Fabric mirroring expanded with Cosmos DB mirroring now generally available with private endpoints and Azure Database for MySQL mirroring entering preview, while Azure SQL Managed Instance introduced change event streaming in public preview. Azure Database for PostgreSQL also saw a strong migration push, with GA support for EDB and Google AlloyDB migrations, pg_cron custom time zones, and online migration moving to the `pgoutput` plugin.\n\nOn the app and infrastructure side, AKS added blue-green agent pool upgrades in preview, Aspire on Azure App Service reached general availability, and Azure Functions for Service Bus added partial failure handling for triggers to give per-message control. GitHub and Copilot announcements focused on governance and measurement—updating Copilot interaction data usage, privacy terms, and metrics for active coding agent users—while developer tooling expanded with GitHub Copilot CLI for infrastructure deployments and the VS Code 1.113 release."
 }
