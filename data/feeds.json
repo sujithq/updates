@@ -1,17 +1,28 @@
 {
-  "lastUpdated": "2026-03-25T09:41:51.957534+00:00",
+  "lastUpdated": "2026-03-25T12:37:32.188656+00:00",
   "totalArticles": 1138,
   "articles": [
     {
       "title": "Visual Studio Code 1.113",
       "link": "https://code.visualstudio.com/updates/v1_113",
       "published": "2026-03-25T17:00:00+00:00",
-      "summary": "Learn what's new in Visual Studio Code 1.113 (Insiders) Read the full article",
+      "summary": "Learn what's new in Visual Studio Code 1.113 Read the full article",
       "blog": "Visual Studio Code",
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "🚀GitHub Copilot CLI: AI Assistance from the Command Line for Infrastructure Deployments",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/github-copilot-cli-ai-assistance-from-the-command-line-for/ba-p/4500796",
+      "published": "2026-03-25T09:43:34+00:00",
+      "summary": "What is GitHub Copilot CLI? GitHub Copilot CLI is an AI-powered assistant that runs directly inside your terminal. Instead of manually writing commands, scripts, or debugging issues, you can simply describe what you want — and Copilot executes it. Here’s the shift: Traditional CLI Copilot CLI You...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ibrahimbaig",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "v1.14.8",
@@ -5830,17 +5841,6 @@
       "blogId": "azurearchitectureblog",
       "author": "GeertVanTeylingen",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Advancing embodied carbon measurement at scale for Microsoft Azure hardware",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/advancing-embodied-carbon-measurement-at-scale-for-microsoft/ba-p/4485784",
-      "published": "2026-01-15T22:08:50+00:00",
-      "summary": "Introduction: Why embodied carbon in cloud hardware matters At Microsoft, 97% of our greenhouse gas (GHG) emissions fall under the Scope 3 category, with the majority originating in our supply chain. Information and communication technology (ICT) hardware within our datacenters (e.g. servers) is a...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Leoaspauza",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12521,5 +12521,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft posts centered on developer tooling, AI system quality, and security hardening. Key updates included Visual Studio Code 1.113, Terraform v1.14.8, and several Azure AI pieces covering Microsoft Foundry Labs, a “vectorless” reasoning-based RAG approach, stronger enterprise AI controls such as red teaming, risk cards, and Azure guardrails, plus improvements to document extraction quality in Azure Content Understanding.\n\nSecurity was another major theme, with Microsoft publishing guidance on detecting and responding to the Trivy supply chain compromise, while opinion and community posts highlighted broader shifts in engineering workflows as AI becomes more embedded across the Azure ecosystem."
+  "summary": "Today’s Azure-related posts centered on AI moving from experimentation into production: Microsoft highlighted **Microsoft Foundry Labs** as a path from research to developer tooling, introduced **vectorless reasoning-based RAG** as an alternative to embedding-heavy retrieval patterns, and detailed how **Azure Content Understanding** is improving document extraction quality for Document AI workloads. Security and operational hardening were another major theme, with guidance on securing enterprise AI through **red teaming, risk cards, and Azure guardrails**, plus incident-response recommendations for the **Trivy supply chain compromise**.\n\nOn the tooling side, the day also brought incremental platform updates including **Visual Studio Code 1.113**, **Terraform v1.14.8**, and a push toward AI-assisted operations with **GitHub Copilot CLI** for command-line infrastructure deployments. Together, the announcements point to a stack that is becoming more AI-native across developer workflows, infrastructure management, and enterprise governance."
 }
