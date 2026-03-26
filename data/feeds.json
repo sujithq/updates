@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-26T06:54:42.636967+00:00",
+  "lastUpdated": "2026-03-26T09:50:48.360847+00:00",
   "totalArticles": 1139,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Guardrails for Generative AI: Securing Developer Workflows",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/guardrails-for-generative-ai-securing-developer-workflows/ba-p/4505801",
+      "published": "2026-03-26T08:58:22+00:00",
+      "summary": "Generative AI is revolutionizing software development that accelerates delivery but introduces compliance and security risks if unchecked. Tools like GitHub Copilot empower developers to write code faster, automate repetitive tasks, and even generate tests and documentation. But speed without...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "siddhigupta",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Shared Agent Context: How We Are Tackling Partner Agent Collaboration",
@@ -5875,17 +5886,6 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Parallel AKS Node Pool Creation with Crossplane: A Version Compatibility Journey",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/parallel-aks-node-pool-creation-with-crossplane-a-version/ba-p/4477936",
-      "published": "2026-01-19T15:43:48+00:00",
-      "summary": "When managing Azure Kubernetes Service (AKS) clusters at scale, the ability to create multiple node pools in parallel can significantly reduce provisioning time. In this article, I'll share my journey troubleshooting and resolving node pool creation bottlenecks when using Crossplane to manage AKS...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "sbalaji",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Protect against React RSC CVE-2025-55182 with Azure Web Application Firewall (WAF)",
@@ -12532,5 +12532,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure blog coverage centers on **agent interoperability on Azure**, with the Apps on Azure post **“Shared Agent Context: How We Are Tackling Partner Agent Collaboration”** highlighting Microsoft’s work on enabling **partner AI agents to share context and collaborate more effectively**. The key theme is improving **multi-agent coordination** in Azure-based app environments so agents from different partners or systems can operate with a common understanding, reducing fragmentation and making enterprise AI workflows more connected and useful."
+  "summary": "Today’s Azure blog highlights two major themes: securing enterprise generative AI development and improving multi-agent collaboration. The Azure Infrastructure post focuses on guardrails for generative AI in developer workflows, emphasizing security, governance, and risk reduction around how AI is used in software development, while the Apps on Azure post introduces “Shared Agent Context,” an approach for enabling partner agents to collaborate more effectively by sharing context across agent interactions.\n\nTogether, the announcements show Azure pushing both safer AI adoption and more capable agent-based application patterns—especially for organizations building with generative AI and coordinated AI agents."
 }
