@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-25T21:27:20.525334+00:00",
-  "totalArticles": 1138,
+  "lastUpdated": "2026-03-26T01:07:26.760938+00:00",
+  "totalArticles": 1139,
   "articles": [
     {
       "title": "Visual Studio Code 1.114",
@@ -11,6 +11,39 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Shared Agent Context: How We Are Tackling Partner Agent Collaboration",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/shared-agent-context-how-we-are-tackling-partner-agent/ba-p/4505714",
+      "published": "2026-03-26T00:34:52+00:00",
+      "summary": "Your Azure SRE agent detects a spike in error rates. It triages with cloud-native telemetry, but the root cause trail leads into a third-party observability platform your team also runs. The agent can't see that data. A second agent can, one that speaks Datadog or Dynatrace or whatever your team...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "dbandaru",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "\"No-Ops\" Kafka Experience: Why Event Hubs is Your Default Destination for Streaming on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/quot-no-ops-quot-kafka-experience-why-event-hubs-is-your-default/ba-p/4481501",
+      "published": "2026-03-25T22:28:51+00:00",
+      "summary": "For many engineering teams, the promise of real-time data streaming is often overshadowed by the \"operational tax\" of maintaining the infrastructure. Managing an Apache Kafka® cluster traditionally means wrestling with broker patches, Zookeeper (or KRaft) orchestration, disk rebalancing, and the...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "ashish-chhabria",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "GitHub Copilot for Jira — Public preview enhancements",
+      "link": "https://github.blog/changelog/2026-03-25-github-copilot-for-jira-public-preview-enhancements",
+      "published": "2026-03-25T21:09:35+00:00",
+      "summary": "Since launching the public preview of GitHub Copilot coding agent for Jira, we’ve been listening closely to customer feedback. Thank you to everyone who has taken the time to try… The post GitHub Copilot for Jira — Public preview enhancements appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1057,17 +1090,6 @@
       "author": "simonjj",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Trace any Copilot coding agent commit to its session logs",
-      "link": "https://github.blog/changelog/2026-03-20-trace-any-copilot-coding-agent-commit-to-its-session-logs",
-      "published": "2026-03-20T12:21:49+00:00",
-      "summary": "Every commit from Copilot coding agent, our cloud-based background agent, is authored by Copilot, with the human who gave Copilot the task marked as the co-author. This makes it easier… The post Trace any Copilot coding agent commit to its session logs appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Designing an Azure Disaster Recovery Strategy for Enterprise Workloads",
@@ -2606,17 +2628,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "dchelupati",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Announcing general availability for the Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-general-availability-for-the-azure-sre-agent/ba-p/4500682",
-      "published": "2026-03-10T14:00:00+00:00",
-      "summary": "Today, we’re excited to announce the General Availability (GA) of Azure SRE Agent— your AI‑powered operations teammate that helps organizations improve uptime, reduce incident impact, and cut operational toil by accelerating diagnosis and automating response workflows. This GA release represents a...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Mayunk_Jain",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -12521,5 +12532,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Microsoft’s updates centered on data platform modernization and AI-assisted development: Microsoft Fabric mirroring expanded with Cosmos DB mirroring now generally available with private endpoints and Azure Database for MySQL mirroring entering preview, while Azure SQL Managed Instance introduced change event streaming in public preview. Azure Database for PostgreSQL also saw a strong migration push, with GA support for EDB and Google AlloyDB migrations, pg_cron custom time zones, and online migration moving to the `pgoutput` plugin.\n\nOn the app and infrastructure side, AKS added blue-green agent pool upgrades in preview, Aspire on Azure App Service reached general availability, and Azure Functions for Service Bus added partial failure handling for triggers to give per-message control. GitHub and Copilot announcements focused on governance and measurement—updating Copilot interaction data usage, privacy terms, and metrics for active coding agent users—while developer tooling expanded with GitHub Copilot CLI for infrastructure deployments and the VS Code 1.113 release."
+  "summary": "Today’s Azure blog highlights **Shared Agent Context** on **Apps on Azure**, focusing on how Microsoft is enabling **partner AI agents to collaborate more effectively** by sharing context across systems. The key theme is improved **multi-agent interoperability**—helping agents built by different partners coordinate tasks with richer shared state and context, which is important for enterprise workflows and composable AI applications on Azure."
 }
