@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-26T09:50:48.360847+00:00",
+  "lastUpdated": "2026-03-26T12:44:47.087268+00:00",
   "totalArticles": 1139,
   "articles": [
     {
@@ -23,6 +23,17 @@
       "author": "siddhigupta",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Building Search-Enabled Agents with Azure AI Foundry and Semantic Kernel and A2A",
+      "link": "https://devblogs.microsoft.com/ise/building-bing-search-enabled-agent-with-microsoft-foundry-and-semantic-kernel/",
+      "published": "2026-03-26T07:00:00+00:00",
+      "summary": "A step-by-step guide to enable search in the semantic kernel agents using bing grounding in Azure Foundry AI Agent using A2A. The post Building Search-Enabled Agents with Azure AI Foundry and Semantic Kernel and A2A appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Munish Malhotra",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Shared Agent Context: How We Are Tackling Partner Agent Collaboration",
@@ -7450,17 +7461,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Accelerating AI Development with GitHub Copilot: Real-World Use-Cases",
-      "link": "https://devblogs.microsoft.com/ise/accelerating-ai-development-with-github-copilot-real-world-use-cases/",
-      "published": "2025-12-01T08:00:00+00:00",
-      "summary": "This blog post shares real-world experiences from Microsoft's ISE team using GitHub Copilot to accelerate AI development workflows, demonstrating how AI tools can significantly speed up tasks like creating documentation, class diagrams, data visualizations, and demo scripts when used by experienced...",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "isedevblog",
-      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Securing Confidential VM Backups with Azure Recovery Services Vault and Private Endpoints",
       "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/securing-confidential-vm-backups-with-azure-recovery-services/ba-p/4458965",
       "published": "2025-11-29T08:26:10+00:00",
@@ -12532,5 +12532,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure blog highlights two major themes: securing enterprise generative AI development and improving multi-agent collaboration. The Azure Infrastructure post focuses on guardrails for generative AI in developer workflows, emphasizing security, governance, and risk reduction around how AI is used in software development, while the Apps on Azure post introduces “Shared Agent Context,” an approach for enabling partner agents to collaborate more effectively by sharing context across agent interactions.\n\nTogether, the announcements show Azure pushing both safer AI adoption and more capable agent-based application patterns—especially for organizations building with generative AI and coordinated AI agents."
+  "summary": "Today’s Azure blogs focus on making enterprise AI agents safer, more useful, and more collaborative. Azure highlighted **guardrails for generative AI** to secure developer workflows, plus new patterns for building **search-enabled agents** using **Azure AI Foundry**, **Semantic Kernel**, and **A2A**, emphasizing grounded retrieval and agent orchestration.\n\nA second major theme is **multi-agent interoperability**: the **Shared Agent Context** post outlines how Azure is approaching partner agent collaboration so agents can share context and work together across app boundaries. Overall, the announcements center on secure GenAI development, retrieval-augmented agent design, and standards-based collaboration between agents."
 }
