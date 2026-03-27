@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-27T18:40:52.695742+00:00",
+  "lastUpdated": "2026-03-27T21:24:30.952515+00:00",
   "totalArticles": 1138,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "How Microsoft Defender protects high-value assets in real-world attack scenarios",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/03/27/microsoft-defender-protects-high-value-assets/",
+      "published": "2026-03-27T19:53:53+00:00",
+      "summary": "High-value assets including domain controllers, web servers, and identity infrastructure are frequent targets in sophisticated attacks. Microsoft Defender applies asset-aware protection using Microsoft Security Exposure Management to detect and block threats against these critical systems. This...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Defender Security Research Team",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "What AI Agents for Modernization Look Like in Practice",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-ai-agents-for-modernization-look-like-in-practice/ba-p/4506366",
+      "published": "2026-03-27T19:50:30+00:00",
+      "summary": "We’ve all been put onto an initiative to “modernize” our company’s applications. But talk about a haphazard and confusing project to be put on. Apps are older than anyone first thought, there are dependencies nobody can explain, and business critical services blocked behind another team's roadmap....",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "PabloLopes",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Building the agentic future together at JDConf 2026",
@@ -2192,17 +2214,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "New Microsoft Purview innovations for Fabric to safely accelerate your AI transformation",
-      "link": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/new-microsoft-purview-innovations-for-fabric-to-safely-accelerate-your-ai-transf/4502156",
-      "published": "2026-03-16T17:10:00+00:00",
-      "summary": "As organizations adopt AI, security and governance remain core primitives for safe AI transformation and acceleration. The post New Microsoft Purview innovations for Fabric to safely accelerate your AI transformation appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Darren Portillo",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Now in Foundry: VibeVoice-ASR, MiniMax M2.5, Qwen3.5-9B",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/now-in-foundry-vibevoice-asr-minimax-m2-5-qwen3-5-9b/ba-p/4500475",
       "published": "2026-03-16T16:41:34+00:00",
@@ -2750,17 +2761,6 @@
       "blogId": "azureinfrastructureblog",
       "author": "SamhithaGurumurthy",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "What's new in Azure SRE Agent in the GA release",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-sre-agent-in-the-ga-release/ba-p/4500779",
-      "published": "2026-03-10T15:03:50+00:00",
-      "summary": "Azure SRE Agent is now generally available (read the GA announcement). . After months in preview with teams across Microsoft and early customers, here's what's shipping at GA. We use SRE Agent in our team We built SRE Agent to solve our own operational problems first. It investigates our...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "dchelupati",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12521,5 +12521,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft ecosystem posts centered on enterprise AI, developer tooling, and secure cloud integration. The biggest themes were **agentic AI** and **Copilot extensibility**—with **JDConf 2026** focused on building “agentic” applications on Azure, **Copilot Notebooks** adding improvements for content creation, collaboration, and learning workflows, and a new **Microsoft Copilot Connector v2 for Veeva Vault** aimed at bringing regulated life sciences content into Copilot experiences.\n\nOn the infrastructure and developer side, Microsoft highlighted more robust cloud engineering patterns and privacy-focused AI. Notable announcements included a guide to **unit testing Helm charts with Terratest** for type-safe Kubernetes validation, a hands-on project using **Foundry Local, RAG, and SQLite** to build an **offline AI interview coach**, and **Azure Maps Private Endpoints (Preview)**, which adds more secure, private network access to Azure Maps services."
+  "summary": "Today’s Azure-related posts centered on **AI agents, Copilot extensibility, and secure enterprise infrastructure**. Microsoft highlighted practical **AI modernization agents on Azure**, community work on an **offline AI interview coach using Foundry Local, RAG, and SQLite**, and new **Copilot** capabilities including **Notebooks enhancements for creation/collaboration/learning** and **Copilot Connector v2 for Veeva Vault** to bring regulated content into Microsoft 365 experiences.\n\nOn the platform and security side, Microsoft detailed how **Microsoft Defender** protects **high-value assets** in real attack scenarios, introduced **Azure Maps Private Endpoints (Preview)** for more isolated network access, and shared engineering guidance on **type-safe Helm chart unit testing with Terratest**. JDConf 2026 messaging reinforced the broader theme that Microsoft is building an **agentic future** with developers and Java teams on Azure."
 }
