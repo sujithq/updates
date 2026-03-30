@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T07:13:48.076053+00:00",
+  "lastUpdated": "2026-03-30T10:05:09.769971+00:00",
   "totalArticles": 1137,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "From Toil to Trust: How Azure SRE Agent Is Redefining Cloud Operations",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-toil-to-trust-how-azure-sre-agent-is-redefining-cloud/ba-p/4505875",
+      "published": "2026-03-30T07:59:46+00:00",
+      "summary": "As Azure environments scale, infrastructure teams face a familiar challenge: operating reliably at scale.Outages are no longer caused by a single VM or misconfigured service—they emerge from complex dependencies across compute, networking, storage, and platform services. Azure SRE Agent is designed...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "siddhigupta",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Building Your First Local RAG Application with Foundry Local",
@@ -5940,17 +5951,6 @@
       "blogId": "azurecompute",
       "author": "PulkitMisra",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "RAIDDR: Redefining Memory Reliability",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/raiddr-redefining-memory-reliability/ba-p/4487951",
-      "published": "2026-01-20T23:42:19+00:00",
-      "summary": "Introduction As datacenters scale to support modern digital life, so does the challenge of keeping memory reliable. Even very rare DRAM faults can translate into an unacceptable number of uncorrectable or silent errors at scale, making robust error correction (ECC) a must. Yet, traditional ECC...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "TerryGrunzke",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12510,5 +12510,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focused on practical developer tooling, observability, and secure enterprise networking. The Azure Dev Community highlighted **Foundry Local** for building a first **local RAG application**, emphasizing local AI app development and retrieval workflows; Apps on Azure introduced **Browser Activity Logs in Playwright Workspaces** to improve visibility into **cloud browser usage** and test activity; and Azure Infrastructure detailed patterns for **synchronizing Azure Storage across isolated private endpoint networks**, addressing secure data movement in segmented environments.\n\nOverall, the themes were **local generative AI development**, **better monitoring for browser-based testing**, and **storage/data synchronization across tightly locked-down Azure network architectures**."
+  "summary": "Today’s Azure posts centered on AI-assisted operations, local GenAI development, and tighter cloud-network observability. Microsoft highlighted **Azure SRE Agent** as an AI-driven operations capability for Azure Infrastructure, introduced **Foundry Local** for building a first **local RAG app** that pairs retrieval with local model/runtime workflows, and added **Browser Activity Logs in Playwright Workspaces** to improve visibility into **cloud browser** usage.\n\nOn the infrastructure side, Azure also focused on enterprise networking and data movement with guidance for **synchronizing Azure Storage across isolated Private Endpoint networks**, addressing scenarios where storage must be replicated or coordinated across tightly segmented private environments."
 }
