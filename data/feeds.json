@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T10:05:09.769971+00:00",
+  "lastUpdated": "2026-03-30T12:46:32.012075+00:00",
   "totalArticles": 1137,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "CI/CD as a Platform: Shipping Microservices and AI Agents with Reusable GitHub Actions Workflows",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/ci-cd-as-a-platform-shipping-microservices-and-ai-agents-with/ba-p/4504550",
+      "published": "2026-03-30T10:48:39+00:00",
+      "summary": "The First Shift — Treating CI/CD as a Platform The first insight is straightforward but underused: Your CI/CD logic is infrastructure. It deserves the same design discipline as your application code. That means centralizing it. Versioning it. Exposing it as reusable, callable workflows — not...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "nasreensarah",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "From Toil to Trust: How Azure SRE Agent Is Redefining Cloud Operations",
@@ -5391,17 +5402,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Deep dive into the Maia 200 architecture",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/deep-dive-into-the-maia-200-architecture/ba-p/4489312",
-      "published": "2026-01-30T17:59:43+00:00",
-      "summary": "Maia 200 is a breakthrough inference architecture engineered to dramatically shift the economics of large-scale token generation. As Microsoft’s first silicon and system platform optimized specifically for AI inference, Maia 200 is built for modern reasoning and large language models, delivering...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "sdighe",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Azure Local LENS workbook—deep insights at scale, in minutes",
@@ -12510,5 +12510,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on AI-assisted operations, local GenAI development, and tighter cloud-network observability. Microsoft highlighted **Azure SRE Agent** as an AI-driven operations capability for Azure Infrastructure, introduced **Foundry Local** for building a first **local RAG app** that pairs retrieval with local model/runtime workflows, and added **Browser Activity Logs in Playwright Workspaces** to improve visibility into **cloud browser** usage.\n\nOn the infrastructure side, Azure also focused on enterprise networking and data movement with guidance for **synchronizing Azure Storage across isolated Private Endpoint networks**, addressing scenarios where storage must be replicated or coordinated across tightly segmented private environments."
+  "summary": "Today’s Azure posts centered on operational automation and secure cloud engineering: Microsoft highlighted reusable GitHub Actions workflows as a CI/CD platform for shipping microservices and AI agents, introduced the Azure SRE Agent to reduce manual ops toil with more autonomous site reliability practices, and detailed a pattern for synchronizing Azure Storage across isolated networks connected via Private Endpoints. On the developer side, Azure also showcased building a local RAG app with Foundry Local and added Browser Activity Logs in Playwright Workspaces to improve visibility into cloud browser usage, underscoring a broader push around AI development, observability, and enterprise-grade platform tooling."
 }
