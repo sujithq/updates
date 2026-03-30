@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T18:43:36.211876+00:00",
+  "lastUpdated": "2026-03-30T21:32:10.449225+00:00",
   "totalArticles": 1137,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Copilot Notebooks: Enhancements to support creation, collaboration and learning",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-enhancements-to-support-creation-collaboration/ba-p/4505360",
+      "published": "2026-03-30T20:32:10+00:00",
+      "summary": "Copilot Notebooks are AI-powered workspaces for a project or topic built on your reference materials—bringing together your work context behind a project in one place for you, your team members, and Copilot to collaborate on. Whether you need a mind map to better understand a complex concept or a...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "ezrapark",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Public Preview: Ephemeral OS Disk with full caching for VM/VMSS",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/public-preview-ephemeral-os-disk-with-full-caching-for-vm-vmss/ba-p/4500191",
+      "published": "2026-03-30T19:37:31+00:00",
+      "summary": "Today, we’re excited to announce the public preview of Ephemeral OS disk with full caching, a new feature designed to significantly enhance performance and reliability by utilizing local storage. This feature is ideal for IO-sensitive stateless workloads, as it eliminates dependency on remote...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "viveksingla",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "ExpressRoute Gateway Microsoft initiated migration",
@@ -100,17 +122,6 @@
       "author": "Rujun Chen",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Copilot Notebooks: Enhancements to support creation, collaboration and learning",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-enhancements-to-support-creation-collaboration/ba-p/4505360",
-      "published": "2026-03-30T14:50:32+00:00",
-      "summary": "Copilot Notebooks are AI-powered workspaces for a project or topic built on your reference materials—bringing together your work context behind a project in one place for you, your team members, and Copilot to collaborate on. Whether you need a mind map to better understand a complex concept or a...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "ezrapark",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Introducing multi-model intelligence in Researcher",
@@ -9969,17 +9980,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Power stabilization for AI training datacenters",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/power-stabilization-for-ai-training-datacenters/ba-p/4460937",
-      "published": "2025-10-14T00:00:00+00:00",
-      "summary": "Microsoft’s compute powers some of the most advanced AI services globally. We have partnered closely with OpenAI and Nvidia to deliver some of the largest supercomputers, which have served as a foundation for innovations like ChatGPT. Operationalizing these massive-scale supercomputers has required...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "BrijeshW",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "What's new in Microsoft Security Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-security-copilot-blog/what-s-new-in-microsoft-security-copilot/ba-p/4460703",
       "published": "2025-10-10T16:24:10+00:00",
@@ -12510,5 +12510,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure ecosystem news is dominated by AI platform expansion and operational modernization. Azure AI Foundry added new foundation models—NVIDIA Nemotron-3-Super-120B-A12B, IBM Granite-4.0-1b-Speech, and Sarvam-105B—while Azure Speech highlighted Neural HD Text to Speech voice updates, Foundry Local walked through building a local RAG app, and Microsoft 365 Copilot introduced multi-model intelligence in Researcher plus better Copilot Notebooks for creation and collaboration; security coverage also focused on agentic AI, with guidance on addressing OWASP Top 10 risks in Microsoft Copilot Studio.\n\nOn the infrastructure side, Microsoft announced ExpressRoute Gateway Microsoft-initiated migration, GA availability of Azure Premium SSD v2 Disk in South India, and guidance for synchronizing Azure Storage across isolated private endpoint networks, alongside posts on Azure SRE Agent, reusable GitHub Actions for CI/CD of microservices and AI agents, and Spring Cloud Azure testing with Docker. The biggest lifecycle update is that Azure Cosmos DB for PostgreSQL will retire on March 31, 2029, signaling a long-term transition point for customers using that service."
+  "summary": "Today’s Azure and Microsoft cloud news centered on AI, cloud infrastructure modernization, and security. On the AI side, Microsoft highlighted Copilot Notebooks and Researcher multi-model intelligence in Microsoft 365 Copilot, new Azure AI Foundry model additions including NVIDIA Nemotron-3-Super-120B-A12B, IBM Granite-4.0-1b-Speech, and Sarvam-105B, plus Azure Speech Neural HD Text-to-Speech voice updates and guidance for building local RAG apps with Foundry Local.\n\nOn the platform side, Azure announced public preview support for Ephemeral OS Disk with full caching for VMs/VMSS, General Availability of Premium SSD v2 in South India, and Microsoft-initiated ExpressRoute Gateway migration, while also signaling long-term portfolio change with Azure Cosmos DB for PostgreSQL retiring on March 31, 2029. Security and operations were another major theme, with posts on OWASP Top 10 risks in agentic AI using Microsoft Copilot Studio, GitHub security for beginners, reusable GitHub Actions for CI/CD across microservices and AI agents, Azure SRE Agent for cloud operations, Spring Cloud Azure unit testing with Docker, private endpoint storage synchronization, Playwright Workspace browser activity logs, and a preview look at Kubernetes v1.36."
 }
