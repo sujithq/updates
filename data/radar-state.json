@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-23T08:32:15.478006+00:00",
+  "lastUpdated": "2026-03-30T08:57:31.805663+00:00",
   "features": {
     "Azure SQL mid-March 2026 updates": {
       "status": "ga",
@@ -14,8 +14,8 @@
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/microsoft-sentinel-is-now-supported-in-unified-rbac-with-row/ba-p/4503121",
       "title": "Microsoft Sentinel is now supported in Unified RBAC with row-level access",
       "service": "Microsoft Sentinel",
-      "lastSeen": "2026-03-23T08:32:15.477942+00:00",
-      "published": "2026-03-20T15:30:00+00:00"
+      "lastSeen": "2026-03-30T08:57:31.805660+00:00",
+      "published": "2026-03-23T17:31:35+00:00"
     },
     "Actions Runner Controller 0.14.0": {
       "status": "ga",
@@ -248,6 +248,198 @@
       "service": "SQL Server Management Studio",
       "lastSeen": "2026-03-23T08:32:15.477967+00:00",
       "published": "2026-03-18T18:15:04+00:00"
+    },
+    "Private endpoints support": {
+      "status": "preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-maps-blog/azure-maps-adds-support-to-private-endpoints-preview/ba-p/4505743",
+      "title": "Azure Maps Adds Support to Private Endpoints (Preview)",
+      "service": "Azure Maps",
+      "lastSeen": "2026-03-30T08:57:31.805603+00:00",
+      "published": "2026-03-27T00:23:58+00:00"
+    },
+    "Pull requests dashboard": {
+      "status": "preview",
+      "link": "https://github.blog/changelog/2026-03-26-new-pull-requests-dashboard-is-in-public-preview",
+      "title": "New pull requests dashboard is in public preview",
+      "service": "GitHub",
+      "lastSeen": "2026-03-30T08:57:31.805614+00:00",
+      "published": "2026-03-26T17:00:33+00:00"
+    },
+    "Custom images for GitHub-hosted runners": {
+      "status": "ga",
+      "link": "https://github.blog/changelog/2026-03-26-custom-images-for-github-hosted-runners-are-now-generally-available",
+      "title": "Custom images for GitHub-hosted runners are now generally available",
+      "service": "GitHub Actions",
+      "lastSeen": "2026-03-30T08:57:31.805617+00:00",
+      "published": "2026-03-26T14:30:13+00:00"
+    },
+    "Private endpoints for Cosmos DB Mirroring in Fabric": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=558836",
+      "title": "[Launched] Generally Available: Cosmos DB Mirroring in Microsoft Fabric with private endpoints",
+      "service": "Microsoft Fabric",
+      "lastSeen": "2026-03-30T08:57:31.805620+00:00",
+      "published": "2026-03-25T20:00:39+00:00"
+    },
+    "Blue-green agent pool upgrade": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=557862",
+      "title": "[In preview] Public Preview: Blue-green agent pool upgrade in AKS",
+      "service": "Azure Kubernetes Service",
+      "lastSeen": "2026-03-30T08:57:31.805622+00:00",
+      "published": "2026-03-25T20:00:39+00:00"
+    },
+    "Fabric Mirroring integration": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=558841",
+      "title": "[In preview] Public Preview: Fabric Mirroring integration for Azure Database for MySQL",
+      "service": "Azure Database for MySQL",
+      "lastSeen": "2026-03-30T08:57:31.805624+00:00",
+      "published": "2026-03-25T17:45:33+00:00"
+    },
+    "Change event streaming": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=558884",
+      "title": "[Launched] Public Preview: Azure SQL Managed Instance change event streaming",
+      "service": "Azure SQL Managed Instance",
+      "lastSeen": "2026-03-30T08:57:31.805626+00:00",
+      "published": "2026-03-25T17:30:45+00:00"
+    },
+    "Custom time zone support for pg_cron": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=558870",
+      "title": "[Launched] Generally Available: Custom time zone support for pg_cron via cron.timezone in Azure Database for PostgreSQL",
+      "service": "Azure Database for PostgreSQL",
+      "lastSeen": "2026-03-30T08:57:31.805628+00:00",
+      "published": "2026-03-25T17:30:45+00:00"
+    },
+    "EDB source support in PostgreSQL migration service": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=558865",
+      "title": "[Launched] Generally Available: PostgreSQL migration service supports compatible EDB workloads into Azure Database for PostgreSQL",
+      "service": "Azure Database for PostgreSQL",
+      "lastSeen": "2026-03-30T08:57:31.805630+00:00",
+      "published": "2026-03-25T17:30:45+00:00"
+    },
+    "Google AlloyDB source support in PostgreSQL migration service": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=558851",
+      "title": "[Launched] Generally Available: PostgreSQL migration service supports for Google AlloyDB into Azure Database for PostgreSQL",
+      "service": "Azure Database for PostgreSQL",
+      "lastSeen": "2026-03-30T08:57:31.805631+00:00",
+      "published": "2026-03-25T17:30:45+00:00"
+    },
+    "pgoutput plugin for online migration": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=558846",
+      "title": "[Launched] Generally Available: Online migration now uses the pgoutput plugin",
+      "service": "Azure Database for PostgreSQL",
+      "lastSeen": "2026-03-30T08:57:31.805633+00:00",
+      "published": "2026-03-25T17:30:45+00:00"
+    },
+    "Aspire on Azure App Service": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/aspire-on-azure-app-service-is-now-generally-available/ba-p/4505549",
+      "title": "Aspire on Azure App Service is now Generally Available",
+      "service": "Azure App Service",
+      "lastSeen": "2026-03-30T08:57:31.805635+00:00",
+      "published": "2026-03-25T14:04:28+00:00"
+    },
+    "Container network metrics filtering": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=557902",
+      "title": "[Launched] Generally Available: Container network metrics filtering for AKS",
+      "service": "Azure Kubernetes Service",
+      "lastSeen": "2026-03-30T08:57:31.805638+00:00",
+      "published": "2026-03-24T23:00:18+00:00"
+    },
+    "AI Agent for container networking troubleshooting": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=557887",
+      "title": "[In preview] Public Preview: AI Agent for container networking troubleshooting",
+      "service": "Azure Kubernetes Service",
+      "lastSeen": "2026-03-30T08:57:31.805640+00:00",
+      "published": "2026-03-24T21:45:26+00:00"
+    },
+    "Managed GPU metrics": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=557882",
+      "title": "[In preview] Public Preview: AKS managed GPU metrics in Azure Monitor",
+      "service": "Azure Kubernetes Service",
+      "lastSeen": "2026-03-30T08:57:31.805642+00:00",
+      "published": "2026-03-24T18:30:36+00:00"
+    },
+    "Cross-cluster networking": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=557877",
+      "title": "[In preview] Public Preview: Cross-cluster networking in Azure Kubernetes Fleet Manager",
+      "service": "Azure Kubernetes Fleet Manager",
+      "lastSeen": "2026-03-30T08:57:31.805644+00:00",
+      "published": "2026-03-24T18:30:36+00:00"
+    },
+    "Azure Container Storage v2.1.0": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=557912",
+      "title": "[Launched] Generally Available: Azure Container Storage v2.1.0 now with Elastic SAN integration and on demand installation",
+      "service": "Azure Container Storage",
+      "lastSeen": "2026-03-30T08:57:31.805646+00:00",
+      "published": "2026-03-24T18:15:48+00:00"
+    },
+    "Container network logs": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=557892",
+      "title": "[Launched] Generally Available: Container network logs in AKS",
+      "service": "Azure Kubernetes Service",
+      "lastSeen": "2026-03-30T08:57:31.805647+00:00",
+      "published": "2026-03-24T18:15:48+00:00"
+    },
+    "Prometheus community recommended alerts": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=558825",
+      "title": "[Launched] Generally Available: Azure Monitor Prometheus community recommended alerts for Azure Arc-enabled Kubernetes",
+      "service": "Azure Monitor",
+      "lastSeen": "2026-03-30T08:57:31.805649+00:00",
+      "published": "2026-03-24T17:30:29+00:00"
+    },
+    "Application routing with meshless Istio": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=557927",
+      "title": "[In preview] Public Preview: Application routing with meshless Istio in AKS",
+      "service": "Azure Kubernetes Service",
+      "lastSeen": "2026-03-30T08:57:31.805651+00:00",
+      "published": "2026-03-24T17:30:29+00:00"
+    },
+    "Azure Kubernetes Application Network": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=557922",
+      "title": "[In preview] Public Preview: Microsoft Azure Kubernetes Application Network",
+      "service": "Azure Kubernetes Service",
+      "lastSeen": "2026-03-30T08:57:31.805653+00:00",
+      "published": "2026-03-24T17:30:29+00:00"
+    },
+    "OTLP data ingestion with OpenTelemetry Collector": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=559273",
+      "title": "[In preview] Public Preview: Ingest OTLP data into Azure Monitor with the OpenTelemetry Collector",
+      "service": "Azure Monitor",
+      "lastSeen": "2026-03-30T08:57:31.805654+00:00",
+      "published": "2026-03-24T17:15:45+00:00"
+    },
+    "Argo CD extension": {
+      "status": "preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/announcing-public-preview-of-argo-cd-extension-on-aks-and-azure/ba-p/4504497",
+      "title": "Announcing Public Preview of Argo CD extension on AKS and Azure Arc enabled Kubernetes clusters",
+      "service": "Azure Arc",
+      "lastSeen": "2026-03-30T08:57:31.805656+00:00",
+      "published": "2026-03-24T08:00:00+00:00"
+    },
+    "Priority Processing": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/announcing-priority-processing-in-microsoft-foundry-for/ba-p/4504788",
+      "title": "Announcing Priority Processing in Microsoft Foundry for Performance-Sensitive AI Workloads",
+      "service": "Microsoft Foundry",
+      "lastSeen": "2026-03-30T08:57:31.805658+00:00",
+      "published": "2026-03-23T21:10:57+00:00"
     }
   }
 }
