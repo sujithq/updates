@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-27T09:03:54.223140+00:00",
+  "lastUpdated": "2026-03-31T09:12:43.101296+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -352,6 +352,28 @@
       "detected": "2026-03-27T09:03:54.223128+00:00",
       "published": "2026-03-26T18:46:54+00:00",
       "blog": "GitHub Changelog"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=550519",
+      "title": "Retirement: Deprecation of sidecar for remote-write for Azure Monitor managed service for Prometheus",
+      "severity": "warning",
+      "deadline": "2027-03-31",
+      "impact": "Azure Monitor Prometheus sidecar remote-write deprecated for self-hosted collectors",
+      "action": "Migrate to self-hosted OpenTelemetry Collector remote write to Azure Monitor",
+      "detected": "2026-03-31T09:12:43.101280+00:00",
+      "published": "2026-03-30T21:30:50+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=556085",
+      "title": "Retirement: Azure Cosmos DB for PostgreSQL will retire on March 31, 2029",
+      "severity": "warning",
+      "deadline": "2029-03-31",
+      "impact": "Azure Cosmos DB for PostgreSQL retires; users must move to Elastic Cluster",
+      "action": "Plan and migrate to Azure Database for PostgreSQL Elastic Cluster",
+      "detected": "2026-03-31T09:12:43.101291+00:00",
+      "published": "2026-03-30T17:45:08+00:00",
+      "blog": "Azure Updates"
     }
   ]
 }
