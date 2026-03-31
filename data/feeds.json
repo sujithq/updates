@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T18:43:51.622202+00:00",
+  "lastUpdated": "2026-03-31T21:27:40.601692+00:00",
   "totalArticles": 1138,
   "articles": [
     {
@@ -11,6 +11,50 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Simplify troubleshooting at scale - Centralized Log Management for CycleCloud Workspace for Slurm",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/simplify-troubleshooting-at-scale-centralized-log-management-for/ba-p/4470658",
+      "published": "2026-03-31T21:17:04+00:00",
+      "summary": "Training large AI models on hundreds or thousands of nodes introduces a critical operational challenge: when a distributed job fails, quickly identifying the root cause across scattered logs can become incredibly time-consuming. This manual process delays recovery and reduces cluster utilization....",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "jesselopez",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Microsoft Sentinel is now supported in Unified RBAC with row-level access",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/microsoft-sentinel-is-now-supported-in-unified-rbac-with-row/ba-p/4503121",
+      "published": "2026-03-31T20:25:27+00:00",
+      "summary": "Enabling streamlined, granular, and scalable permissions We’re excited to announce the Public Preview of Unified Role Based Access Control (URBAC) for Microsoft Sentinel, together with row-level access. This new capability, available in April, extends the Microsoft Defender Unified RBAC model to...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "tomasbeerthuis",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Retirement: External Data Import & Data Connections in Azure Machine Learning will be retired on September 30, 2026",
+      "link": "https://azure.microsoft.com/updates?id=557406",
+      "published": "2026-03-31T20:00:35+00:00",
+      "summary": "Import data from external sources (Preview) – S3, Snowflake, Azure SQL Db along with external Data Connections (Preview) in Azure Machine Learning are being deprecated. These features will no longer be available after September 30, 2026. What this means",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure DevOps March 2026 updates",
+      "link": "https://azure.microsoft.com/updates?id=559660",
+      "published": "2026-03-31T18:15:10+00:00",
+      "summary": "The following updates were made to Azure DevOps in March 2026. The Remote MCP Server entered public preview, enabling seamless AI-powered integration with Azure DevOps without requiring a local server. Security improvements included",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -1353,17 +1397,6 @@
       "blogId": "messagingonazureblog",
       "author": "Connected-Seth",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Microsoft Sentinel is now supported in Unified RBAC with row-level access",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/microsoft-sentinel-is-now-supported-in-unified-rbac-with-row/ba-p/4503121",
-      "published": "2026-03-23T17:31:35+00:00",
-      "summary": "Enabling streamlined, granular, and scalable permissions We’re excited to announce the Public Preview of Unified Role Based Access Control (URBAC) for Microsoft Sentinel, together with row-level access. This new capability, available in April, extends the Microsoft Defender Unified RBAC model to...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "tomasbeerthuis",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8759,28 +8792,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[In preview] Public Preview: Azure VNet Flow Log - Filtering",
-      "link": "https://azure.microsoft.com/updates?id=527805",
-      "published": "2025-11-18T17:01:02+00:00",
-      "summary": "VNet Flow Log captures IP traffic flowing through VNets, Subnets, & NICs for monitoring, troubleshooting, network optimization, security, and compliance needs. This release introduces advanced filtering capabilities in VNet Flow Logs, empowering users wit",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: ExpressRoute Scalable Gateway",
-      "link": "https://azure.microsoft.com/updates?id=526729",
-      "published": "2025-11-18T17:01:02+00:00",
-      "summary": "ExpressRoute Scalable Gateway (ErGwScale) is our next-generation offering that brings flexibility, performance, and operational simplicity to Virtual Network Gateway deployments. With this release, you can dynamically scale gateway infrastructure to meet",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Announcing the Public Preview of AMLFS 20: Azure Managed Lustre New SKU for Massive AI&HPC Workloads",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/announcing-the-public-preview-of-amlfs-20-azure-managed-lustre/ba-p/4470665",
       "published": "2025-11-18T17:00:00+00:00",
@@ -10241,17 +10252,6 @@
       "blogId": "azurepaasblog",
       "author": "ManjunathS",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Explore HPC & AI Innovation: Microsoft + AMD at HPC Roundtable 2025",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/explore-hpc-ai-innovation-microsoft-amd-at-hpc-roundtable-2025/ba-p/4457974",
-      "published": "2025-09-29T20:12:58+00:00",
-      "summary": "Explore how Microsoft and AMD are accelerating HPC and AI innovation at the HPC Roundtable 2025 in Turin. On September 30th, the city of Turin will host the HPC Roundtable 2025, a premier gathering of leaders and innovators in high-performance computing (HPC) and AI infrastructure. Organized by...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "Fernando_Aznar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12521,5 +12521,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news was dominated by **event-driven architecture, AI agents, and platform/security modernization**. Microsoft announced **Azure Event Grid**’s new capabilities in both **public preview and GA**, emphasizing smarter and more secure event routing, with a concrete payments use case via **Stripe + Event Grid**; it also expanded core platform capabilities with **user delegation SAS for Azure Tables, Files, and Queues**, a new **Denmark Azure region**, **Premium SSD v2 in US Gov Arizona**, and ongoing investment in **Azure App Service**.  \n\nOn the AI and developer side, Microsoft highlighted **Azure AI Foundry** updates including **Neural HD Text to Speech** voice improvements and **user-scoped persistent memory for adaptive agents**, alongside **Aspire 13.2 telemetry/export enhancements**, **Visual Studio custom agents**, and **GitHub/CodeQL** updates for **secret scanning, Swift 6.2.4 support, and broader security insights**; security messaging also featured heavily, with guidance on **AI security for CISOs**, evolving **critical infrastructure readiness**, and threat intel on a **WhatsApp-delivered VBScript/MSI malware campaign**."
+  "summary": "Azure’s biggest themes today are event-driven architecture, security/governance, and developer productivity. Azure Event Grid stood out with both preview and GA announcements for smarter, more secure eventing, plus a Stripe integration for event-driven payments; Microsoft also shipped GA support for user delegation SAS across Azure Tables, Files, and Queues, expanded Azure availability with a new Denmark region and Premium SSD v2 in US Gov Arizona, and highlighted continued investment in Azure App Service and CycleCloud Workspace centralized log management for Slurm-based HPC troubleshooting.\n\nOn the security and AI side, Microsoft Sentinel now supports Unified RBAC with row-level access, GitHub expanded secret scanning coverage, and Microsoft published guidance on critical infrastructure readiness and securing AI for CISOs. Developer and AI platform updates included Azure DevOps March 2026 GA, Visual Studio custom agents, Copilot Applied Science’s agent-driven development, Aspire 13.2 telemetry/export improvements, Azure Speech Neural HD Text to Speech voice updates, Microsoft 365 Copilot March news, and an Azure Machine Learning retirement notice for External Data Import/Data Connections effective September 30, 2026."
 }
