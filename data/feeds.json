@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T07:00:08.700584+00:00",
+  "lastUpdated": "2026-03-31T09:53:41.598369+00:00",
   "totalArticles": 1138,
   "articles": [
     {
@@ -11,6 +11,28 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Subscription Vending in Azure: An Implementation Overview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/subscription-vending-in-azure-an-implementation-overview/ba-p/4506350",
+      "published": "2026-03-31T07:48:15+00:00",
+      "summary": "Subscription vending is a process that enables the creation of multiple Azure subscriptions using code, based on organizational segregation or workload-specific requirements. Rather than relying on resource groups as the primary boundary, this approach treats subscriptions as the fundamental unit...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "abhilashasr",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "EU data residency region expanding to include EFTA countries",
+      "link": "https://github.blog/changelog/2026-03-31-eu-data-residency-region-expanding-to-include-efta-countries",
+      "published": "2026-03-31T07:00:25+00:00",
+      "summary": "Starting May 1, 2026, the EU data residency region for GitHub Enterprise Cloud on ghe.com will include Azure infrastructure in EFTA (European Free Trade Association) countries—specifically Norway and Switzerland—in addition… The post EU data residency region expanding to include EFTA countries...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -638,17 +660,6 @@
       "blogId": "githubblog",
       "author": "Mario Rodriguez",
       "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Updates to our Privacy Statement and Terms of Service: How we use your data",
-      "link": "https://github.blog/changelog/2026-03-25-updates-to-our-privacy-statement-and-terms-of-service-how-we-use-your-data",
-      "published": "2026-03-25T18:56:45+00:00",
-      "summary": "Hey GitHub Community, We’ve made some important updates to our Privacy Statement and Terms of Service to keep you informed about how we handle your data. Notably, from April 24… The post Updates to our Privacy Statement and Terms of Service: How we use your data appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -5786,17 +5797,6 @@
       "blogId": "azurearcblog",
       "author": "mindydiep",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Silicon to Systems: How Microsoft Engineers AI Infrastructure from the Ground Up",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/silicon-to-systems-how-microsoft-engineers-ai-infrastructure/ba-p/4489525",
-      "published": "2026-01-27T17:03:17+00:00",
-      "summary": "Every Copilot prompt or Microsoft Teams call runs on infrastructure most users never see. Behind these experiences across general purpose compute and AI is a purpose-built, end-to-end hardware and software system engineered specifically for modern AI workloads. Microsoft’s investment in custom...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Alistair_Speirs",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12521,5 +12521,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts center on modern app development across payments, AI, and infrastructure tooling. Microsoft highlighted an event-driven payments architecture using Stripe with Azure Event Grid, while the March 2026 Azure Developer CLI update adds local run/debug support for AI agents, GitHub Copilot integration, and Azure Container Apps Jobs workflows to streamline cloud-native development.\n\nA third post focuses on the VS Code Azure Infrastructure extension, reinforcing Microsoft’s push to make provisioning and managing Azure infrastructure more directly accessible from the developer IDE."
+  "summary": "Today’s Azure posts centered on cloud governance, regional compliance, event-driven integration, and AI developer tooling. Key announcements included an implementation overview of **Subscription Vending in Azure** for automated landing-zone/subscription provisioning, expansion of **EU data residency** coverage to **EFTA countries** in the **GitHub** ecosystem, and a payments architecture using **Stripe** with **Azure Event Grid** to power event-driven workflows.\n\nOn the developer side, Microsoft highlighted major updates to the **Azure Developer CLI (azd)** for March 2026, including the ability to **run and debug AI agents locally**, tighter **GitHub Copilot** integration, and support for **Azure Container Apps Jobs**; a new **VS Code extension** post also underscored ongoing investment in Azure-centric developer experiences."
 }
