@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T09:53:41.598369+00:00",
+  "lastUpdated": "2026-03-31T12:45:08.828116+00:00",
   "totalArticles": 1138,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "CodeQL pull requests insights on security overview now cover all protected branches",
+      "link": "https://github.blog/changelog/2026-03-31-codeql-pull-requests-insights-on-security-overview-now-cover-all-protected-branches",
+      "published": "2026-03-31T12:07:49+00:00",
+      "summary": "The CodeQL pull request insights tab in GitHub security overview now reports Copilot Autofix and alert statistics from all protected branches, not just the default branch. This gives you a… The post CodeQL pull requests insights on security overview now cover all protected branches appeared first...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "The Durable Task Scheduler Consumption SKU is now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/the-durable-task-scheduler-consumption-sku-is-now-generally/ba-p/4506682",
+      "published": "2026-03-31T12:00:00+00:00",
+      "summary": "Today, we're excited to announce that the Durable Task Scheduler Consumption SKU has reached General Availability. Developers can now run durable workflows and agents on Azure with pay-per-use pricing, no storage to manage, no capacity to plan, and no idle costs. Just create a scheduler, connect...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "greenie-msft",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Subscription Vending in Azure: An Implementation Overview",
@@ -617,17 +639,6 @@
       "author": "ashish-chhabria",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "GitHub Copilot for Jira — Public preview enhancements",
-      "link": "https://github.blog/changelog/2026-03-25-github-copilot-for-jira-public-preview-enhancements",
-      "published": "2026-03-25T21:09:35+00:00",
-      "summary": "Since launching the public preview of GitHub Copilot coding agent for Jira, we’ve been listening closely to customer feedback. Thank you to everyone who has taken the time to try… The post GitHub Copilot for Jira — Public preview enhancements appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "[Launched] Generally Available: Cosmos DB Mirroring in Microsoft Fabric with private endpoints",
@@ -2575,17 +2586,6 @@
       "author": "Kyler Middleton",
       "feedUrl": "https://www.letsdodevops.com/feed",
       "sourceType": "rss"
-    },
-    {
-      "title": "The Agent that investigates itself",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/the-agent-that-investigates-itself/ba-p/4500073",
-      "published": "2026-03-14T16:23:57+00:00",
-      "summary": "Azure SRE Agent handles tens of thousands of incident investigations each week for internal Microsoft services and external teams running it for their own systems. Last month, one of those incidents was about the agent itself. Our KV cache hit rate alert started firing. Cached token percentage was...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "sanchitmehta",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "March Patches for Azure DevOps Server",
@@ -12521,5 +12521,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on cloud governance, regional compliance, event-driven integration, and AI developer tooling. Key announcements included an implementation overview of **Subscription Vending in Azure** for automated landing-zone/subscription provisioning, expansion of **EU data residency** coverage to **EFTA countries** in the **GitHub** ecosystem, and a payments architecture using **Stripe** with **Azure Event Grid** to power event-driven workflows.\n\nOn the developer side, Microsoft highlighted major updates to the **Azure Developer CLI (azd)** for March 2026, including the ability to **run and debug AI agents locally**, tighter **GitHub Copilot** integration, and support for **Azure Container Apps Jobs**; a new **VS Code extension** post also underscored ongoing investment in Azure-centric developer experiences."
+  "summary": "Today’s Azure updates centered on platform automation, regional compliance, and event-driven app development. Key announcements include general availability of the **Durable Task Scheduler Consumption SKU** for orchestrating workflows on Azure, an implementation guide for **Azure Subscription Vending**, and a payments architecture using **Stripe** with **Azure Event Grid** for event-driven processing.\n\nOn the developer tooling side, Microsoft highlighted the March 2026 release of the **Azure Developer CLI (azd)** with local run/debug support for **AI agents**, **GitHub Copilot** integration, and **Container Apps Jobs**, alongside a **VS Code extension** for Azure Infrastructure workflows. Security and governance updates included **CodeQL pull request insights** now covering all protected branches in GitHub’s security overview, and expanded **EU data residency** coverage to include **EFTA countries**."
 }
