@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T01:15:39.060413+00:00",
+  "lastUpdated": "2026-04-01T05:16:45.029786+00:00",
   "totalArticles": 1138,
   "articles": [
     {
@@ -14,6 +14,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "Assess Security risks with Insights in Azure Migrate",
+      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/assess-security-risks-with-insights-in-azure-migrate/ba-p/4470866",
+      "published": "2026-04-01T05:05:22+00:00",
+      "summary": "Why Security matters in Migration Migrating to the cloud is not only about speed and cost efficiency, it's also about building a secure foundation on Azure. As organizations move workloads to Azure, security often slips down the priority list, overshadowed by migration tasks and timelines. But...",
+      "blog": "Azure Migration",
+      "blogId": "azuremigrationblog",
+      "author": "Nikita_Bajaj",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Project Nighthawk: A Research Agent Built for Field Engineering",
+      "link": "https://devblogs.microsoft.com/all-things-azure/project-nighthawk-a-research-agent-built-for-field-engineering/",
+      "published": "2026-04-01T04:24:38+00:00",
+      "summary": "If you work in field engineering, you know the scenario. A customer is deploying AKS in a regulated environment. They hit an issue during node bootstrapping. They want to know exactly what happens when a node joins the cluster, which components run in which order, and whether the behaviour they’re...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "Diego Casati, Ray Kao",
+      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Resolving MachineWithSameBiosIdAndFqdnAlreadyExists During Azure Migrate Mobility Agent Registration",
       "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/resolving-machinewithsamebiosidandfqdnalreadyexists-during-azure/ba-p/4492307",
       "published": "2026-04-01T00:24:27+00:00",
@@ -21,17 +43,6 @@
       "blog": "Azure Migration",
       "blogId": "azuremigrationblog",
       "author": "vihegde",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Assess Security risks with Insights in Azure Migrate",
-      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/assess-security-risks-with-insights-in-azure-migrate/ba-p/4470866",
-      "published": "2026-04-01T00:19:41+00:00",
-      "summary": "Why Security matters in Migration Migrating to the cloud is not only about speed and cost efficiency, it's also about building a secure foundation on Azure. As organizations move workloads to Azure, security often slips down the priority list, overshadowed by migration tasks and timelines. But...",
-      "blog": "Azure Migration",
-      "blogId": "azuremigrationblog",
-      "author": "Nikita_Bajaj",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -4037,17 +4048,6 @@
       "blogId": "azuresdkblog",
       "author": "Ronnie Geraghty",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Measuring actual AI Impact for Engineering with Apache DevLake",
-      "link": "https://devblogs.microsoft.com/all-things-azure/measuring-actual-ai-impact-for-engineering-with-apache-devlake/",
-      "published": "2026-02-26T10:06:19+00:00",
-      "summary": "If you want to skip the explain and get started super quick with adoption + impact insights, use gh-devlake to deploy a GitHub Copilot impact dashboard in a few CLI commands. So! You’ve rolled out GitHub Copilot to your engineering teams. You’ve got the built-in dashboards. You know how many seats...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "Eldrick Wega",
-      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
       "sourceType": "rss"
     },
     {
@@ -12521,5 +12521,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts focused heavily on migration and modernization: Azure Migrate added guidance for fixing the **MachineWithSameBiosIdAndFqdnAlreadyExists** error during **Mobility Agent** registration and highlighted new **Insights** capabilities to assess **security risks** during migration discovery and assessment. Microsoft also published an **AWS-to-Azure migration** piece through a **cloud economics and FinOps** lens, emphasizing cost optimization and business-case planning alongside technical migration.\n\nOn the tooling side, **Visual Studio Code 1.114** was released with the latest editor/platform updates, while the **GitHub Changelog** announced the upcoming deprecation of **Claude Sonnet 4 in GitHub Copilot**, signaling changes for developers using that model in Copilot workflows."
+  "summary": "Today’s Azure-related posts centered on developer tooling, migration modernization, and AI-assisted operations. Microsoft highlighted **Visual Studio Code 1.114**, while Azure Migration posts focused on improving large-scale move scenarios with **Azure Migrate**, including new **security risk assessment insights**, guidance for fixing the **MachineWithSameBiosIdAndFqdnAlreadyExists** mobility agent registration error, and a FinOps-oriented look at **AWS-to-Azure migration** through **cloud economics** and cost optimization.\n\nA second major theme was AI platform change and experimentation: Microsoft shared **Project Nighthawk**, a **research agent for field engineering**, and GitHub announced the upcoming **deprecation of Claude Sonnet 4 in GitHub Copilot**, signaling continued evolution in the AI models and agents available across Microsoft’s developer ecosystem."
 }
