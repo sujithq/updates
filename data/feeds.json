@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T07:07:11.739875+00:00",
+  "lastUpdated": "2026-04-01T09:57:33.266932+00:00",
   "totalArticles": 1138,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Foundry Agents and Custom Engine Agents through the Corporate Firewall",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-agents-and-custom-engine-agents-through-the-corporate/ba-p/4502218",
+      "published": "2026-04-01T08:49:02+00:00",
+      "summary": "It's easy to publish Foundry Agents and your own Custom Engine Agents, so they can be accessed in Teams and Copilot. But if you want to run your agents on your own private network you'll hit an issue. Teams and Copilot live outside your network but your agent lives inside. How do we connect them?...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "graemefoster",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Agents League: Meet the Winners",
@@ -3576,17 +3587,6 @@
       "author": "Arnaud Lheureux, davidwright",
       "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Evaluating AI Agents: Techniques to Reduce Variance and Boost Alignment for LLM Judges",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/evaluating-ai-agents-techniques-to-reduce-variance-and-boost/ba-p/4498571",
-      "published": "2026-03-05T01:14:14+00:00",
-      "summary": "In an ideal world, an LLM judge would behave like an experienced Subject Matter Expert (SME). To achieve this, we must align the judge with SME preferences and minimize any systematic biases it exhibits. (See our previous article for a detailed overview of common bias types in LLM judges.) We begin...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "jamesasher",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Making agents practical for real-world development",
@@ -12521,5 +12521,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts focused on AI-assisted developer workflows, migration/security modernization, and cloud cost optimization. On the developer side, Microsoft highlighted **Visual Studio Code 1.114**, **Project Nighthawk** as a research agent for field engineering, the **Agents League** winners, and a notable ecosystem update that **Claude Sonnet 4 is being deprecated in GitHub Copilot**.\n\nOn the infrastructure side, Azure emphasized migration readiness and operational efficiency: **Azure Migrate** introduced **Insights** for assessing security risks, published guidance for fixing the **MachineWithSameBiosIdAndFqdnAlreadyExists** mobility agent registration error, and shared an **AWS-to-Azure migration** perspective centered on **cloud economics and FinOps**."
+  "summary": "Today’s Azure coverage centered on AI agents, migration, and developer tooling: Microsoft highlighted Azure AI Foundry agent scenarios including running Foundry Agents and Custom Engine Agents across the corporate firewall, plus “Project Nighthawk,” a research agent built for field engineering, while the Azure Dev Community showcased the winners of its Agents League competition. On the infrastructure side, Azure Migration posts emphasized security-risk assessment with Azure Migrate, troubleshooting Mobility Agent registration errors like `MachineWithSameBiosIdAndFqdnAlreadyExists`, and an AWS-to-Azure migration perspective focused on cloud economics and FinOps.\n\nSeparately, developer platform updates included the release of Visual Studio Code 1.114 and a GitHub Copilot model change: the upcoming deprecation of Claude Sonnet 4 in Copilot."
 }
