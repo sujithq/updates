@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T09:12:43.101296+00:00",
+  "lastUpdated": "2026-04-01T09:19:55.828951+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -373,6 +373,39 @@
       "action": "Plan and migrate to Azure Database for PostgreSQL Elastic Cluster",
       "detected": "2026-03-31T09:12:43.101291+00:00",
       "published": "2026-03-30T17:45:08+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://github.blog/changelog/2026-03-31-upcoming-deprecation-of-claude-sonnet-4-in-github-copilot",
+      "title": "Upcoming deprecation of Claude Sonnet 4 in GitHub Copilot",
+      "severity": "critical",
+      "deadline": "2026-05-01",
+      "impact": "Claude Sonnet 4 removed from all GitHub Copilot experiences for all Copilot users",
+      "action": "Switch workflows to the suggested alternative model before 2026-05-01",
+      "detected": "2026-04-01T09:19:55.828931+00:00",
+      "published": "2026-04-01T00:14:43+00:00",
+      "blog": "GitHub Changelog"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=557406",
+      "title": "Retirement: External Data Import & Data Connections in Azure Machine Learning will be retired on September 30, 2026",
+      "severity": "warning",
+      "deadline": "2026-09-30",
+      "impact": "Azure ML external data import and data connections preview retire for Azure ML users",
+      "action": "Migrate off these preview features before 2026-09-30",
+      "detected": "2026-04-01T09:19:55.828943+00:00",
+      "published": "2026-03-31T20:00:35+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=557395",
+      "title": "Retirement: Manually registered Azure VPN Clients for ​Azure Government and ​Microsoft Azure operated by 21Vianet clouds will be retired on March 31, 2029",
+      "severity": "warning",
+      "deadline": "2029-03-31",
+      "impact": "Manual Azure VPN client registration retires for Gov and 21Vianet Entra ID P2S users",
+      "action": "Move to the recommended registration method before 2029-03-31",
+      "detected": "2026-04-01T09:19:55.828948+00:00",
+      "published": "2026-03-31T16:45:33+00:00",
       "blog": "Azure Updates"
     }
   ]
