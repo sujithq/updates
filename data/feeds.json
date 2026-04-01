@@ -1,17 +1,28 @@
 {
-  "lastUpdated": "2026-04-01T09:57:33.266932+00:00",
+  "lastUpdated": "2026-04-01T12:47:30.436173+00:00",
   "totalArticles": 1138,
   "articles": [
     {
       "title": "Visual Studio Code 1.114",
       "link": "https://code.visualstudio.com/updates/v1_114",
       "published": "2026-04-01T17:00:00+00:00",
-      "summary": "Learn what's new in Visual Studio Code 1.114 (Insiders) Read the full article",
+      "summary": "Learn what's new in Visual Studio Code 1.114 Read the full article",
       "blog": "Visual Studio Code",
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "How to revoke connection OAuth programmatically in Logic Apps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/how-to-revoke-connection-oauth-programmatically-in-logic-apps/ba-p/4506825",
+      "published": "2026-04-01T11:02:44+00:00",
+      "summary": "There are multiple ways to revoke the OAuth of an API Connection other than clicking on the Revoke button in the portal: For using the \"Invoke an HTTP request\": Get the connection name: Create a Logic App (Consumption), use a trigger of your liking, then add the “Invoke an HTTP request”...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Omar_Abu_Arisheh",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Foundry Agents and Custom Engine Agents through the Corporate Firewall",
@@ -7725,17 +7736,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "🎉 Announcing General Availability of AI & RAG Connectors in Logic Apps (Standard)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-general-availability-of-ai-rag-connectors-in-logic/ba-p/4474337",
-      "published": "2025-12-01T23:35:11+00:00",
-      "summary": "We’re excited to share that a comprehensive set of AI and Retrieval-Augmented Generation (RAG) capabilities is now Generally Available in Azure Logic Apps (Standard). This release brings native support for document processing, semantic retrieval, embeddings, and grounded reasoning directly into the...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "shahparth",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Microsoft Defender for Cloud Customer Newsletter",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-customer-newsletter/ba-p/4474256",
       "published": "2025-12-01T18:10:23+00:00",
@@ -12521,5 +12521,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure coverage centered on AI agents, migration, and developer tooling: Microsoft highlighted Azure AI Foundry agent scenarios including running Foundry Agents and Custom Engine Agents across the corporate firewall, plus “Project Nighthawk,” a research agent built for field engineering, while the Azure Dev Community showcased the winners of its Agents League competition. On the infrastructure side, Azure Migration posts emphasized security-risk assessment with Azure Migrate, troubleshooting Mobility Agent registration errors like `MachineWithSameBiosIdAndFqdnAlreadyExists`, and an AWS-to-Azure migration perspective focused on cloud economics and FinOps.\n\nSeparately, developer platform updates included the release of Visual Studio Code 1.114 and a GitHub Copilot model change: the upcoming deprecation of Claude Sonnet 4 in Copilot."
+  "summary": "Today’s Azure posts centered on AI agents, migration/security, and developer tooling: Azure AI Foundry highlighted running Foundry Agents and Custom Engine Agents through a corporate firewall, while Project Nighthawk showcased a research agent for field engineering, and the Azure Dev Community published the winners of its “Agents League.” On the migration side, Azure Migrate introduced security-risk assessment with Insights, published guidance for fixing the `MachineWithSameBiosIdAndFqdnAlreadyExists` Mobility Agent registration error, and shared an AWS-to-Azure migration perspective focused on cloud economics and FinOps.\n\nOther notable updates included Visual Studio Code 1.114, a new Logic Apps guide for programmatically revoking OAuth connections, and a GitHub Copilot model lifecycle notice: Claude Sonnet 4 is being deprecated."
 }
