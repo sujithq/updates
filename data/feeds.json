@@ -1,12 +1,45 @@
 {
-  "lastUpdated": "2026-04-01T21:32:46.873994+00:00",
+  "lastUpdated": "2026-04-02T01:05:43.165363+00:00",
   "totalArticles": 1136,
   "articles": [
+    {
+      "title": "Orchestrating Intrusion Detection and Prevention Signature overrides in Azure Firewall Premium",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/orchestrating-intrusion-detection-and-prevention-signature/ba-p/4502213",
+      "published": "2026-04-01T23:08:21+00:00",
+      "summary": "Introduction: Azure Firewall Premium provides strong protection with a built-in Intrusion Detection and Prevention System (IDPS). It inspects inbound, outbound, and east-west traffic against Microsoft’s continuously updated signature set and can block threats before they reach your workloads. IDPS...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Announcing Private Preview: Deploy Ansible Playbooks using Azure Policy via Machine Configuration",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/announcing-private-preview-deploy-ansible-playbooks-using-azure/ba-p/4507848",
+      "published": "2026-04-01T23:01:53+00:00",
+      "summary": "Azure Arc is on a mission to unify security, compliance, and management for Windows and Linux machines—anywhere. By extending Azure’s control plane beyond the cloud, Azure Arc enables organizations to unify governance, compliance, security and management of servers across on‑premises, edge, and...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "alinetran",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Announcing AWS with Azure SRE Agent: Cross-Cloud Investigation using the brand new AWS DevOps Agent",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-aws-with-azure-sre-agent-cross-cloud-investigation/ba-p/4507413",
+      "published": "2026-04-01T21:49:12+00:00",
+      "summary": "Overview Connect Azure SRE Agent to AWS services using the official AWS MCP server. Query AWS documentation, execute any of the 15,000+ AWS APIs, run operational workflows, and kick off incident investigations through AWS DevOps Agent, which is now generally available. The AWS MCP server connects...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "dbandaru",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Retirement: Service Fabric support for Windows Server 2022 ends on March 31, 2027 - upgrade to Windows Server 2025",
       "link": "https://azure.microsoft.com/updates?id=558247",
       "published": "2026-04-01T21:00:19+00:00",
-      "summary": "Service Fabric will end support for all clusters running on Windows Server 2022 on March 31, 2027. Customers must upgrade to Windows Server 2025 by this date to remain in a supported state. This change aligns Service Fabric’s Windows OS image support mod",
+      "summary": "Service Fabric will end support for all clusters running on Windows Server 2022 on March 31, 2027. Customers must upgrade to Windows Server 2025 by this date to remain in a supported state. This change aligns Service Fabric’s Windows OS image support mode",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -14,10 +47,21 @@
       "sourceType": "rss"
     },
     {
+      "title": "Mitigating the Axios npm supply chain compromise",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+      "published": "2026-04-01T21:00:00+00:00",
+      "summary": "On March 31, 2026, the popular HTTP client Axios experienced a supply chain attack, causing two newly published npm packages for version updates to download from command and control (C2) that Microsoft Threat Intelligence has attributed to the North Korean state actor Sapphire Sleet. Although the...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Threat Intelligence and Microsoft Defender Security Research Team",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Retirement: Service Fabric support for Windows Server 2019 ends on March 31, 2027 - upgrade to Windows Server 2025",
       "link": "https://azure.microsoft.com/updates?id=558246",
       "published": "2026-04-01T20:30:41+00:00",
-      "summary": "Service Fabric will end support for all clusters running on Windows Server 2019 on March 31, 2027. Customers must upgrade to Windows Server 2025 by this date to remain in a supported state. This change aligns Service Fabric’s Windows OS image support mod",
+      "summary": "Service Fabric will end support for all clusters running on Windows Server 2019 on March 31, 2027. Customers must upgrade to Windows Server 2025 by this date to remain in a supported state. This change aligns Service Fabric’s Windows OS image support mode",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -2016,17 +2060,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "CTI-REALM: A new benchmark for end-to-end detection rule generation with AI agents",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/03/20/cti-realm-a-new-benchmark-for-end-to-end-detection-rule-generation-with-ai-agents/",
-      "published": "2026-03-20T16:19:00+00:00",
-      "summary": "Excerpt: CTI-REALM is Microsoft’s open-source benchmark for evaluating AI agents on real-world detection engineering—turning cyber threat intelligence (CTI) into validated detections. The post CTI-REALM: A new benchmark for end-to-end detection rule generation with AI agents appeared first on...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Arjun Chakraborty",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "How Granular Delegated Admin Privileges (GDAP) allows Sentinel customers to delegate access",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/how-granular-delegated-admin-privileges-gdap-allows-sentinel/ba-p/4503123",
       "published": "2026-03-20T16:15:00+00:00",
@@ -2588,17 +2621,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Orchestrating Intrusion Detection and Prevention Signature overrides in Azure Firewall Premium",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/orchestrating-intrusion-detection-and-prevention-signature/ba-p/4502213",
-      "published": "2026-03-18T04:37:40+00:00",
-      "summary": "Introduction: Azure Firewall Premium provides strong protection with a built-in Intrusion Detection and Prevention System (IDPS). It inspects inbound, outbound, and east-west traffic against Microsoft’s continuously updated signature set and can block threats before they reach your workloads. IDPS...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "saikishor",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Introducing OpenAI’s GPT-5.4 mini and GPT-5.4 nano for low-latency AI",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-openai-s-gpt-5-4-mini-and-gpt-5-4-nano-for-low/ba-p/4500569",
       "published": "2026-03-18T00:04:54+00:00",
@@ -3124,17 +3146,6 @@
       "blogId": "azurearcblog",
       "author": "Aurnov_Chattopadhyay",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Proactive Health Monitoring and Auto-Communication Now Available for Azure Container Registry",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/proactive-health-monitoring-and-auto-communication-now-available/ba-p/4501378",
-      "published": "2026-03-12T22:54:28+00:00",
-      "summary": "Today, we're introducing Azure Container Registry's (ACR) latest service health enhancement: automated auto-communication through Azure Service Health alerts. When ACR detects degradation in critical operations—authentication, image push, and pull—your teams are now proactively notified through...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "FeynmanZhou",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -9023,17 +9034,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Public Preview Refresh Announcement - Site Manager",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/public-preview-refresh-announcement-site-manager/ba-p/4468929",
-      "published": "2025-11-18T16:00:00+00:00",
-      "summary": "Public Preview Refresh Announcement - Site Manager Introduction: Modern industrial environments—such as factories, manufacturing plants, and distributed infrastructure sites— and retail environments are increasingly hybrid and edge-driven. These sites often run Azure Arc-enabled resources (servers,...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "supriyobanerjee",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Reimagining VM Application Management for an AI-Powered, Secure Future",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/reimagining-vm-application-management-for-an-ai-powered-secure/ba-p/4470127",
       "published": "2025-11-18T16:00:00+00:00",
@@ -12498,6 +12498,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure news centers on infrastructure lifecycle updates, security, and AI/developer tooling. Microsoft announced that Service Fabric support on Windows Server 2019 and 2022 will end March 31, 2027, with customers urged to move to Windows Server 2025, while Azure Storage expanded with GA support for user delegation SAS across Azure Tables, Azure Files, and Azure Queues, plus Data Box GA updates for Secure Erasure Certificates and Azure Files Provisioned v2, and a preview of Azure App Configuration with Azure Front Door for large-scale client-side configuration.\n\nSecurity and operations were another major theme: Microsoft Sentinel added a third-party Claude connector and announced new RSAC 2026 connectors, GitHub outlined open source supply chain protections, and Azure infrastructure updates included MANA support for existing VM SKUs, DPDK 25.11 performance work for high-speed packet workloads, and Azure NetApp Files cool access enhancements in preview. On the developer and AI side, GitHub shipped a Copilot cloud agent, Codespaces GA for GitHub Enterprise with data residency, GPT-5.4 mini in Copilot Student auto model selection, GitHub Mobile Copilot improvements, while Visual Studio Code 1.114 and Azure DevOps Markdown editor updates rounded out the day."
+  ]
 }
