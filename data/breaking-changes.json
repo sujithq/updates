@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T09:19:55.828951+00:00",
+  "lastUpdated": "2026-04-02T09:11:26.700802+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -407,6 +407,50 @@
       "detected": "2026-04-01T09:19:55.828948+00:00",
       "published": "2026-03-31T16:45:33+00:00",
       "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=558247",
+      "title": "Retirement: Service Fabric support for Windows Server 2022 ends on March 31, 2027 - upgrade to Windows Server 2025",
+      "severity": "warning",
+      "deadline": "2027-03-31",
+      "impact": "Service Fabric on Windows Server 2022 loses support for all clusters.",
+      "action": "Upgrade Service Fabric clusters to Windows Server 2025 before 2027-03-31.",
+      "detected": "2026-04-02T09:11:26.700780+00:00",
+      "published": "2026-04-01T21:00:19+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=558246",
+      "title": "Retirement: Service Fabric support for Windows Server 2019 ends on March 31, 2027 - upgrade to Windows Server 2025",
+      "severity": "warning",
+      "deadline": "2027-03-31",
+      "impact": "Service Fabric on Windows Server 2019 loses support for all clusters.",
+      "action": "Upgrade Service Fabric clusters to Windows Server 2025 before 2027-03-31.",
+      "detected": "2026-04-02T09:11:26.700791+00:00",
+      "published": "2026-04-01T20:30:41+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=557394",
+      "title": "Retirement: Select Azure AI Language Features",
+      "severity": "warning",
+      "deadline": "2027-03-20",
+      "impact": "Eight Azure AI Language features retire; users of those features are affected.",
+      "action": "Identify usage and migrate affected Azure AI Language workloads before retirement.",
+      "detected": "2026-04-02T09:11:26.700795+00:00",
+      "published": "2026-04-01T18:00:10+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-beta2",
+      "title": "v1.15.0-beta2",
+      "severity": "info",
+      "deadline": null,
+      "impact": "Terraform adds deprecated variable/output warnings; no product retirement announced.",
+      "action": null,
+      "detected": "2026-04-02T09:11:26.700798+00:00",
+      "published": "2026-04-01T13:26:31+00:00",
+      "blog": "Terraform"
     }
   ]
 }
