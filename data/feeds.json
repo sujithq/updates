@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-04-02T18:39:54.068013+00:00",
+  "lastUpdated": "2026-04-02T21:26:04.142304+00:00",
   "totalArticles": 1136,
   "articles": [
+    {
+      "title": "Microsoft Defender for Cloud Customer Newsletter",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-customer-newsletter/ba-p/4508180",
+      "published": "2026-04-02T20:43:28+00:00",
+      "summary": "What's new in Defender for Cloud? Kubernetes gated deployment is now generally available for AKS automatic clusters. Use help to deploy the Defender for Containers sensor to use this feature. More information can be found here. Grouped recommendations are converted into individual ones to list each...",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "Yura_Lee",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Model Upgrade and Migration Strategy for Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/model-upgrade-and-migration-strategy-for-microsoft-foundry/ba-p/4503176",
+      "published": "2026-04-02T19:12:15+00:00",
+      "summary": "Model upgrades in Microsoft Foundry are not a one‑time platform operation, they are an ongoing application lifecycle discipline. Microsoft documentation makes this explicit: models evolve continuously, older versions are eventually retired, and customers are expected to evaluate, migrate, and...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Dr_Ravi_Nagvekar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Copilot usage metrics now includes per-user GitHub Copilot CLI activity in organization reports",
       "link": "https://github.blog/changelog/2026-04-02-copilot-usage-metrics-now-includes-per-user-github-copilot-cli-activity-in-organization-reports",
@@ -3806,17 +3828,6 @@
       "blogId": "azurearchitectureblog",
       "author": "Sabyasachi-Samaddar",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "From Manual Document Processing to AI-Orchestrated Intelligence",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-manual-document-processing-to-ai-orchestrated-intelligence/ba-p/4498835",
-      "published": "2026-03-06T03:59:52+00:00",
-      "summary": "Building an IDP Pipeline with Azure Durable Functions, DSPy, and Real-Time AI Reasoning The Problem Think about what happens when a loan application, an insurance claim, or a trade finance document arrives at an organisation. Someone opens it, reads it, manually types fields into a system, compares...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Sunil_Sattiraju",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -9375,17 +9386,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Announcing Microsoft cloud security benchmark v2 (public preview)",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/announcing-microsoft-cloud-security-benchmark-v2-public-preview/ba-p/4468523",
-      "published": "2025-11-12T08:54:13+00:00",
-      "summary": "Overview Since its first introduction in 2019, the Azure Security Benchmark and its successor Microsoft cloud security benchmark announced in 2023, Microsoft cloud security benchmark (“the Benchmark”) has been widely used by our customers to secure their Azure environments, especially as a security...",
-      "blog": "Microsoft Defender for Cloud",
-      "blogId": "microsoftdefendercloudblog",
-      "author": "JimCheng",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Build Your Own Custom Copilots with Microsoft Copilot Studio and Oracle Database@Azure",
       "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/build-your-own-custom-copilots-with-microsoft-copilot-studio-and/ba-p/4468211",
       "published": "2025-11-11T22:04:57+00:00",
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure ecosystem updates were dominated by AI and developer tooling: Microsoft introduced new multimodal models in Azure AI Foundry/Microsoft Foundry—**MAI-Transcribe-1**, **MAI-Voice-1**, and **MAI-Image-2**—alongside guidance on **LLM evaluation for RAG systems**, offline AI app patterns with **Foundry Local and CAG**, and data-readiness work such as scaling unstructured data with **Komprise + Azure**. On the developer side, GitHub and Microsoft expanded **Copilot** across the stack, including **per-user GitHub Copilot CLI metrics**, **organization custom instructions GA**, **Visual Studio March updates**, **Copilot Notebooks enhancements**, and broader productivity improvements in **GitHub Actions**, **GitHub Issues search GA**, and the renamed **Security & quality** tab.\n\nA second major theme was security and platform lifecycle management: Microsoft warned that attackers are increasingly abusing **AI as an attack surface**, detailed stealth techniques like **cookie-controlled PHP webshells** on Linux hosting, and showcased **VS Code Custom Agents** for **Terraform security scanning**. Important retirement notices also stood out, with **Python support on Azure App Service and Azure Functions on Windows** ending **March 31, 2027**, and **AzureDnsEndpoints for Azure Storage accounts** retiring in **March 2027**, alongside fresh attention to **FinOps/TCO** planning."
+  "summary": "Today’s Azure and Microsoft ecosystem posts centered on three big themes: rapid AI platform expansion, stronger security posture, and a wave of developer tooling updates. On the AI side, Microsoft highlighted new Azure AI Foundry capabilities including model upgrade and migration guidance, evaluation techniques for reducing hallucinations in RAG systems, new multimodal models MAI-Transcribe-1, MAI-Voice-1, and MAI-Image-2, plus local/offline AI app patterns with Foundry Local and CAG; Microsoft 365 and GitHub also expanded Copilot with notebook enhancements, per-user GitHub Copilot CLI reporting, custom organization instructions, and a Visual Studio update.\n\nSecurity was the other major thread: Microsoft warned that threat actors are increasingly abusing AI as both a tool and attack surface, detailed stealthy cookie-controlled PHP webshell activity in Linux hosting environments, and continued Defender for Cloud customer guidance, while Azure Infrastructure showed AI-powered Terraform security scanning via VS Code custom agents. Microsoft also announced important platform lifecycle changes, notably the retirement of Python support for Azure App Service and Azure Functions on Windows by March 31, 2027, and retirement of AzureDnsEndpoints for Azure Storage accounts in March 2027, alongside GitHub product improvements like GitHub Actions April updates, the renamed “Security & quality” tab, and generally available improved GitHub Issues search."
 }
