@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-04-02T09:49:36.136810+00:00",
+  "lastUpdated": "2026-04-02T12:42:44.039081+00:00",
   "totalArticles": 1136,
   "articles": [
+    {
+      "title": "Unlocking AI-Ready Unstructured Data at Scale with Komprise and Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/unlocking-ai-ready-unstructured-data-at-scale-with-komprise-and/ba-p/4507422",
+      "published": "2026-04-02T09:53:30+00:00",
+      "summary": "Why Move Unstructured Data to Azure On-premises storage environments are often over-provisioned to accommodate future growth, driving costs and operational complexity. Azure’s cloud-based storage platform enables organizations to right-size their environments through elastic scaling and Microsoft’s...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "dmalbrough",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "VS Code Custom Agents: AI-Powered Terraform Security Scanning in the IDE",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/vs-code-custom-agents-ai-powered-terraform-security-scanning-in/ba-p/4507903",
@@ -155,17 +166,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Unlocking AI-Ready Unstructured Data at Scale with Komprise and Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/unlocking-ai-ready-unstructured-data-at-scale-with-komprise-and/ba-p/4507422",
-      "published": "2026-04-01T18:57:17+00:00",
-      "summary": "Why Move Unstructured Data to Azure On-premises storage environments are often over-provisioned to accommodate future growth, driving costs and operational complexity. Azure’s cloud-based storage platform enables organizations to right-size their environments through elastic scaling and Microsoft’s...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "dmalbrough",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "DPDK 25.11 Performance on Azure for High-Speed Packet Workloads",
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on practical AI and cloud cost optimization. One highlights a VS Code custom agent for AI-powered Terraform security scanning, bringing infrastructure-as-code review directly into the IDE; another shows how to build a fully offline AI application using Foundry Local and CAG, emphasizing local inference and disconnected scenarios; and a FinOps post explains total cost of ownership, focusing on the full financial picture of running cloud solutions beyond just raw service pricing.\n\nThe key themes are secure developer workflows, privacy/offline AI deployment, and more disciplined cost management. Together, the posts point to Azure’s push to make AI-assisted tooling more usable across development, edge/local app scenarios, and cloud spending decisions."
+  "summary": "Today’s Azure posts centered on practical AI enablement, cost control, and developer security workflows. The biggest themes were preparing enterprise unstructured data for AI at scale with Komprise on Azure Storage, improving Infrastructure as Code security through VS Code custom agents that scan Terraform directly in the IDE, and enabling edge or disconnected scenarios with fully offline AI apps using Foundry Local and CAG.\n\nOn the operations side, Azure also highlighted FinOps guidance for understanding total cost of ownership, reinforcing that AI and cloud modernization need both governance and cost visibility alongside new tooling."
 }
