@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-04-02T06:58:49.255970+00:00",
+  "lastUpdated": "2026-04-02T09:49:36.136810+00:00",
   "totalArticles": 1136,
   "articles": [
+    {
+      "title": "VS Code Custom Agents: AI-Powered Terraform Security Scanning in the IDE",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/vs-code-custom-agents-ai-powered-terraform-security-scanning-in/ba-p/4507903",
+      "published": "2026-04-02T09:30:08+00:00",
+      "summary": "GitHub Copilot is already a powerful coding assistant, but out of the box it knows nothing specific about your project's conventions, security requirements, or operational processes. Custom agents change that. They let you define specialized AI assistants that live inside your repository, carry...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "SundarBalajiA",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Build a Fully Offline AI App with Foundry Local and CAG",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/build-a-fully-offline-ai-app-with-foundry-local-and-cag/ba-p/4502124",
+      "published": "2026-04-02T07:00:00+00:00",
+      "summary": "A hands-on guide to building an on-device AI support agent using Context-Augmented Generation, JavaScript, and Foundry Local. You have probably heard the AI pitch: \"just call our API.\" But what happens when your application needs to work without an internet connection? Perhaps your users are field...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Understanding the Total Cost of Ownership",
       "link": "https://techcommunity.microsoft.com/t5/finops-blog/understanding-the-total-cost-of-ownership/ba-p/4419195",
@@ -3710,17 +3732,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "MCP vs mcp-cli: Dynamic Tool Discovery for Token-Efficient AI Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/mcp-vs-mcp-cli-dynamic-tool-discovery-for-token-efficient-ai/ba-p/4494272",
-      "published": "2026-03-06T08:00:00+00:00",
-      "summary": "Introduction The AI agent ecosystem is evolving rapidly, and with it comes a scaling challenge that many developers are hitting context window bloat. When building systems that integrate with multiple MCP (Model Context Protocol) servers, you're forced to load all tool definitions upfront—consuming...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "anbonagi",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Using Agents to Setup Experiments",
       "link": "https://devblogs.microsoft.com/ise/using-agents-to-setup-experiments/",
       "published": "2026-03-06T08:00:00+00:00",
@@ -5479,17 +5490,6 @@
       "author": "Sudhanshu Khera",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "AKS Tenant Migration: Considerations and Approach",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/aks-tenant-migration-considerations-and-approach/ba-p/4415198",
-      "published": "2026-02-05T11:11:56+00:00",
-      "summary": "Introduction: When an Azure subscription is shifted between directories (Azure AD tenants), the Azure Container Registry (ACR) cannot be directly transferred in its current state. This blog outlines the necessary steps to transition the ACR from one tenant to another tenant. Prerequisites and...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "SoumyaShet05",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Minimal GitOps for Edge Applications with Azure IoT Operations and Azure DevOps",
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage centers on **FinOps and cost optimization**, with a focus on understanding the **Total Cost of Ownership (TCO)** for cloud investments on Azure. The post highlights how organizations can evaluate and manage costs across areas like infrastructure, operations, and resource usage, reinforcing Azure’s broader push around **financial accountability, cost visibility, and optimization tooling** for cloud workloads."
+  "summary": "Today’s Azure posts centered on practical AI and cloud cost optimization. One highlights a VS Code custom agent for AI-powered Terraform security scanning, bringing infrastructure-as-code review directly into the IDE; another shows how to build a fully offline AI application using Foundry Local and CAG, emphasizing local inference and disconnected scenarios; and a FinOps post explains total cost of ownership, focusing on the full financial picture of running cloud solutions beyond just raw service pricing.\n\nThe key themes are secure developer workflows, privacy/offline AI deployment, and more disciplined cost management. Together, the posts point to Azure’s push to make AI-assisted tooling more usable across development, edge/local app scenarios, and cloud spending decisions."
 }
