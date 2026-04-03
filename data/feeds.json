@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-04-03T01:08:17.121049+00:00",
+  "lastUpdated": "2026-04-03T04:58:46.790361+00:00",
   "totalArticles": 1136,
   "articles": [
+    {
+      "title": "Bring Your Own Model (BYOM) for Azure AI Applications using Azure Machine Learning",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bring-your-own-model-byom-for-azure-ai-applications-using-azure/ba-p/4508211",
+      "published": "2026-04-03T02:00:40+00:00",
+      "summary": "Modern AI-powered applications running on Azure increasingly require flexibility in model choice. While managed model catalogs accelerate time to value, real-world enterprise applications often need to: Host open‑source or fine‑tuned models Deploy domain‑specific or regulated models inside a tenant...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "vaibhavpandey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "MCP Apps on Azure Functions: Quick Start with TypeScript",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/mcp-apps-on-azure-functions-quick-start-with-typescript/ba-p/4507859",
+      "published": "2026-04-03T01:21:43+00:00",
+      "summary": "Azure Functions makes hosting MCP apps simple: build locally, create a secure endpoint, and deploy fast with azd. What Are MCP Apps? MCP (Model Context Protocol) apps add new features to AI assistants and clients: MCP Tools: Remote functions that clients call to perform actions (for example, fetch...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "swapnil_nagar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "AKS cluster with AGIC hits the Azure Application Gateway backend pool limit (100)",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/aks-cluster-with-agic-hits-the-azure-application-gateway-backend/ba-p/4508201",
@@ -2588,17 +2610,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "The Swarm Diaries: What Happens When You Let AI Agents Loose on a Codebase",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/the-swarm-diaries-what-happens-when-you-let-ai-agents-loose-on-a/ba-p/4501393",
-      "published": "2026-03-18T18:08:04+00:00",
-      "summary": "The Idea Single-agent coding assistants are impressive, but they have a fundamental bottleneck: they think serially. Ask one to build a full CLI app with a database layer, a command parser, pretty output, and tests, and it’ll grind through each piece one by one. Industry benchmarks bear this out:...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "larohra",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Securing Production Debugging in Kubernetes",
       "link": "https://kubernetes.io/blog/2026/03/18/securing-production-debugging-in-kubernetes/",
       "published": "2026-03-18T18:00:00+00:00",
@@ -2839,17 +2850,6 @@
       "author": "Chris Harris",
       "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "After Ingress NGINX: Migrating to Application Gateway for Containers",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/after-ingress-nginx-migrating-to-application-gateway-for/ba-p/4503110",
-      "published": "2026-03-17T21:03:22+00:00",
-      "summary": "If you're running Ingress NGINX on AKS, you've probably seen the announcements by now. The community Ingress Nginx project is being retired, upstream maintenance ends in March 2026, and Microsoft's extended support for the Application Routing add-on runs out in November 2026. A requirement to...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "samcogan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "PowerToys 0.98 is here: new Keyboard Manager UX, the Command Palette Dock and better CursorWrap!",
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage focuses on a scale-related AKS networking constraint: when using **Azure Kubernetes Service (AKS)** with **Application Gateway Ingress Controller (AGIC)**, deployments can hit the **Azure Application Gateway backend pool limit of 100**. The post highlights this as an **Azure Architecture** concern and centers on guidance for designing around ingress/backend scaling limits when exposing Kubernetes workloads through **Application Gateway**."
+  "summary": "Today’s Azure posts focused on practical app modernization across AI, serverless, and Kubernetes. The biggest themes were **model flexibility in Azure AI** with **Bring Your Own Model (BYOM)** via **Azure Machine Learning**, rapid **MCP app** development on **Azure Functions** using **TypeScript**, and an **AKS + Application Gateway Ingress Controller (AGIC)** architecture limitation where clusters can hit the **Azure Application Gateway backend pool limit of 100**, affecting ingress scalability and design choices."
 }
