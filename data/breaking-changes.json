@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T09:11:26.700802+00:00",
+  "lastUpdated": "2026-04-03T09:05:57.240937+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -451,6 +451,39 @@
       "detected": "2026-04-02T09:11:26.700798+00:00",
       "published": "2026-04-01T13:26:31+00:00",
       "blog": "Terraform"
+    },
+    {
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/model-upgrade-and-migration-strategy-for-microsoft-foundry/ba-p/4503176",
+      "title": "Model Upgrade and Migration Strategy for Microsoft Foundry",
+      "severity": "info",
+      "deadline": null,
+      "impact": "Foundry model versions retire over time; customers must plan ongoing app migrations",
+      "action": "Establish model upgrade testing and migration process for deployed apps",
+      "detected": "2026-04-03T09:05:57.240916+00:00",
+      "published": "2026-04-02T19:12:15+00:00",
+      "blog": "Azure AI Foundry Blog"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=558027",
+      "title": "Retirement: Python support for Azure App Service and Azure Functions on Windows will be retired on March 31, 2027",
+      "severity": "warning",
+      "deadline": "2027-03-31",
+      "impact": "Python apps on App Service/Functions on Windows stop running after retirement",
+      "action": "Migrate Python apps off Windows hosting before 2027-03-31",
+      "detected": "2026-04-03T09:05:57.240929+00:00",
+      "published": "2026-04-02T16:45:52+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=558276",
+      "title": "Retirement: AzureDnsEndpoints for Azure storage accounts will be retired March 2027",
+      "severity": "warning",
+      "deadline": "2027-03-01",
+      "impact": "AzureDnsZone endpoints for Blob storage retire; preview users are affected",
+      "action": "Move new and existing Blob accounts to Standard endpoints",
+      "detected": "2026-04-03T09:05:57.240934+00:00",
+      "published": "2026-04-02T16:30:09+00:00",
+      "blog": "Azure Updates"
     }
   ]
 }
