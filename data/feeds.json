@@ -1,7 +1,84 @@
 {
-  "lastUpdated": "2026-04-03T15:32:13.710104+00:00",
-  "totalArticles": 1136,
+  "lastUpdated": "2026-04-03T18:30:04.228549+00:00",
+  "totalArticles": 1138,
   "articles": [
+    {
+      "title": "Visual Studio Code 1.115",
+      "link": "https://code.visualstudio.com/updates/v1_115",
+      "published": "2026-04-08T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.115 (Insiders) Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "From Discovery to Executive Presentation: Plan Your Migration with Azure Migrate in Hours",
+      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/from-discovery-to-executive-presentation-plan-your-migration/ba-p/4508500",
+      "published": "2026-04-03T18:06:11+00:00",
+      "summary": "The migration planning bottleneck Every migration starts with the same question: what do we have, and where should it go? Getting from that question to a clear, executive-ready answer has traditionally taken weeks. You scan the environment, export spreadsheets, manually classify workloads, run...",
+      "blog": "Azure Migration",
+      "blogId": "azuremigrationblog",
+      "author": "Shikher",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "What’s new in Microsoft Sentinel: RSAC 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-rsac-2026/ba-p/4503971",
+      "published": "2026-04-03T17:54:06+00:00",
+      "summary": "Security is entering a new era, one defined by explosive data growth, increasingly sophisticated threats, and the rise of AI-enabled operations. To keep pace, security teams need an AI-powered approach to collect, reason over, and act on security data at scale. At RSA Conference 2026 (RSAC), we’re...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "spalani",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "GPT-5.1 Codex, GPT-5.1-Codex-Max, and GPT-5.1-Codex-Mini deprecated",
+      "link": "https://github.blog/changelog/2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-codex-mini-deprecated",
+      "published": "2026-04-03T17:11:31+00:00",
+      "summary": "We have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on April 1, 2026. Model Deprecation date… The post GPT-5.1 Codex, GPT-5.1-Codex-Max, and GPT-5.1-Codex-Mini deprecated appeared first on...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing general availability of Network Security Perimeter for Azure Service Bus",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/announcing-general-availability-of-network-security-perimeter/ba-p/4508179",
+      "published": "2026-04-03T16:31:50+00:00",
+      "summary": "Today we are excited to announce the general availability of Network Security Perimeter (NSP) support for Azure Service Bus. Network Security Perimeter allows you to define a logical network boundary around your Service Bus namespaces and other Azure PaaS resources, restricting public network...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "The uphill climb of making diff lines performant",
+      "link": "https://github.blog/engineering/architecture-optimization/the-uphill-climb-of-making-diff-lines-performant/",
+      "published": "2026-04-03T16:00:00+00:00",
+      "summary": "The path to better performance is often found in simplicity. The post The uphill climb of making diff lines performant appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Luke Ghenco",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "AKS cluster with AGIC hits the Azure Application Gateway backend pool limit (100)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/aks-cluster-with-agic-hits-the-azure-application-gateway-backend/ba-p/4508201",
+      "published": "2026-04-03T15:46:16+00:00",
+      "summary": "I’m writing this article to document a real-world scaling issue we hit while exposing many applications from an Azure Kubernetes Service (AKS) cluster using Application Gateway Ingress Controller (AGIC). The problem is easy to miss because Kubernetes resources keep applying successfully, but the...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "kkaushal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Organization firewall settings for Copilot cloud agent",
       "link": "https://github.blog/changelog/2026-04-03-organization-firewall-settings-for-copilot-cloud-agent",
@@ -132,17 +209,6 @@
       "blogId": "appsonazureblog",
       "author": "swapnil_nagar",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "AKS cluster with AGIC hits the Azure Application Gateway backend pool limit (100)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/aks-cluster-with-agic-hits-the-azure-application-gateway-backend/ba-p/4508201",
-      "published": "2026-04-03T00:42:48+00:00",
-      "summary": "I’m writing this article to document a real-world scaling issue we hit while exposing many applications from an Azure Kubernetes Service (AKS) cluster using Application Gateway Ingress Controller (AGIC). The problem is easy to miss because Kubernetes resources keep applying successfully, but the...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "kkaushal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -562,17 +628,6 @@
       "author": "JesseKopavi",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Research, plan, and code with Copilot cloud agent",
-      "link": "https://github.blog/changelog/2026-04-01-research-plan-and-code-with-copilot-cloud-agent",
-      "published": "2026-04-01T18:36:08+00:00",
-      "summary": "Copilot cloud agent (formerly known as Copilot coding agent) is no longer limited to pull-request workflows, unlocking a broader range of ways to put Copilot to work. More control over… The post Research, plan, and code with Copilot cloud agent appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "[Launched] Generally Available: Azure Data Box enhances compliance with automatic Secure Erasure Certificates",
@@ -1112,17 +1167,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "What’s new in Microsoft Sentinel: RSAC 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-rsac-2026/ba-p/4503971",
-      "published": "2026-03-30T21:38:31+00:00",
-      "summary": "Security is entering a new era, one defined by explosive data growth, increasingly sophisticated threats, and the rise of AI-enabled operations. To keep pace, security teams need an AI-powered approach to collect, reason over, and act on security data at scale. At RSA Conference 2026 (RSAC), we’re...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "spalani",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "[Launched] Generally Available: Azure Red Hat OpenShift in Indonesia Central",
@@ -2443,17 +2487,6 @@
       "author": "aayodeji",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Rethinking open source mentorship in the AI era",
-      "link": "https://github.blog/open-source/maintainers/rethinking-open-source-mentorship-in-the-ai-era/",
-      "published": "2026-03-19T18:00:00+00:00",
-      "summary": "As contribution volume grows, mentorship signals are harder to read. The 3 Cs framework helps maintainers mentor more strategically... without burning out. The post Rethinking open source mentorship in the AI era appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Abigail Cabunoc Mayes",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Remote MCP Server preview in Microsoft Foundry",
@@ -10123,17 +10156,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Cut migration costs with B-Series and Cobalt 100 VM support in Azure Migrate",
-      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/cut-migration-costs-with-b-series-and-cobalt-100-vm-support-in/ba-p/4460285",
-      "published": "2025-10-09T10:26:14+00:00",
-      "summary": "Introduction Migrating to the cloud shouldn’t mean overspending. Many workloads — like dev/test environments, small databases, and low-traffic apps — don’t need constant CPU power. So why pay for performance you rarely use? Azure Migrate now supports B-Series and Cobalt 100 VMs, empowering you to...",
-      "blog": "Azure Migration",
-      "blogId": "azuremigrationblog",
-      "author": "ankitsurkar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Secure Medallion Architecture Pattern on Azure Databricks (Part I)",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/secure-medallion-architecture-pattern-on-azure-databricks-part-i/ba-p/4459268",
       "published": "2025-10-08T17:13:14+00:00",
@@ -12499,5 +12521,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts were dominated by AI and platform engineering: Microsoft highlighted **Azure SQL Managed Instance as an AI-enabled PaaS**, **BYOM for Azure AI apps via Azure Machine Learning**, **MCP apps on Azure Functions with TypeScript**, and local LLM experimentation with **oBeaver**, while GitHub announced tighter **Copilot cloud agent** controls through **organization firewall settings** and **commit signing**.  \n\nOn the infrastructure side, the big themes were production-ready governance and networking—covering **on-demand capacity reservations**, **DevSecOps guardrails on AKS**, **AI-assisted infrastructure drift detection**, **enterprise-scale subscription vending with Azure Verified Modules**, **blue-green deployments for TCP workloads on Azure Container Apps**, and the **general availability of Private Application Gateway on Application Gateway v2**, alongside practical guidance on scaling issues such as **AGIC hitting the Application Gateway backend pool limit**."
+  "summary": "Today’s Azure posts were dominated by cloud modernization, AI platform engineering, and security hardening. Microsoft highlighted faster migration planning with **Azure Migrate**, **GA of Network Security Perimeter for Azure Service Bus**, **GA of Private Application Gateway on Application Gateway v2**, and guidance on **AKS**, **Azure Container Apps**, **Azure SQL Managed Instance**, **Azure Machine Learning BYOM**, and **Azure Functions** for building governed, AI-enabled applications and infrastructure.\n\nSecurity and developer tooling were the other major themes: **Microsoft Sentinel** shared RSAC 2026 updates, Azure guidance focused on **DevSecOps governance gates**, **drift detection**, **capacity reservations**, and **subscription vending with Azure Verified Modules**, while GitHub announced changes including deprecation of **GPT-5.1 Codex** variants, new **Copilot cloud agent** firewall controls and commit signing, plus engineering deep dives on diff performance."
 }
