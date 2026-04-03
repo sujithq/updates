@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-04-03T06:55:41.598034+00:00",
+  "lastUpdated": "2026-04-03T09:43:06.307717+00:00",
   "totalArticles": 1136,
   "articles": [
+    {
+      "title": "AI‑Assisted Azure Infrastructure Validation and Drift Detection",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/ai-assisted-azure-infrastructure-validation-and-drift-detection/ba-p/4508346",
+      "published": "2026-04-03T08:48:00+00:00",
+      "summary": "Why Traditional Drift Detection Isn’t Enough Most teams already rely on: Terraform plan reviews Azure Policy compliance dashboards Azure Resource Graph queries Manual scripts and audits The problem isn’t missing data—it’s interpretation at scale. Validation outputs are: Verbose and noisy Spread...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ShivaniThadiyan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "🚀 General Availability of Private Application Gateway on Azure Application Gateway v2",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/general-availability-of-private-application-gateway-on-azure/ba-p/4508294",
+      "published": "2026-04-03T07:24:09+00:00",
+      "summary": "🔍 What Is Private Application Gateway? Historically, Application Gateway v2 required a public IP address to communicate with the Azure control plane (GatewayManager). This requirement imposed several constraints: Mandatory public IP exposure Restricted Network Security Group (NSG) rules Limited...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "kumaramit1",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "oBeaver — A Beaver That Runs LLMs on Your Machine 🦫",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/obeaver-a-beaver-that-runs-llms-on-your-machine/ba-p/4507884",
+      "published": "2026-04-03T07:00:00+00:00",
+      "summary": "Hi there! I'm the creator of oBeaver. This project started from a pretty simple desire: I wanted to run large language models on my own computer. No data sent to the cloud. No API keys. No per-call charges. I'm guessing you've had the same thought. There are already great tools out there — Ollama...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Enterprise‑Scale Azure Subscription Vending Using Azure Verified Modules (AVM)",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/enterprise-scale-azure-subscription-vending-using-azure-verified/ba-p/4507751",
@@ -3721,17 +3754,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Microsoft Agent Framework, Microsoft Foundry, MCP, Aspire를 활용한 실전 예제 만들기",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/microsoft-agent-framework-microsoft-foundry-mcp-aspire%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%8B%A4%EC%A0%84/ba-p/4499869",
-      "published": "2026-03-09T17:00:00+00:00",
-      "summary": "AI 에이전트를 개발하는 것은 점점 쉬워지고 있습니다. 하지만 여러 서비스, 상태 관리, 프로덕션 인프라를 갖춘 실제 애플리케이션의 일부로 배포하는 것은 여전히 복잡합니다. 실제로 .NET 개발자 커뮤니티에서는 로컬 머신과 클라우드 네이티브 방식의 클라우드 환경 모두에서 실제로 동작하는 실전 예제에 대한 요구가 많았습니다. 그래서 준비했습니다! Microsoft Agent Framework과 Microsoft Foundry, MCP(Model Context Protocol), Aspire등을 어떻게 프로덕션 상황에서 조합할 수...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "justinyoo",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Visual Studio Code 1.111",
       "link": "https://code.visualstudio.com/updates/v1_111",
       "published": "2026-03-09T17:00:00+00:00",
@@ -5437,17 +5459,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Azure Blob Tiering: Clarity, Truths, and Practical Guidance for Architects",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-blob-tiering-clarity-truths-and-practical-guidance-for/ba-p/4493156",
-      "published": "2026-02-06T18:57:35+00:00",
-      "summary": "Over the past several years of working with large enterprises, a clear pattern has emerged in conversations about modernizing backup infrastructure. Teams managing large on‑premises estates often using Commvault, NetBackup, Veeam, or similar platforms are reaching an inflection point. The challenge...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "nehatiwari1994",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Unlock outbound traffic insights with Azure StandardV2 NAT Gateway flow logs",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/unlock-outbound-traffic-insights-with-azure-standardv2-nat/ba-p/4493138",
       "published": "2026-02-06T16:07:33+00:00",
@@ -5456,17 +5467,6 @@
       "blogId": "azurenetworkingblog",
       "author": "cozhang",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Proactive Resiliency in Azure for Specialized Workload i.e. Citrix VDI on Azure Design Framework.",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/proactive-resiliency-in-azure-for-specialized-workload-i-e/ba-p/4492260",
-      "published": "2026-02-06T09:56:31+00:00",
-      "summary": "In this post, I’ll share my perspective on designing cloud architectures for near-zero downtime. We’ll explore how adopting multi-region strategies and other best practices can dramatically improve reliability. The discussion will be technically and architecturally driven covering key decisions...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ravisha",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focus on scalable cloud operations and modern app platform patterns: Microsoft highlighted **enterprise-scale subscription vending with Azure Verified Modules (AVM)** for standardized Azure landing zones, guidance for **blue‑green deployments of always-on TCP services on Azure Container Apps**, and an **AKS + Application Gateway Ingress Controller (AGIC)** limitation where clusters can hit the **100-backend-pool limit** on **Azure Application Gateway**.  \n\nOn the AI and developer platform side, Azure also emphasized building intelligent and extensible apps with **Bring Your Own Model (BYOM)** support for **Azure AI applications via Azure Machine Learning**, plus a quick start for **MCP apps on Azure Functions using TypeScript**, signaling continued investment in customizable AI workflows and serverless developer tooling."
+  "summary": "Today’s Azure posts centered on production-grade cloud operations and AI app enablement. Key infrastructure updates included the general availability of **Private Application Gateway on Azure Application Gateway v2**, guidance for **AI-assisted Azure infrastructure validation and drift detection**, **enterprise-scale subscription vending with Azure Verified Modules (AVM)**, and architecture patterns for **blue-green deployments of always-on TCP workloads on Azure Container Apps** plus scaling considerations for **AKS with AGIC** when hitting the **Application Gateway backend pool limit**.\n\nOn the AI and developer side, Azure highlighted more flexible model and app workflows: **Bring Your Own Model (BYOM)** for Azure AI applications using **Azure Machine Learning**, **MCP apps on Azure Functions with TypeScript**, and the community project **oBeaver**, which runs **LLMs locally on your machine**. Overall, the themes were secure networking, scalable platform automation, resilient application delivery, and easier paths to building and deploying AI-powered apps on Azure."
 }
