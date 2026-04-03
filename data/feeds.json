@@ -1,7 +1,73 @@
 {
-  "lastUpdated": "2026-04-02T21:26:04.142304+00:00",
+  "lastUpdated": "2026-04-03T01:08:17.121049+00:00",
   "totalArticles": 1136,
   "articles": [
+    {
+      "title": "AKS cluster with AGIC hits the Azure Application Gateway backend pool limit (100)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/aks-cluster-with-agic-hits-the-azure-application-gateway-backend/ba-p/4508201",
+      "published": "2026-04-03T00:42:48+00:00",
+      "summary": "I’m writing this article to document a real-world scaling issue we hit while exposing many applications from an Azure Kubernetes Service (AKS) cluster using Application Gateway Ingress Controller (AGIC). The problem is easy to miss because Kubernetes resources keep applying successfully, but the...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "kkaushal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "An update to the active flow billing model for Azure SRE Agent",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/an-update-to-the-active-flow-billing-model-for-azure-sre-agent/ba-p/4507866",
+      "published": "2026-04-02T22:53:51+00:00",
+      "summary": "Earlier today, we announced that Azure SRE Agent now supports multiple AI model providers, starting with Anthropic. To support multi-model choice, and make active usage costs easier to understand, we’re updating how active flow usage is measured, effective April 15, 2026. At a glance What’s...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Mayunk_Jain",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Give your Foundry Agent Custom Tools with MCP Servers on Azure Functions",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/give-your-foundry-agent-custom-tools-with-mcp-servers-on-azure/ba-p/4507828",
+      "published": "2026-04-02T22:31:04+00:00",
+      "summary": "This blog post is for developers who have an MCP server deployed to Azure Functions and want to connect it to Microsoft Foundry agents. It walks through why you'd want to do this, the different authentication options available, and how to get your agent calling your MCP tools. Connect your MCP...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "lily-ma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure SRE Agent now supports multiple model providers, including Anthropic Claude",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-now-supports-multiple-model-providers-including/ba-p/4508111",
+      "published": "2026-04-02T22:23:15+00:00",
+      "summary": "Today, Azure SRE Agent adds model provider selection—choose between Azure OpenAI and Anthropic to match the right AI provider to your incident workflow. SRE Agent has saved over 20,000 engineering hours by pulling together logs, deployments, and signals into a single investigation thread, turning...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "dchelupati",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Accelerate Agent Development: Hacks for Building with Microsoft Sentinel data lake",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/accelerate-agent-development-hacks-for-building-with-microsoft/ba-p/4503039",
+      "published": "2026-04-02T21:37:47+00:00",
+      "summary": "As a Senior Product Manager | Developer Architect on the App Assure team working to bring Microsoft Sentinel and Security Copilot solutions to market, I interact with many ISVs building agents on Microsoft Sentinel data lake for the first time. I’ve written this article to walk you through one...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "MitchellGulledge",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Copilot SDK in public preview",
+      "link": "https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview",
+      "published": "2026-04-02T21:26:37+00:00",
+      "summary": "The GitHub Copilot SDK is now available in public preview. This gives you the building blocks to embed Copilot’s agentic capabilities directly into your own applications, workflows, and platform services.… The post Copilot SDK in public preview appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "Microsoft Defender for Cloud Customer Newsletter",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-customer-newsletter/ba-p/4508180",
@@ -469,17 +535,6 @@
       "link": "https://github.blog/changelog/2026-04-01-gpt-5-4-mini-is-now-available-in-copilot-student-auto-model-selection",
       "published": "2026-04-01T16:46:07+00:00",
       "summary": "GPT-5.4 mini is now generally available to Copilot Student plan via Copilot auto model selection. This model is part of Auto in GitHub Copilot Chat on Visual Studio Code, Visual… The post GPT-5.4 mini is now available in Copilot Student auto model selection appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "GitHub Mobile: Stay in flow with a refreshed Copilot tab and native session logs",
-      "link": "https://github.blog/changelog/2026-04-01-github-mobile-stay-in-flow-with-a-refreshed-copilot-tab-and-native-session-logs",
-      "published": "2026-04-01T16:36:10+00:00",
-      "summary": "GitHub Mobile now makes it easier to manage agentic workflows on the go with a refreshed Copilot tab, native session logs, and more in-app controls for agent sessions. On Android,… The post GitHub Mobile: Stay in flow with a refreshed Copilot tab and native session logs appeared first on The GitHub...",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -2291,17 +2346,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Building an Enterprise Platform for Inference at Scale",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/building-an-enterprise-platform-for-inference-at-scale/ba-p/4498820",
-      "published": "2026-03-19T19:43:23+00:00",
-      "summary": "Architecture Decisions With the optimization stack in place, the next layer of decisions is architectural — how you distribute compute across GPUs, nodes, and deployment environments to match your model size and traffic profile. GPU Parallelism Strategy on AKS Strategy How It Works When to Use...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "bobmital",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Rethinking open source mentorship in the AI era",
       "link": "https://github.blog/open-source/maintainers/rethinking-open-source-mentorship-in-the-ai-era/",
       "published": "2026-03-19T18:00:00+00:00",
@@ -3061,17 +3105,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Health-Aware Failover for Azure Container Registry Geo-Replication",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/health-aware-failover-for-azure-container-registry-geo/ba-p/4501730",
-      "published": "2026-03-16T18:11:49+00:00",
-      "summary": "Azure Container Registry (ACR) supports geo-replication: one registry resource with active-active (primary-primary), write-enabled geo-replicas across multiple Azure regions. You can push or pull through any replica, and ACR asynchronously replicates content and metadata to all other replicas using...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "johnsonshi_msft",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Now in Foundry: VibeVoice-ASR, MiniMax M2.5, Qwen3.5-9B",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/now-in-foundry-vibevoice-asr-minimax-m2-5-qwen3-5-9b/ba-p/4500475",
       "published": "2026-03-16T16:41:34+00:00",
@@ -3223,17 +3256,6 @@
       "blogId": "azureobservabilityblog",
       "author": "aayodeji",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "A Practical Path Forward for Heroku Customers with Azure",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/a-practical-path-forward-for-heroku-customers-with-azure/ba-p/4501797",
-      "published": "2026-03-13T15:00:00+00:00",
-      "summary": "On February 6, 2026, Heroku announced it is moving to a sustaining engineering model focused on stability, security, reliability, and ongoing support. Many customers are now reassessing how their application platforms will support today’s workloads and future innovation. Microsoft is committed to...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "NagaSurendran",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -5138,17 +5160,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Data lake tier Ingestion for Microsoft Defender Advanced Hunting Tables is Now Generally Available",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/data-lake-tier-ingestion-for-microsoft-defender-advanced-hunting/ba-p/4494206",
-      "published": "2026-02-11T17:52:02+00:00",
-      "summary": "Today, we’re excited to announce the general availability (GA) of data lake tier ingestion for Microsoft XDR Advanced Hunting tables into Microsoft Sentinel data lake. Security teams continue to generate unprecedented volumes of high‑fidelity telemetry across endpoints, identities, cloud apps, and...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Matt_Lowe",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Beyond the Prompt – Why and How to Fine-tune Your Own Models",
@@ -7568,17 +7579,6 @@
       "blogId": "azurearcblog",
       "author": "Aurnov_Chattopadhyay",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "How to Modernise a Microsoft Access Database (Forms + VBA) to Node.JS, OpenAPI and SQL Server",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/how-to-modernise-a-microsoft-access-database-forms-vba-to-node/ba-p/4473504",
-      "published": "2025-12-08T19:59:25+00:00",
-      "summary": "Microsoft Access has played a significant role in enterprise environments for over three decades. Released in November 1992, its flexibility and ease of use made it a popular choice for organizations of all sizes—from FTSE250 companies to startups and the public sector. The platform enables rapid...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "anthkernan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft ecosystem posts centered on three big themes: rapid AI platform expansion, stronger security posture, and a wave of developer tooling updates. On the AI side, Microsoft highlighted new Azure AI Foundry capabilities including model upgrade and migration guidance, evaluation techniques for reducing hallucinations in RAG systems, new multimodal models MAI-Transcribe-1, MAI-Voice-1, and MAI-Image-2, plus local/offline AI app patterns with Foundry Local and CAG; Microsoft 365 and GitHub also expanded Copilot with notebook enhancements, per-user GitHub Copilot CLI reporting, custom organization instructions, and a Visual Studio update.\n\nSecurity was the other major thread: Microsoft warned that threat actors are increasingly abusing AI as both a tool and attack surface, detailed stealthy cookie-controlled PHP webshell activity in Linux hosting environments, and continued Defender for Cloud customer guidance, while Azure Infrastructure showed AI-powered Terraform security scanning via VS Code custom agents. Microsoft also announced important platform lifecycle changes, notably the retirement of Python support for Azure App Service and Azure Functions on Windows by March 31, 2027, and retirement of AzureDnsEndpoints for Azure Storage accounts in March 2027, alongside GitHub product improvements like GitHub Actions April updates, the renamed “Security & quality” tab, and generally available improved GitHub Issues search."
+  "summary": "Today’s Azure blog coverage focuses on a scale-related AKS networking constraint: when using **Azure Kubernetes Service (AKS)** with **Application Gateway Ingress Controller (AGIC)**, deployments can hit the **Azure Application Gateway backend pool limit of 100**. The post highlights this as an **Azure Architecture** concern and centers on guidance for designing around ingress/backend scaling limits when exposing Kubernetes workloads through **Application Gateway**."
 }
