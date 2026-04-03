@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-04-03T04:58:46.790361+00:00",
+  "lastUpdated": "2026-04-03T06:55:41.598034+00:00",
   "totalArticles": 1136,
   "articles": [
+    {
+      "title": "Enterprise‑Scale Azure Subscription Vending Using Azure Verified Modules (AVM)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/enterprise-scale-azure-subscription-vending-using-azure-verified/ba-p/4507751",
+      "published": "2026-04-03T06:45:24+00:00",
+      "summary": "Why Subscription Vending Is Critical at Scale Azure subscriptions define the security, governance, and billing boundary for workloads. In large organizations, manual subscription creation often leads to: Inconsistent management group placement Delayed or missing policy enforcement Incorrect RBAC...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "kumaramit1",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Blue‑Green Strategy for Always‑On TCP Workloads on Azure Container Apps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/blue-green-strategy-for-always-on-tcp-workloads-on-azure/ba-p/4507894",
+      "published": "2026-04-03T05:58:36+00:00",
+      "summary": "Scenario: Always‑on workloads in Azure Container Apps continuously pull from a TCP source, process the stream, and push into Azure Managed Redis, which is then consumed by another always‑on Container Apps workload that writes to a database. Challenge: Standard revision traffic splitting isn’t a fit...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "srivastavani",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Bring Your Own Model (BYOM) for Azure AI Applications using Azure Machine Learning",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bring-your-own-model-byom-for-azure-ai-applications-using-azure/ba-p/4508211",
@@ -5525,17 +5547,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Observability in Generative AI: Building Trust with Systematic Evaluation in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/observability-in-generative-ai-building-trust-with-systematic/ba-p/4492231",
-      "published": "2026-02-05T15:43:20+00:00",
-      "summary": "Why observability matters for generative AI Generative AI systems operate in complex and dynamic environments. Without systematic evaluation and monitoring, these systems can produce outputs that are factually incorrect, irrelevant, biased, unsafe, or vulnerable to misuse. Observability helps teams...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ravimodi",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "How to Enable Microsoft Entra ID for Azure Cosmos DB (NoSQL)",
       "link": "https://devblogs.microsoft.com/cosmosdb/how-to-enable-microsoft-entra-id-for-azure-cosmos-db-nosql/",
       "published": "2026-02-05T15:38:42+00:00",
@@ -7062,17 +7073,6 @@
       "blogId": "azurenetworkingblog",
       "author": "Sudha_Mahajan",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "From Large Semi-Structured Docs to Actionable Data: Reusable Pipelines with ADI, AI Search & OpenAI",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-large-semi-structured-docs-to-actionable-data-reusable/ba-p/4474054",
-      "published": "2025-12-18T22:00:29+00:00",
-      "summary": "Problem Space Large semi-structured documents such as contracts, invoices, hospital tariff/rate cards multi-page reports, and compliance records often carry essential information that is difficult to extract reliably with traditional approaches. Their layout can span several pages, the structure is...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "anishganguli",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focused on practical app modernization across AI, serverless, and Kubernetes. The biggest themes were **model flexibility in Azure AI** with **Bring Your Own Model (BYOM)** via **Azure Machine Learning**, rapid **MCP app** development on **Azure Functions** using **TypeScript**, and an **AKS + Application Gateway Ingress Controller (AGIC)** architecture limitation where clusters can hit the **Azure Application Gateway backend pool limit of 100**, affecting ingress scalability and design choices."
+  "summary": "Today’s Azure posts focus on scalable cloud operations and modern app platform patterns: Microsoft highlighted **enterprise-scale subscription vending with Azure Verified Modules (AVM)** for standardized Azure landing zones, guidance for **blue‑green deployments of always-on TCP services on Azure Container Apps**, and an **AKS + Application Gateway Ingress Controller (AGIC)** limitation where clusters can hit the **100-backend-pool limit** on **Azure Application Gateway**.  \n\nOn the AI and developer platform side, Azure also emphasized building intelligent and extensible apps with **Bring Your Own Model (BYOM)** support for **Azure AI applications via Azure Machine Learning**, plus a quick start for **MCP apps on Azure Functions using TypeScript**, signaling continued investment in customizable AI workflows and serverless developer tooling."
 }
