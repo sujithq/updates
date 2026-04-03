@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-04-03T12:34:48.271647+00:00",
+  "lastUpdated": "2026-04-03T15:32:13.710104+00:00",
   "totalArticles": 1136,
   "articles": [
+    {
+      "title": "Organization firewall settings for Copilot cloud agent",
+      "link": "https://github.blog/changelog/2026-04-03-organization-firewall-settings-for-copilot-cloud-agent",
+      "published": "2026-04-03T14:12:27+00:00",
+      "summary": "Copilot cloud agent includes a built-in agent firewall to control Copilot’s internet access and help protect against prompt injection and data exfiltration. Until now, the firewall was configured at the… The post Organization firewall settings for Copilot cloud agent appeared first on The GitHub...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Copilot cloud agent signs its commits",
+      "link": "https://github.blog/changelog/2026-04-03-copilot-cloud-agent-signs-its-commits",
+      "published": "2026-04-03T12:05:23+00:00",
+      "summary": "Copilot cloud agent now signs every commit it makes. Signed commits appear as Verified on GitHub, giving you confidence that the commit was genuinely made by the agent and hasn’t… The post Copilot cloud agent signs its commits appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "Demystifying On-Demand Capacity Reservations",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/demystifying-on-demand-capacity-reservations/ba-p/4504806",
@@ -608,17 +630,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Codespaces is now generally available for GitHub Enterprise with data residency",
-      "link": "https://github.blog/changelog/2026-04-01-codespaces-is-now-generally-available-for-github-enterprise-with-data-residency",
-      "published": "2026-04-01T17:16:57+00:00",
-      "summary": "GitHub Codespaces is now generally available for GitHub Enterprise Cloud with data residency. You can create secure, configurable, instantly available cloud development environments while maintaining strict compliance with your data… The post Codespaces is now generally available for GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Visual Studio Code 1.114",
       "link": "https://code.visualstudio.com/updates/v1_114",
       "published": "2026-04-01T17:00:00+00:00",
@@ -627,17 +638,6 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "GPT-5.4 mini is now available in Copilot Student auto model selection",
-      "link": "https://github.blog/changelog/2026-04-01-gpt-5-4-mini-is-now-available-in-copilot-student-auto-model-selection",
-      "published": "2026-04-01T16:46:07+00:00",
-      "summary": "GPT-5.4 mini is now generally available to Copilot Student plan via Copilot auto model selection. This model is part of Auto in GitHub Copilot Chat on Visual Studio Code, Visual… The post GPT-5.4 mini is now available in Copilot Student auto model selection appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on production-ready cloud operations and AI integration: Microsoft highlighted **General Availability of Private Application Gateway on Application Gateway v2**, guidance for **DevSecOps on AKS**, **AI-assisted infrastructure validation and drift detection**, and **enterprise-scale subscription vending with Azure Verified Modules**, alongside architecture advice for **blue-green deployments on Azure Container Apps** and scaling constraints when **AKS uses AGIC with Application Gateway**.  \n\nAI was the other major theme, with posts showing **Azure SQL Managed Instance** as an **AI-enabled PaaS platform**, **Bring Your Own Model (BYOM)** for Azure AI apps via **Azure Machine Learning**, a quick start for **MCP apps on Azure Functions with TypeScript**, and even local LLM experimentation through **oBeaver**; together, the announcements emphasize secure, automated Azure infrastructure plus broader pathways for building and running AI-powered applications."
+  "summary": "Today’s Azure posts were dominated by AI and platform engineering: Microsoft highlighted **Azure SQL Managed Instance as an AI-enabled PaaS**, **BYOM for Azure AI apps via Azure Machine Learning**, **MCP apps on Azure Functions with TypeScript**, and local LLM experimentation with **oBeaver**, while GitHub announced tighter **Copilot cloud agent** controls through **organization firewall settings** and **commit signing**.  \n\nOn the infrastructure side, the big themes were production-ready governance and networking—covering **on-demand capacity reservations**, **DevSecOps guardrails on AKS**, **AI-assisted infrastructure drift detection**, **enterprise-scale subscription vending with Azure Verified Modules**, **blue-green deployments for TCP workloads on Azure Container Apps**, and the **general availability of Private Application Gateway on Application Gateway v2**, alongside practical guidance on scaling issues such as **AGIC hitting the Application Gateway backend pool limit**."
 }
