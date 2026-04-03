@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-04-03T09:43:06.307717+00:00",
+  "lastUpdated": "2026-04-03T12:34:48.271647+00:00",
   "totalArticles": 1136,
   "articles": [
+    {
+      "title": "Demystifying On-Demand Capacity Reservations",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/demystifying-on-demand-capacity-reservations/ba-p/4504806",
+      "published": "2026-04-03T11:48:50+00:00",
+      "summary": "About On-Demand Capacity Reservations Introducing the “parking garage” metaphor There are dozens of VM types available in Azure which span multiple generations of CPU across vendors and architectures. Within each Azure region are datacenters hosting pools of hardware which runs Azure services, such...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "KenHooverMSFT",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "DevSecOps on AKS: Governance Gates That Actually Prevent Incidents",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/devsecops-on-aks-governance-gates-that-actually-prevent/ba-p/4508415",
+      "published": "2026-04-03T10:46:12+00:00",
+      "summary": "This article is for AKS platform/infra engineers, SREs, and security teams who want a practical, enforceable model for stopping common Kubernetes misconfigurations before they become incidents—without turning delivery into bureaucracy. Why incidents still happen after “adding security to the...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "lakshaymalik",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure SQL Managed Instance as an AI‑Enabled PaaS Platform",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-sql-managed-instance-as-an-ai-enabled-paas-platform/ba-p/4508380",
+      "published": "2026-04-03T09:42:50+00:00",
+      "summary": "AI Capabilities Built into Azure SQL Managed Instance Azure SQL MI includes multiple intelligence layers by default: Intelligent Insights for anomaly detection Automatic tuning (recommend mode) Copilot‑assisted diagnostics Native vector data types for AI workloads These capabilities work together...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ShivaniThadiyan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "AI‑Assisted Azure Infrastructure Validation and Drift Detection",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/ai-assisted-azure-infrastructure-validation-and-drift-detection/ba-p/4508346",
@@ -451,17 +484,6 @@
       "blogId": "azurestorageblog",
       "author": "ellievail",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Announcing Microsoft Azure Network Adapter (MANA) support for Existing VM SKUs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/announcing-microsoft-azure-network-adapter-mana-support-for/ba-p/4493279",
-      "published": "2026-04-01T20:00:03+00:00",
-      "summary": "As a leader in cloud infrastructure, Microsoft ensures that Azure’s IaaS customers always have access to the latest hardware. Our goal is to consistently deliver technology to support business critical workloads with world class efficiency, reliability, and security. Customers benefit from...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ali_sheriff",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3622,17 +3644,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Building Reusable Custom Images for Azure Confidential VMs Using Azure Compute Gallery",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-reusable-custom-images-for-azure-confidential-vms-using/ba-p/4500880",
-      "published": "2026-03-10T12:09:24+00:00",
-      "summary": "Overview Azure Confidential Virtual Machines (CVMs) provide hardware-enforced protection for sensitive workloads by encrypting data in use using AMD SEV-SNP technology. In enterprise environments, organizations typically need to: Create hardened golden images Standardize baseline configurations...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "PramodPalukuru",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Scaling DNS on AKS with Cilium: NodeLocal DNSCache, LRP, and FQDN Policies",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/scaling-dns-on-aks-with-cilium-nodelocal-dnscache-lrp-and-fqdn/ba-p/4486323",
       "published": "2026-03-10T09:23:51+00:00",
@@ -3641,17 +3652,6 @@
       "blogId": "linuxandopensourceblog",
       "author": "Simone_Rodigari",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "How to Create a Harness Pipeline and integrate with Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/how-to-create-a-harness-pipeline-and-integrate-with-azure/ba-p/4499862",
-      "published": "2026-03-10T09:06:01+00:00",
-      "summary": "Building reliable, automated CI/CD pipelines is crucial for modern cloud applications. Harness — with its powerful pipeline orchestration — integrates seamlessly with Microsoft Azure, enabling teams to deploy applications faster, with stronger governance, security, and visibility. In this blog,...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "gjayadev",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on production-grade cloud operations and AI app enablement. Key infrastructure updates included the general availability of **Private Application Gateway on Azure Application Gateway v2**, guidance for **AI-assisted Azure infrastructure validation and drift detection**, **enterprise-scale subscription vending with Azure Verified Modules (AVM)**, and architecture patterns for **blue-green deployments of always-on TCP workloads on Azure Container Apps** plus scaling considerations for **AKS with AGIC** when hitting the **Application Gateway backend pool limit**.\n\nOn the AI and developer side, Azure highlighted more flexible model and app workflows: **Bring Your Own Model (BYOM)** for Azure AI applications using **Azure Machine Learning**, **MCP apps on Azure Functions with TypeScript**, and the community project **oBeaver**, which runs **LLMs locally on your machine**. Overall, the themes were secure networking, scalable platform automation, resilient application delivery, and easier paths to building and deploying AI-powered apps on Azure."
+  "summary": "Today’s Azure posts centered on production-ready cloud operations and AI integration: Microsoft highlighted **General Availability of Private Application Gateway on Application Gateway v2**, guidance for **DevSecOps on AKS**, **AI-assisted infrastructure validation and drift detection**, and **enterprise-scale subscription vending with Azure Verified Modules**, alongside architecture advice for **blue-green deployments on Azure Container Apps** and scaling constraints when **AKS uses AGIC with Application Gateway**.  \n\nAI was the other major theme, with posts showing **Azure SQL Managed Instance** as an **AI-enabled PaaS platform**, **Bring Your Own Model (BYOM)** for Azure AI apps via **Azure Machine Learning**, a quick start for **MCP apps on Azure Functions with TypeScript**, and even local LLM experimentation through **oBeaver**; together, the announcements emphasize secure, automated Azure infrastructure plus broader pathways for building and running AI-powered applications."
 }
