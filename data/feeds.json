@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-03T21:23:14.919381+00:00",
+  "lastUpdated": "2026-04-04T01:02:40.184443+00:00",
   "totalArticles": 1136,
   "articles": [
     {
@@ -14,15 +14,15 @@
       "sourceType": "rss"
     },
     {
-      "title": "MCP Apps on Azure Functions: Quickstart with TypeScript",
-      "link": "https://devblogs.microsoft.com/azure-sdk/mcp-apps-on-azure-functions-quickstart-with-typescript/",
-      "published": "2026-04-03T21:15:58+00:00",
-      "summary": "Learn how to build and deploy MCP (Model Context Protocol) apps on Azure Functions using TypeScript. This guide covers MCP tools, resources, local development, and serverless deployment with a practical weather app example. The post MCP Apps on Azure Functions: Quickstart with TypeScript appeared...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Swapnil Nagar",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
+      "title": "Give your Foundry Agent Custom Tools with MCP Servers on Azure Functions",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/give-your-foundry-agent-custom-tools-with-mcp-servers-on-azure/ba-p/4507828",
+      "published": "2026-04-03T22:04:00+00:00",
+      "summary": "This blog post is for developers who have an MCP server deployed to Azure Functions and want to connect it to Microsoft Foundry agents. It walks through why you'd want to do this, the different authentication options available, and how to get your agent calling your MCP tools. Connect your MCP...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "lily-ma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "MCP Apps on Azure Functions: Quick Start with TypeScript",
@@ -274,17 +274,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "Mayunk_Jain",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Give your Foundry Agent Custom Tools with MCP Servers on Azure Functions",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/give-your-foundry-agent-custom-tools-with-mcp-servers-on-azure/ba-p/4507828",
-      "published": "2026-04-02T22:31:04+00:00",
-      "summary": "This blog post is for developers who have an MCP server deployed to Azure Functions and want to connect it to Microsoft Foundry agents. It walks through why you'd want to do this, the different authentication options available, and how to get your agent calling your MCP tools. Connect your MCP...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "lily-ma",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -710,7 +699,7 @@
       "title": "Retirement: Select Azure AI Language Features",
       "link": "https://azure.microsoft.com/updates?id=557394",
       "published": "2026-04-01T18:00:10+00:00",
-      "summary": "On March 20, 2027, Microsoft will retire the following eight Azure AI Language features: Key Phrase ExtractionSentiment Analysis and Opinion MiningCustom Text ClassificationConversational Language Understanding (CLU)Custom Question Answering (CQA)Orchestr",
+      "summary": "On March 20, 2029, Microsoft will retire the following eight Azure AI Language features: Key Phrase ExtractionSentiment Analysis and Opinion MiningCustom Text ClassificationConversational Language Understanding (CLU)Custom Question Answering (CQA)Orchestr",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -10101,6 +10090,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Azure Developer CLI (azd) – October 2025",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-october-2025/",
+      "published": "2025-10-14T21:54:15+00:00",
+      "summary": "This post announces the October release of the Azure Developer CLI (`azd`). The post Azure Developer CLI (azd) – October 2025 appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "PuiChee (PC) Chan",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "🔥Solving AWS Bedrock's Enterprise Logging Problem: Adding Bot Context to Model Invocation Logs🔥",
       "link": "https://www.letsdodevops.com/p/solving-aws-bedrocks-enterprise-logging",
       "published": "2025-10-14T14:00:49+00:00",
@@ -12498,6 +12498,5 @@
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     }
-  ],
-  "summary": "Today’s Azure posts heavily centered on **AI-driven development and operations**, with new guidance for building **MCP apps on Azure Functions with TypeScript**, the debut of **TSGen** for AI-generated troubleshooting guides at scale, and infrastructure-focused AI use cases like **Azure SQL Managed Instance as an AI-enabled PaaS platform** and **AI-assisted validation/drift detection**. A second major theme was **secure, governed cloud infrastructure**, including **Automatic Agent Upgrade for Azure Arc (public preview)**, **Network Security Perimeter for Azure Service Bus (GA)**, **Private Application Gateway v2 (GA)**, AKS security/architecture content around **AGIC, Azure Front Door Premium, Firewall DNAT**, and governance patterns for **DevSecOps on AKS**.\n\nThere were also notable **migration, security, and GitHub ecosystem updates**: **Azure Migrate** emphasized rapid discovery-to-executive planning, **Microsoft Sentinel** shared RSAC 2026 updates, and GitHub announced new **Copilot cloud agent** controls such as **organization runner controls**, **organization firewall settings**, and **commit signing**, while also deprecating **GPT-5.1 Codex variants**. Overall, the day’s announcements point to Azure investing in **AI-native app development, stronger enterprise security boundaries, and more automated platform operations**."
+  ]
 }
