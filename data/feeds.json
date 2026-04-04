@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T12:27:51.204883+00:00",
+  "lastUpdated": "2026-04-04T15:20:42.451646+00:00",
   "totalArticles": 1136,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Vector Drift in Azure AI Search: Three Hidden Reasons Your RAG Accuracy Degrades After Deployment",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/vector-drift-in-azure-ai-search-three-hidden-reasons-your-rag/ba-p/4493031",
+      "published": "2026-04-04T15:00:00+00:00",
+      "summary": "What Is Vector Drift? Vector drift occurs when embeddings stored in a vector index no longer accurately represent the semantic intent of incoming queries. Because vector similarity search depends on relative semantic positioning, even small changes in models, data distribution, or preprocessing...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "akankshaGahalout",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Give your Foundry Agent Custom Tools with MCP Servers on Azure Functions",
@@ -3443,17 +3454,6 @@
       "blogId": "azurearcblog",
       "author": "Aurnov_Chattopadhyay",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Introducing VibeVoice ASR: Longform, Structured Speech Recognition At Scale",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-vibevoice-asr-longform-structured-speech-recognition/ba-p/4501276",
-      "published": "2026-03-12T22:05:52+00:00",
-      "summary": "Speech recognition technology continues to make enormous strides—but most systems still struggle with real-world audio: long meetings, multi-speaker conversations, domain-specific terminology, and multilingual discussions that don’t fit neatly into short audio chunks. Today, we’re excited to...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "YanXia001",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12499,5 +12499,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure blog coverage centers on **Azure AI Foundry agents** gaining extensibility through **custom tools built with MCP servers hosted on Azure Functions**. The key announcement is that developers can expose external capabilities to Foundry agents using the **Model Context Protocol (MCP)** and deploy those integrations serverlessly on **Azure Functions**, highlighting Azure’s push around agentic AI, tool interoperability, and cloud-native app development."
+  "summary": "Today’s Azure blogs focused on improving production-grade AI apps: one post warned that **RAG quality in Azure AI Search** can quietly degrade after launch due to **vector drift**, highlighting three hidden causes that affect embedding relevance and retrieval accuracy over time. The other showed how to extend **Azure AI Foundry Agents** with **custom tools via MCP servers hosted on Azure Functions**, emphasizing a more modular way to connect agents to external capabilities and enterprise workflows."
 }
