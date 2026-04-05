@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T06:53:02.492234+00:00",
+  "lastUpdated": "2026-04-05T09:28:57.911519+00:00",
   "totalArticles": 1135,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "How we build Azure SRE Agent with agentic workflows",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-we-build-azure-sre-agent-with-agentic-workflows/ba-p/4508753",
+      "published": "2026-04-05T07:40:28+00:00",
+      "summary": "The Challenge: Ops is critical but takes time from innovation Microsoft operates always-on, mission-critical production systems at extraordinary scale. Thousands of services, millions of deployments, and constant change are the reality of modern cloud engineering. These are titan systems that power...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "saziz_msft",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Vector Drift in Azure AI Search: Three Hidden Reasons Your RAG Accuracy Degrades After Deployment",
@@ -2475,17 +2486,6 @@
       "blogId": "microsoftdefendercloudblog",
       "author": "parulseth",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Heroku Entered Maintenance Mode — Here's Your Next Move",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/heroku-entered-maintenance-mode-here-s-your-next-move/ba-p/4504021",
-      "published": "2026-03-20T14:27:30+00:00",
-      "summary": "Heroku has entered sustaining engineering — no new features, no new enterprise contracts. If you're running production workloads on the platform, you're probably thinking about what comes next. Azure Container Apps is worth a serious look. Scale-to-zero pricing, event-driven autoscaling, built-in...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "simonjj",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12487,5 +12487,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-databricks&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage highlights **Azure SRE Agent**, a new **agentic workflow** system designed to support **site reliability engineering** tasks for applications running on **Azure**. The post focuses on how Microsoft is building this agent to automate and coordinate operational workflows—likely around incident analysis, remediation, and reliability management—showing Azure’s broader push to apply **AI-driven agents** to cloud operations."
 }
