@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-06T05:15:31.551657+00:00",
+  "lastUpdated": "2026-04-06T07:15:34.493471+00:00",
   "totalArticles": 1135,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Building MCP servers with Entra ID and pre-authorized clients",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-mcp-servers-with-entra-id-and-pre-authorized-clients/ba-p/4508453",
+      "published": "2026-04-06T07:00:00+00:00",
+      "summary": "The Model Context Protocol (MCP) gives AI agents a standard way to call external tools, but things get more complicated when those tools need to know who the user is. In this post, I’ll show how to build an MCP server with the Python FastMCP package that authenticates users with Microsoft Entra ID...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Pamela_Fox",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Building Cost-Aware Azure Infrastructure Pipelines: Estimate Costs Before You Deploy",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-cost-aware-azure-infrastructure-pipelines-estimate/ba-p/4508776",
+      "published": "2026-04-06T06:28:43+00:00",
+      "summary": "The Problem: Cost Is a Blind Spot in IaC Reviews Code reviews for Bicep or Terraform templates typically focus on correctness, security, and compliance. But cost is rarely part of the review process because: Developers don't have easy access to pricing data at review time Azure pricing depends on...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "whosocurious",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "How we build Azure SRE Agent with agentic workflows",
@@ -3699,17 +3721,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Migrating On-prem Windows & Linux VMs to Azure Confidential Virtual Machines via Azure Migrate",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/migrating-on-prem-windows-linux-vms-to-azure-confidential/ba-p/4500898",
-      "published": "2026-03-10T15:09:25+00:00",
-      "summary": "1. Executive Summary Enterprise cloud adoption increasingly prioritizes trust boundaries that extend beyond traditional infrastructure isolation. While encryption at rest and in transit are foundational, modern organizations must also ensure that data in use (data actively processed in CPU or...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "SamhithaGurumurthy",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Scaling DNS on AKS with Cilium: NodeLocal DNSCache, LRP, and FQDN Policies",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/scaling-dns-on-aks-with-cilium-nodelocal-dnscache-lrp-and-fqdn/ba-p/4486323",
       "published": "2026-03-10T09:23:51+00:00",
@@ -3807,17 +3818,6 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Microsoft Agent Framework, Microsoft Foundry, MCP, Aspire を使った実践的な AI アプリを構築するサンプルが登場",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/microsoft-agent-framework-microsoft-foundry-mcp-aspire-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E5%AE%9F%E8%B7%B5%E7%9A%84%E3%81%AA/ba-p/4499972",
-      "published": "2026-03-09T17:00:00+00:00",
-      "summary": "AI エージェントを作ること自体は、以前よりも簡単になってきました。しかし、それらを実際の本番運用のアプリケーションの一部としてデプロイすること (複数のサービス、永続的な状態管理、本番向けのインフラを含めた形で運用すること) になると、途端に複雑になります。 .NET コミュニティの開発者からも、ローカル環境でもクラウドでも動作する、クラウドネイティブな実運用レベルのサンプルが見たいという声が多く寄せられていました。 その声に応え、私たちはオープンソースのサンプルアプリ『Interview Coach (面接コーチ)』を作りました。模擬就職面接を行う AI チャット web アプリです。...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Madoka Chiyoda",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Visual Studio Code 1.111",
@@ -12487,5 +12487,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-databricks&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure posts focused on two practical enterprise themes: secure AI/app integration and cost governance in infrastructure delivery. One article shows how to build MCP servers secured with Microsoft Entra ID using pre-authorized clients for streamlined authentication and controlled access, while the other highlights cost-aware Azure Infrastructure pipelines that estimate deployment spend before rollout—helping teams bake FinOps into CI/CD and make better provisioning decisions upfront."
 }
