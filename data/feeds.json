@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-07T12:51:23.930856+00:00",
+  "lastUpdated": "2026-04-07T16:03:35.734130+00:00",
   "totalArticles": 1135,
   "articles": [
     {
@@ -11,6 +11,72 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Latest enhancements for Copilot security, management, and analytics",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/latest-enhancements-for-copilot-security-management-and/ba-p/4508476",
+      "published": "2026-04-07T15:00:00+00:00",
+      "summary": "As Copilot becomes a daily workflow for more teams, IT and security leaders need clear, practical controls to deploy and manage confidently—without slowing down adoption or compromising governance. Let's take a closer look at the new enhancements providing built-in security, management, and...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "Sophie_Ke",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Copilot CLI now supports BYOK and local models",
+      "link": "https://github.blog/changelog/2026-04-07-copilot-cli-now-supports-byok-and-local-models",
+      "published": "2026-04-07T14:53:34+00:00",
+      "summary": "GitHub Copilot CLI now lets you connect your own model provider or run fully local models instead of using GitHub-hosted model routing. This means you can use the models and… The post Copilot CLI now supports BYOK and local models appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Dependabot alerts are now assignable to AI agents for remediation",
+      "link": "https://github.blog/changelog/2026-04-07-dependabot-alerts-are-now-assignable-to-ai-agents-for-remediation",
+      "published": "2026-04-07T14:22:51+00:00",
+      "summary": "Some dependency vulnerabilities require more than a version bump—they need code changes across your project. You can now assign Dependabot alerts to AI coding agents, including Copilot, Claude, and Codex,… The post Dependabot alerts are now assignable to AI agents for remediation appeared first on...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Dependabot version updates now support the Nix ecosystem",
+      "link": "https://github.blog/changelog/2026-04-07-dependabot-version-updates-now-support-the-nix-ecosystem",
+      "published": "2026-04-07T14:14:49+00:00",
+      "summary": "Dependabot now supports Nix flakes. Add nix as a package ecosystem in your dependabot.yml file. Dependabot will then monitor your flake.lock inputs and open pull requests when newer commits are… The post Dependabot version updates now support the Nix ecosystem appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Take full control of your floating windows in Visual Studio",
+      "link": "https://devblogs.microsoft.com/visualstudio/take-full-control-of-your-floating-windows-in-visual-studio/",
+      "published": "2026-04-07T14:00:39+00:00",
+      "summary": "Make Visual Studio floating windows work perfectly with PowerToys FancyZones. Flip one option to get independent windows, better snapping, and less friction. The post Take full control of your floating windows in Visual Studio appeared first on Visual Studio Blog.",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mads Kristensen",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "SOHO router compromise leads to DNS hijacking and adversary-in-the-middle attacks",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/04/07/soho-router-compromise-leads-to-dns-hijacking-and-adversary-in-the-middle-attacks/",
+      "published": "2026-04-07T14:00:00+00:00",
+      "summary": "Executive summary Forest Blizzard, a threat actor linked to the Russian military, has been compromising insecure home and small-office internet equipment like routers, then modifying their settings in ways that turn them into part of the actor’s malicious infrastructure. The post SOHO router...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Threat Intelligence",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -608,28 +674,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Copilot usage metrics now includes per-user GitHub Copilot CLI activity in organization reports",
-      "link": "https://github.blog/changelog/2026-04-02-copilot-usage-metrics-now-includes-per-user-github-copilot-cli-activity-in-organization-reports",
-      "published": "2026-04-02T17:27:35+00:00",
-      "summary": "Following our enterprise-level, user-level, and organization-level CLI metrics releases, we’re completing coverage with per-user CLI breakdowns in organization reports. Organization admins can now see which individual users are active on… The post Copilot usage metrics now includes per-user GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "GitHub Actions: Early April 2026 updates",
-      "link": "https://github.blog/changelog/2026-04-02-github-actions-early-april-2026-updates",
-      "published": "2026-04-02T17:11:45+00:00",
-      "summary": "This month, GitHub Actions adds entrypoint and command overrides for service containers and new security features including OIDC custom properties and VNET failover. Customizing entrypoints for service containers Many GitHub… The post GitHub Actions: Early April 2026 updates appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Explore union types in C# 15",
       "link": "https://devblogs.microsoft.com/dotnet/csharp-15-union-types/",
       "published": "2026-04-02T17:05:00+00:00",
@@ -716,17 +760,6 @@
       "author": "ezrapark",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "GitHub Copilot in Visual Studio — March update",
-      "link": "https://github.blog/changelog/2026-04-02-github-copilot-in-visual-studio-march-update",
-      "published": "2026-04-02T15:00:31+00:00",
-      "summary": "March 2026 brought a major step forward for GitHub Copilot extensibility in Visual Studio, with custom agents, agent skills, and new tools that make the agent smarter and more capable.… The post GitHub Copilot in Visual Studio — March update appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Introducing MAI-Transcribe-1, MAI-Voice-1, and MAI-Image-2 in Microsoft Foundry",
@@ -1651,17 +1684,6 @@
       "author": "RohanB",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "How Microsoft Defender protects high-value assets in real-world attack scenarios",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/03/27/microsoft-defender-protects-high-value-assets/",
-      "published": "2026-03-27T19:53:53+00:00",
-      "summary": "High-value assets including domain controllers, web servers, and identity infrastructure are frequent targets in sophisticated attacks. Microsoft Defender applies asset-aware protection using Microsoft Security Exposure Management to detect and block threats against these critical systems. This...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Defender Security Research Team",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "What AI Agents for Modernization Look Like in Practice",
@@ -5657,17 +5679,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Introducing Copilot Connector Checker",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/introducing-copilot-connector-checker/ba-p/4490575",
-      "published": "2026-02-05T21:07:59+00:00",
-      "summary": "Copilot connectors extend Microsoft 365 Copilot and Copilot Search to your external business systems. They bring line of business content—like ServiceNow, Confluence etc data—into Microsoft Graph so it can be safely discovered inside M365 Copilot and Agent experiences while honoring your existing...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "Vikram Kartik Jindal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[In preview] Public Preview: Claude Opus 4.6, Available on Microsoft Foundry",
       "link": "https://azure.microsoft.com/updates?id=555870",
       "published": "2026-02-05T18:30:32+00:00",
@@ -5918,17 +5929,6 @@
       "blogId": "cosmosdbblog",
       "author": "Richa Gaur",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Performance improvements to MEF-based editor productivity extensions",
-      "link": "https://devblogs.microsoft.com/visualstudio/performance-improvements-to-mef-based-editor-productivity-extensions/",
-      "published": "2026-02-03T15:00:21+00:00",
-      "summary": "If you use editor productivity extensions for Visual Studio 2026, there’s good news—they can now load faster! Extension developers with existing MEF-based editor productivity extensions should read this blog to learn about recent changes and how they might be affected. We introduced...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Tina Schrepfer (LI), Amadeus Wieczorek",
-      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
     },
     {
@@ -12488,5 +12488,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts center on secure software delivery, storage migration, and AI-ready data foundations. GitHub announced a code scanning update that lets teams batch-apply security alert fixes directly in pull requests, while Azure Migrate added discovery and assessment support for File Shares to help plan moves to Azure Files. A third post argues that traditional data platforms need to evolve into “intelligence platforms” so AI agents can work effectively, emphasizing data context, interoperability, and architectures that better support agent-driven workloads."
+  "summary": "Microsoft’s latest updates center on AI-powered developer and security workflows: Microsoft 365 Copilot gained stronger security, management, and analytics controls; GitHub Copilot CLI now supports bring-your-own-key encryption and local models; and GitHub’s security tooling expanded with AI-agent assignable Dependabot alerts, batch-applied code scanning fixes in pull requests, and Nix ecosystem support for Dependabot version updates.  \n\nOn the infrastructure and enterprise side, Azure highlighted new Azure Migrate capabilities to discover and assess file shares for migration to Azure Files, while the Azure developer community emphasized evolving data platforms into “intelligence platforms” for AI agents. Meanwhile, Microsoft Security warned of SOHO router compromises enabling DNS hijacking and adversary-in-the-middle attacks, and Visual Studio introduced improved control over floating windows for desktop developer productivity."
 }
