@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-07T18:44:24.777248+00:00",
+  "lastUpdated": "2026-04-07T21:34:10.525261+00:00",
   "totalArticles": 1135,
   "articles": [
     {
@@ -11,6 +11,50 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure Container Storage v2.1.0: Now GA with Elastic SAN",
+      "link": "https://blog.aks.azure.com/2026/04/08/acstor-v2.1-ga",
+      "published": "2026-04-08T00:00:00+00:00",
+      "summary": "Explore what’s new in Azure Container Storage v2.1.0 with Elastic SAN integration, modular on-demand installation, and enhanced node selector support.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft",
+      "feedUrl": "https://blog.aks.azure.com/rss.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Latest enhancements for Copilot security, management, and analytics",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/latest-enhancements-for-copilot-security-management-and/ba-p/4508476",
+      "published": "2026-04-07T21:31:46+00:00",
+      "summary": "As Copilot becomes a daily workflow for more teams, IT and security leaders need clear, practical controls to deploy and manage confidently—without slowing down adoption or compromising governance. Let's take a closer look at the new enhancements providing built-in security, management, and...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "Sophie_Ke",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "MCP as Easy as 1-2-3: Introducing the Fluent API for MCP Apps",
+      "link": "https://devblogs.microsoft.com/azure-sdk/mcp-as-easy-as-1-2-3-introducing-the-fluent-api-for-mcp-apps/",
+      "published": "2026-04-07T21:16:11+00:00",
+      "summary": "Build MCP tools with rich UI experiences using the new Fluent API for MCP Apps in the .NET isolated worker. Configure views, permissions, and security policies with just a few lines of code. The post MCP as Easy as 1-2-3: Introducing the Fluent API for MCP Apps appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Lilian Kasem (she/her)",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Red Hat OpenShift adds NVIDIA H100 and H200 GPU support",
+      "link": "https://azure.microsoft.com/updates?id=559547",
+      "published": "2026-04-07T19:30:53+00:00",
+      "summary": "Azure Red Hat OpenShift (ARO) now supports NVIDIA H100 and H200 GPU-based Azure Virtual Machine SKUs, enabling customers to run large-scale AI, machine learning, and high-performance computing (HPC) workloads on a fully managed OpenShift service. This upd",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -122,17 +166,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Latest enhancements for Copilot security, management, and analytics",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/latest-enhancements-for-copilot-security-management-and/ba-p/4508476",
-      "published": "2026-04-07T15:00:00+00:00",
-      "summary": "As Copilot becomes a daily workflow for more teams, IT and security leaders need clear, practical controls to deploy and manage confidently—without slowing down adoption or compromising governance. Let's take a closer look at the new enhancements providing built-in security, management, and...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "Sophie_Ke",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Copilot CLI now supports BYOK and local models",
@@ -8836,17 +8869,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "[In preview] Public Preview: Azure Copilot agents - a closer look at the deployment agent",
-      "link": "https://azure.microsoft.com/updates?id=526751",
-      "published": "2025-11-18T20:15:19+00:00",
-      "summary": "Following our Azure Copilot announcement introducing agentic capabilities, this update focuses on one of the six new agents: the deployment agent. The deployment agent helps you discover, plan, and deploy cloud workloads faster and with confidence using n",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "General Availability: Large Message Support in Azure Event Hubs",
       "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/general-availability-large-message-support-in-azure-event-hubs/ba-p/4471094",
       "published": "2025-11-18T19:05:31+00:00",
@@ -9617,17 +9639,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "PostgreSQL + CloudNativePG guidance for AKS",
-      "link": "https://blog.aks.azure.com/2025/11/10/announce-pgsql-howto",
-      "published": "2025-11-10T00:00:00+00:00",
-      "summary": "Learn how to set up an AKS cluster, deploy PostgreSQL, and explore CloudNativePG running on AKS.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft",
-      "feedUrl": "https://blog.aks.azure.com/rss.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Announcing the 2025 Steering Committee Election Results",
       "link": "https://kubernetes.io/blog/2025/11/09/steering-committee-results-2025/",
       "published": "2025-11-09T20:10:00+00:00",
@@ -9912,17 +9923,6 @@
       "author": "kyleikeda",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure SDK Release (October 2025)",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-october-2025/",
-      "published": "2025-10-27T18:59:41+00:00",
-      "summary": "Azure SDK releases every month. In this post, you'll find this month's highlights and release notes. The post Azure SDK Release (October 2025) appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Ronnie Geraghty",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Red Hat Enterprise Linux Software Reservations Now Available",
@@ -12488,5 +12488,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Microsoft’s Azure updates today centered on cloud modernization, developer productivity, and security hardening: AKS added generally available support for disabling HTTP proxies and expanding Pod CIDR ranges, Azure Functions now supports MCP resource triggers, and Azure Migrate introduced discovery and assessment for file shares moving to Azure Files. On the app and platform side, Microsoft highlighted .NET modernization with the Modernization Assessment, announced ASP.NET Core 2.3 end of support, and pushed agentic/AI development themes through Aspire, Azure Cosmos DB-powered intelligent document processing, and broader calls to evolve data platforms into “intelligence platforms” for AI agents.\n\nSecurity and operations were the other major thread, with new Microsoft Sentinel connectors announced at RSAC 2026, Microsoft warning about SOHO router DNS hijacking attacks, and GitHub adding security-focused workflow features including Dynatrace runtime context for alert prioritization, batch code-scanning fixes in pull requests, AI-agent assignment for Dependabot alerts, Nix ecosystem support for Dependabot, and Copilot CLI support for BYOK and local models. Microsoft also expanded Copilot enterprise capabilities across security, management, and analytics, while Visual Studio added improved floating window controls for desktop developer workflows."
+  "summary": "Microsoft’s Azure news today centered on AI agent development and operational hardening: Azure SDK introduced a Fluent API for building MCP apps, Azure Functions reached GA for MCP resource triggers, and .NET Aspire outlined “build, run, observe” agentic workflows, while Microsoft 365 Copilot added stronger security, management, and analytics controls and GitHub Copilot CLI added BYOK and local model support. On infrastructure, Azure Red Hat OpenShift now generally supports NVIDIA H100 and H200 GPUs for AI workloads, AKS added GA support for disabling HTTP proxies and expanding Pod CIDRs, and Azure Cosmos DB highlighted scalable intelligent document processing.\n\nSecurity and modernization were the other major themes: Microsoft Sentinel announced new RSAC 2026 connectors, GitHub expanded security remediation with batch code-scanning fixes, AI-agent assignable Dependabot alerts, Dynatrace runtime-context prioritization, and Nix ecosystem support, while Microsoft also warned of SOHO router DNS hijacking attacks. For migration and app lifecycle management, Microsoft published a .NET Modernization Assessment as a migration “source of truth,” added Azure Migrate discovery/assessment for Azure Files, and announced ASP.NET Core 2.3 end of support."
 }
