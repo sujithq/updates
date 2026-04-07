@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-07T09:57:03.286018+00:00",
+  "lastUpdated": "2026-04-07T12:51:23.930856+00:00",
   "totalArticles": 1135,
   "articles": [
     {
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Code scanning: Batch apply security alert suggestions on pull requests",
+      "link": "https://github.blog/changelog/2026-04-07-code-scanning-batch-apply-security-alert-suggestions-on-pull-requests",
+      "published": "2026-04-07T10:22:33+00:00",
+      "summary": "GitHub code scanning alerts on pull requests are now easier to address with bulk actions. You can now apply fixes for code scanning alerts in the Files changed tab by… The post Code scanning: Batch apply security alert suggestions on pull requests appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -727,17 +738,6 @@
       "author": "Naomi Moneypenny",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "The Security tab is now Security & quality",
-      "link": "https://github.blog/changelog/2026-04-02-the-security-tab-is-now-security-quality",
-      "published": "2026-04-02T13:57:45+00:00",
-      "summary": "The top-level Security tab across repositories, organizations, and enterprises has been renamed to Security & quality on github.com. This change restructures the navigation to colocate code quality findings alongside security… The post The Security tab is now Security & quality appeared first on...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Unlocking AI-Ready Unstructured Data at Scale with Komprise and Azure",
@@ -12488,5 +12488,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focused on two big themes: modernizing infrastructure for migration and evolving data estates for AI. Microsoft highlighted new Azure Migrate capabilities for discovering and assessing on-premises file shares for migration to Azure Files, aimed at simplifying storage inventory, readiness analysis, and migration planning.\n\nThe second post argued that traditional data platforms need to become “intelligence platforms” to support AI agents, emphasizing technologies like unified data, governance, context, and AI-ready architectures so agents can reason over enterprise data more effectively."
+  "summary": "Today’s Azure-related posts center on secure software delivery, storage migration, and AI-ready data foundations. GitHub announced a code scanning update that lets teams batch-apply security alert fixes directly in pull requests, while Azure Migrate added discovery and assessment support for File Shares to help plan moves to Azure Files. A third post argues that traditional data platforms need to evolve into “intelligence platforms” so AI agents can work effectively, emphasizing data context, interoperability, and architectures that better support agent-driven workloads."
 }
