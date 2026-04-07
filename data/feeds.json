@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-07T05:03:11.355704+00:00",
+  "lastUpdated": "2026-04-07T07:02:22.441153+00:00",
   "totalArticles": 1135,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Discover and assess File Shares for migration to Azure Files with Azure Migrate",
+      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/discover-and-assess-file-shares-for-migration-to-azure-files/ba-p/4509034",
+      "published": "2026-04-07T07:00:08+00:00",
+      "summary": "When organizations migrate to the cloud, applications are at the center of every decision. And behind every application is data, stored in file shares, accessed by users and services, and critical to keeping the application running. Moving that data seamlessly is not optional; it is a fundamental...",
+      "blog": "Azure Migration",
+      "blogId": "azuremigrationblog",
+      "author": "ankitsurkar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Why Data Platforms Must Become Intelligence Platforms for AI Agents to Work",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/why-data-platforms-must-become-intelligence-platforms-for-ai/ba-p/4505653",
+      "published": "2026-04-07T07:00:00+00:00",
+      "summary": "The promise and the gap Your organization has invested in an AI agent. You ask it: \"Prepare a summary of Q3 revenue by region, including year-over-year trends and top product lines.\" The agent finds revenue numbers in a SQL warehouse, product metadata in Dataverse, regional mappings in SharePoint,...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "AnjaliSadhukhan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Agentic IIS Migration to Managed Instance on Azure App Service",
@@ -3806,17 +3828,6 @@
       "blogId": "linuxandopensourceblog",
       "author": "Simone_Rodigari",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Getting Started with Behave: Writing Cucumber Tests in VS Code",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/getting-started-with-behave-writing-cucumber-tests-in-vs-code/ba-p/4496865",
-      "published": "2026-03-10T07:00:00+00:00",
-      "summary": "What is Behave? Behave is a BDD test framework for Python that allows you to write tests in plain English using Given–When–Then syntax, backed by Python step definitions. Key benefits: Human‑readable test scenarios using Gherkin Strong alignment between business requirements and test automation...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "sabappal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -10090,17 +10101,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Unlock cost savings with utilization-based storage recommendations in Azure Migrate",
-      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/unlock-cost-savings-with-utilization-based-storage/ba-p/4461634",
-      "published": "2025-10-15T06:01:24+00:00",
-      "summary": "We’re thrilled to announce a game-changing enhancement in Azure Migrate. The storage utilization-based recommendations, a feature designed to help you right-size your storage workloads and maximize savings. By focusing on actual storage usage instead of allocated capacity, you can significantly...",
-      "blog": "Azure Migration",
-      "blogId": "azuremigrationblog",
-      "author": "ankitsurkar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Oracle Database@Azure at Oracle AI World 2025: Powering the Next Wave of Enterprise Innovation",
       "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/oracle-database-azure-at-oracle-ai-world-2025-powering-the-next/ba-p/4460749",
       "published": "2025-10-14T22:55:59+00:00",
@@ -12487,5 +12487,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-databricks&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure posts focus on preparing core infrastructure and data for AI-era modernization. One announcement highlights new Azure Migrate capabilities to discover and assess on-premises File Shares for migration to Azure Files, helping organizations evaluate readiness, sizing, and dependencies before moving NAS/file-based workloads to Azure storage.\n\nThe second post argues that traditional data platforms need to evolve into “intelligence platforms” to support AI agents, emphasizing architectures that combine governed data, context, and operational systems so agents can reason and act effectively. Together, the themes are cloud migration readiness with Azure Files and the transformation of data platforms into AI-ready foundations for agentic applications."
 }
