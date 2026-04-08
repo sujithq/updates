@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-08T09:57:15.146939+00:00",
+  "lastUpdated": "2026-04-08T12:49:43.848107+00:00",
   "totalArticles": 1134,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Build Your AI Agent in 5 Minutes with AI Toolkit for VS Code",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/build-your-ai-agent-in-5-minutes-with-ai-toolkit-for-vs-code/ba-p/4509578",
+      "published": "2026-04-08T09:59:38+00:00",
+      "summary": "What if building an AI agent was as easy as filling out a form? No frameworks to install. No boilerplate to copy-paste from GitHub. No YAML to debug at midnight. Just VS Code, one extension, and an idea. AI Toolkit for VS Code turns agent development into something anyone can do — whether you're a...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "isha_sahni",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "AZD for Beginners: A Practical Introduction to Azure Developer CLI",
@@ -2838,17 +2849,6 @@
       "blogId": "microsoftdefendercloudblog",
       "author": "parulseth",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Designing an Azure Disaster Recovery Strategy for Enterprise Workloads",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/designing-an-azure-disaster-recovery-strategy-for-enterprise/ba-p/4504142",
-      "published": "2026-03-20T10:08:28+00:00",
-      "summary": "Introduction As organizations accelerate their cloud adoption journey, ensuring resiliency and disaster recovery (DR) becomes a foundational requirement for maintaining business continuity. In large-scale Azure environments, customers often operate critical workloads in a primary region and later...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Shikhaghildiyal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12477,5 +12477,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure updates centered on developer productivity, hybrid infrastructure automation, and Kubernetes storage. Microsoft highlighted **Visual Studio Code 1.115**, introduced a hands-on **Azure Developer CLI (azd)** beginner guide for streamlining app provisioning and deployment, and announced a new **Ansible-based Azure Arc onboarding role** to simplify connecting servers to Azure Arc at scale.\n\nOn the infrastructure side, the biggest platform announcement was **Azure Container Storage v2.1.0 reaching GA with Elastic SAN support**, strengthening persistent storage options for **Azure Kubernetes Service (AKS)** workloads. Overall, the themes were faster developer onboarding, more automated hybrid/cloud management, and more mature storage capabilities for cloud-native apps."
+  "summary": "Today’s Azure posts centered on developer productivity and hybrid/cloud operations. Microsoft highlighted **Visual Studio Code 1.115**, a quick-start path to building an **AI agent in 5 minutes with AI Toolkit for VS Code**, and an **AZD for Beginners** introduction to the **Azure Developer CLI** for provisioning and deploying apps.\n\nOn the infrastructure side, Azure emphasized easier fleet management and Kubernetes storage: **Azure Arc** server onboarding can now be automated with **Ansible** via a new onboarding role, and **Azure Container Storage v2.1.0** reached **GA** with support for **Elastic SAN** for **AKS** workloads."
 }
