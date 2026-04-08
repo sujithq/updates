@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-08T05:05:05.201517+00:00",
-  "totalArticles": 1135,
+  "lastUpdated": "2026-04-08T07:04:36.625873+00:00",
+  "totalArticles": 1134,
   "articles": [
     {
       "title": "Visual Studio Code 1.115",
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "AZD for Beginners: A Practical Introduction to Azure Developer CLI",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/azd-for-beginners-a-practical-introduction-to-azure-developer/ba-p/4503747",
+      "published": "2026-04-08T07:00:00+00:00",
+      "summary": "If you are learning how to get an application from your machine into Azure without stitching together every deployment step by hand, Azure Developer CLI, usually shortened to azd, is one of the most useful tools to understand early. It gives developers a workflow-focused command line for...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Simplify Azure Arc Server Onboarding with Ansible and the New Onboarding Role",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/simplify-azure-arc-server-onboarding-with-ansible-and-the-new/ba-p/4509481",
+      "published": "2026-04-08T06:40:42+00:00",
+      "summary": "If you’re already using Ansible to manage your infrastructure, there’s now a simpler—and more secure—way to bring machines under Azure Arc management. We’ve introduced a new Azure Arc onboarding role designed specifically for automated scenarios like Ansible playbooks. This role follows the...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "alinetran",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Azure Container Storage v2.1.0: Now GA with Elastic SAN",
@@ -3939,17 +3961,6 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "Implementing the Backend-for-Frontend (BFF) / Curated API Pattern Using Azure API Management",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/implementing-the-backend-for-frontend-bff-curated-api-pattern/ba-p/4499880",
-      "published": "2026-03-11T07:00:00+00:00",
-      "summary": "Modern digital applications rarely serve a single type of client. Web portals, mobile apps, partner integrations, and internal tools often consume the same backend services—yet each has different performance, payload, and UX requirements. Exposing backend APIs directly to all clients frequently...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "SajalMukherjee",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": ".NET 11 Preview 2 is now available!",
@@ -9188,17 +9199,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Ignite 2025: Preview - Intelligent Real-Time Video Insights and Agents with Azure AI Video Indexer",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/ignite-2025-preview-intelligent-real-time-video-insights-and/ba-p/4470704",
-      "published": "2025-11-18T16:00:14+00:00",
-      "summary": "Azure AI Video Indexer, enabled by Azure Arc, is launching the preview of live video analysis feature set enabling organizations to extract real time actionable insights directly from where their data lives - with the benefits of low latency and data privacy achieved by running locally, and the...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "MaayanYedidia",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Reimagining VM Application Management for an AI-Powered, Secure Future",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/reimagining-vm-application-management-for-an-ai-powered-secure/ba-p/4470127",
       "published": "2025-11-18T16:00:00+00:00",
@@ -12475,18 +12475,7 @@
       "author": "shaypatel",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Llama 4 is now available in Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/azure-databricks/llama-4-is-now-available-in-azure-databricks/ba-p/4401277",
-      "published": "2025-04-07T05:18:30+00:00",
-      "summary": "We are excited to announce the availability of Meta's Llama 4 in Azure Databricks. As you know, enterprises all over the world already use Llama models in Azure Databricks to power AI enterprise agents, workflows, and applications. Now with Llama 4 and Azure Databricks, you can get higher quality,...",
-      "blog": "Azure Databricks",
-      "blogId": "azure-databricks",
-      "author": "AnaviNahar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-databricks&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts center on developer tooling and cloud-native storage. **Visual Studio Code 1.115** highlights the latest release of Microsoft’s editor with updates across the core IDE experience, while the **AKS Blog** announced **Azure Container Storage v2.1.0** is now **generally available**, adding support for **Azure Elastic SAN** to provide scalable, persistent storage for **Azure Kubernetes Service (AKS)** workloads.\n\nThe key theme is improving both ends of the developer-to-production workflow: newer productivity features in **VS Code** for application development, and more mature, enterprise-ready storage options for **Kubernetes** environments on Azure through **Azure Container Storage** and **Elastic SAN** integration."
+  "summary": "Today’s Azure posts centered on developer productivity, hybrid management, and cloud-native infrastructure. Microsoft highlighted Visual Studio Code 1.115, introduced Azure Developer CLI (azd) basics for provisioning and deploying app resources on Azure, and announced a new Ansible-based Azure Arc onboarding role to automate connecting servers to Azure Arc at scale.\n\nOn the infrastructure side, Azure Container Storage v2.1.0 reached general availability with support for Azure Elastic SAN, signaling a stronger push for stateful Kubernetes workloads on AKS with more scalable and enterprise-ready storage options."
 }
