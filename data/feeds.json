@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-07T21:34:10.525261+00:00",
+  "lastUpdated": "2026-04-08T01:10:20.958838+00:00",
   "totalArticles": 1135,
   "articles": [
     {
@@ -23,6 +23,28 @@
       "author": "Microsoft",
       "feedUrl": "https://blog.aks.azure.com/rss.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "3 Ways to Get More from Azure SRE Agent",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/3-ways-to-get-more-from-azure-sre-agent/ba-p/4508993",
+      "published": "2026-04-07T23:33:10+00:00",
+      "summary": "When you first set up Azure SRE Agent, it’s tempting to give it everything. Connect all your alert sources, route every severity, set up scheduled tasks to poll your channels every 30 seconds. The agent can handle all of it. But a few simple configuration choices can help you get more value from...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "dchelupati",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure Monitor in Azure SRE Agent: Autonomous Alert Investigation and Intelligent Merging",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-monitor-in-azure-sre-agent-autonomous-alert-investigation/ba-p/4509069",
+      "published": "2026-04-07T22:20:53+00:00",
+      "summary": "Azure Monitor is great at telling you something is wrong. But once the alert fires, the real work begins — someone has to open the portal, triage it, dig into logs, and figure out what happened. That takes time. And while they're investigating, the same alert keeps firing every few minutes,...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Vineela-Suri",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Latest enhancements for Copilot security, management, and analytics",
@@ -264,6 +286,50 @@
       "blogId": "githubchangelog",
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "AI Inference on AKS enabled by Azure Arc: Predictive AI using Triton and ResNet-50",
+      "link": "https://blog.aks.azure.com/2026/04/07/ai-inference-on-aks-arc-part-4",
+      "published": "2026-04-07T00:01:03+00:00",
+      "summary": "Run predictive AI at the edge by deploying Triton with the ONNX backend on AKS enabled by Azure Arc for local ResNet 50 GPU inference without cloud dependency.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft",
+      "feedUrl": "https://blog.aks.azure.com/rss.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "AI Inference on AKS enabled by Azure Arc: Generative AI with Open‑Source LLM Server",
+      "link": "https://blog.aks.azure.com/2026/04/07/ai-inference-on-aks-arc-part-3",
+      "published": "2026-04-07T00:01:02+00:00",
+      "summary": "Run generative AI at the edge with Ollama and vLLM on AKS enabled by Azure Arc, enabling local LLM inference on GPU hardware without dependency or data egress.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft",
+      "feedUrl": "https://blog.aks.azure.com/rss.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "AI Inference on AKS enabled by Azure Arc: Series Introduction and Scope",
+      "link": "https://blog.aks.azure.com/2026/04/07/ai-inference-on-aks-arc-part-2",
+      "published": "2026-04-07T00:01:01+00:00",
+      "summary": "Scenario driven series for generative and predictive AI inference on AKS enabled by Azure Arc, across CPUs, GPUs, and NPUs in on-premises and edge environments.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft",
+      "feedUrl": "https://blog.aks.azure.com/rss.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "AI Inference on AKS enabled by Azure Arc: Bringing AI to the Edge and On‑Premises",
+      "link": "https://blog.aks.azure.com/2026/04/07/ai-inference-on-aks-arc-part-1",
+      "published": "2026-04-07T00:01:00+00:00",
+      "summary": "Learn how to bring AI inference closer to your data with AKS enabled by Azure Arc, with practical hybrid and edge scenarios for secure, low-latency workloads.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft",
+      "feedUrl": "https://blog.aks.azure.com/rss.xml",
       "sourceType": "rss"
     },
     {
@@ -2027,17 +2093,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Take Control of Every Message: Partial Failure Handling for Service Bus Triggers in Azure Functions",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/take-control-of-every-message-partial-failure-handling-for/ba-p/4504893",
-      "published": "2026-03-25T18:06:50+00:00",
-      "summary": "The Problem: All-or-Nothing Batch Processing in Azure Service Bus Azure Service Bus is one of the most widely used messaging services for building event-driven applications on Azure. When you use Azure Functions with a Service Bus trigger in batch mode, your function receives multiple messages at...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "swapnil_nagar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[In preview] Public Preview: Fabric Mirroring integration for Azure Database for MySQL",
       "link": "https://azure.microsoft.com/updates?id=558841",
       "published": "2026-03-25T17:45:33+00:00",
@@ -2487,17 +2542,6 @@
       "author": "Diego Casati, Ray Kao",
       "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Get started with NeuBird Hawkeye MCP server in Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/get-started-with-neubird-hawkeye-mcp-server-in-azure-sre-agent/ba-p/4504860",
-      "published": "2026-03-23T18:07:39+00:00",
-      "summary": "Integrate NeuBird Hawkeye MCP with Azure SRE Agent TL;DR If your infrastructure spans multiple clouds say Azure and GCP, or Azure alongside any other cloud provider investigating incidents means jumping between completely separate consoles, log systems, and monitoring stacks. Azure SRE Agent now...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "dbandaru",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Azure Event Grid MQTT Broker: Enterprise-Grade Messaging for the Connected World",
@@ -8836,17 +8880,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Preview: nftables support for kube-proxy in Azure Kubernetes Service (AKS)",
-      "link": "https://blog.aks.azure.com/2025/11/19/nftables-in-kube-proxy",
-      "published": "2025-11-19T00:00:00+00:00",
-      "summary": "Learn about how to use the nftables mode of kube-proxy on AKS.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft",
-      "feedUrl": "https://blog.aks.azure.com/rss.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "OracleDatabase@Azure expands footprint to 31 regions and strengthens security with Azure Key Vault",
       "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/oracledatabase-azure-expands-footprint-to-31-regions-and/ba-p/4471109",
       "published": "2025-11-18T23:04:37+00:00",
@@ -9287,17 +9320,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Fully Managed GPU workloads with Azure Linux on Azure Kubernetes Service (AKS)",
-      "link": "https://blog.aks.azure.com/2025/11/18/azure-linux-gpu-on-aks",
-      "published": "2025-11-18T00:00:00+00:00",
-      "summary": "Learn about how managed NVIDIA GPU nodes with Azure Linux OS deliver efficiency and streamlined operations for high-performance computing workloads on AKS.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft",
-      "feedUrl": "https://blog.aks.azure.com/rss.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Introducing the Visual Studio Code Private Marketplace: Your Team's Secure, Curated Extension Hub 🎉",
       "link": "https://code.visualstudio.com/blogs/2025/11/18/PrivateMarketplace",
       "published": "2025-11-18T00:00:00+00:00",
@@ -9340,17 +9362,6 @@
       "author": "SimonaTarantola",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Delve into Dynamic Resource Allocation, devices, and drivers on Kubernetes",
-      "link": "https://blog.aks.azure.com/2025/11/17/dra-devices-and-drivers-on-kubernetes",
-      "published": "2025-11-17T00:00:00+00:00",
-      "summary": "An interactive and 'digestible' way to learn about DRA, followed up with a practical example utilizing NVIDIA's DRA drivers",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft",
-      "feedUrl": "https://blog.aks.azure.com/rss.xml",
-      "sourceType": "rss"
     },
     {
       "title": "Join Microsoft @ SC25: Experience HPC and AI Innovation",
@@ -9417,17 +9428,6 @@
       "author": "andrewmathu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Update on the Azure Kubernetes Service (AKS) Application Routing add-on, the Ingress API, and Ingress-NGINX",
-      "link": "https://blog.aks.azure.com/2025/11/13/ingress-nginx-update",
-      "published": "2025-11-13T00:00:00+00:00",
-      "summary": "Microsoft's commitment to Azure Kubernetes Service (AKS) customers using the Application Routing add-on with Ingress-NGINX and guidance on migrating to modern Gateway API solutions.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft",
-      "feedUrl": "https://blog.aks.azure.com/rss.xml",
-      "sourceType": "rss"
     },
     {
       "title": "Announcing preview for the next generation of Azure Intel® TDX Confidential VMs",
@@ -12488,5 +12488,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Microsoft’s Azure news today centered on AI agent development and operational hardening: Azure SDK introduced a Fluent API for building MCP apps, Azure Functions reached GA for MCP resource triggers, and .NET Aspire outlined “build, run, observe” agentic workflows, while Microsoft 365 Copilot added stronger security, management, and analytics controls and GitHub Copilot CLI added BYOK and local model support. On infrastructure, Azure Red Hat OpenShift now generally supports NVIDIA H100 and H200 GPUs for AI workloads, AKS added GA support for disabling HTTP proxies and expanding Pod CIDRs, and Azure Cosmos DB highlighted scalable intelligent document processing.\n\nSecurity and modernization were the other major themes: Microsoft Sentinel announced new RSAC 2026 connectors, GitHub expanded security remediation with batch code-scanning fixes, AI-agent assignable Dependabot alerts, Dynatrace runtime-context prioritization, and Nix ecosystem support, while Microsoft also warned of SOHO router DNS hijacking attacks. For migration and app lifecycle management, Microsoft published a .NET Modernization Assessment as a migration “source of truth,” added Azure Migrate discovery/assessment for Azure Files, and announced ASP.NET Core 2.3 end of support."
+  "summary": "Today’s Azure updates centered on developer productivity and cloud-native storage. **Visual Studio Code 1.115** shipped as the latest editor release, while the AKS team announced **Azure Container Storage v2.1.0 is now generally available**, adding support for **Azure Elastic SAN** to provide scalable, high-performance persistent storage for **Azure Kubernetes Service (AKS)** workloads.\n\nThe key theme is tighter platform maturity across the stack: improved day-to-day development tooling with VS Code, and stronger production-ready Kubernetes infrastructure through Azure Container Storage’s GA release and its integration with **Elastic SAN** for stateful containerized apps."
 }
