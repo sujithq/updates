@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-04-08T21:34:01.897930+00:00",
+  "lastUpdated": "2026-04-09T01:00:22.775319+00:00",
   "totalArticles": 1143,
   "articles": [
+    {
+      "title": "Copilot-reviewed pull request merge metrics now in the usage metrics API",
+      "link": "https://github.blog/changelog/2026-04-08-copilot-reviewed-pull-request-merge-metrics-now-in-the-usage-metrics-api",
+      "published": "2026-04-08T23:21:50+00:00",
+      "summary": "Building on the pull request throughput and cycle-time metrics shipped in February, which track Copilot-created pull requests from the coding agent, the Copilot usage metrics API now includes two new… The post Copilot-reviewed pull request merge metrics now in the usage metrics API appeared first...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Designing Reliable Health Check Endpoints for IIS Behind Azure Application Gateway",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/designing-reliable-health-check-endpoints-for-iis-behind-azure/ba-p/4507938",
+      "published": "2026-04-08T23:18:05+00:00",
+      "summary": "Why Health Probes Matter in Azure Application Gateway Azure Application Gateway relies entirely on health probes to determine whether backend instances should receive traffic. If a probe: Receives a non‑200 response Times out Gets redirected Requires authentication …the backend is marked Unhealthy,...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "AjaySingh_",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Bringing GigaTIME to Microsoft Foundry: Unlocking Tumor Microenvironment Insights with Multimodal AI",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/bringing-gigatime-to-microsoft-foundry-unlocking-tumor/ba-p/4509452",
+      "published": "2026-04-08T22:00:00+00:00",
+      "summary": "Expanding Microsoft Foundry for Scientific AI Workloads AI is increasingly being applied to model complex real-world systems, from climate and industrial processes to human biology. In healthcare, one of the biggest challenges is translating routinely available data into deeper biological insight...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Saumil-Shrivastava",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Release Notes - 2026-03-05",
       "link": "https://github.com/Azure/AKS/releases/tag/2026-03-05",
@@ -506,17 +539,6 @@
       "blogId": "microsoftsecurity",
       "author": "Microsoft Threat Intelligence",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Code scanning: Batch apply security alert suggestions on pull requests",
-      "link": "https://github.blog/changelog/2026-04-07-code-scanning-batch-apply-security-alert-suggestions-on-pull-requests",
-      "published": "2026-04-07T10:22:33+00:00",
-      "summary": "GitHub code scanning alerts on pull requests are now easier to address with bulk actions. You can now apply fixes for code scanning alerts in the Files changed tab by… The post Code scanning: Batch apply security alert suggestions on pull requests appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -3598,17 +3620,6 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "NVIDIA’s Open Models on Microsoft Foundry:",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/nvidia-s-open-models-on-microsoft-foundry/ba-p/4501643",
-      "published": "2026-03-16T20:32:52+00:00",
-      "summary": "As enterprises and governments move from AI experimentation to production, they face several structural challenges: fragmented AI stacks across environments, operational complexity in customizing models, and strict requirements around data sovereignty, privacy, and security that limit the use of...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "vaidyas",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Foundry Agent Service is GA: private networking, Voice Live, and enterprise-grade evaluations",
@@ -7722,17 +7733,6 @@
       "blogId": "microsoftdefendercloudblog",
       "author": "singhabhi",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "From Large Semi-Structured Docs to Actionable Data: In-Depth Evaluation Approaches Guidance",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-large-semi-structured-docs-to-actionable-data-in-depth/ba-p/4474060",
-      "published": "2025-12-15T20:24:10+00:00",
-      "summary": "Introduction Extracting structured data from large, semi-structured documents (the detailed solution implementation overview and architecture is provided in this tech community blog: From Large Semi-Structured Docs to Actionable Data: Reusable Pipelines with ADI, AI Search & OpenAI) demands a...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "anishganguli",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12575,6 +12575,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s updates were dominated by AI and agentic development on Azure: Microsoft highlighted new Azure AI Foundry capabilities, including Foundry Labs updates, Grok 4.2 availability in Microsoft Foundry, MCP-based extensibility via Azure Functions, a new SQL MCP Server, and guidance for building/hosting MCP apps on Azure App Service and using the Azure SRE Agent with agentic workflows. Another major theme was enterprise productivity and intelligence, with Copilot expanding on mobile via GitHub Mobile’s cloud agent and in Word for document workflows, alongside Microsoft’s SAP + Azure “3-IQ Layers” architecture for AI-driven enterprise intelligence.\n\nOn the platform side, Azure emphasized operations, security, and modernization: AKS posted fresh release notes and GA observability in namespace/workload views, Azure Service Health added GA maintenance-notification enhancements, Azure Database for PostgreSQL Flexible Server now supports PgBouncer 1.25.1, and Azure Migrate introduced Azure Files assessments in preview. GitHub updates focused on stronger security and developer tooling—including secret scanning improvements for alert APIs, webhooks, and delegated workflows, Code Security risk assessment for organizations, a new PGP signing key for GitHub CLI Linux packages, and VS Code 1.115—while Azure VMware Solution was promoted with Forrester-backed ROI findings for cloud migration."
+  ]
 }
