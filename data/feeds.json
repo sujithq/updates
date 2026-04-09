@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-04-09T05:02:42.170469+00:00",
+  "lastUpdated": "2026-04-09T07:08:27.694763+00:00",
   "totalArticles": 1143,
   "articles": [
+    {
+      "title": "Understanding Agentic Function-Calling with Multi-Modal Data Access",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/understanding-agentic-function-calling-with-multi-modal-data/ba-p/4504151",
+      "published": "2026-04-09T07:00:00+00:00",
+      "summary": "What You'll Learn Why traditional API design struggles when questions span multiple data sources, and how function-calling solves this. How the iterative tool-use loop works — the model plans, calls tools, inspects results, and repeats until it has a complete answer. What makes an agent truly...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "jayesh_mevada",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Deploying to Azure Web App from Azure DevOps Using UAMI",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/deploying-to-azure-web-app-from-azure-devops-using-uami/ba-p/4509800",
+      "published": "2026-04-09T05:53:29+00:00",
+      "summary": "TOC UAMI Configuration App Configuration Azure DevOps Configuration Logs UAMI Configuration Create a User Assigned Managed Identity with no additional configuration.This identity will be mentioned in later steps, especially at Object ID. App Configuration On an existing Azure Web App, enable...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "theringe",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Release 2026-04-02",
       "link": "https://github.com/Azure/AKS/releases/tag/2026-04-02",
@@ -2423,17 +2445,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Aspire on Azure App Service is now Generally Available",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/aspire-on-azure-app-service-is-now-generally-available/ba-p/4505549",
-      "published": "2026-03-25T14:04:28+00:00",
-      "summary": "Today we are announcing General Availability of Aspire on Azure App Service, making it easier to take distributed applications from local development to a fully managed production environment on Azure App Service. With the Aspire.Hosting.Azure.AppService package, you can define your hosting...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "TulikaC",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "🚀GitHub Copilot CLI: AI Assistance from the Command Line for Infrastructure Deployments",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/github-copilot-cli-ai-assistance-from-the-command-line-for/ba-p/4500796",
       "published": "2026-03-25T09:43:34+00:00",
@@ -3972,17 +3983,6 @@
       "author": "Rahul Bhandari (MSFT)",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Building a Multi-Agent On-Call Copilot with Microsoft Agent Framework",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-a-multi-agent-on-call-copilot-with-microsoft-agent/ba-p/4499962",
-      "published": "2026-03-12T07:00:00+00:00",
-      "summary": "Four AI agents, one incident payload, structured triage in under 60 seconds powered by Microsoft Agent Framework and Foundry Hosted Agents. Multi-Agent Microsoft Agent Framework Foundry Hosted Agents Python SRE / Incident Response When an incident fires at 3 AM, every second the on-call engineer...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Temporary rollback: build identities can access Advanced Security: read alerts again",
@@ -12576,5 +12576,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related updates center on Kubernetes platform changes and service reliability transparency. The **AKS release notes (2026-04-02)** highlight the latest Azure Kubernetes Service updates—typically covering new Kubernetes version support, cluster feature changes, and operational improvements across node pools, networking, and security—while the **GitHub availability report for March 2026** focuses on reliability metrics and notable incidents affecting GitHub services, reinforcing Microsoft’s emphasis on platform stability and incident communication.\n\nIn short, the main themes are **managed Kubernetes evolution in AKS** and **production service availability reporting for GitHub**, with specific technologies including **Azure Kubernetes Service, Kubernetes, cluster networking/security capabilities, and GitHub’s core developer platform services**."
+  "summary": "Today’s Azure-related posts centered on AI agents, cloud app delivery, and platform reliability. Microsoft highlighted agentic function-calling patterns for multimodal AI systems in Azure, published guidance for deploying Azure Web Apps from Azure DevOps using a User-Assigned Managed Identity (UAMI), and released AKS updates in the 2026-04-02 release notes with the latest Kubernetes platform changes and fixes.\n\nThe broader ecosystem theme was operational transparency and resilience: alongside AKS release updates, GitHub’s March 2026 availability report detailed service uptime and incident learnings, reinforcing Microsoft’s focus on secure automation, managed identity, and dependable developer infrastructure across Azure and GitHub."
 }
