@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-04-09T10:02:00.824331+00:00",
+  "lastUpdated": "2026-04-09T12:54:49.900091+00:00",
   "totalArticles": 1143,
   "articles": [
+    {
+      "title": "Building an End-to-End MLOps Pipeline: From Training to Managed Endpoints on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-an-end-to-end-mlops-pipeline-from-training-to-managed/ba-p/4509852",
+      "published": "2026-04-09T10:45:39+00:00",
+      "summary": "Introduction Machine learning models are only as valuable as the infrastructure that supports them. A model trained in a Jupyter notebook and saved to a shared folder creates a chain of problems: no versioning, no reproducibility, no clear ownership, and no automated path to production. When the...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Gapandey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Enterprise UAMI Design in Azure: Trust Boundaries and Blast Radius",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/enterprise-uami-design-in-azure-trust-boundaries-and-blast/ba-p/4509614",
@@ -2497,17 +2508,6 @@
       "blogId": "azuredevcommunityblog",
       "author": "Rajapriya",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "🚀 Securing Enterprise AI: From Red Teaming to Risk Cards and Azure Guardrails",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/securing-enterprise-ai-from-red-teaming-to-risk-cards-and-azure/ba-p/4505388",
-      "published": "2026-03-25T05:03:42+00:00",
-      "summary": "AI is no longer experimental—it’s deeply embedded into critical business workflows. From copilots to decision intelligence systems, organizations are rapidly adopting large language models (LLMs). But here’s the reality: AI is not just another application layer—it’s a new attack surface. 🧠 Why...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "adityakumar60",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12576,5 +12576,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on identity-first cloud operations and AI-enabled development: Azure highlighted enterprise patterns for **User-Assigned Managed Identities (UAMI)** to reduce blast radius and enforce trust boundaries, alongside a practical guide for using **UAMI with Azure DevOps to deploy to Azure Web Apps** without traditional secrets. On the AI side, Azure Dev Community explored **agentic function-calling with multi-modal data access**, signaling continued focus on tool-using AI systems that can reason over varied inputs.\n\nInfrastructure and platform reliability were also a theme, with **AKS Release 2026-04-02** documenting the latest Kubernetes service updates, while GitHub’s **March 2026 availability report** provided transparency into platform uptime and incidents relevant to Azure and GitHub-based developer workflows."
+  "summary": "Today’s Azure posts focused on secure, production-grade cloud and AI operations: Azure highlighted an end-to-end MLOps workflow using Azure Machine Learning for training and deploying models to managed endpoints, plus multiple identity-centric patterns built around User Assigned Managed Identity (UAMI) for enterprise trust boundaries and Azure Web App deployments from Azure DevOps. On the AI side, Azure Dev Community covered agentic function-calling with multi-modal data access, while AKS published its 2026-04-02 release notes with the latest Kubernetes platform updates, and GitHub shared its March 2026 availability report emphasizing platform reliability and incident transparency."
 }
