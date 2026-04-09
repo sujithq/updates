@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T18:44:40.382171+00:00",
+  "lastUpdated": "2026-04-09T21:37:08.424584+00:00",
   "totalArticles": 1145,
   "articles": [
     {
@@ -11,6 +11,39 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Ask Copilot in security assessments now available",
+      "link": "https://github.blog/changelog/2026-04-09-ask-copilot-in-security-assessments-now-available",
+      "published": "2026-04-09T19:33:16+00:00",
+      "summary": "Organization admins and security managers can now jump into a Copilot experience directly from secret risk assessment or Code Security risk assessment results to get contextual explanations and guided next… The post Ask Copilot in security assessments now available appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Dylan Birtolo",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Foundry Local is now Generally Available",
+      "link": "https://devblogs.microsoft.com/foundry/foundry-local-ga/",
+      "published": "2026-04-09T19:00:00+00:00",
+      "summary": "Ship local AI to millions of devices - fast, private on-device inference with no per-token costs. The post Foundry Local is now Generally Available appeared first on Microsoft Foundry Blog.",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "samkemp",
+      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "The agentic SOC—Rethinking SecOps for the next decade",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/04/09/the-agentic-soc-rethinking-secops-for-the-next-decade/",
+      "published": "2026-04-09T19:00:00+00:00",
+      "summary": "In the SOC of the future, autonomous defense moves at machine speed, agents add context and coordination, and humans focus on judgment, risk, and outcomes. The post The agentic SOC—Rethinking SecOps for the next decade appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Rob Lefferts and David Weston",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -474,17 +507,6 @@
       "author": "Naomi Moneypenny",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "GitHub Copilot in Visual Studio Code, March Releases",
-      "link": "https://github.blog/changelog/2026-04-08-github-copilot-in-visual-studio-code-march-releases",
-      "published": "2026-04-08T13:44:52+00:00",
-      "summary": "VS Code moved to weekly stable releases. This changelog covers releases v1.111 through v1.115, the releases we shipped throughout March and early April 2026. The highlights include Autopilot for fully… The post GitHub Copilot in Visual Studio Code, March Releases appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Build Your AI Agent in 5 Minutes with AI Toolkit for VS Code",
@@ -1925,17 +1947,6 @@
       "blogId": "githubblog",
       "author": "Tyler McGoffin",
       "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Applying security fundamentals to AI: Practical advice for CISOs",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/03/31/applying-security-fundamentals-to-ai-practical-advice-for-cisos/",
-      "published": "2026-03-31T16:00:00+00:00",
-      "summary": "Read actionable advice for CISOs on securing AI, managing risk, and applying core security principles in today’s AI‑powered environment. The post Applying security fundamentals to AI: Practical advice for CISOs appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Yonatan Zunger",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -8220,17 +8231,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Announcing Foundry MCP Server (preview) in the cloud, speeding up AI development with Microsoft Foundry",
-      "link": "https://devblogs.microsoft.com/foundry/announcing-foundry-mcp-server-preview-speeding-up-ai-dev-with-microsoft-foundry/",
-      "published": "2025-12-03T19:15:11+00:00",
-      "summary": "MCP (Model Context Protocol) is a standard protocol that enables AI agents to securely connect with apps, data, and systems, supporting easy interoperability and seamless platform expansion. At Ignite, Microsoft Foundry introduced Foundry Tools, which serves as a central hub for discovering,...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "SeokJin Han",
-      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[Launched] Generally Available: Azure Database for PostgreSQL Flexible Server in Belgium Central",
       "link": "https://azure.microsoft.com/updates?id=534523",
       "published": "2025-12-03T17:30:15+00:00",
@@ -12598,5 +12598,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-centric posts were dominated by agentic AI and operationalization: Microsoft detailed its internal **Azure SRE Agent** and showed how to build **multi-agent apps on Azure App Service** with **Microsoft Agent Framework 1.0**, monitor AI agents using **OpenTelemetry** plus the new **Application Insights Agents View**, and extend agentic workflows into storage and tooling with the **Azure NetApp Files VS Code Extension v1.2.0** and guidance on **function-calling with multimodal data**. Azure engineering content also focused on deployment and platform governance, including an end-to-end **MLOps pipeline to managed endpoints**, **UAMI** patterns for Azure Web Apps and enterprise trust-boundary design, **Ansible playbook deployment via Azure Policy/Machine Configuration** in private preview, **AKS** release notes, and **Aspire AppHost** techniques for running multiple instances without port conflicts.\n\nSecurity and sovereignty were the other major themes: Microsoft published a deep technical look at **sovereignty in Azure Belgium Central** and two Security Blog investigations covering **Storm-2755 payroll-themed attacks** and an **Android wallet intent-redirection vulnerability** affecting third-party SDKs. Alongside that, several **GitHub** changelog updates shipped usability improvements—notification sorting, low-quality comment hiding, PR list role labels, and issue sidebar/project field enhancements—plus GitHub’s March 2026 availability report and a **Terraform v1.15.0-rc1** release."
+  "summary": "Microsoft’s Azure ecosystem updates were dominated by agentic AI and operational tooling: Microsoft announced Foundry Local is now generally available, published patterns for building and monitoring multi-agent apps on Azure App Service with Microsoft Agent Framework 1.0, and detailed internal use of an Azure SRE Agent with agentic workflows; related posts also covered agentic function-calling, AI observability via OpenTelemetry and the new Application Insights Agents View, and agentic enhancements in the Azure NetApp Files VS Code Extension 1.2.0. Security was the other major theme, with Microsoft outlining its vision for an “agentic SOC,” adding Ask Copilot to security assessments, sharing threat research on Storm-2755 and an Android wallet SDK vulnerability, and publishing deep technical guidance on sovereignty in Azure Belgium Central, enterprise UAMI trust boundaries, Azure Policy deployment of Ansible playbooks through Azure Arc Machine Configuration private preview, and end-to-end MLOps pipelines to managed endpoints.\n\nSecondary updates included developer productivity improvements across GitHub—notification sorting, lower-quality comment hiding, PR role labels, release info in the issue sidebar, and default project field values—plus infrastructure and app-platform items like running multiple Aspire AppHost instances without port conflicts and the Terraform v1.15.0-rc1 release."
 }
