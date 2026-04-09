@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-04-09T07:08:27.694763+00:00",
+  "lastUpdated": "2026-04-09T10:02:00.824331+00:00",
   "totalArticles": 1143,
   "articles": [
+    {
+      "title": "Enterprise UAMI Design in Azure: Trust Boundaries and Blast Radius",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/enterprise-uami-design-in-azure-trust-boundaries-and-blast/ba-p/4509614",
+      "published": "2026-04-09T08:13:33+00:00",
+      "summary": "As organizations move toward secretless authentication models in Azure, Managed Identity has become the preferred approach for enabling secure communication between services. User Assigned Managed Identity (UAMI) in particular offers flexibility that allows identity reuse across multiple compute...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "AmitManchanda28",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Understanding Agentic Function-Calling with Multi-Modal Data Access",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/understanding-agentic-function-calling-with-multi-modal-data/ba-p/4504151",
@@ -2663,17 +2674,6 @@
       "author": "Jim Harrer",
       "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Automating Azure OpenAI Cost Control Using Budgets, Action Groups, and Automation Runbooks",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/automating-azure-openai-cost-control-using-budgets-action-groups/ba-p/4505164",
-      "published": "2026-03-24T13:28:40+00:00",
-      "summary": "Introduction As organizations increasingly adopt Azure OpenAI for use cases such as generative AI, analytics, and experimentation, cost governance becomes a critical operational concern. Azure OpenAI workloads can scale quickly, and without proper controls, unmonitored usage may lead to unexpected...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "trisha1302",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Announcing Public Preview of Argo CD extension on AKS and Azure Arc enabled Kubernetes clusters",
@@ -12576,5 +12576,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts centered on AI agents, cloud app delivery, and platform reliability. Microsoft highlighted agentic function-calling patterns for multimodal AI systems in Azure, published guidance for deploying Azure Web Apps from Azure DevOps using a User-Assigned Managed Identity (UAMI), and released AKS updates in the 2026-04-02 release notes with the latest Kubernetes platform changes and fixes.\n\nThe broader ecosystem theme was operational transparency and resilience: alongside AKS release updates, GitHub’s March 2026 availability report detailed service uptime and incident learnings, reinforcing Microsoft’s focus on secure automation, managed identity, and dependable developer infrastructure across Azure and GitHub."
+  "summary": "Today’s Azure posts centered on identity-first cloud operations and AI-enabled development: Azure highlighted enterprise patterns for **User-Assigned Managed Identities (UAMI)** to reduce blast radius and enforce trust boundaries, alongside a practical guide for using **UAMI with Azure DevOps to deploy to Azure Web Apps** without traditional secrets. On the AI side, Azure Dev Community explored **agentic function-calling with multi-modal data access**, signaling continued focus on tool-using AI systems that can reason over varied inputs.\n\nInfrastructure and platform reliability were also a theme, with **AKS Release 2026-04-02** documenting the latest Kubernetes service updates, while GitHub’s **March 2026 availability report** provided transparency into platform uptime and incidents relevant to Azure and GitHub-based developer workflows."
 }
