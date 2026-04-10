@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-08T09:14:25.937619+00:00",
+  "lastUpdated": "2026-04-10T09:19:42.760429+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -517,6 +517,17 @@
       "detected": "2026-04-08T09:14:25.937607+00:00",
       "published": "2026-04-07T17:00:00+00:00",
       "blog": ".NET"
+    },
+    {
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-rc1",
+      "title": "v1.15.0-rc1",
+      "severity": "info",
+      "deadline": null,
+      "impact": "Terraform adds deprecated flags for variables/outputs; users see warnings on use",
+      "action": "Avoid using deprecated variables/outputs and plan migration when replacements appear",
+      "detected": "2026-04-10T09:19:42.760417+00:00",
+      "published": "2026-04-09T13:59:34+00:00",
+      "blog": "Terraform"
     }
   ]
 }
