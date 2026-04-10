@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T01:10:46.263005+00:00",
+  "lastUpdated": "2026-04-10T05:16:48.107767+00:00",
   "totalArticles": 1145,
   "articles": [
     {
@@ -11,6 +11,28 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Agent Governance Toolkit: Architecture Deep Dive, Policy Engines, Trust, and SRE for AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/agent-governance-toolkit-architecture-deep-dive-policy-engines/ba-p/4510105",
+      "published": "2026-04-10T04:55:22+00:00",
+      "summary": "Last week we announced the Agent Governance Toolkit on the Microsoft Open Source Blog, an open-source project that brings runtime security governance to autonomous AI agents. In that announcement, we covered the why: AI agents are making autonomous decisions in production, and the security patterns...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "mosiddi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Putting Agentic Platform Engineering to the test",
+      "link": "https://devblogs.microsoft.com/all-things-azure/putting-agentic-platform-engineering-to-the-test/",
+      "published": "2026-04-10T01:45:08+00:00",
+      "summary": "In Part 1 of this blog series set the stage for why platform engineering is being reshaped by agentic AI. (read it here) Basically we outline how instead of humans translating intent through layers of CLIs, SDKs, and bespoke workflows, capable agents can interpret natural-language goals and turn...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "Arnaud Lheureux, davidwright, sdaniels",
+      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
       "sourceType": "rss"
     },
     {
@@ -4478,17 +4500,6 @@
       "author": "CollinBrian",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Platform Engineering for the Agentic AI era",
-      "link": "https://devblogs.microsoft.com/all-things-azure/platform-engineering-for-the-agentic-ai-era/",
-      "published": "2026-03-05T05:47:29+00:00",
-      "summary": "For the last decade, platform engineering has relied on explicit API interaction layers: CLIs, SDKs, pipelines, wrappers, and UI workflows that translate human intent into machine‑safe API calls. AI agents are now short‑circuiting much of that stack. By combining natural language understanding,...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "Arnaud Lheureux, davidwright",
-      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Making agents practical for real-world development",
@@ -10926,17 +10937,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure Linux 3.0 Achieves Level 1 CIS Benchmark Certification",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/azure-linux-3-0-achieves-level-1-cis-benchmark-certification/ba-p/4450410",
-      "published": "2025-09-02T16:28:04+00:00",
-      "summary": "We’re excited to announce that Azure Linux 3.0 has successfully passed the Level 1 Center for Internet Security (CIS) benchmarks, reinforcing our commitment to delivering a secure and compliant platform for customers running Linux workloads on Azure Kubernetes Service (AKS). What is CIS? The Center...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "Sudhanva",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "GA: Enhanced Audit in Azure Security Baseline for Linux",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/ga-enhanced-audit-in-azure-security-baseline-for-linux/ba-p/4446170",
       "published": "2025-09-02T16:00:00+00:00",
@@ -12597,5 +12597,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog highlights a strong push toward **governed, production-ready AI agents** and the operational practices needed to run them at scale. The **Agent Governance Toolkit** deep dive focuses on architecture for AI agents, including **policy engines, trust and safety controls, and SRE-style observability and reliability practices**, with a Linux and open-source angle for building secure, manageable agent systems.\n\nA second post on **agentic platform engineering** shifts from theory to execution, exploring how platform teams can validate and operationalize **agent-based workflows** in Azure environments. Together, the posts emphasize that Azure’s current AI story is not just about building agents, but about **governance, testing, platform integration, and enterprise-grade operations**."
 }
