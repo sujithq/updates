@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T12:40:40.659457+00:00",
+  "lastUpdated": "2026-04-10T15:40:10.952828+00:00",
   "totalArticles": 1144,
   "articles": [
     {
@@ -363,6 +363,17 @@
       "blogId": "githubblog",
       "author": "Jakub Oleksy",
       "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "AI Inference on AKS enabled by Azure Arc: Generative AI using Triton and TensorRT‑LLM",
+      "link": "https://blog.aks.azure.com/2026/04/09/ai-inference-on-aks-arc-part-5",
+      "published": "2026-04-09T00:00:00+00:00",
+      "summary": "Run local edge generative AI by deploying Triton with the TensorRT-LLM backend on AKS enabled by Azure Arc to serve Qwen2.5 7B Instruct with GPU acceleration.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft",
+      "feedUrl": "https://blog.aks.azure.com/rss.xml",
       "sourceType": "rss"
     },
     {
@@ -8462,17 +8473,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Announcing AKS Automatic managed system node pools (preview) and the Pod readiness SLA",
-      "link": "https://blog.aks.azure.com/2025/11/26/aks-automatic-managed-system-node-pools",
-      "published": "2025-11-26T00:00:00+00:00",
-      "summary": "Learn how AKS Automatic now offers managed system node pools to ship apps faster. The Pod readiness SLA guarantees your apps are serving users, beyond a healthy control plane.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft",
-      "feedUrl": "https://blog.aks.azure.com/rss.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Kubernetes v1.35 Sneak Peek",
       "link": "https://kubernetes.io/blog/2025/11/26/kubernetes-v1-35-sneak-peek/",
       "published": "2025-11-26T00:00:00+00:00",
@@ -12587,5 +12587,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on two big themes: stronger cloud security and the rise of enterprise AI agents. Microsoft highlighted best practices for securing multicloud environments in Microsoft Defender for Cloud across Azure, AWS, and GCP, while several posts explored “agentic” architectures, including Microsoft’s “IQ Layer,” the Agent Governance Toolkit for policy, trust, and SRE of AI agents, and real-world testing of agentic platform engineering.\n\nOn the app platform side, Azure announced PHP 8.5 support on Azure App Service for Linux and introduced a simpler deployment experience for App Service on Linux, signaling continued investment in modernizing open-source and Linux-based developer workflows on Azure."
+  "summary": "Today’s Azure posts centered on two major themes: securing and governing increasingly complex cloud/AI environments, and simplifying modern app deployment on Azure. On the security side, Microsoft highlighted multicloud protection with Microsoft Defender for Cloud across Azure, AWS, and GCP via connector best practices, while several AI-focused posts detailed the “agentic enterprise,” including Microsoft’s “IQ Layer,” the Agent Governance Toolkit’s architecture for policy, trust, and SRE controls for AI agents, and lessons from testing agentic platform engineering in practice.\n\nOn the app platform side, Azure announced PHP 8.5 support on Azure App Service for Linux and introduced a simpler code deployment experience for App Service for Linux, signaling continued investment in streamlined developer workflows for open-source web apps."
 }
