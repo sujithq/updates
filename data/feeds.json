@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-10T09:59:25.296375+00:00",
-  "totalArticles": 1145,
+  "lastUpdated": "2026-04-10T12:40:40.659457+00:00",
+  "totalArticles": 1144,
   "articles": [
     {
       "title": "Visual Studio Code 1.116",
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Securing multicloud (Azure, AWS & GCP) with Microsoft Defender for Cloud: Connector best practices",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/securing-multicloud-azure-aws-gcp-with-microsoft-defender-for/ba-p/4508563",
+      "published": "2026-04-10T11:43:36+00:00",
+      "summary": "Many organizations run workloads across multiple cloud providers and need to maintain a strong security posture while ensuring interoperability. Microsoft Defender for Cloud is a cloud-native application protection platform (CNAPP) solution that helps secure these environments by providing unified...",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "ckyalo",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "PHP 8.5 is now available on Azure App Service for Linux",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/php-8-5-is-now-available-on-azure-app-service-for-linux/ba-p/4510254",
+      "published": "2026-04-10T10:11:11+00:00",
+      "summary": "PHP 8.5 is now available on Azure App Service for Linux across all public regions. You can create a new PHP 8.5 app through the Azure portal, automate it with the Azure CLI, or deploy using ARM/Bicep templates. PHP 8.5 brings several useful runtime improvements. It includes better diagnostics, with...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "TulikaC",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "A simpler way to deploy your code to Azure App Service for Linux",
@@ -53,7 +75,7 @@
       "summary": "In Part 1 of this blog series set the stage for why platform engineering is being reshaped by agentic AI. (read it here) Basically we outline how instead of humans translating intent through layers of CLIs, SDKs, and bespoke workflows, capable agents can interpret natural-language goals and turn...",
       "blog": "All Things Azure",
       "blogId": "allthingsazure",
-      "author": "Arnaud Lheureux, davidwright, sdaniels",
+      "author": "Arnaud Lheureux, davidwright, Suzanne Daniels",
       "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
       "sourceType": "rss"
     },
@@ -2288,17 +2310,6 @@
       "blogId": "azuremigrationblog",
       "author": "RohanB",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "What AI Agents for Modernization Look Like in Practice",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-ai-agents-for-modernization-look-like-in-practice/ba-p/4506366",
-      "published": "2026-03-27T19:50:30+00:00",
-      "summary": "We’ve all been put onto an initiative to “modernize” our company’s applications. But talk about a haphazard and confusing project to be put on. Apps are older than anyone first thought, there are dependencies nobody can explain, and business critical services blocked behind another team's roadmap....",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "PabloLopes",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -9419,17 +9430,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Microsoft Defender for Cloud Innovations at Ignite 2025",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-innovations-at-ignite-2025/ba-p/4469386",
-      "published": "2025-11-18T15:59:58+00:00",
-      "summary": "In today’s AI-powered world, the boundaries of security are shifting fast. From code to runtime, organizations are moving faster than ever – building with AI across clouds, accelerating innovation, and expanding the landscape defenders must protect. Security teams are balancing fragmented tools,...",
-      "blog": "Microsoft Defender for Cloud",
-      "blogId": "microsoftdefendercloudblog",
-      "author": "ElifAlgedik",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Migration Agent - Unlocking transformation",
       "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/migration-agent-unlocking-transformation/ba-p/4470205",
       "published": "2025-11-18T15:45:00+00:00",
@@ -12585,18 +12585,7 @@
       "author": "AntonioFormato",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Lease Management in Azure Storage & Common troubleshooting scenarios",
-      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/lease-management-in-azure-storage-common-troubleshooting/ba-p/4402002",
-      "published": "2025-04-09T12:01:45+00:00",
-      "summary": "The blog explains how lease management in Azure Storage works, covering the management of concurrent access to blobs and containers. It discusses key concepts such as acquiring, renewing, changing, releasing, and breaking leases, ensuring only the lease holder can modify or delete a resource for a...",
-      "blog": "Azure PaaS",
-      "blogId": "azurepaasblog",
-      "author": "rpadi450",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts center on making cloud app delivery and AI agents more production-ready. Microsoft highlighted a simpler deployment experience for **Azure App Service for Linux**, while multiple posts focused on the emerging **agentic enterprise** stack: the **“IQ Layer”** blueprint for orchestrating AI agents, the **Agent Governance Toolkit** for policy enforcement, trust, and SRE-style operational controls, and lessons from testing **agentic platform engineering** in real-world Azure environments.\n\nThe main themes are **developer simplification**, **AI agent architecture**, and **governance at scale**—with specific emphasis on **App Service for Linux**, enterprise **AI agents**, **policy engines**, **trust and safety controls**, and **site reliability engineering practices** for operating agent-based systems on Azure."
+  "summary": "Today’s Azure posts centered on two big themes: stronger cloud security and the rise of enterprise AI agents. Microsoft highlighted best practices for securing multicloud environments in Microsoft Defender for Cloud across Azure, AWS, and GCP, while several posts explored “agentic” architectures, including Microsoft’s “IQ Layer,” the Agent Governance Toolkit for policy, trust, and SRE of AI agents, and real-world testing of agentic platform engineering.\n\nOn the app platform side, Azure announced PHP 8.5 support on Azure App Service for Linux and introduced a simpler deployment experience for App Service on Linux, signaling continued investment in modernizing open-source and Linux-based developer workflows on Azure."
 }
