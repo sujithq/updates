@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T21:26:26.988686+00:00",
+  "lastUpdated": "2026-04-11T01:06:17.500573+00:00",
   "totalArticles": 1144,
   "articles": [
     {
@@ -11,6 +11,28 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Enforcing new limits and retiring Opus 4.6 Fast from Copilot Pro+",
+      "link": "https://github.blog/changelog/2026-04-10-enforcing-new-limits-and-retiring-opus-4-6-fast-from-copilot-pro",
+      "published": "2026-04-10T22:56:46+00:00",
+      "summary": "As GitHub Copilot continues to rapidly grow, we continue to observe an increase in patterns of high concurrency and intense usage. While we understand this can be driven by legitimate… The post Enforcing new limits and retiring Opus 4.6 Fast from Copilot Pro+ appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Copilot usage metrics now aggregate Copilot cloud agent active user counts",
+      "link": "https://github.blog/changelog/2026-04-10-copilot-usage-metrics-now-aggregate-copilot-cloud-agent-active-user-counts",
+      "published": "2026-04-10T21:42:47+00:00",
+      "summary": "Note: We’ve recently renamed Copilot coding agent to Copilot cloud agent. We will be updating our data schema for all existing coding agent fields to reflect this change in the… The post Copilot usage metrics now aggregate Copilot cloud agent active user counts appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -377,17 +399,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Release information in issue sidebar and default values for project fields",
-      "link": "https://github.blog/changelog/2026-04-09-release-info-in-issue-sidebar-and-project-defaults",
-      "published": "2026-04-09T16:15:32+00:00",
-      "summary": "This update brings release tracking closer to your issues, configurable defaults for project fields, and faster navigation across related issues. Release information in the issue sidebar When an issue is… The post Release information in issue sidebar and default values for project fields appeared...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Sovereignty in Azure Belgium Central: A Three-Layer Technical Deep Dive",
       "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/sovereignty-in-azure-belgium-central-a-three-layer-technical/ba-p/4506936",
       "published": "2026-04-09T16:00:00+00:00",
@@ -506,17 +517,6 @@
       "blogId": "aksblog",
       "author": "Microsoft",
       "feedUrl": "https://blog.aks.azure.com/rss.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Copilot-reviewed pull request merge metrics now in the usage metrics API",
-      "link": "https://github.blog/changelog/2026-04-08-copilot-reviewed-pull-request-merge-metrics-now-in-the-usage-metrics-api",
-      "published": "2026-04-08T23:21:50+00:00",
-      "summary": "Building on the pull request throughput and cycle-time metrics shipped in February, which track Copilot-created pull requests from the coding agent, the Copilot usage metrics API now includes two new… The post Copilot-reviewed pull request merge metrics now in the usage metrics API appeared first...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -12586,6 +12586,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure and Microsoft ecosystem posts were dominated by AI agents, Copilot, and governance: Microsoft highlighted Azure MCP Server 2.0 for self-hosted agentic cloud automation, an “IQ Layer” blueprint for the agentic enterprise, and an Agent Governance Toolkit focused on policy, trust, and SRE for AI agents, alongside practical Copilot updates including Microsoft 365 Copilot learning scenarios, a beginner guide for GitHub Copilot CLI, faster Copilot cloud-agent validation tools, usage metrics that now include Copilot CLI activity, and a pause on new GitHub Copilot Pro trials. Security and operations were another major theme, with a new third-party Claude connector for Microsoft Sentinel, guidance for securing Azure/AWS/GCP with Microsoft Defender for Cloud connectors, instructions for ingesting Microsoft Intune logs into Sentinel, AKS observability improvements via Istio-aware request tracing with Application Insights, and product/platform updates including Azure SRE Agent billing changes, Stripe-to-Event Grid integration in preview, PHP 8.5 support and simplified deployment on Azure App Service for Linux, plus a new 50-rerun limit for GitHub Actions workflows."
+  ]
 }
