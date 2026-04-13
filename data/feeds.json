@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T07:32:17.780760+00:00",
+  "lastUpdated": "2026-04-13T10:25:44.406266+00:00",
   "totalArticles": 1143,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Connecting an ExpressRoute circuit to Megaport Virtual Edge",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/connecting-an-expressroute-circuit-to-megaport-virtual-edge/ba-p/4510770",
+      "published": "2026-04-13T09:31:17+00:00",
+      "summary": "Megaport is an ExpressRoute partner in many locations. The Megaport Cloud Router (MCR) allows ExpressRoute customers to connect leased lines to their on-premise locations, and to connect other Cloud Providers. MCR is easy to set up and operate, it even automatically configures the ExpressRoute...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Marc de Droog",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Migrate Data Ingestion from Data Collector to Log Ingestion",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/migrate-data-ingestion-from-data-collector-to-log-ingestion/ba-p/4510493",
+      "published": "2026-04-13T08:06:40+00:00",
+      "summary": "HTTP Data Collector API in Log Analytics workspaces is being deprecated, and will be totally out of support in September 2026. Data Collector actions in logic app using already created API connections (which uses workspace Id & Key) would still work against old custom log tables, however, newly...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "mshboul",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Introducing Wildcard Roles in Azure Web PubSub: simpler, smarter permissions for real-time apps",
@@ -5679,17 +5701,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Microsoft BizTalk Server Product Lifecycle Update",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/microsoft-biztalk-server-product-lifecycle-update/ba-p/4478559",
-      "published": "2026-02-17T15:38:15+00:00",
-      "summary": "For more than 25 years, Microsoft BizTalk Server has supported mission-critical integration workloads for organizations around the world. From business process automation and B2B messaging to connectivity across industries such as financial services, healthcare, manufacturing, and government,...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "hcamposu",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "AgentCore: MCP Gateway (2/4)🔥",
       "link": "https://www.letsdodevops.com/p/aws-agentcore-agentic-slack-bot-full-a98",
       "published": "2026-02-17T15:30:15+00:00",
@@ -10563,17 +10574,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Unlock visibility, flexibility, and cost efficiency with Application Gateway logging enhancements",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/unlock-visibility-flexibility-and-cost-efficiency-with/ba-p/4456707",
-      "published": "2025-09-25T21:12:08+00:00",
-      "summary": "Introduction In today’s cloud-native landscape, organizations are accelerating the deployment of web applications at unprecedented speed. But with rapid scale comes increased complexity—and a growing need for deep, actionable visibility into the underlying infrastructure. As businesses embrace...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "vnamani",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure Native Pure Storage Cloud brings the best of Pure and Azure to our customers",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-native-pure-storage-cloud-brings-the-best-of-pure-and/ba-p/4456246",
       "published": "2025-09-25T16:00:00+00:00",
@@ -12576,5 +12576,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts center on simplifying cloud operations and security across real-time apps, hybrid infrastructure, and Kubernetes. Microsoft introduced **wildcard roles in Azure Web PubSub** to make permission management easier for real-time application scenarios, showed how to use **Azure Policy** to automatically configure **license type settings for Arc-enabled SQL Server**, and outlined a **passwordless AKS secrets** pattern using **Azure Key Vault**, **External Secrets Operator (ESO)**, and **Azure AD Workload Identity** to securely sync secrets into Kubernetes without stored credentials.\n\nA clear theme across the posts is reducing manual administration while improving governance and security: simpler authorization in **Web PubSub**, policy-driven compliance for **Azure Arc–managed SQL Server**, and identity-based secret access for **AKS**."
+  "summary": "Today’s Azure posts focused on cloud networking, security, and operational modernization across hybrid and cloud-native workloads. Key announcements included guidance for connecting Azure ExpressRoute to Megaport Virtual Edge, migrating Azure Monitor integrations from the legacy Data Collector API to the newer Log Ingestion API, and new wildcard roles in Azure Web PubSub to simplify real-time app authorization.\n\nAzure also highlighted stronger automation and secret management for enterprise environments: Azure Arc now supports Azure Policy-based automation for configuring SQL Server license types on Arc-enabled servers, while AKS best practices showed how to go passwordless by syncing Azure Key Vault secrets through External Secrets Operator with Microsoft Entra Workload Identity."
 }
