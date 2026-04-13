@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T10:25:44.406266+00:00",
+  "lastUpdated": "2026-04-13T12:55:43.858193+00:00",
   "totalArticles": 1143,
   "articles": [
     {
@@ -12576,5 +12576,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focused on cloud networking, security, and operational modernization across hybrid and cloud-native workloads. Key announcements included guidance for connecting Azure ExpressRoute to Megaport Virtual Edge, migrating Azure Monitor integrations from the legacy Data Collector API to the newer Log Ingestion API, and new wildcard roles in Azure Web PubSub to simplify real-time app authorization.\n\nAzure also highlighted stronger automation and secret management for enterprise environments: Azure Arc now supports Azure Policy-based automation for configuring SQL Server license types on Arc-enabled servers, while AKS best practices showed how to go passwordless by syncing Azure Key Vault secrets through External Secrets Operator with Microsoft Entra Workload Identity."
+  "summary": "Today’s Azure posts focused on infrastructure modernization, security, and simpler cloud operations. Key announcements included guidance for connecting Azure ExpressRoute to Megaport Virtual Edge, migrating log pipelines from the legacy Data Collector API to the newer Log Ingestion API, and new wildcard roles in Azure Web PubSub to streamline real-time app permissions.\n\nMicrosoft also highlighted more automated governance and secret management across hybrid and Kubernetes environments: Azure Policy can now help automate license type configuration for Arc-enabled SQL Server, while a passwordless AKS pattern combines Azure Key Vault, External Secrets Operator (ESO), and Azure Workload Identity to sync secrets without stored credentials."
 }
