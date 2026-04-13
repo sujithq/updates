@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T01:16:41.240248+00:00",
+  "lastUpdated": "2026-04-13T05:33:40.305545+00:00",
   "totalArticles": 1143,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Passwordless AKS Secrets: Sync Azure Key Vault with ESO + Workload Identity",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/passwordless-aks-secrets-sync-azure-key-vault-with-eso-workload/ba-p/4509959",
+      "published": "2026-04-13T05:00:00+00:00",
+      "summary": "Architecture High-level flow The solution uses a User-Assigned Managed Identity (UAMI) federated to a Kubernetes Service Account via AKS OIDC—then ESO uses that identity to read secrets from Key Vault and write them into Kubernetes as Opaque secrets. Flow:Azure Key Vault → ESO → Kubernetes Secret...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "fenildoshi2510",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Azure Red Hat OpenShift: Managed Identity and Workload Identity now generally available",
@@ -3839,17 +3850,6 @@
       "blogId": "azurearcblog",
       "author": "meenagowdar",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "🚀 AI Toolkit for VS Code — March 2026 Update",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/ai-toolkit-for-vs-code-march-2026-update/ba-p/4502517",
-      "published": "2026-03-16T18:52:34+00:00",
-      "summary": "March brings another milestone for AI Toolkit! Version 0.32.0 is packed with new capabilities designed to help you ship production ready AI agents. This release brings a unified tree view experience, Agent Builder enhancements, and streamlined GitHub Copilot integration for agent development. 🗂️...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "junjieli",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12575,5 +12575,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage highlighted a security-focused Kubernetes pattern: using **External Secrets Operator (ESO)** with **Azure Kubernetes Service (AKS)**, **Azure Key Vault**, and **Azure AD Workload Identity** to enable **passwordless secret synchronization** without storing credentials in-cluster. The main announcement/theme was a practical approach for modern cloud-native security on AKS, showing how teams can replace traditional secret access methods with federated identity for safer, more manageable secret delivery."
 }
