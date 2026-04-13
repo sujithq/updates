@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T05:33:40.305545+00:00",
+  "lastUpdated": "2026-04-13T07:32:17.780760+00:00",
   "totalArticles": 1143,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Introducing Wildcard Roles in Azure Web PubSub: simpler, smarter permissions for real-time apps",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-wildcard-roles-in-azure-web-pubsub-simpler-smarter/ba-p/4509524",
+      "published": "2026-04-13T07:11:33+00:00",
+      "summary": "Real-time interactivity is now a baseline expectation across industries, from collaborative dashboards to trading platforms, IoT monitoring, and live data visualizations. Developers need a way to broadcast data instantly to connected clients without worrying about connection management, scaling, or...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "kevinguo",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Automating Arc-enabled SQL Server license type configuration with Azure Policy",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/automating-arc-enabled-sql-server-license-type-configuration/ba-p/4500326",
+      "published": "2026-04-13T07:06:25+00:00",
+      "summary": "Azure Arc enables customers to onboard SQL Server instances - hosted on Linux or Windows - into Azure, regardless of where they are hosted: on‑premises, in multicloud environments, or at the edge. Once onboarded, these resources can be managed through the Azure Portal using services like Azure...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "TomClaes",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Passwordless AKS Secrets: Sync Azure Key Vault with ESO + Workload Identity",
@@ -2354,17 +2376,6 @@
       "blogId": "azuredevcommunityblog",
       "author": "Lee_Stott",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Gain Visibility into Cloud Browser Usage with Browser Activity Logs in Playwright Workspaces",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/gain-visibility-into-cloud-browser-usage-with-browser-activity/ba-p/4506706",
-      "published": "2026-03-30T06:28:43+00:00",
-      "summary": "Today, we're announcing a new feature to view the usage metrics for a browser session using the Browser Activity Logs in Playwright Workspaces. Modern test automation and browser-based workflows increasingly rely on cloud-hosted browsers. As teams scale their usage across test runs, automation...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "AbhinavPremsekhar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -9386,17 +9397,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Transforming City Operations: How Villa Park and DataON Deliver Real-Time Decisions with Edge RAG",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/transforming-city-operations-how-villa-park-and-dataon-deliver/ba-p/4470360",
-      "published": "2025-11-18T16:00:44+00:00",
-      "summary": "In today’s connected world, customers expect instant, context-rich interactions- even in environments where cloud connectivity isn’t guaranteed. That’s where Edge Retrieval-Augmented Generation (RAG) at the edge comes in. Edge RAG, enabled by Azure Arc, combining local data retrieval with...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "moran_assaf",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Reimagining VM Application Management for an AI-Powered, Secure Future",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/reimagining-vm-application-management-for-an-ai-powered-secure/ba-p/4470127",
       "published": "2025-11-18T16:00:00+00:00",
@@ -12576,5 +12576,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage highlighted a security-focused Kubernetes pattern: using **External Secrets Operator (ESO)** with **Azure Kubernetes Service (AKS)**, **Azure Key Vault**, and **Azure AD Workload Identity** to enable **passwordless secret synchronization** without storing credentials in-cluster. The main announcement/theme was a practical approach for modern cloud-native security on AKS, showing how teams can replace traditional secret access methods with federated identity for safer, more manageable secret delivery."
+  "summary": "Today’s Azure posts center on simplifying cloud operations and security across real-time apps, hybrid infrastructure, and Kubernetes. Microsoft introduced **wildcard roles in Azure Web PubSub** to make permission management easier for real-time application scenarios, showed how to use **Azure Policy** to automatically configure **license type settings for Arc-enabled SQL Server**, and outlined a **passwordless AKS secrets** pattern using **Azure Key Vault**, **External Secrets Operator (ESO)**, and **Azure AD Workload Identity** to securely sync secrets into Kubernetes without stored credentials.\n\nA clear theme across the posts is reducing manual administration while improving governance and security: simpler authorization in **Web PubSub**, policy-driven compliance for **Azure Arc–managed SQL Server**, and identity-based secret access for **AKS**."
 }
