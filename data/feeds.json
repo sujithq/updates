@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T18:55:47.341119+00:00",
+  "lastUpdated": "2026-04-14T21:40:56.540720+00:00",
   "totalArticles": 1144,
   "articles": [
     {
@@ -11,6 +11,83 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Building a Scalable IoT Platform for Facility Management with Azure Serverless Services",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/building-a-scalable-iot-platform-for-facility-management-with/ba-p/4495263",
+      "published": "2026-04-14T20:44:41+00:00",
+      "summary": "The platform follows a microservices architecture with six independently deployable services, all built on Azure Functions v4 with TypeScript. Each service is containerized and deployed to Azure Container Apps. ┌──────────────────────────────────────────────────────────────────────────────┐ │...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "nishantmv",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "OIDC support for Dependabot and code scanning",
+      "link": "https://github.blog/changelog/2026-04-14-oidc-support-for-dependabot-and-code-scanning",
+      "published": "2026-04-14T20:29:03+00:00",
+      "summary": "Dependabot and code scanning now support OpenID Connect (OIDC) authentication for private registries configured at the organization level, eliminating the need to store long-lived credentials as repository secrets. What’s new… The post OIDC support for Dependabot and code scanning appeared first on...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Deployment context in repository properties and alerts",
+      "link": "https://github.blog/changelog/2026-04-14-deployment-context-in-repository-properties-and-alerts",
+      "published": "2026-04-14T20:26:26+00:00",
+      "summary": "Artifact and deployment context now appears in two new places: repository properties and security alert pages. Repository properties: deployable and deployed Two new built-in repository properties—deployable and deployed—are now available.… The post Deployment context in repository properties and...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": ".NET and .NET Framework April 2026 servicing releases updates",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-april-2026-servicing-updates/",
+      "published": "2026-04-14T19:49:00+00:00",
+      "summary": "A recap of the latest servicing updates for .NET and .NET Framework for April 2026. The post .NET and .NET Framework April 2026 servicing releases updates appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Rahul Bhandari (MSFT), Tara Overfield",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": ".NET 11 Preview 3 is now available!",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-11-preview-3/",
+      "published": "2026-04-14T19:30:00+00:00",
+      "summary": "Find out about the new features in .NET 11 Preview 3 across the .NET runtime, SDK, libraries, ASP.NET Core, .NET MAUI, C#, Entity Framework Core, container images, and more! The post .NET 11 Preview 3 is now available! appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": ".NET Team",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Stop juggling package managers—just run `azd update`",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azd-update/",
+      "published": "2026-04-14T19:24:08+00:00",
+      "summary": "Update the Azure Developer CLI with a single command on any platform and switch release channels. The post Stop juggling package managers—just run `azd update` appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Kristen Womack",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "April Patches for Azure DevOps Server",
+      "link": "https://devblogs.microsoft.com/devops/april-patches-for-azure-devops-server/",
+      "published": "2026-04-14T19:18:22+00:00",
+      "summary": "We are releasing patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers remain on the latest, most secure version to ensure optimal protection and reliability. The latest release of Azure DevOps Server is available from the download page. This patch...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Gloridel Morales",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "sourceType": "rss"
     },
     {
@@ -69,7 +146,7 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Smart tier (Azure Blob and Data Lake Storage)",
+      "title": "[Launched] Generally Available: Smart Tier (Azure Blob and Data Lake Storage)",
       "link": "https://azure.microsoft.com/updates?id=559746",
       "published": "2026-04-14T17:15:47+00:00",
       "summary": "Announcing the GA of smart tier for Azure Blob and Data Lake Storage (ADLS). Smart Tier is Generally Available (GA) today in nearly all zonal public cloud regions. (The Azure regions Israel Central, Qatar Central and UAE North are not part of this GA anno",
@@ -119,7 +196,7 @@
       "summary": "PostgreSQL is a powerful and hugely popular database engine, and it really comes alive across Microsoft developer platforms. You can build with PostgreSQL across Azure offerings, develop productively in Visual Studio Code with strong extensions and tooling, and connect your data to agentic...",
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
-      "author": "Ismael Mejía Useche",
+      "author": "Ismael Mejía",
       "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
@@ -232,17 +309,6 @@
       "author": "Dorothy Pearce",
       "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Win Agent 365 Conversations with Facts, Not Assumptions",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/win-agent-365-conversations-with-facts-not-assumptions/ba-p/4511222",
-      "published": "2026-04-14T14:39:44+00:00",
-      "summary": "Customers and partners are entering a new phase of AI adoption where speed, confidence, and repeatability now define whether Agent 365 initiatives move from pilot excitement to enterprise value. Many organizations still begin deployment planning without a complete readiness baseline: no trusted...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "MaheshKshirsagar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Simplifying Image Classification with Azure AutoML for Images: A Practical Guide",
@@ -551,28 +617,6 @@
       "author": "siddhigupta",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Enforcing new limits and retiring Opus 4.6 Fast from Copilot Pro+",
-      "link": "https://github.blog/changelog/2026-04-10-enforcing-new-limits-and-retiring-opus-4-6-fast-from-copilot-pro",
-      "published": "2026-04-10T22:56:46+00:00",
-      "summary": "As GitHub Copilot continues to rapidly grow, we continue to observe an increase in patterns of high concurrency and intense usage. While we understand this can be driven by legitimate… The post Enforcing new limits and retiring Opus 4.6 Fast from Copilot Pro+ appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Copilot usage metrics now aggregate Copilot cloud agent active user counts",
-      "link": "https://github.blog/changelog/2026-04-10-copilot-usage-metrics-now-aggregate-copilot-cloud-agent-active-user-counts",
-      "published": "2026-04-10T21:42:47+00:00",
-      "summary": "Note: We’ve recently renamed Copilot coding agent to Copilot cloud agent. We will be updating our data schema for all existing coding agent fields to reflect this change in the… The post Copilot usage metrics now aggregate Copilot cloud agent active user counts appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "An update to the active flow billing model for Azure SRE Agent",
@@ -4348,17 +4392,6 @@
       "sourceType": "rss"
     },
     {
-      "title": ".NET 10.0.5 Out-of-Band Release – macOS Debugger Fix",
-      "link": "https://devblogs.microsoft.com/dotnet/dotnet-10-0-5-oob-release-macos-debugger-fix/",
-      "published": "2026-03-12T17:00:00+00:00",
-      "summary": "An out-of-band release of .NET 10.0.5 to fix a critical debugger crash affecting macOS users with Visual Studio Code. The post .NET 10.0.5 Out-of-Band Release – macOS Debugger Fix appeared first on .NET Blog.",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": "Rahul Bhandari (MSFT)",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Temporary rollback: build identities can access Advanced Security: read alerts again",
       "link": "https://devblogs.microsoft.com/devops/temporary-rollback-build-identities-can-access-advanced-security-read-alerts-again/",
       "published": "2026-03-11T23:46:28+00:00",
@@ -4466,17 +4499,6 @@
       "blogId": "terraform",
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
-      "title": ".NET 11 Preview 2 is now available!",
-      "link": "https://devblogs.microsoft.com/dotnet/dotnet-11-preview-2/",
-      "published": "2026-03-10T20:35:00+00:00",
-      "summary": "Find out about the new features in .NET 11 Preview 2 across the .NET runtime, SDK, libraries, ASP.NET Core, Blazor, C#, .NET MAUI, and more! The post .NET 11 Preview 2 is now available! appeared first on .NET Blog.",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": ".NET Team",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
     },
     {
@@ -5789,6 +5811,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Join the IT Management and Security in the AI Era Digital Event",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/join-the-it-management-and-security-in-the-ai-era-digital-event/ba-p/4495506",
+      "published": "2026-02-17T21:14:56+00:00",
+      "summary": "We’re excited to invite you to IT Management and Security in the AI Era, on Thursday, February 26th, from 8:00AM to 10:30 AM Pacific. This digital event is designed to help IT and security professionals answer questions with clarity and confidence, grounded in the latest Microsoft 365 Copilot...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "Emily_Perina",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "JMESPath support comes to azd JSON output",
       "link": "https://devblogs.microsoft.com/azure-sdk/azd-jmespath-query-support/",
       "published": "2026-02-17T18:19:18+00:00",
@@ -6050,17 +6083,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "February Patches for Azure DevOps Server",
-      "link": "https://devblogs.microsoft.com/devops/february-patches-for-azure-devops-server-5/",
-      "published": "2026-02-10T20:21:41+00:00",
-      "summary": "We are releasing patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay on the latest, most secure version of Azure DevOps Server. The latest release, Azure DevOps Server, is available from the download page. To make it easier to find and apply the...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Gloridel Morales",
-      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "sourceType": "rss"
     },
     {
@@ -7348,17 +7370,6 @@
       "blogId": "azurenetworkingblog",
       "author": "VamsiVadlamuri",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Cross-Region Zero Trust: Connecting Power Platform to Azure PaaS across different regions",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/cross-region-zero-trust-connecting-power-platform-to-azure-paas/ba-p/4484995",
-      "published": "2026-01-13T19:09:12+00:00",
-      "summary": "In the modern enterprise cloud landscape, data rarely sits in one place. You might face a scenario where your Power Platform environment (Dynamics 365, Power Apps, or Power Automate) is hosted in Region A for centralized management, while your sensitive SQL Databases or Storage Accounts must reside...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Idit_Bnaya",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -9063,17 +9074,6 @@
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
       "author": "Kristen Womack, Jeff Omhover",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Azure Developer CLI (azd) Nov 2025 – Container Apps (GA), Layered Provisioning (Beta), Extension Framework, and Aspire 13",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-november-2025/",
-      "published": "2025-11-19T16:00:44+00:00",
-      "summary": "This post announces the November release of the Azure Developer CLI (`azd`). The post Azure Developer CLI (azd) Nov 2025 – Container Apps (GA), Layered Provisioning (Beta), Extension Framework, and Aspire 13 appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "PuiChee (PC) Chan",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
     },
@@ -12587,5 +12587,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and GitHub updates were heavily centered on **AI agents, AI model availability, and security**: Microsoft highlighted building and monitoring **multi-agent apps on Azure App Service** with **Microsoft Agent Framework 1.0**, added **Application Insights Agents View with OpenTelemetry**, launched **Gemma 4** in **Azure AI Foundry**, introduced **MAI-Image-2-Efficient** for faster image generation, and showcased **real-time speech translation with AI avatars** via **Azure Speech Services**. On the GitHub side, the biggest security news included **linking code scanning alerts to GitHub Issues**, **secret scanning pattern updates**, **asynchronous SBOM exports**, free code exposure analysis, and new secure coding training through the **GitHub Secure Code Game**.\n\nThe broader Azure platform story focused on **data, infrastructure, and modernization**: **Smart tier for Azure Blob and Data Lake Storage** reached GA, Microsoft published guidance on **On-Demand Capacity Reservations**, expanded **Microsoft Sentinel** with **data lake KQL query APIs** and **data federation**, and pushed app/data modernization with **Oracle Database on Azure**, **PostgreSQL-backed apps**, and new **.NET Aspire database integrations**. There was also continued interest in frontier computing topics, with posts on **quantum** and the **Azure Arc Server March 2026 forum recap**."
+  "summary": "Today’s Azure and GitHub news centered on AI app development, platform operations, and secure software delivery. Microsoft highlighted building multi-agent AI apps on Azure App Service with Microsoft Agent Framework 1.0, monitoring agents with OpenTelemetry and the new Application Insights Agents View, new Aspire database integrations, PostgreSQL app modernization, and Oracle-on-Azure scenarios that connect enterprise data to Microsoft AI; infrastructure updates included a serverless IoT facility-management architecture, Microsoft Sentinel data lake KQL query APIs, Azure Blob Storage Smart Tier reaching GA, explanations of on-demand capacity reservations, and Azure Arc/quantum community updates.\n\nOn the developer and security side, GitHub added OIDC support for Dependabot and code scanning, deployment context in repository properties and alerts, GitHub Issues linking for code-scanning alerts, and secret-scanning pattern improvements, while also promoting agentic AI security training through the Secure Code Game. The .NET ecosystem shipped April 2026 servicing updates plus .NET 11 Preview 3, and Microsoft also released Azure DevOps Server patches and simplified Azure Developer CLI tooling with `azd update`."
 }
