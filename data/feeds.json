@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T05:15:01.507007+00:00",
+  "lastUpdated": "2026-04-14T07:15:13.849679+00:00",
   "totalArticles": 1143,
   "articles": [
     {
@@ -11,6 +11,28 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "From CI/CD to Continuous AI: The Future of GitHub Automation",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-ci-cd-to-continuous-ai-the-future-of-github-automation/ba-p/4507378",
+      "published": "2026-04-14T07:00:00+00:00",
+      "summary": "Introduction For over a decade, CI/CD (Continuous Integration and Continuous Deployment) has been the backbone of modern software engineering. It helped teams move from manual, error-prone deployments to automated, reliable pipelines. But today, we are standing at the edge of another...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Ravindra_Kumar_Vishwakarma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Release 2026-04-02",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-04-02",
+      "published": "2026-04-14T06:26:28+00:00",
+      "summary": "Release Notes - 2026-04-02 Monitor the release status by regions at AKS-Release-Tracker. Vulnerabiltiies addressed by AKS releases can be tracked at CVE API viewer. Announcements Starting on June 30, 2027, Azure Kubernetes Service (AKS) no longer supports or provides security updates for Ubuntu...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "shashankbarsin",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -33,17 +55,6 @@
       "blogId": "githubchangelog",
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Release 2026-04-02",
-      "link": "https://github.com/Azure/AKS/releases/tag/2026-04-02",
-      "published": "2026-04-13T22:52:11+00:00",
-      "summary": "Release Notes - 2026-04-02 Monitor the release status by regions at AKS-Release-Tracker. Vulnerabiltiies addressed by AKS releases can be tracked at CVE API viewer. Announcements Starting on June 30, 2027, Azure Kubernetes Service (AKS) no longer supports or provides security updates for Ubuntu...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "shashankbarsin",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -3927,17 +3938,6 @@
       "blogId": "azuremigrationblog",
       "author": "OsvaldoDaibert",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Announcing the IQ Series: Foundry IQ",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/announcing-the-iq-series-foundry-iq/ba-p/4501862",
-      "published": "2026-03-17T07:00:00+00:00",
-      "summary": "AI agents are rapidly becoming a new way to build applications. But for agents to be truly useful, they need access to the knowledge and context that helps them reason about the world they operate in. That’s where Foundry IQ comes in. Today we’re announcing the IQ Series: Foundry IQ, a new set of...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "aycabas",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12575,5 +12575,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure updates focus on automation and platform operations. On the Azure Dev Community blog, **“From CI/CD to Continuous AI: The Future of GitHub Automation”** highlights how **GitHub Actions**, **Copilot**, and AI-driven workflows are extending traditional CI/CD into “Continuous AI,” emphasizing automated development, testing, deployment, and governance for AI-powered apps. Meanwhile, the **AKS release notes for 2026-04-02** center on the latest **Azure Kubernetes Service** platform updates, calling out operational improvements and new Kubernetes-related capabilities relevant to cluster management, upgrades, and reliability."
 }
