@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T12:54:38.035237+00:00",
+  "lastUpdated": "2026-04-15T15:57:27.705585+00:00",
   "totalArticles": 1144,
   "articles": [
     {
@@ -12,6 +12,39 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "One-click security scanning and org-wide alert triage come to Advanced Security",
+      "link": "https://devblogs.microsoft.com/devops/one-click-security-scanning-and-org-wide-alert-triage-come-to-advanced-security/",
+      "published": "2026-04-15T15:06:53+00:00",
+      "summary": "We’re shipping two major capabilities that change how security teams enable and act on application security in Azure DevOps: CodeQL default setup makes it possible to enable code scanning across your organization without configuring a single pipeline, and a new combined alerts experience in...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Laura Jiang",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Developer policy update: Intermediary liability, copyright, and transparency",
+      "link": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-intermediary-liability-copyright-and-transparency/",
+      "published": "2026-04-15T15:00:00+00:00",
+      "summary": "We’re sharing recent policy updates that developers should know about, updating our Transparency Center with the full year of 2025 data, and looking to what’s ahead. The post Developer policy update: Intermediary liability, copyright, and transparency appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Margaret Tucker",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Your Oracle Data Is Sitting Next to Microsoft AI. Are You Using It?",
+      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/your-oracle-data-is-sitting-next-to-microsoft-ai-are-you-using/ba-p/4509438",
+      "published": "2026-04-15T13:27:01+00:00",
+      "summary": "\"Your organization runs Oracle on Azure. You've purchased Microsoft Foundry & OpenAI licenses. Why are your AI projects still stuck in proof-of-concept? \"Your employees spend hours every week entering or reconciling data from documents, copying information into ERP systems. What would it mean if...",
+      "blog": "Oracle on Azure",
+      "blogId": "oracleonazureblog",
+      "author": "ManishChopra",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=oracleonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "v1.15.0-rc2",
@@ -36,10 +69,10 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Choosing the Right Azure Hosting Option for Your AI Agents",
+      "title": "Choosing the Right Azure Hosting Model for AI Agents: A Deep Dive into Foundry Hosted Agents",
       "link": "https://devblogs.microsoft.com/all-things-azure/hostedagent/",
       "published": "2026-04-15T05:00:56+00:00",
-      "summary": "A comprehensive guide to hosting AI agents on Azure, with a deep dive into Microsoft Foundry Hosted Agents As AI agents become the backbone of intelligent applications, developers face a critical decision: where and how to host these agents at scale. Azure provides multiple hosting options, each...",
+      "summary": "AI agents are quickly moving from experiments to production‑critical components of modern applications. But while many teams know how to build agents, far fewer are confident they’re hosting them on the right foundation. Most organizations start by deploying agents the same way they deploy...",
       "blog": "All Things Azure",
       "blogId": "allthingsazure",
       "author": "Reenu Saluja",
@@ -256,24 +289,13 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Your Oracle Data Is Sitting Next to Microsoft AI. Are You Using It?",
-      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/your-oracle-data-is-sitting-next-to-microsoft-ai-are-you-using/ba-p/4509438",
-      "published": "2026-04-14T17:12:16+00:00",
-      "summary": "\"Your organization runs Oracle on Azure. You've purchased Microsoft Foundry & OpenAI licenses. Why are your AI projects still stuck in proof-of-concept? \"Your employees spend hours every week entering or reconciling data from documents, copying information into ERP systems. What would it mean if...",
-      "blog": "Oracle on Azure",
-      "blogId": "oracleonazureblog",
-      "author": "ManishChopra",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=oracleonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Take your PostgreSQL-backed apps to the next level",
       "link": "https://devblogs.microsoft.com/blog/take-your-postgresql-backed-apps-to-the-next-level",
       "published": "2026-04-14T17:00:37+00:00",
       "summary": "PostgreSQL is a powerful and hugely popular database engine, and it really comes alive across Microsoft developer platforms. You can build with PostgreSQL across Azure offerings, develop productively in Visual Studio Code with strong extensions and tooling, and connect your data to agentic...",
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
-      "author": "Ismael Mejía Useche",
+      "author": "Ismael Mejía",
       "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
@@ -2278,17 +2300,6 @@
       "author": "princy_rajpoot",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Run multiple agents at once with /fleet in Copilot CLI",
-      "link": "https://github.blog/ai-and-ml/github-copilot/run-multiple-agents-at-once-with-fleet-in-copilot-cli/",
-      "published": "2026-04-01T15:00:00+00:00",
-      "summary": "/fleet lets Copilot CLI dispatch multiple agents in parallel. Learn how to write prompts that split work across files, declare dependencies, and avoid common pitfalls. The post Run multiple agents at once with /fleet in Copilot CLI appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Matt Nigh",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "🔥Agentic AI Email Bot on AWS Bedrock AgentCore: Full Architecture and O365 Integration (1/2)🔥",
@@ -5941,17 +5952,6 @@
       "author": "Rakeshginjupalli",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureconfidentialcomputingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Condensed views on Kanban and Sprint boards",
-      "link": "https://devblogs.microsoft.com/devops/condensed-views-on-kanban-and-sprint-boards/",
-      "published": "2026-02-16T20:53:30+00:00",
-      "summary": "One of the challenges teams face when working with large boards or displaying multiple fields on work item cards is limited screen space. This became even more noticeable with the rollout of the New Boards hub, which introduced additional spacing and padding for improved readability. While this...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Dan Hellem",
-      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "DPO Fine-Tuning Using Microsoft Foundry SDK",
@@ -12587,5 +12587,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts centered on AI-powered developer workflows and infrastructure automation. Key themes included guidance on selecting Azure hosting models for AI agents, a DevOps playbook for the emerging “agentic” era, and GitHub Copilot Custom Skills to extend developer assistance with domain-specific capabilities, alongside core tooling updates like Visual Studio Code 1.116 and Terraform v1.15.0-rc2.\n\nOn the platform side, Azure Networking highlighted a hands-on demonstration of Virtual Network TAP for mirroring virtual machine traffic to monitoring or security tools, underscoring continued focus on observability and network inspection. Overall, the day’s announcements emphasized combining modern AI agent architectures with established cloud engineering tools such as VS Code, Terraform, GitHub Copilot, and Azure networking services."
+  "summary": "Today’s Azure ecosystem posts centered on AI-assisted development, security, and enterprise platform modernization. Key announcements included Visual Studio Code 1.116, Azure DevOps Advanced Security adding one-click security scanning and organization-wide alert triage, GitHub Copilot Custom Skills for tailored developer workflows, and guidance on “agentic” development with Azure AI Foundry hosted agents and broader DevOps practices for AI agents.\n\nA second major theme was infrastructure and data integration: Microsoft highlighted Oracle on Azure as a way to combine Oracle data with Microsoft AI services, Azure Networking showcased Virtual Network TAP for packet visibility and monitoring, and Terraform published the v1.15.0-rc2 release candidate. GitHub also published a policy update focused on intermediary liability, copyright, and transparency, signaling ongoing governance changes alongside the technical announcements."
 }
