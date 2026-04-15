@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T01:13:33.808756+00:00",
+  "lastUpdated": "2026-04-15T05:15:34.485136+00:00",
   "totalArticles": 1144,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Choosing the Right Azure Hosting Option for Your AI Agents",
+      "link": "https://devblogs.microsoft.com/all-things-azure/hostedagent/",
+      "published": "2026-04-15T05:00:56+00:00",
+      "summary": "A comprehensive guide to hosting AI agents on Azure, with a deep dive into Microsoft Foundry Hosted Agents As AI agents become the backbone of intelligent applications, developers face a critical decision: where and how to host these agents at scale. Azure provides multiple hosting options, each...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "Reenu Saluja",
+      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Supercharge Your Dev Workflows with GitHub Copilot Custom Skills",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/supercharge-your-dev-workflows-with-github-copilot-custom-skills/ba-p/4510012",
+      "published": "2026-04-15T05:00:00+00:00",
+      "summary": "The Problem Every team has those repetitive, multi-step workflows that eat up time: Running a sequence of CLI commands, parsing output, and generating a report Querying multiple APIs, correlating data, and summarizing findings Executing test suites, analyzing failures, and producing actionable...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "sachoudhury",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "DevOps Playbook for the Agentic Era",
@@ -229,7 +251,7 @@
       "summary": "PostgreSQL is a powerful and hugely popular database engine, and it really comes alive across Microsoft developer platforms. You can build with PostgreSQL across Azure offerings, develop productively in Visual Studio Code with strong extensions and tooling, and connect your data to agentic...",
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
-      "author": "Ismael Mejía Useche",
+      "author": "Ismael Mejía",
       "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
@@ -3952,17 +3974,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Learn how to build agents and workflows in Python",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/learn-how-to-build-agents-and-workflows-in-python/ba-p/4502144",
-      "published": "2026-03-18T07:00:00+00:00",
-      "summary": "We just concluded Python + Agents, a six-part livestream series where we explored the foundational concepts behind building AI agents in Python using the Microsoft Agent Framework: Using agents with tools, MCP servers, and subagents Adding context to agents with database calls and long-term memory...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing Gateway API support for App Routing (preview)",
       "link": "https://blog.aks.azure.com/2026/03/18/app-routing-gateway-api",
       "published": "2026-03-18T00:00:00+00:00",
@@ -4290,17 +4301,6 @@
       "blogId": "azuredevops",
       "author": "Gloridel Morales",
       "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "The Human Scale Problem in Platform Engineering",
-      "link": "https://devblogs.microsoft.com/all-things-azure/the-human-scale-problem-in-platform-engineering/",
-      "published": "2026-03-13T20:22:49+00:00",
-      "summary": "We keep doing this thing where we solve a problem, celebrate the victory, then realize we’ve created three new problems we didn’t even know existed. Remember when manually configuring servers was the bottleneck? So we built containers. Great! Now we’re orchestrating thousands of them. Remember when...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "Diego Casati, Ray Kao",
-      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
       "sourceType": "rss"
     },
     {
@@ -12587,5 +12587,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts highlight two clear themes: developer productivity tooling and AI-driven software delivery. **Visual Studio Code 1.116** brings the latest updates to Microsoft’s editor, while **DevOps Playbook for the Agentic Era** focuses on how teams should evolve DevOps practices for an era shaped by **AI agents**, emphasizing automation, governance, and modern engineering workflows.\n\nThe most notable technologies mentioned are **Visual Studio Code**, along with the broader Azure and DevOps ecosystem around **agentic AI**, where Microsoft is framing software development and operations around increasingly autonomous AI-assisted processes."
+  "summary": "Today’s Azure blogs center on the rise of AI agents in the developer stack: Microsoft highlighted how to choose Azure hosting for agent-based apps across options like Azure App Service, Azure Container Apps, Azure Kubernetes Service, and serverless patterns, while its “agentic era” DevOps guidance emphasizes updating CI/CD, governance, and operational practices for AI-driven software workflows. On the tooling side, the updates spotlight developer productivity with GitHub Copilot Custom Skills for extending Copilot with tailored capabilities, alongside the Visual Studio Code 1.116 release delivering the latest improvements to the core editor experience."
 }
