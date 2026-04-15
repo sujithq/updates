@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T21:40:56.540720+00:00",
+  "lastUpdated": "2026-04-15T01:13:33.808756+00:00",
   "totalArticles": 1144,
   "articles": [
     {
@@ -11,6 +11,39 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "DevOps Playbook for the Agentic Era",
+      "link": "https://devblogs.microsoft.com/all-things-azure/agentic-devops-practices-principles-strategic-direction/",
+      "published": "2026-04-15T00:23:09+00:00",
+      "summary": "Practices, Principles, and Strategic Direction Software delivery has entered a new phase. AI agents are no longer confined to autocomplete suggestions in the editor. They are opening pull requests, generating code across multiple files, proposing infrastructure changes, responding to issues with...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "David Sanchez",
+      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Azure Site Recovery support for Windows Azure VMs with NVMe disk controllers.",
+      "link": "https://azure.microsoft.com/updates?id=560241",
+      "published": "2026-04-14T21:15:15+00:00",
+      "summary": "Azure Site Recovery now supports replication and disaster recovery for Windows Azure Virtual Machines running on NVMe-enabled Generation 2 VM families, such as the Da/Ea/Fa v6-series and Ebsv5/Ebdsv5 in the Azure-to-Azure scenario. This enhancement allows",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Announcing: Minimum billable object size for cooler storage tiers",
+      "link": "https://azure.microsoft.com/updates?id=559756",
+      "published": "2026-04-14T21:15:15+00:00",
+      "summary": "For storage accounts with Azure Blob or Data Lake Storage (ADLS) we are introducing a minimum billable object size for the cool, cold and archive access tiers of 128KiB. Objects on those tiers that are smaller than 128 KiB will be billed as 128 KiB object",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -196,7 +229,7 @@
       "summary": "PostgreSQL is a powerful and hugely popular database engine, and it really comes alive across Microsoft developer platforms. You can build with PostgreSQL across Azure offerings, develop productively in Visual Studio Code with strong extensions and tooling, and connect your data to agentic...",
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
-      "author": "Ismael Mejía",
+      "author": "Ismael Mejía Useche",
       "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
@@ -4577,17 +4610,6 @@
       "author": "Seth_Patton",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Announcing the Azure Skills Plugin",
-      "link": "https://devblogs.microsoft.com/all-things-azure/announcing-the-azure-skills-plugin/",
-      "published": "2026-03-09T20:02:13+00:00",
-      "summary": "Part 1 of the Azure Skills Plugin series Coding agents like GitHub Copilot and Claude Code are great at code, but getting your app to production on Azure is not just about writing code. Really, it is about making the right calls. Which service fits this app? Which SKU fits this workload? Should...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "Chris Harris",
-      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Announcing the AI Gateway Working Group",
@@ -9001,28 +9023,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Trusted Launch is now supported for Arm64 Marketplace Images",
-      "link": "https://azure.microsoft.com/updates?id=529797",
-      "published": "2025-11-20T15:00:59+00:00",
-      "summary": "Announcing that Trusted Launch supported Arm64 Images are now available in the Azure Marketplace. You can now get the dual benefit of cost and performance efficiencies of Arm64 in addition to the security benefits of Trusted Launch. Arm64 VMs bring cost",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Azure NetApp Files migration assistant (portal support)",
-      "link": "https://azure.microsoft.com/updates?id=525620",
-      "published": "2025-11-20T13:45:47+00:00",
-      "summary": "Azure NetApp Files migration assistant (with SnapMirror) provides efficient and cost-effective data migration leveraging ONTAP's built-in replication engine for seamless transition from on-premises or CVO/other cloud providers to Azure NetApp Files (ANF).",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Introducing Metadata Security Protocol (MSP): Elevating Platform Security for Azure VMs",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/introducing-metadata-security-protocol-msp-elevating-platform/ba-p/4471204",
       "published": "2025-11-19T19:36:55+00:00",
@@ -12587,5 +12587,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and GitHub news centered on AI app development, platform operations, and secure software delivery. Microsoft highlighted building multi-agent AI apps on Azure App Service with Microsoft Agent Framework 1.0, monitoring agents with OpenTelemetry and the new Application Insights Agents View, new Aspire database integrations, PostgreSQL app modernization, and Oracle-on-Azure scenarios that connect enterprise data to Microsoft AI; infrastructure updates included a serverless IoT facility-management architecture, Microsoft Sentinel data lake KQL query APIs, Azure Blob Storage Smart Tier reaching GA, explanations of on-demand capacity reservations, and Azure Arc/quantum community updates.\n\nOn the developer and security side, GitHub added OIDC support for Dependabot and code scanning, deployment context in repository properties and alerts, GitHub Issues linking for code-scanning alerts, and secret-scanning pattern improvements, while also promoting agentic AI security training through the Secure Code Game. The .NET ecosystem shipped April 2026 servicing updates plus .NET 11 Preview 3, and Microsoft also released Azure DevOps Server patches and simplified Azure Developer CLI tooling with `azd update`."
+  "summary": "Today’s Azure-related posts highlight two clear themes: developer productivity tooling and AI-driven software delivery. **Visual Studio Code 1.116** brings the latest updates to Microsoft’s editor, while **DevOps Playbook for the Agentic Era** focuses on how teams should evolve DevOps practices for an era shaped by **AI agents**, emphasizing automation, governance, and modern engineering workflows.\n\nThe most notable technologies mentioned are **Visual Studio Code**, along with the broader Azure and DevOps ecosystem around **agentic AI**, where Microsoft is framing software development and operations around increasingly autonomous AI-assisted processes."
 }
