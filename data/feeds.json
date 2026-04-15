@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T10:06:17.867968+00:00",
+  "lastUpdated": "2026-04-15T12:54:38.035237+00:00",
   "totalArticles": 1144,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "v1.15.0-rc2",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-rc2",
+      "published": "2026-04-15T12:30:45+00:00",
+      "summary": "1.15.0-rc2 (April 15, 2026) NEW FEATURES: We now produce builds for Windows ARM64 (#32719) You can set a deprecated attribute on variable and output blocks to indicate that they are deprecated. This will produce warnings when passing in a value for a deprecated variable or when referencing a...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "A demonstration of Virtual Network TAP",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/a-demonstration-of-virtual-network-tap/ba-p/4479136",
+      "published": "2026-04-15T10:30:01+00:00",
+      "summary": "Azure Virtual Network Terminal Access Point (VTAP), at the time of writing in April 2026 in public preview in select regions, copies network traffic from source Virtual Machines to a collector or traffic analytics tool, running as a Network Virtual Appliance (NVA). VTAP creates a full copy of all...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Marc de Droog",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Choosing the Right Azure Hosting Option for Your AI Agents",
@@ -251,7 +273,7 @@
       "summary": "PostgreSQL is a powerful and hugely popular database engine, and it really comes alive across Microsoft developer platforms. You can build with PostgreSQL across Azure offerings, develop productively in Visual Studio Code with strong extensions and tooling, and connect your data to agentic...",
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
-      "author": "Ismael Mejía",
+      "author": "Ismael Mejía Useche",
       "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
@@ -6471,17 +6493,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "v1.15.0-alpha20260204",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-alpha20260204",
-      "published": "2026-02-04T11:09:29+00:00",
-      "summary": "1.15.0-alpha20260204 (February 04, 2026) NEW FEATURES: We now produce builds for Windows ARM64 (#32719) You can set a deprecated attribute on variable and output blocks to indicate that they are deprecated. This will produce warnings when passing in a value for a deprecated variable or when...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "Azure CLI Windows MSI Upgrade Issue: Root Cause, Mitigation, and Performance Improvements",
       "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-cli-windows-msi-upgrade-issue-root-cause-mitigation-and/ba-p/4491691",
       "published": "2026-02-04T07:41:52+00:00",
@@ -10574,17 +10585,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Using Application Gateway to secure access to the Azure OpenAI Service: Customer success story",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/using-application-gateway-to-secure-access-to-the-azure-openai/ba-p/4456696",
-      "published": "2025-09-25T21:12:24+00:00",
-      "summary": "Introduction A large enterprise customer set out to build a generative AI application using Azure OpenAI. While the app would be hosted on-premises, the customer wanted to leverage the latest large language models (LLMs) available through Azure OpenAI. However, they faced a critical challenge: how...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "vnamani",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure Native Pure Storage Cloud brings the best of Pure and Azure to our customers",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-native-pure-storage-cloud-brings-the-best-of-pure-and/ba-p/4456246",
       "published": "2025-09-25T16:00:00+00:00",
@@ -12587,5 +12587,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts centered on the rise of AI-assisted development and “agentic” application patterns: Microsoft highlighted how to choose Azure hosting for AI agents, likely spanning options such as Azure Container Apps, AKS, serverless, and broader Azure AI services, while its DevOps guidance focused on how engineering practices need to evolve for autonomous or semi-autonomous software agents. On the tooling side, the announcements emphasized developer productivity with GitHub Copilot Custom Skills for tailoring Copilot to team workflows, alongside the Visual Studio Code 1.116 release, underscoring continued investment in the core editor used across Azure and cloud-native development."
+  "summary": "Today’s Azure-related posts centered on AI-powered developer workflows and infrastructure automation. Key themes included guidance on selecting Azure hosting models for AI agents, a DevOps playbook for the emerging “agentic” era, and GitHub Copilot Custom Skills to extend developer assistance with domain-specific capabilities, alongside core tooling updates like Visual Studio Code 1.116 and Terraform v1.15.0-rc2.\n\nOn the platform side, Azure Networking highlighted a hands-on demonstration of Virtual Network TAP for mirroring virtual machine traffic to monitoring or security tools, underscoring continued focus on observability and network inspection. Overall, the day’s announcements emphasized combining modern AI agent architectures with established cloud engineering tools such as VS Code, Terraform, GitHub Copilot, and Azure networking services."
 }
