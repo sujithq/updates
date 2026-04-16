@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-04-16T07:16:33.807385+00:00",
+  "lastUpdated": "2026-04-16T10:05:25.815585+00:00",
   "totalArticles": 1144,
   "articles": [
     {
-      "title": "Test Blog",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/test-blog/ba-p/4511839",
-      "published": "2026-04-16T07:12:28+00:00",
-      "summary": "This is a test blog",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "nasreensarah",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Architecting Secure and Trustworthy AI Agents with Microsoft Foundry",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/architecting-secure-and-trustworthy-ai-agents-with-microsoft/ba-p/4506580",
-      "published": "2026-04-16T07:00:00+00:00",
+      "published": "2026-04-16T09:30:30+00:00",
       "summary": "Co-Authored by Avneesh Kaushik Why Trust Matters for AI Agents Unlike static ML models, AI agents call tools and APIs, retrieve enterprise data, generate dynamic outputs, and can act autonomously based on their planning. This introduces expanded risk surfaces: prompt injection, data exfiltration,...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "PrabhKaur",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Announcing One‑Command Backup Configuration for AKS with Azure Backup",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/announcing-one-command-backup-configuration-for-aks-with-azure/ba-p/4511852",
+      "published": "2026-04-16T07:50:59+00:00",
+      "summary": "Running production workloads on Azure Kubernetes Service (AKS) is becoming the norm for platform teams building cloud‑native applications at scale. As these environments increasingly host stateful workloads using persistent volumes, ensuring data protection and rapid recovery becomes...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "shobhitgarg",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -913,6 +913,17 @@
       "blogId": "appsonazureblog",
       "author": "MelanieKraintz007",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "From Toil to Trust: How Azure SRE Agent Is Redefining Cloud Operations",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-toil-to-trust-how-azure-sre-agent-is-redefining-cloud/ba-p/4505875",
+      "published": "2026-04-11T05:36:05+00:00",
+      "summary": "As Azure environments scale, infrastructure teams face a familiar challenge: operating reliably at scale.Outages are no longer caused by a single VM or misconfigured service—they emerge from complex dependencies across compute, networking, storage, and platform services. Azure SRE Agent is designed...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "siddhigupta",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -11872,17 +11883,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Troubleshooting missing prerequisites for Azure Machine Configuration - in 3 easy steps!",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/troubleshooting-missing-prerequisites-for-azure-machine/ba-p/4422176",
-      "published": "2025-06-10T18:38:40+00:00",
-      "summary": "Overview Machine configuration provides a platform to extend Azure Policy into the VM operating system, to audit and configure OS settings at scale. Many machine configuration policies are assigned through Microsoft Defender for Cloud and are key components of other regulatory compliance...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "mutemwamasheke",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Build an AI Email Responder with OpenAI and Azure Communication Services",
       "link": "https://techcommunity.microsoft.com/t5/azure-communication-services/build-an-ai-email-responder-with-openai-and-azure-communication/ba-p/4421127",
       "published": "2025-06-10T15:42:32+00:00",
@@ -12586,5 +12586,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure posts centered on operationalizing AI agents and simplifying cloud operations: Microsoft highlighted secure, trustworthy AI agents with Microsoft Foundry, plus practical agent use cases like troubleshooting Azure Functions and managing multi-tenant environments with SRE Agent and Azure Lighthouse. On the platform side, Azure also announced one-command backup configuration for AKS with Azure Backup, shared guidance for production cutovers in cloud-native migrations, and detailed how Databricks Delta Sharing enables lower-cost cross-cloud data access for analytics workloads."
 }
