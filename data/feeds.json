@@ -1,7 +1,84 @@
 {
-  "lastUpdated": "2026-04-16T16:15:33.548648+00:00",
-  "totalArticles": 1145,
+  "lastUpdated": "2026-04-16T18:55:48.355530+00:00",
+  "totalArticles": 1146,
   "articles": [
+    {
+      "title": "Visual Studio Code 1.117",
+      "link": "https://code.visualstudio.com/updates/v1_117",
+      "published": "2026-04-22T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.117 (Insiders) Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Generally Available: User and group quota reports in Azure NetApp Files",
+      "link": "https://azure.microsoft.com/updates?id=558483",
+      "published": "2026-04-16T18:00:13+00:00",
+      "summary": "For organizations leveraging individual user and group quotas in Azure NetApp Files to manage capacity on NFS, SMB, and dual-protocol volumes, the user and group quota reporting feature offers clear visibility into key metrics such as quota limits, used c",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Available today: Anthropic Claude Opus 4.7 in Microsoft 365 Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-4-7-in-microsoft-365/ba-p/4511666",
+      "published": "2026-04-16T17:45:47+00:00",
+      "summary": "Today we're expanding model choice in Microsoft 365 Copilot with the addition of Anthropic's latest model—Claude Opus 4.7—now available in Copilot Cowork (Frontier) and Copilot Studio early release cycle environments, and rolling out to Copilot in Excel. Opus 4.7 is designed to be faster and more...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "Bas Brekelmans",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Manage agent skills with GitHub CLI",
+      "link": "https://github.blog/changelog/2026-04-16-manage-agent-skills-with-github-cli",
+      "published": "2026-04-16T17:24:41+00:00",
+      "summary": "Agent skills are reshaping how developers work with AI coding agents. Today we’re launching gh skill, a new command in the GitHub CLI that makes it easy to discover, install,… The post Manage agent skills with GitHub CLI appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Free Your Terminal with Detached Mode in Aspire 13.2",
+      "link": "https://devblogs.microsoft.com/aspire/aspire-detached-mode-and-process-management/",
+      "published": "2026-04-16T17:00:00+00:00",
+      "summary": "Aspire 13.2 brings detached mode to the CLI. Run your AppHost in the background, free your terminal, and let coding agents start, inspect, and manage your app without blocking. The post Free Your Terminal with Detached Mode in Aspire 13.2 appeared first on Aspire Blog.",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "James Newton-King",
+      "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Explaining what GitHub Copilot Modernization can (and cannot do)",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/explaining-what-github-copilot-modernization-can-and-cannot-do/ba-p/4511739",
+      "published": "2026-04-16T16:50:09+00:00",
+      "summary": "In the last post, we looked at the workflow: assess, plan, execute. You get reports you can review and agent makes changes you can inspect. If you don’t know, GitHub Copilot Modernization is the new agentic tool that supports you to modernize older applications. But what can it actually help with?...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "PabloLopes",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Claude Opus 4.7 is available on Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-opus-4-7-is-available-on-microsoft-foundry/ba-p/4511759",
+      "published": "2026-04-16T16:20:43+00:00",
+      "summary": "Anthropic continues to push the frontier of AI for real-world, production work with its new model Claude Opus 4.7. Opus 4.7 is Anthropic’s most advanced generally available model. Teams building on Azure can access Claude Opus 4.7 through Microsoft Foundry , today. This model is designed for the...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "amar_badal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Bringing AI to the Factory Floor with Foundry Local - Now in Public Preview on Azure Local",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/bringing-ai-to-the-factory-floor-with-foundry-local-now-in/ba-p/4509951",
@@ -33,6 +110,28 @@
       "blogId": "githubblog",
       "author": "Lawrence Gripper",
       "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Building your cryptographic inventory: A customer strategy for cryptographic posture management",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/04/16/building-your-cryptographic-inventory-a-customer-strategy-for-cryptographic-posture-management/",
+      "published": "2026-04-16T16:00:00+00:00",
+      "summary": "Learn how to build a comprehensive cryptographic inventory and strengthen quantum‑safe readiness using Microsoft Security tools, best‑practice lifecycle models, and partner solutions. The post Building your cryptographic inventory: A customer strategy for cryptographic posture management appeared...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Aviram Shemesh and Jennifer Rutzer",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Rule insights dashboard and unified filter bar",
+      "link": "https://github.blog/changelog/2026-04-16-rule-insights-dashboard-and-unified-filter-bar",
+      "published": "2026-04-16T15:30:10+00:00",
+      "summary": "Rule insights dashboard GitHub repository rulesets are powerful, but it hasn’t been easy to spot trends like spikes in blocked pushes during an incident or patterns in bypass activity without… The post Rule insights dashboard and unified filter bar appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -625,7 +724,7 @@
       "summary": "PostgreSQL is a powerful and hugely popular database engine, and it really comes alive across Microsoft developer platforms. You can build with PostgreSQL across Azure offerings, develop productively in Visual Studio Code with strong extensions and tooling, and connect your data to agentic...",
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
-      "author": "Ismael Mejía",
+      "author": "Ismael Mejía Useche",
       "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
@@ -696,17 +795,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "SBOM exports are now computed asynchronously",
-      "link": "https://github.blog/changelog/2026-04-14-sbom-exports-are-now-computed-asynchronously",
-      "published": "2026-04-14T16:00:14+00:00",
-      "summary": "Software Bill of Materials (SBOM) exports from repository pages and new API endpoints are now asynchronous operations. Previously, navigating to a repository’s dependency graph page and clicking the Export SBOM… The post SBOM exports are now computed asynchronously appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Building Real-Time Speech Translation with AI Avatars with Azure Speech Services",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/building-real-time-speech-translation-with-ai-avatars-with-azure/ba-p/4490972",
       "published": "2026-04-14T15:45:00+00:00",
@@ -716,17 +804,6 @@
       "author": "sudarsan",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Model selection for Claude and Codex agents on github.com",
-      "link": "https://github.blog/changelog/2026-04-14-model-selection-for-claude-and-codex-agents-on-github-com",
-      "published": "2026-04-14T15:21:52+00:00",
-      "summary": "Model selection is now available for the Claude and Codex third-party coding agents on github.com. Just like Copilot cloud agent, you can now select a model when kicking off a… The post Model selection for Claude and Codex agents on github.com appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "How exposed is your code? Find out in minutes—for free",
@@ -2181,17 +2258,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure SRE Agent now supports multiple model providers, including Anthropic Claude",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-now-supports-multiple-model-providers-including/ba-p/4508111",
-      "published": "2026-04-02T22:23:15+00:00",
-      "summary": "Today, Azure SRE Agent adds model provider selection—choose between Azure OpenAI and Anthropic to match the right AI provider to your incident workflow. SRE Agent has saved over 20,000 engineering hours by pulling together logs, deployments, and signals into a single investigation thread, turning...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "dchelupati",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Accelerate Agent Development: Hacks for Building with Microsoft Sentinel data lake",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/accelerate-agent-development-hacks-for-building-with-microsoft/ba-p/4503039",
       "published": "2026-04-02T21:37:47+00:00",
@@ -2289,17 +2355,6 @@
       "author": "ditisaxena",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Cookie-controlled PHP webshells: A stealthy tradecraft in Linux hosting environments",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/04/02/cookie-controlled-php-webshells-tradecraft-linux-hosting-environments/",
-      "published": "2026-04-02T15:37:22+00:00",
-      "summary": "Cookie-gated PHP webshells use obfuscation, php-fpm execution, and cron-based persistence to evade detection in Linux hosting environments. This post examines how this tradecraft conceals execution behind specially crafted HTTP cookies. The post Cookie-controlled PHP webshells: A stealthy...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Defender Security Research Team",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Copilot Notebooks: Enhancements to support creation, collaboration and learning",
@@ -2860,17 +2915,6 @@
       "blogId": "azureinfrastructureblog",
       "author": "Shikhaghildiyal",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "How Veris AI and Lume Security built a self-improving AI agent with Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/how-veris-ai-and-lume-security-built-a-self-improving-ai-agent/ba-p/4504424",
-      "published": "2026-03-30T22:47:32+00:00",
-      "summary": "Introduction AI agents are slowly moving from demos into production, where real users, messy systems, and long-tail edge cases lead to new unseen failure modes. Production monitoring can surface issues, but converting those into reliable improvements is slow and manual, bottlenecked by the low...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "andi-veris",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -6031,17 +6075,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Join the IT Management and Security in the AI Era Digital Event",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/join-the-it-management-and-security-in-the-ai-era-digital-event/ba-p/4495506",
-      "published": "2026-02-17T21:14:56+00:00",
-      "summary": "We’re excited to invite you to IT Management and Security in the AI Era, on Thursday, February 26th, from 8:00AM to 10:30 AM Pacific. This digital event is designed to help IT and security professionals answer questions with clarity and confidence, grounded in the latest Microsoft 365 Copilot...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "Emily_Perina",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "JMESPath support comes to azd JSON output",
       "link": "https://devblogs.microsoft.com/azure-sdk/azd-jmespath-query-support/",
       "published": "2026-02-17T18:19:18+00:00",
@@ -7513,17 +7546,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Adding Aspire to a Python RAG Application",
-      "link": "https://devblogs.microsoft.com/aspire/adding-aspire-to-a-python-rag-application/",
-      "published": "2026-01-14T15:33:04+00:00",
-      "summary": "This blog post documents the transformation of the azure-search-openai-demo (a Python/TypeScript RAG application) through the addition of Aspire for local development and observability. It demonstrates how Aspire can enhance polyglot applications without requiring rewrites. The post Adding Aspire...",
-      "blog": "Aspire Blog",
-      "blogId": "aspireblog",
-      "author": "Eric Erhardt",
-      "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
       "sourceType": "rss"
     },
     {
@@ -9104,17 +9126,6 @@
       "link": "https://azure.microsoft.com/updates?id=523115",
       "published": "2025-11-20T18:15:25+00:00",
       "summary": "To address the growing need for granular traffic control in microservices architectures, Azure Container Networking Services now offers Layer 7 Policy as a generally available feature. This capability empowers customers to enforce fine-grained traffic con",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure NetApp Files single file restore from backup",
-      "link": "https://azure.microsoft.com/updates?id=522077",
-      "published": "2025-11-20T18:15:25+00:00",
-      "summary": "With Azure NetApp Files single file restore from backup, you can restore individual files from Azure NetApp Files backup vault without needing to restore an entire volume. By restoring only the necessary files, you can save time and cost needed for restor",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -12598,5 +12609,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts were dominated by AI, hybrid/cloud operations, and security. Microsoft highlighted **Foundry Local in public preview on Azure Local via Azure Arc** for running AI on the factory floor, guidance for building **secure AI agents with Microsoft Foundry**, and practical AI ops content like using an **AI agent to troubleshoot Azure Functions**; on the platform side, key announcements included **Azure Virtual Desktop app attach support for Windows Server 2025 and 2022**, **one-command AKS backup configuration with Azure Backup**, and an overview of **SQL Server enabled by Azure Arc**.\n\nSecurity and cross-platform governance were another major theme, with deep dives into **Sapphire Sleet’s macOS intrusion techniques**, **GitHub’s use of eBPF for safer deployments**, and how **GDAP** enables delegated access for **Microsoft Sentinel** customers. The broader ecosystem updates also pointed to developer and data modernization momentum, including **Claude Opus 4.7 GA on GitHub**, **multi-tenant Azure management with Lighthouse and an SRE agent**, cloud migration cutover guidance, and **Databricks Delta Sharing** for cost-efficient **cross-cloud data access**."
+  "summary": "Microsoft’s latest Azure news is dominated by AI platform expansion and agent tooling: Anthropic **Claude Opus 4.7** launched across **Microsoft 365 Copilot**, **Microsoft Foundry/Azure AI Foundry**, and **GitHub**, while posts also focused on **secure AI agent architecture**, **agent troubleshooting for Azure Functions**, **SRE agent use with Azure Lighthouse**, and **Foundry Local** entering public preview on **Azure Local** to bring AI to edge and factory-floor scenarios. Developer productivity was another major theme, with updates to **GitHub CLI** for managing agent skills, **Aspire 13.2 Detached Mode**, **GitHub Copilot Modernization** guidance, and a new **rule insights dashboard**.\n\nOn the infrastructure and operations side, Microsoft highlighted **Azure Virtual Desktop app attach** support for **Windows Server 2025/2022**, **one-command AKS backup configuration with Azure Backup**, **Azure NetApp Files user and group quota reports**, and an overview of **SQL Server enabled by Azure Arc**. Security coverage was also significant, including cryptographic posture management strategy, **Sapphire Sleet’s macOS intrusion analysis**, **Sentinel GDAP** delegation, and GitHub’s use of **eBPF** to improve deployment safety."
 }
