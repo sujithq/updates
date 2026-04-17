@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T07:16:53.259792+00:00",
+  "lastUpdated": "2026-04-17T10:03:33.438953+00:00",
   "totalArticles": 1146,
   "articles": [
     {
@@ -34,6 +34,17 @@
       "author": "carlottacaste",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Discoverable – Observable MCP Server",
+      "link": "https://devblogs.microsoft.com/ise/observable_discoverable_mcp_server/",
+      "published": "2026-04-17T07:00:00+00:00",
+      "summary": "How to build an observable MCP Server with discoverable tools and agents. The post Discoverable – Observable MCP Server appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Colin Desmond",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "New in Azure SRE Agent: Log Analytics and Application Insights Connectors",
@@ -834,7 +845,7 @@
       "summary": "PostgreSQL is a powerful and hugely popular database engine, and it really comes alive across Microsoft developer platforms. You can build with PostgreSQL across Azure offerings, develop productively in Visual Studio Code with strong extensions and tooling, and connect your data to agentic...",
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
-      "author": "Ismael Mejía Useche",
+      "author": "Ismael Mejía",
       "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
@@ -8363,17 +8374,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Agent Onboarding Process for Agentic Systems: Maintain accuracy at scale",
-      "link": "https://devblogs.microsoft.com/ise/agent-onboarding-process-for-agentic-systems/",
-      "published": "2025-12-10T08:00:00+00:00",
-      "summary": "A robust agent onboarding process is the backbone of scalable, reliable multi-agent AI systems—enforcing uniqueness, rigorous evaluation, and responsible AI practices at every step. The post Agent Onboarding Process for Agentic Systems: Maintain accuracy at scale appeared first on ISE Developer...",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Vikesh Singh Baghel, Vidhya Shankar Venkatesan",
-      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Demystifying AI Security Posture Management",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/demystifying-ai-security-posture-management/ba-p/4473734",
       "published": "2025-12-09T21:51:04+00:00",
@@ -12609,5 +12609,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on AI agent tooling, operational automation, and API governance. Microsoft highlighted the GA of the Foundry Toolkit for VS Code for building with Azure AI Foundry, showcased a winning “Reasoning Agents” project in the Agents League, and expanded the Azure SRE Agent with Log Analytics and Application Insights connectors plus HTTP-triggered Terraform drift detection to support event-driven IaC remediation.\n\nOn the integration side, Azure API Center introduced a plugin marketplace, signaling a stronger ecosystem approach for API discovery, governance, and extensibility. Overall, the key themes were agent-based development, observability-connected SRE workflows, and more automated platform operations across Azure."
+  "summary": "Today’s Azure posts centered on AI-powered developer tooling and operations: Microsoft highlighted the GA of the Foundry Toolkit for VS Code, showcased advanced “reasoning agents” in the Agents League, and expanded the Azure SRE Agent with new Log Analytics and Application Insights connectors plus Terraform drift detection via HTTP triggers for event-driven infrastructure operations. Another major theme was platform extensibility and discoverability, with an Observable MCP Server from ISE and a new plugin marketplace for Azure API Center that broadens integration and API governance options."
 }
