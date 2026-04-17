@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T05:19:52.061969+00:00",
+  "lastUpdated": "2026-04-17T07:16:53.259792+00:00",
   "totalArticles": 1146,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "⚡Foundry Toolkit for VS Code: A Deep Dive on GA",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/foundry-toolkit-for-vs-code-a-deep-dive-on-ga/ba-p/4509510",
+      "published": "2026-04-17T07:06:47+00:00",
+      "summary": "As we shared in the announcement, Microsoft Foundry Toolkit for Visual Studio Code is now generally available. In this deep dive, we walk through everything that’s in the GA release — from the rebrand and extension consolidation, to model experimentation, agent development, evaluations, and...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "junjieli",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "🏆 Agents League Winner Spotlight – Reasoning Agents Track",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/agents-league-winner-spotlight-reasoning-agents-track/ba-p/4511211",
+      "published": "2026-04-17T07:00:00+00:00",
+      "summary": "Agents League was designed to showcase what agentic AI can look like when developers move beyond single‑prompt interactions and start building systems that plan, reason, verify, and collaborate. Across three competitive tracks—Creative Apps, Reasoning Agents, and Enterprise Agents—participants had...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "carlottacaste",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "New in Azure SRE Agent: Log Analytics and Application Insights Connectors",
@@ -3718,28 +3740,6 @@
       "blogId": "integrationsonazureblog",
       "author": "SwathiK",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Building real-world AI automation with Foundry Local and the Microsoft Agent Framework",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-real-world-ai-automation-with-foundry-local-and-the/ba-p/4501898",
-      "published": "2026-03-23T07:00:00+00:00",
-      "summary": "A hands-on guide to building real-world AI automation with Foundry Local, the Microsoft Agent Framework, and PyBullet. No cloud subscription, no API keys, no internet required. Why Developers Should Care About Offline AI Imagine telling a robot arm to \"pick up the cube\" and watching it execute the...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Securing Azure AI Agents: Identity, Access Control, and Guardrails in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/securing-azure-ai-agents-identity-access-control-and-guardrails/ba-p/4500242",
-      "published": "2026-03-23T07:00:00+00:00",
-      "summary": "As AI agents evolve from simple chatbots to autonomous systems that access enterprise data, call APIs, and orchestrate workflows, security becomes non negotiable. Unlike traditional applications, AI agents introduce new risks — such as prompt injection, over privileged access, unsafe tool...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "SudhaS",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12609,5 +12609,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focused on operational automation and extensibility. Two Apps on Azure articles highlighted Azure SRE Agent improvements: new connectors for **Log Analytics** and **Application Insights** to bring monitoring and telemetry into SRE workflows, and an event-driven **Terraform drift detection** pattern triggered via **HTTP triggers** for infrastructure-as-code operations.\n\nThe third announcement introduced a **plugin marketplace for Azure API Center**, expanding how teams can extend API governance, discovery, and lifecycle workflows with reusable integrations. Overall, the themes were AI-assisted SRE, tighter observability integration, and more customizable API management tooling."
+  "summary": "Today’s Azure posts centered on AI agent tooling, operational automation, and API governance. Microsoft highlighted the GA of the Foundry Toolkit for VS Code for building with Azure AI Foundry, showcased a winning “Reasoning Agents” project in the Agents League, and expanded the Azure SRE Agent with Log Analytics and Application Insights connectors plus HTTP-triggered Terraform drift detection to support event-driven IaC remediation.\n\nOn the integration side, Azure API Center introduced a plugin marketplace, signaling a stronger ecosystem approach for API discovery, governance, and extensibility. Overall, the key themes were agent-based development, observability-connected SRE workflows, and more automated platform operations across Azure."
 }
