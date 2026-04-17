@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T12:48:58.103441+00:00",
+  "lastUpdated": "2026-04-17T15:47:12.544628+00:00",
   "totalArticles": 1146,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Bringing AI to the Factory Floor with Foundry Local - Now in Public Preview on Azure Local",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/bringing-ai-to-the-factory-floor-with-foundry-local-now-in/ba-p/4509951",
+      "published": "2026-04-17T15:23:10+00:00",
+      "summary": "Key capabilities in this preview Foundry Local exposes standard REST and OpenAI‑compatible APIs, enabling IT and AI teams to deploy and operate local AI workloads using familiar, cloud‑aligned patterns across edge and on‑prem environments. In this public preview, we deliver the following...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "liranlyabock_microsoft",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "⚡Foundry Toolkit for VS Code: A Deep Dive on GA",
@@ -34,17 +45,6 @@
       "author": "carlottacaste",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Discoverable – Observable MCP Server",
-      "link": "https://devblogs.microsoft.com/ise/observable_discoverable_mcp_server/",
-      "published": "2026-04-17T07:00:00+00:00",
-      "summary": "How to build an observable MCP Server with discoverable tools and agents. The post Discoverable – Observable MCP Server appeared first on ISE Developer Blog.",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Colin Desmond",
-      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "New in Azure SRE Agent: Log Analytics and Application Insights Connectors",
@@ -198,17 +198,6 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "amar_badal",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Bringing AI to the Factory Floor with Foundry Local - Now in Public Preview on Azure Local",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/bringing-ai-to-the-factory-floor-with-foundry-local-now-in/ba-p/4509951",
-      "published": "2026-04-16T16:08:12+00:00",
-      "summary": "Key capabilities in this preview Foundry Local exposes standard REST and OpenAI‑compatible APIs, enabling IT and AI teams to deploy and operate local AI workloads using familiar, cloud‑aligned patterns across edge and on‑prem environments. In this public preview, we deliver the following...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "liranlyabock_microsoft",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8374,6 +8363,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Agent Onboarding Process for Agentic Systems: Maintain accuracy at scale",
+      "link": "https://devblogs.microsoft.com/ise/agent-onboarding-process-for-agentic-systems/",
+      "published": "2025-12-10T08:00:00+00:00",
+      "summary": "A robust agent onboarding process is the backbone of scalable, reliable multi-agent AI systems—enforcing uniqueness, rigorous evaluation, and responsible AI practices at every step. The post Agent Onboarding Process for Agentic Systems: Maintain accuracy at scale appeared first on ISE Developer...",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Vikesh Singh Baghel, Vidhya Shankar Venkatesan",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Demystifying AI Security Posture Management",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/demystifying-ai-security-posture-management/ba-p/4473734",
       "published": "2025-12-09T21:51:04+00:00",
@@ -12609,5 +12609,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on AI agent tooling, operational automation, and API governance. Microsoft highlighted the GA of the Foundry Toolkit for VS Code for building and debugging Azure AI Foundry apps, showcased advanced “reasoning agents” in the Agents League, and expanded the Azure SRE Agent with new Log Analytics and Application Insights connectors plus event-driven Terraform drift detection via HTTP triggers for infrastructure operations.\n\nAnother key theme was ecosystem integration: the ISE team introduced a Discoverable/Observable MCP Server pattern to improve model context and telemetry, while Azure API Center added a plugin marketplace to help organizations publish, discover, and govern reusable API plugins more effectively."
+  "summary": "Today’s Azure updates centered on operationalizing AI and automation across edge, developer, and platform workflows. Microsoft announced **Foundry Local in public preview on Azure Local via Azure Arc** to bring AI to the factory floor, highlighted the **general availability of the Foundry Toolkit for VS Code** for building with Azure AI/Foundry workflows, and showcased advanced **reasoning agents** through its Agents League winner spotlight.\n\nOn the ops side, Azure expanded the **Azure SRE Agent** with **Log Analytics** and **Application Insights connectors** and demonstrated **event-driven Terraform drift detection via HTTP triggers**, pointing to more autonomous infrastructure management. It also introduced a **plugin marketplace for Azure API Center**, aimed at extending API governance and integration capabilities through reusable plugins."
 }
