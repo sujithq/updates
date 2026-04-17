@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-16T09:27:30.456408+00:00",
+  "lastUpdated": "2026-04-17T09:27:03.325106+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -572,6 +572,17 @@
       "detected": "2026-04-16T09:27:30.456403+00:00",
       "published": "2026-04-15T12:30:45+00:00",
       "blog": "Terraform"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=557928",
+      "title": "Retirement: Azure Kubernetes Service support for Ubuntu 22.04",
+      "severity": "warning",
+      "deadline": "2027-06-30",
+      "impact": "AKS retires Ubuntu 22.04; clusters using it must move to Ubuntu 24.04+",
+      "action": "Upgrade AKS node pools/clusters to Ubuntu 24.04 or later before deadline",
+      "detected": "2026-04-17T09:27:03.325094+00:00",
+      "published": "2026-04-16T20:30:13+00:00",
+      "blog": "Azure Updates"
     }
   ]
 }
