@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T01:15:40.112967+00:00",
+  "lastUpdated": "2026-04-17T05:19:52.061969+00:00",
   "totalArticles": 1146,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "New in Azure SRE Agent: Log Analytics and Application Insights Connectors",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/new-in-azure-sre-agent-log-analytics-and-application-insights/ba-p/4509649",
+      "published": "2026-04-17T02:14:28+00:00",
+      "summary": "Azure SRE Agent now supports Log Analytics and Application Insights as log providers, backed by the Azure MCP Server. Connect your workspaces and App Insights resources, and the agent can query them directly during investigations. Why This Matters Log Analytics and Application Insights are common...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Dalibor_Kovacevic",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Event-Driven IaC Operations with Azure SRE Agent: Terraform Drift Detection via HTTP Triggers",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/event-driven-iac-operations-with-azure-sre-agent-terraform-drift/ba-p/4512233",
+      "published": "2026-04-17T02:13:18+00:00",
+      "summary": "What Happens After terraform plan Finds Drift? If your team is like most, the answer looks something like this: A nightly terraform plan runs and finds 3 drifted resources A notification lands in Slack or Teams Someone files a ticket During the next sprint, an engineer opens 4 browser tabs —...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Vineela-Suri",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Introducing the plugin marketplace for Azure API Center",
@@ -1147,17 +1169,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "An update to the active flow billing model for Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/an-update-to-the-active-flow-billing-model-for-azure-sre-agent/ba-p/4507866",
-      "published": "2026-04-10T20:55:35+00:00",
-      "summary": "Earlier today, we announced that Azure SRE Agent now supports multiple AI model providers, starting with Anthropic. To support multi-model choice, and make active usage costs easier to understand, we’re updating how active flow usage is measured, effective April 15, 2026. At a glance What’s...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Mayunk_Jain",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "A third-party connector integrating Claude with Microsoft Sentinel is now available",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/a-third-party-connector-integrating-claude-with-microsoft/ba-p/4507013",
       "published": "2026-04-10T19:46:18+00:00",
@@ -2145,17 +2156,6 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "akankshaGahalout",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "MCP Apps on Azure Functions: Quick Start with TypeScript",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/mcp-apps-on-azure-functions-quick-start-with-typescript/ba-p/4507859",
-      "published": "2026-04-03T20:23:40+00:00",
-      "summary": "Azure Functions makes hosting MCP apps simple: build locally, create a secure endpoint, and deploy fast with Azure Developer CLI (azd). This guide shows you how using a weather app example. What Are MCP Apps? MCP Apps let MCP servers return interactive HTML interfaces such as data visualizations,...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "swapnil_nagar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12609,5 +12609,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog highlights the launch of the **plugin marketplace for Azure API Center**, expanding **Integrations on Azure** with a centralized way to discover and use plugins for API-related workflows. The announcement signals Microsoft’s push to make **API governance, integration, and developer productivity** more extensible by letting organizations more easily connect tools and capabilities around **Azure API Center**."
+  "summary": "Today’s Azure posts focused on operational automation and extensibility. Two Apps on Azure articles highlighted Azure SRE Agent improvements: new connectors for **Log Analytics** and **Application Insights** to bring monitoring and telemetry into SRE workflows, and an event-driven **Terraform drift detection** pattern triggered via **HTTP triggers** for infrastructure-as-code operations.\n\nThe third announcement introduced a **plugin marketplace for Azure API Center**, expanding how teams can extend API governance, discovery, and lifecycle workflows with reusable integrations. Overall, the themes were AI-assisted SRE, tighter observability integration, and more customizable API management tooling."
 }
