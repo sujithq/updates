@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T12:33:17.819102+00:00",
+  "lastUpdated": "2026-04-18T15:27:50.874427+00:00",
   "totalArticles": 1144,
   "articles": [
     {
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Cross‑tenant helpdesk impersonation to data exfiltration: A human-operated intrusion playbook",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/04/18/crosstenant-helpdesk-impersonation-data-exfiltration-human-operated-intrusion-playbook/",
+      "published": "2026-04-18T12:55:45+00:00",
+      "summary": "Threat actors are abusing external Microsoft Teams collaboration to impersonate IT helpdesk staff and convince users to grant remote access. Once inside, attackers can abuse legitimate tools and standard admin protocols to move laterally and exfiltrate data while appearing as routine IT...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Defender Security Research Team",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -2167,17 +2178,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Storm-1175 focuses gaze on vulnerable web-facing assets in high-tempo Medusa ransomware operations",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/04/06/storm-1175-focuses-gaze-on-vulnerable-web-facing-assets-in-high-tempo-medusa-ransomware-operations/",
-      "published": "2026-04-06T16:00:00+00:00",
-      "summary": "The financially motivated cybercriminal threat actor Storm-1175 operates high-velocity ransomware campaigns that weaponize recently disclosed vulnerabilities to obtain initial access, exfiltrate data, and deploy Medusa ransomware. The post Storm-1175 focuses gaze on vulnerable web-facing assets in...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Threat Intelligence",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -12587,5 +12587,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focused on two practical AI/data themes: **operational intelligence in Microsoft Fabric** and **developer guidance for the Model Context Protocol (MCP)**. The Fabric article walks through using the **Microsoft Fabric Operations Agent** to monitor and troubleshoot analytics environments step by step, while the Azure Dev Community post clarifies **MCP’s core building blocks—tools, resources, and prompts**—to help developers design more structured AI agent integrations."
+  "summary": "Today’s Azure-related posts centered on security operations, AI/data platform automation, and emerging agent standards. Microsoft’s Security Blog detailed a human-operated attack chain in which cross-tenant helpdesk impersonation was used to gain trust and exfiltrate data, while Analytics on Azure walked through the new Microsoft Fabric Operations Agent for operational workflows in Fabric, and the Azure Dev Community clarified Model Context Protocol concepts by breaking down MCP tools, resources, and prompts for building AI/agent experiences."
 }
