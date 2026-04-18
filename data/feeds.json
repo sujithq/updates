@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T01:08:58.447618+00:00",
+  "lastUpdated": "2026-04-18T05:00:42.883011+00:00",
   "totalArticles": 1144,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "MCP Demystified: Tools vs Resources vs Prompts Explained Simply",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/mcp-demystified-tools-vs-resources-vs-prompts-explained-simply/ba-p/4508057",
+      "published": "2026-04-18T04:00:00+00:00",
+      "summary": "Introduction When developers start working with Model Context Protocol (MCP), one of the most confusing parts is understanding the difference between MCP Tools, Resources, and Prompts. All three are important components in modern AI application development, but they serve completely different...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Ravindra_Kumar_Vishwakarma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "GitHub Copilot CLI now supports Copilot auto model selection",
@@ -3510,17 +3521,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Hosted Containers and AI Agent Solutions",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/hosted-containers-and-ai-agent-solutions/ba-p/4500627",
-      "published": "2026-03-24T18:32:11+00:00",
-      "summary": "If you have built a proof-of-concept AI agent on your laptop and wondered how to turn it into something other people can actually use, you are not alone. The gap between a working prototype and a production-ready service is where most agent projects stall. Hosted containers close that gap faster...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "[In preview] Public Preview: AKS managed GPU metrics in Azure Monitor",
@@ -12586,5 +12586,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog content focused on clarifying the **Model Context Protocol (MCP)** for AI app development, specifically breaking down the roles of **tools**, **resources**, and **prompts** in MCP-based architectures. The main theme was practical guidance for developers building agentic or LLM-powered applications on Azure, helping them understand how these MCP components structure model interactions and external system access."
 }
