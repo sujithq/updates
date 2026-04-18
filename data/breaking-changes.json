@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T09:27:03.325106+00:00",
+  "lastUpdated": "2026-04-18T09:00:56.911381+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -582,6 +582,17 @@
       "action": "Upgrade AKS node pools/clusters to Ubuntu 24.04 or later before deadline",
       "detected": "2026-04-17T09:27:03.325094+00:00",
       "published": "2026-04-16T20:30:13+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=559311",
+      "title": "Retirement: Azure Functions runtime v3 on Linux Consumption will stop running September 30, 2026",
+      "severity": "warning",
+      "deadline": "2026-09-30",
+      "impact": "Linux Consumption Azure Functions v3 apps will stop running after retirement enforcement",
+      "action": "Migrate affected Function Apps to a supported runtime before 2026-09-30",
+      "detected": "2026-04-18T09:00:56.911370+00:00",
+      "published": "2026-04-17T19:00:12+00:00",
       "blog": "Azure Updates"
     }
   ]
