@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T18:30:48.641415+00:00",
+  "lastUpdated": "2026-04-19T21:24:36.715437+00:00",
   "totalArticles": 1143,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Network Connectivity Check APIs for Logic App Standard",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/network-connectivity-check-apis-for-logic-app-standard/ba-p/4512516",
+      "published": "2026-04-19T18:40:14+00:00",
+      "summary": "Introduction When your Logic App Standard is integrated with a Virtual Network (VNET), you can use these APIs to troubleshoot connectivity issues to downstream resources like SQL databases, Storage Accounts, Service Bus, Key Vault, and more. The checks run directly from the worker hosting your...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Mohammed_Barqawi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "AKS App Routing's Next Chapter: Gateway API with Istio",
@@ -7692,17 +7703,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Upcoming Agentic Azure Logic Apps Workshops",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/upcoming-agentic-azure-logic-apps-workshops/ba-p/4484526",
-      "published": "2026-01-09T21:52:15+00:00",
-      "summary": "Join me for a couple of upcoming workshops where you can learn about Logic Apps MCP Servers and building Agentic Business Processes Topic: Connecting the enterprise, using MCP Servers from Copilot Studio When: Tuesday, January 13th at 2PM CET/6 AM Mountain Registration link Topic: Building Agentic...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "KentWeareMSFT",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Kubernetes v1.35: Restricting executables invoked by kubeconfigs via exec plugin allowList added to kuberc",
       "link": "https://kubernetes.io/blog/2026/01/09/kubernetes-v1-35-kuberc-credential-plugin-allowlist/",
       "published": "2026-01-09T18:30:00+00:00",
@@ -12576,5 +12576,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts spotlight three practical themes: modern Kubernetes traffic management, industry data modeling for financial services, and edge/extended-zone virtual desktop deployment. Azure highlighted **AKS App Routing’s evolution to the Kubernetes Gateway API with Istio**, offering more standardized ingress and traffic management for **Azure Kubernetes Service** workloads; a **step-by-step ontology and planning guide for financial services** on Azure analytics; and a **real-world Azure Virtual Desktop deployment in the Perth Azure Extended Zone**, showing how **Azure Extended Zones** can support lower-latency production desktop infrastructure closer to users."
+  "summary": "Today’s Azure posts focus on stronger cloud connectivity, modern Kubernetes ingress, industry data modeling, and edge deployment. Microsoft introduced **Network Connectivity Check APIs for Logic App Standard** to validate outbound connectivity and troubleshoot integration workflows; advanced **AKS App Routing** by aligning it with the **Kubernetes Gateway API** and **Istio** for more flexible traffic management and service mesh scenarios; published a **step-by-step ontology and planning guide for financial services** on Azure analytics/data platforms; and highlighted a production deployment of **Azure Virtual Desktop** in the **Perth Azure Extended Zone**, underscoring low-latency desktop virtualization at the network edge."
 }
