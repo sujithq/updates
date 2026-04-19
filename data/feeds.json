@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-19T15:27:46.357977+00:00",
-  "totalArticles": 1144,
+  "lastUpdated": "2026-04-19T18:30:48.641415+00:00",
+  "totalArticles": 1143,
   "articles": [
     {
       "title": "Visual Studio Code 1.117",
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "AKS App Routing's Next Chapter: Gateway API with Istio",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/aks-app-routing-s-next-chapter-gateway-api-with-istio/ba-p/4512729",
+      "published": "2026-04-19T18:25:14+00:00",
+      "summary": "If you've been following my previous posts on the Ingress NGINX retirement, you'll know the story so far. The community Ingress NGINX project was retired in March 2026, and Microsoft's extended support for the NGINX-based App Routing add-on runs until November 2026. I've covered migrating from...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "samcogan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Step by Step Guide to Ontology and Plan for Financial Service",
@@ -1508,17 +1519,6 @@
       "author": "Rob Lefferts and David Weston",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "How we build and use Azure SRE Agent with agentic workflows",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-we-build-and-use-azure-sre-agent-with-agentic-workflows/ba-p/4508753",
-      "published": "2026-04-09T17:52:27+00:00",
-      "summary": "The Challenge: Ops is critical but takes time from innovation Microsoft operates always-on, mission-critical production systems at extraordinary scale. Thousands of services, millions of deployments, and constant change are the reality of modern cloud engineering. These are titan systems that power...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Shamir_AbdulAziz",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Advancing to Agentic AI with Azure NetApp Files VS Code Extension v1.2.0",
@@ -12574,18 +12574,7 @@
       "author": "sudeshna",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Best practices for modernizing large-scale Text-Search from legacy data systems to Azure SQL",
-      "link": "https://techcommunity.microsoft.com/t5/modernization-best-practices-and/best-practices-for-modernizing-large-scale-text-search-from/ba-p/4377782",
-      "published": "2025-04-18T18:24:15+00:00",
-      "summary": "Introduction Text-search is an essential aspect of contemporary data management, enabling users to effectively extract information from natural-language text. This technology allows for the retrieval of specific details from a text corpus, providing insights that would be unattainable through...",
-      "blog": "Modernization Best Practices Blog",
-      "blogId": "modernizationbestpracticesblog",
-      "author": "anilkota",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure updates focused on industry-specific cloud architecture and edge-proximate virtual desktop deployment. One post from **Analytics on Azure** provided a step-by-step guide for building an **ontology and planning model for financial services**, highlighting Azure-based data and analytics patterns for structuring domain knowledge in regulated environments; another from **Azure Infrastructure** detailed a real-world **Azure Virtual Desktop** production deployment in the **Perth Azure Extended Zone**, underscoring low-latency regional infrastructure options for desktop virtualization closer to end users."
+  "summary": "Today’s Azure posts spotlight three practical themes: modern Kubernetes traffic management, industry data modeling for financial services, and edge/extended-zone virtual desktop deployment. Azure highlighted **AKS App Routing’s evolution to the Kubernetes Gateway API with Istio**, offering more standardized ingress and traffic management for **Azure Kubernetes Service** workloads; a **step-by-step ontology and planning guide for financial services** on Azure analytics; and a **real-world Azure Virtual Desktop deployment in the Perth Azure Extended Zone**, showing how **Azure Extended Zones** can support lower-latency production desktop infrastructure closer to users."
 }
