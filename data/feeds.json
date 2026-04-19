@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T09:37:13.068664+00:00",
+  "lastUpdated": "2026-04-19T12:33:35.897622+00:00",
   "totalArticles": 1144,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Azure Virtual Desktop in the Perth Azure Extended Zone: A Real‑World Production Deployment",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-virtual-desktop-in-the-perth-azure-extended-zone-a-real/ba-p/4508550",
+      "published": "2026-04-19T10:03:32+00:00",
+      "summary": "Introduction Perth is one of the most geographically isolated major cities globally. For performance‑sensitive, graphics‑heavy engineering workloads, user experience can degrade significantly when desktops are hosted far from the user. For workloads such as subsurface modelling and GPU‑intensive...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "akashmishra",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Cross‑tenant helpdesk impersonation to data exfiltration: A human-operated intrusion playbook",
@@ -1287,17 +1298,6 @@
       "blogId": "appsonazureblog",
       "author": "MelanieKraintz007",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "From Toil to Trust: How Azure SRE Agent Is Redefining Cloud Operations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-toil-to-trust-how-azure-sre-agent-is-redefining-cloud/ba-p/4505875",
-      "published": "2026-04-11T05:36:05+00:00",
-      "summary": "As Azure environments scale, infrastructure teams face a familiar challenge: operating reliably at scale.Outages are no longer caused by a single VM or misconfigured service—they emerge from complex dependencies across compute, networking, storage, and platform services. Azure SRE Agent is designed...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "siddhigupta",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12586,5 +12586,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog spotlighted a real-world production deployment of **Azure Virtual Desktop (AVD)** running in the **Perth Azure Extended Zone**, emphasizing how organizations can use Extended Zones to place desktop workloads closer to regional users for lower latency and better performance. The post’s key theme was practical edge-adjacent Azure infrastructure deployment—showing **AVD** as a concrete example of how **Azure Extended Zones** can support production-grade virtual desktop environments outside a traditional full Azure region."
 }
