@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T01:17:05.164196+00:00",
+  "lastUpdated": "2026-04-20T05:31:44.863818+00:00",
   "totalArticles": 1143,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Building an Enterprise HR Chatbot with Multi-Strategy RAG and Live Agent Handoff on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-an-enterprise-hr-chatbot-with-multi-strategy-rag-and/ba-p/4506829",
+      "published": "2026-04-20T05:00:00+00:00",
+      "summary": "HR teams deal with thousands of employee questions every day — policy lookups, leave balances, case escalations, and sensitive topics like harassment or misconduct. AI chatbots can handle the routine stuff and free up HR advisors for the hard cases. But most chatbot projects get stuck at basic Q&A....",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "risthakur1213",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Network Connectivity Check APIs for Logic App Standard",
@@ -3497,17 +3508,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Vectorless Reasoning-Based RAG: A New Approach to Retrieval-Augmented Generation",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/vectorless-reasoning-based-rag-a-new-approach-to-retrieval/ba-p/4502238",
-      "published": "2026-03-25T07:00:00+00:00",
-      "summary": "Introduction Retrieval-Augmented Generation (RAG) has become a widely adopted architecture for building AI applications that combine Large Language Models (LLMs) with external knowledge sources. Traditional RAG pipelines rely heavily on vector embeddings and similarity search to retrieve relevant...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Rajapriya",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -12575,5 +12575,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage centered on an applied AI enterprise scenario: building an HR chatbot on Azure using **multi-strategy retrieval-augmented generation (RAG)** to improve answer quality across different knowledge sources and query types. The post also highlighted **live agent handoff**, emphasizing a hybrid support model where Azure-based conversational AI can escalate seamlessly to human agents for complex or sensitive HR cases."
 }
