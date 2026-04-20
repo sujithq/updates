@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T16:01:40.006085+00:00",
+  "lastUpdated": "2026-04-20T18:47:33.192701+00:00",
   "totalArticles": 1143,
   "articles": [
     {
@@ -11,6 +11,94 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "v1.14.9",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.14.9",
+      "published": "2026-04-20T18:46:26+00:00",
+      "summary": "1.14.9 (April 20, 2026) BUG FIXES: Fix Terraform Stacks plugin installation error (#38406)",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Changes to GitHub Copilot Individual plans",
+      "link": "https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/",
+      "published": "2026-04-20T18:15:28+00:00",
+      "summary": "We're making these changes to ensure a reliable and predictable experience for existing customers. The post Changes to GitHub Copilot Individual plans appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Joe Binder",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Troubleshoot with OpenTelemetry in Azure Monitor - Public Preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/troubleshoot-with-opentelemetry-in-azure-monitor-public-preview/ba-p/4512128",
+      "published": "2026-04-20T18:14:20+00:00",
+      "summary": "OpenTelemetry is fast becoming the industry standard for modern telemetry collection and ingestion pipelines. With Azure Monitor’s new OpenTelemetry Protocol (OTLP) support, you can ship logs, metrics, and traces from wherever you run workloads to analyze and act on your observability data in one...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "KayodePrince",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Autonomous AKS Incident Response with Azure SRE Agent: From Alert to Verified Recovery in Minutes",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/autonomous-aks-incident-response-with-azure-sre-agent-from-alert/ba-p/4511343",
+      "published": "2026-04-20T18:07:34+00:00",
+      "summary": "When a Sev1 alert fires on an AKS cluster, detection is rarely the hard part. The hard part is what comes next: proving what broke, why it broke, and fixing it without widening the blast radius, all under time pressure, often at 2 a.m. Azure SRE Agent is designed to close that gap. It connects...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "hailukassa",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Secure, Keyless Application Access with Managed Identities - Now GA in Azure Files SMB",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/secure-keyless-application-access-with-managed-identities-now-ga/ba-p/4513053",
+      "published": "2026-04-20T17:57:56+00:00",
+      "summary": "As enterprises modernize applications and strengthen their security posture, identity is central to how applications access shared storage. Traditional identity models relying on account keys, stored credentials, or domain‑joined infrastructure add operational overhead and introduce security risks...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "Priyanka-Gangal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[In preview] Public Preview: Azure Monitor supports native OTLP ingestion using the Azure Monitor Agent",
+      "link": "https://azure.microsoft.com/updates?id=560530",
+      "published": "2026-04-20T17:30:53+00:00",
+      "summary": "Azure Monitor now supports native ingestion of OpenTelemetry Protocol (OTLP) signals. Send telemetry directly from OpenTelemetry-instrumented applications by using the Azure Monitor Agent (AMA) to receive OTLP from your apps and export it to Azure Monitor",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Highlights from Git 2.54",
+      "link": "https://github.blog/open-source/git/highlights-from-git-2-54/",
+      "published": "2026-04-20T16:43:57+00:00",
+      "summary": "The open source Git project just released Git 2.54. Here is GitHub’s look at some of the most interesting features and changes introduced since last time. The post Highlights from Git 2.54 appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Taylor Blau",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Making opportunistic cyberattacks harder by design",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/04/20/making-opportunistic-cyberattacks-harder-by-design/",
+      "published": "2026-04-20T16:00:00+00:00",
+      "summary": "How Microsoft secures Dynamics 365 and Power Platform by removing credentials, reducing attack surfaces, and using platform engineering to block opportunistic threats. The post Making opportunistic cyberattacks harder by design appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Ilya Grebnov",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -130,7 +218,7 @@
       "summary": "Threat actors are abusing external Microsoft Teams collaboration to impersonate IT helpdesk staff and convince users to grant remote access. Once inside, attackers can abuse legitimate tools and standard admin protocols to move laterally and exfiltrate data while appearing as routine IT...",
       "blog": "Microsoft Security Blog",
       "blogId": "microsoftsecurity",
-      "author": "Microsoft Defender Security Research Team",
+      "author": "Microsoft Defender Security Research Team and Microsoft Defender Experts",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
@@ -177,17 +265,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Autonomous AKS Incident Response with Azure SRE Agent: From Alert to Verified Recovery in Minutes",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/autonomous-aks-incident-response-with-azure-sre-agent-from-alert/ba-p/4511343",
-      "published": "2026-04-17T20:31:11+00:00",
-      "summary": "When a Sev1 alert fires on an AKS cluster, detection is rarely the hard part. The hard part is what comes next: proving what broke, why it broke, and fixing it without widening the blast radius, all under time pressure, often at 2 a.m. Azure SRE Agent is designed to close that gap. It connects...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "hailukassa",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Retirement: Azure Functions runtime v3 on Linux Consumption will stop running September 30, 2026",
@@ -1477,17 +1554,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "GitHub Copilot CLI for Beginners: Getting started with GitHub Copilot CLI",
-      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/",
-      "published": "2026-04-10T16:00:00+00:00",
-      "summary": "GitHub for Beginners: Getting started with the GitHub Copilot CLI, a step-by-step tutorial. The post GitHub Copilot CLI for Beginners: Getting started with GitHub Copilot CLI appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Christopher Harrison",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "PHP 8.5 is now available on Azure App Service for Linux",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/php-8-5-is-now-available-on-azure-app-service-for-linux/ba-p/4510254",
       "published": "2026-04-10T10:11:11+00:00",
@@ -1717,17 +1783,6 @@
       "author": "theringe",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "GitHub availability report: March 2026",
-      "link": "https://github.blog/news-insights/company-news/github-availability-report-march-2026/",
-      "published": "2026-04-09T02:21:17+00:00",
-      "summary": "In March, we experienced four incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: March 2026 appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Jakub Oleksy",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "AI Inference on AKS enabled by Azure Arc: Generative AI using Triton and TensorRT‑LLM",
@@ -2244,17 +2299,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Inside an AI‑enabled device code phishing campaign",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/04/06/ai-enabled-device-code-phishing-campaign-april-2026/",
-      "published": "2026-04-06T16:34:17+00:00",
-      "summary": "A new wave of device code phishing shows how threat actors are scaling account compromise using AI and end‑to‑end automation. This campaign goes beyond traditional phishing by generating live authentication codes on demand, enabling higher success rates and sustained post‑compromise access. The...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Defender Security Research Team",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -6416,17 +6460,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "v1.14.5",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.14.5",
-      "published": "2026-02-11T15:57:11+00:00",
-      "summary": "1.14.5 (February 11, 2026) BUG FIXES: Fixed an issue where terraform stacks validate was failing to resolve relative paths for modules (#38025)",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "Deploy to Azure App Service deployment slots with azd",
       "link": "https://devblogs.microsoft.com/azure-sdk/azd-app-service-slot/",
       "published": "2026-02-11T14:59:15+00:00",
@@ -9155,17 +9188,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "[In preview] Public Preview: Container network metrics filtering in Advanced Container Networking Services for (ACNS) for AKS",
-      "link": "https://azure.microsoft.com/updates?id=523076",
-      "published": "2025-11-20T20:00:10+00:00",
-      "summary": "Container network metrics filtering in Azure Container Networking Services (ACNS) is now available in public preview. In containerized environments, the ingestion of excessive network metrics can lead to inflated storage costs and cluttered dashboards, ma",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Advancing Full-Stack Observability with Azure Monitor at Ignite 2025",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/advancing-full-stack-observability-with-azure-monitor-at-ignite/ba-p/4469041",
       "published": "2025-11-20T18:48:08+00:00",
@@ -9569,17 +9591,6 @@
       "blog": "Azure Observability",
       "blogId": "azureobservabilityblog",
       "author": "Efrat_Ben_Porat",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Comprehensive VM Monitoring with OpenTelemetry performance counters",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/comprehensive-vm-monitoring-with-opentelemetry-performance/ba-p/4470122",
-      "published": "2025-11-18T16:00:00+00:00",
-      "summary": "Monitoring virtual machines often requires multiple tools and manual investigation. You may see high CPU or memory usage, but identifying the process responsible usually means signing in to the VM and running diagnostic commands. Azure Monitor already provides Guest OS performance monitoring...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "viviandiec",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -10659,17 +10670,6 @@
       "blogId": "analyticsonazure",
       "author": "alescardoso",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure Native Pure Storage Cloud brings the best of Pure and Azure to our customers",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-native-pure-storage-cloud-brings-the-best-of-pure-and/ba-p/4456246",
-      "published": "2025-09-25T16:00:00+00:00",
-      "summary": "Azure Native Integrations tightly couple partner solutions to the Azure management experience allowing you to deploy and operate industry-leading solutions like Pure Storage Cloud with the same tools and methodology you use with Azure services like virtual machines, storage accounts, and Azure...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "karautenMSFT",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12576,5 +12576,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-focused posts center on hybrid connectivity, migration, and secure enterprise AI. Microsoft highlighted new hybrid deployment options for Azure Virtual Desktop, Azure Migrate support for discovering and assessing on-prem file shares before moving them to Azure Storage, and guidance for Azure AI Foundry scenarios that need to securely reach on-premises APIs over private networking.\n\nAI and developer tooling were another major theme: one post detailed an enterprise HR chatbot on Azure using multi-strategy RAG with live agent handoff, while another introduced a discoverable, observable MCP server from Microsoft’s ISE team. Separately, GitHub announced the sunsetting of SHA-1 for HTTPS, reinforcing the broader push toward stronger cryptographic security across Microsoft’s cloud and developer ecosystem."
+  "summary": "Today’s Azure-related posts were dominated by observability, automation, and hybrid enterprise modernization. Microsoft highlighted OpenTelemetry advances with Azure Monitor—including public preview support for troubleshooting with OpenTelemetry and native OTLP ingestion via the Azure Monitor Agent—while also showcasing autonomous AKS incident response through the Azure SRE Agent, plus AI app patterns like an enterprise HR chatbot using multi-strategy RAG and Azure AI Foundry networking guidance for securely reaching on-prem APIs over private links.\n\nSecurity and infrastructure updates were another major theme: Azure Files SMB managed identities are now generally available for keyless access, Azure Virtual Desktop introduced new hybrid deployment options, and Azure Migrate added discovery/assessment support for on-prem file share migrations. Around the broader Microsoft/GitHub ecosystem, notable announcements included GitHub Copilot Individual plan changes, Git 2.54 highlights, GitHub’s HTTPS SHA-1 deprecation, and Microsoft’s push to make opportunistic cyberattacks harder by design."
 }
