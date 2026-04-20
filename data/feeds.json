@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T07:47:19.107230+00:00",
+  "lastUpdated": "2026-04-20T10:26:57.816238+00:00",
   "totalArticles": 1143,
   "articles": [
     {
@@ -11,6 +11,28 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Simplify On-prem File share Migration to Azure: Discover & assess suitability using Azure Migrate",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/simplify-on-prem-file-share-migration-to-azure-discover-assess/ba-p/4509195",
+      "published": "2026-04-20T09:49:14+00:00",
+      "summary": "Migrating on‑premises file servers to the cloud is a complex infrastructure transformation—not just a data move. Many organizations lack the visibility needed to decide whether to rehost or modernize file shares spread across Windows and Linux servers. Azure Migrate now extends its discovery and...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "bapic",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Discoverable – Observable MCP Server",
+      "link": "https://devblogs.microsoft.com/ise/observable_discoverable_mcp_server/",
+      "published": "2026-04-20T07:00:00+00:00",
+      "summary": "How to build an observable MCP Server with discoverable tools and agents. The post Discoverable – Observable MCP Server appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Colin Desmond",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
       "sourceType": "rss"
     },
     {
@@ -8407,17 +8429,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Agent Onboarding Process for Agentic Systems: Maintain accuracy at scale",
-      "link": "https://devblogs.microsoft.com/ise/agent-onboarding-process-for-agentic-systems/",
-      "published": "2025-12-10T08:00:00+00:00",
-      "summary": "A robust agent onboarding process is the backbone of scalable, reliable multi-agent AI systems—enforcing uniqueness, rigorous evaluation, and responsible AI practices at every step. The post Agent Onboarding Process for Agentic Systems: Maintain accuracy at scale appeared first on ISE Developer...",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Vikesh Singh Baghel, Vidhya Shankar Venkatesan",
-      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Demystifying AI Security Posture Management",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/demystifying-ai-security-posture-management/ba-p/4473734",
       "published": "2025-12-09T21:51:04+00:00",
@@ -10717,17 +10728,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "General Availability of Azure Backup vaulted support for Azure Files Premium (SSD) shares",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/general-availability-of-azure-backup-vaulted-support-for-azure/ba-p/4455307",
-      "published": "2025-09-23T06:42:32+00:00",
-      "summary": "Whether you're an enterprise IT administrator or a cloud-native developer, ensuring data protection and resiliency is non-negotiable, especially when running mission-critical workload on Azure Files Premium (SSD) shares. We’re thrilled to announce the General Availability of vaulted backup support...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "Subhash_athreya",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Kubernetes v1.34: Pod Level Resources Graduated to Beta",
       "link": "https://kubernetes.io/blog/2025/09/22/kubernetes-v1-34-pod-level-resources/",
       "published": "2025-09-22T18:30:00+00:00",
@@ -12576,5 +12576,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage centers on enterprise AI app patterns, specifically a new **HR chatbot** architecture built on **Azure** using **multi-strategy retrieval-augmented generation (RAG)** to improve answer quality across different knowledge sources and query types. The post also highlights a practical production feature—**live agent handoff**—showing how Azure-based conversational AI can escalate from automated support to human assistance when needed, a key theme for real-world enterprise deployments."
+  "summary": "Today’s Azure posts focus on practical modernization and AI app architecture. Microsoft highlighted a streamlined path for migrating on-prem file shares to Azure Storage using Azure Migrate for discovery and suitability assessment, while also showcasing advanced AI patterns: an observable MCP server for better discoverability and monitoring, and an enterprise HR chatbot on Azure that combines multi-strategy RAG with live agent handoff for more reliable employee support.\n\nThe common theme is operationalizing AI and cloud migration with stronger tooling and governance—spanning Azure Storage migration, MCP-based developer infrastructure, and production-ready conversational AI designs on Azure."
 }
