@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T18:53:56.460563+00:00",
+  "lastUpdated": "2026-04-21T21:36:01.037469+00:00",
   "totalArticles": 1145,
   "articles": [
     {
@@ -11,6 +11,39 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Introducing OpenAI's GPT-image-2 in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-openai-s-gpt-image-2-in-microsoft-foundry/ba-p/4500571",
+      "published": "2026-04-21T20:52:15+00:00",
+      "summary": "Take a small design team running a global social campaign. They have the creative vision to produce localized imagery for every market, but not the resources to reshoot, reformat, or outsource that scale. Every asset needs to fit a different platform, a different dimension, a different cultural...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Naomi Moneypenny",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Ingest at Scale, Securely — Azure Monitor pipeline Is Now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/ingest-at-scale-securely-azure-monitor-pipeline-is-now-generally/ba-p/4510379",
+      "published": "2026-04-21T20:51:13+00:00",
+      "summary": "Today, we're thrilled to announce the general availability of Azure Monitor pipeline — a telemetry pipeline built for secure, high-scale ingestion across any environment. But the best way to understand what makes it powerful isn't to start with features. It's to start with the problems that kept...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "XemaPathak",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Monitor pipeline",
+      "link": "https://azure.microsoft.com/updates?id=559886",
+      "published": "2026-04-21T20:30:49+00:00",
+      "summary": "Azure Monitor pipeline is now generally available.Azure Monitor pipeline provides a centralized control point for telemetry ingestion and transformation, designed specifically for secure, high‑throughput, enterprise‑scale scenarios. It's built on open-sou",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -3091,17 +3124,6 @@
       "blogId": "integrationsonazureblog",
       "author": "Omar_Abu_Arisheh",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Foundry Agents and Custom Engine Agents through the Corporate Firewall",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-agents-and-custom-engine-agents-through-the-corporate/ba-p/4502218",
-      "published": "2026-04-01T08:49:02+00:00",
-      "summary": "It's easy to publish Foundry Agents and your own Custom Engine Agents, so they can be accessed in Teams and Copilot. But if you want to run your agents on your own private network you'll hit an issue. Teams and Copilot live outside your network but your agent lives inside. How do we connect them?...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "graemefoster",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -9166,17 +9188,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Azure MCP Server for Azure Database for MySQL",
-      "link": "https://azure.microsoft.com/updates?id=532197",
-      "published": "2025-11-24T17:00:10+00:00",
-      "summary": "Announcing that Azure MCP Server now supports Azure Database for MySQL. With this update, you can empower AI agents and applications to interact with your MySQL data using natural language through the open Model Context Protocol (MCP). Instead of writing",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Announcing public preview of query-based metric alerts in Azure Monitor",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/announcing-public-preview-of-query-based-metric-alerts-in-azure/ba-p/4469723",
       "published": "2025-11-23T18:55:48+00:00",
@@ -9636,17 +9647,6 @@
       "blogId": "azuremigrationblog",
       "author": "SShastri",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Public Preview: Azure Monitor Integration with Fabric Real Time Intelligence Eventhouse",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-azure-monitor-integration-with-fabric-real-time/ba-p/4470119",
-      "published": "2025-11-18T15:44:22+00:00",
-      "summary": "Customers need to enable different scenarios to successfully operate their IT/OT environments and business processes for meeting business objectives. Building solutions to solve these problems requires deriving rich insights from telemetry data emitted by devices, assets, applications, typically,...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "AprilBadger",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12598,5 +12598,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts clustered around three big themes: security and resilience, AI-assisted development, and platform modernization. Key announcements included an out-of-band **.NET 10.0.7 security update**, **GA of Dynamic Data Masking for Azure Cosmos DB**, preview-to-GA momentum for **Azure NetApp Files advanced ransomware protection**, and **public preview of redundant TCP support for RDP Multipath in Azure Virtual Desktop**; there was also guidance on the **Service Bus SBMP retirement** for **BizTalk Server 2020** customers and new detection strategies for insider threats across cloud and identity.\n\nOn the developer side, Microsoft highlighted more agentic and AI-powered workflows: **GitHub Copilot with Azure Developer CLI**, the **Azure DevOps MCP Server April update**, “Agentic DevOps” foundations, and a shift from **Playwright automation to agent-driven testing**. Platform/tooling updates included **Aspire 13.2** adding **Bun** support and container improvements, **CodeQL** adding **sanitizers and validators in models-as-data**, troubleshooting for **Azure Functions** host startup, and Azure governance tips using **Azure Resource Graph** for **Azure Redis** and **Azure Storage** configuration visibility."
+  "summary": "Today’s Azure news was dominated by AI and developer productivity: Microsoft introduced **OpenAI’s GPT-image-2 in Azure AI Foundry / Microsoft Foundry**, while several posts focused on **agentic AI**, including **Azure DevOps MCP Server updates**, agent-driven testing with **Playwright**, and community content on **Agentic DevOps** and code “auto-memory.” On the platform side, Microsoft highlighted **general availability of Azure Monitor pipeline** for secure, large-scale telemetry ingestion, **Dynamic Data Masking for Azure Cosmos DB**, **.NET 10.0.7 out-of-band security fixes**, **Aspire 13.2** with **Bun** and container enhancements, and **public preview of redundant TCP support for RDP Multipath in Azure Virtual Desktop**.\n\nSecurity, resilience, and operations were the other big themes: posts covered **CodeQL** support for **sanitizers and validators in models-as-data**, Microsoft’s guidance on detecting **infiltrating IT workers** across cloud and identity systems, **advanced ransomware protection for Azure NetApp Files**, and troubleshooting for **Azure Functions** startup issues. There was also a strong infrastructure governance angle, with practical guidance on using **Azure Resource Graph** to inspect **Azure Redis** and **Azure Storage** configurations, plus continued thought leadership around multi-language architecture in **Azure SQL**."
 }
