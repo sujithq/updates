@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T10:08:34.564539+00:00",
+  "lastUpdated": "2026-04-21T12:54:24.675636+00:00",
   "totalArticles": 1145,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Claim your IQ Series: Foundry IQ badge",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/claim-your-iq-series-foundry-iq-badge/ba-p/4513036",
+      "published": "2026-04-21T12:51:52+00:00",
+      "summary": "The IQ Series kicked off with three Foundry IQ episodes, each paired with a hands-on cookbook. If you've worked through all three or you're planning to, there's now a digital badge waiting for you to claim! What the badge represents The IQ Series: Foundry IQ badge recognizes developers who've...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "aycabas",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Leveraging Azure Resource Graph Queries for Azure Redis Configuration",
@@ -3421,17 +3432,6 @@
       "blogId": "microsoft365copilotblog",
       "author": "wbaer",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Building an Offline AI Interview Coach with Foundry Local, RAG, and SQLite",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-an-offline-ai-interview-coach-with-foundry-local-rag/ba-p/4500614",
-      "published": "2026-03-27T07:00:00+00:00",
-      "summary": "How to build a 100% offline, AI-powered interview preparation tool using Microsoft Foundry Local, Retrieval-Augmented Generation, and nothing but JavaScript. Foundry Local 100% Offline RAG + TF-IDF JavaScript / Node.js Contents Introduction What is RAG and Why Offline? Architecture Overview Setting...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12598,5 +12598,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focused on operational modernization and AI-assisted developer productivity across core platform services. Microsoft highlighted using **Azure Resource Graph** to audit and query configuration at scale for **Azure Cache for Redis** and **Azure Storage**, guidance for diagnosing **Azure Functions** host startup failures, and a key integration update around **Azure Service Bus** with the **SBMP protocol retirement** and implications for **BizTalk Server 2020** customers.\n\nA second major theme was AI and automation in the developer workflow: one post explored moving from **Playwright**-based test automation toward **agent-driven testing**, while another showed how **GitHub Copilot** integrates with the **Azure Developer CLI (azd)** to speed up project scaffolding and troubleshoot setup or runtime errors."
+  "summary": "Today’s Azure posts focused on practical cloud modernization and developer productivity. Key themes included governance and inventory at scale using **Azure Resource Graph** for auditing **Azure Redis** and **Azure Storage** configurations, troubleshooting runtime reliability in **Azure Functions** host startup failures, and preparing integration workloads for the **Azure Service Bus SBMP retirement**, especially for **BizTalk Server 2020** customers who need to move to supported protocols and SDK patterns.\n\nOn the developer experience side, Azure highlighted AI- and automation-driven workflows: **GitHub Copilot** integrated with the **Azure Developer CLI (azd)** for app setup and troubleshooting, a shift from **Playwright**-based automation toward **agent-driven testing**, and community learning initiatives like the **Foundry IQ badge** tied to Azure AI/Foundry skilling."
 }
