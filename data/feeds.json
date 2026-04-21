@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-21T07:19:14.295915+00:00",
-  "totalArticles": 1143,
+  "lastUpdated": "2026-04-21T10:08:34.564539+00:00",
+  "totalArticles": 1145,
   "articles": [
     {
       "title": "Visual Studio Code 1.117",
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Leveraging Azure Resource Graph Queries for Azure Redis Configuration",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/leveraging-azure-resource-graph-queries-for-azure-redis/ba-p/4509826",
+      "published": "2026-04-21T07:57:08+00:00",
+      "summary": "Scenario Many times, we receive requests for a quick and reliable way to review Azure Redis configurations such as SKU tiers, Redis versions, TLS settings, Microsoft Entra authentication status, and public network exposure. Traditionally, these checks are performed using PowerShell, Azure CLI, or...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "Soma_Sekhara_Raju",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Leveraging Azure Resource Graph Queries for Azure Storage Configuration",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/leveraging-azure-resource-graph-queries-for-azure-storage/ba-p/4509184",
+      "published": "2026-04-21T07:46:00+00:00",
+      "summary": "Scenario Many times, we receive requests for a quick and reliable way to check which Azure Storage features are enabled across subscriptions—such as SFTP, Hierarchical Namespace (HNS), or default access tiers. For such scenarios, customers can use PowerShell, Azure CLI, or REST APIs; however, these...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "jainsourabh",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "How to Troubleshoot Azure Functions Host Startup Issue",
@@ -12576,5 +12598,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focused on operational resilience and AI-assisted developer productivity. Microsoft highlighted troubleshooting Azure Functions host startup failures, urged BizTalk Server 2020 customers using Azure Service Bus to prepare for SBMP protocol retirement, and showed how GitHub Copilot with the Azure Developer CLI can speed project scaffolding and diagnose deployment/configuration errors.  \n\nA second major theme was the shift toward more autonomous testing and development workflows: one post explored moving from Playwright-based browser automation to agent-driven testing, while another emphasized AI pair-programming in Azure tooling through GitHub Copilot integration."
+  "summary": "Today’s Azure posts focused on operational modernization and AI-assisted developer productivity across core platform services. Microsoft highlighted using **Azure Resource Graph** to audit and query configuration at scale for **Azure Cache for Redis** and **Azure Storage**, guidance for diagnosing **Azure Functions** host startup failures, and a key integration update around **Azure Service Bus** with the **SBMP protocol retirement** and implications for **BizTalk Server 2020** customers.\n\nA second major theme was AI and automation in the developer workflow: one post explored moving from **Playwright**-based test automation toward **agent-driven testing**, while another showed how **GitHub Copilot** integrates with the **Azure Developer CLI (azd)** to speed up project scaffolding and troubleshoot setup or runtime errors."
 }
