@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T12:55:04.514205+00:00",
+  "lastUpdated": "2026-04-22T16:01:12.516584+00:00",
   "totalArticles": 1146,
   "articles": [
     {
@@ -12,6 +12,94 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Microsoft 365 Copilot readiness and resiliency with SharePoint and M365 Backup/Archive",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/microsoft-365-copilot-readiness-and-resiliency-with-sharepoint/ba-p/4513048",
+      "published": "2026-04-22T16:00:00+00:00",
+      "summary": "As AI becomes embedded in everyday work, governance shifts from being a back‑office function to a strategic enabler. Organizations that succeed with Copilot and agents aren’t just moving fast (70% of early Copilot users said they were more productive) – they are prepared, resilient, and deliberate...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "Sesha_Mani",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Three tiers of Agentic AI - and when to use none of them",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/three-tiers-of-agentic-ai-and-when-to-use-none-of-them/ba-p/4510377",
+      "published": "2026-04-22T16:00:00+00:00",
+      "summary": "Every enterprise has an AI agent. Almost none of them work in production. Walk into any enterprise technology review right now and you will find the same thing. Pilots running. Demos recorded. Steering committees impressed. And somewhere in the background, a quiet acknowledgment that the thing does...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "sgangaramani",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Introducing Kimi K2.6 in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-kimi-k2-6-in-microsoft-foundry/ba-p/4513125",
+      "published": "2026-04-22T15:56:21+00:00",
+      "summary": "We’re excited to welcome Moonshot AI’s Kimi K2.6 to Microsoft Foundry expanding the platform’s growing catalog of open and frontier models designed for real-world, production-grade AI systems. Kimi K2.6 represents a new class of agentic, multimodal models built for long-horizon reasoning, coding,...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "RashaudSavage",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Understanding the Standard HDD I/O unit size update and what it means for your workloads",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/understanding-the-standard-hdd-i-o-unit-size-update-and-what-it/ba-p/4499128",
+      "published": "2026-04-22T15:18:03+00:00",
+      "summary": "As Azure continues to evolve to support modern workload patterns, we are refining how transactions are measured for Standard HDD Managed Disks. This update helps align billing more closely with actual I/O behavior while maintaining predictable cost controls for customers. In this post, we’ll walk...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "austin-ma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Introducing the Microsoft Sentinel Training Lab. Hands-On Security Operations in Minutes",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/introducing-the-microsoft-sentinel-training-lab-hands-on/ba-p/4513274",
+      "published": "2026-04-22T14:45:14+00:00",
+      "summary": "A huge thanks to Paul Kew - this lab wouldn't have been possible without his contributions. Security operations is one of those things that’s hard to learn from slides alone. You need to feel what it’s like to triage a multi-stage incident, tune a noisy detection rule, or trace an attacker pivoting...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "AndreasKapetaniou",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Public Preview: Actual Result for Manual Tests in Azure Test Plans",
+      "link": "https://devblogs.microsoft.com/devops/actual-result-azure-test-plans/",
+      "published": "2026-04-22T14:35:35+00:00",
+      "summary": "We’re excited to announce the public preview of the highly anticipated Actual Result (AR) feature for manual testing in Azure Test Plans! This feature has been one of the top requests of the community, and we’re thrilled to make it available for you. Why use the Actual Result feature? Manual...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Panagiotis Liaros",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "v1.15.0-rc3",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-rc3",
+      "published": "2026-04-22T13:59:48+00:00",
+      "summary": "1.15.0-rc3 (April 22, 2026) NEW FEATURES: We now produce builds for Windows ARM64 (#32719) You can set a deprecated attribute on variable and output blocks to indicate that they are deprecated. This will produce warnings when passing in a value for a deprecated variable or when referencing a...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Extracting BOMs from Electrical Drawings with AI: Azure OpenAI GPT-5.4 + Azure Document Intelligence",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/extracting-boms-from-electrical-drawings-with-ai-azure-openai/ba-p/4506891",
+      "published": "2026-04-22T13:00:00+00:00",
+      "summary": "The Problem Electrical engineering drawings — especially single-line diagrams (SLDs) — are notoriously hard to parse programmatically. They combine dense symbols, small text, and complex geometric structures, all varying in style across documents and vendors. Figure 1. A typical electrical...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "jihyeseo",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "If You're Building AI on Azure, ECS 2026 is Where You Need to Be",
@@ -2852,17 +2940,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Model Upgrade and Migration Strategy for Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/model-upgrade-and-migration-strategy-for-microsoft-foundry/ba-p/4503176",
-      "published": "2026-04-02T19:12:15+00:00",
-      "summary": "Model upgrades in Microsoft Foundry are not a one‑time platform operation, they are an ongoing application lifecycle discipline. Microsoft documentation makes this explicit: models evolve continuously, older versions are eventually retired, and customers are expected to evaluate, migrate, and...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Dr_Ravi_Nagvekar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Explore union types in C# 15",
       "link": "https://devblogs.microsoft.com/dotnet/csharp-15-union-types/",
       "published": "2026-04-02T17:05:00+00:00",
@@ -2907,17 +2984,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "How Do We Know AI Isn’t Lying? The Art of Evaluating LLMs in RAG Systems",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/how-do-we-know-ai-isn-t-lying-the-art-of-evaluating-llms-in-rag/ba-p/4481245",
-      "published": "2026-04-02T16:00:00+00:00",
-      "summary": "🔍 1. Why Evaluating LLM Responses is Hard In classical programming, correctness is binary. InputExpectedResult2 + 24✔ Correct2 + 25✘ Wrong Software is deterministic — same input → same output. LLMs are probabilistic. They generate one of many valid word combinations, like forming sentences from...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "ditisaxena",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Copilot Notebooks: Enhancements to support creation, collaboration and learning",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-enhancements-to-support-creation-collaboration/ba-p/4505360",
       "published": "2026-04-02T15:09:02+00:00",
@@ -2926,17 +2992,6 @@
       "blogId": "microsoft365copilotblog",
       "author": "ezrapark",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Introducing MAI-Transcribe-1, MAI-Voice-1, and MAI-Image-2 in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-mai-transcribe-1-mai-voice-1-and-mai-image-2-in/ba-p/4507787",
-      "published": "2026-04-02T14:13:37+00:00",
-      "summary": "Another Step Towards a Complete AI Platform Since inception, our goal with Microsoft Foundry has been to deliver the most complete AI and app agent factory; giving developers access to the latest frontier models, tools, infrastructure, security, and reliability to confidently build and scale their...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -5096,17 +5151,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "What’s New in Microsoft 365 Copilot | February 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-microsoft-365-copilot-february-2026/ba-p/4496489",
-      "published": "2026-03-11T21:40:47+00:00",
-      "summary": "Welcome to the February 2026 edition of What's New in Microsoft 365 Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 admins up to date with Copilot features that help your users be more productive and efficient in the apps they use every day. Also new this...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "Seth_Patton",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[Launched] Generally Available: Terraform, Bicep, Ansible support for elastic clusters on Azure Database for PostgreSQL",
       "link": "https://azure.microsoft.com/updates?id=558145",
       "published": "2026-03-11T18:00:35+00:00",
@@ -5193,17 +5237,6 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "Understanding the Standard HDD I/O unit size update and what it means for your workloads",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/understanding-the-standard-hdd-i-o-unit-size-update-and-what-it/ba-p/4499128",
-      "published": "2026-03-10T18:00:00+00:00",
-      "summary": "As Azure continues to evolve to support modern workload patterns, we are refining how transactions are measured for Standard HDD managed disks. This update helps align billing more closely with actual I/O behavior while maintaining predictable cost controls for customers. In this post, we’ll walk...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "austin-ma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Aspire Conf is Coming! Join us Live on March 23",
@@ -5800,17 +5833,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Updates to Team Calendar extension",
-      "link": "https://devblogs.microsoft.com/devops/updates-to-team-calendar-extension/",
-      "published": "2026-02-27T18:30:30+00:00",
-      "summary": "We are excited to release a new update to the Team Calendar extension. This update includes a series of visual refinements across the extension, introducing a more consistent design language, smoother transitions when expanding and collapsing sections, improved contrast for better readability, an...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Dan Hellem",
-      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[Launched] Generally Available: Azure Red Hat OpenShift is now available in Malaysia West, New Zealand North, and Mexico Central",
       "link": "https://azure.microsoft.com/updates?id=557897",
       "published": "2026-02-27T17:30:41+00:00",
@@ -6119,17 +6141,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Disrupt AWS attacks automatically in Microsoft Sentinel",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/disrupt-aws-attacks-automatically-in-microsoft-sentinel/ba-p/4488276",
-      "published": "2026-02-24T17:00:00+00:00",
-      "summary": "Attacks move faster than security teams can react. They spread across identities, endpoints, and SaaS apps in minutes, overwhelming analysts with signals and leaving little time to act. By the time an incident is investigated, the attacker has often already moved on escalating impact and business...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "eyalh",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Improved Python (PyPi/uvx) support in Azure MCP Server",
       "link": "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-better-python-support/",
       "published": "2026-02-24T16:00:21+00:00",
@@ -6237,17 +6248,6 @@
       "blogId": "foundryblog",
       "author": "Shawn Henry",
       "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "v1.15.0-alpha20260218",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-alpha20260218",
-      "published": "2026-02-19T10:25:09+00:00",
-      "summary": "1.15.0-alpha20260218 (February 18, 2026) NEW FEATURES: We now produce builds for Windows ARM64 (#32719) You can set a deprecated attribute on variable and output blocks to indicate that they are deprecated. This will produce warnings when passing in a value for a deprecated variable or when...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -12609,5 +12609,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure coverage centered on developer tooling, AI community momentum, and Linux operations: Microsoft highlighted **Visual Studio Code 1.117**, promoted **ECS 2026** as a key event for teams building **AI on Azure**, and published hands-on guidance for troubleshooting **NFS “permission denied” issues in Azure App Service on Linux**. Another notable post showed how to use the **SUSE Multi-Linux Manager MCP Server** with **GitHub Copilot**, underscoring Azure’s ongoing focus on AI-assisted workflows and enterprise Linux management."
+  "summary": "Today’s Azure news centered on operationalizing AI and Copilot safely at scale: Microsoft highlighted agent design patterns in Azure AI Foundry, added the Kimi K2.6 model to Microsoft Foundry, and showed a concrete multimodal workflow using Azure OpenAI GPT-5.4 with Azure Document Intelligence to extract BOM data from electrical drawings. On the enterprise side, Microsoft emphasized readiness and resiliency for Microsoft 365 Copilot with SharePoint plus Microsoft 365 Backup/Archive, while also promoting ECS 2026 as a key event for Azure AI builders.\n\nThe rest of the announcements focused on platform and tooling updates: Azure Storage detailed the Standard HDD I/O unit size change and its workload implications, Microsoft Sentinel launched a hands-on Training Lab for security operations, and Azure DevOps introduced public preview support for “Actual Result” in Manual Tests within Azure Test Plans. Additional developer and ops updates included Visual Studio Code 1.117, Terraform v1.15.0-rc3, guidance on NFS permission-denied issues in Azure App Service on Linux, and a SUSE Multi-Linux Manager MCP Server workflow with GitHub Copilot."
 }
