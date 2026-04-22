@@ -1,7 +1,73 @@
 {
-  "lastUpdated": "2026-04-22T18:55:32.138492+00:00",
+  "lastUpdated": "2026-04-22T21:41:15.342499+00:00",
   "totalArticles": 1146,
   "articles": [
+    {
+      "title": "Microsoft Sentinel MCP Server with external AI models (Claude) for natural language investigations",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/microsoft-sentinel-mcp-server-with-external-ai-models-claude-for/ba-p/4507013",
+      "published": "2026-04-22T21:35:29+00:00",
+      "summary": "Security teams are increasingly exploring how AI assistants support them in investigating incidents, asking questions, and exploring their data. At the same time, controlling how data is accessed remains critical. Today, we’re sharing how Sentinel can support a third-party AI assistant like Claude...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "mcasgrain",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "7 tips to optimize Azure Cosmos DB costs for AI and agentic workloads",
+      "link": "https://devblogs.microsoft.com/cosmosdb/7-tips-to-optimize-azure-cosmos-db-costs-for-ai-and-agentic-workloads/",
+      "published": "2026-04-22T20:54:08+00:00",
+      "summary": "AI apps and agentic workloads expose inefficiencies in your data layer faster than any previous generation of apps. You’re storing embeddings, serving low-latency retrieval, handling bursty traffic from chat and orchestration, and often operating across regions. Done right, Azure Cosmos DB can...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Michal Toiba",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Azure Arc adds SQL Server on Azure Virtual Machines as a migration target",
+      "link": "https://azure.microsoft.com/updates?id=560805",
+      "published": "2026-04-22T20:45:32+00:00",
+      "summary": "Azure Arc migration now supports SQL Server on Azure Virtual Machines as a migration target. You can migrate Arc-enabled SQL Server instances not only to Azure SQL Managed Instance but also to SQL Server running on Azure infrastructure—using the same unif",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing savings plan for databases: flexible savings for modern, evolving workloads",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/announcing-savings-plan-for-databases-flexible-savings-for/ba-p/4503107",
+      "published": "2026-04-22T20:09:03+00:00",
+      "summary": "As organizations modernize their data platforms, database environments are constantly changing. Teams migrate between services, scale across regions, and evolve architectures to support new applications and AI driven workloads. But optimizing costs in these environments can be challenging,...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "kyleikeda",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Private subnets by default in Azure Virtual Networks: What changed and how to use NAT Gateway",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/private-subnets-by-default-in-azure-virtual-networks-what/ba-p/4513778",
+      "published": "2026-04-22T19:09:37+00:00",
+      "summary": "Azure is evolving to better support secure‑by‑default cloud architectures. Starting with API version 2025‑07‑01 (released after March 31, 2026), newly created virtual networks now default to using private subnets. This change removes the long‑standing platform behavior of automatically enabling...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "aimeelittleton",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "SELinux Volume Label Changes goes GA (and likely implications in v1.37)",
+      "link": "https://kubernetes.io/blog/2026/04/22/breaking-changes-in-selinux-volume-labeling/",
+      "published": "2026-04-22T18:35:00+00:00",
+      "summary": "If you run Kubernetes on Linux with SELinux in enforcing mode, plan ahead: a future release (anticipated to be v1.37) is expected to turn the SELinuxMount feature gate on by default. This makes volume setup faster for most workloads, but it can break applications that still depend on the older...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
+    },
     {
       "title": "AI-Powered Downtime Investigation for Azure VMs: Automating Root Cause Analysis",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ai-powered-downtime-investigation-for-azure-vms-automating-root/ba-p/4513473",
@@ -133,17 +199,6 @@
       "author": "Takuto Higuchi, jeffhollan, Lakshmi Ramakrishnan",
       "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "A third-party connector integrating Claude with Microsoft Sentinel is now available",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/a-third-party-connector-integrating-claude-with-microsoft/ba-p/4507013",
-      "published": "2026-04-22T17:20:54+00:00",
-      "summary": "Security teams are increasingly exploring how AI assistants support them in investigating incidents, asking questions, and exploring their data. At the same time, controlling how data is accessed remains critical. Today, we’re sharing how Sentinel can support a third-party AI assistant like Claude...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "mcasgrain",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "AI-powered defense for an AI-accelerated threat landscape",
@@ -4865,17 +4920,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Announcing savings plan for databases: flexible savings for modern, evolving workloads",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/announcing-savings-plan-for-databases-flexible-savings-for/ba-p/4503107",
-      "published": "2026-03-18T13:05:06+00:00",
-      "summary": "As organizations modernize their data platforms, database environments are constantly changing. Teams migrate between services, scale across regions, and evolve architectures to support new applications and AI driven workloads. But optimizing costs in these environments can be challenging,...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "kyleikeda",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing Gateway API support for App Routing (preview)",
       "link": "https://blog.aks.azure.com/2026/03/18/app-routing-gateway-api",
       "published": "2026-03-18T00:00:00+00:00",
@@ -7007,17 +7051,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "How to Enable Microsoft Entra ID for Azure Cosmos DB (NoSQL)",
-      "link": "https://devblogs.microsoft.com/cosmosdb/how-to-enable-microsoft-entra-id-for-azure-cosmos-db-nosql/",
-      "published": "2026-02-05T15:38:42+00:00",
-      "summary": "Strengthen Identity Security and Eliminate Account Keys Identity is becoming the new security perimeter. As organizations modernize their cloud applications, long‑lived secrets and shared keys introduce unnecessary risk. Azure Cosmos DB now fully supports Microsoft Entra ID for both control plane...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Sudhanshu Khera",
-      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
     },
     {
@@ -9254,17 +9287,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Simplify container network metrics filtering in Azure Container Networking Services for AKS",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/simplify-container-network-metrics-filtering-in-azure-container/ba-p/4468221",
-      "published": "2025-11-24T18:49:33+00:00",
-      "summary": "We’re excited to introduce container network metrics filtering in Azure Container Networking Services for Azure Kubernetes Service (AKS) is now in public preview! This capability transforms how you manage network observability in Kubernetes clusters by giving you control over what metrics matter...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "KhushbuP",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing public preview of query-based metric alerts in Azure Monitor",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/announcing-public-preview-of-query-based-metric-alerts-in-azure/ba-p/4469723",
       "published": "2025-11-23T18:55:48+00:00",
@@ -10926,17 +10948,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Kubernetes v1.34: Mutable CSI Node Allocatable Graduates to Beta",
-      "link": "https://kubernetes.io/blog/2025/09/11/kubernetes-v1-34-mutable-csi-node-allocatable-count/",
-      "published": "2025-09-11T18:30:00+00:00",
-      "summary": "The functionality for CSI drivers to update information about attachable volume count on the nodes, first introduced as Alpha in Kubernetes v1.33, has graduated to Beta in the Kubernetes v1.34 release! This marks a significant milestone in enhancing the accuracy of stateful pod scheduling by...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "August 2025 (version 1.104)",
       "link": "https://code.visualstudio.com/updates/v1_104",
       "published": "2025-09-11T17:00:00+00:00",
@@ -12158,17 +12169,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "[Launched] Generally Available: Model Context Protocol support in Azure API Management and Azure API Center",
-      "link": "https://azure.microsoft.com/updates?id=491990",
-      "published": "2025-05-23T15:00:30+00:00",
-      "summary": "Announcing the public preview of Model Context Protocol (MCP) support in Azure API Management and Azure API Center. With this new capability, enterprises can transform their existing APIs into dynamic, agent-ready tools, while improving security and simpl",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "How Microsoft partners are helping telecoms transform with industry-focused AI solutions",
       "link": "https://techcommunity.microsoft.com/t5/telecommunications-industry-blog/how-microsoft-partners-are-helping-telecoms-transform-with/ba-p/4415398",
       "published": "2025-05-22T15:27:17+00:00",
@@ -12609,5 +12609,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Microsoft’s Azure news is dominated by AI platform and agent-building updates: Microsoft Foundry introduced Toolboxes, secure hosted agents in Foundry Agent Service, guidance for moving AI agents from local development to production, and support for the Kimi K2.6 model, while Azure also highlighted “three tiers” of agentic AI design. On the infrastructure and data side, Azure announced GA for Azure Database for PostgreSQL flexible server in Denmark East, Premium SSD v2 support, enhanced PostgreSQL mirroring in Microsoft Fabric, dynamic data masking for Azure Cosmos DB, plus a preview metric for logical replication slot sync and networking migration support for Private Endpoint–capable configurations.\n\nSecurity, operations, and developer productivity were also major themes: Azure Compute unveiled AI-powered root-cause analysis for VM downtime, Microsoft Security and Sentinel emphasized AI-era defense including a new Claude connector for Sentinel, and Azure Networking launched Azure VNet Data Gateway for secure Power BI and Power Platform access. Developer tooling updates included Git policy management improvements in Azure DevOps, VS Code 1.117, bring-your-own language model keys in VS Code, and Azure VMware Solution citing Forrester TEI results to strengthen its cloud migration ROI story."
+  "summary": "Azure’s biggest themes today were **AI operations/security**, **data platform cost and performance**, and **networking/migration modernization**. Microsoft highlighted new AI-assisted workflows in **Microsoft Sentinel** via an **MCP Server using external models like Claude** for natural-language investigations, **AI-powered root cause analysis for Azure VMs**, and broader **AI security** guidance, while **Microsoft Foundry** introduced **Toolboxes**, a full **AI agent developer journey**, and new **hosted agents in Foundry Agent Service** for secure, scalable agent compute.\n\nOn the platform side, Azure emphasized **database efficiency and modernization**: guidance to reduce **Azure Cosmos DB** costs for AI/agentic apps, a new **savings plan for databases**, GA for **dynamic data masking in Azure Cosmos DB**, **Premium SSD v2** and **Enhanced Mirroring to Microsoft Fabric** for **Azure Database for PostgreSQL**, plus **PostgreSQL Flexible Server** expansion to **Denmark East** and a preview metric for **logical replication slot sync status**. Infrastructure updates focused on safer defaults and migration paths, including **private subnets by default in Azure VNets** with **NAT Gateway**, preview support for **SQL Server on Azure VMs as an Azure Arc migration target**, migration to **Private Endpoint–capable networking**, and continued hybrid/cloud migration momentum with **Azure VMware Solution** ROI messaging."
 }
