@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T09:46:44.283616+00:00",
+  "lastUpdated": "2026-04-23T09:52:16.648933+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -627,6 +627,17 @@
       "detected": "2026-04-21T09:46:44.283612+00:00",
       "published": "2026-04-20T14:15:30+00:00",
       "blog": "GitHub Changelog"
+    },
+    {
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-rc3",
+      "title": "v1.15.0-rc3",
+      "severity": "info",
+      "deadline": null,
+      "impact": "Deprecated variable/output attrs now warn users when referenced or set.",
+      "action": "Review deprecated variables/outputs and plan migration to supported ones.",
+      "detected": "2026-04-23T09:52:16.648920+00:00",
+      "published": "2026-04-22T13:59:48+00:00",
+      "blog": "Terraform"
     }
   ]
 }
