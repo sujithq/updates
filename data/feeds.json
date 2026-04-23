@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-04-23T10:12:56.781045+00:00",
+  "lastUpdated": "2026-04-23T12:54:06.759440+00:00",
   "totalArticles": 1146,
   "articles": [
+    {
+      "title": "Azure Monitor Pipeline: A Modern Approach to Telemetry Ingestion at Scale",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-monitor-pipeline-a-modern-approach-to-telemetry-ingestion/ba-p/4513980",
+      "published": "2026-04-23T10:23:43+00:00",
+      "summary": "Large-scale observability often fails not because of analytics, but because of ingestion. As environments grow—across regions, clouds, and on‑premises sites—traditional log forwarding architectures struggle with scale, reliability, cost, and security. Azure Monitor Pipeline, now generally...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "adityakumar60",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "How AI Agents Are Turning Threat Intelligence Into Validated Detections",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/how-ai-agents-are-turning-threat-intelligence-into-validated/ba-p/4513971",
@@ -3707,17 +3718,6 @@
       "blogId": "microsoft365copilotblog",
       "author": "Seth_Patton",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Subscription Vending in Azure: An Implementation Overview",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/subscription-vending-in-azure-an-implementation-overview/ba-p/4506350",
-      "published": "2026-03-31T07:48:15+00:00",
-      "summary": "Subscription vending is a process that enables the creation of multiple Azure subscriptions using code, based on organizational segregation or workload-specific requirements. Rather than relying on resource groups as the primary boundary, this approach treats subscriptions as the fundamental unit...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "abhilashasr",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12609,5 +12609,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure updates centered on practical AI and security operations: Microsoft highlighted how AI agents can convert threat intelligence into validated detections, launched the Microsoft Sentinel Training Lab for fast hands-on SOC training, and promoted AI Apps & Agents Dev Days to help developers move from experimentation to building production AI apps and agents. On the platform side, Azure addressed an Entra ID login issue through Azure Bastion after VM recreation, while GitHub announced new GitHub Copilot for Jira enhancements, underscoring continued investment in developer productivity and workflow integration."
+  "summary": "Today’s Azure posts centered on scaling observability, operationalizing security AI, and speeding up developer workflows. Microsoft highlighted **Azure Monitor Pipeline** as a modern telemetry-ingestion architecture for large-scale monitoring, showed how **AI agents** can turn threat intelligence into **validated detections** in security operations, and introduced the **Microsoft Sentinel Training Lab** for rapid hands-on SOC training.\n\nOn the developer and productivity side, Microsoft promoted **AI Apps & Agents Dev Days** to help teams move from experimentation to building production AI apps and agents, published guidance on an **Entra ID login failure via Azure Bastion after VM recreation**, and announced new **GitHub Copilot for Jira** enhancements to improve issue and workflow integration."
 }
