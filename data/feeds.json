@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-04-23T01:18:56.417119+00:00",
+  "lastUpdated": "2026-04-23T05:21:41.814277+00:00",
   "totalArticles": 1146,
   "articles": [
+    {
+      "title": "Entra ID Login via Azure Bastion Fails After VM Recreation",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/entra-id-login-via-azure-bastion-fails-after-vm-recreation/ba-p/4509337",
+      "published": "2026-04-23T04:08:55+00:00",
+      "summary": "However, you may encounter a confusing scenario where: An Entra ID user attempts to sign in to a Windows VM through Azure Bastion The connection appears to succeed in the backend logs The session is disconnected within a second Bastion returns a generic sign-in error to the user At first glance,...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Balajiranganathan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "GitHub Copilot for Jira: Our latest enhancements",
       "link": "https://github.blog/changelog/2026-04-22-github-copilot-for-jira-our-latest-enhancements",
@@ -3817,17 +3828,6 @@
       "blogId": "microsoft365copilotblog",
       "author": "gauravanand",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "CI/CD as a Platform: Shipping Microservices and AI Agents with Reusable GitHub Actions Workflows",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/ci-cd-as-a-platform-shipping-microservices-and-ai-agents-with/ba-p/4504550",
-      "published": "2026-03-30T10:48:39+00:00",
-      "summary": "The First Shift — Treating CI/CD as a Platform The first insight is straightforward but underused: Your CI/CD logic is infrastructure. It deserves the same design discipline as your application code. That means centralizing it. Versioning it. Exposing it as reusable, callable workflows — not...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "nasreensarah",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12609,5 +12609,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related update centers on **GitHub Copilot for Jira**, with the latest enhancements improving how developers work across **GitHub, Copilot, and Atlassian Jira**. The key theme is tighter developer workflow integration: the update focuses on making it easier to connect **AI-assisted coding and context from GitHub Copilot** with **issue tracking in Jira**, helping teams move more smoothly between planning, implementation, and project management."
+  "summary": "Today’s Azure-related posts focus on identity/access reliability and developer productivity tooling. One Azure Infrastructure post covers a specific issue where **Microsoft Entra ID login through Azure Bastion can fail after a VM is recreated**, signaling an important operational consideration for admins using **Azure Bastion** and **Entra ID** for secure VM access.\n\nThe other announcement highlights **GitHub Copilot for Jira** enhancements, pointing to tighter integration between **GitHub Copilot** and **Atlassian Jira** to improve how developers connect AI-assisted coding workflows with issue tracking and project management."
 }
