@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-04-24T05:27:03.720244+00:00",
+  "lastUpdated": "2026-04-24T07:24:36.462465+00:00",
   "totalArticles": 1147,
   "articles": [
+    {
+      "title": "When RAG Isn’t Enough: Moving from Retrieval to Relationship-Aware Systems in Enterprise AI:",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/when-rag-isn-t-enough-moving-from-retrieval-to-relationship/ba-p/4514185",
+      "published": "2026-04-24T07:04:57+00:00",
+      "summary": "The Problem In an enterprise AI scenario, the goal was to map structured feature data to relevant sections within large technical documents. At a glance, this appears to be a straightforward semantic matching problem. Initial results using semantic search were promising. However, as the system was...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "ankitasarkar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "When Anthropic’s Managed Agents Meet Microsoft Hosted Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/when-anthropic-s-managed-agents-meet-microsoft-hosted-agents/ba-p/4514337",
+      "published": "2026-04-24T07:00:00+00:00",
+      "summary": "Let’s start from a real engineering pain point. In their engineering blog Managed Agents, Anthropic describes a sobering observation: while building the agent scaffolding (the “harness”) for Claude Sonnet 4.5, they noticed the model suffered from “context anxiety,” so they added context-reset logic...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Stop Experimenting, Start Building: AI Apps & Agents Dev Days Has You Covered",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/stop-experimenting-start-building-ai-apps-agents-dev-days-has/ba-p/4513651",
+      "published": "2026-04-24T05:57:58+00:00",
+      "summary": "The AI landscape has shifted. The question is no longer “Can we build AI applications?” it’s “Can we build AI applications that actually work in production?” Demos are easy. Reliable, scalable, resilient AI systems that handle real-world complexity? That’s where most teams struggle. If you’re an AI...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Join our free livestream series on hosting agents in Microsoft Foundry",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/join-our-free-livestream-series-on-hosting-agents-in-microsoft/ba-p/4508479",
@@ -264,17 +297,6 @@
       "blogId": "microsoftsentinelblog",
       "author": "AndreasKapetaniou",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Stop Experimenting, Start Building: AI Apps & Agents Dev Days Has You Covered",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/stop-experimenting-start-building-ai-apps-agents-dev-days-has/ba-p/4513651",
-      "published": "2026-04-23T07:00:00+00:00",
-      "summary": "The AI landscape has shifted. The question is no longer “Can we build AI applications?” it’s “Can we build AI applications that actually work in production?” Demos are easy. Reliable, scalable, resilient AI systems that handle real-world complexity? That’s where most teams struggle. If you’re an AI...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3278,17 +3300,6 @@
       "blogId": "azureinfrastructureblog",
       "author": "kumaramit1",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "oBeaver — A Beaver That Runs LLMs on Your Machine 🦫",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/obeaver-a-beaver-that-runs-llms-on-your-machine/ba-p/4507884",
-      "published": "2026-04-03T07:00:00+00:00",
-      "summary": "Hi there! I'm the creator of oBeaver. This project started from a pretty simple desire: I wanted to run large language models on my own computer. No data sent to the cloud. No API keys. No per-call charges. I'm guessing you've had the same thought. There are already great tools out there — Ollama...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -7634,17 +7645,6 @@
       "blogId": "integrationsonazureblog",
       "author": "WSilveira",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "From Ingress to Gateway API: A pragmatic path forward (and why it matters now)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-ingress-to-gateway-api-a-pragmatic-path-forward-and-why-it/ba-p/4489779",
-      "published": "2026-01-28T23:19:40+00:00",
-      "summary": "If you operate Kubernetes at scale, you've felt it: \"Ingress YAML sprawl\", annotation archaeology, and the creeping sense that your edge configuration is one upstream change away from becoming fragile. Over the last couple of years, the Kubernetes networking community has been steadily moving...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Jack Stromberg",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12620,5 +12620,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focus on two practical themes: building AI agents and keeping serverless apps reliable. One article promotes a free livestream series on hosting agents in Microsoft Foundry, aimed at developers working with agent-based AI scenarios, while the other gives troubleshooting guidance for Azure Functions host startup issues, helping teams diagnose and fix application startup failures in Azure’s serverless platform."
+  "summary": "Today’s Azure posts centered on enterprise AI moving beyond basic RAG toward more agentic, relationship-aware systems, with a strong emphasis on hosted and managed agents across Microsoft’s ecosystem. Azure Architecture highlighted graph- and relationship-aware enterprise AI patterns, while Azure Dev Community focused on Anthropic managed agents interoperating with Microsoft-hosted agents, plus practical enablement through AI Apps & Agents Dev Days and a free livestream series on hosting agents in Microsoft Foundry.\n\nOutside the AI push, Apps on Azure published a hands-on troubleshooting guide for Azure Functions host startup failures, signaling continued attention to developer operations and application reliability on Azure serverless platforms."
 }
