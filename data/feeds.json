@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T18:35:03.671486+00:00",
+  "lastUpdated": "2026-04-24T21:37:50.022479+00:00",
   "totalArticles": 1148,
   "articles": [
     {
@@ -11,6 +11,50 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure MCP Server now available as an MCP Bundle (.mcpb)",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-mcpb-support/",
+      "published": "2026-04-24T20:32:49+00:00",
+      "summary": "Azure MCP Server is now available as an MCP Bundle (.mcpb), enabling one-click installation into Claude Desktop and other MCP-compatible clients. The post Azure MCP Server now available as an MCP Bundle (.mcpb) appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Victor Colin Amador",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Changes to notification retention and archived repository watches",
+      "link": "https://github.blog/changelog/2026-04-24-changes-to-notification-retention-and-archived-repository-watches",
+      "published": "2026-04-24T20:16:31+00:00",
+      "summary": "Two updates will change the way GitHub notifications and repository watches are retained. These updates are rolling out soon, and are expected to be completed over the next few months.… The post Changes to notification retention and archived repository watches appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "AI-Powered Downtime Investigation for Azure VMs: Automating Root Cause Analysis",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ai-powered-downtime-investigation-for-azure-vms-automating-root/ba-p/4513473",
+      "published": "2026-04-24T18:35:28+00:00",
+      "summary": "Co-authors: Jie Su, Abhinav Dua, Mukthar Ahmed, Dhruv Joshi, Dibyendu Mondal In a previous post, we shared how Azure Automated VM Recovery works to minimize virtual machine downtime through a three-stage approach: Detection, Diagnosis, and Mitigation. This post goes one layer deeper into how our...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "Jon_Andoni_Baranda",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[In preview] Public Preview: Azure Backup for Elastic SAN",
+      "link": "https://azure.microsoft.com/updates?id=560904",
+      "published": "2026-04-24T18:30:50+00:00",
+      "summary": "Azure Backup now supports Elastic SAN, offering a fully managed solution for backing up and restoring Elastic SAN volumes. This integration helps protect data against accidental deletions, ransomware attacks, and application updates by exporting Elastic S",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -55,6 +99,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "GPT-5.5 is generally available for GitHub Copilot",
+      "link": "https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
+      "published": "2026-04-24T17:19:34+00:00",
+      "summary": "GPT-5.5, OpenAI’s latest GPT model, is now rolling out on GitHub Copilot. In our early testing, GPT-5.5 delivers its strongest performance on complex, multi-step agentic coding task and resolves real-world… The post GPT-5.5 is generally available for GitHub Copilot appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -333,17 +388,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "LangChain.js for Beginners: A Free Course to Build Agentic AI Apps with JavaScript",
-      "link": "https://devblogs.microsoft.com/blog/langchainjs-for-beginners",
-      "published": "2026-04-23T17:00:14+00:00",
-      "summary": "Want to build AI agents with JavaScript that go beyond basic chat completions? Agents that reason, call tools, and pull from knowledge bases on their own? We put together a free, open source course to help you get there. LangChain.js for Beginners is 8 chapters and 70+ runnable TypeScript examples....",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Yohan Lasorsa",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[Launched] Generally Available: Azure Monitor for Azure Arc-enabled Kubernetes with OpenShift and Azure Red Hat OpenShift",
       "link": "https://azure.microsoft.com/updates?id=560358",
       "published": "2026-04-23T16:45:55+00:00",
@@ -443,17 +487,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Pausing new self-serve signups for GitHub Copilot Business",
-      "link": "https://github.blog/changelog/2026-04-22-pausing-new-self-serve-signups-for-github-copilot-business",
-      "published": "2026-04-23T06:45:26+00:00",
-      "summary": "As part of our ongoing efforts to ensure a reliable and sustainable Copilot experience for all users, we are pausing new self-serve signups for GitHub Copilot Business for organizations on… The post Pausing new self-serve signups for GitHub Copilot Business appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Entra ID Login via Azure Bastion Fails After VM Recreation",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/entra-id-login-via-azure-bastion-fails-after-vm-recreation/ba-p/4509337",
       "published": "2026-04-23T04:08:55+00:00",
@@ -463,17 +496,6 @@
       "author": "Balajiranganathan",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "GitHub Copilot for Jira: Our latest enhancements",
-      "link": "https://github.blog/changelog/2026-04-22-github-copilot-for-jira-our-latest-enhancements",
-      "published": "2026-04-23T00:10:10+00:00",
-      "summary": "Since our last update, we’ve continued to invest in making the GitHub Copilot cloud agent for Jira integration more powerful and customizable. These improvements give teams greater control over how… The post GitHub Copilot for Jira: Our latest enhancements appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Write azd hooks in Python, JavaScript, TypeScript, or .NET",
@@ -551,17 +573,6 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "AI-Powered Downtime Investigation for Azure VMs: Automating Root Cause Analysis",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ai-powered-downtime-investigation-for-azure-vms-automating-root/ba-p/4513473",
-      "published": "2026-04-22T18:34:50+00:00",
-      "summary": "Co-authors: Jie Su, Abhinav Dua, Mukthar Ahmed, Dhruv Joshi In a previous post, we shared how Azure Automated VM Recovery works to minimize virtual machine downtime through a three-stage approach: Detection, Diagnosis, and Mitigation. This post goes one layer deeper into how our team is using AI to...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "Jon_Andoni_Baranda",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Optimizing Git policy management at scale",
@@ -8495,17 +8506,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Azure Developer CLI (azd) Dec 2025 – Extensions Enhancements, Foundry Rebranding, and Azure Pipelines Improvements",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-december-2025/",
-      "published": "2025-12-19T19:57:26+00:00",
-      "summary": "This post announces the December release of the Azure Developer CLI (`azd`). The post Azure Developer CLI (azd) Dec 2025 – Extensions Enhancements, Foundry Rebranding, and Azure Pipelines Improvements appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Kristen Womack",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Kubernetes 1.35: In-Place Pod Resize Graduates to Stable",
       "link": "https://kubernetes.io/blog/2025/12/19/kubernetes-v1-35-in-place-pod-resize-ga/",
       "published": "2025-12-19T18:30:00+00:00",
@@ -8869,6 +8869,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Making Windows Terminal awesome with GitHub Copilot CLI",
+      "link": "https://devblogs.microsoft.com/blog/making-windows-terminal-awesome-with-github-copilot-cli",
+      "published": "2025-12-11T17:00:28+00:00",
+      "summary": "As someone who lives and breathes in the command line, I love making my terminal feel like home. Windows Terminal is full of personalization options that really allow for a custom experience. Additionally, I can stay within my terminal for my development with GitHub Copilot with the GitHub Copilot...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Kayla Cinnamon",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Breaking down security silos: Microsoft Defender for Cloud Expands into the Defender Portal",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/breaking-down-security-silos-microsoft-defender-for-cloud/ba-p/4474487",
       "published": "2025-12-11T13:46:27+00:00",
@@ -9060,17 +9071,6 @@
       "link": "https://azure.microsoft.com/updates?id=531889",
       "published": "2025-12-04T17:00:18+00:00",
       "summary": "The Azure MCP (Model Context Protocol) Server provides a streamlined approach for managing Azure resources—including Azure confidential ledger—through natural language prompts. This feature allows users to interact with confidential ledger without the nee",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Serverless workspaces in Azure Databricks",
-      "link": "https://azure.microsoft.com/updates?id=536721",
-      "published": "2025-12-04T16:15:01+00:00",
-      "summary": "Serverless workspaces in Azure Databricks are now available in Public Preview, offering a fully managed workspace type that comes preconfigured with serverless compute and default storage to deliver an enterprise-ready SaaS experience with minimal infrast",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -12631,5 +12631,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Azure’s main themes today were **AI agent development/operations, enterprise AI security, and core platform modernization**. On the AI side, Microsoft put **Hosted Agents in Foundry Agent Service** into **public preview**, made the **Foundry Toolkit for Visual Studio Code** generally available, published guidance for deploying agentic services to **Microsoft 365 Copilot** with delegated **OBO access**, and shared architecture pieces on **Zero Trust networking**, **RAG alternatives using relationship-aware systems**, and medallion-style data design; GitHub also previewed **inline agent mode for JetBrains IDEs**.\n\nOn the platform side, Azure announced **GA for WireGuard in-transit encryption in AKS**, **cascading read replicas for Azure Database for PostgreSQL**, and **CRC Protection**, while also warning that **.NET 8 support ends Nov. 10, 2026**, urging upgrades to **.NET 10 LTS**. Additional posts focused on operational guidance, including the **Axios npm supply-chain compromise** for **Azure Pipelines** customers and troubleshooting **Azure Functions host startup** issues."
+  "summary": "Today’s Azure news was dominated by AI agent tooling, security, and platform reliability: Microsoft highlighted the new Azure MCP Server as an `.mcpb` bundle, previewed Hosted Agents in Foundry Agent Service, launched the Foundry Toolkit for Visual Studio Code, and published guidance on deploying agentic services to Microsoft 365 Copilot with delegated OBO access, alongside architecture pieces on relationship-aware enterprise AI and Zero Trust networking. On the infrastructure side, key announcements included public preview of Azure Backup for Elastic SAN, GA of WireGuard in-transit encryption for AKS, GA of cascading read replicas for Azure Database for PostgreSQL, CRC Protection, and an AI-powered root cause analysis capability for Azure VM downtime.\n\nGitHub and developer ecosystem updates also stood out: GPT-5.5 is now generally available in GitHub Copilot, JetBrains users get preview access to inline agent mode, and GitHub is changing notification retention and archived repository watch behavior. Microsoft also issued practical lifecycle and supply-chain guidance, warning that .NET 8 support ends November 10, 2026 with a push to upgrade to .NET 10 LTS, and advising Azure Pipelines customers on the Axios npm supply chain compromise."
 }
