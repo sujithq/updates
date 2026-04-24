@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-04-24T01:18:22.576205+00:00",
+  "lastUpdated": "2026-04-24T05:27:03.720244+00:00",
   "totalArticles": 1147,
   "articles": [
+    {
+      "title": "Join our free livestream series on hosting agents in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/join-our-free-livestream-series-on-hosting-agents-in-microsoft/ba-p/4508479",
+      "published": "2026-04-24T05:00:00+00:00",
+      "summary": "Join us for a new 3‑part livestream series where we deploy AI agents on Microsoft Foundry using Microsoft Agent Framework and LangChain/LangGraph, then level them up with tools, observability, and evals. You'll learn how to: Deploy Python agents to Foundry Hosted agents using the Azure Developer...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Pamela_Fox",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "How to Troubleshoot Azure Functions Host Startup Issue",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-to-troubleshoot-azure-functions-host-startup-issue/ba-p/4512966",
+      "published": "2026-04-24T03:50:54+00:00",
+      "summary": "Table of Contents Overview Understanding How the Host Starts Up Host Startup Sequence Host States Key Settings That Affect Startup Startup Failure Categories Common Causes and Solutions 1. Missing or Invalid FUNCTIONS_EXTENSION_VERSION 2. Missing or Mismatched FUNCTIONS_WORKER_RUNTIME 3. Storage...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "vikasgupta5",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Host a Microsoft Build //local host Event in Your City",
       "link": "https://techcommunity.microsoft.com/t5/azure-events/host-a-microsoft-build-local-host-event-in-your-city/ba-p/4514274",
@@ -674,6 +696,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Securing Argo CD with Microsoft Entra ID: A Step-by-Step Guide",
+      "link": "https://blog.aks.azure.com/2026/04/22/argocd-extension-with-microsoft-entra",
+      "published": "2026-04-22T00:00:00+00:00",
+      "summary": "Learn how to secure the Argo CD extension for AKS with Microsoft Entra ID using Terraform, workload identity, OIDC, RBAC, and policy-based access control.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft",
+      "feedUrl": "https://blog.aks.azure.com/rss.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "Kubernetes v1.36: ハル (Haru)",
       "link": "https://kubernetes.io/blog/2026/04/22/kubernetes-v1-36-release/",
       "published": "2026-04-22T00:00:00+00:00",
@@ -913,17 +946,6 @@
       "blogId": "azurepaasblog",
       "author": "jainsourabh",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "How to Troubleshoot Azure Functions Host Startup Issue",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-to-troubleshoot-azure-functions-host-startup-issue/ba-p/4512966",
-      "published": "2026-04-21T07:04:42+00:00",
-      "summary": "Overview Azure Functions is a powerful serverless compute service that enables you to run event-driven code without managing infrastructure. When you deploy a Function App, the Azure Functions host is the runtime process responsible for discovering your functions, loading extensions and bindings,...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "vikasgupta5",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3388,17 +3410,6 @@
       "blogId": "azureinfrastructureblog",
       "author": "SundarBalajiA",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Build a Fully Offline AI App with Foundry Local and CAG",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/build-a-fully-offline-ai-app-with-foundry-local-and-cag/ba-p/4502124",
-      "published": "2026-04-02T07:00:00+00:00",
-      "summary": "A hands-on guide to building an on-device AI support agent using Context-Augmented Generation, JavaScript, and Foundry Local. You have probably heard the AI pitch: \"just call our API.\" But what happens when your application needs to work without an internet connection? Perhaps your users are field...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -7821,17 +7832,6 @@
       "blogId": "iseblog",
       "author": "Nasryn El-Hinnawi",
       "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Azure Container Registry Repository Permissions with Attribute-based Access Control (ABAC)",
-      "link": "https://blog.aks.azure.com/2026/01/23/acr-abac-repository-permissions",
-      "published": "2026-01-23T00:00:00+00:00",
-      "summary": "Azure Container Registry now supports Microsoft Entra ABAC for granular repository permissions in CI/CD pipelines and AKS clusters for least-privilege access.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft",
-      "feedUrl": "https://blog.aks.azure.com/rss.xml",
       "sourceType": "rss"
     },
     {
@@ -12619,5 +12619,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure posts focus on two practical themes: building AI agents and keeping serverless apps reliable. One article promotes a free livestream series on hosting agents in Microsoft Foundry, aimed at developers working with agent-based AI scenarios, while the other gives troubleshooting guidance for Azure Functions host startup issues, helping teams diagnose and fix application startup failures in Azure’s serverless platform."
 }
