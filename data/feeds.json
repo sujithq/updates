@@ -1,16 +1,27 @@
 {
-  "lastUpdated": "2026-04-23T21:36:22.641127+00:00",
+  "lastUpdated": "2026-04-24T01:18:22.576205+00:00",
   "totalArticles": 1147,
   "articles": [
     {
       "title": "Host a Microsoft Build //local host Event in Your City",
-      "link": "https://techcommunity.microsoft.com/t5/azure-events/host-a-microsoft-build-local-host-event-in-your-city/ba-p/4514262",
-      "published": "2026-04-23T21:35:17+00:00",
-      "summary": "TITLEABSTRACTSESSION TYPESESSION LEVELDeveloper Tools & FrameworksWhy your AI code doesn’t ship: Closing the gap to productionAI isn't just autocompleting your code anymore — it's writing plans, shipping PRs, fixing pipelines, and patching prod. In this demo-heavy session, we'll show AI agents...",
+      "link": "https://techcommunity.microsoft.com/t5/azure-events/host-a-microsoft-build-local-host-event-in-your-city/ba-p/4514274",
+      "published": "2026-04-23T22:18:07+00:00",
+      "summary": "Content at Microsoft Build will be grounded in technical depth, developer credibility, and hands-on learning and creation. There are a total of 16 sessions available to build your agenda, including 4 labs and 12 breakout sessions, listed below. Labs are approximately 75 minutes in length, while...",
       "blog": "Azure Events",
       "blogId": "azure-events",
       "author": "GalimahB",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-events&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Centralizing Enterprise API Access for Agent-Based Architectures",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/centralizing-enterprise-api-access-for-agent-based-architectures/ba-p/4511792",
+      "published": "2026-04-23T21:43:23+00:00",
+      "summary": "Problem Statement When building AI agents or automation solutions, calling enterprise APIs directly often means configuring individual HTTP actions within each agent for every API. While this works for simple scenarios, it quickly becomes repetitive and difficult to manage as complexity grows. The...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "sbaskaran",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -89,17 +100,6 @@
       "author": "Moaz_Mirza",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Immutable subject claims for GitHub Actions OIDC tokens",
-      "link": "https://github.blog/changelog/2026-04-23-immutable-subject-claims-for-github-actions-oidc-tokens",
-      "published": "2026-04-23T17:56:07+00:00",
-      "summary": "GitHub Actions OIDC tokens now include immutable identifiers in the default sub (subject) claim for new repositories. This change strengthens the security of OIDC-based trust between your GitHub Actions workflows… The post Immutable subject claims for GitHub Actions OIDC tokens appeared first on...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Copilot cloud agent fields added to usage metrics",
@@ -293,6 +293,17 @@
       "link": "https://github.blog/changelog/2026-04-22-github-copilot-for-jira-our-latest-enhancements",
       "published": "2026-04-23T00:10:10+00:00",
       "summary": "Since our last update, we’ve continued to invest in making the GitHub Copilot cloud agent for Jira integration more powerful and customizable. These improvements give teams greater control over how… The post GitHub Copilot for Jira: Our latest enhancements appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Upcoming change to Copilot usage metrics report download URLs",
+      "link": "https://github.blog/changelog/2026-04-22-upcoming-change-to-copilot-usage-metrics-report-download-urls",
+      "published": "2026-04-22T23:25:50+00:00",
+      "summary": "We are migrating the download URLs for Copilot usage metrics reports from Azure Front Door domains to a stable, GitHub-owned custom domain. This change will improve URL stability and make… The post Upcoming change to Copilot usage metrics report download URLs appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -7758,17 +7769,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Azure Arc for SQL Server: Executive Summary for Enterprise Clients",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/azure-arc-for-sql-server-executive-summary-for-enterprise/ba-p/4489549",
-      "published": "2026-01-27T05:34:34+00:00",
-      "summary": "Key Considerations Before Implementation Licensing and Software Assurance Benefits Understanding your licensing options is critical before deploying Azure Arc. If your SQL Server licenses include active Software Assurance, you unlock significant benefits through Azure Arc including Extended...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "NaufalPrawironegoro",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Building a Reliable Real Time Data Pipeline with Microsoft Fabric",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/building-a-reliable-real-time-data-pipeline-with-microsoft/ba-p/4489534",
       "published": "2026-01-27T01:34:03+00:00",
@@ -12619,6 +12619,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure news centered on AI agents, developer tooling, and enterprise cloud operations. Microsoft highlighted new agentic patterns across Azure AI Foundry and Apps on Azure—including a prior-authorization AI agent template, Microsoft 365 multi-agent workflows with Microsoft Agent Framework, GPT-5.4’s improved spatial reasoning for coordinates, and hybrid-cloud data governance—while developers got new tooling such as the Azure MCP Server distributed as an MCP Bundle (.mcpb), a free LangChain.js course, and updated .NET support for Ubuntu 26.04.\n\nOn the platform side, Microsoft announced generally available Capacity Autoscaling and Azure Monitor support for Azure Arc-enabled Kubernetes on OpenShift and Azure Red Hat OpenShift, alongside a new Azure Monitor Pipeline for telemetry ingestion at scale. GitHub’s changelog was also busy, with Copilot improvements for pull requests and web debugging, a public-preview global pull request dashboard, stronger security via immutable GitHub Actions OIDC subject claims, Dependabot-based Python dependency graphs, expanded agent-session management, and new organization controls like disabling commit comments."
+  ]
 }
