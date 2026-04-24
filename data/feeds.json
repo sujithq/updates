@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T12:52:41.002157+00:00",
+  "lastUpdated": "2026-04-24T15:57:09.697713+00:00",
   "totalArticles": 1148,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Deploying an Agentic Service to Microsoft 365 Copilot with Delegated OBO Access",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/deploying-an-agentic-service-to-microsoft-365-copilot-with/ba-p/4514197",
+      "published": "2026-04-24T13:00:00+00:00",
+      "summary": "You've built an agentic service. It works. It uses the framework you chose — maybe LangChain, maybe Semantic Kernel, maybe the Microsoft Agent Framework, maybe something entirely your own. It talks to your LLM, calls your downstream APIs, and manages multi-turn conversations the way you designed...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "JamesN",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Axios npm Supply Chain Compromise – Guidance for Azure Pipelines Customers",
@@ -111,17 +122,6 @@
       "author": "anammalu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Test Post",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-mcpb-support/",
-      "published": "2026-04-23T20:56:27+00:00",
-      "summary": "Azure MCP Server is now available as an MCP Bundle (.mcpb), enabling one-click installation into Claude Desktop and other MCP-compatible clients. The post Test Post appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "saikumar",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Copilot Chat improvements for pull requests",
@@ -3169,17 +3169,6 @@
       "author": "Swapnil Nagar",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Tracking Every Token: Granular Cost and Usage Metrics for Microsoft Foundry Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/tracking-every-token-granular-cost-and-usage-metrics-for/ba-p/4503143",
-      "published": "2026-04-06T13:00:00+00:00",
-      "summary": "As organizations scale their use of AI agents, one question keeps surfacing: how much is each agent actually costing us? Not at the subscription level. Not at the resource group level. Per agent, per model, per request. This post walks through a solution that answers that question by combining...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Christian_Coello",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Private DNS and Hub–Spoke Networking for Enterprise AI Workloads on Azure",
@@ -8429,6 +8418,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Azure Developer CLI (azd) Dec 2025 – Extensions Enhancements, Foundry Rebranding, and Azure Pipelines Improvements",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-december-2025/",
+      "published": "2025-12-19T19:57:26+00:00",
+      "summary": "This post announces the December release of the Azure Developer CLI (`azd`). The post Azure Developer CLI (azd) Dec 2025 – Extensions Enhancements, Foundry Rebranding, and Azure Pipelines Improvements appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Kristen Womack",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Kubernetes 1.35: In-Place Pod Resize Graduates to Stable",
       "link": "https://kubernetes.io/blog/2025/12/19/kubernetes-v1-35-in-place-pod-resize-ga/",
       "published": "2025-12-19T18:30:00+00:00",
@@ -12631,5 +12631,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focused on secure software delivery, enterprise AI architectures, and agent-based development. Key announcements included guidance for Azure Pipelines customers responding to the Axios npm supply chain compromise, a deeper architectural push beyond basic RAG toward relationship-aware enterprise AI systems, and multiple community updates around building and hosting AI agents with Anthropic managed agents, Microsoft-hosted agents, and Microsoft Foundry livestreams.\n\nOn the app platform side, Azure also published practical troubleshooting guidance for Azure Functions host startup failures, while the broader developer message was clear: move from experimentation to production-ready AI apps and agents using Azure’s evolving tooling, hosted runtimes, and architecture patterns."
+  "summary": "Today’s Azure posts centered on enterprise AI and agent development, with Microsoft highlighting how to deploy agentic services into Microsoft 365 Copilot using delegated on-behalf-of (OBO) access, how Anthropic managed agents can work with Microsoft-hosted agents, and why traditional RAG architectures may need to evolve toward relationship-aware systems for enterprise AI. Microsoft also promoted practical AI app-building resources through AI Apps & Agents Dev Days and a livestream series on hosting agents in Microsoft Foundry.\n\nOn the operations and security side, Azure warned Azure Pipelines customers about the Axios npm supply chain compromise and provided guidance for mitigation, while the Apps on Azure team published troubleshooting advice for Azure Functions host startup failures."
 }
