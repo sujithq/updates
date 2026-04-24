@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-04-24T10:14:39.260763+00:00",
-  "totalArticles": 1147,
+  "lastUpdated": "2026-04-24T12:52:41.002157+00:00",
+  "totalArticles": 1148,
   "articles": [
+    {
+      "title": "Visual Studio Code 1.118",
+      "link": "https://code.visualstudio.com/updates/v1_118",
+      "published": "2026-04-29T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.118 (Insiders) Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Axios npm Supply Chain Compromise – Guidance for Azure Pipelines Customers",
+      "link": "https://devblogs.microsoft.com/devops/axios-npm-supply-chain-compromise-guidance-for-azure-pipelines-customers/",
+      "published": "2026-04-24T10:40:43+00:00",
+      "summary": "On March 31, 2026, malicious versions of the widely used JavaScript HTTP client library Axios were briefly published to the npm registry as part of a supply chain attack. The affected versions — 1.14.1 and 0.30.4 — included a hidden malicious dependency that executed during installation and...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Josef Sin",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "When RAG Isn’t Enough: Moving from Retrieval to Relationship-Aware Systems in Enterprise AI:",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/when-rag-isn-t-enough-moving-from-retrieval-to-relationship/ba-p/4514185",
@@ -91,13 +113,13 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure MCP Server now available as an MCP Bundle (.mcpb)",
+      "title": "Test Post",
       "link": "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-mcpb-support/",
       "published": "2026-04-23T20:56:27+00:00",
-      "summary": "Azure MCP Server is now available as an MCP Bundle (.mcpb), enabling one-click installation into Claude Desktop and other MCP-compatible clients. The post Azure MCP Server now available as an MCP Bundle (.mcpb) appeared first on Azure SDK Blog.",
+      "summary": "Azure MCP Server is now available as an MCP Bundle (.mcpb), enabling one-click installation into Claude Desktop and other MCP-compatible clients. The post Test Post appeared first on Azure SDK Blog.",
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
-      "author": "Victor Colin Amador",
+      "author": "saikumar",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
     },
@@ -240,7 +262,7 @@
       "summary": "Most production AI tasks are too complex for a single agent. You need specialists that collaborate, a destination expert that researches the best places to visit, a budget analyst that breaks down costs, an activities curator that finds the best experiences, all coordinated by an orchestration...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "vgiraud",
+      "author": "Vincent_Giraud",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -875,7 +897,7 @@
       "title": "Gateway API v1.5: Moving features to Stable",
       "link": "https://kubernetes.io/blog/2026/04/21/gateway-api-v1-5/",
       "published": "2026-04-21T16:30:00+00:00",
-      "summary": "The Kubernetes SIG Network community presents the release of Gateway API (v1.5)! Released on March 14, 2026, version 1.5 is our biggest release yet, and concentrates on moving existing Experimental features to Standard (Stable). The Gateway API v1.5.1 patch release is already available The Gateway...",
+      "summary": "The Kubernetes SIG Network community presents the release of Gateway API (v1.5)! Released on February 27, 2026, version 1.5 is our biggest release yet, and concentrates on moving existing Experimental features to Standard (Stable). The Gateway API v1.5.1 patch release is already available. The...",
       "blog": "Kubernetes Official Blog",
       "blogId": "kubernetes",
       "author": "Microsoft",
@@ -5346,17 +5368,6 @@
       "blogId": "letsdodevops",
       "author": "Kyler Middleton",
       "feedUrl": "https://www.letsdodevops.com/feed",
-      "sourceType": "rss"
-    },
-    {
-      "title": "March Patches for Azure DevOps Server",
-      "link": "https://devblogs.microsoft.com/devops/march-patches-for-azure-devops-server-4/",
-      "published": "2026-03-13T21:41:24+00:00",
-      "summary": "We are releasing patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay on the latest, most secure version of Azure DevOps Server. The latest release, Azure DevOps Server, is available from the download page. This patch addresses an issue introduced...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Gloridel Morales",
-      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "sourceType": "rss"
     },
     {
@@ -12620,5 +12631,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focused heavily on enterprise AI moving beyond basic retrieval into more capable agentic systems: Azure Architecture highlighted “relationship-aware” AI patterns that extend RAG for enterprise use cases, while Azure Dev Community posts explored Anthropic managed agents working with Microsoft-hosted agents and promoted practical guidance for building AI apps and agents, including the AI Apps & Agents Dev Days event and a free livestream series on hosting agents in Microsoft Foundry.  \n\nOutside the AI theme, Apps on Azure published a more operational update on diagnosing Azure Functions host startup failures, giving developers troubleshooting guidance for Azure Functions app initialization and runtime issues."
+  "summary": "Today’s Azure posts focused on secure software delivery, enterprise AI architectures, and agent-based development. Key announcements included guidance for Azure Pipelines customers responding to the Axios npm supply chain compromise, a deeper architectural push beyond basic RAG toward relationship-aware enterprise AI systems, and multiple community updates around building and hosting AI agents with Anthropic managed agents, Microsoft-hosted agents, and Microsoft Foundry livestreams.\n\nOn the app platform side, Azure also published practical troubleshooting guidance for Azure Functions host startup failures, while the broader developer message was clear: move from experimentation to production-ready AI apps and agents using Azure’s evolving tooling, hosted runtimes, and architecture patterns."
 }
