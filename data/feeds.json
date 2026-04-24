@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T15:57:09.697713+00:00",
+  "lastUpdated": "2026-04-24T18:35:03.671486+00:00",
   "totalArticles": 1148,
   "articles": [
     {
@@ -11,6 +11,105 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Hosted Agents in Foundry Agent Service",
+      "link": "https://azure.microsoft.com/updates?id=560997",
+      "published": "2026-04-24T18:15:17+00:00",
+      "summary": "Hosted agents run in an isolated execution sandbox that provides a dedicated, secure runtime per agent session. Sessions start with a clean environment with no shared state between sessions, no cross-session data leakage, and strong compute boundaries bet",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Foundry Toolkit for Visual Studio Code (formerly AI Toolkit for VS Code)",
+      "link": "https://azure.microsoft.com/updates?id=560987",
+      "published": "2026-04-24T18:15:17+00:00",
+      "summary": "Foundry Toolkit for VS Code is now generally available and provides VS Code tooling for Microsoft Agent Framework, including agent creation from templates or via GitHub Copilot, local test/debug with visualization and traces, and direct deployment to Foun",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: WireGuard In‑Transit Encryption for Azure Kubernetes Service (AKS)",
+      "link": "https://azure.microsoft.com/updates?id=560015",
+      "published": "2026-04-24T18:15:17+00:00",
+      "summary": "WireGuard in‑transit encryption is now generally available for Azure Kubernetes Service (AKS) clusters using Azure CNI powered by Cilium and Advanced Container Networking Services (ACNS). This capability enables transparent, node‑level encryption for inte",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Retirement: Support for .NET 8 (LTS) ends on November 10, 2026—upgrade your apps to .NET 10 (LTS)",
+      "link": "https://azure.microsoft.com/updates?id=558033",
+      "published": "2026-04-24T17:45:05+00:00",
+      "summary": "On November 10, 2026, support for .NET 8 (LTS) will end. Your apps that are hosted on App Service will continue to run, but security updates will no longer be available and we'll no longer provide customer service for .NET 8 (LTS). Required action: To avo",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Cascading read replicas in Azure Database for PostgreSQL",
+      "link": "https://azure.microsoft.com/updates?id=560939",
+      "published": "2026-04-24T16:45:30+00:00",
+      "summary": "Cascading read replicas are now generally available in Azure Database for PostgreSQL, giving you greater flexibility to scale read‑intensive workloads. You can now create read replicas from existing ones, creating up to 30 across two levels of replication",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: CRC Protection",
+      "link": "https://azure.microsoft.com/updates?id=560889",
+      "published": "2026-04-24T16:45:30+00:00",
+      "summary": "Azure Elastic SAN now supports CRC-32C checksum verification when enabled on the client side for connections to Elastic SAN volumes. You can enable CRC protection when creating an Elastic SAN or enable it on an existing Elastic SAN. Elastic SAN also offer",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Designing a Medallion Framework — A Decision Guide",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/designing-a-medallion-framework-a-decision-guide/ba-p/4514349",
+      "published": "2026-04-24T16:11:09+00:00",
+      "summary": "Everyone draws the same picture: Bronze → Silver → Gold. Three boxes, three arrows. Done. What that picture hides is the dozen design decisions you have to make inside each box — and the ones you make at the boundaries between them. Get those right and onboarding the 200th table feels like...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Subhajit1994",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Enhancing Enterprise AI Deployments with Zero Trust Networking",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/enhancing-enterprise-ai-deployments-with-zero-trust-networking/ba-p/4513662",
+      "published": "2026-04-24T16:08:22+00:00",
+      "summary": "Problem Statement Azure OpenAI is publicly accessible by default Azure OpenAI frequently asked questions | Microsoft Learn Any application with API access can call it from anywhere Violates: Enterprise security policies Zero Trust architecture Key principles of the Zero Trust network model...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "kirankumar_manchiwar04",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Inline agent mode in preview and more in GitHub Copilot for JetBrains IDEs",
+      "link": "https://github.blog/changelog/2026-04-24-inline-agent-mode-in-preview-and-more-in-github-copilot-for-jetbrains-ides",
+      "published": "2026-04-24T15:43:08+00:00",
+      "summary": "This update introduces inline agent mode in preview, enhancements to Next Edit Suggestions, global auto approve, and more flexible controls for terminal commands and file edits. It also includes several… The post Inline agent mode in preview and more in GitHub Copilot for JetBrains IDEs appeared...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -155,6 +254,17 @@
       "author": "jihyeseo",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Kubernetes v1.36: User Namespaces in Kubernetes are finally GA",
+      "link": "https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/",
+      "published": "2026-04-23T18:35:00+00:00",
+      "summary": "After several years of development, User Namespaces support in Kubernetes reached General Availability (GA) with the v1.36 release. This is a Linux-only feature. For those of us working on low level container runtimes and rootless technologies, this has been a long awaited milestone. We finally...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "[Launched] Generally Available: Capacity Autoscaling",
@@ -359,17 +469,6 @@
       "link": "https://github.blog/changelog/2026-04-22-github-copilot-for-jira-our-latest-enhancements",
       "published": "2026-04-23T00:10:10+00:00",
       "summary": "Since our last update, we’ve continued to invest in making the GitHub Copilot cloud agent for Jira integration more powerful and customizable. These improvements give teams greater control over how… The post GitHub Copilot for Jira: Our latest enhancements appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Upcoming change to Copilot usage metrics report download URLs",
-      "link": "https://github.blog/changelog/2026-04-22-upcoming-change-to-copilot-usage-metrics-report-download-urls",
-      "published": "2026-04-22T23:25:50+00:00",
-      "summary": "We are migrating the download URLs for Copilot usage metrics reports from Azure Front Door domains to a stable, GitHub-owned custom domain. This change will improve URL stability and make… The post Upcoming change to Copilot usage metrics report download URLs appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -7296,17 +7395,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Architecting an Azure AI Hub-and-Spoke Landing Zone for Multi-Tenant Enterprises",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/architecting-an-azure-ai-hub-and-spoke-landing-zone-for-multi/ba-p/4491161",
-      "published": "2026-02-04T02:55:57+00:00",
-      "summary": "A large enterprise customer adopting AI at scale typically needs three non‑negotiables in its AI foundation: End‑to‑end tenant isolation across network, identity, compute, and data Secure, governed traffic flow from users to AI services Transparent chargeback/showback for shared AI and platform...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "VimalVerma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[In development] Public Preview: X-Forwarded-For (XFF) grouping for rate limiting on Application Gateway WAF v2",
       "link": "https://azure.microsoft.com/updates?id=555205",
       "published": "2026-02-03T20:30:31+00:00",
@@ -7514,17 +7602,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Azure Local LENS workbook—deep insights at scale, in minutes",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/azure-local-lens-workbook-deep-insights-at-scale-in-minutes/ba-p/4490608",
-      "published": "2026-01-30T17:47:17+00:00",
-      "summary": "Azure Local at scale needs fleet-level visibility As Azure Local deployments grow from a handful of instances to hundreds (or even thousands), the operational questions change. You’re no longer troubleshooting a single environment—you’re looking for patterns across your entire fleet: Which sites...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Neil_Bird",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "New Conversion from cgroup v1 CPU Shares to v2 CPU Weight",
@@ -9001,17 +9078,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Azure Blob Storage SFTP - Resumable Uploads",
-      "link": "https://azure.microsoft.com/updates?id=499438",
-      "published": "2025-12-04T12:00:46+00:00",
-      "summary": "Announcing the general availability of resumable uploads for Azure Storage Blob SFTP. In the event of a failed partial transfer, this new feature enables users to open the partial file and continue writing the remaining content. This capability optimizes",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Project Pavilion Presence at KubeCon NA 2025",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/project-pavilion-presence-at-kubecon-na-2025/ba-p/4472904",
       "published": "2025-12-04T11:52:33+00:00",
@@ -9032,61 +9098,6 @@
       "author": "CollinBrian",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Retirement: Remove dependency on these Azure ML SDKs before June 30, 2026",
-      "link": "https://azure.microsoft.com/updates?id=501668",
-      "published": "2025-12-03T21:00:12+00:00",
-      "summary": "On June 30, 2026, AzureML SDK V1 will reach end of life. The following SDKs which work in tandem with the AzureML SDK V1 will also be retired. azureml-train-core azureml-pipeline azureml-pipeline-core azureml-pipeline-internal azureml-pipeline-steps",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure Database for PostgreSQL Flexible Server in Belgium Central",
-      "link": "https://azure.microsoft.com/updates?id=534523",
-      "published": "2025-12-03T17:30:15+00:00",
-      "summary": "Now you can deploy Azure Database for PostgreSQL Flexible Server in the Belgium Central Azure region. Learn more.",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Update pg_squeeze to version 1.9.1 in Azure Database for PostgreSQL Flexible Server",
-      "link": "https://azure.microsoft.com/updates?id=534518",
-      "published": "2025-12-03T17:30:15+00:00",
-      "summary": "Now you can upgrade the pg_squeeze extension to version 1.9.1 in Azure Database for PostgreSQL Flexible Server. Learn more.",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: The ip4r extension in Azure Database for PostgreSQL Flexible Server",
-      "link": "https://azure.microsoft.com/updates?id=534509",
-      "published": "2025-12-03T17:30:15+00:00",
-      "summary": "Now you can install the ip4r extension in Azure Database for PostgreSQL Flexible Server. Ip4r provides efficient storage and indexing functionality for IPv4 and IPv6 addresses and ranges. Learn more.",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: The credcheck extension in Azure Database for PostgreSQL Flexible Server",
-      "link": "https://azure.microsoft.com/updates?id=534504",
-      "published": "2025-12-03T17:30:15+00:00",
-      "summary": "Now you can install the credcheck extension in Azure Database for PostgreSQL Flexible Server. The credcheck extension helps you to enforce password and credential validation policies directly within PostgreSQL. Learn more.",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
     },
     {
       "title": "The Microsoft Defender for AI Alerts",
@@ -10959,17 +10970,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Kubernetes v1.34: Autoconfiguration for Node Cgroup Driver Goes GA",
-      "link": "https://kubernetes.io/blog/2025/09/12/kubernetes-v1-34-cri-cgroup-driver-lookup-now-ga/",
-      "published": "2025-09-12T18:30:00+00:00",
-      "summary": "Historically, configuring the correct cgroup driver has been a pain point for users running new Kubernetes clusters. On Linux systems, there are two different cgroup drivers: cgroupfs and systemd. In the past, both the kubelet and CRI implementation (like CRI-O or containerd) needed to be...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "August 2025 (version 1.104)",
       "link": "https://code.visualstudio.com/updates/v1_104",
       "published": "2025-09-11T17:00:00+00:00",
@@ -12631,5 +12631,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on enterprise AI and agent development, with Microsoft highlighting how to deploy agentic services into Microsoft 365 Copilot using delegated on-behalf-of (OBO) access, how Anthropic managed agents can work with Microsoft-hosted agents, and why traditional RAG architectures may need to evolve toward relationship-aware systems for enterprise AI. Microsoft also promoted practical AI app-building resources through AI Apps & Agents Dev Days and a livestream series on hosting agents in Microsoft Foundry.\n\nOn the operations and security side, Azure warned Azure Pipelines customers about the Axios npm supply chain compromise and provided guidance for mitigation, while the Apps on Azure team published troubleshooting advice for Azure Functions host startup failures."
+  "summary": "Azure’s main themes today were **AI agent development/operations, enterprise AI security, and core platform modernization**. On the AI side, Microsoft put **Hosted Agents in Foundry Agent Service** into **public preview**, made the **Foundry Toolkit for Visual Studio Code** generally available, published guidance for deploying agentic services to **Microsoft 365 Copilot** with delegated **OBO access**, and shared architecture pieces on **Zero Trust networking**, **RAG alternatives using relationship-aware systems**, and medallion-style data design; GitHub also previewed **inline agent mode for JetBrains IDEs**.\n\nOn the platform side, Azure announced **GA for WireGuard in-transit encryption in AKS**, **cascading read replicas for Azure Database for PostgreSQL**, and **CRC Protection**, while also warning that **.NET 8 support ends Nov. 10, 2026**, urging upgrades to **.NET 10 LTS**. Additional posts focused on operational guidance, including the **Axios npm supply-chain compromise** for **Azure Pipelines** customers and troubleshooting **Azure Functions host startup** issues."
 }
