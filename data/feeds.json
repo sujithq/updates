@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T18:33:17.411763+00:00",
+  "lastUpdated": "2026-04-25T21:25:45.991389+00:00",
   "totalArticles": 1145,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "How ACR Artifact Cache Handles Multi-Arch Images: What Gets Cached and When Webhooks Fire",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-acr-artifact-cache-handles-multi-arch-images-what-gets/ba-p/4514744",
+      "published": "2026-04-25T19:37:56+00:00",
+      "summary": "By Johnson Shi (Senior Product Manager), Toddy Mladenov (Principal PM Manager), Luis Dieguez (Principal SWE Manager), Akash Singhal (Senior Software Engineer), Kiran Challa (Senior Software Engineer), Ren Shao (Senior Software Engineer) Introduction Three of the most common questions we hear from...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "johnsonshi_msft",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Modernizing Industrial Safety and Inspection with AI-Driven Drone Automation",
@@ -3004,17 +3015,6 @@
       "author": "Microsoft",
       "feedUrl": "https://blog.aks.azure.com/rss.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "3 Ways to Get More from Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/3-ways-to-get-more-from-azure-sre-agent/ba-p/4508993",
-      "published": "2026-04-07T23:33:10+00:00",
-      "summary": "When you first set up Azure SRE Agent, it’s tempting to give it everything. Connect all your alert sources, route every severity, set up scheduled tasks to poll your channels every 30 seconds. The agent can handle all of it. But a few simple configuration choices can help you get more value from...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "dchelupati",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Latest enhancements for Copilot security, management, and analytics",
@@ -12598,5 +12598,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog highlights AI-powered industrial automation, with a new Azure Architecture post on **modernizing safety and inspection using drone workflows**. The piece focuses on combining **AI-driven drone automation** with Azure-based architecture patterns to improve **industrial inspection, safety monitoring, and operational efficiency**, signaling Azure’s continued emphasis on applying AI to real-world field operations and edge-connected scenarios."
+  "summary": "Today’s Azure posts focus on two themes: **container supply-chain optimization** and **AI-powered industrial modernization**. The Apps on Azure article explains how **Azure Container Registry (ACR) Artifact Cache** behaves with **multi-architecture container images**, clarifying exactly which image manifests and layers are cached and when **webhooks** are triggered during pulls—important for teams managing **multi-arch OCI/Docker artifacts** across environments.\n\nThe Azure Architecture post highlights using **AI-driven drone automation** to modernize **industrial safety and inspection**, combining drones with Azure-based architecture patterns for automated data capture, analysis, and operational monitoring. The big takeaway is Azure’s push to support both low-level platform reliability for cloud-native workloads and higher-level **AI/edge solutions** for real-world industrial operations."
 }
