@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T09:28:12.959471+00:00",
+  "lastUpdated": "2026-04-27T09:40:29.746658+00:00",
   "features": {
     "Azure SQL mid-March 2026 updates": {
       "status": "ga",
@@ -920,6 +920,238 @@
       "service": "Azure Confidential Computing",
       "lastSeen": "2026-04-20T09:28:12.959468+00:00",
       "published": "2026-04-13T15:29:32+00:00"
+    },
+    "Fine-Grained Kubelet API Authorization": {
+      "status": "ga",
+      "link": "https://kubernetes.io/blog/2026/04/24/kubernetes-v1-36-fine-grained-kubelet-authorization-ga/",
+      "title": "Kubernetes v1.36: Fine-Grained Kubelet API Authorization Graduates to GA",
+      "service": "Kubernetes",
+      "lastSeen": "2026-04-27T09:40:29.746586+00:00",
+      "published": "2026-04-24T18:35:00+00:00"
+    },
+    "Azure Backup for Elastic SAN": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=560904",
+      "title": "[In preview] Public Preview: Azure Backup for Elastic SAN",
+      "service": "Azure Backup",
+      "lastSeen": "2026-04-27T09:40:29.746596+00:00",
+      "published": "2026-04-24T18:30:50+00:00"
+    },
+    "Hosted Agents": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=560997",
+      "title": "[In preview] Public Preview: Hosted Agents in Foundry Agent Service",
+      "service": "Foundry Agent Service",
+      "lastSeen": "2026-04-27T09:40:29.746603+00:00",
+      "published": "2026-04-24T18:15:17+00:00"
+    },
+    "Foundry Toolkit for Visual Studio Code": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=560987",
+      "title": "[Launched] Generally Available: Foundry Toolkit for Visual Studio Code (formerly AI Toolkit for VS Code)",
+      "service": "Azure AI Foundry",
+      "lastSeen": "2026-04-27T09:40:29.746605+00:00",
+      "published": "2026-04-24T18:15:17+00:00"
+    },
+    "WireGuard In-Transit Encryption": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=560015",
+      "title": "[Launched] Generally Available: WireGuard In‑Transit Encryption for Azure Kubernetes Service (AKS)",
+      "service": "Azure Kubernetes Service",
+      "lastSeen": "2026-04-27T09:40:29.746607+00:00",
+      "published": "2026-04-24T18:15:17+00:00"
+    },
+    "GPT-5.5": {
+      "status": "ga",
+      "link": "https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
+      "title": "GPT-5.5 is generally available for GitHub Copilot",
+      "service": "GitHub Copilot",
+      "lastSeen": "2026-04-27T09:40:29.746609+00:00",
+      "published": "2026-04-24T17:19:34+00:00"
+    },
+    "Cascading read replicas": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=560939",
+      "title": "[Launched] Generally Available: Cascading read replicas in Azure Database for PostgreSQL",
+      "service": "Azure Database for PostgreSQL",
+      "lastSeen": "2026-04-27T09:40:29.746611+00:00",
+      "published": "2026-04-24T16:45:30+00:00"
+    },
+    "CRC Protection": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=560889",
+      "title": "[Launched] Generally Available: CRC Protection",
+      "service": "Azure Elastic SAN",
+      "lastSeen": "2026-04-27T09:40:29.746613+00:00",
+      "published": "2026-04-24T16:45:30+00:00"
+    },
+    "Inline agent mode": {
+      "status": "preview",
+      "link": "https://github.blog/changelog/2026-04-24-inline-agent-mode-in-preview-and-more-in-github-copilot-for-jetbrains-ides",
+      "title": "Inline agent mode in preview and more in GitHub Copilot for JetBrains IDEs",
+      "service": "GitHub Copilot",
+      "lastSeen": "2026-04-27T09:40:29.746615+00:00",
+      "published": "2026-04-24T15:43:08+00:00"
+    },
+    "Global pull requests dashboard": {
+      "status": "preview",
+      "link": "https://github.blog/changelog/2026-04-23-global-pull-requests-dashboard-moves-to-opt-out-public-preview",
+      "title": "Global pull requests dashboard moves to opt-out public preview",
+      "service": "GitHub",
+      "lastSeen": "2026-04-27T09:40:29.746617+00:00",
+      "published": "2026-04-23T19:10:59+00:00"
+    },
+    "User Namespaces": {
+      "status": "ga",
+      "link": "https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/",
+      "title": "Kubernetes v1.36: User Namespaces in Kubernetes are finally GA",
+      "service": "Kubernetes",
+      "lastSeen": "2026-04-27T09:40:29.746619+00:00",
+      "published": "2026-04-23T18:35:00+00:00"
+    },
+    "Capacity Autoscaling": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=560919",
+      "title": "[Launched] Generally Available: Capacity Autoscaling",
+      "service": "Azure Elastic SAN",
+      "lastSeen": "2026-04-27T09:40:29.746621+00:00",
+      "published": "2026-04-23T18:30:11+00:00"
+    },
+    "Azure Monitor for Azure Arc-enabled Kubernetes with OpenShift and Azure Red Hat OpenShift": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=560358",
+      "title": "[Launched] Generally Available: Azure Monitor for Azure Arc-enabled Kubernetes with OpenShift and Azure Red Hat OpenShift",
+      "service": "Azure Monitor",
+      "lastSeen": "2026-04-27T09:40:29.746622+00:00",
+      "published": "2026-04-23T16:45:55+00:00"
+    },
+    "SQL Server on Azure Virtual Machines as a migration target": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=560805",
+      "title": "[In preview] Public Preview: Azure Arc adds SQL Server on Azure Virtual Machines as a migration target",
+      "service": "Azure Arc",
+      "lastSeen": "2026-04-27T09:40:29.746624+00:00",
+      "published": "2026-04-22T20:45:32+00:00"
+    },
+    "Azure Database for PostgreSQL flexible server in Denmark East": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=560288",
+      "title": "[Launched] Generally Available: Azure Database for PostgreSQL flexible server in Denmark East",
+      "service": "Azure Database for PostgreSQL",
+      "lastSeen": "2026-04-27T09:40:29.746626+00:00",
+      "published": "2026-04-22T17:45:10+00:00"
+    },
+    "Dynamic data masking": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=559633",
+      "title": "[Launched] Generally Available: Dynamic data masking with Azure Cosmos DB",
+      "service": "Azure Cosmos DB",
+      "lastSeen": "2026-04-27T09:40:29.746628+00:00",
+      "published": "2026-04-22T17:45:10+00:00"
+    },
+    "Logical replication slot sync status metric": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=513249",
+      "title": "[In preview] Public Preview: Logical replication slot sync Status metric for Azure PostgreSQL Flexible Server",
+      "service": "Azure Database for PostgreSQL",
+      "lastSeen": "2026-04-27T09:40:29.746630+00:00",
+      "published": "2026-04-22T17:45:10+00:00"
+    },
+    "Toolboxes": {
+      "status": "preview",
+      "link": "https://devblogs.microsoft.com/foundry/introducing-toolboxes-in-foundry/",
+      "title": "Introducing Toolboxes in Foundry",
+      "service": "Azure AI Foundry",
+      "lastSeen": "2026-04-27T09:40:29.746632+00:00",
+      "published": "2026-04-22T17:30:43+00:00"
+    },
+    "Premium SSD v2": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=560336",
+      "title": "[Launched] Generally Available: Premium SSD v2 for Azure Database for PostgreSQL",
+      "service": "Azure Database for PostgreSQL",
+      "lastSeen": "2026-04-27T09:40:29.746634+00:00",
+      "published": "2026-04-22T17:30:14+00:00"
+    },
+    "Migration to Private Endpoint-capable network configuration": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=560298",
+      "title": "[In preview] Public Preview: Migrating from virtual network-integrated to Private Endpoint–capable network configuration",
+      "service": "Azure Database for PostgreSQL",
+      "lastSeen": "2026-04-27T09:40:29.746635+00:00",
+      "published": "2026-04-22T17:30:14+00:00"
+    },
+    "Enhanced Mirroring for Azure Database for PostgreSQL": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=560293",
+      "title": "[Launched] Generally Available: Enhanced Mirroring Azure Database for PostgreSQL in Microsoft Fabric",
+      "service": "Microsoft Fabric",
+      "lastSeen": "2026-04-27T09:40:29.746637+00:00",
+      "published": "2026-04-22T17:30:14+00:00"
+    },
+    "Actual Result for Manual Tests": {
+      "status": "preview",
+      "link": "https://devblogs.microsoft.com/devops/actual-result-azure-test-plans/",
+      "title": "Public Preview: Actual Result for Manual Tests in Azure Test Plans",
+      "service": "Azure Test Plans",
+      "lastSeen": "2026-04-27T09:40:29.746639+00:00",
+      "published": "2026-04-22T14:35:35+00:00"
+    },
+    "Azure Monitor pipeline": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=559886",
+      "title": "[Launched] Generally Available: Azure Monitor pipeline",
+      "service": "Azure Monitor",
+      "lastSeen": "2026-04-27T09:40:29.746643+00:00",
+      "published": "2026-04-21T20:30:49+00:00"
+    },
+    "Advanced ransomware protection": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=560188",
+      "title": "[In preview] Generally Available: Azure NetApp Files advanced ransomware protection",
+      "service": "Azure NetApp Files",
+      "lastSeen": "2026-04-27T09:40:29.746645+00:00",
+      "published": "2026-04-21T18:15:14+00:00"
+    },
+    "Dynamic Data Masking": {
+      "status": "ga",
+      "link": "https://devblogs.microsoft.com/cosmosdb/general-availability-dynamic-data-masking-for-azure-cosmos-db/",
+      "title": "General Availability: Dynamic Data Masking for Azure Cosmos DB",
+      "service": "Azure Cosmos DB",
+      "lastSeen": "2026-04-27T09:40:29.746647+00:00",
+      "published": "2026-04-21T17:00:14+00:00"
+    },
+    "Redundant TCP support for RDP Multipath": {
+      "status": "preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/announcing-public-preview-of-redundant-tcp-support-for-rdp/ba-p/4511241",
+      "title": "Announcing public preview of redundant TCP support for RDP Multipath for Azure Virtual Desktop",
+      "service": "Azure Virtual Desktop",
+      "lastSeen": "2026-04-27T09:40:29.746649+00:00",
+      "published": "2026-04-21T16:00:28+00:00"
+    },
+    "Troubleshoot with OpenTelemetry": {
+      "status": "preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/troubleshoot-with-opentelemetry-in-azure-monitor-public-preview/ba-p/4512128",
+      "title": "Troubleshoot with OpenTelemetry in Azure Monitor - Public Preview",
+      "service": "Azure Monitor",
+      "lastSeen": "2026-04-27T09:40:29.746651+00:00",
+      "published": "2026-04-20T18:14:20+00:00"
+    },
+    "Managed identities for Azure Files SMB": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/secure-keyless-application-access-with-managed-identities-now-ga/ba-p/4513053",
+      "title": "Secure, Keyless Application Access with Managed Identities - Now GA in Azure Files SMB",
+      "service": "Azure Files",
+      "lastSeen": "2026-04-27T09:40:29.746653+00:00",
+      "published": "2026-04-20T17:57:56+00:00"
+    },
+    "Native OTLP ingestion using Azure Monitor Agent": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=560530",
+      "title": "[In preview] Public Preview: Azure Monitor supports native OTLP ingestion using the Azure Monitor Agent",
+      "service": "Azure Monitor",
+      "lastSeen": "2026-04-27T09:40:29.746655+00:00",
+      "published": "2026-04-20T17:30:53+00:00"
     }
   }
 }
