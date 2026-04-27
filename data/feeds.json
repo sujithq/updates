@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T19:02:11.246986+00:00",
+  "lastUpdated": "2026-04-27T21:44:05.331265+00:00",
   "totalArticles": 1140,
   "articles": [
     {
@@ -11,6 +11,39 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Bring Your Own Model to Foundry Agent Service Is Now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/bring-your-own-model-to-foundry-agent-service-is-now-generally/ba-p/4515133",
+      "published": "2026-04-27T21:15:00+00:00",
+      "summary": "Enterprise teams building AI agents often need to route model requests through their own infrastructure — whether for compliance, governance, or other controls provided by gateways. Today, we are excited to announce general availability of the Bring Your Own Model (BYOM) for Foundry Agent Service...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "budzynski",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Combining API versioning with OpenAPI in .NET 10 applications",
+      "link": "https://devblogs.microsoft.com/dotnet/api-versioning-in-dotnet-10-applications/",
+      "published": "2026-04-27T20:00:00+00:00",
+      "summary": "Learn how to implement API versioning in your .NET 10 applications using OpenAPI for better API management and documentation. The post Combining API versioning with OpenAPI in .NET 10 applications appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Sander ten Brinke",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Kubernetes v1.36: Mutable Pod Resources for Suspended Jobs (beta)",
+      "link": "https://kubernetes.io/blog/2026/04/27/kubernetes-v1-36-mutable-pod-resources-for-suspended-jobs/",
+      "published": "2026-04-27T18:35:00+00:00",
+      "summary": "Kubernetes v1.36 promotes the ability to modify container resource requests and limits in the pod template of a suspended Job to beta. First introduced as alpha in v1.35, this feature allows queue controllers and cluster administrators to adjust CPU, memory, GPU, and extended resource...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -2456,17 +2489,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Friends Don’t Let Friends Run Loops Sequentially",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/friends-don-t-let-friends-run-loops-sequentially/ba-p/4505815",
-      "published": "2026-04-14T11:37:06+00:00",
-      "summary": "Tamara Gaidar, Data Scientist, Microsoft Defender Security Research Team Maor Nissan, Principal Data Scientist, Microsoft Defender Security Research Team The situation I’m about to describe is one that will feel familiar to many data scientists. We were asked to run a quick comparative analysis and...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "tamaragaidar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Bringing GigaTIME to Microsoft Foundry: Unlocking Tumor Microenvironment Insights with Multimodal AI",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/bringing-gigatime-to-microsoft-foundry-unlocking-tumor/ba-p/4509452",
       "published": "2026-04-14T11:36:56+00:00",
@@ -4698,17 +4720,6 @@
       "author": "Connected-Seth",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Generative AI for Beginners .NET: Version 2 on .NET 10",
-      "link": "https://devblogs.microsoft.com/dotnet/generative-ai-for-beginners-dotnet-version-2-on-dotnet-10/",
-      "published": "2026-03-23T17:05:00+00:00",
-      "summary": "Announcement of Version 2 of Generative AI for Beginners .NET, a free course rebuilt for .NET 10 with Microsoft.Extensions.AI, updated RAG patterns, and new agent framework content across five structured lessons for building production-ready AI apps. The post Generative AI for Beginners .NET:...",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": "Pablo Lopes, Bruno Capuano",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "From code to cloud: Deploy an AI agent to Microsoft Foundry in minutes with azd",
@@ -10959,17 +10970,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Kubernetes v1.34: Moving Volume Group Snapshots to v1beta2",
-      "link": "https://kubernetes.io/blog/2025/09/16/kubernetes-v1-34-volume-group-snapshot-beta-2/",
-      "published": "2025-09-16T18:30:00+00:00",
-      "summary": "Volume group snapshots were introduced as an Alpha feature with the Kubernetes 1.27 release and moved to Beta in the Kubernetes 1.32 release. The recent release of Kubernetes v1.34 moved that support to a second beta. The support for volume group snapshots relies on a set of extension APIs for...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Introducing auto model selection (preview)",
       "link": "https://code.visualstudio.com/blogs/2025/09/15/autoModelSelection",
       "published": "2025-09-15T00:00:00+00:00",
@@ -12543,5 +12543,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news was dominated by platform transitions and AI product changes: Microsoft is retiring Azure Data Studio in favor of VS Code for Azure SQL workflows, and also retiring Prompt Flow in Azure ML/Foundry, while expanding Azure AI Foundry with general availability of bring-your-own AI Gateway in Foundry Agent Service. AI and Copilot announcements were especially heavy, including GPT-5.5 Thinking and ChatGPT Images 2.0 in Microsoft 365 Copilot, GitHub Copilot’s shift to usage-based billing, upcoming GitHub Actions minute consumption for Copilot code review, faster cloud agents via Actions custom images, and the removal of Student GPT-5.3-Codex from the model picker.\n\nInfrastructure and operations themes centered on sovereignty, performance, and automation: Azure Local added sovereign-scale disaggregated deployments, ALZ/SLZ received new management group and sovereign policy updates, and posts covered LLM container cold-start analysis, GitOps-based Azure API Management deployment with APIOps, Azure Functions Service Bus trigger troubleshooting, and how Azure AI Foundry differs from traditional ML pipelines."
+  "summary": "Today’s Azure news is led by AI platform changes: Azure AI Foundry’s **Bring Your Own Model** and **Bring your own AI Gateway** capabilities are now **generally available**, while **Prompt Flow** in Azure ML/Foundry is being retired—signaling a shift toward Foundry Agent Service as Microsoft’s preferred agent and model orchestration layer. Microsoft also highlighted new model availability with **GPT-5.5 Thinking** and **ChatGPT Images 2.0** in **Microsoft 365 Copilot**, while GitHub announced major Copilot operational changes including **usage-based billing**, faster cloud agents via **Actions custom images**, and future **GitHub Actions minutes** consumption for Copilot code review.\n\nOn the developer and infrastructure side, Microsoft is pushing modernization and operational consistency across the stack: **Azure Data Studio** is retired in favor of **VS Code** for Azure SQL workflows, .NET 10 gets guidance on combining **OpenAPI** with **API versioning**, and Azure API Management gets a GitOps-focused deployment story via **APIOps**. Broader platform themes include **Azure Local** expansion for sovereign/disaggregated infrastructure, updated **ALZ/SLZ** governance policies, Kubernetes **v1.36 Mutable Pod Resources for Suspended Jobs (beta)**, LLM container **cold-start** performance analysis, and practical troubleshooting for **Azure Functions Service Bus triggers**."
 }
