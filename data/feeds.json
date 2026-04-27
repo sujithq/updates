@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T10:52:12.556168+00:00",
+  "lastUpdated": "2026-04-27T13:13:10.043005+00:00",
   "totalArticles": 1140,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Dissecting LLM Container Cold-Start: Where the Time Actually Goes",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/dissecting-llm-container-cold-start-where-the-time-actually-goes/ba-p/4508831",
+      "published": "2026-04-27T11:36:05+00:00",
+      "summary": "Dissecting LLM Container Cold-Start: Where the Time Actually Goes Cold-start latency determines whether GPU clusters can scale to zero, how fast they can autoscale, and whether bursty or low-QPS workloads are economically viable. Most optimization effort targets the container pull path – faster...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "robcronin",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "From Portal Edits to GitOps : Deploying Azure API Management Configuration with APIOps",
@@ -1881,17 +1892,6 @@
       "blogId": "azurearchitectureblog",
       "author": "kirankumar_manchiwar04",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Dissecting LLM Container Cold-Start: Where the Time Actually Goes",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/dissecting-llm-container-cold-start-where-the-time-actually-goes/ba-p/4508831",
-      "published": "2026-04-15T22:38:11+00:00",
-      "summary": "Cold-start latency determines whether GPU clusters can scale to zero, how fast they can autoscale, and whether bursty or low-QPS workloads are economically viable. Most optimization effort targets the container pull path – faster registries, lazy-pull snapshotters, different compression formats....",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "robcronin",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12543,5 +12543,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts center on modernizing cloud operations with automation, AI-assisted development, and platform troubleshooting. The biggest themes are GitOps-driven Azure API Management deployments using APIOps, a comparison of Azure AI Foundry with traditional machine learning pipelines, and practical guidance for diagnosing Azure Functions issues with Service Bus triggers.\n\nMore specifically, Microsoft highlighted deploying Azure API Management configuration through APIOps instead of manual portal edits, examined how GitHub Copilot is influencing system and data model design workflows, contrasted Azure AI Foundry’s experience with conventional ML pipeline approaches, and shared troubleshooting techniques for Azure Functions integrated with Azure Service Bus."
+  "summary": "Today’s Azure blogs focused on speeding and modernizing cloud-native AI and platform operations: Microsoft broke down **LLM container cold-start latency** on **Linux/Open Source**, compared **Azure AI Foundry** with traditional **ML pipelines**, and showed how **GitHub Copilot** is reshaping **data modeling and system design** workflows. On the ops side, Azure highlighted **GitOps-based Azure API Management deployments with APIOps** and practical troubleshooting guidance for **Azure Functions Service Bus triggers**, emphasizing more reliable automation, configuration management, and serverless messaging diagnostics."
 }
