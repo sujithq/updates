@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T16:17:16.057555+00:00",
+  "lastUpdated": "2026-04-27T19:02:11.246986+00:00",
   "totalArticles": 1140,
   "articles": [
     {
@@ -11,6 +11,72 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure Data Studio is retired: Move your Azure SQL workflow to VS Code in 10 minutes",
+      "link": "https://devblogs.microsoft.com/azure-sql/azure-data-studio-is-retired-move-your-azure-sql-workflow-to-vs-code-in-10-minutes/",
+      "published": "2026-04-27T18:20:58+00:00",
+      "summary": "Azure Data Studio retired on February 28, 2026. The recommended path forward is Visual Studio Code with the MSSQL extension. If you used ADS daily, this guide gets you productive quickly in VS Code. The focus is on importing your existing setup, restoring familiar shortcuts like F5, and getting SQL...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Iqra Shaikh",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Bring your own AI Gateway in Foundry Agent Service",
+      "link": "https://azure.microsoft.com/updates?id=561002",
+      "published": "2026-04-27T18:00:52+00:00",
+      "summary": "Foundry Agent Service now supports bring‑your‑own‑model scenarios, allowing agents to use AI models deployed and managed outside of Foundry, including models hosted behind enterprise AI gateways such as Azure API Management. This enables organizations to",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Copilot Student GPT-5.3-Codex removal from model picker",
+      "link": "https://github.blog/changelog/2026-04-27-copilot-student-gpt-5-3-codex-removal-from-model-picker",
+      "published": "2026-04-27T17:01:58+00:00",
+      "summary": "Starting today, in our Copilot Student plan, we are removing GPT-5.3-Codex from the model picker. It remains available through auto model selection. Auto model selection is built to match each… The post Copilot Student GPT-5.3-Codex removal from model picker appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Retirement: Prompt Flow in Azure ML and Foundry",
+      "link": "https://azure.microsoft.com/updates?id=502936",
+      "published": "2026-04-27T16:15:55+00:00",
+      "summary": "Prompt Flow will be retired from Microsoft Foundry and Azure Machine Learning on April 20, 2027 and replaced by a single, modern orchestration platform: Microsoft Agent Framework. This change unlocks powerful new capabilities, including a unified, future-",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Copilot cloud agent starts 20% faster with Actions custom images",
+      "link": "https://github.blog/changelog/2026-04-27-copilot-cloud-agent-starts-20-faster-with-actions-custom-images",
+      "published": "2026-04-27T16:01:40+00:00",
+      "summary": "Copilot cloud agent now starts up over 20% faster, thanks to optimized runner environments built with GitHub Actions custom images. When you assign an issue to Copilot, start a task… The post Copilot cloud agent starts 20% faster with Actions custom images appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "GitHub Copilot code review will start consuming GitHub Actions minutes on June 1, 2026",
+      "link": "https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026",
+      "published": "2026-04-27T15:59:24+00:00",
+      "summary": "Developers and engineering teams worldwide use GitHub Copilot for high-quality, agent-powered code reviews on every pull request. We understand that any change is significant to our customers, especially when it… The post GitHub Copilot code review will start consuming GitHub Actions minutes on...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -531,28 +597,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Dependabot-based dependency graphs for Python",
-      "link": "https://github.blog/changelog/2026-04-23-dependabot-graphs-for-python",
-      "published": "2026-04-23T17:45:58+00:00",
-      "summary": "Python projects will now see more complete and accurate transitive dependency trees in their dependency graphs and Software Bills of Materials (SBOMs). This feature is based on a new type… The post Dependabot-based dependency graphs for Python appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Disable commit comments across your organization",
-      "link": "https://github.blog/changelog/2026-04-23-disable-commit-comments-across-your-organization",
-      "published": "2026-04-23T17:35:38+00:00",
-      "summary": "You can now disable commit comments at the organization level—no more manually updating every repository one by one. A few weeks ago, we added the ability to disable commit comments… The post Disable commit comments across your organization appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "What’s new for .NET in Ubuntu 26.04",
       "link": "https://devblogs.microsoft.com/dotnet/whats-new-for-dotnet-in-ubuntu-2604/",
       "published": "2026-04-23T17:25:00+00:00",
@@ -583,17 +627,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Better debugging with GitHub Copilot on the web",
-      "link": "https://github.blog/changelog/2026-04-23-better-debugging-with-github-copilot-on-the-web",
-      "published": "2026-04-23T16:16:52+00:00",
-      "summary": "GitHub Copilot Chat in github.com helps you get to the root cause of an error faster when you paste a stack trace. Copilot recognizes stack traces more reliably and will… The post Better debugging with GitHub Copilot on the web appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -6482,17 +6515,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "The Polyglot Tax",
-      "link": "https://devblogs.microsoft.com/azure-sql/the-polyglot-tax/",
-      "published": "2026-02-26T01:09:47+00:00",
-      "summary": "Part 1 of 4 – The Multi-model Database Series This is a four-part series about what happens when a single database engine handles relational, document, graph, vector, and analytical workloads natively – and what you stop paying for when it does. You spin up a database, point an agent at it, and...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Aditya Badramraju",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[In preview] Public Preview: Secure ingestion and pod placement for Azure Monitor pipeline",
       "link": "https://azure.microsoft.com/updates?id=552808",
       "published": "2026-02-26T00:30:50+00:00",
@@ -9067,17 +9089,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "[In preview] Public Preview: Mistral Large 3 in Foundry",
-      "link": "https://azure.microsoft.com/updates?id=536937",
-      "published": "2025-12-04T22:30:44+00:00",
-      "summary": "Mistral Large 3, a frontier-class open-weight model with Apache 2.0 licensing, is now available in Microsoft Foundry on Azure. This model delivers enterprise-grade reliability, long-context comprehension, and multimodal reasoning—making it ideal for produ",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Migrate from Amazon API Gateway to Azure API Management",
       "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/migrate-from-amazon-api-gateway-to-azure-api-management/ba-p/4471524",
       "published": "2025-12-04T21:23:07+00:00",
@@ -9098,17 +9109,6 @@
       "author": "BonnieAo",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "[Launched] Generally Availaible: Azure MCP Server support for Azure confidential ledger",
-      "link": "https://azure.microsoft.com/updates?id=531889",
-      "published": "2025-12-04T17:00:18+00:00",
-      "summary": "The Azure MCP (Model Context Protocol) Server provides a streamlined approach for managing Azure resources—including Azure confidential ledger—through natural language prompts. This feature allows users to interact with confidential ledger without the nee",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
     },
     {
       "title": "Project Pavilion Presence at KubeCon NA 2025",
@@ -12543,5 +12543,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure ecosystem updates centered on AI copilots, sovereign cloud infrastructure, and cloud operations automation. The biggest announcements were GitHub Copilot shifting to usage-based billing, Microsoft 365 Copilot adding GPT-5.5 Thinking and ChatGPT Images 2.0, and Azure Local expanding sovereign-scale deployments with disaggregated infrastructure alongside new Azure Landing Zones local management groups and updated Sovereign Landing Zone policies.\n\nOther notable themes were platform engineering and reliability: Azure API Management configuration is moving toward GitOps with APIOps, Azure Functions guidance focused on diagnosing Service Bus trigger failures, and Azure posts dug into both LLM container cold-start performance on Linux and how Azure AI Foundry differs from traditional ML pipelines. GitHub Copilot also showed up as a developer workflow theme, including its impact on system and data modeling practices."
+  "summary": "Today’s Azure news was dominated by platform transitions and AI product changes: Microsoft is retiring Azure Data Studio in favor of VS Code for Azure SQL workflows, and also retiring Prompt Flow in Azure ML/Foundry, while expanding Azure AI Foundry with general availability of bring-your-own AI Gateway in Foundry Agent Service. AI and Copilot announcements were especially heavy, including GPT-5.5 Thinking and ChatGPT Images 2.0 in Microsoft 365 Copilot, GitHub Copilot’s shift to usage-based billing, upcoming GitHub Actions minute consumption for Copilot code review, faster cloud agents via Actions custom images, and the removal of Student GPT-5.3-Codex from the model picker.\n\nInfrastructure and operations themes centered on sovereignty, performance, and automation: Azure Local added sovereign-scale disaggregated deployments, ALZ/SLZ received new management group and sovereign policy updates, and posts covered LLM container cold-start analysis, GitOps-based Azure API Management deployment with APIOps, Azure Functions Service Bus trigger troubleshooting, and how Azure AI Foundry differs from traditional ML pipelines."
 }
