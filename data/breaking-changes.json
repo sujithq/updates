@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T09:04:29.019954+00:00",
+  "lastUpdated": "2026-04-28T10:23:16.808906+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -648,6 +648,28 @@
       "action": "Upgrade hosted apps from .NET 8 to .NET 10 before 2026-11-10",
       "detected": "2026-04-25T09:04:29.019941+00:00",
       "published": "2026-04-24T17:45:05+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://devblogs.microsoft.com/azure-sql/azure-data-studio-is-retired-move-your-azure-sql-workflow-to-vs-code-in-10-minutes/",
+      "title": "Azure Data Studio is retired: Move your Azure SQL workflow to VS Code in 10 minutes",
+      "severity": "critical",
+      "deadline": "2026-02-28",
+      "impact": "Azure Data Studio support ended; SQL users must move to VS Code MSSQL.",
+      "action": "Migrate Azure Data Studio workflows and settings to VS Code MSSQL.",
+      "detected": "2026-04-28T10:23:16.808888+00:00",
+      "published": "2026-04-27T18:20:58+00:00",
+      "blog": "Azure SQL Dev Corner"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=502936",
+      "title": "Retirement: Prompt Flow in Azure ML and Foundry",
+      "severity": "warning",
+      "deadline": "2027-04-20",
+      "impact": "Prompt Flow retires in Azure ML/Foundry; users must adopt Agent Framework.",
+      "action": "Plan migration from Prompt Flow to Microsoft Agent Framework.",
+      "detected": "2026-04-28T10:23:16.808902+00:00",
+      "published": "2026-04-27T16:15:55+00:00",
       "blog": "Azure Updates"
     }
   ]
