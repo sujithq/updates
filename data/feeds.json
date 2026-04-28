@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-28T13:24:21.542780+00:00",
-  "totalArticles": 1140,
+  "lastUpdated": "2026-04-28T16:31:54.684341+00:00",
+  "totalArticles": 1141,
   "articles": [
     {
       "title": "Visual Studio Code 1.118",
@@ -11,6 +11,72 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "OrganAIze - What Happens When You Let AI Agents Organize Themselves?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/organaize-what-happens-when-you-let-ai-agents-organize/ba-p/4509792",
+      "published": "2026-04-28T16:30:00+00:00",
+      "summary": "The problem I wanted to explore Most agentic AI systems today follow a familiar pattern: you design the workflow, you decide which agents exist, you wire the communication between them. That works great for well-defined pipelines. But what if you don't know the shape of the problem upfront?...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "akashchekka",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "How Microsoft 1ES uses agentic AI to take on security and compliance at scale",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-microsoft-1es-uses-agentic-ai-to-take-on-security-and/ba-p/4515191",
+      "published": "2026-04-28T16:15:00+00:00",
+      "summary": "Microsoft’s Customer Zero blog series gives an insider view of how Microsoft builds and operates Microsoft using our trusted, enterprise-grade IQ platform. Learn best practices from our engineering teams with real-world lessons, architectural patterns, and operational strategies for pressure-tested...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "JennyF",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Securing the git push pipeline: Responding to a critical remote code execution vulnerability",
+      "link": "https://github.blog/security/securing-the-git-push-pipeline-responding-to-a-critical-remote-code-execution-vulnerability/",
+      "published": "2026-04-28T15:30:00+00:00",
+      "summary": "How we validated, fixed, and investigated a critical vulnerability in under two hours, and confirmed no exploitation. The post Securing the git push pipeline: Responding to a critical remote code execution vulnerability appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Alexis Wales",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Update host keys to use SFTP on Azure Blob Storage",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/update-host-keys-to-use-sftp-on-azure-blob-storage/ba-p/4515483",
+      "published": "2026-04-28T14:44:02+00:00",
+      "summary": "Update host keys to use SFTP on Azure Blob Storage Some Azure Storage users may have received an alert informing that Microsoft will change the public key, like this. This article describes the impact this will have on the SFTP blob service and what are the changes needed.On this article: What is...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "LuisFilipe",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Securing Your AI Agents Before They Ship: Red Teaming with Microsoft PyRIT",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/securing-your-ai-agents-before-they-ship-red-teaming-with/ba-p/4515514",
+      "published": "2026-04-28T13:48:33+00:00",
+      "summary": "Securing Your AI Agents Before They Ship: Red Teaming with Microsoft PyRIT You wouldn't ship a web app without running OWASP ZAP or Snyk. So why are AI agents going to production without a single security scan? Prompt injection, data leakage, system prompt theft — the OWASP Top 10 for LLM...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "vsriramdas",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Simplifying AWS defense with Microsoft Sentinel UEBA",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/04/28/simplifying-aws-defense-microsoft-sentinel-ueba/",
+      "published": "2026-04-28T13:00:00+00:00",
+      "summary": "Learn how Microsoft Sentinel UEBA helps defenders distinguish benign AWS activity from attacker behavior by enriching raw CloudTrail logs with clear, binary behavioral signals derived from baseline user, peer, and device behavior patterns. The post Simplifying AWS defense with Microsoft Sentinel...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Defender Security Research Team",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -2423,17 +2489,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Hack the AI agent: Build agentic AI security skills with the GitHub Secure Code Game",
-      "link": "https://github.blog/security/hack-the-ai-agent-build-agentic-ai-security-skills-with-the-github-secure-code-game/",
-      "published": "2026-04-14T18:17:59+00:00",
-      "summary": "Learn to find and exploit real-world agentic AI vulnerabilities through five progressive challenges in this free, open source game that over 10,000 developers have already used to sharpen their security skills. The post Hack the AI agent: Build agentic AI security skills with the GitHub Secure Code...",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Joseph Katsioloudes",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Azure Arc Server Mar 2026 Forum Recap",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-server-mar-2026-forum-recap/ba-p/4511299",
       "published": "2026-04-14T17:54:18+00:00",
@@ -2509,17 +2564,6 @@
       "author": "Alistair Matthews",
       "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Monitor AI Agents on App Service with OpenTelemetry and the New Application Insights Agents View",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/monitor-ai-agents-on-app-service-with-opentelemetry-and-the-new/ba-p/4510023",
-      "published": "2026-04-14T16:28:22+00:00",
-      "summary": "Part 2 of 3: In Blog 1, we deployed a multi-agent travel planner on Azure App Service using the Microsoft Agent Framework (MAF) 1.0 GA. This post dives deep into how we instrumented those agents with OpenTelemetry and lit up the brand-new Agents (Preview) view in Application Insights. 📋...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Microsoft Sentinel data federation: Expand visibility while preserving governance",
@@ -2863,17 +2907,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "A simpler way to deploy your code to Azure App Service for Linux",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/a-simpler-way-to-deploy-your-code-to-azure-app-service-for-linux/ba-p/4510240",
-      "published": "2026-04-10T09:48:40+00:00",
-      "summary": "We’ve added a new deployment experience for Azure App Service for Linux that makes it easier to get your code running on your web app. To get started, go to the Kudu/SCM site for your app: <sitename>.scm.azurewebsites.net From there, open the new Deployments experience. You can now deploy your app...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "TulikaC",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "The \"IQ Layer\": Microsoft’s Blueprint for the Agentic Enterprise",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/the-quot-iq-layer-quot-microsoft-s-blueprint-for-the-agentic/ba-p/4504421",
       "published": "2026-04-10T07:00:00+00:00",
@@ -3004,17 +3037,6 @@
       "author": "wesback",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureconfidentialcomputingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Investigating Storm-2755: “Payroll pirate” attacks targeting Canadian employees",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/04/09/investigating-storm-2755-payroll-pirate-attacks-targeting-canadian-employees/",
-      "published": "2026-04-09T15:00:00+00:00",
-      "summary": "Microsoft Incident Response – Detection and Response Team (DART) researchers observed an emerging, financially motivated threat actor, tracked as Storm-2755, compromising Canadian employee accounts to gain unauthorized access to employee profiles and divert salary payments to attacker-controlled...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Incident Response",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "v1.15.0-rc1",
@@ -3499,17 +3521,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Turn Enterprise Knowledge into Answers with Copilot Studio and Azure AI Search",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/turn-enterprise-knowledge-into-answers-with-copilot-studio-and/ba-p/4493118",
-      "published": "2026-04-06T16:00:00+00:00",
-      "summary": "From the Field: Why This Integration Works As an experienced AI Cloud Solution Architect working in Greater China Region (GCR), I’ve seen one emerging pattern that delivers quick wins for some of my customers: combining Microsoft Copilot Studio with an existing Azure AI Search index. Teams choose...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "HeZhang",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "MCP Apps on Azure Functions: Quickstart with TypeScript",
@@ -12543,5 +12554,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on cloud-native operations, resilience, and AI: Microsoft highlighted AKS service-mesh traffic shaping with **Istio-based weighted routing**, **Azure Redis Enterprise geo-replication via Terraform**, and deep networking guidance for **SQL Managed Instance failover groups** in **hub-spoke architectures with centralized firewalls**, alongside troubleshooting for **Azure App Service HTTP 404s**. Broader platform updates included **Project Pavilion** at **KubeCon EU 2026**, **Azure Cosmos DB Conf 2026**, new governance controls with a **local management group for Azure Landing Zones (ALZ)** plus updated **sovereign policies for Sovereign Landing Zone (SLZ)**, and the launch narrative around **Microsoft Agent Framework 1.0** for agentic AI.\n\nOn the ecosystem side, Microsoft also called out a **GitHub availability** update and shipped **PowerToys 0.99** with new **monitor controls**, improved **window management**, and **Dock** enhancements, underscoring continued investment from developer workflow tooling to enterprise Azure infrastructure."
+  "summary": "Today’s Azure and Microsoft blogs were dominated by agentic AI, security, and cloud platform operations: Microsoft highlighted self-organizing AI agents in Azure AI Foundry, Microsoft Agent Framework 1.0, enterprise security/compliance automation with agentic AI in 1ES, and AI red teaming with PyRIT before deployment. Security updates were also prominent, including GitHub’s response to a critical git push remote code execution vulnerability, Microsoft Sentinel UEBA for AWS defense, and an availability update from GitHub.\n\nOn the infrastructure side, Microsoft covered practical Azure operations and modernization topics across AKS, Azure Blob Storage, SQL Managed Instance, Azure Redis Enterprise, and governance: examples included Istio-based weighted traffic management on AKS, SFTP host key updates for Azure Blob Storage, SQL MI failover group troubleshooting in hub-spoke networks, geo-replication for Azure Redis Enterprise with Terraform, and new ALZ/SLZ management and sovereign policy updates. Additional community and product news included Azure Cosmos DB Conf 2026, Project Pavilion at KubeCon EU 2026, and PowerToys 0.99 with new monitor controls, improved window management, and Dock enhancements."
 }
