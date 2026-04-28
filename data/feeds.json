@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T05:49:24.872488+00:00",
+  "lastUpdated": "2026-04-28T08:00:46.854147+00:00",
   "totalArticles": 1140,
   "articles": [
     {
@@ -14,9 +14,31 @@
       "sourceType": "rss"
     },
     {
+      "title": "Deploying Azure Redis Enterprise with Geo-Replication Using Terraform",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/deploying-azure-redis-enterprise-with-geo-replication-using/ba-p/4515317",
+      "published": "2026-04-28T07:03:41+00:00",
+      "summary": "This post walks through a production‑proven pattern for running stateful services across Azure regions using Terraform. We’ll cover a primary–replica Redis architecture, regional isolation with Key Vault and networking, and a clean Terraform parameterization strategy that scales from development to...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "vsakash",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "The Future of Agentic AI: Inside Microsoft Agent Framework 1.0",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/the-future-of-agentic-ai-inside-microsoft-agent-framework-1-0/ba-p/4510698",
+      "published": "2026-04-28T07:00:00+00:00",
+      "summary": "Agentic AI is rapidly moving beyond demos and chatbots toward long‑running, autonomous systems that reason, call tools, collaborate with other agents, and operate reliably in production. On April 3, 2026, Microsoft marked a major milestone with the General Availability (GA) release of Microsoft...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "rajesh-yadav",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Why Does Azure App Service Return HTTP 404?",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/why-does-azure-app-service-return-http-404/ba-p/4514004",
-      "published": "2026-04-28T05:42:54+00:00",
+      "published": "2026-04-28T06:39:38+00:00",
       "summary": "When an application deployed to Azure App Service suddenly starts returning HTTP 404 – Not Found, it can be confusing —especially when: The deployment completed successfully The App Service shows as Running No obvious errors appear in the portal This behaviour is more common than it appears and is...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
@@ -3127,17 +3149,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "AZD for Beginners: A Practical Introduction to Azure Developer CLI",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/azd-for-beginners-a-practical-introduction-to-azure-developer/ba-p/4503747",
-      "published": "2026-04-08T07:00:00+00:00",
-      "summary": "If you are learning how to get an application from your machine into Azure without stitching together every deployment step by hand, Azure Developer CLI, usually shortened to azd, is one of the most useful tools to understand early. It gives developers a workflow-focused command line for...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Simplify Azure Arc Server Onboarding with Ansible and the New Onboarding Role",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/simplify-azure-arc-server-onboarding-with-ansible-and-the-new/ba-p/4509481",
       "published": "2026-04-08T06:40:42+00:00",
@@ -3574,17 +3585,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "ShivaniThadiyan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "🚀 General Availability of Private Application Gateway on Azure Application Gateway v2",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/general-availability-of-private-application-gateway-on-azure/ba-p/4508294",
-      "published": "2026-04-03T07:24:09+00:00",
-      "summary": "🔍 What Is Private Application Gateway? Historically, Application Gateway v2 required a public IP address to communicate with the Azure control plane (GatewayManager). This requirement imposed several constraints: Mandatory public IP exposure Restricted Network Security Group (NSG) rules Limited...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "kumaramit1",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -12543,5 +12543,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage is narrowly focused on **Azure App Service troubleshooting**, with a post explaining why hosted web apps can return **HTTP 404** responses. The article centers on diagnosing common causes in **Azure App Service** deployments—such as app configuration, routing, deployment content, and startup/runtime issues—framing it as practical guidance for developers and operators running web applications on Microsoft’s managed app hosting platform."
+  "summary": "Today’s Azure posts focused on scalable cloud infrastructure, agentic AI tooling, and app troubleshooting. Microsoft highlighted Terraform-based deployment of **Azure Redis Enterprise with geo-replication** for resilient multi-region architectures, introduced **Microsoft Agent Framework 1.0** as a foundation for building **agentic AI** systems, and published guidance on diagnosing **Azure App Service HTTP 404** errors, emphasizing common causes in web app routing and deployment configuration."
 }
