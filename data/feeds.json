@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T16:31:54.684341+00:00",
+  "lastUpdated": "2026-04-28T19:15:17.786512+00:00",
   "totalArticles": 1141,
   "articles": [
     {
@@ -11,6 +11,116 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Visual Studio April Update – Cloud Agent Integration",
+      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-april-update-cloud-agent-integration/",
+      "published": "2026-04-28T19:00:04+00:00",
+      "summary": "GitHub Copilot in Visual Studio is becoming more agentic with every release. This update brings cloud agent integration front and center, letting you start remote coding sessions without leaving the IDE. The post Visual Studio April Update – Cloud Agent Integration appeared first on Visual Studio...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mark Downie",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "The problem: All-or-nothing batch processing in Azure Service Bus",
+      "link": "https://devblogs.microsoft.com/azure-sdk/per-message-settlement-azure-service-bus/",
+      "published": "2026-04-28T18:47:37+00:00",
+      "summary": "Azure Functions lets you settle each Service Bus message on its own within a batch. Complete, abandon, dead-letter, or defer messages one by one to avoid duplicate processing and handle errors with precision. The post The problem: All-or-nothing batch processing in Azure Service Bus appeared first...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Swapnil Nagar",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "GitHub for Beginners: Getting started with Markdown",
+      "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-markdown/",
+      "published": "2026-04-28T18:00:00+00:00",
+      "summary": "Discover how to format and edit your comments and posts using Markdown. The post GitHub for Beginners: Getting started with Markdown appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Kedasha Kerr",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "v1.15.0-rc4",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-rc4",
+      "published": "2026-04-28T17:58:50+00:00",
+      "summary": "1.15.0-rc4 (April 28, 2026) NEW FEATURES: We now produce builds for Windows ARM64 (#32719) You can set a deprecated attribute on variable and output blocks to indicate that they are deprecated. This will produce warnings when passing in a value for a deprecated variable or when referencing a...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "HashiCorp Vault Integration with Terraform — Secure Secret Management",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/hashicorp-vault-integration-with-terraform-secure-secret/ba-p/4508444",
+      "published": "2026-04-28T17:55:27+00:00",
+      "summary": "Introduction When provisioning cloud infrastructure using Terraform, it is common to require sensitive values such as: Administrative credentials (usernames, passwords) API keys and tokens SSH keys Database connection strings Domain join credentials In most environments, these secrets are commonly:...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "singhshub",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[In preview] Public Preview: Microsoft HTTP DDoS Ruleset for Azure WAF on Azure Front Door Premium",
+      "link": "https://azure.microsoft.com/updates?id=561148",
+      "published": "2026-04-28T17:45:04+00:00",
+      "summary": "Announcing the public preview of the HTTP DDoS Ruleset on Azure Front Door Premium.HTTP-layer DDoS attacks remain a leading cause of application downtime, and traditional static controls often fall short against evolving botnets. The new HTTP DDoS Ruleset",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Cross-region IPAM pool association in Azure Virtual Network Manager",
+      "link": "https://azure.microsoft.com/updates?id=561067",
+      "published": "2026-04-28T17:45:04+00:00",
+      "summary": "Managing IP address space across multiple regions can be difficult to scale and prone to configuration mistakes.With cross-region IPAM pool association, you can associate a single IPAM pool with virtual networks across multiple Azure regions. This helps c",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Architecting Cost-Aware LLM Workloads with Model Router in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/architecting-cost-aware-llm-workloads-with-model-router-in/ba-p/4514440",
+      "published": "2026-04-28T17:45:00+00:00",
+      "summary": "The architectural problem In any non-trivial GenAI platform, you end up managing a fleet of models. Cheap models for classification and light chat. Reasoning models for multi-step tasks. Frontier models for the hard stuff. Specialty models for code, vision, or long context. The architectural...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "syarlagadda",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Welcome to SkiaSharp 4.0 Preview 1",
+      "link": "https://devblogs.microsoft.com/dotnet/welcome-to-skia-sharp-40-preview1/",
+      "published": "2026-04-28T17:06:00+00:00",
+      "summary": "SkiaSharp 4.0 Preview 1 is here. Learn all about the new features and how Uno Platform has stepped up as a co-maintainer. The post Welcome to SkiaSharp 4.0 Preview 1 appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "David Ortinau",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "High-Performance Distributed Caching with .NET and Postgres on Azure",
+      "link": "https://devblogs.microsoft.com/dotnet/high-performance-distributed-caching-dotnet-postgres-azure/",
+      "published": "2026-04-28T17:05:00+00:00",
+      "summary": "Adding caching to your application architecture can significantly improve key performance metrics, cut latency, and reduce load across downstream systems. In this walkthrough, we highlight the latest caching best practices and incorporate these design patterns into a reusable .NET application that...",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Jared Meade",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
     },
     {
@@ -2335,17 +2445,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Developer policy update: Intermediary liability, copyright, and transparency",
-      "link": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-intermediary-liability-copyright-and-transparency/",
-      "published": "2026-04-15T15:00:00+00:00",
-      "summary": "We’re sharing recent policy updates that developers should know about, updating our Transparency Center with the full year of 2025 data, and looking to what’s ahead. The post Developer policy update: Intermediary liability, copyright, and transparency appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Margaret Tucker",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Your Oracle Data Is Sitting Next to Microsoft AI. Are You Using It?",
       "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/your-oracle-data-is-sitting-next-to-microsoft-ai-are-you-using/ba-p/4509438",
       "published": "2026-04-15T13:27:01+00:00",
@@ -3358,17 +3457,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "ASP.NET Core 2.3 end of support announcement",
-      "link": "https://devblogs.microsoft.com/dotnet/aspnet-core-2-3-end-of-support/",
-      "published": "2026-04-07T17:00:00+00:00",
-      "summary": "ASP.NET Core 2.3 will reach end of support on April 13, 2027. Learn what this means for your applications and how to upgrade to a modern supported version of .NET. The post ASP.NET Core 2.3 end of support announcement appeared first on .NET Blog.",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": "Daniel Roth",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Logic Apps Aviators Newsletter - April 2026",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-april-2026/ba-p/4508804",
       "published": "2026-04-07T16:55:33+00:00",
@@ -3477,17 +3565,6 @@
       "author": "Minh-Anh Phan",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Now in Foundry: Cohere Transcribe, Nanbeige 4.1-3B, and Octen Embedding",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/now-in-foundry-cohere-transcribe-nanbeige-4-1-3b-and-octen/ba-p/4508183",
-      "published": "2026-04-06T19:43:52+00:00",
-      "summary": "This week's Model Mondays edition spans three distinct layers of the AI application stack: Cohere's cohere-transcribe, a 2B Automatic Speech Recognition (ASR) model that ranks first on the Open ASR Leaderboard across 14 languages; Nanbeige's Nanbeige4.1-3B, a compact 3B reasoning model that...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Osi",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Announcing Public Preview for Essential Machine Management",
@@ -3622,17 +3699,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "DevSecOps on AKS: Governance Gates That Actually Prevent Incidents",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/devsecops-on-aks-governance-gates-that-actually-prevent/ba-p/4508415",
-      "published": "2026-04-03T10:46:12+00:00",
-      "summary": "This article is for AKS platform/infra engineers, SREs, and security teams who want a practical, enforceable model for stopping common Kubernetes misconfigurations before they become incidents—without turning delivery into bureaucracy. Why incidents still happen after “adding security to the...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "lakshaymalik",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Blue‑Green Strategy for Always‑On TCP Workloads on Azure Container Apps",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/blue-green-strategy-for-always-on-tcp-workloads-on-azure/ba-p/4507894",
       "published": "2026-04-03T05:58:36+00:00",
@@ -3664,17 +3730,6 @@
       "author": "Yura_Lee",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Explore union types in C# 15",
-      "link": "https://devblogs.microsoft.com/dotnet/csharp-15-union-types/",
-      "published": "2026-04-02T17:05:00+00:00",
-      "summary": "C# 15 introduces union types — declare a closed set of case types with implicit conversions and exhaustive pattern matching. Try unions in preview today and see the broader exhaustiveness roadmap. The post Explore union types in C# 15 appeared first on .NET Blog.",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": "Bill Wagner",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Aspire Docs in Your Terminal (and Your AI’s Brain)",
@@ -6680,17 +6735,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "v1.14.6",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.14.6",
-      "published": "2026-02-25T14:16:02+00:00",
-      "summary": "1.14.6 (February 25, 2026) BUG FIXES: terraform test: return error when provider config is invalid (#38084)",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "Release 2026-01-04",
       "link": "https://github.com/Azure/AKS/releases/tag/2026-01-04",
       "published": "2026-02-25T03:49:23+00:00",
@@ -6699,17 +6743,6 @@
       "blogId": "aksreleases",
       "author": "varora24",
       "feedUrl": "https://github.com/Azure/AKS/releases.atom",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Visual Studio February Update",
-      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-february-update/",
-      "published": "2026-02-24T22:16:30+00:00",
-      "summary": "This month’s Visual Studio update continues our focus on helping you move faster and stay in flow, with practical improvements across AI assistance, debugging, testing, and modernization. Building on the momentum from January’s editor updates, the February release brings smarter diagnostics and...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Mark Downie",
-      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
     },
     {
@@ -7766,17 +7799,6 @@
       "blogId": "aksblog",
       "author": "Microsoft",
       "feedUrl": "https://blog.aks.azure.com/rss.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Azure SDK Release (January 2026)",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-january-2026/",
-      "published": "2026-01-29T22:00:41+00:00",
-      "summary": "Azure SDK releases every month. In this post, you'll find this month's highlights and release notes. The post Azure SDK Release (January 2026) appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Ronnie Geraghty",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
     },
     {
@@ -9045,17 +9067,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "[Launched] Generally Available: FIPS compliant mode for Application Gateway V2 SKUs",
-      "link": "https://azure.microsoft.com/updates?id=536712",
-      "published": "2025-12-09T13:15:11+00:00",
-      "summary": "The Federal Information Processing Standard (FIPS) 140-2 is a US government standard that defines minimum security requirements for cryptographic modules in information technology products and systems. Azure Application Gateway V2 now supports FIPS mode,",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "From Bronze to Gold: Data Quality Strategies for ETL in Microsoft Fabric",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/from-bronze-to-gold-data-quality-strategies-for-etl-in-microsoft/ba-p/4476303",
       "published": "2025-12-09T08:12:15+00:00",
@@ -9098,17 +9109,6 @@
       "author": "MPH2",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "[Launched] Generally Available: Zonal placement for Azure file shares Azure Files Premium LRS in select regions.",
-      "link": "https://azure.microsoft.com/updates?id=541410",
-      "published": "2025-12-05T21:45:02+00:00",
-      "summary": "Zonal Placement for Azure Files Premium LRS is now GA in select regions! This capability gives you explicit control over zone locality by pinning storage accounts to a specific availability zone, enabling high availability, fault isolation, and predictabl",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
     },
     {
       "title": "Azure Intel® TDX confidential VMs momentum",
@@ -12554,5 +12554,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft blogs were dominated by agentic AI, security, and cloud platform operations: Microsoft highlighted self-organizing AI agents in Azure AI Foundry, Microsoft Agent Framework 1.0, enterprise security/compliance automation with agentic AI in 1ES, and AI red teaming with PyRIT before deployment. Security updates were also prominent, including GitHub’s response to a critical git push remote code execution vulnerability, Microsoft Sentinel UEBA for AWS defense, and an availability update from GitHub.\n\nOn the infrastructure side, Microsoft covered practical Azure operations and modernization topics across AKS, Azure Blob Storage, SQL Managed Instance, Azure Redis Enterprise, and governance: examples included Istio-based weighted traffic management on AKS, SFTP host key updates for Azure Blob Storage, SQL MI failover group troubleshooting in hub-spoke networks, geo-replication for Azure Redis Enterprise with Terraform, and new ALZ/SLZ management and sovereign policy updates. Additional community and product news included Azure Cosmos DB Conf 2026, Project Pavilion at KubeCon EU 2026, and PowerToys 0.99 with new monitor controls, improved window management, and Dock enhancements."
+  "summary": "Today’s Azure news was dominated by AI, security, and platform modernization: Microsoft highlighted cost-aware LLM orchestration with Model Router in Azure AI Foundry, autonomous multi-agent experimentation in “OrganAIze,” red teaming with PyRIT, and how 1ES is using agentic AI for security and compliance at scale. On the infrastructure side, notable updates included the public preview of the Microsoft HTTP DDoS Ruleset for Azure WAF on Front Door Premium, GA for cross-region IPAM pool association in Azure Virtual Network Manager, Azure Service Bus guidance for avoiding all-or-nothing batch processing, Terraform/Vault secret-management integration, Istio-based weighted traffic management on AKS, and a reminder to update host keys for SFTP on Azure Blob Storage.\n\nDeveloper tooling and app platform updates also stood out, including Visual Studio’s April update with Cloud Agent integration, high-performance distributed caching with .NET and Postgres on Azure, SkiaSharp 4.0 Preview 1, and Azure Cosmos DB Conf 2026 announcements. Outside core Azure, GitHub emphasized both beginner Markdown onboarding and a serious git push pipeline RCE response, while Microsoft also spotlighted Sentinel UEBA for AWS defense, Project Pavilion at KubeCon EU 2026, and new ALZ/SLZ governance policy updates."
 }
