@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T10:52:28.273588+00:00",
+  "lastUpdated": "2026-04-28T13:24:21.542780+00:00",
   "totalArticles": 1140,
   "articles": [
     {
@@ -11,6 +11,72 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Project Pavilion Presence at KubeCon EU 2026",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/project-pavilion-presence-at-kubecon-eu-2026/ba-p/4515518",
+      "published": "2026-04-28T12:50:16+00:00",
+      "summary": "KubeCon + CloudNativeCon Europe 2026 took place from 23 to 26 March at RAI Amsterdam, and it was a strong one. The themes running through the week reflected where the cloud native community is right now: AI moving from experimentation into production, platform engineering continuing to mature, and...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "lexinadolski",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Istio‑Based Weighted Traffic Management on AKS for Enterprise Workloads",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/istio-based-weighted-traffic-management-on-aks-for-enterprise/ba-p/4511520",
+      "published": "2026-04-28T12:23:21+00:00",
+      "summary": "Istio‑Based Weighted Traffic Management Pre-Requisites: AKS containers (internal pods, no Envoy sidecar) Istio Installed and Configured at AKS Cluster (Ingress Gateway–based traffic management) Section 1 — Overview & Why Istio Is Required In modern distributed systems, traffic control is no longer...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Amreen",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Welcome to Azure Cosmos DB Conf 2026",
+      "link": "https://devblogs.microsoft.com/cosmosdb/welcome-to-azure-cosmos-db-conf-2026/",
+      "published": "2026-04-28T12:00:07+00:00",
+      "summary": "Today is the day. Azure Cosmos DB Conf 2026, in partnership with AMD, is a free virtual developer event focused on building modern, scalable applications with Azure Cosmos DB. The agenda features Microsoft engineers, product team leaders, and members of the global developer community sharing...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Jay Gordon",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "New Local Management Group for ALZ & Updated Sovereign Policies for SLZ",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/new-local-management-group-for-alz-updated-sovereign-policies/ba-p/4515156",
+      "published": "2026-04-28T11:37:32+00:00",
+      "summary": "Following on from months of working alongside customers, partners, and our internal product groups, we have now made two updates to the Azure landing zone (ALZ) and the Sovereign landing zone (SLZ), that I’d like to walk you through in this post: A new dedicated ‘Local’ Management Group added...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "jtracey93msft",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Troubleshooting SQL MI Failover Group Creation in Hub–Spoke Network with Centralized Firewall",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/troubleshooting-sql-mi-failover-group-creation-in-hub-spoke/ba-p/4515482",
+      "published": "2026-04-28T11:34:48+00:00",
+      "summary": "Overview Failover groups for Azure SQL Managed Instance provide a managed way to replicate all user databases from a primary managed instance to a secondary managed instance in another region, with stable listener endpoints that remain constant across geo-failovers. In this post, we share a field...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "YogeshwaranKannaiyan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "PowerToys 0.99 is here: new monitor controls, easier window management, and Dock upgrades",
+      "link": "https://devblogs.microsoft.com/commandline/powertoys-0-99-is-here-new-monitor-controls-easier-window-management-and-dock-upgrades/",
+      "published": "2026-04-28T11:32:59+00:00",
+      "summary": "We’re back with a fresh PowerToys release! This month introduces Power Display for controlling your monitors from the system tray, Grab And Move for quickly moving and resizing windows, and a wave of improvements to Command Palette and the Dock, along with updates across the utility suite. You can...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Niels Laute",
+      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
       "sourceType": "rss"
     },
     {
@@ -177,17 +243,6 @@
       "author": "Mario Rodriguez",
       "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "New Local Management Group for ALZ & Updated Sovereign Policies for SLZ",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/new-local-management-group-for-alz-updated-sovereign-policies/ba-p/4515156",
-      "published": "2026-04-27T15:49:59+00:00",
-      "summary": "Following on from months of working alongside customers, partners, and our internal product groups, we have now made two updates to the Azure landing zone (ALZ) and the Sovereign landing zone (SLZ), that I’d like to walk you through in this post: A new dedicated ‘Local’ Management Group added...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "jtracey93msft",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Azure Local expands to sovereign-scale infrastructure with disaggregated deployments",
@@ -3563,28 +3618,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "lakshaymalik",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure SQL Managed Instance as an AI‑Enabled PaaS Platform",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-sql-managed-instance-as-an-ai-enabled-paas-platform/ba-p/4508380",
-      "published": "2026-04-03T09:42:50+00:00",
-      "summary": "AI Capabilities Built into Azure SQL Managed Instance Azure SQL MI includes multiple intelligence layers by default: Intelligent Insights for anomaly detection Automatic tuning (recommend mode) Copilot‑assisted diagnostics Native vector data types for AI workloads These capabilities work together...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ShivaniThadiyan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "AI‑Assisted Azure Infrastructure Validation and Drift Detection",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/ai-assisted-azure-infrastructure-validation-and-drift-detection/ba-p/4508346",
-      "published": "2026-04-03T08:48:00+00:00",
-      "summary": "Why Traditional Drift Detection Isn’t Enough Most teams already rely on: Terraform plan reviews Azure Policy compliance dashboards Azure Resource Graph queries Manual scripts and audits The problem isn’t missing data—it’s interpretation at scale. Validation outputs are: Verbose and noisy Spread...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ShivaniThadiyan",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -7197,17 +7230,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Building AI-Powered Apps with Azure Cosmos DB and the Vercel AI SDK",
-      "link": "https://devblogs.microsoft.com/cosmosdb/building-ai-powered-apps-azure-cosmos-db-vercel/",
-      "published": "2026-02-10T18:27:15+00:00",
-      "summary": "The Vercel AI SDK is an open-source TypeScript toolkit that provides the core building blocks for integrating AI into any JavaScript application. It works with 20+ AI providers out of the box—including OpenAI, Azure OpenAI, Anthropic, Google, Mistral, and more—so you can write your code once and...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Sajeetharan Sinnathurai",
-      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[Launched] Generally Available: Azure Databricks Supervisor Agent",
       "link": "https://azure.microsoft.com/updates?id=557081",
       "published": "2026-02-10T18:00:43+00:00",
@@ -10717,17 +10739,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "The Open-Source Paradox: How Microsoft is giving back",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/the-open-source-paradox-how-microsoft-is-giving-back/ba-p/4458630",
-      "published": "2025-10-02T17:45:28+00:00",
-      "summary": "The open-source community faces a paradox that threatens its very foundation. While open-source software now powers every major technology platform—from smartphones in our pockets to the cloud infrastructure running the world's largest applications—the developers and maintainers who create and...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "LachlanEvenson",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Incorrect Secure Score recommendation - Remove unnecessary replication permissions",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-identity/incorrect-secure-score-recommendation-remove-unnecessary/m-p/4458603#M4270",
       "published": "2025-10-02T12:54:58+00:00",
@@ -12433,17 +12444,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Fedora Linux is now an official WSL distro",
-      "link": "https://devblogs.microsoft.com/commandline/fedora-linux-is-now-an-official-wsl-distro/",
-      "published": "2025-05-06T16:00:05+00:00",
-      "summary": "We’re pleased to announce that one of the latest additions to the list of official WSL distros is Fedora Linux! The Fedora Project has taken advantage of WSL’s new tar-based architecture to produce WSL images beginning with Fedora 42. Try it out To install it, run wsl –-install FedoraLinux-42and...",
-      "blog": "Windows Command Line",
-      "blogId": "commandline",
-      "author": "Jeremy Cline",
-      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Catch Up on the Azure Communication Services Fundamentals Series",
       "link": "https://techcommunity.microsoft.com/t5/azure-communication-services/catch-up-on-the-azure-communication-services-fundamentals-series/ba-p/4410438",
       "published": "2025-05-05T17:30:45+00:00",
@@ -12543,5 +12543,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts centered on reliability, automation, and the next wave of AI application development. Key highlights included a GitHub availability update, a hands-on Azure Infrastructure guide for deploying **Azure Redis Enterprise** with **geo-replication** via **Terraform**, and an Azure Dev Community deep dive into **Microsoft Agent Framework 1.0**, signaling Microsoft’s push toward more capable **agentic AI** systems.\n\nOn the app platform side, Azure also published practical troubleshooting guidance for **Azure App Service HTTP 404 errors**, reflecting continued focus on operational debugging and developer productivity. Overall, the themes were resilient cloud architecture, infrastructure as code, AI agents, and app diagnostics."
+  "summary": "Today’s Azure posts centered on cloud-native operations, resilience, and AI: Microsoft highlighted AKS service-mesh traffic shaping with **Istio-based weighted routing**, **Azure Redis Enterprise geo-replication via Terraform**, and deep networking guidance for **SQL Managed Instance failover groups** in **hub-spoke architectures with centralized firewalls**, alongside troubleshooting for **Azure App Service HTTP 404s**. Broader platform updates included **Project Pavilion** at **KubeCon EU 2026**, **Azure Cosmos DB Conf 2026**, new governance controls with a **local management group for Azure Landing Zones (ALZ)** plus updated **sovereign policies for Sovereign Landing Zone (SLZ)**, and the launch narrative around **Microsoft Agent Framework 1.0** for agentic AI.\n\nOn the ecosystem side, Microsoft also called out a **GitHub availability** update and shipped **PowerToys 0.99** with new **monitor controls**, improved **window management**, and **Dock** enhancements, underscoring continued investment from developer workflow tooling to enterprise Azure infrastructure."
 }
