@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T21:44:05.331265+00:00",
+  "lastUpdated": "2026-04-28T01:27:54.449569+00:00",
   "totalArticles": 1140,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Introducing AI Skill Assessment in Azure API Center",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/introducing-ai-skill-assessment-in-azure-api-center/ba-p/4515243",
+      "published": "2026-04-27T23:33:09+00:00",
+      "summary": "As AI skills become central to enterprise automation and intelligent workflows, ensuring their quality, safety, and discoverability at scale is a growing challenge. Today, we're excited to announce skills assessment in Azure API Center — a built-in, automated quality scoring system powered by the...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Sreekanth_Thirthala",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Bring Your Own Model to Foundry Agent Service Is Now Generally Available",
@@ -50,7 +61,7 @@
       "title": "Azure Data Studio is retired: Move your Azure SQL workflow to VS Code in 10 minutes",
       "link": "https://devblogs.microsoft.com/azure-sql/azure-data-studio-is-retired-move-your-azure-sql-workflow-to-vs-code-in-10-minutes/",
       "published": "2026-04-27T18:20:58+00:00",
-      "summary": "Azure Data Studio retired on February 28, 2026. The recommended path forward is Visual Studio Code with the MSSQL extension. If you used ADS daily, this guide gets you productive quickly in VS Code. The focus is on importing your existing setup, restoring familiar shortcuts like F5, and getting SQL...",
+      "summary": "Azure Data Studio (ADS) retired on February 6, 2025, and support ended on February 28, 2026. The recommended path forward is Visual Studio Code with the MSSQL extension. If you used ADS daily, this guide gets you productive quickly in VS Code. The focus is on importing your existing setup,...",
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
       "author": "Iqra Shaikh",
@@ -7802,17 +7813,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Introducing Unit Test Agent Profiles for Logic Apps & Data Maps",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/introducing-unit-test-agent-profiles-for-logic-apps-data-maps/ba-p/4490216",
-      "published": "2026-01-28T23:33:34+00:00",
-      "summary": "I did some experimentation this week with GitHub Copilot custom agents and custom prompts. The result was a couple of agents to help with creation of unit tests for Logic Apps Standard workflows and data maps. These agent profiles are designed to keep test artifacts consistent and maintainable by...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Retirement: Support for Python 3.10 ends on October 1, 2026 – upgrade your Azure Functions apps to Python 3.13",
       "link": "https://azure.microsoft.com/updates?id=545771",
       "published": "2026-01-28T23:15:47+00:00",
@@ -12542,6 +12542,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure news is led by AI platform changes: Azure AI Foundry’s **Bring Your Own Model** and **Bring your own AI Gateway** capabilities are now **generally available**, while **Prompt Flow** in Azure ML/Foundry is being retired—signaling a shift toward Foundry Agent Service as Microsoft’s preferred agent and model orchestration layer. Microsoft also highlighted new model availability with **GPT-5.5 Thinking** and **ChatGPT Images 2.0** in **Microsoft 365 Copilot**, while GitHub announced major Copilot operational changes including **usage-based billing**, faster cloud agents via **Actions custom images**, and future **GitHub Actions minutes** consumption for Copilot code review.\n\nOn the developer and infrastructure side, Microsoft is pushing modernization and operational consistency across the stack: **Azure Data Studio** is retired in favor of **VS Code** for Azure SQL workflows, .NET 10 gets guidance on combining **OpenAPI** with **API versioning**, and Azure API Management gets a GitOps-focused deployment story via **APIOps**. Broader platform themes include **Azure Local** expansion for sovereign/disaggregated infrastructure, updated **ALZ/SLZ** governance policies, Kubernetes **v1.36 Mutable Pod Resources for Suspended Jobs (beta)**, LLM container **cold-start** performance analysis, and practical troubleshooting for **Azure Functions Service Bus triggers**."
+  ]
 }
