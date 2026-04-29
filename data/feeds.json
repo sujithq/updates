@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T21:49:22.315889+00:00",
+  "lastUpdated": "2026-04-29T01:30:43.549335+00:00",
   "totalArticles": 1141,
   "articles": [
     {
@@ -11,6 +11,61 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Transforming Video Content into Structured SOPs Using Graph-based RAG",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/transforming-video-content-into-structured-sops-using-graph/ba-p/4515038",
+      "published": "2026-04-29T01:04:53+00:00",
+      "summary": "Introduction In today’s digital-first environments, a large portion of enterprise knowledge lives inside video content, training sessions, onboarding walkthroughs, and recorded operational procedures. While videos are great for learning, they are not ideal for quick reference, compliance, or...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "dikshashakya",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Building a Scalable IoT Platform for Facility Management with Azure Serverless Services",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/building-a-scalable-iot-platform-for-facility-management-with/ba-p/4495263",
+      "published": "2026-04-29T01:01:56+00:00",
+      "summary": "Business Requirements The business required a platform that could: - Handle multi-provider device telemetry ingestion - Apply configurable business rules in real-time - Send automated notifications via email and SMS - Provide operations teams with a modern portal for monitoring and control -...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "nishantmv",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Flexible Cooling for AI Growth: How Zonal Architecture Supports Diverse Hardware Needs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/flexible-cooling-for-ai-growth-how-zonal-architecture-supports/ba-p/4514042",
+      "published": "2026-04-29T00:58:54+00:00",
+      "summary": "By: Ricardo Bianchini, Steve Solomon, Brijesh Warrier, Martin Herbert, Jay Jochim, Husam Alissa, Pulkit Misra, Eric Peterson and Cam Turner Context - Microsoft is pioneering zonal cooling in its next-generation AI datacenters, enabling flexible, performant, efficient, and sustainable thermal...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "stsolo",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[In preview] Public Preview: Memory in Foundry Agent Service",
+      "link": "https://azure.microsoft.com/updates?id=560992",
+      "published": "2026-04-29T00:00:55+00:00",
+      "summary": "Foundry’s memory (preview) is a managed long-term memory capability built directly into Foundry Agent Service and now integrates natively with Microsoft Agent Framework and LangGraph— no external databases to provision, scale, or secure.",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Public Preview: Container Network Insights Agent",
+      "link": "https://azure.microsoft.com/updates?id=561020",
+      "published": "2026-04-28T21:30:30+00:00",
+      "summary": "Troubleshooting Kubernetes networking issues is often slowed by logs and metrics scattered across multiple tools, requiring engineers to manually correlate signals during incidents. The Container Network Insights Agent provides a lightweight, web‑based in",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -2542,17 +2597,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Building a Scalable IoT Platform for Facility Management with Azure Serverless Services",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/building-a-scalable-iot-platform-for-facility-management-with/ba-p/4495263",
-      "published": "2026-04-14T20:44:41+00:00",
-      "summary": "The platform follows a microservices architecture with six independently deployable services, all built on Azure Functions v4 with TypeScript. Each service is containerized and deployed to Azure Container Apps. ┌──────────────────────────────────────────────────────────────────────────────┐ │...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "nishantmv",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": ".NET and .NET Framework April 2026 servicing releases updates",
@@ -6889,17 +6933,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Reactive Incident Response with Azure SRE Agent: From Alert to Resolution in Minutes",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/reactive-incident-response-with-azure-sre-agent-from-alert-to/ba-p/4492938",
-      "published": "2026-02-19T06:44:39+00:00",
-      "summary": "SRE Agent portal overview with incident list The Reactive Incident Challenge Your monitoring is solid. Alerts fire when they should. But then what? Alert lands in Teams/PagerDuty On-call engineer wakes up, logs in Starts investigating: \"What's broken? Why? How do I fix it?\" 20 minutes later,...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Sabyasachi-Samaddar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "What’s new in Microsoft Foundry | Dec 2025 & Jan 2026",
       "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-dec-2025-jan-2026/",
       "published": "2026-02-19T01:01:09+00:00",
@@ -7205,17 +7238,6 @@
       "blogId": "azuremigrationblog",
       "author": "srhulsus",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Securing A Multi-Agent AI Solution Focused on User Context & the Complexities of On-Behalf-Of.",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/securing-a-multi-agent-ai-solution-focused-on-user-context-the/ba-p/4493308",
-      "published": "2026-02-12T07:47:13+00:00",
-      "summary": "How we built an enterprise-grade multi-agent system that preserves user identity across AI agents and Databricks Introduction When building AI-powered applications for the enterprise, a common challenge emerges: how do you maintain user identity and access controls when an AI agent queries backend...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Charles_Chukwudozie",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8966,28 +8988,6 @@
       "author": "Ankur_Sinha",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Update: The retirement date for default outbound access has been extended to March 31, 2026.",
-      "link": "https://azure.microsoft.com/updates?id=515484",
-      "published": "2025-12-12T11:30:27+00:00",
-      "summary": "The retirement date for default outbound access has been extended to March 31, 2026. This change aligns with the broader Azure Virtual Network (VNet) update and replaces the previously communicated September 30, 2025 date. Starting March 31, 2026, newly c",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Azure Databricks Dashboard subscriptions now support Microsoft Teams",
-      "link": "https://azure.microsoft.com/updates?id=536907",
-      "published": "2025-12-11T20:30:24+00:00",
-      "summary": "You can now receive insights where collaboration happens—in Microsoft Teams—with expanded dashboard subscription capabilities in Azure Databricks. This enhancement delivers timely, actionable data directly into team workflows, reducing the need to check e",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
     },
     {
       "title": "Transforming Data migration using Azure Copilot",
@@ -12554,5 +12554,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure ecosystem news centered on AI, security, and cloud infrastructure. Microsoft highlighted cost-aware LLM routing in Azure AI Foundry, autonomous “agentic AI” use cases for security/compliance, and AI red-teaming with PyRIT, while also rolling out infrastructure updates including GA support for connecting Windows VMs to Elastic SAN via VM Extension, GA cross-region IPAM pool association in Azure Virtual Network Manager, and preview Microsoft HTTP DDoS protections for Azure Front Door Premium WAF.\n\nDeveloper and platform updates were also prominent: Visual Studio’s April release adds Cloud Agent Integration, Azure Service Bus guidance tackled partial batch-processing patterns, and Azure/.NET posts covered high-performance distributed caching with .NET + Postgres on Azure, SkiaSharp 4.0 Preview 1, Vault integration with Terraform for secret management, and Istio-based weighted traffic management on AKS. Security remained a major theme across GitHub’s response to a critical git push RCE issue, Microsoft Sentinel UEBA for AWS defense, SFTP host key updates for Azure Blob Storage, and broader open-source/community signals such as Terraform v1.15.0-rc4, KubeCon presence, and the upcoming Azure Cosmos DB Conf 2026."
+  "summary": "Today’s Azure posts centered on developer tooling, AI architecture, and infrastructure at scale. Key announcements included **Visual Studio Code 1.118**, a new **public preview of Memory in Foundry Agent Service** for more stateful AI agents, and several architecture pieces showing how Azure is being used with **graph-based RAG**, **serverless IoT platforms**, and **zonal datacenter cooling designs** to support both intelligent applications and AI hardware growth.\n\nMore specifically, Azure highlighted using **Graph-based Retrieval-Augmented Generation (RAG)** to turn video content into structured **standard operating procedures (SOPs)**, an **Azure Serverless** approach for facility-management IoT platforms, and datacenter **zonal architecture** as a way to flexibly cool diverse **AI accelerator hardware**."
 }
