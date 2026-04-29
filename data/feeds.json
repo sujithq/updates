@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T05:44:52.199929+00:00",
+  "lastUpdated": "2026-04-29T07:55:40.849447+00:00",
   "totalArticles": 1141,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Making Sense of Azure AI Foundry IQ",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/making-sense-of-azure-ai-foundry-iq/ba-p/4513131",
+      "published": "2026-04-29T07:00:00+00:00",
+      "summary": "As enterprise teams build AI agents, the hardest design decisions often have nothing to do with models. Instead, they revolve around a more fundamental question: How should an agent access organizational knowledge in a way that is accurate, secure, and sustainable over time? Azure AI Foundry IQ is...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Samarpitaa",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Building an Enterprise Knowledge Copilot with Foundry IQ and Agentic Retrieval on Azure AI",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-an-enterprise-knowledge-copilot-with-foundry-iq-and/ba-p/4512308",
+      "published": "2026-04-29T07:00:00+00:00",
+      "summary": "Every enterprise has the same problem: knowledge scattered across SharePoint, file shares, wikis, and email. This article walks through building a knowledge copilot that unifies that data behind a single conversational interface — using Microsoft's Foundry IQ knowledge bases and the agentic...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Shah_Viral",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Automating Phishing Email Triage with Microsoft Security Copilot",
@@ -3083,17 +3105,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "The \"IQ Layer\": Microsoft’s Blueprint for the Agentic Enterprise",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/the-quot-iq-layer-quot-microsoft-s-blueprint-for-the-agentic/ba-p/4504421",
-      "published": "2026-04-10T07:00:00+00:00",
-      "summary": "The \"IQ Layer\": Microsoft’s Blueprint for the Agentic Enterprise Modern enterprises have experimented with artificial intelligence for years, yet many deployments have struggled to move beyond basic automation and conversational interfaces. The fundamental limitation has not been the reasoning...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "harshul05",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Agent Governance Toolkit: Architecture Deep Dive, Policy Engines, Trust, and SRE for AI Agents",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/agent-governance-toolkit-architecture-deep-dive-policy-engines/ba-p/4510105",
       "published": "2026-04-10T04:55:22+00:00",
@@ -3245,17 +3256,6 @@
       "blogId": "azureinfrastructureblog",
       "author": "AmitManchanda28",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Understanding Agentic Function-Calling with Multi-Modal Data Access",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/understanding-agentic-function-calling-with-multi-modal-data/ba-p/4504151",
-      "published": "2026-04-09T07:00:00+00:00",
-      "summary": "What You'll Learn Why traditional API design struggles when questions span multiple data sources, and how function-calling solves this. How the iterative tool-use loop works — the model plans, calls tools, inspects results, and repeats until it has a complete answer. What makes an agent truly...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "jayesh_mevada",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12554,5 +12554,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft developer news centered on AI-powered productivity, security automation, and scalable cloud architecture. Key announcements included Visual Studio Code 1.118, a new preview of Memory in Foundry Agent Service to give agents longer-lived contextual recall, and a Microsoft Security Copilot workflow for automating phishing email triage.\n\nOn the architecture side, Microsoft highlighted applied AI and infrastructure patterns: using graph-based RAG to turn video content into structured SOPs, building facility-management IoT platforms with Azure serverless services, and designing zonal datacenter cooling architectures to support growing AI workloads and diverse hardware requirements."
+  "summary": "Today’s Azure posts centered on AI copilots, retrieval, and platform readiness: Microsoft highlighted **Azure AI Foundry IQ** and a new **public preview of Memory in Foundry Agent Service**, alongside patterns for building an **enterprise knowledge copilot** with **agentic retrieval** on **Azure AI** and using **graph-based RAG** to turn video into structured SOPs. On the product and operations side, Azure also featured **Visual Studio Code 1.118**, **Microsoft Security Copilot** for automating phishing email triage, a **serverless Azure IoT** architecture for facility management, and data-center **zonal cooling architecture** designed to support diverse AI hardware requirements."
 }
