@@ -1,17 +1,61 @@
 {
-  "lastUpdated": "2026-04-29T07:55:40.849447+00:00",
+  "lastUpdated": "2026-04-29T10:46:13.934801+00:00",
   "totalArticles": 1141,
   "articles": [
     {
       "title": "Visual Studio Code 1.118",
       "link": "https://code.visualstudio.com/updates/v1_118",
       "published": "2026-04-29T17:00:00+00:00",
-      "summary": "Learn what's new in Visual Studio Code 1.118 (Insiders) Read the full article",
+      "summary": "Learn what's new in Visual Studio Code 1.118 Read the full article",
       "blog": "Visual Studio Code",
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "AG-UI: The Future of Agent-Driven User Interfaces",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/ag-ui-the-future-of-agent-driven-user-interfaces/ba-p/4515769",
+      "published": "2026-04-29T09:30:48+00:00",
+      "summary": "As AI agents evolve from simple chatbots into workflow engines, decision-makers, and copilots, one challenge has remained stubbornly unsolved: How do we connect intelligent agents to rich, dynamic, user-facing interfaces without custom plumbing every single time? Introducing AG-UI (Agent–User...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "VaidhyaP",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Upcoming Compute API Change: Always return non-null securityType",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/upcoming-compute-api-change-always-return-non-null-securitytype/ba-p/4500387",
+      "published": "2026-04-29T09:02:08+00:00",
+      "summary": "Overview Starting with Azure Compute API version 2025‑11‑01, responses for Azure Virtual Machines (VMs) and Virtual Machine Scale Sets (VMSS) will include a non‑null securityType value in all operations. While this is a small behavioral change, it can impact deployments if they rely on null checks...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "AjKundnani",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "General availability of Default Ruleset (DRS) 2.2 for Web Application Firewall",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/general-availability-of-default-ruleset-drs-2-2-for-web/ba-p/4515762",
+      "published": "2026-04-29T08:31:47+00:00",
+      "summary": "Introduction As attackers continue to evolve their techniques, organizations require web application security that keeps pace with emerging threats without disrupting legitimate traffic. Azure Web Application Firewall (WAF) continues to evolve to meet these demands and now supports Default Rule Set...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "andrewmathu",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Securing Your AI Agents Before They Ship: Red Teaming with Microsoft PyRIT",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/securing-your-ai-agents-before-they-ship-red-teaming-with/ba-p/4515514",
+      "published": "2026-04-29T08:22:53+00:00",
+      "summary": "Securing Your AI Agents Before They Ship: Red Teaming with Microsoft PyRIT You wouldn't ship a web app without running OWASP ZAP or Snyk. So why are AI agents going to production without a single security scan? Prompt injection, data leakage, system prompt theft — the OWASP Top 10 for LLM...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "vsriramdas",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Making Sense of Azure AI Foundry IQ",
@@ -275,17 +319,6 @@
       "blogId": "azurepaasblog",
       "author": "LuisFilipe",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Securing Your AI Agents Before They Ship: Red Teaming with Microsoft PyRIT",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/securing-your-ai-agents-before-they-ship-red-teaming-with/ba-p/4515514",
-      "published": "2026-04-28T13:48:33+00:00",
-      "summary": "Securing Your AI Agents Before They Ship: Red Teaming with Microsoft PyRIT You wouldn't ship a web app without running OWASP ZAP or Snyk. So why are AI agents going to production without a single security scan? Prompt injection, data leakage, system prompt theft — the OWASP Top 10 for LLM...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "vsriramdas",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3091,17 +3124,6 @@
       "blogId": "microsoftsentinelblog",
       "author": "PaulineMbabu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "PHP 8.5 is now available on Azure App Service for Linux",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/php-8-5-is-now-available-on-azure-app-service-for-linux/ba-p/4510254",
-      "published": "2026-04-10T10:11:11+00:00",
-      "summary": "PHP 8.5 is now available on Azure App Service for Linux across all public regions. You can create a new PHP 8.5 app through the Azure portal, automate it with the Azure CLI, or deploy using ARM/Bicep templates. PHP 8.5 brings several useful runtime improvements. It includes better diagnostics, with...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "TulikaC",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -6062,17 +6084,6 @@
       "author": "Jim Harrer",
       "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Upcoming Compute API Change: Always return non-null securityType",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/upcoming-compute-api-change-always-return-non-null-securitytype/ba-p/4500387",
-      "published": "2026-03-09T14:16:14+00:00",
-      "summary": "Overview Starting with Azure Compute API version 2025‑11‑01, responses for Azure Virtual Machines (VMs) and Virtual Machine Scale Sets (VMSS) will include a non‑null securityType value in all operations. While this is a small behavioral change, it can impact deployments if they rely on null checks...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "AjKundnani",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "From draft to done: agentic Copilot in Excel, Word, and PowerPoint",
@@ -10992,17 +11003,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Introducing the new Network Security Hub in Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/introducing-the-new-network-security-hub-in-azure/ba-p/4454588",
-      "published": "2025-09-17T18:31:16+00:00",
-      "summary": "Background: Since its launch in 2020, Azure Firewall Manager has supported customers in securing their networks. But the role of network security has since evolved, from a foundational requirement to a strategic priority for organizations. Today, organizations must protect every endpoint, server,...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "surenjamiyanaa",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Introducing auto model selection (preview)",
       "link": "https://code.visualstudio.com/blogs/2025/09/15/autoModelSelection",
       "published": "2025-09-15T00:00:00+00:00",
@@ -12554,5 +12554,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on AI copilots, retrieval, and platform readiness: Microsoft highlighted **Azure AI Foundry IQ** and a new **public preview of Memory in Foundry Agent Service**, alongside patterns for building an **enterprise knowledge copilot** with **agentic retrieval** on **Azure AI** and using **graph-based RAG** to turn video into structured SOPs. On the product and operations side, Azure also featured **Visual Studio Code 1.118**, **Microsoft Security Copilot** for automating phishing email triage, a **serverless Azure IoT** architecture for facility management, and data-center **zonal cooling architecture** designed to support diverse AI hardware requirements."
+  "summary": "Today’s Azure posts centered on the rapid build-out of the AI agent stack: Microsoft highlighted **AG-UI** for agent-driven interfaces, **Azure AI Foundry IQ** for evaluation and insight, **agentic retrieval** and **graph-based RAG** for enterprise knowledge and SOP generation, and a new **public preview of Memory in Foundry Agent Service** to make agents more stateful. Security was a parallel theme, with guidance on **red teaming AI agents using Microsoft PyRIT**, automating phishing investigations with **Microsoft Security Copilot**, and the **general availability of Web Application Firewall Default Ruleset 2.2**.\n\nOn the platform side, Microsoft called out an **Azure Compute API change** where `securityType` will always return a non-null value, published **Visual Studio Code 1.118**, and showcased reference architectures for a **serverless Azure IoT facility-management platform** and for **zonal datacenter cooling** to support diverse AI hardware needs."
 }
