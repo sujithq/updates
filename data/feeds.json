@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T10:46:13.934801+00:00",
+  "lastUpdated": "2026-04-29T13:15:52.871485+00:00",
   "totalArticles": 1141,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Migrating Splunk Logs to Azure Application Insights on VMs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/migrating-splunk-logs-to-azure-application-insights-on-vms/ba-p/4515866",
+      "published": "2026-04-29T11:35:03+00:00",
+      "summary": "Phase 0 – Understanding the Current Environment Before touching any code or agents, map out the existing architecture. Current setup: Applications write logs via log4net → local log files on VMs Splunk Universal Forwarders read logs → send to Splunk Indexers Splunk dashboards, alerts, and...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "skundapura",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "AG-UI: The Future of Agent-Driven User Interfaces",
@@ -2728,17 +2739,6 @@
       "blogId": "azurearcblog",
       "author": "Aurnov_Chattopadhyay",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Demystifying On-Demand Capacity Reservations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/demystifying-on-demand-capacity-reservations/ba-p/4504806",
-      "published": "2026-04-14T17:21:11+00:00",
-      "summary": "About On-Demand Capacity Reservations Introducing the “parking garage” metaphor There are dozens of VM types available in Azure which span multiple generations of CPU across vendors and architectures. Within each Azure region are datacenters hosting pools of hardware which runs Azure services, such...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "KenHooverMSFT",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12554,5 +12554,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on the rapid build-out of the AI agent stack: Microsoft highlighted **AG-UI** for agent-driven interfaces, **Azure AI Foundry IQ** for evaluation and insight, **agentic retrieval** and **graph-based RAG** for enterprise knowledge and SOP generation, and a new **public preview of Memory in Foundry Agent Service** to make agents more stateful. Security was a parallel theme, with guidance on **red teaming AI agents using Microsoft PyRIT**, automating phishing investigations with **Microsoft Security Copilot**, and the **general availability of Web Application Firewall Default Ruleset 2.2**.\n\nOn the platform side, Microsoft called out an **Azure Compute API change** where `securityType` will always return a non-null value, published **Visual Studio Code 1.118**, and showcased reference architectures for a **serverless Azure IoT facility-management platform** and for **zonal datacenter cooling** to support diverse AI hardware needs."
+  "summary": "Today’s Azure posts were dominated by AI agent and copilots themes: Microsoft highlighted **AG-UI** for agent-driven interfaces, **PyRIT** for red teaming AI agents before release, **Azure AI Foundry IQ** for understanding enterprise knowledge and agentic retrieval, and a **public preview of Memory in Foundry Agent Service** to give agents longer-lived context. Azure also showcased applied AI patterns including a **knowledge copilot**, **graph-based RAG** for turning video into structured SOPs, and **Security Copilot** for automating phishing email triage.\n\nOn the platform side, Microsoft announced the **general availability of Web Application Firewall Default Ruleset 2.2**, an upcoming **Azure Compute API** change so `securityType` always returns non-null, and guidance for **migrating Splunk logs to Azure Application Insights on VMs**. Broader engineering updates included **Visual Studio Code 1.118**, an **Azure Serverless** architecture for scalable IoT facility management, and datacenter **zonal architecture** work to support diverse AI hardware and cooling needs."
 }
