@@ -1,7 +1,62 @@
 {
-  "lastUpdated": "2026-04-30T05:48:48.081061+00:00",
+  "lastUpdated": "2026-04-30T07:57:45.154928+00:00",
   "totalArticles": 1139,
   "articles": [
+    {
+      "title": "🚀 From Drift to Diagnosis: AI‑Powered Root Cause Analysis for Azure Infrastructure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-drift-to-diagnosis-ai-powered-root-cause-analysis-for-azure/ba-p/4515436",
+      "published": "2026-04-30T07:08:53+00:00",
+      "summary": "🌍 A Real-World Scenario During a recent production deployment of an enterprise AI platform, everything looked perfectly aligned from an infrastructure perspective: ✅ Infrastructure deployed via IaC (Terraform)✅ Private endpoints enforced✅ Public access disabled for all AI services A few hours...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Pooja_Pradhan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "🖼️Streamline Image Generation Workflow in Foundry Toolkit",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/%EF%B8%8Fstreamline-image-generation-workflow-in-foundry-toolkit/ba-p/4516055",
+      "published": "2026-04-30T07:00:00+00:00",
+      "summary": "Integrating image generation into a production AI application has historically meant juggling multiple surfaces — browsing models in the Foundry portal, setting up deployments via the Azure CLI, testing prompts in a separate tool, then stitching together API credentials before writing a single line...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "junjieli",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Fixing Broken Markdown in AI Translation: Hardening a Production Pipeline",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/fixing-broken-markdown-in-ai-translation-hardening-a-production/ba-p/4511378",
+      "published": "2026-04-30T07:00:00+00:00",
+      "summary": "By Minseok Song and Hiroshi Yoshioka (Microsoft MVPs) TL;DR Recent community feedback, especially from Japanese translations, revealed that many translation failures were not semantic, but structural. Through detailed issue reports and discussions, we identified recurring patterns such as broken...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "MinseokSong",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Propagating SharePoint Document Permissions to AI Search and RAG Pipelines",
+      "link": "https://devblogs.microsoft.com/ise/sharepoint-doc-level-access/",
+      "published": "2026-04-30T07:00:00+00:00",
+      "summary": "A security-first architecture that propagates SharePoint document permissions into downstream AI systems, using Microsoft Entra ID object IDs (GUIDs) for safe, query-time filtering in Azure AI Search, RAG pipelines, and Copilot extensions. The post Propagating SharePoint Document Permissions to AI...",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Elena Vavilova",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "From ServiceNow to Self-Healing Infrastructure: A Multi-Repo Azure AI Platform",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-servicenow-to-self-healing-infrastructure-a-multi-repo/ba-p/4515315",
+      "published": "2026-04-30T06:00:06+00:00",
+      "summary": "A question before we begin Quick — what version of infrastructure is running in your production subscription right now? Not what your pipeline last deployed. Not what your tracking spreadsheet says. What's actually running — right now, this second — and can you prove it? If you had to think about...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Valini_Sunthwal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Running Diffusion Models at Scale on AKS",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/running-diffusion-models-at-scale-on-aks/ba-p/4513687",
@@ -3050,17 +3105,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "From CI/CD to Continuous AI: The Future of GitHub Automation",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-ci-cd-to-continuous-ai-the-future-of-github-automation/ba-p/4507378",
-      "published": "2026-04-14T07:00:00+00:00",
-      "summary": "Introduction For over a decade, CI/CD (Continuous Integration and Continuous Deployment) has been the backbone of modern software engineering. It helped teams move from manual, error-prone deployments to automated, reliable pipelines. But today, we are standing at the edge of another...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Ravindra_Kumar_Vishwakarma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Release 2026-04-02",
       "link": "https://github.com/Azure/AKS/releases/tag/2026-04-02",
       "published": "2026-04-14T06:26:28+00:00",
@@ -3212,17 +3256,6 @@
       "blogId": "azurearcblog",
       "author": "TomClaes",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Passwordless AKS Secrets: Sync Azure Key Vault with ESO + Workload Identity",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/passwordless-aks-secrets-sync-azure-key-vault-with-eso-workload/ba-p/4509959",
-      "published": "2026-04-13T05:00:00+00:00",
-      "summary": "Architecture High-level flow The solution uses a User-Assigned Managed Identity (UAMI) federated to a Kubernetes Service Account via AKS OIDC—then ESO uses that identity to read secrets from Key Vault and write them into Kubernetes as Opaque secrets. Flow:Azure Key Vault → ESO → Kubernetes Secret...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "fenildoshi2510",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3468,17 +3501,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Enabling AI-Driven Enterprise Intelligence Using SAP and Microsoft 3-IQ Layers",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/enabling-ai-driven-enterprise-intelligence-using-sap-and/ba-p/4509721",
-      "published": "2026-04-08T19:24:25+00:00",
-      "summary": "Architectural Context Enterprise SAP platforms such as SAP ECC, SAP S/4HANA, and SAP BW continue to function as authoritative transactional systems supporting financial accounting, treasury management, portfolio reporting, and regulatory compliance workflows. These environments are optimized for...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "srhulsus",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "What's new in Foundry Labs - April 2026",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/what-s-new-in-foundry-labs-april-2026/ba-p/4509714",
       "published": "2026-04-08T19:19:21+00:00",
@@ -3565,17 +3587,6 @@
       "author": "Lily Ma",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Build Your AI Agent in 5 Minutes with AI Toolkit for VS Code",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/build-your-ai-agent-in-5-minutes-with-ai-toolkit-for-vs-code/ba-p/4509578",
-      "published": "2026-04-08T09:59:38+00:00",
-      "summary": "What if building an AI agent was as easy as filling out a form? No frameworks to install. No boilerplate to copy-paste from GitHub. No YAML to debug at midnight. Just VS Code, one extension, and an idea. AI Toolkit for VS Code turns agent development into something anyone can do — whether you're a...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "isha_sahni",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Simplify Azure Arc Server Onboarding with Ansible and the New Onboarding Role",
@@ -5058,7 +5069,7 @@
       "summary": "Deploy and monitor an AI agent on Microsoft Foundry using the Azure Developer CLI (azd). This tutorial covers infrastructure scaffolding with Bicep, one-command deployment, local development, and real-time log streaming—all from Visual Studio Code. The post From code to cloud: Deploy an AI agent to...",
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
-      "author": "Sandeep Sen",
+      "author": "PuiChee (PC) Chan",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
     },
@@ -8393,17 +8404,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Evaluate Small Language Model Function Calling using the Azure AI Evaluation SDK",
-      "link": "https://devblogs.microsoft.com/ise/slm-function-calling-with-azure-ai-evaluation-sdk/",
-      "published": "2026-01-16T08:00:00+00:00",
-      "summary": "This blog details how the Azure AI Evaluation SDK can be used to assess the performance of a small language model for function calling, such as Phi-4-mini-instruct, and view the results in Microsoft Foundry. The post Evaluate Small Language Model Function Calling using the Azure AI Evaluation SDK...",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Chinedum Echeta",
-      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
       "sourceType": "rss"
     },
     {
@@ -12532,5 +12532,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focus on operating AI and cloud infrastructure more efficiently at scale. One article outlines how to run diffusion models on Azure Kubernetes Service (AKS), emphasizing scalable GPU-based inferencing/orchestration patterns for generative AI workloads, while the other introduces the Azure SRE Agent for Azure Monitor Alerts, which uses Azure Monitor data to cut alert fatigue and help teams prioritize and investigate the incidents that matter faster."
+  "summary": "Today’s Azure posts centered on **AI-driven operations and platform automation**, with Azure highlighting **root cause analysis for infrastructure drift**, the **Azure SRE Agent for Azure Monitor alerts**, and a **ServiceNow-integrated, self-healing Azure AI platform** to reduce alert fatigue and automate remediation. Another major theme was **production AI engineering**, including **scaling diffusion/image generation workloads on AKS**, improving image workflows in the **Foundry Toolkit**, hardening **AI translation pipelines** to preserve Markdown formatting, and securing **RAG/AI Search** systems by propagating **SharePoint document permissions**."
 }
