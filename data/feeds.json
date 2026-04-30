@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-04-30T07:57:45.154928+00:00",
+  "lastUpdated": "2026-04-30T10:32:57.484844+00:00",
   "totalArticles": 1139,
   "articles": [
+    {
+      "title": "New Local Management Group for ALZ & Updated Sovereign Policies for SLZ",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/new-local-management-group-for-alz-updated-sovereign-policies/ba-p/4515156",
+      "published": "2026-04-30T07:58:07+00:00",
+      "summary": "Following on from months of working alongside customers, partners, and our internal product groups, we have now made two updates to the Azure landing zone (ALZ) and the Sovereign landing zone (SLZ), that I’d like to walk you through in this post: A new dedicated ‘Local’ Management Group added...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "jtracey93msft",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "🚀 From Drift to Diagnosis: AI‑Powered Root Cause Analysis for Azure Infrastructure",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-drift-to-diagnosis-ai-powered-root-cause-analysis-for-azure/ba-p/4515436",
@@ -650,17 +661,6 @@
       "author": "Jay Gordon",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "New Local Management Group for ALZ & Updated Sovereign Policies for SLZ",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/new-local-management-group-for-alz-updated-sovereign-policies/ba-p/4515156",
-      "published": "2026-04-28T11:37:32+00:00",
-      "summary": "Following on from months of working alongside customers, partners, and our internal product groups, we have now made two updates to the Azure landing zone (ALZ) and the Sovereign landing zone (SLZ), that I’d like to walk you through in this post: A new dedicated ‘Local’ Management Group added...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "jtracey93msft",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Troubleshooting SQL MI Failover Group Creation in Hub–Spoke Network with Centralized Firewall",
@@ -5069,7 +5069,7 @@
       "summary": "Deploy and monitor an AI agent on Microsoft Foundry using the Azure Developer CLI (azd). This tutorial covers infrastructure scaffolding with Bicep, one-command deployment, local development, and real-time log streaming—all from Visual Studio Code. The post From code to cloud: Deploy an AI agent to...",
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
-      "author": "PuiChee (PC) Chan",
+      "author": "Sandeep Sen",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
     },
@@ -12532,5 +12532,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on **AI-driven operations and platform automation**, with Azure highlighting **root cause analysis for infrastructure drift**, the **Azure SRE Agent for Azure Monitor alerts**, and a **ServiceNow-integrated, self-healing Azure AI platform** to reduce alert fatigue and automate remediation. Another major theme was **production AI engineering**, including **scaling diffusion/image generation workloads on AKS**, improving image workflows in the **Foundry Toolkit**, hardening **AI translation pipelines** to preserve Markdown formatting, and securing **RAG/AI Search** systems by propagating **SharePoint document permissions**."
+  "summary": "Today’s Azure posts centered on using AI to automate operations and improve developer workflows. Key announcements included AI-driven root cause analysis for Azure infrastructure, the Azure SRE Agent for Azure Monitor Alerts to cut alert fatigue, and a ServiceNow-integrated, multi-repo Azure AI platform aimed at self-healing infrastructure.\n\nOn the platform and architecture side, Microsoft highlighted governance updates with a new local management group for Azure Landing Zones (ALZ) and refreshed sovereign policies for Sovereign Landing Zone (SLZ), plus technical guidance for running diffusion models at scale on Azure Kubernetes Service (AKS), streamlining image generation in Foundry Toolkit, preserving Markdown fidelity in AI translation pipelines, and propagating SharePoint document permissions into AI Search and retrieval-augmented generation (RAG) systems."
 }
