@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-04-29T21:49:27.658989+00:00",
+  "lastUpdated": "2026-04-30T01:29:27.609615+00:00",
   "totalArticles": 1139,
   "articles": [
+    {
+      "title": "Plugin Marketplace for Azure SRE Agent: Build Once, Install Anywhere",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/plugin-marketplace-for-azure-sre-agent-build-once-install/ba-p/4513501",
+      "published": "2026-04-29T22:25:23+00:00",
+      "summary": "What's a Plugin? A plugin bundles two things: Skills — Operational knowledge (triage runbooks, policy rules, known issues) the agent reads at runtime to guide its reasoning MCP Connectors — Live integrations to your internal APIs (deployment tracker, cost dashboard, CMDB) the agent can query during...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Vineela-Suri",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "[Launched] Generally Available: Microsoft Azure Red Hat OpenShift is now available in Austria East",
       "link": "https://azure.microsoft.com/updates?id=561135",
@@ -34,6 +45,17 @@
       "author": "skundapura",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Kubernetes v1.36: Tiered Memory Protection with Memory QoS",
+      "link": "https://kubernetes.io/blog/2026/04/29/kubernetes-v1-36-memory-qos-tiered-protection/",
+      "published": "2026-04-29T18:35:00+00:00",
+      "summary": "On behalf of SIG Node, we are pleased to announce updates to the Memory QoS feature (alpha) in Kubernetes v1.36. Memory QoS uses the cgroup v2 memory controller to give the kernel better guidance on how to treat container memory. It was first introduced in v1.22 and updated in v1.27. In Kubernetes...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "[Launched] Generally Available: Microsoft Agent Framework 1.0",
@@ -3048,17 +3070,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Govern AI Agents on App Service with the Microsoft Agent Governance Toolkit",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/govern-ai-agents-on-app-service-with-the-microsoft-agent/ba-p/4510962",
-      "published": "2026-04-13T21:15:44+00:00",
-      "summary": "Part 3 of 3 — Multi-Agent AI on Azure App Service In Blog 1, we built a multi-agent travel planner with Microsoft Agent Framework 1.0 on App Service. In Blog 2, we added observability with OpenTelemetry and the new Application Insights Agents view. Now in Part 3, we secure those agents for...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Copilot in Word: New Capabilities for Document Workflows",
@@ -10992,17 +11003,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Kubernetes v1.34: DRA Consumable Capacity",
-      "link": "https://kubernetes.io/blog/2025/09/18/kubernetes-v1-34-dra-consumable-capacity/",
-      "published": "2025-09-18T18:30:00+00:00",
-      "summary": "Dynamic Resource Allocation (DRA) is a Kubernetes API for managing scarce resources across Pods and containers. It enables flexible resource requests, going beyond simply allocating N number of devices to support more granular usage scenarios. With DRA, users can request specific types of devices...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Introducing auto model selection (preview)",
       "link": "https://code.visualstudio.com/blogs/2025/09/15/autoModelSelection",
       "published": "2025-09-15T00:00:00+00:00",
@@ -12531,6 +12531,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure news is dominated by AI agent infrastructure and governance: Microsoft announced general availability of Microsoft Agent Framework 1.0, detailed observability for agents in Azure AI Foundry, introduced governance for MCP tool calls in .NET, and highlighted integrations like the New Relic MCP server in Azure SRE Agent and AG-UI for agent-driven interfaces. On the platform side, Azure expanded core services with Azure Red Hat OpenShift now GA in Austria East, WAF Default Ruleset 2.2 generally available, new Azure Monitor service level indicators, and guidance for enterprise deployments spanning Kubernetes with Crossplane plus Azure Database for PostgreSQL, and Splunk-to-Application Insights migration.\n\nData and security were also key themes: Microsoft previewed Azure RBAC integration for Cosmos DB, promoted Azure DocumentDB with MongoDB compatibility for banking Customer 360 scenarios, and showed how Data Wrangler can speed Microsoft Sentinel data lake notebook development. Additional notable updates include Visual Studio Code 1.118, .NET changes such as VSTest dropping Newtonsoft.Json and SDK-style support for extension projects, and a forthcoming Azure Compute API change to always return a non-null `securityType`."
+  ]
 }
