@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T10:14:32.978851+00:00",
+  "lastUpdated": "2026-04-30T10:15:53.301230+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -681,6 +681,17 @@
       "action": null,
       "detected": "2026-04-29T10:14:32.978837+00:00",
       "published": "2026-04-28T17:58:50+00:00",
+      "blog": "Terraform"
+    },
+    {
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0",
+      "title": "v1.15.0",
+      "severity": "info",
+      "deadline": null,
+      "impact": "Terraform adds deprecated markers for variables/outputs; users see warnings on use",
+      "action": "Avoid deprecated variables/outputs and update module references where warned",
+      "detected": "2026-04-30T10:15:53.301218+00:00",
+      "published": "2026-04-29T14:05:34+00:00",
       "blog": "Terraform"
     }
   ]
