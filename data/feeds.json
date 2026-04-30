@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-04-30T01:29:27.609615+00:00",
+  "lastUpdated": "2026-04-30T05:48:48.081061+00:00",
   "totalArticles": 1139,
   "articles": [
+    {
+      "title": "Running Diffusion Models at Scale on AKS",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/running-diffusion-models-at-scale-on-aks/ba-p/4513687",
+      "published": "2026-04-30T04:38:08+00:00",
+      "summary": "Diffusion workloads are simple at prototype scale and unforgiving in production. A single demo can run on one GPU-backed VM, but a real platform has to handle bursty demand, long-running jobs, model artifact distribution, secure public access, rollout safety, and hardware-level observability. Azure...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "PrabalDeb",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure SRE Agent for Azure Monitor Alerts: Reduce Alert Fatigue, Investigate What Matters",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-for-azure-monitor-alerts-reduce-alert-fatigue/ba-p/4513458",
+      "published": "2026-04-30T01:28:49+00:00",
+      "summary": "The Alert Problem Organizations running Azure Monitor tend to land in one of two situations: Alert fatigue has set in. Alert rules tend to grow over time — a CPU threshold from two years ago, a health probe check from a migration, a disk alert from an outage that never got cleaned up. These rules...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Vineela-Suri",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Plugin Marketplace for Azure SRE Agent: Build Once, Install Anywhere",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/plugin-marketplace-for-azure-sre-agent-build-once-install/ba-p/4513501",
@@ -2731,17 +2753,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Gemma 4 on Azure Container Apps Serverless GPU",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/gemma-4-on-azure-container-apps-serverless-gpu/ba-p/4511671",
-      "published": "2026-04-15T16:20:22+00:00",
-      "summary": "Every prompt you send to a hosted AI service leaves your tenant. Your code, your architecture decisions, your proprietary logic — all of it crosses a network boundary you don't control. For teams building in regulated industries or handling sensitive IP, that's not a philosophical concern. It's a...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "simonjj",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Incident response for AI: Same fire, different fuel",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/04/15/incident-response-for-ai-same-fire-different-fuel/",
       "published": "2026-04-15T16:00:45+00:00",
@@ -5047,7 +5058,7 @@
       "summary": "Deploy and monitor an AI agent on Microsoft Foundry using the Azure Developer CLI (azd). This tutorial covers infrastructure scaffolding with Bicep, one-command deployment, local development, and real-time log streaming—all from Visual Studio Code. The post From code to cloud: Deploy an AI agent to...",
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
-      "author": "PuiChee (PC) Chan",
+      "author": "Sandeep Sen",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
     },
@@ -6282,17 +6293,6 @@
       "author": "Peter Lasne",
       "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Decision Matrix: API vs MCP Tools — The Great Integration Showdown 🥊",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/decision-matrix-api-vs-mcp-tools-the-great-integration-showdown/ba-p/4499385",
-      "published": "2026-03-06T06:48:28+00:00",
-      "summary": "Audience: Engineers + Stakeholders (and anyone who's ever argued about API architecture at lunch)Date: March 2026Author: Sabyasachi Samaddar Purpose Somewhere, right now, two engineers are arguing about the \"right\" way to call an API. One swears by raw HTTP. The other just discovered MCP and thinks...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Sabyasachi-Samaddar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Dynamic Resource Allocation (DRA) with NVIDIA virtualized GPU (vGPU) on AKS",
@@ -12531,5 +12531,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure posts focus on operating AI and cloud infrastructure more efficiently at scale. One article outlines how to run diffusion models on Azure Kubernetes Service (AKS), emphasizing scalable GPU-based inferencing/orchestration patterns for generative AI workloads, while the other introduces the Azure SRE Agent for Azure Monitor Alerts, which uses Azure Monitor data to cut alert fatigue and help teams prioritize and investigate the incidents that matter faster."
 }
