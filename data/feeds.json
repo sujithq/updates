@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T21:44:50.247895+00:00",
+  "lastUpdated": "2026-05-01T01:32:21.293222+00:00",
   "totalArticles": 1138,
   "articles": [
     {
@@ -12,6 +12,39 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Azure Developer CLI (azd) – April 2026",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-april-2026/",
+      "published": "2026-05-01T00:53:08+00:00",
+      "summary": "The Azure Developer CLI (azd) shipped five releases in April 2026. The biggest theme this month is multi-language hook support: write azd hooks in Python, JavaScript, TypeScript, or .NET alongside the existing Bash and PowerShell options. Here’s what’s in versions 1.23.14, 1.23.15, 1.24.0, 1.24.1,...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Kristen Womack",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "AHEAD helps us launch the Strategic Azure Storage Services Partner Program",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/ahead-helps-us-launch-the-strategic-azure-storage-services/ba-p/4516355",
+      "published": "2026-05-01T00:49:28+00:00",
+      "summary": "Authors: Aung Oo, Vice President Azure Storage Product Management Parker Leavitt, Partner Account Manager, AHEAD Special thanks to: Michael Johnson, Vice President, Cloud, AHEAD AHEAD background AHEAD was formed in 2007 and possesses deep expertise in Infrastructure, Cloud Platforms, AI, Analytics,...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "karautenMSFT",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Introducing DeepSeek V4 Flash and V4 Pro in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-deepseek-v4-flash-and-v4-pro-in-microsoft-foundry/ba-p/4515174",
+      "published": "2026-05-01T00:09:35+00:00",
+      "summary": "As AI adoption matures, the conversation is shifting from model capability to system design, how to orchestrate models that deliver the right balance of quality, speed, and cost. Today, we’re expanding the Microsoft Foundry model catalog with DeepSeek V4 Flash, and DeepSeek V4 Pro coming soon. It...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "RashaudSavage",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Prompt flow is being retired",
@@ -45,6 +78,17 @@
       "author": "PabloLopes",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Kubernetes v1.36: In-Place Vertical Scaling for Pod-Level Resources Graduates to Beta",
+      "link": "https://kubernetes.io/blog/2026/04/30/kubernetes-v1-36-inplace-pod-level-resources-beta/",
+      "published": "2026-04-30T18:35:00+00:00",
+      "summary": "Following the graduation of Pod-Level Resources to Beta in v1.34 and the General Availability (GA) of In-Place Pod Vertical Scaling in v1.35, the Kubernetes community is thrilled to announce that In-Place Pod-Level Resources Vertical Scaling has graduated to Beta in v1.36! This feature is now...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "Azure NCv6 Virtual Machines: Enhancements and GA Transition",
@@ -652,7 +696,7 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Connect to Elastic SAN from Windows VM via VM Extension",
+      "title": "[Launched] Generally Available: Connect to Azure Elastic SAN from Windows VM via VM Extension",
       "link": "https://azure.microsoft.com/updates?id=560914",
       "published": "2026-04-28T20:30:56+00:00",
       "summary": "Azure Elastic SAN now supports volume connectivity for Windows Virtual Machines using the Elastic SAN VM extension, directly from the Azure Portal. This capability enables customers to connect Elastic SAN volumes during virtual machine deployment, simplif",
@@ -1323,10 +1367,10 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: CRC Protection",
+      "title": "[Launched] Generally Available: Azure Elastic SAN support for CRC Protection",
       "link": "https://azure.microsoft.com/updates?id=560889",
       "published": "2026-04-24T16:45:30+00:00",
-      "summary": "Azure Elastic SAN now supports CRC-32C checksum verification when enabled on the client side for connections to Elastic SAN volumes. You can enable CRC protection when creating an Elastic SAN or enable it on an existing Elastic SAN. Elastic SAN also offer",
+      "summary": "Azure Elastic SAN now supports CRC‑32C checksum verification when enabled on the client for connections to Elastic SAN volumes. CRC protection can be enabled at creation time or on an existing Elastic SAN.Elastic SAN also provides a volume group–level enf",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -1521,7 +1565,7 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Capacity Autoscaling",
+      "title": "[Launched] Generally Available: Capacity Autoscaling on Azure Elastic SAN",
       "link": "https://azure.microsoft.com/updates?id=560919",
       "published": "2026-04-23T18:30:11+00:00",
       "summary": "Capacity Autoscaling support is now generally available on Elastic SAN. Customers can avoid the constraints of overprovisioning and manual capacity management by setting a policy to automatically expand SAN Capacity based on usage. Autoscaling provides th",
@@ -3267,17 +3311,6 @@
       "blogId": "microsoft365copilotblog",
       "author": "SusanHendrich",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Now in Foundry: Microsoft Harrier and NVIDIA EGM-8B",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/now-in-foundry-microsoft-harrier-and-nvidia-egm-8b/ba-p/4510851",
-      "published": "2026-04-13T20:01:16+00:00",
-      "summary": "This week's Model Mondays edition highlights three models that share a common thread: each achieves results comparable to larger leading models, as a result of targeted training strategies rather than scale. Microsoft Research's harrier-oss-v1-0.6b from achieves state-of-the-art results on the...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Osi",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -7956,17 +7989,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Azure Developer CLI (azd) – January 2026: Configuration & Performance",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-january-2026/",
-      "published": "2026-01-30T10:30:09+00:00",
-      "summary": "This post announces the January 2026 release of the Azure Developer CLI (`azd`). The post Azure Developer CLI (azd) – January 2026: Configuration & Performance appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "PuiChee (PC) Chan",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Navigating Capacity Challenges on AKS with Node Auto Provisioning or Virtual Machine Node Pools",
       "link": "https://blog.aks.azure.com/2025/12/06/node-auto-provisioning-capacity-management",
       "published": "2026-01-30T00:00:00+00:00",
@@ -10585,17 +10607,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Beyond Basics: Practical scenarios with Azure Storage Actions",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/beyond-basics-practical-scenarios-with-azure-storage-actions/ba-p/4447151",
-      "published": "2025-10-17T17:00:29+00:00",
-      "summary": "If you are new to Azure Storage Actions, check out our GA announcement blog for an introduction. This post is for cloud architects, data engineers, and IT admins who want to automate and optimize data governance at scale. The Challenge: Modern Data Management at Scale As organizations generate more...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "ShashankKumarShankar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Streamlined Setup, Stronger Guardrails for Microsoft Dev Box",
       "link": "https://devblogs.microsoft.com/develop-from-the-cloud/streamlined-setup-stronger-guardrails-for-microsoft-dev-box/",
       "published": "2025-10-17T14:00:42+00:00",
@@ -10985,17 +10996,6 @@
       "link": "https://kubernetes.io/blog/2025/09/22/kubernetes-v1-34-pod-level-resources/",
       "published": "2025-09-22T18:30:00+00:00",
       "summary": "On behalf of the Kubernetes community, I am thrilled to announce that the Pod Level Resources feature has graduated to Beta in the Kubernetes v1.34 release and is enabled by default! This significant milestone introduces a new layer of flexibility for defining and managing resource allocation for...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Kubernetes v1.34: Recovery From Volume Expansion Failure (GA)",
-      "link": "https://kubernetes.io/blog/2025/09/19/kubernetes-v1-34-recover-expansion-failure/",
-      "published": "2025-09-19T18:30:00+00:00",
-      "summary": "Have you ever made a typo when expanding your persistent volumes in Kubernetes? Meant to specify 2TB but specified 20TiB? This seemingly innocuous problem was kinda hard to fix - and took the project almost 5 years to fix. Automated recovery from storage expansion has been around for a while in...",
       "blog": "Kubernetes Official Blog",
       "blogId": "kubernetes",
       "author": "Microsoft",
@@ -12521,5 +12521,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft developer news centered on AI platform transitions, security, and infrastructure updates: Microsoft is retiring **Prompt flow** in favor of newer **Azure AI Foundry** workflows, while also adding **Post-Stream Refinement** for more accurate real-time transcription and **WebRTC preview support in Voice Live API** for lower-latency voice apps. On the platform side, Azure highlighted **GA for prefix-scoped User Delegation SAS in Azure Blob Storage**, **Java 25 support in Azure Functions**, and ongoing **NCv6 VM** enhancements and GA transition for GPU/HPC workloads.\n\nA second major theme was Copilot and modernization across the stack: Microsoft detailed limits and use cases for **GitHub Copilot Modernization** on Azure apps, shipped **GitHub Copilot in Visual Studio** updates, enabled **TypeScript 7 Beta by default in Visual Studio 2026 Insiders**, and showcased a **.NET composable AI stack** conference app pattern. Security and operations also featured heavily, with monthly updates for **Microsoft Sentinel**, broader **Microsoft Security** releases, **managed identity support for graphical session recording** in preview, and new governance additions like a **Local Management Group for Azure Landing Zones** plus updated **sovereign policies**."
+  "summary": "Today’s Azure updates center on developer productivity, ecosystem expansion, and new AI model availability. The Azure SDK team published the April 2026 update for the Azure Developer CLI (`azd`), highlighting ongoing improvements to app deployment and developer workflows, while Azure Storage announced the launch of the Strategic Azure Storage Services Partner Program with AHEAD to strengthen partner-led delivery for storage-focused solutions. Microsoft also introduced DeepSeek V4 Flash and DeepSeek V4 Pro in Microsoft Foundry, expanding Azure’s AI model lineup with new options for high-performance and production-oriented generative AI workloads."
 }
