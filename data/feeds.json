@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-01T15:44:40.341406+00:00",
-  "totalArticles": 1139,
+  "lastUpdated": "2026-05-01T18:53:54.360668+00:00",
+  "totalArticles": 1140,
   "articles": [
     {
       "title": "Visual Studio Code 1.119",
@@ -11,6 +11,83 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Register now for Agent 365 live AMA on May 12",
+      "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/register-now-for-agent-365-live-ama-on-may-12/ba-p/4511734",
+      "published": "2026-05-01T17:29:58+00:00",
+      "summary": "Microsoft Agent 365--generally available May 1, 2026--is a control plane that empowers IT admins, Security Operations analysts, Identity and Network Security admins, and Data Security & Compliance admins to observe, govern, and secure all agents for their organization. We’ll demonstrate how to get...",
+      "blog": "Agent 365 Blog",
+      "blogId": "agent-365-blog",
+      "author": "Nichole_Peterson",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "The new Run dialog: faster, cleaner, and more capable",
+      "link": "https://devblogs.microsoft.com/commandline/the-new-run-dialog-faster-cleaner-and-more-capable/",
+      "published": "2026-05-01T17:00:39+00:00",
+      "summary": "We’ve shipped the new Run dialog – and we want to say thanks. As the team behind Windows Terminal and PowerToys, we’re excited to bring this to Windows 11, and your feedback helped shape it! Run has been rebuilt from the ground up: Modern design: A refreshed look that matches Fluent Design and...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Clint Rutkas",
+      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Shift-Left Governance for AI Agents: How the Agent Governance Toolkit Helps You Catch Violations",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/shift-left-governance-for-ai-agents-how-the-agent-governance/ba-p/4516481",
+      "published": "2026-05-01T16:48:09+00:00",
+      "summary": "In part one of this series, we covered AGT’s runtime governance: the policy engine, zero-trust identity, execution sandboxing, and the OWASP Agentic AI risk mapping. That post focused on what happens when an agent acts: policy evaluation at the moment a tool call fires, trust scoring when agents...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "mosiddi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "v1.15.1",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.1",
+      "published": "2026-05-01T16:43:30+00:00",
+      "summary": "1.15.1 (May 1, 2026) BUG FIXES: Fixed crash when configuration has an invalid action_trigger nested block in data or ephemeral lifecycle blocks (#38402) validate: Removed validation of attributes inside backend blocks due to incompatibility with workflows using the -backend-config flag. (#38466)...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Introducing langchain-azure-cosmosdb: Build Agentic Apps and RAG with One Database",
+      "link": "https://devblogs.microsoft.com/cosmosdb/langchain-azure-cosmos-db-agents-rag/",
+      "published": "2026-05-01T16:43:29+00:00",
+      "summary": "Build AI Agents and RAG Applications with the New LangChain + LangGraph Connector for Azure Cosmos DB Building AI agents and RAG applications today means stitching together half a dozen services, a vector database, a chat history store, a checkpointer for agent state, a semantic cache, a long-term...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "James Codella, Aayush Kataria",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Protect Your Streaming Data in Use: Confidential Computing for Azure Event Hubs Dedicated",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/protect-your-streaming-data-in-use-confidential-computing-for/ba-p/4515219",
+      "published": "2026-05-01T16:11:46+00:00",
+      "summary": "For organizations in regulated industries — financial services, healthcare, government, defense — the security conversation around data has always revolved around two states: data at rest and data in transit. Encrypt your storage. Encrypt your network traffic. Check, check. But there's a third...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "ashish-chhabria",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Microsoft Agent 365, now generally available, expands capabilities and integrations",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
+      "published": "2026-05-01T15:00:00+00:00",
+      "summary": "​Today we’re announcing the general availability of Agent 365, plus previews of new capabilities to discover and manage shadow AI agents, including local agents like OpenClaw and Claude Code. The post Microsoft Agent 365, now generally available, expands capabilities and integrations appeared first...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Nirav Shah, Rob Lefferts and Jason Roszak",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -2852,17 +2929,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Building your cryptographic inventory: A customer strategy for cryptographic posture management",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/04/16/building-your-cryptographic-inventory-a-customer-strategy-for-cryptographic-posture-management/",
-      "published": "2026-04-16T16:00:00+00:00",
-      "summary": "Learn how to build a comprehensive cryptographic inventory and strengthen quantum‑safe readiness using Microsoft Security tools, best‑practice lifecycle models, and partner solutions. The post Building your cryptographic inventory: A customer strategy for cryptographic posture management appeared...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Aviram Shemesh and Jennifer Rutzer",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "From AI to .NET: 20 VS Live! Las Vegas Sessions You Can Watch Now",
       "link": "https://devblogs.microsoft.com/visualstudio/from-ai-to-net-20-vs-live-las-vegas-sessions-you-can-watch-now/",
       "published": "2026-04-16T15:00:04+00:00",
@@ -2959,17 +3025,6 @@
       "blogId": "azurearchitectureblog",
       "author": "kirankumar_manchiwar04",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Save the date for Agent 365 live AMA",
-      "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/save-the-date-for-agent-365-live-ama/ba-p/4511734",
-      "published": "2026-04-15T21:34:06+00:00",
-      "summary": "Microsoft Agent 365--generally available May 1, 2026--is a control plane that empowers IT admins, Security Operations analysts, Identity and Network Security admins, and Data Security & Compliance admins to observe, govern, and secure all agents for their organization. We’ll demonstrate how to get...",
-      "blog": "Agent 365 Blog",
-      "blogId": "agent-365-blog",
-      "author": "Nichole_Peterson",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -6215,28 +6270,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "A Look Ahead at Azure Cosmos DB Conf 2026: From AI Agents to Global Scale",
-      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-conf-2026-preview/",
-      "published": "2026-03-11T16:07:38+00:00",
-      "summary": "Join us for Azure Cosmos DB Conf 2026, a free global, virtual developer event focused on building modern applications with Azure Cosmos DB. Date: April 28, 2026 Time: 9:00 AM–2:00 PM PT Where: Streaming live on the Microsoft Developer YouTube channel, with additional sessions available on demand....",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Jay Gordon",
-      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "v1.14.7",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.14.7",
-      "published": "2026-03-11T14:14:31+00:00",
-      "summary": "1.14.7 (March 11, 2026) NOTES: Bump Go version to 1.25.8 to suppress security scanner false positives (#38249)",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -10728,17 +10761,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Drasi is Fluent in GQL: Integrating the New Graph Query Standard",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/drasi-is-fluent-in-gql-integrating-the-new-graph-query-standard/ba-p/4458888",
-      "published": "2025-10-09T18:21:36+00:00",
-      "summary": "Drasi , the open-source Rust data change processing platform, simplifies the creation of change-driven systems through continuous queries, reactions, and clearly defined change semantics. Continuous queries enable developers to specify precisely what data changes matter, track these changes in...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "CollinBrian",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "September 2025 (version 1.105)",
       "link": "https://code.visualstudio.com/updates/v1_105",
       "published": "2025-10-09T17:00:00+00:00",
@@ -12323,17 +12345,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Edit is now open source",
-      "link": "https://devblogs.microsoft.com/commandline/edit-is-now-open-source/",
-      "published": "2025-05-19T16:04:35+00:00",
-      "summary": "What is Edit? Edit is a new command-line text editor in Windows. Edit is open source, so you can build the code or install the latest version from GitHub! This CLI text editor will be available to preview in the Windows Insider Program in the coming months. After that, it will ship as part of […]...",
-      "blog": "Windows Command Line",
-      "blogId": "commandline",
-      "author": "Christopher Nguyen",
-      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Supercharge AI development with new AI-powered features in Microsoft Dev Box",
       "link": "https://devblogs.microsoft.com/develop-from-the-cloud/supercharge-ai-development-with-new-ai-powered-features-in-microsoft-dev-box/",
       "published": "2025-05-19T16:00:53+00:00",
@@ -12532,5 +12543,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Microsoft’s latest Azure posts center on AI-driven developer productivity and infrastructure modernization: highlights include **Agent 365’s May 2026 updates**, **GitHub Copilot CLI ACP Server** for more autonomous terminal-based coding workflows, and the **Azure Developer CLI (azd) April 2026** release improving app deployment and dev experience. Azure also emphasized enterprise platform evolution with **AI-accelerated refactoring of legacy Infrastructure as Code into Azure Verified Modules (AVM)**, introduced **DeepSeek V4 Flash and V4 Pro in Microsoft Foundry** to expand model options in **Azure AI Foundry**, and launched the **Strategic Azure Storage Services Partner Program** with **AHEAD** to strengthen Azure Storage delivery and services."
+  "summary": "Microsoft’s Azure blogs today are dominated by the rapid expansion of the agentic AI stack: Microsoft announced Agent 365 general availability with broader integrations and May 2026 feature updates, promoted a live AMA, added governance tooling for catching policy violations early, and introduced new building blocks for agentic and RAG apps via `langchain-azure-cosmosdb`, plus DeepSeek V4 Flash and V4 Pro models in Microsoft Foundry. The other major themes are developer productivity and platform modernization, including a redesigned Windows Run dialog, GitHub Copilot CLI ACP Server workflows, the April 2026 Azure Developer CLI update, AI-assisted refactoring of legacy Azure Verified Modules Terraform/IaC, and Terraform v1.15.1.\n\nSecurity and infrastructure also featured prominently: Azure Event Hubs Dedicated now adds confidential computing to protect streaming data in use, while Azure Storage highlighted a new Strategic Azure Storage Services Partner Program launch with AHEAD. Overall, the announcements emphasize safer AI deployment, stronger developer tooling, and continued investment in secure, enterprise-ready Azure data and infrastructure services."
 }
