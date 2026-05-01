@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T18:53:54.360668+00:00",
+  "lastUpdated": "2026-05-01T21:41:47.844474+00:00",
   "totalArticles": 1140,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "High-Fidelity Network Observability at Scale— ACNS Metrics Filtering and Log Aggregation Now GA",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/high-fidelity-network-observability-at-scale-acns-metrics/ba-p/4516508",
+      "published": "2026-05-01T20:29:20+00:00",
+      "summary": "We are thrilled to announce that Advanced Container Networking Services (ACNS) for Azure Kubernetes Service (AKS) now delivers two powerful observability features in General Availability: container network metrics filtering and container network log filtering and aggregation. Together, these...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "chandanAggarwal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "What’s New in Agent 365: May 2026",
+      "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/what-s-new-in-agent-365-may-2026/ba-p/4516340",
+      "published": "2026-05-01T19:08:08+00:00",
+      "summary": "By Alex Pozin, Samer Baroudi As we celebrate the general availability of Agent 365, we’re sharing a closer look at the core capabilities that help organizations adopt agents at scale, responsibly and with speed. Agent 365 is built on three core value pillars: observe, govern, and secure, designed...",
+      "blog": "Agent 365 Blog",
+      "blogId": "agent-365-blog",
+      "author": "alexpozin",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Register now for Agent 365 live AMA on May 12",
@@ -89,17 +111,6 @@
       "author": "Nirav Shah, Rob Lefferts and Jason Roszak",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "What’s New in Agent 365: May 2026",
-      "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/what-s-new-in-agent-365-may-2026/ba-p/4516340",
-      "published": "2026-05-01T15:00:00+00:00",
-      "summary": "By Alex Pozin, Samer Baroudi As we celebrate the general availability of Agent 365, we’re sharing a closer look at the core capabilities that help organizations adopt agents at scale, responsibly and with speed. Agent 365 is built on three core value pillars: observe, govern, and secure, designed...",
-      "blog": "Agent 365 Blog",
-      "blogId": "agent-365-blog",
-      "author": "alexpozin",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "AI‑Accelerated AVM Refactoring: Modernizing Legacy IaC Safely and Swiftly",
@@ -10332,17 +10343,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Extending Layer-2 (VXLAN) networks over Layer-3 IP network",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/extending-layer-2-vxlan-networks-over-layer-3-ip-network/ba-p/4466406",
-      "published": "2025-11-10T17:29:05+00:00",
-      "summary": "Introduction Virtual Extensible LAN (VXLAN) is a network virtualization technology that encapsulates Layer-2 Ethernet frames inside Layer-3 UDP/IP packets. In essence, VXLAN creates a logical Layer-2 overlay network on top of an IP network, allowing Ethernet segments (VLANs) or underlay IP packet...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "SaravSubramanian",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing the 2025 Steering Committee Election Results",
       "link": "https://kubernetes.io/blog/2025/11/09/steering-committee-results-2025/",
       "published": "2025-11-09T20:10:00+00:00",
@@ -12543,5 +12543,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Microsoft’s Azure blogs today are dominated by the rapid expansion of the agentic AI stack: Microsoft announced Agent 365 general availability with broader integrations and May 2026 feature updates, promoted a live AMA, added governance tooling for catching policy violations early, and introduced new building blocks for agentic and RAG apps via `langchain-azure-cosmosdb`, plus DeepSeek V4 Flash and V4 Pro models in Microsoft Foundry. The other major themes are developer productivity and platform modernization, including a redesigned Windows Run dialog, GitHub Copilot CLI ACP Server workflows, the April 2026 Azure Developer CLI update, AI-assisted refactoring of legacy Azure Verified Modules Terraform/IaC, and Terraform v1.15.1.\n\nSecurity and infrastructure also featured prominently: Azure Event Hubs Dedicated now adds confidential computing to protect streaming data in use, while Azure Storage highlighted a new Strategic Azure Storage Services Partner Program launch with AHEAD. Overall, the announcements emphasize safer AI deployment, stronger developer tooling, and continued investment in secure, enterprise-ready Azure data and infrastructure services."
+  "summary": "Microsoft’s Azure news was dominated by the rapid expansion of its agentic AI stack: Microsoft Agent 365 reached general availability with broader integrations, the May 2026 Agent 365 updates and upcoming live AMA reinforced that push, and new tooling focused on safer, more governable AI agents—including the Agent Governance Toolkit for shift-left policy checks, `langchain-azure-cosmosdb` for building RAG and agentic apps on Azure Cosmos DB, GitHub Copilot CLI ACP Server guidance, Azure Developer CLI updates, and new DeepSeek V4 Flash and V4 Pro models in Microsoft Foundry. On the infrastructure side, Azure highlighted production-grade platform improvements with GA for Azure Container Networking Services observability features like metrics filtering and log aggregation, confidential computing protections for Azure Event Hubs Dedicated streaming data in use, AI-assisted Azure Verified Modules refactoring for legacy IaC modernization, the Terraform v1.15.1 release, Windows Terminal’s redesigned Run dialog, and partner/program momentum around Azure Storage."
 }
