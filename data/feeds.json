@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T01:23:24.881115+00:00",
+  "lastUpdated": "2026-05-02T05:28:20.738567+00:00",
   "totalArticles": 1140,
   "articles": [
     {
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "CVE-2026-31431: Copy Fail vulnerability enables Linux root privilege escalation across cloud environments",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/cve-2026-31431-copy-fail-vulnerability-enables-linux-root-privilege-escalation/",
+      "published": "2026-05-02T03:06:08+00:00",
+      "summary": "A high-severity Linux vulnerability, “Copy Fail” (CVE-2026-31431), enables root privilege escalation across cloud environments and Kubernetes workloads. With a working exploit already in the wild, organizations should act quickly to detect, mitigate, and reduce risk. The post CVE-2026-31431: Copy...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Defender Security Research Team",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -2751,17 +2762,6 @@
       "author": "liranlyabock_microsoft",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Containing a domain compromise: How predictive shielding shut down lateral movement",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/04/17/domain-compromise-predictive-shielding-shut-down-lateral-movement/",
-      "published": "2026-04-17T14:51:01+00:00",
-      "summary": "Domain compromise accelerates fast. Predictive shielding slowed it down. This real-world attack shows how exposure-based containment stopped credential abuse and broke the threat actor's momentum. The post Containing a domain compromise: How predictive shielding shut down lateral movement appeared...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Defender Security Research Team",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "⚡Foundry Toolkit for VS Code: A Deep Dive on GA",
@@ -12542,5 +12542,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Microsoft warned of **CVE-2026-31431**, a **Linux privilege-escalation flaw** dubbed **“Copy Fail”** that can let attackers gain **root access** across multiple **cloud environments**. The key theme is urgent **cloud and Linux workload security**: organizations running affected Linux systems—especially in cloud-hosted deployments—should prioritize patching and mitigation to reduce the risk of cross-environment compromise."
 }
