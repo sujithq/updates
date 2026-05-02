@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-02T15:36:37.050747+00:00",
-  "totalArticles": 1140,
+  "lastUpdated": "2026-05-02T18:39:44.036201+00:00",
+  "totalArticles": 1139,
   "articles": [
     {
       "title": "Visual Studio Code 1.119",
@@ -12530,18 +12530,7 @@
       "author": "JerryZhangMS",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Announcing Public Preview of Terraform Export from the Azure Portal",
-      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/announcing-public-preview-of-terraform-export-from-the-azure/ba-p/4409889",
-      "published": "2025-05-01T16:30:08+00:00",
-      "summary": "Scenario Imagine you have an existing networking configuration you would like to bring to Terraform. Whether you’re interested in learning Terraform or an expert, understanding how Azure resources are reflected in the azurerm and azapi providers is critical to your team. With Terraform export, you...",
-      "blog": "Azure Tools",
-      "blogId": "azuretoolsblog",
-      "author": "stevenjma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure/Microsoft Security blogging centered on a high-severity Linux security issue: **CVE-2026-31431**, a **Copy Fail** vulnerability that can enable **root privilege escalation** across cloud-hosted Linux environments. The key theme is urgent cloud and platform hardening—especially for **Linux workloads running in Azure and other cloud environments**—with emphasis on patching and mitigation guidance to reduce exposure from cross-environment privilege escalation paths."
+  "summary": "Today’s Azure-related news is dominated by a major security advisory: Microsoft disclosed **CVE-2026-31431**, a **Linux local privilege escalation** flaw dubbed **“Copy Fail”** that can allow attackers to gain **root privileges** across **cloud environments** if exploited. The key theme is urgent **cloud and Linux workload security**, with the announcement emphasizing the need for rapid remediation and hardening for affected Linux-based infrastructure running in Azure and other environments."
 }
