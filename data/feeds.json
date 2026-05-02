@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T18:39:44.036201+00:00",
+  "lastUpdated": "2026-05-02T21:29:06.904988+00:00",
   "totalArticles": 1139,
   "articles": [
     {
@@ -12,6 +12,39 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Modernizing Terraform Pipelines on Azure: OIDC Federation for GitHub Actions and Azure DevOps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/modernizing-terraform-pipelines-on-azure-oidc-federation-for/ba-p/4516620",
+      "published": "2026-05-02T20:34:19+00:00",
+      "summary": "The secret nobody wants to rotate Most Terraform-on-Azure pipelines we see still authenticate the same way they did three years ago. A long-lived ARM_CLIENT_SECRET sitting in GitHub Actions or Azure DevOps, set once, copied around, and rotated only when something breaks. It's the most ignored...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ssinghkalra",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Automating Azure Naming Standards using API and DevOps Pipelines",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/automating-azure-naming-standards-using-api-and-devops-pipelines/ba-p/4516628",
+      "published": "2026-05-02T19:45:36+00:00",
+      "summary": "Introduction In large Azure environments, one of the most overlooked yet critical governance challenges is resource naming consistency. While organizations define naming standards, enforcing them at scale across multiple subscriptions, teams, and pipelines often becomes a manual and inconsistent...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "sameenamohammed",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Reimagining Azure Governance with Automation & EPAC",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/reimagining-azure-governance-with-automation-epac/ba-p/4516626",
+      "published": "2026-05-02T19:26:11+00:00",
+      "summary": "🧩 The Challenge: Governance at Scale Managing Azure environments manually introduces: ❌ Policy drift across subscriptions ❌ Inconsistent naming conventions ❌ Delays in compliance enforcement ❌ Human errors in deployments 🔍 Insight: Governance gaps are often not due to lack of policies—but lack of...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "sameenamohammed",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "CVE-2026-31431: Copy Fail vulnerability enables Linux root privilege escalation across cloud environments",
@@ -3303,17 +3336,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Qurious About Quantum?",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/qurious-about-quantum/ba-p/4510963",
-      "published": "2026-04-14T17:14:06+00:00",
-      "summary": "Why IT Should Care About Quantum Right Now – It’s Not Just A Research Problem Today on April 14th, 2026 we celebrate World Quantum Day! There has been a noticeable rise in the topic of quantum computing appearing across technical conferences, business news, and strategic planning conversations. But...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "JohnGruszczyk",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Take your PostgreSQL-backed apps to the next level",
       "link": "https://devblogs.microsoft.com/blog/take-your-postgresql-backed-apps-to-the-next-level",
       "published": "2026-04-14T17:00:37+00:00",
@@ -3578,17 +3600,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Service Mesh-Aware Request Tracing in AKS with Istio and Application Insights",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/service-mesh-aware-request-tracing-in-aks-with-istio-and/ba-p/4509928",
-      "published": "2026-04-10T16:37:58+00:00",
-      "summary": "Introduction As platforms evolve toward microservice‑based architectures, observability becomes more complex than ever. In Azure Kubernetes Service (AKS), teams often rely on Istio to manage service‑to‑service communication and Azure Application Insights for application‑level telemetry. While both...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Siddhi_Singh",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "How to Ingest Microsoft Intune Logs into Microsoft Sentinel",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/how-to-ingest-microsoft-intune-logs-into-microsoft-sentinel/ba-p/4508562",
       "published": "2026-04-10T16:00:00+00:00",
@@ -3708,17 +3719,6 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "Building an End-to-End MLOps Pipeline: From Training to Managed Endpoints on Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-an-end-to-end-mlops-pipeline-from-training-to-managed/ba-p/4509852",
-      "published": "2026-04-09T10:45:39+00:00",
-      "summary": "Introduction Machine learning models are only as valuable as the infrastructure that supports them. A model trained in a Jupyter notebook and saved to a shared folder creates a chain of problems: no versioning, no reproducibility, no clear ownership, and no automated path to production. When the...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Gapandey",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "AI Inference on AKS enabled by Azure Arc: Generative AI using Triton and TensorRT‑LLM",
@@ -12532,5 +12532,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related news is dominated by a major security advisory: Microsoft disclosed **CVE-2026-31431**, a **Linux local privilege escalation** flaw dubbed **“Copy Fail”** that can allow attackers to gain **root privileges** across **cloud environments** if exploited. The key theme is urgent **cloud and Linux workload security**, with the announcement emphasizing the need for rapid remediation and hardening for affected Linux-based infrastructure running in Azure and other environments."
+  "summary": "Today’s Azure posts focused on tightening cloud operations through automation, identity modernization, and governance at scale. On the infrastructure side, Microsoft highlighted replacing Terraform pipeline secrets with OIDC federation in GitHub Actions and Azure DevOps, enforcing Azure naming standards through APIs and DevOps pipelines, and using automation with EPAC to improve Azure Policy–based governance.\n\nThe major security announcement was Microsoft’s disclosure of CVE-2026-31431, a Linux “Copy Fail” privilege-escalation vulnerability that can grant root access across cloud environments, underscoring the need for urgent patching and hardening of Linux workloads running in Azure and elsewhere."
 }
