@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T09:51:46.970144+00:00",
+  "lastUpdated": "2026-05-02T12:40:09.086751+00:00",
   "totalArticles": 1140,
   "articles": [
     {
@@ -67,6 +67,17 @@
       "author": "alexpozin",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Kubernetes v1.36: Pod-Level Resource Managers (Alpha)",
+      "link": "https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/",
+      "published": "2026-05-01T18:35:00+00:00",
+      "summary": "Kubernetes v1.36 introduces Pod-Level Resource Managers as an alpha feature, bringing a more flexible and powerful resource management model to performance-sensitive workloads. This enhancement extends the kubelet's Topology, CPU, and Memory Managers to support pod-level resource specifications...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "Register now for Agent 365 live AMA on May 12",
@@ -11025,17 +11036,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Kubernetes v1.34: Pod Level Resources Graduated to Beta",
-      "link": "https://kubernetes.io/blog/2025/09/22/kubernetes-v1-34-pod-level-resources/",
-      "published": "2025-09-22T18:30:00+00:00",
-      "summary": "On behalf of the Kubernetes community, I am thrilled to announce that the Pod Level Resources feature has graduated to Beta in the Kubernetes v1.34 release and is enabled by default! This significant milestone introduces a new layer of flexibility for defining and managing resource allocation for...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Release 2025-08-29",
       "link": "https://github.com/Azure/AKS/releases/tag/2025-08-29",
       "published": "2025-09-19T15:48:05+00:00",
@@ -12543,5 +12543,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Microsoft’s Security Blog disclosed **CVE-2026-31431**, a **Linux local privilege escalation** flaw dubbed **“Copy Fail”** that can let an attacker gain **root** privileges across **cloud environments**. The key theme is cross-environment Linux risk: Azure customers running affected Linux systems should treat this as a high-priority security issue and focus on **patching/remediation guidance**, especially for cloud-hosted workloads where privilege escalation could lead to broader compromise."
+  "summary": "Today’s key Azure-related post is a security alert from the Microsoft Security Blog on **CVE-2026-31431**, a **Linux local privilege escalation** issue dubbed **“Copy Fail.”** The vulnerability can allow an attacker to gain **root privileges** across cloud-hosted Linux environments, making **cross-cloud infrastructure hardening, patching, and workload security** the main theme rather than a product launch.\n\nMicrosoft’s emphasis is on urgent **mitigation and remediation for Linux systems running in cloud environments**, highlighting the importance of securing **VMs, containers, and host images** against privilege escalation paths."
 }
