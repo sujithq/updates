@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T12:39:20.711824+00:00",
+  "lastUpdated": "2026-05-03T15:36:35.697844+00:00",
   "totalArticles": 1137,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Running GitHub Actions Runners on Azure Container Apps with KEDA Autoscaling",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/running-github-actions-runners-on-azure-container-apps-with-keda/ba-p/4512980",
+      "published": "2026-05-03T13:47:09+00:00",
+      "summary": "GitHub-hosted runners work well for most scenarios. But as workloads grow, teams often need: Better cost optimization — pay only when jobs run More control over execution environments and installed tools Scalable parallel execution — run 10, 20, or 50 jobs simultaneously Network access to private...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "shubhijain",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "How MS Discovery Is Empowering Scientists to Do More",
@@ -2706,17 +2717,6 @@
       "blogId": "analyticsonazure",
       "author": "NaufalPrawironegoro",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure Virtual Desktop in the Perth Azure Extended Zone: A Real‑World Production Deployment",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-virtual-desktop-in-the-perth-azure-extended-zone-a-real/ba-p/4508550",
-      "published": "2026-04-19T10:03:32+00:00",
-      "summary": "Introduction Perth is one of the most geographically isolated major cities globally. For performance‑sensitive, graphics‑heavy engineering workloads, user experience can degrade significantly when desktops are hosted far from the user. For workloads such as subsurface modelling and GPU‑intensive...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "akashmishra",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12510,5 +12510,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog highlights two practical themes: accelerating scientific research with cloud-native architecture, and improving governance through automation. The Azure Architecture post on **Microsoft Discovery** focuses on how Azure is helping scientists scale experimentation and analysis, while the Azure Infrastructure post shows how teams can enforce **Azure naming standards** by using **APIs** and **DevOps pipelines** to automate resource compliance and reduce manual errors.\n\nTogether, the posts emphasize Azure’s role both in **advanced innovation workflows** and in **day-to-day operational discipline**, spanning research enablement on one side and repeatable infrastructure management on the other."
+  "summary": "Today’s Azure posts focused on automation, scalable cloud operations, and applied AI for research. Azure highlighted running self-hosted GitHub Actions runners on Azure Container Apps with KEDA for event-driven autoscaling, enforcing Azure naming standards through APIs and DevOps pipelines, and Microsoft Discovery’s use of Azure-based architecture and AI to help scientists accelerate research workflows and productivity.\n\nThe key technologies called out were Azure Container Apps, KEDA autoscaling, GitHub Actions, Azure APIs, DevOps pipelines, and Microsoft Discovery’s Azure architecture for scientific innovation."
 }
