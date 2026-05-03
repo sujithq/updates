@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-03T01:26:32.803435+00:00",
-  "totalArticles": 1139,
+  "lastUpdated": "2026-05-03T05:49:09.758342+00:00",
+  "totalArticles": 1137,
   "articles": [
     {
       "title": "Visual Studio Code 1.119",
@@ -14,6 +14,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Automating Azure Naming Standards using API and DevOps Pipelines",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/automating-azure-naming-standards-using-api-and-devops-pipelines/ba-p/4516628",
+      "published": "2026-05-03T05:40:58+00:00",
+      "summary": "Introduction In large Azure environments, one of the most overlooked yet critical governance challenges is resource naming consistency. While organizations define naming standards, enforcing them at scale across multiple subscriptions, teams, and pipelines often becomes a manual and inconsistent...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "sameenamohammed",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Modernizing Terraform Pipelines on Azure: OIDC Federation for GitHub Actions and Azure DevOps",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/modernizing-terraform-pipelines-on-azure-oidc-federation-for/ba-p/4516620",
       "published": "2026-05-02T20:34:19+00:00",
@@ -21,17 +32,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "ssinghkalra",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Automating Azure Naming Standards using API and DevOps Pipelines",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/automating-azure-naming-standards-using-api-and-devops-pipelines/ba-p/4516628",
-      "published": "2026-05-02T19:45:36+00:00",
-      "summary": "Introduction In large Azure environments, one of the most overlooked yet critical governance challenges is resource naming consistency. While organizations define naming standards, enforcing them at scale across multiple subscriptions, teams, and pipelines often becomes a manual and inconsistent...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "sameenamohammed",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -12508,28 +12508,7 @@
       "author": "IoTGirl",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremapsblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure Confidential computing VM and OS disk encryption through HSM backed key CMK",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/azure-confidential-computing-vm-and-os-disk-encryption-through/ba-p/4408926",
-      "published": "2025-05-02T05:23:08+00:00",
-      "summary": "Why Confidential Computing with HSM-Backed Keys Is Essential: In today’s cloud-first world, protecting sensitive data during processing is just as critical as securing it at rest or in transit. Azure Confidential Computing (ACC) Virtual Machines, when combined with Hardware Security Module...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "AbhishekJha96",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureconfidentialcomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "How Networking setting of Batch Account impacts simplified communication mode Batch pool",
-      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/how-networking-setting-of-batch-account-impacts-simplified/ba-p/4410258",
-      "published": "2025-05-02T04:12:44+00:00",
-      "summary": "As described in our official document, the classic communication mode of Batch node will be retired on 31 March 2026. Instead, it’s recommended to use simplified communication mode while creating Batch pool. But while user changes their Batch pool communication mode from classic to simplified and...",
-      "blog": "Azure PaaS",
-      "blogId": "azurepaasblog",
-      "author": "JerryZhangMS",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
-      "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage centers on infrastructure governance and automation, with a post on **Automating Azure Naming Standards using API and DevOps Pipelines**. The article highlights using **Azure APIs** together with **Azure DevOps pipelines** to enforce consistent resource naming standards automatically, helping organizations improve policy compliance, standardization, and operational efficiency across Azure infrastructure deployments."
 }
