@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T10:53:04.650660+00:00",
+  "lastUpdated": "2026-05-04T13:17:33.514759+00:00",
   "totalArticles": 1136,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Running GitHub Actions Runners on Azure Container Apps with KEDA Autoscaling",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/running-github-actions-runners-on-azure-container-apps-with-keda/ba-p/4512980",
+      "published": "2026-05-04T13:03:30+00:00",
+      "summary": "GitHub-hosted runners work well for most scenarios. But as workloads grow, teams often need: Better cost optimization — pay only when jobs run More control over execution environments and installed tools Scalable parallel execution — run 10, 20, or 50 jobs simultaneously Network access to private...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "shubhijain",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "From Drift to Self-Healing: Building a Multi-Repo Azure AI Infrastructure You Can Actually Trust",
@@ -56,17 +67,6 @@
       "author": "davidwright, Arnaud Lheureux, Suzanne Daniels",
       "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Running GitHub Actions Runners on Azure Container Apps with KEDA Autoscaling",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/running-github-actions-runners-on-azure-container-apps-with-keda/ba-p/4512980",
-      "published": "2026-05-03T13:47:09+00:00",
-      "summary": "GitHub-hosted runners work well for most scenarios. But as workloads grow, teams often need: Better cost optimization — pay only when jobs run More control over execution environments and installed tools Scalable parallel execution — run 10, 20, or 50 jobs simultaneously Network access to private...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "shubhijain",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "How MS Discovery Is Empowering Scientists to Do More",
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focused on resilient, automated cloud operations and deeper integration across the Microsoft ecosystem. The key themes were self-healing Azure AI infrastructure across multi-repo environments, high-availability validation for Azure Kubernetes Service using Availability Zones within a single region, and a new public preview of the built-in Oracle Database connector for Azure Logic Apps Standard to simplify enterprise workflow integration with Oracle systems.\n\nSpecifically, Azure highlighted patterns for reducing infrastructure drift and improving trust in AI platform deployments, guidance for testing AKS fault tolerance under zonal failures, and expanded integration tooling for Logic Apps Standard with Oracle Database connectivity in public preview."
+  "summary": "Today’s Azure posts focused on cloud-native operations, resilience, and integration automation. Key themes included running **GitHub Actions self-hosted runners on Azure Container Apps** with **KEDA** for event-driven autoscaling, building more trustworthy **multi-repo Azure AI infrastructure** with drift detection and self-healing practices, and validating **high availability for Azure Kubernetes Service (AKS)** across **Availability Zones** within a single region.\n\nOn the integration side, Azure also announced the **public preview of the built-in Oracle Database connector for Azure Logic Apps Standard**, expanding enterprise workflow automation options for Oracle-backed systems. Overall, the announcements emphasized scalable DevOps, reliable AI and Kubernetes infrastructure, and deeper hybrid enterprise integration."
 }
