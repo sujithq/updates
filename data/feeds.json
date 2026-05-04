@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T05:54:14.909350+00:00",
+  "lastUpdated": "2026-05-04T08:12:08.655718+00:00",
   "totalArticles": 1136,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "High Availability Testing for Azure Kubernetes Service in a Single Region with Availability Zones",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/high-availability-testing-for-azure-kubernetes-service-in-a/ba-p/4509825",
+      "published": "2026-05-04T07:00:00+00:00",
+      "summary": "During migration testing engagements for enterprise workloads moving to Azure Kubernetes Service (AKS), we frequently validate high availability behavior under simulated infrastructure failures within a single Azure region using Availability Zones. In one such workload migration scenario involving...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "jiteshhp",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Announcing the public preview of Oracle Database built-in connector for Azure Logic Apps Standard",
@@ -3058,17 +3069,6 @@
       "blogId": "microsoftsentinelblog",
       "author": "Yossi Basha",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Architecting Secure and Trustworthy AI Agents with Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/architecting-secure-and-trustworthy-ai-agents-with-microsoft/ba-p/4506580",
-      "published": "2026-04-16T09:30:30+00:00",
-      "summary": "Co-Authored by Avneesh Kaushik Why Trust Matters for AI Agents Unlike static ML models, AI agents call tools and APIs, retrieve enterprise data, generate dynamic outputs, and can act autonomously based on their planning. This introduces expanded risk surfaces: prompt injection, data exfiltration,...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "PrabhKaur",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure update centers on integration between Azure and Oracle: Microsoft announced the public preview of the **Oracle Database built-in connector for Azure Logic Apps Standard**. The new connector is aimed at **Integrations on Azure** scenarios, making it easier to build automated workflows in **Logic Apps Standard** that connect directly to **Oracle Database** with lower-latency, built-in connectivity rather than relying on external connectors."
+  "summary": "Today’s Azure posts focused on resilience and integration. One article from the Azure Dev Community detailed how to test high availability for Azure Kubernetes Service within a single region using Availability Zones, emphasizing failure simulation and validation of zonal resiliency for AKS workloads. The other announced the public preview of the Oracle Database built-in connector for Azure Logic Apps Standard, expanding enterprise integration options by enabling Logic Apps workflows to connect more directly with Oracle databases."
 }
