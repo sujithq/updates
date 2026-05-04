@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-03T21:31:43.534932+00:00",
-  "totalArticles": 1137,
+  "lastUpdated": "2026-05-04T01:25:41.476152+00:00",
+  "totalArticles": 1136,
   "articles": [
     {
       "title": "Visual Studio Code 1.119",
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Removing The Monkey Work of Migration",
+      "link": "https://devblogs.microsoft.com/all-things-azure/removing-the-monkey-work-of-migration-using-agentic-platform-engineering/",
+      "published": "2026-05-03T22:49:02+00:00",
+      "summary": "Removing The Monkey Work of Migration; in this post we show how Git-Ape analyses an AWS deployment repo and generates an Azure-native replacement, with design critique built in. This post walks through a real migration workflow: start with an AWS deployment repo and end with an Azure deployment...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "davidwright, Arnaud Lheureux, Suzanne Daniels",
+      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
       "sourceType": "rss"
     },
     {
@@ -5292,17 +5303,6 @@
       "author": "Maryleen",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Agentic Platform Engineering with GitHub Copilot",
-      "link": "https://devblogs.microsoft.com/all-things-azure/agentic-platform-engineering-with-github-copilot/",
-      "published": "2026-03-23T19:26:27+00:00",
-      "summary": "We’ve talked about the human scale problem and what happens when infrastructure scales but understanding doesn’t. If you’ve been following along, you know the thesis: our tools have outpaced our ability to operate them, and platform engineering is how we’re fighting back. But here’s the thing –...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "Diego Casati, Ray Kao",
-      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Azure Event Grid MQTT Broker: Enterprise-Grade Messaging for the Connected World",
@@ -12497,18 +12497,6 @@
       "author": "seankeegan",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecommunicationservicesblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Using Location Data to Gain Insights with Azure Maps",
-      "link": "https://techcommunity.microsoft.com/t5/azure-maps-blog/using-location-data-to-gain-insights-with-azure-maps/ba-p/4410477",
-      "published": "2025-05-02T22:04:53+00:00",
-      "summary": "Azure Maps provides current and historical data to help you build your applications and create new insights. Support business decisions, enable planning, and power predictions with GIS data management. Combine Azure Maps with data in your Azure account to do even more. Smart decisions and plans,...",
-      "blog": "Azure Maps",
-      "blogId": "azuremapsblog",
-      "author": "IoTGirl",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremapsblog&page.size=50",
-      "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure posts focused on automation, scalability, and governance across cloud operations and scientific workloads. One article detailed how to run self-hosted GitHub Actions runners on Azure Container Apps with KEDA autoscaling, enabling event-driven CI/CD capacity on demand, while another showed how teams can enforce Azure naming standards through APIs and DevOps pipelines to improve consistency and policy compliance.\n\nThe third post highlighted Microsoft Discovery, describing how Azure-based architecture is helping scientists accelerate research with AI and advanced computational tooling. Together, the themes center on using Azure to streamline developer workflows, strengthen operational controls, and expand high-performance, AI-assisted innovation."
+  ]
 }
