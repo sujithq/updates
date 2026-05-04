@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T08:12:08.655718+00:00",
+  "lastUpdated": "2026-05-04T10:53:04.650660+00:00",
   "totalArticles": 1136,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "From Drift to Self-Healing: Building a Multi-Repo Azure AI Infrastructure You Can Actually Trust",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-drift-to-self-healing-building-a-multi-repo-azure-ai/ba-p/4515315",
+      "published": "2026-05-04T09:58:14+00:00",
+      "summary": "A question before we begin Quick — what version of infrastructure is running in your production subscription right now? Not what your pipeline last deployed. Not what your tracking spreadsheet says. What's actually running — right now, this second — and can you prove it? If you had to think about...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Valini_Sunthwal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "High Availability Testing for Azure Kubernetes Service in a Single Region with Availability Zones",
@@ -573,17 +584,6 @@
       "author": "Elena Vavilova",
       "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "From ServiceNow to Self-Healing Infrastructure: A Multi-Repo Azure AI Platform",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-servicenow-to-self-healing-infrastructure-a-multi-repo/ba-p/4515315",
-      "published": "2026-04-30T06:00:06+00:00",
-      "summary": "A question before we begin Quick — what version of infrastructure is running in your production subscription right now? Not what your pipeline last deployed. Not what your tracking spreadsheet says. What's actually running — right now, this second — and can you prove it? If you had to think about...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Valini_Sunthwal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Running Diffusion Models at Scale on AKS",
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focused on resilience and integration. One article from the Azure Dev Community detailed how to test high availability for Azure Kubernetes Service within a single region using Availability Zones, emphasizing failure simulation and validation of zonal resiliency for AKS workloads. The other announced the public preview of the Oracle Database built-in connector for Azure Logic Apps Standard, expanding enterprise integration options by enabling Logic Apps workflows to connect more directly with Oracle databases."
+  "summary": "Today’s Azure posts focused on resilient, automated cloud operations and deeper integration across the Microsoft ecosystem. The key themes were self-healing Azure AI infrastructure across multi-repo environments, high-availability validation for Azure Kubernetes Service using Availability Zones within a single region, and a new public preview of the built-in Oracle Database connector for Azure Logic Apps Standard to simplify enterprise workflow integration with Oracle systems.\n\nSpecifically, Azure highlighted patterns for reducing infrastructure drift and improving trust in AI platform deployments, guidance for testing AKS fault tolerance under zonal failures, and expanded integration tooling for Logic Apps Standard with Oracle Database connectivity in public preview."
 }
