@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T05:33:57.703583+00:00",
+  "lastUpdated": "2026-05-05T07:51:06.378013+00:00",
   "totalArticles": 1136,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Moving Beyond Prompts: A Practical Introduction to Spec-Driven Development",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/moving-beyond-prompts-a-practical-introduction-to-spec-driven/ba-p/4511012",
+      "published": "2026-05-05T07:00:00+00:00",
+      "summary": "In the last year, many of us have started writing code differently. We describe what we want, let AI generate an answer, review it, tweak the prompt, and try again. This loop—prompt, retry, adjust—has quietly become part of our daily workflow. At first, it feels incredibly productive. But as the...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "sutandan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Building an AI Agent for Azure Infrastructure Validation",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-an-ai-agent-for-azure-infrastructure-validation/ba-p/4516936",
+      "published": "2026-05-05T06:05:23+00:00",
+      "summary": "1. Introduction Infrastructure consistency is critical in large-scale Azure environments, especially in migration programs and DevOps-driven deployments. While Infrastructure as Code (IaC) using Terraform improves reproducibility, it does not fully eliminate: Manual errors in design specifications...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ranjsharma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Performance Tuning and Scaling Optimization for Large-Scale Azure Workloads",
@@ -2104,17 +2126,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure Monitor Pipeline: A Modern Approach to Telemetry Ingestion at Scale",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-monitor-pipeline-a-modern-approach-to-telemetry-ingestion/ba-p/4513980",
-      "published": "2026-04-23T10:23:43+00:00",
-      "summary": "Large-scale observability often fails not because of analytics, but because of ingestion. As environments grow—across regions, clouds, and on‑premises sites—traditional log forwarding architectures struggle with scale, reliability, cost, and security. Azure Monitor Pipeline, now generally...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "adityakumar60",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Introducing the Microsoft Sentinel Training Lab. Hands-On Security Operations in Minutes",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/introducing-the-microsoft-sentinel-training-lab-hands-on/ba-p/4513274",
       "published": "2026-04-23T08:50:24+00:00",
@@ -3035,17 +3046,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "junjieli",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "🏆 Agents League Winner Spotlight – Reasoning Agents Track",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/agents-league-winner-spotlight-reasoning-agents-track/ba-p/4511211",
-      "published": "2026-04-17T07:00:00+00:00",
-      "summary": "Agents League was designed to showcase what agentic AI can look like when developers move beyond single‑prompt interactions and start building systems that plan, reason, verify, and collaborate. Across three competitive tracks—Creative Apps, Reasoning Agents, and Enterprise Agents—participants had...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "carlottacaste",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blogs focused on enterprise modernization through performance optimization, developer automation, and analytics migration. Key themes included tuning and scaling large Azure application workloads, using **GitHub Copilot Workspace** to build **multi-file refactoring agents**, and streamlining **Logic Apps** delivery with **Visual Studio Code** plus **CI/CD pipelines**.\n\nAnother major announcement area was data platform transformation: Azure highlighted a **semantic layer-first** strategy for moving from **Tableau to Power BI**, aimed at helping cloud architects preserve business logic and improve governance during BI modernization."
+  "summary": "Today’s Azure posts were heavily focused on AI-assisted engineering and operational modernization: Azure highlighted spec-driven development as a more structured alternative to prompt-only workflows, showed how to build AI agents for Azure infrastructure validation, and demonstrated multi-file refactoring with GitHub Copilot Workspace. The blogs also emphasized cloud delivery and scale, with guidance on performance tuning large Azure workloads, using Visual Studio Code plus CI/CD pipelines to build and deploy Logic App workflows, and a semantic layer-first approach for migrating Tableau environments to Power BI for analytics modernization."
 }
