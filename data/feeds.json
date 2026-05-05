@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T16:18:54.427833+00:00",
+  "lastUpdated": "2026-05-05T19:01:38.320521+00:00",
   "totalArticles": 1136,
   "articles": [
     {
@@ -11,6 +11,83 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Federated Copilot connectors - bringing real-time enterprise data within Microsoft 365 Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/federated-copilot-connectors-bringing-real-time-enterprise-data/ba-p/4515993",
+      "published": "2026-05-05T18:57:54+00:00",
+      "summary": "Microsoft 365 Copilot leverages Copilot connectors with sync capabilities that can further enrich Work IQ and unify enterprise knowledge across hundreds of SaaS systems into a single, coherent enterprise knowledge base in your Microsoft 365 tenant. This foundation enables Copilot to deliver...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "RohitBhatia",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Update host keys to use SFTP on Azure Blob Storage",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/update-host-keys-to-use-sftp-on-azure-blob-storage/ba-p/4515483",
+      "published": "2026-05-05T18:22:49+00:00",
+      "summary": "Update host keys to use SFTP on Azure Blob Storage Some Azure Storage users may receive periodically an alert informing to update host keys to use SFTP on Azure Blob Storage. This article describes the impact this will have on the SFTP blob service and what are the changes needed.Table of Content...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "LuisFilipe",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Introducing OpenAI's newest chat model in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-openai-s-newest-chat-model-in-microsoft-foundry/ba-p/4516848",
+      "published": "2026-05-05T18:10:15+00:00",
+      "summary": "OpenAI's GPT-5.5 Instant (or Chat-latest in the API) begins rolling out in Microsoft Foundry today as GPT-chat-latest. Built on GPT-5.4 and GPT-5.3-chat, the new model delivers measurable gains in factual accuracy, tool calling, and response efficiency. These improvements translate directly into...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Naomi Moneypenny",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[In preview] Public Preview: Application Gateway for Containers managed add-on + AKS Automatic",
+      "link": "https://azure.microsoft.com/updates?id=558403",
+      "published": "2026-05-05T17:30:03+00:00",
+      "summary": "We previously announced the availability of Application Gateway for Containers and the Application Gateway for Containers AKS Add-on for Azure Kubernetes Service (AKS). At that time, one limitation was that Application Gateway for Containers could not be",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Elastic SAN support for AVS Gen2 Private Cloud",
+      "link": "https://azure.microsoft.com/updates?id=560909",
+      "published": "2026-05-05T16:00:38+00:00",
+      "summary": "Elastic SAN datastores deliver simpler connectivity and improved performance when used with AVS Gen2 Private Cloud: Simpler connectivity & configuration No ExpressRoute gateway required A single Private Endpoint is sufficient to configure t",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Single Volume Snapshots on Azure Elastic SAN",
+      "link": "https://azure.microsoft.com/updates?id=560899",
+      "published": "2026-05-05T16:00:38+00:00",
+      "summary": "Azure Elastic SAN now supports single volume snapshots, enabling incremental, point‑in‑time backups of individual SAN volumes. Snapshots capture only changes since the previous snapshot and reside within the SAN, allowing customers to quickly deploy new v",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: AVS Support for AV64 SKU on Azure Elastic SAN",
+      "link": "https://azure.microsoft.com/updates?id=560894",
+      "published": "2026-05-05T16:00:38+00:00",
+      "summary": "Azure Elastic SAN datastores are now supported with AV64 SKUs, enabling higher-scale and higher-performance storage options for Azure VMware Solution deployments.",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -88,17 +165,6 @@
       "blogId": "analyticsonazure",
       "author": "Sally_Dabbah",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Federated Copilot connectors - bringing real-time enterprise data within Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/federated-copilot-connectors-bringing-real-time-enterprise-data/ba-p/4515993",
-      "published": "2026-05-05T10:01:36+00:00",
-      "summary": "Microsoft 365 Copilot leverages Copilot connectors with sync capabilities that can further enrich Work IQ and unify enterprise knowledge across hundreds of SaaS systems into a single, coherent enterprise knowledge base in your Microsoft 365 tenant. This foundation enables Copilot to deliver...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "RohitBhatia",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -1464,17 +1530,6 @@
       "author": "Alexis Wales",
       "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Update host keys to use SFTP on Azure Blob Storage",
-      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/update-host-keys-to-use-sftp-on-azure-blob-storage/ba-p/4515483",
-      "published": "2026-04-28T14:44:02+00:00",
-      "summary": "Update host keys to use SFTP on Azure Blob Storage Some Azure Storage users may have received an alert informing that Microsoft will change the public key, like this. This article describes the impact this will have on the SFTP blob service and what are the changes needed.On this article: What is...",
-      "blog": "Azure PaaS",
-      "blogId": "azurepaasblog",
-      "author": "LuisFilipe",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Simplifying AWS defense with Microsoft Sentinel UEBA",
@@ -3618,17 +3673,6 @@
       "blog": "Azure AI Foundry Blog",
       "blogId": "azure-ai-foundry-blog",
       "author": "sudarsan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Simplifying Image Classification with Azure AutoML for Images: A Practical Guide",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/simplifying-image-classification-with-azure-automl-for-images-a/ba-p/4479632",
-      "published": "2026-04-14T14:03:39+00:00",
-      "summary": "1. The Challenge of Traditional Image Classification Anyone who has worked with computer vision knows the drill: you need to classify images, so you dive into TensorFlow or PyTorch, spend days architecting a convolutional neural network, experiment with dozens of hyperparameters, and hope your...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Serge_Retkowsky",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -8737,17 +8781,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "[In preview] Public Preview: Azure Cosmos DB Mirroring with Private Endpoints",
-      "link": "https://azure.microsoft.com/updates?id=543086",
-      "published": "2026-01-09T14:30:36+00:00",
-      "summary": "Available now in Public Preview, you can configure Azure Cosmos DB accounts with virtual networks or private endpoints to work with Microsoft Fabric mirroring. This feature allows you to preserve your enhanced network security and seamlessly replicate you",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "mpi-stage: High-Performance File Distribution for HPC Clusters",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/mpi-stage-high-performance-file-distribution-for-hpc-clusters/ba-p/4484366",
       "published": "2026-01-09T10:24:34+00:00",
@@ -8877,39 +8910,6 @@
       "blogId": "kubernetes",
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Cloud-native apps on Kubernetes pricing calculator scenario",
-      "link": "https://azure.microsoft.com/updates?id=536560",
-      "published": "2025-12-31T21:00:35+00:00",
-      "summary": "The new cloud-native apps on Kubernetes pricing calculator scenario allows teams to estimate the total cost of ownership for a production-ready AKS cluster with other key Azure services, including Azure Container Registry, Azure Monitoring, Microsoft Defe",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Geo-Replication for Azure Service Bus Premium",
-      "link": "https://azure.microsoft.com/updates?id=490149",
-      "published": "2025-12-31T21:00:35+00:00",
-      "summary": "The Geo-Replication feature for Azure Service Bus in the premium tier is now generally available. The Service Bus Geo-Replication feature is one of the options to insulate Azure Service Bus applications against outages and disasters, providing replication",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure Premium SSD v2 Disk is now available in Austria East and in a second Availability Zone in Japan West",
-      "link": "https://azure.microsoft.com/updates?id=544080",
-      "published": "2025-12-31T20:45:49+00:00",
-      "summary": "Azure Premium SSD v2 is now available in Austria East and in a second Availability Zone in Japan West. Azure Premium SSD v2, a next-generation general-purpose block storage solution, offers sub-millisecond latencies and exceptional price performance for",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft ecosystem posts centered on AI agents, Copilot extensibility, and cloud automation. Microsoft highlighted new enterprise data access for Microsoft 365 Copilot via federated Copilot connectors, Azure-based agent patterns for backfills and infrastructure validation, multi-file refactoring with GitHub Copilot Workspace, and spec-driven development—alongside practical DevOps guidance for Bicep deployments with Managed HSM keys, Logic Apps CI/CD in Visual Studio Code, Azure naming automation, and performance tuning for large-scale Azure workloads.  \n\nSecurity and governance were another major theme: Microsoft Sentinel added Azure Blob Storage support for CCF connectors, Microsoft Defender for Cloud’s code-to-cloud risk visibility reached general availability, and GitHub announced a deprecation of the `code_scanning_upload` field in the `rate_limit` API endpoint. Additional posts covered Power BI migration strategy from Tableau, open-source maintainer recognition during Maintainer Month, and even a lightweight developer workflow for sending email from Claude Code with zero dependencies."
+  "summary": "Microsoft’s Azure ecosystem today is heavily centered on AI and agentic workflows: key announcements include OpenAI’s newest chat model arriving in Microsoft Foundry, federated Copilot connectors that let Microsoft 365 Copilot access real-time enterprise data, and multiple practical builds on Azure such as an LLM-powered backfill agent, infrastructure validation agents, spec-driven development, and multi-file refactoring with GitHub Copilot Workspace. Security and governance were also prominent, with Microsoft Defender for Cloud’s code-to-cloud risk visibility reaching GA, Microsoft Sentinel adding Azure Blob Storage support for CCF connectors, and posts covering Azure naming automation, Managed HSM-backed Bicep deployments, and large-scale workload performance tuning.\n\nOn the platform side, Azure highlighted several storage and infrastructure updates: Application Gateway for Containers managed add-on with AKS Automatic entered preview, while Azure Elastic SAN gained general availability for AVS Gen2 Private Cloud support, single volume snapshots, and AV64 SKU support. Additional operational updates included guidance on rotating host keys for SFTP on Azure Blob Storage, alongside broader community and ecosystem items from GitHub Maintainer Month to developer tooling and DevOps automation."
 }
