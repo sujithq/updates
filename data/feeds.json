@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T07:51:06.378013+00:00",
+  "lastUpdated": "2026-05-05T10:28:07.279066+00:00",
   "totalArticles": 1136,
   "articles": [
     {
@@ -12,6 +12,61 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "From Manual Backfills to Autonomous Pipelines: Building an LLM-Powered Backfill Agent on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/from-manual-backfills-to-autonomous-pipelines-building-an-llm/ba-p/4516777",
+      "published": "2026-05-05T10:16:19+00:00",
+      "summary": "Introduction: Data backfills are a common operational requirement in modern data platforms. Missing partitions, upstream delays, or failed pipeline runs often require engineers to manually identify gaps, determine the appropriate recovery window, and trigger reprocessing. This approach does not...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Sally_Dabbah",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "(Co)work in Progress",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/co-work-in-progress/ba-p/4511672",
+      "published": "2026-05-05T10:16:00+00:00",
+      "summary": "Give Microsoft 365 Copilot Cowork your team's playbook. Plugins bring your organization's skills and knowledge into one workflow so Cowork can help teams work the way they already do. Try Copilot Cowork in Frontier In plain English: a connector is the “bridge” that lets Cowork safely pull data from...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "ilyagrebnov",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Federated Copilot connectors - bringing real-time enterprise data within Microsoft 365 Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/federated-copilot-connectors-bringing-real-time-enterprise-data/ba-p/4515993",
+      "published": "2026-05-05T10:01:36+00:00",
+      "summary": "Microsoft 365 Copilot leverages Copilot connectors with sync capabilities that can further enrich Work IQ and unify enterprise knowledge across hundreds of SaaS systems into a single, coherent enterprise knowledge base in your Microsoft 365 tenant. This foundation enables Copilot to deliver...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "RohitBhatia",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Automating Azure Naming Standards using API and DevOps Pipelines",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/automating-azure-naming-standards-using-api-and-devops-pipelines/ba-p/4516628",
+      "published": "2026-05-05T09:43:42+00:00",
+      "summary": "Introduction In large Azure environments, one of the most overlooked yet critical governance challenges is resource naming consistency. While organizations define naming standards, enforcing them at scale across multiple subscriptions, teams, and pipelines often becomes a manual and inconsistent...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "sameenamohammed",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Deploying Azure Resources with Managed HSM Keys Using Bicep",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/deploying-azure-resources-with-managed-hsm-keys-using-bicep/ba-p/4516971",
+      "published": "2026-05-05T09:30:46+00:00",
+      "summary": "Architecture Overview The deployment includes: Managed HSM instance Key creation inside HSM User-assigned managed identity / service principal Role assignments for key access Azure resource (e.g., Storage / Databricks / Disk) using CMK Flow: Create Managed HSM Create encryption key Assign...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Roslin_Nivetha",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Moving Beyond Prompts: A Practical Introduction to Spec-Driven Development",
@@ -341,17 +396,6 @@
       "blogId": "azurearchitectureblog",
       "author": "sameeraman",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Automating Azure Naming Standards using API and DevOps Pipelines",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/automating-azure-naming-standards-using-api-and-devops-pipelines/ba-p/4516628",
-      "published": "2026-05-03T05:53:03+00:00",
-      "summary": "Introduction In large Azure environments, one of the most overlooked yet critical governance challenges is resource naming consistency. While organizations define naming standards, enforcing them at scale across multiple subscriptions, teams, and pipelines often becomes a manual and inconsistent...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "sameenamohammed",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -1694,17 +1738,6 @@
       "blogId": "azuredevcommunityblog",
       "author": "Debapriya",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure Key Vault Auto‑Rotation Practicle Guide",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-key-vault-auto-rotation-practicle-guide/ba-p/4513816",
-      "published": "2026-04-26T03:21:33+00:00",
-      "summary": "If you’ve ever been called into a Severity-1 issue because a certificate expired at midnight, you already understand why credential rotation matters. Keys, secrets, and certificates sit quietly in the background and when they expire, applications go dark, trust breaks, and teams scramble. This is...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ChandraHundigam_MSFT",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -6218,17 +6251,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Enable agents to bring apps into the flow of work—while keeping IT in control",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/enable-agents-to-bring-apps-into-the-flow-of-work-while-keeping/ba-p/4499464",
-      "published": "2026-03-16T15:06:01+00:00",
-      "summary": "A seller needs to log a new opportunity. A manager wants to approve a request. A marketer has to update a campaign asset. Until today, these actions often meant taking insights from Microsoft 365 Copilot and switching tabs. Agents can now change that: helping people take action in their go-to work...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "rob_howard",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Now Generally Available: Cosmos DB Mirroring in Microsoft Fabric with Private Networks",
       "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-mirroring-fabric-private-networks-ga/",
       "published": "2026-03-16T13:00:06+00:00",
@@ -6491,17 +6513,6 @@
       "author": "kaysieyu",
       "feedUrl": "https://github.com/Azure/AKS/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "A closer look at Work IQ",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/a-closer-look-at-work-iq/ba-p/4499789",
-      "published": "2026-03-09T20:26:33+00:00",
-      "summary": "Work IQ is the intelligence layer that personalizes Microsoft 365 Copilot to you and your organization. It is the “brain” behind Copilot that understands context, relationships, and work patterns, so Copilot and agents can be faster, more accurate, and more secure than model companies that are...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "Seth_Patton",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Announcing the AI Gateway Working Group",
@@ -10992,17 +11003,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Securing Azure Databricks Serverless: Practical Guide to Private Link Integration",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/securing-azure-databricks-serverless-practical-guide-to-private/ba-p/4457083",
-      "published": "2025-09-25T23:42:50+00:00",
-      "summary": "The Challenge: Outbound Control in a Serverless World Serverless compute resources run in the serverless compute plane, and is managed by Microsoft, for ease of use. Databricks serverless provides hassle-free compute for running notebooks, jobs, and pipelines and by default, outbound traffic can...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "alescardoso",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing Changed Block Tracking API support (alpha)",
       "link": "https://kubernetes.io/blog/2025/09/25/csi-changed-block-tracking/",
       "published": "2025-09-25T13:00:00+00:00",
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts were heavily focused on AI-assisted engineering and operational modernization: Azure highlighted spec-driven development as a more structured alternative to prompt-only workflows, showed how to build AI agents for Azure infrastructure validation, and demonstrated multi-file refactoring with GitHub Copilot Workspace. The blogs also emphasized cloud delivery and scale, with guidance on performance tuning large Azure workloads, using Visual Studio Code plus CI/CD pipelines to build and deploy Logic App workflows, and a semantic layer-first approach for migrating Tableau environments to Power BI for analytics modernization."
+  "summary": "Today’s Azure posts were heavily centered on AI agents and Copilot extending from experimentation into real enterprise workflows: Microsoft highlighted an LLM-powered backfill agent for Azure data pipelines, an AI agent for Azure infrastructure validation, spec-driven development, and multi-file refactoring with GitHub Copilot Workspace, while Microsoft 365 Copilot updates focused on federated Copilot connectors that bring real-time enterprise data into Copilot and broader themes around collaborative “co-work.”  \n\nA second major theme was Azure platform engineering and modernization at scale, with practical guidance on enforcing Azure naming standards through APIs and DevOps pipelines, deploying resources with Azure Managed HSM keys via Bicep, building and deploying Logic Apps through VS Code and CI/CD, tuning large-scale Azure application performance, and migrating Tableau to Power BI using a semantic layer-first architecture."
 }
