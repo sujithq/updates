@@ -1,17 +1,39 @@
 {
-  "lastUpdated": "2026-05-06T05:48:04.750451+00:00",
+  "lastUpdated": "2026-05-06T10:54:15.694104+00:00",
   "totalArticles": 1136,
   "articles": [
     {
       "title": "Visual Studio Code 1.119",
       "link": "https://code.visualstudio.com/updates/v1_119",
       "published": "2026-05-06T17:00:00+00:00",
-      "summary": "Learn what's new in Visual Studio Code 1.119 (Insiders) Read the full article",
+      "summary": "Learn what's new in Visual Studio Code 1.119 Read the full article",
       "blog": "Visual Studio Code",
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Turning GitHub Copilot into a “Best Practices Coach” with Copilot Spaces + a Markdown Knowledge Base",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/turning-github-copilot-into-a-best-practices-coach-with-copilot/ba-p/4511567",
+      "published": "2026-05-06T07:00:00+00:00",
+      "summary": "Why Copilot Spaces + Markdown repos work so well When you ask Copilot generic questions (“How should we log errors?” “What’s our API versioning approach?”), the model will often respond with reasonable defaults. But reasonable defaults are not the same as your standards. Copilot Spaces solve the...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "mohashaikh",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "🚀 Modernizing Azure Landing Zone Deployments: From Terraform Scripts to GHCP-Driven Engineering",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/modernizing-azure-landing-zone-deployments-from-terraform/ba-p/4517168",
+      "published": "2026-05-06T06:05:20+00:00",
+      "summary": "The code nobody wants to write anymore Most Azure Landing Zone (ALZ) deployments we see today still follow the same pattern they did a few years ago. Engineers manually write Terraform modules, copy networking blocks from older repos, tweak management group hierarchies, and wire pipelines step by...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "gurkirat",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Operationalizing Responsible AI in Microsoft Foundry within Enterprise Network Boundaries",
@@ -122,6 +144,17 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Update host keys to use SFTP on Azure Blob Storage",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/update-host-keys-to-use-sftp-on-azure-blob-storage/ba-p/4515483",
+      "published": "2026-05-05T18:22:49+00:00",
+      "summary": "Update host keys to use SFTP on Azure Blob Storage Some Azure Storage users may receive periodically an alert informing to update host keys to use SFTP on Azure Blob Storage. This article describes the impact this will have on the SFTP blob service and what are the changes needed.Table of Content...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "LuisFilipe",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "[In preview] Public Preview: Application Gateway for Containers managed add-on + AKS Automatic",
@@ -1620,17 +1653,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Update host keys to use SFTP on Azure Blob Storage",
-      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/update-host-keys-to-use-sftp-on-azure-blob-storage/ba-p/4515483",
-      "published": "2026-04-28T14:44:02+00:00",
-      "summary": "Update host keys to use SFTP on Azure Blob Storage Some Azure Storage users may have received an alert informing that Microsoft will change the public key, like this. This article describes the impact this will have on the SFTP blob service and what are the changes needed.On this article: What is...",
-      "blog": "Azure PaaS",
-      "blogId": "azurepaasblog",
-      "author": "LuisFilipe",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Simplifying AWS defense with Microsoft Sentinel UEBA",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/04/28/simplifying-aws-defense-microsoft-sentinel-ueba/",
       "published": "2026-04-28T13:00:00+00:00",
@@ -1881,17 +1903,6 @@
       "blogId": "linuxandopensourceblog",
       "author": "robcronin",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "From Portal Edits to GitOps : Deploying Azure API Management Configuration with APIOps",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-portal-edits-to-gitops-deploying-azure-api-management/ba-p/4514975",
-      "published": "2026-04-27T07:45:35+00:00",
-      "summary": "Introduction Modern enterprise platforms are increasingly built around APIs, and Azure API Management (APIM) sits at the heart of these systems as the control plane for enforcing policies, managing access, and routing traffic. While APIM provides a powerful interface through the Azure portal, many...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "aloormahesh",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3212,17 +3223,6 @@
       "blogId": "azurearcblog",
       "author": "liranlyabock_microsoft",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "⚡Foundry Toolkit for VS Code: A Deep Dive on GA",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/foundry-toolkit-for-vs-code-a-deep-dive-on-ga/ba-p/4509510",
-      "published": "2026-04-17T07:06:47+00:00",
-      "summary": "As we shared in the announcement, Microsoft Foundry Toolkit for Visual Studio Code is now generally available. In this deep dive, we walk through everything that’s in the GA release — from the rebrand and extension consolidation, to model experimentation, agent development, evaluations, and...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "junjieli",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts centered on developer productivity and enterprise AI governance. **Visual Studio Code 1.119** highlights the latest VS Code release, while **Operationalizing Responsible AI in Microsoft Foundry within Enterprise Network Boundaries** focuses on deploying **Microsoft Foundry** for responsible AI inside secured enterprise environments, emphasizing network-boundary controls and governance for Azure infrastructure scenarios."
+  "summary": "Today’s Azure posts centered on developer productivity, platform modernization, and governed AI adoption. Highlights included the Visual Studio Code 1.119 release, guidance for using GitHub Copilot with Copilot Spaces plus a Markdown knowledge base as a “best practices coach,” and a modernization pattern for Azure Landing Zone deployments that shifts from Terraform scripts toward GHCP-driven engineering.\n\nAnother major theme was enterprise-ready AI governance: Microsoft detailed how to operationalize Responsible AI in Microsoft Foundry within enterprise network boundaries, emphasizing secure, policy-aligned deployment of AI workloads. Overall, the announcements tied together core Microsoft developer tools—VS Code, GitHub Copilot, Terraform/Azure Landing Zones, and Microsoft Foundry—around faster delivery with stronger governance."
 }
