@@ -1,7 +1,73 @@
 {
-  "lastUpdated": "2026-05-06T16:23:41.235932+00:00",
+  "lastUpdated": "2026-05-06T19:18:28.586495+00:00",
   "totalArticles": 1136,
   "articles": [
+    {
+      "title": "Multitude builds resilient banking platform with PostgreSQL and MySQL on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-customer-innovation-blog/multitude-builds-resilient-banking-platform-with-postgresql-and/ba-p/4512470",
+      "published": "2026-05-06T18:53:20+00:00",
+      "summary": "Expanding into new markets is usually a sign that things are going well. For digital banking platforms, however, growth brings a different kind of challenge - more customers, more data, and stricter expectations around availability, security, and regulatory compliance. At Multitude, we operate...",
+      "blog": "Customer Innovation",
+      "blogId": "azure-customer-innovation-blog",
+      "author": "Pooja_Y",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-customer-innovation-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[In preview] Public Preview: Azure Cosmos DB spherical quantization for improved vector search",
+      "link": "https://azure.microsoft.com/updates?id=561167",
+      "published": "2026-05-06T18:30:28+00:00",
+      "summary": "Azure Cosmos DB now offers spherical quantization in public preview to help you achieve faster vector indexing with higher recall and accuracy at scale. Spherical quantization is an advanced vector compression technique designed to preserve search quality",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Distributing model weights to your AI cluster: a faster pre-flight on AKS and Slurm",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/distributing-model-weights-to-your-ai-cluster-a-faster-pre/ba-p/4517294",
+      "published": "2026-05-06T18:30:00+00:00",
+      "summary": "Why this exists You've provisioned a multi-node GPU cluster on Azure. NDR InfiniBand. The training script is ready. Before any GPU does any useful work, every node needs the same 400 GB model checkpoint on its local NVMe. The naive approach — azcopy (or our Rust equivalent, azcp) on every node, in...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "pauledwards",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Ask questions: May 12 live Agent 365 AMA",
+      "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/ask-questions-may-12-live-agent-365-ama/ba-p/4511734",
+      "published": "2026-05-06T18:14:17+00:00",
+      "summary": "Microsoft Agent 365--generally available May 1, 2026--is a control plane that empowers IT admins, Security Operations analysts, Identity and Network Security admins, and Data Security & Compliance admins to observe, govern, and secure all agents for their organization. We’ll demonstrate how to get...",
+      "blog": "Agent 365 Blog",
+      "blogId": "agent-365-blog",
+      "author": "Nichole_Peterson",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Better together with Azure WAF + Microsoft Defender for Storage + Defender for Azure SQL Databases",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/better-together-with-azure-waf-microsoft-defender-for-storage/ba-p/4517101",
+      "published": "2026-05-06T17:22:23+00:00",
+      "summary": "Authored by: Fernanda_Vela​ , saikishor​, Yura_Lee​ Reviewed by: YuriDiogenes​, Mohit_Kumar​, Amir_Dahan​, eitanbremler​ , Kitt_Weatherman​ Introduction Often, customers ask why additional workload protection is needed when a web application firewall is already in place. Azure Web Application...",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "Yura_Lee",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Durable Workflows in the Microsoft Agent Framework",
+      "link": "https://devblogs.microsoft.com/dotnet/durable-workflows-in-microsoft-agent-framework/",
+      "published": "2026-05-06T17:00:00+00:00",
+      "summary": "Build durable AI agent workflows with the Microsoft Agent Framework. Start with in-process console apps, add durability with the Durable Task runtime, scale with parallel AI agents, and host on Azure Functions for serverless execution. The post Durable Workflows in the Microsoft Agent Framework...",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Shyju Krishnankutty",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "Visual Studio Code 1.119",
       "link": "https://code.visualstudio.com/updates/v1_119",
@@ -14,9 +80,42 @@
       "sourceType": "rss"
     },
     {
+      "title": "Now in Foundry: IBM Granite 4.1, NVIDIA Nemotron Nano Omni, and Qwen3.6-35B-A3B",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/now-in-foundry-ibm-granite-4-1-nvidia-nemotron-nano-omni-and/ba-p/4516858",
+      "published": "2026-05-06T16:37:02+00:00",
+      "summary": "This week Microsoft Foundry adds two major model families alongside a reasoning powerhouse that spans the full spectrum from specialized speech and vision to general-purpose coding and long-context analysis. IBM's Granite 4.1 is a famiily of 10: six LLMs across 3B, 8B, and 30B sizes in both...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Osi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Resilient by Design: Azure Databricks Disaster Recovery Strategy",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/resilient-by-design-azure-databricks-disaster-recovery-strategy/ba-p/4516464",
+      "published": "2026-05-06T16:28:58+00:00",
+      "summary": "Introduction: From Recovery Plans to Resilience Strategy As organizations increasingly rely on Azure Databricks for mission-critical analytics and data engineering workloads, the need for robust disaster recovery (DR) strategies becomes paramount. These platforms are no longer just analytics...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "KonstantinaF",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "From Chaos to Clarity: Your Databricks Workspace on a Single Pane of Glass",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/from-chaos-to-clarity-your-databricks-workspace-on-a-single-pane/ba-p/4516805",
+      "published": "2026-05-06T16:25:47+00:00",
+      "summary": "The question that never stays answered — until now As Azure Databricks workspaces evolve, complexity creeps in unnoticed. Every Azure Databricks conversation with customers eventually lands on the same question: “What do we actually have in this workspace?” Over time, clusters multiply, jobs get...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "AmitDamle",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Building resilient networks for AI supercomputers",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/building-resilient-networks-for-ai-supercomputers/ba-p/4516919",
-      "published": "2026-05-06T16:03:17+00:00",
+      "published": "2026-05-06T16:25:26+00:00",
       "summary": "By Valerie Cutts and Jithin Jose Last fall we introduced Fairwater, the world’s most powerful AI datacenter. Delivering a system of this scale required rethinking how Azure designs supercomputers, especially the scale-out network. Today, we are sharing more about the networking innovations that...",
       "blog": "High Performance Computing",
       "blogId": "azurehighperformancecomputingblog",
@@ -33,6 +132,17 @@
       "blogId": "cosmosdbblog",
       "author": "Sajeetharan Sinnathurai",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "​​Microsoft named an overall leader in KuppingerCole Analyst’s 2026 Emerging AI Security Operations Center (SOC) report ​​",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/06/microsoft-named-an-overall-leader-in-kuppingercole-analysts-2026-emerging-ai-security-operations-center-soc-report/",
+      "published": "2026-05-06T16:00:00+00:00",
+      "summary": "Microsoft is excited to be named an Overall Leader, and the Market Leader in the Kuppinger Cole Analyst’s 2026 Emerging AI Security Operations Center (SOC) report, as we see automation and AI as core components of the future of cybersecurity. The post ​​Microsoft named an overall leader in...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Rob Lefferts",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -64,7 +174,7 @@
       "summary": "Threat actors are targeting macOS users with fake utility fixes that trick them into running malicious Terminal commands. This campaign evades traditional defenses by stealing credentials, wallets, and sensitive data. The post ClickFix campaign uses fake macOS utilities lures to deliver...",
       "blog": "Microsoft Security Blog",
       "blogId": "microsoftsecurity",
-      "author": "Microsoft Defender Security Research Team",
+      "author": "Microsoft Defender Security Research Team and Microsoft Defender Experts",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
@@ -144,17 +254,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Better together with Azure WAF + Microsoft Defender for Storage + Defender for Azure SQL Databases",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/better-together-with-azure-waf-microsoft-defender-for-storage/ba-p/4517101",
-      "published": "2026-05-05T21:54:36+00:00",
-      "summary": "Authored by: Fernanda_Vela​ , saikishor​, Yura_Lee​ Reviewed by: YuriDiogenes​, Mohit_Kumar​, Amir_Dahan​, eitanbremler​ , Kitt_Weatherman​ Introduction Often, customers ask why additional workload protection is needed when a web application firewall is already in place. Azure Web Application...",
-      "blog": "Microsoft Defender for Cloud",
-      "blogId": "microsoftdefendercloudblog",
-      "author": "Yura_Lee",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Introducing OpenAI's newest chat model in Microsoft Foundry",
@@ -793,17 +892,6 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Register now for Agent 365 live AMA on May 12",
-      "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/register-now-for-agent-365-live-ama-on-may-12/ba-p/4511734",
-      "published": "2026-05-01T17:29:58+00:00",
-      "summary": "Microsoft Agent 365--generally available May 1, 2026--is a control plane that empowers IT admins, Security Operations analysts, Identity and Network Security admins, and Data Security & Compliance admins to observe, govern, and secure all agents for their organization. We’ll demonstrate how to get...",
-      "blog": "Agent 365 Blog",
-      "blogId": "agent-365-blog",
-      "author": "Nichole_Peterson",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "The new Run dialog: faster, cleaner, and more capable",
@@ -2896,17 +2984,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Detection strategies across cloud and identities against infiltrating IT workers",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/04/21/detection-strategies-cloud-identities-against-infiltrating-it-workers/",
-      "published": "2026-04-21T16:03:09+00:00",
-      "summary": "The shift to remote and hybrid work since the pandemic expanded global hiring and accelerated digital onboarding, increasing reliance on online identity verification and remote access. The post Detection strategies across cloud and identities against infiltrating IT workers appeared first on...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Defender Security Research Team and Microsoft Threat Intelligence",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Announcing public preview of redundant TCP support for RDP Multipath for Azure Virtual Desktop",
       "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/announcing-public-preview-of-redundant-tcp-support-for-rdp/ba-p/4511241",
       "published": "2026-04-21T16:00:28+00:00",
@@ -3014,17 +3091,6 @@
       "blogId": "azuresdkblog",
       "author": "Kristen Womack",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Writing Node.js addons with .NET Native AOT",
-      "link": "https://devblogs.microsoft.com/dotnet/writing-nodejs-addons-with-dotnet-native-aot/",
-      "published": "2026-04-20T20:00:00+00:00",
-      "summary": "The C# Dev Kit team replaced C++ Node.js addons with C# and Native AOT, removing a dependency on Python. This post walks through building a Node.js native addon entirely in C# using N-API, LibraryImport, and UnmanagedCallersOnly. The post Writing Node.js addons with .NET Native AOT appeared first...",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": "Drew Noakes",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
     },
     {
@@ -3772,17 +3838,6 @@
       "blog": "Azure AI Foundry Blog",
       "blogId": "azure-ai-foundry-blog",
       "author": "Naomi Moneypenny",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Building Real-Time Speech Translation with AI Avatars with Azure Speech Services",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/building-real-time-speech-translation-with-ai-avatars-with-azure/ba-p/4490972",
-      "published": "2026-04-14T15:45:00+00:00",
-      "summary": "Introduction Language barriers remain one of the biggest challenges in communication. Whether you are holding an all-hands meeting for a globally distributed team, consulting with non-native speaking patients, or teaching students across continents—seamless, real-time translation makes or breaks...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "sudarsan",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -8759,17 +8814,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "[In preview] Public Preview: User delegation SAS for Azure Tables, Azure Files, and Azure Queues",
-      "link": "https://azure.microsoft.com/updates?id=548987",
-      "published": "2026-01-16T17:00:49+00:00",
-      "summary": "User delegation SAS for Azure Tables, Azure Files, and Azure Queues is now available in public preview. User delegation (UDK) SAS is already generally available for blobs, and this release extends that support to tables, files, and queues.User delegation",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Building docfind: Fast Client-Side Search with Rust and WebAssembly",
       "link": "https://code.visualstudio.com/blogs/2026/01/15/docfind",
       "published": "2026-01-15T00:00:00+00:00",
@@ -10574,17 +10618,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Breaking the Million-Token Barrier: The Technical Achievement of Azure ND GB300 v6",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/breaking-the-million-token-barrier-the-technical-achievement-of/ba-p/4466080",
-      "published": "2025-11-04T22:07:44+00:00",
-      "summary": "By Mark Gitau (Software Engineer) and Hugo Affaticati (Senior Cloud Infrastructure Engineer) The new Azure ND GB300 v6 virtual machines, built on the cutting-edge NVIDIA Blackwell architecture introduced with the ND GB200 v6, are more optimized for inference workloads with 50% more GPU memory and...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "HugoAffaticati",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Revolutionizing Reliability: Introducing the Azure Failure Prediction and Detection (AFPD) system",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/revolutionizing-reliability-introducing-the-azure-failure/ba-p/4464883",
       "published": "2025-10-31T19:02:54+00:00",
@@ -10838,17 +10871,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Secure Medallion Architecture Pattern on Azure Databricks (Part I)",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/secure-medallion-architecture-pattern-on-azure-databricks-part-i/ba-p/4459268",
-      "published": "2025-10-08T17:13:14+00:00",
-      "summary": "Disclaimer: The views in this article are my own and do not represent Microsoft or Databricks. This article is part of a series focused on deploying a secure Medallion Architecture. The series follows a top-down approach , beginning with a high-level architectural perspective and gradually drilling...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "mscagliola",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "AMBA-ALZ pattern: Learn about the latest and greatest enhancements!",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/amba-alz-pattern-learn-about-the-latest-and-greatest/ba-p/4458320",
       "published": "2025-10-08T13:49:40+00:00",
@@ -10879,17 +10901,6 @@
       "blogId": "modernizationbestpracticesblog",
       "author": "Manish_Kumar_Pandey",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure Data Factory, SQL Managed Instance, and SSIS Implementation",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/azure-data-factory-sql-managed-instance-and-ssis-implementation/ba-p/4459525",
-      "published": "2025-10-07T13:13:56+00:00",
-      "summary": "Co-Authored By: Rafia_Aqil​ This guide provides step-by-step instructions for enabling Azure Data Factory (ADF), connecting it with Azure SQL Managed Instance (SQLMI), provisioning SSIS runtime, running SSIS packages, and integrating with Microsoft Fabric (Power BI). It is intended for cloud...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "PeterLo",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12486,18 +12497,7 @@
       "author": "shailesh14",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Catch Up on the Azure Communication Services Fundamentals Series",
-      "link": "https://techcommunity.microsoft.com/t5/azure-communication-services/catch-up-on-the-azure-communication-services-fundamentals-series/ba-p/4410438",
-      "published": "2025-05-05T17:30:45+00:00",
-      "summary": "This April, we partnered with Microsoft Reactor to deliver a four-part webcast series designed to help developers get started with Azure Communication Services. Each 20-minute episode focused on a different communication channel—giving developers the tools to build real-time, scalable, and secure...",
-      "blog": "Communication Services",
-      "blogId": "azurecommunicationservicesblog",
-      "author": "seankeegan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecommunicationservicesblog&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft ecosystem posts centered on AI infrastructure, developer productivity, and secure cloud operations. Key announcements included the public preview of **Azure Cosmos DB Shell**, an **open-source, AI-assisted** command-line experience for database automation; **cert-manager for Azure Arc-enabled Kubernetes** entering **public preview** for certificate lifecycle management in hybrid and multicloud clusters; and guidance on building **resilient networks for AI supercomputers**, underscoring Azure’s focus on large-scale **HPC and AI training infrastructure**.\n\nOn the developer and platform side, the roundup highlighted **Visual Studio Code 1.119**, new **GitHub** filtering for repository security advisories, and several posts on using **GitHub Copilot**, **Copilot Spaces**, and **Terraform/GitHub-centered Azure landing zone modernization** to improve engineering workflows. Security and governance were also major themes, with coverage of a **ClickFix macOS infostealer campaign** from Microsoft Security and enterprise guidance for **operationalizing Responsible AI in Microsoft Foundry within network-constrained environments**."
+  "summary": "Today’s Azure posts were dominated by AI infrastructure and data platform updates: Microsoft highlighted faster AI cluster startup on AKS and Slurm by improving model weight distribution, resilient networking for AI supercomputers, new Azure AI Foundry model additions including IBM Granite 4.1, NVIDIA Nemotron Nano Omni, and Qwen3.6-35B-A3B, plus durable workflows in the Microsoft Agent Framework for .NET. On the data side, Azure announced public previews for Azure Cosmos DB spherical quantization to improve vector search and the open-source, AI-assisted Cosmos DB Shell, while customer and analytics stories focused on resilient architectures with PostgreSQL/MySQL on Azure and Azure Databricks disaster recovery and observability.\n\nSecurity and platform engineering were the other major themes: Microsoft emphasized layered protection with Azure WAF, Defender for Storage, and Defender for Azure SQL Databases, reported recognition in AI SOC security, and warned about a macOS ClickFix infostealer campaign. Additional platform announcements included cert-manager for Azure Arc-enabled Kubernetes in public preview, Visual Studio Code 1.119, GitHub repository security advisory filtering, and Azure modernization work spanning Terraform, GitHub Copilot Spaces, and Azure Landing Zone deployment practices."
 }
