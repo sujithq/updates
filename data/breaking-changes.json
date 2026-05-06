@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T10:10:11.550446+00:00",
+  "lastUpdated": "2026-05-06T10:25:21.482299+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -737,6 +737,28 @@
       "detected": "2026-05-05T10:10:11.550435+00:00",
       "published": "2026-05-04T15:59:33+00:00",
       "blog": "Azure Compute"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=560948",
+      "title": "Retirement: Azure Reserved Virtual Machines Instances for select VM series",
+      "severity": "warning",
+      "deadline": "2026-07-01",
+      "impact": "RIs for select Azure VM series can't be bought or renewed; RI customers affected",
+      "action": "Review affected VM reservations and plan alternative purchase/renewal options",
+      "detected": "2026-05-06T10:25:21.482279+00:00",
+      "published": "2026-05-05T20:00:13+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://github.blog/changelog/2026-05-05-deprecation-notice-code_scanning_upload-field-will-be-removed-from-rate_limit-api-endpoint",
+      "title": "Deprecation notice: code_scanning_upload field will be removed from rate_limit API endpoint",
+      "severity": "critical",
+      "deadline": "2026-05-19",
+      "impact": "rate_limit API drops code_scanning_upload field; API clients parsing it affected",
+      "action": "Update API clients to stop reading code_scanning_upload before removal",
+      "detected": "2026-05-06T10:25:21.482293+00:00",
+      "published": "2026-05-05T13:14:30+00:00",
+      "blog": "GitHub Changelog"
     }
   ]
 }
