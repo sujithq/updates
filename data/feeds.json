@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T01:23:46.989887+00:00",
+  "lastUpdated": "2026-05-06T05:48:04.750451+00:00",
   "totalArticles": 1136,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Operationalizing Responsible AI in Microsoft Foundry within Enterprise Network Boundaries",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/operationalizing-responsible-ai-in-microsoft-foundry-within/ba-p/4516869",
+      "published": "2026-05-06T05:23:44+00:00",
+      "summary": "Strategic Overview Deploying Microsoft Foundry within a VNet-integrated landing zone requires a thoughtful balance between innovation and enterprise-grade security, especially in highly regulated industries like banking. This architecture enforces Responsible AI (RAI) principles and robust content...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Shruti9162",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Use Azure Container Registry as an Upstream Source for Artifact Cache",
@@ -102,15 +113,15 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Update host keys to use SFTP on Azure Blob Storage",
-      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/update-host-keys-to-use-sftp-on-azure-blob-storage/ba-p/4515483",
-      "published": "2026-05-05T18:22:49+00:00",
-      "summary": "Update host keys to use SFTP on Azure Blob Storage Some Azure Storage users may receive periodically an alert informing to update host keys to use SFTP on Azure Blob Storage. This article describes the impact this will have on the SFTP blob service and what are the changes needed.Table of Content...",
-      "blog": "Azure PaaS",
-      "blogId": "azurepaasblog",
-      "author": "LuisFilipe",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
-      "sourceType": "techcommunity"
+      "title": "Kubernetes v1.36: Declarative Validation Graduates to GA",
+      "link": "https://kubernetes.io/blog/2026/05/05/kubernetes-v1-36-declarative-validation-ga/",
+      "published": "2026-05-05T18:35:00+00:00",
+      "summary": "In Kubernetes v1.36, Declarative Validation for Kubernetes native types has reached General Availability (GA). For users, this means more reliable, predictable, and better-documented APIs. By moving to a declarative model, the project also unlocks the future ability to publish validation rules via...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "[In preview] Public Preview: Application Gateway for Containers managed add-on + AKS Automatic",
@@ -386,6 +397,17 @@
       "author": "WSilveira",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Kubernetes v1.36: Admission Policies That Can't Be Deleted",
+      "link": "https://kubernetes.io/blog/2026/05/04/kubernetes-v1-36-manifest-based-admission-control/",
+      "published": "2026-05-04T18:35:00+00:00",
+      "summary": "If you've ever tried to enforce a security policy across a fleet of Kubernetes clusters, you've probably run into a frustrating chicken-and-egg problem. Your admission policies are API objects, which means they don't exist until someone creates them, and they can be deleted by anyone with the right...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "Introducing OpenAI's GPT-image-2 in Microsoft Foundry",
@@ -1598,6 +1620,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Update host keys to use SFTP on Azure Blob Storage",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/update-host-keys-to-use-sftp-on-azure-blob-storage/ba-p/4515483",
+      "published": "2026-04-28T14:44:02+00:00",
+      "summary": "Update host keys to use SFTP on Azure Blob Storage Some Azure Storage users may have received an alert informing that Microsoft will change the public key, like this. This article describes the impact this will have on the SFTP blob service and what are the changes needed.On this article: What is...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "LuisFilipe",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Simplifying AWS defense with Microsoft Sentinel UEBA",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/04/28/simplifying-aws-defense-microsoft-sentinel-ueba/",
       "published": "2026-04-28T13:00:00+00:00",
@@ -1870,17 +1903,6 @@
       "blogId": "azuredevcommunityblog",
       "author": "B_Manasa",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure AI Foundry vs Traditional ML Pipelines: What’s Different and Why It Matters",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-ai-foundry-vs-traditional-ml-pipelines-what-s-different/ba-p/4508897",
-      "published": "2026-04-27T06:06:18+00:00",
-      "summary": "The Traditional ML Pipeline: What It Was Built For Traditional ML pipelines typically look like this: Data ingestion and preparation Model training (often batch‑oriented) Model validation and versioning Deployment via APIs or batch jobs Monitoring focused on accuracy and drift This approach worked...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Parvathy_R_Pillai",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -10871,17 +10893,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Introducing Headlamp Plugin for Karpenter - Scaling and Visibility",
-      "link": "https://kubernetes.io/blog/2025/10/06/introducing-headlamp-plugin-for-karpenter/",
-      "published": "2025-10-06T00:00:00+00:00",
-      "summary": "Headlamp is an open‑source, extensible Kubernetes SIG UI project designed to let you explore, manage, and debug cluster resources. Karpenter is a Kubernetes Autoscaling SIG node provisioning project that helps clusters scale quickly and efficiently. It launches new nodes in seconds, selects...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Oracle Database@Azure now supports Oracle Database 19c on Exadata Exascale and New UAE Regions",
       "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/oracle-database-azure-now-supports-oracle-database-19c-on/ba-p/4458643",
       "published": "2025-10-03T17:02:27+00:00",
@@ -11012,17 +11023,6 @@
       "author": "SaleemBseeu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Announcing Changed Block Tracking API support (alpha)",
-      "link": "https://kubernetes.io/blog/2025/09/25/csi-changed-block-tracking/",
-      "published": "2025-09-25T13:00:00+00:00",
-      "summary": "We're excited to announce the alpha support for a changed block tracking mechanism. This enhances the Kubernetes storage ecosystem by providing an efficient way for CSI storage drivers to identify changed blocks in PersistentVolume snapshots. With a driver that can use the feature, you could...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
     },
     {
       "title": "Seamlessly Moving SQL Server Enabled by Azure Arc to a New Resource Group or Subscription",
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-adjacent news is dominated by the **Visual Studio Code 1.119** release, which signals Microsoft’s continued investment in the developer tooling ecosystem rather than a broad Azure service rollout. The key theme is **IDE productivity and modern development workflows**, with updates centered on **Visual Studio Code** itself—likely including improvements to the editor, extensions, and AI/developer experience integrations that matter to teams building for cloud and Azure environments."
+  "summary": "Today’s Azure-related posts centered on developer productivity and enterprise AI governance. **Visual Studio Code 1.119** highlights the latest VS Code release, while **Operationalizing Responsible AI in Microsoft Foundry within Enterprise Network Boundaries** focuses on deploying **Microsoft Foundry** for responsible AI inside secured enterprise environments, emphasizing network-boundary controls and governance for Azure infrastructure scenarios."
 }
