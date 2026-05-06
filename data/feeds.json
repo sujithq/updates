@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T13:26:07.282100+00:00",
+  "lastUpdated": "2026-05-06T16:23:41.235932+00:00",
   "totalArticles": 1136,
   "articles": [
     {
@@ -16,13 +16,68 @@
     {
       "title": "Building resilient networks for AI supercomputers",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/building-resilient-networks-for-ai-supercomputers/ba-p/4516919",
-      "published": "2026-05-06T11:34:34+00:00",
+      "published": "2026-05-06T16:03:17+00:00",
       "summary": "By Valerie Cutts and Jithin Jose Last fall we introduced Fairwater, the world’s most powerful AI datacenter. Delivering a system of this scale required rethinking how Azure designs supercomputers, especially the scale-out network. Today, we are sharing more about the networking innovations that...",
       "blog": "High Performance Computing",
       "blogId": "azurehighperformancecomputingblog",
       "author": "jithinjose",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Announcing the Public Preview of Azure Cosmos DB Shell: Open-Source Power Meets AI-Driven Database Automation",
+      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-shell-public-preview-ai-mcp-cli/",
+      "published": "2026-05-06T16:00:29+00:00",
+      "summary": "Today, we’re thrilled to announce the public preview of Azure Cosmos DB Shell – a powerful, open-source command-line interface that revolutionizes how developers interact with their Azure Cosmos DB databases. With integrated Model Context Protocol (MCP) server support, native agentic capabilities,...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Sajeetharan Sinnathurai",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Search and filter bar for repository security advisories",
+      "link": "https://github.blog/changelog/2026-05-06-search-and-filter-bar-for-repository-security-advisories",
+      "published": "2026-05-06T15:35:47+00:00",
+      "summary": "You can now search and filter security advisories directly from your repository’s Security tab. Use the new search bar and filters at the top of the advisory list to find… The post Search and filter bar for repository security advisories appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Introducing cert-manager for Azure Arc-enabled Kubernetes: now in Public Preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/introducing-cert-manager-for-azure-arc-enabled-kubernetes-now-in/ba-p/4514549",
+      "published": "2026-05-06T15:30:00+00:00",
+      "summary": "Today we’re releasing a public preview of cert-manager for Azure Arc-enabled Kubernetes. It’s an Arc extension that automates TLS certificate and trust bundle management for edge Kubernetes clusters. If you’re running Kubernetes at the edge: in factories, retail stores, remote sites, you’ve...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "NicolasMondada",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "ClickFix campaign uses fake macOS utilities lures to deliver infostealers",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/06/clickfix-campaign-uses-fake-macos-utilities-lures-deliver-infostealers/",
+      "published": "2026-05-06T15:20:32+00:00",
+      "summary": "Threat actors are targeting macOS users with fake utility fixes that trick them into running malicious Terminal commands. This campaign evades traditional defenses by stealing credentials, wallets, and sensitive data. The post ClickFix campaign uses fake macOS utilities lures to deliver...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Defender Security Research Team",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "v1.15.2",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.2",
+      "published": "2026-05-06T13:56:22+00:00",
+      "summary": "1.15.2 (May 6, 2026) ENHANCEMENTS: stacks: add ouput values to plan component instance change description (#38360) BUG FIXES: Avoid printing warnings from 'terraform output -json' (#38530)",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
     },
     {
       "title": "Turning GitHub Copilot into a “Best Practices Coach” with Copilot Spaces + a Markdown Knowledge Base",
@@ -1983,17 +2038,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Notice about upcoming new format for GitHub App installation tokens",
-      "link": "https://github.blog/changelog/2026-04-24-notice-about-upcoming-new-format-for-github-app-installation-tokens",
-      "published": "2026-04-24T21:49:19+00:00",
-      "summary": "Starting April 27th 2026 and over the coming weeks, we will begin a staged rollout that updates the format of newly minted GitHub App installation tokens, making them more performant… The post Notice about upcoming new format for GitHub App installation tokens appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Azure MCP Server now available as an MCP Bundle (.mcpb)",
       "link": "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-mcpb-support/",
       "published": "2026-04-24T20:32:49+00:00",
@@ -3058,17 +3102,6 @@
       "blogId": "githubblog",
       "author": "Taylor Blau",
       "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Making opportunistic cyberattacks harder by design",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/04/20/making-opportunistic-cyberattacks-harder-by-design/",
-      "published": "2026-04-20T16:00:00+00:00",
-      "summary": "How Microsoft secures Dynamics 365 and Power Platform by removing credentials, reducing attack surfaces, and using platform engineering to block opportunistic threats. The post Making opportunistic cyberattacks harder by design appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Ilya Grebnov",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -6053,17 +6086,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "v1.15.0-beta1",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-beta1",
-      "published": "2026-03-18T17:26:18+00:00",
-      "summary": "1.15.0-beta1 (March 18, 2026) NEW FEATURES: We now produce builds for Windows ARM64 (#32719) You can set a deprecated attribute on variable and output blocks to indicate that they are deprecated. This will produce warnings when passing in a value for a deprecated variable or when referencing a...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "DiskANN Vector Index Improvements",
       "link": "https://devblogs.microsoft.com/azure-sql/diskann-vector-index-improvements/",
       "published": "2026-03-18T17:00:33+00:00",
@@ -6392,17 +6414,6 @@
       "author": "NadineSalem",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=oracleonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Now Generally Available: Cosmos DB Mirroring in Microsoft Fabric with Private Networks",
-      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-mirroring-fabric-private-networks-ga/",
-      "published": "2026-03-16T13:00:06+00:00",
-      "summary": "We’re excited to announce the general availability of private network support for Azure Cosmos DB mirroring in Microsoft Fabric, enabling customers to replicate operational data into Fabric from Azure Cosmos DB accounts secured with private endpoints or virtual networks while continuing to operate...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Jai Maldonado",
-      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Scaling multi-node LLM inference with NVIDIA Dynamo and NVIDIA GPUs on AKS (Part 3)",
@@ -8437,17 +8448,6 @@
       "blogId": "azurecompute",
       "author": "ArpitaChatterjee",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Announcing the preview of Azure Local rack aware cluster",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/announcing-the-preview-of-azure-local-rack-aware-cluster/ba-p/4469435",
-      "published": "2026-01-27T17:24:34+00:00",
-      "summary": "As of 1/22/2026, Azure Local rack aware cluster is now generally available! To learn more: Overview of Azure Local rack aware clustering - Azure Local | Microsoft Learn We are excited to announce the public preview of Azure Local rack aware cluster! We previously published a blog post with a sneak...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "mindydiep",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on AI developer productivity, cloud governance, and infrastructure for enterprise-scale AI. Key announcements included Visual Studio Code 1.119, guidance on using GitHub Copilot Spaces plus a Markdown knowledge base to turn Copilot into a “best practices coach,” and a modernization pattern for Azure Landing Zone deployments that shifts Terraform-based setup toward GitHub Copilot–driven engineering.\n\nAnother major theme was building and operating AI systems responsibly at scale: Azure highlighted resilient network design for AI supercomputers in high-performance computing environments, along with approaches to operationalize Responsible AI in Microsoft Foundry while keeping deployments inside enterprise network boundaries."
+  "summary": "Today’s Azure and Microsoft ecosystem posts centered on AI infrastructure, developer productivity, and secure cloud operations. Key announcements included the public preview of **Azure Cosmos DB Shell**, an **open-source, AI-assisted** command-line experience for database automation; **cert-manager for Azure Arc-enabled Kubernetes** entering **public preview** for certificate lifecycle management in hybrid and multicloud clusters; and guidance on building **resilient networks for AI supercomputers**, underscoring Azure’s focus on large-scale **HPC and AI training infrastructure**.\n\nOn the developer and platform side, the roundup highlighted **Visual Studio Code 1.119**, new **GitHub** filtering for repository security advisories, and several posts on using **GitHub Copilot**, **Copilot Spaces**, and **Terraform/GitHub-centered Azure landing zone modernization** to improve engineering workflows. Security and governance were also major themes, with coverage of a **ClickFix macOS infostealer campaign** from Microsoft Security and enterprise guidance for **operationalizing Responsible AI in Microsoft Foundry within network-constrained environments**."
 }
