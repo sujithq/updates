@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T10:54:15.694104+00:00",
+  "lastUpdated": "2026-05-06T13:26:07.282100+00:00",
   "totalArticles": 1136,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Building resilient networks for AI supercomputers",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/building-resilient-networks-for-ai-supercomputers/ba-p/4516919",
+      "published": "2026-05-06T11:34:34+00:00",
+      "summary": "By Valerie Cutts and Jithin Jose Last fall we introduced Fairwater, the world’s most powerful AI datacenter. Delivering a system of this scale required rethinking how Azure designs supercomputers, especially the scale-out network. Today, we are sharing more about the networking innovations that...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "jithinjose",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Turning GitHub Copilot into a “Best Practices Coach” with Copilot Spaces + a Markdown Knowledge Base",
@@ -10596,17 +10607,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "The Complete Guide to Renewing an Expired Certificate in Microsoft HPC Pack 2019 (Single Head Node)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/the-complete-guide-to-renewing-an-expired-certificate-in/ba-p/4465444",
-      "published": "2025-10-30T06:27:43+00:00",
-      "summary": "Managing certificates in an HPC Pack 2019 cluster is critical for secure communication between nodes. However, if your certificate has expired, your cluster services (Scheduler, Broker, Web Components, etc.) may stop functioning properly — preventing nodes from communicating or jobs from...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "vinilv",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Dalec: Declarative Package and Container Builds",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/dalec-declarative-package-and-container-builds/ba-p/4465290",
       "published": "2025-10-29T21:34:49+00:00",
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on developer productivity, platform modernization, and governed AI adoption. Highlights included the Visual Studio Code 1.119 release, guidance for using GitHub Copilot with Copilot Spaces plus a Markdown knowledge base as a “best practices coach,” and a modernization pattern for Azure Landing Zone deployments that shifts from Terraform scripts toward GHCP-driven engineering.\n\nAnother major theme was enterprise-ready AI governance: Microsoft detailed how to operationalize Responsible AI in Microsoft Foundry within enterprise network boundaries, emphasizing secure, policy-aligned deployment of AI workloads. Overall, the announcements tied together core Microsoft developer tools—VS Code, GitHub Copilot, Terraform/Azure Landing Zones, and Microsoft Foundry—around faster delivery with stronger governance."
+  "summary": "Today’s Azure posts centered on AI developer productivity, cloud governance, and infrastructure for enterprise-scale AI. Key announcements included Visual Studio Code 1.119, guidance on using GitHub Copilot Spaces plus a Markdown knowledge base to turn Copilot into a “best practices coach,” and a modernization pattern for Azure Landing Zone deployments that shifts Terraform-based setup toward GitHub Copilot–driven engineering.\n\nAnother major theme was building and operating AI systems responsibly at scale: Azure highlighted resilient network design for AI supercomputers in high-performance computing environments, along with approaches to operationalize Responsible AI in Microsoft Foundry while keeping deployments inside enterprise network boundaries."
 }
