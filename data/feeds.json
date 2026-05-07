@@ -1,7 +1,51 @@
 {
-  "lastUpdated": "2026-05-06T21:52:14.110143+00:00",
+  "lastUpdated": "2026-05-07T01:28:50.200013+00:00",
   "totalArticles": 1136,
   "articles": [
+    {
+      "title": "[In preview] Public Preview: Azure SQL update for early-May 2026",
+      "link": "https://azure.microsoft.com/updates?id=560283",
+      "published": "2026-05-06T23:00:22+00:00",
+      "summary": "In early May 2026, the following update and enhancement was made to Azure SQL: Right‑size memory for Business Critical Azure SQL Managed Instance to improve performance without overprovisioning. Learn more.",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Enterprise-managed plugins in GitHub Copilot CLI are now in public preview",
+      "link": "https://github.blog/changelog/2026-05-06-enterprise-managed-plugins-in-github-copilot-cli-are-now-in-public-preview",
+      "published": "2026-05-06T22:20:44+00:00",
+      "summary": "Enterprise administrators can now configure and distribute plugins to GitHub Copilot CLI users across their enterprise. Set baseline standards for your enterprise and make them available in every user’s Copilot… The post Enterprise-managed plugins in GitHub Copilot CLI are now in public preview...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Retirement: Azure Document Intelligence v3.0 API will be retired on March 30, 2029",
+      "link": "https://azure.microsoft.com/updates?id=561176",
+      "published": "2026-05-06T22:15:33+00:00",
+      "summary": "On March 30, 2029, Azure Document Intelligence v3.0 API will be retired. Please migrate to latest generally available Azure Document Intelligence API version, v4.0, by that date. After March 30, 2029, Azure Document Intelligence v3.0 API will no longer be",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Release 2026-04-28",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-04-28",
+      "published": "2026-05-06T21:56:49+00:00",
+      "summary": "Release Notes - 2026-04-28 Monitor the release status by regions at AKS-Release-Tracker. Vulnerabilities addressed by AKS releases can be tracked at CVE API viewer. Announcements AKS-2026-0003: A Linux kernel algif_aead local privilege escalation vulnerability (CVE-2026-31431) lets a pod escalate...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "alvinli222",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
+      "sourceType": "rss"
+    },
     {
       "title": "Validating agentic behavior when “correct” isn’t deterministic",
       "link": "https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic/",
@@ -77,6 +121,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Kubernetes v1.36: Server-Side Sharded List and Watch",
+      "link": "https://kubernetes.io/blog/2026/05/06/kubernetes-v1-36-server-side-sharded-list-and-watch/",
+      "published": "2026-05-06T18:35:00+00:00",
+      "summary": "As Kubernetes clusters grow to tens of thousands of nodes, controllers that watch high-cardinality resources like Pods face a scaling wall. Every replica of a horizontally scaled controller receives the full stream of events from the API server, paying the CPU, memory, and network cost to...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -366,6 +421,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Azure Cosmos DB Conf 2026 Recap: Lessons from Production",
+      "link": "https://devblogs.microsoft.com/blog/azure-cosmos-db-conf-2026-recap-lessons-from-production",
+      "published": "2026-05-05T19:30:25+00:00",
+      "summary": "A team was running at 100% RU utilization. Throttles were compounding into retries. P99 latency was degrading. The assumption was obvious: provision more throughput. They didn’t. Instead, they found a single logical partition absorbing more than 80% of traffic. After fixing the data model—without...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Mark Brown",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Federated Copilot connectors - bringing real-time enterprise data within Microsoft 365 Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/federated-copilot-connectors-bringing-real-time-enterprise-data/ba-p/4515993",
       "published": "2026-05-05T18:57:54+00:00",
@@ -650,17 +716,6 @@
       "author": "varghesejoji",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Release 2026-04-28",
-      "link": "https://github.com/Azure/AKS/releases/tag/2026-04-28",
-      "published": "2026-05-04T20:09:03+00:00",
-      "summary": "Release Notes - 2026-04-28 Monitor the release status by regions at AKS-Release-Tracker. Vulnerabilities addressed by AKS releases can be tracked at CVE API viewer. Announcements AKS-2026-0003: A Linux kernel algif_aead local privilege escalation vulnerability (CVE-2026-31431) lets a pod escalate...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "alvinli222",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
-      "sourceType": "rss"
     },
     {
       "title": "Logic Apps Newsletter - May 2026",
@@ -2046,17 +2101,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Copilot cloud agent starts 20% faster with Actions custom images",
-      "link": "https://github.blog/changelog/2026-04-27-copilot-cloud-agent-starts-20-faster-with-actions-custom-images",
-      "published": "2026-04-27T16:01:40+00:00",
-      "summary": "Copilot cloud agent now starts up over 20% faster, thanks to optimized runner environments built with GitHub Actions custom images. When you assign an issue to Copilot, start a task… The post Copilot cloud agent starts 20% faster with Actions custom images appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -8616,17 +8660,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Bringing work context to your code in GitHub Copilot",
-      "link": "https://devblogs.microsoft.com/blog/bringing-work-context-to-your-code-in-github-copilot",
-      "published": "2026-01-23T15:00:30+00:00",
-      "summary": "This week we shipped the GitHub Copilot SDK which takes the agent loop from the Copilot CLI and makes it easy to embed in other applications. We’ve been using, improving, and extending Copilot CLI for the last few months and it’s sparked new ideas about what it means to have the right context right...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Kayla Cinnamon",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Bridging Local Development and Cloud Evaluation: Using Microsoft Devtunnels with Azure Machine Learning",
       "link": "https://devblogs.microsoft.com/ise/bridging-local-development-cloud-evaluation-devtunnels-azure-ml/",
       "published": "2026-01-23T08:00:00+00:00",
@@ -8660,17 +8693,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Reporting in Playwright Workspaces (part of Azure App Testing)",
-      "link": "https://azure.microsoft.com/updates?id=550379",
-      "published": "2026-01-22T17:00:03+00:00",
-      "summary": "Reporting capabilities are now live in Playwright Workspaces. The latest update brings you an integrated, flexible and collaborative reporting experience designed to make debugging tests in Playwright Workspaces easier, faster and more efficient. Customer",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "A Technical Implementation Guide for Multi-Store Retail Environments",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/a-technical-implementation-guide-for-multi-store-retail/ba-p/4488418",
       "published": "2026-01-22T08:39:19+00:00",
@@ -8690,17 +8712,6 @@
       "blogId": "kubernetes",
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure Load Testing in Switzerland North",
-      "link": "https://azure.microsoft.com/updates?id=550685",
-      "published": "2026-01-22T00:00:08+00:00",
-      "summary": "Azure Load Testing capability in Azure App Testing is now generally available in Switzerland North. Customers can now use Azure Load Testing, a fully managed load-testing service to generate high scale load and run simulations, easily identify performance",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -10750,17 +10761,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Spotlight on Policy Working Group",
-      "link": "https://kubernetes.io/blog/2025/10/18/wg-policy-spotlight-2025/",
-      "published": "2025-10-18T00:00:00+00:00",
-      "summary": "(Note: The Policy Working Group has completed its mission and is no longer active. This article reflects its work, accomplishments, and insights into how a working group operates.) In the complex world of Kubernetes, policies play a crucial role in managing and securing clusters. But have you ever...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Streamlined Setup, Stronger Guardrails for Microsoft Dev Box",
       "link": "https://devblogs.microsoft.com/develop-from-the-cloud/streamlined-setup-stronger-guardrails-for-microsoft-dev-box/",
       "published": "2025-10-17T14:00:42+00:00",
@@ -12498,6 +12498,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure news was led by AI and data platform momentum: Azure AI Foundry added new foundation models including IBM Granite 4.1, NVIDIA Nemotron Nano Omni, and Qwen3.6-35B-A3B, while Azure Cosmos DB introduced two previews—a new open-source Cosmos DB Shell for AI-assisted command-line data workflows and spherical quantization to improve vector search efficiency. On the developer side, GitHub and Microsoft focused on agentic AI quality and tooling, with guidance on validating non-deterministic agent behavior, Durable Workflows in the Microsoft Agent Framework for .NET, GitHub Copilot updates in VS Code, and the VS Code 1.119 release.\n\nInfrastructure and resilience were the other major themes: Azure announced Bulk Restore for Azure Virtual Machines in Azure Backup preview, backup-by-default for Azure NetApp Files preview, and highlighted disaster recovery and observability for Azure Databricks, plus faster model-weight distribution on AKS and Slurm and resilient networking for AI supercomputers. Security and platform operations also stood out, including generally available prefix-scoped User Delegation SAS for Azure Blob Storage, integrated protection across Azure WAF, Microsoft Defender for Storage, and Defender for Azure SQL Databases, a notice that select Azure Reserved VM Instances will be retired starting July 1, 2026, and a customer story on Multitude running resilient banking workloads on PostgreSQL and MySQL on Azure."
+  ]
 }
