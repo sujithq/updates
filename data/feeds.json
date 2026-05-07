@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T08:14:02.316913+00:00",
+  "lastUpdated": "2026-05-07T11:04:37.886145+00:00",
   "totalArticles": 1136,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "tanyabaranwal",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "SQL query generation from natural language",
+      "link": "https://devblogs.microsoft.com/ise/llm-sql-query-generation/",
+      "published": "2026-05-07T07:00:00+00:00",
+      "summary": "Evaluating AI agents for NL-to-SQL generation across Azure Databricks AI/BI Genie, GitHub Copilot CLI, and Microsoft Agent Framework. We achieved ~75% accuracy with schema documentation and runtime validation, while discovering that business logic errors represent a fundamental limitation requiring...",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Ashley Costigane",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Governing Agent Sprawl: A Multi‑Region AI Agent Landing Zone on Azure (Reference Architecture)",
@@ -8671,17 +8682,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Bridging Local Development and Cloud Evaluation: Using Microsoft Devtunnels with Azure Machine Learning",
-      "link": "https://devblogs.microsoft.com/ise/bridging-local-development-cloud-evaluation-devtunnels-azure-ml/",
-      "published": "2026-01-23T08:00:00+00:00",
-      "summary": "Learn how to streamline AI development by using Microsoft Devtunnels to connect local services with Azure Machine Learning evaluation pipelines, eliminating deployment delays while maintaining comprehensive cloud-based validation. The post Bridging Local Development and Cloud Evaluation: Using...",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Nasryn El-Hinnawi",
-      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[Launched] Generally Available: Deployment safeguards – pod security standard support in AKS",
       "link": "https://azure.microsoft.com/updates?id=548101",
       "published": "2026-01-22T22:30:50+00:00",
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on production-ready AI and platform reliability: Microsoft highlighted a scalable contract data extraction pipeline built with Microsoft Foundry and Python, alongside a multi-region Azure reference architecture for governing “agent sprawl” with AI agent landing zones. The other big theme was operational discipline for cloud delivery and migration, with one post showing how validation-driven Terraform improved Azure Functions deployment predictability, and another detailing near zero-downtime cutover strategies for Azure PaaS migrations."
+  "summary": "Today’s Azure posts focused on enterprise AI and platform reliability: Microsoft highlighted AI-powered document and data workflows with a contract extraction pipeline built on Microsoft Foundry and Python, plus natural-language-to-SQL query generation from the ISE team, while Azure Architecture tackled “agent sprawl” with a multi-region AI agent landing zone reference architecture for governed deployment at scale. On the operations side, Azure emphasized production readiness and migration discipline, showcasing validation-driven Terraform to make Azure Functions deployments more predictable and a near zero-downtime cutover strategy for Azure PaaS migrations."
 }
