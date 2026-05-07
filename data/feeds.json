@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T19:22:30.816529+00:00",
+  "lastUpdated": "2026-05-07T21:44:41.568946+00:00",
   "totalArticles": 1136,
   "articles": [
     {
@@ -11,6 +11,39 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Public Preview: Migrate your regional virtual machines to availability zones",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/public-preview-migrate-your-regional-virtual-machines-to/ba-p/4517298",
+      "published": "2026-05-07T21:33:43+00:00",
+      "summary": "This new capability enables you to move your existing regional (nonzonal) VMs and VMSS Flex deployments into specific availability zones while preserving the VM names, data disks, and other stateful properties. We're excited to announce the public preview of regional to zonal migration for Azure...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "micahmckittrick",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Least privilege AI agents: A new azd template from Curity and Microsoft",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azd-curity-least-privilege-ai-agents/",
+      "published": "2026-05-07T21:26:27+00:00",
+      "summary": "If you ever built an AI agent demo, you probably had this moment. Everything works: the agent interprets natural language, calls the right tools, and returns the right data. Then you start designing for the real users of the app. You think about data boundaries: what if someone tries to get data...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Kristen Womack",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Enterprise Live Migrations is now in public preview",
+      "link": "https://github.blog/changelog/2026-05-07-enterprise-live-migrations-is-now-in-public-preview",
+      "published": "2026-05-07T20:28:33+00:00",
+      "summary": "Enterprise Live Migrations (ELM) is now available in public preview. ELM gives enterprise administrators a new way to migrate repositories from GitHub Enterprise Server (GHES) to GitHub Enterprise Cloud with… The post Enterprise Live Migrations is now in public preview appeared first on The GitHub...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1199,17 +1232,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Upcoming deprecation of GPT-5.2 and GPT-5.2-Codex",
-      "link": "https://github.blog/changelog/2026-05-01-upcoming-deprecation-of-gpt-5-2-and-gpt-5-2-codex",
-      "published": "2026-05-01T21:30:12+00:00",
-      "summary": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), with the exception of GPT-5.2-Codex in Copilot… The post Upcoming deprecation of GPT-5.2 and GPT-5.2-Codex appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -8264,17 +8286,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Auto-install `azd` extensions in dev containers",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azd-devcontainer-extensions/",
-      "published": "2026-02-04T19:08:28+00:00",
-      "summary": "The `azd` dev container feature now supports automatic extension installation. The post Auto-install `azd` extensions in dev containers appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "PuiChee (PC) Chan",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "WinGet Configuration: Set up your dev machine in one command",
       "link": "https://devblogs.microsoft.com/blog/winget-configuration-set-up-your-dev-machine-in-one-command",
       "published": "2026-02-04T18:00:13+00:00",
@@ -10530,17 +10541,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Your guide to Azure Compute at Microsoft Ignite 2025",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/your-guide-to-azure-compute-at-microsoft-ignite-2025/ba-p/4468633",
-      "published": "2025-11-10T20:41:35+00:00",
-      "summary": "The countdown to Microsoft Ignite 2025 is almost over— Microsoft Ignite - November 18–21, 2025! Whether you’ll be joining us in person or tuning in virtually, this guide is your essential resource for everything Azure Compute. Explore the latest advancements, connect with product experts, and...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "melissahollingshed",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Priority Replication for Geo Redundant Storage and Object Replication is Generally Available",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/priority-replication-for-geo-redundant-storage-and-object/ba-p/4468607",
       "published": "2025-11-10T20:21:17+00:00",
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft ecosystem posts centered on enterprise AI acceleration and governance: Microsoft highlighted **GPT-5.5 Instant in Microsoft 365 Copilot**, new **realtime AI** capabilities in **Azure AI Foundry** including reasoning, translation, and live transcription, and multiple architecture posts on scaling and governing AI with **Azure Cosmos DB**, **multi-region agent landing zones**, secure banking platforms, and natural-language-to-**SQL** or contract extraction pipelines. On the platform side, Azure announced broader infrastructure availability with **Premium SSD v2** across all zones in **Japan West** and **GA of Azure Dldv7/Dasv7/Esv7 VM families** powered by **Intel Xeon 6**, while developer tooling updates included the new **Azure Resource Manager MCP Server**, **Aspire 13.3**, **Copilot Studio on .NET 10 WebAssembly**, and GitHub improvements for reviewing AI-generated pull requests, Copilot CLI model support, and repository rulesets.\n\nA second major theme was modernization of core cloud architecture and operations: posts covered **Tableau-to-Power BI migration** using a semantic-layer-first strategy, moving integration workloads to **Logic Apps Standard**, more predictable **Azure Functions** deployments with validation-driven **Terraform**, and continued momentum behind **passwordless authentication/passkeys** as part of Microsoft’s broader security push."
+  "summary": "Microsoft’s Azure and GitHub news today centers on enterprise AI, infrastructure modernization, and developer productivity. Key announcements include GPT-5.5 Instant arriving in Microsoft 365 Copilot, new realtime AI capabilities in Azure AI Foundry for reasoning, translation, and transcription, and secure/operational AI tooling such as a least-privilege AI agent azd template, the new Azure Resource Manager MCP Server, and reference architectures for banking and Cosmos DB–backed generative AI at scale.\n\nOn the platform side, Microsoft expanded migration and resiliency options with public preview support for moving regional Azure virtual machines to availability zones and for Enterprise Live Migrations, while also rolling out broader compute/storage availability with GA for Azure Dl/D/E v7 and Dlsv7/Esv7 VMs on Intel Xeon 6 plus Premium SSD v2 across all Japan West zones. The broader ecosystem updates emphasize app and workflow modernization—Tableau-to-Power BI migration guidance, moving integration workloads to Logic Apps Standard, Aspire 13.3, .NET 10 WebAssembly performance gains in Copilot Studio, and GitHub improvements for reviewing agent-generated pull requests, Copilot CLI model choice, and repository rulesets."
 }
