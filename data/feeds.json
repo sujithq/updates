@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-05-07T05:53:03.901404+00:00",
+  "lastUpdated": "2026-05-07T08:14:02.316913+00:00",
   "totalArticles": 1136,
   "articles": [
+    {
+      "title": "Building a Scalable Contract Data Extraction Pipeline with Microsoft Foundry and Python",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-a-scalable-contract-data-extraction-pipeline-with/ba-p/4513681",
+      "published": "2026-05-07T07:00:00+00:00",
+      "summary": "Architecture Overview Alt text: Architecture diagram showing Blob Storage triggering Azure Function, calling Document Intelligence, transforming data, and storing in Cosmos DB Flow: Upload contract files (PDF or ZIP) to Azure Blob Storage Azure Function triggers automatically on file upload Azure...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "tanyabaranwal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Governing Agent Sprawl: A Multi‑Region AI Agent Landing Zone on Azure (Reference Architecture)",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/governing-agent-sprawl-a-multi-region-ai-agent-landing-zone-on/ba-p/4516036",
@@ -3377,17 +3388,6 @@
       "blogId": "analyticsonazure",
       "author": "NaufalPrawironegoro",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "MCP Demystified: Tools vs Resources vs Prompts Explained Simply",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/mcp-demystified-tools-vs-resources-vs-prompts-explained-simply/ba-p/4508057",
-      "published": "2026-04-18T04:00:00+00:00",
-      "summary": "Introduction When developers start working with Model Context Protocol (MCP), one of the most confusing parts is understanding the difference between MCP Tools, Resources, and Prompts. All three are important components in modern AI application development, but they serve completely different...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Ravindra_Kumar_Vishwakarma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focused on enterprise-scale cloud operations: Microsoft published a reference architecture for governing “agent sprawl” with a multi-region AI agent landing zone on Azure, emphasizing structured deployment and control of AI agents across regions. Azure also highlighted reliability and modernization patterns, including validation-driven Terraform for more predictable Azure Functions deployments and a near zero-downtime cutover strategy for Azure PaaS migrations, aimed at reducing risk during service transitions."
+  "summary": "Today’s Azure posts centered on production-ready AI and platform reliability: Microsoft highlighted a scalable contract data extraction pipeline built with Microsoft Foundry and Python, alongside a multi-region Azure reference architecture for governing “agent sprawl” with AI agent landing zones. The other big theme was operational discipline for cloud delivery and migration, with one post showing how validation-driven Terraform improved Azure Functions deployment predictability, and another detailing near zero-downtime cutover strategies for Azure PaaS migrations."
 }
