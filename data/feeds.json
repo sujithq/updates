@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-05-07T01:28:50.200013+00:00",
+  "lastUpdated": "2026-05-07T05:53:03.901404+00:00",
   "totalArticles": 1136,
   "articles": [
+    {
+      "title": "Governing Agent Sprawl: A Multi‑Region AI Agent Landing Zone on Azure (Reference Architecture)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/governing-agent-sprawl-a-multi-region-ai-agent-landing-zone-on/ba-p/4516036",
+      "published": "2026-05-07T05:19:02+00:00",
+      "summary": "It doesn’t take long for AI agents to get out of hand. In most enterprises, the first few agents are celebrated. A chatbot here. A document summarizer there. Then another team ships an agent that calls APIs. Someone else connects one to internal data. Within months, IT is staring at dozens—or...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "KimVaddi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "How Validation‑Driven Terraform Made Our Azure Function Deployments Predictable",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/how-validation-driven-terraform-made-our-azure-function/ba-p/4517375",
+      "published": "2026-05-07T05:12:06+00:00",
+      "summary": "When Terraform deploys Azure Functions, the most expensive failures are rarely “syntax” problems. They’re environmental mismatches discovered too late—during terraform apply, after approvals, after a change window starts, and often after multiple teams are already watching the pipeline. After a few...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "AkshitaBajpai",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Cutover Strategy for Azure PaaS Services: A Step-by-Step Guide to Near Zero-Downtime Migrations",
+      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/cutover-strategy-for-azure-paas-services-a-step-by-step-guide-to/ba-p/4517261",
+      "published": "2026-05-07T05:07:35+00:00",
+      "summary": "\"In most Azure migrations, infrastructure is the easy part. The real risk — and the real engineering challenge — lies in the cutover.\" Why Cutover Strategy Matters Migrating mission-critical applications to Microsoft Azure — especially PaaS-based systems — requires more than provisioning resources....",
+      "blog": "Azure Migration",
+      "blogId": "azuremigrationblog",
+      "author": "lapadman",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "[In preview] Public Preview: Azure SQL update for early-May 2026",
       "link": "https://azure.microsoft.com/updates?id=560283",
@@ -1992,17 +2025,6 @@
       "author": "Vlad Fedorov",
       "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Deploying Azure Redis Enterprise with Geo-Replication Using Terraform",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/deploying-azure-redis-enterprise-with-geo-replication-using/ba-p/4515317",
-      "published": "2026-04-28T07:03:41+00:00",
-      "summary": "This post walks through a production‑proven pattern for running stateful services across Azure regions using Terraform. We’ll cover a primary–replica Redis architecture, regional isolation with Key Vault and networking, and a clean Terraform parameterization strategy that scales from development to...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "vsakash",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "The Future of Agentic AI: Inside Microsoft Agent Framework 1.0",
@@ -4907,17 +4929,6 @@
       "author": "Aditya Badramraju",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Proactive Reliability Series — Article 1: Fault Types in Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/proactive-reliability-series-article-1-fault-types-in-azure/ba-p/4507006",
-      "published": "2026-04-01T16:11:25+00:00",
-      "summary": "Welcome to the Proactive Reliability Series — a collection of articles dedicated to raising awareness about the importance of designing, implementing, and operating reliable solutions in Azure. Each article will focus on a specific area of reliability engineering: from identifying critical flows...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Zoran Jovanovic",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "🔥Agentic AI Email Bot on AWS Bedrock AgentCore: Full Architecture and O365 Integration (1/2)🔥",
@@ -10453,17 +10464,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Accelerate Cloud Migration with Wave Planning in Azure Migrate",
-      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/accelerate-cloud-migration-with-wave-planning-in-azure-migrate/ba-p/4467959",
-      "published": "2025-11-11T16:46:02+00:00",
-      "summary": "Introduction Migrating to the cloud is more than a technical upgrade - it's a strategic leap toward agility, scalability, and innovation. Yet, for many organizations, the journey can feel overwhelming, with complex dependencies and business risks threatening to slow progress. Today, we’re excited...",
-      "blog": "Azure Migration",
-      "blogId": "azuremigrationblog",
-      "author": "ShubhamJain92",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Deriving expiry days and remaining retention days for blobs through blob inventory",
       "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/deriving-expiry-days-and-remaining-retention-days-for-blobs/ba-p/4466586",
       "published": "2025-11-11T05:35:25+00:00",
@@ -12498,5 +12498,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure posts focused on enterprise-scale cloud operations: Microsoft published a reference architecture for governing “agent sprawl” with a multi-region AI agent landing zone on Azure, emphasizing structured deployment and control of AI agents across regions. Azure also highlighted reliability and modernization patterns, including validation-driven Terraform for more predictable Azure Functions deployments and a near zero-downtime cutover strategy for Azure PaaS migrations, aimed at reducing risk during service transitions."
 }
