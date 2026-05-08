@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T16:07:30.566913+00:00",
+  "lastUpdated": "2026-05-08T19:01:31.978259+00:00",
   "totalArticles": 1136,
   "articles": [
     {
@@ -11,6 +11,61 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Introducing DeepSeek V4 Flash and V4 Pro in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-deepseek-v4-flash-and-v4-pro-in-microsoft-foundry/ba-p/4515174",
+      "published": "2026-05-08T18:36:59+00:00",
+      "summary": "As AI adoption matures, the conversation is shifting from model capability to system design, how to orchestrate models that deliver the right balance of quality, speed, and cost. Today, we’re expanding the Microsoft Foundry model catalog with DeepSeek V4 Flash, and DeepSeek V4 Pro coming soon. It...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "RashaudSavage",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Inspektor Gadget Completes Its First Independent Security Audit",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/inspektor-gadget-completes-its-first-independent-security-audit/ba-p/4517895",
+      "published": "2026-05-08T17:56:26+00:00",
+      "summary": "One thing I've learned working with Open Source software over the years is that the projects you can trust most are the ones willing to let someone else test and review. That's what's recently happened with Inspektor Gadget, the open source eBPF tool for Kubernetes observability and Linux host...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "Brian Benz",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Introducing cert-manager for Azure Arc-enabled Kubernetes: now in Public Preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/introducing-cert-manager-for-azure-arc-enabled-kubernetes-now-in/ba-p/4514549",
+      "published": "2026-05-08T17:15:32+00:00",
+      "summary": "Today we’re releasing a public preview of cert-manager for Azure Arc-enabled Kubernetes. It’s an Arc extension that automates TLS certificate and trust bundle management for edge Kubernetes clusters. If you’re running Kubernetes at the edge: in factories, retail stores, remote sites, you’ve...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "NicolasMondada",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Active attack: Dirty Frag Linux vulnerability expands post-compromise risk",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/08/active-attack-dirty-frag-linux-vulnerability-expands-post-compromise-risk/",
+      "published": "2026-05-08T17:12:46+00:00",
+      "summary": "Dirty Frag is a newly disclosed Linux local privilege escalation vulnerability affecting kernel networking and memory-fragment handling components including esp4, esp6, and rxrpc. The vulnerability enables reliable escalation from an unprivileged user to root and may be leveraged after initial...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Defender Security Research Team",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Why age assurance laws matter for developers",
+      "link": "https://github.blog/news-insights/policy-news-and-insights/why-age-assurance-laws-matter-for-developers/",
+      "published": "2026-05-08T16:30:00+00:00",
+      "summary": "Youth safety requirements are moving down the tech stack to operating systems and app stores—raising new questions for open source developers. The post Why age assurance laws matter for developers appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Margaret Tucker",
+      "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -67,6 +122,17 @@
       "author": "Naomi Moneypenny",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "More flexible secrets and variables for Copilot cloud agent",
+      "link": "https://github.blog/changelog/2026-05-08-more-flexible-secrets-and-variables-for-copilot-cloud-agent",
+      "published": "2026-05-08T12:52:23+00:00",
+      "summary": "When you delegate a task to Copilot cloud agent, it works in the background in its own development environment powered by GitHub Actions. You can pass secrets and variables to… The post More flexible secrets and variables for Copilot cloud agent appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "CodeQL 2.25.3 adds Swift 6.3 support",
@@ -683,28 +749,6 @@
       "author": "Rob Lefferts",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Search and filter bar for repository security advisories",
-      "link": "https://github.blog/changelog/2026-05-06-search-and-filter-bar-for-repository-security-advisories",
-      "published": "2026-05-06T15:35:47+00:00",
-      "summary": "You can now search and filter security advisories directly from your repository’s Security tab. Use the new search bar and filters at the top of the advisory list to find… The post Search and filter bar for repository security advisories appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Introducing cert-manager for Azure Arc-enabled Kubernetes: now in Public Preview",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/introducing-cert-manager-for-azure-arc-enabled-kubernetes-now-in/ba-p/4514549",
-      "published": "2026-05-06T15:30:00+00:00",
-      "summary": "Today we’re releasing a public preview of cert-manager for Azure Arc-enabled Kubernetes. It’s an Arc extension that automates TLS certificate and trust bundle management for edge Kubernetes clusters. If you’re running Kubernetes at the edge: in factories, retail stores, remote sites, you’ve...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "NicolasMondada",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "ClickFix campaign uses fake macOS utilities lures to deliver infostealers",
@@ -1466,17 +1510,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Introducing DeepSeek V4 Flash and V4 Pro in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-deepseek-v4-flash-and-v4-pro-in-microsoft-foundry/ba-p/4515174",
-      "published": "2026-05-01T00:09:35+00:00",
-      "summary": "As AI adoption matures, the conversation is shifting from model capability to system design, how to orchestrate models that deliver the right balance of quality, speed, and cost. Today, we’re expanding the Microsoft Foundry model catalog with DeepSeek V4 Flash, and DeepSeek V4 Pro coming soon. It...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "RashaudSavage",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Prompt flow is being retired",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/prompt-flow-is-being-retired/ba-p/4513587",
       "published": "2026-04-30T21:15:00+00:00",
@@ -1895,17 +1928,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "8 best practices for CISOs conducting risk reviews",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/04/29/8-best-practices-for-cisos-conducting-risk-reviews/",
-      "published": "2026-04-29T16:00:00+00:00",
-      "summary": "Embracing strong proactive security is something we can all do to mitigate our increased exposure to security threats. The post 8 best practices for CISOs conducting risk reviews appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Rico Mariani",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "v1.15.0",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0",
       "published": "2026-04-29T14:05:34+00:00",
@@ -2277,17 +2299,6 @@
       "blogId": "commandline",
       "author": "Niels Laute",
       "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "An update on GitHub availability",
-      "link": "https://github.blog/news-insights/company-news/an-update-on-github-availability/",
-      "published": "2026-04-28T10:01:37+00:00",
-      "summary": "Here’s what we’ve done—and what we’re still doing—to improve our availability and reliability. The post An update on GitHub availability appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Vlad Fedorov",
-      "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -10739,17 +10750,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Red Hat Enterprise Linux Software Reservations Now Available",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/red-hat-enterprise-linux-software-reservations-now-available/ba-p/4463214",
-      "published": "2025-10-27T16:00:00+00:00",
-      "summary": "What's New After careful collaboration with Red Hat, we've updated our RHEL pay-as-you-go billing meters and reservation pricing to align with Red Hat's latest pricing model. These updates address previous billing meter issues and ensure an accurate, transparent experience for our customers....",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "abbottkarl",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Windows 10 Extended Security Updates for Azure Virtual Desktop",
       "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/windows-10-extended-security-updates-for-azure-virtual-desktop/ba-p/4459715",
       "published": "2025-10-24T16:19:35+00:00",
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and GitHub posts centered on modernizing enterprise cloud and AI workflows: Azure Infrastructure detailed safer Terraform managed disk migrations using stable keys and Copilot, Azure Databricks continued its secure medallion architecture guidance, and Microsoft announced Host Integration Server 2028 to connect Azure environments with IBM mainframes and midrange systems. On the AI and developer side, Azure AI Foundry introduced realtime AI upgrades for reasoning, translation, and live transcription, while GitHub highlighted enterprise quality improvements with Copilot, added Swift 6.3 support in CodeQL 2.25.3, introduced user-level controls to disable commit comments, shared research using Innovation Graph data to measure nations’ “digital complexity,” and warned developers about the upcoming deprecation of GPT-4.1."
+  "summary": "Today’s Azure- and GitHub-related posts centered on AI platform expansion, cloud-native security, and developer productivity. Microsoft highlighted new model and realtime capabilities in Azure AI Foundry—including DeepSeek V4 Flash and V4 Pro in Microsoft Foundry plus advances in reasoning, translation, and real-time transcription—while also previewing cert-manager for Azure Arc-enabled Kubernetes, detailing a Secure Medallion Architecture for Azure Databricks, and announcing Host Integration Server 2028 for IBM mainframe/midrange connectivity.\n\nSecurity and dev tooling were the other major themes: Microsoft warned about the Dirty Frag Linux vulnerability’s post-compromise risks, Inspektor Gadget completed an independent security audit, and GitHub shipped updates like Copilot cloud agent secret/variable flexibility, CodeQL 2.25.3 with Swift 6.3 support, user-level disabling of commit comments, and notice of GPT-4.1 deprecation. Additional posts covered practical Azure operations and governance—from Terraform managed disk migration guidance and enterprise quality workflows with GitHub Copilot to age-assurance compliance and research using GitHub Innovation Graph data to analyze national “digital complexity.”"
 }
