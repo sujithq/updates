@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T21:44:41.568946+00:00",
+  "lastUpdated": "2026-05-08T01:31:55.063477+00:00",
   "totalArticles": 1136,
   "articles": [
     {
@@ -11,6 +11,39 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Upcoming deprecation of GPT-4.1",
+      "link": "https://github.blog/changelog/2026-05-07-upcoming-deprecation-of-gpt-4-1",
+      "published": "2026-05-08T00:22:08+00:00",
+      "summary": "We will deprecate the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on 6/1/2026: Model Deprecation date Suggested alternative… The post Upcoming deprecation of GPT-4.1 appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Improving token efficiency in GitHub Agentic Workflows",
+      "link": "https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows/",
+      "published": "2026-05-07T23:00:00+00:00",
+      "summary": "Agentic workflows that run on every pull request can quietly accumulate large API bills. Here's how we instrumented our own production workflows, found the inefficiencies, and built agents to fix them. The post Improving token efficiency in GitHub Agentic Workflows appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Landon Cox",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Claude Sonnet 4 deprecated",
+      "link": "https://github.blog/changelog/2026-05-07-claude-sonnet-4-deprecated",
+      "published": "2026-05-07T22:30:23+00:00",
+      "summary": "We have deprecated the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on May 6, 2026. Model Deprecation date… The post Claude Sonnet 4 deprecated appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -47,6 +80,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "When prompts become shells: RCE vulnerabilities in AI agent frameworks",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/07/prompts-become-shells-rce-vulnerabilities-ai-agent-frameworks/",
+      "published": "2026-05-07T20:22:39+00:00",
+      "summary": "New research exposes how prompt injection in AI agent frameworks can lead to remote code execution. Learn how these vulnerabilities work, what’s impacted, and how to secure your agents. The post When prompts become shells: RCE vulnerabilities in AI agent frameworks appeared first on Microsoft...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Defender Security Research Team, Uri Oren, Amit Eliahu and Dor Edry",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Agent pull requests are everywhere. Here’s how to review them.",
       "link": "https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them/",
       "published": "2026-05-07T19:00:00+00:00",
@@ -67,6 +111,17 @@
       "author": "NitinAgrawal",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Kubernetes v1.36: More Drivers, New Features, and the Next Era of DRA",
+      "link": "https://kubernetes.io/blog/2026/05/07/kubernetes-v1-36-dra-136-updates/",
+      "published": "2026-05-07T18:35:00+00:00",
+      "summary": "Dynamic Resource Allocation (DRA) has fundamentally changed how platform administrators handle hardware accelerators and specialized resources in Kubernetes. In the v1.36 release, DRA continues to mature, bringing a wave of feature graduations, critical usability improvements, and new capabilities...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "[Launched] Generally Available: Azure Premium SSD v2 Disk is now available in all three available zones in Japan West",
@@ -825,28 +880,6 @@
       "blogId": "githubblog",
       "author": "Abigail Cabunoc Mayes",
       "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Code-to-cloud risk visibility with Microsoft Defender for Cloud is now generally available",
-      "link": "https://github.blog/changelog/2026-05-05-code-to-cloud-risk-visibility-with-microsoft-defender-for-cloud-is-now-generally-available",
-      "published": "2026-05-05T14:24:24+00:00",
-      "summary": "This integration is now generally available. Since entering public preview, we’ve heard valuable feedback from customers, and we’ve shipped follow-up improvements that bring artifact and runtime context closer to the… The post Code-to-cloud risk visibility with Microsoft Defender for Cloud is now...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Deprecation notice: code_scanning_upload field will be removed from rate_limit API endpoint",
-      "link": "https://github.blog/changelog/2026-05-05-deprecation-notice-code_scanning_upload-field-will-be-removed-from-rate_limit-api-endpoint",
-      "published": "2026-05-05T13:14:30+00:00",
-      "summary": "On May 19, 2026, we’ll remove the code_scanning_upload field from the rate_limit REST API endpoint response. Why did we make this change? The code_scanning_upload field in the rate_limit response has… The post Deprecation notice: code_scanning_upload field will be removed from rate_limit API...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -2159,17 +2192,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Simplifying AWS defense with Microsoft Sentinel UEBA",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/04/28/simplifying-aws-defense-microsoft-sentinel-ueba/",
-      "published": "2026-04-28T13:00:00+00:00",
-      "summary": "Learn how Microsoft Sentinel UEBA helps defenders distinguish benign AWS activity from attacker behavior by enriching raw CloudTrail logs with clear, binary behavioral signals derived from baseline user, peer, and device behavior patterns. The post Simplifying AWS defense with Microsoft Sentinel...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Defender Security Research Team",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Project Pavilion Presence at KubeCon EU 2026",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/project-pavilion-presence-at-kubecon-eu-2026/ba-p/4515518",
       "published": "2026-04-28T12:50:16+00:00",
@@ -3377,17 +3399,6 @@
       "blogId": "terraform",
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Changes to GitHub Copilot Individual plans",
-      "link": "https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/",
-      "published": "2026-04-20T18:15:28+00:00",
-      "summary": "We're making these changes to ensure a reliable and predictable experience for existing customers. The post Changes to GitHub Copilot Individual plans appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Joe Binder",
-      "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -10772,17 +10783,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "7 Common Kubernetes Pitfalls (and How I Learned to Avoid Them)",
-      "link": "https://kubernetes.io/blog/2025/10/20/seven-kubernetes-pitfalls-and-how-to-avoid/",
-      "published": "2025-10-20T15:30:00+00:00",
-      "summary": "It’s no secret that Kubernetes can be both powerful and frustrating at times. When I first started dabbling with container orchestration, I made more than my fair share of mistakes enough to compile a whole list of pitfalls. In this post, I want to walk through seven big gotchas I’ve encountered...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Streamlined Setup, Stronger Guardrails for Microsoft Dev Box",
       "link": "https://devblogs.microsoft.com/develop-from-the-cloud/streamlined-setup-stronger-guardrails-for-microsoft-dev-box/",
       "published": "2025-10-17T14:00:42+00:00",
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Microsoft’s Azure and GitHub news today centers on enterprise AI, infrastructure modernization, and developer productivity. Key announcements include GPT-5.5 Instant arriving in Microsoft 365 Copilot, new realtime AI capabilities in Azure AI Foundry for reasoning, translation, and transcription, and secure/operational AI tooling such as a least-privilege AI agent azd template, the new Azure Resource Manager MCP Server, and reference architectures for banking and Cosmos DB–backed generative AI at scale.\n\nOn the platform side, Microsoft expanded migration and resiliency options with public preview support for moving regional Azure virtual machines to availability zones and for Enterprise Live Migrations, while also rolling out broader compute/storage availability with GA for Azure Dl/D/E v7 and Dlsv7/Esv7 VMs on Intel Xeon 6 plus Premium SSD v2 across all Japan West zones. The broader ecosystem updates emphasize app and workflow modernization—Tableau-to-Power BI migration guidance, moving integration workloads to Logic Apps Standard, Aspire 13.3, .NET 10 WebAssembly performance gains in Copilot Studio, and GitHub improvements for reviewing agent-generated pull requests, Copilot CLI model choice, and repository rulesets."
+  "summary": "Today’s key Azure-related update is the upcoming deprecation of **GPT-4.1**, announced via the **GitHub Changelog**, signaling another rapid model lifecycle change developers need to plan for across AI-powered apps and integrations. The main theme is **AI platform maintenance and migration readiness**: teams using GPT-4.1 through GitHub or connected Azure/OpenAI workflows should review dependencies, confirm replacement model options, and prepare for version transitions to avoid disruption."
 }
