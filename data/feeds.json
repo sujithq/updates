@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T07:13:12.775297+00:00",
+  "lastUpdated": "2026-05-08T10:14:37.544837+00:00",
   "totalArticles": 1136,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "CodeQL 2.25.3 adds Swift 6.3 support",
+      "link": "https://github.blog/changelog/2026-05-08-codeql-2-25-3-adds-swift-6-3-support",
+      "published": "2026-05-08T09:02:12+00:00",
+      "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.25.3, which adds support for Swift 6.3,… The post CodeQL 2.25.3 adds Swift 6.3 support appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing Microsoft Host Integration Server 2028: Modern connectivity for IBM Mainframes Midranges",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-microsoft-host-integration-server-2028-modern/ba-p/4517606",
+      "published": "2026-05-08T07:30:00+00:00",
+      "summary": "Many organizations continue to rely on IBM mainframe and midrange platforms for high-value, mission-critical workloads. At the same time, application modernization, security requirements, and hybrid cloud operating models are driving the need for reliable, supported connectivity between host...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "hcamposu",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "From Test Cases to Trust: Elevating Enterprise Quality with GitHub Copilot",
@@ -738,17 +760,6 @@
       "author": "Naomi Moneypenny",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Dependency scanning with GitHub MCP Server is in public preview",
-      "link": "https://github.blog/changelog/2026-05-05-dependency-scanning-with-github-mcp-server-is-in-public-preview",
-      "published": "2026-05-05T20:45:38+00:00",
-      "summary": "The GitHub MCP Server can now scan your code changes for vulnerable dependencies before you commit or open a pull request. You’ll catch known vulnerabilities while you write code with… The post Dependency scanning with GitHub MCP Server is in public preview appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Retirement: Azure Reserved Virtual Machines Instances for select VM series",
@@ -7934,17 +7945,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure API Management - Unified AI Gateway Design Pattern",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/azure-api-management-unified-ai-gateway-design-pattern/ba-p/4495436",
-      "published": "2026-02-17T16:21:27+00:00",
-      "summary": "Scaling AI adoption requires a unified control plane As organizations scale generative AI adoption, they face growing complexity managing multiple AI providers, models, API formats, and rapid release cycles. Without a unified control plane, enterprises risk fragmented governance, inconsistent...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "nicolehaugen",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "AgentCore: MCP Gateway (2/4)🔥",
       "link": "https://www.letsdodevops.com/p/aws-agentcore-agentic-slack-bot-full-a98",
       "published": "2026-02-17T15:30:15+00:00",
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related updates center on AI-assisted software quality and model lifecycle management. The Azure Dev Community post highlights using **GitHub Copilot** to move from manual test cases toward broader enterprise trust and quality practices, while the GitHub Changelog announces the upcoming **deprecation of GPT-4.1**, signaling that teams using that model in GitHub or Azure-adjacent workflows should plan migrations and review dependencies on specific LLM versions."
+  "summary": "Today’s Azure-related updates center on modernizing enterprise development and integration: GitHub’s CodeQL 2.25.3 adds Swift 6.3 support for code scanning, while Microsoft Host Integration Server 2028 advances Azure-connected integration with IBM mainframes and midrange systems. On the AI and developer tooling side, Microsoft highlighted using GitHub Copilot to improve enterprise software quality and testing workflows, and GitHub announced the upcoming deprecation of GPT-4.1, signaling model lifecycle changes developers will need to plan for."
 }
