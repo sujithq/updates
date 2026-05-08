@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T05:21:25.607599+00:00",
+  "lastUpdated": "2026-05-08T07:13:12.775297+00:00",
   "totalArticles": 1136,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "From Test Cases to Trust: Elevating Enterprise Quality with GitHub Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-test-cases-to-trust-elevating-enterprise-quality-with/ba-p/4512819",
+      "published": "2026-05-08T07:00:00+00:00",
+      "summary": "The Traditional QA Bottleneck In complex enterprise systems, QA teams often face familiar challenges: Time‑consuming test case creation from evolving requirements Repetitive automation scripting and refactoring Heavy regression cycles under tight release timelines Limited bandwidth for deeper risk...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "SagarPatra",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Upcoming deprecation of GPT-4.1",
@@ -3488,17 +3499,6 @@
       "author": "Colin Desmond",
       "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Building an Enterprise HR Chatbot with Multi-Strategy RAG and Live Agent Handoff on Azure",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-an-enterprise-hr-chatbot-with-multi-strategy-rag-and/ba-p/4506829",
-      "published": "2026-04-20T05:00:00+00:00",
-      "summary": "HR teams deal with thousands of employee questions every day — policy lookups, leave balances, case escalations, and sensitive topics like harassment or misconduct. AI chatbots can handle the routine stuff and free up HR advisors for the hard cases. But most chatbot projects get stuck at basic Q&A....",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "risthakur1213",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Network Connectivity Check APIs for Logic App Standard",
@@ -12499,5 +12499,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related update is narrowly focused on an AI platform lifecycle change: the **upcoming deprecation of GPT-4.1**, noted via the **GitHub Changelog**. The key theme is **model transition planning** for teams using GitHub and Azure/OpenAI-adjacent workflows, with the main announcement being that developers should prepare to migrate workloads and integrations that depend on **GPT-4.1** to newer supported models."
+  "summary": "Today’s Azure-related updates center on AI-assisted software quality and model lifecycle management. The Azure Dev Community post highlights using **GitHub Copilot** to move from manual test cases toward broader enterprise trust and quality practices, while the GitHub Changelog announces the upcoming **deprecation of GPT-4.1**, signaling that teams using that model in GitHub or Azure-adjacent workflows should plan migrations and review dependencies on specific LLM versions."
 }
