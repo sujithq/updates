@@ -403,7 +403,7 @@ def update_state(classified, previous_state):
 
 
 def list_issues_by_label(label):
-    """List all open issues with a specific label. Returns list of issue numbers sorted by creation date (newest first)."""
+    """List all open issues with a specific label. Returns list of dicts with number and created_at, sorted by creation date (newest first)."""
     token = os.environ.get("GITHUB_TOKEN", "")
     repo = os.environ.get("GITHUB_REPOSITORY", "")
 
@@ -424,7 +424,7 @@ def list_issues_by_label(label):
     try:
         with urllib.request.urlopen(req, timeout=30) as resp:
             issues = json.loads(resp.read().decode("utf-8"))
-            return [issue["number"] for issue in issues]
+            return [{"number": issue["number"], "created_at": issue["created_at"]} for issue in issues]
     except Exception as e:
         print(f"Failed to list issues: {e}")
         return []
@@ -462,16 +462,32 @@ def close_issue(issue_number):
         return False
 
 
-def close_old_issues(label, keep_count=2):
-    """Close old issues with a specific label, keeping only the most recent N."""
-    issue_numbers = list_issues_by_label(label)
+def close_old_issues(label, keep_days=3):
+    """Close old issues with a specific label, keeping only those from the last N days."""
+    issues = list_issues_by_label(label)
 
-    if len(issue_numbers) <= keep_count:
-        print(f"Found {len(issue_numbers)} open issue(s) with label '{label}', no cleanup needed")
+    if not issues:
+        print(f"No open issues found with label '{label}'")
         return
 
-    to_close = issue_numbers[keep_count:]
-    print(f"Closing {len(to_close)} old issue(s) with label '{label}' (keeping {keep_count} most recent)")
+    cutoff = datetime.now(timezone.utc) - timedelta(days=keep_days)
+    to_close = []
+
+    for issue in issues:
+        # Parse the created_at timestamp
+        created_at_str = issue["created_at"]
+        if created_at_str.endswith("Z"):
+            created_at_str = created_at_str[:-1] + "+00:00"
+        created_at = datetime.fromisoformat(created_at_str)
+
+        if created_at < cutoff:
+            to_close.append(issue["number"])
+
+    if not to_close:
+        print(f"Found {len(issues)} open issue(s) with label '{label}', all within {keep_days} days, no cleanup needed")
+        return
+
+    print(f"Closing {len(to_close)} old issue(s) with label '{label}' (keeping those from last {keep_days} days)")
 
     for issue_number in to_close:
         close_issue(issue_number)
@@ -579,9 +595,9 @@ def main():
     issue_title = f"🔭 Technology Radar — {week_label} ({ga_count} GA, {preview_count} Preview)"
     issue_url = create_github_issue(issue_title, radar_md, ["technology-radar"])
 
-    # Close old technology radar issues, keeping only the 2 most recent
+    # Close old technology radar issues, keeping only those from the last 3 days
     if issue_url:
-        close_old_issues("technology-radar", keep_count=2)
+        close_old_issues("technology-radar", keep_days=3)
 
     print(f"\n{'=' * 60}")
     print(f"Done! Radar: {filepath}")
