@@ -348,6 +348,81 @@ def build_individual_issue(item):
     return title, "\n".join(lines)
 
 
+def list_issues_by_label(label):
+    """List all open issues with a specific label. Returns list of issue numbers sorted by creation date (newest first)."""
+    token = os.environ.get("GITHUB_TOKEN", "")
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+
+    if not token or not repo:
+        return []
+
+    url = f"https://api.github.com/repos/{repo}/issues?labels={label}&state=open&sort=created&direction=desc&per_page=100"
+    req = urllib.request.Request(
+        url,
+        method="GET",
+        headers={
+            "Accept": "application/vnd.github+json",
+            "Authorization": f"Bearer {token}",
+            "X-GitHub-Api-Version": "2022-11-28",
+        },
+    )
+
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            issues = json.loads(resp.read().decode("utf-8"))
+            return [issue["number"] for issue in issues]
+    except Exception as e:
+        print(f"Failed to list issues: {e}")
+        return []
+
+
+def close_issue(issue_number):
+    """Close a GitHub Issue."""
+    token = os.environ.get("GITHUB_TOKEN", "")
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+
+    if not token or not repo:
+        return False
+
+    url = f"https://api.github.com/repos/{repo}/issues/{issue_number}"
+    payload = json.dumps({"state": "closed"}).encode("utf-8")
+
+    req = urllib.request.Request(
+        url,
+        data=payload,
+        method="PATCH",
+        headers={
+            "Accept": "application/vnd.github+json",
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json",
+            "X-GitHub-Api-Version": "2022-11-28",
+        },
+    )
+
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            print(f"  Closed issue #{issue_number}")
+            return True
+    except Exception as e:
+        print(f"  Failed to close issue #{issue_number}: {e}")
+        return False
+
+
+def close_old_issues(label, keep_count=2):
+    """Close old issues with a specific label, keeping only the most recent N."""
+    issue_numbers = list_issues_by_label(label)
+
+    if len(issue_numbers) <= keep_count:
+        print(f"Found {len(issue_numbers)} open issue(s) with label '{label}', no cleanup needed")
+        return
+
+    to_close = issue_numbers[keep_count:]
+    print(f"Closing {len(to_close)} old issue(s) with label '{label}' (keeping {keep_count} most recent)")
+
+    for issue_number in to_close:
+        close_issue(issue_number)
+
+
 def create_github_issue(title, body, labels):
     """Create a GitHub Issue. Returns the issue URL or None."""
     token = os.environ.get("GITHUB_TOKEN", "")
@@ -466,7 +541,11 @@ def main():
         date_label = datetime.now(timezone.utc).strftime("%Y-%m-%d")
         consolidated_title = f"📋 Breaking Changes Report — {date_label}"
         consolidated_body = build_consolidated_issue(classified, date_label)
-        create_github_issue(consolidated_title, consolidated_body, ["breaking-change", "daily-report"])
+        consolidated_url = create_github_issue(consolidated_title, consolidated_body, ["breaking-change", "daily-report"])
+
+        # Close old daily report issues, keeping only the 2 most recent
+        if consolidated_url:
+            close_old_issues("daily-report", keep_count=2)
 
     print(f"\n{'=' * 60}")
     print(f"Done! Detected {len(classified)} breaking change(s)")
