@@ -384,7 +384,11 @@ def list_issues_by_label(label):
     try:
         with urllib.request.urlopen(req, timeout=30) as resp:
             issues = json.loads(resp.read().decode("utf-8"))
-            return [{"number": issue["number"], "created_at": issue["created_at"]} for issue in issues]
+            return [
+                {"number": issue["number"], "created_at": issue["created_at"]}
+                for issue in issues
+                if "pull_request" not in issue
+            ]
     except Exception as e:
         print(f"Failed to list issues: {e}")
         return []
@@ -433,7 +437,7 @@ def close_old_issues(label, keep_days=3):
     cutoff = datetime.now(timezone.utc) - timedelta(days=keep_days)
     to_close = []
 
-    for issue in issues:
+    for idx, issue in enumerate(issues):
         # Parse the created_at timestamp
         created_at_str = issue["created_at"]
         if created_at_str.endswith("Z"):
@@ -442,6 +446,8 @@ def close_old_issues(label, keep_days=3):
 
         if created_at < cutoff:
             to_close.append(issue["number"])
+            to_close.extend([remaining["number"] for remaining in issues[idx + 1:]])
+            break
 
     if not to_close:
         print(f"Found {len(issues)} open issue(s) with label '{label}', all within {keep_days} days, no cleanup needed")
