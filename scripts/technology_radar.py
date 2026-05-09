@@ -476,8 +476,9 @@ def close_old_issues(label, keep_days=3):
 
     cutoff = datetime.now(timezone.utc) - timedelta(days=keep_days)
     to_close = []
+    sorted_issues = sorted(issues, key=lambda issue: issue["created_at"])
 
-    for idx, issue in enumerate(issues):
+    for issue in sorted_issues:
         # Parse the created_at timestamp
         created_at_str = issue["created_at"]
         if created_at_str.endswith("Z"):
@@ -486,7 +487,7 @@ def close_old_issues(label, keep_days=3):
 
         if created_at < cutoff:
             to_close.append(issue["number"])
-            to_close.extend([remaining["number"] for remaining in issues[idx + 1:]])
+        else:
             break
 
     if not to_close:
