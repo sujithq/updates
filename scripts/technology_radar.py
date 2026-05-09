@@ -30,6 +30,8 @@ from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
+from github_helpers import close_old_issues
+
 from dotenv import load_dotenv
 
 load_dotenv(override=False)
@@ -503,6 +505,10 @@ def main():
     preview_count = sum(1 for i in classified if i.get("status") == "preview")
     issue_title = f"🔭 Technology Radar — {week_label} ({ga_count} GA, {preview_count} Preview)"
     issue_url = create_github_issue(issue_title, radar_md, ["technology-radar"])
+
+    # Close old technology radar issues, keeping only those from the last 3 days
+    if issue_url:
+        close_old_issues("technology-radar", keep_days=3)
 
     print(f"\n{'=' * 60}")
     print(f"Done! Radar: {filepath}")

@@ -28,6 +28,8 @@ from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
+from github_helpers import close_old_issues
+
 from dotenv import load_dotenv
 
 load_dotenv(override=False)
@@ -455,6 +457,10 @@ def main():
         issue_body = issue_body[:60000] + "\n\n*...truncated. See full digest in the repository.*"
 
     issue_url = create_github_issue(issue_title, issue_body)
+
+    # Close old weekly digest issues, keeping only those from the last 3 days
+    if issue_url:
+        close_old_issues("weekly-digest", keep_days=3)
 
     print(f"\n{'=' * 60}")
     print(f"Done! Digest: {filepath}")

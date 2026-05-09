@@ -29,6 +29,8 @@ import urllib.request
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
+from github_helpers import close_old_issues
+
 from dotenv import load_dotenv
 
 load_dotenv(override=False)
@@ -466,7 +468,11 @@ def main():
         date_label = datetime.now(timezone.utc).strftime("%Y-%m-%d")
         consolidated_title = f"📋 Breaking Changes Report — {date_label}"
         consolidated_body = build_consolidated_issue(classified, date_label)
-        create_github_issue(consolidated_title, consolidated_body, ["breaking-change", "daily-report"])
+        consolidated_url = create_github_issue(consolidated_title, consolidated_body, ["breaking-change", "daily-report"])
+
+        # Close old daily report issues, keeping only those from the last 3 days
+        if consolidated_url:
+            close_old_issues("daily-report", keep_days=3)
 
     print(f"\n{'=' * 60}")
     print(f"Done! Detected {len(classified)} breaking change(s)")
