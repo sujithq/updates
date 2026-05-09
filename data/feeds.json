@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T21:46:58.589051+00:00",
+  "lastUpdated": "2026-05-09T01:29:01.294996+00:00",
   "totalArticles": 1135,
   "articles": [
     {
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Release 2026-04-28",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-04-28",
+      "published": "2026-05-09T00:22:45+00:00",
+      "summary": "Release Notes - 2026-04-28 Monitor the release status by regions at AKS-Release-Tracker. Vulnerabilities addressed by AKS releases can be tracked at CVE API viewer. Announcements AKS-2026-0003: A Linux kernel algif_aead local privilege escalation vulnerability (CVE-2026-31431) lets a pod escalate...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "alvinli222",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -34,17 +45,6 @@
       "author": "stevenbucher",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Release 2026-04-28",
-      "link": "https://github.com/Azure/AKS/releases/tag/2026-04-28",
-      "published": "2026-05-08T20:29:27+00:00",
-      "summary": "Release Notes - 2026-04-28 Monitor the release status by regions at AKS-Release-Tracker. Vulnerabilities addressed by AKS releases can be tracked at CVE API viewer. Announcements AKS-2026-0003: A Linux kernel algif_aead local privilege escalation vulnerability (CVE-2026-31431) lets a pod escalate...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "alvinli222",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
-      "sourceType": "rss"
     },
     {
       "title": "Upcoming deprecation of Grok Code Fast 1",
@@ -12488,5 +12488,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure and adjacent Microsoft posts centered on AI platform expansion, cloud-native operations, and security. The biggest announcements were new model and realtime AI capabilities—DeepSeek V4 Flash and V4 Pro in Microsoft Foundry, realtime AI upgrades for reasoning/translation/transcription, and Azure SQL’s general availability of Generate Embeddings and External Model Objects—alongside infrastructure updates like the new Azure Resource Manager MCP Server, cert-manager for Azure Arc-enabled Kubernetes in public preview, and the latest AKS release.\n\nA second major theme was governance and secure software delivery: Microsoft warned of active exploitation tied to the Dirty Frag Linux vulnerability, Inspektor Gadget completed an independent security audit, and GitHub shipped multiple developer-platform changes including CodeQL 2.25.3 with Swift 6.3 support, Copilot code review metrics and cloud agent secret improvements, plus upcoming deprecations for Grok Code Fast 1 and GPT-4.1. Other notable enterprise-focused items included Azure Databricks secure medallion architecture guidance, Terraform managed disk migration practices on Azure, and Microsoft Host Integration Server 2028 for IBM mainframe and midrange connectivity."
+  "summary": "Today’s Azure blog activity centers on **Azure Kubernetes Service (AKS)**, specifically the **2026-04-28 AKS release notes**. The key theme is platform updates to **managed Kubernetes on Azure**, highlighting the latest AKS changes, fixes, and feature rollouts that affect cluster operations, upgrades, and Kubernetes-based application deployment.\n\nBecause only the AKS release notes article is listed, the main announcement is the newest **AKS platform release** rather than multiple cross-Azure product updates. If you want, I can also turn this into a sharper executive-style summary or extract likely highlights from the AKS release notes format."
 }
