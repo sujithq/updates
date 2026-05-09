@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-09T01:29:01.294996+00:00",
+  "lastUpdated": "2026-05-09T05:39:25.682467+00:00",
   "totalArticles": 1135,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "CHERIoT-Ibex: Closing the door on memory safety vulnerabilities with hardware-enforced protection",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/cheriot-ibex-closing-the-door-on-memory-safety-vulnerabilities/ba-p/4517904",
+      "published": "2026-05-09T05:08:11+00:00",
+      "summary": "Memory safety vulnerabilities—largely arising from widely used programming languages such as C and C++—remain a leading cause of exploitable software defects across systems, from embedded devices to cloud-scale infrastructure. In simple terms, memory safety ensures that software accesses only the...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "kunyanliu",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Release 2026-04-28",
@@ -78,6 +89,17 @@
       "author": "RashaudSavage",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Kubernetes v1.36: Moving Volume Group Snapshots to GA",
+      "link": "https://kubernetes.io/blog/2026/05/08/kubernetes-v1-36-volume-group-snapshot-ga/",
+      "published": "2026-05-08T18:35:00+00:00",
+      "summary": "Volume group snapshots were introduced as an Alpha feature with the Kubernetes v1.27 release, moved to Beta in v1.32, and to a second Beta in v1.34. We are excited to announce that in the Kubernetes v1.36 release, support for volume group snapshots has reached General Availability (GA). The support...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "Inspektor Gadget Completes Its First Independent Security Audit",
@@ -2168,17 +2190,6 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "HashiCorp Vault Integration with Terraform — Secure Secret Management",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/hashicorp-vault-integration-with-terraform-secure-secret/ba-p/4508444",
-      "published": "2026-04-28T17:55:27+00:00",
-      "summary": "Introduction When provisioning cloud infrastructure using Terraform, it is common to require sensitive values such as: Administrative credentials (usernames, passwords) API keys and tokens SSH keys Database connection strings Domain join credentials In most environments, these secrets are commonly:...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "singhshub",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "[In preview] Public Preview: Microsoft HTTP DDoS Ruleset for Azure WAF on Azure Front Door Premium",
@@ -10629,17 +10640,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Gateway API 1.4: New Features",
-      "link": "https://kubernetes.io/blog/2025/11/06/gateway-api-v1-4/",
-      "published": "2025-11-06T17:00:00+00:00",
-      "summary": "Ready to rock your Kubernetes networking? The Kubernetes SIG Network community presented the General Availability (GA) release of Gateway API (v1.4.0)! Released on October 6, 2025, version 1.4.0 reinforces the path for modern, expressive, and extensible service networking in Kubernetes. Gateway API...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Seamless Online Homogeneous SQL Family Migration via Azure Data Factory using SQL CDC",
       "link": "https://techcommunity.microsoft.com/t5/modernization-best-practices-and/seamless-online-homogeneous-sql-family-migration-via-azure-data/ba-p/4376314",
       "published": "2025-11-06T05:20:45+00:00",
@@ -12488,5 +12488,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure blog activity centers on **Azure Kubernetes Service (AKS)**, specifically the **2026-04-28 AKS release notes**. The key theme is platform updates to **managed Kubernetes on Azure**, highlighting the latest AKS changes, fixes, and feature rollouts that affect cluster operations, upgrades, and Kubernetes-based application deployment.\n\nBecause only the AKS release notes article is listed, the main announcement is the newest **AKS platform release** rather than multiple cross-Azure product updates. If you want, I can also turn this into a sharper executive-style summary or extract likely highlights from the AKS release notes format."
+  "summary": "Today’s Azure updates focused on platform security and Kubernetes operations. On the infrastructure side, Microsoft highlighted **CHERIoT-Ibex**, a **RISC-V–based** design that uses **hardware-enforced memory protection** and capability-based security to reduce **memory safety vulnerabilities**, signaling continued investment in secure-by-design cloud and edge systems.\n\nOn the container side, the **AKS Release 2026-04-28** notes covered the latest **Azure Kubernetes Service** platform updates, including new versioned improvements and operational changes for managed Kubernetes clusters. Together, the posts emphasize Azure’s dual priorities of **stronger low-level security primitives** and **ongoing AKS platform enhancements** for production workloads."
 }
