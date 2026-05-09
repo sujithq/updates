@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-09T09:59:54.647921+00:00",
+  "lastUpdated": "2026-05-09T12:45:52.223554+00:00",
   "totalArticles": 1135,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Turning GitHub Copilot into a “Best Practices Coach” with Copilot Spaces + a Markdown Knowledge Base",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/turning-github-copilot-into-a-best-practices-coach-with-copilot/ba-p/4511567",
+      "published": "2026-05-09T10:14:47+00:00",
+      "summary": "Why Copilot Spaces + Markdown repos work so well When you ask Copilot generic questions (“How should we log errors?” “What’s our API versioning approach?”), the model will often respond with reasonable defaults. But reasonable defaults are not the same as your standards. Copilot Spaces solve the...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "mohashaikh",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "CHERIoT-Ibex: Closing the door on memory safety vulnerabilities with hardware-enforced protection",
@@ -804,17 +815,6 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "Turning GitHub Copilot into a “Best Practices Coach” with Copilot Spaces + a Markdown Knowledge Base",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/turning-github-copilot-into-a-best-practices-coach-with-copilot/ba-p/4511567",
-      "published": "2026-05-06T07:00:00+00:00",
-      "summary": "Why Copilot Spaces + Markdown repos work so well When you ask Copilot generic questions (“How should we log errors?” “What’s our API versioning approach?”), the model will often respond with reasonable defaults. But reasonable defaults are not the same as your standards. Copilot Spaces solve the...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "mohashaikh",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "🚀 Modernizing Azure Landing Zone Deployments: From Terraform Scripts to GHCP-Driven Engineering",
@@ -12488,5 +12488,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure updates focus on strengthening cloud infrastructure security and evolving Kubernetes operations. Azure highlighted **CHERIoT-Ibex**, a **RISC-V–based microcontroller design** that uses **CHERI hardware-enforced memory protection** to mitigate **memory safety vulnerabilities** such as buffer overflows and pointer corruption, underscoring Azure’s investment in secure-by-design infrastructure.  \n\nOn the Kubernetes side, the **AKS Release 2026-04-28** notes cover the latest platform updates to **Azure Kubernetes Service**, signaling ongoing improvements to managed Kubernetes capabilities, version support, and operational reliability for containerized workloads."
+  "summary": "Today’s Azure posts focused on secure-by-design development and platform operations. The Azure Dev Community article showed how teams can turn GitHub Copilot into a “best practices coach” using Copilot Spaces plus a Markdown knowledge base to guide coding standards and architectural guidance, while Azure Infrastructure highlighted CHERIoT-Ibex, a capability-enhanced Ibex RISC-V core that uses hardware-enforced memory protection to mitigate memory safety vulnerabilities.\n\nOn the platform side, Azure Kubernetes Service published its 2026-04-28 release notes, covering the latest AKS service updates and operational changes for Kubernetes clusters. Overall, the themes were AI-assisted developer productivity, hardware-backed security, and ongoing AKS platform evolution."
 }
