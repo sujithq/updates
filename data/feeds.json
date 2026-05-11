@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T06:26:37.357482+00:00",
+  "lastUpdated": "2026-05-11T11:54:24.010604+00:00",
   "totalArticles": 1134,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Scaling GitHub Advanced Security in Azure DevOps with a single reusable YAML template",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/scaling-github-advanced-security-in-azure-devops-with-a-single/ba-p/4518410",
+      "published": "2026-05-11T10:47:04+00:00",
+      "summary": "Scaling GitHub Advanced Security in Azure DevOps with a single reusable YAML template Managing security scanning across dozens of repositories can quickly become complex—especially when each repository uses different languages, frameworks, and infrastructure patterns. In our environment, we needed...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Paulams732",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "From Test Cases to Trusted Automation: Scaling Enterprise Quality with GitHub Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-test-cases-to-trusted-automation-scaling-enterprise-quality/ba-p/4512843",
+      "published": "2026-05-11T07:00:00+00:00",
+      "summary": "Automation First, But Trust Is Earned Enterprise QA teams today are automation‑led by default. Regression suites run daily, API tests validate integrations, and UI automation protects critical workflows. Yet, many teams still struggle with: Automation suites that lag behind changing requirements...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "SagarPatra",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Understanding the deployment quota limitation (800) Error in Azure Bicep and ARM Deployments",
@@ -1961,17 +1983,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Building an Enterprise-Grade SQL Platform on Kubernetes using Crossplane and Azure PostgreSQL",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-an-enterprise-grade-sql-platform-on-kubernetes-using/ba-p/4515635",
-      "published": "2026-04-29T16:58:37+00:00",
-      "summary": "Strategic Overview Build a Kubernetes-native SQL platform using Crossplane-based database operator to provision Azure PostgreSQL Flexible Server. Active–Passive, multi-region database architecture using read replicas and manual promotion for failover. Private networking, DNS abstraction, and...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "prabhattomar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure Monitor Service Level Indicators (SLI)",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-service-level-indicators-sli/ba-p/4507445",
       "published": "2026-04-29T16:16:56+00:00",
@@ -3432,17 +3443,6 @@
       "blogId": "azurepaasblog",
       "author": "jainsourabh",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "From Playwright Automation to Agent Driven Testing (GHCP in Action)",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-playwright-automation-to-agent-driven-testing-ghcp-in/ba-p/4507395",
-      "published": "2026-04-21T05:00:00+00:00",
-      "summary": "What Is Agent-Driven Testing? Agent-driven testing represents a revolutionary shift from traditional, hardcoded test automation to intelligent, adaptive testing powered by AI agents. Unlike conventional Playwright tests that rely on static selectors and predefined workflows, agent-driven testing...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "syedarshad",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12477,5 +12477,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog posts focus on practical infrastructure and networking guidance for core platform services. One article explains how to troubleshoot the Azure Resource Manager/Bicep “deployment quota limitation (800)” error in Azure Infrastructure, highlighting deployment history limits in ARM and Bicep-based workflows; the other walks through configuring DNS forwarding for Azure NetApp Files in Azure Architecture, emphasizing correct name resolution design for NetApp-backed workloads."
+  "summary": "Today’s Azure posts focus on scaling engineering workflows and removing operational bottlenecks across DevOps, automation, and infrastructure. The biggest themes are standardization and enterprise scale: Microsoft highlights using a single reusable YAML template to roll out GitHub Advanced Security across Azure DevOps, applying GitHub Copilot to turn test cases into trusted enterprise test automation, and addressing the Azure Bicep/ARM “deployment quota limitation (800)” issue that can block large deployment histories.  \n\nOn the infrastructure side, the coverage also includes networked storage architecture, with guidance on configuring DNS forwarding for Azure NetApp Files to support reliable name resolution in hybrid or complex Azure environments."
 }
