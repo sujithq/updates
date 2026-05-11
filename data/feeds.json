@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-11T17:16:29.389735+00:00",
-  "totalArticles": 1136,
+  "lastUpdated": "2026-05-11T19:23:53.226238+00:00",
+  "totalArticles": 1137,
   "articles": [
     {
       "title": "Visual Studio Code 1.120",
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Announcing general availability of confidential computing for Azure Service Bus Premium",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/announcing-general-availability-of-confidential-computing-for/ba-p/4517931",
+      "published": "2026-05-11T18:00:00+00:00",
+      "summary": "Today we are excited to announce the general availability of confidential computing for Azure Service Bus Premium. With this capability, your Service Bus namespace processes messages inside hardware-based trusted execution environments (TEEs), preventing unauthorized access to data while it is...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Azure Service Bus Premium now offers 99.99% SLA in all Availability Zone regions",
@@ -12499,5 +12510,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on reliability, AI, security, and developer productivity: Azure Service Bus Premium now provides a 99.99% SLA in all Availability Zone regions, Stripe Events integration with Azure Event Grid reached general availability, and Azure guidance covered practical ops topics like DNS forwarding for Azure NetApp Files and the 800-deployment quota limit in Azure Bicep/ARM. On the AI and security side, Microsoft highlighted new realtime AI capabilities in Azure AI Foundry—including reasoning, translation, and real-time transcription—alongside Microsoft Sentinel RSAC 2026 updates and enterprise engineering patterns for scaling GitHub Advanced Security, GitHub Copilot–driven test automation, and open-source contribution workflows with GitHub."
+  "summary": "Today’s Azure posts center on stronger secure messaging and eventing, plus faster operational scale: Azure Service Bus Premium added general availability of confidential computing and now carries a 99.99% SLA in all Availability Zone regions, while Stripe Events integration with Azure Event Grid is now generally available for event-driven architectures. On the AI and security side, Azure highlighted a new realtime AI chapter in Azure AI Foundry with reasoning, translation, and real-time transcription, and Microsoft Sentinel’s RSAC 2026 updates; developer productivity themes included scaling GitHub Advanced Security in Azure DevOps via reusable YAML templates, enterprise test automation with GitHub Copilot, guidance on Azure Bicep/ARM’s 800-deployment quota limit, OSS onboarding with GitHub, and DNS forwarding design for Azure NetApp Files."
 }
