@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T01:48:51.782275+00:00",
+  "lastUpdated": "2026-05-11T06:26:37.357482+00:00",
   "totalArticles": 1134,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Understanding the deployment quota limitation (800) Error in Azure Bicep and ARM Deployments",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/understanding-the-deployment-quota-limitation-800-error-in-azure/ba-p/4518262",
+      "published": "2026-05-11T05:12:56+00:00",
+      "summary": "Understanding deployment quota limitation (800) Error in Azure Deployments (Bicep/ARM) Introduction When working with Infrastructure as Code (IaC) using Azure Bicep or ARM templates, deployment failures are a common part of day-to-day operations—especially in large-scale enterprise environments....",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ranjan_ashish",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Configure DNS forwarding for Azure NetApp Files",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/configure-dns-forwarding-for-azure-netapp-files/ba-p/4516381",
+      "published": "2026-05-11T04:20:10+00:00",
+      "summary": "This post has been written with the collaboration of Rizul Khanna Applies to: Azure NetApp Files — SMB, dual-protocol, and NFSv4.1 Kerberos volumes deployed in hub-spoke or Azure Virtual WAN topologies using an external private DNS forwarder. Overview Azure NetApp Files (ANF) has a hard dependency...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "mkachare",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Turning GitHub Copilot into a “Best Practices Coach” with Copilot Spaces + a Markdown Knowledge Base",
@@ -1981,17 +2003,6 @@
       "author": "Matt Clark",
       "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Migrating Splunk Logs to Azure Application Insights on VMs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/migrating-splunk-logs-to-azure-application-insights-on-vms/ba-p/4515866",
-      "published": "2026-04-29T11:35:03+00:00",
-      "summary": "Phase 0 – Understanding the Current Environment Before touching any code or agents, map out the existing architecture. Current setup: Applications write logs via log4net → local log files on VMs Splunk Universal Forwarders read logs → send to Splunk Indexers Splunk dashboards, alerts, and...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "skundapura",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "AG-UI: The Future of Agent-Driven User Interfaces",
@@ -4873,17 +4884,6 @@
       "blogId": "messagingonazureblog",
       "author": "EldertGrootenboer",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "AKS cluster with AGIC hits the Azure Application Gateway backend pool limit (100)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/aks-cluster-with-agic-hits-the-azure-application-gateway-backend/ba-p/4508201",
-      "published": "2026-04-03T15:46:16+00:00",
-      "summary": "I’m writing this article to document a real-world scaling issue we hit while exposing many applications from an Azure Kubernetes Service (AKS) cluster using Application Gateway Ingress Controller (AGIC). The problem is easy to miss because Kubernetes resources keep applying successfully, but the...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "kkaushal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12476,5 +12476,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog posts focus on practical infrastructure and networking guidance for core platform services. One article explains how to troubleshoot the Azure Resource Manager/Bicep “deployment quota limitation (800)” error in Azure Infrastructure, highlighting deployment history limits in ARM and Bicep-based workflows; the other walks through configuring DNS forwarding for Azure NetApp Files in Azure Architecture, emphasizing correct name resolution design for NetApp-backed workloads."
 }
