@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T09:39:15.460052+00:00",
+  "lastUpdated": "2026-05-11T10:47:38.459704+00:00",
   "features": {
     "Azure SQL mid-March 2026 updates": {
       "status": "ga",
@@ -603,11 +603,11 @@
     },
     "Durable Task Scheduler Consumption SKU": {
       "status": "ga",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/the-durable-task-scheduler-consumption-sku-is-now-generally/ba-p/4506682",
-      "title": "The Durable Task Scheduler Consumption SKU is now Generally Available",
-      "service": "Durable Task Scheduler",
-      "lastSeen": "2026-04-06T08:54:40.391545+00:00",
-      "published": "2026-03-31T12:00:00+00:00"
+      "link": "https://azure.microsoft.com/updates?id=560957",
+      "title": "[Launched] Generally Available: Azure Functions durable task scheduler Consumption SKU",
+      "service": "Azure Functions",
+      "lastSeen": "2026-05-11T10:47:38.459697+00:00",
+      "published": "2026-05-04T17:45:58+00:00"
     },
     "Ephemeral OS Disk with full caching": {
       "status": "preview",
@@ -1190,8 +1190,8 @@
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/prefix-scoped-access-for-user-delegation-sas-is-now-generally/ba-p/4516010",
       "title": "Prefix-scoped access for User Delegation SAS is now generally available for Azure Blob Storage",
       "service": "Azure Blob Storage",
-      "lastSeen": "2026-05-04T09:39:15.460013+00:00",
-      "published": "2026-04-30T17:00:00+00:00"
+      "lastSeen": "2026-05-11T10:47:38.459669+00:00",
+      "published": "2026-05-06T20:01:06+00:00"
     },
     "Java 25 support": {
       "status": "ga",
@@ -1296,6 +1296,214 @@
       "service": "Foundry Agent Service",
       "lastSeen": "2026-05-04T09:39:15.460049+00:00",
       "published": "2026-04-27T18:00:52+00:00"
+    },
+    "AI_GENERATE_EMBEDDINGS": {
+      "status": "ga",
+      "link": "https://devblogs.microsoft.com/azure-sql/generate-embeddings-function-and-external-model-object-support-are-now-generally-available-in-azure-sql/",
+      "title": "Generate Embeddings Function and External Model Object Support Are Now Generally Available in Azure SQL",
+      "service": "Azure SQL",
+      "lastSeen": "2026-05-11T10:47:38.459624+00:00",
+      "published": "2026-05-08T21:42:36+00:00"
+    },
+    "CREATE EXTERNAL MODEL": {
+      "status": "ga",
+      "link": "https://devblogs.microsoft.com/azure-sql/generate-embeddings-function-and-external-model-object-support-are-now-generally-available-in-azure-sql/",
+      "title": "Generate Embeddings Function and External Model Object Support Are Now Generally Available in Azure SQL",
+      "service": "Azure SQL",
+      "lastSeen": "2026-05-11T10:47:38.459634+00:00",
+      "published": "2026-05-08T21:42:36+00:00"
+    },
+    "Azure Resource Manager MCP Server": {
+      "status": "preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/introducing-the-azure-resource-manager-mcp-server/ba-p/4517521",
+      "title": "Introducing the Azure Resource Manager MCP Server!",
+      "service": "Azure Resource Manager",
+      "lastSeen": "2026-05-11T10:47:38.459638+00:00",
+      "published": "2026-05-08T20:39:25+00:00"
+    },
+    "Volume Group Snapshots": {
+      "status": "ga",
+      "link": "https://kubernetes.io/blog/2026/05/08/kubernetes-v1-36-volume-group-snapshot-ga/",
+      "title": "Kubernetes v1.36: Moving Volume Group Snapshots to GA",
+      "service": "Kubernetes",
+      "lastSeen": "2026-05-11T10:47:38.459640+00:00",
+      "published": "2026-05-08T18:35:00+00:00"
+    },
+    "cert-manager for Azure Arc-enabled Kubernetes": {
+      "status": "preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/introducing-cert-manager-for-azure-arc-enabled-kubernetes-now-in/ba-p/4514549",
+      "title": "Introducing cert-manager for Azure Arc-enabled Kubernetes: now in Public Preview",
+      "service": "Azure Arc-enabled Kubernetes",
+      "lastSeen": "2026-05-11T10:47:38.459646+00:00",
+      "published": "2026-05-08T17:15:32+00:00"
+    },
+    "Regional to zonal VM migration": {
+      "status": "preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/public-preview-migrate-your-regional-virtual-machines-to/ba-p/4517298",
+      "title": "Public Preview: Migrate your regional virtual machines to availability zones",
+      "service": "Azure Virtual Machines",
+      "lastSeen": "2026-05-11T10:47:38.459651+00:00",
+      "published": "2026-05-07T21:33:43+00:00"
+    },
+    "Enterprise Live Migrations": {
+      "status": "preview",
+      "link": "https://github.blog/changelog/2026-05-07-enterprise-live-migrations-is-now-in-public-preview",
+      "title": "Enterprise Live Migrations is now in public preview",
+      "service": "GitHub Enterprise",
+      "lastSeen": "2026-05-11T10:47:38.459653+00:00",
+      "published": "2026-05-07T20:28:33+00:00"
+    },
+    "Premium SSD v2 Disk in Japan West zones": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=561814",
+      "title": "[Launched] Generally Available: Azure Premium SSD v2 Disk is now available in all three available zones in Japan West",
+      "service": "Azure Managed Disks",
+      "lastSeen": "2026-05-11T10:47:38.459655+00:00",
+      "published": "2026-05-07T18:15:17+00:00"
+    },
+    "Dl/D/E v7 Virtual Machines": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=560734",
+      "title": "[Launched] Generally Available: Azure Dl/D/E v7 Virtual Machines",
+      "service": "Azure Virtual Machines",
+      "lastSeen": "2026-05-11T10:47:38.459656+00:00",
+      "published": "2026-05-07T18:00:38+00:00"
+    },
+    "Dlsv7-series VMs": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-general-availability-of-azure-dl-d-esv7-series-vms/ba-p/4516907",
+      "title": "Announcing General Availability of Azure Dl/D/Esv7-series VMs based on Intel® Xeon® 6 processors",
+      "service": "Azure Virtual Machines",
+      "lastSeen": "2026-05-11T10:47:38.459661+00:00",
+      "published": "2026-05-07T16:08:07+00:00"
+    },
+    "Dsv7-series VMs": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-general-availability-of-azure-dl-d-esv7-series-vms/ba-p/4516907",
+      "title": "Announcing General Availability of Azure Dl/D/Esv7-series VMs based on Intel® Xeon® 6 processors",
+      "service": "Azure Virtual Machines",
+      "lastSeen": "2026-05-11T10:47:38.459663+00:00",
+      "published": "2026-05-07T16:08:07+00:00"
+    },
+    "Esv7-series VMs": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-general-availability-of-azure-dl-d-esv7-series-vms/ba-p/4516907",
+      "title": "Announcing General Availability of Azure Dl/D/Esv7-series VMs based on Intel® Xeon® 6 processors",
+      "service": "Azure Virtual Machines",
+      "lastSeen": "2026-05-11T10:47:38.459665+00:00",
+      "published": "2026-05-07T16:08:07+00:00"
+    },
+    "Right-size memory for Business Critical Managed Instance": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=560283",
+      "title": "[In preview] Public Preview: Azure SQL update for early-May 2026",
+      "service": "Azure SQL Managed Instance",
+      "lastSeen": "2026-05-11T10:47:38.459667+00:00",
+      "published": "2026-05-06T23:00:22+00:00"
+    },
+    "Bulk Restore": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=561373",
+      "title": "[In preview] Public Preview: Bulk Restore for Azure Virtual Machines using Azure Backup",
+      "service": "Azure Backup",
+      "lastSeen": "2026-05-11T10:47:38.459671+00:00",
+      "published": "2026-05-06T19:45:54+00:00"
+    },
+    "Azure Cosmos DB Shell": {
+      "status": "preview",
+      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-shell-public-preview-ai-mcp-cli/",
+      "title": "Announcing the Public Preview of Azure Cosmos DB Shell: Open-Source Power Meets AI-Driven Database Automation",
+      "service": "Azure Cosmos DB",
+      "lastSeen": "2026-05-11T10:47:38.459682+00:00",
+      "published": "2026-05-06T16:00:29+00:00"
+    },
+    "Backup by default": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=560668",
+      "title": "[In preview] Public Preview: Azure NetApp Files enable backup by default",
+      "service": "Azure NetApp Files",
+      "lastSeen": "2026-05-11T10:47:38.459676+00:00",
+      "published": "2026-05-06T18:45:15+00:00"
+    },
+    "Spherical quantization": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=561167",
+      "title": "[In preview] Public Preview: Azure Cosmos DB spherical quantization for improved vector search",
+      "service": "Azure Cosmos DB",
+      "lastSeen": "2026-05-11T10:47:38.459677+00:00",
+      "published": "2026-05-06T18:30:28+00:00"
+    },
+    "Microsoft Agent 365": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/ask-questions-may-12-live-agent-365-ama/ba-p/4511734",
+      "title": "Ask questions: May 12 live Agent 365 AMA",
+      "service": "Agent 365",
+      "lastSeen": "2026-05-11T10:47:38.459679+00:00",
+      "published": "2026-05-06T18:14:17+00:00"
+    },
+    "Availability Set to VM Scale Set migration": {
+      "status": "preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/public-preview-migrate-availability-sets-to-virtual-machine/ba-p/4517061",
+      "title": "Public Preview: Migrate Availability Sets to Virtual Machine Scale Sets",
+      "service": "Azure Virtual Machines",
+      "lastSeen": "2026-05-11T10:47:38.459684+00:00",
+      "published": "2026-05-05T22:30:00+00:00"
+    },
+    "Declarative Validation": {
+      "status": "ga",
+      "link": "https://kubernetes.io/blog/2026/05/05/kubernetes-v1-36-declarative-validation-ga/",
+      "title": "Kubernetes v1.36: Declarative Validation Graduates to GA",
+      "service": "Kubernetes",
+      "lastSeen": "2026-05-11T10:47:38.459685+00:00",
+      "published": "2026-05-05T18:35:00+00:00"
+    },
+    "Application Gateway for Containers managed add-on + AKS Automatic": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=558403",
+      "title": "[In preview] Public Preview: Application Gateway for Containers managed add-on + AKS Automatic",
+      "service": "Azure Kubernetes Service",
+      "lastSeen": "2026-05-11T10:47:38.459687+00:00",
+      "published": "2026-05-05T17:30:03+00:00"
+    },
+    "Elastic SAN support for AVS Gen2 Private Cloud": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=560909",
+      "title": "[Launched] Generally Available: Azure Elastic SAN support for AVS Gen2 Private Cloud",
+      "service": "Azure Elastic SAN",
+      "lastSeen": "2026-05-11T10:47:38.459689+00:00",
+      "published": "2026-05-05T16:00:38+00:00"
+    },
+    "Single Volume Snapshots": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=560899",
+      "title": "[Launched] Generally Available: Single Volume Snapshots on Azure Elastic SAN",
+      "service": "Azure Elastic SAN",
+      "lastSeen": "2026-05-11T10:47:38.459691+00:00",
+      "published": "2026-05-05T16:00:38+00:00"
+    },
+    "AV64 SKU support for Azure Elastic SAN": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=560894",
+      "title": "[Launched] Generally Available: AVS Support for AV64 SKU on Azure Elastic SAN",
+      "service": "Azure Elastic SAN",
+      "lastSeen": "2026-05-11T10:47:38.459693+00:00",
+      "published": "2026-05-05T16:00:38+00:00"
+    },
+    "Container runtime anti-malware detection and blocking": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-customer-newsletter/ba-p/4516842",
+      "title": "Microsoft Defender for Cloud Customer Newsletter",
+      "service": "Microsoft Defender for Containers",
+      "lastSeen": "2026-05-11T10:47:38.459699+00:00",
+      "published": "2026-05-04T16:47:10+00:00"
+    },
+    "DNS Detection for Kubernetes": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-customer-newsletter/ba-p/4516842",
+      "title": "Microsoft Defender for Cloud Customer Newsletter",
+      "service": "Microsoft Defender for Containers",
+      "lastSeen": "2026-05-11T10:47:38.459701+00:00",
+      "published": "2026-05-04T16:47:10+00:00"
     }
   }
 }
