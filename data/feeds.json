@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-11T19:23:53.226238+00:00",
-  "totalArticles": 1137,
+  "lastUpdated": "2026-05-11T21:57:21.133609+00:00",
+  "totalArticles": 1139,
   "articles": [
     {
       "title": "Visual Studio Code 1.120",
@@ -12,6 +12,61 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Introducing the Azure Resource Manager MCP Server!",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/introducing-the-azure-resource-manager-mcp-server/ba-p/4517521",
+      "published": "2026-05-11T20:49:28+00:00",
+      "summary": "We're super excited to announce the public preview of the Azure Resource Manager MCP Server! This is a remote MCP server that provides tools to give AI agents first-class access to Azure infrastructure operations through Azure Resource Manager (ARM). AI agents can now be equipped with tools to...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "stevenbucher",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Action required: Kerberos RC4 hardening may affect Azure Files Active Directory Domain Services",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/action-required-kerberos-rc4-hardening-may-affect-azure-files/ba-p/4518577",
+      "published": "2026-05-11T20:42:35+00:00",
+      "summary": "A Windows security hardening change beginning in April 2026 updates default Kerberos encryption behavior and may impact customers using Azure Files with Active Directory Domain Services (AD DS) authentication over SMB. If you created Azure Files shares prior to 2023, or chose RC4 encryption for...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "grace_kim",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Announcing savings plan for databases: flexible savings for modern, evolving workloads",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/announcing-savings-plan-for-databases-flexible-savings-for/ba-p/4503107",
+      "published": "2026-05-11T20:38:10+00:00",
+      "summary": "As organizations modernize their data platforms, database environments are constantly changing. Teams migrate between services, scale across regions, and evolve architectures to support new applications and AI driven workloads. But optimizing costs in these environments can be challenging,...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "kyleikeda",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure CLI on macOS: Upcoming Installation Changes",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-cli-on-macos-upcoming-installation-changes/ba-p/4518596",
+      "published": "2026-05-11T20:12:42+00:00",
+      "summary": "From Homebrew Core to a new installation model for macOS Over the past few years, Azure CLI usage on macOS has continued to grow—across individual developers, open source contributors, and large enterprises. As adoption increases, so do expectations around security, reliability, and enterprise...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "Alex-wdy",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Announcing the AI Dev Days Hackathon winners",
+      "link": "https://techcommunity.microsoft.com/t5/azure-events/announcing-the-ai-dev-days-hackathon-winners/ba-p/4513528",
+      "published": "2026-05-11T20:10:20+00:00",
+      "summary": "🏆 Winning projects 🏆 Grand Prize : Build AI Applications & Agents using Microsoft AI Platform and Tools Quipu: AI Early Warning for Peruvian Municipalities (Peru)Quipu helps Peruvian municipalities spot early signals of natural disasters and get alerts out faster. It uses seven collaborating AI...",
+      "blog": "Azure Events",
+      "blogId": "azure-events",
+      "author": "osmancokakoglu",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-events&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Announcing general availability of confidential computing for Azure Service Bus Premium",
@@ -91,6 +146,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Create repositories on the go with GitHub Mobile",
+      "link": "https://github.blog/changelog/2026-05-11-create-repositories-on-the-go-with-github-mobile",
+      "published": "2026-05-11T09:26:45+00:00",
+      "summary": "You can now create new repositories directly from the GitHub Mobile app. On iOS, start from either Home or your Profile, tap the + button, and choose Create repository. On… The post Create repositories on the go with GitHub Mobile appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "From Test Cases to Trusted Automation: Scaling Enterprise Quality with GitHub Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-test-cases-to-trusted-automation-scaling-enterprise-quality/ba-p/4512843",
       "published": "2026-05-11T07:00:00+00:00",
@@ -166,17 +232,6 @@
       "author": "Aaron Saidi",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Introducing the Azure Resource Manager MCP Server!",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/introducing-the-azure-resource-manager-mcp-server/ba-p/4517521",
-      "published": "2026-05-08T20:39:25+00:00",
-      "summary": "We're super excited to announce the public preview of the Azure Resource Manager MCP Server! This is a remote MCP server that provides tools to give AI agents first-class access to Azure infrastructure operations through Azure Resource Manager (ARM). AI agents can now be equipped with tools to...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "stevenbucher",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Upcoming deprecation of Grok Code Fast 1",
@@ -568,17 +623,6 @@
       "link": "https://github.blog/changelog/2026-05-07-rubber-duck-in-github-copilot-cli-now-supports-more-models",
       "published": "2026-05-07T14:49:28+00:00",
       "summary": "Rubber Duck, the cross-family review agent in GitHub Copilot CLI, is now available using a Claude-powered critic agent when your session is using a GPT model. For sessions using Claude… The post Rubber Duck in GitHub Copilot CLI now supports more models appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Repository rulesets: User bypass and branch renaming",
-      "link": "https://github.blog/changelog/2026-05-07-repository-rulesets-user-bypass-and-branch-renaming",
-      "published": "2026-05-07T14:13:48+00:00",
-      "summary": "GitHub repository rulesets now support two frequently requested features: adding individual users as bypass actors and renaming branches covered by organization rulesets. Add individual users as bypass actors You can… The post Repository rulesets: User bypass and branch renaming appeared first on...",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -2971,17 +3015,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Announcing savings plan for databases: flexible savings for modern, evolving workloads",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/announcing-savings-plan-for-databases-flexible-savings-for/ba-p/4503107",
-      "published": "2026-04-22T20:09:03+00:00",
-      "summary": "As organizations modernize their data platforms, database environments are constantly changing. Teams migrate between services, scale across regions, and evolve architectures to support new applications and AI driven workloads. But optimizing costs in these environments can be challenging,...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "kyleikeda",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Private subnets by default in Azure Virtual Networks: What changed and how to use NAT Gateway",
@@ -10618,17 +10651,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Priority Replication for Geo Redundant Storage and Object Replication is Generally Available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/priority-replication-for-geo-redundant-storage-and-object/ba-p/4468607",
-      "published": "2025-11-10T20:21:17+00:00",
-      "summary": "We are excited to announce the General Availability of priority replication for Geo Redundant Storage (GRS) and Object Replication (OR). Priority replication enhances the replication process of GRS/GZRS and OR, ensuring guaranteed 15 minute synchronization between regions and improved replication...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "imanihall",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing the 2025 Steering Committee Election Results",
       "link": "https://kubernetes.io/blog/2025/11/09/steering-committee-results-2025/",
       "published": "2025-11-09T20:10:00+00:00",
@@ -12510,5 +12532,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts center on stronger secure messaging and eventing, plus faster operational scale: Azure Service Bus Premium added general availability of confidential computing and now carries a 99.99% SLA in all Availability Zone regions, while Stripe Events integration with Azure Event Grid is now generally available for event-driven architectures. On the AI and security side, Azure highlighted a new realtime AI chapter in Azure AI Foundry with reasoning, translation, and real-time transcription, and Microsoft Sentinel’s RSAC 2026 updates; developer productivity themes included scaling GitHub Advanced Security in Azure DevOps via reusable YAML templates, enterprise test automation with GitHub Copilot, guidance on Azure Bicep/ARM’s 800-deployment quota limit, OSS onboarding with GitHub, and DNS forwarding design for Azure NetApp Files."
+  "summary": "Today’s Azure updates centered on platform security, cost optimization, and developer productivity. Key announcements included general availability of confidential computing for Azure Service Bus Premium, a new 99.99% SLA for Service Bus Premium in Availability Zone regions, GA for Stripe Events integration with Azure Event Grid, and a new databases savings plan aimed at flexible FinOps for changing workloads; Microsoft also warned customers that Kerberos RC4 hardening could impact Azure Files with Active Directory Domain Services and outlined upcoming Azure CLI installation changes on macOS.\n\nOn the AI and developer side, Microsoft highlighted new realtime AI capabilities in Azure AI Foundry—reasoning, translation, and real-time transcription—alongside the Azure Resource Manager MCP Server, GitHub Advanced Security scaling in Azure DevOps via reusable YAML templates, and Copilot-driven enterprise test automation. Additional posts focused on operational guidance like Azure Bicep/ARM deployment quota limits and DNS forwarding for Azure NetApp Files, plus community updates including AI Dev Days Hackathon winners and GitHub contribution/mobile workflow improvements."
 }
