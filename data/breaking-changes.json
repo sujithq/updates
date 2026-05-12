@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-09T09:26:50.815613+00:00",
+  "lastUpdated": "2026-05-12T10:39:36.544378+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -825,6 +825,17 @@
       "detected": "2026-05-09T09:26:50.815603+00:00",
       "published": "2026-05-08T20:21:00+00:00",
       "blog": "GitHub Changelog"
+    },
+    {
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/action-required-kerberos-rc4-hardening-may-affect-azure-files/ba-p/4518577",
+      "title": "Action required: Kerberos RC4 hardening may affect Azure Files Active Directory Domain Services",
+      "severity": "critical",
+      "deadline": "2026-04-01",
+      "impact": "Kerberos RC4 hardening can break Azure Files AD DS SMB auth on older shares",
+      "action": "Move to AES-256 and update AD DS/Azure Files configs before auth fails",
+      "detected": "2026-05-12T10:39:36.544366+00:00",
+      "published": "2026-05-12T00:02:58+00:00",
+      "blog": "Azure Storage"
     }
   ]
 }
