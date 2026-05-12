@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T01:31:01.549086+00:00",
+  "lastUpdated": "2026-05-12T05:57:31.544865+00:00",
   "totalArticles": 1139,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Modernizing Azure Landing Zone Deployments: From Terraform Scripts to GHCP-Driven Engineering",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/modernizing-azure-landing-zone-deployments-from-terraform/ba-p/4517168",
+      "published": "2026-05-12T04:36:08+00:00",
+      "summary": "The code nobody wants to write anymore Most Azure Landing Zone (ALZ) deployments we see today still follow the same pattern they did a few years ago. Engineers manually write Terraform modules, copy networking blocks from older repos, tweak management group hierarchies, and wire pipelines step by...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "gurkirat",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure Arc AKS Explained: Run Kubernetes Beyond Azure Cloud",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-arc-aks-explained-run-kubernetes-beyond-azure-cloud/ba-p/4518443",
+      "published": "2026-05-12T02:57:30+00:00",
+      "summary": "Modern enterprises are no longer running workloads only inside a centralized cloud environment. Applications today operate across: On-premises datacenters Remote branch offices Manufacturing plants Retail stores Edge locations Hybrid infrastructure While Kubernetes has become the standard for...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "mohit-kanojia",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Action required: Kerberos RC4 hardening may affect Azure Files Active Directory Domain Services",
@@ -969,17 +991,6 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "🚀 Modernizing Azure Landing Zone Deployments: From Terraform Scripts to GHCP-Driven Engineering",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/modernizing-azure-landing-zone-deployments-from-terraform/ba-p/4517168",
-      "published": "2026-05-06T06:05:20+00:00",
-      "summary": "The code nobody wants to write anymore Most Azure Landing Zone (ALZ) deployments we see today still follow the same pattern they did a few years ago. Engineers manually write Terraform modules, copy networking blocks from older repos, tweak management group hierarchies, and wire pipelines step by...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "gurkirat",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Operationalizing Responsible AI in Microsoft Foundry within Enterprise Network Boundaries",
@@ -1969,17 +1980,6 @@
       "blogId": "microsoftsentinelblog",
       "author": "David Hoerster",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Operating AI Agents on Azure: Observability with Azure AI Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/operating-ai-agents-on-azure-observability-with-azure-ai-foundry/ba-p/4515975",
-      "published": "2026-04-29T19:15:11+00:00",
-      "summary": "Azure AI Foundry is Microsoft’s enterprise platform for building, deploying, and operating AI applications and intelligent agents as first‑class Azure workloads. From an infrastructure perspective, Foundry acts as a control plane that brings together model hosting, agent execution, tooling,...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "skundapura",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12532,5 +12532,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure update is a security-focused notice: Microsoft warns that upcoming **Kerberos RC4 hardening** changes could impact **Azure Files** environments that authenticate through **Active Directory Domain Services (AD DS)**. The key theme is customer action—organizations using **Azure Storage/Azure Files with AD DS-based identity** should review their Kerberos configurations and move away from **RC4-dependent setups** to avoid authentication or access disruptions."
+  "summary": "Today’s Azure blog highlights three operational priorities: modernizing platform engineering, extending Azure management to hybrid environments, and tightening security defaults. Azure Infrastructure introduced a shift from Terraform-scripted Azure Landing Zone deployments toward **GHCP-driven engineering** for more standardized, scalable platform setup, while another post explains **Azure Arc–enabled AKS**, showing how organizations can run and manage **Kubernetes** clusters outside Azure using Azure control-plane capabilities.\n\nOn the security side, Azure Storage issued an **action-required** notice that upcoming **Kerberos RC4 hardening** may impact **Azure Files** integrations with **Active Directory Domain Services**, signaling that customers should review authentication configurations and move away from weaker legacy encryption dependencies."
 }
