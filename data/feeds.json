@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T21:57:21.133609+00:00",
+  "lastUpdated": "2026-05-12T01:31:01.549086+00:00",
   "totalArticles": 1139,
   "articles": [
     {
@@ -14,6 +14,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "Action required: Kerberos RC4 hardening may affect Azure Files Active Directory Domain Services",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/action-required-kerberos-rc4-hardening-may-affect-azure-files/ba-p/4518577",
+      "published": "2026-05-12T00:02:58+00:00",
+      "summary": "A Windows security hardening change beginning in April 2026 updates default Kerberos encryption behavior and may impact customers using Azure Files with Active Directory Domain Services (AD DS) authentication over SMB. If you created Azure Files shares prior to 2023, or chose RC4 encryption for...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "grace_kim",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "How to Secure Azure Databricks without Public Exposure using WAF + Private Endpoints",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/how-to-secure-azure-databricks-without-public-exposure-using-waf/ba-p/4517721",
+      "published": "2026-05-11T23:37:12+00:00",
+      "summary": "While first thing that comes up to mind is that lets configure IP Access List with keeping Azure Databricks in Hybrid Connectivity. This approach is technically doable, but not the best approach for organizations which follows Zero Trust Architecture Framework. This is where organizations has to...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "FaizaanMerchant",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Introducing the Azure Resource Manager MCP Server!",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/introducing-the-azure-resource-manager-mcp-server/ba-p/4517521",
       "published": "2026-05-11T20:49:28+00:00",
@@ -22,17 +44,6 @@
       "blogId": "azuregovernanceandmanagementblog",
       "author": "stevenbucher",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Action required: Kerberos RC4 hardening may affect Azure Files Active Directory Domain Services",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/action-required-kerberos-rc4-hardening-may-affect-azure-files/ba-p/4518577",
-      "published": "2026-05-11T20:42:35+00:00",
-      "summary": "A Windows security hardening change beginning in April 2026 updates default Kerberos encryption behavior and may impact customers using Azure Files with Active Directory Domain Services (AD DS) authentication over SMB. If you created Azure Files shares prior to 2023, or chose RC4 encryption for...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "grace_kim",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -4950,17 +4961,6 @@
       "blogId": "messagingonazureblog",
       "author": "EldertGrootenboer",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Blue‑Green Strategy for Always‑On TCP Workloads on Azure Container Apps",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/blue-green-strategy-for-always-on-tcp-workloads-on-azure/ba-p/4507894",
-      "published": "2026-04-03T05:58:36+00:00",
-      "summary": "Scenario: Always‑on workloads in Azure Container Apps continuously pull from a TCP source, process the stream, and push into Azure Managed Redis, which is then consumed by another always‑on Container Apps workload that writes to a database. Challenge: Standard revision traffic splitting isn’t a fit...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "srivastavani",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12532,5 +12532,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure updates centered on platform security, cost optimization, and developer productivity. Key announcements included general availability of confidential computing for Azure Service Bus Premium, a new 99.99% SLA for Service Bus Premium in Availability Zone regions, GA for Stripe Events integration with Azure Event Grid, and a new databases savings plan aimed at flexible FinOps for changing workloads; Microsoft also warned customers that Kerberos RC4 hardening could impact Azure Files with Active Directory Domain Services and outlined upcoming Azure CLI installation changes on macOS.\n\nOn the AI and developer side, Microsoft highlighted new realtime AI capabilities in Azure AI Foundry—reasoning, translation, and real-time transcription—alongside the Azure Resource Manager MCP Server, GitHub Advanced Security scaling in Azure DevOps via reusable YAML templates, and Copilot-driven enterprise test automation. Additional posts focused on operational guidance like Azure Bicep/ARM deployment quota limits and DNS forwarding for Azure NetApp Files, plus community updates including AI Dev Days Hackathon winners and GitHub contribution/mobile workflow improvements."
+  "summary": "Today’s Azure update is a security-focused notice: Microsoft warns that upcoming **Kerberos RC4 hardening** changes could impact **Azure Files** environments that authenticate through **Active Directory Domain Services (AD DS)**. The key theme is customer action—organizations using **Azure Storage/Azure Files with AD DS-based identity** should review their Kerberos configurations and move away from **RC4-dependent setups** to avoid authentication or access disruptions."
 }
