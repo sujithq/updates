@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T08:20:38.977459+00:00",
+  "lastUpdated": "2026-05-12T11:09:58.114503+00:00",
   "totalArticles": 1139,
   "articles": [
     {
@@ -12532,5 +12532,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on secure, governed AI and hybrid platform modernization. Key announcements included hardening Copilot SDK agents on AKS with **Kata microVMs** for stronger workload isolation, the debut of **PII Shield** as a privacy proxy to detect and redact sensitive data in **LLM** calls, and the latest **Microsoft Foundry** updates for building and managing AI applications.\n\nOn the infrastructure side, Azure highlighted modernization of **Azure Landing Zone** deployments by moving from raw **Terraform** scripts to **GHCP-driven engineering**, expanded guidance around **Azure Arc-enabled AKS** for running **Kubernetes** across on-premises and multicloud environments, and an important security notice that **Kerberos RC4 hardening** may impact **Azure Files** integrations with **Active Directory Domain Services**."
+  "summary": "Today’s Azure posts centered on secure, enterprise-ready AI and hybrid infrastructure: Azure highlighted hardening Copilot SDK agents on AKS with Kata microVM isolation, introduced **PII Shield** as a privacy proxy to redact or protect sensitive data in **LLM** calls, and shared April 2026 updates for **Microsoft Foundry**. On the infrastructure side, Azure emphasized modernization and hybrid operations with a shift from **Terraform**-based landing zone deployments to **GHCP-driven engineering**, a deeper look at **Azure Arc-enabled AKS** for running Kubernetes outside Azure, and an important **Azure Files / Active Directory Domain Services** notice that **Kerberos RC4 hardening** could impact authentication and requires customer action."
 }
