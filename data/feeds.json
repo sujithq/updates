@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T05:57:31.544865+00:00",
+  "lastUpdated": "2026-05-12T08:20:38.977459+00:00",
   "totalArticles": 1139,
   "articles": [
     {
@@ -12,6 +12,39 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Giving the Copilot SDK Agent a \"hardware-level helmet\" using Kata microVM on AKS",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/giving-the-copilot-sdk-agent-a-quot-hardware-level-helmet-quot/ba-p/4518668",
+      "published": "2026-05-12T08:08:35+00:00",
+      "summary": "A Moment That Made Me Pause I was recently building an Agent service with the GitHub Copilot SDK. After getting it up and running, I went back through the execution logs and something jumped out at me: In a single conversation turn, the Agent had executed a shell command, read several files, and...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "What’s new in Microsoft Foundry | April 2026",
+      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-apr-2026/",
+      "published": "2026-05-12T07:13:15+00:00",
+      "summary": "April brings Foundry Local GA for local AI development, GPT-5.5 model support with Tier 5 and Tier 6 default quota in Microsoft Foundry, new tracing paths for Microsoft Agent Framework and hosted agents, CodeAct with Hyperlight for sandboxed agent code execution, expanded monitoring and continuous...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Nick Brady",
+      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Introducing PII Shield: A Privacy Proxy for Every LLM Call",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/introducing-pii-shield-a-privacy-proxy-for-every-llm-call/ba-p/4514726",
+      "published": "2026-05-12T07:00:00+00:00",
+      "summary": "Why do we need a utility like PII Shield? Let’s start with an uncomfortable truth: modern AI systems are swimming in sensitive data - often without us fully realizing the risks we’re taking. The data is sensitive. Names, emails, phone numbers, credit cards, IBANs, SSNs, Aadhaar, PAN, Driving...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "vikas_gautam",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Modernizing Azure Landing Zone Deployments: From Terraform Scripts to GHCP-Driven Engineering",
@@ -221,6 +254,17 @@
       "author": "mkachare",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Apply Copy Fail and DirtyFrag CVE mitigations at-scale using Azure Kubernetes Fleet Manager",
+      "link": "https://blog.aks.azure.com/2026/05/11/kernel-lpe-cve-patching-at-scale-with-fleet-manager",
+      "published": "2026-05-11T00:00:00+00:00",
+      "summary": "See how to apply mitigations for CVE-2026-31431 (Copy Fail) and CVE-2026-43284 / CVE-2026-43500 (DirtyFrag) across AKS clusters using Azure Kubernetes Fleet Manager with a DaemonSet and node image upgrades.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft",
+      "feedUrl": "https://blog.aks.azure.com/rss.xml",
+      "sourceType": "rss"
     },
     {
       "title": "Turning GitHub Copilot into a “Best Practices Coach” with Copilot Spaces + a Markdown Knowledge Base",
@@ -3270,17 +3314,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "If You're Building AI on Azure, ECS 2026 is Where You Need to Be",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/if-you-re-building-ai-on-azure-ecs-2026-is-where-you-need-to-be/ba-p/4513622",
-      "published": "2026-04-22T09:17:46+00:00",
-      "summary": "Let me be direct: there's a lot of noise in the conference calendar. Generic cloud events. Vendor showcases dressed up as technical content. Sessions that look great on paper but leave you with nothing you can actually ship on Monday. ECS 2026 isn't that. As someone who will be on stage at Cologne...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "NFS Permission Denied in Azure App Service on Linux: What It Means and What to Do",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/nfs-permission-denied-in-azure-app-service-on-linux-what-it/ba-p/4513627",
       "published": "2026-04-22T07:31:52+00:00",
@@ -3488,17 +3521,6 @@
       "author": "Ricardo Fiel",
       "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Claim your IQ Series: Foundry IQ badge",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/claim-your-iq-series-foundry-iq-badge/ba-p/4513036",
-      "published": "2026-04-21T12:51:52+00:00",
-      "summary": "The IQ Series kicked off with three Foundry IQ episodes, each paired with a hands-on cookbook. If you've worked through all three or you're planning to, there's now a digital badge waiting for you to claim! What the badge represents The IQ Series: Foundry IQ badge recognizes developers who've...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "aycabas",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Leveraging Azure Resource Graph Queries for Azure Redis Configuration",
@@ -7824,17 +7846,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "What’s new in Microsoft Foundry | Dec 2025 & Jan 2026",
-      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-dec-2025-jan-2026/",
-      "published": "2026-02-19T01:01:09+00:00",
-      "summary": "Catch up on all the new models, audio updates, fine-tuning expansions, and SDK updates from Microsoft Foundry spanning December 2025 and January 2026 — including GPT-5.2, Codex Max, DeepSeek V3.2, FLUX.2, and the azure-ai-projects v2 beta consolidation. The post What’s new in Microsoft Foundry |...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Nick Brady",
-      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Azure Recognized as an NVIDIA Cloud Exemplar, Setting the Bar for AI Performance in the Cloud",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/azure-recognized-as-an-nvidia-cloud-exemplar-setting-the-bar-for/ba-p/4495747",
       "published": "2026-02-18T22:31:25+00:00",
@@ -8635,17 +8646,6 @@
       "blogId": "kubernetes",
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Navigating Capacity Challenges on AKS with Node Auto Provisioning or Virtual Machine Node Pools",
-      "link": "https://blog.aks.azure.com/2025/12/06/node-auto-provisioning-capacity-management",
-      "published": "2026-01-30T00:00:00+00:00",
-      "summary": "Learn how Node auto provisioning and virtual machine node pools can address common capacity constraints when scaling an AKS cluster. Also learn best practices for compute scaling in AKS.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft",
-      "feedUrl": "https://blog.aks.azure.com/rss.xml",
       "sourceType": "rss"
     },
     {
@@ -12532,5 +12532,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog highlights three operational priorities: modernizing platform engineering, extending Azure management to hybrid environments, and tightening security defaults. Azure Infrastructure introduced a shift from Terraform-scripted Azure Landing Zone deployments toward **GHCP-driven engineering** for more standardized, scalable platform setup, while another post explains **Azure Arc–enabled AKS**, showing how organizations can run and manage **Kubernetes** clusters outside Azure using Azure control-plane capabilities.\n\nOn the security side, Azure Storage issued an **action-required** notice that upcoming **Kerberos RC4 hardening** may impact **Azure Files** integrations with **Active Directory Domain Services**, signaling that customers should review authentication configurations and move away from weaker legacy encryption dependencies."
+  "summary": "Today’s Azure posts centered on secure, governed AI and hybrid platform modernization. Key announcements included hardening Copilot SDK agents on AKS with **Kata microVMs** for stronger workload isolation, the debut of **PII Shield** as a privacy proxy to detect and redact sensitive data in **LLM** calls, and the latest **Microsoft Foundry** updates for building and managing AI applications.\n\nOn the infrastructure side, Azure highlighted modernization of **Azure Landing Zone** deployments by moving from raw **Terraform** scripts to **GHCP-driven engineering**, expanded guidance around **Azure Arc-enabled AKS** for running **Kubernetes** across on-premises and multicloud environments, and an important security notice that **Kerberos RC4 hardening** may impact **Azure Files** integrations with **Active Directory Domain Services**."
 }
