@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T11:09:58.114503+00:00",
+  "lastUpdated": "2026-05-12T13:30:22.319166+00:00",
   "totalArticles": 1139,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Secure Medallion Architecture Pattern on Azure Databricks (Part II)",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/secure-medallion-architecture-pattern-on-azure-databricks-part/ba-p/4491044",
+      "published": "2026-05-12T12:25:53+00:00",
+      "summary": "Disclaimer: The views in this article are my own and do not represent Microsoft or Databricks. This article is part of a series focused on deploying a secure Medallion Architecture. The series follows a top-down approach , beginning with a high-level architectural perspective and gradually drilling...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "mscagliola",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Giving the Copilot SDK Agent a \"hardware-level helmet\" using Kata microVM on AKS",
@@ -407,17 +418,6 @@
       "blogId": "azureinfrastructureblog",
       "author": "shwetayadav",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Secure Medallion Architecture Pattern on Azure Databricks (Part II)",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/secure-medallion-architecture-pattern-on-azure-databricks-part/ba-p/4491044",
-      "published": "2026-05-08T15:13:59+00:00",
-      "summary": "Disclaimer: The views in this article are my own and do not represent Microsoft or Databricks. This article is part of a series focused on deploying a secure Medallion Architecture. The series follows a top-down approach , beginning with a high-level architectural perspective and gradually drilling...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "mscagliola",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12532,5 +12532,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on secure, enterprise-ready AI and hybrid infrastructure: Azure highlighted hardening Copilot SDK agents on AKS with Kata microVM isolation, introduced **PII Shield** as a privacy proxy to redact or protect sensitive data in **LLM** calls, and shared April 2026 updates for **Microsoft Foundry**. On the infrastructure side, Azure emphasized modernization and hybrid operations with a shift from **Terraform**-based landing zone deployments to **GHCP-driven engineering**, a deeper look at **Azure Arc-enabled AKS** for running Kubernetes outside Azure, and an important **Azure Files / Active Directory Domain Services** notice that **Kerberos RC4 hardening** could impact authentication and requires customer action."
+  "summary": "Today’s Azure posts center on securing and modernizing AI, Kubernetes, and platform operations: Azure highlighted a secure Medallion architecture for Azure Databricks, a Kata microVM-based isolation approach for Copilot SDK agents on AKS, and “PII Shield,” a privacy proxy to scrub sensitive data from LLM calls. Microsoft also shared April 2026 updates for Microsoft Foundry, guidance on moving Azure Landing Zone deployments from Terraform scripts to GHCP-driven engineering, and an explainer on Azure Arc AKS for running Kubernetes beyond Azure.\n\nThe most urgent announcement is from Azure Storage: Kerberos RC4 hardening may impact Azure Files with Active Directory Domain Services, requiring customer action. Overall, the themes are stronger security boundaries, privacy-by-design for AI workloads, and more standardized hybrid/cloud platform deployment models."
 }
