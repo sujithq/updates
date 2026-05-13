@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-05-13T13:58:47.111860+00:00",
-  "totalArticles": 1133,
+  "lastUpdated": "2026-05-13T17:06:49.355366+00:00",
+  "totalArticles": 1131,
   "articles": [
+    {
+      "title": ".NET MAUI Moves to CoreCLR in .NET 11",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-maui-moves-to-coreclr-in-dotnet-11/",
+      "published": "2026-05-13T17:05:04+00:00",
+      "summary": ".NET MAUI apps on Android, iOS, and Mac Catalyst now run on CoreCLR by default in .NET 11, unifying the runtime across all of .NET. The post .NET MAUI Moves to CoreCLR in .NET 11 appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "David Ortinau",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "Visual Studio Code 1.120",
       "link": "https://code.visualstudio.com/updates/v1_120",
@@ -12,6 +23,50 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Introducing Grok 4.3 on Microsoft Foundry: Latest Generation Agentic Capabilities",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-grok-4-3-on-microsoft-foundry-latest-generation/ba-p/4517096",
+      "published": "2026-05-13T16:12:49+00:00",
+      "summary": "Customers building advanced AI systems increasingly need models that can reason deeply, act autonomously, and integrate reliably into real‑world workflows—all without compromising on governance or cost efficiency. Grok 4.3, xAI’s latest flagship model, is now available in Microsoft Foundry, giving...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Naomi Moneypenny",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Agent Skills in Visual Studio: Teach Copilot How Your Team Works",
+      "link": "https://devblogs.microsoft.com/visualstudio/agent-skills-in-visual-studio/",
+      "published": "2026-05-13T16:00:47+00:00",
+      "summary": "Visual Studio now supports Agent Skills, which are reusable instruction sets that teach Copilot agents how to handle specific tasks like running a build pipeline, generating boilerplate, or following your team’s coding standards. Define a skill once, and the agent applies it automatically whenever...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Simona Liao",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Dungeons & Desktops: 10 roguelikes that never die (because their communities won’t let them)",
+      "link": "https://github.blog/open-source/gaming/dungeons-desktops-10-roguelikes-that-never-die-because-their-communities-wont-let-them/",
+      "published": "2026-05-13T16:00:00+00:00",
+      "summary": "Roguelikes don’t die. They fork, mutate, get argued over, rewritten, abandoned, and revived again. Sometimes all at once. The post Dungeons & Desktops: 10 roguelikes that never die (because their communities won’t let them) appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Lee Reilly",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Introducing Azure Container Apps Express!",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-container-apps-express/ba-p/4519150",
+      "published": "2026-05-13T15:21:55+00:00",
+      "summary": "Three years ago, a 15-second cold start was industry-leading. Today, developers and AI agents expect sub-second. The speed bar has moved, and the tooling needs to move with it. After running Azure Container Apps for years, we've learned something important: for most developers, the ACA environment...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "simonjj",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "How Workday and Microsoft are redefining the agentic workplace",
@@ -34,17 +89,6 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "Introducing Azure Container Apps Express!",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-container-apps-express/ba-p/4519150",
-      "published": "2026-05-13T11:20:48+00:00",
-      "summary": "Three years ago, a 15-second cold start was industry-leading. Today, developers and AI agents expect sub-second. The speed bar has moved, and the tooling needs to move with it. After running Azure Container Apps for years, we've learned something important: for most developers, the ACA environment...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "simonjj",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "How to Test AI Agents with LangSmith: A Complete Guide",
@@ -220,6 +264,17 @@
       "blogId": "dotnet",
       "author": "Rahul Bhandari (MSFT), Tara Overfield",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Kubernetes v1.36: PSI Metrics for Kubernetes Graduates to GA",
+      "link": "https://kubernetes.io/blog/2026/05/12/kubernetes-v1-36-psi-metrics-ga/",
+      "published": "2026-05-12T18:35:00+00:00",
+      "summary": "Since its original implementation in the Linux kernel in 2018, Pressure Stall Information (PSI) has provided users with the high-fidelity signals needed to identify resource saturation before it becomes an outage. Unlike traditional utilization metrics, PSI tells the story of tasks stalled and time...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -418,17 +473,6 @@
       "blogId": "azuredevcommunityblog",
       "author": "vikas_gautam",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Modernizing Azure Landing Zone Deployments: From Terraform Scripts to GHCP-Driven Engineering",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/modernizing-azure-landing-zone-deployments-from-terraform/ba-p/4517168",
-      "published": "2026-05-12T04:36:08+00:00",
-      "summary": "The code nobody wants to write anymore Most Azure Landing Zone (ALZ) deployments we see today still follow the same pattern they did a few years ago. Engineers manually write Terraform modules, copy networking blocks from older repos, tweak management group hierarchies, and wire pipelines step by...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "gurkirat",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -1752,17 +1796,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Register now for OpenClaw: After Hours @ GitHub",
-      "link": "https://github.blog/open-source/register-now-for-openclaw-after-hours-github/",
-      "published": "2026-05-04T15:00:00+00:00",
-      "summary": "OpenClaw builders will gather at GitHub HQ during Microsoft Build 2026 for demos and conversations. Join in person, or watch the livestream on Twitch. The post Register now for OpenClaw: After Hours @ GitHub appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Lee Reilly",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Breaking the code: Multi-stage ‘code of conduct’ phishing campaign leads to AiTM token compromise",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/04/breaking-the-code-multi-stage-code-of-conduct-phishing-campaign-leads-to-aitm-token-compromise/",
       "published": "2026-05-04T15:00:00+00:00",
@@ -2247,6 +2280,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Operating AI Agents on Azure: Observability with Azure AI Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/operating-ai-agents-on-azure-observability-with-azure-ai-foundry/ba-p/4515975",
+      "published": "2026-04-29T19:15:11+00:00",
+      "summary": "Azure AI Foundry is Microsoft’s enterprise platform for building, deploying, and operating AI applications and intelligent agents as first‑class Azure workloads. From an infrastructure perspective, Foundry acts as a control plane that brings together model hosting, agent execution, tooling,...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "skundapura",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Kubernetes v1.36: Tiered Memory Protection with Memory QoS",
       "link": "https://kubernetes.io/blog/2026/04/29/kubernetes-v1-36-memory-qos-tiered-protection/",
       "published": "2026-04-29T18:35:00+00:00",
@@ -2606,17 +2650,6 @@
       "blog": ".NET",
       "blogId": "dotnet",
       "author": "David Ortinau",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "High-Performance Distributed Caching with .NET and Postgres on Azure",
-      "link": "https://devblogs.microsoft.com/dotnet/high-performance-distributed-caching-dotnet-postgres-azure/",
-      "published": "2026-04-28T17:05:00+00:00",
-      "summary": "Adding caching to your application architecture can significantly improve key performance metrics, cut latency, and reduce load across downstream systems. In this walkthrough, we highlight the latest caching best practices and incorporate these design patterns into a reusable .NET application that...",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": "Jared Meade",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
     },
@@ -3806,17 +3839,6 @@
       "blogId": "azurevirtualdesktopblog",
       "author": "Steve_Downs",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurevirtualdesktopblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Troubleshooting Microsoft Foundry Accessing On‑Premises APIs Over Private Networking",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/troubleshooting-microsoft-foundry-accessing-on-premises-apis/ba-p/4498549",
-      "published": "2026-04-20T13:00:00+00:00",
-      "summary": "Audience: Azure solution architects, network engineers, and AI practitioners deploying Microsoft Foundry in enterprise, network‑isolated environments. Scenario: Foundry Agent Service must call an on‑premises (or privately hosted) API over VPN or ExpressRoute using on‑premises corporate DNS....",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "pankajag",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -6117,17 +6139,6 @@
       "author": "Shikha_Varshney",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Unlock More Power in Your Development Workflow: Syncfusion for Visual Studio Subscribers",
-      "link": "https://devblogs.microsoft.com/visualstudio/syncfusion-for-visual-studio/",
-      "published": "2026-03-24T15:00:12+00:00",
-      "summary": "A few months ago, I was talking with a developer who said something that stuck with me: “I love building apps. I just don’t love rebuilding the same UI controls over and over again.” That’s the reality for a lot of teams. You want to focus on your business logic, your architecture, your...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Jim Harrer",
-      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Announcing Public Preview of Argo CD extension on AKS and Azure Arc enabled Kubernetes clusters",
@@ -10640,17 +10651,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Announcing the 2025 Steering Committee Election Results",
-      "link": "https://kubernetes.io/blog/2025/11/09/steering-committee-results-2025/",
-      "published": "2025-11-09T20:10:00+00:00",
-      "summary": "The 2025 Steering Committee Election is now complete. The Kubernetes Steering Committee consists of 7 seats, 4 of which were up for election in 2025. Incoming committee members serve a term of 2 years, and all members are elected by the Kubernetes Community. The Steering Committee oversees the...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Release 2025-10-12",
       "link": "https://github.com/Azure/AKS/releases/tag/2025-10-12",
       "published": "2025-11-07T19:05:51+00:00",
@@ -12442,29 +12442,7 @@
       "author": "RajyaLaxmiYellajosyula",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=oracleonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Build secure, AI-ready apps with Oracle Database@Azure – Join Us at Oracle Dev Tour Bengaluru",
-      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/build-secure-ai-ready-apps-with-oracle-database-azure-join-us-at/ba-p/4412104",
-      "published": "2025-05-12T16:00:00+00:00",
-      "summary": "Microsoft is proud to be an Elite Sponsor of the Oracle Dev Tour in Bengaluru. Join us to explore how Oracle Database@Azure helps developers build secure, intelligent, and scalable applications. Leverage advanced analytics with Microsoft Fabric, integrate AI using Azure AI Foundry, and govern data...",
-      "blog": "Oracle on Azure",
-      "blogId": "oracleonazureblog",
-      "author": "SparshAgrawat",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=oracleonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "MDI port requisites - May 2025",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-identity/mdi-port-requisites-may-2025/m-p/4412997#M4243",
-      "published": "2025-05-12T15:24:48+00:00",
-      "summary": "Port 445 is not needed anymore from May 2025 forward. Microsoft disabled SAM-R queries for MDI. Update the documentation.",
-      "blog": "Azure Advanced Threat Protection",
-      "blogId": "azureadvancedthreatprotection",
-      "author": "Kikoooooo2",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts centered on AI agents, cloud-native app platforms, and infrastructure modernization. Key announcements included **Azure Container Apps Express** for simplified container app deployment, **public preview of cert-manager for Azure Arc-enabled Kubernetes** to automate TLS certificate management on hybrid Kubernetes, and **general availability of the next generation of Azure Boost**, improving Azure VM networking and storage offload performance.\n\nA second major theme was enterprise AI adoption: Microsoft highlighted the **agentic workplace** with **Workday + Microsoft 365 Copilot**, shared guidance for **testing AI agents with LangSmith**, and showcased browser-capable agents using **Browser-Harness with Playwright Workspaces Remote Browsers**. Additional posts covered secure data platform design with a **Medallion Architecture on Azure Databricks**, while release notes for **Visual Studio Code 1.120** and **Terraform v1.15.3 / v1.16.0-alpha20260513** reflected ongoing developer tooling updates."
+  "summary": "Today’s Azure news centered on **AI agents, developer tooling, and cloud infrastructure upgrades**. Microsoft highlighted **Grok 4.3 in Microsoft Foundry** for newer agentic capabilities, **Agent Skills in Visual Studio** to customize **Copilot** around team workflows, guidance for **testing AI agents with LangSmith**, and a **Workday + Microsoft 365 Copilot** partnership aimed at the “agentic workplace”; on the app platform side, Azure also introduced **Browser-Harness with Playwright Workspaces Remote Browsers** to give agents web/UI interaction capabilities.\n\nOn the platform and infrastructure front, Microsoft announced **Azure Container Apps Express** for a simpler app deployment experience, **public preview of cert-manager for Azure Arc-enabled Kubernetes** for certificate lifecycle management, and the **general availability of the next generation of Azure Boost** to improve Azure compute performance/efficiency. Developer ecosystem updates included **.NET MAUI moving to CoreCLR in .NET 11**, **Visual Studio Code 1.120**, Azure Databricks guidance on a **secure medallion architecture pattern**, plus routine **Terraform releases v1.16.0-alpha20260513 and v1.15.3**."
 }
