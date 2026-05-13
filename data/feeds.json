@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-13T06:15:48.132612+00:00",
-  "totalArticles": 1141,
+  "lastUpdated": "2026-05-13T11:23:21.724012+00:00",
+  "totalArticles": 1133,
   "articles": [
     {
       "title": "Visual Studio Code 1.120",
       "link": "https://code.visualstudio.com/updates/v1_120",
       "published": "2026-05-13T17:00:00+00:00",
-      "summary": "Learn what's new in Visual Studio Code 1.120 (Insiders) Read the full article",
+      "summary": "Learn what's new in Visual Studio Code 1.120 Read the full article",
       "blog": "Visual Studio Code",
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
@@ -14,20 +14,42 @@
       "sourceType": "rss"
     },
     {
-      "title": "Give Your AI Agent Eyes: Browser-Harness Meets Playwright Workspaces Remote Browsers",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/give-your-ai-agent-eyes-browser-harness-meets-playwright/ba-p/4518419",
-      "published": "2026-05-13T06:00:21+00:00",
-      "summary": "What happens when you hand a coding agent a real browser — not a mock, not an API wrapper, but a full Chromium instance running in the cloud? It shops for you. It scrapes for you. It navigates JavaScript-heavy SPAs that would make any REST-based scraper weep. And it does it across 10+ parallel...",
+      "title": "Introducing Azure Container Apps Express!",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-container-apps-express/ba-p/4519150",
+      "published": "2026-05-13T11:20:48+00:00",
+      "summary": "Three years ago, a 15-second cold start was industry-leading. Today, developers and AI agents expect sub-second. The speed bar has moved, and the tooling needs to move with it. After running Azure Container Apps for years, we've learned something important: for most developers, the ACA environment...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "NandiniMuralidharan",
+      "author": "simonjj",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
+      "title": "How to Test AI Agents with LangSmith: A Complete Guide",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/how-to-test-ai-agents-with-langsmith-a-complete-guide/ba-p/4515972",
+      "published": "2026-05-13T10:27:51+00:00",
+      "summary": "Testing AI agents is crucial for ensuring reliability and accuracy in production.Evaluation is a technique to evaluate your agents. Different type of evaluation are # Evaluation Type 1 Task Success (Pass / Fail) 2 Instruction Adherence 3 Correctness / Accuracy 4 Relevance 5 Groundedness...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "syedarshad",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "v1.15.3",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.3",
+      "published": "2026-05-13T09:58:43+00:00",
+      "summary": "1.15.3 (May 13, 2026) BUG FIXES: stacks: Fixed a bug that prevented migrating resources under multiple layers of module nesting with implicit provider configuration. (#38528) cloud backend will now forward -generate-config-out flag usage to query create request (#38539) Fix crash during provider...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
       "title": "Secure Medallion Architecture Pattern on Azure Databricks (Part II)",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/secure-medallion-architecture-pattern-on-azure-databricks-part/ba-p/4491044",
-      "published": "2026-05-13T04:51:34+00:00",
+      "published": "2026-05-13T06:46:25+00:00",
       "summary": "Disclaimer: The views in this article are my own and do not represent Microsoft or Databricks. This article is part of a series focused on deploying a secure Medallion Architecture. The series follows a top-down approach , beginning with a high-level architectural perspective and gradually drilling...",
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
@@ -38,12 +60,23 @@
     {
       "title": "Announcing the General Availability of the Next Generation of Azure Boost",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-the-general-availability-of-the-next-generation-of/ba-p/4519136",
-      "published": "2026-05-13T04:01:25+00:00",
+      "published": "2026-05-13T06:27:25+00:00",
       "summary": "Starting May 7th, 2026, the new Esv7, Dsv7, and Dlsv7 virtual machines are generally available — and underneath them is a fundamentally new generation of Azure Boost. Not an incremental refresh. A platform that took over five years to build, with custom ASIC-hardened logic, a new network adapter,...",
       "blog": "Azure Compute",
       "blogId": "azurecompute",
       "author": "Max_Uritsky",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Give Your AI Agent Eyes: Browser-Harness Meets Playwright Workspaces Remote Browsers",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/give-your-ai-agent-eyes-browser-harness-meets-playwright/ba-p/4518419",
+      "published": "2026-05-13T06:00:21+00:00",
+      "summary": "What happens when you hand a coding agent a real browser — not a mock, not an API wrapper, but a full Chromium instance running in the cloud? It shops for you. It scrapes for you. It navigates JavaScript-heavy SPAs that would make any REST-based scraper weep. And it does it across 10+ parallel...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "NandiniMuralidharan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -2984,17 +3017,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Stop Experimenting, Start Building: AI Apps & Agents Dev Days Has You Covered",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/stop-experimenting-start-building-ai-apps-agents-dev-days-has/ba-p/4513651",
-      "published": "2026-04-24T05:57:58+00:00",
-      "summary": "The AI landscape has shifted. The question is no longer “Can we build AI applications?” it’s “Can we build AI applications that actually work in production?” Demos are easy. Reliable, scalable, resilient AI systems that handle real-world complexity? That’s where most teams struggle. If you’re an AI...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Join our free livestream series on hosting agents in Microsoft Foundry",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/join-our-free-livestream-series-on-hosting-agents-in-microsoft/ba-p/4508479",
       "published": "2026-04-24T05:00:00+00:00",
@@ -3893,17 +3915,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "Dalibor_Kovacevic",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Event-Driven IaC Operations with Azure SRE Agent: Terraform Drift Detection via HTTP Triggers",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/event-driven-iac-operations-with-azure-sre-agent-terraform-drift/ba-p/4512233",
-      "published": "2026-04-17T02:13:18+00:00",
-      "summary": "What Happens After terraform plan Finds Drift? If your team is like most, the answer looks something like this: A nightly terraform plan runs and finds 3 drifted resources A notification lands in Slack or Teams Someone files a ticket During the next sprint, an engineer opens 4 browser tabs —...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Vineela-Suri",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -5963,17 +5974,6 @@
       "author": "Jason_Pereira",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "v1.14.8",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.14.8",
-      "published": "2026-03-25T07:56:42+00:00",
-      "summary": "1.14.8 (March 25, 2026) BUG FIXES: Prevent crash in the display of relevant attributes after provider upgrades (#38264)",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
     },
     {
       "title": "Your Entire Engineering Floor Just Stopped Coding",
@@ -9122,17 +9122,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "December 2025 (version 1.108)",
-      "link": "https://code.visualstudio.com/updates/v1_108",
-      "published": "2026-01-08T17:00:00+00:00",
-      "summary": "Learn what is new in the Visual Studio Code December 2025 Release (1.108). Read the full article",
-      "blog": "Visual Studio Code",
-      "blogId": "vscode",
-      "author": "Visual Studio Code Team",
-      "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Global expansion—now available in West Europe (Netherlands)",
       "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/global-expansion-now-available-in-west-europe-netherlands/ba-p/4479671",
       "published": "2026-01-08T00:06:13+00:00",
@@ -9571,17 +9560,6 @@
       "author": "DianaGrigore",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "November 2025 (version 1.107)",
-      "link": "https://code.visualstudio.com/updates/v1_107",
-      "published": "2025-12-10T17:00:00+00:00",
-      "summary": "What's new in the Visual Studio Code November 2025 Release (1.107). Read the full article",
-      "blog": "Visual Studio Code",
-      "blogId": "vscode",
-      "author": "Visual Studio Code Team",
-      "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "sourceType": "rss"
     },
     {
       "title": "Demystifying AI Security Posture Management",
@@ -10541,17 +10519,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "October 2025 (version 1.106)",
-      "link": "https://code.visualstudio.com/updates/v1_106",
-      "published": "2025-11-12T17:00:00+00:00",
-      "summary": "Learn what is new in the Visual Studio Code October 2025 Release (1.106). Read the full article",
-      "blog": "Visual Studio Code",
-      "blogId": "vscode",
-      "author": "Visual Studio Code Team",
-      "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "🔥Teaching Agentic Strands Agents to assume Cross-Account IAM Roles and Read AWS Resources🔥",
       "link": "https://www.letsdodevops.com/p/teaching-agentic-strands-agents-to",
       "published": "2025-11-12T16:12:26+00:00",
@@ -10959,17 +10926,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "September 2025 (version 1.105)",
-      "link": "https://code.visualstudio.com/updates/v1_105",
-      "published": "2025-10-09T17:00:00+00:00",
-      "summary": "Learn what is new in the Visual Studio Code September 2025 Release (1.105). Read the full article",
-      "blog": "Visual Studio Code",
-      "blogId": "vscode",
-      "author": "Visual Studio Code Team",
-      "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "AMBA-ALZ pattern: Learn about the latest and greatest enhancements!",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/amba-alz-pattern-learn-about-the-latest-and-greatest/ba-p/4458320",
       "published": "2025-10-08T13:49:40+00:00",
@@ -11186,17 +11142,6 @@
       "blog": "Visual Studio Code",
       "blogId": "vscode",
       "author": "Isidor Nikolic",
-      "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "August 2025 (version 1.104)",
-      "link": "https://code.visualstudio.com/updates/v1_104",
-      "published": "2025-09-11T17:00:00+00:00",
-      "summary": "Learn what is new in the Visual Studio Code August 2025 Release (1.104) Read the full article",
-      "blog": "Visual Studio Code",
-      "blogId": "vscode",
-      "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     },
@@ -11553,17 +11498,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "July 2025 (version 1.103)",
-      "link": "https://code.visualstudio.com/updates/v1_103",
-      "published": "2025-08-07T17:00:00+00:00",
-      "summary": "Learn what is new in the Visual Studio Code July 2025 Release (1.103) Read the full article",
-      "blog": "Visual Studio Code",
-      "blogId": "vscode",
-      "author": "Visual Studio Code Team",
-      "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Create your own Bicep Local Extension using .NET",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/create-your-own-bicep-local-extension-using-net/ba-p/4439967",
       "published": "2025-08-07T14:50:37+00:00",
@@ -11793,17 +11727,6 @@
       "author": "jaredfholgate",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "June 2025 (version 1.102)",
-      "link": "https://code.visualstudio.com/updates/v1_102",
-      "published": "2025-07-09T17:00:00+00:00",
-      "summary": "Learn what is new in the Visual Studio Code June 2025 Release (1.102) Read the full article",
-      "blog": "Visual Studio Code",
-      "blogId": "vscode",
-      "author": "Visual Studio Code Team",
-      "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "sourceType": "rss"
     },
     {
       "title": "🔥Building a Teams Bot with AI Capabilities - Part 4 - Receiver Lambda for OAuth2 Tokens and State🔥",
@@ -12100,17 +12023,6 @@
       "blogId": "letsdodevops",
       "author": "Kyler Middleton",
       "feedUrl": "https://www.letsdodevops.com/feed",
-      "sourceType": "rss"
-    },
-    {
-      "title": "May 2025 (version 1.101)",
-      "link": "https://code.visualstudio.com/updates/v1_101",
-      "published": "2025-06-12T17:00:00+00:00",
-      "summary": "Learn what is new in the Visual Studio Code May 2025 Release (1.101) Read the full article",
-      "blog": "Visual Studio Code",
-      "blogId": "vscode",
-      "author": "Visual Studio Code Team",
-      "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -12554,5 +12466,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure updates centered on developer tooling, AI/browser automation, infrastructure acceleration, and cloud-native governance. Microsoft highlighted **Visual Studio Code 1.120**, introduced **Browser-Harness with Playwright Workspaces Remote Browsers** to give AI agents browser-based interaction capabilities, detailed a **secure Medallion architecture on Azure Databricks** for governed analytics pipelines, announced the **general availability of the next generation of Azure Boost** to improve Azure VM/network/storage performance, and launched **cert-manager for Azure Arc-enabled Kubernetes** in **public preview** to simplify certificate lifecycle management across hybrid and multicloud clusters."
+  "summary": "Today’s Azure posts centered on developer productivity, cloud-native operations, and AI agent tooling: Microsoft shipped **Visual Studio Code 1.120**, introduced **Azure Container Apps Express** for simpler app deployment, and highlighted AI agent testing and browser automation with **LangSmith**, **Browser-Harness**, and **Playwright Workspaces Remote Browsers**. On the infrastructure side, Azure announced **general availability of the next generation of Azure Boost** for compute performance, **public preview of cert-manager for Azure Arc-enabled Kubernetes** for certificate lifecycle management, guidance on a **secure Medallion architecture pattern in Azure Databricks**, and a **Terraform v1.15.3** release."
 }
