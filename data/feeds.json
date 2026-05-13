@@ -1,7 +1,62 @@
 {
-  "lastUpdated": "2026-05-13T19:27:58.265069+00:00",
+  "lastUpdated": "2026-05-13T22:03:44.239742+00:00",
   "totalArticles": 1132,
   "articles": [
+    {
+      "title": "Microsoft SQL Security Across the MAESTRO Stack: Building Secure Agentic AI with Defense-in-Depth",
+      "link": "https://devblogs.microsoft.com/azure-sql/microsoft-sql-security-across-the-maestro-stack-building-secure-agentic-ai-with-defense-in-depth/",
+      "published": "2026-05-13T21:44:08+00:00",
+      "summary": "Artificial Intelligence is evolving rapidly. What began as simple prompt-and-response systems is now transforming into fully autonomous, agentic AI architectures capable of reasoning, orchestrating tools, interacting with enterprise data, and invoking external systems dynamically. While these...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Arun Vijayraghavan",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Process API Improvements in .NET 11",
+      "link": "https://devblogs.microsoft.com/dotnet/process-api-improvements-in-dotnet-11/",
+      "published": "2026-05-13T21:00:00+00:00",
+      "summary": "Process API improvements in .NET 11, including high-level APIs for starting processes, capturing output without deadlocks, handle inheritance control, lifetime management features, and a lightweight `SafeProcessHandle`-based API surface. The post Process API Improvements in .NET 11 appeared first...",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Adam Sitnik",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing the General Availability of the Next Generation of Azure Boost",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-the-general-availability-of-the-next-generation-of/ba-p/4519136",
+      "published": "2026-05-13T20:42:57+00:00",
+      "summary": "Starting May 7th, 2026, the new Esv7, Dsv7, and Dlsv7 virtual machines are generally available — and underneath them is a fundamentally new generation of Azure Boost. Not an incremental refresh. A platform that took over five years to build, with custom ASIC-hardened logic, a new network adapter,...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "Max_Uritsky",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "From Pipelines to Agents: Self-Healing CI/CD Workflow",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-pipelines-to-agents-self-healing-ci-cd-workflow/ba-p/4519494",
+      "published": "2026-05-13T20:21:28+00:00",
+      "summary": "The Brain of the Operation: Azure OpenAI. When building a DevOps agent, following are the points which can be considered to select Azure OpenAI as the ideal choice for logical engine: Native Tool Use: It is specifically optimized for function calling, allowing the agent to interact with Azure...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "RavinderGupta",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "New enterprise installation API now in public preview",
+      "link": "https://github.blog/changelog/2026-05-13-new-enterprise-installation-api-now-in-public-preview",
+      "published": "2026-05-13T19:27:52+00:00",
+      "summary": "We’re filling an API gap for GitHub App developers based on community feedback. Enterprise Installation API We’ve added a new API that lets a GitHub App find out if it’s… The post New enterprise installation API now in public preview appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "You Asked—We Answered: Inside the Agent 365 AMA",
       "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/you-asked-we-answered-inside-the-agent-365-ama/ba-p/4519485",
@@ -210,17 +265,6 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "Announcing the General Availability of the Next Generation of Azure Boost",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-the-general-availability-of-the-next-generation-of/ba-p/4519136",
-      "published": "2026-05-13T06:27:25+00:00",
-      "summary": "Starting May 7th, 2026, the new Esv7, Dsv7, and Dlsv7 virtual machines are generally available — and underneath them is a fundamentally new generation of Azure Boost. Not an incremental refresh. A platform that took over five years to build, with custom ASIC-hardened logic, a new network adapter,...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "Max_Uritsky",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Give Your AI Agent Eyes: Browser-Harness Meets Playwright Workspaces Remote Browsers",
@@ -821,17 +865,6 @@
       "link": "https://github.blog/changelog/2026-05-08-upcoming-deprecation-of-grok-code-fast-1",
       "published": "2026-05-08T20:21:00+00:00",
       "summary": "We will deprecate Grok Code Fast 1 across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on May 15th: Model Deprecation date… The post Upcoming deprecation of Grok Code Fast 1 appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Copilot code review comment types now in usage metrics API",
-      "link": "https://github.blog/changelog/2026-05-08-copilot-code-review-comment-types-now-in-usage-metrics-api",
-      "published": "2026-05-08T18:57:13+00:00",
-      "summary": "To help you understand the activity generated by Copilot code review users, the Copilot usage metrics API now breaks down Copilot code review suggestions by comment type. A new copilot_suggestions_by_comment_type… The post Copilot code review comment types now in usage metrics API appeared first on...",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -2324,17 +2357,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Operating AI Agents on Azure: Observability with Azure AI Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/operating-ai-agents-on-azure-observability-with-azure-ai-foundry/ba-p/4515975",
-      "published": "2026-04-29T19:15:11+00:00",
-      "summary": "Azure AI Foundry is Microsoft’s enterprise platform for building, deploying, and operating AI applications and intelligent agents as first‑class Azure workloads. From an infrastructure perspective, Foundry acts as a control plane that brings together model hosting, agent execution, tooling,...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "skundapura",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Kubernetes v1.36: Tiered Memory Protection with Memory QoS",
       "link": "https://kubernetes.io/blog/2026/04/29/kubernetes-v1-36-memory-qos-tiered-protection/",
       "published": "2026-04-29T18:35:00+00:00",
@@ -2685,17 +2707,6 @@
       "author": "syarlagadda",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Welcome to SkiaSharp 4.0 Preview 1",
-      "link": "https://devblogs.microsoft.com/dotnet/welcome-to-skia-sharp-40-preview1/",
-      "published": "2026-04-28T17:06:00+00:00",
-      "summary": "SkiaSharp 4.0 Preview 1 is here. Learn all about the new features and how Uno Platform has stepped up as a co-maintainer. The post Welcome to SkiaSharp 4.0 Preview 1 appeared first on .NET Blog.",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": "David Ortinau",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "OrganAIze - What Happens When You Let AI Agents Organize Themselves?",
@@ -5360,7 +5371,7 @@
       "sourceType": "rss"
     },
     {
-      "title": "[In development] Public Preview: Azure NetApp Files storage with cool access enhancement",
+      "title": "[In preview] Public Preview: Azure NetApp Files storage with cool access enhancement",
       "link": "https://azure.microsoft.com/updates?id=559504",
       "published": "2026-04-01T18:15:44+00:00",
       "summary": "QoS update with cool access enabled on Premium and Ultra service levels improves how Azure NetApp Files balances performance and cost for mixed hot and cool workloads. Throughput automatically adjusts as data moves to cool storage, maintaining hot‑tier pe",
@@ -6777,17 +6788,6 @@
       "author": "Ashwin_Patil",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "MSSQL Extension for VS Code: SQL Notebooks, AI-Powered Schema Design, Data API builder & More",
-      "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-march-2026/",
-      "published": "2026-03-18T15:55:12+00:00",
-      "summary": "The MSSQL extension for VS Code v1.41 continues to evolve, delivering features that make SQL development more integrated, more powerful, and more developer-friendly. In this release, we’re introducing the Public Preview of Schema Designer with GitHub Copilot, Data API builder, and SQL Notebooks,...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Yo-Lei Chen, Tauseef Siddique, Carlos Robles",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Announcing Gateway API support for App Routing (preview)",
@@ -12455,5 +12455,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft cloud news centered on the rapid build-out of the agentic AI stack and the infrastructure to run it: Microsoft highlighted Agent 365 Q&A insights, new Microsoft 365 Copilot features and Workday integration, Copilot cloud agent task automation via REST API, Grok 4.3 in Azure AI Foundry, and team-specific “Agent Skills” in Visual Studio. On the platform side, Azure emphasized scalable AI and app runtime foundations with NVIDIA Dynamo on AKS for autoscaling LLM inference, the new Azure Container Apps Express public preview, Kubernetes v1.36’s workload-aware scheduling, and security/performance updates including GA for Azure Integrated HSM and the next generation of Azure Boost.\n\nDeveloper tooling was another major theme, with .NET MAUI moving to CoreCLR in .NET 11, Visual Studio Code 1.120 shipping, GitHub Enterprise Server 3.21 RC arriving, and Terraform publishing both v1.15.3 and a v1.16 alpha. Azure’s data and governance story also appeared in the Secure Medallion Architecture Pattern on Azure Databricks, while community posts covered testing AI agents with LangSmith."
+  "summary": "Today’s Azure and Microsoft developer blogs were dominated by **agentic AI, platform automation, and infrastructure hardening**. Key announcements included **Azure Boost next-gen reaching GA**, **Azure Integrated Hardware Security Module reaching GA**, **Azure Container Apps Express entering public preview**, and new AI platform updates such as **NVIDIA Dynamo on AKS for autoscaling LLM inference** and **Grok 4.3 on Microsoft Foundry**; Microsoft also highlighted secure AI architecture with **SQL security across the MAESTRO stack**, a **self-healing CI/CD agent workflow**, and **Databricks medallion security patterns**.\n\nOn the developer tooling side, Microsoft showcased **.NET 11** improvements in both **Process API** and **.NET MAUI’s move to CoreCLR**, alongside **Visual Studio Code 1.120** and new **Visual Studio agent skills for Copilot**. GitHub’s updates focused on automation and enterprise management, including a **public preview enterprise installation API**, **REST API support for Copilot cloud agent tasks**, and the **GitHub Enterprise Server 3.21 release candidate**, while broader ecosystem posts covered **Kubernetes v1.36 workload-aware scheduling** and new **Microsoft 365 Copilot** features."
 }
