@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T11:23:21.724012+00:00",
+  "lastUpdated": "2026-05-13T13:58:47.111860+00:00",
   "totalArticles": 1133,
   "articles": [
     {
@@ -11,6 +11,28 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "How Workday and Microsoft are redefining the agentic workplace",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/how-workday-and-microsoft-are-redefining-the-agentic-workplace/ba-p/4518532",
+      "published": "2026-05-13T13:00:00+00:00",
+      "summary": "The modern employee is currently paying a \"fragmentation tax.\" Across a typical workday, the average professional navigates over 200 disparate apps and systems. Every time they switch from a collaborative space like Microsoft Teams to a domain-specific tool to check a PTO balance or a tax form,...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "Srini_Raghavan_Msft",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "v1.16.0-alpha20260513",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260513",
+      "published": "2026-05-13T12:10:09+00:00",
+      "summary": "1.16.0-alpha20260513 (May 13, 2026) NEW FEATURES: Store PlannedPrivate data for providers (#37986) New store block in terraform_data that can handle ephemeral and sensitive values (#38298) Providers can now use nested blocks as computed values (#38305) We now produce builds for Linux s390x (zLinux)...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -5349,17 +5371,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "v1.15.0-beta2",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-beta2",
-      "published": "2026-04-01T13:26:31+00:00",
-      "summary": "1.15.0-beta2 (April 01, 2026) NEW FEATURES: We now produce builds for Windows ARM64 (#32719) You can set a deprecated attribute on variable and output blocks to indicate that they are deprecated. This will produce warnings when passing in a value for a deprecated variable or when referencing a...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "How to revoke connection OAuth programmatically in Logic Apps",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/how-to-revoke-connection-oauth-programmatically-in-logic-apps/ba-p/4506825",
       "published": "2026-04-01T11:02:44+00:00",
@@ -6953,17 +6964,6 @@
       "author": "Kyler Middleton",
       "feedUrl": "https://www.letsdodevops.com/feed",
       "sourceType": "rss"
-    },
-    {
-      "title": "Meet the updated Copilot Notebooks experience: Your home for understanding work, projects, and more",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/meet-the-updated-copilot-notebooks-experience-your-home-for/ba-p/4501383",
-      "published": "2026-03-13T20:14:41+00:00",
-      "summary": "Work today isn’t short-lived or linear. Projects span months, inputs come from everywhere across files, meetings, and conversations, and real progress depends on how well teams understand evolving information while turning all of it into clear decisions, updates, and deliverables. That’s why we’re...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "ezrapark",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Azure Developer CLI (azd): Debug hosted AI agents from your terminal",
@@ -12466,5 +12466,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on developer productivity, cloud-native operations, and AI agent tooling: Microsoft shipped **Visual Studio Code 1.120**, introduced **Azure Container Apps Express** for simpler app deployment, and highlighted AI agent testing and browser automation with **LangSmith**, **Browser-Harness**, and **Playwright Workspaces Remote Browsers**. On the infrastructure side, Azure announced **general availability of the next generation of Azure Boost** for compute performance, **public preview of cert-manager for Azure Arc-enabled Kubernetes** for certificate lifecycle management, guidance on a **secure Medallion architecture pattern in Azure Databricks**, and a **Terraform v1.15.3** release."
+  "summary": "Today’s Azure-related posts centered on AI agents, cloud-native app platforms, and infrastructure modernization. Key announcements included **Azure Container Apps Express** for simplified container app deployment, **public preview of cert-manager for Azure Arc-enabled Kubernetes** to automate TLS certificate management on hybrid Kubernetes, and **general availability of the next generation of Azure Boost**, improving Azure VM networking and storage offload performance.\n\nA second major theme was enterprise AI adoption: Microsoft highlighted the **agentic workplace** with **Workday + Microsoft 365 Copilot**, shared guidance for **testing AI agents with LangSmith**, and showcased browser-capable agents using **Browser-Harness with Playwright Workspaces Remote Browsers**. Additional posts covered secure data platform design with a **Medallion Architecture on Azure Databricks**, while release notes for **Visual Studio Code 1.120** and **Terraform v1.15.3 / v1.16.0-alpha20260513** reflected ongoing developer tooling updates."
 }
