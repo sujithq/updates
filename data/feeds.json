@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T22:00:42.575476+00:00",
+  "lastUpdated": "2026-05-13T01:49:32.233454+00:00",
   "totalArticles": 1141,
   "articles": [
     {
@@ -11,6 +11,61 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Monitor dashboards with Grafana in Public, Government (Fairfax) and China",
+      "link": "https://azure.microsoft.com/updates?id=561564",
+      "published": "2026-05-12T23:45:17+00:00",
+      "summary": "Azure Monitor dashboards with Grafana are generally available, bringing the power of Grafana’s open and composable visualization platform directly into the Azure Portal. This capability enables developers and operators to create, edit, and share Grafana d",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Accelerating detection engineering using AI-assisted synthetic attack logs generation",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/accelerating-detection-engineering-using-ai-assisted-synthetic-attack-logs-generation/",
+      "published": "2026-05-12T22:53:09+00:00",
+      "summary": "What if you could generate realistic attack telemetry on demand? Explore research methods that translate attacker behaviors (TTPs) into synthetic logs that can trigger detections at scale and without sensitive data. The post Accelerating detection engineering using AI-assisted synthetic attack logs...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Defender Security Research Team",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": ".NET 11 Preview 4 is now available!",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-11-preview-4/",
+      "published": "2026-05-12T22:25:49+00:00",
+      "summary": "Find out about the new features in .NET 11 Preview 4 across the .NET runtime, SDK, libraries, ASP.NET Core, .NET MAUI, C#, Entity Framework Core, and more! The post .NET 11 Preview 4 is now available! appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": ".NET Team",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Private Networking and Inference in Microsoft Foundry: Architecture Impact on Enterprise AI",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/private-networking-and-inference-in-microsoft-foundry/ba-p/4513822",
+      "published": "2026-05-12T22:11:44+00:00",
+      "summary": "Enterprise adoption of generative AI rarely fails because of model quality alone. More often, it fails at the intersection of network isolation, dependency reachability, and operational reality – especially in inference-driven applications such as retrieval-augmented generation (RAG) and enterprise...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "marcopunio",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/",
+      "published": "2026-05-12T22:00:00+00:00",
+      "summary": "Today Microsoft is announcing a major step forward in AI-powered cyber defense: a new multi-model agentic scanning harness (codenamed MDASH). The post Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Taesoo Kim",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1730,17 +1785,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "CVE-2026-31431: Copy Fail vulnerability enables Linux root privilege escalation across cloud environments",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/cve-2026-31431-copy-fail-vulnerability-enables-linux-root-privilege-escalation/",
-      "published": "2026-05-02T03:06:08+00:00",
-      "summary": "A high-severity Linux vulnerability, “Copy Fail” (CVE-2026-31431), enables root privilege escalation across cloud environments and Kubernetes workloads. With a working exploit already in the wild, organizations should act quickly to detect, mitigate, and reduce risk. The post CVE-2026-31431: Copy...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Defender Security Research Team",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[Launched] Update: Egress and data transfer with Azure in the United Kingdom",
       "link": "https://azure.microsoft.com/updates?id=561392",
       "published": "2026-05-01T21:45:13+00:00",
@@ -1838,17 +1882,6 @@
       "author": "ashish-chhabria",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Microsoft Agent 365, now generally available, expands capabilities and integrations",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
-      "published": "2026-05-01T15:00:00+00:00",
-      "summary": "​Today we’re announcing the general availability of Agent 365, plus previews of new capabilities to discover and manage shadow AI agents, including local agents like OpenClaw and Claude Code. The post Microsoft Agent 365, now generally available, expands capabilities and integrations appeared first...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Nirav Shah, Rob Lefferts and Jason Roszak",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "AI‑Accelerated AVM Refactoring: Modernizing Legacy IaC Safely and Swiftly",
@@ -2518,17 +2551,6 @@
       "blog": ".NET",
       "blogId": "dotnet",
       "author": "Jared Meade",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Combining API versioning with OpenAPI in .NET 10 applications",
-      "link": "https://devblogs.microsoft.com/dotnet/api-versioning-in-dotnet-10-applications/",
-      "published": "2026-04-28T17:00:00+00:00",
-      "summary": "Learn how to implement API versioning in your .NET 10 applications using OpenAPI for better API management and documentation. The post Combining API versioning with OpenAPI in .NET 10 applications appeared first on .NET Blog.",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": "Sander ten Brinke",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
     },
@@ -3972,17 +3994,6 @@
       "author": "James Newton-King",
       "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Claude Opus 4.7 is available on Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-opus-4-7-is-available-on-microsoft-foundry/ba-p/4511759",
-      "published": "2026-04-16T16:20:43+00:00",
-      "summary": "Anthropic continues to push the frontier of AI for real-world, production work with its new model Claude Opus 4.7. Opus 4.7 is Anthropic’s most advanced generally available model. Teams building on Azure can access Claude Opus 4.7 through Microsoft Foundry , today. This model is designed for the...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amar_badal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "App attach in Azure Virtual Desktop now supports Windows Server 2025 and Windows Server 2022",
@@ -8803,17 +8814,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Azure Databricks Agent Bricks Knowledge Assistant",
-      "link": "https://azure.microsoft.com/updates?id=542455",
-      "published": "2026-01-28T18:45:08+00:00",
-      "summary": "Azure Databricks Agent Bricks knowledge assistant empowers you to create, deploy, and manage AI agents directly within the Azure Databricks platform, using unified data and AI capabilities. This feature simplifies agent development by providing prebuilt c",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Experimenting with Gateway API using kind",
       "link": "https://kubernetes.io/blog/2026/01/28/experimenting-gateway-api-with-kind/",
       "published": "2026-01-28T00:00:00+00:00",
@@ -12554,5 +12554,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft cloud news centered on AI moving closer to production: Azure AI Foundry highlighted realtime reasoning, translation, and live transcription, Foundry Local 1.1 added on-device/live transcription, embeddings, and a Responses API, and Azure Copilot now lets teams open Terraform directly in VS Code to speed infrastructure workflows. GitHub also pushed developer productivity updates with Copilot code review comment improvements, new Copilot pricing/flex allotments, and CodeQL 2.25.4 support for Swift 6.3.1 plus C# and Java enhancements.\n\nOn the platform side, Azure announced stronger enterprise-grade reliability and security with 99.99% uptime for Azure Service Bus Premium in Availability Zone regions, GA for confidential computing on Service Bus Premium, and GA of Azure Virtual Network Manager’s rule impact analyzer, while Event Grid MQTT Broker was positioned as a simpler way to build IoT messaging. Security remained a major theme as Microsoft detailed DDoS defense guidance, Sentinel TI parsing and revoke reliability improvements, and an investigation into a stealthy third-party compromise, alongside routine servicing and billing updates across .NET and GitHub."
+  "summary": "Today’s Azure-related blog coverage is essentially a single developer tooling update: **Visual Studio Code 1.120**. The key theme is Microsoft’s continued investment in the **VS Code** development experience, likely including updates across editor productivity, extensibility, and platform support, though no broader Azure service announcements are reflected in the provided list."
 }
