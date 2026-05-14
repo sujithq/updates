@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-14T13:23:26.344412+00:00",
-  "totalArticles": 1133,
+  "lastUpdated": "2026-05-14T16:56:07.023611+00:00",
+  "totalArticles": 1132,
   "articles": [
     {
       "title": "Visual Studio Code 1.121",
@@ -11,6 +11,105 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "GitHub Copilot app is now available in technical preview",
+      "link": "https://github.blog/changelog/2026-05-14-github-copilot-app-is-now-available-in-technical-preview",
+      "published": "2026-05-14T16:10:33+00:00",
+      "summary": "The GitHub Copilot app is now in technical preview. It’s a GitHub-native desktop experience to start agentic development from the work in front of you, keep it isolated, steer it… The post GitHub Copilot app is now available in technical preview appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Open Model Inference at Scale on Foundry: What’s New with Fireworks AI",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/open-model-inference-at-scale-on-foundry-what-s-new-with/ba-p/4519534",
+      "published": "2026-05-14T16:09:11+00:00",
+      "summary": "We launched the public preview of Fireworks AI on Microsoft Foundry two months ago, bringing best-in-class open model inference directly into Azure. The traction has been real and high. Fireworks AI's inference layer is purpose-built for low-latency, high-throughput production workloads, natively...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "AliciaFrame",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "From latency to instant: Modernizing GitHub Issues navigation performance",
+      "link": "https://github.blog/engineering/architecture-optimization/from-latency-to-instant-modernizing-github-issues-navigation-performance/",
+      "published": "2026-05-14T16:00:00+00:00",
+      "summary": "How the GitHub Issues team used client-side caching, smart prefetching, and service workers to make navigation feel instant. The post From latency to instant: Modernizing GitHub Issues navigation performance appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Natalie Guevara",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "From beta to stable: Announcing the Azure SDK for Rust 🎉🦀",
+      "link": "https://devblogs.microsoft.com/azure-sdk/from-beta-to-stable-announcing-the-azure-sdk-for-rust-ga/",
+      "published": "2026-05-14T15:46:19+00:00",
+      "summary": "Announcing the stable release of the Azure SDK for Rust. This release includes stable libraries for Core, Identity, Key Vault (Secrets, Keys, Certificates), and Storage (Blobs, Queues). The post From beta to stable: Announcing the Azure SDK for Rust 🎉🦀 appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Ronnie Geraghty",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Decoupling Memory from Startup Time in AKS Sandbox Pods",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/decoupling-memory-from-startup-time-in-aks-sandbox-pods/ba-p/4516307",
+      "published": "2026-05-14T15:29:00+00:00",
+      "summary": "What if a 96GB sandboxed pod could start as fast as a 2GB one? Before recent improvements in AKS Pod Sandboxing, large-memory pods could take over a minute longer to start than smaller ones. For customers running latency-sensitive, autoscaling, AI/ML, or bursty workloads, that startup delay...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "RoaaSakr",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "VSLive! Microsoft AI Hackathon 2026: Send Your Team Home With Working Code",
+      "link": "https://devblogs.microsoft.com/visualstudio/vslive-microsoft-ai-hackathon-2026-send-your-team-home-with-working-code/",
+      "published": "2026-05-14T15:05:55+00:00",
+      "summary": "If you lead a development team, you already know the pattern. You approve the travel, your developers attend a great conference, they come back energized, and then the work resumes exactly as it was. The ideas don’t survive contact with the backlog. This July at VSLive! @ Microsoft HQ in Redmond,...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Jim Harrer",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Kazuar: Anatomy of a nation-state botnet",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/kazuar-anatomy-of-a-nation-state-botnet/",
+      "published": "2026-05-14T15:00:00+00:00",
+      "summary": "Kazuar, a sophisticated malware family attributed to the Russian state actor Secret Blizzard, has been under constant development for years and continues to evolve in support of espionage-focused operations. Over time, Kazuar has expanded from a relatively traditional backdoor into a highly modular...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Threat Intelligence",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "When configuration becomes a vulnerability: Exploitable misconfigurations in AI apps",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/configuration-becomes-vulnerability-exploitable-misconfigurations-ai-apps/",
+      "published": "2026-05-14T14:20:55+00:00",
+      "summary": "Exposed UIs, weak authentication, and risky defaults could turn cloud-native AI apps on Kubernetes into potential targets by threat actors. Learn how exploitable misconfigurations lead to RCE and data leaks. The post When configuration becomes a vulnerability: Exploitable misconfigurations in AI...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Defender Security Research Team and Yossi Weizman",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Copilot cloud agent supports auto model selection",
+      "link": "https://github.blog/changelog/2026-05-14-copilot-cloud-agent-supports-auto-model-selection",
+      "published": "2026-05-14T12:59:59+00:00",
+      "summary": "Copilot cloud agent now supports Copilot auto model selection. When you select Auto in the model picker, Copilot intelligently selects the best available model based on system health and model… The post Copilot cloud agent supports auto model selection appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -78,6 +177,17 @@
       "author": "mscagliola",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Introducing Copilot CLI agent and unified sessions view in GitHub Copilot for JetBrains IDEs",
+      "link": "https://github.blog/changelog/2026-05-13-introducing-copilot-cli-agent-and-unified-sessions-view-in-github-copilot-for-jetbrains-ides",
+      "published": "2026-05-14T02:38:40+00:00",
+      "summary": "This update brings the Copilot CLI agent into JetBrains IDEs, along with a unified sessions view that shows live status for running and queued sessions. It also adds the ask… The post Introducing Copilot CLI agent and unified sessions view in GitHub Copilot for JetBrains IDEs appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Give Your AI Agent Eyes: Browser-Harness Meets Playwright Workspaces Remote Browsers",
@@ -817,17 +927,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Cross-org Dependabot access for internal repositories",
-      "link": "https://github.blog/changelog/2026-05-11-cross-org-dependabot-access-for-internal-repositories",
-      "published": "2026-05-11T13:52:50+00:00",
-      "summary": "Dependabot can now access internal repositories hosted in other organizations within your enterprise. Consider the situation where you have a dependency hosted in an internal GitHub repository. This repository is… The post Cross-org Dependabot access for internal repositories appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Scaling GitHub Advanced Security in Azure DevOps with a single reusable YAML template",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/scaling-github-advanced-security-in-azure-devops-with-a-single/ba-p/4518410",
       "published": "2026-05-11T10:47:04+00:00",
@@ -837,17 +936,6 @@
       "author": "Paulams732",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Create repositories on the go with GitHub Mobile",
-      "link": "https://github.blog/changelog/2026-05-11-create-repositories-on-the-go-with-github-mobile",
-      "published": "2026-05-11T09:26:45+00:00",
-      "summary": "You can now create new repositories directly from the GitHub Mobile app. On iOS, start from either Home or your Profile, tap the + button, and choose Create repository. On… The post Create repositories on the go with GitHub Mobile appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "From Test Cases to Trusted Automation: Scaling Enterprise Quality with GitHub Copilot",
@@ -935,17 +1023,6 @@
       "blogId": "azuresqlblog",
       "author": "Aaron Saidi",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Upcoming deprecation of Grok Code Fast 1",
-      "link": "https://github.blog/changelog/2026-05-08-upcoming-deprecation-of-grok-code-fast-1",
-      "published": "2026-05-08T20:21:00+00:00",
-      "summary": "We will deprecate Grok Code Fast 1 across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on May 15th: Model Deprecation date… The post Upcoming deprecation of Grok Code Fast 1 appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1532,17 +1609,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "ClickFix campaign uses fake macOS utilities lures to deliver infostealers",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/06/clickfix-campaign-uses-fake-macos-utilities-lures-deliver-infostealers/",
-      "published": "2026-05-06T15:20:32+00:00",
-      "summary": "Threat actors are targeting macOS users with fake utility fixes that trick them into running malicious Terminal commands. This campaign evades traditional defenses by stealing credentials, wallets, and sensitive data. The post ClickFix campaign uses fake macOS utilities lures to deliver...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Defender Security Research Team and Microsoft Defender Experts",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "v1.15.2",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.2",
       "published": "2026-05-06T13:56:22+00:00",
@@ -1716,17 +1782,6 @@
       "blogId": "letsdodevops",
       "author": "Alex Moore",
       "feedUrl": "https://www.letsdodevops.com/feed",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Welcome to Maintainer Month: Celebrating the people behind the code",
-      "link": "https://github.blog/open-source/maintainers/welcome-to-maintainer-month-celebrating-the-people-behind-the-code/",
-      "published": "2026-05-05T14:30:00+00:00",
-      "summary": "What maintainers are telling us, what we've shipped, and how to celebrate the people behind open source. The post Welcome to Maintainer Month: Celebrating the people behind the code appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Abigail Cabunoc Mayes",
-      "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1948,17 +2003,6 @@
       "author": "Vybava_Ramadoss",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Breaking the code: Multi-stage ‘code of conduct’ phishing campaign leads to AiTM token compromise",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/04/breaking-the-code-multi-stage-code-of-conduct-phishing-campaign-leads-to-aitm-token-compromise/",
-      "published": "2026-05-04T15:00:00+00:00",
-      "summary": "Microsoft Defender Research observed a large-scale credential theft campaign that exemplifies this trend, using code of conduct-themed lures, a multi-step attack chain, and legitimate email services to distribute fully authenticated messages from attacker-controlled domains. The post Breaking the...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Defender Security Research Team and Microsoft Threat Intelligence",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Running GitHub Actions Runners on Azure Container Apps with KEDA Autoscaling",
@@ -3631,17 +3675,6 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "Extracting BOMs from Electrical Drawings with AI: Azure OpenAI GPT-5.4 + Azure Document Intelligence",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/extracting-boms-from-electrical-drawings-with-ai-azure-openai/ba-p/4506891",
-      "published": "2026-04-22T13:00:00+00:00",
-      "summary": "The Problem Electrical engineering drawings — especially single-line diagrams (SLDs) — are notoriously hard to parse programmatically. They combine dense symbols, small text, and complex geometric structures, all varying in style across documents and vendors. Figure 1. A typical electrical...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "jihyeseo",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "NFS Permission Denied in Azure App Service on Linux: What It Means and What to Do",
@@ -5698,17 +5731,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Visual Studio March Update – Build Your Own Custom Agents",
-      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-march-update-build-your-own-custom-agents/",
-      "published": "2026-03-31T16:00:18+00:00",
-      "summary": "This month’s Visual Studio update gives you new ways to customize GitHub Copilot. Custom agents allow you to build specialized Copilot agents tailored to your team’s workflow, backed by the tools and knowledge sources that matter to your project. Alongside that, agent skills bring reusable...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Mark Downie",
-      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
     },
     {
@@ -8330,17 +8352,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Deploy to Azure App Service deployment slots with azd",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azd-app-service-slot/",
-      "published": "2026-02-11T14:59:15+00:00",
-      "summary": "azd now supports direct deployments to Azure App Service slots—quick, clear, and slot-aware for the first time. The post Deploy to Azure App Service deployment slots with azd appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "PuiChee (PC) Chan",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Accelerating SCOM to Azure Monitor Migrations with Automated Analysis and ARM Template Generation",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/accelerating-scom-to-azure-monitor-migrations-with-automated/ba-p/4493593",
       "published": "2026-02-11T08:59:53+00:00",
@@ -10783,17 +10794,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Dalec: Declarative Package and Container Builds",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/dalec-declarative-package-and-container-builds/ba-p/4465290",
-      "published": "2025-10-29T21:34:49+00:00",
-      "summary": "Dalec, a Cloud Native Computing Foundation (CNCF) Sandbox project, is a Docker BuildKit frontend that enables users to build system packages and container images from declarative YAML specifications. As a BuildKit frontend, Dalec integrates directly into the Docker build process, requiring no...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "SertacOzercan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "General Availability of CAPTCHA in Azure Front Door WAF",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/general-availability-of-captcha-in-azure-front-door-waf/ba-p/4464704",
       "published": "2025-10-29T18:00:25+00:00",
@@ -12453,18 +12453,7 @@
       "author": "Harald Kirschner",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Accelerate AI on Oracle Databases with Open Mirroring, Fabric Data Agent, and Azure AI Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/accelerate-ai-on-oracle-databases-with-open-mirroring-fabric/ba-p/4410952",
-      "published": "2025-05-13T15:00:00+00:00",
-      "summary": "Additional Contributors: Venkat Ramakrishnan, Amir Jafari, Wilson Lee, Maraki Ketema As organizations accelerate their hybrid cloud adoption strategies, Oracle Database@Azure has emerged as a critical platform for running Oracle database workloads using Exadata, Autonomous, Exadata Exascale and...",
-      "blog": "Oracle on Azure",
-      "blogId": "oracleonazureblog",
-      "author": "RajyaLaxmiYellajosyula",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=oracleonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on AI app operations and developer platforms: Microsoft announced a **public preview update for the Azure Copilot Observability Agent** to improve observability for AI assistants, plus multiple **Azure App Service** enhancements for **Python AI apps** and new **Platform Release Channel** controls for managing **runtime patch updates on Linux**.  \n\nThe broader theme was building and deploying AI/data systems across Azure services, including **Databricks AI/BI integrated with Microsoft Teams** (“Genie in a Bot”), a **secure medallion architecture pattern on Azure Databricks**, **WebAssembly-based edge data processing with Azure IoT Operations**, and browser-enabled agents using **Browser-Harness**, **Playwright Workspaces**, and **remote browsers** to give AI agents web interaction capabilities."
+  "summary": "Microsoft’s Azure and GitHub updates today centered on AI developer tooling, platform performance, and security: GitHub expanded Copilot with a technical preview of the GitHub Copilot app, auto model selection for the cloud agent, and a new Copilot CLI agent plus unified sessions view in JetBrains, while Azure highlighted Azure AI Foundry’s scaling work with Fireworks AI, the Azure Copilot Observability Agent public preview, and browser-enabled AI agents using Playwright workspaces remote browsers. Microsoft also pushed core platform and developer-stack improvements, including the stable release of the Azure SDK for Rust, Python AI app enhancements on Azure App Service, AKS sandbox pod startup optimizations, App Service for Linux platform release channels for patch control, and edge WebAssembly data processing with Azure IoT Operations.\n\nA second major theme was risk and operational resilience: Microsoft Security detailed the Kazuar nation-state botnet and warned about exploitable AI app misconfigurations, while other posts focused on secure architecture patterns for Azure Databricks, faster GitHub Issues navigation, Teams-integrated Databricks AI/BI experiences, and an AI hackathon aimed at turning Microsoft AI tooling into production-ready code."
 }
