@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-05-14T01:52:18.484688+00:00",
+  "lastUpdated": "2026-05-14T06:13:52.726858+00:00",
   "totalArticles": 1132,
   "articles": [
+    {
+      "title": "Control runtime patch updates with Platform Release Channel on Azure App Service for Linux",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/control-runtime-patch-updates-with-platform-release-channel-on/ba-p/4519570",
+      "published": "2026-05-14T05:31:26+00:00",
+      "summary": "Azure App Service for Linux is introducing Platform Release Channel, a new setting that gives you more control over when runtime patch updates are applied to your app. With this feature, you can choose how quickly your app moves to newly rolled-out runtime patches. This helps teams balance two...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "TulikaC",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Secure Medallion Architecture Pattern on Azure Databricks (Part II)",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/secure-medallion-architecture-pattern-on-azure-databricks-part/ba-p/4491044",
+      "published": "2026-05-14T05:03:35+00:00",
+      "summary": "Disclaimer: The views in this article are my own and do not represent Microsoft or Databricks. This article is part of a series focused on deploying a secure Medallion Architecture. The series follows a top-down approach , beginning with a high-level architectural perspective and gradually drilling...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "mscagliola",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Give Your AI Agent Eyes: Browser-Harness Meets Playwright Workspaces Remote Browsers",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/give-your-ai-agent-eyes-browser-harness-meets-playwright/ba-p/4518419",
@@ -199,17 +221,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Secure Medallion Architecture Pattern on Azure Databricks (Part II)",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/secure-medallion-architecture-pattern-on-azure-databricks-part/ba-p/4491044",
-      "published": "2026-05-13T16:21:35+00:00",
-      "summary": "Disclaimer: The views in this article are my own and do not represent Microsoft or Databricks. This article is part of a series focused on deploying a secure Medallion Architecture. The series follows a top-down approach , beginning with a high-level architectural perspective and gradually drilling...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "mscagliola",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Introducing Grok 4.3 on Microsoft Foundry: Latest Generation Agentic Capabilities",
@@ -4015,17 +4026,6 @@
       "blogId": "azurearcblog",
       "author": "liranlyabock_microsoft",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "New in Azure SRE Agent: Log Analytics and Application Insights Connectors",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/new-in-azure-sre-agent-log-analytics-and-application-insights/ba-p/4509649",
-      "published": "2026-04-17T02:14:28+00:00",
-      "summary": "Azure SRE Agent now supports Log Analytics and Application Insights as log providers, backed by the Azure MCP Server. Connect your workspaces and App Insights resources, and the agent can query them directly during investigations. Why This Matters Log Analytics and Application Insights are common...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Dalibor_Kovacevic",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12455,5 +12455,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog highlights a new way to make AI agents “see” and interact with web apps: **Browser-Harness** integrated with **Playwright Workspaces Remote Browsers** on **Apps on Azure**. The announcement focuses on enabling AI agents to drive real browser sessions for UI automation and web task execution using **Playwright** in Azure-hosted remote browser environments, pointing to stronger support for agentic workflows and browser-based testing or operations in the cloud."
+  "summary": "Today’s Azure posts focused on three themes: tighter platform control, stronger data security architecture, and more capable AI agents. Azure App Service for Linux introduced **Platform Release Channel** to let customers better control **runtime patch rollouts**; Azure Databricks highlighted a **Secure Medallion Architecture Pattern** for protecting data across bronze/silver/gold layers; and Azure’s AI tooling showcased **Browser-Harness integrated with Playwright Workspaces Remote Browsers** so **AI agents** can interact with and “see” web applications more effectively.\n\nIn short, the announcements emphasize **operational governance for app runtimes**, **secure-by-design analytics on Azure Databricks**, and **browser-based agent capabilities** for AI-driven app automation."
 }
