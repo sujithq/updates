@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-05-13T22:03:44.239742+00:00",
+  "lastUpdated": "2026-05-14T01:52:18.484688+00:00",
   "totalArticles": 1132,
   "articles": [
+    {
+      "title": "Give Your AI Agent Eyes: Browser-Harness Meets Playwright Workspaces Remote Browsers",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/give-your-ai-agent-eyes-browser-harness-meets-playwright/ba-p/4518419",
+      "published": "2026-05-14T00:21:05+00:00",
+      "summary": "What happens when you hand a coding agent a real browser — not a mock, not an API wrapper, but a full Chromium instance running in the cloud? It fills form for you. It does research for you. It navigates JavaScript-heavy SPAs that would make any REST-based scraper weep. And it does it across 10+...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "NandiniMuralidharan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "What's new in FinOps toolkit 14 – April 2026",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/what-s-new-in-finops-toolkit-14-april-2026/ba-p/4519497",
+      "published": "2026-05-13T23:24:44+00:00",
+      "summary": "FinOps toolkit 14 connects AI to your FinOps hub data with a Copilot Studio agent template, ingests recommendations from Azure Advisor and your own Resource Graph queries, simplifies hub deployment, and previews a new commitment discount eligibility dataset. Whether you consider yourself a FinOps...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "Michael_Flanakin",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Microsoft SQL Security Across the MAESTRO Stack: Building Secure Agentic AI with Defense-in-Depth",
       "link": "https://devblogs.microsoft.com/azure-sql/microsoft-sql-security-across-the-maestro-stack-building-secure-agentic-ai-with-defense-in-depth/",
@@ -265,17 +287,6 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "Give Your AI Agent Eyes: Browser-Harness Meets Playwright Workspaces Remote Browsers",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/give-your-ai-agent-eyes-browser-harness-meets-playwright/ba-p/4518419",
-      "published": "2026-05-13T06:00:21+00:00",
-      "summary": "What happens when you hand a coding agent a real browser — not a mock, not an API wrapper, but a full Chromium instance running in the cloud? It shops for you. It scrapes for you. It navigates JavaScript-heavy SPAs that would make any REST-based scraper weep. And it does it across 10+ parallel...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "NandiniMuralidharan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Introducing cert-manager for Azure Arc-enabled Kubernetes: now in Public Preview",
@@ -12323,17 +12334,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Managing Azure OpenAI costs with the FinOps toolkit and FOCUS: Turning tokens into unit economics",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/managing-azure-openai-costs-with-the-finops-toolkit-and-focus/ba-p/4413886",
-      "published": "2025-05-21T10:00:00+00:00",
-      "summary": "By Robb Dilallo Introduction As organizations rapidly adopt generative AI, Azure OpenAI usage is growing—and so are the complexities of managing its costs. Unlike traditional cloud services billed per compute hour or storage GB, Azure OpenAI charges based on token usage. For FinOps practitioners,...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "robbdi",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[AI Search] LockedSPLResourceFound error when deleting AI Search",
       "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/ai-search-lockedsplresourcefound-error-when-deleting-ai-search/ba-p/4415849",
       "published": "2025-05-21T05:59:13+00:00",
@@ -12455,5 +12455,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft developer blogs were dominated by **agentic AI, platform automation, and infrastructure hardening**. Key announcements included **Azure Boost next-gen reaching GA**, **Azure Integrated Hardware Security Module reaching GA**, **Azure Container Apps Express entering public preview**, and new AI platform updates such as **NVIDIA Dynamo on AKS for autoscaling LLM inference** and **Grok 4.3 on Microsoft Foundry**; Microsoft also highlighted secure AI architecture with **SQL security across the MAESTRO stack**, a **self-healing CI/CD agent workflow**, and **Databricks medallion security patterns**.\n\nOn the developer tooling side, Microsoft showcased **.NET 11** improvements in both **Process API** and **.NET MAUI’s move to CoreCLR**, alongside **Visual Studio Code 1.120** and new **Visual Studio agent skills for Copilot**. GitHub’s updates focused on automation and enterprise management, including a **public preview enterprise installation API**, **REST API support for Copilot cloud agent tasks**, and the **GitHub Enterprise Server 3.21 release candidate**, while broader ecosystem posts covered **Kubernetes v1.36 workload-aware scheduling** and new **Microsoft 365 Copilot** features."
+  "summary": "Today’s Azure blog highlights a new way to make AI agents “see” and interact with web apps: **Browser-Harness** integrated with **Playwright Workspaces Remote Browsers** on **Apps on Azure**. The announcement focuses on enabling AI agents to drive real browser sessions for UI automation and web task execution using **Playwright** in Azure-hosted remote browser environments, pointing to stronger support for agentic workflows and browser-based testing or operations in the cloud."
 }
