@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T19:26:15.491782+00:00",
+  "lastUpdated": "2026-05-14T21:58:45.434977+00:00",
   "totalArticles": 1132,
   "articles": [
     {
@@ -14,8 +14,41 @@
       "sourceType": "rss"
     },
     {
+      "title": "Open Model Inference at Scale on Foundry: What’s New with Fireworks AI",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/open-model-inference-at-scale-on-foundry-what-s-new-with/ba-p/4519534",
+      "published": "2026-05-14T20:43:31+00:00",
+      "summary": "We launched the public preview of Fireworks AI on Microsoft Foundry two months ago, bringing best-in-class open model inference directly into Azure. The traction has been real and high. Fireworks AI's inference layer is purpose-built for low-latency, high-throughput production workloads, natively...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "AliciaFrame",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Building an AI-Powered Contract Price Adjustment Agent with Docusign MCP and Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/building-an-ai-powered-contract-price-adjustment-agent-with/ba-p/4515997",
+      "published": "2026-05-14T20:29:51+00:00",
+      "summary": "Acknowledgment: Special thanks to the Docusign Partner Solution Architects team for the original source code and examples that informed this implementation; I adapted and extended that foundation to build the end-to-end agent described below. The Enterprise Challenge Every large organization faces...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "aafshari",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure Monitor Health Model - API Refresh",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-health-model-api-refresh/ba-p/4519092",
+      "published": "2026-05-14T19:43:35+00:00",
+      "summary": "API Refresh? Discovery scope extended to include Application Insights Azure Resource Graph query Signals Enhancement for Azure resources Resource health is used as a default signal Recommended signals are available Alert rules can be imported as signals dynamic thresholds for metric signals...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "shijain13",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Considering NL2SQL? Should your database really be the prompt? How can SQL MCP Server help?",
-      "link": "https://devblogs.microsoft.com/azure-sql/sql-mcp-server-nl2sql-2/",
+      "link": "https://devblogs.microsoft.com/azure-sql/sql-mcp-server-nl2sql/",
       "published": "2026-05-14T19:20:34+00:00",
       "summary": "You’ve probably experienced both of these, perhaps at the same time. First, that desire to let an agent get at your data. It’s driven by simplification and better experiences for the user and for you: fewer screens, fewer queries, fewer reports, and less code overall. Second, and perhaps more...",
       "blog": "Azure SQL Dev Corner",
@@ -122,17 +155,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Open Model Inference at Scale on Foundry: What’s New with Fireworks AI",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/open-model-inference-at-scale-on-foundry-what-s-new-with/ba-p/4519534",
-      "published": "2026-05-14T16:09:11+00:00",
-      "summary": "We launched the public preview of Fireworks AI on Microsoft Foundry two months ago, bringing best-in-class open model inference directly into Azure. The traction has been real and high. Fireworks AI's inference layer is purpose-built for low-latency, high-throughput production workloads, natively...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "AliciaFrame",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "From latency to instant: Modernizing GitHub Issues navigation performance",
@@ -1753,7 +1775,7 @@
     },
     {
       "title": "Azure Cosmos DB Conf 2026 Recap: Lessons from Production",
-      "link": "https://devblogs.microsoft.com/blog/azure-cosmos-db-conf-2026-recap-lessons-from-production",
+      "link": "https://devblogs.microsoft.com/blog/azure-cosmos-db-conf-2026-recap-lessons-from-production/",
       "published": "2026-05-05T19:30:25+00:00",
       "summary": "A team was running at 100% RU utilization. Throttles were compounding into retries. P99 latency was degrading. The assumption was obvious: provision more throughput. They didn’t. Instead, they found a single logical partition absorbing more than 80% of traffic. After fixing the data model—without...",
       "blog": "Microsoft Developers Blog",
@@ -3403,7 +3425,7 @@
     },
     {
       "title": "LangChain.js for Beginners: A Free Course to Build Agentic AI Apps with JavaScript",
-      "link": "https://devblogs.microsoft.com/blog/langchainjs-for-beginners",
+      "link": "https://devblogs.microsoft.com/blog/langchainjs-for-beginners/",
       "published": "2026-04-23T17:00:14+00:00",
       "summary": "Want to build AI agents with JavaScript that go beyond basic chat completions? Agents that reason, call tools, and pull from knowledge bases on their own? We put together a free, open source course to help you get there. LangChain.js for Beginners is 8 chapters and 70+ runnable TypeScript examples....",
       "blog": "Microsoft Developers Blog",
@@ -3656,7 +3678,7 @@
     },
     {
       "title": "Securing MCP: A Control Plane for Agent Tool Execution",
-      "link": "https://devblogs.microsoft.com/blog/securing-mcp-a-control-plane-for-agent-tool-execution",
+      "link": "https://devblogs.microsoft.com/blog/securing-mcp-a-control-plane-for-agent-tool-execution/",
       "published": "2026-04-22T17:00:09+00:00",
       "summary": "The Model Context Protocol (MCP) is quickly becoming a common way for AI agents to discover and use tools. It provides a consistent interface to databases, APIs, file systems, and third-party services, which makes it easier to plug capabilities into agent workflows. However, MCP standardizes the...",
       "blog": "Microsoft Developers Blog",
@@ -3695,17 +3717,6 @@
       "blog": "Azure AI Foundry Blog",
       "blogId": "azure-ai-foundry-blog",
       "author": "sgangaramani",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Introducing Kimi K2.6 in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-kimi-k2-6-in-microsoft-foundry/ba-p/4513125",
-      "published": "2026-04-22T15:56:21+00:00",
-      "summary": "We’re excited to welcome Moonshot AI’s Kimi K2.6 to Microsoft Foundry expanding the platform’s growing catalog of open and frontier models designed for real-world, production-grade AI systems. Kimi K2.6 represents a new class of agentic, multimodal models built for long-horizon reasoning, coding,...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "RashaudSavage",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -4569,7 +4580,7 @@
     },
     {
       "title": "Take your PostgreSQL-backed apps to the next level",
-      "link": "https://devblogs.microsoft.com/blog/take-your-postgresql-backed-apps-to-the-next-level",
+      "link": "https://devblogs.microsoft.com/blog/take-your-postgresql-backed-apps-to-the-next-level/",
       "published": "2026-04-14T17:00:37+00:00",
       "summary": "PostgreSQL is a powerful and hugely popular database engine, and it really comes alive across Microsoft developer platforms. You can build with PostgreSQL across Azure offerings, develop productively in Visual Studio Code with strong extensions and tooling, and connect your data to agentic...",
       "blog": "Microsoft Developers Blog",
@@ -7077,7 +7088,7 @@
     },
     {
       "title": "Awesome GitHub Copilot just got a website, and a learning hub, and plugins!",
-      "link": "https://devblogs.microsoft.com/blog/awesome-github-copilot-just-got-a-website-and-a-learning-hub-and-plugins",
+      "link": "https://devblogs.microsoft.com/blog/awesome-github-copilot-just-got-a-website-and-a-learning-hub-and-plugins/",
       "published": "2026-03-16T17:00:33+00:00",
       "summary": "Back in July, we launched the Awesome GitHub Copilot Customizations repo with a simple goal: give the community a place to share custom instructions, prompts, and chat modes to customize the AI responses from GitHub Copilot. We were hoping for maybe one community contribution per week. That… did...",
       "blog": "Microsoft Developers Blog",
@@ -7352,7 +7363,7 @@
     },
     {
       "title": "Build a real-world example with Microsoft Agent Framework, Microsoft Foundry, MCP and Aspire",
-      "link": "https://devblogs.microsoft.com/blog/build-a-real-world-example-with-microsoft-agent-framework-microsoft-foundry-mcp-and-aspire",
+      "link": "https://devblogs.microsoft.com/blog/build-a-real-world-example-with-microsoft-agent-framework-microsoft-foundry-mcp-and-aspire/",
       "published": "2026-03-09T16:00:42+00:00",
       "summary": "Building AI agents is getting easier. Deploying them as part of a real application, with multiple services, persistent state, and production infrastructure, is where things get complicated. Developers from the .NET community have requested whether a real-world example that shows running on local...",
       "blog": "Microsoft Developers Blog",
@@ -7550,7 +7561,7 @@
     },
     {
       "title": "Get started with GitHub Copilot CLI: A free, hands-on course",
-      "link": "https://devblogs.microsoft.com/blog/get-started-with-github-copilot-cli-a-free-hands-on-course",
+      "link": "https://devblogs.microsoft.com/blog/get-started-with-github-copilot-cli-a-free-hands-on-course/",
       "published": "2026-03-03T20:40:42+00:00",
       "summary": "Learn GitHub Copilot CLI with this free, 8-chapter hands-on course. Review code, generate tests, debug issues, and build custom agents and skills - all from your terminal. No AI experience needed. Works with GitHub Copilot Free. Clone the repo or open in Codespaces to get started.",
       "blog": "Microsoft Developers Blog",
@@ -7638,7 +7649,7 @@
     },
     {
       "title": "The JavaScript AI Build-a-thon Season 2 starts today!",
-      "link": "https://devblogs.microsoft.com/blog/the-javascript-ai-build-a-thon-season-2-starts-today",
+      "link": "https://devblogs.microsoft.com/blog/the-javascript-ai-build-a-thon-season-2-starts-today/",
       "published": "2026-03-02T20:00:39+00:00",
       "summary": "The JavaScript AI Build‑a‑thon Season 2 starts today! Join a free, four‑week, hands‑on program—from Local AI and RAG pipelines to multi‑agent hackathon—designed specifically for JavaScript/TypeScript developers.",
       "blog": "Microsoft Developers Blog",
@@ -7671,7 +7682,7 @@
     },
     {
       "title": "GitHub Copilot Dev Days: Build faster with GitHub Copilot CLI, in VS Code & Visual Studio, and beyond!",
-      "link": "https://devblogs.microsoft.com/blog/github-copilot-dev-days",
+      "link": "https://devblogs.microsoft.com/blog/github-copilot-dev-days/",
       "published": "2026-03-02T18:00:36+00:00",
       "summary": "Modern software development is moving fast—and AI is now a practical part of how Microsoft developers design, build, and ship applications every day. From writing code in Visual Studio and VS Code, to building cloud-native apps on Azure, developers are looking for ways to stay productive without...",
       "blog": "Microsoft Developers Blog",
@@ -8628,7 +8639,7 @@
     },
     {
       "title": "WinGet Configuration: Set up your dev machine in one command",
-      "link": "https://devblogs.microsoft.com/blog/winget-configuration-set-up-your-dev-machine-in-one-command",
+      "link": "https://devblogs.microsoft.com/blog/winget-configuration-set-up-your-dev-machine-in-one-command/",
       "published": "2026-02-04T18:00:13+00:00",
       "summary": "I’ve set up a lot of dev machines in my life. Traditionally, this takes a lot of time to get everything just right, but now there’s a faster way with WinGet Configuration files. Let me show you how to go from a fresh Windows install to a fully configured dev environment with a single command […]",
       "blog": "Microsoft Developers Blog",
@@ -10054,17 +10065,6 @@
       "blogId": "azurenetworkingblog",
       "author": "Sergio Figueiredo",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Advancing Full-Stack Observability with Azure Monitor at Ignite 2025",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/advancing-full-stack-observability-with-azure-monitor-at-ignite/ba-p/4469041",
-      "published": "2025-11-20T18:48:08+00:00",
-      "summary": "New AI-powered innovations in the observability space First, we’re excited to usher in the era of agentic cloud operations with Azure Copilot agents. At Ignite 2025, we are announcing the preview of the Azure Copilot observability agent to help you enhance full-stack troubleshooting. Formerly...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Shiva_Sivakumar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12455,5 +12455,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure and adjacent Microsoft ecosystem posts centered on three themes: **AI platform security and observability**, **cloud infrastructure modernization**, and **developer platform updates**. On the AI side, Microsoft highlighted **defense-in-depth for autonomous agents**, **AI app misconfiguration risks**, **Azure Copilot Observability Agent** in public preview, and new **open model inference at scale in Azure AI Foundry via Fireworks AI**, while the Azure SQL team promoted **SQL MCP Server** as a safer, more structured approach to **NL2SQL** than using the raw database schema as the prompt.\n\nInfrastructure and platform announcements were equally notable: **Azure Application Gateway now supports Layer 4 TCP/TLS proxying** for modernizing legacy TCP apps, **Azure NetApp Files large-file workload support** and **Azure Files SMB with Managed Identity** both reached **general availability**, and AKS/Kubernetes updates covered **sandbox pod startup improvements** plus the planned removal of **Service ExternalIPs in Kubernetes v1.36**. For developers, Microsoft announced the **Azure SDK for Rust is now stable**, shipped **May patches for Azure DevOps Server**, expanded GitHub capabilities with the **GitHub Copilot app technical preview**, **auto model selection for Copilot cloud agent**, and upcoming **GitHub Actions runner image migrations**."
+  "summary": "Today’s Azure-related posts were dominated by **enterprise AI, security, and platform modernization**. On the AI side, Microsoft highlighted **Azure AI Foundry** integrations with **Fireworks AI** for open-model inference at scale, a **DocuSign MCP + Foundry** contract agent, and **SQL MCP Server** as a safer pattern for **NL2SQL** than exposing raw databases directly to prompts; security posts reinforced this with guidance on **defense in depth for autonomous agents** and AI app misconfiguration risks.  \n\nOn the platform side, Azure announced several concrete infrastructure and developer updates: **Azure Monitor Health Model API** refreshes, **Azure Application Gateway Layer 4 TCP/TLS Proxy** for modernizing TCP apps, GA support for **large-file workloads in Azure NetApp Files** and **managed identity for Azure Files SMB**, plus the **Azure SDK for Rust** reaching stable. Broader ecosystem items also matter for operators: **Kubernetes v1.36** removes **Service ExternalIPs**, **AKS sandbox pods** got faster startup via decoupled memory handling, **GitHub Actions** is migrating runner images, **GitHub Copilot app** entered technical preview, and Microsoft shipped **May patches for Azure DevOps Server**."
 }
