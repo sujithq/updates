@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-15T13:22:31.126614+00:00",
-  "totalArticles": 1133,
+  "lastUpdated": "2026-05-15T16:32:14.223010+00:00",
+  "totalArticles": 1134,
   "articles": [
     {
       "title": "Visual Studio Code 1.121",
@@ -11,6 +11,39 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Designing AI-Driven Observability for Trustworthy Agentic AI Systems",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/designing-ai-driven-observability-for-trustworthy-agentic-ai/ba-p/4508844",
+      "published": "2026-05-15T16:24:30+00:00",
+      "summary": "1.Why Observability Changes in Agentic AI Systems A developer recently recounted how a single runaway AI agent loop burned through $500 in OpenAI API charges in just 45 minutes with no errors or alerts raised anywhere in the monitoring stack. That anecdote is not an edge case; as Microsoft's own...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "shrutikakade",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Building a general-purpose accessibility agent—and what we learned in the process",
+      "link": "https://github.blog/ai-and-ml/github-copilot/building-a-general-purpose-accessibility-agent-and-what-we-learned-in-the-process/",
+      "published": "2026-05-15T16:00:00+00:00",
+      "summary": "Learn about the experimental general-purpose accessibility agent that GitHub is piloting. The post Building a general-purpose accessibility agent—and what we learned in the process appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Natalie Guevara",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
+      "link": "https://github.blog/security/raising-the-bar-quality-shared-responsibility-and-the-future-of-githubs-bug-bounty-program/",
+      "published": "2026-05-15T14:00:00+00:00",
+      "summary": "We're updating our bug bounty program standards to prioritize quality submissions, clarify shared responsibility boundaries, and evolve how we reward low-risk findings. The post Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program appeared first on The...",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Natalie Guevara",
+      "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -100,6 +133,17 @@
       "author": "umamasurkar28",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "The Coding Harness Behind GitHub Copilot in VS Code",
+      "link": "https://code.visualstudio.com/blogs/2026/05/15/agent-harnesses-github-copilot-vscode",
+      "published": "2026-05-15T00:00:00+00:00",
+      "summary": "Learn why the coding harness around GitHub Copilot in VS Code matters as models, tools, agents, and providers evolve. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "VS Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "Team-level Copilot usage metrics now available via API",
@@ -1334,17 +1378,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Improving token efficiency in GitHub Agentic Workflows",
-      "link": "https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows/",
-      "published": "2026-05-07T23:00:00+00:00",
-      "summary": "Agentic workflows that run on every pull request can quietly accumulate large API bills. Here's how we instrumented our own production workflows, found the inefficiencies, and built agents to fix them. The post Improving token efficiency in GitHub Agentic Workflows appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Landon Cox",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Public Preview: Migrate your regional virtual machines to availability zones",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/public-preview-migrate-your-regional-virtual-machines-to/ba-p/4517298",
       "published": "2026-05-07T21:33:43+00:00",
@@ -1375,17 +1408,6 @@
       "blogId": "microsoftsecurity",
       "author": "Microsoft Defender Security Research Team, Uri Oren, Amit Eliahu and Dor Edry",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Agent pull requests are everywhere. Here’s how to review them.",
-      "link": "https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them/",
-      "published": "2026-05-07T19:00:00+00:00",
-      "summary": "A practical guide to reviewing agent-generated pull requests: what to look for, where issues hide, and how to catch technical debt before it ships. The post Agent pull requests are everywhere. Here’s how to review them. appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Andrea Griffiths",
-      "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1863,7 +1885,7 @@
     },
     {
       "title": "Azure Cosmos DB Conf 2026 Recap: Lessons from Production",
-      "link": "https://devblogs.microsoft.com/blog/azure-cosmos-db-conf-2026-recap-lessons-from-production/",
+      "link": "https://devblogs.microsoft.com/blog/azure-cosmos-db-conf-2026-recap-lessons-from-production",
       "published": "2026-05-05T19:30:25+00:00",
       "summary": "A team was running at 100% RU utilization. Throttles were compounding into retries. P99 latency was degrading. The assumption was obvious: provision more throughput. They didn’t. Instead, they found a single logical partition absorbing more than 80% of traffic. After fixing the data model—without...",
       "blog": "Microsoft Developers Blog",
@@ -3480,7 +3502,7 @@
     },
     {
       "title": "LangChain.js for Beginners: A Free Course to Build Agentic AI Apps with JavaScript",
-      "link": "https://devblogs.microsoft.com/blog/langchainjs-for-beginners/",
+      "link": "https://devblogs.microsoft.com/blog/langchainjs-for-beginners",
       "published": "2026-04-23T17:00:14+00:00",
       "summary": "Want to build AI agents with JavaScript that go beyond basic chat completions? Agents that reason, call tools, and pull from knowledge bases on their own? We put together a free, open source course to help you get there. LangChain.js for Beginners is 8 chapters and 70+ runnable TypeScript examples....",
       "blog": "Microsoft Developers Blog",
@@ -3733,7 +3755,7 @@
     },
     {
       "title": "Securing MCP: A Control Plane for Agent Tool Execution",
-      "link": "https://devblogs.microsoft.com/blog/securing-mcp-a-control-plane-for-agent-tool-execution/",
+      "link": "https://devblogs.microsoft.com/blog/securing-mcp-a-control-plane-for-agent-tool-execution",
       "published": "2026-04-22T17:00:09+00:00",
       "summary": "The Model Context Protocol (MCP) is quickly becoming a common way for AI agents to discover and use tools. It provides a consistent interface to databases, APIs, file systems, and third-party services, which makes it easier to plug capabilities into agent workflows. However, MCP standardizes the...",
       "blog": "Microsoft Developers Blog",
@@ -3762,17 +3784,6 @@
       "blogId": "azurenetworkingblog",
       "author": "kirankumar_manchiwar04",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Three tiers of Agentic AI - and when to use none of them",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/three-tiers-of-agentic-ai-and-when-to-use-none-of-them/ba-p/4510377",
-      "published": "2026-04-22T16:00:00+00:00",
-      "summary": "Every enterprise has an AI agent. Almost none of them work in production. Walk into any enterprise technology review right now and you will find the same thing. Pilots running. Demos recorded. Steering committees impressed. And somewhere in the background, a quiet acknowledgment that the thing does...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "sgangaramani",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -4624,7 +4635,7 @@
     },
     {
       "title": "Take your PostgreSQL-backed apps to the next level",
-      "link": "https://devblogs.microsoft.com/blog/take-your-postgresql-backed-apps-to-the-next-level/",
+      "link": "https://devblogs.microsoft.com/blog/take-your-postgresql-backed-apps-to-the-next-level",
       "published": "2026-04-14T17:00:37+00:00",
       "summary": "PostgreSQL is a powerful and hugely popular database engine, and it really comes alive across Microsoft developer platforms. You can build with PostgreSQL across Azure offerings, develop productively in Visual Studio Code with strong extensions and tooling, and connect your data to agentic...",
       "blog": "Microsoft Developers Blog",
@@ -7132,7 +7143,7 @@
     },
     {
       "title": "Awesome GitHub Copilot just got a website, and a learning hub, and plugins!",
-      "link": "https://devblogs.microsoft.com/blog/awesome-github-copilot-just-got-a-website-and-a-learning-hub-and-plugins/",
+      "link": "https://devblogs.microsoft.com/blog/awesome-github-copilot-just-got-a-website-and-a-learning-hub-and-plugins",
       "published": "2026-03-16T17:00:33+00:00",
       "summary": "Back in July, we launched the Awesome GitHub Copilot Customizations repo with a simple goal: give the community a place to share custom instructions, prompts, and chat modes to customize the AI responses from GitHub Copilot. We were hoping for maybe one community contribution per week. That… did...",
       "blog": "Microsoft Developers Blog",
@@ -7407,7 +7418,7 @@
     },
     {
       "title": "Build a real-world example with Microsoft Agent Framework, Microsoft Foundry, MCP and Aspire",
-      "link": "https://devblogs.microsoft.com/blog/build-a-real-world-example-with-microsoft-agent-framework-microsoft-foundry-mcp-and-aspire/",
+      "link": "https://devblogs.microsoft.com/blog/build-a-real-world-example-with-microsoft-agent-framework-microsoft-foundry-mcp-and-aspire",
       "published": "2026-03-09T16:00:42+00:00",
       "summary": "Building AI agents is getting easier. Deploying them as part of a real application, with multiple services, persistent state, and production infrastructure, is where things get complicated. Developers from the .NET community have requested whether a real-world example that shows running on local...",
       "blog": "Microsoft Developers Blog",
@@ -7605,7 +7616,7 @@
     },
     {
       "title": "Get started with GitHub Copilot CLI: A free, hands-on course",
-      "link": "https://devblogs.microsoft.com/blog/get-started-with-github-copilot-cli-a-free-hands-on-course/",
+      "link": "https://devblogs.microsoft.com/blog/get-started-with-github-copilot-cli-a-free-hands-on-course",
       "published": "2026-03-03T20:40:42+00:00",
       "summary": "Learn GitHub Copilot CLI with this free, 8-chapter hands-on course. Review code, generate tests, debug issues, and build custom agents and skills - all from your terminal. No AI experience needed. Works with GitHub Copilot Free. Clone the repo or open in Codespaces to get started.",
       "blog": "Microsoft Developers Blog",
@@ -7693,7 +7704,7 @@
     },
     {
       "title": "The JavaScript AI Build-a-thon Season 2 starts today!",
-      "link": "https://devblogs.microsoft.com/blog/the-javascript-ai-build-a-thon-season-2-starts-today/",
+      "link": "https://devblogs.microsoft.com/blog/the-javascript-ai-build-a-thon-season-2-starts-today",
       "published": "2026-03-02T20:00:39+00:00",
       "summary": "The JavaScript AI Build‑a‑thon Season 2 starts today! Join a free, four‑week, hands‑on program—from Local AI and RAG pipelines to multi‑agent hackathon—designed specifically for JavaScript/TypeScript developers.",
       "blog": "Microsoft Developers Blog",
@@ -7726,7 +7737,7 @@
     },
     {
       "title": "GitHub Copilot Dev Days: Build faster with GitHub Copilot CLI, in VS Code & Visual Studio, and beyond!",
-      "link": "https://devblogs.microsoft.com/blog/github-copilot-dev-days/",
+      "link": "https://devblogs.microsoft.com/blog/github-copilot-dev-days",
       "published": "2026-03-02T18:00:36+00:00",
       "summary": "Modern software development is moving fast—and AI is now a practical part of how Microsoft developers design, build, and ship applications every day. From writing code in Visual Studio and VS Code, to building cloud-native apps on Azure, developers are looking for ways to stay productive without...",
       "blog": "Microsoft Developers Blog",
@@ -8672,7 +8683,7 @@
     },
     {
       "title": "WinGet Configuration: Set up your dev machine in one command",
-      "link": "https://devblogs.microsoft.com/blog/winget-configuration-set-up-your-dev-machine-in-one-command/",
+      "link": "https://devblogs.microsoft.com/blog/winget-configuration-set-up-your-dev-machine-in-one-command",
       "published": "2026-02-04T18:00:13+00:00",
       "summary": "I’ve set up a lot of dev machines in my life. Traditionally, this takes a lot of time to get everything just right, but now there’s a faster way with WinGet Configuration files. Let me show you how to go from a fresh Windows install to a fully configured dev environment with a single command […]",
       "blog": "Microsoft Developers Blog",
@@ -12466,5 +12477,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on two big themes: easier cloud app operations and the rapid maturation of enterprise AI agents. On the app platform side, Azure highlighted new SSH helper aliases and streamlined FastAPI deployment workflows for Python apps on Azure App Service for Linux, while the GitHub changelog added timestamp fields in GitHub Projects to improve planning and tracking.\n\nThe second major theme was enterprise-grade agentic AI: Microsoft emphasized Agent365 and Microsoft 365 E7 as an identity-first control plane for deploying AI agents at scale, alongside practical guidance for privacy-preserving agents using Microsoft Agent Framework middleware and operating multiple coding agents in production with AKS, GitHub Copilot, and “AgenticOps.” Azure Databricks also featured a Secure Medallion Architecture pattern, underscoring secure data engineering foundations for analytics and AI workloads."
+  "summary": "Today’s Azure- and GitHub-related posts were dominated by **enterprise AI agents, trust, and operational readiness**: Microsoft highlighted **observability for agentic AI in Azure AI Foundry**, **identity-first and privacy-preserving agent frameworks** via **Agent365** and **Microsoft Agent Framework middleware**, and practical “**AgenticOps**” patterns using **AKS**, **GitHub Copilot**, and production control planes for scalable agents. Another major theme was **developer platform hardening and usability**, including GitHub’s focus on **accessibility**, **bug bounty quality and shared responsibility**, and new productivity updates like **timestamp fields in GitHub Projects** and insights into the engineering behind **GitHub Copilot in VS Code**.\n\nOn the Azure app and data platform side, Microsoft announced easier deployment and management for **Python/FastAPI apps on Azure App Service for Linux**, including new **SSH helper aliases**, while analytics guidance centered on a **secure Medallion architecture on Azure Databricks** for governed lakehouse pipelines. Overall, the day’s announcements point to a stack that is becoming more **agent-centric, secure, observable, and production-ready** across **Azure AI, GitHub, App Service, Databricks, and Microsoft 365**."
 }
