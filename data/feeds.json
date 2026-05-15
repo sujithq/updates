@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-15T06:22:22.567333+00:00",
-  "totalArticles": 1132,
+  "lastUpdated": "2026-05-15T11:10:22.930487+00:00",
+  "totalArticles": 1133,
   "articles": [
     {
       "title": "Visual Studio Code 1.121",
@@ -12,6 +12,72 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "New SSH helper aliases for Python apps on Azure App Service for Linux",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/new-ssh-helper-aliases-for-python-apps-on-azure-app-service-for/ba-p/4520111",
+      "published": "2026-05-15T10:37:16+00:00",
+      "summary": "Troubleshooting a running application often starts with SSH. To make that experience simpler for Python apps on Azure App Service for Linux, we have added new SSH helper aliases for common app, log, networking, and Azure AI Foundry diagnostics. When you SSH into your application, you will now see...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "TulikaC",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Simplifying FastAPI Deployments on Azure App Service for Linux",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/simplifying-fastapi-deployments-on-azure-app-service-for-linux/ba-p/4520103",
+      "published": "2026-05-15T10:25:16+00:00",
+      "summary": "Deploying FastAPI apps to Azure App Service for Linux is now simpler. Previously, when you deployed a FastAPI application, you needed to configure a custom startup command so the app could run correctly with an ASGI server. This added an extra step to the deployment flow and could create friction,...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "TulikaC",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Secure Medallion Architecture Pattern on Azure Databricks (Part II)",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/secure-medallion-architecture-pattern-on-azure-databricks-part/ba-p/4491044",
+      "published": "2026-05-15T08:48:58+00:00",
+      "summary": "Disclaimer: The views in this article are my own and do not represent Microsoft or Databricks. This article is part of a series focused on deploying a secure Medallion Architecture. The series follows a top-down approach , beginning with a high-level architectural perspective and gradually drilling...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "mscagliola",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Microsoft 365 E7 & Agent365: From Where You Are to Enterprise AI at Scale",
+      "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/microsoft-365-e7-agent365-from-where-you-are-to-enterprise-ai-at/ba-p/4519969",
+      "published": "2026-05-15T07:13:27+00:00",
+      "summary": "Introduction As organizations move beyond AI experimentation and begin operationalizing agent-based AI workloads, a new set of challenges is emerging governance, visibility, and control. Microsoft’s response to this shift is Microsoft 365 E7, introduced on May 1, 2026. It bundles: Microsoft 365 E5...",
+      "blog": "Agent 365 Blog",
+      "blogId": "agent-365-blog",
+      "author": "umamasurkar28",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Privacy proxy in Agents with Microsoft Agent Framework Middleware",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/privacy-proxy-in-agents-with-microsoft-agent-framework/ba-p/4514773",
+      "published": "2026-05-15T07:00:00+00:00",
+      "summary": "In the first part - Introducing PII Shield: A Privacy Proxy for Every LLM Call - we introduced PII-Shield as a privacy proxy that detects sensitive data, applies configurable anonymization strategies per entity, and reverses that anonymization once the LLM has completed its task. While this...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "vikas_gautam",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Six Coding Agents, One Production System: A Field Guide to AgenticOps with AKS-Lab-GitHubCopilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/six-coding-agents-one-production-system-a-field-guide-to/ba-p/4519916",
+      "published": "2026-05-15T07:00:00+00:00",
+      "summary": "The shift: from \"AI helps me code\" to \"AI authors my repo\" For two years we've been talking about GitHub Copilot as an inline pair programmer — a clever autocomplete that lives in your editor. That framing is officially out of date. The new reality is agentic delivery: a team of named, scoped AI...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Agent365: The Identity-First Control Plane for Scalable AI Agents",
@@ -155,17 +221,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Secure Medallion Architecture Pattern on Azure Databricks (Part II)",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/secure-medallion-architecture-pattern-on-azure-databricks-part/ba-p/4491044",
-      "published": "2026-05-14T17:30:21+00:00",
-      "summary": "Disclaimer: The views in this article are my own and do not represent Microsoft or Databricks. This article is part of a series focused on deploying a secure Medallion Architecture. The series follows a top-down approach , beginning with a high-level architectural perspective and gradually drilling...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "mscagliola",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "[Launched] Generally Available: Managed Identity Support for Azure Files SMB Is now GA",
@@ -3160,17 +3215,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Dev Containers for .NET in VS Code: A Beginner‑Friendly Guide That Actually Works",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/dev-containers-for-net-in-vs-code-a-beginner-friendly-guide-that/ba-p/4507785",
-      "published": "2026-04-26T05:00:00+00:00",
-      "summary": "What Dev Containers are really about At a high level, Dev Containers let you use a Docker container as your development environment inside VS Code. But the real idea is not “Docker for development”. The real idea is this: Move all environment complexity out of your laptop and into...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Debapriya",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "How ACR Artifact Cache Handles Multi-Arch Images: What Gets Cached and When Webhooks Fire",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-acr-artifact-cache-handles-multi-arch-images-what-gets/ba-p/4514744",
       "published": "2026-04-25T19:37:56+00:00",
@@ -3355,28 +3399,6 @@
       "blogId": "azurearchitectureblog",
       "author": "ankitasarkar",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "When Anthropic’s Managed Agents Meet Microsoft Hosted Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/when-anthropic-s-managed-agents-meet-microsoft-hosted-agents/ba-p/4514337",
-      "published": "2026-04-24T07:00:00+00:00",
-      "summary": "Let’s start from a real engineering pain point. In their engineering blog Managed Agents, Anthropic describes a sobering observation: while building the agent scaffolding (the “harness”) for Claude Sonnet 4.5, they noticed the model suffered from “context anxiety,” so they added context-reset logic...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "How to Troubleshoot Azure Functions Host Startup Issue",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-to-troubleshoot-azure-functions-host-startup-issue/ba-p/4512966",
-      "published": "2026-04-24T03:50:54+00:00",
-      "summary": "Table of Contents Overview Understanding How the Host Starts Up Host Startup Sequence Host States Key Settings That Affect Startup Startup Failure Categories Common Causes and Solutions 1. Missing or Invalid FUNCTIONS_EXTENSION_VERSION 2. Missing or Mismatched FUNCTIONS_WORKER_RUNTIME 3. Storage...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "vikasgupta5",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -4125,17 +4147,6 @@
       "blogId": "integrationsonazureblog",
       "author": "Mohammed_Barqawi",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "AKS App Routing's Next Chapter: Gateway API with Istio",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/aks-app-routing-s-next-chapter-gateway-api-with-istio/ba-p/4512729",
-      "published": "2026-04-19T18:25:14+00:00",
-      "summary": "If you've been following my previous posts on the Ingress NGINX retirement, you'll know the story so far. The community Ingress NGINX project was retired in March 2026, and Microsoft's extended support for the NGINX-based App Routing add-on runs until November 2026. I've covered migrating from...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "samcogan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12455,5 +12466,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related highlight centers on **Agent365**, which introduces an **identity-first control plane for scalable AI agents**. The key theme is that enterprise AI agents need built-in **identity, access control, and governance** from the start, suggesting a platform approach for managing agent authentication, authorization, and secure operations as organizations deploy more autonomous AI systems at scale.\n\nThe announcement emphasizes **AI agents** as first-class enterprise workloads and positions **identity infrastructure** as the foundation for controlling them safely across environments. In practical terms, the most important technology focus is on combining **agent orchestration** with **security and policy enforcement**, rather than treating identity as an add-on."
+  "summary": "Today’s Azure posts centered on two big themes: making cloud app deployment easier and building enterprise-ready AI agents. On the app platform side, Azure highlighted new SSH helper aliases and simplified FastAPI deployment workflows for Python apps on Azure App Service for Linux, while on the data side it continued guidance on a secure Medallion Architecture pattern for Azure Databricks.\n\nThe other major focus was enterprise agent infrastructure: Microsoft introduced Agent365 and Microsoft 365 E7 as an identity-first foundation for deploying AI agents at scale, alongside practical guidance for privacy-preserving agents using Microsoft Agent Framework middleware and multi-agent “AgenticOps” production patterns with AKS, GitHub Copilot, and the AKS-Lab-GitHubCopilot project."
 }
