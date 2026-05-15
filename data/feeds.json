@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T19:12:12.751958+00:00",
+  "lastUpdated": "2026-05-15T21:46:21.657435+00:00",
   "totalArticles": 1134,
   "articles": [
     {
@@ -67,6 +67,17 @@
       "author": "dbillor",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Copilot Memory supports user preferences for Pro, Pro+ users",
+      "link": "https://github.blog/changelog/2026-05-15-copilot-memory-supports-user-preferences-for-pro-pro-users",
+      "published": "2026-05-15T17:14:17+00:00",
+      "summary": "Copilot Memory now supports user-level preferences in early access for Copilot Pro and Copilot Pro+ users. Copilot can now store stated or inferred personal preferences about how you like to… The post Copilot Memory supports user preferences for Pro, Pro+ users appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Designing AI-Driven Observability for Trustworthy Agentic AI Systems",
@@ -715,17 +726,6 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "GitHub Enterprise Server 3.21 release candidate is available",
-      "link": "https://github.blog/changelog/2026-05-13-github-enterprise-server-3-21-release-candidate-is-available",
-      "published": "2026-05-13T16:47:15+00:00",
-      "summary": "GitHub Enterprise Server (GHES) 3.21 enhances deployment efficiency, monitoring capabilities, code security, and policy management. Here are a few highlights in the 3.21 release: Organization custom properties are now generally… The post GitHub Enterprise Server 3.21 release candidate is available...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -12477,5 +12477,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts centered on AI agents, cloud-native operations, and developer tooling. Microsoft highlighted how **AI agents are moving into production** across **Azure Networking**, **Azure AI Foundry**, and the **Microsoft Agent Framework**, with themes of **observability, privacy, identity-first control planes, and trustworthy/accessible agentic systems**; at the same time, Azure developer experience improved with the **general availability of the Azure Blob Storage SDK for Rust**, new **SSH helper aliases** and **simplified FastAPI deployment** for **Azure App Service on Linux**, plus guidance for **secure Medallion architecture on Azure Databricks**.\n\nOn the Kubernetes side, the notable announcements were **Kubernetes v1.36** updates introducing a **new route-sync metric in the Cloud Controller Manager** and **Mixed Version Proxy graduating to Beta**, signaling continued focus on operability and cluster lifecycle management. Broader ecosystem posts from GitHub reinforced the same production-readiness theme with updates around **GitHub Copilot’s coding harness**, **bug bounty quality**, **accessibility agents**, and workflow improvements like **timestamp fields in GitHub Projects**."
+  "summary": "Today’s Azure-related posts were dominated by two themes: **agentic AI in production** and **cloud-native app/platform operations**. On the AI side, Microsoft highlighted **AI agents for Azure Networking operations**, **trustworthy observability for agentic systems in Azure AI Foundry**, **privacy proxy middleware in Microsoft Agent Framework**, and identity/governance concepts in **Agent365**, signaling a strong push toward secure, observable, enterprise-scale agent platforms.\n\nOn the platform side, Azure announced the **general availability of the Azure Blob Storage SDK for Rust**, plus practical improvements for developers deploying on **Azure App Service for Linux**, including **new SSH helper aliases for Python apps** and guidance to **simplify FastAPI deployments**. Supporting this, related ecosystem posts emphasized **Kubernetes v1.36** updates such as a **new cloud controller manager route-sync metric** and **Mixed Version Proxy reaching beta**, alongside Azure data architecture guidance like the **Secure Medallion Architecture Pattern on Azure Databricks**."
 }
