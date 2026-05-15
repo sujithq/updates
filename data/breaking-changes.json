@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T10:37:53.916941+00:00",
+  "lastUpdated": "2026-05-15T10:34:17.837130+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -847,6 +847,17 @@
       "detected": "2026-05-13T10:37:53.916930+00:00",
       "published": "2026-05-12T16:00:53+00:00",
       "blog": "GitHub Changelog"
+    },
+    {
+      "link": "https://kubernetes.io/blog/2026/05/14/kubernetes-v1-36-deprecation-and-removal-of-service-externalips/",
+      "title": "Kubernetes v1.36: Deprecation and removal of Service ExternalIPs",
+      "severity": "info",
+      "deadline": null,
+      "impact": "Service .spec.externalIPs is deprecated/removed in Kubernetes v1.36; affected clusters using it",
+      "action": "Audit Services using externalIPs and migrate to supported exposure methods",
+      "detected": "2026-05-15T10:34:17.837119+00:00",
+      "published": "2026-05-14T18:35:00+00:00",
+      "blog": "Kubernetes Official Blog"
     }
   ]
 }
