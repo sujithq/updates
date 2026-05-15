@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T11:10:22.930487+00:00",
+  "lastUpdated": "2026-05-15T13:22:31.126614+00:00",
   "totalArticles": 1133,
   "articles": [
     {
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Timestamp fields in GitHub Projects",
+      "link": "https://github.blog/changelog/2026-05-15-timestamp-fields-in-github-projects",
+      "published": "2026-05-15T12:55:56+00:00",
+      "summary": "GitHub Projects now includes three built-in timestamp fields: Created, Updated, and Closed. You can add them to any project view to sort and filter work based on when it was… The post Timestamp fields in GitHub Projects appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -788,17 +799,6 @@
       "link": "https://github.blog/changelog/2026-05-12-copilot-code-review-comment-experience-improvements",
       "published": "2026-05-12T19:14:26+00:00",
       "summary": "Copilot code review comments are now easier to scan and act on. Available to all users opted into the new pull requests experience, grouped suggestions, severity levels, and an updated… The post Copilot code review: Comment experience improvements appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "April reports are now available to prepare for usage-based billing",
-      "link": "https://github.blog/changelog/2026-05-12-april-reports-are-now-available-to-prepare-for-usage-based-billing",
-      "published": "2026-05-12T19:01:57+00:00",
-      "summary": "Starting today, you can download your usage report to see how April’s GitHub Copilot activity translates into AI credits. The new billing unit of AI credits is going live on… The post April reports are now available to prepare for usage-based billing appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -12466,5 +12466,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on two big themes: making cloud app deployment easier and building enterprise-ready AI agents. On the app platform side, Azure highlighted new SSH helper aliases and simplified FastAPI deployment workflows for Python apps on Azure App Service for Linux, while on the data side it continued guidance on a secure Medallion Architecture pattern for Azure Databricks.\n\nThe other major focus was enterprise agent infrastructure: Microsoft introduced Agent365 and Microsoft 365 E7 as an identity-first foundation for deploying AI agents at scale, alongside practical guidance for privacy-preserving agents using Microsoft Agent Framework middleware and multi-agent “AgenticOps” production patterns with AKS, GitHub Copilot, and the AKS-Lab-GitHubCopilot project."
+  "summary": "Today’s Azure posts centered on two big themes: easier cloud app operations and the rapid maturation of enterprise AI agents. On the app platform side, Azure highlighted new SSH helper aliases and streamlined FastAPI deployment workflows for Python apps on Azure App Service for Linux, while the GitHub changelog added timestamp fields in GitHub Projects to improve planning and tracking.\n\nThe second major theme was enterprise-grade agentic AI: Microsoft emphasized Agent365 and Microsoft 365 E7 as an identity-first control plane for deploying AI agents at scale, alongside practical guidance for privacy-preserving agents using Microsoft Agent Framework middleware and operating multiple coding agents in production with AKS, GitHub Copilot, and “AgenticOps.” Azure Databricks also featured a Secure Medallion Architecture pattern, underscoring secure data engineering foundations for analytics and AI workloads."
 }
