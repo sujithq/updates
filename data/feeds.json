@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T16:32:14.223010+00:00",
+  "lastUpdated": "2026-05-15T19:12:12.751958+00:00",
   "totalArticles": 1134,
   "articles": [
     {
@@ -12,6 +12,61 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Kubernetes v1.36: New Metric for Route Sync in the Cloud Controller Manager",
+      "link": "https://kubernetes.io/blog/2026/05/15/ccm-new-metric-route-sync-total/",
+      "published": "2026-05-15T18:35:00+00:00",
+      "summary": "This article was originally published with the wrong date. It was later republished, dated the 15th of May 2026. Kubernetes v1.36 introduces a new alpha counter metric route_controller_route_sync_total to the Cloud Controller Manager (CCM) route controller implementation at k8s.io/cloud-provider....",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Blob Storage SDK for Rust",
+      "link": "https://azure.microsoft.com/updates?id=562516",
+      "published": "2026-05-15T18:15:26+00:00",
+      "summary": "The Azure Blob Storage SDK for Rust is now generally available. The Rust SDK allows you to connect to an Azure Blob Storage account and perform operations on containers and blobs, including uploading, downloading, listing, and managing blobs. This release",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Kubernetes v1.36: Mixed Version Proxy Graduates to Beta",
+      "link": "https://kubernetes.io/blog/2026/05/15/kubernetes-1-36-feature-mixed-version-proxy-beta/",
+      "published": "2026-05-15T18:00:00+00:00",
+      "summary": "Back in Kubernetes 1.28, we introduced the Mixed Version Proxy (MVP) as an Alpha feature (under the feature gate UnknownVersionInteroperabilityProxy) in a previous blog post. The goal was simple but critical: make cluster upgrades safer by ensuring that requests for resources not yet known to an...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Grok Code Fast 1 deprecated",
+      "link": "https://github.blog/changelog/2026-05-15-grok-code-fast-1-deprecated",
+      "published": "2026-05-15T17:58:15+00:00",
+      "summary": "We have deprecated Grok Code Fast 1 across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, May 15, 2026. Model Deprecation… The post Grok Code Fast 1 deprecated appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "From Copilots to Coworkers: How AI Agents Are Transforming Azure Networking Operations",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/from-copilots-to-coworkers-how-ai-agents-are-transforming-azure/ba-p/4519850",
+      "published": "2026-05-15T17:45:28+00:00",
+      "summary": "Microsoft's Customer Zero blog series gives an insider view of how Microsoft builds and operates Microsoft using our trusted, enterprise-grade IQ platform. Learn best practices from our engineering teams with real-world lessons, architectural patterns, and operational strategies for pressure-tested...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "dbillor",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Designing AI-Driven Observability for Trustworthy Agentic AI Systems",
@@ -837,17 +892,6 @@
       "author": "Naomi Moneypenny",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Copilot code review: Comment experience improvements",
-      "link": "https://github.blog/changelog/2026-05-12-copilot-code-review-comment-experience-improvements",
-      "published": "2026-05-12T19:14:26+00:00",
-      "summary": "Copilot code review comments are now easier to scan and act on. Available to all users opted into the new pull requests experience, grouped suggestions, severity levels, and an updated… The post Copilot code review: Comment experience improvements appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": ".NET and .NET Framework May 2026 servicing releases updates",
@@ -3818,17 +3862,6 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "NFS Permission Denied in Azure App Service on Linux: What It Means and What to Do",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/nfs-permission-denied-in-azure-app-service-on-linux-what-it/ba-p/4513627",
-      "published": "2026-04-22T07:31:52+00:00",
-      "summary": "If your Azure App Service on Linux uses an Azure Files NFS share, you may sometimes see errors like Permission denied or Errno 13 when your app tries to write to the mounted path. Azure Files supports NFS for Linux and Unix workloads, and NFS uses Unix-style numeric ownership and permissions...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "michelleyau",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Getting Started with the SUSE Multi-Linux Manager MCP Server and GitHub Copilot",
@@ -7945,17 +7978,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Kubernetes v1.36: New Metric for Route Sync in the Cloud Controller Manager",
-      "link": "https://kubernetes.io/blog/2026/02/26/ccm-new-metric-route-sync-total/",
-      "published": "2026-02-26T00:00:00+00:00",
-      "summary": "Kubernetes v1.36 introduces a new alpha counter metric route_controller_route_sync_total to the Cloud Controller Manager (CCM) route controller implementation at k8s.io/cloud-provider. This metric increments each time routes are synced with the cloud provider. A/B testing watch-based route...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Hello, world.",
       "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/hello-world/ba-p/4494728",
       "published": "2026-02-25T22:10:46+00:00",
@@ -8840,17 +8862,6 @@
       "link": "https://azure.microsoft.com/updates?id=550845",
       "published": "2026-02-02T18:15:39+00:00",
       "summary": "Serverless workspaces in Azure Databricks are now generally available, offering a fully managed workspace type that comes preconfigured with serverless compute and default storage. They deliver an enterprise-ready SaaS experience with zero infrastructure",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Default Ruleset 2.2 in WAF for Azure Application Gateway",
-      "link": "https://azure.microsoft.com/updates?id=553532",
-      "published": "2026-02-02T17:45:01+00:00",
-      "summary": "Announcing the general availability of Default Rule Set (DRS) 2.2 for Web Application Firewall on Azure Application Gateway.The Azure-managed DRS provides active protection against common web vulnerabilities and exploits. It also includes Microsoft Threat",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -9989,17 +10000,6 @@
       "author": "srhulsus",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Kubernetes v1.35 Sneak Peek",
-      "link": "https://kubernetes.io/blog/2025/11/26/kubernetes-v1-35-sneak-peek/",
-      "published": "2025-11-26T00:00:00+00:00",
-      "summary": "As the release of Kubernetes v1.35 approaches, the Kubernetes project continues to evolve. Features may be deprecated, removed, or replaced to improve the project's overall health. This blog post outlines planned changes for the v1.35 release that the release team believes you should be aware of to...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
     },
     {
       "title": "Azure NCv6 Public Preview: The new Unified Platform for Converged AI and Visual Computing",
@@ -12477,5 +12477,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure- and GitHub-related posts were dominated by **enterprise AI agents, trust, and operational readiness**: Microsoft highlighted **observability for agentic AI in Azure AI Foundry**, **identity-first and privacy-preserving agent frameworks** via **Agent365** and **Microsoft Agent Framework middleware**, and practical “**AgenticOps**” patterns using **AKS**, **GitHub Copilot**, and production control planes for scalable agents. Another major theme was **developer platform hardening and usability**, including GitHub’s focus on **accessibility**, **bug bounty quality and shared responsibility**, and new productivity updates like **timestamp fields in GitHub Projects** and insights into the engineering behind **GitHub Copilot in VS Code**.\n\nOn the Azure app and data platform side, Microsoft announced easier deployment and management for **Python/FastAPI apps on Azure App Service for Linux**, including new **SSH helper aliases**, while analytics guidance centered on a **secure Medallion architecture on Azure Databricks** for governed lakehouse pipelines. Overall, the day’s announcements point to a stack that is becoming more **agent-centric, secure, observable, and production-ready** across **Azure AI, GitHub, App Service, Databricks, and Microsoft 365**."
+  "summary": "Today’s Azure-related posts centered on AI agents, cloud-native operations, and developer tooling. Microsoft highlighted how **AI agents are moving into production** across **Azure Networking**, **Azure AI Foundry**, and the **Microsoft Agent Framework**, with themes of **observability, privacy, identity-first control planes, and trustworthy/accessible agentic systems**; at the same time, Azure developer experience improved with the **general availability of the Azure Blob Storage SDK for Rust**, new **SSH helper aliases** and **simplified FastAPI deployment** for **Azure App Service on Linux**, plus guidance for **secure Medallion architecture on Azure Databricks**.\n\nOn the Kubernetes side, the notable announcements were **Kubernetes v1.36** updates introducing a **new route-sync metric in the Cloud Controller Manager** and **Mixed Version Proxy graduating to Beta**, signaling continued focus on operability and cluster lifecycle management. Broader ecosystem posts from GitHub reinforced the same production-readiness theme with updates around **GitHub Copilot’s coding harness**, **bug bounty quality**, **accessibility agents**, and workflow improvements like **timestamp fields in GitHub Projects**."
 }
