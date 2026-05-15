@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-14T21:58:45.434977+00:00",
-  "totalArticles": 1132,
+  "lastUpdated": "2026-05-15T01:49:38.397288+00:00",
+  "totalArticles": 1131,
   "articles": [
     {
       "title": "Visual Studio Code 1.121",
@@ -11,6 +11,50 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Team-level Copilot usage metrics now available via API",
+      "link": "https://github.blog/changelog/2026-05-14-team-level-copilot-usage-metrics-now-available-via-api",
+      "published": "2026-05-14T23:06:25+00:00",
+      "summary": "The Copilot usage metrics API now exposes a new user-teams report that maps each Copilot-licensed user to the teams they belong to. By joining the user-teams report with the existing… The post Team-level Copilot usage metrics now available via API appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Exponential backoff and circuit breaker for Service Bus-triggered Azure Functions",
+      "link": "https://devblogs.microsoft.com/azure-sdk/exponential-backoff-circuit-breaker-azure-functions/",
+      "published": "2026-05-14T23:04:41+00:00",
+      "summary": "Use exponential backoff and circuit breaker patterns in Azure Functions with Service Bus SDK bindings. Control retry storms, protect dependencies, and degrade gracefully under transient failures. The post Exponential backoff and circuit breaker for Service Bus-triggered Azure Functions appeared...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Swapnil Nagar",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "After the Agent Acts: Proving What Happened and Who Authorized It",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/after-the-agent-acts-proving-what-happened-and-who-authorized-it/ba-p/4519826",
+      "published": "2026-05-14T22:28:12+00:00",
+      "summary": "In part one of this series, we covered AGT's runtime governance: the policy engine, zero-trust identity, execution sandboxing, and the OWASP Agentic AI risk mapping. In part two, we moved earlier in the lifecycle: shift-left governance, CI/CD gates, attestation workflows, and supply chain...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "mosiddi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "GitHub availability report: April 2026",
+      "link": "https://github.blog/news-insights/company-news/github-availability-report-april-2026/",
+      "published": "2026-05-14T22:02:43+00:00",
+      "summary": "In April, we experienced 10 incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: April 2026 appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Natalie Guevara",
+      "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -751,17 +795,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "CodeQL 2.25.4 adds Swift 6.3.1 support, improvements to C# and Java, and more",
-      "link": "https://github.blog/changelog/2026-05-12-codeql-2-25-4-adds-swift-6-3-1-support-improvements-to-c-and-java-and-more",
-      "published": "2026-05-12T18:04:38+00:00",
-      "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.25.4, which adds Swift 6.3.1 support, improves… The post CodeQL 2.25.4 adds Swift 6.3.1 support, improvements to C# and Java, and more appeared...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "GitHub Copilot individual plans: Introducing flex allotments in Pro and Pro+, and a new Max plan",
       "link": "https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan/",
       "published": "2026-05-12T17:35:41+00:00",
@@ -1496,17 +1529,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Validating agentic behavior when “correct” isn’t deterministic",
-      "link": "https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic/",
-      "published": "2026-05-06T21:16:31+00:00",
-      "summary": "How to build the “Trust Layer” for Github Copilot Coding Agents without brittle scripts or black-box judgements by using dominatory analysis. The post Validating agentic behavior when “correct” isn’t deterministic appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Gaurav Mittal",
-      "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -8264,17 +8286,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "JMESPath support comes to azd JSON output",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azd-jmespath-query-support/",
-      "published": "2026-02-17T18:19:18+00:00",
-      "summary": "Run JMESPath queries on azd JSON output, including error messages. The post JMESPath support comes to azd JSON output appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Scott Addie",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Public Preview: Automatic zone balance for Virtual Machine Scale Sets",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/public-preview-automatic-zone-balance-for-virtual-machine-scale/ba-p/4494476",
       "published": "2026-02-17T17:30:00+00:00",
@@ -10475,17 +10486,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Linux on Azure at Microsoft Ignite 2025: What’s New, What to Attend, and Where to Find Us",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/linux-on-azure-at-microsoft-ignite-2025-what-s-new-what-to/ba-p/4470685",
-      "published": "2025-11-17T18:55:08+00:00",
-      "summary": "Microsoft Ignite 2025 is almost here, and we’re heading back to San Francisco from November 17-21 with a full digital experience for those joining online. Every year, Ignite brings together IT pros, developers, security teams, and technology leaders from around the world to explore the future of...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "shreyabaheti",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure Virtual Network Manager + Azure Virtual WAN",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-virtual-network-manager-azure-virtual-wan/ba-p/4469991",
       "published": "2025-11-17T16:54:52+00:00",
@@ -12442,18 +12442,6 @@
       "author": "tayaras",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecommunicationservicesblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Beyond the tools, adding MCP in VS Code",
-      "link": "https://code.visualstudio.com/blogs/2025/05/12/agent-mode-meets-mcp",
-      "published": "2025-05-14T00:00:00+00:00",
-      "summary": "Bring your own tools to VS Code's agent mode with MCP. Read the full article",
-      "blog": "Visual Studio Code",
-      "blogId": "vscode",
-      "author": "Harald Kirschner",
-      "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "sourceType": "rss"
     }
-  ],
-  "summary": "Today’s Azure-related posts were dominated by **enterprise AI, security, and platform modernization**. On the AI side, Microsoft highlighted **Azure AI Foundry** integrations with **Fireworks AI** for open-model inference at scale, a **DocuSign MCP + Foundry** contract agent, and **SQL MCP Server** as a safer pattern for **NL2SQL** than exposing raw databases directly to prompts; security posts reinforced this with guidance on **defense in depth for autonomous agents** and AI app misconfiguration risks.  \n\nOn the platform side, Azure announced several concrete infrastructure and developer updates: **Azure Monitor Health Model API** refreshes, **Azure Application Gateway Layer 4 TCP/TLS Proxy** for modernizing TCP apps, GA support for **large-file workloads in Azure NetApp Files** and **managed identity for Azure Files SMB**, plus the **Azure SDK for Rust** reaching stable. Broader ecosystem items also matter for operators: **Kubernetes v1.36** removes **Service ExternalIPs**, **AKS sandbox pods** got faster startup via decoupled memory handling, **GitHub Actions** is migrating runner images, **GitHub Copilot app** entered technical preview, and Microsoft shipped **May patches for Azure DevOps Server**."
+  ]
 }
