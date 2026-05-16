@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16T15:45:31.796171+00:00",
+  "lastUpdated": "2026-05-16T18:44:58.131435+00:00",
   "totalArticles": 1134,
   "articles": [
     {
@@ -12477,5 +12477,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related blog coverage focused on GitHub platform integration and finer-grained authentication control for developers building against GitHub APIs. The key announcement was a new **per-request override header for GitHub App installation tokens**, which lets apps adjust token behavior on individual API calls instead of relying only on broader default settings—an important update for teams managing **GitHub Apps**, **installation tokens**, and secure request scoping in automated workflows."
+  "summary": "Today’s Azure-related update spotlights a GitHub integration change rather than a core Azure platform launch: GitHub App installation tokens now support a **per-request override header**, giving developers finer-grained control over how installation authentication is applied on individual API requests. The key theme is improved **security and flexibility for GitHub App-based automation**, which is especially relevant for Azure DevOps, GitHub Actions, and other cloud workflows that rely on scoped installation tokens."
 }
