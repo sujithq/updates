@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16T01:30:22.048966+00:00",
+  "lastUpdated": "2026-05-16T05:44:46.499203+00:00",
   "totalArticles": 1134,
   "articles": [
     {
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "GitHub App installation tokens: Per-request override header",
+      "link": "https://github.blog/changelog/2026-05-15-github-app-installation-tokens-per-request-override-header",
+      "published": "2026-05-16T00:07:40+00:00",
+      "summary": "As announced in April 2026, GitHub is rolling out a new token format for GitHub App installation tokens. To help you validate your apps and workflows before the rollout reaches… The post GitHub App installation tokens: Per-request override header appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -683,17 +694,6 @@
       "author": "Seth_Patton",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Start Copilot cloud agent tasks via the REST API",
-      "link": "https://github.blog/changelog/2026-05-13-start-copilot-cloud-agent-tasks-via-the-rest-api",
-      "published": "2026-05-13T18:01:15+00:00",
-      "summary": "Copilot Business and Copilot Enterprise users can programmatically start Copilot cloud agent tasks with the new Agent tasks REST API, available in public preview. Copilot cloud agent works in the… The post Start Copilot cloud agent tasks via the REST API appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Introducing Azure Container Apps Express!",
@@ -12476,5 +12476,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecommunicationservicesblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure-related update highlights a GitHub integration improvement rather than a broad Azure platform launch: GitHub App installation tokens now support a **per-request override header**, letting developers modify token behavior on individual API calls instead of relying solely on default installation settings. The key theme is **finer-grained authentication and API access control** for automation and integrations built around **GitHub Apps**, which can benefit Azure DevOps, CI/CD, and cloud management workflows that depend on GitHub-based authorization."
 }
