@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T06:42:40.564930+00:00",
+  "lastUpdated": "2026-05-18T12:19:20.900192+00:00",
   "totalArticles": 1133,
   "articles": [
     {
@@ -12,6 +12,50 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Building a Controllable Inference Platform on Kubernetes with AI Runway",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-a-controllable-inference-platform-on-kubernetes-with-ai/ba-p/4520590",
+      "published": "2026-05-18T11:46:14+00:00",
+      "summary": "When enterprises move generative AI from demos to real business workloads, the hardest question is usually not whether a model can answer a prompt. The harder question is whether the whole system can run reliably, predictably, securely, and economically over time. This becomes especially important...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Getting Started with OpenSearch on AKS with AKS AVM and Helm",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/getting-started-with-opensearch-on-aks-with-aks-avm-and-helm/ba-p/4520392",
+      "published": "2026-05-18T08:28:56+00:00",
+      "summary": "Co-authored by Chetan Vaja (Senior Cloud Solution Architect @ Microsoft), Ninad Kapse (Senior Cloud Solution Architect @ Microsoft), Vikas Gautam (Senior Cloud Solution Architect @ Microsoft), and Prafulla Wani (Principal Cloud Solution Architect @ Microsoft). Summary OpenSearch is a...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "prafullawani",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Understanding and building an Azure Hybrid Meshed Hub-Spoke Topology",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/understanding-and-building-an-azure-hybrid-meshed-hub-spoke/ba-p/4516879",
+      "published": "2026-05-18T07:15:26+00:00",
+      "summary": "A meshed hybrid hub-spoke topology Azure offers two main approaches to build network architectures. This article focuses on traditional networking (using VNets, peering, route tables, etc.), rather than Azure Virtual WAN. Why a hub-spoke topology? A hub‑spoke topology is the only way to control...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Svenbaeck",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Integrating Azure DevOps with VS Code Agent using MCP (Model Context Protocol)",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/integrating-azure-devops-with-vs-code-agent-using-mcp-model/ba-p/4516250",
+      "published": "2026-05-18T07:00:00+00:00",
+      "summary": "🧠 What is MCP (Model Context Protocol)? MCP is a standard interface that allows AI agents to securely interact with external systems such as Azure DevOps/ With MCP: Azure DevOps capabilities are exposed as tools GitHub Copilot can discover, reason, and execute actions All actions happen with user...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "bhramesh",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "GPT-5.3-Codex is now the base model for Copilot Business and Enterprise",
@@ -3138,17 +3182,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "The Future of Agentic AI: Inside Microsoft Agent Framework 1.0",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/the-future-of-agentic-ai-inside-microsoft-agent-framework-1-0/ba-p/4510698",
-      "published": "2026-04-28T07:00:00+00:00",
-      "summary": "Agentic AI is rapidly moving beyond demos and chatbots toward long‑running, autonomous systems that reason, call tools, collaborate with other agents, and operate reliably in production. On April 3, 2026, Microsoft marked a major milestone with the General Availability (GA) release of Microsoft...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "rajesh-yadav",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Why Does Azure App Service Return HTTP 404?",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/why-does-azure-app-service-return-http-404/ba-p/4514004",
       "published": "2026-04-28T06:39:38+00:00",
@@ -3256,17 +3289,6 @@
       "blogId": "linuxandopensourceblog",
       "author": "robcronin",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Rethinking Data Modeling: How GitHub Copilot Is Changing the Way We Design Systems",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/rethinking-data-modeling-how-github-copilot-is-changing-the-way/ba-p/4509941",
-      "published": "2026-04-27T07:00:00+00:00",
-      "summary": "There is a point in every engineer’s journey where data modeling stops feeling intuitive. What starts as a clean schema becomes harder to reason about. Relationships blur. Query paths multiply. Small changes ripple across different steps. This is where data modeling reveals its real challenge: not...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "B_Manasa",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3576,17 +3598,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Microsoft 365 multi-agent workflow with Microsoft Agent Framework",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/microsoft-365-multi-agent-workflow-with-microsoft-agent/ba-p/4514164",
-      "published": "2026-04-23T16:16:15+00:00",
-      "summary": "Most production AI tasks are too complex for a single agent. You need specialists that collaborate, a destination expert that researches the best places to visit, a budget analyst that breaks down costs, an activities curator that finds the best experiences, all coordinated by an orchestration...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Vincent_Giraud",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Automate Prior Authorization with AI Agents - Now Available as a Foundry Template",
@@ -10541,17 +10552,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Delivering web applications over IPv6",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/delivering-web-applications-over-ipv6/ba-p/4469638",
-      "published": "2025-11-14T13:57:25+00:00",
-      "summary": "The IPv4 address space pool has been exhausted for some time now, meaning there is no new public address space available for allocation from Internet Registries. The internet continues to run on IPv4 through technical measures such as Network Address Translation (NAT) and Carrier Grade NAT, and...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Marc de Droog",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Generational Performance Leap for Azure Confidential Computing",
       "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/generational-performance-leap-for-azure-confidential-computing/ba-p/4468989",
       "published": "2025-11-13T20:47:39+00:00",
@@ -12466,5 +12466,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure-related update is a GitHub Copilot announcement: **GPT-5.3-Codex** is now the **default base model for GitHub Copilot Business and Enterprise**. The key theme is an upgrade to the underlying **code-generation and developer-assistance model** powering Copilot for organizational customers, signaling improved coding support and model standardization for enterprise and business tiers."
+  "summary": "Today’s Azure posts centered on cloud-native AI, Kubernetes, and developer tooling: one article detailed a controllable inference platform on Kubernetes using AI Runway, while another walked through deploying OpenSearch on Azure Kubernetes Service with AKS AVM and Helm. Microsoft also highlighted enterprise architecture and productivity, with guidance on Azure hybrid meshed hub-spoke networking, a tutorial on connecting Azure DevOps to the VS Code Agent via MCP (Model Context Protocol), and GitHub’s announcement that GPT-5.3-Codex is now the default base model for Copilot Business and Enterprise."
 }
