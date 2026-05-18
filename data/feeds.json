@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T17:23:18.556689+00:00",
+  "lastUpdated": "2026-05-18T19:20:40.329426+00:00",
   "totalArticles": 1133,
   "articles": [
     {
@@ -11,6 +11,50 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Turn Your App Service Web App Into a Self-Healing Agent: LLMOps Best Practices for Production",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/turn-your-app-service-web-app-into-a-self-healing-agent-llmops/ba-p/4520867",
+      "published": "2026-05-18T18:06:59+00:00",
+      "summary": "A user submits a prompt. The agent burns through 50,000 tokens looping on a malformed tool response. Another user trips a model rate limit and the agent silently fails. A bad prompt update goes out at 4 PM Friday and degrades success rate to 60%. Your APM dashboard shows green the entire time...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[Launched] Generally Available: Application Insights Auto-instrumentation for Azure Kubernetes Service apps",
+      "link": "https://azure.microsoft.com/updates?id=562049",
+      "published": "2026-05-18T18:00:18+00:00",
+      "summary": "Azure Monitor Application Insights auto-instrumentation for Azure Kubernetes Service (AKS) apps is now generally available, making it easier to monitor your applications without modifying source code. With just a few configuration steps, you can automatic",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Auto activation for SaaS subscriptions in Microsoft Marketplace",
+      "link": "https://azure.microsoft.com/updates?id=561771",
+      "published": "2026-05-18T18:00:18+00:00",
+      "summary": "Auto activation for SaaS solutions is now available in Microsoft Marketplace, making it faster and easier to get the value from your SaaS products. When auto activation is enabled, your subscription—and billing cycle—begins the moment you complete your pu",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Front Door WebSocket",
+      "link": "https://azure.microsoft.com/updates?id=562548",
+      "published": "2026-05-18T17:45:33+00:00",
+      "summary": "Azure Front Door Standard and Premium now support WebSocket in general availability. WebSocket is enabled by default and requires no additional configuration. WebSocket provides full-duplex communication over a single, long-lived TCP connection, enabling",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -127,7 +171,7 @@
       "title": "How to better protect your growing business in an AI-powered world",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/18/how-to-better-protect-your-growing-business-in-an-ai-powered-world/",
       "published": "2026-05-18T16:00:00+00:00",
-      "summary": "AI is reshaping work and introducing new risks. See how built-in security helps keep your growing business running, protect customer trust, and support growth. The post How to better protect your growing business in an AI-powered world appeared first on Microsoft Security Blog.",
+      "summary": "See how built-in security helps keep your growing business running, protect customer trust, and support growth. The post How to better protect your growing business in an AI-powered world appeared first on Microsoft Security Blog.",
       "blog": "Microsoft Security Blog",
       "blogId": "microsoftsecurity",
       "author": "Alym Rayani",
@@ -3377,17 +3421,6 @@
       "blogId": "linuxandopensourceblog",
       "author": "robcronin",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "How to Troubleshoot Azure Functions Service Bus Trigger Issues",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-to-troubleshoot-azure-functions-service-bus-trigger-issues/ba-p/4514006",
-      "published": "2026-04-27T06:01:56+00:00",
-      "summary": "Table of Contents Overview Understanding How the Service Bus Trigger Works Message Processing Flow Key Concepts host.json Configuration Reference Issue Categories Common Causes and Solutions 1. Connection String or Configuration Errors 2. Authentication and Authorization Failures (RBAC / SAS) 3....",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "vikasgupta5",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8781,28 +8814,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Azure Container Storage v2.1.0 now with Elastic SAN integration and on demand installation",
-      "link": "https://azure.microsoft.com/updates?id=553917",
-      "published": "2026-02-03T20:30:31+00:00",
-      "summary": "Azure Container Storage v2.1.0 is now generally available. This release adds native Elastic SAN support and introduces a lightweight, on-demand installation model to simplify deployment and operations for Kubernetes workloads on Azure. Elastic SAN Storage",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Azure Kubernetes Fleet Manager namespace-scoped resource placement",
-      "link": "https://azure.microsoft.com/updates?id=548198",
-      "published": "2026-02-03T20:30:31+00:00",
-      "summary": "Namespace-scoped resource placement, now in preview for Azure Kubernetes Fleet Manager, delivers fine‑grained control over selection and propagation of individual namespace‑scoped resources across multiple clusters. This new capability means it is now p",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Extending Defender’s AI Threat Protection to Microsoft Foundry Agents",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/extending-defender-s-ai-threat-protection-to-microsoft-foundry/ba-p/4491927",
       "published": "2026-02-03T18:49:00+00:00",
@@ -8867,17 +8878,6 @@
       "author": "Yura_Lee",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Retirement: Azure Front Door and Azure CDN profiles will end support for DHE cipher suites on April 1, 2026",
-      "link": "https://azure.microsoft.com/updates?id=553527",
-      "published": "2026-02-02T18:15:39+00:00",
-      "summary": "As part of our ongoing commitment to security, Azure Front Door (Standard, Premium, Classic) and Azure CDN from Microsoft (Classic) services will no longer support weak cipher suites TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 and TLS_DHE_RSA_WITH_AES_128_GCM_SH",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
     },
     {
       "title": "Serverless Workspaces are generally available in Azure Databricks",
@@ -12466,5 +12466,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure and Microsoft posts were dominated by AI platform and Copilot updates: Azure AI Foundry added **Grok 4.3** for more agentic workloads plus new image models including **Tongyi-MAI Z-Image-Turbo**, **FLUX.1-schnell**, and **SDXL base 1.0**, while GitHub announced **GPT-5.3-Codex** as the new base model for **Copilot Business and Enterprise**, **Copilot Spaces API** general availability, mobile/web/VS Code remote control for **Copilot CLI**, and a new REST API to audit **Copilot cloud agent** configuration. Microsoft also expanded security and governance around AI with the **Agent 365 connector for Microsoft Sentinel** to monitor and investigate AI agent activity, alongside broader business security guidance and a Foundry post on global deployment risk assessment.\n\nOn the Azure infrastructure and app platform side, the biggest themes were modernization and operational best practices: **.NET NuGet Package Pruning** to reduce dependency sprawl and improve vulnerability reporting, guidance to upgrade Azure apps without starting with code changes, **Easy Auth** CI/CD setup for **Logic App Standard**, scaling **MCP servers** behind an **App Service** load balancer, deploying **OpenSearch on AKS** with **Helm/AKS AVM**, building a controllable inference platform on **Kubernetes**, and designing an **Azure hybrid meshed hub-spoke** network topology."
+  "summary": "Today’s Azure and Microsoft ecosystem posts centered on production AI and agent operations: Azure highlighted LLMOps patterns for self-healing App Service apps, scaling MCP servers behind App Service load balancers, controllable Kubernetes inference with AI Runway, and new Azure AI Foundry model additions including Grok 4.3 and image models such as Tongyi-MAI Z-Image-Turbo, FLUX.1-schnell, and SDXL base 1.0. The day also brought several GA infrastructure updates, notably Application Insights auto-instrumentation for AKS, Azure Front Door WebSocket support, Microsoft Marketplace SaaS auto-activation, Copilot Spaces API, and remote control for Copilot CLI sessions.\n\nA second major theme was modernization, security, and governance across apps and AI agents: Microsoft shared guidance on upgrading applications without starting from code changes, CI/CD-based Easy Auth setup for Logic App Standard, NuGet package pruning for dependency hygiene and vulnerability reporting, Sentinel’s new Agent 365 connector for monitoring AI agent activity, and GitHub REST API support to audit repository Copilot cloud agent configuration. Broader business-facing updates included a redesigned Microsoft 365 Copilot Adoption Hub and security advice for growing businesses operating in an AI-powered world."
 }
