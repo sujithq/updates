@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T21:58:06.512767+00:00",
+  "lastUpdated": "2026-05-19T01:56:00.523088+00:00",
   "totalArticles": 1133,
   "articles": [
     {
@@ -11,6 +11,39 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "How Storm-2949 turned a compromised identity into a cloud-wide breach",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/18/storm-2949-turned-compromised-identity-into-cloud-wide-breach/",
+      "published": "2026-05-18T22:42:50+00:00",
+      "summary": "Storm-2949 turned stolen credentials into a cloud-wide breach, moving from identity compromise to large-scale data theft without using malware. This incident shows how threat actors can exploit trusted systems to operate undetected. The post How Storm-2949 turned a compromised identity into a...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Defender Security Research Team",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "One-click fixes for failing Actions with Copilot cloud agent",
+      "link": "https://github.blog/changelog/2026-05-18-one-click-fixes-for-failing-actions-with-copilot-cloud-agent",
+      "published": "2026-05-18T22:29:27+00:00",
+      "summary": "When a GitHub Actions job fails, Copilot Business and Copilot Enterprise subscribers can now ask Copilot cloud agent to fix it in one click. Click the Fix with Copilot button… The post One-click fixes for failing Actions with Copilot cloud agent appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Copilot cloud agent: Fast, cost-efficient models for simple tasks",
+      "link": "https://github.blog/changelog/2026-05-18-copilot-cloud-agent-fast-cost-efficient-models-for-simple-tasks",
+      "published": "2026-05-18T21:15:35+00:00",
+      "summary": "When you delegate a task to Copilot cloud agent, you can pick the model it uses to do its work. Today, we’re expanding the list of supported models to include… The post Copilot cloud agent: Fast, cost-efficient models for simple tasks appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -454,17 +487,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Timestamp fields in GitHub Projects",
-      "link": "https://github.blog/changelog/2026-05-15-timestamp-fields-in-github-projects",
-      "published": "2026-05-15T12:55:56+00:00",
-      "summary": "GitHub Projects now includes three built-in timestamp fields: Created, Updated, and Closed. You can add them to any project view to sort and filter work based on when it was… The post Timestamp fields in GitHub Projects appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "New SSH helper aliases for Python apps on Azure App Service for Linux",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/new-ssh-helper-aliases-for-python-apps-on-azure-app-service-for/ba-p/4520111",
       "published": "2026-05-15T10:37:16+00:00",
@@ -550,17 +572,6 @@
       "blogId": "vscode",
       "author": "VS Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Team-level Copilot usage metrics now available via API",
-      "link": "https://github.blog/changelog/2026-05-14-team-level-copilot-usage-metrics-now-available-via-api",
-      "published": "2026-05-14T23:06:25+00:00",
-      "summary": "The Copilot usage metrics API now exposes a new user-teams report that maps each Copilot-licensed user to the teams they belong to. By joining the user-teams report with the existing… The post Team-level Copilot usage metrics now available via API appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1672,17 +1683,6 @@
       "blogId": "azuresdkblog",
       "author": "Kristen Womack",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "When prompts become shells: RCE vulnerabilities in AI agent frameworks",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/07/prompts-become-shells-rce-vulnerabilities-ai-agent-frameworks/",
-      "published": "2026-05-07T20:22:39+00:00",
-      "summary": "New research exposes how prompt injection in AI agent frameworks can lead to remote code execution. Learn how these vulnerabilities work, what’s impacted, and how to secure your agents. The post When prompts become shells: RCE vulnerabilities in AI agent frameworks appeared first on Microsoft...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Defender Security Research Team, Uri Oren, Amit Eliahu and Dor Edry",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -12465,6 +12465,5 @@
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     }
-  ],
-  "summary": "Azure’s updates today center on AI agents, developer productivity, and production resilience: Microsoft highlighted new agentic capabilities in Azure AI Foundry with Grok 4.3 plus image models like Tongyi-MAI Z-Image-Turbo, FLUX.1-schnell, and SDXL base 1.0; GitHub shipped context-aware Copilot on the web, GA for the Copilot Spaces API, and REST API auditing for Copilot cloud agent settings; and App Service guidance focused on self-healing LLMOps patterns and scaling MCP servers behind load balancers. On the platform side, Azure announced GA for Application Insights auto-instrumentation on AKS, Azure Front Door WebSocket support, and Marketplace SaaS auto-activation, while Logic Apps added Code Interpreters and CI/CD-friendly Easy Auth configuration, Azure App Configuration introduced rollout “Scorecards,” .NET promoted NuGet package pruning for dependency and vulnerability hygiene, and Microsoft Sentinel added the Agent 365 connector for monitoring AI agent activity."
+  ]
 }
