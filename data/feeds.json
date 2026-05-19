@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T11:52:55.110093+00:00",
+  "lastUpdated": "2026-05-19T14:27:13.448797+00:00",
   "totalArticles": 1133,
   "articles": [
     {
@@ -121,17 +121,6 @@
       "blogId": "integrationsonazureblog",
       "author": "WSilveira",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Safe Rollouts Start with Signals: Introducing Scorecards in Azure App Configuration",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/safe-rollouts-start-with-signals-introducing-scorecards-in-azure/ba-p/4520881",
-      "published": "2026-05-18T19:59:18+00:00",
-      "summary": "Applications are rarely changed all at once anymore. Teams use feature flags, targeting rules, and progressive rollout patterns to introduce changes gradually and reduce risk. This rollout model gives teams more than a safer way to control exposure. It also creates the context to understand what...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "mukta",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3334,6 +3323,17 @@
       "author": "Niels Laute",
       "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Why Does Azure App Service Return HTTP 404?",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/why-does-azure-app-service-return-http-404/ba-p/4514004",
+      "published": "2026-04-28T06:39:38+00:00",
+      "summary": "When an application deployed to Azure App Service suddenly starts returning HTTP 404 – Not Found, it can be confusing —especially when: The deployment completed successfully The App Service shows as Running No obvious errors appear in the portal This behaviour is more common than it appears and is...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "AmritpalSinghNaroo",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Introducing AI Skill Assessment in Azure API Center",
@@ -12466,5 +12466,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure-related posts focused heavily on enterprise AI governance and operational reliability: Microsoft highlighted the AI Guardian Extension for AI detection and enterprise AI security, alongside a “confidence-aware” RAG pattern that helps retrieval-augmented generation systems explicitly recognize uncertainty rather than overstate answers. On the infrastructure side, the posts covered hybrid and governance tooling, including Rundeck integration with an Azure Runner for AWS enterprise workflows and a Terraform drift validator for Azure that verifies deployed state against the live Azure Portal; separately, GitHub announced the removal of the `code_scanning_upload` field from the `rate_limit` API endpoint."
+  "summary": "Today’s Azure-related posts centered on enterprise AI governance and infrastructure automation: Azure highlighted the **AI Guardian Extension** for **AI detection and enterprise AI security**, a **confidence-aware RAG** pattern that helps AI systems explicitly surface uncertainty, and a **Terraform drift validator for Azure** that verifies infrastructure state against the **live Azure portal**. On the ops side, Azure also featured **Rundeck integration with Azure Runner** for **AWS enterprise workflows**, while the broader developer ecosystem note was GitHub’s API change removing the **`code_scanning_upload`** field from the **`rate_limit`** endpoint."
 }
