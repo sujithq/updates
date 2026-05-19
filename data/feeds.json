@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T01:56:00.523088+00:00",
+  "lastUpdated": "2026-05-19T06:37:46.140838+00:00",
   "totalArticles": 1133,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Building a Terraform Drift Validator for Azure with Live Portal Verification",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-a-terraform-drift-validator-for-azure-with-live-portal/ba-p/4520952",
+      "published": "2026-05-19T06:18:13+00:00",
+      "summary": "Architecture: This blog describes how to build a practical Terraform Drift Validator for Azure that compares three sources of truth: Excel sheet or design document containing expected Azure configuration Terraform state file representing IaC-managed deployed intent Live Azure configuration,...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ranjsharma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "How Storm-2949 turned a compromised identity into a cloud-wide breach",
@@ -2838,17 +2849,6 @@
       "blogId": "azuregovernanceandmanagementblog",
       "author": "jtracey93msft",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "🚀 From Drift to Diagnosis: AI‑Powered Root Cause Analysis for Azure Infrastructure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-drift-to-diagnosis-ai-powered-root-cause-analysis-for-azure/ba-p/4515436",
-      "published": "2026-04-30T07:08:53+00:00",
-      "summary": "🌍 A Real-World Scenario During a recent production deployment of an enterprise AI platform, everything looked perfectly aligned from an infrastructure perspective: ✅ Infrastructure deployed via IaC (Terraform)✅ Private endpoints enforced✅ Public access disabled for all AI services A few hours...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Pooja_Pradhan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12465,5 +12465,6 @@
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage centers on infrastructure governance and configuration accuracy, with a post on **building a Terraform Drift Validator for Azure** that uses **live verification against the Azure portal** to detect when deployed resources have diverged from Terraform state or code. The key theme is stronger **Azure Infrastructure** compliance and operational reliability through automated drift detection, helping teams validate real-world Azure resource configurations beyond static IaC checks."
 }
