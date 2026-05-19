@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T17:33:24.373966+00:00",
+  "lastUpdated": "2026-05-19T19:31:39.775652+00:00",
   "totalArticles": 1133,
   "articles": [
     {
@@ -11,6 +11,72 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure Arc Server April 2026 Forum",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-server-april-2026-forum/ba-p/4521318",
+      "published": "2026-05-19T18:58:36+00:00",
+      "summary": "Please find the recording for the monthly Azure Arc Server Forum on YouTube! During the April 2026 Azure Arc Server Forum, we discussed: Public Preview of Essential Machine Management, learn more at aka.ms/EMM-blog and sign up at aka.ms/EMM-feedback Engage with product group on exploration of AI on...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Aurnov_Chattopadhyay",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Agentic AI for Linux Operations on Azure: The Prompts",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/agentic-ai-for-linux-operations-on-azure-the-prompts/ba-p/4520924",
+      "published": "2026-05-19T18:25:43+00:00",
+      "summary": "Try This Yourself: Agentic AI for Linux Operations on Azure At Red Hat Summit 2026, I handed GitHub Copilot CLI a terminal and asked it to deploy a full-stack application to RHEL 10 on Azure. Live. From a single prompt. No scripts, no runbooks, no pre-baked automation. The audience watched every...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "abbottkarl",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Metrics Filtering and Log Aggregation Now GA for Advanced Container Networking Services",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/metrics-filtering-and-log-aggregation-now-ga-for-advanced/ba-p/4516508",
+      "published": "2026-05-19T18:13:31+00:00",
+      "summary": "We are thrilled to announce that Advanced Container Networking Services (ACNS) for Azure Kubernetes Service (AKS) now delivers two powerful observability features in General Availability: container network metrics filtering and container network log filtering and aggregation. Together, these...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "chandanAggarwal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Gemini 3.5 Flash is generally available for GitHub Copilot",
+      "link": "https://github.blog/changelog/2026-05-19-gemini-3-5-flash-is-generally-available-for-github-copilot",
+      "published": "2026-05-19T17:56:38+00:00",
+      "summary": "Gemini 3.5 Flash, Google’s latest Flash-tier model, is now rolling out on GitHub Copilot. In our early testing, Gemini 3.5 Flash delivers near-Pro coding quality at Flash-tier speed and cost… The post Gemini 3.5 Flash is generally available for GitHub Copilot appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Expanded OIDC support for Dependabot and code scanning",
+      "link": "https://github.blog/changelog/2026-05-19-expanded-oidc-support-for-dependabot-and-code-scanning",
+      "published": "2026-05-19T17:41:04+00:00",
+      "summary": "Dependabot and code scanning now support OpenID Connect (OIDC) authentication for private registries configured at the organization level for two additional registries: Cloudsmith and Google Artifact Registry. What’s new Organization… The post Expanded OIDC support for Dependabot and code scanning...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Evaluate feature rollouts with Azure App Configuration Scorecards",
+      "link": "https://azure.microsoft.com/updates?id=561049",
+      "published": "2026-05-19T17:15:23+00:00",
+      "summary": "Azure App Configuration now supports a scorecards capability in public preview. Scorecards provide a telemetry-driven view of how feature flag variants are performing in production, helping teams identify measurable changes after a rollout without manuall",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -529,28 +595,6 @@
       "author": "bhramesh",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "GPT-5.3-Codex is now the base model for Copilot Business and Enterprise",
-      "link": "https://github.blog/changelog/2026-05-17-gpt-5-3-codex-is-now-the-base-model-for-copilot-business-and-enterprise",
-      "published": "2026-05-18T04:01:11+00:00",
-      "summary": "As announced on March 18, 2026, GPT-5.3-Codex is now the base model for all Copilot Business and Copilot Enterprise organizations, replacing GPT-4.1. The base model is used when your organization… The post GPT-5.3-Codex is now the base model for Copilot Business and Enterprise appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "GitHub App installation tokens: Per-request override header",
-      "link": "https://github.blog/changelog/2026-05-15-github-app-installation-tokens-per-request-override-header",
-      "published": "2026-05-16T00:07:40+00:00",
-      "summary": "As announced in April 2026, GitHub is rolling out a new token format for GitHub App installation tokens. To help you validate your apps and workflows before the rollout reaches… The post GitHub App installation tokens: Per-request override header appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "What's new in FinOps toolkit 14 – April 2026",
@@ -2718,17 +2762,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "High-Fidelity Network Observability at Scale— ACNS Metrics Filtering and Log Aggregation Now GA",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/high-fidelity-network-observability-at-scale-acns-metrics/ba-p/4516508",
-      "published": "2026-05-01T20:29:20+00:00",
-      "summary": "We are thrilled to announce that Advanced Container Networking Services (ACNS) for Azure Kubernetes Service (AKS) now delivers two powerful observability features in General Availability: container network metrics filtering and container network log filtering and aggregation. Together, these...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "chandanAggarwal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "What’s New in Agent 365: May 2026",
@@ -8737,17 +8770,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "[Launched] Generally Available: AMD v6 confidential VMs in new regions for January 2026",
-      "link": "https://azure.microsoft.com/updates?id=553966",
-      "published": "2026-02-06T01:00:02+00:00",
-      "summary": "DCa/ECa v6 series AMD based confidential virtual machines are now generally available in 11 new regions: Canada Central, Canada East, Norway East, Norway West, Italy North, Germany North, France South, Australia East, West US, West US 3, Germany West Cent",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Deploying KubeVirt on AKS",
       "link": "https://blog.aks.azure.com/2026/02/06/kubevirt-on-aks",
       "published": "2026-02-06T00:00:00+00:00",
@@ -10046,17 +10068,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Azure Local 22H2 Clusters: End of Service and Feature Degradation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-local-22h2-clusters-end-of-service-and-feature-degradation/ba-p/4470129",
-      "published": "2025-11-25T15:17:52+00:00",
-      "summary": "Azure Local (formerly Azure Stack HCI) version 22H2 reached End of Service (EOS) on May 31, 2025. As communicated earlier, this means: No further security updates or bug fixes will be provided. CSS support is limited to upgrade assistance of the existing environment only. What’s Changing? Around...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Arpita Duppala",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Public Preview: Entra ID support for RDP connections in portal",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/public-preview-entra-id-support-for-rdp-connections-in-portal/ba-p/4472675",
       "published": "2025-11-24T20:15:00+00:00",
@@ -10482,17 +10493,6 @@
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
       "author": "pallakatos",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Innovations and Strengthening Platforms Reliability Through Open Source",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/innovations-and-strengthening-platforms-reliability-through-open/ba-p/4468172",
-      "published": "2025-11-18T06:42:34+00:00",
-      "summary": "The Linux Systems Group (LSG) at Microsoft is the team building OS innovations in Azure enabling secure and high-performance platforms that power millions of workloads worldwide. From providing the OS for Boost, optimizing Linux kernels for hyperscale environments or contributing to open-source...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "KashanK",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -12466,5 +12466,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Azure’s biggest themes today were infrastructure GA milestones, AI/LLM operational maturity, and security. Microsoft announced general availability for Azure NetApp Files cache volumes, Intel TDX confidential VMs, Network Watcher’s rule impact analyser, Azure Storage Actions mock runs, and higher default Azure Virtual Network limits for NSGs and route tables, alongside simpler Azure Arc–enabled Hotpatching for Windows Server 2025.\n\nOn the AI side, posts focused on production readiness: faster LLM startup using Azure Blob Storage with Run:AI Model Streamer, model-router evaluations in Microsoft Foundry, AI-generated Azure architecture diagrams, confidence-aware RAG, and autonomous agent/orchestrator patterns. Security was also prominent, with Microsoft exposing the Fox Tempest malware-signing service, guidance on enterprise AI protection via an AI Guardian extension, and GitHub updates around Advanced Security trials and code-scanning API changes."
+  "summary": "Today’s Azure news was dominated by AI and security: Microsoft highlighted agentic AI for Linux operations on Azure, model evaluation and routing in Microsoft Foundry, AI-generated Azure architecture diagrams, and faster LLM startup with Azure Blob Storage plus Run:AI Model Streamer, while GitHub announced Gemini 3.5 Flash is now generally available in Copilot and expanded OIDC support for Dependabot and code scanning. Security also stood out with GA for Azure Intel TDX confidential VMs, a Microsoft threat report on the Fox Tempest malware-signing service, a new GitHub Advanced Security trial path, and an enterprise-focused AI Guardian Extension.\n\nOn the infrastructure side, several networking and hybrid-management capabilities reached GA or preview, including metrics filtering and log aggregation for Advanced Container Networking Services, Azure NetApp Files cache volumes, higher default Azure Virtual Network limits for NSGs and route tables, Network Watcher rule impact analyser, and mock runs for Azure Storage Actions. Azure Arc remained a major theme as well, with the April 2026 Azure Arc Server Forum and simplified Hotpatching access for Windows Server 2025 via Azure Arc, alongside App Configuration Scorecards entering public preview to evaluate feature rollouts."
 }
