@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T14:27:13.448797+00:00",
+  "lastUpdated": "2026-05-19T17:33:24.373966+00:00",
   "totalArticles": 1133,
   "articles": [
     {
@@ -12,6 +12,149 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure NetApp Files cache volumes",
+      "link": "https://azure.microsoft.com/updates?id=562259",
+      "published": "2026-05-19T17:00:29+00:00",
+      "summary": "Azure NetApp Files cache volumes is now Generally Available. Azure NetApp Files now support cache volumes, which are cloud-based caches of an external origin volume, containing only the most actively accessed data on the volume. This brings data and files",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Virtual Network updates – default limits increased for NSGs and route tables",
+      "link": "https://azure.microsoft.com/updates?id=562695",
+      "published": "2026-05-19T16:45:42+00:00",
+      "summary": "Azure Virtual Network has increased the default platform limits for network security groups (NSGs) and route tables. The new defaults are now 2,000 security rules per NSG, 6,000 addresses or ports per NSG rule, 1,000 routes per route table, and 600 route",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Network Watcher rule impact analyser",
+      "link": "https://azure.microsoft.com/updates?id=562690",
+      "published": "2026-05-19T16:45:42+00:00",
+      "summary": "Azure Network Watcher rule impact analyzer is now generally available, enabling you to assess the potential impact of your network security group (NSG) or security admin rule changes on live network traffic before applying them. With this capability, you",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing general availability of Azure Intel® TDX confidential VMs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-general-availability-of-azure-intel-tdx-confidential/ba-p/4495693",
+      "published": "2026-05-19T16:44:15+00:00",
+      "summary": "We’re excited to announce the general availability of Azure’s next generation of confidential virtual machines, powered by 5th Gen Intel® Xeon® processors with Intel® Trust Domain Extensions (Intel® TDX). These new confidential VMs make it easier than ever for organizations to move their most...",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "simranparkhe",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureconfidentialcomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Simplified access to Hotpatching enabled by Azure Arc for Windows Server 2025",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/simplified-access-to-hotpatching-enabled-by-azure-arc-for/ba-p/4521251",
+      "published": "2026-05-19T16:43:35+00:00",
+      "summary": "With Windows Server 2025, we introduced hotpatch enabled by Azure Arc, delivering security updates to Windows Server across hybrid and multicloud environments – minimizing downtime (no reboot), accelerating protection, and unifying patch management. We know that keeping your servers updated with...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "sharmajyoti",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "How to run evals for the model router",
+      "link": "https://devblogs.microsoft.com/foundry/how-to-run-evals-for-model-router/",
+      "published": "2026-05-19T16:34:07+00:00",
+      "summary": "Walk through running quality, cost, and latency evaluations for the Foundry model router using an open-source GitHub repo designed for router-aware eval pipelines. The post How to run evals for the model router appeared first on Microsoft Foundry Blog.",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Sanjeev Jagtap, leestott, Marie-Louise Onga Nana",
+      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "From Prompt to Production: Building Azure Architecture Diagrams with AI",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-prompt-to-production-building-azure-architecture-diagrams/ba-p/4520336",
+      "published": "2026-05-19T16:32:11+00:00",
+      "summary": "Author: Arturo Quiroga, Senior Partner Solutions Architect — Microsoft Cloud architects spend significant time translating ideas into architecture diagrams. They toggle between Visio, draw.io, pricing calculators, and documentation. According to the 2024 Stack Overflow Developer Survey, 61% of...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "arturoqu",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[Launched] Generally Available: Mock runs for Azure Storage Actions – Validate before you execute",
+      "link": "https://azure.microsoft.com/updates?id=559494",
+      "published": "2026-05-19T16:00:11+00:00",
+      "summary": "Azure Storage Actions, our fully managed platform that transforms how organizations automate data management tasks for Azure Blob and Data Lake Storage, now supports mock runs - a new way to simulate task execution at full scale without modifying any data",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Exposing Fox Tempest: A malware-signing service operation",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation/",
+      "published": "2026-05-19T15:07:01+00:00",
+      "summary": "Fox Tempest is a financially motivated threat actor operating a malware‑signing‑as‑a‑service (MSaaS) used by other cybercriminals, including Vanilla Tempest and Storm groups, to more effectively distribute malicious code, including ransomware. The post Exposing Fox Tempest: A malware-signing...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Threat Intelligence",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Eliminate LLM Cold starts: Load models up to 6x Faster with Azure Blob Storage and Run:AI Model Streamer",
+      "link": "https://devblogs.microsoft.com/azure-sdk/eliminate-llm-cold-starts-load-models-up-to-6x-faster-with-azure-blob-storage-and-runai-model-streamer/",
+      "published": "2026-05-19T15:00:07+00:00",
+      "summary": "Stop paying for idle GPUs while model weights copy to disk. Stream them straight into GPU memory instead with Run:AI Streamer from Azure Blob Storage. The Problem: Every Cold Start Costs You More Than Money GPU compute is among the most expensive cloud infrastructure, and every second a GPU is...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Vishnu Charan TJ",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "🔥The Orchestrator Pattern - Turning CLAUDE.md Into an Autonomous Agent Team Pipeline🔥",
+      "link": "https://www.letsdodevops.com/p/the-orchestrator-pattern-turning",
+      "published": "2026-05-19T14:45:45+00:00",
+      "summary": "aka, make robots do the damn sdlc",
+      "blog": "Let's do DevOps",
+      "blogId": "letsdodevops",
+      "author": "Kyler Middleton",
+      "feedUrl": "https://www.letsdodevops.com/feed",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Start a GitHub Advanced Security trial from a risk assessment",
+      "link": "https://github.blog/changelog/2026-05-19-start-a-github-advanced-security-trial-from-a-risk-assessment",
+      "published": "2026-05-19T13:52:32+00:00",
+      "summary": "Eligible enterprise admins can now start a GitHub Advanced Security trial directly from the Secret Protection or Code Security risk assessment to start evaluating the products faster. If you aren’t… The post Start a GitHub Advanced Security trial from a risk assessment appeared first on The GitHub...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Debugging Python apps on App Service with the new SSH helper aliases",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/debugging-python-apps-on-app-service-with-the-new-ssh-helper/ba-p/4520893",
+      "published": "2026-05-19T13:40:19+00:00",
+      "summary": "You shipped a Python app to App Service. It worked in the demo. It works locally. In production, /chat is returning 502s — but /health is green, the deployment succeeded, the logs are quiet, and your laptop can't reproduce it. What you actually need is a shell on the running container so you can...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Building AI Guardian Extension: AI Detection and Enterprise AI Security",
@@ -121,6 +264,17 @@
       "blogId": "integrationsonazureblog",
       "author": "WSilveira",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Safe Rollouts Start with Signals: Introducing Scorecards in Azure App Configuration",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/safe-rollouts-start-with-signals-introducing-scorecards-in-azure/ba-p/4520881",
+      "published": "2026-05-18T19:59:18+00:00",
+      "summary": "Applications are rarely changed all at once anymore. Teams use feature flags, targeting rules, and progressive rollout patterns to introduce changes gradually and reduce risk. This rollout model gives teams more than a safer way to control exposure. It also creates the context to understand what...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "mukta",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -462,17 +616,6 @@
       "blogId": "kubernetes",
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Grok Code Fast 1 deprecated",
-      "link": "https://github.blog/changelog/2026-05-15-grok-code-fast-1-deprecated",
-      "published": "2026-05-15T17:58:15+00:00",
-      "summary": "We have deprecated Grok Code Fast 1 across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, May 15, 2026. Model Deprecation… The post Grok Code Fast 1 deprecated appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1640,17 +1783,6 @@
       "author": "Brian Benz",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Active attack: Dirty Frag Linux vulnerability expands post-compromise risk",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/08/active-attack-dirty-frag-linux-vulnerability-expands-post-compromise-risk/",
-      "published": "2026-05-08T17:12:46+00:00",
-      "summary": "Dirty Frag is a newly disclosed Linux local privilege escalation vulnerability affecting kernel networking and memory-fragment handling components including esp4, esp6, and rxrpc. The vulnerability enables reliable escalation from an unprivileged user to root and may be leveraged after initial...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Defender Security Research Team",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Why age assurance laws matter for developers",
@@ -3094,17 +3226,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Securing Your AI Agents Before They Ship: Red Teaming with Microsoft PyRIT",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/securing-your-ai-agents-before-they-ship-red-teaming-with/ba-p/4515514",
-      "published": "2026-04-29T08:22:53+00:00",
-      "summary": "Securing Your AI Agents Before They Ship: Red Teaming with Microsoft PyRIT You wouldn't ship a web app without running OWASP ZAP or Snyk. So why are AI agents going to production without a single security scan? Prompt injection, data leakage, system prompt theft — the OWASP Top 10 for LLM...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "vsriramdas",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Making Sense of Azure AI Foundry IQ",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/making-sense-of-azure-ai-foundry-iq/ba-p/4513131",
       "published": "2026-04-29T07:00:00+00:00",
@@ -3323,17 +3444,6 @@
       "author": "Niels Laute",
       "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Why Does Azure App Service Return HTTP 404?",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/why-does-azure-app-service-return-http-404/ba-p/4514004",
-      "published": "2026-04-28T06:39:38+00:00",
-      "summary": "When an application deployed to Azure App Service suddenly starts returning HTTP 404 – Not Found, it can be confusing —especially when: The deployment completed successfully The App Service shows as Running No obvious errors appear in the portal This behaviour is more common than it appears and is...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "AmritpalSinghNaroo",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Introducing AI Skill Assessment in Azure API Center",
@@ -5503,17 +5613,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Secure HTTP‑Only AKS Ingress with Azure Front Door Premium, Firewall DNAT, and Private AGIC",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/secure-http-only-aks-ingress-with-azure-front-door-premium/ba-p/4508167",
-      "published": "2026-04-03T19:15:55+00:00",
-      "summary": "Reference architecture and runbook (Part 1: HTTP-only) for Hub-Spoke networking with private Application Gateway (AGIC), Azure Firewall DNAT, and Azure Front Door Premium (WAF) 0. When and Why to Use This Architecture Series note: This document is Part 1 and uses HTTP to keep the focus on routing...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "kkaushal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "From Discovery to Executive Presentation: Plan Your Migration with Azure Migrate in Hours",
       "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/from-discovery-to-executive-presentation-plan-your-migration/ba-p/4508500",
       "published": "2026-04-03T18:06:11+00:00",
@@ -7560,17 +7659,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "What’s new in Microsoft Foundry | February 2026",
-      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-feb-2026/",
-      "published": "2026-03-06T23:08:31+00:00",
-      "summary": "February brings Anthropic's Claude Opus 4.6 and Sonnet 4.6 with 1M-token context, GPT-Realtime-1.5 and GPT-Audio-1.5, Grok 4.0 GA, the Microsoft Agent Framework reaching Release Candidate, and the Foundry REST API quietly going GA — laying the foundation for imminent SDK GA announcements across...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Nick Brady",
-      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Join the Agent 365 'Ask Microsoft Anything' session on March 18",
       "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/join-the-agent-365-ask-microsoft-anything-session-on-march-18/ba-p/4499817",
       "published": "2026-03-06T22:46:28+00:00",
@@ -7989,17 +8077,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Announcing general availability of Azure Intel® TDX confidential VMs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-general-availability-of-azure-intel-tdx-confidential/ba-p/4495693",
-      "published": "2026-02-26T18:56:19+00:00",
-      "summary": "We’re excited to announce the general availability of Azure’s next generation of confidential virtual machines, powered by 5th Gen Intel® Xeon® processors with Intel® Trust Domain Extensions (Intel® TDX). These new confidential VMs make it easier than ever for organizations to move their most...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "simranparkhe",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureconfidentialcomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing Public Preview: Simplified Machine Provisioning for Azure Local",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/announcing-public-preview-simplified-machine-provisioning-for/ba-p/4496811",
       "published": "2026-02-26T18:02:37+00:00",
@@ -8141,17 +8218,6 @@
       "author": "RamKakani",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=oracleonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Improved Python (PyPi/uvx) support in Azure MCP Server",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-better-python-support/",
-      "published": "2026-02-24T16:00:21+00:00",
-      "summary": "Azure MCP Server now offers first-class Python support via PyPI and uvx, making it easier than ever for Python developers to integrate Azure into their agentic workflows. The post Improved Python (PyPi/uvx) support in Azure MCP Server appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Xiang Yan",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Retirement: Windows Server Annual Channel (preview)",
@@ -8693,28 +8759,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[In preview] Public Preview: Azure virtual network routing appliance",
-      "link": "https://azure.microsoft.com/updates?id=555944",
-      "published": "2026-02-05T21:45:03+00:00",
-      "summary": "Azure Virtual Network routing appliance offers private connectivity for workloads across virtual networks. Using specialized hardware, it delivers low latency and high throughput, and optimal performance compared to virtual machines. Deployed into priva",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Claude Opus 4.6, Available on Microsoft Foundry",
-      "link": "https://azure.microsoft.com/updates?id=555870",
-      "published": "2026-02-05T18:30:32+00:00",
-      "summary": "Claude Opus 4.6 is now available in Microsoft Foundry, bringing Anthropic’s most advanced reasoning model to a secure, enterprise-ready platform built on Azure. With support for complex coding, knowledge work, and agent-driven workflows, including long-co",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Zero Trust with Azure Firewall, Azure DDoS Protection and Azure WAF: A practical use case",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/zero-trust-with-azure-firewall-azure-ddos-protection-and-azure/ba-p/4490595",
       "published": "2026-02-05T05:15:27+00:00",
@@ -8734,17 +8778,6 @@
       "blogId": "vscode",
       "author": "VS Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Azure NetApp Files Elastic zone-redundant service level",
-      "link": "https://azure.microsoft.com/updates?id=550863",
-      "published": "2026-02-04T20:00:42+00:00",
-      "summary": "Azure NetApp Files Elastic zone-redundant storage (ANF Elastic ZRS) is an advanced high-availability service level for Azure NetApp Files that provides continuous data access with zero data loss, even if an entire Azure Availability Zone goes offline. Bui",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -8801,17 +8834,6 @@
       "author": "Alex-wdy",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "[In development] Public Preview: X-Forwarded-For (XFF) grouping for rate limiting on Application Gateway WAF v2",
-      "link": "https://azure.microsoft.com/updates?id=555205",
-      "published": "2026-02-03T20:30:31+00:00",
-      "summary": "Application Gateway Web Application Firewall (WAF) v2 now supports additional rate‑limiting GroupBy options based on the X‑Forwarded‑For (XFF) HTTP header. This enables customers running Application Gateway behind proxies or CDNs to apply rate limits usin",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
     },
     {
       "title": "Extending Defender’s AI Threat Protection to Microsoft Foundry Agents",
@@ -9944,17 +9966,6 @@
       "blogId": "azurecompute",
       "author": "DanaCozmei",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "AKS enabled by Azure Arc: Powering AI Applications from Cloud to Edge [Ignite 2025]",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/aks-enabled-by-azure-arc-powering-ai-applications-from-cloud-to/ba-p/4471511",
-      "published": "2025-12-02T21:02:54+00:00",
-      "summary": "A New Era for Hybrid Kubernetes and AI Microsoft Ignite 2025 continues to accelerate Azure’s hybrid vision, extending cloud-native innovation into datacenters, factories, retail sites, and remote, fully disconnected environments. This year’s announcements expand the capabilities of AKS enabled by...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "SchumannGE",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12125,17 +12136,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "D2DO272: The Physics of DevOps",
-      "link": "https://www.letsdodevops.com/p/d2do272-the-physics-of-devops",
-      "published": "2025-06-11T14:02:48+00:00",
-      "summary": "aka, how do you measure something folks can't even agree on a definition for?",
-      "blog": "Let's do DevOps",
-      "blogId": "letsdodevops",
-      "author": "Kyler Middleton",
-      "feedUrl": "https://www.letsdodevops.com/feed",
-      "sourceType": "rss"
-    },
-    {
       "title": "Announcing the Azure Databricks connector in Power Platform",
       "link": "https://techcommunity.microsoft.com/t5/azure-databricks/announcing-the-azure-databricks-connector-in-power-platform/ba-p/4422647",
       "published": "2025-06-11T13:00:00+00:00",
@@ -12466,5 +12466,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure-related posts centered on enterprise AI governance and infrastructure automation: Azure highlighted the **AI Guardian Extension** for **AI detection and enterprise AI security**, a **confidence-aware RAG** pattern that helps AI systems explicitly surface uncertainty, and a **Terraform drift validator for Azure** that verifies infrastructure state against the **live Azure portal**. On the ops side, Azure also featured **Rundeck integration with Azure Runner** for **AWS enterprise workflows**, while the broader developer ecosystem note was GitHub’s API change removing the **`code_scanning_upload`** field from the **`rate_limit`** endpoint."
+  "summary": "Azure’s biggest themes today were infrastructure GA milestones, AI/LLM operational maturity, and security. Microsoft announced general availability for Azure NetApp Files cache volumes, Intel TDX confidential VMs, Network Watcher’s rule impact analyser, Azure Storage Actions mock runs, and higher default Azure Virtual Network limits for NSGs and route tables, alongside simpler Azure Arc–enabled Hotpatching for Windows Server 2025.\n\nOn the AI side, posts focused on production readiness: faster LLM startup using Azure Blob Storage with Run:AI Model Streamer, model-router evaluations in Microsoft Foundry, AI-generated Azure architecture diagrams, confidence-aware RAG, and autonomous agent/orchestrator patterns. Security was also prominent, with Microsoft exposing the Fox Tempest malware-signing service, guidance on enterprise AI protection via an AI Guardian extension, and GitHub updates around Advanced Security trials and code-scanning API changes."
 }
