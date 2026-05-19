@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T06:37:46.140838+00:00",
+  "lastUpdated": "2026-05-19T11:52:55.110093+00:00",
   "totalArticles": 1133,
   "articles": [
     {
@@ -12,6 +12,50 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Building AI Guardian Extension: AI Detection and Enterprise AI Security",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-ai-guardian-extension-ai-detection-and-enterprise-ai/ba-p/4521125",
+      "published": "2026-05-19T11:41:31+00:00",
+      "summary": "Introduction Generative AI tools such as ChatGPT, GitHub Copilot, and Google Gemini are rapidly becoming part of everyday enterprise workflows. Teams use them for code generation, documentation, analysis, support automation, and productivity enhancement. However, this accelerated adoption has also...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ranjsharma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Removal of code_scanning_upload field from rate_limit API endpoint",
+      "link": "https://github.blog/changelog/2026-05-19-removal-of-code_scanning_upload-field-from-rate_limit-api-endpoint",
+      "published": "2026-05-19T10:40:26+00:00",
+      "summary": "As of May 19, 2026, we have removed the code_scanning_upload field from the rate limit REST API endpoint response. What changed The code_scanning_upload field no longer appears in the resources… The post Removal of code_scanning_upload field from rate_limit API endpoint appeared first on The GitHub...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Rundeck – AWS Enterprise Rundeck Integration with Azure Runner",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/rundeck-aws-enterprise-rundeck-integration-with-azure-runner/ba-p/4521080",
+      "published": "2026-05-19T10:08:59+00:00",
+      "summary": "Architecture Overview Rundeck Server (AWS) → https://dev.rundeck.xyz.com Rundeck Runner (Azure Linux VM) Secure Communication over HTTPS (Port 4432) Optional Proxy for enterprise networks 1.Ensure that network connectivity is established between the Rundeck endpoint (dev.rundeck.xyz.com) and the...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ranjsharma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Confidence-Aware RAG: Teaching Your AI Pipeline to Acknowledge Uncertainty",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/confidence-aware-rag-teaching-your-ai-pipeline-to-acknowledge/ba-p/4515061",
+      "published": "2026-05-19T07:00:00+00:00",
+      "summary": "Introduction Retrieval-Augmented Generation (RAG) has become the standard architecture for grounding Large Language Models (LLMs) with enterprise data. By retrieving relevant documents before generating a response, RAG helps reduce hallucinations compared to relying on model knowledge alone....",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "RohitPoddar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Building a Terraform Drift Validator for Azure with Live Portal Verification",
@@ -452,17 +496,6 @@
       "author": "dbillor",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Copilot Memory supports user preferences for Pro, Pro+ users",
-      "link": "https://github.blog/changelog/2026-05-15-copilot-memory-supports-user-preferences-for-pro-pro-users",
-      "published": "2026-05-15T17:14:17+00:00",
-      "summary": "Copilot Memory now supports user-level preferences in early access for Copilot Pro and Copilot Pro+ users. Copilot can now store stated or inferred personal preferences about how you like to… The post Copilot Memory supports user preferences for Pro, Pro+ users appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Designing AI-Driven Observability for Trustworthy Agentic AI Systems",
@@ -2555,17 +2588,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Reimagining Azure Governance with Automation & EPAC",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/reimagining-azure-governance-with-automation-epac/ba-p/4516626",
-      "published": "2026-05-02T19:26:11+00:00",
-      "summary": "🧩 The Challenge: Governance at Scale Managing Azure environments manually introduces: ❌ Policy drift across subscriptions ❌ Inconsistent naming conventions ❌ Delays in compliance enforcement ❌ Human errors in deployments 🔍 Insight: Governance gaps are often not due to lack of policies—but lack of...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "sameenamohammed",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[Launched] Update: Egress and data transfer with Azure in the United Kingdom",
       "link": "https://azure.microsoft.com/updates?id=561392",
       "published": "2026-05-01T21:45:13+00:00",
@@ -2662,17 +2684,6 @@
       "blogId": "messagingonazureblog",
       "author": "ashish-chhabria",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "AI‑Accelerated AVM Refactoring: Modernizing Legacy IaC Safely and Swiftly",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/ai-accelerated-avm-refactoring-modernizing-legacy-iac-safely-and/ba-p/4516437",
-      "published": "2026-05-01T12:14:29+00:00",
-      "summary": "Why AVM refactoring is harder in brownfield Greenfield AVM adoption is straightforward: pick the module, deploy, and iterate. Brownfield is different. You’re refactoring *live* infrastructure — where state, naming conventions, diagnostic settings, and policy baselines already exist. In one...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "HimanshuYadav",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3112,17 +3123,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "Samarpitaa",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Building an Enterprise Knowledge Copilot with Foundry IQ and Agentic Retrieval on Azure AI",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-an-enterprise-knowledge-copilot-with-foundry-iq-and/ba-p/4512308",
-      "published": "2026-04-29T07:00:00+00:00",
-      "summary": "Every enterprise has the same problem: knowledge scattered across SharePoint, file shares, wikis, and email. This article walks through building a knowledge copilot that unifies that data behind a single conversational interface — using Microsoft's Foundry IQ knowledge bases and the agentic...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Shah_Viral",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -12466,5 +12466,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure blog coverage centers on infrastructure governance and configuration accuracy, with a post on **building a Terraform Drift Validator for Azure** that uses **live verification against the Azure portal** to detect when deployed resources have diverged from Terraform state or code. The key theme is stronger **Azure Infrastructure** compliance and operational reliability through automated drift detection, helping teams validate real-world Azure resource configurations beyond static IaC checks."
+  "summary": "Today’s Azure-related posts focused heavily on enterprise AI governance and operational reliability: Microsoft highlighted the AI Guardian Extension for AI detection and enterprise AI security, alongside a “confidence-aware” RAG pattern that helps retrieval-augmented generation systems explicitly recognize uncertainty rather than overstate answers. On the infrastructure side, the posts covered hybrid and governance tooling, including Rundeck integration with an Azure Runner for AWS enterprise workflows and a Terraform drift validator for Azure that verifies deployed state against the live Azure Portal; separately, GitHub announced the removal of the `code_scanning_upload` field from the `rate_limit` API endpoint."
 }
