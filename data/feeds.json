@@ -1,17 +1,28 @@
 {
-  "lastUpdated": "2026-05-20T06:37:45.598906+00:00",
+  "lastUpdated": "2026-05-20T11:40:50.313391+00:00",
   "totalArticles": 1132,
   "articles": [
     {
       "title": "Visual Studio Code 1.121",
       "link": "https://code.visualstudio.com/updates/v1_121",
       "published": "2026-05-20T17:00:00+00:00",
-      "summary": "Learn what's new in Visual Studio Code 1.121 (Insiders) Read the full article",
+      "summary": "Learn what's new in Visual Studio Code 1.121 Read the full article",
       "blog": "Visual Studio Code",
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Bulk-configure diagnostic settings on Azure Logic Apps Consumptions",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/bulk-configure-diagnostic-settings-on-azure-logic-apps/ba-p/4521454",
+      "published": "2026-05-20T08:47:16+00:00",
+      "summary": "Bulk-configure diagnostic settings on Azure Logic Apps — without clicking through the Portal LA-BulkDiag is a small, single-file PowerShell script that does the whole job in one guided run. It enumerates every Consumption Logic App in a resource group, shows you which ones already have settings,...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Yanbo_Deng",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Golden Image Refresh for Virtual Machines and VM Scale Sets: Driving Consistency at Scale",
@@ -7626,17 +7637,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "How to Access a Shared OneDrive Folder in Azure Logic Apps",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/how-to-access-a-shared-onedrive-folder-in-azure-logic-apps/ba-p/4484962",
-      "published": "2026-03-10T06:39:31+00:00",
-      "summary": "What is the problem? A common enterprise automation scenario involves copying files from a OneDrive folder shared by a colleague into another storage service such as SharePoint or Azure Blob Storage using Azure Logic Apps. However, when you configure the OneDrive for Business – “List files in...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Arpit_MSFT",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure Databricks & Fabric Disaster Recovery: The Better Together Story",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/azure-databricks-fabric-disaster-recovery-the-better-together/ba-p/4481323",
       "published": "2026-03-10T01:46:28+00:00",
@@ -12455,5 +12455,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure updates center on developer productivity and infrastructure consistency. **Visual Studio Code 1.121** delivers the latest editor improvements in Microsoft’s flagship development environment, while Azure Infrastructure highlights a **golden image refresh** approach for **Virtual Machines** and **Virtual Machine Scale Sets** to keep large fleets standardized, secure, and up to date.  \n\nThe key themes are streamlined software development with VS Code and better operational hygiene for cloud infrastructure through repeatable image management at scale."
+  "summary": "Today’s Azure updates focused on developer tooling, operational governance, and VM fleet consistency. **Visual Studio Code 1.121** delivered the latest editor updates across core productivity and developer experience, while Azure also introduced a way to **bulk-configure diagnostic settings for Azure Logic Apps Consumption**, making it easier to standardize monitoring and logging at scale. On the infrastructure side, Azure highlighted **golden image refresh for Virtual Machines and Virtual Machine Scale Sets**, emphasizing consistent image rollout, simplified maintenance, and more reliable large-scale VM management."
 }
