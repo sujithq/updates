@@ -1,7 +1,51 @@
 {
-  "lastUpdated": "2026-05-20T17:49:01.489511+00:00",
+  "lastUpdated": "2026-05-20T19:59:06.990015+00:00",
   "totalArticles": 1127,
   "articles": [
+    {
+      "title": "Summarized Gateway Prefixes for Route Advertisement in Azure Virtual Networks",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/summarized-gateway-prefixes-for-route-advertisement-in-azure/ba-p/4521652",
+      "published": "2026-05-20T19:10:30+00:00",
+      "summary": "Background Many Azure deployments follow a hub-and-spoke topology: one VNet is designated as the hub and holds the connection to on-premises (via ExpressRoute Gateway, VPN Gateway, or both), and workload VNets — the spokes — peer to the hub to reach on-premises and shared services. This centralizes...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "jl-ms",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "From Coding Agents to Cloud Automation: AI-Assisted Customer Related Incidents in Azure Functions",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/from-coding-agents-to-cloud-automation-ai-assisted-customer/ba-p/4516112",
+      "published": "2026-05-20T19:07:04+00:00",
+      "summary": "On the Azure Functions team, we have been exploring how AI can help with investigating customer-reported incidents, root-cause analysis, and incident mitigation. This post shares our journey from early RCA agents to coding-agent-assisted investigations and cloud-hosted automation, and the lessons...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Tsuyoshi_Ushio",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/mini-shai-hulud-compromised-antv-npm-packages-enable-ci-cd-credential-theft/",
+      "published": "2026-05-20T17:48:44+00:00",
+      "summary": "Compromised @antv npm packages deploy the Mini Shai-Hulud payload to steal CI/CD secrets from Linux-based automation environments. The malware executes during npm install and targets credentials across GitHub, AWS, Kubernetes, Vault, npm, and 1Password platforms. The post Mini Shai Hulud:...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Defender Security Research Team",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: langchain-azure-cosmosdb python package for Azure Cosmos DB",
+      "link": "https://azure.microsoft.com/updates?id=562074",
+      "published": "2026-05-20T17:15:19+00:00",
+      "summary": "You can now build production-ready AI and agent applications faster using the new LangChain and LangGraph integration for Azure Cosmos DB. This Python package enables you to directly use Cosmos DB for vector and hybrid search, semantic caching, chat histo",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
     {
       "title": "Updates to available models in Copilot on web",
       "link": "https://github.blog/changelog/2026-05-20-updates-to-available-models-in-copilot-on-web",
@@ -100,6 +144,17 @@
       "author": "Lee_Stott",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Securing the gaming culture of cultures",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/securing-the-gaming-culture-of-cultures/",
+      "published": "2026-05-20T16:00:00+00:00",
+      "summary": "Read about the unique challenges and rewards of securing gaming platforms and how to better protect gaming communities. The post Securing the gaming culture of cultures appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Aaron Zollman",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Auto model selection now routes based on your task in VS Code",
@@ -418,6 +473,17 @@
       "blogId": "microsoftsecurity",
       "author": "Microsoft Threat Intelligence",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Agentic-Agile: Why Agent Development Needs Agile (Not Just Prompts)",
+      "link": "https://devblogs.microsoft.com/blog/agentic-agile-why-agent-development-needs-agile-not-just-prompts",
+      "published": "2026-05-19T15:00:09+00:00",
+      "summary": "“A bad system will beat a good person [or agent] every time” ~Dr. William Edwards Deming (with apologies) I started vibe coding by writing prompts (often dictated into my phone), refining them with an agent in M365 Copilot, and creating handoff files to use with GitHub Copilot CLI. The results were...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Daniel Epstein",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1532,17 +1598,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/",
-      "published": "2026-05-12T22:00:00+00:00",
-      "summary": "Today Microsoft is announcing a major step forward in AI-powered cyber defense: a new multi-model agentic scanning harness (codenamed MDASH). The post Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Taesoo Kim",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Build Smarter, Simpler IoT Messaging with Azure Event Grid MQTT Broker",
       "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/build-smarter-simpler-iot-messaging-with-azure-event-grid-mqtt/ba-p/4518672",
       "published": "2026-05-12T21:39:49+00:00",
@@ -1673,17 +1728,6 @@
       "author": "ilyagrebnov",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Defending consumer web properties against modern DDoS attacks",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defending-consumer-web-properties-against-modern-ddos-attacks/",
-      "published": "2026-05-12T16:00:00+00:00",
-      "summary": "Read how to protect consumer websites and defend against modern DDoS attacks with layered security, resilient architecture, and graceful service degradation. The post Defending consumer web properties against modern DDoS attacks appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Kumar Srinivasamurthy",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Driving Efficiency in Modern System Engineering with AI Agents",
@@ -3575,17 +3619,6 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "akashchekka",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "How Microsoft 1ES uses agentic AI to take on security and compliance at scale",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-microsoft-1es-uses-agentic-ai-to-take-on-security-and/ba-p/4515191",
-      "published": "2026-04-28T16:15:00+00:00",
-      "summary": "Microsoft’s Customer Zero blog series gives an insider view of how Microsoft builds and operates Microsoft using our trusted, enterprise-grade IQ platform. Learn best practices from our engineering teams with real-world lessons, architectural patterns, and operational strategies for pressure-tested...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "JennyF",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8726,17 +8759,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "[In preview] Public Preview: Azure Front Door Premium now supports Azure Private Link origins in UAE North",
-      "link": "https://azure.microsoft.com/updates?id=556282",
-      "published": "2026-02-10T21:15:47+00:00",
-      "summary": "You can now set UAE North as a region for Azure Private Link-enabled origins in your Azure Front Door Premium profile. Azure Private Link-enabled origins in Azure Front Door allow you to deliver content to your end-users through public Azure Front Door en",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Announcing Application Insights SDK 3.x for .NET",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/announcing-application-insights-sdk-3-x-for-net/ba-p/4493988",
       "published": "2026-02-10T00:25:02+00:00",
@@ -8845,17 +8867,6 @@
       "author": "Jon_Andoni_Baranda",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "WinGet Configuration: Set up your dev machine in one command",
-      "link": "https://devblogs.microsoft.com/blog/winget-configuration-set-up-your-dev-machine-in-one-command",
-      "published": "2026-02-04T18:00:13+00:00",
-      "summary": "I’ve set up a lot of dev machines in my life. Traditionally, this takes a lot of time to get everything just right, but now there’s a faster way with WinGet Configuration files. Let me show you how to go from a fresh Windows install to a fully configured dev environment with a single command […]",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Kayla Cinnamon",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Azure Virtual Desktop is now available in US Gov Texas in Azure Government",
@@ -10384,17 +10395,6 @@
       "blogId": "azurecompute",
       "author": "TravisCragg_MSFT",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Integrating Azure Application Gateway v2 with Azure API Management for secure and scalable API",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/integrating-azure-application-gateway-v2-with-azure-api/ba-p/4470804",
-      "published": "2025-11-18T17:33:43+00:00",
-      "summary": "Why Application Gateway v2 + Azure API Management? - Layer-7 routing with path-based rules, host headers, URL rewrites, and WAF protection (OWASP Core Rule Set). - Azure API Management provides API abstraction, versioning, throttling, caching, JWT validation, and per-API policies. - Combined, App...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "ranjsharma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12400,5 +12400,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news centered on AI-assisted development and safer agent workflows: GitHub/Copilot updates added new web model availability, task-based auto model selection in VS Code, and semantic issue search in Copilot Chat, while Microsoft Security introduced the open-source RAMPART and Clarity tools to improve safety in AI agent development. Developer productivity also got a boost from Visual Studio Code 1.121, Aspire’s focus on reducing “tribal knowledge” in the dev loop, and community guidance on observing Azure AI workload usage.\n\nOn the Azure platform side, Microsoft pushed several infrastructure and integration milestones into GA, including Azure Storage Mover blob-to-blob migration plus scheduled one-time/recurring migrations, site-to-site VPN connections with certificate authentication, and the latest Azure Event Grid April 2026 releases; previews included summarized advertised gateway prefixes for route advertisement and Event Grid Subscription Identifiers. Additional ops-focused updates covered bulk diagnostic settings for Azure Logic Apps Consumption and golden image refresh capabilities for Virtual Machines and VM Scale Sets to improve consistency at scale."
+  "summary": "Azure’s updates centered on three big themes: smarter networking and migration ops, AI-assisted developer workflows, and stronger software supply-chain security. On the Azure side, Microsoft highlighted generally available and preview networking features like summarized gateway prefixes for route advertisement in Azure Virtual Networks and site-to-site VPN certificate authentication, plus Azure Storage Mover enhancements for Blob-to-Blob transfers and scheduled migrations, Azure Event Grid updates, and the GA of the `langchain-azure-cosmosdb` Python package for Azure Cosmos DB.\n\nFor developers, GitHub and Microsoft emphasized AI-native tooling: Copilot on the web got model availability changes, VS Code/Copilot added auto model selection by task and semantic issue search in Copilot Chat, and Azure Functions detailed AI-assisted handling of customer-related incidents; broader dev productivity themes also appeared in Aspire’s post on “tribal knowledge” and the VS Code 1.121 release. Security was another major thread, with Microsoft warning about compromised `@antv` npm packages used for CI/CD credential theft and introducing open-source agent-safety tools, RAMPART and Clarity, alongside gaming security guidance."
 }
