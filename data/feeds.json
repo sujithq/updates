@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-19T22:04:04.429039+00:00",
-  "totalArticles": 1133,
+  "lastUpdated": "2026-05-20T01:55:53.687975+00:00",
+  "totalArticles": 1132,
   "articles": [
     {
       "title": "Visual Studio Code 1.121",
@@ -11,6 +11,39 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Applying Site Reliability Engineering to Autonomous AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/applying-site-reliability-engineering-to-autonomous-ai-agents/ba-p/4521357",
+      "published": "2026-05-19T23:12:29+00:00",
+      "summary": "If you practice SRE, you already have a mental model for running reliable production systems. You define SLOs. You track error budgets. You use circuit breakers to stop cascading failures. You run chaos experiments to find weaknesses before customers do. You treat every operational decision as a...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "mosiddi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Deploy with Confidence: Using Rule Impact Analyzer in Azure Virtual Network Manager",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/deploy-with-confidence-using-rule-impact-analyzer-in-azure/ba-p/4521342",
+      "published": "2026-05-19T22:51:45+00:00",
+      "summary": "Introduction In a previous blog post, we described how Azure Virtual Network Manager (AVNM) enables central teams to enforce security admin rules across hundreds of virtual networks—bring consistency and governance to complex enterprise environments. But enforcement at scale introduces a new...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "jl-ms",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Easily apply Copilot code review feedback with Copilot cloud agent",
+      "link": "https://github.blog/changelog/2026-05-19-easily-apply-copilot-code-review-feedback-with-copilot-cloud-agent",
+      "published": "2026-05-19T22:28:17+00:00",
+      "summary": "Copilot code review’s previous Implement suggestion button has now been renamed to Fix with Copilot and updated to support a UI dialog for more control over how suggestions are applied.… The post Easily apply Copilot code review feedback with Copilot cloud agent appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -201,17 +234,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Debugging Python apps on App Service with the new SSH helper aliases",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/debugging-python-apps-on-app-service-with-the-new-ssh-helper/ba-p/4520893",
-      "published": "2026-05-19T13:40:19+00:00",
-      "summary": "You shipped a Python app to App Service. It worked in the demo. It works locally. In production, /chat is returning 502s — but /health is green, the deployment succeeded, the logs are quiet, and your laptop can't reproduce it. What you actually need is a shell on the running container so you can...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Building AI Guardian Extension: AI Detection and Enterprise AI Security",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-ai-guardian-extension-ai-detection-and-enterprise-ai/ba-p/4521125",
       "published": "2026-05-19T11:41:31+00:00",
@@ -319,17 +341,6 @@
       "blogId": "integrationsonazureblog",
       "author": "WSilveira",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Safe Rollouts Start with Signals: Introducing Scorecards in Azure App Configuration",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/safe-rollouts-start-with-signals-introducing-scorecards-in-azure/ba-p/4520881",
-      "published": "2026-05-18T19:59:18+00:00",
-      "summary": "Applications are rarely changed all at once anymore. Teams use feature flags, targeting rules, and progressive rollout patterns to introduce changes gradually and reduce risk. This rollout model gives teams more than a safer way to control exposure. It also creates the context to understand what...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "mukta",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -529,17 +540,6 @@
       "author": "shikhasinha",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Remote control for Copilot CLI sessions now generally available on mobile, web, and VS Code",
-      "link": "https://github.blog/changelog/2026-05-18-remote-control-for-copilot-cli-sessions-now-generally-available-on-mobile-web-and-vs-code",
-      "published": "2026-05-18T13:00:16+00:00",
-      "summary": "Remote control for Copilot CLI sessions is now generally available on GitHub Mobile and github.com, so you can start work in your terminal and keep it moving from anywhere. With… The post Remote control for Copilot CLI sessions now generally available on mobile, web, and VS Code appeared first on...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Building a Controllable Inference Platform on Kubernetes with AI Runway",
@@ -3248,6 +3248,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Securing Your AI Agents Before They Ship: Red Teaming with Microsoft PyRIT",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/securing-your-ai-agents-before-they-ship-red-teaming-with/ba-p/4515514",
+      "published": "2026-04-29T08:22:53+00:00",
+      "summary": "Securing Your AI Agents Before They Ship: Red Teaming with Microsoft PyRIT You wouldn't ship a web app without running OWASP ZAP or Snyk. So why are AI agents going to production without a single security scan? Prompt injection, data leakage, system prompt theft — the OWASP Top 10 for LLM...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "vsriramdas",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Making Sense of Azure AI Foundry IQ",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/making-sense-of-azure-ai-foundry-iq/ba-p/4513131",
       "published": "2026-04-29T07:00:00+00:00",
@@ -3466,6 +3477,17 @@
       "author": "Niels Laute",
       "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Why Does Azure App Service Return HTTP 404?",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/why-does-azure-app-service-return-http-404/ba-p/4514004",
+      "published": "2026-04-28T06:39:38+00:00",
+      "summary": "When an application deployed to Azure App Service suddenly starts returning HTTP 404 – Not Found, it can be confusing —especially when: The deployment completed successfully The App Service shows as Running No obvious errors appear in the portal This behaviour is more common than it appears and is...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "AmritpalSinghNaroo",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Introducing AI Skill Assessment in Azure API Center",
@@ -10486,17 +10508,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "From Policy to Practice: Built-In CIS Benchmarks on Azure - Flexible, Hybrid-Ready",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/from-policy-to-practice-built-in-cis-benchmarks-on-azure/ba-p/4467884",
-      "published": "2025-11-18T08:00:00+00:00",
-      "summary": "Security is more important than ever. The industry-standard for secure machine configuration is the Center for Internet Security (CIS) Benchmarks. These benchmarks provide consensus-based prescriptive guidance to help organizations harden diverse systems, reduce risk, and streamline compliance with...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "pallakatos",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Introducing Azure SRE Agent",
       "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/introducing-azure-sre-agent/ba-p/4414569",
       "published": "2025-11-18T06:09:11+00:00",
@@ -10538,17 +10549,6 @@
       "blogId": "azurehighperformancecomputingblog",
       "author": "jvenkatesh",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure Virtual Network Manager + Azure Virtual WAN",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-virtual-network-manager-azure-virtual-wan/ba-p/4469991",
-      "published": "2025-11-17T16:54:52+00:00",
-      "summary": "Azure continues to expand its networking capabilities, with Azure Virtual Network Manager and Azure Virtual WAN (vWAN) standing out as two of the most transformative services. When deployed together, they offer the best of both worlds: the operational simplicity of a managed hub architecture...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "SimonaTarantola",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12453,18 +12453,7 @@
       "author": "AnaviNahar",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-databricks&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "VS Code: Open Source AI Editor",
-      "link": "https://code.visualstudio.com/blogs/2025/05/19/openSourceAIEditor",
-      "published": "2025-05-19T00:00:00+00:00",
-      "summary": "We will open source the GitHub Copilot Chat extension. It’s the next step towards making VS Code an open source AI editor. Read the full article",
-      "blog": "Visual Studio Code",
-      "blogId": "vscode",
-      "author": "The VS Code team",
-      "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure news was dominated by AI ops, developer productivity, and platform management updates. Microsoft highlighted **agentic AI** for Linux operations, **model evaluation and routing** in **Microsoft Foundry**, faster LLM startup using **Azure Blob Storage** with **Run:AI Model Streamer**, and an AI-driven workflow for generating **Azure architecture diagrams**, while **GitHub Copilot** added **Gemini 3.5 Flash** and GitHub expanded **OIDC** support for **Dependabot** and **code scanning** plus new **GitHub Advanced Security** trial flows.\n\nOn the platform side, Azure emphasized stronger governance, security, and networking: **Azure API Center** reached **general availability**, **SQL VA Express Configuration** in **Microsoft Defender for Cloud** entered public preview with broader coverage and unified management, and **Azure App Configuration Scorecards** launched in preview for feature rollout evaluation. Networking and infrastructure updates included GA for **metrics filtering and log aggregation** in **Advanced Container Networking Services**, **Azure NetApp Files cache volumes**, higher default **virtual network** limits for **NSGs** and **route tables**, **Network Watcher rule impact analyser**, and **mock runs for Azure Storage Actions**, alongside security research on the **Fox Tempest** malware-signing operation and new tooling like Python **App Service SSH helper aliases**."
+  "summary": "Today’s Azure blog roundup is dominated by a developer tooling update: **Visual Studio Code 1.121**. The release likely centers on improvements to the **VS Code editor**, including updates to core editing, developer workflow, and possibly integrations tied to modern cloud and AI development scenarios that matter to Azure users. With only this post in today’s set, the main theme is **Microsoft’s continued investment in the flagship development environment used for building and managing cloud-native applications**."
 }
