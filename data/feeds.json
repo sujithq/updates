@@ -1,7 +1,51 @@
 {
-  "lastUpdated": "2026-05-21T06:40:42.652258+00:00",
+  "lastUpdated": "2026-05-21T11:59:51.281611+00:00",
   "totalArticles": 1127,
   "articles": [
+    {
+      "title": "Building AI Agents with Microsoft Foundry: A Progressive Lab from Hello World to Self-Hosted",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-ai-agents-with-microsoft-foundry-a-progressive-lab-from/ba-p/4521792",
+      "published": "2026-05-21T08:28:42+00:00",
+      "summary": "AI agent development has a steep on-ramp. The combination of new SDKs, tool-calling patterns, model selection decisions, retrieval-augmented generation, and deployment concerns means most developers spend more time wiring things together than actually building anything useful. The Microsoft Foundry...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "AI Under Attack: A Defender's Guide to Memory Poisoning, Jailbreaks, and Evasion Techniques",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/ai-under-attack-a-defender-s-guide-to-memory-poisoning/ba-p/4516727",
+      "published": "2026-05-21T07:00:00+00:00",
+      "summary": "Introduction AI-powered applications are transforming how enterprises operate - from autonomous agents that manage workflows to copilots that accelerate developer productivity. But as AI systems grow more capable, so do the adversaries targeting them. The rise of agentic AI, retrieval-augmented...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "JatinderSingh0211",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "OIDC vs SPN: Securing Azure Deployments with GitHub Actions & Terraform",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/oidc-vs-spn-securing-azure-deployments-with-github-actions/ba-p/4517006",
+      "published": "2026-05-21T07:00:00+00:00",
+      "summary": "From Secrets to Trust: Modernizing CI/CD Authentication When building infrastructure pipelines on Microsoft Azure using GitHub Actions and Terraform, one design choice quietly determines your entire security posture: How does your pipeline authenticate to Azure? For years, the answer was simple:...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "plalchandani",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Coordinating AI-Assisted Development with AGENTS.md and Skills",
+      "link": "https://devblogs.microsoft.com/ise/ai-assisted-development-agents-skills-copilot-cli/",
+      "published": "2026-05-21T07:00:00+00:00",
+      "summary": "How to move AI-assisted development from ad-hoc experimentation to a coordinated team-wide capability using AGENTS.md and reusable skills with GitHub Copilot CLI The post Coordinating AI-Assisted Development with AGENTS.md and Skills appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Jimmy Kurian, Destiny Hillis",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "Clean up idle and always-failing Azure Logic App Consumption",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/clean-up-idle-and-always-failing-azure-logic-app-consumption/ba-p/4521728",
@@ -2984,17 +3028,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "High Availability Testing for Azure Kubernetes Service in a Single Region with Availability Zones",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/high-availability-testing-for-azure-kubernetes-service-in-a/ba-p/4509825",
-      "published": "2026-05-04T07:00:00+00:00",
-      "summary": "During migration testing engagements for enterprise workloads moving to Azure Kubernetes Service (AKS), we frequently validate high availability behavior under simulated infrastructure failures within a single Azure region using Availability Zones. In one such workload migration scenario involving...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "jiteshhp",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing the public preview of Oracle Database built-in connector for Azure Logic Apps Standard",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-the-public-preview-of-oracle-database-built-in/ba-p/4516714",
       "published": "2026-05-04T05:45:01+00:00",
@@ -3113,17 +3146,6 @@
       "blogId": "messagingonazureblog",
       "author": "ashish-chhabria",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "From Terminal to Autonomous Coding: Mastering GitHub Copilot CLI ACP Server",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-terminal-to-autonomous-coding-mastering-github-copilot-cli/ba-p/4508604",
-      "published": "2026-05-01T07:00:00+00:00",
-      "summary": "Introduction The rise of AI-powered development is no longer just about autocomplete—it’s about autonomous agents that can think, act, and collaborate. At the center of this transformation is the Agent Client Protocol (ACP) and its integration with GitHub Copilot CLI. If you’ve ever wanted to:...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Ravindra_Kumar_Vishwakarma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3289,17 +3311,6 @@
       "blogId": "azuregovernanceandmanagementblog",
       "author": "jtracey93msft",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "🖼️Streamline Image Generation Workflow in Foundry Toolkit",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/%EF%B8%8Fstreamline-image-generation-workflow-in-foundry-toolkit/ba-p/4516055",
-      "published": "2026-04-30T07:00:00+00:00",
-      "summary": "Integrating image generation into a production AI application has historically meant juggling multiple surfaces — browsing models in the Foundry portal, setting up deployments via the Azure CLI, testing prompts in a separate tool, then stitching together API credentials before writing a single line...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "junjieli",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8484,17 +8495,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Using Codes to Increase Adherence to Prompts",
-      "link": "https://devblogs.microsoft.com/ise/using-codes-to-increase-adherence-to-prompts/",
-      "published": "2026-02-20T08:00:00+00:00",
-      "summary": "Agentic systems have some discretion in the parameters they sent to tooling, but there are cases, such as experimentation, when you need 100% adherence to a set of parameters. The post Using Codes to Increase Adherence to Prompts appeared first on ISE Developer Blog.",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Peter Lasne",
-      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Migrating Workloads from AWS to Azure: A Structured Approach for Cloud Architects",
       "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/migrating-workloads-from-aws-to-azure-a-structured-approach-for/ba-p/4495227",
       "published": "2026-02-19T06:52:01+00:00",
@@ -12400,5 +12400,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focused on operational efficiency and AI/app platform flexibility. Microsoft highlighted a way to identify and clean up idle or consistently failing Azure Logic Apps Consumption workflows, explained how to scale Model Context Protocol (MCP) servers behind a load balancer using Azure App Service, and introduced support for running JavaScript code inside Agent Loop for more customizable integration and agent scenarios.\n\nThe key themes were cost/control for integration workloads, scalable hosting patterns for AI-related MCP services on App Service, and expanded developer extensibility through JavaScript execution in Agent Loop."
+  "summary": "Today’s Azure blogs centered on **productionizing AI and securing cloud-native workflows**: Microsoft highlighted a progressive **Microsoft Foundry** lab for building AI agents from basic demos to **self-hosted deployments**, guidance for coordinating AI-assisted engineering with **AGENTS.md** and reusable “skills,” and a deep dive into defending LLM systems against **memory poisoning, jailbreaks, and evasion attacks**. On the platform side, Azure posts emphasized **secure delivery and scalable operations**, including using **OIDC instead of service principals (SPN)** for **GitHub Actions + Terraform** deployments, scaling **MCP servers** behind an **Azure App Service load balancer**, running **JavaScript in Agent Loop**, and cleaning up idle or repeatedly failing **Azure Logic App Consumption** workflows to reduce operational waste."
 }
