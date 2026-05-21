@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-05-21T11:59:51.281611+00:00",
-  "totalArticles": 1127,
+  "lastUpdated": "2026-05-21T14:57:16.190361+00:00",
+  "totalArticles": 1128,
   "articles": [
+    {
+      "title": "Visual Studio Code 1.122",
+      "link": "https://code.visualstudio.com/updates/v1_122",
+      "published": "2026-05-27T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.122 (Insiders) Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Issue fields are now in public preview for all organizations",
+      "link": "https://github.blog/changelog/2026-05-21-issue-fields-are-now-in-public-preview-for-all-organizations",
+      "published": "2026-05-21T14:30:03+00:00",
+      "summary": "Issue fields are now available in public preview to all GitHub organizations on github.com and GitHub Enterprise Cloud with data residency. When you define typed metadata like Priority, Effort, or… The post Issue fields are now in public preview for all organizations appeared first on The GitHub...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "Building AI Agents with Microsoft Foundry: A Progressive Lab from Hello World to Self-Hosted",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-ai-agents-with-microsoft-foundry-a-progressive-lab-from/ba-p/4521792",
@@ -454,6 +476,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Upcoming deprecation of Python 3.9 for Dependabot",
+      "link": "https://github.blog/changelog/2026-05-19-upcoming-deprecation-of-python-3-9-for-dependabot",
+      "published": "2026-05-19T22:11:33+00:00",
+      "summary": "On June 23, 2026, Dependabot will no longer support Python version 3.9, which has reached its end-of-life. If you continue to use Python 3.9, there’s a risk that Dependabot will… The post Upcoming deprecation of Python 3.9 for Dependabot appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Simplified access to Hotpatching enabled by Azure Arc for Windows Server 2025",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/simplified-access-to-hotpatching-enabled-by-azure-arc-for/ba-p/4521251",
       "published": "2026-05-19T21:18:34+00:00",
@@ -707,17 +740,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Removal of code_scanning_upload field from rate_limit API endpoint",
-      "link": "https://github.blog/changelog/2026-05-19-removal-of-code_scanning_upload-field-from-rate_limit-api-endpoint",
-      "published": "2026-05-19T10:40:26+00:00",
-      "summary": "As of May 19, 2026, we have removed the code_scanning_upload field from the rate limit REST API endpoint response. What changed The code_scanning_upload field no longer appears in the resources… The post Removal of code_scanning_upload field from rate_limit API endpoint appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Rundeck – AWS Enterprise Rundeck Integration with Azure Runner",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/rundeck-aws-enterprise-rundeck-integration-with-azure-runner/ba-p/4521080",
       "published": "2026-05-19T10:08:59+00:00",
@@ -759,17 +781,6 @@
       "blogId": "microsoftsecurity",
       "author": "Microsoft Defender Security Research Team",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "One-click fixes for failing Actions with Copilot cloud agent",
-      "link": "https://github.blog/changelog/2026-05-18-one-click-fixes-for-failing-actions-with-copilot-cloud-agent",
-      "published": "2026-05-18T22:29:27+00:00",
-      "summary": "When a GitHub Actions job fails, Copilot Business and Copilot Enterprise subscribers can now ask Copilot cloud agent to fix it in one click. Click the Fix with Copilot button… The post One-click fixes for failing Actions with Copilot cloud agent appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -12400,5 +12411,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blogs centered on **productionizing AI and securing cloud-native workflows**: Microsoft highlighted a progressive **Microsoft Foundry** lab for building AI agents from basic demos to **self-hosted deployments**, guidance for coordinating AI-assisted engineering with **AGENTS.md** and reusable “skills,” and a deep dive into defending LLM systems against **memory poisoning, jailbreaks, and evasion attacks**. On the platform side, Azure posts emphasized **secure delivery and scalable operations**, including using **OIDC instead of service principals (SPN)** for **GitHub Actions + Terraform** deployments, scaling **MCP servers** behind an **Azure App Service load balancer**, running **JavaScript in Agent Loop**, and cleaning up idle or repeatedly failing **Azure Logic App Consumption** workflows to reduce operational waste."
+  "summary": "Today’s Azure posts centered on practical AI engineering and secure cloud automation: several articles focused on building and hardening AI systems, including Microsoft Foundry agent labs, defenses against LLM attacks like memory poisoning and jailbreaks, and workflow patterns for AI-assisted development using **AGENTS.md**, **Skills**, and JavaScript execution in **Agent Loop**. On the platform side, key announcements and guidance covered **GitHub Issue fields** entering **public preview** for all organizations, using **OIDC instead of service principals (SPNs)** to secure **GitHub Actions + Terraform** deployments to Azure, scaling **MCP servers** behind an **Azure App Service** load balancer, and operational cleanup for idle or consistently failing **Azure Logic App Consumption** workflows."
 }
