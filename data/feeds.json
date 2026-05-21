@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T19:41:11.217613+00:00",
+  "lastUpdated": "2026-05-21T22:09:15.234945+00:00",
   "totalArticles": 1127,
   "articles": [
     {
@@ -14,6 +14,39 @@
       "sourceType": "rss"
     },
     {
+      "title": "[Launched] Generally Available: Azure NetApp Files object REST API",
+      "link": "https://azure.microsoft.com/updates?id=562254",
+      "published": "2026-05-21T21:45:32+00:00",
+      "summary": "The Object REST API (an S3-compatible REST API) on Azure NetApp Files bridges the gap between traditional file-based storage and modern cloud services, enabling you to use your existing data in new ways. With the Object REST API, you can seamlessly integr",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Retirement: TLS 1.0 and TLS 1.1 in Azure App Service, Azure Functions, and Azure Logic Apps",
+      "link": "https://azure.microsoft.com/updates?id=557852",
+      "published": "2026-05-21T21:45:32+00:00",
+      "summary": "As part of Azure’s ongoing security improvements, App Service, Functions, and Logic Apps will no longer accept connections using TLS 1.0 or TLS 1.1 after May 31, 2027. Any client, application, or service that continues to use these legacy TLS versions wil",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "When AI Should Ask for Help: Human-in-the-Loop Patterns in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/when-ai-should-ask-for-help-human-in-the-loop-patterns-in/ba-p/4514357",
+      "published": "2026-05-21T21:30:00+00:00",
+      "summary": "As AI agents become increasingly capable, modern applications are shifting from deterministic workflows to systems that can reason, adapt, and act. Platforms like Microsoft Foundry enable this transition by making it easier to orchestrate models, tools, and data into cohesive experiences. But...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "taniamuley",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Teaching AI to Remember: Exploring Memory Store in Microsoft Foundry",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/teaching-ai-to-remember-exploring-memory-store-in-microsoft/ba-p/4502381",
       "published": "2026-05-21T19:38:58+00:00",
@@ -23,6 +56,28 @@
       "author": "vmanasa",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "[Launched] Generally Available: User Groups and IP address pools for P2S connections",
+      "link": "https://azure.microsoft.com/updates?id=564460",
+      "published": "2026-05-21T18:45:42+00:00",
+      "summary": "User Groups and IP Address Pools for Point-to-Site connections in VPN Gateway enable customers to assign distinct IP address pools to remote users based on their credentials. With this capability, customers can organize remote users into separate groups a",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: TLS/SSL certificate support for Azure Functions Flex Consumption",
+      "link": "https://azure.microsoft.com/updates?id=562808",
+      "published": "2026-05-21T18:45:42+00:00",
+      "summary": "Flex Consumption introduces a site-scoped certificate model in public preview in all the regions where Flex Consumption is available. Unlike webspace-scoped certificates on other hosting plans which are shared across apps in the same region + resource gro",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
     },
     {
       "title": "WAR, Azure Advisor, and Us (Azure Arch Diagram Builder): Three Ways to Score an Azure Architecture",
@@ -78,6 +133,17 @@
       "author": "Sharmichock",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Plan Before You Build: Introducing the Plan agent in Visual Studio",
+      "link": "https://devblogs.microsoft.com/visualstudio/plan-before-you-build-introducing-the-plan-agent-in-visual-studio/",
+      "published": "2026-05-21T17:17:59+00:00",
+      "summary": "You ask Copilot to tackle something big, it gets to work, and a dozen file changes later you realize you had a completely different approach in mind. The code isn’t wrong… it just isn’t what you were going for. Last year, we introduced planning as a feature in Agent mode to help with exactly this....",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Rachel Kang (SHE/HER)",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Announcing Agent Governance Toolkit MCP Extensions for .NET",
@@ -3358,17 +3424,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Voice Live API now supports WebRTC (Preview)",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/voice-live-api-now-supports-webrtc-preview/ba-p/4516002",
-      "published": "2026-04-30T15:00:42+00:00",
-      "summary": "We are thrilled to announce that Voice Live API now supports WebRTC (Web Real-Time Communication) connection, enabling low‑latency, real‑time voice interactions directly from web and mobile clients. Why WebRTC is required in real-time voice agent building WebRTC enables real‑time, bi‑directional...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "ArcherZ",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Public Preview: Managed Identity support for graphical session recording",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/public-preview-managed-identity-support-for-graphical-session/ba-p/4513139",
       "published": "2026-04-30T14:05:12+00:00",
@@ -6152,17 +6207,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Bookmark Studio: evolving bookmarks in Visual Studio",
-      "link": "https://devblogs.microsoft.com/visualstudio/bookmark-studio-evolving-bookmarks-in-visual-studio/",
-      "published": "2026-04-01T14:09:58+00:00",
-      "summary": "Bookmarks in Visual Studio have always been a simple, reliable feature. Many developers use them regularly, and over the years we’ve heard consistent feedback from those users. Bookmarks were useful, but there were a few core gaps that kept them from being as effective and relevant as they could...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Mads Kristensen",
-      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "How to revoke connection OAuth programmatically in Logic Apps",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/how-to-revoke-connection-oauth-programmatically-in-logic-apps/ba-p/4506825",
       "published": "2026-04-01T11:02:44+00:00",
@@ -8616,39 +8660,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "[Launched] Generally Available: Node auto-provisioning support in Sovereign Cloud",
-      "link": "https://azure.microsoft.com/updates?id=557208",
-      "published": "2026-02-18T17:15:17+00:00",
-      "summary": "Node auto‑provisioning removes the need for teams to manually size and manage compute resources for Kubernetes workloads. Azure Kubernetes Service (AKS) now provides general availability support for node auto‑provisioning in Sovereign Cloud. This capabili",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Node auto-provisioning enabled clusters in AKS now support LocalDNS",
-      "link": "https://azure.microsoft.com/updates?id=557203",
-      "published": "2026-02-18T16:45:58+00:00",
-      "summary": "Customers previously could not enable LocalDNS on clusters that used Node auto‑provisioning in AKS, limiting their ability to use this feature in those environments. LocalDNS is now generally available for AKS clusters with Node auto‑provisioning, providi",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Encryption at host & disk encryption sets support in node auto-provisioning",
-      "link": "https://azure.microsoft.com/updates?id=557213",
-      "published": "2026-02-18T16:30:06+00:00",
-      "summary": "Node auto-provisioning enabled clusters previously did not have support for Encryption at Host and disk encryption sets. This limited users with certain security requirements for their cluster to not be able to use node auto-provisioning. Node auto-pro",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "AI-Powered RAN and the Intelligent Edge: Microsoft’s Vision for the Future of Telecom",
       "link": "https://techcommunity.microsoft.com/t5/telecommunications-industry-blog/ai-powered-ran-and-the-intelligent-edge-microsoft-s-vision-for/ba-p/4495554",
       "published": "2026-02-18T16:15:41+00:00",
@@ -8691,17 +8702,6 @@
       "author": "HilaryWang",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "[Launched] Generally Available: Instant access support for incremental snapshots of Azure Premium SSD v2 and Ultra Disk",
-      "link": "https://azure.microsoft.com/updates?id=545784",
-      "published": "2026-02-17T17:00:32+00:00",
-      "summary": "Announcing the General Availability of instant access support for incremental snapshots of Premium SSD v2 (Pv2) and Ultra Disk. This new capability enables you to restore new disks immediately after creating snapshots of Pv2 and Ultra disks. Newly restore",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
     },
     {
       "title": "RDP Shortpath (UDP) over Private Link is now generally available",
@@ -12400,5 +12400,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft developer posts were dominated by AI platform and agent infrastructure updates: Microsoft highlighted **Memory Store in Azure AI Foundry/Microsoft Foundry** for persistent agent memory, **Foundry Labs May 2026** experiments, **Cohere Command A+** availability, and multiple security/governance themes including **prompt injection defenses**, **memory poisoning/jailbreak evasion**, and new **Agent Governance Toolkit MCP extensions for .NET**. A second major theme was how to operationalize AI on Azure, with guides for building a **framework-agnostic AI gateway on Azure App Service**, **scaling MCP servers behind a load balancer**, running **JavaScript on Agent Loop**, and progressive labs for self-hosted agents.\n\nBeyond AI, Microsoft emphasized cloud architecture, app modernization, and developer platform quality: Azure Architecture featured scoring designs with **WAR**, **Azure Advisor**, and **Azure Arch Diagram Builder**; .NET posted on **improving C# memory safety**; GitHub announced **issue fields public preview** and accessibility investments; and security/devops coverage included **OIDC vs SPN for GitHub Actions + Terraform**, **Logic App Consumption cleanup**, and the monthly **Microsoft Security** roundup."
+  "summary": "Today’s Azure and Microsoft developer news was dominated by AI platform maturity and governance in Microsoft Foundry: Microsoft highlighted human-in-the-loop agent patterns, the new Memory Store for persistent context, Foundry Labs updates, availability of Cohere Command A+, and security guidance for defending Azure AI apps against prompt injection, memory poisoning, jailbreaks, and evasion. On the platform side, Azure announced GA for the Azure NetApp Files object REST API and for P2S VPN user groups/IP address pools, previewed TLS/SSL certificate support for Azure Functions Flex Consumption, and reiterated the retirement of TLS 1.0/1.1 across Azure App Service, Functions, and Logic Apps.\n\nA second major theme was developer tooling, architecture quality, and safer app delivery: Visual Studio introduced a Plan agent, .NET added Agent Governance Toolkit MCP extensions and shared work on improving C# memory safety, and Azure App Service was showcased as a host for a framework-agnostic AI gateway. Broader ecosystem posts covered Azure architecture scoring with WAR and Azure Advisor, Microsoft Security’s May roundup, and GitHub updates spanning open source game development tooling, accessibility investments, and public preview support for issue fields across organizations."
 }
