@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-05-21T01:54:54.489738+00:00",
+  "lastUpdated": "2026-05-21T06:40:42.652258+00:00",
   "totalArticles": 1127,
   "articles": [
+    {
+      "title": "Clean up idle and always-failing Azure Logic App Consumption",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/clean-up-idle-and-always-failing-azure-logic-app-consumption/ba-p/4521728",
+      "published": "2026-05-21T05:11:18+00:00",
+      "summary": "If you’ve inherited an Azure subscription that’s been collecting Logic Apps Consumption workflows for a couple of years, you already know the shape of the problem: dozens of TestLA, webhook-test-2, poc-for-jira-FINAL workflows in the portal, half of them still Enabled, half of them quietly failing...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Yanbo_Deng",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "You Can Scale MCP Servers Behind a Load Balancer on App Service — Here's How",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/you-can-scale-mcp-servers-behind-a-load-balancer-on-app-service/ba-p/4520824",
+      "published": "2026-05-21T02:57:35+00:00",
+      "summary": "Most MCP servers in the wild are single-instance processes. That's fine when they're driving a local Claude or VS Code session — but it's the wrong shape for a production agent fleet that has to absorb traffic spikes, ride through deploys, and survive instance failures. The good news: the MCP spec...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Run Javascript code on Agent Loop",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/run-javascript-code-on-agent-loop/ba-p/4519880",
+      "published": "2026-05-21T02:10:42+00:00",
+      "summary": "We have recently introduced support for Code interpreters inside of Azure Logic Apps Agent Loop, extending the support we had for Python. When partnered with a LLM, this allow builders to express their goals or intents via natural language and obtain executable results. These capabilities become...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Copilot usage metrics reports now use GitHub-owned download URLs",
       "link": "https://github.blog/changelog/2026-05-20-copilot-usage-metrics-reports-now-use-github-owned-download-urls",
@@ -36,6 +69,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Announcing Public Preview of Argo CD extension in AKS Azure Portal Experience",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-public-preview-of-argo-cd-extension-in-aks-azure/ba-p/4521618",
+      "published": "2026-05-20T22:00:21+00:00",
+      "summary": "We are excited to announce the public preview of Argo CD in the Azure Portal for Azure Kubernetes Service. As GitOps becomes the standard for deploying and operating applications at scale, customers need a way to adopt GitOps with simpler onboarding, secure defaults, and integrated workflows. With...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Samantha_Fernandez",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Ansible + Azure Arc: Manage Arc Extensions with New Ansible Modules",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/ansible-azure-arc-manage-arc-extensions-with-new-ansible-modules/ba-p/4521689",
       "published": "2026-05-20T21:56:38+00:00",
@@ -58,10 +102,10 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Investigating unauthorized access to GitHub’s internal repositories",
+      "title": "Investigating unauthorized access to GitHub-owned repositories",
       "link": "https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/",
       "published": "2026-05-20T21:07:38+00:00",
-      "summary": "If any impact is discovered, customers will be notified via established incident response and notification channels. The post Investigating unauthorized access to GitHub’s internal repositories appeared first on The GitHub Blog.",
+      "summary": "If any impact is discovered, customers will be notified via established incident response and notification channels. The post Investigating unauthorized access to GitHub-owned repositories appeared first on The GitHub Blog.",
       "blog": "GitHub Blog",
       "blogId": "githubblog",
       "author": "Natalie Guevara",
@@ -685,17 +729,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Introducing Code Interpreters for Logic Apps",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/introducing-code-interpreters-for-logic-apps/ba-p/4519880",
-      "published": "2026-05-18T20:08:36+00:00",
-      "summary": "We have recently introduced support for Code interpreters inside of Azure Logic Apps. When partnered with a LLM, code interpreters allow builders to express their goals or intents via natural language and obtain executable results. These capabilities become powerful in the areas of data analysis,...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Safe Rollouts Start with Signals: Introducing Scorecards in Azure App Configuration",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/safe-rollouts-start-with-signals-introducing-scorecards-in-azure/ba-p/4520881",
       "published": "2026-05-18T19:59:18+00:00",
@@ -839,17 +872,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "You Can Scale MCP Servers Behind a Load Balancer on App Service — Here's How",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/you-can-scale-mcp-servers-behind-a-load-balancer-on-app-service/ba-p/4520824",
-      "published": "2026-05-18T15:49:16+00:00",
-      "summary": "Most MCP servers in the wild are single-instance processes. That's fine when they're driving a local Claude or VS Code session — but it's the wrong shape for a production agent fleet that has to absorb traffic spikes, ride through deploys, and survive instance failures. The good news: the MCP spec...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Host a Microsoft Build //local host Event in Your City",
       "link": "https://techcommunity.microsoft.com/t5/azure-events/host-a-microsoft-build-local-host-event-in-your-city/ba-p/4514274",
       "published": "2026-05-18T15:48:57+00:00",
@@ -988,7 +1010,7 @@
       "summary": "Microsoft's Customer Zero blog series gives an insider view of how Microsoft builds and operates Microsoft using our trusted, enterprise-grade IQ platform. Learn best practices from our engineering teams with real-world lessons, architectural patterns, and operational strategies for pressure-tested...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "dbillor",
+      "author": "DenizcanB",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -3466,17 +3488,6 @@
       "author": "Matt Clark",
       "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "AG-UI: The Future of Agent-Driven User Interfaces",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/ag-ui-the-future-of-agent-driven-user-interfaces/ba-p/4515769",
-      "published": "2026-04-29T09:30:48+00:00",
-      "summary": "As AI agents evolve from simple chatbots into workflow engines, decision-makers, and copilots, one challenge has remained stubbornly unsolved: How do we connect intelligent agents to rich, dynamic, user-facing interfaces without custom plumbing every single time? Introducing AG-UI (Agent–User...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "VaidhyaP",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Upcoming Compute API Change: Always return non-null securityType",
@@ -7989,17 +8000,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "New Azure API management service limits",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/new-azure-api-management-service-limits/ba-p/4497574",
-      "published": "2026-03-04T07:14:10+00:00",
-      "summary": "Azure API Management operates on finite physical infrastructure. To ensure reliable performance for all customers, the service enforces limits calibrated based on: Azure platform capacity and performance characteristics Service tier capabilities Typical customer usage patterns Resource limits are...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Sreekanth_Thirthala",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing the General Availability of the Azure Arc Gateway for Arc-enabled Kubernetes!",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/announcing-the-general-availability-of-the-azure-arc-gateway-for/ba-p/4498561",
       "published": "2026-03-03T23:12:14+00:00",
@@ -12399,5 +12399,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure posts focused on operational efficiency and AI/app platform flexibility. Microsoft highlighted a way to identify and clean up idle or consistently failing Azure Logic Apps Consumption workflows, explained how to scale Model Context Protocol (MCP) servers behind a load balancer using Azure App Service, and introduced support for running JavaScript code inside Agent Loop for more customizable integration and agent scenarios.\n\nThe key themes were cost/control for integration workloads, scalable hosting patterns for AI-related MCP services on App Service, and expanded developer extensibility through JavaScript execution in Agent Loop."
 }
