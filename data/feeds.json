@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T11:36:49.825810+00:00",
+  "lastUpdated": "2026-05-22T14:08:53.292780+00:00",
   "totalArticles": 1126,
   "articles": [
     {
@@ -14,9 +14,20 @@
       "sourceType": "rss"
     },
     {
+      "title": "Custom KEDA Scale Rules for Azure Functions on Azure Container Apps",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/custom-keda-scale-rules-for-azure-functions-on-azure-container/ba-p/4521781",
+      "published": "2026-05-22T12:41:28+00:00",
+      "summary": "Announcing Custom KEDA Scale Rules for Azure Functions on Container Apps We're excited to announce a new capability for Azure Functions on Container Apps: custom KEDA scale rule overrides. You can now bypass the platform's auto-generated scaling rules and define your own KEDA configuration - giving...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "DeepGanguly",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "AI Infrastructure Preflight at User space: Validating Multi Node, Multi GPU Slurm Clusters",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/ai-infrastructure-preflight-at-user-space-validating-multi-node/ba-p/4522284",
-      "published": "2026-05-22T11:32:20+00:00",
+      "published": "2026-05-22T12:29:15+00:00",
       "summary": "Every team that operates GPU clusters for AI has seen this pattern. The cluster boots, GPUs are visible, and scheduling works at a basic level. Then the first distributed training run stalls in NCCL initialization, fails during rank rendezvous, or silently maps ranks to the wrong devices. The issue...",
       "blog": "High Performance Computing",
       "blogId": "azurehighperformancecomputingblog",
@@ -3549,17 +3560,6 @@
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-for-azure-monitor-alerts-reduce-alert-fatigue/ba-p/4513458",
       "published": "2026-04-30T01:28:49+00:00",
       "summary": "The Alert Problem Organizations running Azure Monitor tend to land in one of two situations: Alert fatigue has set in. Alert rules tend to grow over time — a CPU threshold from two years ago, a health probe check from a migration, a disk alert from an outage that never got cleaned up. These rules...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Vineela-Suri",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Plugin Marketplace for Azure SRE Agent: Build Once, Install Anywhere",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/plugin-marketplace-for-azure-sre-agent-build-once-install/ba-p/4513501",
-      "published": "2026-04-29T22:25:23+00:00",
-      "summary": "What's a Plugin? A plugin bundles two things: Skills — Operational knowledge (triage runbooks, policy rules, known issues) the agent reads at runtime to guide its reasoning MCP Connectors — Live integrations to your internal APIs (deployment tracker, cost dashboard, CMDB) the agent can query during...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "Vineela-Suri",
@@ -12389,5 +12389,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focused on scaling and de-risking complex deployments across AI, infrastructure, and data migration. Key announcements included **AI Infrastructure Preflight** for validating **multi-node, multi-GPU Slurm HPC clusters** before workloads run, new guidance for assessing **on-premises file shares** for migration with **Azure Migrate** and **Azure Storage**, and a deep dive on building **RAG systems** that scale from **1,000 to 1 million documents**.\n\nAzure also highlighted operational confidence and community engagement: **Rule Impact Analyzer** in **Azure Virtual Network Manager** helps teams predict the effects of network rule changes before deployment, while Microsoft is encouraging developers and organizers to host **Microsoft Build //local** events in their own cities."
+  "summary": "Today’s Azure posts centered on scaling cloud-native apps, AI/HPC readiness, and enterprise migration/networking operations. Key announcements included guidance for creating **custom KEDA scale rules** for **Azure Functions on Azure Container Apps**, a **user-space preflight validation** approach for **multi-node, multi-GPU Slurm clusters** in AI infrastructure, and new recommendations to use **Azure Migrate** to discover and assess **on-prem file shares** before moving them to **Azure Storage**.\n\nAzure also highlighted architecture and governance themes: a community post explored how to evolve **RAG systems** from **1,000 to 1 million documents**, emphasizing scalable retrieval design, while Azure Networking introduced **Rule Impact Analyzer** in **Azure Virtual Network Manager** to preview how network rule changes affect resources before deployment. Rounding out the day, Azure promoted ecosystem engagement with a call to host a **Microsoft Build //local** event in local communities."
 }
