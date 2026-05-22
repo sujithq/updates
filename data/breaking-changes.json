@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16T09:48:20.852493+00:00",
+  "lastUpdated": "2026-05-22T10:58:12.184272+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -869,6 +869,17 @@
       "detected": "2026-05-16T09:48:20.852480+00:00",
       "published": "2026-05-15T17:58:15+00:00",
       "blog": "GitHub Changelog"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=557852",
+      "title": "Retirement: TLS 1.0 and TLS 1.1 in Azure App Service, Azure Functions, and Azure Logic Apps",
+      "severity": "warning",
+      "deadline": "2027-05-31",
+      "impact": "Azure App Service/Functions/Logic Apps will reject TLS 1.0/1.1 clients",
+      "action": "Upgrade clients and integrations to use TLS 1.2 or newer",
+      "detected": "2026-05-22T10:58:12.184262+00:00",
+      "published": "2026-05-21T21:45:32+00:00",
+      "blog": "Azure Updates"
     }
   ]
 }
