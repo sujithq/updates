@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T06:37:28.089412+00:00",
+  "lastUpdated": "2026-05-22T11:36:49.825810+00:00",
   "totalArticles": 1126,
   "articles": [
     {
@@ -12,6 +12,50 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "AI Infrastructure Preflight at User space: Validating Multi Node, Multi GPU Slurm Clusters",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/ai-infrastructure-preflight-at-user-space-validating-multi-node/ba-p/4522284",
+      "published": "2026-05-22T11:32:20+00:00",
+      "summary": "Every team that operates GPU clusters for AI has seen this pattern. The cluster boots, GPUs are visible, and scheduling works at a basic level. Then the first distributed training run stalls in NCCL initialization, fails during rank rendezvous, or silently maps ranks to the wrong devices. The issue...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "vinilv",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Simplify On-prem File share Migration to Azure: Discover & assess suitability using Azure Migrate",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/simplify-on-prem-file-share-migration-to-azure-discover-assess/ba-p/4509195",
+      "published": "2026-05-22T10:24:28+00:00",
+      "summary": "UPDATE as of 20th May 2026: We are happy to announce that this capability is now GA worldwide. Migrating on‑premises file servers to the cloud is a complex infrastructure transformation—not just a data move. Many organizations lack the visibility needed to decide whether to rehost or modernize file...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "bapic",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "When RAG Hits the Wall: Designing Systems That Scale from 1,000 to 1 million Documents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/when-rag-hits-the-wall-designing-systems-that-scale-from-1-000/ba-p/4516085",
+      "published": "2026-05-22T07:00:00+00:00",
+      "summary": "Introduction Retrieval-Augmented Generation (RAG) has quickly become the default architecture for grounding Large Language Models (LLMs) in enterprise data. And at small scale, it works exceptionally well. 100 documents → Excellent accuracy 1,000 documents → Still predictable With around 100...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "himachauhan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Deploy with Confidence: Using Rule Impact Analyzer in Azure Virtual Network Manager",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/deploy-with-confidence-using-rule-impact-analyzer-in-azure/ba-p/4521342",
+      "published": "2026-05-22T06:36:58+00:00",
+      "summary": "Introduction In a previous blog post, we described how Azure Virtual Network Manager (AVNM) enables central teams to enforce security admin rules across hundreds of virtual networks—bring consistency and governance to complex enterprise environments. But enforcement at scale introduces a new...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Jay-Li",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Host a Microsoft Build //local host Event in Your City",
@@ -704,17 +748,6 @@
       "blogId": "microsoft365copilotblog",
       "author": "Karuana_Gatimu_MSFT",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Deploy with Confidence: Using Rule Impact Analyzer in Azure Virtual Network Manager",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/deploy-with-confidence-using-rule-impact-analyzer-in-azure/ba-p/4521342",
-      "published": "2026-05-19T22:51:45+00:00",
-      "summary": "Introduction In a previous blog post, we described how Azure Virtual Network Manager (AVNM) enables central teams to enforce security admin rules across hundreds of virtual networks—bring consistency and governance to complex enterprise environments. But enforcement at scale introduces a new...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Jay-Li",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3138,17 +3171,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "SonarPilot - Bulk Managing SonarQube Issues",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/sonarpilot-bulk-managing-sonarqube-issues/ba-p/4509333",
-      "published": "2026-05-04T18:05:29+00:00",
-      "summary": "Stop Managing SonarQube Issues One by One, Introducing SonarPilot Introduction If you've worked on a large projects, you know the feeling. You open your SonarQube dashboard, and you're staring at 30,000+ open issues spread across many rules. You need to triage them before the next sprint. You need...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "JatinderSingh0211",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[Launched] Generally Available: Cleanup legacy AlternateId usage to ensure continued service",
       "link": "https://azure.microsoft.com/updates?id=561432",
       "published": "2026-05-04T17:45:58+00:00",
@@ -4752,17 +4774,6 @@
       "blogId": "azurevirtualdesktopblog",
       "author": "Steve_Downs",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurevirtualdesktopblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Simplify On-prem File share Migration to Azure: Discover & assess suitability using Azure Migrate",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/simplify-on-prem-file-share-migration-to-azure-discover-assess/ba-p/4509195",
-      "published": "2026-04-20T09:49:14+00:00",
-      "summary": "Migrating on‑premises file servers to the cloud is a complex infrastructure transformation—not just a data move. Many organizations lack the visibility needed to decide whether to rehost or modernize file shares spread across Windows and Linux servers. Azure Migrate now extends its discovery and...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "bapic",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -10552,17 +10563,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Performance and Scalability of Azure HBv5-series Virtual Machines",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/performance-and-scalability-of-azure-hbv5-series-virtual/ba-p/4467230",
-      "published": "2025-11-17T23:35:04+00:00",
-      "summary": "Azure HBv5-series virtual machines (VMs) for CPU-based high performance computing (HPC) are now Generally Available. This blog provides in-depth information about the technical underpinnings, performance, cost, and management implications of these HPC-optimized VMs. Azure HBv5 VM bring leadership...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "jvenkatesh",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Join Microsoft @ SC25: Experience HPC and AI Innovation",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/join-microsoft-sc25-experience-hpc-and-ai-innovation/ba-p/4467935",
       "published": "2025-11-14T21:24:37+00:00",
@@ -12389,5 +12389,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog highlights community engagement around **Microsoft Build //local**, inviting organizers to host in-person events in their cities through **Azure Events**. The key theme is expanding local access to Build-related learning and networking, helping developers, IT professionals, and cloud communities connect around Microsoft technologies at a regional level."
+  "summary": "Today’s Azure posts focused on scaling and de-risking complex deployments across AI, infrastructure, and data migration. Key announcements included **AI Infrastructure Preflight** for validating **multi-node, multi-GPU Slurm HPC clusters** before workloads run, new guidance for assessing **on-premises file shares** for migration with **Azure Migrate** and **Azure Storage**, and a deep dive on building **RAG systems** that scale from **1,000 to 1 million documents**.\n\nAzure also highlighted operational confidence and community engagement: **Rule Impact Analyzer** in **Azure Virtual Network Manager** helps teams predict the effects of network rule changes before deployment, while Microsoft is encouraging developers and organizers to host **Microsoft Build //local** events in their own cities."
 }
