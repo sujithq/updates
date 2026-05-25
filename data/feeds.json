@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T12:16:55.037996+00:00",
+  "lastUpdated": "2026-05-25T16:56:58.244327+00:00",
   "totalArticles": 1122,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "GitHub for Beginners: Getting started with Git and GitHub in VS Code",
+      "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-git-and-github-in-vs-code/",
+      "published": "2026-05-25T16:00:00+00:00",
+      "summary": "Discover how to use VS Code to interact with GitHub and maintain your projects. The post GitHub for Beginners: Getting started with Git and GitHub in VS Code appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Natalie Guevara",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Deploying Existing Agentic Services to Microsoft 365 Copilot via Gateway and OBO",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/deploying-existing-agentic-services-to-microsoft-365-copilot-via/ba-p/4504265",
+      "published": "2026-05-25T15:15:00+00:00",
+      "summary": "Deploying an Agentic Service to Microsoft 365 Copilot with Delegated OBO Access You've built an agentic service. It works. It uses the framework you chose — maybe LangChain, maybe Semantic Kernel, maybe the Microsoft Agent Framework, maybe something entirely your own. It talks to your LLM, calls...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "JamesN",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Building an End-to-End Azure RAG Strategy Agent with MS Foundry",
@@ -1994,17 +2016,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Dungeons & Desktops: 10 roguelikes that never die (because their communities won’t let them)",
-      "link": "https://github.blog/open-source/gaming/dungeons-desktops-10-roguelikes-that-never-die-because-their-communities-wont-let-them/",
-      "published": "2026-05-13T16:00:00+00:00",
-      "summary": "Roguelikes don’t die. They fork, mutate, get argued over, rewritten, abandoned, and revived again. Sometimes all at once. The post Dungeons & Desktops: 10 roguelikes that never die (because their communities won’t let them) appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Lee Reilly",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "How Workday and Microsoft are redefining the agentic workplace",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/how-workday-and-microsoft-are-redefining-the-agentic-workplace/ba-p/4518532",
       "published": "2026-05-13T13:00:00+00:00",
@@ -2992,17 +3003,6 @@
       "blogId": "azurecompute",
       "author": "micahmckittrick",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Introducing OpenAI's newest chat model in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-openai-s-newest-chat-model-in-microsoft-foundry/ba-p/4516848",
-      "published": "2026-05-05T21:42:50+00:00",
-      "summary": "OpenAI's GPT-5.5 Instant (or Chat-latest in the API) begins rolling out in Microsoft Foundry today as GPT-chat-latest. Built on GPT-5.4 and GPT-5.3-chat, the new model delivers measurable gains in factual accuracy, tool calling, and response efficiency. These improvements translate directly into...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12345,5 +12345,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage centers on enterprise generative AI, specifically a new end-to-end **RAG (retrieval-augmented generation) strategy agent** built with **Microsoft Foundry** and shared via the **Azure Dev Community**. The post highlights how Azure developers can combine **Azure AI services**, orchestration patterns for agentic apps, and enterprise data grounding to build more reliable, production-oriented AI assistants rather than standalone LLM demos."
+  "summary": "Today’s Azure-related posts center on practical AI developer workflows and integration. The biggest announcements are around bringing existing **agentic services** into **Microsoft 365 Copilot** using a **gateway** and **on-behalf-of (OBO)** authentication in **Azure AI Foundry**, plus a hands-on pattern for building an end-to-end **RAG (retrieval-augmented generation) strategy agent** with **Microsoft/Azure Foundry**.\n\nA secondary theme is developer enablement: the GitHub post walks beginners through **Git**, **GitHub**, and **VS Code**, reinforcing the core tooling needed to build, version, and ship these kinds of AI applications."
 }
