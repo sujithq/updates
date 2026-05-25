@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T06:59:34.403838+00:00",
+  "lastUpdated": "2026-05-25T12:16:55.037996+00:00",
   "totalArticles": 1122,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Building an End-to-End Azure RAG Strategy Agent with MS Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-an-end-to-end-azure-rag-strategy-agent-with-ms-foundry/ba-p/4516967",
+      "published": "2026-05-25T07:00:00+00:00",
+      "summary": "High-Level Architecture This architecture represents an end-to-end Retrieval-Augmented Generation (RAG) pipeline where raw documents are ingested from Azure Blob Storage, processed using Document Intelligence, transformed into embeddings via Azure OpenAI, and indexed in Azure AI Search for hybrid...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "SHAILESHDEVADIGA",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "The Azure Copilot Observability Agent Chat - Stop Writing Queries, Start Asking Questions.",
@@ -2432,17 +2443,6 @@
       "author": "Microsoft",
       "feedUrl": "https://blog.aks.azure.com/rss.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Turning GitHub Copilot into a “Best Practices Coach” with Copilot Spaces + a Markdown Knowledge Base",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/turning-github-copilot-into-a-best-practices-coach-with-copilot/ba-p/4511567",
-      "published": "2026-05-09T10:14:47+00:00",
-      "summary": "Why Copilot Spaces + Markdown repos work so well When you ask Copilot generic questions (“How should we log errors?” “What’s our API versioning approach?”), the model will often respond with reasonable defaults. But reasonable defaults are not the same as your standards. Copilot Spaces solve the...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "mohashaikh",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "CHERIoT-Ibex: Closing the door on memory safety vulnerabilities with hardware-enforced protection",
@@ -12344,5 +12344,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage centers on enterprise generative AI, specifically a new end-to-end **RAG (retrieval-augmented generation) strategy agent** built with **Microsoft Foundry** and shared via the **Azure Dev Community**. The post highlights how Azure developers can combine **Azure AI services**, orchestration patterns for agentic apps, and enterprise data grounding to build more reliable, production-oriented AI assistants rather than standalone LLM demos."
 }
