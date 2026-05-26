@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26T19:51:32.853188+00:00",
+  "lastUpdated": "2026-05-26T22:15:10.637523+00:00",
   "totalArticles": 1122,
   "articles": [
     {
@@ -11,6 +11,50 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Copilot Memory has more controls for deletion, scope, and the Copilot CLI",
+      "link": "https://github.blog/changelog/2026-05-26-copilot-memory-has-more-controls-for-deletion-scope-and-the-copilot-cli",
+      "published": "2026-05-26T21:05:28+00:00",
+      "summary": "Copilot Memory now includes improved memory deletion, adds a repository-level off switch, and brings further memory controls into the Copilot CLI. Copilot Memory is in public preview and available to… The post Copilot Memory has more controls for deletion, scope, and the Copilot CLI appeared first...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Simplify Virtual WAN Spoke Connectivity at Scale with Azure Virtual Network Manager",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/simplify-virtual-wan-spoke-connectivity-at-scale-with-azure/ba-p/4523055",
+      "published": "2026-05-26T20:44:54+00:00",
+      "summary": "With Azure Virtual Network Manager (AVNM) integration, organizations using Virtual WAN for transitive connectivity can simplify spoke connectivity and policy management across large-scale hub-and-spoke deployments. By using a Virtual WAN hub as the hub in an AVNM hub-and-spoke topology,...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Jay-Li",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "GitHub Code Quality: Repository Enablement API",
+      "link": "https://github.blog/changelog/2026-05-26-github-code-quality-repository-enablement-api",
+      "published": "2026-05-26T20:35:06+00:00",
+      "summary": "You can now programmatically enable and configure GitHub Code Quality on individual repositories using the new Repository Enablement API, available today in public preview. Two new endpoints are now available:… The post GitHub Code Quality: Repository Enablement API appeared first on The GitHub...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Target Copilot models to organizations with model rules",
+      "link": "https://github.blog/changelog/2026-05-26-target-copilot-models-to-organizations-with-model-rules",
+      "published": "2026-05-26T19:47:22+00:00",
+      "summary": "Enterprise owners now have granular control over which GitHub Copilot models are available to each organization. With targeted model rules, you can allow specific models for specific organizations instead of… The post Target Copilot models to organizations with model rules appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -740,17 +784,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Copilot usage metrics reports now use GitHub-owned download URLs",
-      "link": "https://github.blog/changelog/2026-05-20-copilot-usage-metrics-reports-now-use-github-owned-download-urls",
-      "published": "2026-05-20T23:58:35+00:00",
-      "summary": "As previously announced, the download URLs for Copilot usage metrics reports have migrated from Azure Front Door domains to a stable, GitHub-owned custom domain. This change improves URL stability and… The post Copilot usage metrics reports now use GitHub-owned download URLs appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[Launched] Generally Available: SQL Server on Azure VMs in Malaysia West, Indonesia Central",
       "link": "https://azure.microsoft.com/updates?id=562094",
       "published": "2026-05-20T23:15:14+00:00",
@@ -861,17 +894,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Updates to available models in Copilot on web",
-      "link": "https://github.blog/changelog/2026-05-20-updates-to-available-models-in-copilot-on-web",
-      "published": "2026-05-20T17:11:42+00:00",
-      "summary": "We have updated our available model selection for Copilot Chat on the web to deliver more consistent, high-quality responses. What’s changed While model choice is valuable, we are limiting the… The post Updates to available models in Copilot on web appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[Launched] Generally Available: Azure Storage Mover Blob-to-Blob migration",
       "link": "https://azure.microsoft.com/updates?id=562753",
       "published": "2026-05-20T17:00:39+00:00",
@@ -968,17 +990,6 @@
       "blogId": "microsoftsecurity",
       "author": "Aaron Zollman",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Auto model selection now routes based on your task in VS Code",
-      "link": "https://github.blog/changelog/2026-05-20-auto-model-selection-now-routes-based-on-your-task-in-vs-code",
-      "published": "2026-05-20T15:24:40+00:00",
-      "summary": "GitHub Copilot auto model selection now routes to the best model for your task, using utilization and model health metrics for a high quality, reliable, and token-efficient experience. How it… The post Auto model selection now routes based on your task in VS Code appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -10431,17 +10442,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Announcing the public preview of StandardV2 NAT Gateway and StandardV2 public IPs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/announcing-the-public-preview-of-standardv2-nat-gateway-and/ba-p/4458292",
-      "published": "2025-11-18T17:30:00+00:00",
-      "summary": "In today’s rapidly changing digital landscape, organizations are innovating faster and delivering cloud native experiences at global scale. With this acceleration comes higher expectations: applications must remain always available. An outage in a single availability zone can have a ripple effect...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "aimeelittleton",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing the Public Preview of AMLFS 20: Azure Managed Lustre New SKU for Massive AI&HPC Workloads",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/announcing-the-public-preview-of-amlfs-20-azure-managed-lustre/ba-p/4470665",
       "published": "2025-11-18T17:00:00+00:00",
@@ -12345,5 +12345,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft developer news centered on infrastructure scale, security, and AI-assisted development. On the Azure side, Microsoft detailed how Azure Container Registry handles multi-tenant “stamp rebalancing” transparently at scale, previewed Azure Virtual Network Manager integration with Virtual WAN, launched the Microsoft Sentinel connector for virtual network flow logs, and made Azure Intel TDX confidential VMs generally available for hardware-based confidential computing.\n\nThe broader developer stack emphasized productivity and app modernization: GitHub added sbt support for Dependabot, public preview code coverage on pull requests, and new secret scanning filters, while .NET and Visual Studio updates highlighted GitHub Copilot workflows, Material 3 for .NET MAUI Android apps, and the May Visual Studio release. Security and platform trust were also notable themes, with the Kubernetes project correcting records for unfixed CVEs, Microsoft 365 Copilot Notebooks announcing May 2026 updates, and Microsoft Foundry Local showcasing on-device voice assistant development."
+  "summary": "Microsoft’s Azure ecosystem updates centered on AI, networking, developer productivity, and security: GitHub expanded Copilot governance with memory deletion/scope controls, CLI support, organization-level model rules, and new code-quality and code-coverage APIs, while .NET and Visual Studio posts highlighted Copilot-assisted workflows, .NET MAUI Material 3 UI updates, and the latest Visual Studio planning/review features. On Azure infrastructure, Microsoft pushed network simplification and observability with Azure Virtual Network Manager integration for Virtual WAN in preview and a generally available Microsoft Sentinel connector for virtual network flow logs, alongside a deep dive into Azure Container Registry multi-tenancy and the general availability of Azure Intel TDX confidential VMs.\n\nOther notable themes included software supply chain and platform operations—Dependabot added sbt support, GitHub improved secret-scanning approval filtering, and Kubernetes published a correction on historical unfixed CVE records—plus AI experiences at the edge and in productivity tools, including Microsoft Foundry Local for on-device voice assistants and May 2026 notebook updates for Microsoft 365 Copilot."
 }
