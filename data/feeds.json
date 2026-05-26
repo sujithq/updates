@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26T17:50:57.915464+00:00",
+  "lastUpdated": "2026-05-26T19:51:32.853188+00:00",
   "totalArticles": 1122,
   "articles": [
     {
@@ -11,6 +11,39 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "How ACR Runs Multi-Tenancy at Scale: Stamp Rebalancing and Why You Never See It Happen",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-acr-runs-multi-tenancy-at-scale-stamp-rebalancing-and-why/ba-p/4523014",
+      "published": "2026-05-26T18:11:47+00:00",
+      "summary": "By Johnson Shi, Richard Yuan, Yi Zha, Susan Shi, Jeanine Burke, Bin Du, Clark Porter, Bernie Harris, Eric Du Introduction Two of the most common questions we hear from teams running container workloads at scale on Azure Container Registry (ACR) are: \"How does ACR keep my registry's performance...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "johnsonshi_msft",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[In preview] Public Preview: Azure Virtual Network Manager integration with Virtual WAN",
+      "link": "https://azure.microsoft.com/updates?id=564478",
+      "published": "2026-05-26T18:00:01+00:00",
+      "summary": "Azure Virtual Network Manager integration with Virtual WAN is now in public preview, enabling you to use an Azure Virtual WAN hub as the hub in Azure Virtual Network Manager hub-and-spoke connectivity configurations, bringing together Azure Virtual Networ",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Reconciling the Past: Correcting Records for Unfixed Kubernetes CVEs",
+      "link": "https://kubernetes.io/blog/2026/05/26/reconciling-unfixed-kubernetes-cves/",
+      "published": "2026-05-26T17:30:00+00:00",
+      "summary": "The Kubernetes project relies on transparency to empower cluster administrators and security researchers. One important way we do that is by publishing CVE records into the Common Vulnerabilities and Exposures database. As part of our ongoing effort to mature the official Kubernetes CVE Feed, we...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -84,6 +117,17 @@
       "link": "https://github.blog/changelog/2026-05-26-filter-secret-scanning-approval-requests-by-sort-order-and-bypass-status",
       "published": "2026-05-26T16:01:21+00:00",
       "summary": "This week, we’re rolling out two improvements to our delegated workflows for secret scanning. What’s changing Sort bypass and dismissal requests in the UI: You can now choose between ascending… The post Filter secret scanning approval requests by sort order and bypass status appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "GitHub Classroom sign-ups are no longer available",
+      "link": "https://github.blog/changelog/2026-05-26-github-classroom-sign-ups-are-no-longer-available",
+      "published": "2026-05-26T15:44:08+00:00",
+      "summary": "Starting today, new sign-ups for GitHub Classroom are no longer available as we transition to partner solutions. If you already have a GitHub Classroom account or existing classrooms, you can… The post GitHub Classroom sign-ups are no longer available appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -968,17 +1012,6 @@
       "blogId": "microsoftsecurity",
       "author": "Ram Shankar Siva Kumar",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Semantic issue search in Copilot Chat",
-      "link": "https://github.blog/changelog/2026-05-20-semantic-issue-search-in-copilot-chat",
-      "published": "2026-05-20T14:07:27+00:00",
-      "summary": "You can use natural language in GitHub Copilot Chat on web to quickly find, group, and analyze issues, with context-aware results powered by a new semantic issues index. What’s new… The post Semantic issue search in Copilot Chat appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -3619,17 +3652,6 @@
       "blogId": "azurearchitectureblog",
       "author": "PrabalDeb",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure SRE Agent for Azure Monitor Alerts: Reduce Alert Fatigue, Investigate What Matters",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-for-azure-monitor-alerts-reduce-alert-fatigue/ba-p/4513458",
-      "published": "2026-04-30T01:28:49+00:00",
-      "summary": "The Alert Problem Organizations running Azure Monitor tend to land in one of two situations: Alert fatigue has set in. Alert rules tend to grow over time — a CPU threshold from two years ago, a health probe check from a migration, a disk alert from an outage that never got cleaned up. These rules...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Vineela-Suri",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8671,17 +8693,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[In preview] Public Preview: Cluster mode for the agentic CLI for AKS",
-      "link": "https://azure.microsoft.com/updates?id=557218",
-      "published": "2026-02-18T18:00:55+00:00",
-      "summary": "Users often face security and manageability challenges when diagnostic agents inherit broad user permissions, such as cluster-admin rights, and when each user must deploy their own instance. Cluster mode for the agentic CLI for AKS, now in public preview,",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Azure Migrate: Now Supporting Premium SSD V2, Ultra and ZRS Disks as Targets",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-migrate-now-supporting-premium-ssd-v2-ultra-and-zrs-disks/ba-p/4495332",
       "published": "2026-02-18T17:22:53+00:00",
@@ -8806,7 +8817,7 @@
       "title": "Spotlight on SIG Architecture: API Governance",
       "link": "https://kubernetes.io/blog/2026/02/12/sig-architecture-api-spotlight/",
       "published": "2026-02-12T00:00:00+00:00",
-      "summary": "This is the fifth interview of a SIG Architecture Spotlight series that covers the different subprojects, and we will be covering SIG Architecture: API Governance. In this SIG Architecture spotlight we talked with Jordan Liggitt, lead of the API Governance sub-project. Introduction FM: Hello...",
+      "summary": "This is the fifth interview of a SIG Architecture Spotlight series that covers the different subprojects, and we will be covering SIG Architecture: API Governance. In this SIG Architecture spotlight we talked with Jordan Liggitt, lead of the API Governance sub-project. IntroductionFM: Hello Jordan,...",
       "blog": "Kubernetes Official Blog",
       "blogId": "kubernetes",
       "author": "Microsoft",
@@ -9081,7 +9092,7 @@
       "title": "New Conversion from cgroup v1 CPU Shares to v2 CPU Weight",
       "link": "https://kubernetes.io/blog/2026/01/30/new-cgroup-v1-to-v2-cpu-conversion-formula/",
       "published": "2026-01-30T16:00:00+00:00",
-      "summary": "I'm excited to announce the implementation of an improved conversion formula from cgroup v1 CPU shares to cgroup v2 CPU weight. This enhancement addresses critical issues with CPU priority allocation for Kubernetes workloads when running on systems with cgroup v2. Background Kubernetes was...",
+      "summary": "I'm excited to announce the implementation of an improved conversion formula from cgroup v1 CPU shares to cgroup v2 CPU weight. This enhancement addresses critical issues with CPU priority allocation for Kubernetes workloads when running on systems with cgroup v2. BackgroundKubernetes was...",
       "blog": "Kubernetes Official Blog",
       "blogId": "kubernetes",
       "author": "Microsoft",
@@ -9609,7 +9620,7 @@
       "title": "Avoiding Zombie Cluster Members When Upgrading to etcd v3.6",
       "link": "https://kubernetes.io/blog/2025/12/21/preventing-etcd-zombies/",
       "published": "2025-12-21T00:00:00+00:00",
-      "summary": "This article is a mirror of an original that was recently published to the official etcd blog. The key takeaway? Always upgrade to etcd v3.5.26 or later before moving to v3.6. This ensures your cluster is automatically repaired, and avoids zombie members. Issue summary Recently, the etcd community...",
+      "summary": "This article is a mirror of an original that was recently published to the official etcd blog. The key takeaway? Always upgrade to etcd v3.5.26 or later before moving to v3.6. This ensures your cluster is automatically repaired, and avoids zombie members. Issue summaryRecently, the etcd community...",
       "blog": "Kubernetes Official Blog",
       "blogId": "kubernetes",
       "author": "Microsoft",
@@ -9648,17 +9659,6 @@
       "author": "Sudha_Mahajan",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Kubernetes v1.35: Job Managed By Goes GA",
-      "link": "https://kubernetes.io/blog/2025/12/18/kubernetes-v1-35-job-managedby-for-jobs-goes-ga/",
-      "published": "2025-12-18T18:30:00+00:00",
-      "summary": "In Kubernetes v1.35, the ability to specify an external Job controller (through .spec.managedBy) graduates to General Availability. This feature allows external controllers to take full responsibility for Job reconciliation, unlocking powerful scheduling patterns like multi-cluster dispatching with...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
     },
     {
       "title": "Network Detection and Response (NDR) in Financial Services",
@@ -12345,5 +12345,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft developer updates were led by AI-assisted development, app modernization, and security. Microsoft highlighted GitHub Copilot for .NET developers, a Material 3 refresh for .NET MAUI Android apps, Visual Studio’s May update focused on planning/review/refinement workflows, and new notebook features in Microsoft 365 Copilot, while GitHub added sbt support for Dependabot, pull-request code coverage in public preview, and better filtering for secret-scanning approval requests.\n\nOn the platform side, Microsoft announced general availability of Azure Intel TDX confidential VMs for hardware-based confidential computing and GA of the Virtual Network Flow Logs connector for Microsoft Sentinel to strengthen network visibility and security operations. Another notable theme was local AI, with a community post showing how to build an on-device voice assistant using Microsoft Foundry Local."
+  "summary": "Today’s Azure and Microsoft developer news centered on infrastructure scale, security, and AI-assisted development. On the Azure side, Microsoft detailed how Azure Container Registry handles multi-tenant “stamp rebalancing” transparently at scale, previewed Azure Virtual Network Manager integration with Virtual WAN, launched the Microsoft Sentinel connector for virtual network flow logs, and made Azure Intel TDX confidential VMs generally available for hardware-based confidential computing.\n\nThe broader developer stack emphasized productivity and app modernization: GitHub added sbt support for Dependabot, public preview code coverage on pull requests, and new secret scanning filters, while .NET and Visual Studio updates highlighted GitHub Copilot workflows, Material 3 for .NET MAUI Android apps, and the May Visual Studio release. Security and platform trust were also notable themes, with the Kubernetes project correcting records for unfixed CVEs, Microsoft 365 Copilot Notebooks announcing May 2026 updates, and Microsoft Foundry Local showcasing on-device voice assistant development."
 }
