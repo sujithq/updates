@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26T06:36:00.015057+00:00",
+  "lastUpdated": "2026-05-26T14:31:14.574275+00:00",
   "totalArticles": 1122,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Code coverage on pull requests is now in public preview",
+      "link": "https://github.blog/changelog/2026-05-26-code-coverage-in-pull-requests-is-now-in-public-preview",
+      "published": "2026-05-26T08:51:59+00:00",
+      "summary": "Code coverage metrics are now in public preview for all GitHub Code Quality users on github.com. You can now see an aggregate percent of code covered directly on pull requests,… The post Code coverage on pull requests is now in public preview appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Building an On-Device Voice Assistant with Microsoft Foundry Local",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-an-on-device-voice-assistant-with-microsoft-foundry/ba-p/4522392",
+      "published": "2026-05-26T07:00:00+00:00",
+      "summary": "Why on-device voice still matters Most \"voice AI\" tutorials assume your audio leaves the machine. You ship a WAV to Whisper-API, your transcript to GPT-4, and a synthesized response back over the wire. That works — but it also means three round trips, three per-token bills, and three places your...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "GitHub for Beginners: Getting started with Git and GitHub in VS Code",
@@ -1024,17 +1046,6 @@
       "author": "chandanAggarwal",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Gemini 3.5 Flash is generally available for GitHub Copilot",
-      "link": "https://github.blog/changelog/2026-05-19-gemini-3-5-flash-is-generally-available-for-github-copilot",
-      "published": "2026-05-19T17:56:38+00:00",
-      "summary": "Gemini 3.5 Flash, Google’s latest Flash-tier model, is now rolling out on GitHub Copilot. In our early testing, Gemini 3.5 Flash delivers near-Pro coding quality at Flash-tier speed and cost… The post Gemini 3.5 Flash is generally available for GitHub Copilot appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "[In preview] Public Preview: Evaluate feature rollouts with Azure App Configuration Scorecards",
@@ -2684,17 +2695,6 @@
       "blogId": "integrationsonazureblog",
       "author": "hcamposu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Building a Scalable Contract Data Extraction Pipeline with Microsoft Foundry and Python",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-a-scalable-contract-data-extraction-pipeline-with/ba-p/4513681",
-      "published": "2026-05-07T07:00:00+00:00",
-      "summary": "Architecture Overview Alt text: Architecture diagram showing Blob Storage triggering Azure Function, calling Document Intelligence, transforming data, and storing in Cosmos DB Flow: Upload contract files (PDF or ZIP) to Azure Blob Storage Azure Function triggers automatically on file upload Azure...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "tanyabaranwal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12344,5 +12344,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure-related posts focused on improving developer workflows and enabling local AI experiences. GitHub announced a **public preview of code coverage on pull requests**, giving teams clearer visibility into test coverage changes during review, while the Azure Dev Community highlighted how to build an **on-device voice assistant with Microsoft Foundry Local**, emphasizing local AI inference, voice interaction, and edge/offline development scenarios."
 }
