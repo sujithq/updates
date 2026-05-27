@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26T22:15:10.637523+00:00",
+  "lastUpdated": "2026-05-27T01:59:58.392328+00:00",
   "totalArticles": 1122,
   "articles": [
     {
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "From poisoned search results to GPU mining: A cryptojacking campaign abusing ScreenConnect and Microsoft .NET utilities",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/26/poisoned-search-results-gpu-mining-cryptojacking-campaign-abusing-screenconnect-microsoft-net-utilities/",
+      "published": "2026-05-26T21:35:34+00:00",
+      "summary": "Microsoft exposes a cryptojacking campaign using SEO poisoning and ScreenConnect to target high-performance PCs, with malicious sites also surfaced through AI chatbots. The post From poisoned search results to GPU mining: A cryptojacking campaign abusing ScreenConnect and Microsoft .NET utilities...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Defender Experts and Microsoft Defender Security Research Team",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1464,17 +1475,6 @@
       "author": "Osi",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "How to better protect your growing business in an AI-powered world",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/18/how-to-better-protect-your-growing-business-in-an-ai-powered-world/",
-      "published": "2026-05-18T16:00:00+00:00",
-      "summary": "See how built-in security helps keep your growing business running, protect customer trust, and support growth. The post How to better protect your growing business in an AI-powered world appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Alym Rayani",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "\"Not Available in Your Region\" Isn't a Dead End: A Security Assessment of Global Deployments",
@@ -12345,5 +12345,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Microsoft’s Azure ecosystem updates centered on AI, networking, developer productivity, and security: GitHub expanded Copilot governance with memory deletion/scope controls, CLI support, organization-level model rules, and new code-quality and code-coverage APIs, while .NET and Visual Studio posts highlighted Copilot-assisted workflows, .NET MAUI Material 3 UI updates, and the latest Visual Studio planning/review features. On Azure infrastructure, Microsoft pushed network simplification and observability with Azure Virtual Network Manager integration for Virtual WAN in preview and a generally available Microsoft Sentinel connector for virtual network flow logs, alongside a deep dive into Azure Container Registry multi-tenancy and the general availability of Azure Intel TDX confidential VMs.\n\nOther notable themes included software supply chain and platform operations—Dependabot added sbt support, GitHub improved secret-scanning approval filtering, and Kubernetes published a correction on historical unfixed CVE records—plus AI experiences at the edge and in productivity tools, including Microsoft Foundry Local for on-device voice assistants and May 2026 notebook updates for Microsoft 365 Copilot."
+  "summary": "Today’s Azure/Microsoft developer blog highlight is the release of **Visual Studio Code 1.122**, centered on developer productivity improvements in the editor. The announcement focuses on updates across core **VS Code** workflows—likely including editor enhancements, debugging, source control, and AI-assisted development features—underscoring Microsoft’s continued investment in the **Visual Studio Code** platform as a key tool for cloud and application developers."
 }
