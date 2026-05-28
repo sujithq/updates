@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-05-28T12:18:02.550228+00:00",
-  "totalArticles": 1121,
+  "lastUpdated": "2026-05-28T17:55:23.070957+00:00",
+  "totalArticles": 1120,
   "articles": [
+    {
+      "title": "Ansible + Azure Arc: Manage Azure Arc Extensions with New Ansible Modules",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/ansible-azure-arc-manage-azure-arc-extensions-with-new-ansible/ba-p/4521689",
+      "published": "2026-05-28T17:24:53+00:00",
+      "summary": "We’re excited to announce new modules in Ansible Galaxy that make it easier to manage Azure Arc machine extensions at scale. With the latest updates to the azure.azcollection on Ansible Galaxy, you can now deploy and manage Azure Arc extensions using familiar, declarative Ansible workflows. These...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "alinetran",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[Public Preview] Introducing Customizable Security Baseline Policies in Machine Configuration",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/public-preview-introducing-customizable-security-baseline/ba-p/4469678",
+      "published": "2026-05-28T17:02:04+00:00",
+      "summary": "Background: Azure Machine Configuration remains committed to enabling greater security and simplicity in at-scale server management for all Azure customers. Machine Configuration (previously known as Azure Policy Guest Configuration) enables both built-in and custom configuration as code allowing...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "mutemwamasheke",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "How Azure Chaos Studio ships with hermetic Aspire end-to-end tests",
+      "link": "https://devblogs.microsoft.com/aspire/hermetic-aspire-tests-chaos-studio/",
+      "published": "2026-05-28T17:00:00+00:00",
+      "summary": "Learn how the Azure Chaos Studio team uses Aspire.Hosting.Testing to run hermetic, per-PR end-to-end tests across four services — with emulators, stubs, and no shared environments. The post How Azure Chaos Studio ships with hermetic Aspire end-to-end tests appeared first on Aspire Blog.",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "Brent Rusinow",
+      "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "Visual Studio Code 1.122",
       "link": "https://code.visualstudio.com/updates/v1_122",
@@ -11,6 +44,61 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Claude Opus 4.8 is generally available for GitHub Copilot",
+      "link": "https://github.blog/changelog/2026-05-28-claude-opus-4-8-is-generally-available-for-github-copilot",
+      "published": "2026-05-28T16:56:24+00:00",
+      "summary": "Claude Opus 4.8, Anthropic’s latest Opus model, is now available in GitHub Copilot. In our early testing, Opus 4.8 demonstrates a clear step forward in code understanding and generation across… The post Claude Opus 4.8 is generally available for GitHub Copilot appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Now Generally Available] Customizable Security Baseline Policies in Machine Configuration!",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/now-generally-available-customizable-security-baseline-policies/ba-p/4523429",
+      "published": "2026-05-28T16:38:40+00:00",
+      "summary": "Background: Azure Machine Configuration remains committed to enabling greater security and simplicity in at-scale server management for all Azure customers. Machine Configuration (previously known as Azure Policy Guest Configuration) enables both built-in and custom configuration as code allowing...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "mutemwamasheke",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "The Gentlemen ransomware: Dissecting a self-propagating Go encryptor",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
+      "published": "2026-05-28T15:00:00+00:00",
+      "summary": "Microsoft Threat Intelligence presents a comprehensive analysis of The Gentlemen, a Go-based ransomware deployed by affiliates of Storm-2697 that combines per-file ephemeral key encryption with an aggressive self-propagation module to deploy itself across an entire network using series of...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Threat Intelligence",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Finance Agent Benchmark: evaluating and improving AI for Finance",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/finance-agent-benchmark-evaluating-and-improving-ai-for-finance/ba-p/4522978",
+      "published": "2026-05-28T14:36:56+00:00",
+      "summary": "As business complexity accelerates, finance organizations are being asked to support more stakeholders, guide more decisions, and operate at unprecedented speed, often without additional resources. As these demands outpace traditional tools and processes, AI presents an opportunity to reshape how...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "Sigita_Cepaitiene",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "SQL + AI, hands-on: Join a free workshop near you",
+      "link": "https://devblogs.microsoft.com/azure-sql/sql-ai-hands-on-join-a-free-workshop-near-you/",
+      "published": "2026-05-28T13:09:15+00:00",
+      "summary": "If you work with Microsoft SQL regularly, the AI conversation right now probably feels a little exhausting. Every week brings a new platform, a new pattern, a new opinion about how you’re “supposed” to build AI apps. Most of it assumes you’ll start over. You don’t have to. We’re running SQL AI App...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
     },
     {
@@ -142,17 +230,6 @@
       "blog": "Microsoft 365 Copilot Blog",
       "blogId": "microsoft365copilotblog",
       "author": "April_Olson",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Finance Agent Benchmark: evaluating and improving AI for Finance",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/finance-agent-benchmark-evaluating-and-improving-ai-for-finance/ba-p/4522978",
-      "published": "2026-05-27T12:00:00+00:00",
-      "summary": "As business complexity accelerates, finance organizations are being asked to support more stakeholders, guide more decisions, and operate at unprecedented speed, often without additional resources. As these demands outpace traditional tools and processes, AI presents an opportunity to reshape how...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "Sigita_Cepaitiene",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -872,17 +949,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Issue fields are now in public preview for all organizations",
-      "link": "https://github.blog/changelog/2026-05-21-issue-fields-are-now-in-public-preview-for-all-organizations",
-      "published": "2026-05-21T14:30:03+00:00",
-      "summary": "Issue fields are now available in public preview to all GitHub organizations on github.com and GitHub Enterprise Cloud with data residency. When you define typed metadata like Priority, Effort, or… The post Issue fields are now in public preview for all organizations appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Building AI Agents with Microsoft Foundry: A Progressive Lab from Hello World to Self-Hosted",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-ai-agents-with-microsoft-foundry-a-progressive-lab-from/ba-p/4521792",
       "published": "2026-05-21T08:28:42+00:00",
@@ -990,17 +1056,6 @@
       "blogId": "appsonazureblog",
       "author": "Samantha_Fernandez",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Ansible + Azure Arc: Manage Arc Extensions with New Ansible Modules",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/ansible-azure-arc-manage-arc-extensions-with-new-ansible-modules/ba-p/4521689",
-      "published": "2026-05-20T21:56:38+00:00",
-      "summary": "We’re excited to announce new modules in Ansible Galaxy that make it easier to manage Azure Arc machine extensions at scale. With the latest updates to the azure.azcollection on Ansible Galaxy, you can now deploy and manage Azure Arc extensions using familiar, declarative Ansible workflows. These...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "alinetran",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -1497,17 +1552,6 @@
       "author": "ranjsharma",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "How Storm-2949 turned a compromised identity into a cloud-wide breach",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/18/storm-2949-turned-compromised-identity-into-cloud-wide-breach/",
-      "published": "2026-05-18T22:42:50+00:00",
-      "summary": "Storm-2949 turned stolen credentials into a cloud-wide breach, moving from identity compromise to large-scale data theft without using malware. This incident shows how threat actors can exploit trusted systems to operate undetected. The post How Storm-2949 turned a compromised identity into a...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Defender Security Research Team",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Safe Rollouts Start with Signals: Introducing Scorecards in Azure App Configuration",
@@ -6581,17 +6625,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Aspire 13.2: Dashboard Gets Smarter Export and Telemetry",
-      "link": "https://devblogs.microsoft.com/aspire/aspire-dashboard-improvements-export-and-telemetry/",
-      "published": "2026-03-31T17:00:00+00:00",
-      "summary": "Aspire 13.2 brings powerful new dashboard features for exporting and importing telemetry, querying telemetry via API, and improved GenAI telemetry visualization. The post Aspire 13.2: Dashboard Gets Smarter Export and Telemetry appeared first on Aspire Blog.",
-      "blog": "Aspire Blog",
-      "blogId": "aspireblog",
-      "author": "James Newton-King",
-      "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Retirement: Manually registered Azure VPN Clients for ​Azure Government and ​Microsoft Azure operated by 21Vianet clouds will be retired on March 31, 2029",
       "link": "https://azure.microsoft.com/updates?id=557395",
       "published": "2026-03-31T16:45:33+00:00",
@@ -7140,17 +7173,6 @@
       "author": "SparshAgrawat",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=oracleonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "SQL code analysis in VS Code: Configure rules without editing your project file",
-      "link": "https://devblogs.microsoft.com/azure-sql/sql-code-analysis-in-vs-code-configure-rules-without-editing-your-project-file/",
-      "published": "2026-03-24T03:30:13+00:00",
-      "summary": "SQL code analysis has been part of the SSDT workflow for a long time. Before deploying a schema change, you could run a set of static analysis rules against your project to catch potential issues, things like missing primary keys, deprecated syntax, or objects that could break under certain...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Iqra Shaikh",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Azure Event Grid MQTT Broker: Enterprise-Grade Messaging for the Connected World",
@@ -10607,17 +10629,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "[Public Preview] Introducing Customizable Security Baseline Policies in Machine Configuration",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/public-preview-introducing-customizable-security-baseline/ba-p/4469678",
-      "published": "2025-11-13T17:20:06+00:00",
-      "summary": "Background: Azure Machine Configuration remains committed to enabling greater security and simplicity in at-scale server management for all Azure customers. Machine Configuration (previously known as Azure Policy Guest Configuration) enables both built-in and custom configuration as code allowing...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "mutemwamasheke",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "General Availability of JavaScript Challenge in Azure Front Door WAF",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/general-availability-of-javascript-challenge-in-azure-front-door/ba-p/4466940",
       "published": "2025-11-13T14:33:07+00:00",
@@ -11696,17 +11707,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Azure Automation: General Availability of PowerShell 7.4, Python 3.10 runbooks, Runtime Environment",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-automation-general-availability-of-powershell-7-4-python-3/ba-p/4437732",
-      "published": "2025-07-29T11:34:41+00:00",
-      "summary": "Azure Automation continues to evolve as a robust platform to address the dynamic needs of modern enterprises. In alignment with our commitment to provide business continuity and enhance security of our customers, we are pleased to announce a series of powerful releases. These enhancements are aimed...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "Nikita_Bajaj",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Messaging Connect: Global SMS Coverage Now Available in Azure Communication Services",
       "link": "https://techcommunity.microsoft.com/t5/azure-communication-services/messaging-connect-global-sms-coverage-now-available-in-azure/ba-p/4436829",
       "published": "2025-07-28T17:05:45+00:00",
@@ -12321,18 +12321,7 @@
       "author": "prasanthpro7",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure Confidential VMs help keep BMW Group’s identities and passwords protected while in use",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/azure-confidential-vms-help-keep-bmw-group-s-identities-and/ba-p/4413835",
-      "published": "2025-05-27T15:00:00+00:00",
-      "summary": "Evolving identity and access management for the cloud Security, performance, and reliability are the guiding principles behind Microsoft's identity and access management solutions. These solutions empower organizations to maintain their competitive edge by leveraging technology effectively. With...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "Rakeshginjupalli",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureconfidentialcomputingblog&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news centered on AI-driven developer workflows and cloud-native operations: Microsoft compared the **Foundry Agents SDK** with the **Microsoft Agent Framework** for building **agentic systems on Azure**, while another post showed how **verification-driven tooling prompts** can keep AI-assisted development reliable in fast-changing codebases. On the platform side, Azure announced **general availability of Application Gateway for Containers service mesh integration with Istio**, strengthening Kubernetes networking and traffic management, and highlighted broader developer productivity with **Visual Studio Code 1.122** plus new ways to access an **SRE Agent** from any **IDE, terminal, or AI assistant**."
+  "summary": "Today’s Azure posts were led by **governance, security, and AI agent tooling**: Microsoft announced **customizable Security Baseline Policies in Machine Configuration** in both **public preview and GA**, added new **Ansible modules for managing Azure Arc extensions**, and highlighted **Application Gateway for Containers GA with Istio service mesh integration**. On the AI side, Azure and Microsoft blogs focused on **agentic development and operations**—including comparisons of **Microsoft Foundry Agents SDK vs. Microsoft Agent Framework**, broader access to an **SRE Agent** from IDEs and terminals, and the **Finance Agent Benchmark** for improving finance-focused AI systems.\n\nOther notable updates included **Visual Studio Code 1.122**, **Claude Opus 4.8 becoming generally available in GitHub Copilot**, a deep security analysis of the **Gentlemen ransomware** written in **Go**, Azure Chaos Studio’s use of **hermetic Aspire end-to-end tests**, and an Azure SQL workshop series centered on **SQL + AI**."
 }
