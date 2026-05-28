@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-05-28T20:01:20.917686+00:00",
+  "lastUpdated": "2026-05-28T22:25:47.931158+00:00",
   "totalArticles": 1120,
   "articles": [
+    {
+      "title": "Governing AI Agents Against Every OWASP Agentic Risk: A Deep Dive with the Agent Governance Toolkit",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/governing-ai-agents-against-every-owasp-agentic-risk-a-deep-dive/ba-p/4523749",
+      "published": "2026-05-28T22:04:55+00:00",
+      "summary": "AI agents are moving from prototypes to production. They book flights, write code, negotiate contracts, and operate across enterprise systems with minimal human oversight. The attack surface is not theoretical: OWASP has catalogued the top 10 risks specific to agentic applications, and every one of...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "mosiddi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "CodeQL 2.25.5 improves query accuracy for GitHub Actions",
+      "link": "https://github.blog/changelog/2026-05-28-codeql-2-25-5-improves-query-accuracy-for-github-actions",
+      "published": "2026-05-28T21:09:44+00:00",
+      "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.25.5, which includes accuracy improvements across C/C++,… The post CodeQL 2.25.5 improves query accuracy for GitHub Actions appeared first on...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "[Now Generally Available] Customizable Security Baseline Policies in Machine Configuration!",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/now-generally-available-customizable-security-baseline-policies/ba-p/4523429",
@@ -749,17 +771,6 @@
       "author": "GalimahB",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-events&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "GitHub Copilot for Eclipse is open source",
-      "link": "https://github.blog/changelog/2026-05-21-github-copilot-for-eclipse-is-open-source",
-      "published": "2026-05-21T23:50:38+00:00",
-      "summary": "Following our previous updates, GitHub Copilot for Eclipse is open source, with the code available on GitHub under the MIT license. This marks an important milestone for GitHub Copilot in… The post GitHub Copilot for Eclipse is open source appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Cloud Native Platforms: Build",
@@ -10497,17 +10508,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure Linux: Driving Security in the Era of AI Innovation",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/azure-linux-driving-security-in-the-era-of-ai-innovation/ba-p/4471034",
-      "published": "2025-11-18T16:49:02+00:00",
-      "summary": "Microsoft is advancing cloud and AI innovation with a clear focus on security, quality, and responsible practices. At Ignite 2025, Azure Linux reflects that commitment. As Microsoft’s ubiquitous Linux OS, it powers critical services and serves as the hub for security innovation. This year’s...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "Sudhanva",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Improve your resiliency posture with new capabilities and intelligent assistance",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/improve-your-resiliency-posture-with-new-capabilities-and/ba-p/4469771",
       "published": "2025-11-18T16:36:10+00:00",
@@ -12323,5 +12323,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news was led by AI agent and model updates: Anthropic’s Claude Opus 4.8 launched across Microsoft 365 Copilot, Microsoft Foundry/Azure AI Foundry, and GitHub Copilot, alongside new guidance for building agentic systems with Foundry Agents SDK vs. Microsoft Agent Framework, designing services for both humans and agents, and accessing an SRE agent from IDEs and terminals. Infrastructure and security were also major themes, with customizable security baseline policies in Machine Configuration moving from public preview to general availability, new Ansible modules for managing Azure Arc extensions, Application Gateway for Containers adding Istio service mesh integration, and a Microsoft Security deep dive on the self-propagating Gentlemen ransomware.\n\nDeveloper tooling rounded things out with Visual Studio Code 1.122, Azure Chaos Studio’s hermetic Aspire end-to-end testing approach, SQL + AI workshop announcements, and verification-driven prompting techniques for fast-moving codebases. Across the posts, Microsoft emphasized practical AI adoption, stronger governance, and tighter cloud-native operations on Azure."
+  "summary": "Today’s Azure and adjacent Microsoft posts were dominated by **AI agents, model rollout, and governance/security**: Microsoft highlighted the **Agent Governance Toolkit** for mitigating **OWASP agentic risks**, design patterns for services serving both **humans and agents**, and comparisons between the **Microsoft Foundry Agents SDK** and **Microsoft Agent Framework**, while **Anthropic Claude Opus 4.8** expanded across **Microsoft 365 Copilot**, **Microsoft Foundry/Azure AI Foundry**, and **GitHub Copilot**. Security and operations were another major theme, with **customizable Machine Configuration security baseline policies** reaching **GA** and **public preview** channels, **CodeQL 2.25.5** improving **GitHub Actions** query accuracy, a deep dive into the **Gentlemen Go ransomware**, and new **Ansible modules for Azure Arc extensions**.\n\nInfrastructure and developer platform updates included **Application Gateway for Containers** gaining **Istio service mesh integration**, **Azure Chaos Studio** discussing hermetic **.NET Aspire** end-to-end testing, a new **SRE Agent** accessible from IDEs/terminals/AI assistants, **Visual Studio Code 1.122**, and community content around **SQL + AI workshops** and prompt tooling for fast-moving codebases."
 }
