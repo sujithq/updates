@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-05-29T06:44:18.568036+00:00",
+  "lastUpdated": "2026-05-29T12:03:31.674479+00:00",
   "totalArticles": 1120,
   "articles": [
+    {
+      "title": "Power Pages & SPA: Deploying a Custom React SPA to Microsoft Power Pages",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/power-pages-spa-deploying-a-custom-react-spa-to-microsoft-power/ba-p/4521378",
+      "published": "2026-05-29T07:00:00+00:00",
+      "summary": "Introduction Modern business applications are no longer limited to traditional server-rendered pages or fixed portal layouts. Today’s users expect fast, responsive, highly interactive web experiences - the kind of experience developers commonly build using modern front-end frameworks such as React....",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "aakarshdhawan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "From Requirement to Production Code, How Engineering Squad Automates the Full Dev Lifecycle",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-requirement-to-production-code-how-engineering-squad/ba-p/4522698",
+      "published": "2026-05-29T07:00:00+00:00",
+      "summary": "I started wondering: what if instead of one AI assistant generating code snippets, you had an entire squad of specialized AI agents. Each owning a single stage of the delivery pipeline, they could collaborate, self-correct, and produce a complete, traceable output from a plain-text requirement?...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "paggarwal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure DDoS Protection & Azure WAF: A Layered Defense for Modern DDoS Attacks",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-ddos-protection-azure-waf-a-layered-defense-for-modern/ba-p/4523745",
+      "published": "2026-05-29T06:52:47+00:00",
+      "summary": "Introduction: The Need for Layered DDoS Defense Organizations today operate in an environment where Distributed Denial of Service (DDoS) attacks continue to evolve across both network and application layers. To help organizations build resilient, internet-facing applications and services, Microsoft...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Training 100B+ Models on a Single GPU: What MegaTrain Changes - and What It Means for Azure",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/training-100b-models-on-a-single-gpu-what-megatrain-changes-and/ba-p/4519562",
@@ -2621,17 +2654,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Giving the Copilot SDK Agent a \"hardware-level helmet\" using Kata microVM on AKS",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/giving-the-copilot-sdk-agent-a-quot-hardware-level-helmet-quot/ba-p/4518668",
-      "published": "2026-05-12T08:08:35+00:00",
-      "summary": "A Moment That Made Me Pause I was recently building an Agent service with the GitHub Copilot SDK. After getting it up and running, I went back through the execution logs and something jumped out at me: In a single conversation turn, the Agent had executed a shell command, read several files, and...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "What’s new in Microsoft Foundry | April 2026",
       "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-apr-2026/",
       "published": "2026-05-12T07:13:15+00:00",
@@ -2641,17 +2663,6 @@
       "author": "Nick Brady",
       "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Introducing PII Shield: A Privacy Proxy for Every LLM Call",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/introducing-pii-shield-a-privacy-proxy-for-every-llm-call/ba-p/4514726",
-      "published": "2026-05-12T07:00:00+00:00",
-      "summary": "Why do we need a utility like PII Shield? Let’s start with an uncomfortable truth: modern AI systems are swimming in sensitive data - often without us fully realizing the risks we’re taking. The data is sensitive. Names, emails, phone numbers, credit cards, IBANs, SSNs, Aadhaar, PAN, Driving...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "vikas_gautam",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Azure Arc AKS Explained: Run Kubernetes Beyond Azure Cloud",
@@ -11234,17 +11245,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure DDoS Protection now supports QUIC protocol — Securing the future of HTTP/3 traffic",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-ddos-protection-now-supports-quic-protocol-securing-the/ba-p/4456522",
-      "published": "2025-09-24T09:13:29+00:00",
-      "summary": "The internet’s transport layer is undergoing one of its most significant evolutions in decades. QUIC (Quick UDP Internet Connections) — the protocol underpinning HTTP/3 — is rapidly becoming the default for high performance, secure communication on the web. From YouTube streaming to WhatsApp...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "ShabazShaik",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Release 2025-08-29",
       "link": "https://github.com/Azure/AKS/releases/tag/2025-08-29",
       "published": "2025-09-19T15:48:05+00:00",
@@ -12323,5 +12323,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts center on scaling AI, securing software supply chains, and expanding developer tooling. Azure highlighted MegaTrain’s approach to training 100B+ parameter models on a single GPU as a potentially important shift for high-performance AI workloads, Microsoft Security warned that typosquatted npm packages are actively stealing cloud and CI/CD secrets, and Azure AI Foundry showed how to extend the Vercel AI SDK with TypeScript support for Microsoft Foundry to help developers build AI apps more easily."
+  "summary": "Today’s Azure posts focused on end-to-end cloud application delivery and protection: Microsoft highlighted building modern apps with a custom React SPA on Power Pages, automating the path from requirements to production code, and extending the Vercel AI SDK to Azure AI Foundry / Microsoft Foundry for TypeScript-based AI app development. On the infrastructure side, Azure emphasized resilience and scale with layered defense using Azure DDoS Protection plus Azure WAF, while the HPC team discussed MegaTrain’s techniques for training 100B+ parameter models on a single GPU and why that matters for Azure AI compute efficiency.\n\nSecurity was another major theme: Microsoft warned about typosquatted npm packages targeting cloud and CI/CD secrets, underscoring software supply chain risk for developers and DevOps teams. Overall, the announcements point to Azure tightening the full stack—from developer productivity and AI platform integration to network defense, model training efficiency, and open-source package security."
 }
