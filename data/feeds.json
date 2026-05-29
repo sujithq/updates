@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-05-29T12:03:31.674479+00:00",
-  "totalArticles": 1120,
+  "lastUpdated": "2026-05-29T15:30:50.078724+00:00",
+  "totalArticles": 1121,
   "articles": [
+    {
+      "title": "Visual Studio Code 1.123",
+      "link": "https://code.visualstudio.com/updates/v1_123",
+      "published": "2026-06-03T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.123 (Insiders) Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Load testing hosted MCP servers with Locust and Azure Load Testing",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/load-testing-hosted-mcp-servers-with-locust-and-azure-load/ba-p/4522691",
+      "published": "2026-05-29T15:00:00+00:00",
+      "summary": "Agent traffic doesn't look like human traffic. It arrives in bursts, sustains long sessions, and hits the same handful of tools at a parallelism a typical API client never produces. Hosted MCP servers are how AI agents reach the tools and data your product exposes, and as those servers move from...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Krishna-Roy",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Power Pages & SPA: Deploying a Custom React SPA to Microsoft Power Pages",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/power-pages-spa-deploying-a-custom-react-spa-to-microsoft-power/ba-p/4521378",
@@ -2641,17 +2663,6 @@
       "author": "samkemp",
       "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Driving Efficiency in Modern System Engineering with AI Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/driving-efficiency-in-modern-system-engineering-with-ai-agents/ba-p/4516181",
-      "published": "2026-05-12T15:34:44+00:00",
-      "summary": "Authors: Pushpendra Kumar, Chockalingam A, Smitha Kashyap, Shilpi Gupta Overview As platforms become more complex and release cycles accelerate, traditional engineering workflows are beginning to show their limits. Engineers are spending increasing amounts of time triaging duplicate issues,...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "PushpendraKumar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "What’s new in Microsoft Foundry | April 2026",
@@ -12322,6 +12333,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure posts focused on end-to-end cloud application delivery and protection: Microsoft highlighted building modern apps with a custom React SPA on Power Pages, automating the path from requirements to production code, and extending the Vercel AI SDK to Azure AI Foundry / Microsoft Foundry for TypeScript-based AI app development. On the infrastructure side, Azure emphasized resilience and scale with layered defense using Azure DDoS Protection plus Azure WAF, while the HPC team discussed MegaTrain’s techniques for training 100B+ parameter models on a single GPU and why that matters for Azure AI compute efficiency.\n\nSecurity was another major theme: Microsoft warned about typosquatted npm packages targeting cloud and CI/CD secrets, underscoring software supply chain risk for developers and DevOps teams. Overall, the announcements point to Azure tightening the full stack—from developer productivity and AI platform integration to network defense, model training efficiency, and open-source package security."
+  ]
 }
