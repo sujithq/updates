@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-05-29T01:53:21.552362+00:00",
+  "lastUpdated": "2026-05-29T06:44:18.568036+00:00",
   "totalArticles": 1120,
   "articles": [
+    {
+      "title": "Training 100B+ Models on a Single GPU: What MegaTrain Changes - and What It Means for Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/training-100b-models-on-a-single-gpu-what-megatrain-changes-and/ba-p/4519562",
+      "published": "2026-05-29T06:08:50+00:00",
+      "summary": "The Paradigm Shift in Model Training The conventional wisdom in deep learning has been simple: bigger models require bigger infrastructure. Training a 100-billion parameter language model traditionally demands massive GPU clusters with terabytes of combined memory, where each GPU holds portions of...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "yuvmaz",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Typosquatted npm packages used to steal cloud and CI/CD secrets",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/typosquatted-npm-packages-used-steal-cloud-ci-cd-secrets/",
+      "published": "2026-05-29T03:04:52+00:00",
+      "summary": "The Mini Shai-Hulud campaign used malicious npm packages to target cloud and CI/CD credentials across developer environments. This report details the attack chain, detection opportunities, and mitigation guidance to help organizations identify and disrupt related activity. The post Typosquatted npm...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Defender Security Research Team",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Extending the Vercel AI SDK to Microsoft Foundry (TypeScript)",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/extending-the-vercel-ai-sdk-to-microsoft-foundry-typescript/ba-p/4518313",
+      "published": "2026-05-29T01:20:54+00:00",
+      "summary": "The Vercel AI SDK gives developers one elegant, provider‑agnostic surface (generateText, streamText, tools, structured output) for building agentic apps. The official AI​-sdk/azure provider, however, only targets the Azure OpenAI chat surface and hence the rest of Microsoft Foundry's catalog...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "jyravi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "[Preview] CIS Benchmarks on Azure; Now for Windows Server",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/preview-cis-benchmarks-on-azure-now-for-windows-server/ba-p/4523432",
@@ -1532,17 +1565,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Exposing Fox Tempest: A malware-signing service operation",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation/",
-      "published": "2026-05-19T15:07:01+00:00",
-      "summary": "Fox Tempest is a financially motivated threat actor operating a malware‑signing‑as‑a‑service (MSaaS) used by other cybercriminals, including Vanilla Tempest and Storm groups, to more effectively distribute malicious code, including ransomware. The post Exposing Fox Tempest: A malware-signing...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Threat Intelligence",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Agentic-Agile: Why Agent Development Needs Agile (Not Just Prompts)",
       "link": "https://devblogs.microsoft.com/blog/agentic-agile-why-agent-development-needs-agile-not-just-prompts",
       "published": "2026-05-19T15:00:09+00:00",
@@ -2497,17 +2519,6 @@
       "blogId": "messagingonazureblog",
       "author": "Connected-Seth",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "A New Chapter for Realtime AI: Reasoning, Translation, and Real-Time Transcription",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/a-new-chapter-for-realtime-ai-reasoning-translation-and-real/ba-p/4517124",
-      "published": "2026-05-12T19:58:14+00:00",
-      "summary": "Voice can be one of the most direct and productive interfaces for AI — enabling customer support agents that may resolve issues without a single keystroke, live multilingual communication that can take on language barriers as conversations happen, and voice assistants capable of reasoning through...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -10607,17 +10618,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Join Microsoft @ SC25: Experience HPC and AI Innovation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/join-microsoft-sc25-experience-hpc-and-ai-innovation/ba-p/4467935",
-      "published": "2025-11-14T21:24:37+00:00",
-      "summary": "Supercomputing 2025 is coming to St. Louis, MO, November 16–21! Visit Microsoft Booth #1627 to explore cutting-edge HPC and AI solutions, connect with experts, and experience interactive demos that showcase the future of compute. Whether you’re attending technical sessions, stopping by for a...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "Fernando_Aznar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Generational Performance Leap for Azure Confidential Computing",
       "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/generational-performance-leap-for-azure-confidential-computing/ba-p/4468989",
       "published": "2025-11-13T20:47:39+00:00",
@@ -12322,5 +12322,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure posts center on scaling AI, securing software supply chains, and expanding developer tooling. Azure highlighted MegaTrain’s approach to training 100B+ parameter models on a single GPU as a potentially important shift for high-performance AI workloads, Microsoft Security warned that typosquatted npm packages are actively stealing cloud and CI/CD secrets, and Azure AI Foundry showed how to extend the Vercel AI SDK with TypeScript support for Microsoft Foundry to help developers build AI apps more easily."
 }
