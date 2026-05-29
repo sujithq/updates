@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-05-28T22:25:47.931158+00:00",
+  "lastUpdated": "2026-05-29T01:53:21.552362+00:00",
   "totalArticles": 1120,
   "articles": [
+    {
+      "title": "[Preview] CIS Benchmarks on Azure; Now for Windows Server",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/preview-cis-benchmarks-on-azure-now-for-windows-server/ba-p/4523432",
+      "published": "2026-05-28T23:33:29+00:00",
+      "summary": "For customers with machines managed by Azure (i.e., Arc-enabled machines and Azure VMs), last year we delivered built-in CIS Benchmarks for Linux. The feedback has been clear: “Excellent, now do Windows.” Today we're announcing that built-in CIS Benchmarks for Windows Server are coming to Azure...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "AmirB",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Governing AI Agents Against Every OWASP Agentic Risk: A Deep Dive with the Agent Governance Toolkit",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/governing-ai-agents-against-every-owasp-agentic-risk-a-deep-dive/ba-p/4523749",
@@ -12,6 +23,17 @@
       "author": "mosiddi",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Hard budget limits now available for GitHub Advanced Security",
+      "link": "https://github.blog/changelog/2026-05-28-hard-budget-limits-now-available-for-github-advanced-security",
+      "published": "2026-05-28T21:59:05+00:00",
+      "summary": "Enterprise administrators and billing managers can now set hard budget limits for GitHub Advanced Security (GHAS) SKUs, preventing teams from exceeding their allocated license budgets. Previously, license-based products like GHAS… The post Hard budget limits now available for GitHub Advanced...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "CodeQL 2.25.5 improves query accuracy for GitHub Actions",
@@ -606,17 +628,6 @@
       "author": "arturoqu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Staged publishing and new install-time controls for npm",
-      "link": "https://github.blog/changelog/2026-05-22-staged-publishing-and-new-install-time-controls-for-npm",
-      "published": "2026-05-22T18:27:12+00:00",
-      "summary": "Today we’re shipping two updates focused on supply-chain security for npm: Staged publishing is generally available. New --allow-* install source flags (--allow-file, --allow-remote, --allow-directory) complement the existing --allow-git flag. Both… The post Staged publishing and new install-time...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Learn how to host your agents on Microsoft Foundry",
@@ -11685,17 +11696,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Announcing GA of Bicep templates support for Microsoft Entra ID resources",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/announcing-ga-of-bicep-templates-support-for-microsoft-entra-id/ba-p/4437163",
-      "published": "2025-07-29T15:00:00+00:00",
-      "summary": "We're thrilled to announce that Bicep templates for Microsoft Entra ID resources is generally available from July 29th, 2025. Bicep templates bring declarative infrastructure as code (IaC) capabilities to Microsoft Graph resources. This new capability will initially be available for core Microsoft...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "Dan_Kershaw",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "🔥Building a Teams Bot with AI Capabilities - Part 5 - GenAI Integration with Teams🔥",
       "link": "https://www.letsdodevops.com/p/teamsai-5",
       "published": "2025-07-29T14:02:43+00:00",
@@ -12322,6 +12322,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure and adjacent Microsoft posts were dominated by **AI agents, model rollout, and governance/security**: Microsoft highlighted the **Agent Governance Toolkit** for mitigating **OWASP agentic risks**, design patterns for services serving both **humans and agents**, and comparisons between the **Microsoft Foundry Agents SDK** and **Microsoft Agent Framework**, while **Anthropic Claude Opus 4.8** expanded across **Microsoft 365 Copilot**, **Microsoft Foundry/Azure AI Foundry**, and **GitHub Copilot**. Security and operations were another major theme, with **customizable Machine Configuration security baseline policies** reaching **GA** and **public preview** channels, **CodeQL 2.25.5** improving **GitHub Actions** query accuracy, a deep dive into the **Gentlemen Go ransomware**, and new **Ansible modules for Azure Arc extensions**.\n\nInfrastructure and developer platform updates included **Application Gateway for Containers** gaining **Istio service mesh integration**, **Azure Chaos Studio** discussing hermetic **.NET Aspire** end-to-end testing, a new **SRE Agent** accessible from IDEs/terminals/AI assistants, **Visual Studio Code 1.122**, and community content around **SQL + AI workshops** and prompt tooling for fast-moving codebases."
+  ]
 }
