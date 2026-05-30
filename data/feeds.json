@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T01:49:29.401892+00:00",
+  "lastUpdated": "2026-05-30T06:13:14.079230+00:00",
   "totalArticles": 1121,
   "articles": [
     {
@@ -12334,5 +12334,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure/Microsoft blog coverage centered on software supply chain security, with the Microsoft Security Blog warning about malicious **npm packages** that exploit **dependency confusion** to infiltrate developer workflows. The post highlights how these packages were used to **profile developer environments**—likely gathering system and network details from machines that accidentally pulled poisoned packages instead of trusted internal dependencies—underscoring the need for stricter **package namespace controls, private registry configuration, and dependency auditing** in JavaScript/**Node.js** ecosystems."
+  "summary": "Microsoft warned that malicious **npm** packages are exploiting **dependency confusion** to fingerprint developer and build environments, underscoring ongoing software supply chain risk in JavaScript ecosystems. The post focuses on how these packages profile systems during installation, reinforcing the need for stricter package source controls, internal namespace protections, and dependency hygiene in developer pipelines."
 }
