@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T22:23:31.170048+00:00",
+  "lastUpdated": "2026-05-30T01:49:29.401892+00:00",
   "totalArticles": 1121,
   "articles": [
     {
@@ -12,6 +12,39 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Malicious npm packages abuse dependency confusion to profile developer environments",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/29/33-malicious-npm-packages-abuse-dependency-confusion-profile-developer-environments/",
+      "published": "2026-05-30T00:06:20+00:00",
+      "summary": "A dependency confusion campaign leveraged 33 malicious npm packages to collect reconnaissance data from developer and build environments. This report details the attack chain, observed tradecraft, and detection opportunities to help organizations identify and disrupt related activity. The post...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Defender Security Research Team",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "What’s new in Azure Language in Foundry Tools",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/what-s-new-in-azure-language-in-foundry-tools/ba-p/4521343",
+      "published": "2026-05-29T23:30:00+00:00",
+      "summary": "Every day, your applications process thousands of emails, transcripts, and documents containing sensitive information—names, phone numbers, medical details. Manually identifying and protecting this data doesn't scale. Here's how the latest PII (Personally Identifiable Information) detection...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "renaliu",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "GPT Realtime in Production: Which Context Strategy Should You Actually Use?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-realtime-in-production-which-context-strategy-should-you/ba-p/4523091",
+      "published": "2026-05-29T22:30:00+00:00",
+      "summary": "Are You Running Azure GPT Realtime in Production? The question that started this: Are you running Azure gpt-realtime in production? If so, you've already run into the question I want to talk about: how should you manage conversation context across turns? It sounds like an implementation detail. It...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Gana_Chandrasekaran",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Choosing the Right Language Analyzer for Azure AI Search",
@@ -1521,17 +1554,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Securing the gaming culture of cultures",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/securing-the-gaming-culture-of-cultures/",
-      "published": "2026-05-20T16:00:00+00:00",
-      "summary": "Read about the unique challenges and rewards of securing gaming platforms and how to better protect gaming communities. The post Securing the gaming culture of cultures appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Aaron Zollman",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[In preview] Public Preview: Azure Event Grid Subscription Identifiers",
       "link": "https://azure.microsoft.com/updates?id=562970",
       "published": "2026-05-20T15:15:40+00:00",
@@ -2234,28 +2256,6 @@
       "author": "Natalie Guevara",
       "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Open Model Inference at Scale on Foundry: What’s New with Fireworks AI",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/open-model-inference-at-scale-on-foundry-what-s-new-with/ba-p/4519534",
-      "published": "2026-05-14T20:43:31+00:00",
-      "summary": "We launched the public preview of Fireworks AI on Microsoft Foundry two months ago, bringing best-in-class open model inference directly into Azure. The traction has been real and high. Fireworks AI's inference layer is purpose-built for low-latency, high-throughput production workloads, natively...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "AliciaFrame",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Building an AI-Powered Contract Price Adjustment Agent with Docusign MCP and Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/building-an-ai-powered-contract-price-adjustment-agent-with/ba-p/4515997",
-      "published": "2026-05-14T20:29:51+00:00",
-      "summary": "Acknowledgment: Special thanks to the Docusign Partner Solution Architects team for the original source code and examples that informed this implementation; I adapted and extended that foundation to build the end-to-end agent described below. The Enterprise Challenge Every large organization faces...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "aafshari",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Azure Monitor Health Model - API Refresh",
@@ -12334,5 +12334,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft ecosystem posts were dominated by AI platform maturity, with updates across Azure AI Foundry, Microsoft 365 Copilot, and GitHub: Microsoft highlighted practical guidance for migrating apps from GPT-4 to GPT-5.x with backward compatibility, improving Azure AI Search relevance through the right language analyzer selection, adding MCP Prompts support to the Azure Functions MCP extension, and shipping an AI Observability Starter Kit plus load-testing guidance for MCP servers using Locust and Azure Load Testing. On the productivity side, Microsoft emphasized AI adoption measurement and quality with new Copilot usage metrics API cohorts, the May 2026 Microsoft 365 Copilot feature roundup, and the Finance Agent Benchmark for evaluating finance-focused AI agents.\n\nA second major theme was infrastructure, security, and resilience for AI-era workloads: Azure covered zonal data center cooling architecture for diverse AI hardware, training 100B+ parameter models with MegaTrain, Azure Site Recovery preview support for Performance Plus Managed Disks, and Azure Resource Graph Explorer for database inventory. Security announcements included Microsoft Sentinel’s May 2026 updates, layered protection guidance combining Azure DDoS Protection with Azure WAF, recognition as a Gartner Leader in endpoint protection, and a warning about typosquatted npm packages targeting cloud and CI/CD secrets."
+  "summary": "Today’s Azure/Microsoft blog coverage centered on software supply chain security, with the Microsoft Security Blog warning about malicious **npm packages** that exploit **dependency confusion** to infiltrate developer workflows. The post highlights how these packages were used to **profile developer environments**—likely gathering system and network details from machines that accidentally pulled poisoned packages instead of trusted internal dependencies—underscoring the need for stricter **package namespace controls, private registry configuration, and dependency auditing** in JavaScript/**Node.js** ecosystems."
 }
