@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T06:45:05.822900+00:00",
+  "lastUpdated": "2026-05-31T10:51:30.815860+00:00",
   "totalArticles": 1121,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Agents That Build Agents: A SKILL-first Blueprint with MS Agent Framework & Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/agents-that-build-agents-a-skill-first-blueprint-with-ms-agent/ba-p/4523631",
+      "published": "2026-05-31T07:51:50+00:00",
+      "summary": "The single insight that changes everything Most \"build an AI agent\" tutorials collapse two completely different jobs into one tangled mess: the job of building an agent (writing the code, defining its tools, evaluating it, packaging it), and the job of running an agent (planning, reasoning, calling...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "What’s new in Microsoft Foundry | May 2026",
@@ -2608,17 +2619,6 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "How to Test AI Agents with LangSmith: A Complete Guide",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/how-to-test-ai-agents-with-langsmith-a-complete-guide/ba-p/4515972",
-      "published": "2026-05-13T10:27:51+00:00",
-      "summary": "Testing AI agents is crucial for ensuring reliability and accuracy in production.Evaluation is a technique to evaluate your agents. Different type of evaluation are # Evaluation Type 1 Task Success (Pass / Fail) 2 Instruction Adherence 3 Correctness / Accuracy 4 Relevance 5 Groundedness...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "syedarshad",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "v1.15.3",
@@ -12334,5 +12334,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure/Microsoft platform update is centered on the **May 2026 Microsoft Foundry** announcements, with the main theme being continued expansion of the company’s **AI application and agent development platform**. The post highlights new capabilities across **model integration, agent tooling, enterprise governance, and developer workflows** in **Microsoft Foundry**, signaling a push to make it easier for organizations to build, customize, and operate production AI systems on Microsoft’s stack.\n\nMore specifically, the announcement focuses on updates to the **Foundry platform itself**—including improvements around **AI model access/orchestration, app and agent development experiences, and operational controls for enterprise use**—positioning Microsoft Foundry as a core environment for building and managing generative AI solutions."
+  "summary": "Today’s Azure posts center on Microsoft’s push toward an agentic AI stack built on **Microsoft Foundry** and the **Microsoft Agent Framework**. The Azure Dev Community article outlines a **SKILL-first** pattern for building multi-agent systems where reusable skills become the foundation for agents that can create or orchestrate other agents, while the **What’s new in Microsoft Foundry | May 2026** update highlights the latest Foundry platform enhancements, signaling continued investment in tooling, orchestration, and enterprise-ready capabilities for developing and managing AI agents."
 }
