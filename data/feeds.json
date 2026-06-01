@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T14:45:30.155829+00:00",
+  "lastUpdated": "2026-06-01T19:49:47.666321+00:00",
   "totalArticles": 1121,
   "articles": [
     {
@@ -11,6 +11,94 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Scaling multi-node LLM inference with NVIDIA Dynamo-Grove on AKS (Part 4)",
+      "link": "https://blog.aks.azure.com/2026/06/02/dynamo-on-aks-part-4",
+      "published": "2026-06-02T00:00:00+00:00",
+      "summary": "Learn how NVIDIA Grove scheduler works with Dynamo to schedule, start, and scale inference deployments to match the underlying inference architecture.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft",
+      "feedUrl": "https://blog.aks.azure.com/rss.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Building a GitHub Copilot Agent Usage Dashboard",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-a-github-copilot-agent-usage-dashboard/ba-p/4523529",
+      "published": "2026-06-01T19:00:00+00:00",
+      "summary": "Introduction Working with organisations that are attempting to create GitHub Copilot custom agents, take-up of these agents by their community becomes important to know. Some questions quickly emerge are \"how well are we actually using it?\", \"which agents are getting used and which have not had...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "jometzg",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Kubernetes Center: Security & LTS/Out-of-Support Version Insights Now Available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/kubernetes-center-security-lts-out-of-support-version-insights/ba-p/4524567",
+      "published": "2026-06-01T18:30:12+00:00",
+      "summary": "What's New Security Insights: The new Security page in Kubernetes Center gives you an immediate, all clusters or Kubernetes Fleet Manager-wide view of your security posture without leaving the portal. At the summary level you can see: Security vulnerabilities broken down by risk level Runtime...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Harsha_Nair",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Now Generally Available: Microsoft Defender for open source relational databases on AWS RDS",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/now-generally-available-microsoft-defender-for-open-source/ba-p/4514651",
+      "published": "2026-06-01T17:11:16+00:00",
+      "summary": "Securing multicloud databases to help reduce risks Open‑source (OSS) relational databases are becoming increasingly critical and increasingly targeted in organization of all sizes. As organizations adopt multicloud architectures, these databases often run across Azure and Amazon Web Services (AWS),...",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "lisetteranga",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Aspire 13.4 is here",
+      "link": "https://devblogs.microsoft.com/aspire/whats-new-aspire-13-4/",
+      "published": "2026-06-01T17:00:00+00:00",
+      "summary": "Aspire 13.4 is here with TypeScript apphost GA, typed resource commands with results, server-side CLI log and telemetry search, more mature Kubernetes and AKS deployment, and more. The post Aspire 13.4 is here appeared first on Aspire Blog.",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "Maddy Montaquila",
+      "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Evaluation models in auto for individual plans",
+      "link": "https://github.blog/changelog/2026-06-01-evaluation-models-in-auto-for-individual-plans",
+      "published": "2026-06-01T16:18:17+00:00",
+      "summary": "GitHub Copilot offers access to evaluation models for individual non-enterprise users, and these models may be served in Copilot auto model selection. To disable use of evaluation models through Copilot… The post Evaluation models in auto for individual plans appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Determinism over magic: the engineering design behind Azure Container Registry Regional Endpoints",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/determinism-over-magic-the-engineering-design-behind-azure/ba-p/4524101",
+      "published": "2026-06-01T15:57:03+00:00",
+      "summary": "By Zoey Li, Huangli Wu, Johnson Shi, Wei Meng Introduction Azure Container Registry (ACR) supports geo-replication: one registry resource with active-active replicas across multiple Azure regions. You push or pull through any replica, and ACR asynchronously replicates content to all others. For...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "zoeyli",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Updates to GitHub Copilot billing and plans",
+      "link": "https://github.blog/changelog/2026-06-01-updates-to-github-copilot-billing-and-plans",
+      "published": "2026-06-01T14:00:26+00:00",
+      "summary": "As announced in our recent blog post, usage-based billing for GitHub Copilot is now live for all users and Copilot code review consumes GitHub Actions minutes, in addition to GitHub… The post Updates to GitHub Copilot billing and plans appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -826,28 +914,6 @@
       "author": "simranparkhe",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureconfidentialcomputingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Filter secret scanning approval requests by sort order and bypass status",
-      "link": "https://github.blog/changelog/2026-05-26-filter-secret-scanning-approval-requests-by-sort-order-and-bypass-status",
-      "published": "2026-05-26T16:01:21+00:00",
-      "summary": "This week, we’re rolling out two improvements to our delegated workflows for secret scanning. What’s changing Sort bypass and dismissal requests in the UI: You can now choose between ascending… The post Filter secret scanning approval requests by sort order and bypass status appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "GitHub Classroom sign-ups are no longer available",
-      "link": "https://github.blog/changelog/2026-05-26-github-classroom-sign-ups-are-no-longer-available",
-      "published": "2026-05-26T15:44:08+00:00",
-      "summary": "Starting today, new sign-ups for GitHub Classroom are no longer available as we transition to partner solutions. If you already have a GitHub Classroom account or existing classrooms, you can… The post GitHub Classroom sign-ups are no longer available appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Visual Studio May Update – Plan, Review, Refine",
@@ -2236,17 +2302,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Six Coding Agents, One Production System: A Field Guide to AgenticOps with AKS-Lab-GitHubCopilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/six-coding-agents-one-production-system-a-field-guide-to/ba-p/4519916",
-      "published": "2026-05-15T07:00:00+00:00",
-      "summary": "The shift: from \"AI helps me code\" to \"AI authors my repo\" For two years we've been talking about GitHub Copilot as an inline pair programmer — a clever autocomplete that lives in your editor. That framing is officially out of date. The new reality is agentic delivery: a team of named, scoped AI...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Agent365: The Identity-First Control Plane for Scalable AI Agents",
       "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/agent365-the-identity-first-control-plane-for-scalable-ai-agents/ba-p/4519921",
       "published": "2026-05-15T05:16:51+00:00",
@@ -2541,17 +2596,6 @@
       "blogId": "microsoft365copilotblog",
       "author": "Seth_Patton",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Introducing Azure Container Apps Express!",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-container-apps-express/ba-p/4519150",
-      "published": "2026-05-13T17:42:31+00:00",
-      "summary": "Three years ago, a 15-second cold start was industry-leading. Today, developers and AI agents expect sub-second. The speed bar has moved, and the tooling needs to move with it. After running Azure Container Apps for years, we've learned something important: for most developers, the ACA environment...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "simonjj",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3773,17 +3817,6 @@
       "blogId": "azurearchitectureblog",
       "author": "sameeraman",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Modernizing Terraform Pipelines on Azure: OIDC Federation for GitHub Actions and Azure DevOps",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/modernizing-terraform-pipelines-on-azure-oidc-federation-for/ba-p/4516620",
-      "published": "2026-05-02T20:34:19+00:00",
-      "summary": "The secret nobody wants to rotate Most Terraform-on-Azure pipelines we see still authenticate the same way they did three years ago. A long-lived ARM_CLIENT_SECRET sitting in GitHub Actions or Azure DevOps, set once, copied around, and rotated only when something breaks. It's the most ignored...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ssinghkalra",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -6403,17 +6436,6 @@
       "author": "Yura_Lee",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Aspire Docs in Your Terminal (and Your AI’s Brain)",
-      "link": "https://devblogs.microsoft.com/aspire/aspire-docs-in-your-terminal/",
-      "published": "2026-04-02T17:00:00+00:00",
-      "summary": "Aspire 13.2 ships aspire docs, a CLI for browsing, searching, and reading official aspire.dev docs from your terminal, with the same source of truth available to AI skills and automation. The post Aspire Docs in Your Terminal (and Your AI’s Brain) appeared first on Aspire Blog.",
-      "blog": "Aspire Blog",
-      "blogId": "aspireblog",
-      "author": "David Pine",
-      "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Retirement: Python support for Azure App Service and Azure Functions on Windows will be retired on March 31, 2027",
@@ -9144,17 +9166,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Autoscale KAITO inference workloads on AKS using KEDA",
-      "link": "https://blog.aks.azure.com/2026/02/03/autoscale-inference-workloads-with-kaito",
-      "published": "2026-02-03T00:00:00+00:00",
-      "summary": "Learn how to autoscale KAITO inference workloads on AKS with KEDA to handle varying requests and optimize GPU utilization for AI models at scale.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft",
-      "feedUrl": "https://blog.aks.azure.com/rss.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Microsoft Defender for Cloud Customer Newsletter",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-customer-newsletter/ba-p/4491637",
       "published": "2026-02-02T21:21:58+00:00",
@@ -10120,17 +10131,6 @@
       "blogId": "linuxandopensourceblog",
       "author": "CollinBrian",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "The Microsoft Defender for AI Alerts",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/the-microsoft-defender-for-ai-alerts/ba-p/4471424",
-      "published": "2025-12-03T15:13:43+00:00",
-      "summary": "I will start this blog post by thanking my Secure AI GBB Colleague Hiten Sharma for his contributions to this Tech Blog as a peer-reviewer. Microsoft Defender for AI (part of Microsoft Defender) helps organizations threats to generative AI applications in real time and helps respond to security...",
-      "blog": "Microsoft Defender for Cloud",
-      "blogId": "microsoftdefendercloudblog",
-      "author": "anas_hadidi",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12334,5 +12334,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts center on developer productivity and AI-assisted operations: Azure Functions now generally supports Node.js 24, while a new guide walks developers through running Claude Code on Microsoft Foundry inside VS Code, including setup pitfalls. On the security and observability side, Microsoft highlighted May 2026 updates for Microsoft Sentinel and introduced the Azure Copilot Observability Agent Chat, which lets teams investigate telemetry in natural language instead of manually writing monitoring queries."
+  "summary": "Today’s Azure news was led by AI developer tooling, cloud security, and platform reliability updates: Azure highlighted a GitHub Copilot Agent usage dashboard, Claude Code integration via Microsoft Foundry in VS Code, and the Azure Copilot Observability Agent Chat for querying observability data conversationally, alongside GitHub updates to Copilot billing/plans and automatic evaluation models for individual plans. On the infrastructure and security side, Microsoft announced Kubernetes Center insights for security and LTS/out-of-support version tracking, GA support in Azure Functions for Node.js 24, GA of Microsoft Defender for open source relational databases on AWS RDS, May 2026 updates for Microsoft Sentinel, and a deep dive into Azure Container Registry regional endpoints emphasizing deterministic, resilient multi-region registry design; developers also got Aspire 13.4 as the latest app development framework release."
 }
