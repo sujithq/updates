@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-01T19:49:47.666321+00:00",
-  "totalArticles": 1121,
+  "lastUpdated": "2026-06-01T22:55:23.172595+00:00",
+  "totalArticles": 1122,
   "articles": [
     {
       "title": "Visual Studio Code 1.123",
@@ -25,6 +25,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "Determinism over magic: the engineering design behind Azure Container Registry Regional Endpoints",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/determinism-over-magic-the-engineering-design-behind-azure/ba-p/4524101",
+      "published": "2026-06-01T21:23:11+00:00",
+      "summary": "By Zoey Li, Huangli Wu, Johnson Shi, Wei Meng Introduction Azure Container Registry (ACR) supports geo-replication: one registry resource with active-active replicas across multiple Azure regions. You push or pull through any replica, and ACR asynchronously replicates content to all others. For...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "zoeyli",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "KT accelerates cloud and AI adoption with Azure Confidential Computing",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/kt-accelerates-cloud-and-ai-adoption-with-azure-confidential/ba-p/4515994",
+      "published": "2026-06-01T21:22:01+00:00",
+      "summary": "A leading South Korea telecom provider, KT Corporation, serves more than 20 million consumers and thousands of enterprise customers in finance, manufacturing, and the public sector. As businesses across the country undergo digital transformation, KT needed to expand its cloud offerings but faced...",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "Rakeshginjupalli",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureconfidentialcomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Building a GitHub Copilot Agent Usage Dashboard",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-a-github-copilot-agent-usage-dashboard/ba-p/4523529",
       "published": "2026-06-01T19:00:00+00:00",
@@ -45,6 +67,17 @@
       "author": "Harsha_Nair",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "From Kubernetes Dashboard to Headlamp: Understanding the Transition",
+      "link": "https://kubernetes.io/blog/2026/06/01/dashboard-to-headlamp/",
+      "published": "2026-06-01T18:00:00+00:00",
+      "summary": "For many people, Kubernetes Dashboard was their first window into Kubernetes. It offered a simple visual way to see what was running in a cluster, inspect resources, and build confidence without relying on the command line. For years, it helped developers, students, and operators make sense of...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "Now Generally Available: Microsoft Defender for open source relational databases on AWS RDS",
@@ -78,17 +111,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Determinism over magic: the engineering design behind Azure Container Registry Regional Endpoints",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/determinism-over-magic-the-engineering-design-behind-azure/ba-p/4524101",
-      "published": "2026-06-01T15:57:03+00:00",
-      "summary": "By Zoey Li, Huangli Wu, Johnson Shi, Wei Meng Introduction Azure Container Registry (ACR) supports geo-replication: one registry resource with active-active replicas across multiple Azure regions. You push or pull through any replica, and ACR asynchronously replicates content to all others. For...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "zoeyli",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Updates to GitHub Copilot billing and plans",
@@ -9760,17 +9782,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Kubernetes 1.35: In-Place Pod Resize Graduates to Stable",
-      "link": "https://kubernetes.io/blog/2025/12/19/kubernetes-v1-35-in-place-pod-resize-ga/",
-      "published": "2025-12-19T18:30:00+00:00",
-      "summary": "This release marks a major step: more than 6 years after its initial conception, the In-Place Pod Resize feature (also known as In-Place Pod Vertical Scaling), first introduced as alpha in Kubernetes v1.27, and graduated to beta in Kubernetes v1.33, is now stable (GA) in Kubernetes 1.35! This...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Azure Front Door: Implementing lessons learned following October outages",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-front-door-implementing-lessons-learned-following-october/ba-p/4479416",
       "published": "2025-12-19T16:43:31+00:00",
@@ -12334,5 +12345,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news was led by AI developer tooling, cloud security, and platform reliability updates: Azure highlighted a GitHub Copilot Agent usage dashboard, Claude Code integration via Microsoft Foundry in VS Code, and the Azure Copilot Observability Agent Chat for querying observability data conversationally, alongside GitHub updates to Copilot billing/plans and automatic evaluation models for individual plans. On the infrastructure and security side, Microsoft announced Kubernetes Center insights for security and LTS/out-of-support version tracking, GA support in Azure Functions for Node.js 24, GA of Microsoft Defender for open source relational databases on AWS RDS, May 2026 updates for Microsoft Sentinel, and a deep dive into Azure Container Registry regional endpoints emphasizing deterministic, resilient multi-region registry design; developers also got Aspire 13.4 as the latest app development framework release."
+  "summary": "Today’s Azure news centered on cloud-native operations, AI tooling, and security. Microsoft highlighted Azure Container Registry regional endpoints for more deterministic, resilient image pulls; new Kubernetes Center insights for security posture and LTS/out-of-support version tracking; and the ongoing shift from Kubernetes Dashboard to Headlamp, while Azure Functions added general availability support for Node.js 24.\n\nOn the AI and developer side, updates focused on GitHub Copilot usage, billing, and evaluation models, plus practical guidance for Claude Code on Microsoft Foundry in VS Code and a new Azure Copilot Observability Agent Chat that lets teams query observability data conversationally instead of writing KQL-style queries. Security and enterprise adoption were also prominent, including KT’s use of Azure Confidential Computing to accelerate cloud and AI adoption, Microsoft Sentinel’s May 2026 feature updates, and Defender for Cloud reaching GA for protecting open source relational databases running on AWS RDS."
 }
