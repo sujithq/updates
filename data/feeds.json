@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T08:17:16.532319+00:00",
+  "lastUpdated": "2026-06-01T14:45:30.155829+00:00",
   "totalArticles": 1121,
   "articles": [
     {
@@ -12,6 +12,50 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Functions Support for Node.js 24",
+      "link": "https://azure.microsoft.com/updates?id=562647",
+      "published": "2026-06-01T13:45:09+00:00",
+      "summary": "Azure Functions support for Node.js 24 is now generally available. You can now develop apps using Node.js 24 locally and deploy them to supported Azure Functions plans on Linux and Windows, including the Flex Consumption plan. Please note that Remot",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Claude Code on Microsoft Foundry in VS Code — A Practical Setup Guide (with the gotchas)",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/claude-code-on-microsoft-foundry-in-vs-code-a-practical-setup/ba-p/4524245",
+      "published": "2026-06-01T13:40:49+00:00",
+      "summary": "Enables enterprise-grade governance without changing your developer workflow. The official Microsoft Learn article (Configure Claude Code for Microsoft Foundry) gets you ~80% of the way there. The remaining 20%—VS Code settings shape, tenant mismatches, and configuration conflicts like \"baseURL and...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "LZhang",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "What’s new in Microsoft Sentinel: May 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-may-2026/ba-p/4523419",
+      "published": "2026-06-01T12:48:52+00:00",
+      "summary": "Welcome to the May edition of What's new in Microsoft Sentinel. This month’s updates focus on unified role-based access control (RBAC), ecosystem breadth, AI-agent security, and high-assurance identity. RBAC and row-level scoping are now generally available, giving security teams a single, granular...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Sowmys",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "The Azure Copilot Observability Agent Chat - Stop Writing Queries, Start Asking Questions.",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/the-azure-copilot-observability-agent-chat-stop-writing-queries/ba-p/4522206",
+      "published": "2026-06-01T11:04:05+00:00",
+      "summary": "Services and applications produce massive amounts of telemetry – and making sense of all this data takes effort. Data is often spread across different stores, which means the way to clear insights goes through careful querying, refinement and correlation. The Azure Copilot Observability agent now...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Noa Kuperberg",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Agents That Build Agents: A SKILL-first Blueprint with MS Agent Framework & Foundry",
@@ -176,17 +220,6 @@
       "blogId": "modernizationbestpracticesblog",
       "author": "akumaranchath",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "What’s new in Microsoft Sentinel: May 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-may-2026/ba-p/4523419",
-      "published": "2026-05-29T16:00:00+00:00",
-      "summary": "Welcome to the May edition of What's new in Microsoft Sentinel. This month’s updates focus on unified role-based access control (RBAC), ecosystem breadth, AI-agent security, and high-assurance identity. RBAC and row-level scoping are now generally available, giving security teams a single, granular...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Sowmys",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -869,17 +902,6 @@
       "blogId": "azuredevcommunityblog",
       "author": "SHAILESHDEVADIGA",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "The Azure Copilot Observability Agent Chat - Stop Writing Queries, Start Asking Questions.",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/the-azure-copilot-observability-agent-chat-stop-writing-queries/ba-p/4522206",
-      "published": "2026-05-24T09:43:53+00:00",
-      "summary": "Services and applications produce massive amounts of telemetry – and making sense of all this data takes effort. Data is often spread across different stores, which means the way to clear insights goes through careful querying, refinement and correlation. The Azure Copilot Observability agent now...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Noa Kuperberg",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -2420,17 +2442,6 @@
       "blogId": "appsonazureblog",
       "author": "SurenderSinghMalik",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "﻿﻿Genie in a Bot: Databricks AI/BI Meets Microsoft Teams",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/genie-in-a-bot-databricks-ai-bi-meets-microsoft-teams/ba-p/4507939",
-      "published": "2026-05-14T07:00:00+00:00",
-      "summary": "The Use Case: Why Genie Needs to Live in Teams Every organization has business users who need data answers — fast. Marketing managers want to know which campaign drove the most conversions last quarter. Finance teams need spend breakdowns by channel. Executives want real-time KPIs before a board...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "vikas_gautam",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8737,17 +8748,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Retirement: Windows Server Annual Channel (preview)",
-      "link": "https://azure.microsoft.com/updates?id=557224",
-      "published": "2026-02-23T18:15:17+00:00",
-      "summary": "Windows Server Annual Channel (Preview) on AKS will be retired on May 15, 2026, please transition to Long Term Servicing Channel (LTSC) by that date. We encourage you to transition to Long Term Servicing Channel (LTSC) prior to the retirement date to exp",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Microsoft Agent Pre-Purchase Plan: One Unified Path to Scale AI Agents",
       "link": "https://techcommunity.microsoft.com/t5/finops-blog/microsoft-agent-pre-purchase-plan-one-unified-path-to-scale-ai/ba-p/4476052",
       "published": "2026-02-20T18:06:20+00:00",
@@ -12333,5 +12333,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure posts center on developer productivity and AI-assisted operations: Azure Functions now generally supports Node.js 24, while a new guide walks developers through running Claude Code on Microsoft Foundry inside VS Code, including setup pitfalls. On the security and observability side, Microsoft highlighted May 2026 updates for Microsoft Sentinel and introduced the Azure Copilot Observability Agent Chat, which lets teams investigate telemetry in natural language instead of manually writing monitoring queries."
 }
