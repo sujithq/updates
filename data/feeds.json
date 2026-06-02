@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T02:10:40.076411+00:00",
+  "lastUpdated": "2026-06-02T07:14:55.075330+00:00",
   "totalArticles": 1122,
   "articles": [
     {
@@ -12,6 +12,39 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Building and Operating a Microsoft Foundry Hosted Agent with GitOps and GitHub Tasks",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-and-operating-a-microsoft-foundry-hosted-agent-with/ba-p/4523393",
+      "published": "2026-06-02T07:00:00+00:00",
+      "summary": "The Gap Between Prototype and Production Most AI engineering teams can build a working agent in a day. The hard part is not building it; the hard part is operating it. Prompts drift. Tool configurations change without review. Deployments happen from someone's laptop. There is no audit trail, no...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Better Deployment Errors in az webapp deploy",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/better-deployment-errors-in-az-webapp-deploy/ba-p/4524680",
+      "published": "2026-06-02T05:52:13+00:00",
+      "summary": "Deployment failures can be difficult to interpret, especially when the error returned by the deployment API does not clearly explain what went wrong or what to do next. To make this easier, we have added a new switch to az webapp deploy for App Service for Linux: --enriched-errors true When...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "TulikaC",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Understand What’s Happening with Your App Service for Linux Website Using Site Status",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/understand-what-s-happening-with-your-app-service-for-linux/ba-p/4524676",
+      "published": "2026-06-02T05:21:07+00:00",
+      "summary": "When your website is not starting or behaving unexpectedly, it can be difficult to quickly understand what state the application is in and what might be causing the issue. To make this easier, Azure App Service for Linux now includes Site Status. Site Status provides runtime information for your...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "TulikaC",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Scaling multi-node LLM inference with NVIDIA Dynamo-Grove on AKS (Part 4)",
@@ -355,7 +388,7 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "[In preview] Public Preview: Azure Site Recovery Support for Performance Plus Managed Disks",
+      "title": "[Launched] Generally Available: Azure Site Recovery Support for Performance Plus Managed Disks",
       "link": "https://azure.microsoft.com/updates?id=564644",
       "published": "2026-05-29T15:15:43+00:00",
       "summary": "Azure Site Recovery (ASR) now supports replication of virtual machines using Performance Plus enabled managed disks. With this update, virtual machines using Premium SSD, Standard SSD or Standard HDD managed disks with Performance Plus capability for high",
@@ -2313,17 +2346,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Privacy proxy in Agents with Microsoft Agent Framework Middleware",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/privacy-proxy-in-agents-with-microsoft-agent-framework/ba-p/4514773",
-      "published": "2026-05-15T07:00:00+00:00",
-      "summary": "In the first part - Introducing PII Shield: A Privacy Proxy for Every LLM Call - we introduced PII-Shield as a privacy proxy that detects sensitive data, applies configurable anonymization strategies per entity, and reverses that anonymization once the LLM has completed its task. While this...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "vikas_gautam",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Agent365: The Identity-First Control Plane for Scalable AI Agents",
       "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/agent365-the-identity-first-control-plane-for-scalable-ai-agents/ba-p/4519921",
       "published": "2026-05-15T05:16:51+00:00",
@@ -2511,17 +2533,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Platform Improvements for Python AI Apps on Azure App Service",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/platform-improvements-for-python-ai-apps-on-azure-app-service/ba-p/4519620",
-      "published": "2026-05-14T07:44:37+00:00",
-      "summary": "Overview Azure App Service (Linux) is a fully managed PaaS offering that supports a broad range of languages, including Python, Node.js, .NET, PHP, and Java. Developers can push source code or deploy a pre-built artifact; the platform handles the rest, including dependency installation, application...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "SurenderSinghMalik",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "WebAssembly Data Processing at the Edge with Azure IoT Operations",
       "link": "https://devblogs.microsoft.com/ise/wasm-edge-data-processing/",
       "published": "2026-05-14T07:00:00+00:00",
@@ -2531,17 +2542,6 @@
       "author": "Marcel Bindseil",
       "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Control runtime patch updates with Platform Release Channel on Azure App Service for Linux",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/control-runtime-patch-updates-with-platform-release-channel-on/ba-p/4519570",
-      "published": "2026-05-14T05:31:26+00:00",
-      "summary": "Azure App Service for Linux is introducing Platform Release Channel, a new setting that gives you more control over when runtime patch updates are applied to your app. With this feature, you can choose how quickly your app moves to newly rolled-out runtime patches. This helps teams balance two...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "TulikaC",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Microsoft SQL Security Across the MAESTRO Stack: Building Secure Agentic AI with Defense-in-Depth",
@@ -12345,5 +12345,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure coverage centers on **AI infrastructure on Azure Kubernetes Service (AKS)**, with the key post focusing on **scaling multi-node large language model inference** using **NVIDIA Dynamo-Grove**. The announcement highlights how **AKS** can be used to orchestrate distributed **LLM inference workloads** across multiple nodes, emphasizing tighter integration between **Azure cloud-native Kubernetes operations** and **NVIDIA’s accelerated AI stack** for higher-performance, production-scale serving."
+  "summary": "Today’s Azure posts focused on improving developer operations and AI scalability: Microsoft highlighted a GitOps-based approach for building and running a Microsoft Foundry hosted agent with GitHub Tasks, while App Service updates introduced clearer failure diagnostics in `az webapp deploy` and new **Site Status** visibility for troubleshooting **App Service for Linux** websites. On the AI infrastructure side, Azure emphasized large-scale inference on **Azure Kubernetes Service (AKS)** with **NVIDIA Dynamo-Grove**, covering multi-node **LLM** deployment patterns for higher-performance model serving."
 }
