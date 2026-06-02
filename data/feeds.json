@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T22:55:23.172595+00:00",
+  "lastUpdated": "2026-06-02T02:10:40.076411+00:00",
   "totalArticles": 1122,
   "articles": [
     {
@@ -12345,5 +12345,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news centered on cloud-native operations, AI tooling, and security. Microsoft highlighted Azure Container Registry regional endpoints for more deterministic, resilient image pulls; new Kubernetes Center insights for security posture and LTS/out-of-support version tracking; and the ongoing shift from Kubernetes Dashboard to Headlamp, while Azure Functions added general availability support for Node.js 24.\n\nOn the AI and developer side, updates focused on GitHub Copilot usage, billing, and evaluation models, plus practical guidance for Claude Code on Microsoft Foundry in VS Code and a new Azure Copilot Observability Agent Chat that lets teams query observability data conversationally instead of writing KQL-style queries. Security and enterprise adoption were also prominent, including KT’s use of Azure Confidential Computing to accelerate cloud and AI adoption, Microsoft Sentinel’s May 2026 feature updates, and Defender for Cloud reaching GA for protecting open source relational databases running on AWS RDS."
+  "summary": "Today’s Azure coverage centers on **AI infrastructure on Azure Kubernetes Service (AKS)**, with the key post focusing on **scaling multi-node large language model inference** using **NVIDIA Dynamo-Grove**. The announcement highlights how **AKS** can be used to orchestrate distributed **LLM inference workloads** across multiple nodes, emphasizing tighter integration between **Azure cloud-native Kubernetes operations** and **NVIDIA’s accelerated AI stack** for higher-performance, production-scale serving."
 }
