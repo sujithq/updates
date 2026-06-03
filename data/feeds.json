@@ -1,17 +1,28 @@
 {
-  "lastUpdated": "2026-06-03T07:29:06.072549+00:00",
-  "totalArticles": 1126,
+  "lastUpdated": "2026-06-03T13:04:02.392530+00:00",
+  "totalArticles": 1125,
   "articles": [
     {
       "title": "Visual Studio Code 1.123",
       "link": "https://code.visualstudio.com/updates/v1_123",
       "published": "2026-06-03T17:00:00+00:00",
-      "summary": "Learn what's new in Visual Studio Code 1.123 (Insiders) Read the full article",
+      "summary": "Learn what's new in Visual Studio Code 1.123 Read the full article",
       "blog": "Visual Studio Code",
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "File share migrations simplified with Azure Copilot Migration Agent",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/file-share-migrations-simplified-with-azure-copilot-migration/ba-p/4524563",
+      "published": "2026-06-03T12:28:05+00:00",
+      "summary": "Building on our earlier announcement of discovery and assessment support for SMB and NFS file shares in Azure Migrate, we are extending the experience to support end-to-end file share migrations within the same workflow. With Azure Copilot Migration Agent, customers can move from discovery and...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "madhurinrao",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Build, deploy, and govern sovereign AI with Foundry Local on Azure Local",
@@ -10662,17 +10673,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Unlocking Storage Optimizations: Smart Tiering for Blobs and ADLS in Azure Storage",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/unlocking-storage-optimizations-smart-tiering-for-blobs-and-adls/ba-p/4469811",
-      "published": "2025-11-18T18:53:55+00:00",
-      "summary": "We are excited to introduce the public preview of smart tier for Azure Blob and Azure Data Lake Storage. Smart tier is a fully managed, automated data tiering solution that takes the guesswork and manual effort out of optimizing your storage costs. Smart tier continuously analyzes your data’s...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "BenedictBerger",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure Databricks Genie integration with Copilot Studio and Microsoft Foundry is now live!",
       "link": "https://techcommunity.microsoft.com/t5/azure-databricks/azure-databricks-genie-integration-with-copilot-studio-and/ba-p/4471087",
       "published": "2025-11-18T18:48:18+00:00",
@@ -12376,18 +12376,7 @@
       "author": "femi_adebayo",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurevirtualdesktopblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Activity logs not showing in cloud apps",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-identity/activity-logs-not-showing-in-cloud-apps/m-p/4419583#M4249",
-      "published": "2025-06-02T08:23:27+00:00",
-      "summary": "Hi folks, MDI activity logs not showing in cloud apps, the last log was on May 13, 2025, It is showing for multiple tenants.Anybody experiencing similar issue?",
-      "blog": "Azure Advanced Threat Protection",
-      "blogId": "azureadvancedthreatprotection",
-      "author": "prasanthpro7",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts were led by AI operations and secure deployment: Microsoft highlighted sovereign AI on **Azure Local** with **Foundry Local**, agentic IT operations via the **Azure SRE Agent**, and new ways to **observe AI agents in Azure Monitor**, alongside **GA simple log alerts** for easier monitoring. A second major theme was cloud-native platform engineering and developer tooling, including **Visual Studio Code 1.123**, deployment automation for **Foundry Hosted Agents** via **GitHub Actions** and **REST API**, and architecture guidance spanning **AKS Kata MicroVM**, **MCP**, hybrid AI/token-economics models, and **DMZ-first landing zones** for defense-in-depth networking.\n\nSecurity and resilience were also prominent: Microsoft detailed a **credential-stealing npm campaign affecting Red Hat environments**, while Azure architecture content emphasized governed, segmented environments using **Azure Arc**, **Azure Network Security**, and landing zone design principles. Overall, the announcements point to Azure tightening the connection between **AI agents, observability, secure infrastructure, and automated delivery pipelines**."
+  "summary": "Today’s Azure posts center on AI agents, operational visibility, and enterprise-ready deployment: Microsoft highlighted **Foundry Local on Azure Local** for building and governing **sovereign AI**, the **Azure SRE Agent** for agentic operations, and new **Azure Monitor** capabilities to observe agents—alongside the GA of **Simple log alerts** for easier monitoring. Infrastructure and platform updates also stood out, including **Azure Copilot Migration Agent** for simplifying **Azure Files/file share migrations**, a **DMZ-first cloud landing zone** architecture for defense-in-depth networking, and developer-focused posts on **GitHub Actions hosted agent deployment**, **Foundry Hosted Agents via REST API**, and **Visual Studio Code 1.123**.\n\nA second major theme was modern app architecture and security: Azure Dev Community explored **token economics–driven architectures** using **hybrid models**, **AI Runway**, **AKS Kata MicroVM**, and **MCP**, while Microsoft Security detailed the **Red Hat npm Miasma** credential-stealing campaign, reinforcing the importance of software supply chain and credential protection."
 }
