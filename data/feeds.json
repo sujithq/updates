@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T02:28:20.075597+00:00",
+  "lastUpdated": "2026-06-03T07:29:06.072549+00:00",
   "totalArticles": 1126,
   "articles": [
     {
@@ -11,6 +11,105 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Build, deploy, and govern sovereign AI with Foundry Local on Azure Local",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/build-deploy-and-govern-sovereign-ai-with-foundry-local-on-azure/ba-p/4522945",
+      "published": "2026-06-03T07:19:19+00:00",
+      "summary": "Not every AI workload can run in the cloud. For many of our customers, data needs to stay within defined boundaries, connectivity may be limited or absent, and latency, governance, and auditability are non-negotiable. With Foundry Local on Azure Local, you can use the same model catalog, developer...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "insagiv",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Designing Cloud Landing Zones by Traffic Flow: A Defence‑in‑Depth, DMZ‑First Architecture",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/designing-cloud-landing-zones-by-traffic-flow-a-defence-in-depth/ba-p/4524280",
+      "published": "2026-06-03T07:18:18+00:00",
+      "summary": "As enterprises adopt Microsoft Azure for large‑scale and regulated workloads, security architecture must be driven by traffic trust boundaries and inspection intent, not connectivity alone. Regulatory frameworks consistently require a clear separation between Internet‑untrusted and private...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "AvanishYadav",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Token economics–driven architecture: hybrid models, AI Runway, AKS Kata MicroVM, MCP",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/token-economics-driven-architecture-hybrid-models-ai-runway-aks/ba-p/4524276",
+      "published": "2026-06-03T07:00:00+00:00",
+      "summary": "1. The moment the bill arrived For most of 2024 and 2025, \"Agents\" were a demo word. In 2026 they are a line item on the cloud invoice. Every major model provider — OpenAI, Anthropic, Google, Mistral, DeepSeek, and even the in-cluster open-weights serving stacks — now bills by the token. Input...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "GitHub Action for Deploying Hosted Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/github-action-for-deploying-hosted-agents/ba-p/4524947",
+      "published": "2026-06-03T07:00:00+00:00",
+      "summary": "Introduction With Microsoft's introduction to Hosted Agents comes a next logical question. How to implement this? Organizations need a method that is quick, repeatable, and requires minimal adjustments to their existing tooling and processes. Thus, we will walk through how to deploy a Hosted Agent...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "j_folberth",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "New Capabilities to Observe Agents in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/new-capabilities-to-observe-agents-in-azure-monitor/ba-p/4524896",
+      "published": "2026-06-03T04:55:34+00:00",
+      "summary": "Over the last six months, we have been listening to you and building new capabilities to help you observe your agents. You’ve been sharing with us that quality issues are tricky and evaluation is critical, that agent reasoning needs to be understood, that humans must be in the loop to review select...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "MattMc",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure SRE Agent at Microsoft Build 2026: Bringing agentic operations to the enterprise",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-at-microsoft-build-2026-bringing-agentic/ba-p/4524669",
+      "published": "2026-06-03T04:49:38+00:00",
+      "summary": "Build 2026 Update When we launched Azure SRE Agent, the promise was simple: reduce operational toil, improve up time, and evolve teams from manual incident response towards AI-powered operations. Since GA in March 2026, that promise has held up in production. Teams are using the agent to diagnose...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "dchelupati",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Preinstall to persistence: Inside the Red Hat npm Miasma credential-stealing campaign",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/02/preinstall-persistence-inside-red-hat-npm-miasma-credential-stealing-campaign/",
+      "published": "2026-06-03T04:45:06+00:00",
+      "summary": "A large-scale npm supply chain attack compromised over 90 versions of @redhat-cloud-services packages, silently infecting CI/CD environments and developer systems. The malicious code steals credentials from GitHub, cloud platforms, and local machines, then spreads like a worm by republishing...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Defender Security Research Team",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Deploying Foundry Hosted Agents via REST API",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/deploying-foundry-hosted-agents-via-rest-api/ba-p/4524523",
+      "published": "2026-06-03T02:52:44+00:00",
+      "summary": "Introduction At Microsoft Build `26 it was announced that Microsoft Foundry Hosted will soon be generally available. This blog post will outline the deployment process and requirements for creating hosted agents in Foundry. The audience for this blog is designed to range from beginner to more...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "j_folberth",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[Launched] Generally Available: Simple log alerts in Azure Monitor",
+      "link": "https://azure.microsoft.com/updates?id=561978",
+      "published": "2026-06-03T02:00:57+00:00",
+      "summary": "We are excited to announce the General Availability of Simple log alerts in Azure Monitor, available starting today. This feature is designed to provide a simplified and more intuitive experience for monitoring and alerting, enhancing your ability to dete",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -190,17 +289,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure SRE Agent at Microsoft Build 2026: Bringing agentic operations to the enterprise",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-at-microsoft-build-2026-bringing-agentic/ba-p/4524669",
-      "published": "2026-06-02T21:11:35+00:00",
-      "summary": "Build 2026 Update When we launched Azure SRE Agent, the promise was simple: reduce operational toil, improve up time, and evolve teams from manual incident response towards AI-powered operations. Since GA in March 2026, that promise has held up in production. Teams are using the agent to diagnose...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "dchelupati",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Shaping what Azure SRE Agent does: Tool Permissions and Hooks",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/shaping-what-azure-sre-agent-does-tool-permissions-and-hooks/ba-p/4524791",
       "published": "2026-06-02T21:11:11+00:00",
@@ -330,17 +418,6 @@
       "blogId": "appsonazureblog",
       "author": "AnthonyChu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Build, deploy, and govern sovereign AI with Foundry Local on Azure Local",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/build-deploy-and-govern-sovereign-ai-with-foundry-local-on-azure/ba-p/4522945",
-      "published": "2026-06-02T20:46:01+00:00",
-      "summary": "Not every AI workload can run in the cloud. For many of our customers, data needs to stay within defined boundaries, connectivity may be limited or absent, and latency, governance, and auditability are non-negotiable. With Foundry Local on Azure Local, you can use the same model catalog, developer...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "insagiv",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -2599,6 +2676,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Announcing the public preview of AKS on bare metal",
+      "link": "https://blog.aks.azure.com/2026/06/02/aks-baremetal-public-preview",
+      "published": "2026-06-02T00:00:00+00:00",
+      "summary": "AKS on bare metal is now available in public preview!",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft",
+      "feedUrl": "https://blog.aks.azure.com/rss.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "Scaling multi-node LLM inference with NVIDIA Dynamo-Grove on AKS (Part 4)",
       "link": "https://blog.aks.azure.com/2026/06/02/dynamo-on-aks-part-4",
       "published": "2026-06-02T00:00:00+00:00",
@@ -3798,17 +3886,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "What’s new in Microsoft Security: May 2026",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/21/whats-new-in-microsoft-security-may-2026/",
-      "published": "2026-05-21T16:00:00+00:00",
-      "summary": "Microsoft Security’s latest updates extend visibility, control, and protection across expanding ecosystems as organizations accelerate AI adoption. The post What’s new in Microsoft Security: May 2026 appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Alym Rayani",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Building AI Agents with Microsoft Foundry: A Progressive Lab from Hello World to Self-Hosted",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-ai-agents-with-microsoft-foundry-a-progressive-lab-from/ba-p/4521792",
       "published": "2026-05-21T08:28:42+00:00",
@@ -4062,17 +4139,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "How to Visualize Your Azure AI Workloads Usage for Observability",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/how-to-visualize-your-azure-ai-workloads-usage-for-observability/ba-p/4517324",
-      "published": "2026-05-20T07:00:00+00:00",
-      "summary": "This article assumes you already have an Azure Foundry project and resource deployed in Microsoft Foundry. The options referenced here are documented in detail in the linked articles; this post serves as a consolidated step by step guide bringing them all together and explaining where each option...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "juneesingh",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Golden Image Refresh for Virtual Machines and VM Scale Sets: Driving Consistency at Scale",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/golden-image-refresh-for-virtual-machines-and-vm-scale-sets/ba-p/4521376",
       "published": "2026-05-20T02:56:39+00:00",
@@ -4304,17 +4370,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Confidence-Aware RAG: Teaching Your AI Pipeline to Acknowledge Uncertainty",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/confidence-aware-rag-teaching-your-ai-pipeline-to-acknowledge/ba-p/4515061",
-      "published": "2026-05-19T07:00:00+00:00",
-      "summary": "Introduction Retrieval-Augmented Generation (RAG) has become the standard architecture for grounding Large Language Models (LLMs) with enterprise data. By retrieving relevant documents before generating a response, RAG helps reduce hallucinations compared to relying on model knowledge alone....",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "RohitPoddar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Building a Terraform Drift Validator for Azure with Live Portal Verification",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-a-terraform-drift-validator-for-azure-with-live-portal/ba-p/4520952",
       "published": "2026-05-19T06:18:13+00:00",
@@ -4400,17 +4455,6 @@
       "blogId": "microsoftsentinelblog",
       "author": "RGupta",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Building a Controllable Inference Platform on Kubernetes with AI Runway",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-a-controllable-inference-platform-on-kubernetes-with-ai/ba-p/4520590",
-      "published": "2026-05-18T11:46:14+00:00",
-      "summary": "When enterprises move generative AI from demos to real business workloads, the hardest question is usually not whether a model can answer a prompt. The harder question is whether the whole system can run reliably, predictably, securely, and economically over time. This becomes especially important...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -6541,17 +6585,6 @@
       "link": "https://azure.microsoft.com/updates?id=560987",
       "published": "2026-04-24T18:15:17+00:00",
       "summary": "Foundry Toolkit for VS Code is now generally available and provides VS Code tooling for Microsoft Agent Framework, including agent creation from templates or via GitHub Copilot, local test/debug with visualization and traces, and direct deployment to Foun",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: WireGuard In‑Transit Encryption for Azure Kubernetes Service (AKS)",
-      "link": "https://azure.microsoft.com/updates?id=560015",
-      "published": "2026-04-24T18:15:17+00:00",
-      "summary": "WireGuard in‑transit encryption is now generally available for Azure Kubernetes Service (AKS) clusters using Azure CNI powered by Cilium and Advanced Container Networking Services (ACNS). This capability enables transparent, node‑level encryption for inte",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -9353,17 +9386,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Deploying KubeVirt on AKS",
-      "link": "https://blog.aks.azure.com/2026/02/06/kubevirt-on-aks",
-      "published": "2026-02-06T00:00:00+00:00",
-      "summary": "Learn how to use KubeVirt to host virtual machines on Azure Kubernetes Service (AKS)",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft",
-      "feedUrl": "https://blog.aks.azure.com/rss.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Zero Trust with Azure Firewall, Azure DDoS Protection and Azure WAF: A practical use case",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/zero-trust-with-azure-firewall-azure-ddos-protection-and-azure/ba-p/4490595",
       "published": "2026-02-05T05:15:27+00:00",
@@ -10431,17 +10453,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Observability for the Age of Generative AI",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/observability-for-the-age-of-generative-ai/ba-p/4473307",
-      "published": "2025-11-27T01:26:39+00:00",
-      "summary": "Every generation of computing brings new challenges in how we monitor and trust our systems. With the rise of Generative AI, applications are no longer static code—they’re living systems that plan, reason, call tools, and make choices dynamically. Traditional observability, built for servers and...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Hong Gao",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Best Practices for Migrating COTS Applications to Microsoft Azure",
       "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/best-practices-for-migrating-cots-applications-to-microsoft/ba-p/4473323",
       "published": "2025-11-26T20:43:14+00:00",
@@ -11319,17 +11330,6 @@
       "blogId": "azuretoolsblog",
       "author": "stevenjma",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "How Azure network security can help you meet NIS2 compliance",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/how-azure-network-security-can-help-you-meet-nis2-compliance/ba-p/4457285",
-      "published": "2025-09-26T15:18:07+00:00",
-      "summary": "With the adoption of the NIS2 Directive EU 2022 2555, cybersecurity obligations for both public and private sector organizations have become more strict and far reaching. NIS2 aims to establish a higher common level of cybersecurity across the European Union by enforcing stronger requirements on...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "SaleemBseeu",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12389,5 +12389,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage is essentially a single developer-tools update: **Visual Studio Code 1.123**. The key theme is Microsoft’s continued investment in the **VS Code** developer experience, with this release likely centering on editor, productivity, and platform improvements relevant to developers building for cloud and Azure environments."
+  "summary": "Today’s Azure posts were led by AI operations and secure deployment: Microsoft highlighted sovereign AI on **Azure Local** with **Foundry Local**, agentic IT operations via the **Azure SRE Agent**, and new ways to **observe AI agents in Azure Monitor**, alongside **GA simple log alerts** for easier monitoring. A second major theme was cloud-native platform engineering and developer tooling, including **Visual Studio Code 1.123**, deployment automation for **Foundry Hosted Agents** via **GitHub Actions** and **REST API**, and architecture guidance spanning **AKS Kata MicroVM**, **MCP**, hybrid AI/token-economics models, and **DMZ-first landing zones** for defense-in-depth networking.\n\nSecurity and resilience were also prominent: Microsoft detailed a **credential-stealing npm campaign affecting Red Hat environments**, while Azure architecture content emphasized governed, segmented environments using **Azure Arc**, **Azure Network Security**, and landing zone design principles. Overall, the announcements point to Azure tightening the connection between **AI agents, observability, secure infrastructure, and automated delivery pipelines**."
 }
