@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-06-04T07:12:56.132526+00:00",
+  "lastUpdated": "2026-06-04T11:43:17.754149+00:00",
   "totalArticles": 1125,
   "articles": [
+    {
+      "title": "What’s new in Microsoft Sentinel: May 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-may-2026/ba-p/4523419",
+      "published": "2026-06-04T10:07:32+00:00",
+      "summary": "Welcome to the May edition of What's new in Microsoft Sentinel. This month’s updates focus on unified role-based access control (RBAC), ecosystem breadth, AI-agent security, and high-assurance identity. RBAC and row-level scoping are now generally available, giving security teams a single, granular...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Sowmys",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Foundry Toolkit for VS Code at //build: Hosted Agents End-to-End, a Smarter Toolbox, and More",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/foundry-toolkit-for-vs-code-at-build-hosted-agents-end-to-end-a/ba-p/4524941",
@@ -12,6 +23,17 @@
       "author": "leoyao",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "How we Decide Between Keyword and Hybrid Search: 5 Enterprise Evaluation Criteria",
+      "link": "https://devblogs.microsoft.com/ise/keyword-vs-hybrid-search/",
+      "published": "2026-06-04T07:00:00+00:00",
+      "summary": "A data-driven framework we use in enterprise deployments to decide between vector-only keyword and hybrid search, based on five measurable evaluation criteria. The post How we Decide Between Keyword and Hybrid Search: 5 Enterprise Evaluation Criteria appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Beijie Zhang",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Foundry IQ: Improve recall by up to 54% with knowledge bases",
@@ -3179,17 +3201,6 @@
       "blogId": "azuredevcommunityblog",
       "author": "LZhang",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "What’s new in Microsoft Sentinel: May 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-may-2026/ba-p/4523419",
-      "published": "2026-06-01T12:48:52+00:00",
-      "summary": "Welcome to the May edition of What's new in Microsoft Sentinel. This month’s updates focus on unified role-based access control (RBAC), ecosystem breadth, AI-agent security, and high-assurance identity. RBAC and row-level scoping are now generally available, giving security teams a single, granular...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Sowmys",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8880,17 +8891,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Using Agents to Setup Experiments",
-      "link": "https://devblogs.microsoft.com/ise/using-agents-to-setup-experiments/",
-      "published": "2026-03-06T08:00:00+00:00",
-      "summary": "When setting up an experiment is complex, agents can automate the process to make it faster and more reliable. The post Using Agents to Setup Experiments appeared first on ISE Developer Blog.",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Peter Lasne",
-      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Dynamic Resource Allocation (DRA) with NVIDIA virtualized GPU (vGPU) on AKS",
       "link": "https://blog.aks.azure.com/2026/03/06/dra-with-vGPUs-on-aks",
       "published": "2026-03-06T00:00:00+00:00",
@@ -12378,5 +12378,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focus on accelerating AI app development with Microsoft’s Foundry stack. One announcement highlights **Foundry Toolkit for VS Code** updates unveiled at **//build**, including **hosted agents end-to-end** and a more capable developer toolbox inside Visual Studio Code to streamline building and managing AI agents. The other introduces **Foundry IQ** on the **Azure AI Foundry Blog**, reporting **up to 54% better recall** using **knowledge bases**, emphasizing retrieval quality and more accurate grounding for AI applications."
+  "summary": "Today’s Azure posts center on security operations, AI developer tooling, and enterprise search quality. Microsoft highlighted **Microsoft Sentinel**’s May 2026 updates, while at **//build** it expanded the **Foundry Toolkit for VS Code** with **hosted agents**, end-to-end workflows, and smarter tooling; the **Azure AI Foundry** team also introduced **Foundry IQ knowledge bases**, claiming up to **54% better recall** for AI systems.\n\nA second major theme is improving enterprise retrieval and decision-making: the ISE Developer Blog outlined when to choose **keyword search** versus **hybrid search** using five enterprise evaluation criteria, signaling continued focus on **RAG/search architecture** alongside practical AI development and security operations."
 }
