@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-06-04T11:43:17.754149+00:00",
+  "lastUpdated": "2026-06-04T14:26:55.953928+00:00",
   "totalArticles": 1125,
   "articles": [
+    {
+      "title": "Harness-Driven Agents: Secure Podcast Pipeline in Hyperlight MicroVM Sandbox",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/harness-driven-agents-secure-podcast-pipeline-in-hyperlight/ba-p/4525512",
+      "published": "2026-06-04T14:12:41+00:00",
+      "summary": "The moment the agent reached for rm -rf For most of 2024 and 2025, \"agents\" were a demo word. By 2026 they are something you run — autonomously, in a loop, executing code they wrote themselves a second ago. I was watching one work late one night. I had given it a goal, a handful of tools, and the...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Accelerate Edge AI Development with Foundry Local",
+      "link": "https://devblogs.microsoft.com/foundry/accelerate-edge-ai-development-with-foundry-local/",
+      "published": "2026-06-04T13:00:24+00:00",
+      "summary": "Why edge AI development is still hard AI is no longer confined to cloud experiments. Developers are increasingly expected to deliver AI inside apps, devices, and edge systems where responsiveness, privacy, resilience, and local control are essential. But building those experiences for production is...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Dom Robinson, samkemp, Inbal Sagiv",
+      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "What’s new in Microsoft Sentinel: May 2026",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-may-2026/ba-p/4523419",
@@ -2929,17 +2951,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Build and run agents at scale with Microsoft Foundry at Build 2026",
-      "link": "https://devblogs.microsoft.com/foundry/agent-service-build2026/",
-      "published": "2026-06-02T17:10:22+00:00",
-      "summary": "Learn how Microsoft Foundry helps developers build, deploy, and operate production-ready agents with Agent Framework, Toolboxes, hosted agents, Microsoft 365 distribution, observability, and agent optimization. The post Build and run agents at scale with Microsoft Foundry at Build 2026 appeared...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Tina Schuchman",
-      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Announcing Intelligent Terminal 0.1",
       "link": "https://devblogs.microsoft.com/commandline/announcing-intelligent-terminal-version-0-1/",
       "published": "2026-06-02T17:00:09+00:00",
@@ -4234,17 +4245,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "AI Under Attack: A Defender's Guide to Memory Poisoning, Jailbreaks, and Evasion Techniques",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/ai-under-attack-a-defender-s-guide-to-memory-poisoning/ba-p/4516727",
-      "published": "2026-05-21T07:00:00+00:00",
-      "summary": "Introduction AI-powered applications are transforming how enterprises operate - from autonomous agents that manage workflows to copilots that accelerate developer productivity. But as AI systems grow more capable, so do the adversaries targeting them. The rise of agentic AI, retrieval-augmented...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "JatinderSingh0211",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -12378,5 +12378,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts center on security operations, AI developer tooling, and enterprise search quality. Microsoft highlighted **Microsoft Sentinel**’s May 2026 updates, while at **//build** it expanded the **Foundry Toolkit for VS Code** with **hosted agents**, end-to-end workflows, and smarter tooling; the **Azure AI Foundry** team also introduced **Foundry IQ knowledge bases**, claiming up to **54% better recall** for AI systems.\n\nA second major theme is improving enterprise retrieval and decision-making: the ISE Developer Blog outlined when to choose **keyword search** versus **hybrid search** using five enterprise evaluation criteria, signaling continued focus on **RAG/search architecture** alongside practical AI development and security operations."
+  "summary": "Today’s Azure posts centered on Azure AI Foundry and enterprise AI operations: Microsoft highlighted **Foundry Local** for faster **edge AI** development, major updates to the **Foundry Toolkit for VS Code** including **hosted agents** and improved developer tooling, and **Foundry IQ knowledge bases**, which reportedly can boost retrieval recall by **up to 54%** for enterprise AI apps. Another key theme was practical AI system design and deployment, from a **Hyperlight MicroVM**-sandboxed, security-focused **agentic podcast pipeline** to guidance on choosing between **keyword search and hybrid search** for enterprise retrieval scenarios.\n\nOn the security side, the **What’s new in Microsoft Sentinel: May 2026** post signals continued investment in cloud-native **SIEM/SOAR** capabilities, while the broader set of posts shows Azure emphasizing secure agents, better retrieval quality, local/edge model workflows, and end-to-end developer productivity across the **Azure AI Foundry** ecosystem."
 }
