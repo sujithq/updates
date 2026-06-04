@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-06-03T22:57:15.685354+00:00",
+  "lastUpdated": "2026-06-04T02:16:03.210463+00:00",
   "totalArticles": 1125,
   "articles": [
+    {
+      "title": "Foundry IQ: Improve recall by up to 54% with knowledge bases",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-iq-improve-recall-by-up-to-54-with-knowledge-bases/ba-p/4524852",
+      "published": "2026-06-04T00:46:26+00:00",
+      "summary": "By Abhishree Shetty, Alec Berntson, Alina Stoica Beck, Amaia Salvador Aguilera, Arnau Quindós Sánchez, Jieyu Cheng, Jim Singh, Jing Zhu, Lihang Li, Matt Gotteiner, Mike Kim, Thibault Gisselbrecht Agents are only valuable for the enterprise when they have access to your organization's knowledge. A...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "MattGotteiner",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[In preview] Public Preview: MAI-Voice-2 in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=563217",
+      "published": "2026-06-03T23:00:57+00:00",
+      "summary": "Microsoft Foundry now offers MAI-Voice-2 in public preview, a first-party voice model from the Microsoft AI team. MAI-Voice-2 generates natural speech across more than 10 languages and supports voice cloning from a short reference sample, plus voice promp",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
     {
       "title": "Build 2026: From observability to ROI for AI agents on any framework",
       "link": "https://devblogs.microsoft.com/foundry/build-2026-from-observability-to-roi-for-ai-agents-on-any-framework/",
@@ -738,17 +760,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Foundry IQ: Improve recall by up to 54% with knowledge bases",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-iq-improve-recall-by-up-to-54-with-knowledge-bases/ba-p/4524852",
-      "published": "2026-06-02T21:45:00+00:00",
-      "summary": "By Alec Berntson, Jim Singh, Abhishree Shetty, Alina Stoica Beck, Amaia Salvador Aguilera, Arnau Quindós Sánchez, Thibault Gisselbrecht, Lihang Li, Jieyu Cheng, Jing Zhu, Mike Kim, Matt Gotteiner Agents are only valuable for the enterprise when they have access to your organization's knowledge. A...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "MattGotteiner",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "[Launched] Generally Available: File share centric management model (Microsoft.FileShares) for Azure Files",
@@ -6013,17 +6024,6 @@
       "link": "https://azure.microsoft.com/updates?id=560909",
       "published": "2026-05-05T16:00:38+00:00",
       "summary": "Elastic SAN datastores deliver simpler connectivity and improved performance when used with AVS Gen2 Private Cloud: Simpler connectivity & configuration No ExpressRoute gateway required A single Private Endpoint is sufficient to configure t",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Single Volume Snapshots on Azure Elastic SAN",
-      "link": "https://azure.microsoft.com/updates?id=560899",
-      "published": "2026-05-05T16:00:38+00:00",
-      "summary": "Azure Elastic SAN now supports single volume snapshots, enabling incremental, point‑in‑time backups of individual SAN volumes. Snapshots capture only changes since the previous snapshot and reside within the SAN, allowing customers to quickly deploy new v",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -12378,5 +12378,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts were dominated by **Microsoft Foundry and agentic AI**, with Build 2026 updates focused on moving from **observability to ROI** for AI agents across frameworks, plus new **A2A (agent-to-agent) support**, **user feedback logging**, **Intelligent Trace Sampling**, a **rubric evaluator**, **domain filtering in the Foundry model catalog**, and the **GA refresh of Foundry for Visual Studio Code**. Microsoft also expanded AI app and content tooling with **Text Analytics for Health NextGen Playground**, **Conversational PII** and **TextPII NextGen Playground** previews in **Azure AI Language/Foundry**, alongside **GA self-serve custom photo avatars** and the **Custom Voice portal**.\n\nOutside AI tooling, Azure announced **GA for DCasv6 and ECasv6 confidential VMs** on **4th Gen AMD EPYC processors**, a new **Azure confidential ledger backup tool** for audit-ready ledger files, and **Azure Red Hat OpenShift GA in Belgium Central**. Other notable themes were enterprise platform engineering and operations, including **observability support in Azure Developer CLI (azd)**, guidance for delivering **Microsoft-hosted agents with Terraform**, deeper **Microsoft IQ + Oracle AI Database@Azure with Oracle MCP** integration for enterprise agents, and Microsoft’s ongoing **repository migration to GitHub**."
+  "summary": "Today’s Azure blog highlights **Azure AI Foundry**, with **Foundry IQ** introducing **knowledge bases** to improve AI application retrieval quality, claiming **up to 54% better recall** for grounded responses and search over enterprise data. The main theme is stronger **RAG/knowledge retrieval** for generative AI apps, emphasizing more accurate access to organizational content and better evaluation of AI system performance inside the Azure AI ecosystem."
 }
