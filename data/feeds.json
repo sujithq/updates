@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T19:27:13.557606+00:00",
+  "lastUpdated": "2026-06-05T22:08:32.412211+00:00",
   "totalArticles": 1125,
   "articles": [
     {
@@ -11,6 +11,61 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Action required: Kerberos RC4 hardening may affect Azure Files Active Directory Domain Services",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/action-required-kerberos-rc4-hardening-may-affect-azure-files/ba-p/4518577",
+      "published": "2026-06-05T21:50:11+00:00",
+      "summary": "A Windows security hardening change beginning in April 2026 updates default Kerberos encryption behavior and may impact customers using Azure Files with Active Directory Domain Services (AD DS) authentication over SMB. If you created Azure Files shares prior to 2023, or chose RC4 encryption for...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "grace_kim",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "CodeQL 2.25.6 adds Swift 6.3.2 support and improves C# coverage",
+      "link": "https://github.blog/changelog/2026-06-05-codeql-2-25-6-adds-swift-6-3-2-support-and-improves-c-coverage",
+      "published": "2026-06-05T21:30:57+00:00",
+      "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.25.6, which adds Swift 6.3.2 support, completes… The post CodeQL 2.25.6 adds Swift 6.3.2 support and improves C# coverage appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Enterprise-managed plugins in VS Code in public preview",
+      "link": "https://github.blog/changelog/2026-06-05-enterprise-managed-plugins-in-vs-code-in-public-preview",
+      "published": "2026-06-05T21:01:48+00:00",
+      "summary": "Last month we launched a public preview with Copilot CLI that allows enterprise administrators the ability to configure and distribute plugins to GitHub Copilot CLI users across their enterprise. VS… The post Enterprise-managed plugins in VS Code in public preview appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Ingestion Volume Change dashboard in Metrics Usage Insights",
+      "link": "https://azure.microsoft.com/updates?id=565286",
+      "published": "2026-06-05T20:45:48+00:00",
+      "summary": "Metrics Usage Insights now includes an Ingestion Volume Change dashboard to help you compare ingestion volume over time. Quickly detect spikes or drops in time series counts and event ingestion rates, enabling faster investigation of cost changes and more",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In development] Private Preview: Guest RDMA on Azure Boost",
+      "link": "https://azure.microsoft.com/updates?id=564981",
+      "published": "2026-06-05T20:30:12+00:00",
+      "summary": "Guest RDMA is now in preview on Azure, starting in the UK South region, bringing high-throughput, ultra-low latency networking directly into guest VMs within the same region. By using Azure Boost to enable RDMA in the guest OS, applications can bypass the",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -1004,17 +1059,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "GitHub Copilot in Visual Studio Code, May releases",
-      "link": "https://github.blog/changelog/2026-06-03-github-copilot-in-visual-studio-code-may-releases",
-      "published": "2026-06-03T13:30:58+00:00",
-      "summary": "VS Code continues with weekly stable releases. This changelog covers releases v1.120 through v1.123, the releases we shipped throughout May and early June 2026. In May, we made the Agents… The post GitHub Copilot in Visual Studio Code, May releases appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "v1.16.0-alpha20260603",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260603",
       "published": "2026-06-03T13:24:07+00:00",
@@ -1122,17 +1166,6 @@
       "blogId": "foundryblog",
       "author": "Peyton Fraser, Joe Filcik, Ronak Chokshi",
       "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "GPT-4.1 deprecated",
-      "link": "https://github.blog/changelog/2026-06-02-gpt-4-1-deprecated",
-      "published": "2026-06-02T23:58:52+00:00",
-      "summary": "We have deprecated GPT-4.1 across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), June 1, 2026. Model Deprecation date Suggested alternative GPT-4.1… The post GPT-4.1 deprecated appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -5503,28 +5536,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Update: 99.99% uptime for all Azure Service Bus Premium namespaces in Availability Zone regions",
-      "link": "https://azure.microsoft.com/updates?id=561947",
-      "published": "2026-05-12T18:30:55+00:00",
-      "summary": "Starting May 1, 2026, all Azure Service Bus Premium namespaces deployed in regions with Availability Zone support now qualify for a 99.99% uptime SLA. Premium is the tier customers choose for their most important workloads, and this update brings the SLA",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Confidential computing for Azure Service Bus Premium",
-      "link": "https://azure.microsoft.com/updates?id=561942",
-      "published": "2026-05-12T18:30:55+00:00",
-      "summary": "Confidential computing for Azure Service Bus Premium is now generally available in Korea Central and UAE North. This capability enables Service Bus to process messages inside hardware-based trusted execution environments (TEEs), adding protection for data",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "From Prompt to Production: Open in VS Code for Terraform in Azure Copilot",
       "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/from-prompt-to-production-open-in-vs-code-for-terraform-in-azure/ba-p/4494931",
       "published": "2026-05-12T18:25:34+00:00",
@@ -5544,17 +5555,6 @@
       "blogId": "azureinfrastructureblog",
       "author": "mohit-kanojia",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Action required: Kerberos RC4 hardening may affect Azure Files Active Directory Domain Services",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/action-required-kerberos-rc4-hardening-may-affect-azure-files/ba-p/4518577",
-      "published": "2026-05-12T00:02:58+00:00",
-      "summary": "A Windows security hardening change beginning in April 2026 updates default Kerberos encryption behavior and may impact customers using Azure Files with Active Directory Domain Services (AD DS) authentication over SMB. If you created Azure Files shares prior to 2023, or chose RC4 encryption for...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "grace_kim",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12378,5 +12378,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts were led by **AI platform expansion and enterprise operations at scale**: Microsoft introduced new **MAI models in Azure AI Foundry** spanning **text, image, voice, and speech**, alongside **Azure Speech** updates focused on real-time, more natural voice agents, and a **multi-region private networking pattern for Microsoft Foundry** aimed at enterprise deployments. On the infrastructure side, Azure highlighted broader manageability and resiliency with **Ansible support for Azure Arc machine extensions**, **regional endpoints for Azure Container Registry geo-replication** in public preview, **Azure Monitor Health Model** in preview, and **Azure CNI Overlay Pod CIDR Expansion** reaching general availability for Kubernetes IP planning.\n\nSecurity and data governance were also major themes: Microsoft detailed **CI/CD hardening for agentic workflows** using the **Claude Code GitHub Action**, and previewed **multiparty analytics with Azure Confidential Clean Rooms**, signaling continued investment in secure collaboration and privacy-preserving analytics."
+  "summary": "Today’s Azure news centered on enterprise-scale AI, secure infrastructure, and platform operations. Microsoft highlighted major Azure AI Foundry updates—including new MAI models for text, image, voice, and speech, Azure Speech enhancements for real-time voice agents, and a multi-region private networking pattern for Foundry—while also pushing secure data collaboration with previewed multiparty analytics in Azure Confidential Clean Rooms and stronger CI/CD guidance around agentic workflows.\n\nOn the platform side, key announcements included Azure Container Registry geo-replication regional endpoints in public preview, Azure Monitor Health Model preview updates, Pod CIDR Expansion reaching GA for Azure CNI Overlay, an ingestion volume change dashboard in Metrics Usage Insights preview, and Guest RDMA on Azure Boost entering private preview. Other notable updates were a warning that Kerberos RC4 hardening may impact Azure Files with AD DS, Azure Arc support for managing machine extensions at scale via Ansible, GitHub’s CodeQL 2.25.6 adding Swift 6.3.2 support and better C# analysis, and public preview of enterprise-managed VS Code plugins."
 }
