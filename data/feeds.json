@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T22:16:50.978323+00:00",
+  "lastUpdated": "2026-06-05T02:00:16.218725+00:00",
   "totalArticles": 1126,
   "articles": [
     {
@@ -11,6 +11,83 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure Monitor Health Model (Preview): What's New!",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-health-model-preview-what-s-new/ba-p/4525707",
+      "published": "2026-06-05T01:30:56+00:00",
+      "summary": "Azure Monitor Health Model is a modern observability capability that brings together telemetry, architecture, and business context of your workloads to generate health insights. It continuously aggregates signals across dependencies, producing a single, actionable health state which reduces alert...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "shijain13",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Pod CIDR Expansion Generally Available and IP Address Planning on Azure CNI Overlay",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/pod-cidr-expansion-generally-available-and-ip-address-planning/ba-p/4521700",
+      "published": "2026-06-05T00:14:24+00:00",
+      "summary": "In networking with Azure CNI Overlay, the cluster-wide pod CIDR is logically partitioned into smaller “node” blocks where each node is assigned a fixed CIDR slice (/24) by Azure. This decouples pod networking from the VNet address space entirely because pods receive addresses from a private CIDR...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Sam_Foo",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure Speech at Build 2026: Powering Voice Agents with Real-Time and Life-like Experiences",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/azure-speech-at-build-2026-powering-voice-agents-with-real-time/ba-p/4524638",
+      "published": "2026-06-04T23:26:27+00:00",
+      "summary": "Voice is rapidly becoming the default interface for AI. At Build 2026, Azure Speech is making it dramatically easier to ship production-grade voice experiences that feel real, responsive, and global. From agentic, low-latency Voice Live experiences built natively into Microsoft Foundry Agent, to a...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "DONGLI",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Release 2026-05-29",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-05-29",
+      "published": "2026-06-04T22:30:54+00:00",
+      "summary": "Release Notes - 2026-05-29 Monitor the release status by regions at AKS-Release-Tracker. Vulnerabilities addressed by AKS releases can be tracked at CVE API viewer. Announcements of upcoming changes and retirements Revision asm-1-27 of the Istio-based service mesh add-on has been deprecated. Please...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "dyu1208",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Frameworks only matter when they force decisions",
+      "link": "https://devblogs.microsoft.com/all-things-azure/frameworks-only-matter-when-they-force-decisions/",
+      "published": "2026-06-04T22:30:25+00:00",
+      "summary": "Frameworks mean nothing, until they change what gets built! In this article we discuss how Git-Ape turns architecture and governance into delivery controls on Azure because, if frameworks do not shape delivery decisions, they are just decoration. Cloud teams do not have a framework problem. They...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "davidwright, Arnaud Lheureux, Suzanne Daniels",
+      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Voice sync for avatar support in Voice Live API in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=564176",
+      "published": "2026-06-04T22:15:50+00:00",
+      "summary": "In public preview, Microsoft Foundry now supports avatar voice sync with custom voices in the Voice Live API, allowing developers to pair branded or persona-specific text-to-speech voices with real-time avatar experiences. This update helps teams building",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Files assessments are now available worldwide using Azure Migrate",
+      "link": "https://azure.microsoft.com/updates?id=564563",
+      "published": "2026-06-04T21:45:11+00:00",
+      "summary": "We’re pleased to announce that Azure Migrate now generally supports discovery and assessment of SMB and NFS file shares hosted on Windows and Linux servers. This gives customers a complete, data-driven view of their file share environment and a clear path",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -45,17 +122,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Azure Speech at Build 2026: Powering Voice Agents with Real-Time and Life-like Experiences",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/azure-speech-at-build-2026-powering-voice-agents-with-real-time/ba-p/4524638",
-      "published": "2026-06-04T19:58:18+00:00",
-      "summary": "Voice is rapidly becoming the default interface for AI. At Build 2026, Azure Speech in Foundry Tools is making it dramatically easier to ship production-grade voice experiences that feel real, responsive, and global. From agentic, low-latency Voice Live experiences built natively into Microsoft...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "DONGLI",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "[In preview] Public Preview: AI pipelines in Azure HorizonDB",
@@ -5074,17 +5140,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure Monitor Health Model - API Refresh",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-health-model-api-refresh/ba-p/4519092",
-      "published": "2026-05-14T19:43:35+00:00",
-      "summary": "API Refresh? Discovery scope extended to include Application Insights Azure Resource Graph query Signals Enhancement for Azure resources Resource health is used as a default signal Recommended signals are available Alert rules can be imported as signals dynamic thresholds for metric signals...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "shijain13",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Considering NL2SQL? Should your database really be the prompt? How can SQL MCP Server help?",
       "link": "https://devblogs.microsoft.com/azure-sql/sql-mcp-server-nl2sql/",
       "published": "2026-05-14T19:20:34+00:00",
@@ -5479,28 +5534,6 @@
       "author": "Jingwei_Wang",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure Virtual Network Manager rule impact analyzer",
-      "link": "https://azure.microsoft.com/updates?id=562010",
-      "published": "2026-05-12T17:30:34+00:00",
-      "summary": "Azure Virtual Network Manager rule impact analyzer is now generally available, empowering you to simulate the impact of your security admin rules on your virtual networks before deploying your rules. With this capability, you can simulate the effects of y",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Sentinel TI - improved pattern parsing & revoke reliability",
-      "link": "https://azure.microsoft.com/updates?id=561510",
-      "published": "2026-05-12T17:30:34+00:00",
-      "summary": "We’ve rolled out two important improvements to enhance accuracy and control in pattern-based workflows: Revoke fix: Resolved an issue where revoke actions were not consistently applied, ensuring changes now take effect reliably and as intended. Support fo",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
     },
     {
       "title": "Azure Arc AKS Explained: Run Kubernetes Beyond Azure Cloud",
@@ -8110,17 +8143,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Building with Azure Skills",
-      "link": "https://devblogs.microsoft.com/all-things-azure/building-with-azure-skills/",
-      "published": "2026-03-31T23:52:21+00:00",
-      "summary": "Part 3 of the Azure Skills Plugin series Previously: How to Install the Azure Plugin You’ve installed the Azure Skills Plugin. The Azure MCP server is running. You have a huge collection of tools and skills at your disposal. So, now what do you actually say to it? This post is a prompt cookbook....",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "Chris Harris",
-      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Simplify troubleshooting at scale - Centralized Log Management for CycleCloud Workspace for Slurm",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/simplify-troubleshooting-at-scale-centralized-log-management-for/ba-p/4470658",
       "published": "2026-03-31T21:17:04+00:00",
@@ -10574,17 +10596,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Announcing Azure DNS security policy with Threat Intelligence feed general availability",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/announcing-azure-dns-security-policy-with-threat-intelligence/ba-p/4470183",
-      "published": "2025-11-20T20:22:48+00:00",
-      "summary": "A successful protective DNS strategy seamlessly hardens an entire environment without adding friction: it must protect every virtual network and region consistently, apply real-time and highly accurate threat intelligence, deliver clear visibility into what was blocked and why, integrate smoothly...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Sergio Figueiredo",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Golazo: A Framework for Streamlined Engineering",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/golazo-a-framework-for-streamlined-engineering/ba-p/4471142",
       "published": "2025-11-20T16:37:24+00:00",
@@ -11652,17 +11663,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Release 2025-07-20",
-      "link": "https://github.com/Azure/AKS/releases/tag/2025-07-20",
-      "published": "2025-08-15T21:01:31+00:00",
-      "summary": "Release 2025-07-20 Monitor the release status by region at AKS-Release-Tracker. This release is titled v20250720. Announcements Kubernetes 1.27 LTS version and 1.30 community version are going out of support by July 30th. Please upgrade to a supported version , refer to AKS release calendar for...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "julia-yin",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "Closing the loop: Interactive write-back from Power BI to Azure Databricks",
       "link": "https://techcommunity.microsoft.com/t5/azure-databricks/closing-the-loop-interactive-write-back-from-power-bi-to-azure/ba-p/4442999",
       "published": "2025-08-15T00:12:37+00:00",
@@ -12389,5 +12389,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news was dominated by Microsoft Foundry and agentic AI: Microsoft announced **GA for Microsoft Foundry IQ**, **Microsoft Discovery**, and **private connectivity for Azure AI Search and Foundry knowledge bases**, while also previewing **tool search in Foundry toolboxes**, **Azure SQL and Fabric IQ Ontology as Foundry IQ knowledge sources**, **APIM support for Foundry models in Azure AI Search**, and **AI pipelines in Azure HorizonDB**. Azure AI Foundry also added a **new browser automation tool with Toolboxes**, showcased **Azure Speech** advances for real-time, lifelike voice agents, and highlighted developer workflows with **Claude models via Azure API Management**.\n\nA second major theme was stronger developer and observability tooling: GitHub expanded **Copilot Pro/Pro+/Max** with **Fix with Copilot for failing Actions**, the **agent tasks REST API**, and **larger context windows plus configurable reasoning levels**. On the platform side, Azure moved **OTLP signal ingestion into Azure Monitor via the OpenTelemetry Collector** to GA, previewed **content understanding chunking and image verbalization in Azure AI Search**, and Microsoft Security shared updated **agentic AI failure mode taxonomy** based on a year of red teaming."
+  "summary": "Today’s Azure updates focused on observability and Kubernetes networking. In Azure Observability, Microsoft announced new capabilities for the Azure Monitor Health Model (Preview), aimed at improving how teams assess and track service and resource health; in Azure Networking, Pod CIDR Expansion for Azure CNI Overlay reached general availability, giving AKS users more flexibility to scale pod IP address space and improve IP planning without rearchitecting cluster networking."
 }
