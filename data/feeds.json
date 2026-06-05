@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T17:07:37.056486+00:00",
+  "lastUpdated": "2026-06-05T19:27:13.557606+00:00",
   "totalArticles": 1125,
   "articles": [
     {
@@ -11,6 +11,39 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Ansible + Azure Arc: Use Ansible modules to deploy and manage Azure Arc machine extensions at scale",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/ansible-azure-arc-use-ansible-modules-to-deploy-and-manage-azure/ba-p/4521689",
+      "published": "2026-06-05T18:05:16+00:00",
+      "summary": "We are making Azure Arc extensible and increasing the flexibility of the tooling you can use to operate your machines using Azure’s control plane. We are excited to announce new modules in Ansible Galaxy that make it easier to manage Azure Arc machine extensions at scale. With the latest updates to...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "alinetran",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "A Multi-Region Microsoft Foundry Pattern for Enterprise Private Networking",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/a-multi-region-microsoft-foundry-pattern-for-enterprise-private/ba-p/4525696",
+      "published": "2026-06-05T17:30:00+00:00",
+      "summary": "Enterprise AI projects do not move to production on model quality alone. They move when architecture, networking, observability, and evaluation all work together in a way that fits existing enterprise constraints. That is why a multi-region Microsoft Foundry pattern matters: it lets teams deploy...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "pratyushmishra",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Securing CI/CD in an agentic world: Claude Code Github action case",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/05/securing-ci-cd-in-agentic-world-claude-code-github-action-case/",
+      "published": "2026-06-05T16:46:47+00:00",
+      "summary": "Microsoft Threat Intelligence identified a prompt injection pathway in Claude Code GitHub Action that allowed access to workflow secrets under specific conditions. This research examines the attack chain, responsible disclosure process, Anthropic's mitigation, and guidance for securing AI-powered...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Defender Security Research Team, Dor Edry and Amit Eliahu",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -157,6 +190,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Budget and usage management APIs now generally available",
+      "link": "https://github.blog/changelog/2026-06-04-budget-and-usage-management-apis-now-generally-available",
+      "published": "2026-06-04T19:46:34+00:00",
+      "summary": "GitHub’s expanded billing APIs to programmatically manage budgets, track usage, and access cost center data are now generally available. Manage budgets via APIs You can now manage the full lifecycle… The post Budget and usage management APIs now generally available appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "[In preview] Public Preview: AI pipelines in Azure HorizonDB",
       "link": "https://azure.microsoft.com/updates?id=565182",
       "published": "2026-06-04T19:45:40+00:00",
@@ -278,6 +322,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "API access to billing usage reports now generally available",
+      "link": "https://github.blog/changelog/2026-06-04-api-access-to-billing-usage-reports-now-generally-available",
+      "published": "2026-06-04T19:10:07+00:00",
+      "summary": "The REST API for enterprise administrators to request and download billing usage reports in .csv format is now generally available. With this new capability, the same billing reports that are… The post API access to billing usage reports now generally available appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "[In preview] Public Preview: Content Understanding chunking and image verbalization in Azure AI Search",
       "link": "https://azure.microsoft.com/updates?id=563661",
       "published": "2026-06-04T19:00:34+00:00",
@@ -328,7 +383,7 @@
       "summary": "This is part 2 blog of the windows 365 integration journey with Aspire. This blog focus to show how Windows 365 scaled Aspire adoption with reliability patterns and an agentic AI rollout system across 50+ repos. The post Aspire Multi-repo Rollout at Scale with Agentic AI appeared first on Aspire...",
       "blog": "Aspire Blog",
       "blogId": "aspireblog",
-      "author": "Jeff Liu, Chuanbo Zhang",
+      "author": "Jeff Liu",
       "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
       "sourceType": "rss"
     },
@@ -3149,17 +3204,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Expanded technical preview availability for the GitHub Copilot app",
-      "link": "https://github.blog/changelog/2026-06-02-expanded-technical-preview-availability-for-the-github-copilot-app",
-      "published": "2026-06-02T17:36:00+00:00",
-      "summary": "The GitHub Copilot app technical preview is now available to all existing Copilot Pro, Pro+, Business, and Enterprise customers. Download the Copilot app for Windows, macOS, or Linux to get… The post Expanded technical preview availability for the GitHub Copilot app appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "GitHub Copilot app: The agent-native desktop experience",
       "link": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
       "published": "2026-06-02T17:30:03+00:00",
@@ -3168,17 +3212,6 @@
       "blogId": "githubblog",
       "author": "Natalie Guevara",
       "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Copilot SDK is now generally available",
-      "link": "https://github.blog/changelog/2026-06-02-copilot-sdk-is-now-generally-available",
-      "published": "2026-06-02T17:30:00+00:00",
-      "summary": "The GitHub Copilot SDK is now generally available. You can embed GitHub Copilot’s agentic engine into your own applications, services, and developer tools with a stable API and production-ready support.… The post Copilot SDK is now generally available appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -3809,17 +3842,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Ansible + Azure Arc: Manage Azure Arc Extensions with New Ansible Modules",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/ansible-azure-arc-manage-azure-arc-extensions-with-new-ansible/ba-p/4521689",
-      "published": "2026-05-28T17:24:53+00:00",
-      "summary": "We’re excited to announce new modules in Ansible Galaxy that make it easier to manage Azure Arc machine extensions at scale. With the latest updates to the azure.azcollection on Ansible Galaxy, you can now deploy and manage Azure Arc extensions using familiar, declarative Ansible workflows. These...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "alinetran",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[Public Preview] Introducing Customizable Security Baseline Policies in Machine Configuration",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/public-preview-introducing-customizable-security-baseline/ba-p/4469678",
       "published": "2026-05-28T17:02:04+00:00",
@@ -4205,17 +4227,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Monitoring & Observability in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/monitoring-observability-in-microsoft-foundry/ba-p/4517250",
-      "published": "2026-05-22T17:30:00+00:00",
-      "summary": "Production AI is a moving target. Once you deploy an AI-powered agent, its behavior can shift without a single line of code being changed. As Microsoft's Foundry team states: \"The hard part isn't getting the agent to work it's keeping it working\". Microsoft addressed this challenge by making...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Kalaivanan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Microsoft recognized as a Leader in The Forrester Wave™ for Workforce Identity Security Platforms",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/microsoft-recognized-as-a-leader-in-the-forrester-wave-for-workforce-identity-security-platforms/",
       "published": "2026-05-22T17:00:00+00:00",
@@ -4223,17 +4234,6 @@
       "blog": "Microsoft Security Blog",
       "blogId": "microsoftsecurity",
       "author": "Nadim Abdo",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "From edge appliance to enterprise compromise: Multi-stage Linux intrusion via F5 and Confluence",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/from-edge-appliance-to-enterprise-compromise-multi-stage-linux-intrusion-via-f5-and-confluence/",
-      "published": "2026-05-22T16:53:39+00:00",
-      "summary": "A multi-stage attack on Linux devices began with an exposed F5 BIG-IP edge appliance and pivoted to an internal Confluence server for credential theft and identity compromise. Learn how the threat actor attempted Kerberos relay and lateral movement, and how Microsoft Defender detected, blocked, and...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Defender Security Research Team",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
@@ -12378,5 +12378,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on expanding AI capabilities and strengthening cloud infrastructure. Microsoft highlighted new MAI models in Azure AI Foundry spanning text, image, voice, and speech, alongside Azure Speech updates from Build 2026 focused on real-time, more life-like voice agents; on the platform side, Azure added regional endpoints for Azure Container Registry geo-replication in public preview, introduced multiparty analytics in Azure Confidential Clean Rooms preview, and unveiled the Azure Monitor Health Model preview for improved observability.\n\nNetworking and scale were also key themes, with Azure announcing general availability of Pod CIDR Expansion and new IP address planning guidance for Azure CNI Overlay to help Kubernetes environments grow more efficiently. Overall, the news emphasized production-ready AI services, privacy-preserving data collaboration, and better operational resilience across container, monitoring, and networking stacks."
+  "summary": "Today’s Azure posts were led by **AI platform expansion and enterprise operations at scale**: Microsoft introduced new **MAI models in Azure AI Foundry** spanning **text, image, voice, and speech**, alongside **Azure Speech** updates focused on real-time, more natural voice agents, and a **multi-region private networking pattern for Microsoft Foundry** aimed at enterprise deployments. On the infrastructure side, Azure highlighted broader manageability and resiliency with **Ansible support for Azure Arc machine extensions**, **regional endpoints for Azure Container Registry geo-replication** in public preview, **Azure Monitor Health Model** in preview, and **Azure CNI Overlay Pod CIDR Expansion** reaching general availability for Kubernetes IP planning.\n\nSecurity and data governance were also major themes: Microsoft detailed **CI/CD hardening for agentic workflows** using the **Claude Code GitHub Action**, and previewed **multiparty analytics with Azure Confidential Clean Rooms**, signaling continued investment in secure collaboration and privacy-preserving analytics."
 }
