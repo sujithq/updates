@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T10:59:39.918824+00:00",
+  "lastUpdated": "2026-06-07T13:13:57.262218+00:00",
   "totalArticles": 1124,
   "articles": [
     {
@@ -1868,7 +1868,7 @@
       "summary": "Since announcing the public preview of Foundry Local on Azure Local for single-node, we’ve seen strong adoption in regulated industries and consistent customer demand to expand the platform for scalable deployments. Today, we’re expanding Foundry Local model offering on Azure Local (preview) with...",
       "blog": "Azure Arc",
       "blogId": "azurearcblog",
-      "author": "liranlyabock_microsoft",
+      "author": "LiranLyabock",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -12367,5 +12367,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure updates focus on improving Azure CLI authentication speed and efficiency. The main announcement is a faster `az login` experience through the new `--skip-subscription-discovery` option, which avoids enumerating all subscriptions during sign-in, along with targeted `--subscription` support so users can authenticate directly against a specific subscription.\n\nThese changes are especially relevant for developers, automation scripts, and CI/CD workflows using Azure Tools, where reducing login latency and unnecessary subscription lookup can make command-line operations more predictable and performant."
+  "summary": "Today’s Azure blog coverage centers on **Azure CLI authentication performance** improvements. Microsoft announced a faster **`az login`** experience with the new **`--skip-subscription-discovery`** option to avoid enumerating all subscriptions during sign-in, along with a more targeted **`--subscription`** parameter so users can log directly into a specific subscription.\n\nThese updates are especially relevant for developers, automation, and multi-tenant environments where accounts have access to many subscriptions, reducing login latency and making **Azure CLI** workflows more efficient and predictable."
 }
