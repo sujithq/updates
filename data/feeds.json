@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-07T06:55:37.102599+00:00",
-  "totalArticles": 1123,
+  "lastUpdated": "2026-06-07T10:59:39.918824+00:00",
+  "totalArticles": 1124,
   "articles": [
     {
       "title": "Visual Studio Code 1.124",
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Faster az login: introducing --skip-subscription-discovery and targeted --subscription",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/faster-az-login-introducing-skip-subscription-discovery-and/ba-p/4526116",
+      "published": "2026-06-07T07:19:58+00:00",
+      "summary": "TL;DR — If you belong to many tenants, or a tenant holds hundreds or thousands of subscriptions, az login can crawl — it tries to enumerate every subscription in every tenant before it returns. Two flags now let you skip that enumeration and make login near-instant: az login --tenant <TENANT_ID>...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "Alex-wdy",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Govern AI Agents Using Agent Governance Toolkit and Azure Container App Sandboxes",
@@ -12355,5 +12366,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure updates focus on improving Azure CLI authentication speed and efficiency. The main announcement is a faster `az login` experience through the new `--skip-subscription-discovery` option, which avoids enumerating all subscriptions during sign-in, along with targeted `--subscription` support so users can authenticate directly against a specific subscription.\n\nThese changes are especially relevant for developers, automation scripts, and CI/CD workflows using Azure Tools, where reducing login latency and unnecessary subscription lookup can make command-line operations more predictable and performant."
 }
