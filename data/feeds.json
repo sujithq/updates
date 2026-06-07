@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-07T13:13:57.262218+00:00",
-  "totalArticles": 1124,
+  "lastUpdated": "2026-06-07T16:05:35.874151+00:00",
+  "totalArticles": 1123,
   "articles": [
     {
       "title": "Visual Studio Code 1.124",
@@ -12354,18 +12354,7 @@
       "author": "micflan",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Ingesting Mainframe File System Data (EBCDIC) into SQL DB on Fabric Using OSS Cobrix",
-      "link": "https://techcommunity.microsoft.com/t5/modernization-best-practices-and/ingesting-mainframe-file-system-data-ebcdic-into-sql-db-on/ba-p/4402105",
-      "published": "2025-06-06T15:18:39+00:00",
-      "summary": "Introduction Mainframe/Midrange data is often stored in fixed-length format, where each record has a predetermined length, or variable-length format, where each record’s length may vary. The data is stored in binary format, using Extended Binary Coded Decimal Interchange Code (EBCDIC) encoding and...",
-      "blog": "Modernization Best Practices Blog",
-      "blogId": "modernizationbestpracticesblog",
-      "author": "Ramanath_Nayak",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage centers on **Azure CLI authentication performance** improvements. Microsoft announced a faster **`az login`** experience with the new **`--skip-subscription-discovery`** option to avoid enumerating all subscriptions during sign-in, along with a more targeted **`--subscription`** parameter so users can log directly into a specific subscription.\n\nThese updates are especially relevant for developers, automation, and multi-tenant environments where accounts have access to many subscriptions, reducing login latency and making **Azure CLI** workflows more efficient and predictable."
+  "summary": "Today’s Azure updates focused on developer productivity in the Azure CLI, specifically making `az login` faster and more predictable. Microsoft introduced `--skip-subscription-discovery` to avoid enumerating all subscriptions during sign-in, and highlighted targeted `--subscription` usage so users can log directly into a specific subscription—especially useful for tenants with many subscriptions, automation scenarios, and reducing login latency."
 }
