@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T19:02:01.514215+00:00",
+  "lastUpdated": "2026-06-07T21:56:42.532077+00:00",
   "totalArticles": 1123,
   "articles": [
     {
@@ -12356,5 +12356,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog highlights a developer productivity improvement in the Azure CLI: `az login` now supports `--skip-subscription-discovery` for faster sign-in by avoiding enumeration of all accessible subscriptions, especially useful for users with access to many tenants or subscriptions. It also introduces targeted `--subscription` support so developers can authenticate and immediately scope their session to a specific Azure subscription, reducing login time and improving workflow efficiency in Azure Tools."
+  "summary": "Today’s Azure updates focused on improving developer and CLI workflow efficiency, with the Azure Tools team announcing faster `az login` performance through the new `--skip-subscription-discovery` option and more targeted authentication using `--subscription`. These changes are aimed at reducing login time and unnecessary subscription enumeration, especially helpful for users with access to many Azure subscriptions or automation scenarios that need quicker, more predictable CLI sign-in behavior."
 }
