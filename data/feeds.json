@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T02:10:30.023781+00:00",
+  "lastUpdated": "2026-06-08T07:20:00.813691+00:00",
   "totalArticles": 1123,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Getting Secrets Out of YAML: Implementing Azure Key Vault CSI Driver on AKS with Workload Identity",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/getting-secrets-out-of-yaml-implementing-azure-key-vault-csi/ba-p/4522590",
+      "published": "2026-06-08T07:00:00+00:00",
+      "summary": "Table of Contents Why This Pattern Matters The Problem with Secrets in YAML What We Wanted to Achieve Architecture Overview How the Flow Works Implementation Prerequisites Step-by-Step Implementation Understanding the YAML Components Secret Rotation and Reloaders Common Pitfalls and Troubleshooting...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "anandranjan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Faster az login: introducing --skip-subscription-discovery and targeted --subscription",
@@ -4533,17 +4544,6 @@
       "author": "Natalie Guevara",
       "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Building AI Agents with Microsoft Foundry: A Progressive Lab from Hello World to Self-Hosted",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-ai-agents-with-microsoft-foundry-a-progressive-lab-from/ba-p/4521792",
-      "published": "2026-05-21T08:28:42+00:00",
-      "summary": "AI agent development has a steep on-ramp. The combination of new SDKs, tool-calling patterns, model selection decisions, retrieval-augmented generation, and deployment concerns means most developers spend more time wiring things together than actually building anything useful. The Microsoft Foundry...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Coordinating AI-Assisted Development with AGENTS.md and Skills",
@@ -12355,5 +12355,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage centered on securing Kubernetes workloads on **Azure Kubernetes Service (AKS)** by moving secrets out of static **YAML manifests** and into **Azure Key Vault** using the **Secrets Store CSI Driver**. The post specifically highlights combining the **Azure Key Vault provider**, **AKS Workload Identity**, and Kubernetes-native secret mounting to let pods access sensitive values without hardcoding credentials, reinforcing a broader Azure theme of stronger cloud-native security and identity-based access for containerized applications."
 }
