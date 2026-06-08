@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T07:20:00.813691+00:00",
+  "lastUpdated": "2026-06-08T12:57:02.644669+00:00",
   "totalArticles": 1123,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "The Worm in the Supply Chain: How Defender for Endpoint and Sentinel for SAP BTP Caught Shai-Hulud",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/the-worm-in-the-supply-chain-how-defender-for-endpoint-and/ba-p/4526246",
+      "published": "2026-06-08T10:52:16+00:00",
+      "summary": "On 29 April 2026, malicious versions of multiple SAP ecosystem npm packages were briefly published, creating a supply-chain exposure for SAP Cloud Application Programming (CAP) development environments and CI/CD pipelines. For a brief window that morning, affected developers have executed a...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "MartinPankraz",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Designing Reliable Data Platforms: Centralized Failure Logging Framework with Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/designing-reliable-data-platforms-centralized-failure-logging/ba-p/4505832",
+      "published": "2026-06-08T10:31:33+00:00",
+      "summary": "Introduction Modern data platforms are no longer just about moving and transforming data. In production, what really matters is reliability and how quickly you can understand and react when something breaks. If you’re using Azure Synapse/ADF/Microsoft Fabric, you already have built-in monitoring....",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Sally_Dabbah",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Getting Secrets Out of YAML: Implementing Azure Key Vault CSI Driver on AKS with Workload Identity",
@@ -8176,17 +8198,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Microsoft Sentinel is now supported in Unified RBAC with row-level access",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/microsoft-sentinel-is-now-supported-in-unified-rbac-with-row/ba-p/4503121",
-      "published": "2026-03-31T20:25:27+00:00",
-      "summary": "Enabling streamlined, granular, and scalable permissions We’re excited to announce the Public Preview of Unified Role Based Access Control (URBAC) for Microsoft Sentinel, together with row-level access. This new capability, available in April, extends the Microsoft Defender Unified RBAC model to...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "tomasbeerthuis",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Powering Event Driven Payments with Stripe and Azure Event Grid",
       "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/powering-event-driven-payments-with-stripe-and-azure-event-grid/ba-p/4507094",
       "published": "2026-03-31T17:41:07+00:00",
@@ -10288,17 +10299,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Overload to Optimal: Tuning Microsoft Fabric Capacity",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/overload-to-optimal-tuning-microsoft-fabric-capacity/ba-p/4464639",
-      "published": "2025-12-14T05:44:40+00:00",
-      "summary": "Co-Authored by: Daya Ram, Sr. Cloud Solutions Architect and Rafia Aqil, Could Solutions Architect Optimizing Microsoft Fabric capacity is both a performance and cost exercise. By diagnosing workloads, tuning cluster and Spark settings, and applying data best practices, teams can reduce run times,...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure Databricks Cost Optimization: A Practical Guide",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/azure-databricks-cost-optimization-a-practical-guide/ba-p/4470235",
       "published": "2025-12-14T05:43:10+00:00",
@@ -12356,5 +12356,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage centered on securing Kubernetes workloads on **Azure Kubernetes Service (AKS)** by moving secrets out of static **YAML manifests** and into **Azure Key Vault** using the **Secrets Store CSI Driver**. The post specifically highlights combining the **Azure Key Vault provider**, **AKS Workload Identity**, and Kubernetes-native secret mounting to let pods access sensitive values without hardcoding credentials, reinforcing a broader Azure theme of stronger cloud-native security and identity-based access for containerized applications."
+  "summary": "Today’s Azure posts center on cloud security hardening and operational resilience across Microsoft’s platform. Microsoft highlighted how Defender for Endpoint and Microsoft Sentinel for SAP BTP detected the “Shai-Hulud” supply-chain threat, while another post detailed a centralized failure-logging pattern using Azure Monitor to improve reliability for data platforms.\n\nA third post focused on Kubernetes security, showing how to remove secrets from YAML in AKS by using the Azure Key Vault CSI Driver with Workload Identity to securely deliver secrets to pods without embedding credentials in manifests."
 }
