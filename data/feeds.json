@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T19:57:33.308890+00:00",
+  "lastUpdated": "2026-06-08T22:18:55.820563+00:00",
   "totalArticles": 1124,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "What’s New in Microsoft 365 Copilot | May 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-microsoft-365-copilot-may-2026/ba-p/4522010",
+      "published": "2026-06-08T21:52:59+00:00",
+      "summary": "Welcome to the May 2026 edition of What's New in Microsoft 365 Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 admins up to date with Copilot features that help your users be more productive and efficient in the apps they use every day. Let’s take a closer...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "Seth_Patton",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Write Logic Apps in C#: introducing the Logic Apps Standard SDK",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/write-logic-apps-in-c-introducing-the-logic-apps-standard-sdk/ba-p/4524277",
+      "published": "2026-06-08T21:52:53+00:00",
+      "summary": "The workflow you always wished you could write in code If you build on Logic Apps Standard, you already know the deal: the runtime is excellent at the unglamorous parts of integration - connecting to systems, retrying, scaling, keeping run history you can actually debug. What you sometimes wanted...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Microsoft Options to Migrate SQL Server Databases",
@@ -1628,17 +1650,6 @@
       "blogId": "appsonazureblog",
       "author": "bobmital",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Write Logic Apps in C#: introducing the Logic Apps Standard SDK",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/write-logic-apps-in-c-introducing-the-logic-apps-standard-sdk/ba-p/4524277",
-      "published": "2026-06-02T20:54:24+00:00",
-      "summary": "The workflow you always wished you could write in code If you build on Logic Apps Standard, you already know the deal: the runtime is excellent at the unglamorous parts of integration - connecting to systems, retrying, scaling, keeping run history you can actually debug. What you sometimes wanted...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3872,17 +3883,6 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "__sourav_sahu__",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "What’s New in Microsoft 365 Copilot | May 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-microsoft-365-copilot-may-2026/ba-p/4522010",
-      "published": "2026-05-29T18:22:27+00:00",
-      "summary": "Welcome to the May 2026 edition of What's New in Microsoft 365 Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 admins up to date with Copilot features that help your users be more productive and efficient in the apps they use every day. Let’s take a closer...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "Seth_Patton",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12367,5 +12367,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on AI agents, platform resiliency, and new infrastructure GA announcements. Microsoft highlighted new MAI models in Azure AI Foundry across text, image, voice, and speech; Foundry Hosted Agents and Agent 365 updates; preview security/licensing changes for Foundry agents in Defender for Cloud; and built-in MCP support for Azure App Service, while observability and integration updates included Azure Monitor exemplars for linking metrics to traces and the latest Logic Apps Aviators newsletter.\n\nOn the infrastructure side, Azure announced GA for NC RTX PRO 6000 Blackwell Server Edition v6 VMs, Premium SSD v2 support for non-zonal VMs, PostgreSQL maintenance control, NSP for Azure Service Bus including Azure Gov, and GA IP allow lists for GitHub EMU namespaces, alongside preview support for Azure Site Recovery on Linux VMs with NVMe controllers and Entra ID–based RBAC for Azure Managed Redis. Broader engineering themes included SQL Server migration best practices, geo-replicated Azure Container Registry high availability guidance, Azure DevOps-to-GitHub migration strategies, .NET Build 2026 sessions, and Microsoft’s warning that attackers are exploiting AI branding in social engineering campaigns."
+  "summary": "Today’s Azure news centered on AI agents, enterprise modernization, and platform resiliency. Microsoft highlighted new capabilities across Microsoft 365 Copilot, Agent 365, and Azure AI Foundry—including Foundry-hosted agents for long-running business processes, new MAI models spanning text, image, voice, and speech, and a Defender for Cloud preview that adds security capabilities for Foundry agents under a Microsoft Agent 365 license model.\n\nOn the platform side, Azure announced several infrastructure and operations updates: GA for NC RTX PRO 6000 Blackwell v6 VMs, Premium SSD v2 support for non-zonal VMs, PostgreSQL maintenance control, and ACR geo-replication guidance for high availability, alongside previews for Azure Site Recovery with Linux VMs using NVMe disk controllers and Entra ID-based RBAC for Azure Managed Redis. Developer and integration themes were also strong, with the new Logic Apps Standard SDK enabling Logic Apps authoring in C#, Azure Monitor adding exemplars to connect metrics with traces, migration guidance for SQL Server and Azure DevOps-to-GitHub moves, and .NET Build 2026 session recommendations rounding out the day."
 }
