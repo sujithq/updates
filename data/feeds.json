@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T19:52:45.434290+00:00",
+  "lastUpdated": "2026-06-09T22:18:02.136658+00:00",
   "totalArticles": 1124,
   "articles": [
     {
@@ -11,6 +11,28 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Bring Your Own GitHub App: Connecting Azure SRE Agent to Enterprise Repositories",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bring-your-own-github-app-connecting-azure-sre-agent-to/ba-p/4524673",
+      "published": "2026-06-09T21:12:35+00:00",
+      "summary": "What if your SRE agent could access your enterprise GitHub repositories the same way your CI/CD pipelines do with a governed service identity, not a personal token? Azure SRE Agent connects to your GitHub repositories to build rich context about your systems source code, infrastructure definitions,...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "dchelupati",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Upcoming breaking changes for npm v12",
+      "link": "https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12",
+      "published": "2026-06-09T20:04:10+00:00",
+      "summary": "Our next npm major version, v12, introduces security-related default changes to npm install. All these changes are available behind warnings in npm today on 11.16.0 or newer, so you can… The post Upcoming breaking changes for npm v12 appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -755,17 +777,6 @@
       "link": "https://github.blog/changelog/2026-06-04-agent-tasks-rest-api-now-available-for-copilot-pro-pro-and-max",
       "published": "2026-06-04T20:42:10+00:00",
       "summary": "Copilot Pro, Pro+, and Max users can now programmatically start and track Copilot cloud agent tasks with the Agent tasks REST API, available in public preview. Copilot cloud agent works… The post Agent tasks REST API now available for Copilot Pro, Pro+, and Max appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Budget and usage management APIs now generally available",
-      "link": "https://github.blog/changelog/2026-06-04-budget-and-usage-management-apis-now-generally-available",
-      "published": "2026-06-04T19:46:34+00:00",
-      "summary": "GitHub’s expanded billing APIs to programmatically manage budgets, track usage, and access cost center data are now generally available. Manage budgets via APIs You can now manage the full lifecycle… The post Budget and usage management APIs now generally available appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -1726,17 +1737,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "ebencarek",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Bring Your Own GitHub App: Connecting Azure SRE Agent to Enterprise Repositories",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bring-your-own-github-app-connecting-azure-sre-agent-to/ba-p/4524673",
-      "published": "2026-06-02T21:09:03+00:00",
-      "summary": "What if your SRE agent could access your enterprise GitHub repositories the same way your CI/CD pipelines do with a governed service identity, not a personal token? Azure SRE Agent connects to your GitHub repositories to build rich context about your systems source code, infrastructure definitions,...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "dchelupati",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -12367,5 +12367,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft ecosystem posts were dominated by the push toward production-ready AI agents and copilots: Microsoft highlighted agentic AI for scientific discovery with **Ginkgo Bioworks + Microsoft Discovery**, **distributed multi-agent systems** using **Aspire** and **Microsoft Agent Framework**, **custom agents in GitHub Copilot CLI**, **Copilot Code Reviews for Azure Repos**, and **Dynamics 365** moving from AI suggestions to autonomous CRM actions. Microsoft also expanded the operational and governance side of AI with **Azure AI Foundry’s Online Meeting Effectiveness Index (OMEI)**, a webinar series on the **path to production for agents**, security guidance on **reconstructing AI activity in investigations**, and **security validation for third-party coding agents**.\n\nThe second major theme was platform maturity across data, developer tools, and cloud infrastructure: Microsoft published guidance for **streaming and batch architectures from Microsoft Fabric to Azure Databricks**, announced **PostgreSQL Hub for Azure Developers** as **generally available**, released **.NET 11 Preview 5** plus **June 2026 .NET/.NET Framework servicing updates**, and shared troubleshooting for **Azure Container Apps and Jobs** with **.NET** and **Django** workloads. On the GitHub side, **Claude Fable 5** became generally available for **GitHub Copilot**, **periodic code scanning of inactive repositories** was introduced, and Azure observability messaging emphasized connecting **any source to any destination** for AI-era monitoring."
+  "summary": "Today’s Azure and GitHub updates were dominated by **AI agents, developer tooling, and production readiness**. Microsoft highlighted **agentic AI** across domains—from **Ginkgo Bioworks + Microsoft Discovery** for biological research, to **multi-agent systems with Aspire and Microsoft Agent Framework**, **custom agents in GitHub Copilot CLI**, **autonomous CRM actions in Dynamics 365**, and an **Agents Path to Production** webinar series—while GitHub and Azure DevOps added practical governance features like **Copilot Code Reviews for Azure Repos**, **security validation for third-party coding agents**, and support for **Bring Your Own GitHub App** with the **Azure SRE Agent**.\n\nA second major theme was the **modern Microsoft developer/data platform**: Microsoft announced **GA of PostgreSQL Hub for Azure Developers**, published guidance for **Microsoft Fabric to Azure Databricks** streaming and batch architectures, and released **.NET 11 Preview 5** plus **June 2026 servicing updates** for .NET and .NET Framework. Security and operations also featured prominently with posts on **reconstructing AI activity in investigations**, **periodic code scanning of inactive repositories**, **troubleshooting Azure Container Apps and Jobs for .NET and Django**, and broader observability messaging around connecting **any source to any destination for the AI era**, while GitHub also warned of **upcoming breaking changes in npm v12** and announced **Claude Fable 5 GA for GitHub Copilot**."
 }
