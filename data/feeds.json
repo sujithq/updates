@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T06:38:41.372377+00:00",
+  "lastUpdated": "2026-06-09T11:51:58.681286+00:00",
   "totalArticles": 1124,
   "articles": [
     {
@@ -11,6 +11,28 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Troubleshooting Azure Container Apps and Jobs for .NET and Django Workloads",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/troubleshooting-azure-container-apps-and-jobs-for-net-and-django/ba-p/4518303",
+      "published": "2026-06-09T07:58:44+00:00",
+      "summary": "Introduction Deploying to Azure Container Apps feels like a huge step forward — you get serverless containers, automatic scaling, built-in ingress, and managed environments without managing Kubernetes directly. But when something goes wrong and your container refuses to start, or your Container App...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "BhaktiRath95",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Periodic code scanning of inactive repositories",
+      "link": "https://github.blog/changelog/2026-06-09-periodic-code-scanning-of-inactive-repositories",
+      "published": "2026-06-09T07:21:22+00:00",
+      "summary": "GitHub code scanning now supports scheduled security scans of repositories that have had no pushes or pull requests for six months or more. Organizations can use this to maintain continuous… The post Periodic code scanning of inactive repositories appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -792,17 +814,6 @@
       "blogId": "githubblog",
       "author": "Natalie Guevara",
       "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "GitHub Copilot in Visual Studio — May update",
-      "link": "https://github.blog/changelog/2026-06-04-github-copilot-in-visual-studio-may-update",
-      "published": "2026-06-04T15:35:58+00:00",
-      "summary": "May 2026 brought sharper tooling for planning, reviewing, and managing your work with GitHub Copilot in Visual Studio 2026. Highlights Here’s what’s new for all GitHub Copilot users in Visual… The post GitHub Copilot in Visual Studio — May update appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -4521,17 +4532,6 @@
       "blogId": "azurestorageblog",
       "author": "bapic",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "When RAG Hits the Wall: Designing Systems That Scale from 1,000 to 1 million Documents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/when-rag-hits-the-wall-designing-systems-that-scale-from-1-000/ba-p/4516085",
-      "published": "2026-05-22T07:00:00+00:00",
-      "summary": "Introduction Retrieval-Augmented Generation (RAG) has quickly become the default architecture for grounding Large Language Models (LLMs) in enterprise data. And at small scale, it works exceptionally well. 100 documents → Excellent accuracy 1,000 documents → Still predictable With around 100...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "himachauhan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12367,5 +12367,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog highlights **Azure Observability** as a core enabler for the AI era, emphasizing an **open, end-to-end observability approach** that can ingest telemetry from **any source** and route insights to **any destination**. The key theme is flexibility and interoperability across modern cloud-native and AI workloads, with Azure positioning its observability stack to support heterogeneous environments rather than locking customers into a single pipeline.\n\nThe announcement signals Azure’s push to help teams monitor increasingly complex **AI, application, and infrastructure systems** with broader data collection and analysis options, likely centered on technologies such as **OpenTelemetry**, cross-platform telemetry ingestion, and integrations across the Azure monitoring ecosystem. Overall, the message is that Azure wants enterprises to treat observability as a foundational layer for operating AI-powered systems at scale."
+  "summary": "Today’s Azure updates centered on cloud-native operations, security hygiene, and observability for AI-era architectures. Azure highlighted hands-on troubleshooting guidance for Azure Container Apps and Jobs running .NET and Django workloads, covering diagnostics and runtime issue resolution, while GitHub announced periodic code scanning for inactive repositories to surface latent security risks even when projects are no longer actively maintained.\n\nThe other major theme was end-to-end observability across heterogeneous environments: Azure Observability’s “Any source. Any destination. Ready for AI-era.” emphasizes flexible telemetry pipelines that can ingest data from varied sources and route it to different backends, positioning observability tooling to support modern distributed and AI-driven systems."
 }
