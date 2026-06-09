@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T11:51:58.681286+00:00",
+  "lastUpdated": "2026-06-09T14:14:14.839134+00:00",
   "totalArticles": 1124,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Announcing the Path to Production for Agents Webinar Series",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/announcing-the-path-to-production-for-agents-webinar-series/ba-p/4526560",
+      "published": "2026-06-09T12:58:42+00:00",
+      "summary": "Many organizations have made significant progress exploring AI—building pilots, prototypes, and proofs of concept. Yet a common challenge remains: how do you move from promising experiments to production-ready systems that are secure, scalable, and trusted? Join us for the Path to Production...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "brauerblogs",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Troubleshooting Azure Container Apps and Jobs for .NET and Django Workloads",
@@ -29,6 +40,17 @@
       "link": "https://github.blog/changelog/2026-06-09-periodic-code-scanning-of-inactive-repositories",
       "published": "2026-06-09T07:21:22+00:00",
       "summary": "GitHub code scanning now supports scheduled security scans of repositories that have had no pushes or pull requests for six months or more. Organizations can use this to maintain continuous… The post Periodic code scanning of inactive repositories appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Security validation for third-party coding agents",
+      "link": "https://github.blog/changelog/2026-06-09-security-validation-for-third-party-coding-agents",
+      "published": "2026-06-09T07:12:54+00:00",
+      "summary": "Security validation for third-party coding agents is now generally available. GitHub supports third-party coding agents (including Claude and OpenAI Codex) that work directly within your repositories to implement features, fix… The post Security validation for third-party coding agents appeared...",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -748,17 +770,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Larger context windows and configurable reasoning levels for GitHub Copilot",
-      "link": "https://github.blog/changelog/2026-06-04-larger-context-windows-and-configurable-reasoning-levels-for-github-copilot",
-      "published": "2026-06-04T18:45:04+00:00",
-      "summary": "GitHub Copilot now supports larger context windows and configurable reasoning levels to help you tackle deeper, more complex work. Leverage one-million-token context windows A one-million-token context window means users can… The post Larger context windows and configurable reasoning levels for...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -6911,17 +6922,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Enabling Agentic Data Governance with Hybrid Cloud Flexibility in Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/enabling-agentic-data-governance-with-hybrid-cloud-flexibility/ba-p/4513511",
-      "published": "2026-04-23T18:17:35+00:00",
-      "summary": "The “Why” Do you manage data in a complex multi-cloud environment? Are you struggling with data silos, evolving regulations, and the pressure to maintain control and compliance across on-prem and multiple clouds? Do you ever wish an intelligent assistant could help shoulder the load of data...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Moaz_Mirza",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "LangChain.js for Beginners: A Free Course to Build Agentic AI Apps with JavaScript",
       "link": "https://devblogs.microsoft.com/blog/langchainjs-for-beginners",
       "published": "2026-04-23T17:00:14+00:00",
@@ -12367,5 +12367,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure updates centered on cloud-native operations, security hygiene, and observability for AI-era architectures. Azure highlighted hands-on troubleshooting guidance for Azure Container Apps and Jobs running .NET and Django workloads, covering diagnostics and runtime issue resolution, while GitHub announced periodic code scanning for inactive repositories to surface latent security risks even when projects are no longer actively maintained.\n\nThe other major theme was end-to-end observability across heterogeneous environments: Azure Observability’s “Any source. Any destination. Ready for AI-era.” emphasizes flexible telemetry pipelines that can ingest data from varied sources and route it to different backends, positioning observability tooling to support modern distributed and AI-driven systems."
+  "summary": "Today’s Azure and GitHub posts centered on making AI and cloud-native systems more production-ready, secure, and observable. Microsoft highlighted a new **“Path to Production for Agents”** webinar series focused on moving **AI agents** into real-world deployment, while Azure Dev Community shared hands-on guidance for troubleshooting **Azure Container Apps** and **Jobs** running **.NET** and **Django** workloads.\n\nOn the platform and security side, GitHub announced **periodic code scanning for inactive repositories** and **security validation for third-party coding agents**, underscoring stronger default protections for software supply chains and AI-assisted development. Azure Observability’s “**Any source. Any destination. Ready for AI-era.**” emphasized flexible telemetry pipelines and observability across heterogeneous environments, aimed at supporting increasingly distributed, AI-driven applications."
 }
