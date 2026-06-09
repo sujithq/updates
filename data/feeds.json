@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T22:18:55.820563+00:00",
+  "lastUpdated": "2026-06-09T01:48:36.626118+00:00",
   "totalArticles": 1124,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Any source. Any destination. Ready for AI-era.",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/any-source-any-destination-ready-for-ai-era/ba-p/4524886",
+      "published": "2026-06-09T01:43:45+00:00",
+      "summary": "Telemetry is exploding, every new app, edge node, and AI agent is a new firehose, and AI has raised the bar on what that telemetry must be: governed, on open standards, observable at agent scale. Today, most teams answer that by stitching together a stack of disconnected tools, each catering to a...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "shayoni_seth",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "What's new in Azure App Service at #MSBuild 2026",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-app-service-at-msbuild-2026/ba-p/4526569",
+      "published": "2026-06-08T22:30:40+00:00",
+      "summary": "At Microsoft Build 2026, Azure App Service introduced a powerful set of updates designed to help organizations accelerate their journey into AI, without increasing complexity or cost. These innovations focus on one clear business outcome: enabling teams to build, deploy, and scale AI-powered...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Mayunk_Jain",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "What’s New in Microsoft 365 Copilot | May 2026",
@@ -191,7 +213,7 @@
     },
     {
       "title": "Enterprise Live Migrations: Moving from Azure DevOps Repo to GitHub with minimal disruption",
-      "link": "https://devblogs.microsoft.com/devops/introducing-enterprise-live-migrations-migrate-azure-repos-to-github-with-minimal-downtime-azure-devops-to-github-migration-with-continuous-sync-and-fast-cutover-enterprise-live-migrations-low-downt/",
+      "link": "https://devblogs.microsoft.com/devops/enterprise-live-migrations/",
       "published": "2026-06-08T16:13:26+00:00",
       "summary": "Over the last several years, we’ve encouraged customers to move their repositories from Azure Repos to GitHub to take advantage of the latest AI-powered and agentic development experiences. For many enterprise teams, however, migrating at scale comes with real constraints. Traditional approaches...",
       "blog": "Azure DevOps Blog",
@@ -1147,17 +1169,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Any source. Any destination. Ready for AI-era.",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/any-source-any-destination-ready-for-ai-era/ba-p/4524886",
-      "published": "2026-06-03T17:15:19+00:00",
-      "summary": "Telemetry is exploding, every new app, edge node, and AI agent is a new firehose, and AI has raised the bar on what that telemetry must be: governed, on open standards, observable at agent scale. Today, most teams answer that by stitching together a stack of disconnected tools, each catering to a...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "shayoni_seth",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[Launched] Generally Available: Azure Database for PostgreSQL - Flexible Server: DuckDB extension",
       "link": "https://azure.microsoft.com/updates?id=563766",
       "published": "2026-06-03T17:00:49+00:00",
@@ -1453,17 +1464,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "VNet integration for Azure SRE Agent (preview)",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/vnet-integration-for-azure-sre-agent-preview/ba-p/4524287",
-      "published": "2026-06-02T22:54:04+00:00",
-      "summary": "For many production systems, the logs, databases, private endpoints, repositories, and runbooks an SRE Agent needs to do its job are behind network boundaries your security team already governs. VNet integration for Azure SRE Agent, now in preview, puts the agent's outbound traffic under those same...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "sanchitmehta",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "The end of patching era for containers: Microsoft Defender for Cloud expands hardened image support",
@@ -5162,17 +5162,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Azure Front Door WebSocket",
-      "link": "https://azure.microsoft.com/updates?id=562548",
-      "published": "2026-05-18T17:45:33+00:00",
-      "summary": "Azure Front Door Standard and Premium now support WebSocket in general availability. WebSocket is enabled by default and requires no additional configuration. WebSocket provides full-duplex communication over a single, long-lived TCP connection, enabling",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "NuGet Package Pruning: Cleaner Dependencies and Actionable Vulnerability Reports",
       "link": "https://devblogs.microsoft.com/dotnet/nuget-package-pruning-in-dotnet-10/",
       "published": "2026-05-18T17:00:00+00:00",
@@ -7590,6 +7579,17 @@
       "blogId": "allthingsazure",
       "author": "David Sanchez",
       "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Update: Minimum billable object size for cooler storage tiers",
+      "link": "https://azure.microsoft.com/updates?id=559756",
+      "published": "2026-04-14T21:15:15+00:00",
+      "summary": "We are pausing the introduction of a minimum billable object size for the cool, cold, and archive access tiers. As a result, billing behavior will not change on July 1, 2026, for either new or existing storage accounts. We will provide an update on our r",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -12367,5 +12367,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news centered on AI agents, enterprise modernization, and platform resiliency. Microsoft highlighted new capabilities across Microsoft 365 Copilot, Agent 365, and Azure AI Foundry—including Foundry-hosted agents for long-running business processes, new MAI models spanning text, image, voice, and speech, and a Defender for Cloud preview that adds security capabilities for Foundry agents under a Microsoft Agent 365 license model.\n\nOn the platform side, Azure announced several infrastructure and operations updates: GA for NC RTX PRO 6000 Blackwell v6 VMs, Premium SSD v2 support for non-zonal VMs, PostgreSQL maintenance control, and ACR geo-replication guidance for high availability, alongside previews for Azure Site Recovery with Linux VMs using NVMe disk controllers and Entra ID-based RBAC for Azure Managed Redis. Developer and integration themes were also strong, with the new Logic Apps Standard SDK enabling Logic Apps authoring in C#, Azure Monitor adding exemplars to connect metrics with traces, migration guidance for SQL Server and Azure DevOps-to-GitHub moves, and .NET Build 2026 session recommendations rounding out the day."
+  "summary": "Today’s Azure blog highlights **Azure Observability** with the message **“Any source. Any destination. Ready for AI-era.”**, emphasizing a more open, end-to-end observability approach for modern cloud and AI workloads. The key theme is support for collecting telemetry from diverse environments and routing insights to different analysis destinations, positioning Azure’s monitoring stack for **AI-era applications**, hybrid systems, and heterogeneous toolchains rather than Azure-only scenarios."
 }
