@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T20:03:45.427065+00:00",
+  "lastUpdated": "2026-06-10T22:46:00.475302+00:00",
   "totalArticles": 1122,
   "articles": [
     {
@@ -12,6 +12,61 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Announcing Azure Linux 4.0: Purpose-Built for Azure, Now in Public Preview",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/announcing-azure-linux-4-0-purpose-built-for-azure-now-in-public/ba-p/4524267",
+      "published": "2026-06-10T20:56:42+00:00",
+      "summary": "Today at Microsoft Build, we're announcing the public preview of Azure Linux 4.0 - Microsoft's first party Linux distribution, purpose-built for Azure. Azure Linux 4.0 is available now for Azure Virtual Machines, VM Scale Sets, and container images – with Azure Kubernetes Service (AKS) support and...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "poorvinarang",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Copilot Chat now sees your agent sessions",
+      "link": "https://github.blog/changelog/2026-06-10-copilot-chat-now-sees-your-agent-sessions",
+      "published": "2026-06-10T20:46:17+00:00",
+      "summary": "We’ve improved the handoff experience between Copilot Chat and Copilot cloud agent on the web. We’ve also enabled new functionality which allows you to search and query past agent sessions… The post Copilot Chat now sees your agent sessions appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Microsoft Entra server principals on Azure SQL Database",
+      "link": "https://azure.microsoft.com/updates?id=565154",
+      "published": "2026-06-10T20:45:26+00:00",
+      "summary": "Microsoft Entra server principals (logins) for Azure SQL Database is now generally available. You can now use CREATE LOGIN ... FROM EXTERNAL PROVIDER in the virtual master database, bringing parity with SQL logins for your Microsoft Entra identities.With",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Deploying Foundry Hosted Agents from Source Code",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/deploying-foundry-hosted-agents-from-source-code/ba-p/4527285",
+      "published": "2026-06-10T20:27:17+00:00",
+      "summary": "Introduction At Microsoft Build, it was announced that Foundry Hosted Agents now support source-code deployments. Previously, Hosted Agents required application code to be packaged in a container for deployment. This new functionality allows you to deploy the agent from a `.zip` file instead of...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "j_folberth",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Introducing the New Browser Automation Tool with Toolboxes in Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-the-new-browser-automation-tool-with-toolboxes-in/ba-p/4522790",
+      "published": "2026-06-10T20:05:18+00:00",
+      "summary": "Your AI agent just analyzed 500 invoices—but it can't click the 'Submit' button to process them. AI agents can reason through complex problems, but they hit a wall when workflows require interacting with web interfaces The Browser Automation Tool bridges that gap, giving your agents the ability to...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "NandiniMuralidharan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Connecting Claude Clients with Azure API Management and Claude Models in Microsoft Foundry",
@@ -784,17 +839,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "CodeQL 2.25.6 adds Swift 6.3.2 support and improves C# coverage",
-      "link": "https://github.blog/changelog/2026-06-05-codeql-2-25-6-adds-swift-6-3-2-support-and-improves-c-coverage",
-      "published": "2026-06-05T21:30:57+00:00",
-      "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.25.6, which adds Swift 6.3.2 support, completes… The post CodeQL 2.25.6 adds Swift 6.3.2 support and improves C# coverage appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[In preview] Public Preview: Ingestion Volume Change dashboard in Metrics Usage Insights",
       "link": "https://azure.microsoft.com/updates?id=565286",
       "published": "2026-06-05T20:45:48+00:00",
@@ -980,17 +1024,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Introducing the New Browser Automation Tool with Toolboxes in Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-the-new-browser-automation-tool-with-toolboxes-in/ba-p/4522790",
-      "published": "2026-06-04T19:37:39+00:00",
-      "summary": "AI agents can reason through complex problems—but they hit a wall when workflows require clicking buttons, filling forms, or navigating web interfaces. The Browser Automation Tool bridges that gap, giving your agents the ability to interact with any website the same way a human would. Here's what's...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "NandiniMuralidharan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "[In preview] Public Preview: Tool search in Microsoft Foundry toolboxes",
@@ -2047,17 +2080,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Announcing Azure Linux 4.0: Purpose-Built for Azure, Now in Public Preview",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/announcing-azure-linux-4-0-purpose-built-for-azure-now-in-public/ba-p/4524267",
-      "published": "2026-06-02T20:00:00+00:00",
-      "summary": "Today at Microsoft Build, we're announcing the public preview of Azure Linux 4.0 - Microsoft's first party Linux distribution, purpose-built for Azure. Azure Linux 4.0 is available now for Azure Virtual Machines, VM Scale Sets, and container images – with Azure Kubernetes Service (AKS) support and...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "poorvinarang",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Introducing Azure Container Linux (ACL)",
@@ -4678,17 +4700,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Building an On-Device Voice Assistant with Microsoft Foundry Local",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-an-on-device-voice-assistant-with-microsoft-foundry/ba-p/4522392",
-      "published": "2026-05-26T07:00:00+00:00",
-      "summary": "Why on-device voice still matters Most \"voice AI\" tutorials assume your audio leaves the machine. You ship a WAV to Whisper-API, your transcript to GPT-4, and a synthesized response back over the wire. That works — but it also means three round trips, three per-token bills, and three places your...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "GitHub for Beginners: Getting started with Git and GitHub in VS Code",
       "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-git-and-github-in-vs-code/",
       "published": "2026-05-25T16:00:00+00:00",
@@ -5243,17 +5254,6 @@
       "link": "https://azure.microsoft.com/updates?id=562259",
       "published": "2026-05-19T17:00:29+00:00",
       "summary": "Azure NetApp Files cache volumes is now Generally Available. Azure NetApp Files now support cache volumes, which are cloud-based caches of an external origin volume, containing only the most actively accessed data on the volume. This brings data and files",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure Virtual Network updates – default limits increased for NSGs and route tables",
-      "link": "https://azure.microsoft.com/updates?id=562695",
-      "published": "2026-05-19T16:45:42+00:00",
-      "summary": "Azure Virtual Network has increased the default platform limits for network security groups (NSGs) and route tables. The new defaults are now 2,000 security rules per NSG, 6,000 addresses or ports per NSG rule, 1,000 routes per route table, and 600 route",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -12345,5 +12345,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft developer posts were dominated by the “agentic AI to production” theme: Microsoft highlighted Azure API Management for securing and productizing MCP servers and connecting Claude clients to Claude models in Azure AI Foundry, introduced ASSERT to turn specs into evals for AI agents, previewed ACI Sandboxes as agent-focused compute, and promoted webinars and livestreams around agentic modernization and production readiness. On the tooling side, Microsoft also pushed developer productivity updates including Visual Studio Code 1.124, PowerToys 0.100, GitHub Copilot CLI language-server-based code intelligence plus a new security review command, and Dependabot support for the Deno ecosystem.\n\nThe other major theme was platform operations and lifecycle change: Azure Monitor entered public preview for collecting Azure Resource Platform Logs at scale via Data Collection Rules, while Microsoft announced retirements for Azure Synapse Link for Azure Cosmos DB NoSQL and the Azure VPN Client for Linux (Preview), and urged customers to transition Azure Language features toward Foundry models. GitHub enterprise administration also expanded with support for up to 500 cost centers."
+  "summary": "Today’s Azure ecosystem updates were dominated by AI agent development and enterprise tooling: Microsoft highlighted new Azure AI Foundry capabilities including a browser automation tool with Toolboxes, guidance for deploying Foundry Hosted Agents from source, connecting Claude clients through Azure API Management to Claude models in Microsoft Foundry, and migrating from Azure Language features to Foundry models. GitHub also expanded Copilot and agent workflows with Copilot Chat visibility into agent sessions, language-server-powered code intelligence and a new security review command in Copilot CLI, plus Microsoft promoted agent evaluation and production readiness via ASSERT, the “Path to Production for Agents” webinar series, and the upcoming .NET Day on agentic modernization.\n\nOn the platform side, key infrastructure announcements included Azure Linux 4.0 entering public preview, Azure Monitor public preview support for collecting Azure Resource Platform Logs at scale via DCRs, and general availability of Microsoft Entra server principals on Azure SQL Database. Microsoft also flagged lifecycle changes with the retirement of Azure Synapse Link for Azure Cosmos DB NoSQL and the Azure VPN Client for Linux (Preview), while broader developer updates included Visual Studio Code 1.124, Terraform v1.15.6, PowerToys 0.100, and GitHub enterprise cost centers scaling to 500."
 }
