@@ -1,17 +1,50 @@
 {
-  "lastUpdated": "2026-06-10T06:55:13.512499+00:00",
-  "totalArticles": 1124,
+  "lastUpdated": "2026-06-10T12:12:13.865367+00:00",
+  "totalArticles": 1123,
   "articles": [
     {
-      "title": "Visual Studio Code 1.124",
-      "link": "https://code.visualstudio.com/updates/v1_124",
-      "published": "2026-06-10T17:00:00+00:00",
-      "summary": "Learn what's new in Visual Studio Code 1.124 (Insiders) Read the full article",
+      "title": "Visual Studio Code 1.125",
+      "link": "https://code.visualstudio.com/updates/v1_125",
+      "published": "2026-06-17T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.125 (Insiders) Read the full article",
       "blog": "Visual Studio Code",
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Visual Studio Code 1.124",
+      "link": "https://code.visualstudio.com/updates/v1_124",
+      "published": "2026-06-10T17:00:00+00:00",
+      "summary": "Learn what is new in Visual Studio Code 1.124 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "v1.15.6",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.6",
+      "published": "2026-06-10T11:52:20+00:00",
+      "summary": "1.15.6 (June 10, 2026) BUG FIXES: Fixed an issue where resources being removed from state via removed block were incorrectly listed under planned_values in json representations of the plan file. (#38665) console: Fixed a panic caused by evaluating an expression involving deprecated values (#38676)...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "We Gave Ourselves 20 Minutes to Build an AI Agent for a Lumber Company. The Timer's Still on Screen.",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/we-gave-ourselves-20-minutes-to-build-an-ai-agent-for-a-lumber/ba-p/4523428",
+      "published": "2026-06-10T07:00:00+00:00",
+      "summary": "Here's a confession: most \"build with AI\" webinars are 60 minutes of slides, 5 minutes of a polished demo someone rehearsed for a week, and a closing CTA. You leave inspired but not really sure what you saw. So we tried something different. We put a visible countdown timer on the screen and gave...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "JoshuaHuang",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "PowerToys 0.100 is here: new Shortcut Guide, Command Palette improvements and much more!",
@@ -4612,17 +4645,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Building an End-to-End Azure RAG Strategy Agent with MS Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-an-end-to-end-azure-rag-strategy-agent-with-ms-foundry/ba-p/4516967",
-      "published": "2026-05-25T07:00:00+00:00",
-      "summary": "High-Level Architecture This architecture represents an end-to-end Retrieval-Augmented Generation (RAG) pipeline where raw documents are ingested from Azure Blob Storage, processed using Document Intelligence, transformed into embeddings via Azure OpenAI, and indexed in Azure AI Search for hybrid...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "SHAILESHDEVADIGA",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Regex support for LOB types in T-SQL—available in Azure SQL & SQL Server 2025",
       "link": "https://devblogs.microsoft.com/azure-sql/regex-support-for-lob-types-in-t-sql-available-in-azure-sql-sql-server-2025/",
       "published": "2026-05-22T20:28:15+00:00",
@@ -7139,17 +7161,6 @@
       "blogId": "azuredevops",
       "author": "Panagiotis Liaros",
       "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "v1.15.0-rc3",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-rc3",
-      "published": "2026-04-22T13:59:48+00:00",
-      "summary": "1.15.0-rc3 (April 22, 2026) NEW FEATURES: We now produce builds for Windows ARM64 (#32719) You can set a deprecated attribute on variable and output blocks to indicate that they are deprecated. This will produce warnings when passing in a value for a deprecated variable or when referencing a...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -12343,29 +12354,7 @@
       "author": "jtracey93msft",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Clarification over \"dormant\" account status",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-identity/clarification-over-quot-dormant-quot-account-status/m-p/4422036#M4251",
-      "published": "2025-06-09T11:34:23+00:00",
-      "summary": "I was looking today at our list of \"Remove dormant accounts from sensitive groups\" within Microsoft Defender for Identity, and one service account has caused a bit of discussion. The account would only be used on-premise and would never be carrying out authentications out of our estate. In this...",
-      "blog": "Azure Advanced Threat Protection",
-      "blogId": "azureadvancedthreatprotection",
-      "author": "jasonbourne5379",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Microsoft Cost Management updates—May 2025 (summary)",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/microsoft-cost-management-updates-may-2025-summary/ba-p/4421930",
-      "published": "2025-06-09T10:00:00+00:00",
-      "summary": "Here's a quick run-down of the Cost Management updates for May 2025: View estimated carbon emissions in Azure Migrate Generally available: Azure Carbon Optimization Microsoft Customer Agreement cost and usage data quality improvements Limited preview: Export to Microsoft Fabric New ways to save...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "micflan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Microsoft/Azure posts centered on developer tooling and operational maturity: Visual Studio Code 1.124 shipped alongside PowerToys 0.100, while GitHub Dependabot added version-update support for the Deno ecosystem. On the Azure side, the biggest themes were managing and scaling modern app infrastructure—Azure API Management now emphasizes productizing, versioning, observing, and automating MCP servers, Azure Container Instances introduced “ACI Sandboxes” as a preview of more isolated agentic compute, and Azure Resource Manager shared how it tracks long-running work that can take hours, highlighting orchestration and reliability behind large-scale deployments."
+  "summary": "Today’s posts centered on developer tooling, AI agents, and cloud automation. Microsoft highlighted **Visual Studio Code 1.124**, **PowerToys 0.100**, **Terraform v1.15.6**, and **GitHub Dependabot’s new support for the Deno ecosystem**, alongside an Azure Dev Community piece showing how quickly an **AI agent** can be assembled for a lumber-company use case.\n\nOn the Azure platform side, the biggest themes were operationalizing AI and improving cloud runtime visibility: Azure API Management added guidance for **productizing, observing, versioning, and automating MCP servers**, Azure Compute previewed **ACI Sandboxes** as infrastructure for **agentic compute**, and Apps on Azure explained how **ARM** tracks long-running work that can take hours."
 }
