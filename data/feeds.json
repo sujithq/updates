@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T17:48:45.121948+00:00",
+  "lastUpdated": "2026-06-10T20:03:45.427065+00:00",
   "totalArticles": 1122,
   "articles": [
     {
@@ -14,6 +14,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "Connecting Claude Clients with Azure API Management and Claude Models in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/connecting-claude-clients-with-azure-api-management-and-claude/ba-p/4525212",
+      "published": "2026-06-10T20:02:12+00:00",
+      "summary": "Summary You want to give your engineering org Claude Code without handing out Anthropic API keys, without per-developer billing sprawl, and without losing visibility into who is spending what. This post shows a battle-tested pattern: Claude models run in Microsoft Foundry, billed through your Azure...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "MuraliKumanduri",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "PUBLIC PREVIEW - Azure Monitor - Collect Azure Resource Platform Logs at Scale with DCRs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-azure-monitor-collect-azure-resource-platform/ba-p/4525296",
+      "published": "2026-06-10T19:34:21+00:00",
+      "summary": "The Challenge of Platform Log Collection at Scale For many platform teams, Azure resource platform log collection starts simple—but becomes difficult to manage at enterprise scale. Imagine a team responsible for more than 8,000 Azure resources across 14 subscriptions. Every new resource needs a...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Mahesh_Sundaram",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Join us for .NET Day on Agentic Modernization Livestream",
       "link": "https://devblogs.microsoft.com/dotnet/join-us-for-dotnet-day-on-agentic-modernization-livestream/",
       "published": "2026-06-10T17:05:00+00:00",
@@ -22,6 +44,17 @@
       "blogId": "dotnet",
       "author": "Jeffrey Fritz",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Retirement: Azure Synapse Link for Azure Cosmos DB NoSQL",
+      "link": "https://azure.microsoft.com/updates?id=558560",
+      "published": "2026-06-10T17:00:06+00:00",
+      "summary": "As of March 31, 2026, new Azure Cosmos DB NoSQL accounts can no longer enable Azure Synapse Link. Existing customers will remain fully supported until March 31, 2029, when Azure Synapse Link will reach end of life.We encourage all customers to begin migra",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -44,17 +77,6 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "renaliu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "PUBLIC PREVIEW - Azure Monitor - Collect Azure Resource Platform Logs at Scale with DCRs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-azure-monitor-collect-azure-resource-platform/ba-p/4525296",
-      "published": "2026-06-10T16:31:32+00:00",
-      "summary": "The Challenge of Platform Log Collection at Scale For many platform teams, Azure resource platform log collection starts simple—but becomes difficult to manage at enterprise scale. Imagine a team responsible for more than 8,000 Azure resources across 14 subscriptions. Every new resource needs a...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Mahesh_Sundaram",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -1078,17 +1100,6 @@
       "blogId": "microsoftdefendercloudblog",
       "author": "Yura_Lee",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Giving Developers Claude Code with Azure API Management and Claude Models in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/giving-developers-claude-code-with-azure-api-management-and/ba-p/4525212",
-      "published": "2026-06-04T17:41:20+00:00",
-      "summary": "Summary You want to give your engineering org Claude Code without handing out Anthropic API keys, without per-developer billing sprawl, and without losing visibility into who is spending what. This post shows a battle-tested pattern: Claude models run in Microsoft Foundry, billed through your Azure...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "MuraliKumanduri",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -5243,17 +5254,6 @@
       "link": "https://azure.microsoft.com/updates?id=562695",
       "published": "2026-05-19T16:45:42+00:00",
       "summary": "Azure Virtual Network has increased the default platform limits for network security groups (NSGs) and route tables. The new defaults are now 2,000 security rules per NSG, 6,000 addresses or ports per NSG rule, 1,000 routes per route table, and 600 route",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Network Watcher rule impact analyser",
-      "link": "https://azure.microsoft.com/updates?id=562690",
-      "published": "2026-05-19T16:45:42+00:00",
-      "summary": "Azure Network Watcher rule impact analyzer is now generally available, enabling you to assess the potential impact of your network security group (NSG) or security admin rule changes on live network traffic before applying them. With this capability, you",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -12345,5 +12345,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Microsoft’s Azure and GitHub news today is heavily focused on AI agents and developer tooling: Microsoft promoted a .NET Day livestream on “agentic modernization,” a Path to Production for Agents webinar series, Azure API Management support to productize and govern MCP servers, Azure Container Instances “sandboxes” for future agentic compute, and new evaluation/security tooling like ASSERT for agent testing and a dedicated Copilot CLI security review command. On the platform side, Azure announced a public preview for collecting Azure Resource Platform logs at scale in Azure Monitor via DCRs, guidance for moving from Azure Language features to Azure AI Foundry models, and an Azure VPN Client for Linux preview retirement date of August 31, 2026.\n\nDeveloper experience updates were also significant, including Visual Studio Code 1.124, GitHub Copilot CLI gaining language-server-based code intelligence, Dependabot support for the Deno ecosystem, GitHub increasing enterprise cost centers to 500, Terraform v1.15.6, and PowerToys 0.100 improvements to Shortcut Guide and Command Palette. Overall, the biggest themes are enterprise-ready AI/agent workflows, stronger observability and governance in Azure, and steady upgrades to Microsoft’s broader developer toolchain."
+  "summary": "Today’s Azure and Microsoft developer posts were dominated by the “agentic AI to production” theme: Microsoft highlighted Azure API Management for securing and productizing MCP servers and connecting Claude clients to Claude models in Azure AI Foundry, introduced ASSERT to turn specs into evals for AI agents, previewed ACI Sandboxes as agent-focused compute, and promoted webinars and livestreams around agentic modernization and production readiness. On the tooling side, Microsoft also pushed developer productivity updates including Visual Studio Code 1.124, PowerToys 0.100, GitHub Copilot CLI language-server-based code intelligence plus a new security review command, and Dependabot support for the Deno ecosystem.\n\nThe other major theme was platform operations and lifecycle change: Azure Monitor entered public preview for collecting Azure Resource Platform Logs at scale via Data Collection Rules, while Microsoft announced retirements for Azure Synapse Link for Azure Cosmos DB NoSQL and the Azure VPN Client for Linux (Preview), and urged customers to transition Azure Language features toward Foundry models. GitHub enterprise administration also expanded with support for up to 500 cost centers."
 }
