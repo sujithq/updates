@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T10:14:04.590388+00:00",
+  "lastUpdated": "2026-06-10T11:44:46.730891+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -923,6 +923,17 @@
       "action": "Migrate Copilot workflows to supported models immediately",
       "detected": "2026-06-06T10:14:04.590377+00:00",
       "published": "2026-06-05T22:32:00+00:00",
+      "blog": "GitHub Changelog"
+    },
+    {
+      "link": "https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12",
+      "title": "Upcoming breaking changes for npm v12",
+      "severity": "info",
+      "deadline": null,
+      "impact": "npm v12 will change npm install defaults; users relying on current behavior may break",
+      "action": "Test with npm 11.16.0+ warnings and update install workflows before upgrading",
+      "detected": "2026-06-10T11:44:46.730880+00:00",
+      "published": "2026-06-09T20:04:10+00:00",
       "blog": "GitHub Changelog"
     }
   ]
