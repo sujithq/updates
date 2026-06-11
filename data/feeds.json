@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-11T07:20:08.610284+00:00",
-  "totalArticles": 1121,
+  "lastUpdated": "2026-06-11T12:35:36.043854+00:00",
+  "totalArticles": 1120,
   "articles": [
     {
       "title": "Visual Studio Code 1.125",
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Debug App Startup Faster on Azure App Service for Linux with Startup Logs",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/debug-app-startup-faster-on-azure-app-service-for-linux-with/ba-p/4527521",
+      "published": "2026-06-11T12:34:17+00:00",
+      "summary": "When an app fails to start on Azure App Service for Linux, one of the first things you need is visibility into what happened during startup. This can include container initialization, runtime setup, startup command execution, application output, and warmup probe results. To make this easier, we...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "TulikaC",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Performance Tuning Cold Starts, Scaling Delays, and Startup Latency in Azure Container Apps",
@@ -135,17 +146,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "PUBLIC PREVIEW - Azure Monitor - Collect Azure Resource Platform Logs at Scale with DCRs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-azure-monitor-collect-azure-resource-platform/ba-p/4525296",
-      "published": "2026-06-10T19:34:21+00:00",
-      "summary": "The Challenge of Platform Log Collection at Scale For many platform teams, Azure resource platform log collection starts simple—but becomes difficult to manage at enterprise scale. Imagine a team responsible for more than 8,000 Azure resources across 14 subscriptions. Every new resource needs a...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Mahesh_Sundaram",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Join us for .NET Day on Agentic Modernization Livestream",
       "link": "https://devblogs.microsoft.com/dotnet/join-us-for-dotnet-day-on-agentic-modernization-livestream/",
       "published": "2026-06-10T17:05:00+00:00",
@@ -187,6 +187,17 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "renaliu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "PUBLIC PREVIEW - Azure Monitor - Collect Azure Resource Platform Logs at Scale with DCRs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-azure-monitor-collect-azure-resource-platform/ba-p/4525296",
+      "published": "2026-06-10T16:31:32+00:00",
+      "summary": "The Challenge of Platform Log Collection at Scale For many platform teams, Azure resource platform log collection starts simple—but becomes difficult to manage at enterprise scale. Imagine a team responsible for more than 8,000 Azure resources across 14 subscriptions. Every new resource needs a...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Mahesh_Sundaram",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -243,6 +254,17 @@
       "author": "brauerblogs",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Incremental analysis for Go, C/C++, and CodeQL CLI",
+      "link": "https://github.blog/changelog/2026-06-10-incremental-analysis-for-go-c-c-and-codeql-cli",
+      "published": "2026-06-10T12:02:12+00:00",
+      "summary": "CodeQL scans on pull requests for C/C++ and Go now run incrementally, making them faster. Earlier this year, we released improved incremental analysis for CodeQL analysis of C#, Java, JavaScript/TypeScript,… The post Incremental analysis for Go, C/C++, and CodeQL CLI appeared first on The GitHub...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "v1.15.6",
@@ -342,17 +364,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Bring Your Own GitHub App: Connecting Azure SRE Agent to Enterprise Repositories",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bring-your-own-github-app-connecting-azure-sre-agent-to/ba-p/4524673",
-      "published": "2026-06-09T21:12:35+00:00",
-      "summary": "What if your SRE agent could access your enterprise GitHub repositories the same way your CI/CD pipelines do with a governed service identity, not a personal token? Azure SRE Agent connects to your GitHub repositories to build rich context about your systems source code, infrastructure definitions,...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "dchelupati",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Upcoming breaking changes for npm v12",
@@ -513,17 +524,6 @@
       "link": "https://github.blog/changelog/2026-06-09-periodic-code-scanning-of-inactive-repositories",
       "published": "2026-06-09T07:21:22+00:00",
       "summary": "GitHub code scanning now supports scheduled security scans of repositories that have had no pushes or pull requests for six months or more. Organizations can use this to maintain continuous… The post Periodic code scanning of inactive repositories appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Security validation for third-party coding agents",
-      "link": "https://github.blog/changelog/2026-06-09-security-validation-for-third-party-coding-agents",
-      "published": "2026-06-09T07:12:54+00:00",
-      "summary": "Security validation for third-party coding agents is now generally available. GitHub supports third-party coding agents (including Claude and OpenAI Codex) that work directly within your repositories to implement features, fix… The post Security validation for third-party coding agents appeared...",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -12321,18 +12321,7 @@
       "author": "farhanhussain",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecommunicationservicesblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "A practitioner's guide to accelerating FinOps with GitHub Copilot and FinOps hubs",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/a-practitioner-s-guide-to-accelerating-finops-with-github/ba-p/4420302",
-      "published": "2025-06-10T10:00:00+00:00",
-      "summary": "ℹ️ Quick implementation overview Setup time: ~30 minutes for basic configurationTarget audience: FinOps practitioners, finance teams, engineering managersPrerequisites: Azure subscription with FinOps hubs deployed, VS Code, GitHub CopilotKey enabler: FinOps Hub Copilot v0.11 release Key benefits 🎯...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "Brett_Wilson",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage focused on improving **startup performance in Azure Container Apps**, especially around **cold starts**, **scale-out delays**, and **application initialization latency**. The post highlights practical performance tuning techniques for containerized workloads on Azure, with specific attention to how **Azure Container Apps** handles scaling behavior and startup optimization for faster, more responsive deployments."
+  "summary": "Today’s Azure posts focus on improving startup visibility and reducing latency for cloud-native apps on Linux-based Azure services. Azure App Service for Linux now highlights **Startup Logs** to speed diagnosis of app boot failures and misconfigurations, while the Azure Container Apps post dives into **cold starts, scaling delays, and startup latency**, covering performance tuning for containerized workloads to make autoscaling and initialization faster and more predictable."
 }
