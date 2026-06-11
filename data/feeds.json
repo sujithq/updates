@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T18:00:17.420428+00:00",
+  "lastUpdated": "2026-06-11T20:17:08.462839+00:00",
   "totalArticles": 1119,
   "articles": [
     {
@@ -14,14 +14,102 @@
       "sourceType": "rss"
     },
     {
-      "title": "A deep dive into Azure Bastion session recording",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/a-deep-dive-into-azure-bastion-session-recording/ba-p/4527583",
-      "published": "2026-06-11T17:36:01+00:00",
-      "summary": "If you’ve worked with Azure Bastion’s Premium SKU, you’ve likely encountered one of its most powerful security features: graphical session recording. Capturing RDP and SSH sessions end to end strengthens compliance, supports forensic investigations, and improves operational accountability. How you...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "juquint",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "title": "Bot-created pull requests can run workflows if approved",
+      "link": "https://github.blog/changelog/2026-06-11-bot-created-pull-requests-can-run-workflows-if-approved",
+      "published": "2026-06-11T19:00:56+00:00",
+      "summary": "Pull requests created by the github-actions[bot] are now able to run your CI/CD workflows with user approval. Requiring approval is a security measure to ensure generated code does not automatically… The post Bot-created pull requests can run workflows if approved appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Retirement: Av2-series, F-series, Fs-series, Fsv2-series, G-series, Gs-series, and Lsv2-series Virtual Machines for Azure Batch pools",
+      "link": "https://azure.microsoft.com/updates?id=564774",
+      "published": "2026-06-11T19:00:41+00:00",
+      "summary": "Azure Compute will retire the following Virtual Machine series on November 15, 2028, impacting Azure Batch pools that rely on them:Av2-seriesF-series, Fs-series, Fsv2-seriesG-series, Gs-seriesLsv2-seriesAfter this date:New Batch pools using these VM serie",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Retirement: D-series, Ds-series, Dv2-series, Dsv2-series, and Ls-series Virtual Machines for Azure Batch pools",
+      "link": "https://azure.microsoft.com/updates?id=564772",
+      "published": "2026-06-11T19:00:41+00:00",
+      "summary": "Azure Compute will retire the following Virtual Machine series on May 1, 2028, impacting Azure Batch pools that rely on them:D-series, Ds-seriesDv2-series, Dsv2-seriesLs-seriesAfter this date:New Batch pools using these VM series cannot be createdExisting",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Retirement: GPv1 and Legacy Blob storage account creation",
+      "link": "https://azure.microsoft.com/updates?id=564441",
+      "published": "2026-06-11T19:00:41+00:00",
+      "summary": "As part of our ongoing efforts to streamline the Azure Storage portfolio and deliver enhanced performance, scalability, and cost efficiency, we are announcing the retirement of all General purpose v1 (GPv1) storage accounts. This includes legacy blob stor",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Modern VM monitoring, powered by OpenTelemetry",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/modern-vm-monitoring-powered-by-opentelemetry/ba-p/4527566",
+      "published": "2026-06-11T18:57:11+00:00",
+      "summary": "At Build 2026, we're announcing the general availability of OpenTelemetry (OTel) Guest OS metrics for Azure VMs and Arc-enabled Servers. OTel provides a standards-based foundation for VM monitoring with consistent metrics across Windows and Linux, richer Guest OS and per-process visibility, and...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "viviandiec",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876",
+      "published": "2026-06-11T18:53:37+00:00",
+      "summary": "Microsoft's Cloud Architects: Paul Singh PaulSingh​, Eduardo Dos Santos eduardomdossantos​, Chris Walk cwalk​, Peter Lo PeterLo​, Tim Orentlikher tim_orentlikher​, Ajmal Hossain ajmalhossain​, Chris Haynes Chris_Haynes​, and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[Launched] Generally Available: SQL MCP Server",
+      "link": "https://azure.microsoft.com/updates?id=564734",
+      "published": "2026-06-11T18:45:02+00:00",
+      "summary": "SQL MCP Server is now generally available, giving customers a secure, high-performance way to build agentic solutions with controlled access to production data. Built for SQL and compatible with PostgreSQL and Azure Cosmos DB, SQL MCP Server is a dynamic,",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "AI usage report updates",
+      "link": "https://github.blog/changelog/2026-06-11-ai-usage-report-updates",
+      "published": "2026-06-11T18:27:05+00:00",
+      "summary": "Your AI usage reports now reflect GitHub AI Credits usage in the standard report fields. To monitor AI credit usage going forward, use quantity for AI credit quantity and gross_amount… The post AI usage report updates appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Transitioning from Azure Language Features to Foundry Models",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/transitioning-from-azure-language-features-to-foundry-models/ba-p/4524092",
+      "published": "2026-06-11T18:06:43+00:00",
+      "summary": "Azure AI Language in Foundry Tools will begin deprecating eight features: Key Phrase Extraction, Entity Linking, Sentiment Analysis & Opinion Mining, Summarization (document & conversation), Conversational Language Understanding (CLU), Custom Question Answering (CQA), Orchestration Workflow, and...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "renaliu",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -47,10 +135,32 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Available today: Anthropic Claude Fable 5 in Microsoft 365 Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832",
+      "published": "2026-06-11T16:54:21+00:00",
+      "summary": "We’re expanding model choice in Microsoft 365 Copilot with Anthropic’s latest model, Claude Fable 5 as a preview model—designed to support longer, multi-step workflows. As organizations move beyond simple prompts to more complex work, Copilot helps users plan, draft, and iterate across tasks with...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "Bas Brekelmans",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Copilot CLI: Configure everything from one place with /settings",
       "link": "https://github.blog/changelog/2026-06-11-copilot-cli-configure-everything-from-one-place-with-settings",
       "published": "2026-06-11T16:44:55+00:00",
       "summary": "GitHub Copilot CLI now has a unified, schema-driven home for configuration. The new /settings slash command combines the scattered commands like /theme, /streamer-mode, and /experimental with options that previously required… The post Copilot CLI: Configure everything from one place with /settings...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "New runner images in public preview",
+      "link": "https://github.blog/changelog/2026-06-11-new-runner-images-in-public-preview",
+      "published": "2026-06-11T16:18:07+00:00",
+      "summary": "Two new GitHub-hosted runner images for GitHub Actions are now available in public preview for all users, giving you early access to test your workflows on the latest platforms before… The post New runner images in public preview appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -113,14 +223,14 @@
       "sourceType": "rss"
     },
     {
-      "title": "Azure Functions at Build 2026 Update",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-functions-at-build-2026-update/ba-p/4524075",
-      "published": "2026-06-11T15:50:49+00:00",
-      "summary": "Azure Functions took another big leap at Build 2026. It is now the best programming model for event-driven apps and agents, on the best infrastructure to write secure code that scales. The headline features: serverless agents, connectors to M365, Teams, and more, Go, MCP, and Durable Tasks....",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "nzthiago",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "title": "What’s New in Notebooks | June 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625",
+      "published": "2026-06-11T15:03:45+00:00",
+      "summary": "Today, Copilot Notebooks is rolling out to more people across your team, making shared notebook collaboration broadly accessible in the Microsoft 365 Copilot app and OneNote. Copilot Notebooks are available to Copilot Chat users Previously only available to Microsoft 365 Copilot users, Copilot...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "ezrapark",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -135,28 +245,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Real-Time Simulation with Ansys Discovery on Azure AMD Radeon V710 GPUs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/real-time-simulation-with-ansys-discovery-on-azure-amd-radeon/ba-p/4527323",
-      "published": "2026-06-11T14:09:17+00:00",
-      "summary": "Overview of Synopsys-Ansys Discovery Ansys Discovery is an interactive engineering application that unifies 3D geometry modeling, real‑time simulation, and visual analysis into a single, immersive workspace. It is purpose‑built to accelerate early‑stage engineering exploration while maintaining...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "Sunita_AZ0708",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876",
-      "published": "2026-06-11T13:41:20+00:00",
-      "summary": "Microsoft's Cloud Architects: Paul Singh PaulSingh​, Eduardo Dos Santos eduardomdossantos​, Chris Walk cwalk​, Peter Lo PeterLo​, Tim Orentlikher, Ajmal Hossain ajmalhossain​, Chris Haynes Chris_Haynes​, and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints in Azure...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Microsoft Fabric to Azure Databricks: Another Better Together Story!",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/microsoft-fabric-to-azure-databricks-another-better-together/ba-p/4526166",
       "published": "2026-06-11T13:34:46+00:00",
@@ -165,17 +253,6 @@
       "blogId": "analyticsonazure",
       "author": "Rafia_Aqil",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Dynamic Connection Properties in Azure Logic Apps Standard",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/dynamic-connection-properties-in-azure-logic-apps-standard/ba-p/4527525",
-      "published": "2026-06-11T13:20:10+00:00",
-      "summary": "Switching Built-in Connections at Runtime The Problem Imagine your organization has a single Logic App workflow used by multiple teams. Each team has its own SFTP server, database, or service bus namespace. Traditionally, you'd need separate workflows or hardcode a single connection — neither...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "ShubhamSachdeva99",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -198,6 +275,17 @@
       "blogId": "azuredevcommunityblog",
       "author": "BhaktiRath95",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Now in Foundry: Command A+ (W4A4), Chandra OCR 2, and GLM-OCR",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/now-in-foundry-command-a-w4a4-chandra-ocr-2-and-glm-ocr/ba-p/4526875",
+      "published": "2026-06-10T22:59:40+00:00",
+      "summary": "We are seeing two distinct trends this week. The first is around how low-bit quantization has developed to the point where large reasoning models can fit on a single accelerator with less quality loss. Second, a new wave of OCR-specialized vision-language models are redefining the...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Osi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -333,17 +421,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Transitioning from Azure Language Features to Foundry Models",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/transitioning-from-azure-language-features-to-foundry-models/ba-p/4524092",
-      "published": "2026-06-10T16:43:54+00:00",
-      "summary": "Azure AI Language in Foundry Tools will begin deprecating eight features: Key Phrase Extraction, Entity Linking, Sentiment Analysis & Opinion Mining, Summarization (document & conversation), Conversational Language Understanding (CLU), Custom Question Answering (CQA), Orchestration Workflow, and...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "renaliu",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Retirement: Azure VPN Client for Linux (Preview) will be retired on August 31, 2026",
       "link": "https://azure.microsoft.com/updates?id=565393",
       "published": "2026-06-10T16:15:16+00:00",
@@ -399,17 +476,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Incremental analysis for Go, C/C++, and CodeQL CLI",
-      "link": "https://github.blog/changelog/2026-06-10-incremental-analysis-for-go-c-c-and-codeql-cli",
-      "published": "2026-06-10T12:02:12+00:00",
-      "summary": "CodeQL scans on pull requests for C/C++ and Go now run incrementally, making them faster. Earlier this year, we released improved incremental analysis for CodeQL analysis of C#, Java, JavaScript/TypeScript,… The post Incremental analysis for Go, C/C++, and CodeQL CLI appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "v1.15.6",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.6",
       "published": "2026-06-10T11:52:20+00:00",
@@ -418,17 +484,6 @@
       "blogId": "terraform",
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Dedicated security review command now available in Copilot CLI",
-      "link": "https://github.blog/changelog/2026-06-10-dedicated-security-review-command-now-available-in-copilot-cli",
-      "published": "2026-06-10T11:44:41+00:00",
-      "summary": "You can now run a security review on your code changes directly from GitHub Copilot CLI. The new /security-review slash command is shipping as an experimental feature in public preview,… The post Dedicated security review command now available in Copilot CLI appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -485,17 +540,6 @@
       "author": "DanaCozmei",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Dependabot version updates now support the Deno ecosystem",
-      "link": "https://github.blog/changelog/2026-06-09-dependabot-version-updates-now-support-the-deno-ecosystem",
-      "published": "2026-06-10T00:24:41+00:00",
-      "summary": "Dependabot now supports Deno. This applies to version updates, not security updates. Get started Add a Deno entry to your .github/dependabot.yml file, and Dependabot will start opening pull requests on… The post Dependabot version updates now support the Deno ecosystem appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "[In preview] Public Preview: Agent mode for GitHub Copilot in SQL Server Management Studio (SSMS)",
@@ -2232,6 +2276,17 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "Mike_Hulme",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure Functions at Build 2026 Update",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-functions-at-build-2026-update/ba-p/4524075",
+      "published": "2026-06-02T19:47:19+00:00",
+      "summary": "Azure Functions took another big leap at Build 2026. It is now the best programming model for event-driven apps and agents, on the best infrastructure to write secure code that scales. The headline features: serverless agents, connectors to M365, Teams, and more, Go, MCP, and Durable Tasks....",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "nzthiago",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -4469,17 +4524,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Extending the Vercel AI SDK to Microsoft Foundry (TypeScript)",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/extending-the-vercel-ai-sdk-to-microsoft-foundry-typescript/ba-p/4518313",
-      "published": "2026-05-29T01:20:54+00:00",
-      "summary": "The Vercel AI SDK gives developers one elegant, provider‑agnostic surface (generateText, streamText, tools, structured output) for building agentic apps. The official AI​-sdk/azure provider, however, only targets the Azure OpenAI chat surface and hence the rest of Microsoft Foundry's catalog...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "jyravi",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[Preview] CIS Benchmarks on Azure; Now for Windows Server",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/preview-cis-benchmarks-on-azure-now-for-windows-server/ba-p/4523432",
       "published": "2026-05-28T23:33:29+00:00",
@@ -5195,37 +5239,15 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: site-to-site VPN connections with certificate authentication",
-      "link": "https://azure.microsoft.com/updates?id=562705",
-      "published": "2026-05-20T16:45:53+00:00",
-      "summary": "Azure Site-to-Site VPN with digital certificate authentication provides an alternative to the traditional pre-shared key (PSK) model by using a certificate-based asymmetric trust model. In this configuration, Azure and the on-premises VPN device authentic",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Azure Event Grid Subscription Identifiers",
-      "link": "https://azure.microsoft.com/updates?id=562970",
-      "published": "2026-05-20T15:15:40+00:00",
-      "summary": "Gain more flexibility in message handling with Subscription Identifiers by enabling subscribers to identify which subscription triggered delivery, helping streamline client-side processing in more advanced MQTT scenarios. Together, these enhanc",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure Event Grid releases for April 2026",
-      "link": "https://azure.microsoft.com/updates?id=562240",
-      "published": "2026-05-20T15:15:40+00:00",
-      "summary": "Azure Event Grid namespaces are expanding MQTT capabilities to help organizations build more connected, scalable, and MQTT V5 standards-based real-time solutions. These updates make it easier to deliver responsive device experiences, simplify backend inte",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
+      "title": "Bulk-configure diagnostic settings on Azure Logic Apps Consumptions",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/bulk-configure-diagnostic-settings-on-azure-logic-apps/ba-p/4521454",
+      "published": "2026-05-20T08:47:16+00:00",
+      "summary": "Bulk-configure diagnostic settings on Azure Logic Apps — without clicking through the Portal LA-BulkDiag is a small, single-file PowerShell script that does the whole job in one guided run. It enumerates every Consumption Logic App in a resource group, shows you which ones already have settings,...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Yanbo_Deng",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Golden Image Refresh for Virtual Machines and VM Scale Sets: Driving Consistency at Scale",
@@ -5325,17 +5347,6 @@
       "author": "chandanAggarwal",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "[In preview] Public Preview: Evaluate feature rollouts with Azure App Configuration Scorecards",
-      "link": "https://azure.microsoft.com/updates?id=561049",
-      "published": "2026-05-19T17:15:23+00:00",
-      "summary": "Azure App Configuration now supports a scorecards capability in public preview. Scorecards provide a telemetry-driven view of how feature flag variants are performing in production, helping teams identify measurable changes after a rollout without manuall",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
     },
     {
       "title": "Agentic-Agile: Why Agent Development Needs Agile (Not Just Prompts)",
@@ -7802,17 +7813,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Copilot in Word: New Capabilities for Document Workflows",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-in-word-new-capabilities-for-document-workflows/ba-p/4508974",
-      "published": "2026-04-13T20:03:51+00:00",
-      "summary": "Today, we are introducing new Copilot in Word capabilities for legal, finance, and compliance professionals doing high stakes, and detail intensive work. Whether reviewing contracts or finalizing policy documents, Copilot can track changes when an audit trail is needed. This release supports the...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "SusanHendrich",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Connecting an ExpressRoute circuit to Megaport Virtual Edge",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/connecting-an-expressroute-circuit-to-megaport-virtual-edge/ba-p/4510770",
       "published": "2026-04-13T13:18:18+00:00",
@@ -8009,17 +8009,6 @@
       "author": "Microsoft",
       "feedUrl": "https://blog.aks.azure.com/rss.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Latest enhancements for Copilot security, management, and analytics",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/latest-enhancements-for-copilot-security-management-and/ba-p/4508476",
-      "published": "2026-04-07T21:31:46+00:00",
-      "summary": "As Copilot becomes a daily workflow for more teams, IT and security leaders need clear, practical controls to deploy and manage confidently—without slowing down adoption or compromising governance. Let's take a closer look at the new enhancements providing built-in security, management, and...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "Sophie_Ke",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "MCP as Easy as 1-2-3: Introducing the Fluent API for MCP Apps",
@@ -8460,17 +8449,6 @@
       "author": "Ronnie Geraghty",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Copy dashboards from Dashboards with Grafana to Azure Managed Grafana",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/copy-dashboards-from-dashboards-with-grafana-to-azure-managed/ba-p/4505710",
-      "published": "2026-03-26T17:28:43+00:00",
-      "summary": "Azure Monitor Dashboards with Grafana provides an in‑portal Grafana experience optimized for Azure Monitor and managed Prometheus data. For many teams, that simplicity is exactly what they need. As observability practices mature, teams often need more than visualization: broader data source...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "aayodeji",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Assess Azure DDoS Protection Status Across Your Environment",
@@ -10717,6 +10695,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Azure CycleCloud 8.8 and CCWS 1.2 at SC25 and Ignite",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/azure-cyclecloud-8-8-and-ccws-1-2-at-sc25-and-ignite/ba-p/4468201",
+      "published": "2025-11-19T15:02:15+00:00",
+      "summary": "Azure CycleCloud 8.8: Advancing HPC & AI Workloads with Smarter Health Checks Azure CycleCloud continues to evolve as the backbone for orchestrating high-performance computing (HPC) and AI workloads in the cloud. With the release of CycleCloud 8.8, users gain access to a suite of new features...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "anhoward",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "PowerToys 0.96 is here: endpoints for Advanced Paste, metadata support for PowerRename and more!",
       "link": "https://devblogs.microsoft.com/commandline/powertoys-0-96-is-here-endpoints-for-advanced-paste-metadata-support-for-powerrename-and-more/",
       "published": "2025-11-19T13:11:02+00:00",
@@ -11199,6 +11188,17 @@
       "author": "Sagar Chandra Reddy Lankala",
       "feedUrl": "https://devblogs.microsoft.com/develop-from-the-cloud/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Prescaling in Azure Firewall is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/prescaling-in-azure-firewall-is-now-generally-available/ba-p/4461584",
+      "published": "2025-10-16T18:00:59+00:00",
+      "summary": "Azure Firewall protects your applications and workloads with cloud-native network security that automatically scales based on your traffic needs. Today, we’re excited to announce the general availability of prescaling in Azure Firewall – a new capability that gives you more control and...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "surenjamiyanaa",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "PowerToys 0.95 is here: new Light Switch utility, faster Command Palette, and Peek with Spacebar",
@@ -12312,5 +12312,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Microsoft’s latest Azure and GitHub updates center on observability, security, and developer productivity: Azure Monitor SLIs and Metrics Export both reached general availability, Azure Bastion added detailed session recording, and GitHub Advanced Security expanded with Copilot Autofix for Azure DevOps plus improved secret scanning to cut false positives. On the app platform side, Microsoft highlighted Azure Functions updates from Build 2026, faster troubleshooting for App Service on Linux with startup logs, performance tuning guidance for Azure Container Apps, and new dynamic connection properties in Logic Apps Standard.\n\nAI-assisted and agentic development was another major theme, with GitHub Agentic Workflows entering public preview, dropping the need for a personal access token, and Copilot CLI adding centralized `/settings` management; Visual Studio also now supports reviewing pull requests in-IDE. Infrastructure and data announcements included the retirement of Azure Load Balancer Inbound NAT rule v1 for VM Scale Sets, Ansys Discovery support on Azure AMD Radeon V710 GPUs, Azure Databricks guidance on handling capacity constraints plus tighter Microsoft Fabric integration, showing continued investment across HPC, analytics, and cloud operations."
+  "summary": "Today’s Azure-related posts were dominated by modernization and platform transition news: Azure is retiring multiple older Azure Batch VM families (Av2, F/Fs/Fsv2, G/Gs, Lsv2, D/Ds/Dv2/Dsv2, Ls), ending new GPv1 and Legacy Blob storage account creation, and retiring Load Balancer Inbound NAT rule v1 for VM Scale Sets—clear signals to move to newer compute, storage, and networking architectures. On the observability side, Azure emphasized OpenTelemetry-powered VM monitoring plus the general availability of Azure Monitor SLIs and Metrics Export, strengthening native reliability and telemetry tooling.\n\nAI and developer productivity were the other big themes: Microsoft highlighted the transition from Azure Language features to Foundry Models, general availability of SQL MCP Server, Azure Databricks capacity guidance, and Anthropic Claude Fable 5 availability in Microsoft 365 Copilot. GitHub announcements centered on more autonomous and secure workflows—Agentic Workflows entering public preview and dropping PAT requirements, bot-created PR workflows with approvals, Copilot CLI `/settings`, new runner images, AI usage report updates, and improved secret scanning—along with Copilot Autofix for GitHub Advanced Security in Azure DevOps."
 }
