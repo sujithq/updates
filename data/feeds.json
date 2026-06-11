@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T02:10:34.312915+00:00",
+  "lastUpdated": "2026-06-11T07:20:08.610284+00:00",
   "totalArticles": 1121,
   "articles": [
     {
@@ -14,6 +14,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Performance Tuning Cold Starts, Scaling Delays, and Startup Latency in Azure Container Apps",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/performance-tuning-cold-starts-scaling-delays-and-startup/ba-p/4518523",
+      "published": "2026-06-11T07:00:00+00:00",
+      "summary": "Introduction There is a particular kind of frustration that comes not when your application fails to start, but when it starts too slowly. The container is running, the health probes pass, your monitoring shows green — and yet every few minutes a user somewhere in the world hits a request that...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "BhaktiRath95",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Available today: Anthropic Claude Fable 5 in Microsoft 365 Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832",
       "published": "2026-06-10T23:45:46+00:00",
@@ -22,6 +33,17 @@
       "blogId": "microsoft365copilotblog",
       "author": "Bas Brekelmans",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Now in Foundry: Command A+ (W4A4), Chandra OCR 2, and GLM-OCR",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/now-in-foundry-command-a-w4a4-chandra-ocr-2-and-glm-ocr/ba-p/4526875",
+      "published": "2026-06-10T22:59:40+00:00",
+      "summary": "We are seeing two distinct trends this week. The first is around how low-bit quantization has developed to the point where large reasoning models can fit on a single accelerator with less quality loss. Second, a new wave of OCR-specialized vision-language models are redefining the...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Osi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -45,6 +67,17 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Announcing Azure Linux 4.0: Purpose-Built for Azure, Now in Public Preview",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/announcing-azure-linux-4-0-purpose-built-for-azure-now-in-public/ba-p/4524267",
+      "published": "2026-06-10T20:56:42+00:00",
+      "summary": "Today at Microsoft Build, we're announcing the public preview of Azure Linux 4.0 - Microsoft's first party Linux distribution, purpose-built for Azure. Azure Linux 4.0 is available now for Azure Virtual Machines, VM Scale Sets, and container images – with Azure Kubernetes Service (AKS) support and...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "poorvinarang",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Copilot Chat now sees your agent sessions",
@@ -77,6 +110,39 @@
       "blogId": "azuredevcommunityblog",
       "author": "j_folberth",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Introducing the New Browser Automation Tool with Toolboxes in Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-the-new-browser-automation-tool-with-toolboxes-in/ba-p/4522790",
+      "published": "2026-06-10T20:05:18+00:00",
+      "summary": "Your AI agent just analyzed 500 invoices—but it can't click the 'Submit' button to process them. AI agents can reason through complex problems, but they hit a wall when workflows require interacting with web interfaces The Browser Automation Tool bridges that gap, giving your agents the ability to...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "NandiniMuralidharan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Connecting Claude Clients with Azure API Management and Claude Models in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/connecting-claude-clients-with-azure-api-management-and-claude/ba-p/4525212",
+      "published": "2026-06-10T20:02:12+00:00",
+      "summary": "Summary You want to give your engineering org Claude Code without handing out Anthropic API keys, without per-developer billing sprawl, and without losing visibility into who is spending what. This post shows a battle-tested pattern: Claude models run in Microsoft Foundry, billed through your Azure...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "MuraliKumanduri",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "PUBLIC PREVIEW - Azure Monitor - Collect Azure Resource Platform Logs at Scale with DCRs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-azure-monitor-collect-azure-resource-platform/ba-p/4525296",
+      "published": "2026-06-10T19:34:21+00:00",
+      "summary": "The Challenge of Platform Log Collection at Scale For many platform teams, Azure resource platform log collection starts simple—but becomes difficult to manage at enterprise scale. Imagine a team responsible for more than 8,000 Azure resources across 14 subscriptions. Every new resource needs a...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Mahesh_Sundaram",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -121,17 +187,6 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "renaliu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "PUBLIC PREVIEW - Azure Monitor - Collect Azure Resource Platform Logs at Scale with DCRs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-azure-monitor-collect-azure-resource-platform/ba-p/4525296",
-      "published": "2026-06-10T16:31:32+00:00",
-      "summary": "The Challenge of Platform Log Collection at Scale For many platform teams, Azure resource platform log collection starts simple—but becomes difficult to manage at enterprise scale. Imagine a team responsible for more than 8,000 Azure resources across 14 subscriptions. Every new resource needs a...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Mahesh_Sundaram",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -1004,17 +1059,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Introducing the New Browser Automation Tool with Toolboxes in Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-the-new-browser-automation-tool-with-toolboxes-in/ba-p/4522790",
-      "published": "2026-06-04T19:37:39+00:00",
-      "summary": "AI agents can reason through complex problems—but they hit a wall when workflows require clicking buttons, filling forms, or navigating web interfaces. The Browser Automation Tool bridges that gap, giving your agents the ability to interact with any website the same way a human would. Here's what's...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "NandiniMuralidharan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[In preview] Public Preview: Tool search in Microsoft Foundry toolboxes",
       "link": "https://azure.microsoft.com/updates?id=563506",
       "published": "2026-06-04T19:30:58+00:00",
@@ -1122,17 +1166,6 @@
       "blogId": "microsoftdefendercloudblog",
       "author": "Yura_Lee",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Giving Developers Claude Code with Azure API Management and Claude Models in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/giving-developers-claude-code-with-azure-api-management-and/ba-p/4525212",
-      "published": "2026-06-04T17:41:20+00:00",
-      "summary": "Summary You want to give your engineering org Claude Code without handing out Anthropic API keys, without per-developer billing sprawl, and without losing visibility into who is spending what. This post shows a battle-tested pattern: Claude models run in Microsoft Foundry, billed through your Azure...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "MuraliKumanduri",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -2080,17 +2113,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Announcing Azure Linux 4.0: Purpose-Built for Azure, Now in Public Preview",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/announcing-azure-linux-4-0-purpose-built-for-azure-now-in-public/ba-p/4524267",
-      "published": "2026-06-02T20:00:00+00:00",
-      "summary": "Today at Microsoft Build, we're announcing the public preview of Azure Linux 4.0 - Microsoft's first party Linux distribution, purpose-built for Azure. Azure Linux 4.0 is available now for Azure Virtual Machines, VM Scale Sets, and container images – with Azure Kubernetes Service (AKS) support and...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "poorvinarang",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Introducing Azure Container Linux (ACL)",
@@ -4359,17 +4381,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Extending the Vercel AI SDK to Microsoft Foundry (TypeScript)",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/extending-the-vercel-ai-sdk-to-microsoft-foundry-typescript/ba-p/4518313",
-      "published": "2026-05-29T01:20:54+00:00",
-      "summary": "The Vercel AI SDK gives developers one elegant, provider‑agnostic surface (generateText, streamText, tools, structured output) for building agentic apps. The official AI​-sdk/azure provider, however, only targets the Azure OpenAI chat surface and hence the rest of Microsoft Foundry's catalog...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "jyravi",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[Preview] CIS Benchmarks on Azure; Now for Windows Server",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/preview-cis-benchmarks-on-azure-now-for-windows-server/ba-p/4523432",
       "published": "2026-05-28T23:33:29+00:00",
@@ -4598,17 +4609,6 @@
       "blogId": "microsoft365copilotblog",
       "author": "April_Olson",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Multi-Tenant Architecture: Real Challenges and an Azure Design Walkthrough",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/multi-tenant-architecture-real-challenges-and-an-azure-design/ba-p/4517460",
-      "published": "2026-05-27T07:00:00+00:00",
-      "summary": "Azure Multi-Tenant Architecture (B2C Scenario) Let’s start with a reference design commonly used in Azure-based systems. A pretty standard setup looks something like this: Microsoft Entra External ID (Azure AD B2C) for authentication Azure API Management as the entry layer App Service or Functions...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "pranav_pratik",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12333,5 +12333,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage focused on improving **startup performance in Azure Container Apps**, especially around **cold starts**, **scale-out delays**, and **application initialization latency**. The post highlights practical performance tuning techniques for containerized workloads on Azure, with specific attention to how **Azure Container Apps** handles scaling behavior and startup optimization for faster, more responsive deployments."
 }
