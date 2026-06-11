@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T11:44:46.730891+00:00",
+  "lastUpdated": "2026-06-11T12:15:40.297236+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -935,6 +935,39 @@
       "detected": "2026-06-10T11:44:46.730880+00:00",
       "published": "2026-06-09T20:04:10+00:00",
       "blog": "GitHub Changelog"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=558560",
+      "title": "Retirement: Azure Synapse Link for Azure Cosmos DB NoSQL",
+      "severity": "warning",
+      "deadline": "2029-03-31",
+      "impact": "Synapse Link for Cosmos DB NoSQL ends; existing users must migrate by 2029.",
+      "action": "Plan migration from Synapse Link to alternatives before 2029-03-31.",
+      "detected": "2026-06-11T12:15:40.297214+00:00",
+      "published": "2026-06-10T17:00:06+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/transitioning-from-azure-language-features-to-foundry-models/ba-p/4524092",
+      "title": "Transitioning from Azure Language Features to Foundry Models",
+      "severity": "info",
+      "deadline": null,
+      "impact": "Eight Azure AI Language features will deprecate in Foundry; affected app builders.",
+      "action": "Review impacted Language features and plan move to Foundry Models.",
+      "detected": "2026-06-11T12:15:40.297228+00:00",
+      "published": "2026-06-10T16:43:54+00:00",
+      "blog": "Azure AI Foundry Blog"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=565393",
+      "title": "Retirement: Azure VPN Client for Linux (Preview) will be retired on August 31, 2026",
+      "severity": "critical",
+      "deadline": "2026-08-31",
+      "impact": "Azure VPN Client for Linux Preview retires; Linux preview users are affected.",
+      "action": "Migrate off Azure VPN Client for Linux Preview before 2026-08-31.",
+      "detected": "2026-06-11T12:15:40.297233+00:00",
+      "published": "2026-06-10T16:15:16+00:00",
+      "blog": "Azure Updates"
     }
   ]
 }
