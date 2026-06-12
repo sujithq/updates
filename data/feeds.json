@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T02:06:39.956812+00:00",
+  "lastUpdated": "2026-06-12T07:10:09.361932+00:00",
   "totalArticles": 1119,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Troubleshooting ML Model Loading, GPU Issues, and Memory Pressure in Azure Container Apps",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/troubleshooting-ml-model-loading-gpu-issues-and-memory-pressure/ba-p/4518542",
+      "published": "2026-06-12T07:00:00+00:00",
+      "summary": "Introduction Deploying an AI application to Azure Container Apps is fundamentally different from deploying a web API. When you containerize a Django REST API, the application starts in a few seconds, the memory footprint is predictable, and the CPU usage scales linearly with requests. When you...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "BhaktiRath95",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "GitHub Enterprise Server 3.21 is now generally available",
@@ -4709,17 +4720,6 @@
       "author": "Anna Hoffman",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Building Agentic Systems on Azure: Microsoft Foundry Agents SDK vs Microsoft Agent Framework",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-agentic-systems-on-azure-microsoft-foundry-agents-sdk/ba-p/4517290",
-      "published": "2026-05-28T07:00:00+00:00",
-      "summary": "In my recent experience as a Senior Consultant at Microsoft, I’ve been actively involved in designing and delivering AI-driven solutions, with a strong focus on building intelligent agents using modern frameworks. Along the way, I've built agents using both Microsoft Foundry Agents SDK (hereafter...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "ChaitanyaThalloory",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Verification-driven tooling prompts for fast-moving codebases",
@@ -12311,5 +12311,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-databricks&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage focuses on operating AI workloads reliably in Azure Container Apps, especially around diagnosing ML model-loading failures, GPU-related issues, and memory pressure in containerized environments. The key technologies highlighted are Azure Container Apps, GPU-backed containers, and machine learning inference workloads, with practical guidance centered on troubleshooting resource constraints, startup/runtime failures, and performance stability for deployed models."
 }
