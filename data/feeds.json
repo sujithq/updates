@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T22:45:00.622869+00:00",
+  "lastUpdated": "2026-06-12T02:06:39.956812+00:00",
   "totalArticles": 1119,
   "articles": [
     {
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "GitHub Enterprise Server 3.21 is now generally available",
+      "link": "https://github.blog/changelog/2026-06-11-github-enterprise-server-3-21-is-now-generally-available",
+      "published": "2026-06-11T22:46:53+00:00",
+      "summary": "GitHub Enterprise Server (GHES) 3.21 enhances deployment efficiency, monitoring capabilities, code security, and policy management. Here are a few highlights in the 3.21 release: Organization custom properties are now generally… The post GitHub Enterprise Server 3.21 is now generally available...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -44,6 +55,28 @@
       "blogId": "microsoft365copilotblog",
       "author": "Bas Brekelmans",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Right‑sizing Azure Savings Plans, one hour at a time",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/right-sizing-azure-savings-plans-one-hour-at-a-time/ba-p/4527507",
+      "published": "2026-06-11T20:21:40+00:00",
+      "summary": "Most of us have, at some point, sized a commitment the same way we order food for a team offsite: estimate, round up, and hope nobody complains. It works for pizza. It is a less robust strategy for a three‑year Savings Plan. Azure Cost Management already produces commitment recommendations for you,...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "Dirk_Brinkmann",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "A deep dive into Azure Bastion session recording",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/a-deep-dive-into-azure-bastion-session-recording/ba-p/4527583",
+      "published": "2026-06-11T19:38:25+00:00",
+      "summary": "If you’ve worked with Azure Bastion’s Premium SKU, you’ve likely encountered one of its most powerful security features: graphical session recording. Capturing RDP and SSH sessions end to end strengthens compliance, supports forensic investigations, and improves operational accountability. How you...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "juquint",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -91,6 +124,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Modern VM monitoring, powered by OpenTelemetry",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/modern-vm-monitoring-powered-by-opentelemetry/ba-p/4527566",
+      "published": "2026-06-11T18:57:11+00:00",
+      "summary": "At Build 2026, we're announcing the general availability of OpenTelemetry (OTel) Guest OS metrics for Azure VMs and Arc-enabled Servers. OTel provides a standards-based foundation for VM monitoring with consistent metrics across Windows and Linux, richer Guest OS and per-process visibility, and...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "viviandiec",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876",
       "published": "2026-06-11T18:53:37+00:00",
@@ -132,6 +176,28 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "renaliu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure Monitor SLIs now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-slis-now-generally-available/ba-p/4523689",
+      "published": "2026-06-11T17:18:29+00:00",
+      "summary": "Azure Monitor SLIs are now generally available Service Level Indicators (SLIs) and Service Level Objectives (SLOs) in Azure Monitor are now generally available. Teams can now measure reliability based on customer experience, not just infrastructure signals. SLI: A quantitative measure of how well...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Sokuma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure Monitor Metrics Export Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-metrics-export-generally-available/ba-p/4523712",
+      "published": "2026-06-11T17:17:35+00:00",
+      "summary": "Today, we’re excited to announce the general availability of Azure Monitor Metrics Export using data collection rules (DCRs). A scalable, flexible way to continuously export platform metrics with dimensional fidelity, lower latency, and more control over what you send downstream. Azure Monitor...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Sokuma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -212,6 +278,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Azure Functions at Build 2026 Update",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-functions-at-build-2026-update/ba-p/4524075",
+      "published": "2026-06-11T15:50:49+00:00",
+      "summary": "Azure Functions took another big leap at Build 2026. It is now the best programming model for event-driven apps and agents, on the best infrastructure to write secure code that scales. The headline features: serverless agents, connectors to M365, Teams, and more, Go, MCP, and Durable Tasks....",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "nzthiago",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "What’s New in Notebooks | June 2026",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625",
       "published": "2026-06-11T15:03:45+00:00",
@@ -234,6 +311,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Real-Time Simulation with Ansys Discovery on Azure AMD Radeon V710 GPUs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/real-time-simulation-with-ansys-discovery-on-azure-amd-radeon/ba-p/4527323",
+      "published": "2026-06-11T14:09:17+00:00",
+      "summary": "Overview of Synopsys-Ansys Discovery Ansys Discovery is an interactive engineering application that unifies 3D geometry modeling, real‑time simulation, and visual analysis into a single, immersive workspace. It is purpose‑built to accelerate early‑stage engineering exploration while maintaining...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "Sunita_AZ0708",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Microsoft Fabric to Azure Databricks: Another Better Together Story!",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/microsoft-fabric-to-azure-databricks-another-better-together/ba-p/4526166",
       "published": "2026-06-11T13:34:46+00:00",
@@ -245,6 +333,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Dynamic Connection Properties in Azure Logic Apps Standard",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/dynamic-connection-properties-in-azure-logic-apps-standard/ba-p/4527525",
+      "published": "2026-06-11T13:20:10+00:00",
+      "summary": "Switching Built-in Connections at Runtime The Problem Imagine your organization has a single Logic App workflow used by multiple teams. Each team has its own SFTP server, database, or service bus namespace. Traditionally, you'd need separate workflows or hardcode a single connection — neither...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "ShubhamSachdeva99",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Debug App Startup Faster on Azure App Service for Linux with Startup Logs",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/debug-app-startup-faster-on-azure-app-service-for-linux-with/ba-p/4527521",
       "published": "2026-06-11T12:34:17+00:00",
@@ -253,6 +352,17 @@
       "blogId": "appsonazureblog",
       "author": "TulikaC",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Performance Tuning Cold Starts, Scaling Delays, and Startup Latency in Azure Container Apps",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/performance-tuning-cold-starts-scaling-delays-and-startup/ba-p/4518523",
+      "published": "2026-06-11T07:00:00+00:00",
+      "summary": "Introduction There is a particular kind of frustration that comes not when your application fails to start, but when it starts too slowly. The container is running, the health probes pass, your monitoring shows green — and yet every few minutes a user somewhere in the world hits a request that...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "BhaktiRath95",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -355,6 +465,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "PUBLIC PREVIEW - Azure Monitor - Collect Azure Resource Platform Logs at Scale with DCRs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-azure-monitor-collect-azure-resource-platform/ba-p/4525296",
+      "published": "2026-06-10T19:34:21+00:00",
+      "summary": "The Challenge of Platform Log Collection at Scale For many platform teams, Azure resource platform log collection starts simple—but becomes difficult to manage at enterprise scale. Imagine a team responsible for more than 8,000 Azure resources across 14 subscriptions. Every new resource needs a...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Mahesh_Sundaram",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Join us for .NET Day on Agentic Modernization Livestream",
       "link": "https://devblogs.microsoft.com/dotnet/join-us-for-dotnet-day-on-agentic-modernization-livestream/",
       "published": "2026-06-10T17:05:00+00:00",
@@ -388,17 +509,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "PUBLIC PREVIEW - Azure Monitor - Collect Azure Resource Platform Logs at Scale with DCRs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-azure-monitor-collect-azure-resource-platform/ba-p/4525296",
-      "published": "2026-06-10T16:31:32+00:00",
-      "summary": "The Challenge of Platform Log Collection at Scale For many platform teams, Azure resource platform log collection starts simple—but becomes difficult to manage at enterprise scale. Imagine a team responsible for more than 8,000 Azure resources across 14 subscriptions. Every new resource needs a...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Mahesh_Sundaram",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Retirement: Azure VPN Client for Linux (Preview) will be retired on August 31, 2026",
       "link": "https://azure.microsoft.com/updates?id=565393",
       "published": "2026-06-10T16:15:16+00:00",
@@ -429,17 +539,6 @@
       "blogId": "microsoftsecurity",
       "author": "Mehrnoosh Sameki, Sandeep Atluri, Minsoo Thigpen and Abby Palia",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Enterprises can now create up to 500 cost centers",
-      "link": "https://github.blog/changelog/2026-06-10-enterprises-can-now-create-up-to-500-cost-centers",
-      "published": "2026-06-10T14:01:19+00:00",
-      "summary": "The maximum number of cost centers you can create per enterprise has doubled from 250 to 500. If your enterprise spans hundreds or thousands of business units, departments, or product… The post Enterprises can now create up to 500 cost centers appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -2254,17 +2353,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "Mike_Hulme",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure Functions at Build 2026 Update",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-functions-at-build-2026-update/ba-p/4524075",
-      "published": "2026-06-02T19:47:19+00:00",
-      "summary": "Azure Functions took another big leap at Build 2026. It is now the best programming model for event-driven apps and agents, on the best infrastructure to write secure code that scales. The headline features: serverless agents, connectors to M365, Teams, and more, Go, MCP, and Durable Tasks....",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "nzthiago",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -4733,17 +4821,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Multi-Tenant Architecture: Real Challenges and an Azure Design Walkthrough",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/multi-tenant-architecture-real-challenges-and-an-azure-design/ba-p/4517460",
-      "published": "2026-05-27T07:00:00+00:00",
-      "summary": "Azure Multi-Tenant Architecture (B2C Scenario) Let’s start with a reference design commonly used in Azure-based systems. A pretty standard setup looks something like this: Microsoft Entra External ID (Azure AD B2C) for authentication Azure API Management as the entry layer App Service or Functions...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "pranav_pratik",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Simplify Virtual WAN Spoke Connectivity at Scale with Azure Virtual Network Manager",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/simplify-virtual-wan-spoke-connectivity-at-scale-with-azure/ba-p/4523055",
       "published": "2026-05-26T20:44:54+00:00",
@@ -5215,17 +5292,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Bulk-configure diagnostic settings on Azure Logic Apps Consumptions",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/bulk-configure-diagnostic-settings-on-azure-logic-apps/ba-p/4521454",
-      "published": "2026-05-20T08:47:16+00:00",
-      "summary": "Bulk-configure diagnostic settings on Azure Logic Apps — without clicking through the Portal LA-BulkDiag is a small, single-file PowerShell script that does the whole job in one guided run. It enumerates every Consumption Logic App in a resource group, shows you which ones already have settings,...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Yanbo_Deng",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Golden Image Refresh for Virtual Machines and VM Scale Sets: Driving Consistency at Scale",
@@ -8418,17 +8484,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Copy dashboards from Dashboards with Grafana to Azure Managed Grafana",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/copy-dashboards-from-dashboards-with-grafana-to-azure-managed/ba-p/4505710",
-      "published": "2026-03-26T17:28:43+00:00",
-      "summary": "Azure Monitor Dashboards with Grafana provides an in‑portal Grafana experience optimized for Azure Monitor and managed Prometheus data. For many teams, that simplicity is exactly what they need. As observability practices mature, teams often need more than visualization: broader data source...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "aayodeji",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Assess Azure DDoS Protection Status Across Your Environment",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/assess-azure-ddos-protection-status-across-your-environment/ba-p/4505969",
       "published": "2026-03-26T15:36:26+00:00",
@@ -8657,17 +8712,6 @@
       "blogId": "microsoftdefendercloudblog",
       "author": "parulseth",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Introducing Azure Managed Grafana MCP: The Managed Telemetry Gateway for AI Agents",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/introducing-azure-managed-grafana-mcp-the-managed-telemetry/ba-p/4503619",
-      "published": "2026-03-19T20:10:08+00:00",
-      "summary": "AI agents are rapidly becoming a core part of how teams build, operate, and improve cloud systems, from coding assistants to autonomous remediation workflows. To deliver on that promise in the enterprise, agents need a secure, governed way to access real production telemetry. Azure Managed Grafana...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "aayodeji",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8900,17 +8944,6 @@
       "author": "PuiChee (PC) Chan",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Introducing Azure Managed Grafana 12",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/introducing-azure-managed-grafana-12/ba-p/4500673",
-      "published": "2026-03-13T16:54:19+00:00",
-      "summary": "In this release, Azure Managed Grafana makes it easier to tighten access with current-user Entra authentication, speed up Azure Monitor logs exploration, and level up Prometheus and database monitoring experiences. What’s new in Azure Managed Grafana 12 Use current-user Entra authentication for...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "aayodeji",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Enterprise Identity Meets Secure File Transfer: Entra ID Public Preview on Azure Blob Storage SFTP",
@@ -10695,17 +10728,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure CycleCloud 8.8 and CCWS 1.2 at SC25 and Ignite",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/azure-cyclecloud-8-8-and-ccws-1-2-at-sc25-and-ignite/ba-p/4468201",
-      "published": "2025-11-19T15:02:15+00:00",
-      "summary": "Azure CycleCloud 8.8: Advancing HPC & AI Workloads with Smarter Health Checks Azure CycleCloud continues to evolve as the backbone for orchestrating high-performance computing (HPC) and AI workloads in the cloud. With the release of CycleCloud 8.8, users gain access to a suite of new features...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "anhoward",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "PowerToys 0.96 is here: endpoints for Advanced Paste, metadata support for PowerRename and more!",
       "link": "https://devblogs.microsoft.com/commandline/powertoys-0-96-is-here-endpoints-for-advanced-paste-metadata-support-for-powerrename-and-more/",
       "published": "2025-11-19T13:11:02+00:00",
@@ -11188,17 +11210,6 @@
       "author": "Sagar Chandra Reddy Lankala",
       "feedUrl": "https://devblogs.microsoft.com/develop-from-the-cloud/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Prescaling in Azure Firewall is now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/prescaling-in-azure-firewall-is-now-generally-available/ba-p/4461584",
-      "published": "2025-10-16T18:00:59+00:00",
-      "summary": "Azure Firewall protects your applications and workloads with cloud-native network security that automatically scales based on your traffic needs. Today, we’re excited to announce the general availability of prescaling in Azure Firewall – a new capability that gives you more control and...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "surenjamiyanaa",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "PowerToys 0.95 is here: new Light Switch utility, faster Command Palette, and Peek with Spacebar",
@@ -12026,17 +12037,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "EA to MCA: Reporting on cost in Power BI",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/ea-to-mca-reporting-on-cost-in-power-bi/ba-p/4416362",
-      "published": "2025-07-06T20:21:11+00:00",
-      "summary": "Microsoft offers several ways to analyze and report on your cloud costs. For quick exploration of subscriptions and billing accounts, start with smart views in Cost analysis in the Azure portal or Microsoft 365 admin center. When you need more control or to save and share charts, switch to...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "micflan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Learning FOCUS: Prices + quantities",
       "link": "https://techcommunity.microsoft.com/t5/finops-blog/learning-focus-prices-quantities/ba-p/4418097",
       "published": "2025-07-06T20:20:52+00:00",
@@ -12311,6 +12311,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-databricks&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure- and Microsoft-related updates were dominated by AI and developer productivity: Microsoft launched **Anthropic Claude Fable 5 in Microsoft 365 Copilot**, announced **GA for SQL MCP Server**, introduced **GitHub Agentic Workflows** in public preview with **PAT-free support**, added **/settings** to **Copilot CLI**, and brought **Copilot Autofix for GitHub Advanced Security to Azure DevOps**. Another major theme was platform transition and reliability, including guidance on moving from **Azure Language features to Azure AI Foundry models**, Azure Databricks capacity planning, June patches for **Azure DevOps Server**, GitHub’s May 2026 availability and secret scanning accuracy improvements, plus multiple Azure infrastructure retirements affecting **Azure Batch VM series**, **GPv1/Legacy Blob storage account creation**, and **Load Balancer Inbound NAT rule v1 for VMSS**.\n\nOn the tooling side, GitHub and Visual Studio shipped practical workflow improvements such as **approved bot-created PR workflows**, **new runner images in public preview**, updated **AI usage reporting**, and the ability to **review pull requests inside Visual Studio**, while Microsoft 365 Copilot also highlighted **Notebooks** enhancements."
+  ]
 }
