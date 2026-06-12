@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T07:10:09.361932+00:00",
+  "lastUpdated": "2026-06-12T12:10:52.194454+00:00",
   "totalArticles": 1119,
   "articles": [
     {
@@ -14,6 +14,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "ArchAngel: Skilling the next developer generation for the Agentic transformation.",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/archangel-skilling-the-next-developer-generation-for-the-agentic/ba-p/4525836",
+      "published": "2026-06-12T10:13:43+00:00",
+      "summary": "AI is transforming the SDLC at speed but there's a quieter question following close behind. If the code is being written for your junior developers, when do they learn the skills to become senior ones and how can they use these tools without losing understanding of what they've made? Most tools try...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "RohitMadhavKrishnan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Troubleshooting ML Model Loading, GPU Issues, and Memory Pressure in Azure Container Apps",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/troubleshooting-ml-model-loading-gpu-issues-and-memory-pressure/ba-p/4518542",
       "published": "2026-06-12T07:00:00+00:00",
@@ -23,6 +34,17 @@
       "author": "BhaktiRath95",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Orchestration Patterns for Multi-Agent Systems: Performance and Trade-offs",
+      "link": "https://devblogs.microsoft.com/ise/coordinator-patterns-multi-agent-systems/",
+      "published": "2026-06-12T07:00:00+00:00",
+      "summary": "Real-world lessons from evolving a production chatbot into a coordinator-based multi-agent architecture, including performance trade-offs for enterprise-scale agent reuse. The post Orchestration Patterns for Multi-Agent Systems: Performance and Trade-offs appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Lily Jia",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "GitHub Enterprise Server 3.21 is now generally available",
@@ -1925,17 +1947,6 @@
       "blogId": "azurecompute",
       "author": "MengxiWu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure SRE Agent at Microsoft Build 2026: Bringing agentic operations to the enterprise",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-at-microsoft-build-2026-bringing-agentic/ba-p/4524669",
-      "published": "2026-06-03T15:46:10+00:00",
-      "summary": "Build 2026 Update When we launched Azure SRE Agent, the promise was simple: reduce operational toil, improve up time, and evolve teams from manual incident response towards AI-powered operations. Since GA in March 2026, that promise has held up in production. Teams are using the agent to diagnose...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "dchelupati",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8737,17 +8748,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "From Azure IoT Operations Data Processor Pipelines to Dataflows",
-      "link": "https://devblogs.microsoft.com/ise/aio-data-processor-pipelines-to-dataflow-processing-data-in-the-edge/",
-      "published": "2026-03-19T07:00:00+00:00",
-      "summary": "In this post we explore the evolution from Azure IoT Operations Data Processor Pipelines to Dataflows, why we adopted a hybrid strategy with custom Rust pods, and the architectural lessons we learned building event detection systems at the edge. The post From Azure IoT Operations Data Processor...",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Maho Pacheco",
-      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "ICYMI: Microsoft Agent 365 AMA",
       "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/icymi-microsoft-agent-365-ama/ba-p/4503596",
       "published": "2026-03-18T21:02:40+00:00",
@@ -12312,5 +12312,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage focuses on operating AI workloads reliably in Azure Container Apps, especially around diagnosing ML model-loading failures, GPU-related issues, and memory pressure in containerized environments. The key technologies highlighted are Azure Container Apps, GPU-backed containers, and machine learning inference workloads, with practical guidance centered on troubleshooting resource constraints, startup/runtime failures, and performance stability for deployed models."
+  "summary": "Today’s Azure posts focus on the rise of agentic AI and the infrastructure patterns needed to run it well. Microsoft highlighted **ArchAngel** as a skilling initiative to prepare developers for the **agentic transformation**, while the ISE team examined **multi-agent orchestration patterns** and their trade-offs around performance, coordination, and scalability.\n\nOn the operational side, Azure also published practical guidance for running AI workloads in **Azure Container Apps**, covering **ML model loading**, **GPU-related issues**, and **memory pressure**—key reliability concerns for teams deploying containerized machine learning and agent-based systems."
 }
