@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-12T12:10:52.194454+00:00",
-  "totalArticles": 1119,
+  "lastUpdated": "2026-06-12T17:30:24.426196+00:00",
+  "totalArticles": 1118,
   "articles": [
     {
       "title": "Visual Studio Code 1.125",
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "GitHub Actions: Minimum version enforcement timeline for self-hosted runners",
+      "link": "https://github.blog/changelog/2026-06-12-github-actions-minimum-version-enforcement-timeline-for-self-hosted-runners",
+      "published": "2026-06-12T16:04:57+00:00",
+      "summary": "GitHub Actions is resuming enforcement of version requirements for self-hosted runners on github.com and GitHub Enterprise Cloud with Data Residency. This change is part of a broader effort to rebuild… The post GitHub Actions: Minimum version enforcement timeline for self-hosted runners appeared...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "How to Measure Token Impact of MCP Tool Invocation in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/how-to-measure-token-impact-of-mcp-tool-invocation-in-microsoft/ba-p/4527338",
+      "published": "2026-06-12T13:00:00+00:00",
+      "summary": "Your MCP-enabled agent just ran, and the token counts don't add up. The API says 773 tokens. The portal trace shows 581/141. The trajectory view displays something else entirely. Before you file a bug report, here's what's actually happening—and how to build an evidence pattern that makes...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "vrajakishore",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "ArchAngel: Skilling the next developer generation for the Agentic transformation.",
@@ -441,17 +463,6 @@
       "author": "poorvinarang",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Copilot Chat now sees your agent sessions",
-      "link": "https://github.blog/changelog/2026-06-10-copilot-chat-now-sees-your-agent-sessions",
-      "published": "2026-06-10T20:46:17+00:00",
-      "summary": "We’ve improved the handoff experience between Copilot Chat and Copilot cloud agent on the web. We’ve also enabled new functionality which allows you to search and query past agent sessions… The post Copilot Chat now sees your agent sessions appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "[Launched] Generally Available: Microsoft Entra server principals on Azure SQL Database",
@@ -4544,17 +4555,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Load testing hosted MCP servers with Locust and Azure Load Testing",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/load-testing-hosted-mcp-servers-with-locust-and-azure-load/ba-p/4522691",
-      "published": "2026-05-29T15:00:00+00:00",
-      "summary": "Agent traffic doesn't look like human traffic. It arrives in bursts, sustains long sessions, and hits the same handful of tools at a parallelism a typical API client never produces. Hosted MCP servers are how AI agents reach the tools and data your product exposes, and as those servers move from...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Krishna-Roy",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Power Pages & SPA: Deploying a Custom React SPA to Microsoft Power Pages",
@@ -12299,18 +12299,7 @@
       "author": "Harald Kirschner",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Announcing the Azure Databricks connector in Power Platform",
-      "link": "https://techcommunity.microsoft.com/t5/azure-databricks/announcing-the-azure-databricks-connector-in-power-platform/ba-p/4422647",
-      "published": "2025-06-11T13:00:00+00:00",
-      "summary": "We are ecstatic to announce the public preview of the Azure Databricks Connector for Power Platform. This native connector is specifically for Power Apps, Power Automation, and Copilot Studio within Power Platform and enables seamless, single click connection. With this connector, your organization...",
-      "blog": "Azure Databricks",
-      "blogId": "azure-databricks",
-      "author": "AnaviNahar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-databricks&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focus on the rise of agentic AI and the infrastructure patterns needed to run it well. Microsoft highlighted **ArchAngel** as a skilling initiative to prepare developers for the **agentic transformation**, while the ISE team examined **multi-agent orchestration patterns** and their trade-offs around performance, coordination, and scalability.\n\nOn the operational side, Azure also published practical guidance for running AI workloads in **Azure Container Apps**, covering **ML model loading**, **GPU-related issues**, and **memory pressure**—key reliability concerns for teams deploying containerized machine learning and agent-based systems."
+  "summary": "Today’s Azure posts focused on the operational realities of the agentic AI stack: Microsoft highlighted token-cost measurement for MCP tool calls in Azure AI Foundry, explored orchestration patterns and performance trade-offs for multi-agent systems, and promoted developer upskilling for the “agentic transformation” through the ArchAngel initiative on Apps on Azure. On the infrastructure side, the updates also emphasized platform reliability and governance, including guidance for troubleshooting ML model loading, GPU allocation, and memory pressure in Azure Container Apps, alongside GitHub’s timeline for enforcing minimum versions on self-hosted GitHub Actions runners."
 }
