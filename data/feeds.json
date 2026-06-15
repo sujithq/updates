@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T14:53:03.972606+00:00",
+  "lastUpdated": "2026-06-15T18:59:40.287876+00:00",
   "totalArticles": 1115,
   "articles": [
     {
@@ -12,6 +12,50 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Microsoft Defender email security benchmarking: Key insights from one year of data",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/15/microsoft-defender-email-security-benchmarking-key-insights-from-one-year-of-data/",
+      "published": "2026-06-15T16:00:00+00:00",
+      "summary": "See how Microsoft Defender performed in one year of real-world email security benchmarking against SEG and ICES vendors. The post Microsoft Defender email security benchmarking: Key insights from one year of data appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Jeff Pinkston",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Intelligent sampling in Microsoft Foundry: the science behind selecting better production traces",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/intelligent-sampling-in-microsoft-foundry-the-science-behind/ba-p/4523722",
+      "published": "2026-06-15T16:00:00+00:00",
+      "summary": "TL;DR Microsoft Foundry's intelligent sampling feature (used when creating an evaluation or fine-tuning dataset from production agent traces) uses a MinHash farthest-first diversity sampler. On WildChat (the primary validation dataset, sampling 100 items from a 5,000-trace pool), diversity sampling...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "imatiach",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Inside the Observability Agent: How Deep Investigations and Reasoning Work",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/inside-the-observability-agent-how-deep-investigations-and/ba-p/4527102",
+      "published": "2026-06-15T15:57:54+00:00",
+      "summary": "Incidents are rarely explained by one chart. A spike in request failures might be caused by a dependency timeout. A dependency timeout might come from a connection pool issue. And that connection pool issue might trace back to a deployment or a resource health event that started minutes earlier....",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "yalavi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "ArchAngel: Skilling the next developer generation for the Agentic transformation.",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/archangel-skilling-the-next-developer-generation-for-the-agentic/ba-p/4525836",
+      "published": "2026-06-15T15:24:42+00:00",
+      "summary": "AI is transforming the SDLC at speed but there's a quieter question following close behind. If the code is being written for your junior developers, when do they learn the skills to become senior ones and how can they use these tools without losing understanding of what they've made? Most tools try...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "RohitMadhavKrishnan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Make Visual Studio look the way you want",
@@ -78,6 +122,17 @@
       "author": "kinfey",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Deploy Anyscale on Azure with Terraform: a step-by-step guide",
+      "link": "https://blog.aks.azure.com/2026/06/15/get-anyscale-on-azure-up-and-running-with-terraform",
+      "published": "2026-06-15T00:00:00+00:00",
+      "summary": "Deploy Anyscale on Azure end-to-end with Terraform, AKS managed Gateway API, Istio-based app routing, and the AzAPI provider for newly released services.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft",
+      "feedUrl": "https://blog.aks.azure.com/rss.xml",
+      "sourceType": "rss"
     },
     {
       "title": "Spotlight on SIG Storage",
@@ -154,17 +209,6 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "vrajakishore",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "ArchAngel: Skilling the next developer generation for the Agentic transformation.",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/archangel-skilling-the-next-developer-generation-for-the-agentic/ba-p/4525836",
-      "published": "2026-06-12T10:13:43+00:00",
-      "summary": "AI is transforming the SDLC at speed but there's a quieter question following close behind. If the code is being written for your junior developers, when do they learn the skills to become senior ones and how can they use these tools without losing understanding of what they've made? Most tools try...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "RohitMadhavKrishnan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -4590,17 +4634,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Migrating to GPT-5.x Without Breaking GPT-4: A Practical, Backward-Compatible Playbook",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/migrating-to-gpt-5-x-without-breaking-gpt-4-a-practical-backward/ba-p/4522936",
-      "published": "2026-05-29T19:30:00+00:00",
-      "summary": "The first request your service sends after swapping gpt-4o for gpt-5.1 in production will return HTTP 400. Not in two weeks. On the first call. And the parameter the error points to isn't one you set anywhere in your code - it's bound onto the request by a LangChain helper you've used for two...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "__sourav_sahu__",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Four open source projects to explore at Microsoft Build",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/four-open-source-projects-to-explore-at-microsoft-build/ba-p/4523744",
       "published": "2026-05-29T17:34:29+00:00",
@@ -4687,17 +4720,6 @@
       "author": "yuvmaz",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Typosquatted npm packages used to steal cloud and CI/CD secrets",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/typosquatted-npm-packages-used-steal-cloud-ci-cd-secrets/",
-      "published": "2026-05-29T03:04:52+00:00",
-      "summary": "The Mini Shai-Hulud campaign used malicious npm packages to target cloud and CI/CD credentials across developer environments. This report details the attack chain, detection opportunities, and mitigation guidance to help organizations identify and disrupt related activity. The post Typosquatted npm...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Defender Security Research Team",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "[Preview] CIS Benchmarks on Azure; Now for Windows Server",
@@ -7373,7 +7395,7 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Securing Argo CD with Microsoft Entra ID: A Step-by-Step Guide",
+      "title": "Securing Argo CD with Microsoft Entra ID: a step-by-step guide",
       "link": "https://blog.aks.azure.com/2026/04/22/argocd-extension-with-microsoft-entra",
       "published": "2026-04-22T00:00:00+00:00",
       "summary": "Learn how to secure the Argo CD extension for AKS with Microsoft Entra ID using Terraform, workload identity, OIDC, RBAC, and policy-based access control.",
@@ -7547,17 +7569,6 @@
       "author": "Kristen Womack",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Troubleshoot with OpenTelemetry in Azure Monitor - Public Preview",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/troubleshoot-with-opentelemetry-in-azure-monitor-public-preview/ba-p/4512128",
-      "published": "2026-04-20T18:14:20+00:00",
-      "summary": "OpenTelemetry is fast becoming the industry standard for modern telemetry collection and ingestion pipelines. With Azure Monitor’s new OpenTelemetry Protocol (OTLP) support, you can ship logs, metrics, and traces from wherever you run workloads to analyze and act on your observability data in one...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "KayodePrince",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Secure, Keyless Application Access with Managed Identities - Now GA in Azure Files SMB",
@@ -9538,17 +9549,6 @@
       "author": "Rakeshginjupalli",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureconfidentialcomputingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Scaling Anyscale Ray Workloads on AKS",
-      "link": "https://blog.aks.azure.com/2026/02/13/scaling-ray-aks",
-      "published": "2026-02-13T00:00:00+00:00",
-      "summary": "Learn how to run production-grade Ray workloads on Azure Kubernetes Service with multi-cluster multi-region, unified storage, and automated credential management for AI",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft",
-      "feedUrl": "https://blog.aks.azure.com/rss.xml",
-      "sourceType": "rss"
     },
     {
       "title": "Modernizing for the AI Era: Accelerating Application Transformation with Agentic Tools",
@@ -12268,5 +12268,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts were dominated by two themes: **AI quality/evaluation** and **enterprise file data modernization for AI**. Microsoft highlighted **Azure AI Foundry / Microsoft Foundry** with new **benchmarking in preview** for standardized **model and agent quality checks**, plus a cloud-native “**agents that test agents**” eval harness using **Foundry Hosted Agents**; meanwhile, several Azure Storage posts focused on turning **Azure NetApp Files** data into an AI-ready foundation via **Microsoft 365 Copilot**, **OneLake**, and the **Azure NetApp Files object REST API** for knowledge pipelines.\n\nA secondary theme was platform and developer productivity: the **Visual Studio** blog covered deeper UI personalization, while the **Kubernetes SIG Storage** spotlight underscored ongoing momentum in cloud-native storage infrastructure that complements Azure’s broader storage and AI data strategy."
+  "summary": "Today’s Azure posts centered on two big themes: **AI/agent quality and observability**, and **enterprise data foundations for AI**. Microsoft highlighted new **Azure AI Foundry** capabilities including **intelligent production-trace sampling** and **preview benchmarks for standardized model and agent evaluation**, alongside deep dives into the **Azure Observability Agent** and a community post on **agents testing agents** with **Foundry Hosted Agents**; meanwhile, Azure Storage emphasized turning **Azure NetApp Files** data into AI-ready assets via **Microsoft 365 Copilot**, **OneLake**, and the **Azure NetApp Files object REST API**.\n\nOther notable announcements included security insights from a year of **Microsoft Defender for Office/email security** benchmarking data, developer-skilling for the **agentic transformation** via **ArchAngel**, customization updates for **Visual Studio**, infrastructure guidance for deploying **Anyscale on Azure with Terraform**, and Kubernetes ecosystem coverage through a **SIG Storage** spotlight."
 }
