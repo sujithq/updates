@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T08:45:46.398987+00:00",
+  "lastUpdated": "2026-06-15T14:53:03.972606+00:00",
   "totalArticles": 1115,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Make Visual Studio look the way you want",
+      "link": "https://devblogs.microsoft.com/visualstudio/make-visual-studio-look-the-way-you-want/",
+      "published": "2026-06-15T14:00:40+00:00",
+      "summary": "Themes are personal. Some of us live in dark mode, some swear by high contrast, and some of us have very strong opinions about that one shade of blue from years ago. The new themes in Visual Studio 2026 are built on Fluent, which gives us a much more consistent and accessible foundation, but we […]...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mads Kristensen",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Benchmarks in Microsoft Foundry (preview): Standardized model and agent quality checks",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/benchmarks-in-microsoft-foundry-preview-standardized-model-and/ba-p/4523711",
+      "published": "2026-06-15T13:00:00+00:00",
+      "summary": "Introduction Benchmarks in Microsoft Foundry (preview) make that kind of measurement a first-class part of the development workflow. You can run well-known open-source benchmarks against any model deployment or agent in your project, compare runs side by side in the evaluation group view, and drive...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "imatiach",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Bringing Enterprise File Data to Users with Azure NetApp Files, Microsoft Foundry, and M365 Copilot",
@@ -864,7 +886,7 @@
       "title": "Copilot Code Reviews for Azure Repos",
       "link": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos/",
       "published": "2026-06-09T15:12:40+00:00",
-      "summary": "Over the last several years, we have encouraged customers to move their repositories from Azure Repos to GitHub to take advantage of the latest AI powered and agentic development experiences that GitHub is delivering. At the same time, we recognize that migrating repositories to GitHub can vary...",
+      "summary": "🚨 ​​​​​​​Attention: We are accepting a final round of preview requests, with those organizations scheduled for enablement beginning the second week of July. Requests submitted after July 3 will not be accepted into the preview program. Over the last several years, we have encouraged customers to...",
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Dan Hellem, Andrew Brenner",
@@ -4590,17 +4612,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "AI Observability Starter Kit for Microsoft Foundry agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/ai-observability-starter-kit-for-microsoft-foundry-agents/ba-p/4522751",
-      "published": "2026-05-29T16:45:00+00:00",
-      "summary": "Table of Contents 1. From green dashboards to production-grade AI observability 1.1 How it flows 1.2 Agent definition 2. Deploy and run 2.1 What this starter kit contains 2.2 Running the kit 2.2.1 Post-deployment validation 2.2.2 What a successful deployment looks like 2.2.3 Teardown 2.2.4 Ad-hoc...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "varghesejoji",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Unlocking the Power of Azure Resource Graph Explorer for Comprehensive Database Inventory",
       "link": "https://techcommunity.microsoft.com/t5/modernization-best-practices-and/unlocking-the-power-of-azure-resource-graph-explorer-for/ba-p/4392345",
       "published": "2026-05-29T16:03:38+00:00",
@@ -7668,17 +7679,6 @@
       "author": "Michelle_Moya",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurevirtualdesktopblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "From AI to .NET: 20 VS Live! Las Vegas Sessions You Can Watch Now",
-      "link": "https://devblogs.microsoft.com/visualstudio/from-ai-to-net-20-vs-live-las-vegas-sessions-you-can-watch-now/",
-      "published": "2026-04-16T15:00:04+00:00",
-      "summary": "In March 2026, developers came together at VS Live! Las Vegas for a full week of technical learning, hands-on exploration, and a lot of great conversations about where software development is headed next. From AI-assisted development to modern .NET, cloud-native apps, and developer productivity,...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Jim Harrer",
-      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "SQL Server enabled by Azure Arc Overview",
@@ -12268,5 +12268,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on turning enterprise file data into AI-ready assets and operationalizing agentic AI. Three Azure Storage articles focused on Azure NetApp Files as the bridge from traditional file storage to modern AI workflows—integrating with Microsoft Foundry and Microsoft 365 Copilot, feeding OneLake for analytics and data foundations, and using the Azure NetApp Files object REST API to build knowledge pipelines from file data.\n\nA second major theme was cloud-native AI engineering and infrastructure: one Azure Dev Community post described a skill-evaluation harness for testing agents on Foundry Hosted Agents, while the Kubernetes SIG Storage spotlight underscored ongoing innovation in persistent storage for cloud-native platforms."
+  "summary": "Today’s Azure posts were dominated by two themes: **AI quality/evaluation** and **enterprise file data modernization for AI**. Microsoft highlighted **Azure AI Foundry / Microsoft Foundry** with new **benchmarking in preview** for standardized **model and agent quality checks**, plus a cloud-native “**agents that test agents**” eval harness using **Foundry Hosted Agents**; meanwhile, several Azure Storage posts focused on turning **Azure NetApp Files** data into an AI-ready foundation via **Microsoft 365 Copilot**, **OneLake**, and the **Azure NetApp Files object REST API** for knowledge pipelines.\n\nA secondary theme was platform and developer productivity: the **Visual Studio** blog covered deeper UI personalization, while the **Kubernetes SIG Storage** spotlight underscored ongoing momentum in cloud-native storage infrastructure that complements Azure’s broader storage and AI data strategy."
 }
