@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T12:20:56.664137+00:00",
+  "lastUpdated": "2026-06-15T13:32:48.060588+00:00",
   "features": {
     "Azure SQL mid-March 2026 updates": {
       "status": "ga",
@@ -66,12 +66,12 @@
       "published": "2026-03-18T18:15:04+00:00"
     },
     "SQL MCP Server": {
-      "status": "preview",
-      "link": "https://azure.microsoft.com/updates?id=558150",
-      "title": "[In preview] Public Preview: SQL MCP Server",
-      "service": "Data API builder",
-      "lastSeen": "2026-03-23T08:32:15.477965+00:00",
-      "published": "2026-03-18T18:15:04+00:00"
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=564734",
+      "title": "[Launched] Generally Available: SQL MCP Server",
+      "service": "Azure SQL",
+      "lastSeen": "2026-06-15T13:32:48.060543+00:00",
+      "published": "2026-06-11T18:45:02+00:00"
     },
     "GitHub Copilot": {
       "status": "ga",
@@ -451,11 +451,11 @@
     },
     "Network Security Perimeter for Azure Service Bus": {
       "status": "ga",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/announcing-general-availability-of-network-security-perimeter/ba-p/4508179",
-      "title": "Announcing general availability of Network Security Perimeter for Azure Service Bus",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/ga-of-nsp-for-azure-service-bus-nsp-now-available-in-azure-gov/ba-p/4526413",
+      "title": "GA of NSP for Azure Service Bus & NSP now available in Azure Gov. Regions",
       "service": "Azure Service Bus",
-      "lastSeen": "2026-04-06T08:54:40.391492+00:00",
-      "published": "2026-04-03T16:31:50+00:00"
+      "lastSeen": "2026-06-15T13:32:48.060585+00:00",
+      "published": "2026-06-08T14:01:28+00:00"
     },
     "Private Application Gateway": {
       "status": "ga",
@@ -1174,8 +1174,8 @@
       "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/what-s-new-in-agent-365-may-2026/ba-p/4516340",
       "title": "What’s New in Agent 365: May 2026",
       "service": "Agent 365",
-      "lastSeen": "2026-05-25T11:36:20.016238+00:00",
-      "published": "2026-05-20T21:45:59+00:00"
+      "lastSeen": "2026-06-15T13:32:48.060580+00:00",
+      "published": "2026-06-08T16:14:52+00:00"
     },
     "Shadow AI agent discovery and management": {
       "status": "preview",
@@ -3624,6 +3624,158 @@
       "service": "Azure Updates",
       "lastSeen": "2026-06-08T12:20:56.664134+00:00",
       "published": "2026-06-01T13:45:09+00:00"
+    },
+    "GitHub Enterprise Server 3.21": {
+      "status": "ga",
+      "link": "https://github.blog/changelog/2026-06-11-github-enterprise-server-3-21-is-now-generally-available",
+      "title": "GitHub Enterprise Server 3.21 is now generally available",
+      "service": "GitHub Enterprise Server",
+      "lastSeen": "2026-06-15T13:32:48.060526+00:00",
+      "published": "2026-06-11T22:46:53+00:00"
+    },
+    "Organization custom properties": {
+      "status": "ga",
+      "link": "https://github.blog/changelog/2026-06-11-github-enterprise-server-3-21-is-now-generally-available",
+      "title": "GitHub Enterprise Server 3.21 is now generally available",
+      "service": "GitHub Enterprise Server",
+      "lastSeen": "2026-06-15T13:32:48.060536+00:00",
+      "published": "2026-06-11T22:46:53+00:00"
+    },
+    "OpenTelemetry Guest OS metrics": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/modern-vm-monitoring-powered-by-opentelemetry/ba-p/4527566",
+      "title": "Modern VM monitoring, powered by OpenTelemetry",
+      "service": "Azure Monitor",
+      "lastSeen": "2026-06-15T13:32:48.060540+00:00",
+      "published": "2026-06-11T18:57:11+00:00"
+    },
+    "Azure Monitor SLIs": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-slis-now-generally-available/ba-p/4523689",
+      "title": "Azure Monitor SLIs now Generally Available",
+      "service": "Azure Monitor",
+      "lastSeen": "2026-06-15T13:32:48.060545+00:00",
+      "published": "2026-06-11T17:18:29+00:00"
+    },
+    "Azure Monitor Metrics Export": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-metrics-export-generally-available/ba-p/4523712",
+      "title": "Azure Monitor Metrics Export Generally Available",
+      "service": "Azure Monitor",
+      "lastSeen": "2026-06-15T13:32:48.060548+00:00",
+      "published": "2026-06-11T17:17:35+00:00"
+    },
+    "GitHub-hosted runner images": {
+      "status": "preview",
+      "link": "https://github.blog/changelog/2026-06-11-new-runner-images-in-public-preview",
+      "title": "New runner images in public preview",
+      "service": "GitHub Actions",
+      "lastSeen": "2026-06-15T13:32:48.060550+00:00",
+      "published": "2026-06-11T16:18:07+00:00"
+    },
+    "GitHub Agentic Workflows": {
+      "status": "preview",
+      "link": "https://github.blog/changelog/2026-06-11-github-agentic-workflows-is-now-in-public-preview",
+      "title": "GitHub Agentic Workflows is now in public preview",
+      "service": "GitHub",
+      "lastSeen": "2026-06-15T13:32:48.060552+00:00",
+      "published": "2026-06-11T16:00:35+00:00"
+    },
+    "Azure Linux 4.0": {
+      "status": "preview",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/announcing-azure-linux-4-0-purpose-built-for-azure-now-in-public/ba-p/4524267",
+      "title": "Announcing Azure Linux 4.0: Purpose-Built for Azure, Now in Public Preview",
+      "service": "Azure Linux",
+      "lastSeen": "2026-06-15T13:32:48.060554+00:00",
+      "published": "2026-06-10T20:56:42+00:00"
+    },
+    "Microsoft Entra server principals": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=565154",
+      "title": "[Launched] Generally Available: Microsoft Entra server principals on Azure SQL Database",
+      "service": "Azure SQL Database",
+      "lastSeen": "2026-06-15T13:32:48.060559+00:00",
+      "published": "2026-06-10T20:45:26+00:00"
+    },
+    "Azure Resource Platform Logs at Scale with DCRs": {
+      "status": "preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-azure-monitor-collect-azure-resource-platform/ba-p/4525296",
+      "title": "PUBLIC PREVIEW - Azure Monitor - Collect Azure Resource Platform Logs at Scale with DCRs",
+      "service": "Azure Monitor",
+      "lastSeen": "2026-06-15T13:32:48.060561+00:00",
+      "published": "2026-06-10T19:34:21+00:00"
+    },
+    "Agent mode for GitHub Copilot in SSMS": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=562637",
+      "title": "[In preview] Public Preview: Agent mode for GitHub Copilot in SQL Server Management Studio (SSMS)",
+      "service": "SQL Server Management Studio",
+      "lastSeen": "2026-06-15T13:32:48.060563+00:00",
+      "published": "2026-06-09T23:45:10+00:00"
+    },
+    "Microsoft Discovery": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/ginkgo-bioworks-and-microsoft-discovery-bringing-agentic-ai-to/ba-p/4526550",
+      "title": "Ginkgo Bioworks and Microsoft Discovery: Bringing agentic AI to biological discovery",
+      "service": "Microsoft Discovery",
+      "lastSeen": "2026-06-15T13:32:48.060565+00:00",
+      "published": "2026-06-09T19:00:00+00:00"
+    },
+    "PostgreSQL Hub for Azure Developers": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=562084",
+      "title": "[Launched] Generally Available: PostgreSQL Hub for Azure Developers",
+      "service": "Azure Database for PostgreSQL",
+      "lastSeen": "2026-06-15T13:32:48.060567+00:00",
+      "published": "2026-06-09T18:45:07+00:00"
+    },
+    "Azure NCv6-series virtual machines": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=565271",
+      "title": "[Launched] Generally Available: Azure NC RTX PRO 6000 Blackwell Server Edition v6 Series Virtual Machines",
+      "service": "Azure Virtual Machines",
+      "lastSeen": "2026-06-15T13:32:48.060569+00:00",
+      "published": "2026-06-08T18:15:14+00:00"
+    },
+    "Premium SSD v2 disks for non-zonal VMs": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=565359",
+      "title": "[Launched] Generally Available: Premium SSD v2 disks now support non-zonal Azure Virtual Machines",
+      "service": "Azure Managed Disks",
+      "lastSeen": "2026-06-15T13:32:48.060571+00:00",
+      "published": "2026-06-08T18:00:23+00:00"
+    },
+    "Microsoft Foundry agent security capabilities": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=565171",
+      "title": "[In preview] Public Preview: Microsoft Foundry agent security capabilities in Microsoft Defender for Cloud are transitioning to a Microsoft Agent 365 license",
+      "service": "Microsoft Defender for Cloud",
+      "lastSeen": "2026-06-15T13:32:48.060573+00:00",
+      "published": "2026-06-08T17:15:43+00:00"
+    },
+    "Azure Site Recovery for Linux Azure VMs with NVMe disk controllers": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=565103",
+      "title": "[In preview] Public Preview: Azure Site Recovery support for Linux Azure VMs with NVMe disk controllers.",
+      "service": "Azure Site Recovery",
+      "lastSeen": "2026-06-15T13:32:48.060575+00:00",
+      "published": "2026-06-08T17:15:43+00:00"
+    },
+    "Maintenance control": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=563756",
+      "title": "[Launched] Generally Available: Maintenance control for Azure Database for PostgreSQL - reschedule, apply on demand, view and download",
+      "service": "Azure Database for PostgreSQL Flexible Server",
+      "lastSeen": "2026-06-15T13:32:48.060577+00:00",
+      "published": "2026-06-08T17:15:43+00:00"
+    },
+    "Entra ID based RBAC for data management": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=564873",
+      "title": "[In preview] Public Preview: Azure Managed Redis now supports Entra ID based RBAC for data management",
+      "service": "Azure Managed Redis",
+      "lastSeen": "2026-06-15T13:32:48.060579+00:00",
+      "published": "2026-06-08T16:15:40+00:00"
     }
   }
 }
