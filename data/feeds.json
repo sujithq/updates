@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T22:02:05.106777+00:00",
+  "lastUpdated": "2026-06-15T02:13:32.857056+00:00",
   "totalArticles": 1115,
   "articles": [
     {
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Spotlight on SIG Storage",
+      "link": "https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/",
+      "published": "2026-06-15T00:00:00+00:00",
+      "summary": "In our ongoing SIG Spotlight series, we shine a light on the groups that keep the Kubernetes project moving forward. This time, we catch up with SIG Storage, the group responsible for persistent data, volume management, and the interfaces that connect Kubernetes workloads to the storage systems...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -10277,17 +10288,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Avoiding Zombie Cluster Members When Upgrading to etcd v3.6",
-      "link": "https://kubernetes.io/blog/2025/12/21/preventing-etcd-zombies/",
-      "published": "2025-12-21T00:00:00+00:00",
-      "summary": "This article is a mirror of an original that was recently published to the official etcd blog. The key takeaway? Always upgrade to etcd v3.5.26 or later before moving to v3.6. This ensures your cluster is automatically repaired, and avoids zombie members. Issue summaryRecently, the etcd community...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Azure Front Door: Implementing lessons learned following October outages",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-front-door-implementing-lessons-learned-following-october/ba-p/4479416",
       "published": "2025-12-19T16:43:31+00:00",
@@ -12267,5 +12267,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurevirtualdesktopblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure-related reading is narrowly focused on Kubernetes storage: the highlighted post, **“Spotlight on SIG Storage”** from the **Kubernetes Official Blog**, centers on the Kubernetes community group responsible for storage APIs, volume plugins, and stateful workload support. The key theme is the ongoing evolution of **Kubernetes storage technologies** such as **CSI (Container Storage Interface)**, persistent volumes, snapshots, and other capabilities that improve how stateful applications run on Kubernetes—including in Azure Kubernetes Service environments."
 }
