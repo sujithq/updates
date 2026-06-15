@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T02:13:32.857056+00:00",
+  "lastUpdated": "2026-06-15T08:45:46.398987+00:00",
   "totalArticles": 1115,
   "articles": [
     {
@@ -12,6 +12,50 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Bringing Enterprise File Data to Users with Azure NetApp Files, Microsoft Foundry, and M365 Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/bringing-enterprise-file-data-to-users-with-azure-netapp-files/ba-p/4528002",
+      "published": "2026-06-15T07:37:24+00:00",
+      "summary": "Table of Contents Introduction Why the user experience layer matters in enterprise AI Microsoft Foundry: Orchestrating enterprise AI agents The Copilot agent as the enterprise user experience End‑to‑end user query flow Why this pattern works for regulated and complex environments Extending Copilot...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "GeertVanTeylingen",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "From Enterprise File Storage to an AI-Ready Data Foundation using Azure NetApp Files and OneLake",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/from-enterprise-file-storage-to-an-ai-ready-data-foundation/ba-p/4527999",
+      "published": "2026-06-15T07:37:21+00:00",
+      "summary": "Table of Contents Introduction Why the data foundation matters Expanding beyond collaboration-centric data The zero‑copy data foundation pattern Why OneLake changes the model What this enables Key takeaway Learn more Introduction Enterprise AI is advancing rapidly, but many organizations are...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "GeertVanTeylingen",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "From File Data to AI‑Powered Knowledge Pipelines using Azure NetApp Files object REST API",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/from-file-data-to-ai-powered-knowledge-pipelines-using-azure/ba-p/4528001",
+      "published": "2026-06-15T07:37:13+00:00",
+      "summary": "Table of Contents Introduction Why a knowledge pipeline is required Retrieval‑augmented generation (RAG) at enterprise scale Knowledge pipeline architecture overview Step 1: Indexing enterprise file content without moving it Step 2: Creating semantic meaning with embeddings Step 3: Retrieval at...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "GeertVanTeylingen",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Agents That Test Agents: A Cloud-Native Skill-Eval Harness on Foundry Hosted Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/agents-that-test-agents-a-cloud-native-skill-eval-harness-on/ba-p/4528085",
+      "published": "2026-06-15T07:00:00+00:00",
+      "summary": "Skills are an agent's must-have. So test them. A skill is the lightest way to give an agent durable, reusable behavior: a SKILL.md file you author once, store centrally in Foundry's versioned Skills API, and inject into a Hosted Agent's context — no code change, no redeploy. That's why skills have...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Spotlight on SIG Storage",
@@ -4608,17 +4652,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "aakarshdhawan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "From Requirement to Production Code, How Engineering Squad Automates the Full Dev Lifecycle",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-requirement-to-production-code-how-engineering-squad/ba-p/4522698",
-      "published": "2026-05-29T07:00:00+00:00",
-      "summary": "I started wondering: what if instead of one AI assistant generating code snippets, you had an entire squad of specialized AI agents. Each owning a single stage of the delivery pipeline, they could collaborate, self-correct, and produce a complete, traceable output from a plain-text requirement?...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "paggarwal",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -10376,17 +10409,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Secure, Seamless Access using Managed Identities with Azure Files SMB",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/secure-seamless-access-using-managed-identities-with-azure-files/ba-p/4477565",
-      "published": "2025-12-15T17:46:43+00:00",
-      "summary": "As organizations evolve their application and storage environments, whether on‑premises, hybrid, or cloud, secure access is top of mind. Organizations are vigilant about protecting sensitive data while enabling agile application access across distributed environments. SMB shares are commonly used...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "Priyanka-Gangal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Key Considerations for Modernizing and Migrating Custom Applications to Azure",
       "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/key-considerations-for-modernizing-and-migrating-custom/ba-p/4476580",
       "published": "2025-12-12T18:04:26+00:00",
@@ -10417,17 +10439,6 @@
       "blogId": "modernizationbestpracticesblog",
       "author": "Ankur_Sinha",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Transforming Data migration using Azure Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/transforming-data-migration-using-azure-copilot/ba-p/4476610",
-      "published": "2025-12-11T18:57:02+00:00",
-      "summary": "Introduction Data migration is critical, yet it is one of the most complex tasks in any cloud adoption journey. Whether you’re moving workloads from on-premises environments, consolidating hybrid deployments, or transitioning from other cloud providers, the migration process involves multiple...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "madhurinrao",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -10714,17 +10725,6 @@
       "blogId": "telecommunications-industry-blog",
       "author": "bryangrimm",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=telecommunications-industry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Pure Storage Cloud, Azure Native evolves at Microsoft Ignite!",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/pure-storage-cloud-azure-native-evolves-at-microsoft-ignite/ba-p/4470118",
-      "published": "2025-11-19T17:45:00+00:00",
-      "summary": "The Azure Storage team has heavily invested in our partner ecosystem to meet all customer data storage needs and make it easier to migrate any application workload to Azure. You will find our complete list in the validated partner catalog (link below) and find partner solutions conveniently located...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "Aung_Oo",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12268,5 +12268,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related reading is narrowly focused on Kubernetes storage: the highlighted post, **“Spotlight on SIG Storage”** from the **Kubernetes Official Blog**, centers on the Kubernetes community group responsible for storage APIs, volume plugins, and stateful workload support. The key theme is the ongoing evolution of **Kubernetes storage technologies** such as **CSI (Container Storage Interface)**, persistent volumes, snapshots, and other capabilities that improve how stateful applications run on Kubernetes—including in Azure Kubernetes Service environments."
+  "summary": "Today’s Azure posts centered on turning enterprise file data into AI-ready assets and operationalizing agentic AI. Three Azure Storage articles focused on Azure NetApp Files as the bridge from traditional file storage to modern AI workflows—integrating with Microsoft Foundry and Microsoft 365 Copilot, feeding OneLake for analytics and data foundations, and using the Azure NetApp Files object REST API to build knowledge pipelines from file data.\n\nA second major theme was cloud-native AI engineering and infrastructure: one Azure Dev Community post described a skill-evaluation harness for testing agents on Foundry Hosted Agents, while the Kubernetes SIG Storage spotlight underscored ongoing innovation in persistent storage for cloud-native platforms."
 }
