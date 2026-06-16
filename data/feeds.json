@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T22:54:14.799460+00:00",
+  "lastUpdated": "2026-06-16T02:17:15.508811+00:00",
   "totalArticles": 1115,
   "articles": [
     {
@@ -14,6 +14,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Release 2026-05-29",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-05-29",
+      "published": "2026-06-16T01:10:14+00:00",
+      "summary": "Release Notes - 2026-05-29 Monitor the release status by regions at AKS-Release-Tracker. Vulnerabilities addressed by AKS releases can be tracked at CVE API viewer. Announcements of upcoming changes and retirements Revision asm-1-27 of the Istio-based service mesh add-on has been deprecated. Please...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "dyu1208",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
+      "sourceType": "rss"
+    },
+    {
       "title": "Copilot usage metrics now include more of your active users",
       "link": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
       "published": "2026-06-15T21:30:13+00:00",
@@ -22,17 +33,6 @@
       "blogId": "githubchangelog",
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Release 2026-05-29",
-      "link": "https://github.com/Azure/AKS/releases/tag/2026-05-29",
-      "published": "2026-06-15T20:55:25+00:00",
-      "summary": "Release Notes - 2026-05-29 Monitor the release status by regions at AKS-Release-Tracker. Vulnerabilities addressed by AKS releases can be tracked at CVE API viewer. Announcements of upcoming changes and retirements Revision asm-1-27 of the Istio-based service mesh add-on has been deprecated. Please...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "dyu1208",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -12268,5 +12268,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and adjacent Microsoft ecosystem posts were dominated by **AI platform maturity, agent evaluation, and enterprise data readiness**. Azure AI Foundry introduced **intelligent sampling for production traces** and **Benchmarks in Foundry (preview)** for standardized **model and agent quality checks**, while Azure Storage highlighted how **Azure NetApp Files**, **OneLake**, **M365 Copilot**, and the **Azure NetApp Files object REST API** can turn enterprise file stores into **AI-ready knowledge pipelines**; GitHub also announced a **new open multilingual AI dataset** and expanded **Copilot usage metrics** to count more active users.\n\nA second major theme was **developer tooling and cloud-native operations**: posts covered **GitHub Copilot CLI slash commands**, **Visual Studio personalization**, **AKS release 2026-05-29**, deploying **Anyscale on Azure with Terraform**, and Kubernetes community work like **SIG Storage**. On the security and observability side, Microsoft shared a year of **Defender email security benchmarking** data, and Azure Observability detailed how its **Observability Agent** powers **deep investigations and reasoning**, signaling continued investment in AI-assisted operations and security."
+  "summary": "Today’s Azure update is centered on **Azure Kubernetes Service (AKS)**, with the latest **AKS release notes (2026-05-29)** highlighting platform changes and feature updates for managed Kubernetes on Azure. The key theme is incremental improvements across the AKS service—typically including Kubernetes version support, node/image updates, networking, security, and operational enhancements—though the specific announcements are contained within this single AKS release-notes post rather than broader cross-Azure launches."
 }
