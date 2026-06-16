@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T02:17:15.508811+00:00",
+  "lastUpdated": "2026-06-16T08:36:45.732001+00:00",
   "totalArticles": 1115,
   "articles": [
     {
@@ -14,6 +14,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Azure Function App — Queue-Based Architecture for Long-Running Sync Jobs",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/azure-function-app-queue-based-architecture-for-long-running/ba-p/4524474",
+      "published": "2026-06-16T07:00:00+00:00",
+      "summary": "The Problem: HTTP Triggers and Long-Running Jobs Don't Mix Here's a situation you've probably run into: you have a job that needs to loop over dozens of Azure resources, call APIs, and do real work. You wrap it in an HTTP-triggered Azure Function so it can be called on demand. It works great and...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Jamesdld23",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Release 2026-05-29",
       "link": "https://github.com/Azure/AKS/releases/tag/2026-05-29",
       "published": "2026-06-16T01:10:14+00:00",
@@ -23,6 +34,17 @@
       "author": "dyu1208",
       "feedUrl": "https://github.com/Azure/AKS/releases.atom",
       "sourceType": "rss"
+    },
+    {
+      "title": "A Guided Tour of the New Microsoft Foundry Labs",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/a-guided-tour-of-the-new-microsoft-foundry-labs/ba-p/4527908",
+      "published": "2026-06-15T23:41:16+00:00",
+      "summary": "There's a moment every developer chases — the first time you take something genuinely at the edge of what's possible and watch it run on your screen, against your problem. Microsoft Foundry Labs exists to give you that moment on repeat. This is the place where Microsoft's most ambitious AI research...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "vaidyas",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Copilot usage metrics now include more of your active users",
@@ -4623,17 +4645,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Choosing the Right Language Analyzer for Azure AI Search",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/choosing-the-right-language-analyzer-for-azure-ai-search/ba-p/4523080",
-      "published": "2026-05-29T21:15:00+00:00",
-      "summary": "By Abhishree Shetty, Alec Berntson, Lihang LiA language analyzer is a specific type of text analyzer that performs lexical analysis using the linguistic rules of the target language. It applies language-specific rules to convert raw text chunks into searchable terms, handling aspects like word...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "abhishreeshetty",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Finance Agent Benchmark: evaluating and improving AI for Finance",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/finance-agent-benchmark-evaluating-and-improving-ai-for-finance/ba-p/4522978",
       "published": "2026-05-29T20:43:08+00:00",
@@ -4709,17 +4720,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Power Pages & SPA: Deploying a Custom React SPA to Microsoft Power Pages",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/power-pages-spa-deploying-a-custom-react-spa-to-microsoft-power/ba-p/4521378",
-      "published": "2026-05-29T07:00:00+00:00",
-      "summary": "Introduction Modern business applications are no longer limited to traditional server-rendered pages or fixed portal layouts. Today’s users expect fast, responsive, highly interactive web experiences - the kind of experience developers commonly build using modern front-end frameworks such as React....",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "aakarshdhawan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Azure DDoS Protection & Azure WAF: A Layered Defense for Modern DDoS Attacks",
@@ -12268,5 +12268,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure update is centered on **Azure Kubernetes Service (AKS)**, with the latest **AKS release notes (2026-05-29)** highlighting platform changes and feature updates for managed Kubernetes on Azure. The key theme is incremental improvements across the AKS service—typically including Kubernetes version support, node/image updates, networking, security, and operational enhancements—though the specific announcements are contained within this single AKS release-notes post rather than broader cross-Azure launches."
+  "summary": "Today’s Azure posts focused on scalable cloud-native operations and Kubernetes platform updates. An Azure Dev Community article highlighted using **Azure Functions** with a **queue-based architecture** to handle **long-running synchronization jobs**, emphasizing asynchronous processing, reliability, and decoupled workflows; meanwhile, the **AKS 2026-05-29 release notes** outlined the latest **Azure Kubernetes Service** platform updates, signaling ongoing improvements to managed Kubernetes capabilities, version support, and operational features."
 }
