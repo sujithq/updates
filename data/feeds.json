@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T08:18:58.978234+00:00",
+  "lastUpdated": "2026-06-17T12:44:02.770008+00:00",
   "totalArticles": 1117,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Designing Cloud Landing Zones by Traffic Flow: A Defence‑in‑Depth, DMZ‑First Architecture",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/designing-cloud-landing-zones-by-traffic-flow-a-defence-in-depth/ba-p/4524280",
+      "published": "2026-06-17T12:17:58+00:00",
+      "summary": "As enterprises adopt Microsoft Azure for large‑scale and regulated workloads, security architecture must be driven by traffic trust boundaries and inspection intent, not connectivity alone. Regulatory frameworks consistently require a clear separation between Internet‑untrusted and private...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "AvanishYadav",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Build an Automated SLA Risk Agent with Routines in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/build-an-automated-sla-risk-agent-with-routines-in-microsoft/ba-p/4528103",
+      "published": "2026-06-17T12:00:00+00:00",
+      "summary": "What if your support team could start every morning with an AI-generated summary of tickets most likely to breach SLA? This tutorial shows you how to build exactly that: a grounded agent in Microsoft Foundry that automatically analyzes your ticket data and surfaces risks. Using Routines in...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "LauraVerghote",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Azure Sets a New Performance Record for LLM Training Benchmark at Extreme Scale",
@@ -2390,17 +2412,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Designing Cloud Landing Zones by Traffic Flow: A Defence‑in‑Depth, DMZ‑First Architecture",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/designing-cloud-landing-zones-by-traffic-flow-a-defence-in-depth/ba-p/4524280",
-      "published": "2026-06-03T07:18:18+00:00",
-      "summary": "As enterprises adopt Microsoft Azure for large‑scale and regulated workloads, security architecture must be driven by traffic trust boundaries and inspection intent, not connectivity alone. Regulatory frameworks consistently require a clear separation between Internet‑untrusted and private...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "AvanishYadav",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Token economics–driven architecture: hybrid models, AI Runway, AKS Kata MicroVM, MCP",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/token-economics-driven-architecture-hybrid-models-ai-runway-aks/ba-p/4524276",
       "published": "2026-06-03T07:00:00+00:00",
@@ -4773,17 +4784,6 @@
       "blog": "Azure AI Foundry Blog",
       "blogId": "azure-ai-foundry-blog",
       "author": "renaliu",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "GPT Realtime in Production: Which Context Strategy Should You Actually Use?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-realtime-in-production-which-context-strategy-should-you/ba-p/4523091",
-      "published": "2026-05-29T22:30:00+00:00",
-      "summary": "Are You Running Azure GPT Realtime in Production? The question that started this: Are you running Azure gpt-realtime in production? If so, you've already run into the question I want to talk about: how should you manage conversation context across turns? It sounds like an implementation detail. It...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Gana_Chandrasekaran",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -12290,5 +12290,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure updates center on developer tooling and AI infrastructure performance. **Visual Studio Code 1.125** delivers the latest improvements to Microsoft’s editor, while Azure’s infrastructure team announced a new **extreme-scale LLM training benchmark record**, highlighting Azure’s strength for large AI workloads and emphasizing high-performance computing capabilities for training large language models at scale."
+  "summary": "Today’s Azure posts centered on developer productivity, AI automation, and hyperscale infrastructure. Microsoft highlighted **Visual Studio Code 1.125**, introduced a **DMZ-first, defence-in-depth landing zone architecture** for **Azure Network Security** focused on traffic-flow-based design, and showed how to build an **automated SLA risk agent** using **Routines in Microsoft Foundry / Azure AI Foundry**.\n\nThe biggest infrastructure announcement was that **Azure set a new extreme-scale LLM training benchmark record**, underscoring advances in **high performance computing for large language model training**. Overall, the themes were secure-by-design cloud architecture, practical AI agents for enterprise operations, and Azure’s continued push on top-tier AI training performance."
 }
