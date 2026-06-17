@@ -1,7 +1,106 @@
 {
-  "lastUpdated": "2026-06-17T17:42:02.696784+00:00",
+  "lastUpdated": "2026-06-17T19:54:38.595762+00:00",
   "totalArticles": 1118,
   "articles": [
+    {
+      "title": "Release 2026-05-29",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-05-29",
+      "published": "2026-06-17T19:48:38+00:00",
+      "summary": "Release Notes - 2026-05-29 Monitor the release status by regions at AKS-Release-Tracker. Vulnerabilities addressed by AKS releases can be tracked at CVE API viewer. Announcements of upcoming changes and retirements Revision asm-1-27 of the Istio-based service mesh add-on has been deprecated. Please...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "dyu1208",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Getting more from each token: How Copilot improves context handling and model routing",
+      "link": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
+      "published": "2026-06-17T19:41:46+00:00",
+      "summary": "How GitHub Copilot is making more of each session go toward useful work, so your credits go further. The post Getting more from each token: How Copilot improves context handling and model routing appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Natalie Guevara",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Secret scanning updates – June 2026",
+      "link": "https://github.blog/changelog/2026-06-17-secret-scanning-updates-june-2026",
+      "published": "2026-06-17T19:23:42+00:00",
+      "summary": "Since our last pattern update, we’ve expanded secret scanning’s detection coverage with new partners, more patterns blocked by push protection by default, additional validity checks, and richer metadata for leaked… The post Secret scanning updates – June 2026 appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Azure Migrate – GitHub Copilot Modernization integration for at scale code assessments",
+      "link": "https://azure.microsoft.com/updates?id=566145",
+      "published": "2026-06-17T18:00:18+00:00",
+      "summary": "Azure Migrate now integrates with GitHub Copilot Modernization (public preview) to deliver at scale code insights. This capability brings together Azure Migrate’s portfolio-level discovery and assessment with GitHub Copilot’s context-aware code analysis.",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Databricks native read access to Microsoft OneLake",
+      "link": "https://azure.microsoft.com/updates?id=565733",
+      "published": "2026-06-17T18:00:18+00:00",
+      "summary": "Azure Databricks now supports native read access to data stored in Microsoft OneLake through Unity Catalog. This capability is generally available. Customers can query and analyze data directly in OneLake without moving or copying data, enabling faster ac",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Azure Databricks natively storing data in Microsoft OneLake",
+      "link": "https://azure.microsoft.com/updates?id=565706",
+      "published": "2026-06-17T18:00:18+00:00",
+      "summary": "Azure Databricks can now natively write managed Delta tables to Microsoft OneLake. This capability enables customers to use OneLake as a unified storage layer for Azure Databricks workloads without managing separate storage accounts. By storing data direc",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Intelligent sampling in Microsoft Foundry: the science behind selecting better production traces",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/intelligent-sampling-in-microsoft-foundry-the-science-behind/ba-p/4523722",
+      "published": "2026-06-17T18:00:00+00:00",
+      "summary": "Authors: Ilya Matiach, Morteza Ziyadi, José Santos, Ali Mahmoudzadeh, Shuo Qiu, Salma Elshafey, April Kwong, Vivek Bhadauria TL;DR Microsoft Foundry's intelligent sampling feature (used when creating an evaluation or fine-tuning dataset from production agent traces) uses a MinHash farthest-first...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "imatiach",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "ICMP Support for Azure StandardV2 NAT Gateway",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/icmp-support-for-azure-standardv2-nat-gateway/ba-p/4528374",
+      "published": "2026-06-17T17:44:22+00:00",
+      "summary": "Our customers, across all industries, depend on consistent outbound connectivity and observability to operate and troubleshoot their cloud workloads at scale. As Azure environments grow in size and complexity, teams increasingly rely on standard network diagnostic tools such as ping to quickly...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "malaikanazim",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Enterprise-managed settings now support bypass permission controls",
+      "link": "https://github.blog/changelog/2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls",
+      "published": "2026-06-17T17:13:47+00:00",
+      "summary": "We’re adding our first governance capability to the enterprise-managed settings configuration. Enterprise administrators can now set disableBypassPermissionsMode to \"disable\" in the enterprise-managed settings.json to prevent GitHub Copilot CLI and VS… The post Enterprise-managed settings now...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "AI-Powered MSBuild Investigation with the Microsoft Binlog MCP Server",
       "link": "https://devblogs.microsoft.com/dotnet/msbuild-binlog-mcp-server/",
@@ -11,6 +110,17 @@
       "blogId": "dotnet",
       "author": ".NET Team, Jan Krivanek",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "AI is accelerating cyberattacks—here’s how to stay ahead",
+      "link": "https://techcommunity.microsoft.com/blog/microsoft-entra-blog/ai-is-accelerating-cyberattacks%E2%80%94here%E2%80%99s-how-to-stay-ahead/4528592",
+      "published": "2026-06-17T17:00:00+00:00",
+      "summary": "See how Microsoft unifies identity and security signals to help teams prevent, detect, and respond to AI-accelerated attacks faster. The post AI is accelerating cyberattacks—here’s how to stay ahead appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Sandeep Deo",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -102,6 +212,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Microsoft Options to Migrate SQL Server Databases",
+      "link": "https://techcommunity.microsoft.com/t5/modernization-best-practices-and/microsoft-options-to-migrate-sql-server-databases/ba-p/4521637",
+      "published": "2026-06-17T15:04:50+00:00",
+      "summary": "Overview This blog supplements the Migrate to Azure SQL documentation and tries to summarize the Microsoft first party ways to copy or migrate SQL Server databases from on‑premises environments to one of the flavours of SQL Server running in Azure. It is organized first by target platform (Azure...",
+      "blog": "Modernization Best Practices Blog",
+      "blogId": "modernizationbestpracticesblog",
+      "author": "Mitch_van_Huuksloot",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Introducing New Additions to Microsoft Sentinel Normalization and ASIM",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/introducing-new-additions-to-microsoft-sentinel-normalization/ba-p/4524584",
       "published": "2026-06-17T15:00:00+00:00",
@@ -166,6 +287,17 @@
       "author": "Hans Wieser [MS], Jay Gordon",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Introducing GitHub Pre-Purchase Plans: A Simpler Way to Plan Your GitHub Spend",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/introducing-github-pre-purchase-plans-a-simpler-way-to-plan-your/ba-p/4528855",
+      "published": "2026-06-17T13:58:28+00:00",
+      "summary": "As AI-powered development scales, more of what organizations pay for on GitHub is shifting from fixed per-seat pricing to usage-based billing. GitHub Copilot, Actions, Codespaces, AI Credits: spend now reflects what teams actually build, and that can vary month to month. For most engineering and...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "kyleikeda",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "GitHub Copilot app generally available",
@@ -264,6 +396,17 @@
       "blogId": "azurearcblog",
       "author": "Aurnov_Chattopadhyay",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "(Co)work in Progress",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/co-work-in-progress/ba-p/4511672",
+      "published": "2026-06-16T20:29:43+00:00",
+      "summary": "A complete record of milestones, launches, and newest innovations. Delegate complex work​ – Copilot Cowork is now GA Now generally available worldwide, Copilot Cowork is an agentic system that plans, executes, and delivers real work. Getting to Cowork is now simpler. The redesigned Microsoft 365...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "ilyagrebnov",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -432,17 +575,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Release 2026-05-29",
-      "link": "https://github.com/Azure/AKS/releases/tag/2026-05-29",
-      "published": "2026-06-16T01:10:14+00:00",
-      "summary": "Release Notes - 2026-05-29 Monitor the release status by regions at AKS-Release-Tracker. Vulnerabilities addressed by AKS releases can be tracked at CVE API viewer. Announcements of upcoming changes and retirements Revision asm-1-27 of the Istio-based service mesh add-on has been deprecated. Please...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "dyu1208",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "A Guided Tour of the New Microsoft Foundry Labs",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/a-guided-tour-of-the-new-microsoft-foundry-labs/ba-p/4527908",
       "published": "2026-06-15T23:41:16+00:00",
@@ -452,17 +584,6 @@
       "author": "vaidyas",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Copilot usage metrics now include more of your active users",
-      "link": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
-      "published": "2026-06-15T21:30:13+00:00",
-      "summary": "Copilot usage metrics reports now draw on server-side telemetry in addition to client signals, so more of your active Copilot users show up in reports. Enterprise usage reports returned by… The post Copilot usage metrics now include more of your active users appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "GitHub Copilot CLI for Beginners: Overview of common slash commands",
@@ -496,17 +617,6 @@
       "author": "Jeff Pinkston",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Intelligent sampling in Microsoft Foundry: the science behind selecting better production traces",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/intelligent-sampling-in-microsoft-foundry-the-science-behind/ba-p/4523722",
-      "published": "2026-06-15T16:00:00+00:00",
-      "summary": "TL;DR Microsoft Foundry's intelligent sampling feature (used when creating an evaluation or fine-tuning dataset from production agent traces) uses a MinHash farthest-first diversity sampler. On WildChat (the primary validation dataset, sampling 100 items from a 5,000-trace pool), diversity sampling...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "imatiach",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Inside the Observability Agent: How Deep Investigations and Reasoning Work",
@@ -616,17 +726,6 @@
       "blogId": "githubblog",
       "author": "Dylan Birtolo",
       "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Copilot code review: New configurations and controls",
-      "link": "https://github.blog/changelog/2026-06-12-copilot-code-review-new-configurations-and-controls",
-      "published": "2026-06-12T21:37:14+00:00",
-      "summary": "With new organization runner controls, Copilot content exclusion support, and the removal of the character limit on repository custom instructions, Copilot code review is now easier to tailor to your… The post Copilot code review: New configurations and controls appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1400,17 +1499,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Microsoft Options to Migrate SQL Server Databases",
-      "link": "https://techcommunity.microsoft.com/t5/modernization-best-practices-and/microsoft-options-to-migrate-sql-server-databases/ba-p/4521637",
-      "published": "2026-06-08T19:45:00+00:00",
-      "summary": "Overview This blog supplements the Migrate to Azure SQL documentation and tries to summarize the Microsoft first party ways to copy or migrate SQL Server databases from on‑premises environments to one of the flavours of SQL Server running in Azure. It is organized first by target platform (Azure...",
-      "blog": "Modernization Best Practices Blog",
-      "blogId": "modernizationbestpracticesblog",
-      "author": "Mitch_van_Huuksloot",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Logic Apps Aviators Newsletter - June 2026",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-june-2026/ba-p/4526525",
       "published": "2026-06-08T19:10:51+00:00",
@@ -1980,17 +2068,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "GitHub Universe is back: All together now, in the agentic era",
-      "link": "https://github.blog/news-insights/company-news/github-universe-is-back-all-together-now-in-the-agentic-era/",
-      "published": "2026-06-04T16:00:00+00:00",
-      "summary": "GitHub Universe is back: returning to the historic Fort Mason Center in San Francisco on October 28–29, 2026. The post GitHub Universe is back: All together now, in the agentic era appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Natalie Guevara",
-      "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -4953,17 +5030,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Microsoft is named a Leader in the 2026 Gartner® Magic Quadrant™ for Endpoint Protection",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/29/microsoft-is-named-a-leader-in-the-2026-gartner-magic-quadrant-for-endpoint-protection/",
-      "published": "2026-05-29T16:00:00+00:00",
-      "summary": "Microsoft is named a Leader in the 2026 Gartner® Magic Quadrant™ for Endpoint Protection. The post Microsoft is named a Leader in the 2026 Gartner® Magic Quadrant™ for Endpoint Protection appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Rob Lefferts",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "The Odd Couple - Latches and KEEP_NULLS",
       "link": "https://techcommunity.microsoft.com/t5/modernization-best-practices-and/the-odd-couple-latches-and-keep-nulls/ba-p/4516048",
       "published": "2026-05-29T15:58:10+00:00",
@@ -5038,17 +5104,6 @@
       "blogId": "azuregovernanceandmanagementblog",
       "author": "mutemwamasheke",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "(Co)work in Progress",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/co-work-in-progress/ba-p/4511672",
-      "published": "2026-05-28T18:40:01+00:00",
-      "summary": "A complete record of milestones, launches, and newest innovations. Today we are again expanding model choice in Microsoft 365 Copilot with the addition of Anthropic's latest model—Claude Opus 4.8—now available in Copilot Cowork (Frontier). Learn more about our announcement here. Give Microsoft 365...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "ilyagrebnov",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -5547,28 +5602,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "[Launched] Generally Available: SQL Server on Azure VMs in Malaysia West, Indonesia Central",
-      "link": "https://azure.microsoft.com/updates?id=562094",
-      "published": "2026-05-20T23:15:14+00:00",
-      "summary": "SQL Server on Azure Virtual Machines is now generally available in the Malaysia West and Indonesia Central Azure regions. With this regional expansion, you can deploy and manage SQL Server workloads closer to your users while helping meet data residency r",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Update: Microsoft Entra ID token refresh support for Python, .NET, and JavaScript in Azure Database for PostgreSQL",
-      "link": "https://azure.microsoft.com/updates?id=562079",
-      "published": "2026-05-20T23:15:14+00:00",
-      "summary": "You can now take advantage of Microsoft Entra ID token refresh support in Python, .NET, and JavaScript client libraries to simplify authentication in your applications backed by Azure Database for PostgreSQL. With this release, your applications can autom",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Summarized Gateway Prefixes for Route Advertisement in Azure Virtual Networks",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/summarized-gateway-prefixes-for-route-advertisement-in-azure/ba-p/4521652",
       "published": "2026-05-20T19:10:30+00:00",
@@ -5578,17 +5611,6 @@
       "author": "Jay-Li",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "[Launched] Generally Available: langchain-azure-cosmosdb python package for Azure Cosmos DB",
-      "link": "https://azure.microsoft.com/updates?id=562074",
-      "published": "2026-05-20T17:15:19+00:00",
-      "summary": "You can now build production-ready AI and agent applications faster using the new LangChain and LangGraph integration for Azure Cosmos DB. This Python package enables you to directly use Cosmos DB for vector and hybrid search, semantic caching, chat histo",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
     },
     {
       "title": "Your dev loop is full of tribal knowledge",
@@ -10376,17 +10398,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure Networking 2025: Powering cloud innovation and AI at global scale",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-networking-2025-powering-cloud-innovation-and-ai-at-global/ba-p/4479390",
-      "published": "2025-12-18T23:20:29+00:00",
-      "summary": "In 2025, Azure’s networking platform proved itself as the invisible engine driving the cloud’s most transformative innovations. Consider the construction of Microsoft’s new Fairwater AI datacenter in Wisconsin – a 315-acre campus housing hundreds of thousands of GPUs. To operate as one giant AI...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Sudha_Mahajan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Application layer DDoS protection using the HTTP DDoS Ruleset in Azure WAF",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/application-layer-ddos-protection-using-the-http-ddos-ruleset-in/ba-p/4479030",
       "published": "2025-12-18T07:18:22+00:00",
@@ -12158,17 +12169,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Getting started with FinOps hubs: Multicloud cost reporting with Azure and Google Cloud",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/getting-started-with-finops-hubs-multicloud-cost-reporting-with/ba-p/4415190",
-      "published": "2025-06-27T16:43:31+00:00",
-      "summary": "Microsoft’s FinOps hubs offer a powerful and trusted foundation for managing, analyzing, and optimizing cloud costs. Built on Azure Data Explorer (ADX) and Azure Data Lake Storage (ADLS), FinOps hubs provide a scalable platform to unify billing data across providers leveraging FOCUS datasets. In...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "GrahamM",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Hidden pitfalls of Temporary Tables in Oracle to PostgreSQL Migrations",
       "link": "https://techcommunity.microsoft.com/t5/modernization-best-practices-and/hidden-pitfalls-of-temporary-tables-in-oracle-to-postgresql/ba-p/4416636",
       "published": "2025-06-26T00:59:58+00:00",
@@ -12301,5 +12301,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Microsoft’s Azure ecosystem updates today centered on AI agents, developer productivity, and cloud operations. Key announcements included the **general availability of ICMP support for Azure Standard V2 NAT Gateway**, new **immutable backups and long-term retention for Azure Cosmos DB Backup** in public preview, and a new **LLM training performance record at extreme scale on Azure**, alongside AI-focused tooling such as **Microsoft Binlog MCP Server for MSBuild investigation**, the **Azure Copilot Observability Agent for AKS troubleshooting**, and new evaluation features in **Azure AI Foundry** like **Benchmarks in Microsoft Foundry (preview)** and the **USR-8 user simulator scoring method**.\n\nOn the developer side, **Visual Studio Code 1.125** shipped together with improvements to **GitHub Copilot**, including **Auto mode in Copilot Chat for all users**, **Agent finder**, the **general availability of the GitHub Copilot app**, and **better token efficiency**. Security and governance were also a theme, with **Microsoft Sentinel** expanding **Normalization and ASIM**, a deep dive into “**Anatomy of the change**,” and Azure architecture guidance emphasizing **defence-in-depth, DMZ-first landing zones by traffic flow**."
+  "summary": "Today’s Azure ecosystem updates were dominated by **AI-assisted engineering and operations**, with announcements spanning **GitHub Copilot** improvements in **context handling, model routing, Auto mode, agent discovery**, and Azure-side tooling like the **Azure Copilot Observability Agent for AKS troubleshooting**, **GitHub Copilot Modernization integration in Azure Migrate** for large-scale code assessments, and the **Microsoft Binlog MCP Server** for AI-powered **MSBuild** investigation. On the AI platform side, **Azure AI Foundry** introduced **intelligent sampling for production traces** and **benchmarking for models and agents**, while security coverage focused on **AI-accelerated cyberattacks**, **GitHub secret scanning updates**, and new **Sentinel** guidance.\n\nThe biggest infrastructure and data announcements were **GA support for ICMP on Azure StandardV2 NAT Gateway**, **AKS release notes**, and expanded **Azure Databricks–Microsoft OneLake** integration: **native read access is now generally available**, and **native storage in OneLake** entered **public preview**. Developer platform updates also included **Visual Studio Code 1.125**, GitHub enterprise policy changes, and Microsoft guidance on **SQL Server database migration** options."
 }
