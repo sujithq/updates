@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-06-18T02:10:50.000493+00:00",
-  "totalArticles": 1118,
+  "lastUpdated": "2026-06-18T07:23:06.593054+00:00",
+  "totalArticles": 1119,
   "articles": [
+    {
+      "title": "Enterprise-ready Claude Desktop with Entra ID, APIM, and Microsoft Foundry (No Backend Required)",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/enterprise-ready-claude-desktop-with-entra-id-apim-and-microsoft/ba-p/4528163",
+      "published": "2026-06-18T03:47:52+00:00",
+      "summary": "How I put corporate sign-in in front of Claude Desktop without writing a single line of backend code. TL;DR — In this post, I show how to securely enable Claude Desktop in enterprise environments using Microsoft Entra ID, Azure API Management, and Microsoft Foundry — without deploying a custom...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "LZhang",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "From package to postinstall payload: Inside the Mastra npm supply chain compromise",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/",
+      "published": "2026-06-18T03:43:04+00:00",
+      "summary": "A poisoned npm package infected 140+ projects with a hidden payload. This report highlights how to detect, hunt, and defend against supply chain attacks using Microsoft Defender and actionable threat intelligence. The post From package to postinstall payload: Inside the Mastra npm supply chain...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Defender Security Research Team",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Memory-Optimized Table Variables: Performance Under the Microscope",
+      "link": "https://techcommunity.microsoft.com/t5/modernization-best-practices-and/memory-optimized-table-variables-performance-under-the/ba-p/4516039",
+      "published": "2026-06-17T23:24:50+00:00",
+      "summary": "Introduction Memory-optimized table variables (MOTVs) have been available since SQL Server 2014, but many workloads still use regular on-disk table variables. The common assumption is that MOTVs are \"a bit faster\" - but how much faster, and under what conditions? When does the difference justify...",
+      "blog": "Modernization Best Practices Blog",
+      "blogId": "modernizationbestpracticesblog",
+      "author": "David_Lyth",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Crypto Clipper uses Tor and worm-like propagation for persistence and control",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/",
@@ -12,6 +45,17 @@
       "author": "Microsoft Defender Security Research Team and Microsoft Defender Experts",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Scaling High-Performance CAD on Azure Virtual Desktop with NVIDIA RTX PRO 6000",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/scaling-high-performance-cad-on-azure-virtual-desktop-with/ba-p/4528892",
+      "published": "2026-06-17T22:28:14+00:00",
+      "summary": "Overview of Siemens NX Multi-Session on Azure This validation study evaluates how Siemens NX 2506 performs in a multi-user AVD environment, using an RTX-based Azure VM. The focus was to test: 15 and 30 concurrent users Single-host vs multi-host configurations Consistent workloads under identical...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "Sunita_AZ0708",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Read remote repository content with GitHub CLI",
@@ -121,17 +165,6 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "imatiach",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "ICMP Support for Azure StandardV2 NAT Gateway",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/icmp-support-for-azure-standardv2-nat-gateway/ba-p/4528374",
-      "published": "2026-06-17T17:44:22+00:00",
-      "summary": "Our customers, across all industries, depend on consistent outbound connectivity and observability to operate and troubleshoot their cloud workloads at scale. As Azure environments grow in size and complexity, teams increasingly rely on standard network diagnostic tools such as ping to quickly...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "malaikanazim",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -2046,17 +2079,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Updating the taxonomy of failure modes in agentic AI systems: What a year of red teaming taught us",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/04/updating-taxonomy-failure-modes-agentic-ai-systems-year-red-teaming-taught-us/",
-      "published": "2026-06-04T19:14:42+00:00",
-      "summary": "A surge in real-world attacks against agentic AI systems is reshaping how we think about risk. Based on 12 months of red teaming, this update introduces seven new failure modes, from supply chain compromise to goal hijacking, and the practical mitigations teams need now. The post Updating the...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft AI Red Team",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -4972,17 +4994,6 @@
       "blogId": "azureobservabilityblog",
       "author": "Noa Kuperberg",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Agents That Build Agents: A SKILL-first Blueprint with MS Agent Framework & Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/agents-that-build-agents-a-skill-first-blueprint-with-ms-agent/ba-p/4523631",
-      "published": "2026-05-31T07:51:50+00:00",
-      "summary": "The single insight that changes everything Most \"build an AI agent\" tutorials collapse two completely different jobs into one tangled mess: the job of building an agent (writing the code, defining its tools, evaluating it, packaging it), and the job of running an agent (planning, reasoning, calling...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -10398,6 +10409,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Azure Networking 2025: Powering cloud innovation and AI at global scale",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-networking-2025-powering-cloud-innovation-and-ai-at-global/ba-p/4479390",
+      "published": "2025-12-18T23:20:29+00:00",
+      "summary": "In 2025, Azure’s networking platform proved itself as the invisible engine driving the cloud’s most transformative innovations. Consider the construction of Microsoft’s new Fairwater AI datacenter in Wisconsin – a 315-acre campus housing hundreds of thousands of GPUs. To operate as one giant AI...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Sudha_Mahajan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Application layer DDoS protection using the HTTP DDoS Ruleset in Azure WAF",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/application-layer-ddos-protection-using-the-http-ddos-ruleset-in/ba-p/4479030",
       "published": "2025-12-18T07:18:22+00:00",
@@ -10802,17 +10824,6 @@
       "blogId": "azuremigrationblog",
       "author": "shashban",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure ND GB300 v6 now Generally Available - Hyper-optimized for Generative and Agentic AI workloads",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/azure-nd-gb300-v6-now-generally-available-hyper-optimized-for/ba-p/4469475",
-      "published": "2025-11-19T01:13:53+00:00",
-      "summary": "We are pleased to announce the General Availability (GA) of ND GB300 v6 virtual machines, delivering the next leap in AI infrastructure. On 10/09, we shared the delivery of the first at-scale production cluster with more than 4,600 NVIDIA GB300 NVL72, featuring NVIDIA Blackwell Ultra GPUs connected...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "Nitin_Nagarkatte",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12300,5 +12311,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurevirtualdesktopblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure-related posts focus on two major themes: secure enterprise AI integration and software supply chain security. In the Azure Dev Community post, Microsoft highlights a no-backend pattern for making Claude Desktop enterprise-ready using **Microsoft Entra ID** for identity, **Azure API Management (APIM)** for controlled API access, and **Microsoft Foundry** to connect and govern AI capabilities in a corporate environment.\n\nThe Microsoft Security Blog post shifts to threat defense, analyzing the **Mastra npm supply chain compromise** from malicious package publication through **postinstall payload** execution. The key takeaway is the growing risk in the **npm ecosystem** and the need for stronger package validation, dependency monitoring, and detection of install-time malware behavior."
 }
