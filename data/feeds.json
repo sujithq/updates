@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-06-17T22:29:11.989693+00:00",
+  "lastUpdated": "2026-06-18T02:10:50.000493+00:00",
   "totalArticles": 1118,
   "articles": [
+    {
+      "title": "Crypto Clipper uses Tor and worm-like propagation for persistence and control",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/",
+      "published": "2026-06-17T23:11:43+00:00",
+      "summary": "Microsoft Threat Intelligence analyzed a cryptocurrency clipper campaign that combines clipboard theft, wallet replacement, Tor-based communications, and worm-like propagation. Beyond stealing cryptocurrency transactions, the malware establishes persistent access and enables follow-on activity...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Defender Security Research Team and Microsoft Defender Experts",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "Read remote repository content with GitHub CLI",
       "link": "https://github.blog/changelog/2026-06-17-read-remote-repository-content-with-github-cli",
@@ -100,6 +111,17 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "Intelligent sampling in Microsoft Foundry: the science behind selecting better production traces",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/intelligent-sampling-in-microsoft-foundry-the-science-behind/ba-p/4523722",
+      "published": "2026-06-17T18:00:00+00:00",
+      "summary": "Authors: Ilya Matiach, Morteza Ziyadi, José Santos, Ali Mahmoudzadeh, Shuo Qiu, Salma Elshafey, April Kwong, Vivek Bhadauria TL;DR Microsoft Foundry's intelligent sampling feature (used when creating an evaluation or fine-tuning dataset from production agent traces) uses a MinHash farthest-first...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "imatiach",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "ICMP Support for Azure StandardV2 NAT Gateway",
@@ -223,6 +245,28 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Benchmarks in Microsoft Foundry (preview): Standardized model and agent quality checks",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/benchmarks-in-microsoft-foundry-preview-standardized-model-and/ba-p/4523711",
+      "published": "2026-06-17T16:00:00+00:00",
+      "summary": "Authors: Ilya Matiach, Morteza Ziyadi, Han Che, José Santos, Ali Mahmoudzadeh, Shuo Qiu, Salma Elshafey, April Kwong, Vivek Bhadauria Introduction Benchmarks in Microsoft Foundry (preview) make that kind of measurement a first-class part of the development workflow. You can run well-known...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "imatiach",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Microsoft Options to Migrate SQL Server Databases",
+      "link": "https://techcommunity.microsoft.com/t5/modernization-best-practices-and/microsoft-options-to-migrate-sql-server-databases/ba-p/4521637",
+      "published": "2026-06-17T15:04:50+00:00",
+      "summary": "Overview This blog supplements the Migrate to Azure SQL documentation and tries to summarize the Microsoft first party ways to copy or migrate SQL Server databases from on‑premises environments to one of the flavours of SQL Server running in Azure. It is organized first by target platform (Azure...",
+      "blog": "Modernization Best Practices Blog",
+      "blogId": "modernizationbestpracticesblog",
+      "author": "Mitch_van_Huuksloot",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Introducing New Additions to Microsoft Sentinel Normalization and ASIM",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/introducing-new-additions-to-microsoft-sentinel-normalization/ba-p/4524584",
       "published": "2026-06-17T15:00:00+00:00",
@@ -265,6 +309,17 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
+    },
+    {
+      "title": "How to Score a User Simulator: Introducing USR-8",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/how-to-score-a-user-simulator-introducing-usr-8/ba-p/4523642",
+      "published": "2026-06-17T14:00:00+00:00",
+      "summary": "Authors: José Santos, Shuo Qiu, Morteza Ziyadi User simulators have become a standard part of the agent-building toolkit: cheaper than real-user pilots, faster than scripted dialogues, and the only way to push an agent through hundreds of plausible conversations between every code change. The hard...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "jcasantos",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Azure Backup for Azure Cosmos DB Public Preview Adds Immutable Backups and Long-Term Retention",
@@ -597,17 +652,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Intelligent sampling in Microsoft Foundry: the science behind selecting better production traces",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/intelligent-sampling-in-microsoft-foundry-the-science-behind/ba-p/4523722",
-      "published": "2026-06-15T16:00:00+00:00",
-      "summary": "TL;DR Microsoft Foundry's intelligent sampling feature (used when creating an evaluation or fine-tuning dataset from production agent traces) uses a MinHash farthest-first diversity sampler. On WildChat (the primary validation dataset, sampling 100 items from a 5,000-trace pool), diversity sampling...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "imatiach",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Inside the Observability Agent: How Deep Investigations and Reasoning Work",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/inside-the-observability-agent-how-deep-investigations-and/ba-p/4527102",
       "published": "2026-06-15T15:57:54+00:00",
@@ -639,17 +683,6 @@
       "author": "Mads Kristensen",
       "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Benchmarks in Microsoft Foundry (preview): Standardized model and agent quality checks",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/benchmarks-in-microsoft-foundry-preview-standardized-model-and/ba-p/4523711",
-      "published": "2026-06-15T13:00:00+00:00",
-      "summary": "Introduction Benchmarks in Microsoft Foundry (preview) make that kind of measurement a first-class part of the development workflow. You can run well-known open-source benchmarks against any model deployment or agent in your project, compare runs side by side in the evaluation group view, and drive...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "imatiach",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Bringing Enterprise File Data to Users with Azure NetApp Files, Microsoft Foundry, and M365 Copilot",
@@ -1496,17 +1529,6 @@
       "blogId": "integrationsonazureblog",
       "author": "WSilveira",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Microsoft Options to Migrate SQL Server Databases",
-      "link": "https://techcommunity.microsoft.com/t5/modernization-best-practices-and/microsoft-options-to-migrate-sql-server-databases/ba-p/4521637",
-      "published": "2026-06-08T19:45:00+00:00",
-      "summary": "Overview This blog supplements the Migrate to Azure SQL documentation and tries to summarize the Microsoft first party ways to copy or migrate SQL Server databases from on‑premises environments to one of the flavours of SQL Server running in Azure. It is organized first by target platform (Azure...",
-      "blog": "Modernization Best Practices Blog",
-      "blogId": "modernizationbestpracticesblog",
-      "author": "Mitch_van_Huuksloot",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -2663,17 +2685,6 @@
       "author": "j_folberth",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Preinstall to persistence: Inside the Red Hat npm Miasma credential-stealing campaign",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/02/preinstall-persistence-inside-red-hat-npm-miasma-credential-stealing-campaign/",
-      "published": "2026-06-03T04:45:06+00:00",
-      "summary": "A large-scale npm supply chain attack compromised over 90 versions of @redhat-cloud-services packages, silently infecting CI/CD environments and developer systems. The malicious code steals credentials from GitHub, cloud platforms, and local machines, then spreads like a worm by republishing...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Defender Security Research Team",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Deploying Foundry Hosted Agents via REST API",
@@ -4972,17 +4983,6 @@
       "blogId": "azuredevcommunityblog",
       "author": "kinfey",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "What’s new in Azure Language in Foundry Tools",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/what-s-new-in-azure-language-in-foundry-tools/ba-p/4521343",
-      "published": "2026-05-29T23:30:00+00:00",
-      "summary": "Every day, your applications process thousands of emails, transcripts, and documents containing sensitive information—names, phone numbers, medical details. Manually identifying and protecting this data doesn't scale. Here's how the latest PII (Personally Identifiable Information) detection...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "renaliu",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12300,6 +12300,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurevirtualdesktopblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure-adjacent updates were dominated by AI copilots and platform operations: Microsoft introduced Azure Migrate integration with GitHub Copilot for at-scale modernization assessments, an Azure Copilot Observability Agent to speed AKS troubleshooting, and new GitHub Copilot capabilities around context handling, model routing, auto mode, and agent discovery. On the infrastructure side, Azure highlighted AKS release updates, GA support for ICMP on Azure Standard V2 NAT Gateway, and deeper Microsoft Fabric/analytics integration with Azure Databricks both gaining native read access to and, in preview, native storage in Microsoft OneLake.\n\nSecurity was the other major theme, with Microsoft emphasizing AI-driven cyber defense through Security Blog posts on faster-moving threats, benchmark-resistant security practices, Microsoft Sentinel change analysis, and Forrester naming Microsoft a Leader in XDR. GitHub also shipped governance and code security improvements including June 2026 secret scanning updates, enterprise-managed settings bypass controls, and limits on open pull requests for users without write access, while developer tooling advanced with Visual Studio Code 1.125, GitHub CLI remote repository content access, and the Microsoft Binlog MCP Server for AI-assisted MSBuild investigation."
+  ]
 }
