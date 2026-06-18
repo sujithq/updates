@@ -1,7 +1,95 @@
 {
-  "lastUpdated": "2026-06-18T12:16:45.906147+00:00",
-  "totalArticles": 1032,
+  "lastUpdated": "2026-06-18T17:52:20.958623+00:00",
+  "totalArticles": 1121,
   "articles": [
+    {
+      "title": "Visual Studio Code 1.126",
+      "link": "https://code.visualstudio.com/updates/v1_126",
+      "published": "2026-06-24T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.126 (Insiders) Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Copilot-authored pull requests now included in author searches",
+      "link": "https://github.blog/changelog/2026-06-18-copilot-authored-pull-requests-now-included-in-author-searches",
+      "published": "2026-06-18T16:24:05+00:00",
+      "summary": "Searching for pull requests using author: now shows pull requests opened by Copilot cloud agent on the user’s behalf. For example, searching with author:@me on github.com/pulls will return your own… The post Copilot-authored pull requests now included in author searches appeared first on The GitHub...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Repository switcher generally available in global navigation",
+      "link": "https://github.blog/changelog/2026-06-18-repository-switcher-generally-available-in-global-navigation",
+      "published": "2026-06-18T16:23:00+00:00",
+      "summary": "You can now quickly jump between repositories without leaving your current page. The new repository switcher in the global navigation is generally available. Select the chevron next to the repository… The post Repository switcher generally available in global navigation appeared first on The GitHub...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Detection and automation, reimagined",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/detection-and-automation-reimagined/ba-p/4527933",
+      "published": "2026-06-18T16:00:00+00:00",
+      "summary": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl How analytics rules, playbooks, workbooks, and hunting evolve in Defender—and why the new toolbelt makes detection engineering faster, automation richer, and hunting genuinely cross-platform. If you build detections for a...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Mohit_Kumar1",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "How pull request limits are cutting down the noise",
+      "link": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/",
+      "published": "2026-06-18T16:00:00+00:00",
+      "summary": "Learn how pull request limits can help manage contribution volume in your repositories, and see what’s next on the roadmap. The post How pull request limits are cutting down the noise appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Natalie Guevara",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Actions: Build custom images from custom images",
+      "link": "https://github.blog/changelog/2026-06-18-actions-build-custom-images-from-custom-images",
+      "published": "2026-06-18T15:32:44+00:00",
+      "summary": "Custom images for GitHub-hosted runners are getting new capabilities that give you more flexibility over how you compose and manage your image-generation pipelines. You can now build custom images on… The post Actions: Build custom images from custom images appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Controlling Tool Access with APIM MCP Gateway",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/controlling-tool-access-with-apim-mcp-gateway/ba-p/4529225",
+      "published": "2026-06-18T14:44:22+00:00",
+      "summary": "If you've started working with MCP servers in GitHub Copilot, Claude, or any other agent host in an enterprise environment, you've probably hit a similar problem. You want to give your developers access to a useful MCP server, but not every tool it ships with. Maybe one tool is noisy and burns...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "samcogan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Safer pull_request_target defaults for GitHub Actions checkout",
+      "link": "https://github.blog/changelog/2026-06-18-safer-pull_request_target-defaults-for-github-actions-checkout",
+      "published": "2026-06-18T14:06:55+00:00",
+      "summary": "The pull_request_target event is one of the most commonly misused triggers in GitHub Actions, leading to vulnerabilities in workflows. Workflows triggered by pull_request_target run with the base repository’s GITHUB_TOKEN, secrets,… The post Safer pull_request_target defaults for GitHub Actions...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "Generated release notes credit you for Copilot pull requests",
       "link": "https://github.blog/changelog/2026-06-18-generated-release-notes-credit-you-for-copilot-pull-requests",
@@ -33,6 +121,17 @@
       "blogId": "microsoftsecurity",
       "author": "Microsoft Defender Security Research Team",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Use your own language model key in VS Code",
+      "link": "https://code.visualstudio.com/blogs/2026/06/18/byok-vscode",
+      "published": "2026-06-18T00:00:00+00:00",
+      "summary": "Learn how to use bring your own key (BYOK) in VS Code to add models from providers like Azure, Anthropic, Gemini, OpenAI, Huggingface, OpenRouter, or use a local model with Ollama, Foundry Local, and more. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Kayla Cinnamon",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -223,6 +322,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Visual Studio Code 1.125",
+      "link": "https://code.visualstudio.com/updates/v1_125",
+      "published": "2026-06-17T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.125 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "[Launched] Generally Available: ICMP Support for Azure Standard V2 NAT Gateway",
       "link": "https://azure.microsoft.com/updates?id=565487",
       "published": "2026-06-17T16:30:04+00:00",
@@ -232,6 +342,17 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "Accelerating AKS troubleshooting with the Azure Copilot Observability Agent",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/accelerating-aks-troubleshooting-with-the-azure-copilot/ba-p/4528517",
+      "published": "2026-06-17T16:27:27+00:00",
+      "summary": "AKS incidents rarely stay within one Kubernetes object, signal, or tool. A latency spike might first appear in application telemetry, but the root cause may sit elsewhere: pod restarts, node pressure, scheduling failures, or a recent configuration change. The Azure Copilot Observability Agent in...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "yairgil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Auto mode in Copilot Chat available for all users",
@@ -249,17 +370,6 @@
       "link": "https://github.blog/changelog/2026-06-17-limit-open-pull-requests-for-users-without-write-access",
       "published": "2026-06-17T16:23:56+00:00",
       "summary": "Maintainers of open source repositories are dealing with an ever-growing volume of pull requests, including repeated low-quality or drive-by contributions that can slow triage and overwhelm review queues. To help… The post Limit open pull requests for users without write access appeared first on...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Agent finder for GitHub Copilot now available",
-      "link": "https://github.blog/changelog/2026-06-17-agent-finder-for-github-copilot-now-available",
-      "published": "2026-06-17T16:21:56+00:00",
-      "summary": "GitHub agent finder is now available. Instead of hand-wiring which MCP servers, skills, canvases, agents, and tools each agent should use—and filling your context window in the process—GitHub Copilot can… The post Agent finder for GitHub Copilot now available appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -322,17 +432,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Copilot individual plan sign-ups are reopening",
-      "link": "https://github.blog/changelog/2026-06-17-copilot-individual-plan-sign-ups-are-reopening",
-      "published": "2026-06-17T14:10:00+00:00",
-      "summary": "We’re reopening sign-ups for GitHub Copilot Student, Pro, Pro+, and Max plans gradually over the next couple of weeks for new subscribers. If you’ve been waiting to get started with… The post Copilot individual plan sign-ups are reopening appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "v1.16.0-alpha20260617",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260617",
       "published": "2026-06-17T14:07:50+00:00",
@@ -377,15 +476,15 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "GitHub Copilot app generally available",
-      "link": "https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available",
-      "published": "2026-06-17T13:00:33+00:00",
-      "summary": "The GitHub Copilot app is now generally available for macOS, Windows, and Linux. It’s the desktop home for agent-driven development, built natively on GitHub. Download the GitHub Copilot app to… The post GitHub Copilot app generally available appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
+      "title": "Designing Cloud Landing Zones by Traffic Flow: A Defence‑in‑Depth, DMZ‑First Architecture",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/designing-cloud-landing-zones-by-traffic-flow-a-defence-in-depth/ba-p/4524280",
+      "published": "2026-06-17T12:17:58+00:00",
+      "summary": "As enterprises adopt Microsoft Azure for large‑scale and regulated workloads, security architecture must be driven by traffic trust boundaries and inspection intent, not connectivity alone. Regulatory frameworks consistently require a clear separation between Internet‑untrusted and private...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "AvanishYadav",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Build an Automated SLA Risk Agent with Routines in Microsoft Foundry",
@@ -408,6 +507,17 @@
       "author": "azinheidarshenas",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Improving token efficiency for GitHub Copilot in VS Code",
+      "link": "https://code.visualstudio.com/blogs/2026/06/17/improving-token-efficiency-in-github-copilot",
+      "published": "2026-06-17T00:00:00+00:00",
+      "summary": "Learn how we're improving token efficiency for GitHub Copilot to reduce costs and latency for VS Code users. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Ryan Caldwell, Bhavya U",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "Closing the loop on container security: From code to runtime in the AI era",
@@ -465,17 +575,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "GitHub Models is no longer available to new customers",
-      "link": "https://github.blog/changelog/2026-06-16-github-models-is-no-longer-available-to-new-customers",
-      "published": "2026-06-16T20:24:41+00:00",
-      "summary": "We are retiring GitHub Models. As a first step, new customers can no longer use it. If your organization or enterprise have not previously used GitHub Models, you won’t see… The post GitHub Models is no longer available to new customers appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[In preview] Public Preview: New project templates and template gallery for Azure Functions in VS Code",
       "link": "https://azure.microsoft.com/updates?id=562497",
       "published": "2026-06-16T19:00:15+00:00",
@@ -485,6 +584,28 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "Anomaly detection made easy with Dynamic thresholds for Log search alerts",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/anomaly-detection-made-easy-with-dynamic-thresholds-for-log/ba-p/4521522",
+      "published": "2026-06-16T17:33:52+00:00",
+      "summary": "We’re excited to announce the General Availability of dynamic thresholds for log search alerts in Azure Monitor. Dynamic thresholds make anomaly detection easier by using machine learning to learn normal behavior from your historical log query results, automatically account for patterns such as...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Efrat_Ben_Porat",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "General Availability: Simple log alerts in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/general-availability-simple-log-alerts-in-azure-monitor/ba-p/4521498",
+      "published": "2026-06-16T17:33:31+00:00",
+      "summary": "We are excited to announce the General Availability of Simple log alerts in Azure Monitor! This feature is designed to provide a simplified and more intuitive experience for monitoring and alerting, enhancing your ability to detect and respond to problems in near real-time. Simple log alerts are a...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Efrat_Ben_Porat",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "[Launched] Generally Available: Log Analytics Summary Rules experience",
@@ -628,6 +749,17 @@
       "author": "Jeff Pinkston",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Inside the Observability Agent: How Deep Investigations and Reasoning Work",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/inside-the-observability-agent-how-deep-investigations-and/ba-p/4527102",
+      "published": "2026-06-15T15:57:54+00:00",
+      "summary": "Incidents are rarely explained by one chart. A spike in request failures might be caused by a dependency timeout. A dependency timeout might come from a connection pool issue. And that connection pool issue might trace back to a deployment or a resource health event that started minutes earlier....",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "yalavi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "ArchAngel: Skilling the next developer generation for the Agentic transformation.",
@@ -828,6 +960,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "A deep dive into Azure Bastion session recording",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/a-deep-dive-into-azure-bastion-session-recording/ba-p/4527583",
+      "published": "2026-06-11T19:38:25+00:00",
+      "summary": "If you’ve worked with Azure Bastion’s Premium SKU, you’ve likely encountered one of its most powerful security features: graphical session recording. Capturing RDP and SSH sessions end to end strengthens compliance, supports forensic investigations, and improves operational accountability. How you...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "juquint",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Retirement: Av2-series, F-series, Fs-series, Fsv2-series, G-series, Gs-series, and Lsv2-series Virtual Machines for Azure Batch pools",
       "link": "https://azure.microsoft.com/updates?id=564774",
       "published": "2026-06-11T19:00:41+00:00",
@@ -859,6 +1002,17 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "Modern VM monitoring, powered by OpenTelemetry",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/modern-vm-monitoring-powered-by-opentelemetry/ba-p/4527566",
+      "published": "2026-06-11T18:57:11+00:00",
+      "summary": "At Build 2026, we're announcing the general availability of OpenTelemetry (OTel) Guest OS metrics for Azure VMs and Arc-enabled Servers. OTel provides a standards-based foundation for VM monitoring with consistent metrics across Windows and Linux, richer Guest OS and per-process visibility, and...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "viviandiec",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!",
@@ -903,6 +1057,28 @@
       "author": "Waldek Mastykarz",
       "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Azure Monitor SLIs now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-slis-now-generally-available/ba-p/4523689",
+      "published": "2026-06-11T17:18:29+00:00",
+      "summary": "Azure Monitor SLIs are now generally available Service Level Indicators (SLIs) and Service Level Objectives (SLOs) in Azure Monitor are now generally available. Teams can now measure reliability based on customer experience, not just infrastructure signals. SLI: A quantitative measure of how well...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Sokuma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure Monitor Metrics Export Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-metrics-export-generally-available/ba-p/4523712",
+      "published": "2026-06-11T17:17:35+00:00",
+      "summary": "Today, we’re excited to announce the general availability of Azure Monitor Metrics Export using data collection rules (DCRs). A scalable, flexible way to continuously export platform metrics with dimensional fidelity, lower latency, and more control over what you send downstream. Azure Monitor...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Sokuma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Retirement: Azure Load Balancer Inbound NAT rule version 1 for Azure VMSS (aka Inbound NAT Pools)",
@@ -1092,6 +1268,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "PUBLIC PREVIEW - Azure Monitor - Collect Azure Resource Platform Logs at Scale with DCRs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-azure-monitor-collect-azure-resource-platform/ba-p/4525296",
+      "published": "2026-06-10T19:34:21+00:00",
+      "summary": "The Challenge of Platform Log Collection at Scale For many platform teams, Azure resource platform log collection starts simple—but becomes difficult to manage at enterprise scale. Imagine a team responsible for more than 8,000 Azure resources across 14 subscriptions. Every new resource needs a...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Mahesh_Sundaram",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Is your agent extension actually working?",
       "link": "https://devblogs.microsoft.com/blog/is-your-agent-extension-actually-working",
       "published": "2026-06-10T19:06:17+00:00",
@@ -1122,6 +1309,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Visual Studio Code 1.124",
+      "link": "https://code.visualstudio.com/updates/v1_124",
+      "published": "2026-06-10T17:00:00+00:00",
+      "summary": "Learn what is new in Visual Studio Code 1.124 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -1378,6 +1576,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Any source. Any destination. Ready for AI-era.",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/any-source-any-destination-ready-for-ai-era/ba-p/4524886",
+      "published": "2026-06-09T01:43:45+00:00",
+      "summary": "Telemetry is exploding, every new app, edge node, and AI agent is a new firehose, and AI has raised the bar on what that telemetry must be: governed, on open standards, observable at agent scale. Today, most teams answer that by stitching together a stack of disconnected tools, each catering to a...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "shayoni_seth",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "What's new in Azure App Service at #MSBuild 2026",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-app-service-at-msbuild-2026/ba-p/4526569",
       "published": "2026-06-08T22:30:40+00:00",
@@ -1464,6 +1673,17 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "Connect Metrics to Traces with Exemplars in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/connect-metrics-to-traces-with-exemplars-in-azure-monitor/ba-p/4525714",
+      "published": "2026-06-08T17:21:43+00:00",
+      "summary": "Following Microsoft’s recent GA announcement for OpenTelemetry (OTel) support, we are excited to announce support for Exemplars for customers instrumenting metrics with Prometheus or OpenTelemetry and traces using OpenTelemetry, enhancing Azure Monitor’s integrated observability experience for...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "sunayanasingh",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "[In preview] Public Preview: Microsoft Foundry agent security capabilities in Microsoft Defender for Cloud are transitioning to a Microsoft Agent 365 license",
@@ -1554,17 +1774,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "GitHub for Beginners: Answers to some common questions",
-      "link": "https://github.blog/developer-skills/github/github-for-beginners-answers-to-some-common-questions/",
-      "published": "2026-06-08T16:00:00+00:00",
-      "summary": "Find the answers to some of the most common GitHub-related questions. The post GitHub for Beginners: Answers to some common questions appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Natalie Guevara",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "AI brands as bait: How threat actors are using the AI hype in social engineering",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering/",
       "published": "2026-06-08T16:00:00+00:00",
@@ -1650,6 +1859,17 @@
       "blogId": "linuxandopensourceblog",
       "author": "amolravande",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "New Capabilities to Observe Agents in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/new-capabilities-to-observe-agents-in-azure-monitor/ba-p/4524896",
+      "published": "2026-06-05T22:09:44+00:00",
+      "summary": "Over the last six months, we have been listening to you and building new capabilities to help you observe your agents. You’ve been sharing with us that quality issues are tricky and evaluation is critical, that agent reasoning needs to be understood, that humans must be in the loop to review select...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "MattMc",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -1749,6 +1969,17 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "DONGLI",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure Monitor Health Model (Preview): What's New!",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-health-model-preview-what-s-new/ba-p/4525707",
+      "published": "2026-06-05T01:30:56+00:00",
+      "summary": "Azure Monitor Health Model is a modern observability capability that brings together telemetry, architecture, and business context of your workloads to generate health insights. It continuously aggregates signals across dependencies, producing a single, actionable health state which reduces alert...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "shijain13",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -2137,6 +2368,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "What’s new in Observability at Build 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/what-s-new-in-observability-at-build-2026/ba-p/4524927",
+      "published": "2026-06-03T19:02:31+00:00",
+      "summary": "Observability for AI and Agent Workloads AI agents are moving from prototype to production. To help teams ship and operate agents with the same rigor as the rest of their stack, Azure Monitor & Azure Copilot Observability agent brings end-to-end agent observability — grounded in OpenTelemetry so...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Priyanka Nanda",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "[Launched] Public Preview: Conversational PII NextGen Playground in Microsoft Foundry",
       "link": "https://azure.microsoft.com/updates?id=564246",
       "published": "2026-06-03T19:00:25+00:00",
@@ -2269,6 +2511,28 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Is 94% of your syslog just noise? Now you can filter it out before ingestion.",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/is-94-of-your-syslog-just-noise-now-you-can-filter-it-out-before/ba-p/4524600",
+      "published": "2026-06-03T17:19:40+00:00",
+      "summary": "At Microsoft Build 2026, we are announcing the public preview of multi-stage transformations for Azure Monitor Data Collection Rules (DCRs). Multi-stage transformations let you filter, aggregate, parse, and map your logs at the point of collection, before data is ingested into your workspace....",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Ivan_Varnitski",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "When Telemetry Volume Gets Real: Azure Monitor pipeline’s Performance Story!",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/when-telemetry-volume-gets-real-azure-monitor-pipeline-s/ba-p/4524898",
+      "published": "2026-06-03T17:19:17+00:00",
+      "summary": "What is Azure Monitor pipeline? Azure Monitor pipeline provides centralized governance and a single point of control that runs close to your data sources, so you can filter, transform, aggregate, and route telemetry before it's sent to Azure Monitor. This approach helps you reduce ingestion volume,...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "susaraswat4",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "[In preview] Public Preview: Azure Infrastructure Resiliency Manager",
       "link": "https://azure.microsoft.com/updates?id=564759",
       "published": "2026-06-03T17:15:25+00:00",
@@ -2310,6 +2574,17 @@
       "blogId": "foundryblog",
       "author": "Swetha Machanavajhala",
       "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Visual Studio Code 1.123",
+      "link": "https://code.visualstudio.com/updates/v1_123",
+      "published": "2026-06-03T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.123 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -2555,6 +2830,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Is Your Monitoring Actually Working? What's New in Monitoring Coverage",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/is-your-monitoring-actually-working-what-s-new-in-monitoring/ba-p/4524619",
+      "published": "2026-06-02T22:40:52+00:00",
+      "summary": "Monitoring is only useful when the right signals are collected, the right alerts are in place, and the data is actually flowing when teams need it. In large Azure environments, confirming all three across every VM and AKS cluster can still take too much manual work. At Microsoft Ignite, we...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Nathan_Mangum",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "[Launched] Generally Available: Agent kit for Azure Cosmos DB",
       "link": "https://azure.microsoft.com/updates?id=563022",
       "published": "2026-06-02T22:30:49+00:00",
@@ -2783,17 +3069,6 @@
       "blogId": "linuxandopensourceblog",
       "author": "FloraTaagen",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Closing the AI-readiness gap with agentic modernization",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/closing-the-ai-readiness-gap-with-agentic-modernization/ba-p/4524011",
-      "published": "2026-06-02T19:49:29+00:00",
-      "summary": "Legacy debt is widening the AI-readiness gap Legacy systems and mounting tech debt aren't just slowing your AI agenda — they're quietly stealing its potential. Aging architectures, and complex, decades-old applications, databases, and infrastructure weren't designed for high performance, complex,...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Mike_Hulme",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3036,6 +3311,17 @@
       "blogId": "integrationsonazureblog",
       "author": "beenamore",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure Monitor Copilot Observability Agent: What’s new at Build",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-copilot-observability-agent-what-s-new-at-build/ba-p/4522927",
+      "published": "2026-06-02T19:30:00+00:00",
+      "summary": "The Observability agent in Azure Copilot is an AI-powered assistant built into Azure Monitor that helps engineers investigate issues and explore their systems using natural language. By grounding its analysis in telemetry data such as metrics, logs, and traces, it supports both open-ended...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "EfratNauerman",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -4546,6 +4832,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Monitor AI coding agents with OpenTelemetry in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/monitor-ai-coding-agents-with-opentelemetry-in-azure-monitor/ba-p/4524049",
+      "published": "2026-06-02T14:41:00+00:00",
+      "summary": "AI coding agents are quickly becoming part of the everyday developer workflow. As teams adopt tools such as GitHub Copilot, Claude Code, and Codex, they need a better way to understand usage, troubleshoot performance, and keep an eye on token consumption and cost. With Azure Monitor’s OpenTelemetry...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "KayodePrince",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "🔥Designing Specialized Agents - Model Selection, Tool Scoping, and Output Contracts🔥",
       "link": "https://www.letsdodevops.com/p/designing-specialized-agents-model",
       "published": "2026-06-02T14:40:34+00:00",
@@ -4555,6 +4852,17 @@
       "author": "Kyler Middleton",
       "feedUrl": "https://www.letsdodevops.com/feed",
       "sourceType": "rss"
+    },
+    {
+      "title": "Direct OpenTelemetry ingestion into Azure Monitor is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/direct-opentelemetry-ingestion-into-azure-monitor-is-now/ba-p/4524044",
+      "published": "2026-06-02T14:39:33+00:00",
+      "summary": "OpenTelemetry is powering a new era of observability. Built on open standards, designed for portability, and made for developers who want flexibility without compromise. And now, you can send OpenTelemetry logs, metrics, and traces straight into Azure Monitor OTLP endpoints and data storage. This...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "KayodePrince",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Infrastructure as Code for AI: Building and Deploying Microsoft Hosted Agents with Terraform",
@@ -4722,6 +5030,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "The Azure Copilot Observability Agent Chat - Stop Writing Queries, Start Asking Questions.",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/the-azure-copilot-observability-agent-chat-stop-writing-queries/ba-p/4522206",
+      "published": "2026-06-01T11:04:05+00:00",
+      "summary": "Services and applications produce massive amounts of telemetry – and making sense of all this data takes effort. Data is often spread across different stores, which means the way to clear insights goes through careful querying, refinement and correlation. The Azure Copilot Observability agent now...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Noa Kuperberg",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Finance Agent Benchmark: evaluating and improving AI for Finance",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/finance-agent-benchmark-evaluating-and-improving-ai-for-finance/ba-p/4522978",
       "published": "2026-05-29T20:43:08+00:00",
@@ -4786,6 +5105,17 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "Azure DDoS Protection & Azure WAF: A Layered Defense for Modern DDoS Attacks",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-ddos-protection-azure-waf-a-layered-defense-for-modern/ba-p/4523745",
+      "published": "2026-05-29T06:52:47+00:00",
+      "summary": "Introduction: The Need for Layered DDoS Defense Organizations today operate in an environment where Distributed Denial of Service (DDoS) attacks continue to evolve across both network and application layers. To help organizations build resilient, internet-facing applications and services, Microsoft...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Training 100B+ Models on a Single GPU: What MegaTrain Changes - and What It Means for Azure",
@@ -4873,6 +5203,17 @@
       "blogId": "aspireblog",
       "author": "Brent Rusinow",
       "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Visual Studio Code 1.122",
+      "link": "https://code.visualstudio.com/updates/v1_122",
+      "published": "2026-05-28T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.122 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -5338,6 +5679,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Visual Studio Code 1.121",
+      "link": "https://code.visualstudio.com/updates/v1_121",
+      "published": "2026-05-20T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.121 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "v1.15.4",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.4",
       "published": "2026-05-20T16:52:18+00:00",
@@ -5613,6 +5965,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "The Coding Harness Behind GitHub Copilot in VS Code",
+      "link": "https://code.visualstudio.com/blogs/2026/05/15/agent-harnesses-github-copilot-vscode",
+      "published": "2026-05-15T00:00:00+00:00",
+      "summary": "Learn why the coding harness around GitHub Copilot in VS Code matters as models, tools, agents, and providers evolve. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "VS Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "Exponential backoff and circuit breaker for Service Bus-triggered Azure Functions",
       "link": "https://devblogs.microsoft.com/azure-sdk/exponential-backoff-circuit-breaker-azure-functions/",
       "published": "2026-05-14T23:04:41+00:00",
@@ -5809,6 +6172,17 @@
       "author": "simranparkhe",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Visual Studio Code 1.120",
+      "link": "https://code.visualstudio.com/updates/v1_120",
+      "published": "2026-05-13T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.120 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "Agent Skills in Visual Studio: Teach Copilot How Your Team Works",
@@ -6306,6 +6680,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Visual Studio Code 1.119",
+      "link": "https://code.visualstudio.com/updates/v1_119",
+      "published": "2026-05-06T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.119 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "Resilient by Design: Azure Databricks Disaster Recovery Strategy",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/resilient-by-design-azure-databricks-disaster-recovery-strategy/ba-p/4516464",
       "published": "2026-05-06T16:28:58+00:00",
@@ -6403,6 +6788,17 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Update host keys to use SFTP on Azure Blob Storage",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/update-host-keys-to-use-sftp-on-azure-blob-storage/ba-p/4515483",
+      "published": "2026-05-05T18:22:49+00:00",
+      "summary": "Update host keys to use SFTP on Azure Blob Storage Some Azure Storage users may receive periodically an alert informing to update host keys to use SFTP on Azure Blob Storage. This article describes the impact this will have on the SFTP blob service and what are the changes needed.Table of Content...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "LuisFilipe",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Extending Sentinel Data Integration: Azure Blob Storage Support for CCF Connectors",
@@ -6680,6 +7076,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Public Preview: Managed Identity support for graphical session recording",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/public-preview-managed-identity-support-for-graphical-session/ba-p/4513139",
+      "published": "2026-04-30T14:05:12+00:00",
+      "summary": "Overview Azure Bastion provides secure RDP and SSH access to Azure virtual machines directly via the Azure portal or via the native SSH/RDP client already installed on your local computer. Today, we are introducing public preview for managed identity support for session recording, giving...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "aarontsang",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Microsoft 365 Copilot readiness and resiliency with SharePoint and M365 Backup/Archive",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/microsoft-365-copilot-readiness-and-resiliency-with-sharepoint/ba-p/4513048",
       "published": "2026-04-30T12:07:12+00:00",
@@ -6757,6 +7164,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Visual Studio Code 1.118",
+      "link": "https://code.visualstudio.com/updates/v1_118",
+      "published": "2026-04-29T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.118 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "v1.15.0",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0",
       "published": "2026-04-29T14:05:34+00:00",
@@ -6787,6 +7205,17 @@
       "blogId": "azurecompute",
       "author": "AjKundnani",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "General availability of Default Ruleset (DRS) 2.2 for Web Application Firewall",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/general-availability-of-default-ruleset-drs-2-2-for-web/ba-p/4515762",
+      "published": "2026-04-29T08:31:47+00:00",
+      "summary": "Introduction As attackers continue to evolve their techniques, organizations require web application security that keeps pace with emerging threats without disrupting legitimate traffic. Azure Web Application Firewall (WAF) continues to evolve to meet these demands and now supports Default Rule Set...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "andrewmathu",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -7131,6 +7560,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Visual Studio Code 1.117",
+      "link": "https://code.visualstudio.com/updates/v1_117",
+      "published": "2026-04-22T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.117 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "Azure VNet Data Gateway for Secure Power BI & Power Platform Access in Enterprises",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-vnet-data-gateway-for-secure-power-bi-power-platform/ba-p/4511410",
       "published": "2026-04-22T16:30:19+00:00",
@@ -7307,6 +7747,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "Leveraging Azure Resource Graph Queries for Azure Redis Configuration",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/leveraging-azure-resource-graph-queries-for-azure-redis/ba-p/4509826",
+      "published": "2026-04-21T07:57:08+00:00",
+      "summary": "Scenario Many times, we receive requests for a quick and reliable way to review Azure Redis configurations such as SKU tiers, Redis versions, TLS settings, Microsoft Entra authentication status, and public network exposure. Traditionally, these checks are performed using PowerShell, Azure CLI, or...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "Soma_Sekhara_Raju",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Leveraging Azure Resource Graph Queries for Azure Storage Configuration",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/leveraging-azure-resource-graph-queries-for-azure-storage/ba-p/4509184",
+      "published": "2026-04-21T07:46:00+00:00",
+      "summary": "Scenario Many times, we receive requests for a quick and reliable way to check which Azure Storage features are enabled across subscriptions—such as SFTP, Hierarchical Namespace (HNS), or default access tiers. For such scenarios, customers can use PowerShell, Azure CLI, or REST APIs; however, these...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "jainsourabh",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "GitHub Copilot meets Azure Developer CLI: AI-assisted project setup and error troubleshooting",
       "link": "https://devblogs.microsoft.com/azure-sdk/azd-copilot-integration/",
       "published": "2026-04-21T00:38:49+00:00",
@@ -7450,17 +7912,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "How Granular Delegated Admin Privileges (GDAP) allows Sentinel customers to delegate access",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/how-granular-delegated-admin-privileges-gdap-allows-sentinel/ba-p/4503123",
-      "published": "2026-04-16T14:40:52+00:00",
-      "summary": "Simplifying Defender SIEM and XDR delegated access As Microsoft Sentinel and Defender converge into a unified experience, organizations face a fundamental challenge: the lack of a scalable, comprehensive, delegated access model that works seamlessly across Entra ID and Sentinel’s Azure Resource...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Yossi Basha",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing One‑Command Backup Configuration for AKS with Azure Backup",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/announcing-one-command-backup-configuration-for-aks-with-azure/ba-p/4511852",
       "published": "2026-04-16T07:50:59+00:00",
@@ -7503,6 +7954,17 @@
       "author": "sakshimalhotra",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Visual Studio Code 1.116",
+      "link": "https://code.visualstudio.com/updates/v1_116",
+      "published": "2026-04-15T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.116 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "Enabling fallback to internet for Azure Private DNS Zones in hybrid architectures",
@@ -7758,6 +8220,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Visual Studio Code 1.115",
+      "link": "https://code.visualstudio.com/updates/v1_115",
+      "published": "2026-04-08T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.115 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "Introducing SQL MCP Server",
       "link": "https://devblogs.microsoft.com/azure-sql/introducing-sql-mcp-server/",
       "published": "2026-04-08T16:01:37+00:00",
@@ -8000,6 +8473,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Orchestrating Intrusion Detection and Prevention Signature overrides in Azure Firewall Premium",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/orchestrating-intrusion-detection-and-prevention-signature/ba-p/4502213",
+      "published": "2026-04-01T23:08:21+00:00",
+      "summary": "Introduction: Azure Firewall Premium provides strong protection with a built-in Intrusion Detection and Prevention System (IDPS). It inspects inbound, outbound, and east-west traffic against Microsoft’s continuously updated signature set and can block threats before they reach your workloads. IDPS...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "User delegation SAS for Azure Tables, Azure Files, and Azure Queues is now Generally Available",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/user-delegation-sas-for-azure-tables-azure-files-and-azure/ba-p/4485693",
       "published": "2026-04-01T20:27:47+00:00",
@@ -8020,6 +8504,17 @@
       "author": "KashanK",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Visual Studio Code 1.114",
+      "link": "https://code.visualstudio.com/updates/v1_114",
+      "published": "2026-04-01T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.114 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "🔥Agentic AI Email Bot on AWS Bedrock AgentCore: Full Architecture and O365 Integration (1/2)🔥",
@@ -8220,6 +8715,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Assess Azure DDoS Protection Status Across Your Environment",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/assess-azure-ddos-protection-status-across-your-environment/ba-p/4505969",
+      "published": "2026-03-26T15:36:26+00:00",
+      "summary": "Introduction Distributed Denial of Service (DDoS) attacks continue to be one of the most prevalent threats facing organizations with internet-facing workloads. Azure DDoS Protection provides cloud-scale protection against L3/4 volumetric attacks, helping ensure your applications remain available...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "SaleemBseeu",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Building Search-Enabled Agents with Azure AI Foundry and Semantic Kernel and A2A",
       "link": "https://devblogs.microsoft.com/ise/building-bing-search-enabled-agent-with-microsoft-foundry-and-semantic-kernel/",
       "published": "2026-03-26T07:00:00+00:00",
@@ -8251,6 +8757,17 @@
       "author": "Sandip-Khandelwal",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Visual Studio Code 1.113",
+      "link": "https://code.visualstudio.com/updates/v1_113",
+      "published": "2026-03-25T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.113 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "Azure Managed Redis & Azure Databricks: Real-time Feature Serving for Low-Latency Decisions",
@@ -8319,6 +8836,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "How to get blob Total Blob Count and Total Capacity with Blob Inventory",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/how-to-get-blob-total-blob-count-and-total-capacity-with-blob/ba-p/4485643",
+      "published": "2026-03-23T13:46:08+00:00",
+      "summary": "Table of Contents Approach Introduction to the Blob Inventory Service Steps to enable inventory report Support Documentation Disclaimer: Approach This article presents how to take advantage of the Blob Inventory service to get the total blob count and the total capacity per storage account, per...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "ruineiva",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Announcing public preview: Cilium mTLS encryption for Azure Kubernetes Service",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/announcing-public-preview-cilium-mtls-encryption-for-azure/ba-p/4504423",
       "published": "2026-03-23T01:50:18+00:00",
@@ -8338,6 +8866,17 @@
       "blogId": "linuxandopensourceblog",
       "author": "johnsonshi_msft",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Detect, correlate, contain: New Azure Firewall IDPS detections in Microsoft Sentinel and XDR",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/detect-correlate-contain-new-azure-firewall-idps-detections-in/ba-p/4502128",
+      "published": "2026-03-20T21:03:45+00:00",
+      "summary": "As threat actors continue to blend reconnaissance, exploitation, and post-compromise activity, network-level signals remain critical for early detection and correlated response. To strengthen this layer, we're introducing five new Azure Firewall IDPS detections, now available out of the box in the...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "Mohit_Kumar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8396,6 +8935,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Azure Bastion: Enterprise-grade secure access made simple",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-bastion-enterprise-grade-secure-access-made-simple/ba-p/4503833",
+      "published": "2026-03-19T14:32:39+00:00",
+      "summary": "Managing secure remote access to virtual machines traditionally means juggling public IP addresses, configuring jump boxes, deploying VPN infrastructure, and managing complex firewall rules. Each layer adds cost, complexity, and potential security vulnerabilities. Azure Bastion changes everything....",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "ShabazShaik",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "ICYMI: Microsoft Agent 365 AMA",
       "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/icymi-microsoft-agent-365-ama/ba-p/4503596",
       "published": "2026-03-18T21:02:40+00:00",
@@ -8448,6 +8998,17 @@
       "blogId": "azuresdkblog",
       "author": "PuiChee (PC) Chan, Travis Angevine",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Visual Studio Code 1.112",
+      "link": "https://code.visualstudio.com/updates/v1_112",
+      "published": "2026-03-18T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.112 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -8572,6 +9133,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "How VS Code Builds with AI",
+      "link": "https://code.visualstudio.com/blogs/2026/03/13/how-VS-Code-Builds-with-AI",
+      "published": "2026-03-13T00:00:00+00:00",
+      "summary": "Learn how VS Code uses AI across its own development workflow with GitHub Copilot agent mode, automated testing, and AI-powered code review. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Pierce Boggan",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "Get to know these Agent 365 community all-stars",
       "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/get-to-know-these-agent-365-community-all-stars/ba-p/4501056",
       "published": "2026-03-12T17:23:39+00:00",
@@ -8649,6 +9221,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Visual Studio Code 1.111",
+      "link": "https://code.visualstudio.com/updates/v1_111",
+      "published": "2026-03-09T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.111 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "AI Inferencing in Air-Gapped Environments",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/ai-inferencing-in-air-gapped-environments/ba-p/4498594",
       "published": "2026-03-09T09:18:31+00:00",
@@ -8715,6 +9298,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Making agents practical for real-world development",
+      "link": "https://code.visualstudio.com/blogs/2026/03/05/making-agents-practical-for-real-world-development",
+      "published": "2026-03-05T00:00:00+00:00",
+      "summary": "Explore agent orchestration, extensibility, and continuity in VS Code 1.110: lifecycle hooks, agent skills, session memory, and integrated browser tools. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "VS Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "Announcing the General Availability of the Azure Maps Geocode Autocomplete API",
       "link": "https://techcommunity.microsoft.com/t5/azure-maps-blog/announcing-the-general-availability-of-the-azure-maps-geocode/ba-p/4499242",
       "published": "2026-03-04T17:22:55+00:00",
@@ -8724,6 +9318,17 @@
       "author": "sinnypan",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremapsblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "February 2026 (version 1.110)",
+      "link": "https://code.visualstudio.com/updates/v1_110",
+      "published": "2026-03-04T17:00:00+00:00",
+      "summary": "What's new in the Visual Studio Code February 2026 Release (1.110). Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "Defending Container Runtime from Malware with Microsoft Defender for Containers",
@@ -8869,6 +9474,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Building Long-Distance Next Edit Suggestions",
+      "link": "https://code.visualstudio.com/blogs/2026/02/26/long-distance-nes",
+      "published": "2026-02-26T00:00:00+00:00",
+      "summary": "Learn how we extended next edit suggestions to work across your entire file, reducing friction and improving productivity in GitHub Copilot. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Vikram Duvvur, Gaurav Mittal, Benjamin Simmonds",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "Hello, world.",
       "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/hello-world/ba-p/4494728",
       "published": "2026-02-25T22:10:46+00:00",
@@ -8946,6 +9562,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Navigating the 2025 holiday season: Insights into Azure’s DDoS defense",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/navigating-the-2025-holiday-season-insights-into-azure-s-ddos/ba-p/4495741",
+      "published": "2026-02-18T20:30:34+00:00",
+      "summary": "The holiday season continues to be one of the most demanding periods for online businesses. Traffic surges, higher transaction volumes, and user expectations for seamless digital experiences all converge, making reliability a non-negotiable requirement. For attackers, this same period presents an...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "Jdasari",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Private Preview: Azure Managed Prometheus on VM / VMSS",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/private-preview-azure-managed-prometheus-on-vm-vmss/ba-p/4473472",
       "published": "2026-02-18T20:00:31+00:00",
@@ -8976,6 +9603,17 @@
       "blogId": "telecommunications-industry-blog",
       "author": "Yongguang Zhang",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=telecommunications-industry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "A Practical Guide to Azure DDoS Protection Cost Optimization",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/a-practical-guide-to-azure-ddos-protection-cost-optimization/ba-p/4495199",
+      "published": "2026-02-18T13:55:49+00:00",
+      "summary": "Introduction Azure provides infrastructure-level DDoS protection by default to protect Azure’s own platform and services. However, this protection does not extend to customer workloads or non-Microsoft managed resources like Application Gateway, Azure Firewall, or virtual machines with public IPs....",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "SaleemBseeu",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -9122,6 +9760,28 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Zero Trust with Azure Firewall, Azure DDoS Protection and Azure WAF: A practical use case",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/zero-trust-with-azure-firewall-azure-ddos-protection-and-azure/ba-p/4490595",
+      "published": "2026-02-05T05:15:27+00:00",
+      "summary": "Introduction Zero Trust has emerged as the defining security ethos of the modern enterprise. It is guided by a simple but powerful principle: “Never trust, always verify.” This principle is more relevant now than ever as cyberattacks continue to trend upward in both frequency and impact, affecting...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Your Home for Multi-Agent Development",
+      "link": "https://code.visualstudio.com/blogs/2026/02/05/multi-agent-development",
+      "published": "2026-02-05T00:00:00+00:00",
+      "summary": "VS Code has become the unified interface for all your coding agents. Manage local, background, and cloud agents in one place, use Claude and Codex agents alongside Copilot, and benefit from open standards like MCP and Agent Skills. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "VS Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "Azure Automated Virtual Machine Recovery: Minimizing Downtime",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/azure-automated-virtual-machine-recovery-minimizing-downtime/ba-p/4483166",
       "published": "2026-02-04T19:23:11+00:00",
@@ -9142,6 +9802,17 @@
       "author": "Ron_Coleman",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurevirtualdesktopblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "January 2026 (version 1.109)",
+      "link": "https://code.visualstudio.com/updates/v1_109",
+      "published": "2026-02-04T17:00:00+00:00",
+      "summary": "Learn what is new in the Visual Studio Code January 2026 Release (1.109). Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "Azure CLI Windows MSI Upgrade Issue: Root Cause, Mitigation, and Performance Improvements",
@@ -9218,6 +9889,17 @@
       "blogId": "azure-databricks",
       "author": "AnaviNahar",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-databricks&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Redis Keys Statistics",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/redis-keys-statistics/ba-p/4486079",
+      "published": "2026-02-02T15:57:26+00:00",
+      "summary": "Redis Keys statistics including Key Time-to-Live (TTL) statistics and Key sizes are useful for troubleshooting cache usage and performance, from client side. This article have two sections: First one, using a script to get statistics from Keys on Redis ( 1 Bash script + 1 LUA script -...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "LuisFilipe",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -9375,6 +10057,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Giving Agents a Visual Voice: MCP Apps Support in VS Code",
+      "link": "https://code.visualstudio.com/blogs/2026/01/26/mcp-apps-support",
+      "published": "2026-01-26T00:00:00+00:00",
+      "summary": "VS Code now supports MCP Apps, enabling AI agents to display interactive UIs for richer developer workflows. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Harald Kirschner, Connor Peet",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "A Technical Implementation Guide for Multi-Store Retail Environments",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/a-technical-implementation-guide-for-multi-store-retail/ba-p/4488418",
       "published": "2026-01-22T08:39:19+00:00",
@@ -9452,6 +10145,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Protect against React RSC CVE-2025-55182 with Azure Web Application Firewall (WAF)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/protect-against-react-rsc-cve-2025-55182-with-azure-web/ba-p/4475291",
+      "published": "2026-01-19T13:52:07+00:00",
+      "summary": "Please subscribe to this blog as we will be updating the suggested rules as new attack permutations are found. On December 3, 2025, the React team disclosed a critical remote code execution (RCE) vulnerability in React Server Components (RSC), tracked as CVE-2025-55182. The vulnerability allows an...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "yuvalpery",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Azure Arc Portal Update: Simplifying Onboarding and Management at Scale",
       "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/azure-arc-portal-update-simplifying-onboarding-and-management-at/ba-p/4477355",
       "published": "2026-01-16T22:44:00+00:00",
@@ -9483,6 +10187,17 @@
       "author": "Sannidhya_Glodha",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Building docfind: Fast Client-Side Search with Rust and WebAssembly",
+      "link": "https://code.visualstudio.com/blogs/2026/01/15/docfind",
+      "published": "2026-01-15T00:00:00+00:00",
+      "summary": "How we built docfind, a high-performance client-side search engine using Rust and WebAssembly, and how GitHub Copilot accelerated development. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "João Moreno",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "Data Center Quantized Congestion Notification: Scaling congestion control for RoCE RDMA in Azure",
@@ -9727,6 +10442,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Application layer DDoS protection using the HTTP DDoS Ruleset in Azure WAF",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/application-layer-ddos-protection-using-the-http-ddos-ruleset-in/ba-p/4479030",
+      "published": "2025-12-18T07:18:22+00:00",
+      "summary": "Today, Distributed Denial of Service (DDoS) attacks can strike as soon as public connectivity is enabled, highlighting their widespread prevalence. Factors such as easily accessible botnets, the explosion of IoT devices, and the growth of API-driven workloads, e-commerce platforms, and global web...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Azure Policy: Required Actions for Docker Content Trust Deprecation in Azure Container Registry",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-policy-required-actions-for-docker-content-trust/ba-p/4478951",
       "published": "2025-12-17T22:36:46+00:00",
@@ -9936,6 +10662,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Introducing the VS Code Insiders Podcast",
+      "link": "https://code.visualstudio.com/blogs/2025/12/03/introducing-vs-code-insiders-podcast",
+      "published": "2025-12-03T00:00:00+00:00",
+      "summary": "The VS Code Insiders Podcast is your insider's guide to the features, decisions, and people shaping the future of Visual Studio Code. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "James Montemagno",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "Serverless Workspaces are live in Azure Databricks",
       "link": "https://techcommunity.microsoft.com/t5/azure-databricks/serverless-workspaces-are-live-in-azure-databricks/ba-p/4474712",
       "published": "2025-12-02T23:08:45+00:00",
@@ -10011,6 +10748,17 @@
       "author": "Kyler Middleton",
       "feedUrl": "https://www.letsdodevops.com/feed",
       "sourceType": "rss"
+    },
+    {
+      "title": "Public Preview: Entra ID support for RDP connections in portal",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/public-preview-entra-id-support-for-rdp-connections-in-portal/ba-p/4472675",
+      "published": "2025-11-24T20:15:00+00:00",
+      "summary": "Overview Azure Bastion provides secure RDP and SSH access to Azure virtual machines directly via the Azure portal or via the native SSH/RDP client already installed on your local computer. Previously, Bastion supported Entra ID authentication (formerly AAD) for RDP and SSH connections via native...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "aarontsang",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Streamline Analytics Spend on Microsoft Fabric with Azure Reservations",
@@ -10167,6 +10915,28 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Introducing Azure SRE Agent",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/introducing-azure-sre-agent/ba-p/4414569",
+      "published": "2025-11-18T06:09:11+00:00",
+      "summary": "Today we’re thrilled to introduce Azure SRE Agent, an AI-powered tool that makes it easier to sustain production cloud environments. SRE Agent helps respond to incidents quickly and effectively, alleviating the toil of managing production environments. Overall, it results in better service uptime...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "dchelupati",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Introducing the Visual Studio Code Private Marketplace: Your Team's Secure, Curated Extension Hub 🎉",
+      "link": "https://code.visualstudio.com/blogs/2025/11/18/PrivateMarketplace",
+      "published": "2025-11-18T00:00:00+00:00",
+      "summary": "Private Marketplace for VS Code extensions now generally available. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Sean Iyer",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "Generational Performance Leap for Azure Confidential Computing",
       "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/generational-performance-leap-for-azure-confidential-computing/ba-p/4468989",
       "published": "2025-11-13T20:47:39+00:00",
@@ -10189,6 +10959,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "General Availability of JavaScript Challenge in Azure Front Door WAF",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/general-availability-of-javascript-challenge-in-azure-front-door/ba-p/4466940",
+      "published": "2025-11-13T14:33:07+00:00",
+      "summary": "We are pleased to announce the General Availability (GA) of the JavaScript Challenge feature for Azure Web Application Firewall (WAF) on Azure Front Door. This capability equips organizations with a seamless, invisible anti-bot verification layer that distinguishes legitimate users from malicious...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "andrewmathu",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Announcing preview for the next generation of Azure Intel® TDX Confidential VMs",
       "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-preview-for-the-next-generation-of-azure-intel-tdx/ba-p/4404625",
       "published": "2025-11-12T19:35:31+00:00",
@@ -10197,6 +10978,17 @@
       "blogId": "azureconfidentialcomputingblog",
       "author": "simranparkhe",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureconfidentialcomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "DNS flow trace logs in Azure Firewall are now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/dns-flow-trace-logs-in-azure-firewall-are-now-generally/ba-p/4469377",
+      "published": "2025-11-12T17:56:17+00:00",
+      "summary": "Background Azure Firewall helps secure your network by filtering traffic and enforcing policies for your workloads and applications. DNS Proxy, a key capability in Azure Firewall, enables the firewall to act as a DNS forwarder for DNS traffic. Today, we’re introducing the general availability of...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "surenjamiyanaa",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -10209,6 +11001,17 @@
       "author": "Kyler Middleton",
       "feedUrl": "https://www.letsdodevops.com/feed",
       "sourceType": "rss"
+    },
+    {
+      "title": "Using Packet Capture for troubleshooting Azure Firewall flows",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/using-packet-capture-for-troubleshooting-azure-firewall-flows/ba-p/4466692",
+      "published": "2025-11-12T15:14:04+00:00",
+      "summary": "This blog is written in collaboration with @GustavoModena Introduction Azure Firewall is a cloud-native and intelligent network firewall security service that provides best of breed threat protection for your cloud workloads running in Azure. It’s a fully stateful firewall as a service with...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "ShabazShaik",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "AI-Powered Db2 LUW to Azure Database for PostgreSQL Schema Converter",
@@ -10263,6 +11066,17 @@
       "blogId": "azure-events",
       "author": "GalimahB",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-events&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Deriving expiry days and remaining retention days for blobs through blob inventory",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/deriving-expiry-days-and-remaining-retention-days-for-blobs/ba-p/4466586",
+      "published": "2025-11-11T05:35:25+00:00",
+      "summary": "In managing data within Azure blob storage accounts and Azure data lake gen 2 storage accounts, organizations often encounter scenarios where blobs have been deleted but remain in a soft-deleted state. To calculate the remaining retention days for all such blobs across an entire storage account can...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "Harshi_mrinal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -10332,6 +11146,28 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Open Source AI Editor: Second Milestone",
+      "link": "https://code.visualstudio.com/blogs/2025/11/04/openSourceAIEditorSecondMilestone",
+      "published": "2025-11-06T00:00:00+00:00",
+      "summary": "Ghost text suggestions are now open source as part of the Copilot Chat extension - the second milestone in making VS Code an open source AI editor. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "The VS Code team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Public Preview: Custom WAF Block Status & Body for Azure Application Gateway",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/public-preview-custom-waf-block-status-body-for-azure/ba-p/4467435",
+      "published": "2025-11-05T15:28:03+00:00",
+      "summary": "Introduction Azure Application Gateway Web Application Firewall (WAF) now supports custom HTTP status codes and custom response bodies for blocked requests. This Public Preview feature gives you more control over user experience and client-side handling, aligning with capabilities already available...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "SaleemBseeu",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Empower Smarter AI Agent Investments",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/empower-smarter-ai-agent-investments/ba-p/4466010",
       "published": "2025-11-05T14:46:02+00:00",
@@ -10343,6 +11179,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "A Unified Experience for all Coding Agents",
+      "link": "https://code.visualstudio.com/blogs/2025/11/03/unified-agent-experience",
+      "published": "2025-11-05T00:00:00+00:00",
+      "summary": "Agents took over VS Code in 2025. We released agent mode for VS Code, integration for the Copilot coding agent, and the new GitHub Copilot CLI. But Copilot is not the only agent game in town. There are now more coding agents than ever, including options from OpenAI and Anthropic. Read the full...",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "VS Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "Smarter Cloud, Smarter Spend: How Azure Powers Cost-Efficient Innovation",
       "link": "https://techcommunity.microsoft.com/t5/finops-blog/smarter-cloud-smarter-spend-how-azure-powers-cost-efficient/ba-p/4465687",
       "published": "2025-10-30T17:05:07+00:00",
@@ -10351,6 +11198,17 @@
       "blogId": "finopsblog",
       "author": "kyleikeda",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "General Availability of CAPTCHA in Azure Front Door WAF",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/general-availability-of-captcha-in-azure-front-door-waf/ba-p/4464704",
+      "published": "2025-10-29T18:00:25+00:00",
+      "summary": "We are excited to announce the General Availability (GA) of the Azure Web Application Firewall (WAF) CAPTCHA challenge for Azure Front Door, empowering customers to better defend their web applications against automated bot attacks while ensuring legitimate users can still access their apps...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "andrewmathu",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -10406,6 +11264,17 @@
       "blogId": "aksreleases",
       "author": "dyu1208",
       "feedUrl": "https://github.com/Azure/AKS/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Expanding Model Choice in VS Code with Bring Your Own Key",
+      "link": "https://code.visualstudio.com/blogs/2025/10/22/bring-your-own-key",
+      "published": "2025-10-22T00:00:00+00:00",
+      "summary": "Learn how the new Language Model Chat Provider API in VS Code is enabling more model choice and extensibility for chat experiences via the Bring Your Own Key experience. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Olivia Guzzardo McVicker, Pierce Boggan",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -10596,6 +11465,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Exclude Prefix in Azure Storage Action: Smarter Blob Management",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/exclude-prefix-in-azure-storage-action-smarter-blob-management/ba-p/4440075",
+      "published": "2025-09-30T09:26:23+00:00",
+      "summary": "Azure Storage Actions is a powerful platform for automating data management tasks across Blob and Data Lake Storage. Among its many features, Exclude Prefix stands out as a subtle yet critical capability that helps fine-tune task assignments. What Is the \"Exclude Prefix\" Feature? The Exclude Prefix...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "ManjunathS",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Cloud and AI Cost Efficiency: A Strategic Imperative for Long-Term Business Growth",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/cloud-and-ai-cost-efficiency-a-strategic-imperative-for-long/ba-p/4455955",
       "published": "2025-09-29T17:37:37+00:00",
@@ -10604,6 +11484,17 @@
       "blogId": "azuregovernanceandmanagementblog",
       "author": "Fernando_Vasconcellos",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Developer Tier APIM + Self-hosted Gateway",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/developer-tier-apim-self-hosted-gateway/ba-p/4457556",
+      "published": "2025-09-27T16:45:43+00:00",
+      "summary": "Developer tier APIM enjoys many \"premium\" features such as vnet injection. FeatureConsumptionDeveloperBasicBasic v2StandardStandard v2PremiumPremium v2 (preview)Microsoft Entra integration1NoYesNoYesYesYesYesYesVirtual network injection supportNoYesNoNoNoNoYesYesPrivate endpoint support for inbound...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "reve",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -10637,6 +11528,17 @@
       "blogId": "aksreleases",
       "author": "dyu1208",
       "feedUrl": "https://github.com/Azure/AKS/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Introducing auto model selection (preview)",
+      "link": "https://code.visualstudio.com/blogs/2025/09/15/autoModelSelection",
+      "published": "2025-09-15T00:00:00+00:00",
+      "summary": "Use auto model selection in VS Code to get faster responses, reduced rate limiting, and a 10% discount on premium requests for paid users. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Isidor Nikolic",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -10937,6 +11839,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Finding the Right Page number in PDFs with AI Search",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/finding-the-right-page-number-in-pdfs-with-ai-search/ba-p/4440758",
+      "published": "2025-08-11T09:10:39+00:00",
+      "summary": "Why Page Numbers Matter in AI Search When users search for content within large PDFs—such as contracts, manuals, or reports—they often need to know not just what was found, but where it was found. Associating search results with page numbers enables: Contextual navigation within documents. Precise...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "samsarka",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "What’s new in FinOps toolkit 12 – July 2025",
       "link": "https://techcommunity.microsoft.com/t5/finops-blog/what-s-new-in-finops-toolkit-12-july-2025/ba-p/4438562",
       "published": "2025-08-07T17:00:00+00:00",
@@ -10970,6 +11883,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "How to enable alerts in Batch especially when a node is encountering high disk usage",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/how-to-enable-alerts-in-batch-especially-when-a-node-is/ba-p/4437428",
+      "published": "2025-08-05T14:11:56+00:00",
+      "summary": "Batch users often encounter issues like nodes suddenly gets into unusable state due to high CPU or Disk usage. Alerts allow you to identify and address issues in your system. This blog will focus on how users can enable alerts when the node is consuming high amount of disk by configuring the...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "lakshmijakka",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "ACS Email now Generally Available in Azure Government",
       "link": "https://techcommunity.microsoft.com/t5/azure-communication-services/acs-email-now-generally-available-in-azure-government/ba-p/4438814",
       "published": "2025-08-04T20:05:13+00:00",
@@ -10990,6 +11914,17 @@
       "author": "Kyler Middleton",
       "feedUrl": "https://www.letsdodevops.com/feed",
       "sourceType": "rss"
+    },
+    {
+      "title": "Converting Page or Append Blobs to Block Blobs with ADF",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/converting-page-or-append-blobs-to-block-blobs-with-adf/ba-p/4433723",
+      "published": "2025-08-01T10:57:37+00:00",
+      "summary": "In certain scenarios, a storage account may contain a significant number of page blobs classified under the hot access tier that are infrequently accessed or retained solely for backup purposes. To optimise costs, it is desirable to transition these page blobs to the archive tier. However, as...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "SaikumarMandepudi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Oracle Database@Azure: New Services, More Regions & Enhanced Security for Faster Innovation",
@@ -11080,6 +12015,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Command GitHub's Coding Agent from VS Code",
+      "link": "https://code.visualstudio.com/blogs/2025/07/17/copilot-coding-agent",
+      "published": "2025-07-17T00:00:00+00:00",
+      "summary": "VS Code's integration with GitHub Copilot Coding Agent allows you to delegate tasks to the agent and let it handle them in the background. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Burke Holland",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "New tools for Security Copilot management and capacity planning",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-security-copilot-blog/new-tools-for-security-copilot-management-and-capacity-planning/ba-p/4432723",
       "published": "2025-07-16T18:21:36+00:00",
@@ -11133,6 +12079,17 @@
       "author": "Kyler Middleton",
       "feedUrl": "https://www.letsdodevops.com/feed",
       "sourceType": "rss"
+    },
+    {
+      "title": "Rehydrating Archived Blobs via Storage Task Actions",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/rehydrating-archived-blobs-via-storage-task-actions/ba-p/4429282",
+      "published": "2025-07-09T06:12:02+00:00",
+      "summary": "Azure Storage Actions is a fully managed platform designed to automate data management tasks for Azure Blob Storage and Azure Data Lake Storage. You can use it to perform common data operations on millions of objects across multiple storage accounts without provisioning extra compute capacity and...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "ankitsah",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Announcing: Microsoft transforms Licensing with Cloud Security and Confidential Computing",
@@ -11201,6 +12158,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Integrating Azure Monitor in Azure Batch to monitor Batch Pool nodes performance",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/integrating-azure-monitor-in-azure-batch-to-monitor-batch-pool/ba-p/4428929",
+      "published": "2025-07-03T08:25:59+00:00",
+      "summary": "In Azure Batch, to monitor the node performance like CPU or Disk usage users are required to use Azure monitor. The Azure Monitor service collects and aggregates metrics and logs from every component of the node. Azure Monitor provides you with a view of availability, performance, and resilience....",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "lakshmijakka",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Sensor install failing, error log indicates proxy issue",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-identity/sensor-install-failing-error-log-indicates-proxy-issue/m-p/4428951#M4257",
       "published": "2025-07-01T17:58:10+00:00",
@@ -11221,6 +12189,17 @@
       "author": "Bobbers",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Open Source AI Editor: First Milestone",
+      "link": "https://code.visualstudio.com/blogs/2025/06/30/openSourceAIEditorFirstMilestone",
+      "published": "2025-06-30T00:00:00+00:00",
+      "summary": "We are open sourcing the GitHub Copilot Chat extension. It’s the first milestone in making VS Code an open source AI editor. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "The VS Code team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "Hidden pitfalls of Temporary Tables in Oracle to PostgreSQL Migrations",
@@ -11355,5 +12334,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts centered on two major themes: **AI platform integration for the enterprise** and **software supply-chain security**. One article showed how to make **Claude Desktop** enterprise-ready using **Microsoft Entra ID** for identity, **Azure API Management (APIM)** for controlled access, and **Microsoft Foundry** in a “no backend required” architecture, while another GitHub update announced that **generated release notes now explicitly credit Copilot-authored pull requests**, improving visibility into AI-assisted development workflows.\n\nOn the security side, Microsoft’s analysis of the **Mastra npm supply chain compromise** traced how a package was turned into a **postinstall payload**, underscoring the risks in the **npm ecosystem** and the importance of defending build and dependency pipelines. Overall, the day’s announcements highlighted Azure and Microsoft’s focus on **governed AI adoption, developer productivity, and securing open-source software supply chains**."
+  "summary": "Today’s Azure- and Microsoft-related posts focused heavily on developer platform security, AI integration, and workflow improvements. Key announcements included Microsoft Sentinel’s push toward more automated detection and response, Azure API Management’s MCP Gateway for controlling tool access, and an enterprise AI pattern combining Claude Desktop with Microsoft Entra ID, APIM, and Microsoft Foundry; Microsoft also published a deep dive into the Mastra npm supply-chain compromise, underscoring ongoing software supply-chain risk.\n\nOn the developer tools side, GitHub rolled out several productivity updates: Copilot-authored pull requests now appear in author searches and generated release notes, the repository switcher is now generally available, GitHub Actions can build custom images from custom images, and checkout now uses safer defaults for `pull_request_target`. Separately, VS Code added support for bringing your own language model key, signaling continued movement toward more flexible, user-controlled AI development tooling."
 }
