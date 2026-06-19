@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T02:38:38.232799+00:00",
+  "lastUpdated": "2026-06-19T08:23:42.599335+00:00",
   "totalArticles": 1121,
   "articles": [
     {
@@ -12,6 +12,39 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Migrating from MSEE Hairpin Routing to AVNM Mesh for Large-Scale VNet-to-VNet Connectivity",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/migrating-from-msee-hairpin-routing-to-avnm-mesh-for-large-scale/ba-p/4529320",
+      "published": "2026-06-19T07:55:59+00:00",
+      "summary": "Introduction A common pattern in large Azure deployments is to route VNet-to-VNet traffic through Microsoft Enterprise Edge (MSEE) routers. This happens when spoke VNets in a hub-and-spoke topology communicate with each other by hairpinning through the ExpressRoute circuit: traffic exits the Azure...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Jay-Li",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Release 2026-05-29",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-05-29",
+      "published": "2026-06-19T07:32:42+00:00",
+      "summary": "Release Notes - 2026-05-29 Monitor the release status by regions at AKS-Release-Tracker. Vulnerabilities addressed by AKS releases can be tracked at CVE API viewer. Announcements of upcoming changes and retirements Revision asm-1-27 of the Istio-based service mesh add-on has been deprecated. Please...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "dyu1208",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Microsoft Leads a New Era of Software Supply Chain Transparency",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/microsoft-leads-a-new-era-of-software-supply-chain-transparency/ba-p/4528367",
+      "published": "2026-06-19T07:00:00+00:00",
+      "summary": "Microsoft announces the general availability of Microsoft’s Signing Transparency (MST) – a first-of-its-kind capability that brings unprecedented visibility and trust to our software supply chain. With this release, Microsoft is leading the industry by recording the build of critical cloud services...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "ShubhraS",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "AutoJack: How a single page can RCE the host running your AI agent",
@@ -77,17 +110,6 @@
       "blogId": "finopsblog",
       "author": "kyleikeda",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Migrating from MSEE Hairpin Routing to AVNM Mesh for Large-Scale VNet-to-VNet Connectivity",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/migrating-from-msee-hairpin-routing-to-avnm-mesh-for-large-scale/ba-p/4529320",
-      "published": "2026-06-18T19:41:23+00:00",
-      "summary": "Introduction A common pattern in large Azure deployments is to route VNet-to-VNet traffic through Microsoft Enterprise Edge (MSEE) routers. This happens when spoke VNets in a hub-and-spoke topology communicate with each other by hairpinning through the ExpressRoute circuit: traffic exits the Azure...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Jay-Li",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -320,17 +342,6 @@
       "author": "Sunita_AZ0708",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Release 2026-05-29",
-      "link": "https://github.com/Azure/AKS/releases/tag/2026-05-29",
-      "published": "2026-06-17T19:48:38+00:00",
-      "summary": "Release Notes - 2026-05-29 Monitor the release status by regions at AKS-Release-Tracker. Vulnerabilities addressed by AKS releases can be tracked at CVE API viewer. Announcements of upcoming changes and retirements Revision asm-1-27 of the Istio-based service mesh add-on has been deprecated. Please...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "dyu1208",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
-      "sourceType": "rss"
     },
     {
       "title": "Getting more from each token: How Copilot improves context handling and model routing",
@@ -5061,17 +5072,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Claude Code on Microsoft Foundry in VS Code — A Practical Setup Guide (with the gotchas)",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/claude-code-on-microsoft-foundry-in-vs-code-a-practical-setup/ba-p/4524245",
-      "published": "2026-06-01T13:40:49+00:00",
-      "summary": "Enables enterprise-grade governance without changing your developer workflow. The official Microsoft Learn article (Configure Claude Code for Microsoft Foundry) gets you ~80% of the way there. The remaining 20%—VS Code settings shape, tenant mismatches, and configuration conflicts like \"baseURL and...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "LZhang",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "The Azure Copilot Observability Agent Chat - Stop Writing Queries, Start Asking Questions.",
@@ -12334,5 +12334,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure/Microsoft blog highlight is a security-focused post from the Microsoft Security Blog: **“AutoJack: How a single page can RCE the host running your AI agent.”** The article warns that **AI agents interacting with untrusted web content** can be exploited so that a **single malicious page triggers remote code execution (RCE) on the host machine**, underscoring risks in agent/browser automation stacks and the need for stronger isolation, sandboxing, and runtime protections.\n\nThe main theme is that as organizations adopt **AI agents** and tool-using copilots, the attack surface now extends from traditional web threats into **agent hosts, local execution environments, and connected tools**. Microsoft’s announcement is less about a new Azure product launch and more about a critical security insight for teams building or deploying **AI-driven automation systems**."
+  "summary": "Today’s Azure posts focused on large-scale cloud networking, Kubernetes platform updates, software supply chain security, and emerging AI agent threats. Azure Networking highlighted replacing legacy **MSEE hairpin routing** with **Azure Virtual Network Manager (AVNM) mesh connectivity** for scalable **VNet-to-VNet** architectures; **AKS release 2026-05-29** delivered the latest Kubernetes platform fixes and feature updates; Microsoft also emphasized stronger **software supply chain transparency** initiatives, while the Security Blog detailed **AutoJack**, a technique where a single malicious page can achieve **remote code execution (RCE)** on the host running an **AI agent**.\n\nThe common theme across the posts is Azure’s push toward more scalable infrastructure and stronger trust boundaries: modernized network topology with **AVNM**, ongoing **AKS** operational improvements, better provenance and visibility in the software supply chain, and sharper defenses against AI-era attack surfaces."
 }
