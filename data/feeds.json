@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T08:23:42.599335+00:00",
+  "lastUpdated": "2026-06-19T12:39:36.674887+00:00",
   "totalArticles": 1121,
   "articles": [
     {
@@ -14,6 +14,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Release 2026-05-29",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-05-29",
+      "published": "2026-06-19T08:45:11+00:00",
+      "summary": "Release Notes - 2026-05-29 Monitor the release status by regions at AKS-Release-Tracker. Vulnerabilities addressed by AKS releases can be tracked at CVE API viewer. Announcements of upcoming changes and retirements Revision asm-1-27 of the Istio-based service mesh add-on has been deprecated. Please...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "dyu1208",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
+      "sourceType": "rss"
+    },
+    {
       "title": "Migrating from MSEE Hairpin Routing to AVNM Mesh for Large-Scale VNet-to-VNet Connectivity",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/migrating-from-msee-hairpin-routing-to-avnm-mesh-for-large-scale/ba-p/4529320",
       "published": "2026-06-19T07:55:59+00:00",
@@ -25,17 +36,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Release 2026-05-29",
-      "link": "https://github.com/Azure/AKS/releases/tag/2026-05-29",
-      "published": "2026-06-19T07:32:42+00:00",
-      "summary": "Release Notes - 2026-05-29 Monitor the release status by regions at AKS-Release-Tracker. Vulnerabilities addressed by AKS releases can be tracked at CVE API viewer. Announcements of upcoming changes and retirements Revision asm-1-27 of the Istio-based service mesh add-on has been deprecated. Please...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "dyu1208",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "Microsoft Leads a New Era of Software Supply Chain Transparency",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/microsoft-leads-a-new-era-of-software-supply-chain-transparency/ba-p/4528367",
       "published": "2026-06-19T07:00:00+00:00",
@@ -45,6 +45,17 @@
       "author": "ShubhraS",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Separating Deterministic Extraction from AI Inference in Industrial Summarization",
+      "link": "https://devblogs.microsoft.com/ise/separating-deterministic-extraction-from-ai-inference/",
+      "published": "2026-06-19T07:00:00+00:00",
+      "summary": "When 100% of our prototype outputs were valid JSON but 0% met the data contract, we discovered the LLM was doing work that software should own. A field classification exercise and 4-pass pipeline brought schema compliance from 0% to 100%. The post Separating Deterministic Extraction from AI...",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Viktor Ciroski",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "AutoJack: How a single page can RCE the host running your AI agent",
@@ -1382,6 +1393,17 @@
       "link": "https://devblogs.microsoft.com/blog/is-your-agent-extension-actually-working",
       "published": "2026-06-10T19:06:17+00:00",
       "summary": "This is the third article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Stop skillmaxxing, save your tokens",
+      "link": "https://devblogs.microsoft.com/blog/stop-skillmaxxing-save-your-tokens",
+      "published": "2026-06-10T18:00:15+00:00",
+      "summary": "You built a dozen skills for your technology: authentication, CRUD, error handling, deployment, testing, monitoring. Then you installed a cloud platform bundle with 15 more covering diagnostics, storage, compliance, and cost optimization. A design suite. A marketing pack. Document converters for...",
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
       "author": "Waldek Mastykarz",
@@ -5635,17 +5657,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "The AX stack: what’s fixed, where you can win",
-      "link": "https://devblogs.microsoft.com/blog/the-ax-stack-whats-fixed-where-you-can-win",
-      "published": "2026-05-21T17:39:59+00:00",
-      "summary": "AI coding agents promise to make you more productive. On the surface they do, but in practice they fall short: agents generate code that doesn’t compile, use a deprecated SDK, or pick the wrong service entirely. Is it you using it wrong? Is it your tech stack? Or is it the tools you haven’t...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Plan Before You Build: Introducing the Plan agent in Visual Studio",
       "link": "https://devblogs.microsoft.com/visualstudio/plan-before-you-build-introducing-the-plan-agent-in-visual-studio/",
       "published": "2026-05-21T17:17:59+00:00",
@@ -8746,17 +8757,6 @@
       "author": "SaleemBseeu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Building Search-Enabled Agents with Azure AI Foundry and Semantic Kernel and A2A",
-      "link": "https://devblogs.microsoft.com/ise/building-bing-search-enabled-agent-with-microsoft-foundry-and-semantic-kernel/",
-      "published": "2026-03-26T07:00:00+00:00",
-      "summary": "A step-by-step guide to enable search in the semantic kernel agents using bing grounding in Azure Foundry AI Agent using A2A. The post Building Search-Enabled Agents with Azure AI Foundry and Semantic Kernel and A2A appeared first on ISE Developer Blog.",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Munish Malhotra",
-      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "\"No-Ops\" Kafka Experience: Why Event Hubs is Your Default Destination for Streaming on Azure",
@@ -12334,5 +12334,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focused on large-scale cloud networking, Kubernetes platform updates, software supply chain security, and emerging AI agent threats. Azure Networking highlighted replacing legacy **MSEE hairpin routing** with **Azure Virtual Network Manager (AVNM) mesh connectivity** for scalable **VNet-to-VNet** architectures; **AKS release 2026-05-29** delivered the latest Kubernetes platform fixes and feature updates; Microsoft also emphasized stronger **software supply chain transparency** initiatives, while the Security Blog detailed **AutoJack**, a technique where a single malicious page can achieve **remote code execution (RCE)** on the host running an **AI agent**.\n\nThe common theme across the posts is Azure’s push toward more scalable infrastructure and stronger trust boundaries: modernized network topology with **AVNM**, ongoing **AKS** operational improvements, better provenance and visibility in the software supply chain, and sharper defenses against AI-era attack surfaces."
+  "summary": "Today’s Azure posts center on three big themes: **cloud infrastructure modernization**, **AI/security hardening**, and **software supply chain trust**. Microsoft highlighted **AKS 2026-05-29 release notes**, a networking shift from **MSEE hairpin routing to Azure Virtual Network Manager (AVNM) mesh** for large-scale **VNet-to-VNet** connectivity, and a new push for **software supply chain transparency** in the Azure developer ecosystem.\n\nOn the AI and security side, Microsoft shared an industrial AI pattern that separates **deterministic extraction** from **AI inference** to improve summarization reliability, while the Security team warned about **AutoJack**, a technique where a **single web page can achieve remote code execution on the host running an AI agent**—underscoring growing risks around agentic systems and the need for stronger isolation and trust controls."
 }
