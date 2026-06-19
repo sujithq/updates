@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T17:08:25.811764+00:00",
+  "lastUpdated": "2026-06-19T19:21:34.663337+00:00",
   "totalArticles": 1122,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Azure Firewall explicit proxy Migration Guide",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-firewall-explicit-proxy-migration-guide/ba-p/4528899",
+      "published": "2026-06-19T18:21:40+00:00",
+      "summary": "Purpose of the blog This blog outlines the key upcoming changes to Azure Firewall explicit proxy and provides detailed migration guidance for customers using PAC file–based configurations. It also covers the supported deployment options for enabling explicit proxy after the changes are released,...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "devanshirastogi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "On the road to .NET 10 Support: Logic Apps Migration from In-Proc to Out-of-Proc hosting model",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/on-the-road-to-net-10-support-logic-apps-migration-from-in-proc/ba-p/4522386",
+      "published": "2026-06-19T17:42:41+00:00",
+      "summary": "We will begin this migration in the coming weeks. For most customers, the change will be automatic and require no action. However, some apps will need customer updates before they can move to the new hosting model. This exception is: Logic Apps that use the current NuGet-based deployment model If...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "ARM MCP Server: A Catalog of 24 PoCs",
@@ -67,6 +89,39 @@
       "author": "Natalie Guevara",
       "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Unlocking the next frontier of Local AI on Windows for Telecommunications",
+      "link": "https://techcommunity.microsoft.com/t5/telecommunications-industry-blog/unlocking-the-next-frontier-of-local-ai-on-windows-for/ba-p/4528911",
+      "published": "2026-06-19T15:53:57+00:00",
+      "summary": "At Build 2026, we announced significant new capabilities across our on-device AI platform that expand what’s possible at the edge, in the field, and in the network operations center. This post covers two key areas and what they mean for telecom: new capabilities in Microsoft Foundry on Windows, and...",
+      "blog": "Telecommunications",
+      "blogId": "telecommunications-industry-blog",
+      "author": "OpeSam-Olowu",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=telecommunications-industry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Cross-Region Model Connectivity Options in Microsoft Foundry: Supported Patterns and Tradeoffs",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/cross-region-model-connectivity-options-in-microsoft-foundry/ba-p/4528620",
+      "published": "2026-06-19T15:00:00+00:00",
+      "summary": "Model availability in Microsoft Foundry is region-dependent. The region approved for your project may not be the one where the model or Foundry Agent Service support you need is available. That creates a common cross-region design choice: connect directly to another Foundry resource, or add a...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "rayankhoury",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "How to Score a User Simulator: Introducing USR-8",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/how-to-score-a-user-simulator-introducing-usr-8/ba-p/4523642",
+      "published": "2026-06-19T13:00:00+00:00",
+      "summary": "Authors: José Santos, Shuo Qiu, Morteza Ziyadi User simulators have become a standard part of the agent-building toolkit: cheaper than real-user pilots, faster than scripted dialogues, and the only way to push an agent through hundreds of plausible conversations between every code change. The hard...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "jcasantos",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Release 2026-05-29",
@@ -210,6 +265,17 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Auto-Generated Rubric Evaluators: Building Context-Aware Evaluators for AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/auto-generated-rubric-evaluators-building-context-aware/ba-p/4524095",
+      "published": "2026-06-18T19:00:00+00:00",
+      "summary": "Authors: Shuo Qiu, Sydney Lister, Ilya Matiach, Ali Mahmoudzadeh, Salma Elshafey, José Santos, Vivek Bhadauria, Morteza Ziyadi, April Kwong Why Your Agent Needs a Task-Specific Evaluator Picture a customer-service agent for a telecom company. A customer messages in asking to switch plans and get a...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Shuo",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Detection and automation, reimagined",
@@ -606,17 +672,6 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "How to Score a User Simulator: Introducing USR-8",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/how-to-score-a-user-simulator-introducing-usr-8/ba-p/4523642",
-      "published": "2026-06-17T14:00:00+00:00",
-      "summary": "Authors: José Santos, Shuo Qiu, Morteza Ziyadi User simulators have become a standard part of the agent-building toolkit: cheaper than real-user pilots, faster than scripted dialogues, and the only way to push an agent through hundreds of plausible conversations between every code change. The hard...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "jcasantos",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Azure Backup for Azure Cosmos DB Public Preview Adds Immutable Backups and Long-Term Retention",
@@ -1437,6 +1492,17 @@
       "link": "https://devblogs.microsoft.com/blog/is-your-agent-extension-actually-working",
       "published": "2026-06-10T19:06:17+00:00",
       "summary": "This is the third article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Stop skillmaxxing, save your tokens",
+      "link": "https://devblogs.microsoft.com/blog/stop-skillmaxxing-save-your-tokens",
+      "published": "2026-06-10T18:00:15+00:00",
+      "summary": "You built a dozen skills for your technology: authentication, CRUD, error handling, deployment, testing, monitoring. Then you installed a cloud platform bundle with 15 more covering diagnostics, storage, compliance, and cost optimization. A design suite. A marketing pack. Document converters for...",
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
       "author": "Waldek Mastykarz",
@@ -2366,17 +2432,6 @@
       "author": "Beijie Zhang",
       "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Foundry IQ: Improve recall by up to 54% with knowledge bases",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-iq-improve-recall-by-up-to-54-with-knowledge-bases/ba-p/4524852",
-      "published": "2026-06-04T00:46:26+00:00",
-      "summary": "By Abhishree Shetty, Alec Berntson, Alina Stoica Beck, Amaia Salvador Aguilera, Arnau Quindós Sánchez, Jieyu Cheng, Jim Singh, Jing Zhu, Lihang Li, Matt Gotteiner, Mike Kim, Thibault Gisselbrecht Agents are only valuable for the enterprise when they have access to your organization's knowledge. A...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "MattGotteiner",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "[In preview] Public Preview: MAI-Voice-2 in Microsoft Foundry",
@@ -4876,17 +4931,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Foundry IQ: New governance and enterprise AI security capabilities",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-iq-new-governance-and-enterprise-ai-security/ba-p/4524825",
-      "published": "2026-06-02T17:15:00+00:00",
-      "summary": "Enterprise AI adoption depends on more than retrieval quality. It requires a foundation that enables agents to access business-critical content without weakening the controls already in place to protect it, including source permissions, sensitivity labels, audit trails, private network paths, and...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "gia_mondragon",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "What’s Coming Next in Visual Studio: Our Microsoft Build 2026 Announcements",
       "link": "https://devblogs.microsoft.com/visualstudio/whats-coming-next-in-visual-studio-our-microsoft-build-2026-announcements/",
       "published": "2026-06-02T17:10:39+00:00",
@@ -5701,17 +5745,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "The AX stack: what’s fixed, where you can win",
-      "link": "https://devblogs.microsoft.com/blog/the-ax-stack-whats-fixed-where-you-can-win",
-      "published": "2026-05-21T17:39:59+00:00",
-      "summary": "AI coding agents promise to make you more productive. On the surface they do, but in practice they fall short: agents generate code that doesn’t compile, use a deprecated SDK, or pick the wrong service entirely. Is it you using it wrong? Is it your tech stack? Or is it the tools you haven’t...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Plan Before You Build: Introducing the Plan agent in Visual Studio",
       "link": "https://devblogs.microsoft.com/visualstudio/plan-before-you-build-introducing-the-plan-agent-in-visual-studio/",
       "published": "2026-05-21T17:17:59+00:00",
@@ -5754,17 +5787,6 @@
       "author": "Jimmy Kurian, Destiny Hillis",
       "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Clean up idle and always-failing Azure Logic App Consumption",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/clean-up-idle-and-always-failing-azure-logic-app-consumption/ba-p/4521728",
-      "published": "2026-05-21T05:11:18+00:00",
-      "summary": "If you’ve inherited an Azure subscription that’s been collecting Logic Apps Consumption workflows for a couple of years, you already know the shape of the problem: dozens of TestLA, webhook-test-2, poc-for-jira-FINAL workflows in the portal, half of them still Enabled, half of them quietly failing...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Yanbo_Deng",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Summarized Gateway Prefixes for Route Advertisement in Azure Virtual Networks",
@@ -10255,17 +10277,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Data Center Quantized Congestion Notification: Scaling congestion control for RoCE RDMA in Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/data-center-quantized-congestion-notification-scaling-congestion/ba-p/4468417",
-      "published": "2026-01-13T22:35:21+00:00",
-      "summary": "As cloud storage demands continue to grow, the need for ultra-fast, reliable networking becomes ever more critical. Microsoft Azure’s journey to empower its storage infrastructure with RDMA (Remote Direct Memory Access) has been transformative, but it’s not without challenges—especially when it...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "VamsiVadlamuri",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Introducing the Azure Maps Geocode Autocomplete API",
       "link": "https://techcommunity.microsoft.com/t5/azure-maps-blog/introducing-the-azure-maps-geocode-autocomplete-api/ba-p/4455784",
       "published": "2026-01-12T19:46:13+00:00",
@@ -12332,18 +12343,7 @@
       "author": "AndrewLuckwell",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "App-V support and partner integration now available in App attach",
-      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/app-v-support-and-partner-integration-now-available-in-app/ba-p/4424911",
-      "published": "2025-06-18T17:56:14+00:00",
-      "summary": "We're excited to announce the general availability of two enhancements to App attach in Azure Virtual Desktop: Support for Microsoft Application Virtualization (App-V) packages, and integration with leading third-party application delivery platforms Liquidware, Numecent, and Omnissa. App attach is...",
-      "blog": "Azure Virtual Desktop",
-      "blogId": "azurevirtualdesktopblog",
-      "author": "JimMoyle",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurevirtualdesktopblog&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure ecosystem updates were led by AI, migration, and platform operations: Microsoft highlighted **24 ARM MCP Server proofs of concept** for Azure governance/management, new **Azure Migrate + GitHub Copilot Modernize CLI (preview)** capabilities to generate code insights at scale, and practical guidance for **AWS-to-Azure migrations** emphasizing planning, modernization, and execution discipline. On the platform side, **AKS** published a new release, Azure Networking detailed a shift from **MSEE hairpin routing to Azure Virtual Network Manager mesh** for large-scale VNet connectivity, and GitHub added **per-user AI credit consumption** to the **Copilot usage metrics API**.\n\nA second major theme was trustworthy and secure AI/software delivery: Microsoft promoted stronger **software supply chain transparency**, shared an internal **data analytics agent** architecture, explored separating **deterministic extraction from AI inference** for industrial summarization, and published security research on **AutoJack**, showing how a single web page could achieve **RCE against the host running an AI agent**. Visual Studio Code’s post on **50,000 runs of a 5-line eval** reinforced the industry focus on rigorous AI evaluation and measurement."
+  "summary": "Today’s Azure and Microsoft cloud posts center on modernization, migration, and AI platform governance: Azure highlighted concrete migration guidance for Azure Firewall explicit proxy, Logic Apps’ move from in-proc to out-of-proc hosting ahead of .NET 10, and large-scale network architecture changes such as replacing MSEE hairpin routing with Azure Virtual Network Manager mesh. Microsoft also emphasized migration tooling and developer productivity, including AWS-to-Azure workload migration lessons, Azure Migrate integration with the GitHub Copilot Modernize CLI in preview for code insights at scale, AKS release updates, and new Copilot usage metrics API support for per-user AI credit consumption.\n\nAI was the other major theme, with posts on Azure AI Foundry model connectivity patterns across regions, the USR-8 user-simulator scoring framework, local AI on Windows for telecommunications, and an internal GitHub-built data analytics agent. Security and trust were also prominent, spanning software supply chain transparency, the AutoJack research on single-page RCE risks for AI agents, deterministic extraction versus AI inference for industrial summarization, and evaluation learnings from 50,000 runs of a lightweight VS Code benchmark."
 }
