@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T22:49:38.358979+00:00",
+  "lastUpdated": "2026-06-19T02:38:38.232799+00:00",
   "totalArticles": 1121,
   "articles": [
     {
@@ -11,6 +11,28 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "AutoJack: How a single page can RCE the host running your AI agent",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/18/autojack-single-page-rce-host-running-ai-agent/",
+      "published": "2026-06-19T00:17:54+00:00",
+      "summary": "AutoJack is a novel exploit chain showing how a single malicious webpage can turn an AI browsing agent into a remote code execution vector on the host machine. By abusing trust in localhost, missing authentication, and unsafe parameter handling, attackers can trigger arbitrary process execution...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Defender Security Research Team",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Upcoming deprecation of Opus 4.6 (fast)",
+      "link": "https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
+      "published": "2026-06-18T23:58:34+00:00",
+      "summary": "We will deprecate Opus 4.6 (fast) across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), on June 29th, 2026: Model Deprecation date… The post Upcoming deprecation of Opus 4.6 (fast) appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -179,6 +201,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Stop overloading your skills",
+      "link": "https://devblogs.microsoft.com/blog/stop-overloading-your-skills",
+      "published": "2026-06-18T14:25:27+00:00",
+      "summary": "You built a skill for your technology. API references, authentication flows, SDK patterns, error handling, version info, all packed into one skill. The agent calls it, gets all that context, and generates code. The kicker? You’ve just wasted a lot of tokens. It already knows Models have ingested...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Safer pull_request_target defaults for GitHub Actions checkout",
       "link": "https://github.blog/changelog/2026-06-18-safer-pull_request_target-defaults-for-github-actions-checkout",
       "published": "2026-06-18T14:06:55+00:00",
@@ -287,17 +320,6 @@
       "author": "Sunita_AZ0708",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Read remote repository content with GitHub CLI",
-      "link": "https://github.blog/changelog/2026-06-17-read-remote-repository-content-with-github-cli",
-      "published": "2026-06-17T20:03:57+00:00",
-      "summary": "Explore repository content from your terminal without cloning by using two new commands: gh repo read-file and gh repo read-dir. What you can do Use gh repo read-file to read… The post Read remote repository content with GitHub CLI appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Release 2026-05-29",
@@ -1837,17 +1859,6 @@
       "blogId": "azuredevops",
       "author": "Soo Stahl, Bhuvan Shah",
       "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "AI brands as bait: How threat actors are using the AI hype in social engineering",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering/",
-      "published": "2026-06-08T16:00:00+00:00",
-      "summary": "As threat actors operationalize AI to accelerate attacks, they are also leveraging the wider global interest around AI itself as a social engineering lure. The post AI brands as bait: How threat actors are using the AI hype in social engineering appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Threat Intelligence and Microsoft Defender Security Research Team",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -5831,17 +5842,6 @@
       "author": "chandanAggarwal",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Agentic-Agile: Why Agent Development Needs Agile (Not Just Prompts)",
-      "link": "https://devblogs.microsoft.com/blog/agentic-agile-why-agent-development-needs-agile-not-just-prompts",
-      "published": "2026-05-19T15:00:09+00:00",
-      "summary": "“A bad system will beat a good person [or agent] every time” ~Dr. William Edwards Deming (with apologies) I started vibe coding by writing prompts (often dictated into my phone), refining them with an agent in M365 Copilot, and creating handoff files to use with GitHub Copilot CLI. The results were...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Daniel Epstein",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Eliminate LLM Cold starts: Load models up to 6x Faster with Azure Blob Storage and Run:AI Model Streamer",
@@ -12334,5 +12334,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure- and Microsoft-cloud news centered on enterprise AI, secure developer platforms, and network/security modernization. Key AI updates included AI-driven document extraction for construction, enterprise reinforcement learning with OpenEnv and Microsoft Foundry, auto-generated rubric evaluators for AI agents in Azure AI Foundry, and secure model/tool orchestration patterns using APIM MCP Gateway plus an enterprise-ready Claude Desktop setup with Entra ID, APIM, and Foundry; GitHub also expanded Copilot with broader MAI-Code-1-Flash availability, AGENTS.md-aware code review, and better attribution for Copilot-authored pull requests and release notes.\n\nThe second major theme was governance and security at scale: Azure Networking detailed migration from MSEE hairpin routing to Azure Virtual Network Manager mesh for large VNet-to-VNet topologies, Microsoft Sentinel highlighted reimagined detection and automation, and Microsoft Security promoted a Forrester study claiming 124% ROI from unified Microsoft Security while also analyzing the Mastra npm supply-chain compromise. On the GitHub platform side, Microsoft emphasized enterprise controls and efficiency with new pre-purchase plans, safer `pull_request_target` defaults, tighter workflow trigger controls in GitHub Actions, custom-image layering for Actions runners, issue deduplication preview, MCP support for issue fields, a GA repository switcher, and pull-request limits to reduce notification noise."
+  "summary": "Today’s Azure/Microsoft blog highlight is a security-focused post from the Microsoft Security Blog: **“AutoJack: How a single page can RCE the host running your AI agent.”** The article warns that **AI agents interacting with untrusted web content** can be exploited so that a **single malicious page triggers remote code execution (RCE) on the host machine**, underscoring risks in agent/browser automation stacks and the need for stronger isolation, sandboxing, and runtime protections.\n\nThe main theme is that as organizations adopt **AI agents** and tool-using copilots, the attack surface now extends from traditional web threats into **agent hosts, local execution environments, and connected tools**. Microsoft’s announcement is less about a new Azure product launch and more about a critical security insight for teams building or deploying **AI-driven automation systems**."
 }
