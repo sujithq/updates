@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T18:39:36.802969+00:00",
+  "lastUpdated": "2026-06-22T22:29:24.912056+00:00",
   "totalArticles": 1116,
   "articles": [
     {
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Guarding AI memory",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/22/guarding-ai-memory/",
+      "published": "2026-06-22T19:07:28+00:00",
+      "summary": "What happens when threat actors target what AI remembers? Microsoft breaks down the risks and the defenses. The post Guarding AI memory appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Natalie Isak and Sarah Cooley",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -78,6 +89,17 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "(Co)work in Progress",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/co-work-in-progress/ba-p/4511672",
+      "published": "2026-06-22T15:33:08+00:00",
+      "summary": "A complete record of milestones, launches, and newest innovations. Delegate complex work​ – Copilot Cowork is now GA Now generally available worldwide, Copilot Cowork is an agentic system that plans, executes, and delivers real work. Getting to Cowork is now simpler. The redesigned Microsoft 365...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "ilyagrebnov",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "How Many Copies of Each Layer Does Your Container Registry Actually Need?",
@@ -872,17 +894,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "(Co)work in Progress",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/co-work-in-progress/ba-p/4511672",
-      "published": "2026-06-16T20:29:43+00:00",
-      "summary": "A complete record of milestones, launches, and newest innovations. Delegate complex work​ – Copilot Cowork is now GA Now generally available worldwide, Copilot Cowork is an agentic system that plans, executes, and delivers real work. Getting to Cowork is now simpler. The redesigned Microsoft 365...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "ilyagrebnov",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[In preview] Public Preview: New project templates and template gallery for Azure Functions in VS Code",
       "link": "https://azure.microsoft.com/updates?id=562497",
       "published": "2026-06-16T19:00:15+00:00",
@@ -1628,17 +1639,6 @@
       "blogId": "msdevblog",
       "author": "Apoorv Gupta",
       "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Turn specs into evals for any agent with ASSERT",
-      "link": "https://commandline.microsoft.com/assert-written-intent-executable-evals/",
-      "published": "2026-06-10T16:00:00+00:00",
-      "summary": "Adaptive Spec-driven Scoring for Evaluation and Regression Testing (ASSERT) is an open-source framework for converting natural language behavior requirements into executable evaluations of AI models and agents. The post Turn specs into evals for any agent with ASSERT appeared first on Microsoft...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Mehrnoosh Sameki, Sandeep Atluri, Minsoo Thigpen and Abby Palia",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -12279,5 +12279,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure-related posts centered on AI agents, infrastructure optimization, and security. Microsoft highlighted **local AI on Windows for telecommunications**, faster agent integration with **Microsoft Agent 365**, and using **Deep Agents with Azure Cosmos DB** to plan, act, and verify against operational data; GitHub also announced **Claude as a preview agent provider in JetBrains IDEs** alongside new IDE features.\n\nOn the platform side, Azure emphasized performance and operational efficiency with **NFS nconnect for Azure NetApp Files datastores in Azure VMware Solution** and a closer look at **container registry layer copy behavior**. Security and ecosystem updates included analysis of **parallel threat activity in a single intrusion**, guidance on the **retirement of the Azure DevOps issuer in workload identity federation service connections**, and GitHub’s push for a more inclusive **open source** ecosystem."
+  "summary": "Today’s Azure-related posts focused on three big themes: securing and operationalizing AI/agent workflows, improving hybrid/cloud infrastructure performance, and platform lifecycle changes. On the AI front, Microsoft highlighted “Guarding AI memory,” Azure Cosmos DB support for “deep agents” that can plan/act/verify against operational data, Agent 365 Skills for quickly integrating custom agents, local AI on Windows for telecom scenarios, and GitHub’s JetBrains update adding new features plus Claude as a preview agent provider.\n\nSecurity and platform modernization were also prominent: Microsoft Security detailed parallel threat activity in a single intrusion, while Azure DevOps announced the retirement of the Azure DevOps issuer for workload identity federation service connections. On the infrastructure side, Azure emphasized performance and efficiency improvements with NFS nconnect for Azure NetApp Files datastores in Azure VMware Solution and a deep dive into container registry layer deduplication, alongside broader ecosystem updates on inclusive open source practices and Microsoft 365 Copilot collaboration experiences."
 }
