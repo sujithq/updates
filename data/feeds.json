@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T08:46:04.110208+00:00",
+  "lastUpdated": "2026-06-22T14:22:18.999666+00:00",
   "totalArticles": 1115,
   "articles": [
     {
@@ -11,6 +11,28 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "How to Use Deep Agents with Azure Cosmos DB – Plan, act, and verify against operational data",
+      "link": "https://devblogs.microsoft.com/cosmosdb/deep-agents-to-plan-act-verify-against-operational-data/",
+      "published": "2026-06-22T13:21:18+00:00",
+      "summary": "Deep Agents is an agent harness built on LangGraph, for agents that need to work through a task over many steps instead of a single LLM call. The agent runs tools, looks at the results, and uses that to pick the next one, keeping a todo list as it goes. On top of that loop […] The post How to Use...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Abhishek Gupta",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Retirement of Azure DevOps issuer in Workload identity federation service connections",
+      "link": "https://devblogs.microsoft.com/devops/retirement-of-azure-devops-issuer-in-workload-identity-federation-service-connections/",
+      "published": "2026-06-22T09:35:34+00:00",
+      "summary": "We are announcing the deprecation of the Azure DevOps issuer in workload identity federation (WIF) service connections, with planned retirement on July 1, 2027. The Azure DevOps issuer uses the https://vstoken.dev.azure.com prefix in federated credentials. This change is part of Microsoft’s broader...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Eric van Wijk",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "sourceType": "rss"
     },
     {
@@ -3640,17 +3662,6 @@
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Sajeetharan Sinnathurai",
-      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Announcing General availability of the Azure Cosmos DB vNext emulator",
-      "link": "https://devblogs.microsoft.com/cosmosdb/announcing-general-availability-of-the-azure-cosmos-db-vnext-emulator/",
-      "published": "2026-06-02T19:15:34+00:00",
-      "summary": "The Azure Cosmos DB vNext emulator is generally available today. It ships as a Docker image that runs on Linux, macOS, and Windows, on both x64 and ARM64 architectures, giving you a local Cosmos DB instance you can develop and test against. Use it for inner-loop development on your laptop, in CI...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Abhishek Gupta",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
     },
@@ -7701,17 +7712,6 @@
       "author": "austin-ma",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Public Preview: Actual Result for Manual Tests in Azure Test Plans",
-      "link": "https://devblogs.microsoft.com/devops/actual-result-azure-test-plans/",
-      "published": "2026-04-22T14:35:35+00:00",
-      "summary": "We’re excited to announce the public preview of the highly anticipated Actual Result (AR) feature for manual testing in Azure Test Plans! This feature has been one of the top requests of the community, and we’re thrilled to make it available for you. Why use the Actual Result feature? Manual...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Panagiotis Liaros",
-      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Getting Started with the SUSE Multi-Linux Manager MCP Server and GitHub Copilot",
@@ -12267,5 +12267,6 @@
       "feedUrl": "https://azure.microsoft.com/en-us/blog/product/azure-functions/feed/",
       "sourceType": "rss"
     }
-  ]
+  ],
+  "summary": "Today’s Azure updates focused on AI-driven data operations and an Azure DevOps identity change. The Azure Cosmos DB post introduced using **Deep Agents** to **plan, act, and verify** against **operational data in Azure Cosmos DB**, highlighting agentic workflows that can reason over live application data. Meanwhile, the Azure DevOps team announced the **retirement of the Azure DevOps issuer in Workload identity federation service connections**, signaling that customers using federated identities for pipeline/service connection authentication should review and update their configurations."
 }
