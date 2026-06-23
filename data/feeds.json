@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T17:09:52.615782+00:00",
+  "lastUpdated": "2026-06-23T19:46:50.216926+00:00",
   "totalArticles": 1116,
   "articles": [
     {
@@ -11,6 +11,28 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure Copilot Observability Agent is generally available, with autonomous operations in preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-copilot-observability-agent-is-generally-available-with/ba-p/4528213",
+      "published": "2026-06-23T19:38:23+00:00",
+      "summary": "Complex cloud environments have outpaced manual operations. Agentic cloud operations connect people, tools, and data to streamline investigation workflows and move teams from scattered signals to evidence-backed next steps. With unified observability, teams can investigate Azure-monitored...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "EfratNauerman",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Fetch Code Quality findings via REST API",
+      "link": "https://github.blog/changelog/2026-06-23-fetch-code-quality-findings-via-rest-api",
+      "published": "2026-06-23T18:38:41+00:00",
+      "summary": "Repository-level REST APIs for Code Quality findings are now available in public preview, bringing API support closer to the functionality already available in the GitHub UI. Two new read-only endpoints… The post Fetch Code Quality findings via REST API appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -47,6 +69,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "GitHub joins coalition advocating for fixes to California AI Transparency Act to protect open source",
+      "link": "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source/",
+      "published": "2026-06-23T15:48:00+00:00",
+      "summary": "We’re calling for targeted amendments to resolve conflicts with open source licensing and align with international transparency frameworks while preserving regulatory intent. The post GitHub joins coalition advocating for fixes to California AI Transparency Act to protect open source appeared first...",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Natalie Guevara",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Deprecation of Python 3.9 for Dependabot",
       "link": "https://github.blog/changelog/2026-06-23-deprecation-of-python-3-9-for-dependabot",
       "published": "2026-06-23T15:46:30+00:00",
@@ -69,14 +102,25 @@
       "sourceType": "rss"
     },
     {
-      "title": "Enterprise Identity Meets Secure File Transfer: Entra ID Public Preview on Azure Blob Storage SFTP",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/enterprise-identity-meets-secure-file-transfer-entra-id-public/ba-p/4501937",
-      "published": "2026-06-23T12:50:37+00:00",
-      "summary": "Updated on June 23 2026: Microsoft Entra ID-based access for Azure Blob Storage SFTP is now Generally Available. GA enhancements: Improved ABAC by resolving inconsistencies with the Storage Blob Data Owner role (eliminating timeout issues) while adding support for sub-operations to enable more...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "JeevanManoj",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "title": "Defending your Memory in Microsoft Foundry Agent Service against memory poisoning",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/defending-your-memory-in-microsoft-foundry-agent-service-against/ba-p/4529638",
+      "published": "2026-06-23T13:00:00+00:00",
+      "summary": "One of the things that makes agents genuinely useful is that they can remember. Instead of treating every interaction as completely new, an agent can carry context across sessions, recall preferences, and preserve continuity over time. In Microsoft Foundry Agent Service, memory enables exactly...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "LauraVerghote",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "The Token Economics of the Edge: Running Qwen3 on a Windows NPU with WinML CLI",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/the-token-economics-of-the-edge-running-qwen3-on-a-windows-npu/ba-p/4530054",
+      "published": "2026-06-23T09:35:31+00:00",
+      "summary": "The number that changes the conversation Most \"run an LLM locally\" tutorials start with the model. This one starts with a bill. Every token a cloud LLM generates is metered. One request is rounding-error cheap. But agents don't make one request — they make thousands, in loops, with retries, across...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -188,6 +232,17 @@
       "author": "payalmahesh",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Models don’t have preferences, they have context",
+      "link": "https://devblogs.microsoft.com/blog/models-dont-have-preferences-they-have-context",
+      "published": "2026-06-22T14:53:23+00:00",
+      "summary": "You open a fresh chat, type “What framework should I use for a web app?”, and the model says “React.” You screenshot it, share it, and write “Claude prefers React.” It gets engagement. People nod along. A few reply with their own results. And now we have a consensus: Claude prefers React. Except it...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "How to Use Deep Agents with Azure Cosmos DB – Plan, act, and verify against operational data",
@@ -502,17 +557,6 @@
       "link": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
       "published": "2026-06-18T18:04:33+00:00",
       "summary": "Duplicate issues are one of the biggest time sinks for maintainers: triaging the same bug filed multiple ways, closing duplicates, and linking back to the original. For large repositories, this… The post Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Copilot-authored pull requests now included in author searches",
-      "link": "https://github.blog/changelog/2026-06-18-copilot-authored-pull-requests-now-included-in-author-searches",
-      "published": "2026-06-18T16:24:05+00:00",
-      "summary": "Searching for pull requests using author: now shows pull requests opened by Copilot cloud agent on the user’s behalf. For example, searching with author:@me on github.com/pulls will return your own… The post Copilot-authored pull requests now included in author searches appeared first on The GitHub...",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -1290,17 +1334,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "GitHub availability report: May 2026",
-      "link": "https://github.blog/news-insights/company-news/github-availability-report-may-2026/",
-      "published": "2026-06-11T21:30:15+00:00",
-      "summary": "In May, we experienced nine incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: May 2026 appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Natalie Guevara",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Available today: Anthropic Claude Fable 5 in Microsoft 365 Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832",
       "published": "2026-06-11T20:58:32+00:00",
@@ -1613,6 +1646,17 @@
       "link": "https://devblogs.microsoft.com/blog/is-your-agent-extension-actually-working",
       "published": "2026-06-10T19:06:17+00:00",
       "summary": "This is the third article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Stop skillmaxxing, save your tokens",
+      "link": "https://devblogs.microsoft.com/blog/stop-skillmaxxing-save-your-tokens",
+      "published": "2026-06-10T18:00:15+00:00",
+      "summary": "You built a dozen skills for your technology: authentication, CRUD, error handling, deployment, testing, monitoring. Then you installed a cloud platform bundle with 15 more covering diagnostics, storage, compliance, and cost optimization. A design suite. A marketing pack. Document converters for...",
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
       "author": "Waldek Mastykarz",
@@ -3157,17 +3201,6 @@
       "blogId": "microsoftdefendercloudblog",
       "author": "JasonWeber",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Improved data processing features in Foundry IQ: Richer content extraction and data enrichment",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/improved-data-processing-features-in-foundry-iq-richer-content/ba-p/4524841",
-      "published": "2026-06-02T21:08:06+00:00",
-      "summary": "Great answers start before retrieval. They depend on how well your data pipeline can reach enterprise content, preserve document structure, and carry text and visual context into the index. As part of the Microsoft Foundry platform, the Foundry IQ (Azure AI Search) 2026-05-01-preview release...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "gia_mondragon",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -5162,17 +5195,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Building a GitHub Copilot Agent Usage Dashboard",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-a-github-copilot-agent-usage-dashboard/ba-p/4523529",
-      "published": "2026-06-01T19:00:00+00:00",
-      "summary": "Introduction Working with organisations that are attempting to create GitHub Copilot custom agents, take-up of these agents by their community becomes important to know. Some questions quickly emerge are \"how well are we actually using it?\", \"which agents are getting used and which have not had...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "jometzg",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Public preview: Automatic OS Image Upgrades for VMSS Flex",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/public-preview-automatic-os-image-upgrades-for-vmss-flex/ba-p/4523067",
       "published": "2026-06-01T18:38:35+00:00",
@@ -5237,17 +5259,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "The Azure Copilot Observability Agent Chat - Stop Writing Queries, Start Asking Questions.",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/the-azure-copilot-observability-agent-chat-stop-writing-queries/ba-p/4522206",
-      "published": "2026-06-01T11:04:05+00:00",
-      "summary": "Services and applications produce massive amounts of telemetry – and making sense of all this data takes effort. Data is often spread across different stores, which means the way to clear insights goes through careful querying, refinement and correlation. The Azure Copilot Observability agent now...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Noa Kuperberg",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Finance Agent Benchmark: evaluating and improving AI for Finance",
@@ -5468,17 +5479,6 @@
       "author": "Brian Benz",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "How AI coding agents actually use your technology",
-      "link": "https://devblogs.microsoft.com/blog/how-ai-coding-agents-actually-use-your-technology",
-      "published": "2026-05-27T18:30:38+00:00",
-      "summary": "You ship an SDK, a CLI, an API, and developers use it. Now AI coding agents use it too, except they use it differently than humans do. Most of the time you have no idea what’s actually happening between “developer types a prompt” and “agent generates code with your technology.” Is the agent reading...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "[Launched] Generally Available: Multiparty private offers in Microsoft Marketplace expand to 30 countries in Europe",
@@ -5787,17 +5787,6 @@
       "author": "arturoqu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "The AX stack: what’s fixed, where you can win",
-      "link": "https://devblogs.microsoft.com/blog/the-ax-stack-whats-fixed-where-you-can-win",
-      "published": "2026-05-21T17:39:59+00:00",
-      "summary": "AI coding agents promise to make you more productive. On the surface they do, but in practice they fall short: agents generate code that doesn’t compile, use a deprecated SDK, or pick the wrong service entirely. Is it you using it wrong? Is it your tech stack? Or is it the tools you haven’t...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Plan Before You Build: Introducing the Plan agent in Visual Studio",
@@ -9243,6 +9232,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Enterprise Identity Meets Secure File Transfer: Entra ID Public Preview on Azure Blob Storage SFTP",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/enterprise-identity-meets-secure-file-transfer-entra-id-public/ba-p/4501937",
+      "published": "2026-03-13T10:37:25+00:00",
+      "summary": "We are excited to announce the public preview of Entra ID-based access for Azure Blob Storage SFTP. This new capability enables you to use Microsoft Entra ID (formerly Azure Active Directory) identities (including guest users via Entra External Identities) to securely connect to Azure Blob Storage...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "JeevanManoj",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "How VS Code Builds with AI",
       "link": "https://code.visualstudio.com/blogs/2026/03/13/how-VS-Code-Builds-with-AI",
       "published": "2026-03-13T00:00:00+00:00",
@@ -12279,5 +12279,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s updates center on developer automation, AI-assisted workflows, and enterprise security. GitHub announced general availability of **Copilot CLI**, bringing GitHub Copilot into the terminal, along with **automatic Dependabot access to GitHub-hosted registries** and a **Python 3.9 deprecation for Dependabot**, signaling continued investment in secure, automated dependency management.\n\nOn the Azure side, the biggest enterprise announcement is the **public preview of Microsoft Entra ID support for Azure Blob Storage SFTP**, enabling identity-based secure file transfer instead of relying solely on local credentials. Meanwhile, thought-leadership posts emphasized broader automation trends: one on using automation to improve leadership effectiveness, and another on **agent skills for autonomous development, deployment, and validation**, pointing toward more capable AI/DevOps agents across the software lifecycle."
+  "summary": "Today’s Azure- and GitHub-related updates centered on AI agents, developer automation, and software supply chain improvements. Microsoft announced the general availability of the Azure Copilot Observability Agent with autonomous operations in preview, while Azure AI Foundry detailed defenses against memory poisoning in agent memory systems; on the edge AI side, Microsoft also highlighted running the Qwen3 model on a Windows NPU via WinML CLI, emphasizing local inference economics.\n\nOn the GitHub side, the biggest announcements were around platform automation and security: Copilot CLI is now generally available, Code Quality findings can be fetched via REST API, GitHub-hosted registries now support automatic Dependabot access, and Dependabot is deprecating Python 3.9. Broader themes included autonomous DevOps workflows (“Agent Skills”), practical workplace automation, and policy advocacy around California’s AI Transparency Act to better protect open source."
 }
