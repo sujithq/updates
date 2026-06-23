@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-23T19:46:50.216926+00:00",
-  "totalArticles": 1116,
+  "lastUpdated": "2026-06-23T22:07:32.020725+00:00",
+  "totalArticles": 1117,
   "articles": [
     {
       "title": "Visual Studio Code 1.126",
@@ -14,6 +14,61 @@
       "sourceType": "rss"
     },
     {
+      "title": "Mistral Document AI (with OCR 4) and Mistral Medium 3.5 arrive in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/mistral-document-ai-with-ocr-4-and-mistral-medium-3-5-arrive-in/ba-p/4529863",
+      "published": "2026-06-23T22:01:14+00:00",
+      "summary": "In production AI systems, different problems require different model capabilities. Document ingestion, reasoning, coding, and automation workflows rarely rely on a single model. They depend on selecting the right tool for each layer of the stack. Microsoft Foundry continues to onboard Mistral...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "truptiparkar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Building an Azure architecture that’s ready for every signature",
+      "link": "https://techcommunity.microsoft.com/t5/azure-customer-innovation-blog/building-an-azure-architecture-that-s-ready-for-every-signature/ba-p/4530310",
+      "published": "2026-06-23T21:07:06+00:00",
+      "summary": "At Exclaimer, we help organizations manage email signatures at scale, so every message can carry a consistent, compliant, on-brand signature without IT teams manually updating thousands of mailboxes. This is more difficult than it may seem, especially when you're doing it for more than 80,000...",
+      "blog": "Customer Innovation",
+      "blogId": "azure-customer-innovation-blog",
+      "author": "mtoiba",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-customer-innovation-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "A guide to innovating threat hunting with Microsoft Sentinel custom graph",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/a-guide-to-innovating-threat-hunting-with-microsoft-sentinel/ba-p/4530287",
+      "published": "2026-06-23T20:35:15+00:00",
+      "summary": "Microsoft Sentinel platform offers a growing list of tools and features, with graph being a cornerstone capability. Sentinel graph is a relationship-first method for organizing and querying data within Microsoft Sentinel data lake. Activities amongst entities (users, devices, emails, IPs,...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Matt_Lowe",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[In preview] Generally Available: Azure NetApp Files migration assistant",
+      "link": "https://azure.microsoft.com/updates?id=565480",
+      "published": "2026-06-23T20:15:55+00:00",
+      "summary": "Azure NetApp Files migration assistant (with SnapMirror) provides efficient and cost-effective data migration leveraging ONTAP's built-in replication engine for seamless transition from on-premises or CVO/other cloud providers to Azure NetApp Files (ANF).",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Secret scanning adds extended metadata for Replicate secrets",
+      "link": "https://github.blog/changelog/2026-06-23-secret-scanning-adds-extended-metadata-for-replicate-secrets",
+      "published": "2026-06-23T19:50:00+00:00",
+      "summary": "Secret scanning now includes extended metadata for Replicate secrets, providing richer context for leaked credentials. Extended metadata support This pattern now includes extended metadata when detected, providing richer context about… The post Secret scanning adds extended metadata for Replicate...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Azure Copilot Observability Agent is generally available, with autonomous operations in preview",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-copilot-observability-agent-is-generally-available-with/ba-p/4528213",
       "published": "2026-06-23T19:38:23+00:00",
@@ -22,6 +77,17 @@
       "blogId": "azureobservabilityblog",
       "author": "EfratNauerman",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Only 8.5% of MCP Servers Use OAuth — Here's How to Host One Securely on App Service",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/only-8-5-of-mcp-servers-use-oauth-here-s-how-to-host-one/ba-p/4530349",
+      "published": "2026-06-23T19:20:54+00:00",
+      "summary": "The Model Context Protocol exploded onto the scene because it's easy. Stand up a server, expose a few tools, point Claude or VS Code at it, and your agent can suddenly read files, hit APIs, and run code. That same ease is the problem: most MCP servers ship with no authentication at all, and they're...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -56,6 +122,17 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "MCP Just Went Stateless — What the 2026 Spec Changes About Scaling on App Service",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/mcp-just-went-stateless-what-the-2026-spec-changes-about-scaling/ba-p/4530222",
+      "published": "2026-06-23T16:14:36+00:00",
+      "summary": "A couple of months ago I wrote about scaling MCP servers behind App Service's built-in load balancer. The trick back then was to lean on stateless HTTP transport so any instance could serve any request — and to make sure you turned off ARR affinity so the load balancer was actually free to spread...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "I automated my job (and it made me a better leader)",
@@ -113,6 +190,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Enterprise Identity Meets Secure File Transfer: Entra ID Public Preview on Azure Blob Storage SFTP",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/enterprise-identity-meets-secure-file-transfer-entra-id-public/ba-p/4501937",
+      "published": "2026-06-23T12:50:37+00:00",
+      "summary": "Updated on June 23 2026: Microsoft Entra ID-based access for Azure Blob Storage SFTP is now Generally Available. GA enhancements: Improved ABAC by resolving inconsistencies with the Storage Blob Data Owner role (eliminating timeout issues) while adding support for sub-operations to enable more...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "JeevanManoj",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "The Token Economics of the Edge: Running Qwen3 on a Windows NPU with WinML CLI",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/the-token-economics-of-the-edge-running-qwen3-on-a-windows-npu/ba-p/4530054",
       "published": "2026-06-23T09:35:31+00:00",
@@ -122,6 +210,17 @@
       "author": "kinfey",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "GitHub Copilot app support for BYOK",
+      "link": "https://github.blog/changelog/2026-06-23-github-copilot-app-support-for-byok",
+      "published": "2026-06-23T08:00:02+00:00",
+      "summary": "The GitHub Copilot app now supports bring your own key (BYOK), so you can run agent sessions against your own model providers, including OpenAI, Azure OpenAI, Microsoft Foundry, Anthropic, LM… The post GitHub Copilot app support for BYOK appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Azure SDK Release (May 2026)",
@@ -520,17 +619,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Copilot code review: AGENTS.md support and UI improvements",
-      "link": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
-      "published": "2026-06-18T19:11:51+00:00",
-      "summary": "Copilot code review now supports repository-level AGENTS.md files, and it’s easier to request a review from Copilot on draft pull requests with the Request button. These changes are all generally… The post Copilot code review: AGENTS.md support and UI improvements appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Auto-Generated Rubric Evaluators: Building Context-Aware Evaluators for AI Agents",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/auto-generated-rubric-evaluators-building-context-aware/ba-p/4524095",
       "published": "2026-06-18T19:00:00+00:00",
@@ -551,17 +639,6 @@
       "author": "Mohit_Kumar1",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues",
-      "link": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
-      "published": "2026-06-18T18:04:33+00:00",
-      "summary": "Duplicate issues are one of the biggest time sinks for maintainers: triaging the same bug filed multiple ways, closing duplicates, and linking back to the original. For large repositories, this… The post Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "How pull request limits are cutting down the noise",
@@ -2104,17 +2181,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "New MAI models in Microsoft Foundry across text, image, voice, and speech",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/new-mai-models-in-microsoft-foundry-across-text-image-voice-and/ba-p/4524632",
-      "published": "2026-06-08T15:29:51+00:00",
-      "summary": "Continuing Microsoft AI momentum in Foundry Since launching MAI-Image-2-Efficient, MAI-Image-2, MAI-Voice-1, MAI-Transcribe-1 in Microsoft Foundry this spring, we've been laser-focused on one thing: giving developers the most complete first-party AI stack to build with. Today, at Microsoft Build...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Now in preview: built-in MCP for Azure App Service",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/now-in-preview-built-in-mcp-for-azure-app-service/ba-p/4526407",
       "published": "2026-06-08T13:09:52+00:00",
@@ -3549,28 +3615,6 @@
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-container-apps-sandboxes-secure-infrastructure/ba-p/4524131",
       "published": "2026-06-02T19:30:00+00:00",
       "summary": "Today we are announcing the public preview of Azure Container Apps Sandboxes - a new first-class resource type that gives you fast, secure, ephemeral compute environments with built-in suspend and resume. This is the underlying infrastructure on which products like Cloud sandboxes in GitHub...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "vyomnagrani",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "What's new in Azure Kubernetes Service at Microsoft Build 2026",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-kubernetes-service-at-microsoft-build-2026/ba-p/4524862",
-      "published": "2026-06-02T19:30:00+00:00",
-      "summary": "A year ago, teams were still asking whether Kubernetes belonged anywhere near their AI workloads. That question has mostly been answered as the community comes together to . The real challenge now is operational: how to run training and inference at scale when cost, latency, and reliability are...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "coryskimming",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "What's new in Azure Container Apps at Build'26",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-container-apps-at-build-26/ba-p/4524184",
-      "published": "2026-06-02T19:30:00+00:00",
-      "summary": "Azure Container Apps (ACA) is a fully managed serverless container platform that enables developers to build and deploy microservices and modern applications without requiring container expertise or needing infrastructure management. ACA provides built-in autoscaling (including scale to zero),...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "vyomnagrani",
@@ -5767,17 +5811,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: User Groups and IP address pools for P2S connections",
-      "link": "https://azure.microsoft.com/updates?id=564460",
-      "published": "2026-05-21T18:45:42+00:00",
-      "summary": "User Groups and IP Address Pools for Point-to-Site connections in VPN Gateway enable customers to assign distinct IP address pools to remote users based on their credentials. With this capability, customers can organize remote users into separate groups a",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "WAR, Azure Advisor, and Us (Azure Arch Diagram Builder): Three Ways to Score an Azure Architecture",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/war-azure-advisor-and-us-azure-arch-diagram-builder-three-ways/ba-p/4521611",
       "published": "2026-05-21T18:06:15+00:00",
@@ -7659,17 +7692,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Microsoft Sentinel MCP Server with external AI models (Claude) for natural language investigations",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/microsoft-sentinel-mcp-server-with-external-ai-models-claude-for/ba-p/4507013",
-      "published": "2026-04-22T21:35:29+00:00",
-      "summary": "Security teams are increasingly exploring how AI assistants support them in investigating incidents, asking questions, and exploring their data. At the same time, controlling how data is accessed remains critical. Today, we’re sharing how Sentinel can support a third-party AI assistant like Claude...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "mcasgrain",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Private subnets by default in Azure Virtual Networks: What changed and how to use NAT Gateway",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/private-subnets-by-default-in-azure-virtual-networks-what/ba-p/4513778",
       "published": "2026-04-22T19:09:37+00:00",
@@ -9230,17 +9252,6 @@
       "author": "PuiChee (PC) Chan",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Enterprise Identity Meets Secure File Transfer: Entra ID Public Preview on Azure Blob Storage SFTP",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/enterprise-identity-meets-secure-file-transfer-entra-id-public/ba-p/4501937",
-      "published": "2026-03-13T10:37:25+00:00",
-      "summary": "We are excited to announce the public preview of Entra ID-based access for Azure Blob Storage SFTP. This new capability enables you to use Microsoft Entra ID (formerly Azure Active Directory) identities (including guest users via Entra External Identities) to securely connect to Azure Blob Storage...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "JeevanManoj",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "How VS Code Builds with AI",
@@ -12279,5 +12290,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure- and GitHub-related updates centered on AI agents, developer automation, and software supply chain improvements. Microsoft announced the general availability of the Azure Copilot Observability Agent with autonomous operations in preview, while Azure AI Foundry detailed defenses against memory poisoning in agent memory systems; on the edge AI side, Microsoft also highlighted running the Qwen3 model on a Windows NPU via WinML CLI, emphasizing local inference economics.\n\nOn the GitHub side, the biggest announcements were around platform automation and security: Copilot CLI is now generally available, Code Quality findings can be fetched via REST API, GitHub-hosted registries now support automatic Dependabot access, and Dependabot is deprecating Python 3.9. Broader themes included autonomous DevOps workflows (“Agent Skills”), practical workplace automation, and policy advocacy around California’s AI Transparency Act to better protect open source."
+  "summary": "Today’s Azure and adjacent Microsoft/GitHub posts centered on AI agents, secure operations, and enterprise-ready platform updates. On the AI side, Microsoft highlighted new models in Azure AI Foundry/Microsoft Foundry—Mistral Document AI with OCR 4 and Mistral Medium 3.5—alongside guidance on defending Foundry Agent Service memory from poisoning, while observability and DevOps updates included the general availability of the Azure Copilot Observability Agent, preview autonomous operations, Microsoft Sentinel custom graph for threat hunting, and agent-oriented posts around MCP, stateless scaling on App Service, and autonomous development workflows.\n\nA second major theme was secure enterprise infrastructure and developer tooling: Azure NetApp Files Migration Assistant reached GA, Entra ID integration for Azure Blob Storage SFTP entered public preview, and Azure App Service guidance stressed OAuth-based security for MCP servers. GitHub’s updates focused on software supply chain and productivity, including REST API access for code quality findings, automatic Dependabot access to GitHub-hosted registries, Python 3.9 deprecation for Dependabot, Copilot CLI GA, Copilot app BYOK support, and improved secret scanning metadata for Replicate secrets."
 }
