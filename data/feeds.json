@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T14:13:24.511614+00:00",
+  "lastUpdated": "2026-06-23T17:09:52.615782+00:00",
   "totalArticles": 1116,
   "articles": [
     {
@@ -12,6 +12,72 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Automatic Dependabot access to GitHub-hosted registries",
+      "link": "https://github.blog/changelog/2026-06-23-automatic-dependabot-access-to-github-hosted-registries",
+      "published": "2026-06-23T16:46:05+00:00",
+      "summary": "Dependabot can now read from private GitHub Packages registries without a personal access token. If a package has granted your repository access through “Manage Actions access” in the package settings,… The post Automatic Dependabot access to GitHub-hosted registries appeared first on The GitHub...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Copilot CLI: New terminal interface is generally available",
+      "link": "https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available",
+      "published": "2026-06-23T16:35:45+00:00",
+      "summary": "The redesigned terminal interface for GitHub Copilot CLI that we previewed at Microsoft Build 2026 is now generally available. You get a tabbed layout for working with GitHub directly from… The post Copilot CLI: New terminal interface is generally available appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "I automated my job (and it made me a better leader)",
+      "link": "https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader/",
+      "published": "2026-06-23T16:00:00+00:00",
+      "summary": "Explore how my day as a senior leader looks now that I use 40 automations to help, and learn more about some of my favorites. The post I automated my job (and it made me a better leader) appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Natalie Guevara",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Deprecation of Python 3.9 for Dependabot",
+      "link": "https://github.blog/changelog/2026-06-23-deprecation-of-python-3-9-for-dependabot",
+      "published": "2026-06-23T15:46:30+00:00",
+      "summary": "Dependabot no longer supports Python version 3.9, which has reached its end-of-life. If you continue to use Python 3.9, there’s a risk that Dependabot will not create pull requests to… The post Deprecation of Python 3.9 for Dependabot appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "🔥Agent Skills - Towards Autonomous Development, Deployment, and Validation🔥",
+      "link": "https://www.letsdodevops.com/p/agent-skills-towards-autonomous-development",
+      "published": "2026-06-23T14:20:52+00:00",
+      "summary": "aka, don't ask me until prod",
+      "blog": "Let's do DevOps",
+      "blogId": "letsdodevops",
+      "author": "Kyler Middleton",
+      "feedUrl": "https://www.letsdodevops.com/feed",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Enterprise Identity Meets Secure File Transfer: Entra ID Public Preview on Azure Blob Storage SFTP",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/enterprise-identity-meets-secure-file-transfer-entra-id-public/ba-p/4501937",
+      "published": "2026-06-23T12:50:37+00:00",
+      "summary": "Updated on June 23 2026: Microsoft Entra ID-based access for Azure Blob Storage SFTP is now Generally Available. GA enhancements: Improved ABAC by resolving inconsistencies with the Storage Blob Data Owner role (eliminating timeout issues) while adding support for sub-operations to enable more...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "JeevanManoj",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Azure SDK Release (May 2026)",
@@ -454,17 +520,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Repository switcher generally available in global navigation",
-      "link": "https://github.blog/changelog/2026-06-18-repository-switcher-generally-available-in-global-navigation",
-      "published": "2026-06-18T16:23:00+00:00",
-      "summary": "You can now quickly jump between repositories without leaving your current page. The new repository switcher in the global navigation is generally available. Select the chevron next to the repository… The post Repository switcher generally available in global navigation appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "How pull request limits are cutting down the noise",
       "link": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/",
       "published": "2026-06-18T16:00:00+00:00",
@@ -473,17 +528,6 @@
       "blogId": "githubblog",
       "author": "Natalie Guevara",
       "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Actions: Build custom images from custom images",
-      "link": "https://github.blog/changelog/2026-06-18-actions-build-custom-images-from-custom-images",
-      "published": "2026-06-18T15:32:44+00:00",
-      "summary": "Custom images for GitHub-hosted runners are getting new capabilities that give you more flexibility over how you compose and manage your image-generation pipelines. You can now build custom images on… The post Actions: Build custom images from custom images appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -506,17 +550,6 @@
       "blogId": "msdevblog",
       "author": "Waldek Mastykarz",
       "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Safer pull_request_target defaults for GitHub Actions checkout",
-      "link": "https://github.blog/changelog/2026-06-18-safer-pull_request_target-defaults-for-github-actions-checkout",
-      "published": "2026-06-18T14:06:55+00:00",
-      "summary": "The pull_request_target event is one of the most commonly misused triggers in GitHub Actions, leading to vulnerabilities in workflows. Workflows triggered by pull_request_target run with the base repository’s GITHUB_TOKEN, secrets,… The post Safer pull_request_target defaults for GitHub Actions...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1419,17 +1452,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Making secret scanning more trustworthy: Reducing false positives at scale",
-      "link": "https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/",
-      "published": "2026-06-11T16:00:00+00:00",
-      "summary": "Alerts are more trustworthy and actionable when noise is reduced. See how we improved the verification step with context-aware LLM reasoning. The post Making secret scanning more trustworthy: Reducing false positives at scale appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Natalie Guevara",
-      "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -9221,17 +9243,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Enterprise Identity Meets Secure File Transfer: Entra ID Public Preview on Azure Blob Storage SFTP",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/enterprise-identity-meets-secure-file-transfer-entra-id-public/ba-p/4501937",
-      "published": "2026-03-13T10:37:25+00:00",
-      "summary": "We are excited to announce the public preview of Entra ID-based access for Azure Blob Storage SFTP. This new capability enables you to use Microsoft Entra ID (formerly Azure Active Directory) identities (including guest users via Entra External Identities) to securely connect to Azure Blob Storage...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "JeevanManoj",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "How VS Code Builds with AI",
       "link": "https://code.visualstudio.com/blogs/2026/03/13/how-VS-Code-Builds-with-AI",
       "published": "2026-03-13T00:00:00+00:00",
@@ -12103,17 +12114,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "🔥Building a Teams Bot with AI Capabilities - Part 4 - Receiver Lambda for OAuth2 Tokens and State🔥",
-      "link": "https://www.letsdodevops.com/p/teamsai-4",
-      "published": "2025-07-09T14:30:59+00:00",
-      "summary": "aka, I don't want to authenticate to SSO each time I send you a message",
-      "blog": "Let's do DevOps",
-      "blogId": "letsdodevops",
-      "author": "Kyler Middleton",
-      "feedUrl": "https://www.letsdodevops.com/feed",
-      "sourceType": "rss"
-    },
-    {
       "title": "Rehydrating Archived Blobs via Storage Task Actions",
       "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/rehydrating-archived-blobs-via-storage-task-actions/ba-p/4429282",
       "published": "2025-07-09T06:12:02+00:00",
@@ -12278,5 +12278,6 @@
       "feedUrl": "https://azure.microsoft.com/en-us/blog/product/azure-functions/feed/",
       "sourceType": "rss"
     }
-  ]
+  ],
+  "summary": "Today’s updates center on developer automation, AI-assisted workflows, and enterprise security. GitHub announced general availability of **Copilot CLI**, bringing GitHub Copilot into the terminal, along with **automatic Dependabot access to GitHub-hosted registries** and a **Python 3.9 deprecation for Dependabot**, signaling continued investment in secure, automated dependency management.\n\nOn the Azure side, the biggest enterprise announcement is the **public preview of Microsoft Entra ID support for Azure Blob Storage SFTP**, enabling identity-based secure file transfer instead of relying solely on local credentials. Meanwhile, thought-leadership posts emphasized broader automation trends: one on using automation to improve leadership effectiveness, and another on **agent skills for autonomous development, deployment, and validation**, pointing toward more capable AI/DevOps agents across the software lifecycle."
 }
