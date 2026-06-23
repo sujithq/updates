@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T06:36:58.256051+00:00",
+  "lastUpdated": "2026-06-23T11:50:28.291693+00:00",
   "totalArticles": 1116,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "The Token Economics of the Edge: Running Qwen3 on a Windows NPU with WinML CLI",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/the-token-economics-of-the-edge-running-qwen3-on-a-windows-npu/ba-p/4530054",
+      "published": "2026-06-23T09:35:31+00:00",
+      "summary": "The number that changes the conversation Most \"run an LLM locally\" tutorials start with the model. This one starts with a bill. Every token a cloud LLM generates is metered. One request is rounding-error cheap. But agents don't make one request — they make thousands, in loops, with retries, across...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Azure SDK Release (May 2026)",
@@ -100,17 +111,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "(Co)work in Progress",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/co-work-in-progress/ba-p/4511672",
-      "published": "2026-06-22T15:33:08+00:00",
-      "summary": "A complete record of milestones, launches, and newest innovations. Delegate complex work​ – Copilot Cowork is now GA Now generally available worldwide, Copilot Cowork is an agentic system that plans, executes, and delivers real work. Getting to Cowork is now simpler. The redesigned Microsoft 365...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "ilyagrebnov",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "How Many Copies of Each Layer Does Your Container Registry Actually Need?",
@@ -902,6 +902,17 @@
       "blogId": "azurearcblog",
       "author": "Aurnov_Chattopadhyay",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "(Co)work in Progress",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/co-work-in-progress/ba-p/4511672",
+      "published": "2026-06-16T20:29:43+00:00",
+      "summary": "A complete record of milestones, launches, and newest innovations. Delegate complex work​ – Copilot Cowork is now GA Now generally available worldwide, Copilot Cowork is an agentic system that plans, executes, and delivers real work. Getting to Cowork is now simpler. The redesigned Microsoft 365...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "ilyagrebnov",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -5137,17 +5148,6 @@
       "blogId": "azureconfidentialcomputingblog",
       "author": "Rakeshginjupalli",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureconfidentialcomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Building a GitHub Copilot Agent Usage Dashboard",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-a-github-copilot-agent-usage-dashboard/ba-p/4523529",
-      "published": "2026-06-01T19:00:00+00:00",
-      "summary": "Introduction Working with organisations that are attempting to create GitHub Copilot custom agents, take-up of these agents by their community becomes important to know. Some questions quickly emerge are \"how well are we actually using it?\", \"which agents are getting used and which have not had...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "jometzg",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12278,5 +12278,6 @@
       "feedUrl": "https://azure.microsoft.com/en-us/blog/product/azure-functions/feed/",
       "sourceType": "rss"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage centered on edge AI inference on Windows devices, with a focus on running the Qwen3 model locally on NPUs using the WinML CLI. The key theme was token economics at the edge—how on-device acceleration with Windows NPUs can improve cost, latency, and efficiency for generative AI workloads—while highlighting WinML CLI as the tooling layer for deploying and testing models like Qwen3 on Windows hardware."
 }
