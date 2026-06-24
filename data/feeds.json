@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-24T11:36:33.298085+00:00",
-  "totalArticles": 1117,
+  "lastUpdated": "2026-06-24T13:58:39.881426+00:00",
+  "totalArticles": 1118,
   "articles": [
     {
       "title": "Visual Studio Code 1.127",
@@ -25,6 +25,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "StealC and Amadey: Breaking down infostealers and the cybercrime services that deliver them",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/24/stealc-and-amadey-breaking-down-infostealers-and-the-cybercrime-services-that-deliver-them/",
+      "published": "2026-06-24T12:30:00+00:00",
+      "summary": "On June 24, 2026, Microsoft’s Digital Crimes Unit (DCU) facilitated the takedown, suspension, and blocking of domains that formed the backbone of the StealC and Amadey infrastructure. This blog is a technical breakdown of StealC and Amadey. The post StealC and Amadey: Breaking down infostealers and...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Threat Intelligence, Microsoft Defender Security Research Team and Microsoft Digital Crimes Unit",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Boost performance with NFS nconnect on Azure NetApp Files datastores for Azure VMware Solution",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/boost-performance-with-nfs-nconnect-on-azure-netapp-files/ba-p/4528858",
       "published": "2026-06-24T07:16:04+00:00",
@@ -36,14 +47,14 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Streaming and Batch Data Architectures with Microsoft Fabric to Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/streaming-and-batch-data-architectures-with-microsoft-fabric-to/ba-p/4526166",
-      "published": "2026-06-23T23:34:19+00:00",
-      "summary": "Author's: Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point to design a well-architected solution...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "title": "Building an Azure architecture that’s ready for every signature",
+      "link": "https://techcommunity.microsoft.com/t5/azure-customer-innovation-blog/building-an-azure-architecture-that-s-ready-for-every-signature/ba-p/4530310",
+      "published": "2026-06-23T21:07:06+00:00",
+      "summary": "At Exclaimer, we help organizations manage email signatures at scale, so every message can carry a consistent, compliant, on-brand signature without IT teams manually updating thousands of mailboxes. This is more difficult than it may seem, especially when you're doing it for more than 80,000...",
+      "blog": "Customer Innovation",
+      "blogId": "azure-customer-innovation-blog",
+      "author": "mtoiba",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-customer-innovation-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -364,6 +375,17 @@
       "author": "Eric van Wijk",
       "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Batch & Streaming Architecture Designs: Another Better Together Story!",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/batch-streaming-architecture-designs-another-better-together/ba-p/4526166",
+      "published": "2026-06-19T21:24:09+00:00",
+      "summary": "Author's: Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point to design a well-architected solution...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Announcing the Path to Production for Agents Webinar Series",
@@ -1210,17 +1232,6 @@
       "blogId": "githubblog",
       "author": "Natalie Guevara",
       "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Microsoft Defender email security benchmarking: Key insights from one year of data",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/15/microsoft-defender-email-security-benchmarking-key-insights-from-one-year-of-data/",
-      "published": "2026-06-15T16:00:00+00:00",
-      "summary": "See how Microsoft Defender performed in one year of real-world email security benchmarking against SEG and ICES vendors. The post Microsoft Defender email security benchmarking: Key insights from one year of data appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Jeff Pinkston",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -12290,5 +12301,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure-related posts centered on developer tooling and infrastructure performance. The Visual Studio Code 1.126 release highlighted updates to the editor and developer experience in VS Code, while Azure Storage’s post focused on improving Azure VMware Solution performance by using **NFS nconnect** with **Azure NetApp Files** datastores to increase parallel TCP connections and boost throughput for NFS-mounted workloads."
+  "summary": "Today’s Azure-related posts centered on three themes: developer tooling, cloud performance optimization, and cybersecurity. Visual Studio Code 1.126 highlighted the latest updates to Microsoft’s popular editor; Azure Storage detailed how enabling **NFS `nconnect`** can improve throughput and performance for **Azure NetApp Files** datastores used with **Azure VMware Solution**; and the Microsoft Security Blog analyzed the **StealC** and **Amadey** infostealers, focusing on the malware ecosystem and cybercrime delivery services behind them.\n\nThe most notable announcements were the practical infrastructure guidance for boosting storage performance in VMware-on-Azure environments and Microsoft’s threat intelligence breakdown of credential-stealing malware operations. Together, the posts reflect Microsoft’s current priorities around **developer productivity, hybrid cloud workload tuning, and defense against financially motivated cyber threats**."
 }
