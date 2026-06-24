@@ -1,17 +1,39 @@
 {
-  "lastUpdated": "2026-06-24T06:34:07.623304+00:00",
+  "lastUpdated": "2026-06-24T11:36:33.298085+00:00",
   "totalArticles": 1117,
   "articles": [
     {
-      "title": "Visual Studio Code 1.126",
-      "link": "https://code.visualstudio.com/updates/v1_126",
-      "published": "2026-06-24T17:00:00+00:00",
-      "summary": "Learn what's new in Visual Studio Code 1.126 (Insiders) Read the full article",
+      "title": "Visual Studio Code 1.127",
+      "link": "https://code.visualstudio.com/updates/v1_127",
+      "published": "2026-07-01T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.127 (Insiders) Read the full article",
       "blog": "Visual Studio Code",
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Visual Studio Code 1.126",
+      "link": "https://code.visualstudio.com/updates/v1_126",
+      "published": "2026-06-24T17:00:00+00:00",
+      "summary": "Learn what is new in Visual Studio Code 1.126 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Boost performance with NFS nconnect on Azure NetApp Files datastores for Azure VMware Solution",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/boost-performance-with-nfs-nconnect-on-azure-netapp-files/ba-p/4528858",
+      "published": "2026-06-24T07:16:04+00:00",
+      "summary": "Table of contents Introduction What is nconnect Why it matters How it works Reading the numbers: what the Azure VMware Solution datastore data shows What this unlocks for Azure VMware Solution with Azure NetApp Files Use cases Conclusion Next steps Learn more Introduction For the most demanding...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "GeertVanTeylingen",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Streaming and Batch Data Architectures with Microsoft Fabric to Azure Databricks",
@@ -22,28 +44,6 @@
       "blogId": "analyticsonazure",
       "author": "Rafia_Aqil",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Mistral Document AI (with OCR 4) and Mistral Medium 3.5 arrive in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/mistral-document-ai-with-ocr-4-and-mistral-medium-3-5-arrive-in/ba-p/4529863",
-      "published": "2026-06-23T22:01:14+00:00",
-      "summary": "In production AI systems, different problems require different model capabilities. Document ingestion, reasoning, coding, and automation workflows rarely rely on a single model. They depend on selecting the right tool for each layer of the stack. Microsoft Foundry continues to onboard Mistral...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "truptiparkar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Building an Azure architecture that’s ready for every signature",
-      "link": "https://techcommunity.microsoft.com/t5/azure-customer-innovation-blog/building-an-azure-architecture-that-s-ready-for-every-signature/ba-p/4530310",
-      "published": "2026-06-23T21:07:06+00:00",
-      "summary": "At Exclaimer, we help organizations manage email signatures at scale, so every message can carry a consistent, compliant, on-brand signature without IT teams manually updating thousands of mailboxes. This is more difficult than it may seem, especially when you're doing it for more than 80,000...",
-      "blog": "Customer Innovation",
-      "blogId": "azure-customer-innovation-blog",
-      "author": "mtoiba",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-customer-innovation-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -298,17 +298,6 @@
       "author": "Microsoft Incident Response",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Boost performance with NFS nconnect on Azure NetApp Files datastores for Azure VMware Solution",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/boost-performance-with-nfs-nconnect-on-azure-netapp-files/ba-p/4528858",
-      "published": "2026-06-22T15:45:54+00:00",
-      "summary": "Table of contents Introduction What is nconnect Why it matters How it works Reading the numbers: what the Azure VMware Solution datastore data shows What this unlocks for Azure VMware Solution with Azure NetApp Files Use cases Conclusion Next steps Learn more Introduction For the most demanding...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "GeertVanTeylingen",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "New features and Claude as agent provider preview in JetBrains IDEs",
@@ -2179,6 +2168,17 @@
       "author": "Soo Stahl, Bhuvan Shah",
       "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "New MAI models in Microsoft Foundry across text, image, voice, and speech",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/new-mai-models-in-microsoft-foundry-across-text-image-voice-and/ba-p/4524632",
+      "published": "2026-06-08T15:29:51+00:00",
+      "summary": "Continuing Microsoft AI momentum in Foundry Since launching MAI-Image-2-Efficient, MAI-Image-2, MAI-Voice-1, MAI-Transcribe-1 in Microsoft Foundry this spring, we've been laser-focused on one thing: giving developers the most complete first-party AI stack to build with. Today, at Microsoft Build...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Naomi Moneypenny",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Now in preview: built-in MCP for Azure App Service",
@@ -12290,5 +12290,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure-related blog roundup is dominated by the **Visual Studio Code 1.126** release, which highlights ongoing investment in the developer tooling ecosystem that many Azure developers rely on. While this post is centered on **VS Code** rather than a direct Azure service launch, the key theme is improved productivity in Microsoft’s cloud development stack, especially for developers building and managing applications that integrate with Azure services."
+  "summary": "Today’s Azure-related posts centered on developer tooling and infrastructure performance. The Visual Studio Code 1.126 release highlighted updates to the editor and developer experience in VS Code, while Azure Storage’s post focused on improving Azure VMware Solution performance by using **NFS nconnect** with **Azure NetApp Files** datastores to increase parallel TCP connections and boost throughput for NFS-mounted workloads."
 }
