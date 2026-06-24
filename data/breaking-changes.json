@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T12:14:56.870119+00:00",
+  "lastUpdated": "2026-06-24T11:11:36.176954+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -1044,6 +1044,17 @@
       "action": "Migrate Copilot workflows to a supported model before 2026-06-29",
       "detected": "2026-06-19T12:14:56.870108+00:00",
       "published": "2026-06-18T23:58:34+00:00",
+      "blog": "GitHub Changelog"
+    },
+    {
+      "link": "https://github.blog/changelog/2026-06-23-deprecation-of-python-3-9-for-dependabot",
+      "title": "Deprecation of Python 3.9 for Dependabot",
+      "severity": "critical",
+      "deadline": null,
+      "impact": "Dependabot no longer supports Python 3.9; repos using it may miss PRs.",
+      "action": "Upgrade Dependabot-managed Python projects to 3.10+.",
+      "detected": "2026-06-24T11:11:36.176943+00:00",
+      "published": "2026-06-23T15:46:30+00:00",
       "blog": "GitHub Changelog"
     }
   ]
