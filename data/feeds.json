@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-24T19:22:59.568617+00:00",
-  "totalArticles": 1116,
+  "lastUpdated": "2026-06-24T22:05:35.402410+00:00",
+  "totalArticles": 1117,
   "articles": [
     {
       "title": "Visual Studio Code 1.127",
@@ -11,6 +11,39 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure Confidential Computing for Digital Sovereignty and Regulated Workloads",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/azure-confidential-computing-for-digital-sovereignty-and/ba-p/4529932",
+      "published": "2026-06-24T20:48:24+00:00",
+      "summary": "This blog provides an update on that momentum: how Azure Confidential Computing (ACC) is expanding across infrastructure, services, hardware-rooted security, and operational maturity, and why that matters for customers with increasing requirements for control, assurance, privacy, and compliance. As...",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "VikasBhatia",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureconfidentialcomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure Functions MCP Extension: What’s New at Build 2026",
+      "link": "https://devblogs.microsoft.com/azure-sdk/functions-mcp-updates-build-2026/",
+      "published": "2026-06-24T20:20:35+00:00",
+      "summary": "A roundup of what shipped in the Azure Functions MCP extension since preview: resource and prompt triggers, MCP Apps, built-in MCP authentication, structured and rich content, fluent .NET configuration APIs, and what is coming next. The post Azure Functions MCP Extension: What’s New at Build 2026...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Lily Ma",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Application Gateway for Containers – Inference gateway",
+      "link": "https://azure.microsoft.com/updates?id=566516",
+      "published": "2026-06-24T19:00:43+00:00",
+      "summary": "Application Gateway for Containers is extending its ingress gateway feature set with new AI gateway capabilities. The new inference gateway capability brings the Kubernetes Gateway API Inference Extension to Application Gateway for Containers, enabling lo",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -36,6 +69,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Spotlight on WG Device Management",
+      "link": "https://kubernetes.io/blog/2026/06/24/wg-device-management-spotlight-2026/",
+      "published": "2026-06-24T18:00:00+00:00",
+      "summary": "The rising popularity of AI, Edge, and Telecommunications workloads on Kubernetes has led to new requirements for hardware management. We now need hardware specification beyond CPU time and memory allocations. This includes allocating GPUs, TPUs, network interfaces, and other hardware, sometimes...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "Introducing Cohere Command A+ in Foundry",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-cohere-command-a-in-foundry/ba-p/4530376",
       "published": "2026-06-24T17:57:05+00:00",
@@ -55,6 +99,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Self-service credential revocation for incident response",
+      "link": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
+      "published": "2026-06-24T16:47:20+00:00",
+      "summary": "For a timely response to security incidents involving compromised accounts or stolen credentials, GitHub Enterprise owners can now use new “break-glass” capabilities to instantly revoke all credentials for a given… The post Self-service credential revocation for incident response appeared first on...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -133,6 +188,17 @@
       "author": "Microsoft Threat Intelligence, Microsoft Defender Security Research Team and Microsoft Digital Crimes Unit",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Boost performance with NFS nconnect on Azure NetApp Files datastores for Azure VMware Solution",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/boost-performance-with-nfs-nconnect-on-azure-netapp-files/ba-p/4528858",
+      "published": "2026-06-24T07:16:04+00:00",
+      "summary": "Table of contents Introduction What is nconnect Why it matters How it works Reading the numbers: what the Azure VMware Solution datastore data shows What this unlocks for Azure VMware Solution with Azure NetApp Files Use cases Conclusion Next steps Learn more Introduction For the most demanding...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "GeertVanTeylingen",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Streaming and Batch Data Architectures with Microsoft Fabric to Azure Databricks",
@@ -410,17 +476,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Boost performance with NFS nconnect on Azure NetApp Files datastores for Azure VMware Solution",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/boost-performance-with-nfs-nconnect-on-azure-netapp-files/ba-p/4528858",
-      "published": "2026-06-22T15:45:54+00:00",
-      "summary": "Table of contents Introduction What is nconnect Why it matters How it works Reading the numbers: what the Azure VMware Solution datastore data shows What this unlocks for Azure VMware Solution with Azure NetApp Files Use cases Conclusion Next steps Learn more Introduction For the most demanding...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "GeertVanTeylingen",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "New features and Claude as agent provider preview in JetBrains IDEs",
       "link": "https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides",
       "published": "2026-06-22T15:34:00+00:00",
@@ -660,17 +715,6 @@
       "blogId": "vscode",
       "author": "Julia Kasper",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Upcoming deprecation of Opus 4.6 (fast)",
-      "link": "https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
-      "published": "2026-06-18T23:58:34+00:00",
-      "summary": "We will deprecate Opus 4.6 (fast) across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), on June 29th, 2026: Model Deprecation date… The post Upcoming deprecation of Opus 4.6 (fast) appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -5844,17 +5888,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Retirement: TLS 1.0 and TLS 1.1 in Azure App Service, Azure Functions, and Azure Logic Apps",
-      "link": "https://azure.microsoft.com/updates?id=557852",
-      "published": "2026-05-21T21:45:32+00:00",
-      "summary": "As part of Azure’s ongoing security improvements, App Service, Functions, and Logic Apps will no longer accept connections using TLS 1.0 or TLS 1.1 after May 31, 2027. Any client, application, or service that continues to use these legacy TLS versions wil",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "WAR, Azure Advisor, and Us (Azure Arch Diagram Builder): Three Ways to Score an Azure Architecture",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/war-azure-advisor-and-us-azure-arch-diagram-builder-three-ways/ba-p/4521611",
       "published": "2026-05-21T18:06:15+00:00",
@@ -9496,17 +9529,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure Developer CLI (azd): One command to swap Azure App Service slots",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azd-appservice-swap/",
-      "published": "2026-03-03T21:10:01+00:00",
-      "summary": "The new azd appservice swap command makes deployment slot swaps fast and intuitive. The post Azure Developer CLI (azd): One command to swap Azure App Service slots appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "PuiChee (PC) Chan",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "AgentCore: Memory and Tools (3/4)🔥",
       "link": "https://www.letsdodevops.com/p/aws-agentcore-agentic-slack-bot-agentcore",
       "published": "2026-03-03T15:30:32+00:00",
@@ -10523,17 +10545,6 @@
       "link": "https://kubernetes.io/blog/2025/12/23/kubernetes-v1-35-fine-grained-supplementalgroups-control-ga/",
       "published": "2025-12-23T18:30:00+00:00",
       "summary": "On behalf of Kubernetes SIG Node, we are pleased to announce the graduation of fine-grained supplemental groups control to General Availability (GA) in Kubernetes v1.35! The new Pod field, supplementalGroupsPolicy, was introduced as an opt-in alpha feature for Kubernetes v1.31, and then had...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Kubernetes v1.35: Kubelet Configuration Drop-in Directory Graduates to GA",
-      "link": "https://kubernetes.io/blog/2025/12/22/kubernetes-v1-35-kubelet-config-drop-in-directory-ga/",
-      "published": "2025-12-22T18:30:00+00:00",
-      "summary": "With the recent v1.35 release of Kubernetes, support for a kubelet configuration drop-in directory is generally available. The newly stable feature simplifies the management of kubelet configuration across large, heterogeneous clusters. With v1.35, the kubelet command line argument --config-dir is...",
       "blog": "Kubernetes Official Blog",
       "blogId": "kubernetes",
       "author": "Microsoft",
@@ -12279,5 +12290,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft blogs were led by AI infrastructure and security. Microsoft highlighted **Cohere Command A+ in Azure AI Foundry**, a new **Foundry Private Networks operational toolchain**, and a deep dive on training **Llama 3.1 405B on Azure at 8K+ GPU scale**, alongside developer platform updates like **Visual Studio Code 1.126**, **Terraform v1.15.7 / v1.16.0-alpha**, and **GitHub Copilot/model selection changes for Free and Student plans**.\n\nSecurity was the other major theme: Microsoft published guidance on **threat hunting with Microsoft Sentinel custom graph**, outlined its **CNAPP** strategy for cloud risk management, explained **MCP server authorization with Azure API Management**, and analyzed the **StealC and Amadey** infostealer ecosystem, signaling continued emphasis on cloud-native defense, API security, and threat intelligence."
+  "summary": "Today’s Azure news centered on AI infrastructure, security, and cloud-native platform upgrades. Microsoft highlighted new Azure AI capabilities with **Cohere Command A+ in Azure AI Foundry**, an **operational toolchain for Foundry private networks**, and **Application Gateway for Containers’ inference gateway** in public preview, while also sharing large-scale AI training insights from **Llama 3.1 405B on Azure at 8K+ GPUs** and new **Azure Functions MCP Extension** updates from Build 2026.\n\nSecurity and regulated workload themes were equally prominent: Microsoft emphasized **Azure Confidential Computing** for digital sovereignty, advances in **Microsoft Sentinel custom graph** for threat hunting, **CNAPP** alignment with leading cloud risk platforms, and deep threat research on **StealC and Amadey** infostealer ecosystems. Broader developer and infrastructure updates included **VS Code 1.126**, **Azure API Management authorization for MCP servers**, **GitHub self-service credential revocation**, **Terraform releases**, and performance improvements such as **NFS nconnect for Azure NetApp Files datastores in Azure VMware Solution**."
 }
