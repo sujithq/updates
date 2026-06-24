@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-24T13:58:39.881426+00:00",
-  "totalArticles": 1118,
+  "lastUpdated": "2026-06-24T16:58:40.053536+00:00",
+  "totalArticles": 1117,
   "articles": [
     {
       "title": "Visual Studio Code 1.127",
@@ -25,6 +25,72 @@
       "sourceType": "rss"
     },
     {
+      "title": "v1.15.7",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.7",
+      "published": "2026-06-24T16:47:12+00:00",
+      "summary": "1.15.7 (June 24, 2026) BUG FIXES: Add concurrency safety to configs.Parser and SourceBundleParser (#38745) Fix submodule variable validation during init (#38770)",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Changes to model selection for Free and Student plans",
+      "link": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
+      "published": "2026-06-24T16:28:36+00:00",
+      "summary": "Copilot Free and Student plans will now use Copilot auto model selection as the default and only model selection experience. Auto dynamically selects the best model for each task, removing… The post Changes to model selection for Free and Student plans appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Inside Llama 3.1 405B MLPerf Training on Azure: System-Level Insights at 8K+ GPU Scale",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/inside-llama-3-1-405b-mlperf-training-on-azure-system-level/ba-p/4529296",
+      "published": "2026-06-24T16:13:35+00:00",
+      "summary": "By Shantanu Patankar, and Azin Heidarshenas As part of Azure's MLPerf Training v6.0 submission, we scaled Llama 3.1 405B (NVFP4) pretraining to 8,192 GB200 GPUs across 128 racks on Azure's Fairwater infrastructure, converging in 7.07 minutes (MLPerf Training Blog). Llama 3.1, with 405 billion...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "shantanupatankar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "v1.16.0-alpha20260624",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260624",
+      "published": "2026-06-24T14:07:22+00:00",
+      "summary": "1.16.0-alpha20260624 (June 24, 2026) NEW FEATURES: Store PlannedPrivate data for providers (#37986) New store block in terraform_data that can handle ephemeral and sensitive values (#38298) Providers can now use nested blocks as computed values (#38305) import: add support for import blocks inside...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "An Operational Toolchain for Microsoft Foundry Private Networks",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/an-operational-toolchain-for-microsoft-foundry-private-networks/ba-p/4529558",
+      "published": "2026-06-24T13:00:00+00:00",
+      "summary": "Enterprise teams deploying Microsoft Foundry into private networks can lose hours to failures caused not by the template itself but by surrounding operational state. Each failed deployment can cost thirty to forty-five minutes to redeploy, and residue from one attempt can block the next. This...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "mahyagheini",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "MCP Server Authorization with Azure API Management: From Simple to Advanced",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/mcp-server-authorization-with-azure-api-management-from-simple/ba-p/4528869",
+      "published": "2026-06-24T12:50:23+00:00",
+      "summary": "Why put API Management in front of your MCP servers The Model Context Protocol (MCP) has quickly become the standard way for AI agents, such as GitHub Copilot in VS Code, to reach external tools and data. As soon as an MCP server does anything meaningful, the same questions that govern any API...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "vzisiadis",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "StealC and Amadey: Breaking down infostealers and the cybercrime services that deliver them",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/06/24/stealc-and-amadey-breaking-down-infostealers-and-the-cybercrime-services-that-deliver-them/",
       "published": "2026-06-24T12:30:00+00:00",
@@ -36,14 +102,25 @@
       "sourceType": "rss"
     },
     {
-      "title": "Boost performance with NFS nconnect on Azure NetApp Files datastores for Azure VMware Solution",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/boost-performance-with-nfs-nconnect-on-azure-netapp-files/ba-p/4528858",
-      "published": "2026-06-24T07:16:04+00:00",
-      "summary": "Table of contents Introduction What is nconnect Why it matters How it works Reading the numbers: what the Azure VMware Solution datastore data shows What this unlocks for Azure VMware Solution with Azure NetApp Files Use cases Conclusion Next steps Learn more Introduction For the most demanding...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "GeertVanTeylingen",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "title": "Streaming and Batch Data Architectures with Microsoft Fabric to Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/streaming-and-batch-data-architectures-with-microsoft-fabric-to/ba-p/4526166",
+      "published": "2026-06-23T23:34:19+00:00",
+      "summary": "Author's: Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point to design a well-architected solution...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Mistral Document AI (with OCR 4) and Mistral Medium 3.5 arrive in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/mistral-document-ai-with-ocr-4-and-mistral-medium-3-5-arrive-in/ba-p/4529863",
+      "published": "2026-06-23T22:01:14+00:00",
+      "summary": "In production AI systems, different problems require different model capabilities. Document ingestion, reasoning, coding, and automation workflows rarely rely on a single model. They depend on selecting the right tool for each layer of the stack. Microsoft Foundry continues to onboard Mistral...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "truptiparkar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -311,6 +388,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Boost performance with NFS nconnect on Azure NetApp Files datastores for Azure VMware Solution",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/boost-performance-with-nfs-nconnect-on-azure-netapp-files/ba-p/4528858",
+      "published": "2026-06-22T15:45:54+00:00",
+      "summary": "Table of contents Introduction What is nconnect Why it matters How it works Reading the numbers: what the Azure VMware Solution datastore data shows What this unlocks for Azure VMware Solution with Azure NetApp Files Use cases Conclusion Next steps Learn more Introduction For the most demanding...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "GeertVanTeylingen",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "New features and Claude as agent provider preview in JetBrains IDEs",
       "link": "https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides",
       "published": "2026-06-22T15:34:00+00:00",
@@ -375,17 +463,6 @@
       "author": "Eric van Wijk",
       "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Batch & Streaming Architecture Designs: Another Better Together Story!",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/batch-streaming-architecture-designs-another-better-together/ba-p/4526166",
-      "published": "2026-06-19T21:24:09+00:00",
-      "summary": "Author's: Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point to design a well-architected solution...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Announcing the Path to Production for Agents Webinar Series",
@@ -594,17 +671,6 @@
       "blogId": "foundryblog",
       "author": "Govind Kamtamneni",
       "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "MAI-Code-1-Flash available on more Copilot surfaces",
-      "link": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
-      "published": "2026-06-18T20:11:24+00:00",
-      "summary": "MAI‑Code‑1‑Flash, Microsoft’s purpose‑built small coding model, is now available across additional GitHub Copilot surfaces. MAI‑Code‑1‑Flash can now be used in: Copilot CLI GitHub Copilot app Copilot Chat on GitHub Visual… The post MAI-Code-1-Flash available on more Copilot surfaces appeared first...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -2181,17 +2247,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "New MAI models in Microsoft Foundry across text, image, voice, and speech",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/new-mai-models-in-microsoft-foundry-across-text-image-voice-and/ba-p/4524632",
-      "published": "2026-06-08T15:29:51+00:00",
-      "summary": "Continuing Microsoft AI momentum in Foundry Since launching MAI-Image-2-Efficient, MAI-Image-2, MAI-Voice-1, MAI-Transcribe-1 in Microsoft Foundry this spring, we've been laser-focused on one thing: giving developers the most complete first-party AI stack to build with. Today, at Microsoft Build...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Now in preview: built-in MCP for Azure App Service",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/now-in-preview-built-in-mcp-for-azure-app-service/ba-p/4526407",
       "published": "2026-06-08T13:09:52+00:00",
@@ -3068,17 +3123,6 @@
       "blog": "Azure AI Foundry Blog",
       "blogId": "azure-ai-foundry-blog",
       "author": "Saumil-Shrivastava",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Evaluate before you ship: introducing the Voice Live Evaluation Harness",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/evaluate-before-you-ship-introducing-the-voice-live-evaluation/ba-p/4523064",
-      "published": "2026-06-03T15:00:00+00:00",
-      "summary": "You've built a voice agent on Azure Voice Live. It demos beautifully. Then a teammate asks the question that keeps every voice-agent team up at night: \"How do we know it's actually good — across 200 customer calls, not the three we just listened to?\" Until today, the honest answer was: put on...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "SolarRezaei",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -5206,17 +5250,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Building and Operating a Microsoft Foundry Hosted Agent with GitOps and GitHub Tasks",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-and-operating-a-microsoft-foundry-hosted-agent-with/ba-p/4523393",
-      "published": "2026-06-02T07:00:00+00:00",
-      "summary": "The Gap Between Prototype and Production Most AI engineering teams can build a working agent in a day. The hard part is not building it; the hard part is operating it. Prompts drift. Tool configurations change without review. Deployments happen from someone's laptop. There is no audit trail, no...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing the public preview of AKS on bare metal",
       "link": "https://blog.aks.azure.com/2026/06/02/aks-baremetal-public-preview",
       "published": "2026-06-02T00:00:00+00:00",
@@ -7208,17 +7241,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "v1.15.1",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.1",
-      "published": "2026-05-01T16:43:30+00:00",
-      "summary": "1.15.1 (May 1, 2026) BUG FIXES: Fixed crash when configuration has an invalid action_trigger nested block in data or ephemeral lifecycle blocks (#38402) validate: Removed validation of attributes inside backend blocks due to incompatibility with workflows using the -backend-config flag. (#38466)...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "Protect Your Streaming Data in Use: Confidential Computing for Azure Event Hubs Dedicated",
       "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/protect-your-streaming-data-in-use-confidential-computing-for/ba-p/4515219",
       "published": "2026-05-01T16:11:46+00:00",
@@ -7381,17 +7403,6 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "v1.15.0",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0",
-      "published": "2026-04-29T14:05:34+00:00",
-      "summary": "1.15.0 (April 29, 2026) NEW FEATURES: We now produce builds for Windows ARM64 (#32719) You can set a deprecated attribute on variable and output blocks to indicate that they are deprecated. This will produce warnings when passing in a value for a deprecated variable or when referencing a deprecated...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -10816,17 +10827,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure NCv6 Public Preview: The new Unified Platform for Converged AI and Visual Computing",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/azure-ncv6-public-preview-the-new-unified-platform-for-converged/ba-p/4472704",
-      "published": "2025-11-25T17:22:05+00:00",
-      "summary": "As enterprises accelerate adoption of physical AI (AI models interacting with real-world physics), digital twins (virtual replicas of physical systems), LLM inference (running language models for predictions), and agentic workflows (autonomous AI-driven processes), the demand for infrastructure...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "rishabv90",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "🔥Building Audit Logging for Multi-Platform AI Bots with Python, AWS Cloudwatch🔥",
       "link": "https://www.letsdodevops.com/p/building-audit-logging-for-multi",
       "published": "2025-11-25T15:30:51+00:00",
@@ -12288,18 +12288,7 @@
       "author": "varshaiyer",
       "feedUrl": "https://devblogs.microsoft.com/develop-from-the-cloud/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Celebrating innovation, scale, and real-world impact with Serverless Compute on Azure",
-      "link": "https://azure.microsoft.com/en-us/blog/celebrating-innovation-scale-and-real-world-impact-with-serverless-compute-on-azure/",
-      "published": "2025-06-23T15:00:00+00:00",
-      "summary": "We are thrilled to announce that Microsoft has been recognized as a leader in The Forrester Wave™: Serverless Development Platforms, Q2 2025. The post Celebrating innovation, scale, and real-world impact with Serverless Compute on Azure appeared first on Microsoft Azure Blog.",
-      "blog": "Azure Functions Blog",
-      "blogId": "azure-functions-blog",
-      "author": "Scott Hunter",
-      "feedUrl": "https://azure.microsoft.com/en-us/blog/product/azure-functions/feed/",
-      "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure-related posts centered on three themes: developer tooling, cloud performance optimization, and cybersecurity. Visual Studio Code 1.126 highlighted the latest updates to Microsoft’s popular editor; Azure Storage detailed how enabling **NFS `nconnect`** can improve throughput and performance for **Azure NetApp Files** datastores used with **Azure VMware Solution**; and the Microsoft Security Blog analyzed the **StealC** and **Amadey** infostealers, focusing on the malware ecosystem and cybercrime delivery services behind them.\n\nThe most notable announcements were the practical infrastructure guidance for boosting storage performance in VMware-on-Azure environments and Microsoft’s threat intelligence breakdown of credential-stealing malware operations. Together, the posts reflect Microsoft’s current priorities around **developer productivity, hybrid cloud workload tuning, and defense against financially motivated cyber threats**."
+  "summary": "Today’s Azure and Microsoft ecosystem posts centered on developer tooling, large-scale AI infrastructure, security, and platform governance. Highlights included Visual Studio Code 1.126, Terraform releases v1.15.7 and v1.16.0-alpha20260624, GitHub plan changes affecting model selection for Free and Student users, and a deep dive into training Llama 3.1 405B on Azure at MLPerf scale across 8,000+ GPUs.\n\nOn the platform and security side, Microsoft showcased an operational toolchain for Microsoft Foundry Private Networks, detailed MCP server authorization patterns using Azure API Management, and published threat research on StealC and Amadey infostealers—underscoring themes of enterprise AI operations, API security, and active cybercrime defense."
 }
