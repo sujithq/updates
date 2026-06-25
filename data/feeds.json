@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T11:30:57.604639+00:00",
+  "lastUpdated": "2026-06-25T13:56:19.313794+00:00",
   "totalArticles": 1117,
   "articles": [
     {
@@ -14,6 +14,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "Which Azure Cosmos DB Role Does My App Need?",
+      "link": "https://devblogs.microsoft.com/cosmosdb/which-azure-cosmos-db-role-does-my-app-need/",
+      "published": "2026-06-25T13:00:50+00:00",
+      "summary": "In the previous post in the series, we covered the security decisions you make on day one. In this part, we will talk about how to give your app access to Cosmos DB data, using roles and a managed identity instead of keys. The situation You’ve built your app. It works locally. Now you’re ready […]...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Sudhanshu Khera, Iria Osara",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "A Better Way to View Logs in Kudu for Azure App Service on Linux",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/a-better-way-to-view-logs-in-kudu-for-azure-app-service-on-linux/ba-p/4530934",
+      "published": "2026-06-25T09:46:14+00:00",
+      "summary": "Logs are often the fastest way to understand what is happening inside your application. Whether you are investigating startup behavior, runtime errors, failed requests, dependency issues, or unexpected application behavior, having the right log view can make troubleshooting much easier. To make...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "TulikaC",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Join our free livestream series on using Microsoft IQ with Python",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/join-our-free-livestream-series-on-using-microsoft-iq-with/ba-p/4530644",
       "published": "2026-06-25T07:46:37+00:00",
@@ -22,6 +44,17 @@
       "blogId": "azuredevcommunityblog",
       "author": "Pamela_Fox",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "IPv6 Dual-Stack Endpoints for Azure Container Registry (Public Preview)",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/ipv6-dual-stack-endpoints-for-azure-container-registry-public/ba-p/4528422",
+      "published": "2026-06-24T22:28:46+00:00",
+      "summary": "By Johnson Shi, Aviral Takkar, Bin Du Introduction Two of the most common networking questions we hear from teams running Azure Container Registry (ACR) are: \"Can my registry serve clients on IPv6 networks?\" — Teams operating IPv6-only or dual-stack networks need their container registry reachable...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "johnsonshi_msft",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -45,6 +78,17 @@
       "author": "Lily Ma",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "What IT teams need to know about Linux Secure Boot certificates expiring in 2026",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/what-it-teams-need-to-know-about-linux-secure-boot-certificates/ba-p/4530725",
+      "published": "2026-06-24T19:42:51+00:00",
+      "summary": "If your organization does not use UEFI Secure Boot on Linux systems, this transition does not affect your boot path. You can stop reading now. If you do use Secure Boot, here is what you need to know. The Microsoft Corporation UEFI CA (Certificate Authority) 2011 expires on June 27, 2026 (June 26...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "bexelbie",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "[In preview] Public Preview: Application Gateway for Containers – Inference gateway",
@@ -144,6 +188,17 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Inside Llama 3.1 405B MLPerf Training on Azure: System-Level Insights at 8K+ GPU Scale",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/inside-llama-3-1-405b-mlperf-training-on-azure-system-level/ba-p/4529296",
+      "published": "2026-06-24T16:13:35+00:00",
+      "summary": "By Shantanu Patankar, and Azin Heidarshenas As part of Azure's MLPerf Training v6.0 submission, we scaled Llama 3.1 405B (NVFP4) pretraining to 8,192 GB200 GPUs across 128 racks on Azure's Fairwater infrastructure, converging in 7.07 minutes (MLPerf Training Blog). Llama 3.1, with 405 billion...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "shantanupatankar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "v1.16.0-alpha20260624",
@@ -3699,28 +3754,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Announcing managed connectors for Azure Functions (Preview)",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-managed-connectors-for-azure-functions-preview/ba-p/4523798",
-      "published": "2026-06-02T19:30:00+00:00",
-      "summary": "Azure Functions now includes managed connectors in public preview - the same 1,400+ connector ecosystem behind Logic Apps and Power Platform - as first-class triggers in your Functions code, plus typed SDKs for invoking connector actions from your function body. Build event-driven integrations with...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "nzthiago",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Introducing Azure Container Apps Sandboxes: Secure Infrastructure for Agentic Workloads",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-container-apps-sandboxes-secure-infrastructure/ba-p/4524131",
-      "published": "2026-06-02T19:30:00+00:00",
-      "summary": "Today we are announcing the public preview of Azure Container Apps Sandboxes - a new first-class resource type that gives you fast, secure, ephemeral compute environments with built-in suspend and resume. This is the underlying infrastructure on which products like Cloud sandboxes in GitHub...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "vyomnagrani",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "What's new in Azure API Management at Microsoft Build 2026",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/what-s-new-in-azure-api-management-at-microsoft-build-2026/ba-p/4524683",
       "published": "2026-06-02T19:30:00+00:00",
@@ -3882,17 +3915,6 @@
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Sergiy Smyrnov, Anil Kota",
-      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Azure Cosmos DB MCP Toolkit Is Now Generally Available — Bringing Your Database to AI Agents at Scale",
-      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-mcp-toolkit-is-now-generally-available-bringing-your-database-to-ai-agents-at-scale/",
-      "published": "2026-06-02T19:15:35+00:00",
-      "summary": "Since we introduced the Azure Cosmos DB MCP Toolkit at Ignite 2025 in preview, the response has been clear: developers want a straightforward way to connect AI agents to their production databases. Customers asked for stability, broader embedding provider support, and a smoother path from...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Sajeetharan Sinnathurai",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
     },
@@ -9342,17 +9364,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Scaling DNS on AKS with Cilium: NodeLocal DNSCache, LRP, and FQDN Policies",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/scaling-dns-on-aks-with-cilium-nodelocal-dnscache-lrp-and-fqdn/ba-p/4486323",
-      "published": "2026-03-10T09:23:51+00:00",
-      "summary": "Why Adopt NodeLocal DNSCache? The primary drivers for adoption are usually: Eliminating Conntrack Pressure: In high-QPS UDP DNS scenarios, conntrack contention and UDP tracking can cause intermittent DNS response loss and retries; depending on resolver retry/timeouts, this can appear as...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "Simone_Rodigari",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure Databricks & Fabric Disaster Recovery: The Better Together Story",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/azure-databricks-fabric-disaster-recovery-the-better-together/ba-p/4481323",
       "published": "2026-03-10T01:46:28+00:00",
@@ -10827,17 +10838,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure NCv6 Public Preview: The new Unified Platform for Converged AI and Visual Computing",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/azure-ncv6-public-preview-the-new-unified-platform-for-converged/ba-p/4472704",
-      "published": "2025-11-25T17:22:05+00:00",
-      "summary": "As enterprises accelerate adoption of physical AI (AI models interacting with real-world physics), digital twins (virtual replicas of physical systems), LLM inference (running language models for predictions), and agentic workflows (autonomous AI-driven processes), the demand for infrastructure...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "rishabv90",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "🔥Building Audit Logging for Multi-Platform AI Bots with Python, AWS Cloudwatch🔥",
       "link": "https://www.letsdodevops.com/p/building-audit-logging-for-multi",
       "published": "2025-11-25T15:30:51+00:00",
@@ -12290,5 +12290,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog lineup is centered on developer education, with a new Azure Dev Community post promoting a **free livestream series on using Microsoft IQ with Python**. The key theme is helping Python developers get hands-on with **Microsoft IQ** through live instruction, signaling continued Microsoft investment in **Python-based AI/developer workflows** and community-led learning on Azure."
+  "summary": "Today’s Azure posts focus on practical developer guidance and workflow improvements: Azure Cosmos DB published a role-selection guide to help apps use the right built-in or scoped permissions model, while Azure App Service introduced a better log-viewing experience in Kudu for Linux-based web apps to simplify diagnostics and troubleshooting. Microsoft also promoted a free livestream series on using Microsoft IQ with Python, signaling continued investment in AI/data tooling and Python developer enablement across Azure."
 }
