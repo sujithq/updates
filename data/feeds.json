@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-26T06:40:45.450876+00:00",
-  "totalArticles": 1117,
+  "lastUpdated": "2026-06-26T11:36:41.297174+00:00",
+  "totalArticles": 1118,
   "articles": [
     {
       "title": "Visual Studio Code 1.127",
@@ -14,14 +14,36 @@
       "sourceType": "rss"
     },
     {
-      "title": "Azure Developer CLI (azd) – May and June 2026",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-may-june-2026/",
-      "published": "2026-06-26T00:44:34+00:00",
-      "summary": "This is the combined May and June round-up for the Azure Developer CLI (azd). Nine releases shipped across the two months: 1.24.3, 1.25.0, 1.25.1, 1.25.2, 1.25.3, and 1.25.4 in May, followed by 1.25.5, 1.25.6, and 1.26.0 in June. Below is what’s new, what changed, and what we fixed, with links to...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Sandeep Sen, Kristen Womack",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "title": "GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
+      "link": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
+      "published": "2026-06-26T10:32:58+00:00",
+      "summary": "GitHub Desktop 3.6 brings more of your day-to-day Git flow into one place with GitHub Copilot now powering commit authoring and merge conflict resolution, plus new Git worktree support. The… The post GitHub Desktop 3.6: Worktrees and deeper Copilot integration appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "v1.16.0-alpha20260626",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260626",
+      "published": "2026-06-26T09:03:31+00:00",
+      "summary": "1.16.0-alpha20260626 (June 26, 2026) NEW FEATURES: Store PlannedPrivate data for providers (#37986) New store block in terraform_data that can handle ephemeral and sensitive values (#38298) Providers can now use nested blocks as computed values (#38305) import: add support for import blocks inside...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Passing Context Between Agents in Multi-Agent A2A Systems",
+      "link": "https://devblogs.microsoft.com/ise/a2a-context-passing-multi-agent-systems/",
+      "published": "2026-06-26T07:00:00+00:00",
+      "summary": "How we solved the challenge of passing conversational context between independently deployed agents using the A2A protocol's embedded context pattern, keeping domain agents stateless and secure. The post Passing Context Between Agents in Multi-Agent A2A Systems appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Olha Konstantinova, Scott Grosenick",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
       "sourceType": "rss"
     },
     {
@@ -58,6 +80,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Introducing the Cluster API plugin for Headlamp",
+      "link": "https://kubernetes.io/blog/2026/06/25/headlamp-cluster-api-plugin/",
+      "published": "2026-06-25T22:00:00+00:00",
+      "summary": "Headlamp is an open-source, extensible Kubernetes SIG UI project designed to let you explore, manage, and debug cluster resources directly from a browser. Cluster API (CAPI) is a Kubernetes sub-project that brings declarative, Kubernetes-style APIs to cluster lifecycle management. It lets platform...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "Copilot code review: Analysis depth and efficiency updates",
       "link": "https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates",
       "published": "2026-06-25T21:41:18+00:00",
@@ -91,6 +124,28 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Inspect Volcano workloads faster with Headlamp",
+      "link": "https://kubernetes.io/blog/2026/06/25/visual-context-volcano-headlamp-plugin/",
+      "published": "2026-06-25T20:00:00+00:00",
+      "summary": "Volcano is a cloud native batch scheduler for Kubernetes, built for high-performance computing, AI/ML, and other batch workloads. Headlamp is an extensible Kubernetes web UI. With its plugin system, Headlamp can surface APIs and workflows beyond the built-in Kubernetes resources. The Volcano plugin...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "From inception to Blueprint: Introducing the Oracle AI Database@Azure AI adoption playbook",
+      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/from-inception-to-blueprint-introducing-the-oracle-ai-database/ba-p/4531062",
+      "published": "2026-06-25T19:23:27+00:00",
+      "summary": "Today, we're excited to announce the publication of the Oracle AI Database@Azure - AI adoption playbook. After Microsoft Ignite 2025, the Oracle AI Database@Azure team at Microsoft launched a Forward Deployment Engineering (FDE) program: a hands-on effort to work directly with customers, including...",
+      "blog": "Oracle on Azure",
+      "blogId": "oracleonazureblog",
+      "author": "RajyaLaxmiYellajosyula",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=oracleonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Saved views for repository issues – Public Preview and adjustable row heights in projects",
       "link": "https://github.blog/changelog/2026-06-25-saved-views-for-repository-issues-and-adjustable-row-heights-in-projects",
       "published": "2026-06-25T18:29:01+00:00",
@@ -110,6 +165,17 @@
       "blogId": "githubchangelog",
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "See your serverless: introducing the Headlamp plugin for Knative",
+      "link": "https://kubernetes.io/blog/2026/06/25/headlamp-knative-plugin/",
+      "published": "2026-06-25T18:00:00+00:00",
+      "summary": "Headlamp is an open-source, extensible Kubernetes SIG UI project designed to let you explore, manage, and debug cluster resources. Knative brings serverless workloads to Kubernetes, handling traffic routing, autoscaling, and revision management so teams can deploy and iterate without fighting...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -366,17 +432,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Self-service credential revocation for incident response",
-      "link": "https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response",
-      "published": "2026-06-24T16:47:20+00:00",
-      "summary": "For a timely response to security incidents involving compromised accounts or stolen credentials, GitHub Enterprise owners can now use new “break-glass” capabilities to instantly revoke all credentials for a given… The post Self-service credential revocation for incident response appeared first on...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "v1.15.7",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.7",
       "published": "2026-06-24T16:47:12+00:00",
@@ -488,7 +543,7 @@
     },
     {
       "title": "Building an Azure architecture that’s ready for every signature",
-      "link": "https://techcommunity.microsoft.com/t5/azure-customer-innovation-blog/building-an-azure-architecture-that-s-ready-for-every-signature/ba-p/4530310",
+      "link": "https://techcommunity.microsoft.com/t5/customer-innovation-blog/building-an-azure-architecture-that-s-ready-for-every-signature/ba-p/4530310",
       "published": "2026-06-23T21:07:06+00:00",
       "summary": "At Exclaimer, we help organizations manage email signatures at scale, so every message can carry a consistent, compliant, on-brand signature without IT teams manually updating thousands of mailboxes. This is more difficult than it may seem, especially when you're doing it for more than 80,000...",
       "blog": "Customer Innovation",
@@ -6956,7 +7011,7 @@
     },
     {
       "title": "Multitude builds resilient banking platform with PostgreSQL and MySQL on Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-customer-innovation-blog/multitude-builds-resilient-banking-platform-with-postgresql-and/ba-p/4512470",
+      "link": "https://techcommunity.microsoft.com/t5/customer-innovation-blog/multitude-builds-resilient-banking-platform-with-postgresql-and/ba-p/4512470",
       "published": "2026-05-06T18:53:20+00:00",
       "summary": "Expanding into new markets is usually a sign that things are going well. For digital banking platforms, however, growth brings a different kind of challenge - more customers, more data, and stricter expectations around availability, security, and regulatory compliance. At Multitude, we operate...",
       "blog": "Customer Innovation",
@@ -7052,17 +7107,6 @@
       "author": "jithinjose",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "v1.15.2",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.2",
-      "published": "2026-05-06T13:56:22+00:00",
-      "summary": "1.15.2 (May 6, 2026) ENHANCEMENTS: stacks: add ouput values to plan component instance change description (#38360) BUG FIXES: Avoid printing warnings from 'terraform output -json' (#38530)",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
     },
     {
       "title": "Operationalizing Responsible AI in Microsoft Foundry within Enterprise Network Boundaries",
@@ -8064,17 +8108,6 @@
       "author": "Steve_Downs",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurevirtualdesktopblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Discoverable – Observable MCP Server",
-      "link": "https://devblogs.microsoft.com/ise/observable_discoverable_mcp_server/",
-      "published": "2026-04-20T07:00:00+00:00",
-      "summary": "How to build an observable MCP Server with discoverable tools and agents. The post Discoverable – Observable MCP Server appeared first on ISE Developer Blog.",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Colin Desmond",
-      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Step by Step Guide to Ontology and Plan for Financial Service",
@@ -9331,6 +9364,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Azure Developer CLI (azd): Debug hosted AI agents from your terminal",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azd-ai-agent-logs-status/",
+      "published": "2026-03-13T19:19:52+00:00",
+      "summary": "New azd ai agent show and monitor commands help you diagnose hosted AI agent failures directly from the CLI. The post Azure Developer CLI (azd): Debug hosted AI agents from your terminal appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "PuiChee (PC) Chan",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "How VS Code Builds with AI",
       "link": "https://code.visualstudio.com/blogs/2026/03/13/how-VS-Code-Builds-with-AI",
       "published": "2026-03-13T00:00:00+00:00",
@@ -10530,39 +10574,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Kubernetes v1.35: Watch Based Route Reconciliation in the Cloud Controller Manager",
-      "link": "https://kubernetes.io/blog/2025/12/30/kubernetes-v1-35-watch-based-route-reconciliation-in-ccm/",
-      "published": "2025-12-30T18:30:00+00:00",
-      "summary": "Up to and including Kubernetes v1.34, the route controller in Cloud Controller Manager (CCM) implementations built using the k8s.io/cloud-provider library reconciles routes at a fixed interval. This causes unnecessary API requests to the cloud provider when there are no changes to routes. Other...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Kubernetes v1.35: Introducing Workload Aware Scheduling",
-      "link": "https://kubernetes.io/blog/2025/12/29/kubernetes-v1-35-introducing-workload-aware-scheduling/",
-      "published": "2025-12-29T18:30:00+00:00",
-      "summary": "Scheduling large workloads is a much more complex and fragile operation than scheduling a single Pod, as it often requires considering all Pods together instead of scheduling each one independently. For example, when scheduling a machine learning batch job, you often need to place each worker...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Kubernetes v1.35: Fine-grained Supplemental Groups Control Graduates to GA",
-      "link": "https://kubernetes.io/blog/2025/12/23/kubernetes-v1-35-fine-grained-supplementalgroups-control-ga/",
-      "published": "2025-12-23T18:30:00+00:00",
-      "summary": "On behalf of Kubernetes SIG Node, we are pleased to announce the graduation of fine-grained supplemental groups control to General Availability (GA) in Kubernetes v1.35! The new Pod field, supplementalGroupsPolicy, was introduced as an opt-in alpha feature for Kubernetes v1.31, and then had...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Application layer DDoS protection using the HTTP DDoS Ruleset in Azure WAF",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/application-layer-ddos-protection-using-the-http-ddos-ruleset-in/ba-p/4479030",
       "published": "2025-12-18T07:18:22+00:00",
@@ -10663,7 +10674,7 @@
     },
     {
       "title": "Staying in the flow: SleekFlow and Azure turn customer conversations into conversions",
-      "link": "https://techcommunity.microsoft.com/t5/azure-customer-innovation-blog/staying-in-the-flow-sleekflow-and-azure-turn-customer/ba-p/4467945",
+      "link": "https://techcommunity.microsoft.com/t5/customer-innovation-blog/staying-in-the-flow-sleekflow-and-azure-turn-customer/ba-p/4467945",
       "published": "2025-12-09T17:12:29+00:00",
       "summary": "A customer adds three items to their cart but never checks out. Another asks about shipping, gets stuck waiting eight minutes, only to drop the call. A lead responds to an offer but is never followed up with in time. Each of these moments represents lost revenue, and they happen to businesses every...",
       "blog": "Customer Innovation",
@@ -10674,7 +10685,7 @@
     },
     {
       "title": "Pantone’s Palette Generator enhances creative exploration with agentic AI on Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-customer-innovation-blog/pantone-s-palette-generator-enhances-creative-exploration-with/ba-p/4469830",
+      "link": "https://techcommunity.microsoft.com/t5/customer-innovation-blog/pantone-s-palette-generator-enhances-creative-exploration-with/ba-p/4469830",
       "published": "2025-12-09T17:12:11+00:00",
       "summary": "Color can be powerful. When creative professionals shape the mood and direction of their work, color plays a vital role because it provides context and cues for the end product or creation. For more than 60 years, creatives from all areas of design—including fashion, product, and digital—have...",
       "blog": "Customer Innovation",
@@ -12290,5 +12301,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage was narrowly focused on the **Azure Developer CLI (`azd`)**, with the May–June 2026 update highlighting ongoing improvements to Microsoft’s developer workflow tooling for building and deploying cloud apps on Azure. The key theme was continued investment in **`azd` as a streamlined developer experience layer** around Azure provisioning and application deployment, likely relevant to teams using Azure services with modern app architectures, infrastructure-as-code, and CI/CD-driven workflows."
+  "summary": "Today’s Azure-adjacent developer updates center on **AI-assisted workflows, multi-agent orchestration, and infrastructure tooling**. The most notable announcements are **GitHub Desktop 3.6**, which adds **worktree support** and deeper **GitHub Copilot** integration to streamline local development, and an ISE Developer Blog post on **passing context between agents in multi-agent A2A systems**, highlighting patterns for preserving shared state and coordination in agent-based architectures.\n\nOn the tooling side, **Terraform v1.16.0-alpha20260626** signals ongoing work in the infrastructure-as-code ecosystem, though as an **alpha** release it is primarily relevant for early testing rather than production adoption."
 }
