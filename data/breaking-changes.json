@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T11:11:36.176954+00:00",
+  "lastUpdated": "2026-06-26T11:10:47.349061+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -1056,6 +1056,28 @@
       "detected": "2026-06-24T11:11:36.176943+00:00",
       "published": "2026-06-23T15:46:30+00:00",
       "blog": "GitHub Changelog"
+    },
+    {
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-06-19",
+      "title": "Release - 2026-06-19",
+      "severity": "warning",
+      "deadline": "2027-03-17",
+      "impact": "AKS users on Windows Server 2022 node pools must migrate before retirement.",
+      "action": "Plan migration off Windows Server 2022 node pools before 2027-03-17.",
+      "detected": "2026-06-26T11:10:47.349045+00:00",
+      "published": "2026-06-25T23:49:20+00:00",
+      "blog": "Release notes from AKS"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=564806",
+      "title": "Retirement: Migrate from Azure Blueprints by January 31, 2027",
+      "severity": "warning",
+      "deadline": "2027-01-31",
+      "impact": "Azure Blueprints retires; users must move to alternative governance tooling.",
+      "action": "Migrate from Azure Blueprints before 2027-01-31; avoid new defs after 2026-07-31.",
+      "detected": "2026-06-26T11:10:47.349057+00:00",
+      "published": "2026-06-25T16:00:03+00:00",
+      "blog": "Azure Updates"
     }
   ]
 }
