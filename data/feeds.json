@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T17:26:38.410624+00:00",
+  "lastUpdated": "2026-06-29T19:30:03.292292+00:00",
   "totalArticles": 1117,
   "articles": [
     {
@@ -47,6 +47,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Chromium extension uses AI‑related branding to redirect browser search",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/29/chromium-extension-uses-airelated-branding-redirect-browser-search/",
+      "published": "2026-06-29T16:27:46+00:00",
+      "summary": "A malicious Chromium-based extension that spoofs the AI-powered answer engine Perplexity AI redirects browser search traffic using MV3 APIs and intermediary infrastructure. The post Chromium extension uses AI‑related branding to redirect browser search appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Defender Security Research Team",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Inside the Advisory Database and what happens when vulnerability volume breaks records",
       "link": "https://github.blog/security/supply-chain-security/inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks-records/",
       "published": "2026-06-29T16:10:20+00:00",
@@ -67,17 +78,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Your readiness playbook: adoption helper, costs, APIs, and the checklist",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/your-readiness-playbook-adoption-helper-costs-apis-and-the/ba-p/4528608",
-      "published": "2026-06-29T16:00:00+00:00",
-      "summary": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl The transition is not a project—it is a sequence of small, ordered decisions. Here is the readiness tool that scores your environment in minutes, the cost story you can take to finance, the API strategy that future-proofs your...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Mohit_Kumar1",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "WSL container is now available for public preview",
@@ -1244,17 +1244,6 @@
       "author": "David_Lyth",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Crypto Clipper uses Tor and worm-like propagation for persistence and control",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/",
-      "published": "2026-06-17T23:11:43+00:00",
-      "summary": "Microsoft Threat Intelligence analyzed a cryptocurrency clipper campaign that combines clipboard theft, wallet replacement, Tor-based communications, and worm-like propagation. Beyond stealing cryptocurrency transactions, the malware establishes persistent access and enables follow-on activity...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Defender Security Research Team and Microsoft Defender Experts",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Intelligent Terminal 0.1.1 is here: bash support, new slash commands, and more customization",
@@ -8704,6 +8693,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Introducing the New Microsoft Sentinel Logstash Output Plugin (Public Preview!)",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/introducing-the-new-microsoft-sentinel-logstash-output-plugin/ba-p/4508904",
+      "published": "2026-04-06T22:28:06+00:00",
+      "summary": "Many organizations rely on Logstash as a flexible, trusted data pipeline for collecting, transforming, and forwarding logs from on-premises and hybrid environments. Microsoft Sentinel has long supported a Logstash output plugin, enabling customers to send data directly into Sentinel as part of...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "JamesAde",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Announcing the end of support for Node.js 20.x in the Azure SDK for JavaScript",
       "link": "https://devblogs.microsoft.com/azure-sdk/announcing-the-end-of-support-for-node-js-20-x-in-the-azure-sdk-for-javascript/",
       "published": "2026-04-06T20:52:46+00:00",
@@ -12290,5 +12290,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s updates center on AI developer tooling, secure software supply chains, and modern app/container workflows on Microsoft platforms. Key announcements include **Claude Opus 4.8 (fast mode)** entering preview in **GitHub Copilot**, **Spring AI 2.0 GA** with **vector search, memory, and agent** capabilities on **Azure Cosmos DB**, and the **WSL container** feature entering **public preview** to streamline Linux container scenarios on Windows.\n\nThere’s also a strong focus on developer productivity and governance: **Git 2.55** brings the latest Git improvements, **WinApp CLI** now helps package and define package identity for **.NET apps on Windows**, **Visual Studio extension builds** can be automated with **GitHub Actions**, and GitHub added controls like **collaborators-only issue creation** while detailing how its **Advisory Database** is scaling to record vulnerability volumes. On the security operations side, **Microsoft Sentinel** published a practical readiness playbook covering **adoption guidance, cost planning, APIs, and deployment checklists**."
+  "summary": "Today’s themes centered on developer productivity, AI, and security across Microsoft and GitHub ecosystems. Key announcements included **Spring AI 2.0 GA with Azure Cosmos DB** support for **vector search, memory, and agent workflows**, **WSL container** entering **public preview**, **Claude Opus 4.8 (fast mode)** becoming available in **GitHub Copilot** preview, and new tooling for Windows and .NET such as **WinApp CLI packaging/package identity for .NET apps** and **GitHub Actions automation for Visual Studio extension builds**.\n\nSecurity and platform governance were also prominent: Microsoft warned about a **Chromium browser extension using AI-themed branding to hijack search traffic**, while GitHub detailed scaling work in its **Advisory Database** amid record vulnerability volume and added a repository control to **restrict issue creation to collaborators only**. Rounding out the day, GitHub highlighted improvements in **Git 2.55**, reinforcing a broader focus on modernizing core developer workflows."
 }
