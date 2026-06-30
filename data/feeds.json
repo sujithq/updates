@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T19:28:02.510917+00:00",
+  "lastUpdated": "2026-06-30T22:06:53.119403+00:00",
   "totalArticles": 1117,
   "articles": [
     {
@@ -14,6 +14,50 @@
       "sourceType": "rss"
     },
     {
+      "title": "[Launched] Generally Available: Client-side data integrity protections in Azure Blob Storage",
+      "link": "https://azure.microsoft.com/updates?id=566895",
+      "published": "2026-06-30T20:45:26+00:00",
+      "summary": "Azure Blob Storage has long supported data integrity validation, starting with MD5 as part of the original HTTP standards and adding CRC64-NVME support in 2019. Today, CRC64-NVME is now integrated into the latest Azure Blob SDKs for .NET, C++, and JavaScr",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Compose your API surface with Data API builder custom paths",
+      "link": "https://devblogs.microsoft.com/azure-sql/data-api-builder-custom-rest-paths/",
+      "published": "2026-06-30T19:38:31+00:00",
+      "summary": "Data API builder (DAB) 2.0 adds compound paths for REST endpoints, giving developers more control over how their API surface is organized. Instead of mirroring database topology, endpoints can now reflect simple names, business areas, or schema ownership. The post Compose your API surface with Data...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Toolboxes in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=563481",
+      "published": "2026-06-30T19:00:51+00:00",
+      "summary": "Microsoft Foundry brings Toolboxes to GA, providing a unified endpoint to invoke the most-used tools in prompt agents and callable outside of prompt agents. Today every agent team hand-assembles its own tool list to solve the same tasks, with no shared ar",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Accelerating the quantum-safe timeline",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/microsoft-advances-quantum-safe-security-as-the-risk-timeline-shifts/",
+      "published": "2026-06-30T19:00:00+00:00",
+      "summary": "We’re accelerating quantum-safe readiness—and sharing what organizations can do now to transition earlier and with confidence. The post Accelerating the quantum-safe timeline appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Mark Russinovich",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Claude Sonnet 5 Is Now Generally Available in Microsoft Foundry",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-sonnet-5-is-now-generally-available-in-microsoft-foundry/ba-p/4530737",
       "published": "2026-06-30T18:58:19+00:00",
@@ -22,6 +66,17 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "amar_badal",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Microsoft Defender for Cloud expands multicloud coverage across AWS and Google Cloud",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-expands-multicloud-coverage-across/ba-p/4532200",
+      "published": "2026-06-30T17:36:56+00:00",
+      "summary": "Organizations are building and running applications across multiple cloud platforms and hybrid environments to move faster, improve resilience, and choose the services that best fit each workload. But that flexibility also changes how teams need to manage exposure. A risk may start with an...",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "donnalee",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -56,17 +111,6 @@
       "author": "Jan Krivanek, Yuliia Kovalova",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "What’s new in Microsoft Sentinel: June 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-june-2026/ba-p/4531902",
-      "published": "2026-06-30T16:43:18+00:00",
-      "summary": "Welcome back to What's new in Microsoft Sentinel. In June, Sentinel SIEM’s Advanced Security Information Model (ASIM) broadens its normalization, so one analytic rule can reach more sources with less per-source work and, additionally, two new ASIM schemas can now bring asset inventory and AI agent...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "TomerBrand",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "GitHub code coverage merge protection for pull requests",
@@ -113,28 +157,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Behind the Build with Gigamon: Enriching Microsoft Sentinel with Network-Derived Telemetry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/behind-the-build-with-gigamon-enriching-microsoft-sentinel-with/ba-p/4530360",
-      "published": "2026-06-30T16:00:00+00:00",
-      "summary": "Behind the Build is an ongoing series spotlighting standout Microsoft partner collaborations. Each edition dives into the technical and strategic decisions that shape real-world integrations—highlighting engineering excellence, innovation, and the shared customer value created through partnership....",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Natee_Pretikul",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "The AI-first SOC: Copilot, UEBA, threat intelligence, and SOC optimization",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/the-ai-first-soc-copilot-ueba-threat-intelligence-and-soc/ba-p/4528609",
-      "published": "2026-06-30T16:00:00+00:00",
-      "summary": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl The portal change was the easy part. The real upside is the operating model it unlocks—generative AI in every workflow, behavioral analytics across hybrid and multi-cloud, native threat intelligence, and SOC optimization...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Mohit_Kumar1",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "​​What’s new in Microsoft Security: June 2026",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/whats-new-in-microsoft-security-june-2026/",
       "published": "2026-06-30T16:00:00+00:00",
@@ -179,17 +201,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Microsoft Defender for Cloud expands multicloud coverage across AWS and Google Cloud",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-expands-multicloud-coverage-across/ba-p/4532200",
-      "published": "2026-06-30T15:02:31+00:00",
-      "summary": "Organizations are building and running applications across multiple cloud platforms and hybrid environments to move faster, improve resilience, and choose the services that best fit each workload. But that flexibility also changes how teams need to manage exposure. A risk may start with an...",
-      "blog": "Microsoft Defender for Cloud",
-      "blogId": "microsoftdefendercloudblog",
-      "author": "donnalee",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Dependabot no longer infers .npmrc",
       "link": "https://github.blog/changelog/2026-06-30-dependabot-no-longer-infers-npmrc",
       "published": "2026-06-30T13:53:48+00:00",
@@ -205,6 +216,17 @@
       "link": "https://github.blog/changelog/2026-06-30-cloud-data-retention-policy-for-closed-security-alerts",
       "published": "2026-06-30T13:24:21+00:00",
       "summary": "Starting August 25, 2026, GitHub will introduce a data retention policy for closed Dependabot security alerts. This policy gives you a clear commitment for how long your alert data stays… The post Upcoming cloud data retention policy for closed security alerts appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Per-user AI credit budgets available for cost centers",
+      "link": "https://github.blog/changelog/2026-06-30-per-user-ai-credit-budgets-available-for-cost-centers",
+      "published": "2026-06-30T07:45:13+00:00",
+      "summary": "Enterprise admins can now set a cost center user-level budget: one per-user AI credit budget on a cost center that applies to every individual in it. As membership changes, the… The post Per-user AI credit budgets available for cost centers appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -386,17 +408,6 @@
       "author": "Lee_Stott",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Track total merges by adoption phase in enterprise and organization reports",
-      "link": "https://github.blog/changelog/2026-06-26-track-total-merges-by-adoption-phase-in-enterprise-and-organization-reports",
-      "published": "2026-06-26T20:55:03+00:00",
-      "summary": "Building on the AI adoption phase cohorts added to the Copilot usage metrics API, organization and enterprise reports now report the total number of pull requests merged by each adoption… The post Track total merges by adoption phase in enterprise and organization reports appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Open source maintainership in the age of AI",
@@ -1287,17 +1298,6 @@
       "blogId": "iseblog",
       "author": "Viktor Ciroski",
       "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "AutoJack: How a single page can RCE the host running your AI agent",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/18/autojack-single-page-rce-host-running-ai-agent/",
-      "published": "2026-06-19T00:17:54+00:00",
-      "summary": "AutoJack is a novel exploit chain showing how a single malicious webpage can turn an AI browsing agent into a remote code execution vector on the host machine. By abusing trust in localhost, missing authentication, and unsafe parameter handling, attackers can trigger arbitrary process execution...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Defender Security Research Team",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -6020,17 +6020,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Virtual network flow logs connector with Microsoft Sentinel",
-      "link": "https://azure.microsoft.com/updates?id=564689",
-      "published": "2026-05-26T16:45:10+00:00",
-      "summary": "Azure virtual network flow logs connector with Microsoft Sentinel is now generally available, enabling you to seamlessly export and analyze network traffic data within your security operations workflows. With this integration, you can bring rich, network-",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Announcing general availability of Azure Intel® TDX confidential VMs",
       "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-general-availability-of-azure-intel-tdx-confidential/ba-p/4495693",
       "published": "2026-05-26T16:01:24+00:00",
@@ -6161,17 +6150,6 @@
       "author": "KishoreKumarPattabiraman",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "[Launched] Generally Available: Entra-only identities with Azure Files",
-      "link": "https://azure.microsoft.com/updates?id=562359",
-      "published": "2026-05-21T22:00:20+00:00",
-      "summary": "Azure Files announces general availability of Entra-only identities for SMB access, enabling organizations to securely access file shares using cloud-native identities without requiring Active Directory or hybrid identity infrastructure. With Microsoft En",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
     },
     {
       "title": "WAR, Azure Advisor, and Us (Azure Arch Diagram Builder): Three Ways to Score an Azure Architecture",
@@ -8473,6 +8451,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Microsoft Sentinel data federation: Expand visibility while preserving governance",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/microsoft-sentinel-data-federation-expand-visibility-while/ba-p/4511258",
+      "published": "2026-04-14T16:11:29+00:00",
+      "summary": "Security data volumes are growing faster than ever, but visibility across the entire digital estate hasn’t kept pace. As organizations expand across cloud, hybrid, and SaaS environments, critical security-relevant data is increasingly stored across multiple data stores due to governance and...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "chaitra_satish",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Release 2026-04-02",
       "link": "https://github.com/Azure/AKS/releases/tag/2026-04-02",
       "published": "2026-04-14T06:26:28+00:00",
@@ -8528,6 +8517,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "How to Ingest Microsoft Intune Logs into Microsoft Sentinel",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/how-to-ingest-microsoft-intune-logs-into-microsoft-sentinel/ba-p/4508562",
+      "published": "2026-04-10T16:00:00+00:00",
+      "summary": "For many organizations using Microsoft Intune to manage devices, integrating Intune logs into Microsoft Sentinel is an essential for security operations (Incorporate the device into the SEIM). By routing Intune’s device management and compliance data into your central SIEM, you gain a unified view...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "PaulineMbabu",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Agent Governance Toolkit: Architecture Deep Dive, Policy Engines, Trust, and SRE for AI Agents",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/agent-governance-toolkit-architecture-deep-dive-policy-engines/ba-p/4510105",
       "published": "2026-04-10T04:55:22+00:00",
@@ -8548,6 +8548,17 @@
       "author": "Arnaud Lheureux, davidwright, Suzanne Daniels",
       "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Estimate Microsoft Sentinel Costs with Confidence Using the New Sentinel Cost Estimator",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/estimate-microsoft-sentinel-costs-with-confidence-using-the-new/ba-p/4507062",
+      "published": "2026-04-09T22:26:18+00:00",
+      "summary": "One of the first questions teams ask when evaluating Microsoft Sentinel is simple: what will this actually cost? Today, many customers and partners estimate Sentinel costs using the Azure Pricing Calculator, but it doesn’t provide the Sentinel-specific usage guidance needed to understand how each...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "shubh_khandhadia",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Announcing Private Preview: Deploy Ansible Playbooks using Azure Policy via Machine Configuration",
@@ -8602,17 +8613,6 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Introducing SQL MCP Server",
-      "link": "https://devblogs.microsoft.com/azure-sql/introducing-sql-mcp-server/",
-      "published": "2026-04-08T16:01:37+00:00",
-      "summary": "SQL MCP Server gives enterprises a secure, feature-rich way to enable agents to access data. This is accomplished without exposing the schema, risking consistency, or relying on fragile natural language parsing. SQL MCP Server is a feature of Data API builder, so deployments have a proven entity...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
     },
     {
@@ -12290,5 +12290,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s themes were AI platform expansion, security operations modernization, and stronger software governance across GitHub and Azure. Microsoft highlighted **Claude Sonnet 5** becoming generally available in **Azure AI Foundry** and **GitHub Copilot**, while Microsoft 365 pushed more action-oriented AI with **Copilot Cowork plugins**, JetBrains gained **Copilot Agent**, and .NET showed **MCP-based diagnostics in CI**—signaling broader adoption of agentic and developer-embedded AI.\n\nSecurity news centered on an **AI-first SOC** and multicloud defense: **Microsoft Sentinel**’s June 2026 updates, Gigamon-powered **network-derived telemetry**, and Microsoft Security guidance on **securing AI agents** were paired with **Microsoft Defender for Cloud** expanding coverage across **AWS and Google Cloud**. On the software supply chain side, GitHub emphasized compliance and quality controls with **open source license compliance** in public preview, a deep dive on dependency compliance, **code coverage merge protection**, changes to **Dependabot’s .npmrc behavior**, and a new retention policy for closed security alerts."
+  "summary": "Microsoft’s updates centered on AI platform expansion, security, and developer governance: Azure announced GA for client-side data integrity protections in Azure Blob Storage, while Microsoft Foundry added GA Toolboxes and made Claude Sonnet 5 generally available, alongside new Data API builder custom paths for shaping Azure SQL-backed APIs. Security was another major theme, with Microsoft emphasizing quantum-safe readiness, expanded Defender for Cloud coverage across AWS and Google Cloud, broader June 2026 Microsoft Security updates, and new guidance on securing autonomous AI agents.\n\nAcross GitHub and Microsoft 365, the focus was on operationalizing AI and tightening software controls: Claude Sonnet 5 reached GitHub Copilot, Copilot Agent landed in JetBrains AI Assistant, and Microsoft 365 highlighted Copilot plugins and new June 2026 product updates. GitHub also shipped stronger compliance and policy features—including open source license compliance preview, code coverage merge protection, per-user AI credit budgets, Dependabot’s .npmrc change, and updated retention rules for closed security alerts—showing a push toward safer, more governable AI-assisted development."
 }
