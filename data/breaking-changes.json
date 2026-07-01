@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T11:16:23.373655+00:00",
+  "lastUpdated": "2026-07-01T11:30:58.957356+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -1089,6 +1089,17 @@
       "detected": "2026-06-30T11:16:23.373642+00:00",
       "published": "2026-06-29T21:33:20+00:00",
       "blog": ".NET"
+    },
+    {
+      "link": "https://github.blog/changelog/2026-06-30-dependabot-no-longer-infers-npmrc",
+      "title": "Dependabot no longer infers .npmrc",
+      "severity": "critical",
+      "deadline": null,
+      "impact": "Dependabot stops inferring .npmrc; npm private registry updates may break",
+      "action": "Add explicit .npmrc/registry config for Dependabot npm private registries",
+      "detected": "2026-07-01T11:30:58.957345+00:00",
+      "published": "2026-06-30T13:53:48+00:00",
+      "blog": "GitHub Changelog"
     }
   ]
 }
