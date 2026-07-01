@@ -1,7 +1,62 @@
 {
-  "lastUpdated": "2026-07-01T19:27:04.759731+00:00",
+  "lastUpdated": "2026-07-01T22:11:02.537404+00:00",
   "totalArticles": 1118,
   "articles": [
+    {
+      "title": "GitHub Models is being fully retired on July 30, 2026",
+      "link": "https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026",
+      "published": "2026-07-01T21:30:20+00:00",
+      "summary": "In June, we announced that we are retiring GitHub Models and closed it to new customers. We’re now sharing the timeline for the next step: GitHub Models will be fully… The post GitHub Models is being fully retired on July 30, 2026 appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "New C++ language server config skill for Copilot CLI",
+      "link": "https://github.blog/changelog/2026-07-01-new-c-language-server-config-skill-for-copilot-cli",
+      "published": "2026-07-01T20:32:52+00:00",
+      "summary": "The Microsoft C++ Language Server is now available as a plugin on the Copilot Plugins marketplace. It includes a new built-in setup skill that helps automate project setup, making it… The post New C++ language server config skill for Copilot CLI appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Audit Frontier AI Agents with SQL MCP Server",
+      "link": "https://devblogs.microsoft.com/azure-sql/sql-mcp-server-obo-auth/",
+      "published": "2026-07-01T20:02:11+00:00",
+      "summary": "With On-Behalf-Of authentication, SQL MCP Server lets agents access Microsoft SQL without losing the user identity behind the request. Azure SQL can audit the signed-in user who invoked the operation, not just the agent, app, or MCP server that carried it out. The post Audit Frontier AI Agents with...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "v1.16.0-alpha20260701",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260701",
+      "published": "2026-07-01T19:49:44+00:00",
+      "summary": "1.16.0-alpha20260701 (July 01, 2026) NEW FEATURES: Store PlannedPrivate data for providers (#37986) New store block in terraform_data that can handle ephemeral and sensitive values (#38298) Providers can now use nested blocks as computed values (#38305) import: add support for import blocks inside...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Kimi K2.7 Code is generally available in GitHub Copilot",
+      "link": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
+      "published": "2026-07-01T19:00:21+00:00",
+      "summary": "Kimi K2.7 Code, an open-weight model, is now generally available in GitHub Copilot. This is the first open-weight model offered as a selectable option in the Copilot model picker, giving… The post Kimi K2.7 Code is generally available in GitHub Copilot appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "Copilot vision is generally available",
       "link": "https://github.blog/changelog/2026-07-01-copilot-vision-is-generally-available",
@@ -23,17 +78,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Behind the Build with Gigamon: Enriching Microsoft Sentinel with Network-Derived Telemetry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/behind-the-build-with-gigamon-enriching-microsoft-sentinel-with/ba-p/4530360",
-      "published": "2026-07-01T17:51:59+00:00",
-      "summary": "Behind the Build is an ongoing series spotlighting standout Microsoft partner collaborations. Each edition dives into the technical and strategic decisions that shape real-world integrations—highlighting engineering excellence, innovation, and the shared customer value created through partnership....",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Natee_Pretikul",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "[Launched] Generally Available: New Powershell module: Az.PostgreSQLFlexibleServer",
@@ -127,7 +171,7 @@
       "title": "Browser tools for GitHub Copilot in VS Code are generally available",
       "link": "https://github.blog/changelog/2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available",
       "published": "2026-07-01T16:01:00+00:00",
-      "summary": "Browser tools for GitHub Copilot in VS Code are now generally available. Agents can now drive a real browser, navigate live web apps, and feed what they find back into… The post Browser tools for GitHub Copilot in VS Code are generally available appeared first on The GitHub Blog.",
+      "summary": "Editor’s note (July 1, 2026): Added more detail about which permissions stay under your control and the existing network domain controls. Browser tools for GitHub Copilot in VS Code are… The post Browser tools for GitHub Copilot in VS Code are generally available appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -168,32 +212,10 @@
       "sourceType": "rss"
     },
     {
-      "title": "Introducing kars - an Agent Reference Stack for Kubernetes",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/introducing-kars-an-agent-reference-stack-for-kubernetes/ba-p/4529800",
-      "published": "2026-07-01T15:35:28+00:00",
-      "summary": "kars is a Kubernetes-native runtime for AI agents on Azure. It treats every agent as untrusted code: per-pod kernel isolation, zero credentials in the agent process, end-to-end encrypted inter-agent mesh, and native consumption of the Microsoft Agent Governance Toolkit. Agents on any supported...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "pallakatos",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "(Co)work in Progress",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/co-work-in-progress/ba-p/4511672",
-      "published": "2026-07-01T15:35:14+00:00",
-      "summary": "A complete record of milestones, launches, and newest innovations. Customizing Cowork just got easier Skills are custom instructions that make Cowork work the way you do, and plugins help you expand into the systems you rely on every day — and now, adding new ones is even simpler. In the Customize...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "ilyagrebnov",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Copilot CLI auto model selection routes based on task",
       "link": "https://github.blog/changelog/2026-07-01-copilot-cli-auto-model-selection-routes-based-on-task",
       "published": "2026-07-01T15:13:29+00:00",
-      "summary": "GitHub Copilot auto model selection now routes to the best model for your task in Copilot CLI, using utilization and model health metrics for a high quality, reliable, and token-efficient… The post Copilot CLI auto model selection routes based on task appeared first on The GitHub Blog.",
+      "summary": "Editor’s note (July 1, 2026): Updated the premium request costs to reference AI credits. GitHub Copilot auto model selection now routes to the best model for your task in Copilot… The post Copilot CLI auto model selection routes based on task appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -209,17 +231,6 @@
       "blogId": "azuredevcommunityblog",
       "author": "j_folberth",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Agent-to-Agent Communication: Connecting Foundry and LangGraph Agents via A2A",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/agent-to-agent-communication-connecting-foundry-and-langgraph/ba-p/4531378",
-      "published": "2026-07-01T13:00:00+00:00",
-      "summary": "As AI systems move from single agents to multi-agent workflows, one challenge becomes obvious: how do agents built in different frameworks discover each other, communicate, and collaborate reliably? This post walks through a practical Agent-to-Agent (A2A) integration between Microsoft Foundry and...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "SonakshiA",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -399,26 +410,15 @@
       "sourceType": "rss"
     },
     {
-      "title": "Copilot Agent is now available in JetBrains AI Assistant",
-      "link": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
-      "published": "2026-06-30T16:00:19+00:00",
-      "summary": "Today, JetBrains and GitHub are announcing a deeper integration between JetBrains AI Assistant and GitHub Copilot. Millions of developers already rely on the GitHub Copilot plugin as their AI pair… The post Copilot Agent is now available in JetBrains AI Assistant appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Open source license compliance is in public preview",
-      "link": "https://github.blog/changelog/2026-06-30-open-source-license-compliance-is-in-public-preview",
-      "published": "2026-06-30T16:00:17+00:00",
-      "summary": "Enterprises can now manage their dependencies’ licenses at scale with sophisticated, ruleset-based checks that enforce a centralized policy. Open source license compliance is in public preview, letting you block noncompliant… The post Open source license compliance is in public preview appeared...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
+      "title": "Behind the Build with Gigamon: Enriching Microsoft Sentinel with Network-Derived Telemetry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/behind-the-build-with-gigamon-enriching-microsoft-sentinel-with/ba-p/4530360",
+      "published": "2026-06-30T16:00:00+00:00",
+      "summary": "Behind the Build is an ongoing series spotlighting standout Microsoft partner collaborations. Each edition dives into the technical and strategic decisions that shape real-world integrations—highlighting engineering excellence, innovation, and the shared customer value created through partnership....",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Natee_Pretikul",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "The AI-first SOC: Copilot, UEBA, threat intelligence, and SOC optimization",
@@ -474,17 +474,6 @@
       "author": "Seth_Patton",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Dependabot no longer infers .npmrc",
-      "link": "https://github.blog/changelog/2026-06-30-dependabot-no-longer-infers-npmrc",
-      "published": "2026-06-30T13:53:48+00:00",
-      "summary": "Dependabot will no longer attempt to infer .npmrc configuration for npm private registries. Previously, Dependabot tried to reconstruct .npmrc contents from lockfile resolved URLs, but incorrect lockfile URLs, lockfile format… The post Dependabot no longer infers .npmrc appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "GitHub Copilot App - Canvas Is Not a UI Builder",
@@ -1331,6 +1320,17 @@
       "blogId": "agent-365-blog",
       "author": "aarthisk",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "(Co)work in Progress",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/co-work-in-progress/ba-p/4511672",
+      "published": "2026-06-22T15:33:08+00:00",
+      "summary": "A complete record of milestones, launches, and newest innovations. Delegate complex work​ – Copilot Cowork is now GA Now generally available worldwide, Copilot Cowork is an agentic system that plans, executes, and delivers real work. Getting to Cowork is now simpler. The redesigned Microsoft 365...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "ilyagrebnov",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3047,6 +3047,17 @@
       "blogId": "azurearcblog",
       "author": "alinetran",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "A Multi-Region Microsoft Foundry Pattern for Enterprise Private Networking",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/a-multi-region-microsoft-foundry-pattern-for-enterprise-private/ba-p/4525696",
+      "published": "2026-06-05T17:30:00+00:00",
+      "summary": "Enterprise AI projects do not move to production on model quality alone. They move when architecture, networking, observability, and evaluation all work together in a way that fits existing enterprise constraints. That is why a multi-region Microsoft Foundry pattern matters: it lets teams deploy...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "pratyushmishra",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -6823,17 +6834,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "v1.15.3",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.3",
-      "published": "2026-05-13T09:58:43+00:00",
-      "summary": "1.15.3 (May 13, 2026) BUG FIXES: stacks: Fixed a bug that prevented migrating resources under multiple layers of module nesting with implicit provider configuration. (#38528) cloud backend will now forward -generate-config-out flag usage to query create request (#38539) Fix crash during provider...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "Introducing cert-manager for Azure Arc-enabled Kubernetes: now in Public Preview",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/introducing-cert-manager-for-azure-arc-enabled-kubernetes-now-in/ba-p/4514549",
       "published": "2026-05-13T03:37:38+00:00",
@@ -7832,17 +7832,6 @@
       "blogId": "kubernetes",
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Azure Data Studio is retired: Move your Azure SQL workflow to VS Code in 10 minutes",
-      "link": "https://devblogs.microsoft.com/azure-sql/azure-data-studio-is-retired-move-your-azure-sql-workflow-to-vs-code-in-10-minutes/",
-      "published": "2026-04-27T18:20:58+00:00",
-      "summary": "Azure Data Studio (ADS) retired on February 6, 2025, and support ended on February 28, 2026. The recommended path forward is Visual Studio Code with the MSSQL extension. If you used ADS daily, this guide gets you productive quickly in VS Code. The focus is on importing your existing setup,...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Iqra Shaikh",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
     },
     {
@@ -10145,6 +10134,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Retina 1.0 Is Now Available",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/retina-1-0-is-now-available/ba-p/4489003",
+      "published": "2026-02-03T14:36:06+00:00",
+      "summary": "We are excited to announce the first major release of Retina - a significant milestone for the project. This version brings along many new features, enhancements and bug fixes. The Retina maintainer team would like to thank all contributors, community members, and early adopters who helped make...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "kamilp",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Introducing Node Readiness Controller",
       "link": "https://kubernetes.io/blog/2026/02/03/introducing-node-readiness-controller/",
       "published": "2026-02-03T02:00:00+00:00",
@@ -12301,5 +12301,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news was dominated by AI agent and Copilot updates: GitHub announced general availability for Copilot Vision and browser tools in VS Code, plus new Copilot CLI controls like AI credit session limits and automatic model selection, while Azure highlighted agent development with long-running MCP tools on Azure Functions, GitHub Actions smoke tests for Microsoft Foundry Agents, and A2A connectivity between Azure AI Foundry and LangGraph agents. Azure AI Language also added Document PII NextGen Playground capabilities, including a new sample in Microsoft Foundry.\n\nThe other major themes were cloud security and platform operations: Microsoft Sentinel showcased Gigamon-based network telemetry enrichment, Defender for Cloud made serverless posture coverage in Microsoft Defender CSPM generally available, and Microsoft emphasized broader runtime security leadership and GitHub repository hardening guidance. On the infrastructure side, Azure launched the Az.PostgreSQLFlexibleServer PowerShell module, previewed application-consistent restore points for Instant Access, added Azure Storage Mover support for migrations from Google Cloud Storage, and continued developer tooling momentum with VS Code 1.127 and 1.128 Insiders plus the new Kubernetes agent reference stack, kars."
+  "summary": "Today’s updates were dominated by AI developer tooling and security: GitHub announced major Copilot expansion with Kimi K2.7 Code GA, Copilot vision GA, browser tools in VS Code GA, auto model selection in Copilot CLI, AI credit session limits, and a new C++ language-server config skill, while also setting a July 30, 2026 retirement date for GitHub Models. On Azure, Microsoft highlighted governance and production AI patterns with SQL MCP Server for auditing frontier AI agents, long-running MCP tools on Azure Functions, GA for the Document PII NextGen Playground in Azure AI Language, and a Foundry NextGen PII sample in preview.\n\nInfrastructure and platform news centered on operations, migration, and security: Azure launched the Az.PostgreSQLFlexibleServer PowerShell module, previewed application-consistent restore point instant access and Azure Storage Mover support for Google Cloud Storage migrations, and announced GA serverless posture coverage in Microsoft Defender CSPM. Developer platform momentum also continued with VS Code 1.127 and 1.128 Insiders plus a new Terraform alpha release."
 }
