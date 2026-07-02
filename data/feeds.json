@@ -1,17 +1,28 @@
 {
-  "lastUpdated": "2026-07-02T13:24:14.626574+00:00",
-  "totalArticles": 1118,
+  "lastUpdated": "2026-07-02T16:31:55.864584+00:00",
+  "totalArticles": 1117,
   "articles": [
     {
-      "title": "Find anomalies in Prometheus and OpenTelemetry metrics with Dynamic Thresholds (Preview)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/find-anomalies-in-prometheus-and-opentelemetry-metrics-with/ba-p/4533069",
-      "published": "2026-07-02T13:10:54+00:00",
-      "summary": "Dynamic thresholds are extended to query-based metric alerts in Azure Monitor, allowing to detect and alert on anomalies in Azure Monitor managed Prometheus metrics and OpenTelemetry metrics stored in an Azure Monitor Workspace. This follows the introduction of Dynamic Thresholds for Log search...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "yairgil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
+      "title": "How GitHub used secret scanning to reach inbox zero",
+      "link": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
+      "published": "2026-07-02T16:00:00+00:00",
+      "summary": "GitHub had 20,000+ secret scanning alerts across 15,000 repositories. Here's how we separated signal from noise, built remediation workflows, and reached inbox zero in nine months. The post How GitHub used secret scanning to reach inbox zero appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Natalie Guevara",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Fundamentals of Azure DevOps with SQL projects",
+      "link": "https://devblogs.microsoft.com/azure-sql/fundamentals-of-azure-devops-with-sql-projects/",
+      "published": "2026-07-02T13:54:53+00:00",
+      "summary": "Building automated pipelines with your SQL database projects enables you to build a rich CI/CD ecosystem to ensure that your application is being deployed with good quality code and at high confidence of success. SQL Database Projects are compatible with just about every automation environment...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Drew Skwiers-Koballa",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Issue fields are now generally available",
@@ -157,6 +168,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Behind the Build with Gigamon: Enriching Microsoft Sentinel with Network-Derived Telemetry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/behind-the-build-with-gigamon-enriching-microsoft-sentinel-with/ba-p/4530360",
+      "published": "2026-07-01T17:51:59+00:00",
+      "summary": "Behind the Build is an ongoing series spotlighting standout Microsoft partner collaborations. Each edition dives into the technical and strategic decisions that shape real-world integrations—highlighting engineering excellence, innovation, and the shared customer value created through partnership....",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Natee_Pretikul",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "[Launched] Generally Available: New Powershell module: Az.PostgreSQLFlexibleServer",
       "link": "https://azure.microsoft.com/updates?id=566209",
       "published": "2026-07-01T17:19:25+00:00",
@@ -278,14 +300,14 @@
       "sourceType": "rss"
     },
     {
-      "title": "(Co)work in Progress",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/co-work-in-progress/ba-p/4511672",
-      "published": "2026-07-01T15:35:14+00:00",
-      "summary": "A complete record of milestones, launches, and newest innovations. Customizing Cowork just got easier Skills are custom instructions that make Cowork work the way you do, and plugins help you expand into the systems you rely on every day — and now, adding new ones is even simpler. In the Customize...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "ilyagrebnov",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "title": "Introducing kars - an Agent Reference Stack for Kubernetes",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/introducing-kars-an-agent-reference-stack-for-kubernetes/ba-p/4529800",
+      "published": "2026-07-01T15:35:28+00:00",
+      "summary": "kars is a Kubernetes-native runtime for AI agents on Azure. It treats every agent as untrusted code: per-pod kernel isolation, zero credentials in the agent process, end-to-end encrypted inter-agent mesh, and native consumption of the Microsoft Agent Governance Toolkit. Agents on any supported...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "pallakatos",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -441,17 +463,6 @@
       "author": "Mark Downie",
       "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Behind the Build with Gigamon: Enriching Microsoft Sentinel with Network-Derived Telemetry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/behind-the-build-with-gigamon-enriching-microsoft-sentinel-with/ba-p/4530360",
-      "published": "2026-06-30T16:00:00+00:00",
-      "summary": "Behind the Build is an ongoing series spotlighting standout Microsoft partner collaborations. Each edition dives into the technical and strategic decisions that shape real-world integrations—highlighting engineering excellence, innovation, and the shared customer value created through partnership....",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Natee_Pretikul",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "The AI-first SOC: Copilot, UEBA, threat intelligence, and SOC optimization",
@@ -1334,17 +1345,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "From pledge to practice: Building a more inclusive open source ecosystem",
-      "link": "https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem/",
-      "published": "2026-06-22T17:20:31+00:00",
-      "summary": "Learn about the progress we’ve made toward our accessibility goals and how you can help make open source more inclusive. The post From pledge to practice: Building a more inclusive open source ecosystem appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Natalie Guevara",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Agent 365 Skills: Bring your agents into Microsoft Agent 365 in minutes",
       "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/agent-365-skills-bring-your-agents-into-microsoft-agent-365-in/ba-p/4529838",
       "published": "2026-06-22T16:00:50+00:00",
@@ -1353,6 +1353,17 @@
       "blogId": "agent-365-blog",
       "author": "aarthisk",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "(Co)work in Progress",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/co-work-in-progress/ba-p/4511672",
+      "published": "2026-06-22T15:33:08+00:00",
+      "summary": "A complete record of milestones, launches, and newest innovations. Delegate complex work​ – Copilot Cowork is now GA Now generally available worldwide, Copilot Cowork is an agentic system that plans, executes, and delivers real work. Getting to Cowork is now simpler. The redesigned Microsoft 365...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "ilyagrebnov",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -5756,6 +5767,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Direct OpenTelemetry ingestion into Azure Monitor is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/direct-opentelemetry-ingestion-into-azure-monitor-is-now/ba-p/4524044",
+      "published": "2026-06-02T14:39:33+00:00",
+      "summary": "OpenTelemetry is powering a new era of observability. Built on open standards, designed for portability, and made for developers who want flexibility without compromise. And now, you can send OpenTelemetry logs, metrics, and traces straight into Azure Monitor OTLP endpoints and data storage. This...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "KayodePrince",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Retirement: Azure VMware Solution AV36 node End of Support on September 30, 2027",
       "link": "https://azure.microsoft.com/updates?id=564735",
       "published": "2026-06-02T13:00:06+00:00",
@@ -7514,17 +7536,6 @@
       "author": "Yura_Lee",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "SQL MCP Server as an App Service",
-      "link": "https://devblogs.microsoft.com/azure-sql/sql-mcp-server-app-service/",
-      "published": "2026-05-04T16:30:34+00:00",
-      "summary": "Run SQL MCP Server on Azure App Service without containers. This walkthrough uses Data API builder to configure authentication, expose MCP, REST, and GraphQL endpoints, and deploy as code. The post SQL MCP Server as an App Service appeared first on Azure SQL Dev Corner.",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon, Helen Zeng",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Modernizing Azure Virtual Desktop with Nerdio and Azure Files",
@@ -10134,17 +10145,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Retina 1.0 Is Now Available",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/retina-1-0-is-now-available/ba-p/4489003",
-      "published": "2026-02-03T14:36:06+00:00",
-      "summary": "We are excited to announce the first major release of Retina - a significant milestone for the project. This version brings along many new features, enhancements and bug fixes. The Retina maintainer team would like to thank all contributors, community members, and early adopters who helped make...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "kamilp",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Introducing Node Readiness Controller",
       "link": "https://kubernetes.io/blog/2026/02/03/introducing-node-readiness-controller/",
       "published": "2026-02-03T02:00:00+00:00",
@@ -12288,18 +12288,7 @@
       "author": "Bobbers",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Agent install error",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-identity/agent-install-error/m-p/4428887#M4256",
-      "published": "2025-07-01T13:56:38+00:00",
-      "summary": "Hi Everyone, One of the servers running the agent was failing to update so I attempted a reinstall. During install it fails / rollsback with an error in the log stating \"failed connecting to service. The issue can be caused by a transparent proxy configuration\". The device does use a proxy set via...",
-      "blog": "Azure Advanced Threat Protection",
-      "blogId": "azureadvancedthreatprotection",
-      "author": "Bobbers",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s key Azure-related themes are observability and developer security. Azure Observability announced **Dynamic Thresholds (Preview)** for **Prometheus** and **OpenTelemetry** metrics, enabling automated anomaly detection without manually tuning static alert thresholds.\n\nOn the GitHub side, two enterprise workflow and security updates stood out: **Issue fields** are now **generally available**, bringing more structured, customizable metadata to GitHub Issues, and **secret scanning public monitoring for enterprises** adds broader visibility into leaked credentials exposed in public repositories so organizations can detect and respond faster."
+  "summary": "Today’s key themes were developer security and workflow modernization across GitHub and Azure DevOps. GitHub highlighted how it used secret scanning to eliminate secret-alert backlog and also announced enterprise public monitoring for secret scanning, while the GitHub Changelog noted that custom issue fields are now generally available to improve project and issue tracking.\n\nOn the Azure side, Azure SQL Dev Corner published a fundamentals guide for using Azure DevOps with SQL projects, focusing on database development and delivery workflows for SQL-based applications."
 }
