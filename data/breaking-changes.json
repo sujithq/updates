@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T11:30:58.957356+00:00",
+  "lastUpdated": "2026-07-02T10:48:49.448923+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -1099,6 +1099,28 @@
       "action": "Add explicit .npmrc/registry config for Dependabot npm private registries",
       "detected": "2026-07-01T11:30:58.957345+00:00",
       "published": "2026-06-30T13:53:48+00:00",
+      "blog": "GitHub Changelog"
+    },
+    {
+      "link": "https://devblogs.microsoft.com/devops/upcoming-change-ntlm-removal-in-git-libcurl-impact-to-azure-devops-server-customers/",
+      "title": "Upcoming Change: NTLM Removal in Git (libcurl) – Impact to Azure DevOps Server Customers",
+      "severity": "warning",
+      "deadline": "2026-09-01",
+      "impact": "Git HTTPS to Azure DevOps Server breaks for NTLM-auth on-prem customers",
+      "action": "Move off NTLM for Git over HTTPS; use alternative auth before Sep 2026",
+      "detected": "2026-07-02T10:48:49.448906+00:00",
+      "published": "2026-07-01T23:25:39+00:00",
+      "blog": "Azure DevOps Blog"
+    },
+    {
+      "link": "https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026",
+      "title": "GitHub Models is being fully retired on July 30, 2026",
+      "severity": "critical",
+      "deadline": "2026-07-30",
+      "impact": "GitHub Models retires fully; all remaining users lose access",
+      "action": "Migrate off GitHub Models before July 30, 2026",
+      "detected": "2026-07-02T10:48:49.448917+00:00",
+      "published": "2026-07-01T21:30:20+00:00",
       "blog": "GitHub Changelog"
     }
   ]
