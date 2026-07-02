@@ -1,12 +1,56 @@
 {
-  "lastUpdated": "2026-07-01T22:11:02.537404+00:00",
+  "lastUpdated": "2026-07-02T01:56:31.452296+00:00",
   "totalArticles": 1118,
   "articles": [
+    {
+      "title": "Upcoming Change: NTLM Removal in Git (libcurl) – Impact to Azure DevOps Server Customers",
+      "link": "https://devblogs.microsoft.com/devops/upcoming-change-ntlm-removal-in-git-libcurl-impact-to-azure-devops-server-customers/",
+      "published": "2026-07-01T23:25:39+00:00",
+      "summary": "Overview In September 2026, NTLM support will be removed from libcurl, which is used by Git for HTTP(S) operations. As a result, Git operations over HTTPS against Azure DevOps Server (on-premises) will stop working for customers who rely on NTLM authentication. This change is part of a broader...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Gloridel Morales",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Enterprises can default to auto model selection",
+      "link": "https://github.blog/changelog/2026-07-01-enterprises-can-default-to-auto-model-selection",
+      "published": "2026-07-01T22:27:16+00:00",
+      "summary": "Enterprise administrators can now set model to auto in the enterprise managed-settings.json to make Copilot auto model selection the default for new conversations. Add auto to .github-private/.github/copilot/managed-settings.json in your source… The post Enterprises can default to auto model...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "GitHub Models is being fully retired on July 30, 2026",
       "link": "https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026",
       "published": "2026-07-01T21:30:20+00:00",
       "summary": "In June, we announced that we are retiring GitHub Models and closed it to new customers. We’re now sharing the timeline for the next step: GitHub Models will be fully… The post GitHub Models is being fully retired on July 30, 2026 appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Enterprise managed-settings.json is generally available",
+      "link": "https://github.blog/changelog/2026-07-01-enterprise-managed-settings-json-is-generally-available",
+      "published": "2026-07-01T20:57:26+00:00",
+      "summary": "GitHub Enterprise Cloud customers can configure AI standards through a managed-settings.json file maintained in a .github-private repository in a selected organization. This allows the enterprise to define new governance and… The post Enterprise managed-settings.json is generally available appeared...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Secret scanning adds validators for Asana, IBM, and MessageBird",
+      "link": "https://github.blog/changelog/2026-07-01-secret-scanning-adds-validators-for-asana-ibm-and-messagebird",
+      "published": "2026-07-01T20:49:41+00:00",
+      "summary": "Secret scanning now runs validity checks on Asana, IBM, and MessageBird secrets so you can tell whether a leaked credential is still active. Validity checks added These patterns now support… The post Secret scanning adds validators for Asana, IBM, and MessageBird appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -157,17 +201,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "How to build long-running MCP tools on Azure Functions",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-to-build-long-running-mcp-tools-on-azure-functions/ba-p/4532653",
-      "published": "2026-07-01T16:10:42+00:00",
-      "summary": "Recently, a customer building servers with the Azure Functions MCP extension reached out and asked: How do I handle tools that take longer than the client is willing to wait? This becomes especially relevant when tool calls move beyond simple request/response into multi-step workflows and...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "lily-ma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Browser tools for GitHub Copilot in VS Code are generally available",
       "link": "https://github.blog/changelog/2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available",
       "published": "2026-07-01T16:01:00+00:00",
@@ -177,17 +210,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Now generally available: Serverless posture coverage in Microsoft Defender CSPM",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/now-generally-available-serverless-posture-coverage-in-microsoft/ba-p/4532353",
-      "published": "2026-07-01T16:00:48+00:00",
-      "summary": "Serverless workloads are a foundation of modern application development, powering everything from low-code and no-code solutions to AI applications and agentic workflows. Development teams use functions, app services, containers, APIs, and event-driven infrastructure to move quickly, scale on...",
-      "blog": "Microsoft Defender for Cloud",
-      "blogId": "microsoftdefendercloudblog",
-      "author": "donnalee",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Microsoft named a leader in the Frost Radar for cloud and application runtime security",
@@ -212,6 +234,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Introducing kars - an Agent Reference Stack for Kubernetes",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/introducing-kars-an-agent-reference-stack-for-kubernetes/ba-p/4529800",
+      "published": "2026-07-01T15:35:28+00:00",
+      "summary": "kars is a Kubernetes-native runtime for AI agents on Azure. It treats every agent as untrusted code: per-pod kernel isolation, zero credentials in the agent process, end-to-end encrypted inter-agent mesh, and native consumption of the Microsoft Agent Governance Toolkit. Agents on any supported...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "pallakatos",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Copilot CLI auto model selection routes based on task",
       "link": "https://github.blog/changelog/2026-07-01-copilot-cli-auto-model-selection-routes-based-on-task",
       "published": "2026-07-01T15:13:29+00:00",
@@ -231,6 +264,17 @@
       "blogId": "azuredevcommunityblog",
       "author": "j_folberth",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Agent-to-Agent Communication: Connecting Foundry and LangGraph Agents via A2A",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/agent-to-agent-communication-connecting-foundry-and-langgraph/ba-p/4531378",
+      "published": "2026-07-01T13:00:00+00:00",
+      "summary": "As AI systems move from single agents to multi-agent workflows, one challenge becomes obvious: how do agents built in different frameworks discover each other, communicate, and collaborate reliably? This post walks through a practical Agent-to-Agent (A2A) integration between Microsoft Foundry and...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "SonakshiA",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -344,17 +388,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Claude Sonnet 5 is generally available for GitHub Copilot",
-      "link": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
-      "published": "2026-06-30T17:25:51+00:00",
-      "summary": "Claude Sonnet 5 is Anthropic’s latest Sonnet-class model, now available in GitHub Copilot. It brings strong coding performance to everyday development and agentic workflows, giving developers a new Sonnet-class option… The post Claude Sonnet 5 is generally available for GitHub Copilot appeared...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "MCP Beyond the Chat Window: Build Diagnostics in CI",
       "link": "https://devblogs.microsoft.com/dotnet/mcp-build-diagnostics-workflows/",
       "published": "2026-06-30T17:00:00+00:00",
@@ -375,28 +408,6 @@
       "author": "TomerBrand",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "GitHub code coverage merge protection for pull requests",
-      "link": "https://github.blog/changelog/2026-06-30-github-code-coverage-merge-protection-for-pull-requests",
-      "published": "2026-06-30T16:42:21+00:00",
-      "summary": "You can now use branch rulesets to block pull requests from merging when test coverage drops below thresholds you set. You can set a minimum coverage percentage, a maximum allowed… The post GitHub code coverage merge protection for pull requests appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Releases: Sidebar navigation and per-asset download counts",
-      "link": "https://github.blog/changelog/2026-06-30-releases-sidebar-navigation-and-per-asset-download-counts",
-      "published": "2026-06-30T16:36:06+00:00",
-      "summary": "You can now scan and navigate release pages more easily with a dedicated sidebar table of contents. We also updated release metadata placement for a more consistent layout so it’s… The post Releases: Sidebar navigation and per-asset download counts appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Visual Studio June Update – Track Your Usage, Trust Your Tools",
@@ -3050,17 +3061,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "A Multi-Region Microsoft Foundry Pattern for Enterprise Private Networking",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/a-multi-region-microsoft-foundry-pattern-for-enterprise-private/ba-p/4525696",
-      "published": "2026-06-05T17:30:00+00:00",
-      "summary": "Enterprise AI projects do not move to production on model quality alone. They move when architecture, networking, observability, and evaluation all work together in a way that fits existing enterprise constraints. That is why a multi-region Microsoft Foundry pattern matters: it lets teams deploy...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "pratyushmishra",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Regional Endpoints for Azure Container Registry Geo-Replication — Now in Public Preview",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/regional-endpoints-for-azure-container-registry-geo-replication/ba-p/4525717",
       "published": "2026-06-05T06:12:53+00:00",
@@ -4236,6 +4236,17 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "Introducing On-demand Sandboxes for Azure Durable Task Scheduler (Private Preview)",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-on-demand-sandboxes-for-azure-durable-task-scheduler/ba-p/4522333",
+      "published": "2026-06-02T19:30:00+00:00",
+      "summary": "Maybe it needs a native toolchain. Maybe it runs untrusted customer or LLM-generated code. Maybe it needs Python from a .NET orchestrator, or bursty compute that should scale to zero when the work is done. Today, we're thrilled to announce On-demand Sandboxes for Azure Durable Task Scheduler, now...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "greenie-msft",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "What's new in Azure API Management at Microsoft Build 2026",
@@ -8033,17 +8044,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Optimizing Git policy management at scale",
-      "link": "https://devblogs.microsoft.com/devops/optimizing-git-policy-management-at-scale/",
-      "published": "2026-04-22T18:20:18+00:00",
-      "summary": "With just a single improvement in the REST API of Azure DevOps, we achieved a massive reduction in CPU usage and execution time when managing Git policies: 2x less CPU and 10-15x faster execution! This change is already available to all users of Azure DevOps, and it’s time to share a bit more...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Azat Galiev",
-      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Fast cloud migration, measurable ROI: Forrester Total Economic Impact study of Azure VMware Solution",
       "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/fast-cloud-migration-measurable-roi-forrester-total-economic/ba-p/4508136",
       "published": "2026-04-22T17:39:32+00:00",
@@ -10134,17 +10134,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Retina 1.0 Is Now Available",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/retina-1-0-is-now-available/ba-p/4489003",
-      "published": "2026-02-03T14:36:06+00:00",
-      "summary": "We are excited to announce the first major release of Retina - a significant milestone for the project. This version brings along many new features, enhancements and bug fixes. The Retina maintainer team would like to thank all contributors, community members, and early adopters who helped make...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "kamilp",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Introducing Node Readiness Controller",
       "link": "https://kubernetes.io/blog/2026/02/03/introducing-node-readiness-controller/",
       "published": "2026-02-03T02:00:00+00:00",
@@ -10197,6 +10186,17 @@
       "blogId": "azuretoolsblog",
       "author": "ztrocinski",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Architecting Trust: A NIST-Based Security Governance Framework for AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/architecting-trust-a-nist-based-security-governance-framework/ba-p/4490556",
+      "published": "2026-01-30T19:21:32+00:00",
+      "summary": "Architecting Trust: A NIST-Based Security Governance Framework for AI Agents The \"Agentic Era\" has arrived. We are moving from chatbots that simply talk to agents that act—triggering APIs, querying databases, and managing their own long-term memory. But with this agency comes unprecedented risk....",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "singhabhi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12300,6 +12300,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s updates were dominated by AI developer tooling and security: GitHub announced major Copilot expansion with Kimi K2.7 Code GA, Copilot vision GA, browser tools in VS Code GA, auto model selection in Copilot CLI, AI credit session limits, and a new C++ language-server config skill, while also setting a July 30, 2026 retirement date for GitHub Models. On Azure, Microsoft highlighted governance and production AI patterns with SQL MCP Server for auditing frontier AI agents, long-running MCP tools on Azure Functions, GA for the Document PII NextGen Playground in Azure AI Language, and a Foundry NextGen PII sample in preview.\n\nInfrastructure and platform news centered on operations, migration, and security: Azure launched the Az.PostgreSQLFlexibleServer PowerShell module, previewed application-consistent restore point instant access and Azure Storage Mover support for Google Cloud Storage migrations, and announced GA serverless posture coverage in Microsoft Defender CSPM. Developer platform momentum also continued with VS Code 1.127 and 1.128 Insiders plus a new Terraform alpha release."
+  ]
 }
