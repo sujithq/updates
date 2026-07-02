@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-07-02T11:24:44.490159+00:00",
+  "lastUpdated": "2026-07-02T13:24:14.626574+00:00",
   "totalArticles": 1118,
   "articles": [
+    {
+      "title": "Find anomalies in Prometheus and OpenTelemetry metrics with Dynamic Thresholds (Preview)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/find-anomalies-in-prometheus-and-opentelemetry-metrics-with/ba-p/4533069",
+      "published": "2026-07-02T13:10:54+00:00",
+      "summary": "Dynamic thresholds are extended to query-based metric alerts in Azure Monitor, allowing to detect and alert on anomalies in Azure Monitor managed Prometheus metrics and OpenTelemetry metrics stored in an Azure Monitor Workspace. This follows the introduction of Dynamic Thresholds for Log search...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "yairgil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Issue fields are now generally available",
       "link": "https://github.blog/changelog/2026-07-02-issue-fields-are-now-generally-available",
@@ -146,17 +157,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Behind the Build with Gigamon: Enriching Microsoft Sentinel with Network-Derived Telemetry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/behind-the-build-with-gigamon-enriching-microsoft-sentinel-with/ba-p/4530360",
-      "published": "2026-07-01T17:51:59+00:00",
-      "summary": "Behind the Build is an ongoing series spotlighting standout Microsoft partner collaborations. Each edition dives into the technical and strategic decisions that shape real-world integrations—highlighting engineering excellence, innovation, and the shared customer value created through partnership....",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Natee_Pretikul",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[Launched] Generally Available: New Powershell module: Az.PostgreSQLFlexibleServer",
       "link": "https://azure.microsoft.com/updates?id=566209",
       "published": "2026-07-01T17:19:25+00:00",
@@ -278,17 +278,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Introducing kars - an Agent Reference Stack for Kubernetes",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/introducing-kars-an-agent-reference-stack-for-kubernetes/ba-p/4529800",
-      "published": "2026-07-01T15:35:28+00:00",
-      "summary": "kars is a Kubernetes-native runtime for AI agents on Azure. It treats every agent as untrusted code: per-pod kernel isolation, zero credentials in the agent process, end-to-end encrypted inter-agent mesh, and native consumption of the Microsoft Agent Governance Toolkit. Agents on any supported...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "pallakatos",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "(Co)work in Progress",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/co-work-in-progress/ba-p/4511672",
       "published": "2026-07-01T15:35:14+00:00",
@@ -308,17 +297,6 @@
       "blogId": "azuredevcommunityblog",
       "author": "j_folberth",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Agent-to-Agent Communication: Connecting Foundry and LangGraph Agents via A2A",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/agent-to-agent-communication-connecting-foundry-and-langgraph/ba-p/4531378",
-      "published": "2026-07-01T13:00:00+00:00",
-      "summary": "As AI systems move from single agents to multi-agent workflows, one challenge becomes obvious: how do agents built in different frameworks discover each other, communicate, and collaborate reliably? This post walks through a practical Agent-to-Agent (A2A) integration between Microsoft Foundry and...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "SonakshiA",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -463,6 +441,17 @@
       "author": "Mark Downie",
       "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Behind the Build with Gigamon: Enriching Microsoft Sentinel with Network-Derived Telemetry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/behind-the-build-with-gigamon-enriching-microsoft-sentinel-with/ba-p/4530360",
+      "published": "2026-06-30T16:00:00+00:00",
+      "summary": "Behind the Build is an ongoing series spotlighting standout Microsoft partner collaborations. Each edition dives into the technical and strategic decisions that shape real-world integrations—highlighting engineering excellence, innovation, and the shared customer value created through partnership....",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Natee_Pretikul",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "The AI-first SOC: Copilot, UEBA, threat intelligence, and SOC optimization",
@@ -3080,6 +3069,17 @@
       "blogId": "azurearcblog",
       "author": "alinetran",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "A Multi-Region Microsoft Foundry Pattern for Enterprise Private Networking",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/a-multi-region-microsoft-foundry-pattern-for-enterprise-private/ba-p/4525696",
+      "published": "2026-06-05T17:30:00+00:00",
+      "summary": "Enterprise AI projects do not move to production on model quality alone. They move when architecture, networking, observability, and evaluation all work together in a way that fits existing enterprise constraints. That is why a multi-region Microsoft Foundry pattern matters: it lets teams deploy...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "pratyushmishra",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -5754,17 +5754,6 @@
       "author": "Kyler Middleton",
       "feedUrl": "https://www.letsdodevops.com/feed",
       "sourceType": "rss"
-    },
-    {
-      "title": "Direct OpenTelemetry ingestion into Azure Monitor is now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/direct-opentelemetry-ingestion-into-azure-monitor-is-now/ba-p/4524044",
-      "published": "2026-06-02T14:39:33+00:00",
-      "summary": "OpenTelemetry is powering a new era of observability. Built on open standards, designed for portability, and made for developers who want flexibility without compromise. And now, you can send OpenTelemetry logs, metrics, and traces straight into Azure Monitor OTLP endpoints and data storage. This...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "KayodePrince",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Retirement: Azure VMware Solution AV36 node End of Support on September 30, 2027",
@@ -10145,6 +10134,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Retina 1.0 Is Now Available",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/retina-1-0-is-now-available/ba-p/4489003",
+      "published": "2026-02-03T14:36:06+00:00",
+      "summary": "We are excited to announce the first major release of Retina - a significant milestone for the project. This version brings along many new features, enhancements and bug fixes. The Retina maintainer team would like to thank all contributors, community members, and early adopters who helped make...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "kamilp",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Introducing Node Readiness Controller",
       "link": "https://kubernetes.io/blog/2026/02/03/introducing-node-readiness-controller/",
       "published": "2026-02-03T02:00:00+00:00",
@@ -12301,5 +12301,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-adjacent updates focused on GitHub security and project management capabilities. GitHub announced general availability of **Issue fields**, giving teams more structured, customizable metadata for tracking work in **GitHub Issues**, and introduced **secret scanning public monitoring for enterprises**, which helps organizations detect leaked credentials in public repositories at enterprise scale."
+  "summary": "Today’s key Azure-related themes are observability and developer security. Azure Observability announced **Dynamic Thresholds (Preview)** for **Prometheus** and **OpenTelemetry** metrics, enabling automated anomaly detection without manually tuning static alert thresholds.\n\nOn the GitHub side, two enterprise workflow and security updates stood out: **Issue fields** are now **generally available**, bringing more structured, customizable metadata to GitHub Issues, and **secret scanning public monitoring for enterprises** adds broader visibility into leaked credentials exposed in public repositories so organizations can detect and respond faster."
 }
