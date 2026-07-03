@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-07-03T06:19:22.400185+00:00",
+  "lastUpdated": "2026-07-03T11:23:09.168495+00:00",
   "totalArticles": 1116,
   "articles": [
+    {
+      "title": "On the road to .NET 10 Support: Logic Apps Migration from In-Proc to Out-of-Proc hosting model",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/on-the-road-to-net-10-support-logic-apps-migration-from-in-proc/ba-p/4522386",
+      "published": "2026-07-03T00:25:23+00:00",
+      "summary": "We will begin this migration in the coming weeks. For most customers, the change will be automatic and require no action. However, some apps will need customer updates before they can move to the new hosting model. This exception is: Logic Apps that use the current NuGet-based deployment model If...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Improved accuracy and coverage in Copilot usage metrics reports",
       "link": "https://github.blog/changelog/2026-07-02-improved-accuracy-and-coverage-in-copilot-usage-metrics-reports",
@@ -1518,17 +1529,6 @@
       "blogId": "azurenetworkingblog",
       "author": "devanshirastogi",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "On the road to .NET 10 Support: Logic Apps Migration from In-Proc to Out-of-Proc hosting model",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/on-the-road-to-net-10-support-logic-apps-migration-from-in-proc/ba-p/4522386",
-      "published": "2026-06-19T17:42:41+00:00",
-      "summary": "We will begin this migration in the coming weeks. For most customers, the change will be automatic and require no action. However, some apps will need customer updates before they can move to the new hosting model. This exception is: Logic Apps that use the current NuGet-based deployment model If...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12278,5 +12278,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage centers on modernization in **Azure Logic Apps**, with guidance for moving from the legacy **in-process** model to the newer **out-of-process hosting model** as part of the path toward **.NET 10 support**. The post highlights migration planning and architecture changes developers need to make in Logic Apps to stay aligned with upcoming .NET runtime support and future platform direction."
 }
