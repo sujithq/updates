@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-07-03T11:23:09.168495+00:00",
+  "lastUpdated": "2026-07-03T13:27:10.921865+00:00",
   "totalArticles": 1116,
   "articles": [
+    {
+      "title": "Enabling MLflow OpenAI Autolog on PySpark Workers",
+      "link": "https://devblogs.microsoft.com/ise/mlflow-autolog-pyspark-workers/",
+      "published": "2026-07-03T07:00:00+00:00",
+      "summary": "When distributing LLM calls across PySpark workers via mapInPandas, MLflow autolog silently fails. Here is how to fix it. The post Enabling MLflow OpenAI Autolog on PySpark Workers appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Jaya Kumar",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "On the road to .NET 10 Support: Logic Apps Migration from In-Proc to Out-of-Proc hosting model",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/on-the-road-to-net-10-support-logic-apps-migration-from-in-proc/ba-p/4522386",
@@ -8022,17 +8033,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Lessons Learned from Building a Well-Matching Intelligence Layer",
-      "link": "https://devblogs.microsoft.com/ise/lessons-learned-building-well-matching-intelligence-layer/",
-      "published": "2026-04-23T07:00:00+00:00",
-      "summary": "Key insights from the EDA and Ground Truth journey for solving well identity resolution in the Energy industry—challenges that extend to any entity matching problem across distributed systems. The post Lessons Learned from Building a Well-Matching Intelligence Layer appeared first on ISE Developer...",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Emmeline Hoops, Oscar Fimbres, Kavitha Sreenath",
-      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Write azd hooks in Python, JavaScript, TypeScript, or .NET",
       "link": "https://devblogs.microsoft.com/azure-sdk/azd-multi-language-hooks/",
       "published": "2026-04-22T22:04:08+00:00",
@@ -12279,5 +12279,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage centers on modernization in **Azure Logic Apps**, with guidance for moving from the legacy **in-process** model to the newer **out-of-process hosting model** as part of the path toward **.NET 10 support**. The post highlights migration planning and architecture changes developers need to make in Logic Apps to stay aligned with upcoming .NET runtime support and future platform direction."
+  "summary": "Today’s Azure blog highlights two practical modernization themes: improving AI/ML observability and preparing cloud integrations for the next .NET wave. One post shows how to enable **MLflow OpenAI autologging on PySpark workers**, letting distributed Spark-based workloads automatically capture OpenAI/LLM experiment telemetry and traceability in **MLflow** for better monitoring and reproducibility.  \n\nThe other focuses on **Azure Logic Apps** migration from the **in-process** to **out-of-process hosting model** as part of the path to **.NET 10 support**, signaling important architectural changes for customers running custom code/extensions and encouraging early planning for compatibility, isolation, and future runtime support."
 }
