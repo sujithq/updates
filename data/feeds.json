@@ -1,7 +1,62 @@
 {
-  "lastUpdated": "2026-07-02T21:56:23.963064+00:00",
+  "lastUpdated": "2026-07-03T01:26:32.981276+00:00",
   "totalArticles": 1116,
   "articles": [
+    {
+      "title": "On the road to .NET 10 Support: Logic Apps Migration from In-Proc to Out-of-Proc hosting model",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/on-the-road-to-net-10-support-logic-apps-migration-from-in-proc/ba-p/4522386",
+      "published": "2026-07-03T00:25:23+00:00",
+      "summary": "We will begin this migration in the coming weeks. For most customers, the change will be automatic and require no action. However, some apps will need customer updates before they can move to the new hosting model. This exception is: Logic Apps that use the current NuGet-based deployment model If...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Improved accuracy and coverage in Copilot usage metrics reports",
+      "link": "https://github.blog/changelog/2026-07-02-improved-accuracy-and-coverage-in-copilot-usage-metrics-reports",
+      "published": "2026-07-02T23:19:06+00:00",
+      "summary": "We’ve made three improvements to the Copilot usage metrics API that make its reports more complete and accurate: GitHub Copilot CLI now reports suggested lines of code, users seen only… The post Improved accuracy and coverage in Copilot usage metrics reports appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Upcoming deprecation of Gemini 2.5 Pro and Gemini 3 Flash",
+      "link": "https://github.blog/changelog/2026-07-02-upcoming-deprecation-of-gemini-2-5-pro-and-gemini-3-flash",
+      "published": "2026-07-02T23:07:06+00:00",
+      "summary": "We will deprecate Gemini 2.5 Pro and Gemini 3 Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on July 31st,… The post Upcoming deprecation of Gemini 2.5 Pro and Gemini 3 Flash appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally available: Anthropic Claude Sonnet 5 on Azure Databricks",
+      "link": "https://azure.microsoft.com/updates?id=567194",
+      "published": "2026-07-02T22:21:51+00:00",
+      "summary": "Azure Databricks now supports Anthropic Claude Sonnet 5 through Azure Databricks AI Model Serving. Claude Sonnet 5 is Anthropic's most agentic Sonnet model to date, delivering near-Opus-level intelligence with Sonnet's cost efficiency and speed. Designed",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Copilot CLI no longer needs a personal access token in GitHub Actions",
+      "link": "https://github.blog/changelog/2026-07-02-copilot-cli-no-longer-needs-a-personal-access-token-in-github-actions",
+      "published": "2026-07-02T20:25:32+00:00",
+      "summary": "You can now run GitHub Copilot CLI in GitHub Actions using the built-in GITHUB_TOKEN. This means that you no longer need to create and store a personal access token (PAT),… The post Copilot CLI no longer needs a personal access token in GitHub Actions appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "Microsoft Defender for Cloud Customer Newsletter",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-customer-newsletter/ba-p/4533200",
@@ -58,6 +113,39 @@
       "sourceType": "rss"
     },
     {
+      "title": "Available today: Anthropic’s Claude Sonnet 5 in Microsoft 365 Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-s-claude-sonnet-5-in-microsoft-365/ba-p/4532188",
+      "published": "2026-07-02T15:55:25+00:00",
+      "summary": "Starting today, Anthropic's Claude Sonnet 5 is available in Microsoft 365 Copilot—a new frontier model rolling out in Copilot Cowork and PowerPoint, built for agentic, multi-step work across everyday work: documents, spreadsheets, and presentation tasks. Anthropic describes Sonnet 5 as a more...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "Bas Brekelmans",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
+      "published": "2026-07-02T15:00:00+00:00",
+      "summary": "Give every seller the customer and deal context they need, wherever work happens—helping them prepare faster, follow up sooner, and keep CRM data current. Built for the pace of modern selling, Sales Agent helps sellers quickly access the customer and deal information they need, so they can enter...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "gurkansalk",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Foundry Control Plane and Agent 365: Two Control Planes Walk Into an Enterprise",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-control-plane-and-agent-365-two-control-planes-walk-into/ba-p/4520185",
+      "published": "2026-07-02T14:00:00+00:00",
+      "summary": "May 15, 2026 | 8 min read If you’ve been paying attention to Microsoft over the past six months, you’ve noticed a recurring theme: agents are everywhere. They’re reasoning over your SharePoint folders, reconciling your accounts, and if you squint at the Ignite 2025 keynote, they’re about three...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Anil_Korkut",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Fundamentals of Azure DevOps with SQL projects",
       "link": "https://devblogs.microsoft.com/azure-sql/fundamentals-of-azure-devops-with-sql-projects/",
       "published": "2026-07-02T13:54:53+00:00",
@@ -67,28 +155,6 @@
       "author": "Drew Skwiers-Koballa",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Auditing and Telemetry for the Agent Governance Toolkit - Getting Started with .NET Core",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/auditing-and-telemetry-for-the-agent-governance-toolkit-getting/ba-p/4533073",
-      "published": "2026-07-02T13:35:00+00:00",
-      "summary": "Introduction We've entered an era where AI agents autonomously invoke tools — reading and writing files, calling APIs, querying databases. Convenient as this is, without a mechanism to control who can call what, and under what conditions, you can't put it into production. The Agent Governance...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "daisami",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Find anomalies in Prometheus and OpenTelemetry metrics with Dynamic Thresholds (Preview)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/find-anomalies-in-prometheus-and-opentelemetry-metrics-with/ba-p/4533069",
-      "published": "2026-07-02T13:10:54+00:00",
-      "summary": "Dynamic thresholds are extended to query-based metric alerts in Azure Monitor, allowing to detect and alert on anomalies in Azure Monitor managed Prometheus metrics and OpenTelemetry metrics stored in an Azure Monitor Workspace. This follows the introduction of Dynamic Thresholds for Log search...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "yairgil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Guest Access for Canvas and Model-Driven Apps with Microsoft Entra ID",
@@ -168,28 +234,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Secret scanning adds validators for Asana, IBM, and MessageBird",
-      "link": "https://github.blog/changelog/2026-07-01-secret-scanning-adds-validators-for-asana-ibm-and-messagebird",
-      "published": "2026-07-01T20:49:41+00:00",
-      "summary": "Secret scanning now runs validity checks on Asana, IBM, and MessageBird secrets so you can tell whether a leaked credential is still active. Validity checks added These patterns now support… The post Secret scanning adds validators for Asana, IBM, and MessageBird appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "New C++ language server config skill for Copilot CLI",
-      "link": "https://github.blog/changelog/2026-07-01-new-c-language-server-config-skill-for-copilot-cli",
-      "published": "2026-07-01T20:32:52+00:00",
-      "summary": "The Microsoft C++ Language Server is now available as a plugin on the Copilot Plugins marketplace. It includes a new built-in setup skill that helps automate project setup, making it… The post New C++ language server config skill for Copilot CLI appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Audit Frontier AI Agents with SQL MCP Server",
       "link": "https://devblogs.microsoft.com/azure-sql/sql-mcp-server-obo-auth/",
       "published": "2026-07-01T20:02:11+00:00",
@@ -209,17 +253,6 @@
       "blogId": "terraform",
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Kimi K2.7 Code is generally available in GitHub Copilot",
-      "link": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
-      "published": "2026-07-01T19:00:21+00:00",
-      "summary": "Kimi K2.7 Code, an open-weight model, is now generally available in GitHub Copilot. This is the first open-weight model offered as a selectable option in the Copilot model picker, giving… The post Kimi K2.7 Code is generally available in GitHub Copilot appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -309,17 +342,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "How to build long-running MCP tools on Azure Functions",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-to-build-long-running-mcp-tools-on-azure-functions/ba-p/4532653",
-      "published": "2026-07-01T16:10:42+00:00",
-      "summary": "Recently, a customer building servers with the Azure Functions MCP extension reached out and asked: How do I handle tools that take longer than the client is willing to wait? This becomes especially relevant when tool calls move beyond simple request/response into multi-step workflows and...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "lily-ma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Now generally available: Serverless posture coverage in Microsoft Defender CSPM",
@@ -1474,17 +1496,6 @@
       "blogId": "azurenetworkingblog",
       "author": "devanshirastogi",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "On the road to .NET 10 Support: Logic Apps Migration from In-Proc to Out-of-Proc hosting model",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/on-the-road-to-net-10-support-logic-apps-migration-from-in-proc/ba-p/4522386",
-      "published": "2026-06-19T17:42:41+00:00",
-      "summary": "We will begin this migration in the coming weeks. For most customers, the change will be automatic and require no action. However, some apps will need customer updates before they can move to the new hosting model. This exception is: Logic Apps that use the current NuGet-based deployment model If...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -2973,17 +2984,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Driving Stop-and-Go Business Processes to Closure with Foundry Hosted Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/driving-stop-and-go-business-processes-to-closure-with-foundry/ba-p/4524135",
-      "published": "2026-06-08T16:30:00+00:00",
-      "summary": "Why This Matters Your AI agent just forgot everything. Again. If you've built agents that need to track work across days or weeks—not just single conversations—you've hit this wall: the agent loop is stateless. Each turn reasons over what it's handed, then forgets. But real business workflows don't...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "srikantan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[In preview] Public Preview: Azure Managed Redis now supports Entra ID based RBAC for data management",
       "link": "https://azure.microsoft.com/updates?id=564873",
       "published": "2026-06-08T16:15:40+00:00",
@@ -3996,6 +3996,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Azure Functions MCP Extension: What's New at Build 2026",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-functions-mcp-extension-what-s-new-at-build-2026/ba-p/4524099",
+      "published": "2026-06-02T21:02:12+00:00",
+      "summary": "The Azure Functions MCP extension has had a breakout year! Since its initial preview, the extension has grown from a single trigger type into a full-featured platform for building remote MCP servers: with tool, resource, and prompt triggers across multiple languages, MCP Apps for interactive UIs,...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "lily-ma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "[In development] Preview: Azure Cobalt 200 Arm-based Dpsv7, Dplsv7, Epsv7, Mpsv4, and Lpsv5-series Virtual Machines",
       "link": "https://azure.microsoft.com/updates?id=564451",
       "published": "2026-06-02T21:00:30+00:00",
@@ -4291,6 +4302,17 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "Introducing On-demand Sandboxes for Azure Durable Task Scheduler (Private Preview)",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-on-demand-sandboxes-for-azure-durable-task-scheduler/ba-p/4522333",
+      "published": "2026-06-02T19:30:00+00:00",
+      "summary": "Maybe it needs a native toolchain. Maybe it runs untrusted customer or LLM-generated code. Maybe it needs Python from a .NET orchestrator, or bursty compute that should scale to zero when the work is done. Today, we're thrilled to announce On-demand Sandboxes for Azure Durable Task Scheduler, now...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "greenie-msft",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "What's new in Azure API Management at Microsoft Build 2026",
@@ -5789,6 +5811,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Direct OpenTelemetry ingestion into Azure Monitor is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/direct-opentelemetry-ingestion-into-azure-monitor-is-now/ba-p/4524044",
+      "published": "2026-06-02T14:39:33+00:00",
+      "summary": "OpenTelemetry is powering a new era of observability. Built on open standards, designed for portability, and made for developers who want flexibility without compromise. And now, you can send OpenTelemetry logs, metrics, and traces straight into Azure Monitor OTLP endpoints and data storage. This...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "KayodePrince",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Retirement: Azure VMware Solution AV36 node End of Support on September 30, 2027",
       "link": "https://azure.microsoft.com/updates?id=564735",
       "published": "2026-06-02T13:00:06+00:00",
@@ -5896,17 +5929,6 @@
       "blogId": "aspireblog",
       "author": "Maddy Montaquila",
       "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure Functions Support for Node.js 24",
-      "link": "https://azure.microsoft.com/updates?id=562647",
-      "published": "2026-06-01T13:45:09+00:00",
-      "summary": "Azure Functions support for Node.js 24 is now generally available. You can now develop apps using Node.js 24 locally and deploy them to supported Azure Functions plans on Linux and Windows, including the Flex Consumption plan. Please note that Remot",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -7747,17 +7769,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Copilot in OneNote now understands more of your notes",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-in-onenote-now-understands-more-of-your-notes/ba-p/4515922",
-      "published": "2026-04-29T17:09:55+00:00",
-      "summary": "In Microsoft OneNote, you can use Copilot to reason over your notes to summarize content, extract key insights, and build on your ideas. We’ve improved the way Copilot responds to your queries in OneNote, making it easier to interact with your notes using natural, everyday language. Copilot in...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "Daniel Beade",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Visual Studio Code 1.118",
       "link": "https://code.visualstudio.com/updates/v1_118",
       "published": "2026-04-29T17:00:00+00:00",
@@ -7876,17 +7887,6 @@
       "blogId": "azurearcblog",
       "author": "troettinger",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Available today: GPT-5.5 Thinking and ChatGPT Images 2.0 in Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-gpt-5-5-thinking-and-chatgpt-images-2-0-in/ba-p/4514243",
-      "published": "2026-04-27T15:33:18+00:00",
-      "summary": "Today, we’re expanding what Microsoft 365 Copilot can do with GPT-5.5 Thinking and ChatGPT Images 2.0 bringing stronger support for deeper analysis, multi-step work, and visual creation. GPT-5.5 Thinking is now available in Copilot Studio early release cycle environments as GPT-5.5 Reasoning and is...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "NitinAgrawal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12279,5 +12279,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure- and Microsoft-related posts were dominated by security, governance, and developer workflow improvements: Microsoft highlighted stronger ecosystem security through Microsoft Defender for Cloud, partner security posture efforts, GitHub secret scanning advances—including enterprise public monitoring and GitHub’s own use of secret scanning to reach “inbox zero”—and new auditing/telemetry guidance for the Agent Governance Toolkit in .NET Core. On the developer platform side, key announcements included public preview of Copilot agent session streaming, GitHub cost centers support for AI credit pools, general availability of issue fields, Azure Monitor/Observability Dynamic Thresholds preview for Prometheus and OpenTelemetry anomaly detection, Azure DevOps guidance for SQL projects, and Microsoft Entra ID guest access support for Canvas and Model-Driven Apps."
+  "summary": "Today’s Azure blog coverage focused on modernization of Azure Logic Apps for the upcoming .NET 10 era, specifically guidance for migrating from the legacy in-process hosting model to the newer out-of-process model. The post highlights how Logic Apps Standard users can prepare for future .NET support by updating extension patterns, runtime hosting architecture, and app code to align with the isolated worker-style model that improves flexibility and long-term compatibility."
 }
