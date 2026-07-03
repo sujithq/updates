@@ -1,18 +1,7 @@
 {
-  "lastUpdated": "2026-07-03T01:26:32.981276+00:00",
+  "lastUpdated": "2026-07-03T06:19:22.400185+00:00",
   "totalArticles": 1116,
   "articles": [
-    {
-      "title": "On the road to .NET 10 Support: Logic Apps Migration from In-Proc to Out-of-Proc hosting model",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/on-the-road-to-net-10-support-logic-apps-migration-from-in-proc/ba-p/4522386",
-      "published": "2026-07-03T00:25:23+00:00",
-      "summary": "We will begin this migration in the coming weeks. For most customers, the change will be automatic and require no action. However, some apps will need customer updates before they can move to the new hosting model. This exception is: Logic Apps that use the current NuGet-based deployment model If...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
     {
       "title": "Improved accuracy and coverage in Copilot usage metrics reports",
       "link": "https://github.blog/changelog/2026-07-02-improved-accuracy-and-coverage-in-copilot-usage-metrics-reports",
@@ -155,6 +144,28 @@
       "author": "Drew Skwiers-Koballa",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Auditing and Telemetry for the Agent Governance Toolkit - Getting Started with .NET Core",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/auditing-and-telemetry-for-the-agent-governance-toolkit-getting/ba-p/4533073",
+      "published": "2026-07-02T13:35:00+00:00",
+      "summary": "Introduction We've entered an era where AI agents autonomously invoke tools — reading and writing files, calling APIs, querying databases. Convenient as this is, without a mechanism to control who can call what, and under what conditions, you can't put it into production. The Agent Governance...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "daisami",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Find anomalies in Prometheus and OpenTelemetry metrics with Dynamic Thresholds (Preview)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/find-anomalies-in-prometheus-and-opentelemetry-metrics-with/ba-p/4533069",
+      "published": "2026-07-02T13:10:54+00:00",
+      "summary": "Dynamic thresholds are extended to query-based metric alerts in Azure Monitor, allowing to detect and alert on anomalies in Azure Monitor managed Prometheus metrics and OpenTelemetry metrics stored in an Azure Monitor Workspace. This follows the introduction of Dynamic Thresholds for Log search...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "yairgil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Guest Access for Canvas and Model-Driven Apps with Microsoft Entra ID",
@@ -342,6 +353,17 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "How to build long-running MCP tools on Azure Functions",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-to-build-long-running-mcp-tools-on-azure-functions/ba-p/4532653",
+      "published": "2026-07-01T16:10:42+00:00",
+      "summary": "Recently, a customer building servers with the Azure Functions MCP extension reached out and asked: How do I handle tools that take longer than the client is willing to wait? This becomes especially relevant when tool calls move beyond simple request/response into multi-step workflows and...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "lily-ma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Now generally available: Serverless posture coverage in Microsoft Defender CSPM",
@@ -1496,6 +1518,17 @@
       "blogId": "azurenetworkingblog",
       "author": "devanshirastogi",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "On the road to .NET 10 Support: Logic Apps Migration from In-Proc to Out-of-Proc hosting model",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/on-the-road-to-net-10-support-logic-apps-migration-from-in-proc/ba-p/4522386",
+      "published": "2026-06-19T17:42:41+00:00",
+      "summary": "We will begin this migration in the coming weeks. For most customers, the change will be automatic and require no action. However, some apps will need customer updates before they can move to the new hosting model. This exception is: Logic Apps that use the current NuGet-based deployment model If...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3996,17 +4029,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure Functions MCP Extension: What's New at Build 2026",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-functions-mcp-extension-what-s-new-at-build-2026/ba-p/4524099",
-      "published": "2026-06-02T21:02:12+00:00",
-      "summary": "The Azure Functions MCP extension has had a breakout year! Since its initial preview, the extension has grown from a single trigger type into a full-featured platform for building remote MCP servers: with tool, resource, and prompt triggers across multiple languages, MCP Apps for interactive UIs,...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "lily-ma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[In development] Preview: Azure Cobalt 200 Arm-based Dpsv7, Dplsv7, Epsv7, Mpsv4, and Lpsv5-series Virtual Machines",
       "link": "https://azure.microsoft.com/updates?id=564451",
       "published": "2026-06-02T21:00:30+00:00",
@@ -4302,17 +4324,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Introducing On-demand Sandboxes for Azure Durable Task Scheduler (Private Preview)",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-on-demand-sandboxes-for-azure-durable-task-scheduler/ba-p/4522333",
-      "published": "2026-06-02T19:30:00+00:00",
-      "summary": "Maybe it needs a native toolchain. Maybe it runs untrusted customer or LLM-generated code. Maybe it needs Python from a .NET orchestrator, or bursty compute that should scale to zero when the work is done. Today, we're thrilled to announce On-demand Sandboxes for Azure Durable Task Scheduler, now...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "greenie-msft",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "What's new in Azure API Management at Microsoft Build 2026",
@@ -5809,17 +5820,6 @@
       "author": "Kyler Middleton",
       "feedUrl": "https://www.letsdodevops.com/feed",
       "sourceType": "rss"
-    },
-    {
-      "title": "Direct OpenTelemetry ingestion into Azure Monitor is now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/direct-opentelemetry-ingestion-into-azure-monitor-is-now/ba-p/4524044",
-      "published": "2026-06-02T14:39:33+00:00",
-      "summary": "OpenTelemetry is powering a new era of observability. Built on open standards, designed for portability, and made for developers who want flexibility without compromise. And now, you can send OpenTelemetry logs, metrics, and traces straight into Azure Monitor OTLP endpoints and data storage. This...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "KayodePrince",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Retirement: Azure VMware Solution AV36 node End of Support on September 30, 2027",
@@ -12278,6 +12278,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure blog coverage focused on modernization of Azure Logic Apps for the upcoming .NET 10 era, specifically guidance for migrating from the legacy in-process hosting model to the newer out-of-process model. The post highlights how Logic Apps Standard users can prepare for future .NET support by updating extension patterns, runtime hosting architecture, and app code to align with the isolated worker-style model that improves flexibility and long-term compatibility."
+  ]
 }
