@@ -1,7 +1,95 @@
 {
-  "lastUpdated": "2026-07-06T12:33:30.458456+00:00",
-  "totalArticles": 1115,
+  "lastUpdated": "2026-07-06T17:32:59.043051+00:00",
+  "totalArticles": 1117,
   "articles": [
+    {
+      "title": "5 insights from Frost & Sullivan’s 2025 Frost Radar™ for Cloud Security Posture Management",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/06/5-insights-from-frost-sullivans-2025-frost-radar-for-cloud-security-posture-management/",
+      "published": "2026-07-06T16:00:00+00:00",
+      "summary": "Read five key learnings from the Frost & Sullivan 2025 Frost Radar™ for CSPM to learn how CSPM is evolving from point-in-time compliance to continuous risk management. The post 5 insights from Frost & Sullivan’s 2025 Frost Radar™ for Cloud Security Posture Management appeared first on Microsoft...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Security Team",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Microsoft Entra ID-based access for Azure Blob Storage SFTP",
+      "link": "https://azure.microsoft.com/updates?id=567085",
+      "published": "2026-07-06T15:54:08+00:00",
+      "summary": "Microsoft Entra ID-based access for Azure Blob Storage SFTP is now generally available in all regions. You can now use Entra ID identities including guest users via Entra External Identities to securely connect to Azure Blob Storage over SFTP, without pro",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Support 5x churn in Azure Site Recovery",
+      "link": "https://azure.microsoft.com/updates?id=566966",
+      "published": "2026-07-06T15:00:33+00:00",
+      "summary": "Azure Site Recovery now supports up to 5x churn (500 MB/s per VM). This major enhancement empowers customers to confidently run high IOPS workloads with Azure Site Recovery, ensuring robust disaster recovery for even the most demanding applications like d",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Logic Apps Aviators Newsletter - July 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-july-2026/ba-p/4533851",
+      "published": "2026-07-06T15:00:00+00:00",
+      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month July 2026's Ace Aviator: Bill Chesnut Bill Chesnut - Cloud Platform and API Evangelist @ SixPivot What's your role and title? What are your responsibilities? Cloud Platform and API...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "v1.16.0-alpha20260706",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260706",
+      "published": "2026-07-06T14:49:07+00:00",
+      "summary": "1.16.0-alpha20260706 (July 06, 2026) NEW FEATURES: Store PlannedPrivate data for providers (#37986) New store block in terraform_data that can handle ephemeral and sensitive values (#38298) Providers can now use nested blocks as computed values (#38305) import: add support for import blocks inside...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Securing message brokers takes more than turning off public access",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/securing-message-brokers-takes-more-than-turning-off-public/ba-p/4533257",
+      "published": "2026-07-06T14:00:00+00:00",
+      "summary": "Over the last few years, enterprises have done the hard work of locking down their cloud networks. Public endpoints get switched off. Traffic moves onto private IPs inside a virtual network. Shared secrets get replaced with identities that can be governed and revoked. This is the practical shape of...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Need a different partition key in Azure Cosmos DB? Pick the right approach",
+      "link": "https://devblogs.microsoft.com/cosmosdb/need-a-different-partition-key-in-azure-cosmos-db-pick-the-right-approach/",
+      "published": "2026-07-06T13:37:33+00:00",
+      "summary": "Once you create a container, its partition key is fixed at creation, and you can’t change it in place. However, if your original key starts causing problems like cross-partition queries or hot partitions, you need to consider your options for changing it. This post explains the mechanics of...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Abhishek Gupta",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Token Economics: The New FinOps for Agentic AI",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/token-economics-the-new-finops-for-agentic-ai/ba-p/4533743",
+      "published": "2026-07-06T07:00:00+00:00",
+      "summary": "In AI applications, tokens are now cost — and token economics deserves architectural attention For a long time, AI application design started with model capability: Can the model write code? Can it reason? Can it use tools? Can it handle long context? Those questions still matter, but in the age of...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Azure SDK Release (June 2026)",
       "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-june-2026/",
@@ -11,6 +99,17 @@
       "blogId": "azuresdkblog",
       "author": "Justin Bettencourt",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "How Prompt Tuning Improved GPT-5.5 in VS Code",
+      "link": "https://code.visualstudio.com/blogs/2026/07/06/optimizing-vscode-coding-harness-model-providers",
+      "published": "2026-07-06T00:00:00+00:00",
+      "summary": "See how VS Code and OpenAI tested GPT-5.5 system prompt changes in a two-week experiment, cutting tool calls and tail-end token usage while speeding up edits. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "VS Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -1323,17 +1422,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "StealC and Amadey: Breaking down infostealers and the cybercrime services that deliver them",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/24/stealc-and-amadey-breaking-down-infostealers-and-the-cybercrime-services-that-deliver-them/",
-      "published": "2026-06-24T12:30:00+00:00",
-      "summary": "On June 24, 2026, Microsoft’s Digital Crimes Unit (DCU) facilitated the takedown, suspension, and blocking of domains that formed the backbone of the StealC and Amadey infrastructure. This blog is a technical breakdown of StealC and Amadey. The post StealC and Amadey: Breaking down infostealers and...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Threat Intelligence, Microsoft Defender Security Research Team and Microsoft Digital Crimes Unit",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Boost performance with NFS nconnect on Azure NetApp Files datastores for Azure VMware Solution",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/boost-performance-with-nfs-nconnect-on-azure-netapp-files/ba-p/4528858",
       "published": "2026-06-24T07:16:04+00:00",
@@ -1692,7 +1780,7 @@
       "summary": "Introduction Generative AI (GenAI) is poised to transform the construction industry by addressing chronic challenges such as low productivity, cost overruns, schedule delays, and labor shortages. By automating the analysis of drawings, specifications, contracts, and project documentation, GenAI can...",
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
-      "author": "its_gaurav_bhardwaj",
+      "author": "gauravbhardwaj",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -2899,7 +2987,7 @@
       "title": "Copilot Code Reviews for Azure Repos",
       "link": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos/",
       "published": "2026-06-09T15:12:40+00:00",
-      "summary": "🚨 ​​​​​​​Attention: We are accepting a final round of preview requests, with those organizations scheduled for enablement beginning the second week of July. Requests submitted after July 3 will not be accepted into the preview program. Over the last several years, we have encouraged customers to...",
+      "summary": "🚨 July 6 Update: This private preview is no longer accepting new sign-ups. We are working to expand availability and expect to open a public preview within the next few weeks. Over the last several years, we have encouraged customers to move their repositories from Azure Repos to GitHub to take...",
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Dan Hellem, Andrew Brenner",
@@ -3124,17 +3212,6 @@
       "blogId": "analyticsonazure",
       "author": "Sally_Dabbah",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Getting Secrets Out of YAML: Implementing Azure Key Vault CSI Driver on AKS with Workload Identity",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/getting-secrets-out-of-yaml-implementing-azure-key-vault-csi/ba-p/4522590",
-      "published": "2026-06-08T07:00:00+00:00",
-      "summary": "Table of Contents Why This Pattern Matters The Problem with Secrets in YAML What We Wanted to Achieve Architecture Overview How the Flow Works Implementation Prerequisites Step-by-Step Implementation Understanding the YAML Components Secret Rotation and Reloaders Common Pitfalls and Troubleshooting...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "anandranjan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -4513,17 +4590,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Announcing the General Availability of Per Partition Automatic Failover for Azure Cosmos DB NoSQL",
-      "link": "https://devblogs.microsoft.com/cosmosdb/announcing-the-general-availability-of-per-partition-automatic-failover-for-azure-cosmos-db-nosql/",
-      "published": "2026-06-02T19:15:36+00:00",
-      "summary": "Today, we are excited to announce the General Availability of Per Partition Automatic Failover (PPAF) for Azure Cosmos DB NoSQL API. PPAF is a significant advancement in how Azure Cosmos DB delivers availability and resilience for mission-critical workloads running on single-write-region accounts....",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Sushant Rane",
-      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Introducing GitHub Enterprise Local (Preview): DevOps for Sovereign and Private Cloud Environments",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/introducing-github-enterprise-local-preview-devops-for-sovereign/ba-p/4523046",
       "published": "2026-06-02T19:15:00+00:00",
@@ -4608,17 +4674,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "budzynski",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "GA: Azure API Center Now Supports Plugin Registration",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/ga-azure-api-center-now-supports-plugin-registration/ba-p/4524674",
-      "published": "2026-06-02T19:04:00+00:00",
-      "summary": "As organizations scale their AI and integration ecosystems, one challenge keeps surfacing: developers don't have a reliable, governed way to discover and reuse the plugins their teams have already built. Plugins end up siloed in individual repos, shared over Slack, or duplicated across teams —...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Sreekanth_Thirthala",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -5822,17 +5877,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[In preview] Public Preview: Snapshot backup for SQL Server in Azure VMs",
-      "link": "https://azure.microsoft.com/updates?id=564668",
-      "published": "2026-06-02T15:15:36+00:00",
-      "summary": "Azure Backup now supports snapshot-based backup for SQL Server running on Azure Virtual Machines. This new capability uses Azure disk snapshots combined with native SQL transaction log backups to deliver near-instant, low-impact full backups for large SQL",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Monitor AI coding agents with OpenTelemetry in Azure Monitor",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/monitor-ai-coding-agents-with-opentelemetry-in-azure-monitor/ba-p/4524049",
       "published": "2026-06-02T14:41:00+00:00",
@@ -5852,17 +5896,6 @@
       "blogId": "letsdodevops",
       "author": "Kyler Middleton",
       "feedUrl": "https://www.letsdodevops.com/feed",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Retirement: Azure VMware Solution AV36 node End of Support on September 30, 2027",
-      "link": "https://azure.microsoft.com/updates?id=564735",
-      "published": "2026-06-02T13:00:06+00:00",
-      "summary": "Reminder: Microsoft’s support lifecycle is evolving in alignment with VMware’s roadmap. Broadcom will end support for the current AV36 VCF version on September 30, 2027, and the AV36 SKU is not compatible with VMware Cloud Foundation (VCF) 9, the next-gen",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -6920,17 +6953,6 @@
       "author": "Srini_Raghavan_Msft",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "v1.16.0-alpha20260513",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260513",
-      "published": "2026-05-13T12:10:09+00:00",
-      "summary": "1.16.0-alpha20260513 (May 13, 2026) NEW FEATURES: Store PlannedPrivate data for providers (#37986) New store block in terraform_data that can handle ephemeral and sensitive values (#38298) Providers can now use nested blocks as computed values (#38305) We now produce builds for Linux s390x (zLinux)...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
     },
     {
       "title": "Introducing cert-manager for Azure Arc-enabled Kubernetes: now in Public Preview",
@@ -12268,5 +12290,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage centers on the **Azure SDK Release for June 2026**, highlighting the latest client library updates across core Azure developer platforms. The post emphasizes new and updated SDKs for key services such as **Azure Identity**, **Azure Storage**, **Azure Key Vault**, and broader language-specific improvements for developers building against Azure in supported ecosystems."
+  "summary": "Today’s Azure posts center on security, resilience, and AI-era optimization: Microsoft highlighted Frost & Sullivan recognition for its Cloud Security Posture Management capabilities, announced general availability of Microsoft Entra ID-based access for Azure Blob Storage SFTP, and stressed that securing message brokers requires more than just disabling public endpoints. On the platform side, Azure also announced GA support for 5x churn in Azure Site Recovery, shared guidance on choosing a new partition key strategy in Azure Cosmos DB, and published the June 2026 Azure SDK release alongside a Logic Apps newsletter and a Terraform v1.16.0-alpha update.\n\nA second major theme is AI developer efficiency and cost control: posts covered “token economics” as an emerging FinOps discipline for agentic AI, while Visual Studio Code detailed how prompt tuning improved GPT-5.5 behavior in the editor. Together, the updates show Azure focusing on stronger identity-based security, more scalable recovery and data architecture, and better tooling for building and governing AI applications."
 }
