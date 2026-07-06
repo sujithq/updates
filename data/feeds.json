@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-07-06T19:27:05.871938+00:00",
-  "totalArticles": 1116,
+  "lastUpdated": "2026-07-06T22:05:17.656970+00:00",
+  "totalArticles": 1117,
   "articles": [
+    {
+      "title": "See our new Azure Cosmos DB Design Patterns",
+      "link": "https://devblogs.microsoft.com/cosmosdb/see-our-new-azure-cosmos-db-design-patterns/",
+      "published": "2026-07-06T20:20:06+00:00",
+      "summary": "Design patterns are where good data modeling lives or dies. In a NoSQL database like Azure Cosmos DB, the difference between a schema that scales to millions of operations per second and one that fights you at every turn usually comes down to a handful of well‑understood patterns: how you...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Mark Brown",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "5 insights from Frost & Sullivan’s 2025 Frost Radar™ for Cloud Security Posture Management",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/07/06/5-insights-from-frost-sullivans-2025-frost-radar-for-cloud-security-posture-management/",
@@ -36,6 +47,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Logic Apps Aviators Newsletter - July 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-july-2026/ba-p/4533851",
+      "published": "2026-07-06T15:00:00+00:00",
+      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month July 2026's Ace Aviator: Bill Chesnut Bill Chesnut - Cloud Platform and API Evangelist @ SixPivot What's your role and title? What are your responsibilities? Cloud Platform and API...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "v1.16.0-alpha20260706",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260706",
       "published": "2026-07-06T14:49:07+00:00",
@@ -47,6 +69,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Securing message brokers takes more than turning off public access",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/securing-message-brokers-takes-more-than-turning-off-public/ba-p/4533257",
+      "published": "2026-07-06T14:00:00+00:00",
+      "summary": "Over the last few years, enterprises have done the hard work of locking down their cloud networks. Public endpoints get switched off. Traffic moves onto private IPs inside a virtual network. Shared secrets get replaced with identities that can be governed and revoked. This is the practical shape of...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Need a different partition key in Azure Cosmos DB? Pick the right approach",
       "link": "https://devblogs.microsoft.com/cosmosdb/need-a-different-partition-key-in-azure-cosmos-db-pick-the-right-approach/",
       "published": "2026-07-06T13:37:33+00:00",
@@ -56,6 +89,17 @@
       "author": "Abhishek Gupta",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Token Economics: The New FinOps for Agentic AI",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/token-economics-the-new-finops-for-agentic-ai/ba-p/4533743",
+      "published": "2026-07-06T07:00:00+00:00",
+      "summary": "In AI applications, tokens are now cost — and token economics deserves architectural attention For a long time, AI application design started with model capability: Can the model write code? Can it reason? Can it use tools? Can it handle long context? Those questions still matter, but in the age of...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Azure SDK Release (June 2026)",
@@ -3182,17 +3226,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Getting Secrets Out of YAML: Implementing Azure Key Vault CSI Driver on AKS with Workload Identity",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/getting-secrets-out-of-yaml-implementing-azure-key-vault-csi/ba-p/4522590",
-      "published": "2026-06-08T07:00:00+00:00",
-      "summary": "Table of Contents Why This Pattern Matters The Problem with Secrets in YAML What We Wanted to Achieve Architecture Overview How the Flow Works Implementation Prerequisites Step-by-Step Implementation Understanding the YAML Components Secret Rotation and Reloaders Common Pitfalls and Troubleshooting...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "anandranjan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Faster az login: introducing --skip-subscription-discovery and targeted --subscription",
       "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/faster-az-login-introducing-skip-subscription-discovery-and/ba-p/4526116",
       "published": "2026-06-07T07:19:58+00:00",
@@ -4557,17 +4590,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Change Partition Keys in Azure Cosmos DB is Now Generally Available",
-      "link": "https://devblogs.microsoft.com/cosmosdb/change-partition-keys-in-azure-cosmos-db-is-now-generally-available/",
-      "published": "2026-06-02T19:15:41+00:00",
-      "summary": "We’re excited to announce the general availability of Change Partition Key in Azure Cosmos DB for NoSQL, now with online copy support. You can repartition containers directly in the Azure portal with near-zero downtime and without stopping writes to the source container. Why Partition Key Choice...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Richa Gaur",
-      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Introducing GitHub Enterprise Local (Preview): DevOps for Sovereign and Private Cloud Environments",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/introducing-github-enterprise-local-preview-devops-for-sovereign/ba-p/4523046",
       "published": "2026-06-02T19:15:00+00:00",
@@ -4652,17 +4674,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "budzynski",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "GA: Azure API Center Now Supports Plugin Registration",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/ga-azure-api-center-now-supports-plugin-registration/ba-p/4524674",
-      "published": "2026-06-02T19:04:00+00:00",
-      "summary": "As organizations scale their AI and integration ecosystems, one challenge keeps surfacing: developers don't have a reliable, governed way to discover and reuse the plugins their teams have already built. Plugins end up siloed in individual repos, shared over Slack, or duplicated across teams —...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Sreekanth_Thirthala",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -12279,5 +12290,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news centered on security, resilience, developer tooling, and data architecture. Microsoft highlighted Frost & Sullivan’s Cloud Security Posture Management findings around unified multi-cloud risk visibility and remediation in Microsoft Security, announced general availability of Microsoft Entra ID–based authentication for Azure Blob Storage SFTP, and expanded Azure Site Recovery to support 5x churn for higher-change-rate disaster recovery scenarios.\n\nOn the developer and platform side, Microsoft published the June 2026 Azure SDK release, a new Terraform v1.16.0-alpha20260706 build, Azure Cosmos DB guidance on choosing the right strategy when changing a partition key, and a VS Code post explaining how prompt tuning improved GPT-5.5 performance in the editor—showing continued investment across Azure infrastructure, SDKs, AI-assisted development, and cloud-native data design."
+  "summary": "Microsoft’s latest Azure posts center on securing and scaling cloud-native data and integration workloads: Azure Cosmos DB introduced new design patterns and guidance for changing partition keys, Azure Blob Storage SFTP now generally supports Microsoft Entra ID-based access, Azure Site Recovery is GA with support for 5x churn, and Azure messaging guidance stresses that protecting brokers requires more than just disabling public access. On the platform and developer side, Microsoft highlighted June 2026 Azure SDK releases, the Logic Apps Aviators July newsletter, Terraform v1.16.0-alpha20260706, and VS Code’s use of prompt tuning to improve GPT-5.5, while broader strategy themes included Frost & Sullivan recognition for Cloud Security Posture Management and a new “token economics” FinOps framework for managing agentic AI costs."
 }
