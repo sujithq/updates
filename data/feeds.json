@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-07-07T11:35:56.376674+00:00",
+  "lastUpdated": "2026-07-07T13:59:32.164354+00:00",
   "totalArticles": 1117,
   "articles": [
+    {
+      "title": "Export historical data from Log Analytics workspace with Export Job (preview)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/export-historical-data-from-log-analytics-workspace-with-export/ba-p/4532425",
+      "published": "2026-07-07T09:53:09+00:00",
+      "summary": "Log Analytics Export Job is now available in public preview. It gives you a straightforward way to export historical log data from your workspace to Azure Blob Storage, without writing custom scripts or disrupting live operations. You submit a job including a query, time range, and the service...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "YossiY",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "What’s New in Microsoft Foundry | June 2026",
       "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-june-2026/",
@@ -12,28 +23,6 @@
       "author": "Nick Brady",
       "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Coding with Logic Apps Standard: Local Functions",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/coding-with-logic-apps-standard-local-functions/ba-p/4534240",
-      "published": "2026-07-07T05:38:35+00:00",
-      "summary": "Welcome to the Series Welcome to the first article in the Coding with Logic Apps Standard series. This series is for integration developers, architects, and modernization teams who want to go beyond visual workflow design and use Azure Logic Apps Standard as a complete development platform for...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "hcamposu",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Teamcenter on Oracle AI Database@Azure: Architecture, Validation, and Results",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/teamcenter-on-oracle-ai-database-azure-architecture-validation/ba-p/4534252",
-      "published": "2026-07-07T03:00:27+00:00",
-      "summary": "Overview Manufacturing organizations depend on Product Lifecycle Management (PLM) platforms to manage engineering data, product structures, digital twins, and collaborative design processes. As enterprises modernize their infrastructure, many continue to require advanced Oracle database...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "Sunita_AZ0708",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Introducing Kimi K2.7 Code in Microsoft Foundry",
@@ -4689,6 +4678,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Built-in gateway support for workspaces in Azure API Management",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/built-in-gateway-support-for-workspaces-in-azure-api-management/ba-p/4524622",
+      "published": "2026-06-02T19:06:16+00:00",
+      "summary": "Workspaces in Azure API Management let platform teams hand off API ownership to individual API teams while keeping centralized governance. Until now, using them meant deploying a dedicated workspace gateway on the Premium tier — adding cost, operational overhead, and limiting regional availability....",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "budzynski",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "[In preview] Public Preview: Azure Databricks workspace-wide Genie MCP for Microsoft Copilot Studio",
       "link": "https://azure.microsoft.com/updates?id=564868",
       "published": "2026-06-02T19:00:47+00:00",
@@ -5886,17 +5886,6 @@
       "author": "Yo-Lei Chen, Carlos Robles, Tauseef Siddique",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Monitor AI coding agents with OpenTelemetry in Azure Monitor",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/monitor-ai-coding-agents-with-opentelemetry-in-azure-monitor/ba-p/4524049",
-      "published": "2026-06-02T14:41:00+00:00",
-      "summary": "AI coding agents are quickly becoming part of the everyday developer workflow. As teams adopt tools such as GitHub Copilot, Claude Code, and Codex, they need a better way to understand usage, troubleshoot performance, and keep an eye on token consumption and cost. With Azure Monitor’s OpenTelemetry...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "KayodePrince",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "🔥Designing Specialized Agents - Model Selection, Tool Scoping, and Output Contracts🔥",
@@ -10860,6 +10849,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Automating HPC Workflows with Copilot Agents",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/automating-hpc-workflows-with-copilot-agents/ba-p/4472610",
+      "published": "2025-12-03T10:43:26+00:00",
+      "summary": "Introduction High Performance Computing (HPC) workloads are complex, requiring precise job submission scripts and careful resource management. Manual scripting for platforms like OpenFOAM is time-consuming, error-prone, and often frustrating. At SC25, we showcased how Copilot Agents—powered by...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "xpillons",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Announcing General Availability for Azure Resource Graph (ARG) GET/LIST API",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/announcing-general-availability-for-azure-resource-graph-arg-get/ba-p/4474188",
       "published": "2025-12-03T04:39:28+00:00",
@@ -12290,5 +12290,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on AI platform updates, integration modernization, and enterprise workload validation. Microsoft Foundry’s June 2026 update highlighted new capabilities across the Foundry platform; Azure Integration Services showed how Logic Apps Standard can use local Azure Functions to improve workflow extensibility and development patterns; and Azure HPC detailed a validated architecture for running Siemens Teamcenter with Oracle AI Database@Azure, emphasizing performance, architecture guidance, and enterprise deployment results."
+  "summary": "Today’s Azure updates center on data portability in observability and rapid platform evolution in AI development. Azure Observability announced **Export Job (preview)** for **Log Analytics workspaces**, enabling export of **historical data** for longer-term retention, external analysis, and downstream processing—an important addition beyond existing streaming/export patterns.\n\nMeanwhile, the **June 2026 Microsoft Foundry** update highlights continued expansion of Microsoft’s AI builder platform, with new capabilities across the **Foundry** ecosystem for developing and managing AI applications and agents. The key themes are stronger operational control over telemetry/data and faster iteration in Microsoft’s end-to-end AI tooling."
 }
