@@ -1,7 +1,84 @@
 {
-  "lastUpdated": "2026-07-07T17:04:03.880371+00:00",
+  "lastUpdated": "2026-07-07T19:29:25.941097+00:00",
   "totalArticles": 1117,
   "articles": [
+    {
+      "title": "[In preview] Public Preview: Exceptions in WAF for Azure Application Gateway and Azure Front Door",
+      "link": "https://azure.microsoft.com/updates?id=567218",
+      "published": "2026-07-07T17:42:50+00:00",
+      "summary": "Azure Web Application Firewall (WAF) helps protect your web applications from common threats and attacks. In some cases, WAF may block requests that are safe and expected for your application. Existing exclusions help reduce false positives by omitting sp",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Azure Chaos Studio Workspaces and Scenarios",
+      "link": "https://azure.microsoft.com/updates?id=567184",
+      "published": "2026-07-07T17:40:32+00:00",
+      "summary": "Azure Chaos Studio now supports Workspaces and Scenarios, a faster, application-centric way to validate how your workloads hold up during real outages.Point a Workspace at your application's scope—a subscription, resource group, or service group—and Chaos",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Export historical data from Log Analytics workspace with Export jobs",
+      "link": "https://azure.microsoft.com/updates?id=566591",
+      "published": "2026-07-07T17:37:55+00:00",
+      "summary": "The Log Analytics Export job enables you to export historical data from a Log Analytics workspace to an Azure Storage account based on a specified query and time range. This allows you to extract only the data you need and move it to external systems for",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Network Security Perimeter support for Azure Event Hubs",
+      "link": "https://azure.microsoft.com/updates?id=567203",
+      "published": "2026-07-07T17:35:19+00:00",
+      "summary": "Azure Event Hubs now supports Network Security Perimeter (NSP), enabling organizations to define a logical network isolation boundary for PaaS resources and control public network access through perimeter-based access rules.With Network Security Perimeter",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Confidential Computing support for Azure Event Hubs Dedicated",
+      "link": "https://azure.microsoft.com/updates?id=567212",
+      "published": "2026-07-07T17:33:53+00:00",
+      "summary": "Azure Event Hubs Dedicated now supports Confidential Computing, enabling organizations to protect streaming data while it is being processed in memory. By leveraging hardware-based trusted execution environments (TEEs), customers can help safeguard sensit",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Red Hat OpenShift in Chile Central",
+      "link": "https://azure.microsoft.com/updates?id=566732",
+      "published": "2026-07-07T17:31:55+00:00",
+      "summary": "Azure Red Hat OpenShift (ARO) is now generally available in Azure Chile Central, expanding regional availability for OpenShift deployments across South America. With the launch of Microsoft’s first Azure region in Chile, customers can now run fully manage",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Secret scanning extended metadata and multipart validation",
+      "link": "https://github.blog/changelog/2026-07-07-secret-scanning-extended-metadata-and-multipart-validation",
+      "published": "2026-07-07T16:43:04+00:00",
+      "summary": "To help you understand ownership and impact of a leaked secret, GitHub secret scanning surfaces enriched metadata for supported secret types. Extended metadata checks are now generally available, including support… The post Secret scanning extended metadata and multipart validation appeared first...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "Q1 2026 Innovation Graph update: Open source collaboration is accelerating worldwide",
       "link": "https://github.blog/news-insights/policy-news-and-insights/q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide/",
@@ -12,17 +89,6 @@
       "author": "Natalie Guevara",
       "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Optimizing GitHub Copilot Cost in the Usage-Based Billing Era",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/optimizing-github-copilot-cost-in-the-usage-based-billing-era/ba-p/4534171",
-      "published": "2026-07-07T15:43:49+00:00",
-      "summary": "GitHub Copilot has become a core part of the modern developer workflow. We use it to complete code, explain unfamiliar repositories, write tests, refactor legacy applications, review pull requests, generate documentation, and automate repetitive engineering work. But as GitHub Copilot moves further...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "gauravbhardwaj",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Restrict who can dismiss reviews in rulesets",
@@ -45,17 +111,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Announcing the Path to Production for Agents Webinar Series",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/announcing-the-path-to-production-for-agents-webinar-series/ba-p/4526560",
-      "published": "2026-07-07T14:54:02+00:00",
-      "summary": "Many organizations have made significant progress exploring AI—building pilots, prototypes, and proofs of concept. Yet a common challenge remains: how do you move from promising experiments to production-ready systems that are secure, scalable, and trusted? Join us for the Path to Production...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "brauerblogs",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Copilot Billing Preview app will be retired on August 3",
@@ -88,6 +143,17 @@
       "blogId": "integrationsonazureblog",
       "author": "hcamposu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Teamcenter on Oracle AI Database@Azure: Architecture, Validation, and Results",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/teamcenter-on-oracle-ai-database-azure-architecture-validation/ba-p/4534252",
+      "published": "2026-07-07T03:00:27+00:00",
+      "summary": "Overview Manufacturing organizations depend on Product Lifecycle Management (PLM) platforms to manage engineering data, product structures, digital twins, and collaborative design processes. As enterprises modernize their infrastructure, many continue to require advanced Oracle database...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "Sunita_AZ0708",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -447,17 +513,6 @@
       "link": "https://github.blog/changelog/2026-07-02-issue-fields-are-now-generally-available",
       "published": "2026-07-02T08:17:17+00:00",
       "summary": "Issue fields are now generally available for all GitHub organizations on Free, Team, Enterprise, and GitHub Enterprise Cloud with data residency plans and will ship in GitHub Enterprise Server 3.23.… The post Issue fields are now generally available appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Secret scanning public monitoring for enterprises",
-      "link": "https://github.blog/changelog/2026-07-01-secret-scanning-public-monitoring-for-enterprises",
-      "published": "2026-07-02T00:37:55+00:00",
-      "summary": "GitHub is committed to empowering the developer community by helping organizations recognize and address the risks of secret leaks wherever they happen. We believe every enterprise should know the moment… The post Secret scanning public monitoring for enterprises appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -1277,6 +1332,17 @@
       "author": "Jason Roszak",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Announcing the Path to Production for Agents Webinar Series",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/announcing-the-path-to-production-for-agents-webinar-series/ba-p/4526560",
+      "published": "2026-06-25T15:49:44+00:00",
+      "summary": "Many organizations have made significant progress exploring AI—building pilots, prototypes, and proofs of concept. Yet a common challenge remains: how do you move from promising experiments to production-ready systems that are secure, scalable, and trusted? Join us for the Path to Production...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "brauerblogs",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Building Practical Rowhammer Protection into Azure Cobalt 200",
@@ -5767,72 +5833,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Built-in Grafana dashboards for Azure Functions",
-      "link": "https://azure.microsoft.com/updates?id=562492",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Azure Functions now provides built-in Grafana dashboards. Customers now get a zero-setup, single pane of glass for the health, performance, and scale of their function apps directly in the Azure portal: no Grafana instance to provision, no data sources to",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Copilot-assisted coding & agent skills to build, deploy, and run Azure Functions faster in VS Code, CLI, and azd",
-      "link": "https://azure.microsoft.com/updates?id=562487",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Developers are already using AI coding assistants to build Azure Functions apps today, but the quality of the help varies widely. It depends on which underlying model the assistant is using and how recent its training data is, which means developers often",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Serverless agents runtime for Azure Functions",
-      "link": "https://azure.microsoft.com/updates?id=562482",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Azure Functions now supports building AI agents as a first-class workload using a markdown-first programming model in public preview. With this release, developers can author event-driven serverless agents in natural language. The serverless agents runtim",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Azure Functions now includes managed connectors to integrate with 1400+ of your favorite systems",
-      "link": "https://azure.microsoft.com/updates?id=562442",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Azure Functions now includes managed connectors - the same 1,400+ connector ecosystem behind Logic Apps and Power Platform - as first-class triggers and operations. This enables customers to build integrated systems across the broader ecosystem such as Of",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure Functions now supports hosting MCP Apps",
-      "link": "https://azure.microsoft.com/updates?id=562099",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Developers building Model Context Protocol (MCP) servers often rely on plain text responses even when user interactions required richer experiences, such as visual data exploration, complex configuration, real-time status monitoring, or multi-step workflo",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Azure Container Apps Sandboxes",
-      "link": "https://azure.microsoft.com/updates?id=561262",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Teams building agentic applications, multi-tenant platforms, development environments, and CI/CD systems have often had to stitch together custom infrastructure to run untrusted code safely, preserve state across sessions, and handle bursty demand without",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Secure, Modern Access to Azure Files on macOS with MS Entra ID",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/secure-modern-access-to-azure-files-on-macos-with-ms-entra-id/ba-p/4524077",
       "published": "2026-06-02T18:55:03+00:00",
@@ -8051,6 +8051,17 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "ankitasarkar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Centralizing Enterprise API Access for Agent-Based Architectures",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/centralizing-enterprise-api-access-for-agent-based-architectures/ba-p/4511792",
+      "published": "2026-04-23T21:43:23+00:00",
+      "summary": "Problem Statement When building AI agents or automation solutions, calling enterprise APIs directly often means configuring individual HTTP actions within each agent for every API. While this works for simple scenarios, it quickly becomes repetitive and difficult to manage as complexity grows. The...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "sbaskaran",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -10849,17 +10860,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Automating HPC Workflows with Copilot Agents",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/automating-hpc-workflows-with-copilot-agents/ba-p/4472610",
-      "published": "2025-12-03T10:43:26+00:00",
-      "summary": "Introduction High Performance Computing (HPC) workloads are complex, requiring precise job submission scripts and careful resource management. Manual scripting for platforms like OpenFOAM is time-consuming, error-prone, and often frustrating. At SC25, we showcased how Copilot Agents—powered by...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "xpillons",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing General Availability for Azure Resource Graph (ARG) GET/LIST API",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/announcing-general-availability-for-azure-resource-graph-arg-get/ba-p/4474188",
       "published": "2025-12-03T04:39:28+00:00",
@@ -12290,5 +12290,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure- and GitHub-related posts were dominated by AI developer tooling, governance, and production readiness: GitHub highlighted broader availability of the GitHub Copilot app, new repository ruleset controls to restrict who can dismiss reviews, and billing changes as usage-based Copilot cost management becomes more important, including guidance on optimization and notice that the Copilot Billing Preview app will retire on August 3. Microsoft also emphasized enterprise AI and app modernization with a June 2026 Microsoft Foundry update, an Azure Architecture “Path to Production for Agents” webinar series focused on operationalizing agents, and a Logic Apps Standard post showing how to use local functions for integration workflows.\n\nA broader ecosystem theme was open collaboration at scale, with the Q1 2026 Innovation Graph update reporting accelerating worldwide open-source activity through GitHub."
+  "summary": "Today’s Azure news is centered on stronger security/operations and broader platform reach: Microsoft put WAF exceptions for Azure Application Gateway and Azure Front Door into preview, added Azure Chaos Studio Workspaces and Scenarios plus Log Analytics historical export jobs in preview, and brought Network Security Perimeter and Confidential Computing support to Azure Event Hubs generally available. On the infrastructure side, Azure Red Hat OpenShift is now GA in Chile Central, while technical posts highlighted Logic Apps Standard local functions, Teamcenter running on Oracle AI Database@Azure, and Microsoft Foundry’s latest updates.\n\nGitHub-related announcements focused on developer governance and AI tooling: secret scanning now includes extended metadata and multipart validation, rulesets can restrict who dismisses reviews, the GitHub Copilot app is now broadly available, and the Copilot Billing Preview app is being retired. GitHub’s Q1 2026 Innovation Graph also emphasized accelerating global open-source collaboration."
 }
