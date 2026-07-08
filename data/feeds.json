@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T13:21:44.133142+00:00",
+  "lastUpdated": "2026-07-08T16:24:37.222249+00:00",
   "totalArticles": 1114,
   "articles": [
     {
@@ -22,6 +22,83 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure Monitor Observability Agent goes autonomous (preview)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-observability-agent-goes-autonomous-preview/ba-p/4517265",
+      "published": "2026-07-08T16:16:16+00:00",
+      "summary": "Autonomous operations for the Azure Copilot Observability Agent are now in public preview, alongside the agent's general availability. With autonomous operations enabled, the Observability Agent listens to your alerts as they fire, triages them in the background, and runs deep investigations on the...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Efrat_Ben_Porat",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "How GitHub Copilot enables zero DNS configuration for GitHub Pages",
+      "link": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages/",
+      "published": "2026-07-08T16:00:00+00:00",
+      "summary": "Go from an empty repository to a live custom domain with HTTPS in about 14 minutes, without manually editing a single DNS record. The post How GitHub Copilot enables zero DNS configuration for GitHub Pages appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Bruno Borges",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "npm install-time security and GAT bypass2fa deprecation",
+      "link": "https://github.blog/changelog/2026-07-08-npm-install-time-security-and-gat-bypass2fa-deprecation",
+      "published": "2026-07-08T15:00:40+00:00",
+      "summary": "npm v12 is now generally available and tagged latest. This major release turns on the install-time security defaults we announced in June, and it’s also where we begin a deprecation… The post npm install-time security and GAT bypass2fa deprecation appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Introducing ROI for agents in Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-roi-for-agents-in-foundry/ba-p/4531970",
+      "published": "2026-07-08T15:00:00+00:00",
+      "summary": "Authors: Han Che, Luffy Chen Across Foundry Agent Service and the broader ecosystem of agent frameworks and runtimes, it is becoming easier to build, deploy, evaluate, and optimize production agents. You can instrument your agent, collect traces, run evaluations, and use the agent optimizer to...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "hanch",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Building on Vercel’s eve + Azure Cosmos DB: An Agent That Remembers",
+      "link": "https://devblogs.microsoft.com/cosmosdb/cosmos-db-agent-memory/",
+      "published": "2026-07-08T14:56:27+00:00",
+      "summary": "Most “AI agent” demos forget everything the moment the process exits. That’s fine for a toy project, but useless for anything real. An agent that helps you write, triage, or support needs two things a language model alone can’t give it: durable state and the ability to recall the right context by...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Sajeetharan Sinnathurai",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "GitHub Mobile: Fix merge conflicts with Copilot cloud agent",
+      "link": "https://github.blog/changelog/2026-07-08-github-mobile-fix-merge-conflicts-with-copilot-cloud-agent",
+      "published": "2026-07-08T09:45:22+00:00",
+      "summary": "GitHub Mobile now supports fixing pull request merge conflicts with Copilot cloud agent, making it easier to unblock pull requests while you’re on the go. When a pull request has… The post GitHub Mobile: Fix merge conflicts with Copilot cloud agent appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "GitHub Mobile: Live notifications for Copilot CLI sessions",
+      "link": "https://github.blog/changelog/2026-07-08-github-mobile-live-notifications-for-copilot-cli-sessions",
+      "published": "2026-07-08T09:45:09+00:00",
+      "summary": "Live coding agent notifications on GitHub Mobile now support remote Copilot CLI sessions, making it easier to stay connected to agent work that starts outside of GitHub Mobile. When a… The post GitHub Mobile: Live notifications for Copilot CLI sessions appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -443,28 +520,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Improved accuracy and coverage in Copilot usage metrics reports",
-      "link": "https://github.blog/changelog/2026-07-02-improved-accuracy-and-coverage-in-copilot-usage-metrics-reports",
-      "published": "2026-07-02T23:19:06+00:00",
-      "summary": "We’ve made three improvements to the Copilot usage metrics API that make its reports more complete and accurate: GitHub Copilot CLI now reports suggested lines of code, users seen only… The post Improved accuracy and coverage in Copilot usage metrics reports appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Upcoming deprecation of Gemini 2.5 Pro and Gemini 3 Flash",
-      "link": "https://github.blog/changelog/2026-07-02-upcoming-deprecation-of-gemini-2-5-pro-and-gemini-3-flash",
-      "published": "2026-07-02T23:07:06+00:00",
-      "summary": "We will deprecate Gemini 2.5 Pro and Gemini 3 Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on July 31st,… The post Upcoming deprecation of Gemini 2.5 Pro and Gemini 3 Flash appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[Launched] Generally available: Anthropic Claude Sonnet 5 on Azure Databricks",
       "link": "https://azure.microsoft.com/updates?id=567194",
       "published": "2026-07-02T22:21:51+00:00",
@@ -473,17 +528,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Copilot CLI no longer needs a personal access token in GitHub Actions",
-      "link": "https://github.blog/changelog/2026-07-02-copilot-cli-no-longer-needs-a-personal-access-token-in-github-actions",
-      "published": "2026-07-02T20:25:32+00:00",
-      "summary": "You can now run GitHub Copilot CLI in GitHub Actions using the built-in GITHUB_TOKEN. This means that you no longer need to create and store a personal access token (PAT),… The post Copilot CLI no longer needs a personal access token in GitHub Actions appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1697,17 +1741,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "I automated my job (and it made me a better leader)",
-      "link": "https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader/",
-      "published": "2026-06-23T16:00:00+00:00",
-      "summary": "Explore how my day as a senior leader looks now that I use 40 automations to help, and learn more about some of my favorites. The post I automated my job (and it made me a better leader) appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Natalie Guevara",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "🔥Agent Skills - Towards Autonomous Development, Deployment, and Validation🔥",
       "link": "https://www.letsdodevops.com/p/agent-skills-towards-autonomous-development",
       "published": "2026-06-23T14:20:52+00:00",
@@ -2742,17 +2775,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Transitioning from Azure Language Features to Foundry Models",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/transitioning-from-azure-language-features-to-foundry-models/ba-p/4524092",
-      "published": "2026-06-11T18:06:43+00:00",
-      "summary": "Azure AI Language in Foundry Tools will begin deprecating eight features: Key Phrase Extraction, Entity Linking, Sentiment Analysis & Opinion Mining, Summarization (document & conversation), Conversational Language Understanding (CLU), Custom Question Answering (CQA), Orchestration Workflow, and...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "renaliu",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Your agent just scaffolded a project from 2020",
       "link": "https://devblogs.microsoft.com/blog/your-agent-just-scaffolded-a-project-from-2020",
       "published": "2026-06-11T17:54:29+00:00",
@@ -3168,17 +3190,6 @@
       "blogId": "azuredevcommunityblog",
       "author": "BhaktiRath95",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Any source. Any destination. Ready for AI-era.",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/any-source-any-destination-ready-for-ai-era/ba-p/4524886",
-      "published": "2026-06-09T01:43:45+00:00",
-      "summary": "Telemetry is exploding, every new app, edge node, and AI agent is a new firehose, and AI has raised the bar on what that telemetry must be: governed, on open standards, observable at agent scale. Today, most teams answer that by stitching together a stack of disconnected tools, each catering to a...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "shayoni_seth",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -4718,17 +4729,6 @@
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Abhishek Gupta",
-      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Azure Cosmos DB All Versions and Deletes Change Feed Mode is Now Generally Available",
-      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-all-versions-and-deletes-change-feed-mode-is-now-generally-available/",
-      "published": "2026-06-02T19:15:42+00:00",
-      "summary": "Modern applications don’t just write data and move on. They react to it. A new order triggers an inventory update. A profile change syncs to a search index. A deleted record kicks off a compliance workflow. Azure Cosmos DB’s change feed makes this possible by giving you a real-time stream of every...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Justine Cocchi",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
     },
@@ -12257,5 +12257,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s updates were led by developer tooling and platform integration: Microsoft shipped Visual Studio Code 1.128 and previewed 1.129 Insiders, signaling ongoing IDE improvements, while Terraform v1.16.0-alpha20260708 delivered an early look at upcoming infrastructure-as-code changes for practitioners tracking HashiCorp’s next release. On the GitHub side, the changelog emphasized governance and AI: the usage API now supports review cycles and time-to-adoption phase data for finer-grained reporting, and Kimi K2.7 has been added to GitHub Copilot Business and Enterprise, expanding model options for enterprise coding assistance."
+  "summary": "Today’s updates centered on AI-assisted developer workflows and autonomous operations across Microsoft and GitHub. Key announcements included the Azure Monitor Observability Agent entering preview as an autonomous observability tool, new Azure AI Foundry guidance on measuring agent ROI, and an Azure Cosmos DB + Vercel eve example showing how memory-backed agents can persist context with Cosmos DB.\n\nOn the developer tooling side, Visual Studio Code 1.128 and the 1.129 Insiders build led the editor news, while GitHub expanded Copilot across Pages, Mobile, and enterprise offerings: zero-DNS configuration for GitHub Pages, mobile conflict resolution via the Copilot cloud agent, live mobile notifications for Copilot CLI sessions, and availability of Kimi K2.7 for Copilot Business and Enterprise. Security and platform governance were also notable themes, with npm install-time security changes, GAT bypass2fa deprecation, new usage API fields for review cycles and adoption timing, plus a Terraform v1.16.0-alpha release."
 }
