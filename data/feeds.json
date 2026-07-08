@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-07-08T08:03:16.339705+00:00",
-  "totalArticles": 1113,
+  "lastUpdated": "2026-07-08T10:53:15.045612+00:00",
+  "totalArticles": 1114,
   "articles": [
+    {
+      "title": "Visual Studio Code 1.128",
+      "link": "https://code.visualstudio.com/updates/v1_128",
+      "published": "2026-07-08T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.128 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Visual Studio Code 1.129 (Insiders)",
+      "link": "https://code.visualstudio.com/updates/v1_129",
+      "published": "2026-07-08T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.129 (Insiders) Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "v1.16.0-alpha20260708",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260708",
+      "published": "2026-07-08T09:19:38+00:00",
+      "summary": "1.16.0-alpha20260708 (July 08, 2026) NEW FEATURES: Store PlannedPrivate data for providers (#37986) New store block in terraform_data that can handle ephemeral and sensitive values (#38298) Providers can now use nested blocks as computed values (#38305) import: add support for import blocks inside...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
     {
       "title": "Add review cycles and time to adoption phases in the usage API",
       "link": "https://github.blog/changelog/2026-07-07-add-review-cycles-and-time-to-adoption-phases-in-the-usage-api",
@@ -645,17 +678,6 @@
       "link": "https://code.visualstudio.com/updates/v1_127",
       "published": "2026-07-01T17:00:00+00:00",
       "summary": "Learn what is new in Visual Studio Code 1.127 Read the full article",
-      "blog": "Visual Studio Code",
-      "blogId": "vscode",
-      "author": "Visual Studio Code Team",
-      "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Visual Studio Code 1.128 (Insiders)",
-      "link": "https://code.visualstudio.com/updates/v1_128",
-      "published": "2026-07-01T17:00:00+00:00",
-      "summary": "Learn what's new in Visual Studio Code 1.128 (Insiders) Read the full article",
       "blog": "Visual Studio Code",
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
@@ -6493,17 +6515,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "v1.15.4",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.4",
-      "published": "2026-05-20T16:52:18+00:00",
-      "summary": "1.15.4 (May 20, 2026) NEW FEATURES: We now produce builds for Linux s390x (zLinux) (#38615) BUG FIXES: init: Prevent provider binaries from being installed into symlinked directories (#38611)",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "Golden Image Refresh for Virtual Machines and VM Scale Sets: Driving Consistency at Scale",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/golden-image-refresh-for-virtual-machines-and-vm-scale-sets/ba-p/4521376",
       "published": "2026-05-20T02:56:39+00:00",
@@ -12246,5 +12257,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure-adjacent updates center on GitHub platform governance and AI model availability. GitHub’s usage API now supports **review cycles** and **time-to-adoption phases**, giving organizations more granular visibility into how features and policies progress through adoption over time.\n\nOn the AI side, **Kimi K2.7** is now available for **GitHub Copilot Business and Enterprise**, expanding the set of foundation models enterprises can use within Copilot and signaling continued investment in multi-model choice for enterprise developer tooling."
+  "summary": "Today’s Azure- and developer-related updates centered on **AI-assisted development, IDE improvements, and infrastructure automation**. **Visual Studio Code 1.128** and **1.129 Insiders** highlight continued editor and developer workflow enhancements, while **Terraform v1.16.0-alpha20260708** signals ongoing work on infrastructure-as-code capabilities; on the GitHub side, Microsoft added **review cycles** and **time-to-adoption phase metrics** to the **usage API**, and expanded AI offerings by making **Kimi K2.7** available for **GitHub Copilot Business and Enterprise** customers.\n\nThe biggest themes are better **developer productivity tooling** across **VS Code** and **GitHub**, deeper **analytics for software adoption and review processes**, and broader access to **foundation models** inside enterprise **Copilot** workflows."
 }
