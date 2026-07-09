@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-07-09T19:16:24.116808+00:00",
+  "lastUpdated": "2026-07-09T22:11:09.101283+00:00",
   "totalArticles": 1113,
   "articles": [
+    {
+      "title": "Securing message brokers takes more than turning off public access",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/securing-message-brokers-takes-more-than-turning-off-public/ba-p/4533257",
+      "published": "2026-07-09T21:58:45+00:00",
+      "summary": "Over the last few years, enterprises have done the hard work of locking down their cloud networks. Public endpoints get switched off. Traffic moves onto private IPs inside a virtual network. Shared secrets get replaced with identities that can be governed and revoked. This is the practical shape of...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[Launched] Generally Available: Open AI GPT-5.6 on Azure Databricks",
+      "link": "https://azure.microsoft.com/updates?id=567431",
+      "published": "2026-07-09T20:21:12+00:00",
+      "summary": "Open AI GPT-5.6 is now available on Azure Databricks. You can use GPT 5.6 (purchased on Microsoft Foundry) via Model Serving Endpoint in Azure Databricks. Through integrations across Foundry and Azure Databricks, you can securely build, deploy, and manage",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
     {
       "title": "Microsoft Foundry Model Deployment Pricing Update",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/microsoft-foundry-model-deployment-pricing-update/ba-p/4535385",
@@ -45,17 +67,6 @@
       "author": "Michael Recachinas",
       "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Optimize Oracle workloads on Azure with Azure NetApp Files",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/optimize-oracle-workloads-on-azure-with-azure-netapp-files/ba-p/4532644",
-      "published": "2026-07-09T16:22:43+00:00",
-      "summary": "Table of Contents Introduction Azure NetApp Files Advancements Overview Azure NetApp Files Advancements in Detail Flexible service level capacity pools Oracle Direct NFS Application volume group for Oracle Availability zone volume placement High availability Standard network features Simplified...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "GeertVanTeylingen",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Plan for Upcoming Changes to Extended Security Updates on Azure Local",
@@ -661,17 +672,6 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "Securing message brokers takes more than turning off public access",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/securing-message-brokers-takes-more-than-turning-off-public/ba-p/4533257",
-      "published": "2026-07-06T14:00:00+00:00",
-      "summary": "Over the last few years, enterprises have done the hard work of locking down their cloud networks. Public endpoints get switched off. Traffic moves onto private IPs inside a virtual network. Shared secrets get replaced with identities that can be governed and revoked. This is the practical shape of...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "EldertGrootenboer",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Need a different partition key in Azure Cosmos DB? Pick the right approach",
@@ -5965,17 +5965,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[In preview] Public Preview: Go language support on Azure Functions",
-      "link": "https://azure.microsoft.com/updates?id=562502",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Azure Functions now supports Go as a first-class language option in public preview. With this release, developers can author event-driven serverless apps in Go using the Azure Functions Go programming model and SDK, while still benefiting from Azure Funct",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Secure, Modern Access to Azure Files on macOS with MS Entra ID",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/secure-modern-access-to-azure-files-on-macos-with-ms-entra-id/ba-p/4524077",
       "published": "2026-06-02T18:55:03+00:00",
@@ -9980,6 +9969,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Azure Migrate: Now Supporting Premium SSD V2, Ultra and ZRS Disks as Targets",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-migrate-now-supporting-premium-ssd-v2-ultra-and-zrs-disks/ba-p/4495332",
+      "published": "2026-02-18T17:22:53+00:00",
+      "summary": "We are excited to announce that we have added assessment and migration support for Premium SSD v2,Ultra Disk and ZRS Disks as storage options in Azure Migrate, with Premium SSD v2 and ZRS Disks now Generally Available and Ultra Disk in Public Preview. This further enhances the assessment and...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "Lakshya_Jalan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "AI-Powered RAN and the Intelligent Edge: Microsoft’s Vision for the Future of Telecom",
       "link": "https://techcommunity.microsoft.com/t5/telecommunications-industry-blog/ai-powered-ran-and-the-intelligent-edge-microsoft-s-vision-for/ba-p/4495554",
       "published": "2026-02-18T16:15:41+00:00",
@@ -12246,5 +12246,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s posts were dominated by AI platform and developer workflow updates: Microsoft highlighted Azure AI Foundry changes including a model deployment pricing update, new “Frontier Tuning” techniques beyond classic fine-tuning, and observability guidance for Foundry operations, while GitHub expanded Copilot with GPT-5.6 Sol, Terra, and Luna, repository overviews, org-level Code Quality targeting, and a .NET app modernization experience. The other major themes were infrastructure modernization and resilience—covering Oracle optimization with Azure NetApp Files, planning for Extended Security Updates changes on Azure Local, cloud-sovereignty patterns using Radius and Dapr, GitHub’s durable repository ownership model, and security research on the destructive GigaWiper malware."
+  "summary": "Today’s Azure and Microsoft developer news centered on AI platform expansion, software modernization, and security. Key announcements included GPT-5.6 becoming generally available on Azure Databricks and in GitHub Copilot (with Sol, Terra, and Luna variants), pricing updates and observability guidance for Microsoft/Azure AI Foundry, and a new “Frontier Tuning” approach beyond classic fine-tuning; Microsoft also highlighted .NET modernization in the GitHub Copilot app, repository insights and code-quality controls in GitHub, and cloud-sovereignty architectures using Radius and Dapr.\n\nSecurity and governance were the other major themes: Azure Messaging stressed that securing message brokers requires more than disabling public access, Microsoft detailed the GigaWiper destructive malware, GitHub described giving every repository a durable owner, and Azure Arc warned customers to prepare for upcoming Extended Security Updates changes on Azure Local. On the applied AI side, Microsoft also showcased query decomposition to improve media asset search precision."
 }
