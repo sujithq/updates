@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-08T21:56:07.286001+00:00",
-  "totalArticles": 1113,
+  "lastUpdated": "2026-07-09T01:25:44.896466+00:00",
+  "totalArticles": 1112,
   "articles": [
     {
       "title": "Innersource security advisories are generally available",
@@ -40,6 +40,17 @@
       "link": "https://github.blog/changelog/2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli",
       "published": "2026-07-08T20:50:07+00:00",
       "summary": "Organizations can now mandate where GitHub Copilot sends OpenTelemetry (OTel) data, so telemetry flows to an approved collector without each developer setting OTEL_* environment variables. The configuration is delivered through… The post Enterprise-managed OpenTelemetry export for VS Code and CLI...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Deploy managed Copilot settings via MDM in VS Code and CLI",
+      "link": "https://github.blog/changelog/2026-07-08-deploy-managed-copilot-settings-via-mdm-in-vs-code-and-cli",
+      "published": "2026-07-08T20:38:56+00:00",
+      "summary": "Enterprise administrators can now deliver managed GitHub Copilot settings directly to devices through native mobile device management (MDM) and file-based configuration, in addition to the existing server-managed channel. This is… The post Deploy managed Copilot settings via MDM in VS Code and CLI...",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -271,17 +282,6 @@
       "link": "https://github.blog/changelog/2026-07-07-codex-as-agent-provider-and-agentic-enhancements-in-jetbrains-ides",
       "published": "2026-07-08T02:55:53+00:00",
       "summary": "This update brings Codex as a new agent provider in public preview, expands the Customizations editor with Hooks support and richer MCP server management, and introduces custom model support configured… The post Codex as agent provider and agentic enhancements in JetBrains IDEs appeared first on...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Kimi K2.7 now available for Copilot Business and Enterprise",
-      "link": "https://github.blog/changelog/2026-07-07-kimi-k2-7-now-available-for-copilot-business-and-enterprise",
-      "published": "2026-07-08T00:05:35+00:00",
-      "summary": "On July 1, 2026, we announced Kimi K2.7 would be available to Copilot Pro, Pro+, and Max plans. The model is now additionally available on Copilot Business and Copilot Enterprise… The post Kimi K2.7 now available for Copilot Business and Enterprise appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -12233,18 +12233,6 @@
       "author": "ankitsah",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Announcing: Microsoft transforms Licensing with Cloud Security and Confidential Computing",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-microsoft-transforms-licensing-with-cloud-security/ba-p/4423418",
-      "published": "2025-07-07T21:58:11+00:00",
-      "summary": "Microsoft is proud to announce the successful migration of its Windows Licensing Service to Azure, leveraging cutting-edge Confidential Computing and Managed Hardware Security Modules (mHSM) technology. This marks a significant breakthrough in the cloud adoption journey for workloads operating in...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "Sumithra_Shekhar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureconfidentialcomputingblog&page.size=50",
-      "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s updates were dominated by **AI agents, evaluation, and observability**: Microsoft highlighted **Foundry IQ in Copilot Studio** for grounding agents in enterprise data, introduced **ROI for agents in Azure AI Foundry**, and published multiple posts on **agent evaluation quality** and hidden variables affecting evals. On the operations side, Azure announced **Azure Monitor Observability Agent (preview)** with more autonomous capabilities, while security and governance themes showed up in **Security First Initiative cloud hardening**, **enterprise-managed OpenTelemetry export for VS Code and CLI**, and **generally available inner-source security advisories** in GitHub.\n\nDeveloper tooling and platform updates were also significant, including **GitHub Copilot in VS Code June 2026 releases**, **VS Code 1.128 and 1.129 Insiders**, **setup-java v5.5.0**, and ecosystem releases like **Terraform v1.15.8** and **etcd v3.7.0**. On the Azure platform side, Microsoft also emphasized hybrid and stateful app patterns with **Hybrid Logic Apps deployment on Red Hat OpenShift** and an agent-memory example built with **Vercel’s eve and Azure Cosmos DB**."
+  ]
 }
