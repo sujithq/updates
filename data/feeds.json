@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-07-09T06:31:34.853480+00:00",
+  "lastUpdated": "2026-07-09T11:43:36.239087+00:00",
   "totalArticles": 1113,
   "articles": [
+    {
+      "title": "Announcing Flat File Schema Generation support in Azure Logic Apps Standard",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-flat-file-schema-generation-support-in-azure-logic/ba-p/4534695",
+      "published": "2026-07-09T07:02:22+00:00",
+      "summary": "We’re excited to announce the preview of Flat File Schema Generation for Azure Logic Apps Standard. This new built-in action helps integration teams move faster by generating BizTalk compatible flat-file XSD schemas directly from sample flat-file payloads, reducing the manual effort required to...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Shree_Divya_M_V",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "What's new in Agent 365 – June 2026",
       "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/what-s-new-in-agent-365-june-2026/ba-p/4535107",
@@ -11,17 +22,6 @@
       "blogId": "agent-365-blog",
       "author": "alexpozin",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "A Paradigm Shift in Cloud Operations with Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/a-paradigm-shift-in-cloud-operations-with-azure-sre-agent/ba-p/4533244",
-      "published": "2026-07-08T22:41:52+00:00",
-      "summary": "Cloud operations are entering a new era. As systems grow in scale and complexity, the traditional model of reactive incident response, where engineers manually piece together signals across dozens of tools and portals, juggling all that context alone, is no longer sustainable. The operational toil...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Nir_Mashkowski",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -4326,6 +4326,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Introducing the Azure Functions serverless agents runtime (preview)",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-the-azure-functions-serverless-agents-runtime/ba-p/4523804",
+      "published": "2026-06-02T22:23:58+00:00",
+      "summary": "We're thrilled to announce the Azure Functions serverless agents runtime, now in public preview. It brings a new, markdown-first programming model for building AI agents as a first-class workload on Azure Functions, with the event-driven triggers, scale-to-zero economics, and operational...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "AnthonyChu",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "[In preview] Public Preview: Azure SQL updates for early-June",
       "link": "https://azure.microsoft.com/updates?id=563142",
       "published": "2026-06-02T22:15:55+00:00",
@@ -4825,17 +4836,6 @@
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/more-control-less-overhead-custom-domain-upgrades-in-azure-api/ba-p/4524661",
       "published": "2026-06-02T19:13:25+00:00",
       "summary": "Multiple custom domains in Premium v2 Large organizations rarely expose APIs under a single domain. A global enterprise might need api.contoso.com for external partners, apis.hrportal.contoso.com for internal teams, and dev.europe.contoso.com for a regional developer portal — all at once. Until...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Sreekanth_Thirthala",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure API Center Introduces a Data Plane MCP Server for Enterprise-Wide API and AI Asset Discovery",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/azure-api-center-introduces-a-data-plane-mcp-server-for/ba-p/4524635",
-      "published": "2026-06-02T19:11:59+00:00",
-      "summary": "As organizations scale their adoption of MCP-based tooling and AI agents, one challenge keeps surfacing: developers spend too much time figuring out what APIs, tools, and AI assets exist — and then manually wiring up connections to each one. Today, we're excited to announce general availability of...",
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "Sreekanth_Thirthala",
@@ -12245,5 +12245,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog update focuses on **Azure Logic Apps Standard**, announcing new support for **Flat File Schema Generation** in the **Integrations on Azure** experience. This adds a simpler way to generate schemas for **flat file processing**, making it easier for integration developers working with **EDI/B2B and enterprise messaging workflows** to transform and validate non-XML structured data inside Logic Apps."
 }
