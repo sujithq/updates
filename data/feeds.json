@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-07-10T13:49:14.477325+00:00",
+  "lastUpdated": "2026-07-10T16:50:11.568425+00:00",
   "totalArticles": 1113,
   "articles": [
+    {
+      "title": "Better tools made Copilot code review worse. Here’s how we actually improved it.",
+      "link": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
+      "published": "2026-07-10T15:57:47+00:00",
+      "summary": "How migrating Copilot code review to shared Unix-style code exploration tools reduced review cost by reshaping agent workflows around pull request evidence. The post Better tools made Copilot code review worse. Here’s how we actually improved it. appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Napalys Klicius",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Shrinking Azure Pipeline task extensions using esbuild",
+      "link": "https://devblogs.microsoft.com/devops/shrinking-azure-pipeline-task-extensions-using-esbuild/",
+      "published": "2026-07-10T14:45:56+00:00",
+      "summary": "TL;DR We bundled an internal Azure Pipelines task extension into a single bundled JavaScript file using esbuild. The task package dropped from tens of megabytes and thousands of files to three files per task ( script.js , task.json , and icon.png ). The change took about 20 lines of build tooling....",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "David Paquette",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "GitHub Mobile: Improved filters and sorting for Copilot sessions",
       "link": "https://github.blog/changelog/2026-07-10-github-mobile-improved-filters-and-sorting-for-copilot-sessions",
@@ -12,17 +34,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "published": "2026-07-10T01:55:02+00:00",
-      "summary": "Starting today, OpenAI's GPT-5.6 family of models is available in Microsoft 365 Copilot—in Word, Excel, PowerPoint, Chat and Cowork. OpenAI and Microsoft partnered together to optimize GPT-5.6 for knowledge work across Microsoft 365 apps and make it the preferred model for Microsoft 365 Copilot. In...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "xiasong",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "[In preview] Public Preview: Manage Azure Chaos Studio from the Azure CLI",
@@ -56,6 +67,17 @@
       "author": "saikishor",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "New pull requests dashboard is now generally available",
+      "link": "https://github.blog/changelog/2026-07-09-new-pull-requests-dashboard-is-now-generally-available",
+      "published": "2026-07-09T20:48:29+00:00",
+      "summary": "The refreshed pull requests dashboard is now generally available at github.com/pulls. It gives you a single home to track, prioritize, and act on the pull requests that need your attention,… The post New pull requests dashboard is now generally available appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "[Launched] Generally Available: Open AI GPT-5.6 on Azure Databricks",
@@ -366,17 +388,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Let’s Learn GitHub Copilot App – Free Virtual Training Event",
-      "link": "https://devblogs.microsoft.com/blog/lets-learn-github-copilot-app-free-virtual-training-event",
-      "published": "2026-07-08T17:30:28+00:00",
-      "summary": "Join us for a free online event series kicking off July 16 to learn how to get started with the GitHub Copilot App!",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Katie Savage",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "setup-java v5.5.0: signature verification, Kona JDK, and Maven fixes",
       "link": "https://github.blog/changelog/2026-07-08-setup-java-v5-5-0-signature-verification-kona-jdk-and-maven-fixes",
       "published": "2026-07-08T17:05:06+00:00",
@@ -440,17 +451,6 @@
       "blogId": "githubblog",
       "author": "Bruno Borges",
       "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "npm install-time security and GAT bypass2fa deprecation",
-      "link": "https://github.blog/changelog/2026-07-08-npm-install-time-security-and-gat-bypass2fa-deprecation",
-      "published": "2026-07-08T15:00:40+00:00",
-      "summary": "npm v12 is now generally available and tagged latest. This major release turns on the install-time security defaults we announced in June, and it’s also where we begin a deprecation… The post npm install-time security and GAT bypass2fa deprecation appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1463,17 +1463,6 @@
       "blogId": "microsoftsecurity",
       "author": "Microsoft Defender Security Research Team and Microsoft Defender Experts",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Inside the Advisory Database and what happens when vulnerability volume breaks records",
-      "link": "https://github.blog/security/supply-chain-security/inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks-records/",
-      "published": "2026-06-29T16:10:20+00:00",
-      "summary": "The GitHub Advisory Database is processing more vulnerability reports than ever before. Here's what's driving the surge, how we're responding, and how the community can help. The post Inside the Advisory Database and what happens when vulnerability volume breaks records appeared first on The GitHub...",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Natalie Guevara",
-      "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -2544,6 +2533,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "When your agent extensions fight each other",
+      "link": "https://devblogs.microsoft.com/blog/when-your-agent-extensions-fight-each-other",
+      "published": "2026-06-17T14:55:53+00:00",
+      "summary": "This is the fourth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "v1.16.0-alpha20260617",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260617",
       "published": "2026-06-17T14:07:50+00:00",
@@ -2861,6 +2861,17 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Word: Legal Agent in Frontier",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/word-legal-agent-in-frontier/ba-p/4516218",
+      "published": "2026-06-12T14:50:28+00:00",
+      "summary": "Legal workflows demand precision and auditability. While general-purpose AI tools can assist with document review, they aren’t designed to follow the structured processes legal teams rely on to evaluate risk and maintain consistency. Building on our recent announcement of agentic capabilities in...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "Sumit_Chauhan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "What’s New in Notebooks | May 2026",
@@ -8154,17 +8165,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Axios npm Supply Chain Compromise – Guidance for Azure Pipelines Customers",
-      "link": "https://devblogs.microsoft.com/devops/axios-npm-supply-chain-compromise-guidance-for-azure-pipelines-customers/",
-      "published": "2026-04-24T10:40:43+00:00",
-      "summary": "On March 31, 2026, malicious versions of the widely used JavaScript HTTP client library Axios were briefly published to the npm registry as part of a supply chain attack. The affected versions — 1.14.1 and 0.30.4 — included a hidden malicious dependency that executed during installation and...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Josef Sin",
-      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Kubernetes v1.36: User Namespaces in Kubernetes are finally GA",
       "link": "https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/",
       "published": "2026-04-23T18:35:00+00:00",
@@ -12246,5 +12246,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s updates focus on AI productivity enhancements across GitHub and Microsoft 365. GitHub Mobile now adds improved filtering and sorting for Copilot sessions, making it easier to manage and revisit AI-assisted coding interactions, while Microsoft announced that OpenAI’s GPT-5.6 is now available in Microsoft 365 Copilot, signaling a continued push to bring newer foundation models into everyday workplace tools like Word, Excel, and Teams."
+  "summary": "Today’s Azure/GitHub updates focused on developer tooling quality and efficiency: GitHub detailed how stronger evaluation methods—not just better tooling—ultimately improved Copilot code review, while Azure DevOps showed how bundling Pipeline task extensions with **esbuild** can significantly shrink extension size and streamline distribution. On the product side, **GitHub Mobile** added better **filters and sorting for Copilot sessions**, making it easier for developers to manage AI-assisted workflows on mobile."
 }
