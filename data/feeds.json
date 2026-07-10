@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-07-09T22:11:09.101283+00:00",
-  "totalArticles": 1113,
+  "lastUpdated": "2026-07-10T01:23:01.785247+00:00",
+  "totalArticles": 1114,
   "articles": [
+    {
+      "title": "[In preview] Public Preview: Manage Azure Chaos Studio from the Azure CLI",
+      "link": "https://azure.microsoft.com/updates?id=567225",
+      "published": "2026-07-09T22:57:33+00:00",
+      "summary": "You can now create and run Azure Chaos Studio resilience Scenarios directly from the Azure CLI with the new az chaos extension — no more hand-assembling REST calls and JSON files. Get started in one step: az chaos setup stands up a workspace, wires up per",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
     {
       "title": "Securing message brokers takes more than turning off public access",
       "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/securing-message-brokers-takes-more-than-turning-off-public/ba-p/4533257",
@@ -14,6 +25,28 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
+      "published": "2026-07-09T21:45:25+00:00",
+      "summary": "Starting today, OpenAI's GPT-5.6 family of models is available in Microsoft 365 Copilot—in Word, Excel, PowerPoint, Chat and Cowork. OpenAI and Microsoft partnered together to optimize GPT-5.6 for knowledge work across Microsoft 365 apps and make it the preferred model for Microsoft 365 Copilot. In...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "xiasong",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure DDoS Protection & Azure WAF: A Layered Defense for Modern DDoS Attacks",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-ddos-protection-azure-waf-a-layered-defense-for-modern/ba-p/4523745",
+      "published": "2026-07-09T21:33:51+00:00",
+      "summary": "Introduction: The Need for Layered DDoS Defense Organizations today operate in an environment where Distributed Denial of Service (DDoS) attacks continue to evolve across both network and application layers. To help organizations build resilient, internet-facing applications and services, Microsoft...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "[Launched] Generally Available: Open AI GPT-5.6 on Azure Databricks",
       "link": "https://azure.microsoft.com/updates?id=567431",
       "published": "2026-07-09T20:21:12+00:00",
@@ -23,6 +56,17 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "Secure Native Access to Azure Kubernetes Service (AKS) Private Clusters with Azure Bastion",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/secure-native-access-to-azure-kubernetes-service-aks-private/ba-p/4535123",
+      "published": "2026-07-09T18:07:27+00:00",
+      "summary": "Written in Collaboration with AvirupChat​ ShabazShaik​ Mohit_Kumar​ YuriDiogenes​ Introduction: As organizations move toward containerized workloads such as Azure Kubernetes Service (AKS), secure access to cluster resources becomes critical. Making the Kubernetes API server private, therefore,...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Microsoft Foundry Model Deployment Pricing Update",
@@ -69,14 +113,25 @@
       "sourceType": "rss"
     },
     {
-      "title": "Plan for Upcoming Changes to Extended Security Updates on Azure Local",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/plan-for-upcoming-changes-to-extended-security-updates-on-azure/ba-p/4533167",
-      "published": "2026-07-09T16:08:31+00:00",
-      "summary": "Beginning April 1 2026, Microsoft introduced a consistent pricing model for Extended Security Updates (ESU) for SQL Server and Windows products, including SQL Server 2016, Windows 10 Enterprise LTSB 2016 and Windows Server 2016. This update aims to simplify the Extended Security Update pricing so...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "sydbruck",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "title": "Optimize Oracle workloads on Azure with Azure NetApp Files",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/optimize-oracle-workloads-on-azure-with-azure-netapp-files/ba-p/4532644",
+      "published": "2026-07-09T16:22:43+00:00",
+      "summary": "Table of Contents Introduction Azure NetApp Files Advancements Overview Azure NetApp Files Advancements in Detail Flexible service level capacity pools Oracle Direct NFS Application volume group for Oracle Availability zone volume placement High availability Standard network features Simplified...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "GeertVanTeylingen",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Enhanced host pool management for Azure Virtual Desktop is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/enhanced-host-pool-management-for-azure-virtual-desktop-is-now/ba-p/4534612",
+      "published": "2026-07-09T16:00:00+00:00",
+      "summary": "We’re excited to announce the general availability of enhanced host pool management for Azure Virtual Desktop. Enhanced host pool management includes: Session host configuration and update Dynamic autoscale Ephemeral OS disks These features make it easier than ever to manage secure, reliable, and...",
+      "blog": "Azure Virtual Desktop",
+      "blogId": "azurevirtualdesktopblog",
+      "author": "NeoCai",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurevirtualdesktopblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -100,17 +155,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Designing for cloud sovereignty with Radius and Dapr",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/designing-for-cloud-sovereignty-with-radius-and-dapr/ba-p/4535067",
-      "published": "2026-07-09T15:53:32+00:00",
-      "summary": "In 2026, cloud sovereignty matters more than ever. It has moved from a policy discussion to an operational and architectural problem. The word “sovereignty” gets used loosely, and it can mean different things to different people. While definitions vary, in this post we define “cloud sovereignty” as...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "CollinBrian",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
@@ -146,6 +190,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Announcing Flat File Schema Generation support in Azure Logic Apps Standard",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-flat-file-schema-generation-support-in-azure-logic/ba-p/4534695",
+      "published": "2026-07-09T07:02:22+00:00",
+      "summary": "We’re excited to announce the preview of Flat File Schema Generation for Azure Logic Apps Standard. This new built-in action helps integration teams move faster by generating BizTalk compatible flat-file XSD schemas directly from sample flat-file payloads, reducing the manual effort required to...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Shree_Divya_M_V",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "From Noisy Queries to Precise Frames: Query Decomposition for Media Asset Search",
       "link": "https://devblogs.microsoft.com/ise/from_noisy_queries_to_precise_frames/",
       "published": "2026-07-09T07:00:00+00:00",
@@ -165,17 +220,6 @@
       "blogId": "agent-365-blog",
       "author": "alexpozin",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "A Paradigm Shift in Cloud Operations with Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/a-paradigm-shift-in-cloud-operations-with-azure-sre-agent/ba-p/4533244",
-      "published": "2026-07-08T22:41:52+00:00",
-      "summary": "Cloud operations are entering a new era. As systems grow in scale and complexity, the traditional model of reactive incident response, where engineers manually piece together signals across dozens of tools and portals, juggling all that context alone, is no longer sustainable. The operational toil...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Nir_Mashkowski",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -221,6 +265,17 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Designing for cloud sovereignty with Radius and Dapr",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/designing-for-cloud-sovereignty-with-radius-and-dapr/ba-p/4535067",
+      "published": "2026-07-08T20:43:21+00:00",
+      "summary": "In 2026, cloud sovereignty matters more than ever. It has moved from a policy discussion to an operational and architectural problem. The word “sovereignty” gets used loosely, and it can mean different things to different people. While definitions vary, in this post we define “cloud sovereignty” as...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "CollinBrian",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Deploy managed Copilot settings via MDM in VS Code and CLI",
@@ -1441,6 +1496,17 @@
       "blogId": "cosmosdbblog",
       "author": "Theo van Kraay",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Routing agent traffic is really three decisions",
+      "link": "https://blog.aks.azure.com/2026/06/29/llm-routing-on-aks",
+      "published": "2026-06-29T00:00:00+00:00",
+      "summary": "Agents make many LLM calls in loops, so routing each to the right model — cheap self-hosted or frontier — keeps them affordable. Three decisions on AKS.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft",
+      "feedUrl": "https://blog.aks.azure.com/rss.xml",
       "sourceType": "rss"
     },
     {
@@ -2773,17 +2839,6 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Word: Legal Agent in Frontier",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/word-legal-agent-in-frontier/ba-p/4516218",
-      "published": "2026-06-12T14:50:28+00:00",
-      "summary": "Legal workflows demand precision and auditability. While general-purpose AI tools can assist with document review, they aren’t designed to follow the structured processes legal teams rely on to evaluate risk and maintain consistency. Building on our recent announcement of agentic capabilities in...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "Sumit_Chauhan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "What’s New in Notebooks | May 2026",
@@ -4370,6 +4425,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Introducing the Azure Functions serverless agents runtime (preview)",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-the-azure-functions-serverless-agents-runtime/ba-p/4523804",
+      "published": "2026-06-02T22:23:58+00:00",
+      "summary": "We're thrilled to announce the Azure Functions serverless agents runtime, now in public preview. It brings a new, markdown-first programming model for building AI agents as a first-class workload on Azure Functions, with the event-driven triggers, scale-to-zero economics, and operational...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "AnthonyChu",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "[In preview] Public Preview: Azure SQL updates for early-June",
       "link": "https://azure.microsoft.com/updates?id=563142",
       "published": "2026-06-02T22:15:55+00:00",
@@ -4869,17 +4935,6 @@
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/more-control-less-overhead-custom-domain-upgrades-in-azure-api/ba-p/4524661",
       "published": "2026-06-02T19:13:25+00:00",
       "summary": "Multiple custom domains in Premium v2 Large organizations rarely expose APIs under a single domain. A global enterprise might need api.contoso.com for external partners, apis.hrportal.contoso.com for internal teams, and dev.europe.contoso.com for a regional developer portal — all at once. Until...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Sreekanth_Thirthala",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure API Center Introduces a Data Plane MCP Server for Enterprise-Wide API and AI Asset Discovery",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/azure-api-center-introduces-a-data-plane-mcp-server-for/ba-p/4524635",
-      "published": "2026-06-02T19:11:59+00:00",
-      "summary": "As organizations scale their adoption of MCP-based tooling and AI agents, one challenge keeps surfacing: developers spend too much time figuring out what APIs, tools, and AI assets exist — and then manually wiring up connections to each one. Today, we're excited to announce general availability of...",
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "Sreekanth_Thirthala",
@@ -5954,17 +6009,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Override Scale Rules in Azure Functions on Azure Container Apps",
-      "link": "https://azure.microsoft.com/updates?id=562511",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Azure Functions on Container Apps has traditionally used platform-managed scaling, where triggers are automatically translated into KEDA scale rules. With the new allowScalingRuleOverride property, customers can now choose to override platform-managed sca",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Secure, Modern Access to Azure Files on macOS with MS Entra ID",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/secure-modern-access-to-azure-files-on-macos-with-ms-entra-id/ba-p/4524077",
       "published": "2026-06-02T18:55:03+00:00",
@@ -6182,17 +6226,6 @@
       "blogId": "modernizationbestpracticesblog",
       "author": "David_Lyth",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure DDoS Protection & Azure WAF: A Layered Defense for Modern DDoS Attacks",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-ddos-protection-azure-waf-a-layered-defense-for-modern/ba-p/4523745",
-      "published": "2026-05-29T06:52:47+00:00",
-      "summary": "Introduction: The Need for Layered DDoS Defense Organizations today operate in an environment where Distributed Denial of Service (DDoS) attacks continue to evolve across both network and application layers. To help organizations build resilient, internet-facing applications and services, Microsoft...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "saikishor",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -9265,6 +9298,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Announcing Public Preview of Argo CD extension on AKS and Azure Arc enabled Kubernetes clusters",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/announcing-public-preview-of-argo-cd-extension-on-aks-and-azure/ba-p/4504497",
+      "published": "2026-03-24T08:00:00+00:00",
+      "summary": "We are excited to announce public preview of the Argo CD extension for Azure Kubernetes Service (AKS) and Azure Arc-enabled Kubernetes clusters. As GitOps becomes the standard for deploying and operating applications at scale, enterprises need a way to implement GitOps while staying compliant with...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Poornima99",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "New Oracle Autonomous AI Database - Dedicated option on Oracle AI Database@Azure",
       "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/new-oracle-autonomous-ai-database-dedicated-option-on-oracle-ai/ba-p/4504929",
       "published": "2026-03-24T08:00:00+00:00",
@@ -9694,17 +9738,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Dynamic Resource Allocation (DRA) with NVIDIA virtualized GPU (vGPU) on AKS",
-      "link": "https://blog.aks.azure.com/2026/03/06/dra-with-vGPUs-on-aks",
-      "published": "2026-03-06T00:00:00+00:00",
-      "summary": "Configure dynamic resource allocation (DRA) for NVIDIA vGPU workloads and learn the prerequisites with setup steps on Azure Kubernetes Service (AKS).",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft",
-      "feedUrl": "https://blog.aks.azure.com/rss.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Windows Terminal Preview 1.25 Release",
       "link": "https://devblogs.microsoft.com/commandline/windows-terminal-preview-1-25-release/",
       "published": "2026-03-05T22:28:49+00:00",
@@ -9966,17 +9999,6 @@
       "blogId": "azurehighperformancecomputingblog",
       "author": "Daramfon",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure Migrate: Now Supporting Premium SSD V2, Ultra and ZRS Disks as Targets",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-migrate-now-supporting-premium-ssd-v2-ultra-and-zrs-disks/ba-p/4495332",
-      "published": "2026-02-18T17:22:53+00:00",
-      "summary": "We are excited to announce that we have added assessment and migration support for Premium SSD v2,Ultra Disk and ZRS Disks as storage options in Azure Migrate, with Premium SSD v2 and ZRS Disks now Generally Available and Ultra Disk in Public Preview. This further enhances the assessment and...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "Lakshya_Jalan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -11410,17 +11432,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "General Availability of CAPTCHA in Azure Front Door WAF",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/general-availability-of-captcha-in-azure-front-door-waf/ba-p/4464704",
-      "published": "2025-10-29T18:00:25+00:00",
-      "summary": "We are excited to announce the General Availability (GA) of the Azure Web Application Firewall (WAF) CAPTCHA challenge for Azure Front Door, empowering customers to better defend their web applications against automated bot attacks while ensuring legitimate users can still access their apps...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "andrewmathu",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "🔥Fixing MCP Tool Name Collisions When Using Multiple MCP Servers",
       "link": "https://www.letsdodevops.com/p/fixing-mcp-tool-name-collisions-when",
       "published": "2025-10-28T14:31:26+00:00",
@@ -12245,6 +12256,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure and Microsoft developer news centered on AI platform expansion, software modernization, and security. Key announcements included GPT-5.6 becoming generally available on Azure Databricks and in GitHub Copilot (with Sol, Terra, and Luna variants), pricing updates and observability guidance for Microsoft/Azure AI Foundry, and a new “Frontier Tuning” approach beyond classic fine-tuning; Microsoft also highlighted .NET modernization in the GitHub Copilot app, repository insights and code-quality controls in GitHub, and cloud-sovereignty architectures using Radius and Dapr.\n\nSecurity and governance were the other major themes: Azure Messaging stressed that securing message brokers requires more than disabling public access, Microsoft detailed the GigaWiper destructive malware, GitHub described giving every repository a durable owner, and Azure Arc warned customers to prepare for upcoming Extended Security Updates changes on Azure Local. On the applied AI side, Microsoft also showcased query decomposition to improve media asset search precision."
+  ]
 }
