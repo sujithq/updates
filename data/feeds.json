@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-11T15:42:19.469971+00:00",
-  "totalArticles": 1113,
+  "lastUpdated": "2026-07-11T18:40:59.130368+00:00",
+  "totalArticles": 1112,
   "articles": [
     {
       "title": "Streaming and Batch Data Architectures with Microsoft Fabric to Azure Databricks",
@@ -484,6 +484,17 @@
       "blogId": "terraform",
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Let’s Learn GitHub Copilot App – Free Virtual Training Event",
+      "link": "https://devblogs.microsoft.com/blog/lets-learn-github-copilot-app-free-virtual-training-event",
+      "published": "2026-07-08T17:30:28+00:00",
+      "summary": "Join us for a free online event series kicking off July 16 to learn how to get started with the GitHub Copilot App!",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Katie Savage",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -2575,17 +2586,6 @@
       "author": "derricklee",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "When your agent extensions fight each other",
-      "link": "https://devblogs.microsoft.com/blog/when-your-agent-extensions-fight-each-other",
-      "published": "2026-06-17T14:55:53+00:00",
-      "summary": "This is the fourth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "v1.16.0-alpha20260617",
@@ -12233,18 +12233,7 @@
       "author": "gaurigorhe",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=oracleonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Terraform Azure Verified Modules for Platform Landing Zone (ALZ) Migration Guidance and Tooling",
-      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/terraform-azure-verified-modules-for-platform-landing-zone-alz/ba-p/4432035",
-      "published": "2025-07-10T16:29:00+00:00",
-      "summary": "We are very pleased to announce that migration guidance and tooling to aid Terraform import is now moving from public preview to being generally available. Where to find it Head over to aka.ms/alz/tf/migrate to read our guidance and find our tooling. What does it do The migration guidance talks you...",
-      "blog": "Azure Tools",
-      "blogId": "azuretoolsblog",
-      "author": "jaredfholgate",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage centered on modern data architecture patterns, with a post on **Analytics on Azure** explaining how to connect **Microsoft Fabric** and **Azure Databricks** for both **streaming** and **batch** workloads. The key theme was building unified analytics pipelines across Microsoft’s data platform and Databricks, likely emphasizing interoperable lakehouse-style processing, real-time ingestion, and scalable enterprise analytics on Azure."
+  "summary": "Today’s Azure blog coverage focused on modern data architecture patterns, with a post on **streaming and batch pipelines using Microsoft Fabric and Azure Databricks**. The article highlights how organizations can combine **Microsoft Fabric** for unified data experiences with **Azure Databricks** for large-scale data engineering and analytics, emphasizing architectures that support both **real-time streaming** and **batch processing** workloads."
 }
