@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-07-12T21:37:17.928708+00:00",
-  "totalArticles": 1112,
+  "lastUpdated": "2026-07-13T01:20:02.048995+00:00",
+  "totalArticles": 1111,
   "articles": [
+    {
+      "title": "The AI Agent Lifecycle: A Simple Guide",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/the-ai-agent-lifecycle-a-simple-guide/ba-p/4535729",
+      "published": "2026-07-13T00:52:49+00:00",
+      "summary": "The Bigger Picture Building an AI agent is fundamentally different from building traditional software. With a website or application, teams typically design, develop, test, and release. Once deployed, the focus shifts primarily to maintenance and feature enhancements. AI agents operate differently....",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "supriyas",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Secure Native Access to Azure Kubernetes Service (AKS) Private Clusters with Azure Bastion",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/secure-native-access-to-azure-kubernetes-service-aks-private/ba-p/4535123",
@@ -8165,17 +8176,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Designing a Medallion Framework — A Decision Guide",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/designing-a-medallion-framework-a-decision-guide/ba-p/4514349",
-      "published": "2026-04-24T16:11:09+00:00",
-      "summary": "Everyone draws the same picture: Bronze → Silver → Gold. Three boxes, three arrows. Done. What that picture hides is the dozen design decisions you have to make inside each box — and the ones you make at the boundaries between them. Get those right and onboarding the 200th table feels like...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Subhajit1994",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Kubernetes v1.36: User Namespaces in Kubernetes are finally GA",
       "link": "https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/",
       "published": "2026-04-23T18:35:00+00:00",
@@ -12222,17 +12222,7 @@
       "author": "xinye-tang",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Empower Your Encryption Strategy using Azure Key Vault for Oracle Database@Azure",
-      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/empower-your-encryption-strategy-using-azure-key-vault-for/ba-p/4431786",
-      "published": "2025-07-11T23:52:49+00:00",
-      "summary": "This blog is co-authored with Pravin Jha, Principal Product Manager, Exadata and Database Cloud Product Management Many enterprises run mission-critical applications on Oracle Exadata Database Service on Dedicated Infrastructure in Azure. Organizations have relied on Oracle Wallet, OCI Vault, or...",
-      "blog": "Oracle on Azure",
-      "blogId": "oracleonazureblog",
-      "author": "gaurigorhe",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=oracleonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage centered on AI agent design and operations, with **Azure Architecture** publishing **“The AI Agent Lifecycle: A Simple Guide.”** The post frames agent development as a full lifecycle—from planning and building to deployment, evaluation, and ongoing governance—highlighting core Azure-aligned themes such as **LLM-powered agents**, **orchestration**, **tool and data integration**, and operational concerns like **monitoring, security, and responsible AI**."
 }
