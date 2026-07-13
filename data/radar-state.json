@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T11:48:59.245311+00:00",
+  "lastUpdated": "2026-07-13T10:39:51.409343+00:00",
   "features": {
     "Azure SQL mid-March 2026 updates": {
       "status": "ga",
@@ -258,12 +258,12 @@
       "published": "2026-03-27T00:23:58+00:00"
     },
     "Pull requests dashboard": {
-      "status": "preview",
-      "link": "https://github.blog/changelog/2026-03-26-new-pull-requests-dashboard-is-in-public-preview",
-      "title": "New pull requests dashboard is in public preview",
+      "status": "ga",
+      "link": "https://github.blog/changelog/2026-07-09-new-pull-requests-dashboard-is-now-generally-available",
+      "title": "New pull requests dashboard is now generally available",
       "service": "GitHub",
-      "lastSeen": "2026-03-30T08:57:31.805614+00:00",
-      "published": "2026-03-26T17:00:33+00:00"
+      "lastSeen": "2026-07-13T10:39:51.409298+00:00",
+      "published": "2026-07-09T20:48:29+00:00"
     },
     "Custom images for GitHub-hosted runners": {
       "status": "ga",
@@ -755,11 +755,11 @@
     },
     "Network Security Perimeter support": {
       "status": "ga",
-      "link": "https://azure.microsoft.com/updates?id=559899",
-      "title": "[Launched] Generally Available: Network Security Perimeter for Azure Service Bus",
-      "service": "Azure Service Bus",
-      "lastSeen": "2026-04-13T09:20:32.414491+00:00",
-      "published": "2026-04-06T18:00:04+00:00"
+      "link": "https://azure.microsoft.com/updates?id=567203",
+      "title": "[Launched] Generally Available: Network Security Perimeter support for Azure Event Hubs",
+      "service": "Azure Event Hubs",
+      "lastSeen": "2026-07-13T10:39:51.409325+00:00",
+      "published": "2026-07-07T17:35:19+00:00"
     },
     "Rule impact analysis": {
       "status": "preview",
@@ -4120,6 +4120,142 @@
       "service": "Microsoft Foundry",
       "lastSeen": "2026-07-06T11:48:59.245306+00:00",
       "published": "2026-06-30T18:58:19+00:00"
+    },
+    "Azure CLI support for Chaos Studio": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=567225",
+      "title": "[In preview] Public Preview: Manage Azure Chaos Studio from the Azure CLI",
+      "service": "Azure Chaos Studio",
+      "lastSeen": "2026-07-13T10:39:51.409288+00:00",
+      "published": "2026-07-09T22:57:33+00:00"
+    },
+    "OpenAI GPT-5.6": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=567431",
+      "title": "[Launched] Generally Available: Open AI GPT-5.6 on Azure Databricks",
+      "service": "Azure Databricks",
+      "lastSeen": "2026-07-13T10:39:51.409303+00:00",
+      "published": "2026-07-09T20:21:12+00:00"
+    },
+    "Enhanced host pool management": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/enhanced-host-pool-management-for-azure-virtual-desktop-is-now/ba-p/4534612",
+      "title": "Enhanced host pool management for Azure Virtual Desktop is now generally available",
+      "service": "Azure Virtual Desktop",
+      "lastSeen": "2026-07-13T10:39:51.409305+00:00",
+      "published": "2026-07-09T16:00:00+00:00"
+    },
+    "Innersource security advisories": {
+      "status": "ga",
+      "link": "https://github.blog/changelog/2026-07-08-innersource-security-advisories-are-generally-available",
+      "title": "Innersource security advisories are generally available",
+      "service": "GitHub Advanced Security",
+      "lastSeen": "2026-07-13T10:39:51.409308+00:00",
+      "published": "2026-07-08T21:30:35+00:00"
+    },
+    "Autonomous operations for Observability Agent": {
+      "status": "preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-observability-agent-goes-autonomous-preview/ba-p/4517265",
+      "title": "Azure Monitor Observability Agent goes autonomous (preview)",
+      "service": "Azure Monitor",
+      "lastSeen": "2026-07-13T10:39:51.409310+00:00",
+      "published": "2026-07-08T16:16:16+00:00"
+    },
+    "Observability Agent": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-observability-agent-goes-autonomous-preview/ba-p/4517265",
+      "title": "Azure Monitor Observability Agent goes autonomous (preview)",
+      "service": "Azure Monitor",
+      "lastSeen": "2026-07-13T10:39:51.409312+00:00",
+      "published": "2026-07-08T16:16:16+00:00"
+    },
+    "WAF exceptions": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=567218",
+      "title": "[In preview] Public Preview: Exceptions in WAF for Azure Application Gateway and Azure Front Door",
+      "service": "Azure Web Application Firewall",
+      "lastSeen": "2026-07-13T10:39:51.409313+00:00",
+      "published": "2026-07-07T17:42:50+00:00"
+    },
+    "Workspaces": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=567184",
+      "title": "[In preview] Public Preview: Azure Chaos Studio Workspaces and Scenarios",
+      "service": "Azure Chaos Studio",
+      "lastSeen": "2026-07-13T10:39:51.409315+00:00",
+      "published": "2026-07-07T17:40:32+00:00"
+    },
+    "Scenarios": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=567184",
+      "title": "[In preview] Public Preview: Azure Chaos Studio Workspaces and Scenarios",
+      "service": "Azure Chaos Studio",
+      "lastSeen": "2026-07-13T10:39:51.409317+00:00",
+      "published": "2026-07-07T17:40:32+00:00"
+    },
+    "Export jobs": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=566591",
+      "title": "[In preview] Public Preview: Export historical data from Log Analytics workspace with Export jobs",
+      "service": "Log Analytics",
+      "lastSeen": "2026-07-13T10:39:51.409323+00:00",
+      "published": "2026-07-07T17:37:55+00:00"
+    },
+    "Confidential Computing support": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=567212",
+      "title": "[Launched] Generally Available: Confidential Computing support for Azure Event Hubs Dedicated",
+      "service": "Azure Event Hubs Dedicated",
+      "lastSeen": "2026-07-13T10:39:51.409328+00:00",
+      "published": "2026-07-07T17:33:53+00:00"
+    },
+    "Azure Red Hat OpenShift in Chile Central": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=566732",
+      "title": "[Launched] Generally Available: Azure Red Hat OpenShift in Chile Central",
+      "service": "Azure Red Hat OpenShift",
+      "lastSeen": "2026-07-13T10:39:51.409330+00:00",
+      "published": "2026-07-07T17:31:55+00:00"
+    },
+    "Export Job": {
+      "status": "preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/export-historical-data-from-log-analytics-workspace-with-export/ba-p/4532425",
+      "title": "Export historical data from Log Analytics workspace with Export Job (preview)",
+      "service": "Log Analytics",
+      "lastSeen": "2026-07-13T10:39:51.409332+00:00",
+      "published": "2026-07-07T09:53:09+00:00"
+    },
+    "Claude": {
+      "status": "ga",
+      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-june-2026/",
+      "title": "What’s New in Microsoft Foundry | June 2026",
+      "service": "Microsoft Foundry",
+      "lastSeen": "2026-07-13T10:39:51.409334+00:00",
+      "published": "2026-07-07T07:10:25+00:00"
+    },
+    "Agent Optimizer": {
+      "status": "private-preview",
+      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-june-2026/",
+      "title": "What’s New in Microsoft Foundry | June 2026",
+      "service": "Microsoft Foundry",
+      "lastSeen": "2026-07-13T10:39:51.409336+00:00",
+      "published": "2026-07-07T07:10:25+00:00"
+    },
+    "Microsoft Entra ID-based access for Blob Storage SFTP": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=567085",
+      "title": "[Launched] Generally Available: Microsoft Entra ID-based access for Azure Blob Storage SFTP",
+      "service": "Azure Blob Storage",
+      "lastSeen": "2026-07-13T10:39:51.409338+00:00",
+      "published": "2026-07-06T15:54:08+00:00"
+    },
+    "5x churn support": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=566966",
+      "title": "[Launched] Generally Available: Support 5x churn in Azure Site Recovery",
+      "service": "Azure Site Recovery",
+      "lastSeen": "2026-07-13T10:39:51.409340+00:00",
+      "published": "2026-07-06T15:00:33+00:00"
     }
   }
 }
