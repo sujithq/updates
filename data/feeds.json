@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-07-13T05:56:24.699636+00:00",
+  "lastUpdated": "2026-07-13T08:40:51.424498+00:00",
   "totalArticles": 1111,
   "articles": [
+    {
+      "title": "The AI Agent Lifecycle: A Simple Guide",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/the-ai-agent-lifecycle-a-simple-guide/ba-p/4535729",
+      "published": "2026-07-13T00:52:49+00:00",
+      "summary": "The Bigger Picture Building an AI agent is fundamentally different from building traditional software. With a website or application, teams typically design, develop, test, and release. Once deployed, the focus shifts primarily to maintenance and feature enhancements. AI agents operate differently....",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "supriyas",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Secure Native Access to Azure Kubernetes Service (AKS) Private Clusters with Azure Bastion",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/secure-native-access-to-azure-kubernetes-service-aks-private/ba-p/4535123",
@@ -484,17 +495,6 @@
       "blogId": "terraform",
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Let’s Learn GitHub Copilot App – Free Virtual Training Event",
-      "link": "https://devblogs.microsoft.com/blog/lets-learn-github-copilot-app-free-virtual-training-event",
-      "published": "2026-07-08T17:30:28+00:00",
-      "summary": "Join us for a free online event series kicking off July 16 to learn how to get started with the GitHub Copilot App!",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Katie Savage",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -2586,6 +2586,17 @@
       "author": "derricklee",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "When your agent extensions fight each other",
+      "link": "https://devblogs.microsoft.com/blog/when-your-agent-extensions-fight-each-other",
+      "published": "2026-06-17T14:55:53+00:00",
+      "summary": "This is the fourth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "v1.16.0-alpha20260617",
@@ -8165,17 +8176,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Designing a Medallion Framework — A Decision Guide",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/designing-a-medallion-framework-a-decision-guide/ba-p/4514349",
-      "published": "2026-04-24T16:11:09+00:00",
-      "summary": "Everyone draws the same picture: Bronze → Silver → Gold. Three boxes, three arrows. Done. What that picture hides is the dozen design decisions you have to make inside each box — and the ones you make at the boundaries between them. Get those right and onboarding the 200th table feels like...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Subhajit1994",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Kubernetes v1.36: User Namespaces in Kubernetes are finally GA",
       "link": "https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/",
       "published": "2026-04-23T18:35:00+00:00",
@@ -12223,5 +12223,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage centers on AI agents, with **Azure Architecture** publishing **“The AI Agent Lifecycle: A Simple Guide.”** The post focuses on the end-to-end lifecycle for building and operating AI agents—covering key stages such as design, development, deployment, and ongoing management—signaling Azure’s emphasis on practical architectural guidance for **agent-based AI systems**.\n\nThe main theme is operationalizing **AI agents** responsibly and effectively, rather than announcing a new product release. For Azure customers, the takeaway is a clearer framework for how agentic applications should be architected and managed across their full lifecycle in enterprise environments."
 }
