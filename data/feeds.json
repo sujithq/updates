@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-07-14T18:57:09.964319+00:00",
+  "lastUpdated": "2026-07-14T21:44:30.745815+00:00",
   "totalArticles": 1112,
   "articles": [
+    {
+      "title": "[In preview] Public Preview: Azure Front Door edge actions",
+      "link": "https://azure.microsoft.com/updates?id=567402",
+      "published": "2026-07-14T20:03:32+00:00",
+      "summary": "Announcing the public preview of Azure Front Door edge actions (serverless compute at the edge).With edge actions, customers can execute lightweight JavaScript functions during Azure Front Door request processing to make real-time decisions closer to user",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Code scanning shows AI security detections on pull requests",
+      "link": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests",
+      "published": "2026-07-14T19:12:48+00:00",
+      "summary": "GitHub code scanning now surfaces AI-powered security detections directly on pull requests, expanding vulnerability coverage to languages and frameworks not currently supported by CodeQL. These detections help teams identify and… The post Code scanning shows AI security detections on pull requests...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "Introducing Azure Front Door edge actions - Bringing secure, programmable logic to the edge",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/introducing-azure-front-door-edge-actions-bringing-secure/ba-p/4531928",
@@ -58,17 +80,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Azure landing zone (ALZ) enters its next chapter",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-landing-zone-alz-enters-its-next-chapter/ba-p/4533520",
-      "published": "2026-07-14T17:31:13+00:00",
-      "summary": "Azure landing zone (ALZ) is now maintained by the Azure Migrate team. Nothing has changed in relation to getting support and making requests; still head to aka.ms/alz/issues (GitHub) and file your ask. ALZ continues to be open-source, maintained by the Azure Migrate team 👍 This is only the Platform...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "jtracey93msft",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Built-in Agent Skills Bring .NET and Azure Expertise into Visual Studio",
       "link": "https://devblogs.microsoft.com/visualstudio/built-in-agent-skills-in-visual-studio/",
       "published": "2026-07-14T17:30:57+00:00",
@@ -102,17 +113,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Beyond the Canvas: The Azure Architecture Diagram Builder Becomes Agent-Ready",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/beyond-the-canvas-the-azure-architecture-diagram-builder-becomes/ba-p/4534590",
-      "published": "2026-07-14T14:02:30+00:00",
-      "summary": "AZURE ARCHITECTURE BLOG · 8 MIN READ Author: Arturo Quiroga, Senior Partner Solutions Architect — Microsoft Two months ago I published From Prompt to Production: Building Azure Architecture Diagrams with AI, introducing the open-source Azure Architecture Diagram Builder. The response was humbling —...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "arturoqu",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Security reviews now available in the GitHub Copilot app",
       "link": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
       "published": "2026-07-14T12:54:12+00:00",
@@ -122,17 +122,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "From AI Adoption to AI Governance - Using APIM as the Gateway for Azure AI Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/from-ai-adoption-to-ai-governance-using-apim-as-the-gateway-for/ba-p/4536247",
-      "published": "2026-07-14T08:19:35+00:00",
-      "summary": "Co-authored by Gaurav Jain (Senior Cloud Solution Architect @ Microsoft) and Abhishek Mittal (Cloud Solution Architect @ Microsoft) Enterprises move through three phases of AI adoption: evaluating models, building apps and agents, and operationalizing them in production. The first two are easier to...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Abhishek_Mittal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Building AI Agents from Zero to Production",
@@ -155,6 +144,17 @@
       "author": "jisunchoi",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Manage secret scanning custom patterns via REST API",
+      "link": "https://github.blog/changelog/2026-07-13-create-and-manage-secret-scanning-custom-patterns-via-rest-api",
+      "published": "2026-07-13T23:59:13+00:00",
+      "summary": "Starting today, security teams can create, edit, and manage secret scanning custom patterns with the REST API. What’s new The following endpoints are generally available: GET .../secret-scanning/custom-patterns list patterns POST… The post Manage secret scanning custom patterns via REST API...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "GitHub Code Quality license estimate in public preview",
@@ -232,6 +232,17 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "From AI Adoption to AI Governance - Using APIM as the Gateway for Azure AI Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/from-ai-adoption-to-ai-governance-using-apim-as-the-gateway-for/ba-p/4536247",
+      "published": "2026-07-13T17:45:10+00:00",
+      "summary": "Enterprises move through three phases of AI adoption: evaluating models, building apps and agents, and operationalizing them in production. The first two are easier to accelerate. The third is where governance becomes critical. Once multiple teams share an AI endpoint, leaders need clear answers to...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "abhimittal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "[Launched] Generally Available: Azure Databricks SQL Serverless in UK West",
@@ -366,6 +377,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Beyond the Canvas: The Azure Architecture Diagram Builder Becomes Agent-Ready",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/beyond-the-canvas-the-azure-architecture-diagram-builder-becomes/ba-p/4534590",
+      "published": "2026-07-10T21:40:06+00:00",
+      "summary": "AZURE ARCHITECTURE BLOG · 8 MIN READ Author: Arturo Quiroga, Senior Partner Solutions Architect — Microsoft Two months ago I published From Prompt to Production: Building Azure Architecture Diagrams with AI, introducing the open-source Azure Architecture Diagram Builder. The response was humbling —...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "arturoqu",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Retirement: Support for Python-2.7; 3.8 and PowerShell- 7.1; 7.2 will be retired on September 30, 2026",
       "link": "https://azure.microsoft.com/updates?id=567556",
       "published": "2026-07-10T21:33:34+00:00",
@@ -487,17 +509,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "GitHub Mobile: Improved filters and sorting for Copilot sessions",
-      "link": "https://github.blog/changelog/2026-07-10-github-mobile-improved-filters-and-sorting-for-copilot-sessions",
-      "published": "2026-07-10T09:45:30+00:00",
-      "summary": "GitHub Mobile now includes improved filters and sorting for Copilot sessions, making it easier to find the right session as your session list grows. You can now narrow your session… The post GitHub Mobile: Improved filters and sorting for Copilot sessions appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[In preview] Public Preview: Manage Azure Chaos Studio from the Azure CLI",
       "link": "https://azure.microsoft.com/updates?id=567225",
       "published": "2026-07-09T22:57:33+00:00",
@@ -529,17 +540,6 @@
       "author": "saikishor",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "New pull requests dashboard is now generally available",
-      "link": "https://github.blog/changelog/2026-07-09-new-pull-requests-dashboard-is-now-generally-available",
-      "published": "2026-07-09T20:48:29+00:00",
-      "summary": "The refreshed pull requests dashboard is now generally available at github.com/pulls. It gives you a single home to track, prioritize, and act on the pull requests that need your attention,… The post New pull requests dashboard is now generally available appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "[Launched] Generally Available: Open AI GPT-5.6 on Azure Databricks",
@@ -1199,6 +1199,17 @@
       "blogId": "integrationsonazureblog",
       "author": "Arpit_MSFT",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure landing zone (ALZ) enters its next chapter",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-landing-zone-alz-enters-its-next-chapter/ba-p/4533520",
+      "published": "2026-07-03T15:16:42+00:00",
+      "summary": "Hey all 👋 I’ve got a genuinely exciting update to share today, and it’s one that’s been a long time coming: Azure landing zone (ALZ) is now an official Microsoft product, owned by the Azure Migrate product team. A bit of history first For the past five or so years, ALZ has been built completely in...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "jtracey93msft",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -6156,17 +6167,6 @@
       "link": "https://azure.microsoft.com/updates?id=562569",
       "published": "2026-06-02T19:00:47+00:00",
       "summary": "Customers can now bring Azure Container Apps environments into Microsoft Defender for Cloud’s Serverless Containers Posture experience, helping security teams extend posture management across more of their container estate from a single workflow. This mak",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Confidential Compute support on Azure Container Apps",
-      "link": "https://azure.microsoft.com/updates?id=562564",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Customers running regulated or sensitive containerized workloads often need stronger protection for data while it is actively being processed, especially in scenarios that require higher isolation and stricter compliance controls. Confidential Compute in",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -12235,5 +12235,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Microsoft cloud updates were dominated by AI governance and developer productivity: Azure highlighted using Azure API Management as a governed gateway for Azure AI Foundry, cost-controlled multi-model AI architectures, production-ready AI agents, and an agent-ready Azure Architecture Diagram Builder, while Visual Studio added built-in agent skills infused with .NET and Azure expertise and GitHub shipped Copilot security reviews plus Dependabot package “cooldown” controls. On the platform side, Azure Networking introduced Azure Front Door edge actions for secure programmable logic at the edge and continued its resiliency guidance around faster recovery times, while .NET news focused on the July 2026 servicing releases, .NET 11 Preview 6, and runtime direction with CoreCLR progress and the Mono timeline for .NET MAUI.\n\nA second major theme was enterprise platform modernization and operating models: Azure landing zone moved into its “next chapter” for governance and management, and Microsoft 365 Copilot’s June 2026 updates signaled continued expansion of AI capabilities across productivity tools. Overall, the announcements point to Microsoft tightening the link between AI app development, governance, security, and edge/cloud platform resilience across Azure, .NET, GitHub, and Microsoft 365."
+  "summary": "Today’s Azure and Microsoft developer news is led by **Azure Front Door**, with **Edge Actions now in public preview**, adding secure, programmable logic at the edge, alongside new resiliency guidance focused on improving **recovery time objectives (RTO)**. On the developer platform side, Microsoft shipped **.NET 11 Preview 6**, released the **July 2026 servicing updates for .NET and .NET Framework**, and shared roadmap details on **CoreCLR progress and the Mono timeline for .NET MAUI**, while **Visual Studio** introduced built-in **Agent Skills** that bring .NET and Azure expertise into the IDE.\n\nAI and software supply chain security were the other major themes: **GitHub code scanning** now surfaces **AI security detections on pull requests**, **security reviews** are available in the **GitHub Copilot app**, and **Dependabot** adds a default **package cooldown** to manage update churn. Broader AI momentum showed up in posts on **building production AI agents**, using a governed **AI gateway on Azure** for model and cost control, and new **Microsoft 365 Copilot** capabilities in the June 2026 update."
 }
