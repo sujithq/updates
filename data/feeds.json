@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-07-14T12:59:07.494224+00:00",
+  "lastUpdated": "2026-07-14T16:06:50.941204+00:00",
   "totalArticles": 1112,
   "articles": [
+    {
+      "title": "Security reviews now available in the GitHub Copilot app",
+      "link": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
+      "published": "2026-07-14T12:54:12+00:00",
+      "summary": "You can now run a security review on your in-flight code changes directly from the GitHub Copilot app. The /security-review slash command is shipping in public preview, bringing the same… The post Security reviews now available in the GitHub Copilot app appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "From Multi-Model Chaos to a Governed AI Gateway: Cost Optimization on Azure",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-multi-model-chaos-to-a-governed-ai-gateway-cost/ba-p/4531729",
@@ -212,6 +223,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Stream Model Weights to NVIDIA GPU (vLLM) from Azure Blob Storage using the RunAI Model Streamer",
+      "link": "https://blog.aks.azure.com/2026/07/13/runai-streamer-vllm",
+      "published": "2026-07-13T00:00:00+00:00",
+      "summary": "Stream LLM Model Weights to NVIDIA GPU running vLLM directly from Azure Blob Storage on AKS using the RunAI Model Streamer to cut cold starts and speed up autoscaling.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft",
+      "feedUrl": "https://blog.aks.azure.com/rss.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "Azure Front Door: Resiliency Series – Part 3: Tenant isolation",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-front-door-resiliency-series-part-3-tenant-isolation/ba-p/4535866",
       "published": "2026-07-10T22:08:29+00:00",
@@ -297,6 +319,17 @@
       "blogId": "githubblog",
       "author": "Napalys Klicius",
       "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Agentic autofix for code scanning alerts in public preview",
+      "link": "https://github.blog/changelog/2026-07-10-agentic-autofix-for-code-scanning-alerts-in-public-preview",
+      "published": "2026-07-10T15:49:21+00:00",
+      "summary": "Agentic autofix is now in public preview for code scanning alerts. It remediates alerts by working across your codebase the way a developer would: it explores relevant files, proposes a… The post Agentic autofix for code scanning alerts in public preview appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -498,17 +531,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Organization-level targeting for GitHub Code Quality",
-      "link": "https://github.blog/changelog/2026-07-09-organization-level-targeting-for-github-code-quality",
-      "published": "2026-07-09T15:54:01+00:00",
-      "summary": "Organization owners can now target a subset of repositories when enabling or disabling GitHub Code Quality, rather than applying it to every repository at once. This gives you more granular… The post Organization-level targeting for GitHub Code Quality appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Designing for cloud sovereignty with Radius and Dapr",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/designing-for-cloud-sovereignty-with-radius-and-dapr/ba-p/4535067",
       "published": "2026-07-09T15:53:32+00:00",
@@ -528,17 +550,6 @@
       "blogId": "microsoftsecurity",
       "author": "Microsoft Threat Intelligence",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Ask Copilot for a repository overview",
-      "link": "https://github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview",
-      "published": "2026-07-09T14:25:33+00:00",
-      "summary": "You can now ask GitHub Copilot for a high-level overview of any repository you’re exploring for the first time. When you visit the home page of a repository you haven’t… The post Ask Copilot for a repository overview appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -9650,17 +9661,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Scaling multi-node LLM inference with NVIDIA Dynamo and NVIDIA GPUs on AKS (Part 3)",
-      "link": "https://blog.aks.azure.com/2026/03/16/dynamo-on-aks-part-3",
-      "published": "2026-03-16T00:00:00+00:00",
-      "summary": "Learn how NVIDIA Dynamo's KV Router optimizes multi-worker LLM inference on AKS with H100 GPUs, achieving lower latency through intelligent routing.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft",
-      "feedUrl": "https://blog.aks.azure.com/rss.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "AgentCore: Deployment, Operations, and Lessons Learned (4/4) 🔥",
       "link": "https://www.letsdodevops.com/p/agentcore-deployment-operations-and",
       "published": "2026-03-15T23:22:55+00:00",
@@ -12235,5 +12235,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage centers on **governance and cost control for multi-model AI deployments**, with the featured Azure Dev Community post outlining how to move from fragmented use of different foundation models to a **governed AI gateway** approach on Azure. The key theme is **cost optimization through centralized policy, routing, and oversight**, helping teams manage access to multiple AI models more consistently while improving operational control in Azure-based AI environments."
+  "summary": "Today’s Azure-related updates centered on AI governance and developer security. GitHub announced that the **GitHub Copilot app** now supports **security reviews**, extending Copilot’s role beyond code generation into identifying security issues directly in the development workflow.\n\nOn the Azure side, the Azure Dev Community post focused on managing **multi-model AI environments** through a **governed AI gateway** on **Azure**, with an emphasis on **cost optimization**, centralized control, and reducing the operational chaos of using multiple models and providers."
 }
