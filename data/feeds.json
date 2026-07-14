@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T05:19:04.479015+00:00",
+  "lastUpdated": "2026-07-14T07:42:09.559104+00:00",
   "totalArticles": 1112,
   "articles": [
     {
@@ -649,6 +649,17 @@
       "blogId": "terraform",
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Let’s Learn GitHub Copilot App – Free Virtual Training Event",
+      "link": "https://devblogs.microsoft.com/blog/lets-learn-github-copilot-app-free-virtual-training-event",
+      "published": "2026-07-08T17:30:28+00:00",
+      "summary": "Join us for a free online event series kicking off July 16 to learn how to get started with the GitHub Copilot App!",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Katie Savage",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -2718,17 +2729,6 @@
       "author": "derricklee",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "When your agent extensions fight each other",
-      "link": "https://devblogs.microsoft.com/blog/when-your-agent-extensions-fight-each-other",
-      "published": "2026-06-17T14:55:53+00:00",
-      "summary": "This is the fourth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "v1.16.0-alpha20260617",
@@ -12235,5 +12235,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage centers on **AI governance and cost control**, with a Dev Community post on building a **governed AI gateway** to manage “multi-model” environments more effectively. The key theme is using Azure-based gateway patterns to bring **cost optimization, policy enforcement, and operational control** to AI workloads that may span different models and providers, helping reduce sprawl while improving oversight."
+  "summary": "Today’s Azure blog coverage centered on AI platform governance and cost control, with a Dev Community post on building a governed AI gateway to manage “multi-model chaos” across Azure-based AI workloads. The key theme was optimizing spend while standardizing access to multiple models, suggesting an architectural focus on centralized policy, routing, and oversight for enterprise generative AI deployments on Azure."
 }
