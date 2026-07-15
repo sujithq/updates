@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-07-15T07:45:48.066753+00:00",
+  "lastUpdated": "2026-07-15T10:32:08.371865+00:00",
   "totalArticles": 1112,
   "articles": [
+    {
+      "title": "Beyond text: Returning images and interactive apps from MCP servers",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-text-returning-images-and-interactive-apps-from-mcp/ba-p/4535865",
+      "published": "2026-07-15T08:33:51+00:00",
+      "summary": "The Model Context Protocol (MCP) is becoming a richer foundation for agent experiences. Though most servers return plain text from their tool calls, MCP servers can also return binary results and provide interactive apps in clients that support those features, like VS Code. In this post, I'll use...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Pamela_Fox",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "GitHub Copilot in Visual Studio — June update",
       "link": "https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update",
@@ -23,17 +34,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Orchestrate Azure Container Apps Jobs with Apache Airflow",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/orchestrate-azure-container-apps-jobs-with-apache-airflow/ba-p/4534607",
-      "published": "2026-07-14T21:41:26+00:00",
-      "summary": "Azure Container Apps (ACA) Jobs are a great way to run work that starts, does something, and finishes: nightly batch, data processing, ETL, ML scoring, report generation. They scale to zero, bill per execution, and run any container you give them. But the moment your \"one job\" becomes \"a set of...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "hetvip",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "[In preview] Public Preview: Azure Front Door edge actions",
@@ -190,17 +190,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "From AI Adoption to AI Governance - Using APIM as the Gateway for Azure AI Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/from-ai-adoption-to-ai-governance-using-apim-as-the-gateway-for/ba-p/4536247",
-      "published": "2026-07-14T08:19:35+00:00",
-      "summary": "Co-authored by Gaurav Jain (Senior Cloud Solution Architect @ Microsoft) and Abhishek Mittal (Cloud Solution Architect @ Microsoft) Enterprises move through three phases of AI adoption: evaluating models, building apps and agents, and operationalizing them in production. The first two are easier to...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Abhishek_Mittal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Building AI Agents from Zero to Production",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-ai-agents-from-zero-to-production/ba-p/4536529",
       "published": "2026-07-14T07:00:00+00:00",
@@ -309,6 +298,17 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "From AI Adoption to AI Governance - Using APIM as the Gateway for Azure AI Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/from-ai-adoption-to-ai-governance-using-apim-as-the-gateway-for/ba-p/4536247",
+      "published": "2026-07-13T17:45:10+00:00",
+      "summary": "Enterprises move through three phases of AI adoption: evaluating models, building apps and agents, and operationalizing them in production. The first two are easier to accelerate. The third is where governance becomes critical. Once multiple teams share an AI endpoint, leaders need clear answers to...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "abhimittal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "[Launched] Generally Available: Azure Databricks SQL Serverless in UK West",
@@ -3402,17 +3402,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Performance Tuning Cold Starts, Scaling Delays, and Startup Latency in Azure Container Apps",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/performance-tuning-cold-starts-scaling-delays-and-startup/ba-p/4518523",
-      "published": "2026-06-11T07:00:00+00:00",
-      "summary": "Introduction There is a particular kind of frustration that comes not when your application fails to start, but when it starts too slowly. The container is running, the health probes pass, your monitoring shows green — and yet every few minutes a user somewhere in the world hits a request that...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "BhaktiRath95",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing Azure Linux 4.0: Purpose-Built for Azure, Now in Public Preview",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/announcing-azure-linux-4-0-purpose-built-for-azure-now-in-public/ba-p/4524267",
       "published": "2026-06-10T20:56:42+00:00",
@@ -4742,6 +4731,17 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "Anyscale on Azure: Powering Enterprise AI at Massive Scale on Azure Kubernetes Service",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/anyscale-on-azure-powering-enterprise-ai-at-massive-scale-on/ba-p/4523806",
+      "published": "2026-06-02T20:56:02+00:00",
+      "summary": "Somewhere on your AI platform team, an engineer is on call this weekend — not for the model, not for the training run, but for the integration code holding five separate AI processing systems together. Data preparation on one. Training on a second. Evaluation on a third. Serving on a fourth....",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "bobmital",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "New AI gateway capabilities in Azure API Management",
@@ -12235,5 +12235,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related update centers on developer productivity: the **GitHub Copilot in Visual Studio — June update** highlights improvements to **AI-assisted coding inside Visual Studio**, with updates aimed at making code generation, editing, and in-IDE assistance more useful for .NET and broader application development workflows. The main theme is tighter integration of **GitHub Copilot** into the **Visual Studio** developer experience, reflecting Microsoft’s continued push to embed generative AI directly into core software engineering tools."
+  "summary": "Today’s Azure-related updates center on AI-powered developer tooling and richer app experiences. The Azure Dev Community post on MCP servers highlights moving beyond plain text responses to return images and interactive applications, pointing to more multimodal, agent-driven workflows.\n\nThe GitHub Changelog post covers the June update for GitHub Copilot in Visual Studio, emphasizing improvements to the Copilot experience inside Microsoft’s IDE. Together, the announcements reinforce Microsoft’s focus on embedding AI more deeply into developer platforms like Visual Studio while expanding the kinds of outputs AI systems can generate."
 }
