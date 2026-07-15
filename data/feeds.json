@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-07-15T13:02:29.218842+00:00",
+  "lastUpdated": "2026-07-15T16:12:06.038896+00:00",
   "totalArticles": 1112,
   "articles": [
+    {
+      "title": "Pick, manage, and get the most from your models",
+      "link": "https://devblogs.microsoft.com/visualstudio/pick-manage-and-get-the-most-from-your-models/",
+      "published": "2026-07-15T14:28:43+00:00",
+      "summary": "You open the model picker, scroll past a dozen options, and pause. How are these models different? Which one should you actually use? And once you’re a few hundred messages deep, how much capacity is even left before things start dropping off? We’ve all been there. These are the kinds of questions...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Rachel Kang (SHE/HER)",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "v1.16.0-alpha20260715",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260715",
@@ -12,17 +23,6 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "Beyond text: Returning images and interactive apps from MCP servers",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-text-returning-images-and-interactive-apps-from-mcp/ba-p/4535865",
-      "published": "2026-07-15T08:33:51+00:00",
-      "summary": "The Model Context Protocol (MCP) is becoming a richer foundation for agent experiences. Though most servers return plain text from their tool calls, MCP servers can also return binary results and provide interactive apps in clients that support those features, like VS Code. In this post, I'll use...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "GitHub Copilot in Visual Studio — June update",
@@ -3421,6 +3421,17 @@
       "blogId": "appsonazureblog",
       "author": "TulikaC",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Performance Tuning Cold Starts, Scaling Delays, and Startup Latency in Azure Container Apps",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/performance-tuning-cold-starts-scaling-delays-and-startup/ba-p/4518523",
+      "published": "2026-06-11T07:00:00+00:00",
+      "summary": "Introduction There is a particular kind of frustration that comes not when your application fails to start, but when it starts too slowly. The container is running, the health probes pass, your monitoring shows green — and yet every few minutes a user somewhere in the world hits a request that...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "BhaktiRath95",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -7129,17 +7140,6 @@
       "author": "RoaaSakr",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "VSLive! Microsoft AI Hackathon 2026: Send Your Team Home With Working Code",
-      "link": "https://devblogs.microsoft.com/visualstudio/vslive-microsoft-ai-hackathon-2026-send-your-team-home-with-working-code/",
-      "published": "2026-05-14T15:05:55+00:00",
-      "summary": "If you lead a development team, you already know the pattern. You approve the travel, your developers attend a great conference, they come back energized, and then the work resumes exactly as it was. The ideas don’t survive contact with the backlog. This July at VSLive! @ Microsoft HQ in Redmond,...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Jim Harrer",
-      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "WebAssembly Data Processing at the Edge with Azure IoT Operations",
@@ -12235,5 +12235,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related updates center on developer tooling and AI-assisted workflows. The Terraform **v1.16.0-alpha20260715** release signals ongoing infrastructure-as-code iteration, while the Azure Dev Community highlighted richer **Model Context Protocol (MCP)** experiences that can now return not just text but also **images and interactive apps**, expanding how AI-connected tools surface results. Meanwhile, the **GitHub Copilot in Visual Studio June update** underscores continued investment in AI developer productivity inside **Visual Studio**, with new Copilot capabilities and refinements aimed at improving coding assistance directly in the IDE."
+  "summary": "Today’s Azure-related updates center on developer productivity and AI-assisted workflows. The Visual Studio Blog post emphasizes selecting, managing, and optimizing use of models inside Visual Studio, while the GitHub Copilot in Visual Studio June update highlights new Copilot capabilities aimed at improving coding assistance directly in the IDE.\n\nOn the tooling side, Terraform released `v1.16.0-alpha20260715`, signaling ongoing pre-release changes for infrastructure-as-code workflows that are relevant to Azure environment management and automation."
 }
