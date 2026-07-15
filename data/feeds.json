@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-07-15T10:32:08.371865+00:00",
+  "lastUpdated": "2026-07-15T13:02:29.218842+00:00",
   "totalArticles": 1112,
   "articles": [
+    {
+      "title": "v1.16.0-alpha20260715",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260715",
+      "published": "2026-07-15T12:44:36+00:00",
+      "summary": "1.16.0-alpha20260715 (July 15, 2026) NEW FEATURES: Store PlannedPrivate data for providers (#37986) New store block in terraform_data that can handle ephemeral and sensitive values (#38298) Providers can now use nested blocks as computed values (#38305) import: add support for import blocks inside...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
     {
       "title": "Beyond text: Returning images and interactive apps from MCP servers",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-text-returning-images-and-interactive-apps-from-mcp/ba-p/4535865",
@@ -34,6 +45,17 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Orchestrate Azure Container Apps Jobs with Apache Airflow",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/orchestrate-azure-container-apps-jobs-with-apache-airflow/ba-p/4534607",
+      "published": "2026-07-14T21:41:26+00:00",
+      "summary": "Azure Container Apps (ACA) Jobs are a great way to run work that starts, does something, and finishes: nightly batch, data processing, ETL, ML scoring, report generation. They scale to zero, bill per execution, and run any container you give them. But the moment your \"one job\" becomes \"a set of...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "hetvip",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "[In preview] Public Preview: Azure Front Door edge actions",
@@ -190,6 +212,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "From AI Adoption to AI Governance - Using APIM as the Gateway for Azure AI Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/from-ai-adoption-to-ai-governance-using-apim-as-the-gateway-for/ba-p/4536247",
+      "published": "2026-07-14T08:19:35+00:00",
+      "summary": "Co-authored by Gaurav Jain (Senior Cloud Solution Architect @ Microsoft) and Abhishek Mittal (Cloud Solution Architect @ Microsoft) Enterprises move through three phases of AI adoption: evaluating models, building apps and agents, and operationalizing them in production. The first two are easier to...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Abhishek_Mittal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Building AI Agents from Zero to Production",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-ai-agents-from-zero-to-production/ba-p/4536529",
       "published": "2026-07-14T07:00:00+00:00",
@@ -298,17 +331,6 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "From AI Adoption to AI Governance - Using APIM as the Gateway for Azure AI Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/from-ai-adoption-to-ai-governance-using-apim-as-the-gateway-for/ba-p/4536247",
-      "published": "2026-07-13T17:45:10+00:00",
-      "summary": "Enterprises move through three phases of AI adoption: evaluating models, building apps and agents, and operationalizing them in production. The first two are easier to accelerate. The third is where governance becomes critical. Once multiple teams share an AI endpoint, leaders need clear answers to...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "abhimittal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "[Launched] Generally Available: Azure Databricks SQL Serverless in UK West",
@@ -4557,17 +4579,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "v1.16.0-alpha20260603",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260603",
-      "published": "2026-06-03T13:24:07+00:00",
-      "summary": "1.16.0-alpha20260603 (June 03, 2026) NEW FEATURES: Store PlannedPrivate data for providers (#37986) New store block in terraform_data that can handle ephemeral and sensitive values (#38298) Providers can now use nested blocks as computed values (#38305) import: add support for import blocks inside...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "File share migrations simplified with Azure Copilot Migration Agent",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/file-share-migrations-simplified-with-azure-copilot-migration/ba-p/4524563",
       "published": "2026-06-03T12:28:05+00:00",
@@ -4731,17 +4742,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Anyscale on Azure: Powering Enterprise AI at Massive Scale on Azure Kubernetes Service",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/anyscale-on-azure-powering-enterprise-ai-at-massive-scale-on/ba-p/4523806",
-      "published": "2026-06-02T20:56:02+00:00",
-      "summary": "Somewhere on your AI platform team, an engineer is on call this weekend — not for the model, not for the training run, but for the integration code holding five separate AI processing systems together. Data preparation on one. Training on a second. Evaluation on a third. Serving on a fourth....",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "bobmital",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "New AI gateway capabilities in Azure API Management",
@@ -12235,5 +12235,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related updates center on AI-powered developer tooling and richer app experiences. The Azure Dev Community post on MCP servers highlights moving beyond plain text responses to return images and interactive applications, pointing to more multimodal, agent-driven workflows.\n\nThe GitHub Changelog post covers the June update for GitHub Copilot in Visual Studio, emphasizing improvements to the Copilot experience inside Microsoft’s IDE. Together, the announcements reinforce Microsoft’s focus on embedding AI more deeply into developer platforms like Visual Studio while expanding the kinds of outputs AI systems can generate."
+  "summary": "Today’s Azure-related updates center on developer tooling and AI-assisted workflows. The Terraform **v1.16.0-alpha20260715** release signals ongoing infrastructure-as-code iteration, while the Azure Dev Community highlighted richer **Model Context Protocol (MCP)** experiences that can now return not just text but also **images and interactive apps**, expanding how AI-connected tools surface results. Meanwhile, the **GitHub Copilot in Visual Studio June update** underscores continued investment in AI developer productivity inside **Visual Studio**, with new Copilot capabilities and refinements aimed at improving coding assistance directly in the IDE."
 }
