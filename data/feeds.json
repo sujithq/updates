@@ -1,17 +1,105 @@
 {
-  "lastUpdated": "2026-07-15T18:50:24.738145+00:00",
-  "totalArticles": 1111,
+  "lastUpdated": "2026-07-15T21:45:20.865018+00:00",
+  "totalArticles": 1112,
   "articles": [
     {
-      "title": "Implementing Multi‑Agent Orchestration in Microsoft Copilot Studio",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/implementing-multi-agent-orchestration-in-microsoft-copilot/ba-p/4494717",
-      "published": "2026-07-15T18:35:54+00:00",
-      "summary": "As organizations move beyond simple Q&A copilots, a common challenge quickly emerges: single agents struggle to handle multi-step, cross-domain scenarios. In our work with customers using Microsoft Copilot Studio, this shows up when copilots are expected to combine reasoning, real-time data, and...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "LeoMa",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
+      "title": "Visual Studio Code 1.130 (Insiders)",
+      "link": "https://code.visualstudio.com/updates/v1_130",
+      "published": "2026-07-22T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.130 (Insiders) Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing: GitHub Copilot and Claude Code connectors in Microsoft Agent Framework",
+      "link": "https://azure.microsoft.com/updates?id=563701",
+      "published": "2026-07-15T18:58:30+00:00",
+      "summary": "Microsoft Agent Framework now ships generally available connectors for GitHub Copilot and Claude Code, so developers can build .NET and Python agents that delegate coding tasks to either system without writing custom adapter code. The connectors plug into",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing: Multi-agent orchestration patterns including Magentic in Microsoft Agent Framework",
+      "link": "https://azure.microsoft.com/updates?id=563571",
+      "published": "2026-07-15T18:57:24+00:00",
+      "summary": "Microsoft Agent Framework reaches general availability for multi-agent orchestration patterns, including the dynamic Magentic pattern that delivered 38 percent on GAIA and competitive results on AssistantBench and WebArena in published benchmarks. The GA",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing: Agent Harness in Microsoft Agent Framework",
+      "link": "https://azure.microsoft.com/updates?id=563546",
+      "published": "2026-07-15T18:55:40+00:00",
+      "summary": "Microsoft Agent Framework reaches general availability for Agent Harness, the production runtime for agents built with the framework. Customers running pilots on the preview harness can now move the same agent code into production with backwards compatibi",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing: Multi-agent orchestration SDK with the Microsoft Foundry Agent Framework in C# and Python",
+      "link": "https://azure.microsoft.com/updates?id=564312",
+      "published": "2026-07-15T18:53:28+00:00",
+      "summary": "Microsoft Foundry is now introducing Agent Framework, a unified multi-agent orchestration SDK for C# and Python. This release consolidates patterns previously spread across AutoGen and Semantic Kernel, giving developers a consistent set of abstractions fo",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing: Tracing for Microsoft Agent Framework (Python and .NET)",
+      "link": "https://azure.microsoft.com/updates?id=564071",
+      "published": "2026-07-15T18:51:45+00:00",
+      "summary": "In public preview, Microsoft Foundry now offers tracing for the Microsoft Agent Framework in both Python and .NET, helping developers observe how agents reason, call tools, and interact with models during execution. This release is part of the broader hos",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing: CodeAct pattern and Hyperlight containers in Microsoft Agent Framework",
+      "link": "https://azure.microsoft.com/updates?id=563566",
+      "published": "2026-07-15T18:50:14+00:00",
+      "summary": "Microsoft Agent Framework adds the CodeAct pattern in public preview, which lets agents collapse a multi-step plan into a single executable code block rather than chaining one tool call at a time. In representative workloads, CodeAct cut end-to-end latenc",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing: Episodic procedural memory in Microsoft Agent Framework",
+      "link": "https://azure.microsoft.com/updates?id=563561",
+      "published": "2026-07-15T18:48:54+00:00",
+      "summary": "Microsoft Agent Framework adds episodic procedural memory in public preview, a built-in store that lets agents remember successful task patterns and replay them on similar future requests. The framework records action sequences, tool selections, and inter",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing: Agent Channel for Microsoft Agent Framework multi-agent communication",
+      "link": "https://azure.microsoft.com/updates?id=563556",
+      "published": "2026-07-15T18:47:41+00:00",
+      "summary": "Microsoft Agent Framework introduces Agent Channel in public preview, a built-in primitive that lets agents send structured messages to each other without bespoke routing code. Channels carry typed messages, support request and response or fire-and-forget",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
     },
     {
       "title": "[In preview] Public Preview: Azure SQL updates for mid-July 2026",
@@ -58,15 +146,15 @@
       "sourceType": "rss"
     },
     {
-      "title": "Give your AI agent two memories with Azure App Service",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/give-your-ai-agent-two-memories-with-azure-app-service/ba-p/4537400",
-      "published": "2026-07-15T17:23:43+00:00",
-      "summary": "Agents feel continuous only when they can operate across two very different time horizons. They need the recent turns that make the current conversation coherent, and they need a smaller set of durable facts that can follow an authenticated user into a new conversation. This sample implements both...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
+      "title": "Visual Studio Code 1.129",
+      "link": "https://code.visualstudio.com/updates/v1_129",
+      "published": "2026-07-15T17:00:00+00:00",
+      "summary": "Learn what is new in Visual Studio Code 1.129. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "Turning threat intelligence into decisive action with Defender Experts",
@@ -122,17 +210,6 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "Load testing Copilot Studio agents with Locust and Azure Load Testing",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/load-testing-copilot-studio-agents-with-locust-and-azure-load/ba-p/4535445",
-      "published": "2026-07-15T09:47:26+00:00",
-      "summary": "A conversational agent doesn't answer like an API. You send one message. The server returns 200 OK. And then nothing happens. The real answer is still coming, streaming back over a WebSocket as one reply or several. It might take two seconds, or three minutes while the agent thinks, calls a tool,...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Krishna-Roy",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Beyond text: Returning images and interactive apps from MCP servers",
@@ -964,17 +1041,6 @@
       "link": "https://code.visualstudio.com/updates/v1_128",
       "published": "2026-07-08T17:00:00+00:00",
       "summary": "Learn what's new in Visual Studio Code 1.128 Read the full article",
-      "blog": "Visual Studio Code",
-      "blogId": "vscode",
-      "author": "Visual Studio Code Team",
-      "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Visual Studio Code 1.129 (Insiders)",
-      "link": "https://code.visualstudio.com/updates/v1_129",
-      "published": "2026-07-08T17:00:00+00:00",
-      "summary": "Learn what's new in Visual Studio Code 1.129 (Insiders) Read the full article",
       "blog": "Visual Studio Code",
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
@@ -3006,6 +3072,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Build an Automated SLA Risk Agent with Routines in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/build-an-automated-sla-risk-agent-with-routines-in-microsoft/ba-p/4528103",
+      "published": "2026-06-17T12:00:00+00:00",
+      "summary": "What if your support team could start every morning with an AI-generated summary of tickets most likely to breach SLA? This tutorial shows you how to build exactly that: a grounded agent in Microsoft Foundry that automatically analyzes your ticket data and surfaces risks. Using Routines in...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "LauraVerghote",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Azure Sets a New Performance Record for LLM Training Benchmark at Extreme Scale",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/azure-sets-a-new-performance-record-for-llm-training-benchmark/ba-p/4523077",
       "published": "2026-06-17T00:17:30+00:00",
@@ -3974,6 +4051,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Regional Endpoints for Azure Container Registry Geo-Replication — Now in Public Preview",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/regional-endpoints-for-azure-container-registry-geo-replication/ba-p/4525717",
+      "published": "2026-06-05T06:12:53+00:00",
+      "summary": "By Johnson Shi, Zoey (Zhuyu) Li, Huangli Wu What's new Regional endpoints for geo-replicated Azure Container Registries are now in public preview. See the feature's official MS Learn documentation. If you've been following since the private preview announcement, here's what changed: No feature flag...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "johnsonshi_msft",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Preview of multiparty analytics with Azure Confidential Clean Rooms",
       "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/preview-of-multiparty-analytics-with-azure-confidential-clean/ba-p/4523274",
       "published": "2026-06-05T04:34:11+00:00",
@@ -4708,6 +4796,17 @@
       "blogId": "microsoftdefendercloudblog",
       "author": "Yulia_Zhurbinsky",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Inside ACR Artifact Cache: Pull-Through Caching at Scale",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/inside-acr-artifact-cache-pull-through-caching-at-scale/ba-p/4524949",
+      "published": "2026-06-02T22:43:58+00:00",
+      "summary": "By: Akash Singhal, Luis Dieguez, Kiran Challa, Nathan Anderson, Tony Vargas, Caroline Barker, Ren Shao, Mabel Egba, Toddy Mladenov, Johnson Shi Introduction For many customers, Azure Container Registry (ACR) is the only registry their workloads can trust, even when images and artifacts originate...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "akashsinghal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -6112,94 +6211,6 @@
       "link": "https://azure.microsoft.com/updates?id=562863",
       "published": "2026-06-02T19:00:47+00:00",
       "summary": "Modern integration and automation teams increasingly want the flexibility of writing workflows directly in code while still benefiting from managed orchestration, enterprise connectors, and cloud-scale operational capabilities. Traditional workflow models",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure API Management now supports AI gateway capabilities for Anthropic and Vertex AI models.",
-      "link": "https://azure.microsoft.com/updates?id=562858",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "As organizations integrate external AI providers into production applications, platform teams need consistent ways to secure, govern, and observe model interactions across providers. Without centralized controls and telemetry, managing compliance, trouble",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure API Management workspaces now support the built-in gateway",
-      "link": "https://azure.microsoft.com/updates?id=562848",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Organizations using workspace-based API management models previously needed a dedicated workspace gateway and Premium tier deployment to take advantage of API Management workspaces increasing both cost and operational complexity. With this update, Azure",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure API Management adds support for Agent-to-Agent (A2A) APIs",
-      "link": "https://azure.microsoft.com/updates?id=562843",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "As organizations build more agentic applications, agent-to-agent communication is becoming a critical part of enterprise AI systems. But in many environments, agent traffic operates outside existing API governance layers — making it difficult to apply con",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure Cosmos DB global secondary indexes",
-      "link": "https://azure.microsoft.com/updates?id=562799",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Global secondary indexes (GSIs) for Azure Cosmos DB are now generally available, giving you a powerful way to accelerate query performance without adding complexity to your application code. GSIs are read-only containers that automatically stay in sync wi",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Agentic Retrieval Toolkit for Azure Cosmos DB",
-      "link": "https://azure.microsoft.com/updates?id=562794",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "We are announcing the public preview of the Agentic Retrieval Toolkit for Azure Cosmos DB. Motivated by GraphRAG and multiple-hop reasoning problems, this new capability helps you build advanced retrieval-augmented generation (RAG) applications that go be",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Semantic reranker in Azure Cosmos DB",
-      "link": "https://azure.microsoft.com/updates?id=562784",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "You can now improve the relevance of any Cosmos DB query or search with the public preview of semantic reranker in Azure Cosmos DB. Semantic reranker analyzes the meaning of your queries and your data to reorder results based on contextual relevance rathe",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Agent Memory Toolkit for Azure Cosmos DB",
-      "link": "https://azure.microsoft.com/updates?id=562779",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "You can now accelerate the development of agentic applications with the new Agent Memory Toolkit for Azure Cosmos DB. This toolkit provides a customizable, code-first solution to help you build scalable, durable, and cost-efficient memory systems for your",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Safe key rotation for Azure Cosmos DB",
-      "link": "https://azure.microsoft.com/updates?id=562774",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "The safe key rotation feature helps you confidently rotate your Azure Cosmos DB account keys by providing visibility into when each key was last used. Without this insight, you risk rotating a key that may still be actively used by your applications, whic",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -12224,5 +12235,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news centered on building, operating, and evaluating AI agents: Microsoft highlighted multi-agent orchestration in **Microsoft Copilot Studio**, dual-memory patterns for agents on **Azure App Service**, load testing Copilot Studio agents with **Locust** and **Azure Load Testing**, and richer agent tooling with the **DevUI Agent Inspector** for the **Microsoft Agent Framework** and MCP support for returning **images and interactive apps**. Developer productivity was another major theme, with updates to **GitHub Copilot in Visual Studio**, new model-selection guidance in **Visual Studio**, and **VS Code MSSQL extension** improvements including shortcut configuration and an enhanced results grid.\n\nOn the data and operations side, Azure announced **mid-July 2026 Azure SQL** preview updates, GA expansion of **Azure Arc SQL Migration** to include **SQL Server on Azure Virtual Machines**, and preview **advanced platform metrics in Azure Monitor**. Security and platform enablement also featured prominently, with **Defender Experts** focused on operationalizing threat intelligence, alongside broader ecosystem content such as a **GitHub for Beginners** roadmap and the **Terraform v1.16.0-alpha20260715** release."
+  "summary": "Microsoft’s Azure updates were dominated by a major expansion of the Microsoft Agent Framework: new GitHub Copilot and Claude Code connectors, multi-agent orchestration patterns and SDKs in C# and Python, Agent Harness, tracing for Python/.NET, Agent Channel for agent-to-agent communication, episodic procedural memory, DevUI Agent Inspector, and support for CodeAct plus Hyperlight containers. Together, the announcements signal a strong push toward building, debugging, and operating production-grade multi-agent AI systems on Azure.\n\nThe broader platform news focused on data, observability, and developer tooling: Azure SQL’s mid-July 2026 preview updates and expanded Azure Arc SQL Migration support for SQL Server on Azure VMs, plus Azure Monitor advanced platform metrics in public preview. On the developer side, Microsoft highlighted Visual Studio Code 1.129, GitHub Copilot’s June update in Visual Studio, model-selection guidance in Visual Studio, VS Code MSSQL extension improvements, and security operations enhancements through Defender Experts, while GitHub and MCP-related posts rounded out the day’s app-development themes."
 }
