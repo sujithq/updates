@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-07-14T21:44:30.745815+00:00",
+  "lastUpdated": "2026-07-15T01:07:51.551723+00:00",
   "totalArticles": 1112,
   "articles": [
+    {
+      "title": "GitHub Copilot in Visual Studio — June update",
+      "link": "https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update",
+      "published": "2026-07-15T00:01:24+00:00",
+      "summary": "June 2026 is about visibility and trust with a clearer view of your GitHub Copilot usage, a new trust layer for MCP servers, and the first C++ scenarios for the… The post GitHub Copilot in Visual Studio — June update appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Orchestrate Azure Container Apps Jobs with Apache Airflow",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/orchestrate-azure-container-apps-jobs-with-apache-airflow/ba-p/4534607",
+      "published": "2026-07-14T21:41:26+00:00",
+      "summary": "Azure Container Apps (ACA) Jobs are a great way to run work that starts, does something, and finishes: nightly batch, data processing, ETL, ML scoring, report generation. They scale to zero, bill per execution, and run any container you give them. But the moment your \"one job\" becomes \"a set of...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "hetvip",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "[In preview] Public Preview: Azure Front Door edge actions",
       "link": "https://azure.microsoft.com/updates?id=567402",
@@ -58,6 +80,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Building a Custom Metrics Exporter for Kubernetes",
+      "link": "https://kubernetes.io/blog/2026/07/14/custom-metrics-exporter-kubernetes/",
+      "published": "2026-07-14T18:00:00+00:00",
+      "summary": "Kubernetes ships with built-in awareness of CPU and memory, but most real-world scaling decisions depend on signals that live entirely outside that narrow window: how many messages are waiting in a queue, how long the last batch job took, how many active WebSocket connections a pod is holding. When...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "Azure Front Door: Resiliency Series – Part 2: Faster recovery (RTO)",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-front-door-resiliency-series-part-2-faster-recovery-rto/ba-p/4503091",
       "published": "2026-07-14T17:56:55+00:00",
@@ -78,6 +111,17 @@
       "author": ".NET Team",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Azure landing zone (ALZ) enters its next chapter",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-landing-zone-alz-enters-its-next-chapter/ba-p/4533520",
+      "published": "2026-07-14T17:31:13+00:00",
+      "summary": "Azure landing zone (ALZ) is now maintained by the Azure Migrate team. Nothing has changed in relation to getting support and making requests; still head to aka.ms/alz/issues (GitHub) and file your ask. ALZ continues to be open-source, maintained by the Azure Migrate team 👍 This is only the Platform...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "jtracey93msft",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Built-in Agent Skills Bring .NET and Azure Expertise into Visual Studio",
@@ -113,6 +157,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Beyond the Canvas: The Azure Architecture Diagram Builder Becomes Agent-Ready",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/beyond-the-canvas-the-azure-architecture-diagram-builder-becomes/ba-p/4534590",
+      "published": "2026-07-14T14:02:30+00:00",
+      "summary": "AZURE ARCHITECTURE BLOG · 8 MIN READ Author: Arturo Quiroga, Senior Partner Solutions Architect — Microsoft Two months ago I published From Prompt to Production: Building Azure Architecture Diagrams with AI, introducing the open-source Azure Architecture Diagram Builder. The response was humbling —...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "arturoqu",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Security reviews now available in the GitHub Copilot app",
       "link": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
       "published": "2026-07-14T12:54:12+00:00",
@@ -122,6 +177,17 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "From AI Adoption to AI Governance - Using APIM as the Gateway for Azure AI Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/from-ai-adoption-to-ai-governance-using-apim-as-the-gateway-for/ba-p/4536247",
+      "published": "2026-07-14T08:19:35+00:00",
+      "summary": "Co-authored by Gaurav Jain (Senior Cloud Solution Architect @ Microsoft) and Abhishek Mittal (Cloud Solution Architect @ Microsoft) Enterprises move through three phases of AI adoption: evaluating models, building apps and agents, and operationalizing them in production. The first two are easier to...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Abhishek_Mittal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Building AI Agents from Zero to Production",
@@ -232,17 +298,6 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "From AI Adoption to AI Governance - Using APIM as the Gateway for Azure AI Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/from-ai-adoption-to-ai-governance-using-apim-as-the-gateway-for/ba-p/4536247",
-      "published": "2026-07-13T17:45:10+00:00",
-      "summary": "Enterprises move through three phases of AI adoption: evaluating models, building apps and agents, and operationalizing them in production. The first two are easier to accelerate. The third is where governance becomes critical. Once multiple teams share an AI endpoint, leaders need clear answers to...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "abhimittal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "[Launched] Generally Available: Azure Databricks SQL Serverless in UK West",
@@ -377,17 +432,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Beyond the Canvas: The Azure Architecture Diagram Builder Becomes Agent-Ready",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/beyond-the-canvas-the-azure-architecture-diagram-builder-becomes/ba-p/4534590",
-      "published": "2026-07-10T21:40:06+00:00",
-      "summary": "AZURE ARCHITECTURE BLOG · 8 MIN READ Author: Arturo Quiroga, Senior Partner Solutions Architect — Microsoft Two months ago I published From Prompt to Production: Building Azure Architecture Diagrams with AI, introducing the open-source Azure Architecture Diagram Builder. The response was humbling —...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "arturoqu",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Retirement: Support for Python-2.7; 3.8 and PowerShell- 7.1; 7.2 will be retired on September 30, 2026",
       "link": "https://azure.microsoft.com/updates?id=567556",
       "published": "2026-07-10T21:33:34+00:00",
@@ -474,17 +518,6 @@
       "author": "ilyagrebnov",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Per-user states for multi-user budgets in the REST API",
-      "link": "https://github.blog/changelog/2026-07-10-per-user-states-for-multi-user-budgets-in-the-rest-api",
-      "published": "2026-07-10T15:07:23+00:00",
-      "summary": "You can now retrieve every user’s progress against a multi-user budget from a single REST API endpoint. This makes it much faster to find who is close to their limit… The post Per-user states for multi-user budgets in the REST API appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
@@ -644,7 +677,7 @@
       "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/",
       "published": "2026-07-09T15:00:00+00:00",
-      "summary": "GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend...",
+      "summary": "GigaWiper, also tracked as BLUERABBIT, is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help...",
       "blog": "Microsoft Security Blog",
       "blogId": "microsoftsecurity",
       "author": "Microsoft Threat Intelligence",
@@ -1199,17 +1232,6 @@
       "blogId": "integrationsonazureblog",
       "author": "Arpit_MSFT",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure landing zone (ALZ) enters its next chapter",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-landing-zone-alz-enters-its-next-chapter/ba-p/4533520",
-      "published": "2026-07-03T15:16:42+00:00",
-      "summary": "Hey all 👋 I’ve got a genuinely exciting update to share today, and it’s one that’s been a long time coming: Azure landing zone (ALZ) is now an official Microsoft product, owned by the Azure Migrate product team. A bit of history first For the past five or so years, ALZ has been built completely in...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "jtracey93msft",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -4720,17 +4742,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Anyscale on Azure: Powering Enterprise AI at Massive Scale on Azure Kubernetes Service",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/anyscale-on-azure-powering-enterprise-ai-at-massive-scale-on/ba-p/4523806",
-      "published": "2026-06-02T20:56:02+00:00",
-      "summary": "Somewhere on your AI platform team, an engineer is on call this weekend — not for the model, not for the training run, but for the integration code holding five separate AI processing systems together. Data preparation on one. Training on a second. Evaluation on a third. Serving on a fourth....",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "bobmital",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "New AI gateway capabilities in Azure API Management",
@@ -10662,17 +10673,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Kubernetes v1.35: Mutable PersistentVolume Node Affinity (alpha)",
-      "link": "https://kubernetes.io/blog/2026/01/08/kubernetes-v1-35-mutable-pv-nodeaffinity/",
-      "published": "2026-01-08T18:30:00+00:00",
-      "summary": "The PersistentVolume node affinity API dates back to Kubernetes v1.10. It is widely used to express that volumes may not be equally accessible by all nodes in the cluster. This field was previously immutable, and it is now mutable in Kubernetes v1.35 (alpha). This change opens a door to more...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Global expansion—now available in West Europe (Netherlands)",
       "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/global-expansion-now-available-in-west-europe-netherlands/ba-p/4479671",
       "published": "2026-01-08T00:06:13+00:00",
@@ -12235,5 +12235,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft developer news is led by **Azure Front Door**, with **Edge Actions now in public preview**, adding secure, programmable logic at the edge, alongside new resiliency guidance focused on improving **recovery time objectives (RTO)**. On the developer platform side, Microsoft shipped **.NET 11 Preview 6**, released the **July 2026 servicing updates for .NET and .NET Framework**, and shared roadmap details on **CoreCLR progress and the Mono timeline for .NET MAUI**, while **Visual Studio** introduced built-in **Agent Skills** that bring .NET and Azure expertise into the IDE.\n\nAI and software supply chain security were the other major themes: **GitHub code scanning** now surfaces **AI security detections on pull requests**, **security reviews** are available in the **GitHub Copilot app**, and **Dependabot** adds a default **package cooldown** to manage update churn. Broader AI momentum showed up in posts on **building production AI agents**, using a governed **AI gateway on Azure** for model and cost control, and new **Microsoft 365 Copilot** capabilities in the June 2026 update."
+  "summary": "Today’s Azure-related update centers on developer tooling rather than core Azure services: the GitHub Copilot in Visual Studio June update adds a more capable AI coding workflow inside Visual Studio, with improvements focused on code completion, chat, and productivity features for .NET and broader app development scenarios. The main theme is tighter AI-assisted development in Microsoft’s IDE ecosystem, reinforcing GitHub Copilot as a key part of the Visual Studio experience for building and maintaining applications that may target Azure and other platforms."
 }
