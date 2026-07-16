@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T01:15:29.308590+00:00",
+  "lastUpdated": "2026-07-16T05:29:32.673138+00:00",
   "totalArticles": 1112,
   "articles": [
     {
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/",
+      "published": "2026-07-16T01:36:21+00:00",
+      "summary": "Threat actors compromised AsyncAPI packages and weaponized trusted CI/CD workflows to distribute malware through npm. This analysis breaks down the attack chain, payload delivery, and recommended defenses. The post Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Security Research, Ravikant Tiwari, Sagar Patil, Suriyaraj Natarajan and Arvind Gowda",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1881,17 +1892,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Accelerating the quantum-safe timeline",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/microsoft-advances-quantum-safe-security-as-the-risk-timeline-shifts/",
-      "published": "2026-06-30T19:00:00+00:00",
-      "summary": "We’re accelerating quantum-safe readiness—and sharing what organizations can do now to transition earlier and with confidence. The post Accelerating the quantum-safe timeline appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Mark Russinovich",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -12234,5 +12234,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Microsoft’s latest Azure-adjacent blog coverage focused on software supply chain security, with the Microsoft Security Blog analyzing the AsyncAPI npm compromise in detail. The post highlights how malicious packages used import-time payload execution to deliver attacks immediately when installed or loaded, underscoring ongoing risks in the JavaScript/npm ecosystem and the need for stronger package vetting, dependency monitoring, and developer-side protections."
 }
