@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T07:50:55.526957+00:00",
+  "lastUpdated": "2026-07-16T10:48:21.142348+00:00",
   "totalArticles": 1112,
   "articles": [
     {
@@ -12,6 +12,39 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "How Microsoft 365 built a platform engineering layer on AKS to ship faster at global scale",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-microsoft-365-built-a-platform-engineering-layer-on-aks-to/ba-p/4537523",
+      "published": "2026-07-16T05:00:13+00:00",
+      "summary": "Challenge: Scaling success without increasing complexity Microsoft 365 runs a broad portfolio of services across global and sovereign clouds. At that scale, the platform has to do more than schedule workloads. It has to enforce security boundaries, meet enterprise compliance requirements, and...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Suma SaganeGowda",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Streaming and Batch Data Architectures with Microsoft Fabric to Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/streaming-and-batch-data-architectures-with-microsoft-fabric-to/ba-p/4526166",
+      "published": "2026-07-16T02:36:35+00:00",
+      "summary": "Author's: Aladdin Alchalabi aalchalabi​, Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point to...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Meet the IQ's: How Microsoft is Creating Context-Aware AI",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/meet-the-iq-s-how-microsoft-is-creating-context-aware-ai/ba-p/4537516",
+      "published": "2026-07-16T02:15:50+00:00",
+      "summary": "Authors: Lavanya Sreedhar LavanyaSreedhar​, Tom Dinh TomDinh​, Oviya Soundararajan oviyasound​, and Rafia Aqil Rafia_Aqil​ The AI era demands more than powerful language models. It demands context a deep understanding of what enterprise data means, how it connects, and how AI systems can reason and...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery",
@@ -34,6 +67,17 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "From Policy to Proof: Governing AI to Scale Human Ambition and Machine Intelligence",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-policy-to-proof-governing-ai-to-scale-human-ambition-and/ba-p/4535137",
+      "published": "2026-07-15T19:51:51+00:00",
+      "summary": "Enterprises are moving from AI experiments to AI in production. Copilots are in the flow of daily work, custom applications are built on foundation models, and autonomous agents are beginning to take actions on behalf of the business. As organizations combine human ambition with machine...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "manasa_ramalinga",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Announcing: GitHub Copilot and Claude Code connectors in Microsoft Agent Framework",
@@ -124,17 +168,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Implementing Multi‑Agent Orchestration in Microsoft Copilot Studio",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/implementing-multi-agent-orchestration-in-microsoft-copilot/ba-p/4494717",
-      "published": "2026-07-15T18:35:54+00:00",
-      "summary": "As organizations move beyond simple Q&A copilots, a common challenge quickly emerges: single agents struggle to handle multi-step, cross-domain scenarios. In our work with customers using Microsoft Copilot Studio, this shows up when copilots are expected to combine reasoning, real-time data, and...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "LeoMa",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[In preview] Public Preview: Azure SQL updates for mid-July 2026",
       "link": "https://azure.microsoft.com/updates?id=567426",
       "published": "2026-07-15T17:50:44+00:00",
@@ -212,6 +245,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "Announcing the ASIM Parser Creation Agentic Experience",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/announcing-the-asim-parser-creation-agentic-experience/ba-p/4532266",
+      "published": "2026-07-15T16:00:00+00:00",
+      "summary": "Creating high-quality ASIM parsers has always required deep knowledge about source data and ASIM schemas, careful KQL design, and repeated validation cycles. That process is meaningful to understand the whole Sentinel ecosystem, but it can be slow when you are starting from raw source data and...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "derricklee",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876",
+      "published": "2026-07-15T15:54:55+00:00",
+      "summary": "Microsoft's Cloud Architects: Paul Singh PaulSingh​, Aladdin Alchalabi aalchalabi​, Eduardo Dos Santos eduardomdossantos​, Chris Walk cwalk​, Peter Lo PeterLo​, Tim Orentlikher tim_orentlikher​, Ajmal Hossain ajmalhossain​, Chris Haynes Chris_Haynes​, and Rafia Aqil Rafia_Aqil​ Start Here: Engage...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "[In preview] Public Preview: Advanced platform metrics in Azure Monitor",
       "link": "https://azure.microsoft.com/updates?id=567726",
       "published": "2026-07-15T15:30:11+00:00",
@@ -232,6 +287,17 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "Public Preview: Advanced platform metrics in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-advanced-platform-metrics-in-azure-monitor/ba-p/4536983",
+      "published": "2026-07-15T14:43:18+00:00",
+      "summary": "We are excited to announce the Public Preview of advanced platform metrics for Azure Monitor, delivering more granular telemetry to help customers monitor and optimize their workloads more effectively. This new capability builds on Azure Monitor platform metrics, which continue to provide broad...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "alyssaschimm",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Pick, manage, and get the most from your models",
@@ -660,28 +726,6 @@
       "blogId": "azuredevcommunityblog",
       "author": "ellisd4",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876",
-      "published": "2026-07-13T02:35:23+00:00",
-      "summary": "Microsoft's Cloud Architects: Paul Singh PaulSingh​, Aladdin Alchalabi aalchalabi​, Eduardo Dos Santos eduardomdossantos​, Chris Walk cwalk​, Peter Lo PeterLo​, Tim Orentlikher tim_orentlikher​, Ajmal Hossain ajmalhossain​, Chris Haynes Chris_Haynes​, and Rafia Aqil Rafia_Aqil​ Start Here: Engage...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Streaming and Batch Data Architectures with Microsoft Fabric to Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/streaming-and-batch-data-architectures-with-microsoft-fabric-to/ba-p/4526166",
-      "published": "2026-07-13T02:32:29+00:00",
-      "summary": "Author's: Aladdin Alchalabi aalchalabi​, Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point to...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3105,6 +3149,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Build an Automated SLA Risk Agent with Routines in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/build-an-automated-sla-risk-agent-with-routines-in-microsoft/ba-p/4528103",
+      "published": "2026-06-17T12:00:00+00:00",
+      "summary": "What if your support team could start every morning with an AI-generated summary of tickets most likely to breach SLA? This tutorial shows you how to build exactly that: a grounded agent in Microsoft Foundry that automatically analyzes your ticket data and surfaces risks. Using Routines in...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "LauraVerghote",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Azure Sets a New Performance Record for LLM Training Benchmark at Extreme Scale",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/azure-sets-a-new-performance-record-for-llm-training-benchmark/ba-p/4523077",
       "published": "2026-06-17T00:17:30+00:00",
@@ -3961,17 +4016,6 @@
       "author": "Soo Stahl, Bhuvan Shah",
       "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Now in preview: built-in MCP for Azure App Service",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/now-in-preview-built-in-mcp-for-azure-app-service/ba-p/4526407",
-      "published": "2026-06-08T13:09:52+00:00",
-      "summary": "At Build 2026 last week, we announced the public preview of built-in MCP for Azure App Service. It does one thing, and it does it with almost no effort on your part: it turns a REST API you already host on App Service into a Model Context Protocol (MCP) server, so AI agents and assistants can call...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "The Worm in the Supply Chain: How Defender for Endpoint and Sentinel for SAP BTP Caught Shai-Hulud",
@@ -5170,17 +5214,6 @@
       "blogId": "integrationsonazureblog",
       "author": "beenamore",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure Monitor Copilot Observability Agent: What’s new at Build",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-copilot-observability-agent-what-s-new-at-build/ba-p/4522927",
-      "published": "2026-06-02T19:30:00+00:00",
-      "summary": "The Observability agent in Azure Copilot is an AI-powered assistant built into Azure Monitor that helps engineers investigate issues and explore their systems using natural language. By grounding its analysis in telemetry data such as metrics, logs, and traces, it supports both open-ended...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "EfratNauerman",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8242,17 +8275,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Modernizing Industrial Safety and Inspection with AI-Driven Drone Automation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/modernizing-industrial-safety-and-inspection-with-ai-driven/ba-p/4514284",
-      "published": "2026-04-25T00:07:31+00:00",
-      "summary": "In large-scale manufacturing and infrastructure environments, maintaining structural integrity is a continuous operational challenge. Industrial facilities—from automotive plants to energy and infrastructure sites—depend on thousands of structural connection points such as bolts and fasteners to...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "PeterTHLee",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure MCP Server now available as an MCP Bundle (.mcpb)",
       "link": "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-mcpb-support/",
       "published": "2026-04-24T20:32:49+00:00",
@@ -8679,17 +8701,6 @@
       "blogId": "azuremigrationblog",
       "author": "dhruti",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Enforce Cost Limits on KQL Queries and Notebooks in the Microsoft Sentinel Data Lake",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/enforce-cost-limits-on-kql-queries-and-notebooks-in-the/ba-p/4511329",
-      "published": "2026-04-15T20:26:56+00:00",
-      "summary": "Security teams face a constant tension: run the advanced analytics you need to stay ahead of threats, or hold back to keep costs predictable. Until now, Microsoft Sentinel let you set alerts to get notified when data lake usage approached a threshold — useful for awareness, but not enough to...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "shubh_khandhadia",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -10926,17 +10937,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Architecting the Next-Generation Customer Tiering System",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/architecting-the-next-generation-customer-tiering-system/ba-p/4475326",
-      "published": "2025-12-04T21:17:55+00:00",
-      "summary": "Authors Sailing Ni*, Joy Yu*, Peng Yang*, Richard Sie*, Yifei Wang**These authors contributed equally. AffiliationMaster of Science in Business Analytics (MSBA),UCLA Anderson School of Management,Los Angeles, California 90095, United States(Conducted December 2025) AcknowledgmentThis research was...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "BonnieAo",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing General Availability for Azure Resource Graph (ARG) GET/LIST API",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/announcing-general-availability-for-azure-resource-graph-arg-get/ba-p/4474188",
       "published": "2025-12-03T04:39:28+00:00",
@@ -12235,5 +12235,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure/Microsoft security coverage focused squarely on software supply chain risk, with Microsoft detailing the **AsyncAPI npm compromise** and how malicious packages delivered an **import-time payload**, underscoring the danger of trusted open-source dependencies in the **Node.js/npm** ecosystem. The key theme was defensive awareness around package integrity, dependency hygiene, and earlier detection of tampering in developer workflows rather than a broad Azure product launch announcement."
+  "summary": "Today’s Azure-related posts center on platform scale, modern data pipelines, and AI context, with a strong security warning. Microsoft detailed how Microsoft 365 uses Azure Kubernetes Service (AKS) to add a platform engineering layer that accelerates global app delivery, while Azure analytics posts focused on integrating Microsoft Fabric with Azure Databricks for both streaming and batch architectures and on new “IQ” efforts to make AI systems more context-aware.\n\nThe most urgent announcement came from the Microsoft Security Blog, which analyzed an AsyncAPI npm supply-chain compromise involving import-time payload execution—highlighting ongoing risks in open-source package ecosystems and the need for stronger software supply-chain defenses."
 }
