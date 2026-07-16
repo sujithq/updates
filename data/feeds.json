@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T10:48:21.142348+00:00",
+  "lastUpdated": "2026-07-16T13:10:17.087952+00:00",
   "totalArticles": 1112,
   "articles": [
     {
@@ -67,6 +67,17 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Answers You Can Trust: Grounding Enterprise Agents with Foundry IQ",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/answers-you-can-trust-grounding-enterprise-agents-with-foundry/ba-p/4536594",
+      "published": "2026-07-15T20:00:00+00:00",
+      "summary": "Enterprise AI has a trust problem, and it is not about fluency. A model will answer almost any question with confidence, whether or not it actually knows. The moment a legal or support team catches it inventing a policy that does not exist, they stop trusting it for anything that matters. What...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Paulo_Lacerda",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "From Policy to Proof: Governing AI to Scale Human Ambition and Machine Intelligence",
@@ -166,6 +177,17 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "Implementing Multi‑Agent Orchestration in Microsoft Copilot Studio",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/implementing-multi-agent-orchestration-in-microsoft-copilot/ba-p/4494717",
+      "published": "2026-07-15T18:35:54+00:00",
+      "summary": "As organizations move beyond simple Q&A copilots, a common challenge quickly emerges: single agents struggle to handle multi-step, cross-domain scenarios. In our work with customers using Microsoft Copilot Studio, this shows up when copilots are expected to combine reasoning, real-time data, and...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "LeoMa",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "[In preview] Public Preview: Azure SQL updates for mid-July 2026",
@@ -2797,17 +2819,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "How to Score a User Simulator: Introducing USR-8",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/how-to-score-a-user-simulator-introducing-usr-8/ba-p/4523642",
-      "published": "2026-06-19T13:00:00+00:00",
-      "summary": "Authors: José Santos, Shuo Qiu, Morteza Ziyadi User simulators have become a standard part of the agent-building toolkit: cheaper than real-user pilots, faster than scripted dialogues, and the only way to push an agent through hundreds of plausible conversations between every code change. The hard...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "jcasantos",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Release 2026-05-29",
       "link": "https://github.com/Azure/AKS/releases/tag/2026-05-29",
       "published": "2026-06-19T08:45:11+00:00",
@@ -3146,17 +3157,6 @@
       "blogId": "azurenetworksecurityblog",
       "author": "AvanishYadav",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Build an Automated SLA Risk Agent with Routines in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/build-an-automated-sla-risk-agent-with-routines-in-microsoft/ba-p/4528103",
-      "published": "2026-06-17T12:00:00+00:00",
-      "summary": "What if your support team could start every morning with an AI-generated summary of tickets most likely to breach SLA? This tutorial shows you how to build exactly that: a grounded agent in Microsoft Foundry that automatically analyzes your ticket data and surfaces risks. Using Routines in...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "LauraVerghote",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12235,5 +12235,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts center on platform scale, modern data pipelines, and AI context, with a strong security warning. Microsoft detailed how Microsoft 365 uses Azure Kubernetes Service (AKS) to add a platform engineering layer that accelerates global app delivery, while Azure analytics posts focused on integrating Microsoft Fabric with Azure Databricks for both streaming and batch architectures and on new “IQ” efforts to make AI systems more context-aware.\n\nThe most urgent announcement came from the Microsoft Security Blog, which analyzed an AsyncAPI npm supply-chain compromise involving import-time payload execution—highlighting ongoing risks in open-source package ecosystems and the need for stronger software supply-chain defenses."
+  "summary": "Today’s Azure news centers on three big themes: platform engineering at hyperscale, modern data/AI architecture, and software supply-chain security. Microsoft detailed how Microsoft 365 uses Azure Kubernetes Service (AKS) to add a platform engineering layer that speeds global application delivery, while Azure analytics posts focused on integrating Microsoft Fabric with Azure Databricks for both streaming and batch pipelines and on “context-aware AI” systems that improve relevance by incorporating richer contextual signals.\n\nOn the security side, Microsoft analyzed the AsyncAPI npm supply-chain compromise, highlighting import-time payload delivery as a notable attack technique and reinforcing the importance of defending developer ecosystems and package dependencies. Overall, the announcements emphasize Azure as a foundation for scalable cloud platforms, unified data and AI workflows, and proactive threat research."
 }
