@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T13:10:17.087952+00:00",
+  "lastUpdated": "2026-07-16T16:08:13.457721+00:00",
   "totalArticles": 1112,
   "articles": [
     {
@@ -11,6 +11,28 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "How to build long-running MCP tools on Azure Functions",
+      "link": "https://devblogs.microsoft.com/azure-sdk/long-running-mcp-tools-azure-functions/",
+      "published": "2026-07-16T15:00:10+00:00",
+      "summary": "Learn how to build long-running MCP tools on Azure Functions using Durable Functions. This post explains why synchronous tool calls break down for long-running work, introduces the MCP Tasks extension, and walks through a sample pattern that works with existing request/response clients today. The...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Lily Ma",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Visual Studio Administrator? Join our Private Marketplace Preview!",
+      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-administrator-join-our-private-marketplace-preview/",
+      "published": "2026-07-16T14:00:58+00:00",
+      "summary": "Organizations are increasingly looking for greater control over extensions within development environments. Driven by security, compliance, and internal governance requirements, teams want more visibility into how developers discover and acquire extensions. To address these needs, we’re excited to...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Ruben Rios",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
     },
     {
@@ -6790,17 +6812,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Plan Before You Build: Introducing the Plan agent in Visual Studio",
-      "link": "https://devblogs.microsoft.com/visualstudio/plan-before-you-build-introducing-the-plan-agent-in-visual-studio/",
-      "published": "2026-05-21T17:17:59+00:00",
-      "summary": "You ask Copilot to tackle something big, it gets to work, and a dozen file changes later you realize you had a completely different approach in mind. The code isn’t wrong… it just isn’t what you were going for. Last year, we introduced planning as a feature in Agent mode to help with exactly this....",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Rachel Kang (SHE/HER)",
-      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Coordinating AI-Assisted Development with AGENTS.md and Skills",
       "link": "https://devblogs.microsoft.com/ise/ai-assisted-development-agents-skills-copilot-cli/",
       "published": "2026-05-21T07:00:00+00:00",
@@ -9439,17 +9450,6 @@
       "author": "Connected-Seth",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "From code to cloud: Deploy an AI agent to Microsoft Foundry in minutes with azd",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azd-ai-agent-end-to-end/",
-      "published": "2026-03-23T16:54:40+00:00",
-      "summary": "Deploy and monitor an AI agent on Microsoft Foundry using the Azure Developer CLI (azd). This tutorial covers infrastructure scaffolding with Bicep, one-command deployment, local development, and real-time log streaming—all from Visual Studio Code. The post From code to cloud: Deploy an AI agent to...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "PuiChee (PC) Chan",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Shaping the Next Era of Energy Decision Making with Geospatial Intelligence",
@@ -12235,5 +12235,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news centers on three big themes: platform engineering at hyperscale, modern data/AI architecture, and software supply-chain security. Microsoft detailed how Microsoft 365 uses Azure Kubernetes Service (AKS) to add a platform engineering layer that speeds global application delivery, while Azure analytics posts focused on integrating Microsoft Fabric with Azure Databricks for both streaming and batch pipelines and on “context-aware AI” systems that improve relevance by incorporating richer contextual signals.\n\nOn the security side, Microsoft analyzed the AsyncAPI npm supply-chain compromise, highlighting import-time payload delivery as a notable attack technique and reinforcing the importance of defending developer ecosystems and package dependencies. Overall, the announcements emphasize Azure as a foundation for scalable cloud platforms, unified data and AI workflows, and proactive threat research."
+  "summary": "Today’s Azure news centered on cloud-native platform engineering, AI, and security: Microsoft detailed how to build long-running Model Context Protocol (MCP) tools on Azure Functions, how Microsoft 365 uses Azure Kubernetes Service (AKS) as a platform engineering layer to accelerate global delivery, and how Microsoft Fabric integrates with Azure Databricks for both streaming and batch data architectures. On the AI side, Microsoft highlighted “IQ” systems for context-aware AI, while developer tooling updates included a Private Marketplace Preview for Visual Studio administrators.\n\nSecurity was also a major theme, with Microsoft analyzing the AsyncAPI npm supply chain compromise, specifically import-time payload delivery in the JavaScript/npm ecosystem. Overall, the announcements emphasize Azure as a foundation for scalable app platforms, modern data and AI pipelines, and stronger software supply chain defense."
 }
