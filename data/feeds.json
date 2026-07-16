@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-16T16:08:13.457721+00:00",
-  "totalArticles": 1112,
+  "lastUpdated": "2026-07-16T18:52:01.423080+00:00",
+  "totalArticles": 1111,
   "articles": [
     {
       "title": "Visual Studio Code 1.130 (Insiders)",
@@ -11,6 +11,61 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "REST API endpoints for Visual Studio Subscription management",
+      "link": "https://github.blog/changelog/2026-07-16-rest-api-endpoints-for-visual-studio-subscription-management",
+      "published": "2026-07-16T18:06:52+00:00",
+      "summary": "GitHub Enterprise Cloud admins can now use the following REST API endpoints to programmatically manage Visual Studio Subscription (VSS) assignments: GET /enterprises/{enterprise}/visual-studio-subscriptions: Returns all VSS assignments for an enterprise, including… The post REST API endpoints for...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Xcode 27 runner image now in public preview",
+      "link": "https://github.blog/changelog/2026-07-16-xcode-27-runner-image-now-in-public-preview",
+      "published": "2026-07-16T18:00:07+00:00",
+      "summary": "You can now build and test your Apple applications against Xcode 27 on GitHub-hosted macOS runners. This is now available in public preview. With early access to the latest Xcode… The post Xcode 27 runner image now in public preview appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "T-SQL Hygiene: What’s the Big Deal with SET NOCOUNT ON?",
+      "link": "https://devblogs.microsoft.com/azure-sql/tsql-nocount/",
+      "published": "2026-07-16T17:47:28+00:00",
+      "summary": "Learn why SET NOCOUNT ON improves stored procedure efficiency, reduces unnecessary messages, and matters to .NET developers. The post T-SQL Hygiene: What’s the Big Deal with SET NOCOUNT ON? appeared first on Azure SQL Dev Corner.",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing .NET Modernization for Beginners",
+      "link": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-modernization-for-beginners/",
+      "published": "2026-07-16T17:07:06+00:00",
+      "summary": "A free, open-source, hands-on course that walks you through modernizing a real legacy ASP.NET application all the way to .NET 10 using the GitHub Copilot modernization agent, step by step. The post Announcing .NET Modernization for Beginners appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Pablo Lopes",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Least privilege for AI agents: Identity, access, and tool binding",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/least-privilege-for-ai-agents-identity-access-and-tool-binding/",
+      "published": "2026-07-16T16:00:00+00:00",
+      "summary": "As AI agents become more autonomous, strong identity, access, and auditing controls are critical to keeping them secure. The post Least privilege for AI agents: Identity, access, and tool binding appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Yesenia Yser and Toby Kohlenberg",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -718,17 +773,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Separate SSO and Organizations pages in Settings",
-      "link": "https://github.blog/changelog/2026-07-13-separate-sso-and-organizations-pages-in-settings",
-      "published": "2026-07-13T15:57:56+00:00",
-      "summary": "We’ve separated the combined SSO & Organizations page in your user settings into two distinct pages: SSO and Organizations. This update makes it easier to find and manage these settings… The post Separate SSO and Organizations pages in Settings appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "A message broker is only as reliable as the layer you stopped at",
       "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/a-message-broker-is-only-as-reliable-as-the-layer-you-stopped-at/ba-p/4533259",
       "published": "2026-07-13T14:00:00+00:00",
@@ -825,17 +869,6 @@
       "blogId": "aksreleases",
       "author": "shashankbarsin",
       "feedUrl": "https://github.com/Azure/AKS/releases.atom",
-      "sourceType": "rss"
-    },
-    {
-      "title": "CodeQL 2.26.0 adds Kotlin 2.4.0 support and AI prompt injection detection",
-      "link": "https://github.blog/changelog/2026-07-10-codeql-2-26-0-adds-kotlin-2-4-0-support-and-ai-prompt-injection-detection",
-      "published": "2026-07-10T20:40:56+00:00",
-      "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.0, which adds support for Kotlin 2.4.0,… The post CodeQL 2.26.0 adds Kotlin 2.4.0 support and AI prompt injection detection appeared first...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1849,17 +1882,6 @@
       "author": "donnalee",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Microsoft named a leader in the Frost Radar for cloud and application runtime security",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/01/microsoft-named-a-leader-in-the-frost-radar-for-cloud-and-application-runtime-security/",
-      "published": "2026-07-01T16:00:00+00:00",
-      "summary": "Frost & Sullivan names Microsoft a leader as cloud and application security converge into unified, runtime risk reduction. The post Microsoft named a leader in the Frost Radar for cloud and application runtime security appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Security Team",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "6 security settings every GitHub maintainer should enable this week",
@@ -3719,17 +3741,6 @@
       "author": "Mahesh_Sundaram",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Join us for .NET Day on Agentic Modernization Livestream",
-      "link": "https://devblogs.microsoft.com/dotnet/join-us-for-dotnet-day-on-agentic-modernization-livestream/",
-      "published": "2026-06-10T17:05:00+00:00",
-      "summary": "Announcing the .NET Day of Agentic Modernization Livestream The post Join us for .NET Day on Agentic Modernization Livestream appeared first on .NET Blog.",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": "Jeffrey Fritz",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Retirement: Azure Synapse Link for Azure Cosmos DB NoSQL",
@@ -7216,17 +7227,6 @@
       "blogId": "iseblog",
       "author": "Marcel Bindseil",
       "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Microsoft SQL Security Across the MAESTRO Stack: Building Secure Agentic AI with Defense-in-Depth",
-      "link": "https://devblogs.microsoft.com/azure-sql/microsoft-sql-security-across-the-maestro-stack-building-secure-agentic-ai-with-defense-in-depth/",
-      "published": "2026-05-13T21:44:08+00:00",
-      "summary": "Artificial Intelligence is evolving rapidly. What began as simple prompt-and-response systems is now transforming into fully autonomous, agentic AI architectures capable of reasoning, orchestrating tools, interacting with enterprise data, and invoking external systems dynamically. While these...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Arun Vijayraghavan",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
     },
     {
@@ -11982,17 +11982,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Microsoft is a Leader in the 2025 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms",
-      "link": "https://azure.microsoft.com/en-us/blog/microsoft-is-a-leader-in-the-2025-gartner-magic-quadrant-for-cloud-native-application-platforms/",
-      "published": "2025-08-21T15:00:00+00:00",
-      "summary": "We’re proud to announce that Microsoft has been named a Leader in the 2025 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms for a second year in a row, and the furthest to the right in Completeness of Vision. The post Microsoft is a Leader in the 2025 Gartner® Magic Quadrant™ for...",
-      "blog": "Azure Functions Blog",
-      "blogId": "azure-functions-blog",
-      "author": "Scott Hunter",
-      "feedUrl": "https://azure.microsoft.com/en-us/blog/product/azure-functions/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Alert Not Found",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-identity/alert-not-found/m-p/4444283#M4263",
       "published": "2025-08-15T21:03:39+00:00",
@@ -12235,5 +12224,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news centered on cloud-native platform engineering, AI, and security: Microsoft detailed how to build long-running Model Context Protocol (MCP) tools on Azure Functions, how Microsoft 365 uses Azure Kubernetes Service (AKS) as a platform engineering layer to accelerate global delivery, and how Microsoft Fabric integrates with Azure Databricks for both streaming and batch data architectures. On the AI side, Microsoft highlighted “IQ” systems for context-aware AI, while developer tooling updates included a Private Marketplace Preview for Visual Studio administrators.\n\nSecurity was also a major theme, with Microsoft analyzing the AsyncAPI npm supply chain compromise, specifically import-time payload delivery in the JavaScript/npm ecosystem. Overall, the announcements emphasize Azure as a foundation for scalable app platforms, modern data and AI pipelines, and stronger software supply chain defense."
+  "summary": "Today’s Azure-related posts centered on three big themes: **developer/platform modernization**, **AI and security**, and **data/analytics architecture**. Key announcements included **REST API endpoints for Visual Studio Subscription management**, a **public preview of the Xcode 27 runner image** in GitHub Actions, the launch of **.NET Modernization for Beginners**, and a **Private Marketplace Preview for Visual Studio administrators**, alongside guidance on building **long-running MCP tools with Azure Functions** and Microsoft 365’s use of **AKS** for a global platform-engineering layer.\n\nOn the security and data side, Microsoft highlighted **least-privilege design for AI agents** using identity, access controls, and tool binding, plus analysis of the **AsyncAPI npm supply chain compromise**. Data and AI posts focused on architectures spanning **Microsoft Fabric and Azure Databricks** for streaming/batch workloads, new work on **context-aware AI** (“IQ’s”), and practical engineering guidance like **T-SQL `SET NOCOUNT ON`** hygiene for Azure SQL developers."
 }
