@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T21:53:11.037586+00:00",
+  "lastUpdated": "2026-07-17T01:19:09.212822+00:00",
   "totalArticles": 1112,
   "articles": [
     {
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "ACR Stealer: Two observed intrusion chains amid increased threat activity",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/",
+      "published": "2026-07-16T23:12:02+00:00",
+      "summary": "From late April 2026 to mid-June 2026, Microsoft Defender Experts observed increased ACR Stealer activity across customer environments. These campaigns are successfully using ClickFix lures to steal browser credentials, authentication tokens, and sensitive documents from enterprise environments....",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Security Research and Balaji Venkatesh S",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -56,6 +67,17 @@
       "author": "ilyagrebnov",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Advanced search for Projects is generally available",
+      "link": "https://github.blog/changelog/2026-07-16-advanced-search-for-projects-is-generally-available",
+      "published": "2026-07-16T19:07:14+00:00",
+      "summary": "The filter bar in GitHub Projects views now supports advanced search, so you can build the exact view you need with logical AND and OR instead of maintaining a separate… The post Advanced search for Projects is generally available appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Repository admins can archive pull requests",
@@ -782,17 +804,6 @@
       "author": "jisunchoi",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Manage secret scanning custom patterns via REST API",
-      "link": "https://github.blog/changelog/2026-07-13-create-and-manage-secret-scanning-custom-patterns-via-rest-api",
-      "published": "2026-07-13T23:59:13+00:00",
-      "summary": "Starting today, security teams can create, edit, and manage secret scanning custom patterns with the REST API. What’s new The following endpoints are generally available: GET .../secret-scanning/custom-patterns list patterns POST… The post Manage secret scanning custom patterns via REST API...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "The Visual Studio Dev/Test Benefit: Freedom to Build, Test, and Experiment in Azure",
@@ -1760,17 +1771,6 @@
       "blogId": "githubblog",
       "author": "Michael Recachinas",
       "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Improving security posture across the Microsoft partner ecosystem",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/02/improving-security-posture-across-the-microsoft-partner-ecosystem/",
-      "published": "2026-07-02T16:00:00+00:00",
-      "summary": "Read how Microsoft strengthens partner ecosystem security with CSP vetting, least privilege access, monitoring, and risk management best practices. The post Improving security posture across the Microsoft partner ecosystem appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Raji Dani",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -12234,6 +12234,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure and Microsoft cloud posts were dominated by enterprise AI agents and Copilot infrastructure: Microsoft highlighted production agent building with Toolbox, Skills, Tool Search, and Memory in Azure AI Foundry, plus security guidance for least-privilege agents using identity, access control, and tool binding. The company also pushed context-aware AI and Copilot operations, including “IQ” systems, Microsoft 365 Copilot “cowork,” Azure Copilot Observability billing, model-selection guidance for speech and voice, and MCP-focused announcements spanning long-running tools on Azure Functions and enterprise authorization with Entra and App Service.\n\nOn the platform side, Microsoft emphasized scalability, efficiency, and developer workflow improvements: Azure Cobalt introduced workload-aware power management for datacenters, Azure Event Grid Namespaces gained autoscale in public preview, and Microsoft 365 detailed a platform engineering layer on AKS for global delivery. Data and developer updates included Microsoft Fabric-to-Azure Databricks architectures, SQL guidance on `SET NOCOUNT ON`, .NET modernization training, plus GitHub/Visual Studio changes such as archiving pull requests, Visual Studio subscription management APIs, and the Xcode 27 runner image public preview."
+  ]
 }
