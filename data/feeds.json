@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-17T18:47:48.264297+00:00",
-  "totalArticles": 1107,
+  "lastUpdated": "2026-07-17T21:39:43.954670+00:00",
+  "totalArticles": 1111,
   "articles": [
     {
       "title": "Visual Studio Code 1.130 (Insiders)",
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "GitHub Mobile: Fix pull request comments with Copilot cloud agent",
+      "link": "https://github.blog/changelog/2026-07-17-github-mobile-fix-pull-request-comments-with-copilot-cloud-agent",
+      "published": "2026-07-17T19:47:45+00:00",
+      "summary": "You can now select Fix with Copilot directly from Copilot code review pull request comments in GitHub Mobile. The button is available both on the pull request’s main view and… The post GitHub Mobile: Fix pull request comments with Copilot cloud agent appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -56,17 +67,6 @@
       "author": "Elliot Volkman",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Hypervelocity Engineering: Accelerating Enterprise AI with Azure AI Landing Zones",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/hypervelocity-engineering-accelerating-enterprise-ai-with-azure/ba-p/4536192",
-      "published": "2026-07-17T14:57:27+00:00",
-      "summary": "Artificial Intelligence is evolving at unprecedented speed. The challenge for enterprises is no longer building AI solutions—it is engineering AI platforms that can adapt, scale, and govern innovation continuously. Hypervelocity Engineering (HVE) provides the engineering operating model that...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "VimalVerma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "[Launched] Generally Available: Microsoft Defender security assessments for Azure Database for PostgreSQL Flexible Server",
@@ -859,17 +859,6 @@
       "author": "arturoqu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Security reviews now available in the GitHub Copilot app",
-      "link": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
-      "published": "2026-07-14T12:54:12+00:00",
-      "summary": "You can now run a security review on your in-flight code changes directly from the GitHub Copilot app. The /security-review slash command is shipping in public preview, bringing the same… The post Security reviews now available in the GitHub Copilot app appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "From AI Adoption to AI Governance - Using APIM as the Gateway for Azure AI Foundry",
@@ -2805,6 +2794,17 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "truptiparkar",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Building an Azure architecture that’s ready for every signature",
+      "link": "https://techcommunity.microsoft.com/t5/customer-innovation-blog/building-an-azure-architecture-that-s-ready-for-every-signature/ba-p/4530310",
+      "published": "2026-06-23T21:07:06+00:00",
+      "summary": "At Exclaimer, we help organizations manage email signatures at scale, so every message can carry a consistent, compliant, on-brand signature without IT teams manually updating thousands of mailboxes. This is more difficult than it may seem, especially when you're doing it for more than 80,000...",
+      "blog": "Customer Innovation",
+      "blogId": "azure-customer-innovation-blog",
+      "author": "mtoiba",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-customer-innovation-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -6504,6 +6504,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Flexible Cooling for AI Growth: How Zonal Architecture Supports Diverse Hardware Needs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/flexible-cooling-for-ai-growth-how-zonal-architecture-supports/ba-p/4514042",
+      "published": "2026-05-29T20:01:33+00:00",
+      "summary": "By: Ricardo Bianchini, Steve Solomon, Brijesh Warrier, Martin Herbert, Jay Jochim, Husam Alissa, Pulkit Misra, Eric Peterson and Cam Turner Context - Microsoft is pioneering zonal cooling in its next-generation AI datacenters, enabling flexible, performant, efficient, and sustainable thermal...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "stsolo",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Four open source projects to explore at Microsoft Build",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/four-open-source-projects-to-explore-at-microsoft-build/ba-p/4523744",
       "published": "2026-05-29T17:34:29+00:00",
@@ -7711,6 +7722,17 @@
       "blogId": "azurestorageblog",
       "author": "despindola",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Multitude builds resilient banking platform with PostgreSQL and MySQL on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/customer-innovation-blog/multitude-builds-resilient-banking-platform-with-postgresql-and/ba-p/4512470",
+      "published": "2026-05-06T18:53:20+00:00",
+      "summary": "Expanding into new markets is usually a sign that things are going well. For digital banking platforms, however, growth brings a different kind of challenge - more customers, more data, and stricter expectations around availability, security, and regulatory compliance. At Multitude, we operate...",
+      "blog": "Customer Innovation",
+      "blogId": "azure-customer-innovation-blog",
+      "author": "Pooja_Y",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-customer-innovation-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -10838,6 +10860,28 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Staying in the flow: SleekFlow and Azure turn customer conversations into conversions",
+      "link": "https://techcommunity.microsoft.com/t5/customer-innovation-blog/staying-in-the-flow-sleekflow-and-azure-turn-customer/ba-p/4467945",
+      "published": "2025-12-09T17:12:29+00:00",
+      "summary": "A customer adds three items to their cart but never checks out. Another asks about shipping, gets stuck waiting eight minutes, only to drop the call. A lead responds to an offer but is never followed up with in time. Each of these moments represents lost revenue, and they happen to businesses every...",
+      "blog": "Customer Innovation",
+      "blogId": "azure-customer-innovation-blog",
+      "author": "mtoiba",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-customer-innovation-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Pantone’s Palette Generator enhances creative exploration with agentic AI on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/customer-innovation-blog/pantone-s-palette-generator-enhances-creative-exploration-with/ba-p/4469830",
+      "published": "2025-12-09T17:12:11+00:00",
+      "summary": "Color can be powerful. When creative professionals shape the mood and direction of their work, color plays a vital role because it provides context and cues for the end product or creation. For more than 60 years, creatives from all areas of design—including fashion, product, and digital—have...",
+      "blog": "Customer Innovation",
+      "blogId": "azure-customer-innovation-blog",
+      "author": "mtoiba",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-customer-innovation-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "End-to-End Observability for Azure Databricks: From Infrastructure to Internal Application Logging",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/end-to-end-observability-for-azure-databricks-from/ba-p/4475692",
       "published": "2025-12-09T16:56:23+00:00",
@@ -12180,5 +12224,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure and Microsoft updates centered on modernizing cloud-native development and AI adoption: Azure Functions added Python 3.14 generally availability and PowerShell 7.6 in public preview, while Azure Architecture highlighted Azure AI Landing Zones to speed enterprise AI deployment, and developer guidance covered testing agents without calling real APIs plus improving vision-model annotation reliability. Security was the other major theme, with Microsoft previewing its Black Hat USA 2026 focus on AI trust and software supply chain defense, Microsoft Defender security assessments reaching general availability for Azure Database for PostgreSQL Flexible Server, and Azure Files NFS shares in AKS gaining generally available encryption in transit.\n\nSeparately, GitHub argued that the economics of approving software changes have shifted, underscoring growing pressure to rethink developer workflows as AI and automation reshape code review and delivery."
+  "summary": "Today’s Azure and Microsoft developer news centered on AI-assisted software workflows, cloud runtime updates, and stronger security: GitHub added Copilot cloud agent support in GitHub Mobile to fix pull request comments, Microsoft shared patterns for testing agent skills without calling real APIs, and an ISE post explored vision-model evaluation and hallucination detection. On the platform side, Azure Functions now generally supports Python 3.14 and previews PowerShell 7.6, while Azure expanded protections with Microsoft Defender security assessments for Azure Database for PostgreSQL Flexible Server and GA support for encryption in transit for Azure Files NFS shares in AKS; Microsoft also highlighted AI and software supply chain defense themes ahead of Black Hat USA 2026."
 }
