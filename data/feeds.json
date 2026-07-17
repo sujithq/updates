@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-17T12:55:49.161820+00:00",
-  "totalArticles": 1112,
+  "lastUpdated": "2026-07-17T16:06:11.800510+00:00",
+  "totalArticles": 1108,
   "articles": [
     {
       "title": "Visual Studio Code 1.130 (Insiders)",
@@ -11,6 +11,39 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Hypervelocity Engineering: Accelerating Enterprise AI with Azure AI Landing Zones",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/hypervelocity-engineering-accelerating-enterprise-ai-with-azure/ba-p/4536192",
+      "published": "2026-07-17T14:57:27+00:00",
+      "summary": "Artificial Intelligence is evolving at unprecedented speed. The challenge for enterprises is no longer building AI solutions—it is engineering AI platforms that can adapt, scale, and govern innovation continuously. Hypervelocity Engineering (HVE) provides the engineering operating model that...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "VimalVerma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[Launched] Generally Available: Microsoft Defender security assessments for Azure Database for PostgreSQL Flexible Server",
+      "link": "https://azure.microsoft.com/updates?id=567527",
+      "published": "2026-07-17T14:55:28+00:00",
+      "summary": "Microsoft Defender Cloud Security Posture Management (CSPM) assessments for Azure Database for PostgreSQL Flexible Server are now generally available. You can use assessments to continuously evaluate the security posture of your Azure PostgreSQL flexible",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Encryption in Transit for Azure Files NFS Shares in Azure Kubernetes Service (AKS)",
+      "link": "https://azure.microsoft.com/updates?id=567787",
+      "published": "2026-07-17T14:54:09+00:00",
+      "summary": "Azure Kubernetes Service (AKS) now generally supports Encryption in Transit (EiT) for Azure Files NFS v4.1 volumes through the Azure File CSI driver. With EiT enabled, data transferred between AKS workloads and Azure Files NFS shares is encrypted using TL",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -25,6 +58,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Teaching a Vision Model to See Like a Human Annotator—and Catching It When It Lies",
+      "link": "https://devblogs.microsoft.com/ise/ai-asset-enrichment-pipeline/",
+      "published": "2026-07-17T07:00:00+00:00",
+      "summary": "A multimodal LLM enrichment pipeline that extracts structured metadata from visual assets, constrains output to predefined values to minimize hallucinations, and uses a ground truth evaluation template to measure quality—all as a plug-and-play module. The post Teaching a Vision Model to See Like a...",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Deeptanil Saha, Kartheek Palepu",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "ACR Stealer: Two observed intrusion chains amid increased threat activity",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/",
       "published": "2026-07-16T23:12:02+00:00",
@@ -34,6 +78,39 @@
       "author": "Microsoft Security Research and Balaji Venkatesh S",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Azure Cobalt: Workload-Aware Power Management for More Efficient Datacenters",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-cobalt-workload-aware-power-management-for-more-efficient/ba-p/4537049",
+      "published": "2026-07-16T21:16:29+00:00",
+      "summary": "As cloud services and AI workloads continue to grow, power has become a key constraint in expanding compute capacity. Using available power more efficiently enables Azure to deploy more servers in each datacenter, helping meet growing customer demand while improving sustainability. To address this...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "redsa",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Building Agents in Production with Toolbox, Skills, and Tool Search",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-agents-in-production-with-toolbox-skills-and-tool/ba-p/4537969",
+      "published": "2026-07-16T19:54:13+00:00",
+      "summary": "If you are shipping AI agents beyond a demo, you have felt the pain: every agent needs the same tools, each with its own authentication, and the tool list keeps growing until your prompt is bloated and the model picks the wrong one. On 22 July 2026 at 5:00 PM BST, the Microsoft Foundry community is...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Meet the IQ's: How Microsoft is Creating Context-Aware AI",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/meet-the-iq-s-how-microsoft-is-creating-context-aware-ai/ba-p/4537516",
+      "published": "2026-07-16T19:24:03+00:00",
+      "summary": "Microsoft Architect's: Lavanya Sreedhar LavanyaSreedhar​, Tom Dinh Tom-Dinh​, Oviya Soundararajan oviyasound​, and Rafia Aqil Rafia_Aqil​ The AI era demands more than powerful language models. It demands context a deep understanding of what enterprise data means, how it connects, and how AI systems...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "(Co)work in Progress",
@@ -168,6 +245,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "MCP Enterprise Authorization Is Here — What Entra and App Service Can Do Today",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/mcp-enterprise-authorization-is-here-what-entra-and-app-service/ba-p/4537433",
+      "published": "2026-07-16T14:31:39+00:00",
+      "summary": "A few weeks ago I wrote about what the latest MCP changes meant for scaling on Azure App Service. This time, the protocol change is about a different kind of scale: how an enterprise connects hundreds or thousands of employees to MCP servers without making every person authorize every server one at...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Visual Studio Administrator? Join our Private Marketplace Preview!",
       "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-administrator-join-our-private-marketplace-preview/",
       "published": "2026-07-16T14:00:58+00:00",
@@ -216,17 +304,6 @@
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/streaming-and-batch-data-architectures-with-microsoft-fabric-to/ba-p/4526166",
       "published": "2026-07-16T02:36:35+00:00",
       "summary": "Author's: Aladdin Alchalabi aalchalabi​, Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point to...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Meet the IQ's: How Microsoft is Creating Context-Aware AI",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/meet-the-iq-s-how-microsoft-is-creating-context-aware-ai/ba-p/4537516",
-      "published": "2026-07-16T02:15:50+00:00",
-      "summary": "Authors: Lavanya Sreedhar LavanyaSreedhar​, Tom Dinh TomDinh​, Oviya Soundararajan oviyasound​, and Rafia Aqil Rafia_Aqil​ The AI era demands more than powerful language models. It demands context a deep understanding of what enterprise data means, how it connects, and how AI systems can reason and...",
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
       "author": "Rafia_Aqil",
@@ -2709,17 +2786,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Building an Azure architecture that’s ready for every signature",
-      "link": "https://techcommunity.microsoft.com/t5/customer-innovation-blog/building-an-azure-architecture-that-s-ready-for-every-signature/ba-p/4530310",
-      "published": "2026-06-23T21:07:06+00:00",
-      "summary": "At Exclaimer, we help organizations manage email signatures at scale, so every message can carry a consistent, compliant, on-brand signature without IT teams manually updating thousands of mailboxes. This is more difficult than it may seem, especially when you're doing it for more than 80,000...",
-      "blog": "Customer Innovation",
-      "blogId": "azure-customer-innovation-blog",
-      "author": "mtoiba",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-customer-innovation-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[In preview] Generally Available: Azure NetApp Files migration assistant",
       "link": "https://azure.microsoft.com/updates?id=565480",
       "published": "2026-06-23T20:15:55+00:00",
@@ -3523,17 +3589,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Troubleshooting ML Model Loading, GPU Issues, and Memory Pressure in Azure Container Apps",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/troubleshooting-ml-model-loading-gpu-issues-and-memory-pressure/ba-p/4518542",
-      "published": "2026-06-12T07:00:00+00:00",
-      "summary": "Introduction Deploying an AI application to Azure Container Apps is fundamentally different from deploying a web API. When you containerize a Django REST API, the application starts in a few seconds, the memory footprint is predictable, and the CPU usage scales linearly with requests. When you...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "BhaktiRath95",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Orchestration Patterns for Multi-Agent Systems: Performance and Trade-offs",
       "link": "https://devblogs.microsoft.com/ise/coordinator-patterns-multi-agent-systems/",
       "published": "2026-06-12T07:00:00+00:00",
@@ -3983,17 +4038,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Designing for High Availability: The Operational Reference for Running a Geo-Replicated ACR",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/designing-for-high-availability-the-operational-reference-for/ba-p/4526465",
-      "published": "2026-06-08T18:07:21+00:00",
-      "summary": "By Johnson Shi, Zoey (Zhuyu) Li, Huangli Wu Introduction Three of the most common questions we hear from enterprise teams running geo-replicated Azure Container Registries (ACR) are: \"How do I control which region serves my traffic?\" — When my AKS clusters are spread across regions, can I pin each...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "johnsonshi_msft",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "[Launched] Generally Available: Premium SSD v2 disks now support non-zonal Azure Virtual Machines",
@@ -6284,28 +6328,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Azure Logic Apps MCP Server.",
-      "link": "https://azure.microsoft.com/updates?id=562868",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "As organizations adopt AI agents and MCP-based tooling, integration teams often need to build and maintain custom API layers just to make existing workflows callable by agents. This additional plumbing increases development effort, operational complexity,",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Azure Logic Apps Codeful Workflows with Logic Apps Standard SDK.",
-      "link": "https://azure.microsoft.com/updates?id=562863",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Modern integration and automation teams increasingly want the flexibility of writing workflows directly in code while still benefiting from managed orchestration, enterprise connectors, and cloud-scale operational capabilities. Traditional workflow models",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Secure, Modern Access to Azure Files on macOS with MS Entra ID",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/secure-modern-access-to-azure-files-on-macos-with-ms-entra-id/ba-p/4524077",
       "published": "2026-06-02T18:55:03+00:00",
@@ -6479,17 +6501,6 @@
       "blogId": "microsoft365copilotblog",
       "author": "Sigita_Cepaitiene",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Flexible Cooling for AI Growth: How Zonal Architecture Supports Diverse Hardware Needs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/flexible-cooling-for-ai-growth-how-zonal-architecture-supports/ba-p/4514042",
-      "published": "2026-05-29T20:01:33+00:00",
-      "summary": "By: Ricardo Bianchini, Steve Solomon, Brijesh Warrier, Martin Herbert, Jay Jochim, Husam Alissa, Pulkit Misra, Eric Peterson and Cam Turner Context - Microsoft is pioneering zonal cooling in its next-generation AI datacenters, enabling flexible, performant, efficient, and sustainable thermal...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "stsolo",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -7648,17 +7659,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "SQL query generation from natural language",
-      "link": "https://devblogs.microsoft.com/ise/llm-sql-query-generation/",
-      "published": "2026-05-07T07:00:00+00:00",
-      "summary": "Evaluating AI agents for NL-to-SQL generation across Azure Databricks AI/BI Genie, GitHub Copilot CLI, and Microsoft Agent Framework. We achieved ~75% accuracy with schema documentation and runtime validation, while discovering that business logic errors represent a fundamental limitation requiring...",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Ashley Costigane",
-      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Governing Agent Sprawl: A Multi‑Region AI Agent Landing Zone on Azure (Reference Architecture)",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/governing-agent-sprawl-a-multi-region-ai-agent-landing-zone-on/ba-p/4516036",
       "published": "2026-05-07T05:19:02+00:00",
@@ -7711,17 +7711,6 @@
       "blogId": "azurestorageblog",
       "author": "despindola",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Multitude builds resilient banking platform with PostgreSQL and MySQL on Azure",
-      "link": "https://techcommunity.microsoft.com/t5/customer-innovation-blog/multitude-builds-resilient-banking-platform-with-postgresql-and/ba-p/4512470",
-      "published": "2026-05-06T18:53:20+00:00",
-      "summary": "Expanding into new markets is usually a sign that things are going well. For digital banking platforms, however, growth brings a different kind of challenge - more customers, more data, and stricter expectations around availability, security, and regulatory compliance. At Multitude, we operate...",
-      "blog": "Customer Innovation",
-      "blogId": "azure-customer-innovation-blog",
-      "author": "Pooja_Y",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-customer-innovation-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -7930,17 +7919,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "ranjsharma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Building Multi-File Refactoring Agents with GitHub Copilot Workspace",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-multi-file-refactoring-agents-with-github-copilot/ba-p/4516932",
-      "published": "2026-05-05T03:49:40+00:00",
-      "summary": "Introduction AI-assisted development continues to evolve beyond inline code suggestions toward end-to-end engineering workflows. While tools such as GitHub Copilot have significantly improved developer productivity at the function and file level, modern applications demand capabilities that operate...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Devi_Priya",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -10860,28 +10838,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Staying in the flow: SleekFlow and Azure turn customer conversations into conversions",
-      "link": "https://techcommunity.microsoft.com/t5/customer-innovation-blog/staying-in-the-flow-sleekflow-and-azure-turn-customer/ba-p/4467945",
-      "published": "2025-12-09T17:12:29+00:00",
-      "summary": "A customer adds three items to their cart but never checks out. Another asks about shipping, gets stuck waiting eight minutes, only to drop the call. A lead responds to an offer but is never followed up with in time. Each of these moments represents lost revenue, and they happen to businesses every...",
-      "blog": "Customer Innovation",
-      "blogId": "azure-customer-innovation-blog",
-      "author": "mtoiba",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-customer-innovation-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Pantone’s Palette Generator enhances creative exploration with agentic AI on Azure",
-      "link": "https://techcommunity.microsoft.com/t5/customer-innovation-blog/pantone-s-palette-generator-enhances-creative-exploration-with/ba-p/4469830",
-      "published": "2025-12-09T17:12:11+00:00",
-      "summary": "Color can be powerful. When creative professionals shape the mood and direction of their work, color plays a vital role because it provides context and cues for the end product or creation. For more than 60 years, creatives from all areas of design—including fashion, product, and digital—have...",
-      "blog": "Customer Innovation",
-      "blogId": "azure-customer-innovation-blog",
-      "author": "mtoiba",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-customer-innovation-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "End-to-End Observability for Azure Databricks: From Infrastructure to Internal Application Logging",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/end-to-end-observability-for-azure-databricks-from/ba-p/4475692",
       "published": "2025-12-09T16:56:23+00:00",
@@ -12235,5 +12191,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure/developer blog coverage centers on safer, faster AI agent development: Microsoft outlined how to test agent skills without calling real external APIs, likely using mocked responses, controlled test harnesses, and local validation patterns to improve reliability while reducing cost and risk during development. The key theme is building production-ready agents more efficiently by validating orchestration and tool-calling behavior before connecting to live services."
+  "summary": "Today’s Azure posts focused on making enterprise AI and cloud operations more production-ready, secure, and testable. Microsoft highlighted **Azure AI Landing Zones** as an architecture pattern for accelerating enterprise AI adoption, announced **general availability of Microsoft Defender security assessments for Azure Database for PostgreSQL Flexible Server**, and released **GA support for encryption in transit for Azure Files NFS shares in AKS**, strengthening both database and Kubernetes storage security.\n\nOn the developer side, the blogs emphasized safer AI engineering practices: one post showed how to **test agent skills without calling real external APIs** using mocking/simulation approaches, while another explored improving **vision model** reliability by training it to mimic **human annotators** and detect when the model is effectively “lying” or hallucinating."
 }
