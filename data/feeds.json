@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-17T07:48:30.369476+00:00",
-  "totalArticles": 1102,
+  "lastUpdated": "2026-07-17T10:28:47.181314+00:00",
+  "totalArticles": 1112,
   "articles": [
     {
       "title": "Visual Studio Code 1.130 (Insiders)",
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "How to test agent skills without hitting real APIs",
+      "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-skills-without-hitting-real-apis/",
+      "published": "2026-07-17T09:27:50+00:00",
+      "summary": "Your agent skill calls an API. The moment you start evaluating it, every run either costs money or mutates production data. Learn how to mock APIs transparently so you can run evals without changing your skill or hitting real endpoints.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -539,6 +550,17 @@
       "blogId": "visualstudio",
       "author": "Rachel Kang (SHE/HER)",
       "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Building AX evals that actually work",
+      "link": "https://devblogs.microsoft.com/blog/building-ax-evals-that-actually-work/",
+      "published": "2026-07-15T12:53:13+00:00",
+      "summary": "This is the eighth and final article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1279,6 +1301,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Let’s Learn GitHub Copilot App – Free Virtual Training Event",
+      "link": "https://devblogs.microsoft.com/blog/lets-learn-github-copilot-app-free-virtual-training-event/",
+      "published": "2026-07-08T17:30:28+00:00",
+      "summary": "Join us for a free online event series kicking off July 16 to learn how to get started with the GitHub Copilot App!",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Katie Savage",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Protecting Microsoft at AI speed: How SFI proactively hardens our cloud",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/07/08/protecting-microsoft-at-ai-speed-how-sfi-proactively-hardens-our-cloud/",
       "published": "2026-07-08T17:00:00+00:00",
@@ -1342,6 +1375,17 @@
       "blogId": "cosmosdbblog",
       "author": "Sajeetharan Sinnathurai",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "The hidden variables in your agent eval",
+      "link": "https://devblogs.microsoft.com/blog/the-hidden-variables-in-your-agent-eval/",
+      "published": "2026-07-08T12:11:17+00:00",
+      "summary": "This is the seventh article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1499,6 +1543,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Don’t rewrite your CLI for agents",
+      "link": "https://devblogs.microsoft.com/blog/dont-rewrite-your-cli-for-agents/",
+      "published": "2026-07-07T13:52:06+00:00",
+      "summary": "There’s advice making the rounds: replace your CLI args with a single --json payload so agents can use your tool more effectively. The thinking being, that agents already think in structured formats, and nested data maps cleanly to JSON. Flat args on the other hand, force awkward conventions like...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Export historical data from Log Analytics workspace with Export Job (preview)",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/export-historical-data-from-log-analytics-workspace-with-export/ba-p/4532425",
       "published": "2026-07-07T09:53:09+00:00",
@@ -1617,6 +1672,17 @@
       "blogId": "cosmosdbblog",
       "author": "Abhishek Gupta",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Not all model upgrades are upgrades",
+      "link": "https://devblogs.microsoft.com/blog/not-all-model-upgrades-are-upgrades/",
+      "published": "2026-07-06T07:49:44+00:00",
+      "summary": "A new model drops with lower per-token pricing and better benchmarks. You switch. A week later someone asks why the agent is burning 12x more tokens on the same task while producing worse output. We ran 150 agent tasks across 15 scenarios on two models, Claude Sonnet 4.6 and Claude Sonnet 5, using...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1948,6 +2014,17 @@
       "author": "pallakatos",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "What AI benchmarks are not telling you",
+      "link": "https://devblogs.microsoft.com/blog/what-ai-benchmarks-are-not-telling-you/",
+      "published": "2026-07-01T14:31:55+00:00",
+      "summary": "This is the sixth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Smoke Test Microsoft Foundry Agents with GitHub Actions",
@@ -2335,6 +2412,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Your agent already has a plan",
+      "link": "https://devblogs.microsoft.com/blog/your-agent-already-has-a-plan/",
+      "published": "2026-06-26T00:00:05+00:00",
+      "summary": "If an agent isn’t doing the right thing, the obvious move is to make the docs clearer. Add a tip, spell out the correct command, describe the right approach more prominently. You do all of that, and the agent still ignores it. It does what it had already decided to do. The tip wasn’t ignored […]",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Garry Trinder",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Iterating faster with TypeScript 7",
       "link": "https://code.visualstudio.com/blogs/2026/06/26/iterating-faster-with-ts-7",
       "published": "2026-06-26T00:00:00+00:00",
@@ -2388,6 +2476,17 @@
       "author": "RajyaLaxmiYellajosyula",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=oracleonazureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Learn from Microsoft: Transform software development through an agentic platform",
+      "link": "https://devblogs.microsoft.com/blog/learn-from-microsoft-transform-software-development-through-an-agentic-platform/",
+      "published": "2026-06-25T18:00:30+00:00",
+      "summary": "See how Microsoft is transforming software development with agentic workflows, AI-powered automation, and specialized agents across the engineering lifecycle.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Poonam Gupta",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "See your serverless: introducing the Headlamp plugin for Knative",
@@ -2585,6 +2684,17 @@
       "blogId": "terraform",
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "When the model has never seen your code",
+      "link": "https://devblogs.microsoft.com/blog/when-the-model-has-never-seen-your-code/",
+      "published": "2026-06-24T14:04:52+00:00",
+      "summary": "This is the fifth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -12124,5 +12234,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure/Microsoft developer coverage centers on safer, cheaper AI agent development: Microsoft’s latest post explains how to test **agent skills** without calling real external services by using mocked or simulated APIs, helping developers validate orchestration, tool use, and failure handling before production. The key theme is improving reliability and developer velocity for **AI agents** and **agentic applications**, with emphasis on controlled testing workflows rather than new Azure product launches."
 }
