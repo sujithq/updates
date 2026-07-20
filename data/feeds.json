@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T16:19:11.119747+00:00",
+  "lastUpdated": "2026-07-20T19:20:10.049737+00:00",
   "totalArticles": 1106,
   "articles": [
     {
@@ -14,6 +14,39 @@
       "sourceType": "rss"
     },
     {
+      "title": "AI credit pools for cost centers in the billing UI",
+      "link": "https://github.blog/changelog/2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui",
+      "published": "2026-07-20T18:24:14+00:00",
+      "summary": "You can now manage a cost center’s AI credit pool directly in the billing UI where you create and edit cost centers. Previously, you could only manage this through the… The post AI credit pools for cost centers in the billing UI appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "T-SQL Hygiene: Introducing the Covering Index",
+      "link": "https://devblogs.microsoft.com/azure-sql/tsql-covering-index/",
+      "published": "2026-07-20T17:00:49+00:00",
+      "summary": "Often in applications, we write database queries. And often, the same query is executed again and again. To make queries against large tables faster, we can add an index. This is a general improvement for anyone accessing the table. However, there is a specially designed index called a covering...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Copilot users can now see AI credits used per billing cycle",
+      "link": "https://github.blog/changelog/2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle",
+      "published": "2026-07-20T16:00:14+00:00",
+      "summary": "Copilot Business and Copilot Enterprise users can now see how many AI credits they’ve used this billing cycle, even without an individual budget. Find this on your GitHub Copilot usage… The post Copilot users can now see AI credits used per billing cycle appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "$100 million for open source: A milestone built by the community",
       "link": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
       "published": "2026-07-20T16:00:00+00:00",
@@ -25,15 +58,15 @@
       "sourceType": "rss"
     },
     {
-      "title": "Introducing Azure Front Door edge actions - Bringing secure, programmable logic to the edge",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/introducing-azure-front-door-edge-actions-bringing-secure/ba-p/4531928",
-      "published": "2026-07-20T15:32:26+00:00",
-      "summary": "Modern web applications are expected to feel instant, secure, and personalized, no matter where users connect from or what device they use. Delivering that experience requires more than moving static content closer to users. It increasingly depends on making smart decisions at the edge, from...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "akhilkarmalkar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
+      "title": "[In preview] Public Preview: Protect sensitive generative AI telemetry in Application Insights and Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=567594",
+      "published": "2026-07-20T15:09:43+00:00",
+      "summary": "Azure Monitor Application Insights now stores generative AI content in a dedicated GenAIContent table (AppGenAIContent in Log Analytics), making it possible to apply newly available access controls to sensitive AI telemetry. Because Application Insights p",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
     },
     {
       "title": "Automating Oracle to SQL Migration Using SSMA Console Skill in GitHub Copilot",
@@ -45,6 +78,17 @@
       "author": "KapilSamant",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "[Launched] Generally Available: IPv6 support for Azure VPN Gateway",
+      "link": "https://azure.microsoft.com/updates?id=567847",
+      "published": "2026-07-20T14:59:26+00:00",
+      "summary": "IPv6 support for Azure VPN Gateway enables customers to run IPv6 inner traffic through VPN tunnels in a dual‑stack configuration. IPv6 is supported on all production SKU gateways that use standard public IPs.IPv6 inner traffic can be configured for both n",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
     },
     {
       "title": "AI agents, meet the Azure Cosmos DB vNext emulator",
@@ -234,6 +278,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "How to test agent skills without hitting real APIs",
+      "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-skills-without-hitting-real-apis/",
+      "published": "2026-07-17T09:27:50+00:00",
+      "summary": "Your agent skill calls an API. The moment you start evaluating it, every run either costs money or mutates production data. Learn how to mock APIs transparently so you can run evals without changing your skill or hitting real endpoints.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Teaching a Vision Model to See Like a Human Annotator—and Catching It When It Lies",
       "link": "https://devblogs.microsoft.com/ise/ai-asset-enrichment-pipeline/",
       "published": "2026-07-17T07:00:00+00:00",
@@ -315,17 +370,6 @@
       "link": "https://github.blog/changelog/2026-07-16-rest-api-endpoints-for-visual-studio-subscription-management",
       "published": "2026-07-16T18:06:52+00:00",
       "summary": "GitHub Enterprise Cloud admins can now use the following REST API endpoints to programmatically manage Visual Studio Subscription (VSS) assignments: GET /enterprises/{enterprise}/visual-studio-subscriptions: Returns all VSS assignments for an enterprise, including… The post REST API endpoints for...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Xcode 27 runner image now in public preview",
-      "link": "https://github.blog/changelog/2026-07-16-xcode-27-runner-image-now-in-public-preview",
-      "published": "2026-07-16T18:00:07+00:00",
-      "summary": "You can now build and test your Apple applications against Xcode 27 on GitHub-hosted macOS runners. This is now available in public preview. With early access to the latest Xcode… The post Xcode 27 runner image now in public preview appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -484,17 +528,6 @@
       "blogId": "microsoftsecurity",
       "author": "Microsoft Security Research, Ravikant Tiwari, Sagar Patil, Suriyaraj Natarajan and Arvind Gowda",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Improvements to secret scanning and public monitoring",
-      "link": "https://github.blog/changelog/2026-07-15-improvements-to-secret-scanning-and-public-monitoring",
-      "published": "2026-07-15T22:38:16+00:00",
-      "summary": "This week, we’re rolling out several improvements to secret scanning and public monitoring: Resend is now a GitHub secret scanning partner. Secret scanning now detects new secret types from APIclub… The post Improvements to secret scanning and public monitoring appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -826,6 +859,17 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "Introducing Azure Front Door edge actions - Bringing secure, programmable logic to the edge",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/introducing-azure-front-door-edge-actions-bringing-secure/ba-p/4531928",
+      "published": "2026-07-14T18:55:53+00:00",
+      "summary": "Modern web applications are expected to feel instant, secure, and personalized, no matter where users connect from or what device they use. Delivering that experience requires more than moving static content closer to users. It increasingly depends on making smart decisions at the edge, from...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "akhilkarmalkar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": ".NET and .NET Framework July 2026 servicing releases updates",
@@ -2982,17 +3026,6 @@
       "author": "payalmahesh",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Models don’t have preferences, they have context",
-      "link": "https://devblogs.microsoft.com/blog/models-dont-have-preferences-they-have-context/",
-      "published": "2026-06-22T14:53:23+00:00",
-      "summary": "You open a fresh chat, type “What framework should I use for a web app?”, and the model says “React.” You screenshot it, share it, and write “Claude prefers React.” It gets engagement. People nod along. A few reply with their own results. And now we have a consensus: Claude prefers React. Except it...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "How to Use Deep Agents with Azure Cosmos DB – Plan, act, and verify against operational data",
@@ -6317,28 +6350,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Azure API Management Premium v2 now supports multiple custom domains",
-      "link": "https://azure.microsoft.com/updates?id=562899",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Organizations often need to expose APIs, developer portals, and management endpoints under different branded or organizational domain names- — for example, api.contoso.com for external partners, apis.hrportal.contoso.com for an internal HR platform, and d",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Public Preview: Azure API Management now supports token metrics for all token types",
-      "link": "https://azure.microsoft.com/updates?id=562885",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "As organizations adopt advanced AI models, understanding token consumption is becoming more complex. Traditional metrics focused primarily on prompt and completion tokens often fail to capture newer token categories such as cached, reasoning, or thinking",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Secure, Modern Access to Azure Files on macOS with MS Entra ID",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/secure-modern-access-to-azure-files-on-macos-with-ms-entra-id/ba-p/4524077",
       "published": "2026-06-02T18:55:03+00:00",
@@ -7184,17 +7195,6 @@
       "author": "mosiddi",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Considering NL2SQL? Should your database really be the prompt? How can SQL MCP Server help?",
-      "link": "https://devblogs.microsoft.com/azure-sql/sql-mcp-server-nl2sql/",
-      "published": "2026-05-14T19:20:34+00:00",
-      "summary": "You’ve probably experienced both of these, perhaps at the same time. First, that desire to let an agent get at your data. It’s driven by simplification and better experiences for the user and for you: fewer screens, fewer queries, fewer reports, and less code overall. Second, and perhaps more...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Modernizing TCP Applications with Azure Application Gateway Layer 4 TCP/TLS Proxy",
@@ -12169,5 +12169,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s posts focused on developer productivity, edge programmability, and modernization on Microsoft’s cloud stack. Microsoft highlighted GitHub’s $100 million open-source support milestone, announced general availability of GitHub Code Quality, and promoted new AI/dev tooling including an Azure Cosmos DB vNext emulator for AI agents and a GitHub Copilot–powered SSMA Console workflow to automate Oracle-to-SQL migration.\n\nOn the infrastructure side, Azure introduced Azure Front Door edge actions, adding secure programmable logic at the network edge for traffic handling and application delivery scenarios. The roundup also pointed developers to MCP Live!, a free livestream centered on MCP and the broader Azure/GitHub developer ecosystem."
+  "summary": "Today’s updates centered on AI governance/cost visibility and developer productivity across GitHub and Azure. GitHub introduced AI credit pools for cost centers and per-billing-cycle AI credit usage visibility for Copilot, while Azure previewed protections for sensitive generative AI telemetry in Application Insights and Microsoft Foundry; GitHub also highlighted a $100 million open-source milestone and made GitHub Code Quality generally available.\n\nOn the platform side, Microsoft announced general availability of IPv6 support for Azure VPN Gateway, previewed the Azure Cosmos DB vNext emulator for AI agent scenarios, shared SQL-focused guidance on covering indexes in Azure SQL, and showed how GitHub Copilot plus SSMA Console can automate Oracle-to-SQL migration."
 }
