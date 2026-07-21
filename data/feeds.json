@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T16:12:11.085069+00:00",
+  "lastUpdated": "2026-07-21T19:00:28.719775+00:00",
   "totalArticles": 1106,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Choosing the Right Starting Point for Enterprise AI Agents with Copilot Studio and Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/choosing-the-right-starting-point-for-enterprise-ai-agents-with/ba-p/4535024",
+      "published": "2026-07-21T18:00:00+00:00",
+      "summary": "Choosing the Right Starting Point for Enterprise AI Agents with Copilot Studio and Microsoft Foundry Enterprise AI conversations often begin with a familiar question: Should this agent be built with Microsoft Copilot Studio or Microsoft Foundry? While the question is common, it can be misleading if...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "PavanKalyanChilakalapalli",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "How to build interactive experiences with canvases",
@@ -66,6 +77,17 @@
       "blogId": "azuresqlblog",
       "author": "Jerry Nixon",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Copilot users can now see AI credits used per billing cycle",
+      "link": "https://github.blog/changelog/2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle",
+      "published": "2026-07-20T16:00:14+00:00",
+      "summary": "Copilot Business and Copilot Enterprise users can now see how many AI credits they’ve used this billing cycle, even without an individual budget. Find this on your GitHub Copilot usage… The post Copilot users can now see AI credits used per billing cycle appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -311,17 +333,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "How to test agent skills without hitting real APIs",
-      "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-skills-without-hitting-real-apis/",
-      "published": "2026-07-17T09:27:50+00:00",
-      "summary": "Your agent skill calls an API. The moment you start evaluating it, every run either costs money or mutates production data. Learn how to mock APIs transparently so you can run evals without changing your skill or hitting real endpoints.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Teaching a Vision Model to See Like a Human Annotator—and Catching It When It Lies",
       "link": "https://devblogs.microsoft.com/ise/ai-asset-enrichment-pipeline/",
       "published": "2026-07-17T07:00:00+00:00",
@@ -392,17 +403,6 @@
       "link": "https://github.blog/changelog/2026-07-16-repository-admins-can-archive-pull-requests",
       "published": "2026-07-16T19:01:09+00:00",
       "summary": "Repository admins can now archive pull requests to remove them from public view without permanently deleting them. When a pull request is archived, it is closed and locked. Pull requests… The post Repository admins can archive pull requests appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "REST API endpoints for Visual Studio Subscription management",
-      "link": "https://github.blog/changelog/2026-07-16-rest-api-endpoints-for-visual-studio-subscription-management",
-      "published": "2026-07-16T18:06:52+00:00",
-      "summary": "GitHub Enterprise Cloud admins can now use the following REST API endpoints to programmatically manage Visual Studio Subscription (VSS) assignments: GET /enterprises/{enterprise}/visual-studio-subscriptions: Returns all VSS assignments for an enterprise, including… The post REST API endpoints for...",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -2951,17 +2951,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Defending your Memory in Microsoft Foundry Agent Service against memory poisoning",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/defending-your-memory-in-microsoft-foundry-agent-service-against/ba-p/4529638",
-      "published": "2026-06-23T13:00:00+00:00",
-      "summary": "One of the things that makes agents genuinely useful is that they can remember. Instead of treating every interaction as completely new, an agent can carry context across sessions, recall preferences, and preserve continuity over time. In Microsoft Foundry Agent Service, memory enables exactly...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "LauraVerghote",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Enterprise Identity Meets Secure File Transfer: Entra ID Public Preview on Azure Blob Storage SFTP",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/enterprise-identity-meets-secure-file-transfer-entra-id-public/ba-p/4501937",
       "published": "2026-06-23T12:50:37+00:00",
@@ -3026,6 +3015,17 @@
       "author": "payalmahesh",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Models don’t have preferences, they have context",
+      "link": "https://devblogs.microsoft.com/blog/models-dont-have-preferences-they-have-context/",
+      "published": "2026-06-22T14:53:23+00:00",
+      "summary": "You open a fresh chat, type “What framework should I use for a web app?”, and the model says “React.” You screenshot it, share it, and write “Claude prefers React.” It gets engagement. People nod along. A few reply with their own results. And now we have a consensus: Claude prefers React. Except it...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "How to Use Deep Agents with Azure Cosmos DB – Plan, act, and verify against operational data",
@@ -12169,5 +12169,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s posts focus on AI-assisted development and hybrid integration. GitHub highlighted **interactive canvases** as a way to build richer, more visual user experiences, and announced that **Gemini 3.6 Flash** is now available in **GitHub Copilot**, expanding the set of AI models developers can use for coding assistance.\n\nOn the Azure side, the key enterprise announcement was support for **Hybrid Logic Apps Deployment on Red Hat OpenShift**, signaling deeper integration between **Azure Logic Apps** and **Red Hat OpenShift** for running workflow and integration workloads in hybrid environments."
+  "summary": "Today’s Azure- and Microsoft-related posts centered on enterprise AI agent development, developer productivity, and hybrid integration. Microsoft highlighted how organizations can choose between Copilot Studio and Azure AI Foundry for building enterprise AI agents, while GitHub introduced new interactive “canvases” experiences and added Gemini 3.6 Flash support in GitHub Copilot to expand model choice for coding assistance.\n\nThe infrastructure story focused on hybrid deployment, with Azure’s integration team detailing how Logic Apps can run on Red Hat OpenShift for more flexible enterprise integration scenarios. Overall, the key themes were practical AI adoption, richer developer workflows, and extending cloud services into hybrid environments with specific technologies like Copilot Studio, Azure AI Foundry, GitHub Copilot, Gemini 3.6 Flash, Logic Apps, and Red Hat OpenShift."
 }
