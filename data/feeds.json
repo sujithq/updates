@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T05:38:55.869466+00:00",
+  "lastUpdated": "2026-07-21T08:03:28.359415+00:00",
   "totalArticles": 1106,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Hybrid Logic Apps Deployment on Red Hat OpenShift",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hybrid-logic-apps-deployment-on-red-hat-openshift/ba-p/4534828",
+      "published": "2026-07-21T05:13:20+00:00",
+      "summary": "What makes OpenShift different? If you've done this on K3s or AKS, most of the flow is identical as mentioned in Set up your own infrastructure for Standard logic app workflows - Azure Logic Apps | Microsoft Learn. Two OpenShift specifics are worth flagging up front. First, SCCs: the default...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "anandgmenon",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "AI credit pools for cost centers in the billing UI",
@@ -1585,17 +1596,6 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Hybrid Logic Apps Deployment on Red Hat OpenShift",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hybrid-logic-apps-deployment-on-red-hat-openshift/ba-p/4534828",
-      "published": "2026-07-08T11:52:09+00:00",
-      "summary": "What makes OpenShift different? If you've done this on K3s or AKS, most of the flow is identical as mentioned in Set up your own infrastructure for Standard logic app workflows - Azure Logic Apps | Microsoft Learn. Two OpenShift specifics are worth flagging up front. First, SCCs: the default...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "anandgmenon",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "v1.16.0-alpha20260708",
@@ -12168,5 +12168,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecommunicationservicesblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage is centered on **hybrid integration** with the post **“Hybrid Logic Apps Deployment on Red Hat OpenShift”** from *Integrations on Azure*. The key announcement is that **Azure Logic Apps** can be deployed in a **hybrid environment on Red Hat OpenShift**, highlighting tighter integration between Azure’s workflow/orchestration services and **OpenShift/Kubernetes-based infrastructure** for customers running across on-premises and cloud environments.\n\nThe main theme is **enterprise modernization without full cloud relocation**: Microsoft is emphasizing support for **containerized, hybrid deployments** that let organizations run integration workflows closer to their existing systems while still using Azure integration capabilities."
 }
