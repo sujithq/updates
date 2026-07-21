@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T19:00:28.719775+00:00",
+  "lastUpdated": "2026-07-21T21:51:17.186537+00:00",
   "totalArticles": 1106,
   "articles": [
     {
@@ -14,6 +14,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "July Patches for Azure DevOps Server",
+      "link": "https://devblogs.microsoft.com/devops/july-patches-for-azure-devops-server-3/",
+      "published": "2026-07-21T19:23:57+00:00",
+      "summary": "We are releasing new patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay up to date with the latest, most secure version of Azure DevOps Server. The most recent release, Azure DevOps Server, is available on the download page. The following...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Gloridel Morales",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Choosing the Right Starting Point for Enterprise AI Agents with Copilot Studio and Microsoft Foundry",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/choosing-the-right-starting-point-for-enterprise-ai-agents-with/ba-p/4535024",
       "published": "2026-07-21T18:00:00+00:00",
@@ -22,6 +33,28 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "PavanKalyanChilakalapalli",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Connecting Microsoft Discovery App to Azure HPC with Azure NetApp Files and CycleCloud",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/connecting-microsoft-discovery-app-to-azure-hpc-with-azure/ba-p/4539224",
+      "published": "2026-07-21T17:01:25+00:00",
+      "summary": "Introduction Traditional High-Performance Computing (HPC) is central to most scientific computing and engineering applications. These systems are based on well tested, repeatable, and scalable compute processes that enable the large-scale generation and validation that the semiconductor and other...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "richpaw",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Microsoft Discovery: Where HPC meets agentic AI for the next era of EDA",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/microsoft-discovery-where-hpc-meets-agentic-ai-for-the-next-era/ba-p/4539212",
+      "published": "2026-07-21T17:01:23+00:00",
+      "summary": "Introduction High-performance computing is the engine behind the most demanding engineering breakthroughs. In electronic design automation, HPC enables massive simulation farms, verification regressions, place-and-route exploration, timing closure, power analysis, and signoff workloads that would...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "richpaw",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -45,17 +78,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Hybrid Logic Apps Deployment on Red Hat OpenShift",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hybrid-logic-apps-deployment-on-red-hat-openshift/ba-p/4534828",
-      "published": "2026-07-21T05:13:20+00:00",
-      "summary": "What makes OpenShift different? If you've done this on K3s or AKS, most of the flow is identical as mentioned in Set up your own infrastructure for Standard logic app workflows - Azure Logic Apps | Microsoft Learn. Two OpenShift specifics are worth flagging up front. First, SCCs: the default...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "anandgmenon",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "AI credit pools for cost centers in the billing UI",
@@ -330,6 +352,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "How to test agent skills without hitting real APIs",
+      "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-skills-without-hitting-real-apis/",
+      "published": "2026-07-17T09:27:50+00:00",
+      "summary": "Your agent skill calls an API. The moment you start evaluating it, every run either costs money or mutates production data. Learn how to mock APIs transparently so you can run evals without changing your skill or hitting real endpoints.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1607,6 +1640,17 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Hybrid Logic Apps Deployment on Red Hat OpenShift",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hybrid-logic-apps-deployment-on-red-hat-openshift/ba-p/4534828",
+      "published": "2026-07-08T11:52:09+00:00",
+      "summary": "What makes OpenShift different? If you've done this on K3s or AKS, most of the flow is identical as mentioned in Set up your own infrastructure for Standard logic app workflows - Azure Logic Apps | Microsoft Learn. Two OpenShift specifics are worth flagging up front. First, SCCs: the default...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "anandgmenon",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "v1.16.0-alpha20260708",
@@ -3017,17 +3061,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Models don’t have preferences, they have context",
-      "link": "https://devblogs.microsoft.com/blog/models-dont-have-preferences-they-have-context/",
-      "published": "2026-06-22T14:53:23+00:00",
-      "summary": "You open a fresh chat, type “What framework should I use for a web app?”, and the model says “React.” You screenshot it, share it, and write “Claude prefers React.” It gets engagement. People nod along. A few reply with their own results. And now we have a consensus: Claude prefers React. Except it...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "How to Use Deep Agents with Azure Cosmos DB – Plan, act, and verify against operational data",
       "link": "https://devblogs.microsoft.com/cosmosdb/deep-agents-to-plan-act-verify-against-operational-data/",
       "published": "2026-06-22T13:21:18+00:00",
@@ -4065,7 +4098,7 @@
       "title": "Copilot Code Reviews for Azure Repos",
       "link": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos/",
       "published": "2026-06-09T15:12:40+00:00",
-      "summary": "🚨 July 6 Update: This private preview is no longer accepting new sign-ups. We are working to expand availability and expect to open a public preview within the next few weeks. Over the last several years, we have encouraged customers to move their repositories from Azure Repos to GitHub to take...",
+      "summary": "🚨 July 6 Update: This private preview is no longer accepting new sign-ups. We are working to expand availability and expect to open a public preview within a few weeks. We will update the community with a new blog post as we get closer to a public preview. Over the last several years, we have […]...",
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Dan Hellem, Andrew Brenner",
@@ -7230,17 +7263,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "May Patches for Azure DevOps Server",
-      "link": "https://devblogs.microsoft.com/devops/may-patches-for-azure-devops-server-3/",
-      "published": "2026-05-14T17:18:24+00:00",
-      "summary": "We are releasing new patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay up to date with the latest, most secure version of Azure DevOps Server. The most recent release, Azure DevOps Server, is available on the download page. The following...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Gloridel Morales",
-      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "From beta to stable: Announcing the Azure SDK for Rust 🎉🦀",
       "link": "https://devblogs.microsoft.com/azure-sdk/from-beta-to-stable-announcing-the-azure-sdk-for-rust-ga/",
       "published": "2026-05-14T15:46:19+00:00",
@@ -10079,17 +10101,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Private Preview: Azure Managed Prometheus on VM / VMSS",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/private-preview-azure-managed-prometheus-on-vm-vmss/ba-p/4473472",
-      "published": "2026-02-18T20:00:31+00:00",
-      "summary": "What’s new — Managed Prometheus now supports VMs & VMSS Today we are excited to announce the private preview of Azure Managed Prometheus support for virtual machines (VM) and virtual machine scale sets (VMSS). Until now, Managed Prometheus on Azure was primarily targeted at containerized workloads...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "Daramfon",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "AI-Powered RAN and the Intelligent Edge: Microsoft’s Vision for the Future of Telecom",
       "link": "https://techcommunity.microsoft.com/t5/telecommunications-industry-blog/ai-powered-ran-and-the-intelligent-edge-microsoft-s-vision-for/ba-p/4495554",
       "published": "2026-02-18T16:15:41+00:00",
@@ -10713,17 +10724,6 @@
       "blog": "High Performance Computing",
       "blogId": "azurehighperformancecomputingblog",
       "author": "Sunita_AZ0708",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Announcing Azure CycleCloud Workspace for Slurm: Version 2025.12.01 Release",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/announcing-azure-cyclecloud-workspace-for-slurm-version-2025-12/ba-p/4481953",
-      "published": "2026-01-07T09:22:19+00:00",
-      "summary": "We are excited to announce the latest release of Azure CycleCloud Workspace for Slurm, now available with the powerful features and enhancements introduced in CycleCloud 8.8.1. This update brings significant improvements to cluster management, monitoring, security, and platform support, empowering...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "xpillons",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -12169,5 +12169,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure- and Microsoft-related posts centered on enterprise AI agent development, developer productivity, and hybrid integration. Microsoft highlighted how organizations can choose between Copilot Studio and Azure AI Foundry for building enterprise AI agents, while GitHub introduced new interactive “canvases” experiences and added Gemini 3.6 Flash support in GitHub Copilot to expand model choice for coding assistance.\n\nThe infrastructure story focused on hybrid deployment, with Azure’s integration team detailing how Logic Apps can run on Red Hat OpenShift for more flexible enterprise integration scenarios. Overall, the key themes were practical AI adoption, richer developer workflows, and extending cloud services into hybrid environments with specific technologies like Copilot Studio, Azure AI Foundry, GitHub Copilot, Gemini 3.6 Flash, Logic Apps, and Red Hat OpenShift."
+  "summary": "Today’s Azure and GitHub posts center on three big themes: enterprise AI agents, HPC for scientific/EDA workloads, and developer tooling updates. Microsoft highlighted how organizations can start building enterprise AI agents with **Copilot Studio** and **Microsoft Foundry/Azure AI Foundry**, while its HPC team showed how **Microsoft Discovery**, **Azure HPC**, **Azure NetApp Files**, and **CycleCloud** are being combined to support agentic AI and electronic design automation workflows.\n\nOn the developer side, Microsoft released **July patches for Azure DevOps Server**, introduced **interactive canvases** on GitHub for richer collaborative experiences, and added **Gemini 3.6 Flash** as a new model option in **GitHub Copilot**, signaling continued expansion of both platform maintenance and AI-assisted development capabilities."
 }
