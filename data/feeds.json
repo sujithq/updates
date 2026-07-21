@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T21:54:41.835794+00:00",
+  "lastUpdated": "2026-07-21T01:16:33.479762+00:00",
   "totalArticles": 1106,
   "articles": [
     {
@@ -33,17 +33,6 @@
       "blogId": "azuresqlblog",
       "author": "Jerry Nixon",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Copilot users can now see AI credits used per billing cycle",
-      "link": "https://github.blog/changelog/2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle",
-      "published": "2026-07-20T16:00:14+00:00",
-      "summary": "Copilot Business and Copilot Enterprise users can now see how many AI credits they’ve used this billing cycle, even without an individual budget. Find this on your GitHub Copilot usage… The post Copilot users can now see AI credits used per billing cycle appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -289,17 +278,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "How to test agent skills without hitting real APIs",
-      "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-skills-without-hitting-real-apis/",
-      "published": "2026-07-17T09:27:50+00:00",
-      "summary": "Your agent skill calls an API. The moment you start evaluating it, every run either costs money or mutates production data. Learn how to mock APIs transparently so you can run evals without changing your skill or hitting real endpoints.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Teaching a Vision Model to See Like a Human Annotator—and Catching It When It Lies",
       "link": "https://devblogs.microsoft.com/ise/ai-asset-enrichment-pipeline/",
       "published": "2026-07-17T07:00:00+00:00",
@@ -381,6 +359,17 @@
       "link": "https://github.blog/changelog/2026-07-16-rest-api-endpoints-for-visual-studio-subscription-management",
       "published": "2026-07-16T18:06:52+00:00",
       "summary": "GitHub Enterprise Cloud admins can now use the following REST API endpoints to programmatically manage Visual Studio Subscription (VSS) assignments: GET /enterprises/{enterprise}/visual-studio-subscriptions: Returns all VSS assignments for an enterprise, including… The post REST API endpoints for...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Xcode 27 runner image now in public preview",
+      "link": "https://github.blog/changelog/2026-07-16-xcode-27-runner-image-now-in-public-preview",
+      "published": "2026-07-16T18:00:07+00:00",
+      "summary": "You can now build and test your Apple applications against Xcode 27 on GitHub-hosted macOS runners. This is now available in public preview. With early access to the latest Xcode… The post Xcode 27 runner image now in public preview appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -3026,6 +3015,17 @@
       "author": "payalmahesh",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Models don’t have preferences, they have context",
+      "link": "https://devblogs.microsoft.com/blog/models-dont-have-preferences-they-have-context/",
+      "published": "2026-06-22T14:53:23+00:00",
+      "summary": "You open a fresh chat, type “What framework should I use for a web app?”, and the model says “React.” You screenshot it, share it, and write “Claude prefers React.” It gets engagement. People nod along. A few reply with their own results. And now we have a consensus: Claude prefers React. Except it...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "How to Use Deep Agents with Azure Cosmos DB – Plan, act, and verify against operational data",
@@ -12168,6 +12168,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecommunicationservicesblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s posts centered on developer productivity, AI governance, and modern cloud infrastructure: GitHub rolled out AI credit visibility in billing—including shared credit pools for cost centers and per-cycle usage for Copilot users—while also announcing GitHub Code Quality GA and marking a $100 million milestone in support for open source. On Azure, key launches included Azure Front Door edge actions for secure programmable logic at the edge, GA of IPv6 for Azure VPN Gateway, a public preview for protecting sensitive generative AI telemetry in Application Insights and Microsoft Foundry, and the Azure Cosmos DB vNext emulator aimed at AI agent and local development scenarios.\n\nOn the data side, Azure highlighted SQL modernization and performance with a post on covering indexes in T-SQL and a GitHub Copilot + SSMA Console workflow to automate Oracle-to-SQL migration. Microsoft also promoted its MCP ecosystem with a livestream focused on the Model Context Protocol."
+  ]
 }
