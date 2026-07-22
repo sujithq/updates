@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T05:38:07.653160+00:00",
+  "lastUpdated": "2026-07-22T08:03:37.083817+00:00",
   "totalArticles": 1106,
   "articles": [
     {
@@ -374,17 +374,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "How to test agent skills without hitting real APIs",
-      "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-skills-without-hitting-real-apis/",
-      "published": "2026-07-17T09:27:50+00:00",
-      "summary": "Your agent skill calls an API. The moment you start evaluating it, every run either costs money or mutates production data. Learn how to mock APIs transparently so you can run evals without changing your skill or hitting real endpoints.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -3070,6 +3059,17 @@
       "author": "payalmahesh",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Models don’t have preferences, they have context",
+      "link": "https://devblogs.microsoft.com/blog/models-dont-have-preferences-they-have-context/",
+      "published": "2026-06-22T14:53:23+00:00",
+      "summary": "You open a fresh chat, type “What framework should I use for a web app?”, and the model says “React.” You screenshot it, share it, and write “Claude prefers React.” It gets engagement. People nod along. A few reply with their own results. And now we have a consensus: Claude prefers React. Except it...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "How to Use Deep Agents with Azure Cosmos DB – Plan, act, and verify against operational data",
@@ -12169,5 +12169,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-adjacent roundup is dominated by the **Visual Studio Code 1.130 Insiders** release, signaling Microsoft’s continued investment in its flagship developer tooling rather than a broad Azure platform announcement set. The key theme is **early access to upcoming VS Code capabilities**—likely relevant to developers building for **Azure, GitHub, and cloud-native workflows**—with the Insiders channel serving as the preview path for new editor, extension, and productivity features before stable release."
+  "summary": "Today’s Azure-adjacent update is the **Visual Studio Code 1.130 Insiders** release, centered on developer productivity improvements in Microsoft’s flagship editor. The announcement highlights ongoing updates to **VS Code Insiders** itself—typically spanning editor UX, extension platform refinements, and AI/developer tooling integration—signaling Microsoft’s continued investment in the **Visual Studio Code** ecosystem as a core tool for cloud, Azure, and cross-platform development workflows."
 }
