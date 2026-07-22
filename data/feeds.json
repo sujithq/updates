@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T13:14:43.804102+00:00",
+  "lastUpdated": "2026-07-22T16:11:40.845238+00:00",
   "totalArticles": 1106,
   "articles": [
     {
@@ -11,6 +11,50 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Next chapter: Restructuring GitHub’s bug bounty program",
+      "link": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
+      "published": "2026-07-22T16:00:00+00:00",
+      "summary": "GitHub is making some significant changes to its bug bounty program, shifting its focus to give researchers a better experience working with the GitHub team. The post Next chapter: Restructuring GitHub’s bug bounty program appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Catherine Cassell",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Microsoft Discovery: Where HPC meets agentic AI for the next era of EDA",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/microsoft-discovery-where-hpc-meets-agentic-ai-for-the-next-era/ba-p/4539212",
+      "published": "2026-07-22T15:25:57+00:00",
+      "summary": "Introduction High-performance computing is the engine behind the most demanding engineering breakthroughs. In electronic design automation, HPC enables massive simulation farms, verification regressions, place-and-route exploration, timing closure, power analysis, and signoff workloads that would...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "richpaw",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Upcoming GHES change impacting uploading support bundles",
+      "link": "https://github.blog/changelog/2026-07-22-upcoming-ghes-change-impacting-uploading-support-bundles",
+      "published": "2026-07-22T15:05:19+00:00",
+      "summary": "We want to give you advance notice of an upcoming security change that may affect GitHub Enterprise Server (GHES) support bundle uploads. Beginning August 18, 2026, GitHub will start rejecting… The post Upcoming GHES change impacting uploading support bundles appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Building Agents that Act on Your Behalf with Toolboxes in Foundry",
+      "link": "https://devblogs.microsoft.com/foundry/building-agents-that-act-on-your-behalf-with-toolboxes-in-foundry/",
+      "published": "2026-07-22T15:00:29+00:00",
+      "summary": "How Toolboxes in Foundry simplify user delegation At some point, many agents move from answering questions to taking action. And when it does, the question becomes: whose identity is it acting with? Imagine you are building an internal employee agent. It needs to call a private, Entra-protected MCP...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Linda Li, Maria Naggaga",
+      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
       "sourceType": "rss"
     },
     {
@@ -44,28 +88,6 @@
       "blogId": "azurehighperformancecomputingblog",
       "author": "richpaw",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Microsoft Discovery: Where HPC meets agentic AI for the next era of EDA",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/microsoft-discovery-where-hpc-meets-agentic-ai-for-the-next-era/ba-p/4539212",
-      "published": "2026-07-21T17:01:23+00:00",
-      "summary": "Introduction High-performance computing is the engine behind the most demanding engineering breakthroughs. In electronic design automation, HPC enables massive simulation farms, verification regressions, place-and-route exploration, timing closure, power analysis, and signoff workloads that would...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "richpaw",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Take command of your Microsoft Foundry AI agents with the Azure Copilot Observability Agent",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/take-command-of-your-microsoft-foundry-ai-agents-with-the-azure/ba-p/4538681",
-      "published": "2026-07-21T16:28:48+00:00",
-      "summary": "Generative AI (GenAI) agents are moving from prototypes to production, running as part of real distributed applications. When a Microsoft Foundry agent slows down, returns errors, or spikes in token usage, teams need to know why - fast, and with evidence. The Azure Copilot Observability Agent,...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Ron Frenkel",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -377,17 +399,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "How to test agent skills without hitting real APIs",
-      "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-skills-without-hitting-real-apis/",
-      "published": "2026-07-17T09:27:50+00:00",
-      "summary": "Your agent skill calls an API. The moment you start evaluating it, every run either costs money or mutates production data. Learn how to mock APIs transparently so you can run evals without changing your skill or hitting real endpoints.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Teaching a Vision Model to See Like a Human Annotator—and Catching It When It Lies",
       "link": "https://devblogs.microsoft.com/ise/ai-asset-enrichment-pipeline/",
       "published": "2026-07-17T07:00:00+00:00",
@@ -447,17 +458,6 @@
       "link": "https://github.blog/changelog/2026-07-16-advanced-search-for-projects-is-generally-available",
       "published": "2026-07-16T19:07:14+00:00",
       "summary": "The filter bar in GitHub Projects views now supports advanced search, so you can build the exact view you need with logical AND and OR instead of maintaining a separate… The post Advanced search for Projects is generally available appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Repository admins can archive pull requests",
-      "link": "https://github.blog/changelog/2026-07-16-repository-admins-can-archive-pull-requests",
-      "published": "2026-07-16T19:01:09+00:00",
-      "summary": "Repository admins can now archive pull requests to remove them from public view without permanently deleting them. When a pull request is archived, it is closed and locked. Pull requests… The post Repository admins can archive pull requests appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -1763,17 +1763,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Q1 2026 Innovation Graph update: Open source collaboration is accelerating worldwide",
-      "link": "https://github.blog/news-insights/policy-news-and-insights/q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide/",
-      "published": "2026-07-07T16:00:00+00:00",
-      "summary": "New Innovation Graph data shows global developer communities growing faster than ever, with collaboration reaching new highs across many economies. The post Q1 2026 Innovation Graph update: Open source collaboration is accelerating worldwide appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Natalie Guevara",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Optimizing GitHub Copilot Cost in the Usage-Based Billing Era",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/optimizing-github-copilot-cost-in-the-usage-based-billing-era/ba-p/4534171",
       "published": "2026-07-07T15:43:49+00:00",
@@ -3070,6 +3059,17 @@
       "author": "payalmahesh",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Models don’t have preferences, they have context",
+      "link": "https://devblogs.microsoft.com/blog/models-dont-have-preferences-they-have-context/",
+      "published": "2026-06-22T14:53:23+00:00",
+      "summary": "You open a fresh chat, type “What framework should I use for a web app?”, and the model says “React.” You screenshot it, share it, and write “Claude prefers React.” It gets engagement. People nod along. A few reply with their own results. And now we have a consensus: Claude prefers React. Except it...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "How to Use Deep Agents with Azure Cosmos DB – Plan, act, and verify against operational data",
@@ -4975,17 +4975,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "From Building Agents to Working with Them: Enterprise Agent Distribution in Microsoft Foundry",
-      "link": "https://devblogs.microsoft.com/foundry/from-building-agents-to-working-with-them-enterprise-agent-distribution-in-microsoft-foundry/",
-      "published": "2026-06-03T16:00:04+00:00",
-      "summary": "The past year was about building agents. The next year is about putting them to work. Organizations have moved quickly from experimenting with AI agents to building ones that perform complex business processes and execute long-running tasks. But the bottleneck has shifted. The challenge is no...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Amanda Foster",
-      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Embed intelligence into physical systems with smaller form factor infrastructure (preview)",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/embed-intelligence-into-physical-systems-with-smaller-form/ba-p/4524876",
       "published": "2026-06-03T15:57:44+00:00",
@@ -5071,6 +5060,17 @@
       "blogId": "microsoftdefendercloudblog",
       "author": "Yulia_Zhurbinsky",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Is Your Monitoring Actually Working? What's New in Monitoring Coverage",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/is-your-monitoring-actually-working-what-s-new-in-monitoring/ba-p/4524619",
+      "published": "2026-06-02T22:40:52+00:00",
+      "summary": "Monitoring is only useful when the right signals are collected, the right alerts are in place, and the data is actually flowing when teams need it. In large Azure environments, confirming all three across every VM and AKS cluster can still take too much manual work. At Microsoft Ignite, we...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Nathan_Mangum",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12169,5 +12169,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related blog coverage is narrowly focused on developer tooling, with the highlighted post announcing **Visual Studio Code 1.130 (Insiders)**. The key theme is continued iteration on the **VS Code Insiders** preview channel, signaling upcoming improvements for developers using Microsoft’s cross-platform editor, though the article title does not specify the exact new features or Azure-specific capabilities."
+  "summary": "Today’s Azure/Microsoft developer news centers on AI agents, developer tooling, and platform operations. Microsoft highlighted **Toolboxes in Foundry** for building agents that can take actions on a user’s behalf, and **Microsoft Discovery** showed how **high-performance computing (HPC)** is being combined with **agentic AI** to accelerate **electronic design automation (EDA)** workflows.  \n\nOn the developer platform side, **Visual Studio Code 1.130 (Insiders)** signals ongoing IDE improvements, while GitHub announced a major **restructuring of its bug bounty program** and a **GitHub Enterprise Server (GHES)** support-bundle upload change that may affect enterprise support processes."
 }
