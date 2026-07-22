@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-07-22T18:53:05.448487+00:00",
+  "lastUpdated": "2026-07-22T21:55:12.873183+00:00",
   "totalArticles": 1107,
   "articles": [
+    {
+      "title": "Copilot vs. raw API access: What are you actually paying for?",
+      "link": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/",
+      "published": "2026-07-22T19:00:00+00:00",
+      "summary": "Copilot now bills usage at listed API rates. Compare direct model access with the coding workflow, policy, and harness work around it. The post Copilot vs. raw API access: What are you actually paying for? appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Andrea Griffiths",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Grounding Copilot Studio Agents with Azure AI Search and Foundry IQ",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/grounding-copilot-studio-agents-with-azure-ai-search-and-foundry/ba-p/4539337",
+      "published": "2026-07-22T18:00:00+00:00",
+      "summary": "An employee opens the HR agent and asks, \"How much PTO do I accrue each month?\" A few minutes later, someone else asks, \"Where is the official code of ethics policy?\" Those sound like the same problem. They are not. The first person needs a grounded answer they can understand. The second person...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "BrittanyPugh",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Visual Studio Code 1.130",
       "link": "https://code.visualstudio.com/updates/v1_130",
@@ -36,6 +58,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "MCP in Azure: Using API Management for Authentication, Access, Logging & Governance",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/mcp-in-azure-using-api-management-for-authentication-access/ba-p/4532139",
+      "published": "2026-07-22T16:51:16+00:00",
+      "summary": "If MCP is becoming the “USB-C for AI,” enterprises need something equally familiar on the other side of that port: a control plane. The Model Context Protocol (MCP) gives AI applications a standard way to discover tools, retrieve context, and call capabilities from external systems. But once you...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Kalaivanan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "New Copilot usage metrics impact dashboard",
       "link": "https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard",
       "published": "2026-07-22T16:21:47+00:00",
@@ -67,6 +100,17 @@
       "author": "Aarti Borkar",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Design the Network Before You Deploy: Best Practices for Microsoft Foundry Standard Agents BYOVNet",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/design-the-network-before-you-deploy-best-practices-for/ba-p/4537860",
+      "published": "2026-07-22T16:00:00+00:00",
+      "summary": "Ask any enterprise team standing up Microsoft Foundry in production and you'll hear the same non-negotiable: the agent can't run on the open internet. The moment it touches proprietary data, internal APIs, or regulated workloads, security wants it inside the company's own virtual network — behind...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Priya_Kedia",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Microsoft Discovery: Where HPC meets agentic AI for the next era of EDA",
@@ -132,6 +176,17 @@
       "blogId": "azurehighperformancecomputingblog",
       "author": "richpaw",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Take command of your Microsoft Foundry AI agents with the Azure Copilot Observability Agent",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/take-command-of-your-microsoft-foundry-ai-agents-with-the-azure/ba-p/4538681",
+      "published": "2026-07-21T16:28:48+00:00",
+      "summary": "Generative AI (GenAI) agents are moving from prototypes to production, running as part of real distributed applications. When a Microsoft Foundry agent slows down, returns errors, or spikes in token usage, teams need to know why - fast, and with evidence. The Azure Copilot Observability Agent,...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Ron Frenkel",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -1631,17 +1686,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "How GitHub Copilot enables zero DNS configuration for GitHub Pages",
-      "link": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages/",
-      "published": "2026-07-08T16:00:00+00:00",
-      "summary": "Go from an empty repository to a live custom domain with HTTPS in about 14 minutes, without manually editing a single DNS record. The post How GitHub Copilot enables zero DNS configuration for GitHub Pages appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Bruno Borges",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Introducing ROI for agents in Foundry",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-roi-for-agents-in-foundry/ba-p/4531970",
       "published": "2026-07-08T15:00:00+00:00",
@@ -2918,17 +2962,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "An Operational Toolchain for Microsoft Foundry Private Networks",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/an-operational-toolchain-for-microsoft-foundry-private-networks/ba-p/4529558",
-      "published": "2026-06-24T13:00:00+00:00",
-      "summary": "Enterprise teams deploying Microsoft Foundry into private networks can lose hours to failures caused not by the template itself but by surrounding operational state. Each failed deployment can cost thirty to forty-five minutes to redeploy, and residue from one attempt can block the next. This...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "mahyagheini",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "MCP Server Authorization with Azure API Management: From Simple to Advanced",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/mcp-server-authorization-with-azure-api-management-from-simple/ba-p/4528869",
       "published": "2026-06-24T12:50:23+00:00",
@@ -2948,17 +2981,6 @@
       "blogId": "azurestorageblog",
       "author": "GeertVanTeylingen",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Mistral Document AI (with OCR 4) and Mistral Medium 3.5 arrive in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/mistral-document-ai-with-ocr-4-and-mistral-medium-3-5-arrive-in/ba-p/4529863",
-      "published": "2026-06-23T22:01:14+00:00",
-      "summary": "In production AI systems, different problems require different model capabilities. Document ingestion, reasoning, coding, and automation workflows rarely rely on a single model. They depend on selecting the right tool for each layer of the stack. Microsoft Foundry continues to onboard Mistral...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "truptiparkar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -4051,17 +4073,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "How ARM Tracks Work That Takes Hours",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-arm-tracks-work-that-takes-hours/ba-p/4526930",
-      "published": "2026-06-10T02:22:06+00:00",
-      "summary": "By Arav Goyal, Joy Shah, Michael Cheng, Manik Sikka, Jenny Hunter, Johnson Shi Introduction When a user creates, updates, or deletes a resource in Azure, the request flows through Azure Resource Manager (ARM) before reaching the service that actually owns the resource. For operations that complete...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "aravgoyal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "ACI Sandboxes: A Glimpse into the Future of Agentic Compute",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/aci-sandboxes-a-glimpse-into-the-future-of-agentic-compute/ba-p/4526576",
       "published": "2026-06-10T00:56:34+00:00",
@@ -5082,17 +5093,6 @@
       "blogId": "microsoftdefendercloudblog",
       "author": "Yulia_Zhurbinsky",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Is Your Monitoring Actually Working? What's New in Monitoring Coverage",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/is-your-monitoring-actually-working-what-s-new-in-monitoring/ba-p/4524619",
-      "published": "2026-06-02T22:40:52+00:00",
-      "summary": "Monitoring is only useful when the right signals are collected, the right alerts are in place, and the data is actually flowing when teams need it. In large Azure environments, confirming all three across every VM and AKS cluster can still take too much manual work. At Microsoft Ignite, we...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Nathan_Mangum",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12180,5 +12180,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Microsoft and GitHub updates were dominated by AI developer tooling and platform operations: **Visual Studio Code 1.130** and **1.131 Insiders** continue the editor’s rapid iteration, while Microsoft highlighted **agentic AI** in two directions—**Toolboxes in Microsoft Foundry** for building agents that can take actions on a user’s behalf, and **Microsoft Discovery**, which combines **high-performance computing (HPC)** with agentic AI to accelerate **electronic design automation (EDA)** workloads. On the Azure platform side, a notable infrastructure update is the **public preview of Standard service endpoint**, while GitHub added a **Copilot usage metrics impact dashboard** and announced an upcoming **GHES support bundle upload** change.\n\nSecurity and governance were the other major themes: GitHub is **restructuring its bug bounty program**, and Microsoft’s security team published a real-world **incident response** case study with **AXA XL** focused on improving cyber resilience. Overall, the day’s news centers on practical AI adoption, developer productivity in **VS Code/GitHub Copilot**, and tighter operational and security processes across Microsoft’s cloud and developer ecosystem."
+  "summary": "Today’s Azure/Microsoft developer news centered on enterprise AI agents and the infrastructure needed to run them securely: Azure AI Foundry and Copilot Studio added patterns for grounding agents with **Azure AI Search** and **Foundry IQ**, enabling action-taking through **Toolboxes**, and deploying **Foundry Standard Agents** into **BYOVNet** network designs; Microsoft also highlighted **API Management** as a control plane for **MCP** authentication, access, logging, and governance, and introduced a **Standard service endpoint** in public preview.  \n\nOn the tooling side, **Visual Studio Code 1.130** and **1.131 Insiders** shipped updates, while GitHub focused on Copilot economics and operations with a post on **Copilot vs. raw API access**, a new **Copilot usage metrics impact dashboard**, changes to **GHES support bundle uploads**, and a restructuring of its **bug bounty program**; Microsoft also spotlighted cyber resilience work with **AXA XL** and tied **HPC** to agentic AI for **EDA** in **Microsoft Discovery**."
 }
