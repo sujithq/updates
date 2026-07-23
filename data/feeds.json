@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-07-23T05:43:00.844762+00:00",
+  "lastUpdated": "2026-07-23T08:05:49.001513+00:00",
   "totalArticles": 1107,
   "articles": [
+    {
+      "title": "Design, test, and ship Foundry hosted agents from a canvas in GitHub Copilot App",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/design-test-and-ship-foundry-hosted-agents-from-a-canvas-in/ba-p/4539921",
+      "published": "2026-07-23T07:50:18+00:00",
+      "summary": "Building a Microsoft Foundry hosted agent has historically meant juggling multiple surfaces — looking up a model deployment in the Foundry portal, wiring toolboxes and skills by hand, copying an endpoint into your editor, then dropping to the CLI to test and deploy. That context-switching adds...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "junjieli",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Hybrid Logic Apps on RKE2: a self-managed cluster with MetalLB",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hybrid-logic-apps-on-rke2-a-self-managed-cluster-with-metallb/ba-p/4539846",
+      "published": "2026-07-23T05:53:29+00:00",
+      "summary": "Azure Logic Apps Hybrid lets you run the Logic Apps runtime on your own Kubernetes cluster and still author, deploy, and monitor from Azure. The previous post walked through Red Hat OpenShift. This one is RKE2. We spun up a single-node RKE2 cluster, gave the ingress an IP with MetalLB, connected it...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "anandgmenon",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Reminder: Path to Production for Agents Webinar Series Starts Next Week",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/reminder-path-to-production-for-agents-webinar-series-starts/ba-p/4539877",
@@ -3314,17 +3336,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Enterprise-ready Claude Desktop with Entra ID, APIM, and Microsoft Foundry (No Backend Required)",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/enterprise-ready-claude-desktop-with-entra-id-apim-and-microsoft/ba-p/4528163",
-      "published": "2026-06-18T03:47:52+00:00",
-      "summary": "How I put corporate sign-in in front of Claude Desktop without writing a single line of backend code. TL;DR — In this post, I show how to securely enable Claude Desktop in enterprise environments using Microsoft Entra ID, Azure API Management, and Microsoft Foundry — without deploying a custom...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "LZhang",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Use your own language model key in VS Code",
       "link": "https://code.visualstudio.com/blogs/2026/06/18/byok-vscode",
       "published": "2026-06-18T00:00:00+00:00",
@@ -5573,17 +5584,6 @@
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/mcp-test-console-and-git-repository-synch-in-azure-api-center/ba-p/4524617",
       "published": "2026-06-02T19:14:03+00:00",
       "summary": "Why This Matters As organizations race to build AI-powered applications, the Model Context Protocol (MCP) has emerged as the standard way to connect AI agents with external tools and data sources. Managing these MCP servers at enterprise scale, however, has been a growing challenge — until now. AI...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Sreekanth_Thirthala",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "More Control, Less Overhead: Custom Domain Upgrades in Azure API Management v2",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/more-control-less-overhead-custom-domain-upgrades-in-azure-api/ba-p/4524661",
-      "published": "2026-06-02T19:13:25+00:00",
-      "summary": "Multiple custom domains in Premium v2 Large organizations rarely expose APIs under a single domain. A global enterprise might need api.contoso.com for external partners, apis.hrportal.contoso.com for internal teams, and dev.europe.contoso.com for a regional developer portal — all at once. Until...",
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "Sreekanth_Thirthala",
@@ -12180,5 +12180,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog highlights the upcoming **“Path to Production for Agents” webinar series** from **Azure Architecture**, focused on helping teams move **AI agents** from prototype to production. The key theme is operationalizing agent-based applications on Azure, likely covering architecture, deployment, and production-readiness practices for enterprise AI solutions."
+  "summary": "Today’s Azure posts center on **AI agents and production readiness**, with Azure highlighting a new **GitHub Copilot App canvas** for designing, testing, and shipping **Foundry-hosted agents**, alongside a reminder for the upcoming **Path to Production for Agents** webinar series focused on operationalizing agent-based architectures. On the integration side, Azure also detailed running **Hybrid Logic Apps** on a self-managed **RKE2 (Rancher Kubernetes Engine 2)** cluster using **MetalLB**, underscoring continued support for hybrid and Kubernetes-based deployment models."
 }
