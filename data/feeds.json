@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-07-22T21:55:12.873183+00:00",
+  "lastUpdated": "2026-07-23T01:22:34.440999+00:00",
   "totalArticles": 1107,
   "articles": [
+    {
+      "title": "Reminder: Path to Production for Agents Webinar Series Starts Next Week",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/reminder-path-to-production-for-agents-webinar-series-starts/ba-p/4539877",
+      "published": "2026-07-23T00:15:07+00:00",
+      "summary": "Next week, join Microsoft for the Path to Production for Agents webinar series—a free, six-session technical training designed to help organizations move from AI experimentation to secure, scalable, production-ready agent solutions. The series takes place July 27–28 and is aimed at architects,...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "brauerblogs",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure Local expands SAN capabilities with iSCSI support",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-local-expands-san-capabilities-with-iscsi-support/ba-p/4531999",
+      "published": "2026-07-22T22:15:00+00:00",
+      "summary": "As organizations modernize datacenters and accelerate migration from legacy virtualization platforms, flexibility in storage architecture has become a key requirement. Customers increasingly want to reuse existing storage investments, scale infrastructure independently, and choose the connectivity...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "saniya0307",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Copilot vs. raw API access: What are you actually paying for?",
       "link": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/",
@@ -113,17 +135,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Microsoft Discovery: Where HPC meets agentic AI for the next era of EDA",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/microsoft-discovery-where-hpc-meets-agentic-ai-for-the-next-era/ba-p/4539212",
-      "published": "2026-07-22T15:25:57+00:00",
-      "summary": "Introduction High-performance computing is the engine behind the most demanding engineering breakthroughs. In electronic design automation, HPC enables massive simulation farms, verification regressions, place-and-route exploration, timing closure, power analysis, and signoff workloads that would...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "richpaw",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Upcoming GHES change impacting uploading support bundles",
       "link": "https://github.blog/changelog/2026-07-22-upcoming-ghes-change-impacting-uploading-support-bundles",
       "published": "2026-07-22T15:05:19+00:00",
@@ -172,6 +183,17 @@
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/connecting-microsoft-discovery-app-to-azure-hpc-with-azure/ba-p/4539224",
       "published": "2026-07-21T17:01:25+00:00",
       "summary": "Introduction Traditional High-Performance Computing (HPC) is central to most scientific computing and engineering applications. These systems are based on well tested, repeatable, and scalable compute processes that enable the large-scale generation and validation that the semiconductor and other...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "richpaw",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Microsoft Discovery: Where HPC meets agentic AI for the next era of EDA",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/microsoft-discovery-where-hpc-meets-agentic-ai-for-the-next-era/ba-p/4539212",
+      "published": "2026-07-21T17:01:23+00:00",
+      "summary": "Introduction High-performance computing is the engine behind the most demanding engineering breakthroughs. In electronic design automation, HPC enables massive simulation farms, verification regressions, place-and-route exploration, timing closure, power analysis, and signoff workloads that would...",
       "blog": "High Performance Computing",
       "blogId": "azurehighperformancecomputingblog",
       "author": "richpaw",
@@ -495,6 +517,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "How to test agent skills without hitting real APIs",
+      "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-skills-without-hitting-real-apis/",
+      "published": "2026-07-17T09:27:50+00:00",
+      "summary": "Your agent skill calls an API. The moment you start evaluating it, every run either costs money or mutates production data. Learn how to mock APIs transparently so you can run evals without changing your skill or hitting real endpoints.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -3103,17 +3136,6 @@
       "author": "payalmahesh",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Models don’t have preferences, they have context",
-      "link": "https://devblogs.microsoft.com/blog/models-dont-have-preferences-they-have-context/",
-      "published": "2026-06-22T14:53:23+00:00",
-      "summary": "You open a fresh chat, type “What framework should I use for a web app?”, and the model says “React.” You screenshot it, share it, and write “Claude prefers React.” It gets engagement. People nod along. A few reply with their own results. And now we have a consensus: Claude prefers React. Except it...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "How to Use Deep Agents with Azure Cosmos DB – Plan, act, and verify against operational data",
@@ -8231,17 +8253,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Transforming Video Content into Structured SOPs Using Graph-based RAG",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/transforming-video-content-into-structured-sops-using-graph/ba-p/4515038",
-      "published": "2026-04-29T01:04:53+00:00",
-      "summary": "Introduction In today’s digital-first environments, a large portion of enterprise knowledge lives inside video content, training sessions, onboarding walkthroughs, and recorded operational procedures. While videos are great for learning, they are not ideal for quick reference, compliance, or...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "dikshashakya",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "The problem: All-or-nothing batch processing in Azure Service Bus",
       "link": "https://devblogs.microsoft.com/azure-sdk/per-message-settlement-azure-service-bus/",
       "published": "2026-04-28T18:47:37+00:00",
@@ -8933,17 +8944,6 @@
       "author": "Arnaud Lheureux, davidwright, Suzanne Daniels",
       "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Announcing Private Preview: Deploy Ansible Playbooks using Azure Policy via Machine Configuration",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/announcing-private-preview-deploy-ansible-playbooks-using-azure/ba-p/4507848",
-      "published": "2026-04-09T16:25:52+00:00",
-      "summary": "Azure Arc is on a mission to unify security, compliance, and management for Windows and Linux machines—anywhere. By extending Azure’s control plane beyond the cloud, Azure Arc enables organizations to unify governance, compliance, security and management of servers across on‑premises, edge, and...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "alinetran",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Sovereignty in Azure Belgium Central: A Three-Layer Technical Deep Dive",
@@ -12180,5 +12180,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure/Microsoft developer news centered on enterprise AI agents and the infrastructure needed to run them securely: Azure AI Foundry and Copilot Studio added patterns for grounding agents with **Azure AI Search** and **Foundry IQ**, enabling action-taking through **Toolboxes**, and deploying **Foundry Standard Agents** into **BYOVNet** network designs; Microsoft also highlighted **API Management** as a control plane for **MCP** authentication, access, logging, and governance, and introduced a **Standard service endpoint** in public preview.  \n\nOn the tooling side, **Visual Studio Code 1.130** and **1.131 Insiders** shipped updates, while GitHub focused on Copilot economics and operations with a post on **Copilot vs. raw API access**, a new **Copilot usage metrics impact dashboard**, changes to **GHES support bundle uploads**, and a restructuring of its **bug bounty program**; Microsoft also spotlighted cyber resilience work with **AXA XL** and tied **HPC** to agentic AI for **EDA** in **Microsoft Discovery**."
+  "summary": "Today’s Azure blog highlights an upcoming **Azure Architecture** webinar series, **“Path to Production for Agents,”** which starts next week and focuses on how to move **AI agents** from prototype to production. The key theme is practical guidance for building production-ready agent architectures on Azure, likely covering design, deployment, and operational considerations for enterprise AI workloads."
 }
