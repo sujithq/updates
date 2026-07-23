@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-07-23T13:17:05.566184+00:00",
+  "lastUpdated": "2026-07-23T16:17:55.549539+00:00",
   "totalArticles": 1107,
   "articles": [
+    {
+      "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
+      "link": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
+      "published": "2026-07-23T16:00:00+00:00",
+      "summary": "A new default three-day cooldown delays version update pull requests so maintainers and security researchers can address findings in a release before it gets into your code. The post The case for a cooldown: Why Dependabot now waits before issuing version updates appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Carlin Cherry",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Build locally, ship to Azure: meet Azure SQL Developer",
+      "link": "https://devblogs.microsoft.com/azure-sql/azure-sql-developer-prpr/",
+      "published": "2026-07-23T15:00:27+00:00",
+      "summary": "Big news: Azure SQL Developer is here, in private preview. It’s the Azure SQL Database engine, on your laptop, in a container. Build against the exact engine you run in the cloud. Ship the same code to Azure. Change one line, the connection string, and you’re in production. Free for local dev and...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Carlos Robles, Vandana Mahtani",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "Design, test, and ship Foundry hosted agents from a canvas in GitHub Copilot App",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/design-test-and-ship-foundry-hosted-agents-from-a-canvas-in/ba-p/4539921",
@@ -1671,17 +1693,6 @@
       "blog": "GitHub Blog",
       "blogId": "githubblog",
       "author": "David Pine",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "GitHub availability report: June 2026",
-      "link": "https://github.blog/news-insights/company-news/github-availability-report-june-2026/",
-      "published": "2026-07-08T19:35:51+00:00",
-      "summary": "In June, we experienced six incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: June 2026 appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Jakub Oleksy",
       "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
     },
@@ -6820,17 +6831,6 @@
       "blogId": "visualstudio",
       "author": "Mark Downie",
       "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Regex support for LOB types in T-SQL—available in Azure SQL & SQL Server 2025",
-      "link": "https://devblogs.microsoft.com/azure-sql/regex-support-for-lob-types-in-t-sql-available-in-azure-sql-sql-server-2025/",
-      "published": "2026-05-22T20:28:15+00:00",
-      "summary": "At a glance — Native regular expression (regex) functions in T-SQL now accept varchar(max) and nvarchar(max) inputs of up to 2 MB across all seven regex functions, including the two table-valued functions (REGEXP_MATCHES and REGEXP_SPLIT_TO_TABLE). This capability ships in SQL Server 2025 CU5 and...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Abhiman Tiwari",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
     },
     {
@@ -12180,5 +12180,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts center on **agent development on Azure AI Foundry**, **hybrid integration on self-managed Kubernetes**, and **production readiness for enterprise AI agents**. Microsoft highlighted a new **GitHub Copilot App canvas experience** for designing, testing, and deploying **Foundry-hosted agents**, detailed how to run **Hybrid Logic Apps** on an **RKE2** cluster using **MetalLB** for load balancing, and promoted the upcoming **Path to Production for Agents** webinar series focused on moving agents from prototype to production architecture."
+  "summary": "Today’s Azure-related posts focused on safer software delivery, local-to-cloud developer workflows, and enterprise agent deployment. Key announcements included Dependabot’s new “cooldown” delay before version update PRs to reduce churn, the introduction of **Azure SQL Developer** for building locally and deploying to **Azure SQL**, and new support for designing, testing, and shipping **Azure AI Foundry hosted agents** from a canvas inside the **GitHub Copilot App**.\n\nThe posts also emphasized hybrid and production readiness: one walkthrough showed **Hybrid Logic Apps** running on a self-managed **RKE2** Kubernetes cluster with **MetalLB**, while Azure Architecture promoted its upcoming **Path to Production for Agents** webinar series focused on moving AI agents into real-world deployment."
 }
