@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-07-23T16:17:55.549539+00:00",
+  "lastUpdated": "2026-07-23T18:55:52.364841+00:00",
   "totalArticles": 1107,
   "articles": [
+    {
+      "title": "v1.16.0-beta1",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-beta1",
+      "published": "2026-07-23T16:51:01+00:00",
+      "summary": "1.16.0-beta1 (July 23, 2026) NEW FEATURES: Terraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986) terraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298) Providers...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Azure DDoS Protection custom policy",
+      "link": "https://azure.microsoft.com/updates?id=568063",
+      "published": "2026-07-23T16:47:24+00:00",
+      "summary": "Azure DDoS Protection custom policy is now in public preview. This capability provides per-resource control over DDoS mitigation thresholds for protected Standard Load Balancer frontend IP configurations. Customers can configure fixed inbound detection th",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
     {
       "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
       "link": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
@@ -22,6 +44,17 @@
       "blogId": "azuresqlblog",
       "author": "Carlos Robles, Vandana Mahtani",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Email threat landscape: Q2 2026 trends and insights",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/",
+      "published": "2026-07-23T15:00:00+00:00",
+      "summary": "In the second quarter of 2026, the continuing effects of Microsoft’s disruption of the Tycoon2FA phishing platform contributed to sustained declines in several major phishing techniques, while threat actors expanded into Teams-based social engineering and employed increasingly automated and...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Threat Intelligence and Microsoft Defender Security Research Team",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1607,17 +1640,6 @@
       "author": "CollinBrian",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/",
-      "published": "2026-07-09T15:00:00+00:00",
-      "summary": "GigaWiper, also tracked as BLUERABBIT, is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Threat Intelligence",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Monitoring & Observability in Microsoft Foundry Part 2: Configuration and Operations",
@@ -4084,17 +4106,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "v1.15.6",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.6",
-      "published": "2026-06-10T11:52:20+00:00",
-      "summary": "1.15.6 (June 10, 2026) BUG FIXES: Fixed an issue where resources being removed from state via removed block were incorrectly listed under planned_values in json representations of the plan file. (#38665) console: Fixed a panic caused by evaluating an expression involving deprecated values (#38676)...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "PowerToys 0.100 is here: new Shortcut Guide, Command Palette improvements and much more!",
       "link": "https://devblogs.microsoft.com/commandline/powertoys-0-100-is-here-new-shortcut-guide-command-palette-improvements-and-much-more/",
       "published": "2026-06-10T06:26:45+00:00",
@@ -6409,17 +6420,6 @@
       "link": "https://azure.microsoft.com/updates?id=562914",
       "published": "2026-06-02T19:00:47+00:00",
       "summary": "As organizations adopt MCP-based tooling and AI agents at scale, developers need a simpler way to discover and connect to the growing ecosystem of enterprise MCP servers, tools, APIs, and AI assets. With this update, Azure API Center introduces a data pl",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure API Center now supports agent registration, agent assessment, and Git-based synchronization.",
-      "link": "https://azure.microsoft.com/updates?id=562909",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "As organizations increasingly build autonomous AI agents to automate workflows and orchestrate enterprise tasks, developers need a centralized way to discover, govern, and reuse these capabilities across teams. With this update, Azure API Center enables",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -12180,5 +12180,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts focused on safer software delivery, local-to-cloud developer workflows, and enterprise agent deployment. Key announcements included Dependabot’s new “cooldown” delay before version update PRs to reduce churn, the introduction of **Azure SQL Developer** for building locally and deploying to **Azure SQL**, and new support for designing, testing, and shipping **Azure AI Foundry hosted agents** from a canvas inside the **GitHub Copilot App**.\n\nThe posts also emphasized hybrid and production readiness: one walkthrough showed **Hybrid Logic Apps** running on a self-managed **RKE2** Kubernetes cluster with **MetalLB**, while Azure Architecture promoted its upcoming **Path to Production for Agents** webinar series focused on moving AI agents into real-world deployment."
+  "summary": "Today’s Azure-related posts centered on building and operating modern cloud apps and agents: Microsoft highlighted **Azure SQL Developer** for local-first SQL development that can be deployed to Azure, **Foundry hosted agents** designed and tested from a canvas in the **GitHub Copilot App**, and hybrid integration patterns with **Logic Apps on RKE2** using **MetalLB** for self-managed Kubernetes environments. On the platform side, key announcements included **Public Preview of Azure DDoS Protection custom policy**, a **Terraform v1.16.0-beta1** release relevant to infrastructure automation, and a reminder of the upcoming **Path to Production for Agents** webinar series.\n\nSecurity and software supply chain themes were also prominent: Microsoft shared **Q2 2026 email threat landscape** findings on phishing and email-borne attacks, while GitHub explained why **Dependabot** now introduces a cooldown period before opening version update PRs to reduce churn and improve dependency update quality."
 }
