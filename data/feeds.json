@@ -1,7 +1,51 @@
 {
-  "lastUpdated": "2026-07-23T21:53:31.863371+00:00",
+  "lastUpdated": "2026-07-24T01:18:21.164651+00:00",
   "totalArticles": 1106,
   "articles": [
+    {
+      "title": "Copilot cloud agent for Linear is now generally available",
+      "link": "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
+      "published": "2026-07-23T22:32:23+00:00",
+      "summary": "You can now assign issues in Linear to Copilot cloud agent, our asynchronous, autonomous background agent. When you assign a Linear issue to Copilot, it will: Analyze the issue contents… The post Copilot cloud agent for Linear is now generally available appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Post-Stream Refinement is now generally available in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/post-stream-refinement-is-now-generally-available-in-microsoft/ba-p/4540174",
+      "published": "2026-07-23T21:29:47+00:00",
+      "summary": "When we introduced Post-Stream Refinement in public preview earlier this year, it closed the oldest trade-off in real-time speech: you could finally keep instant streaming results and get a highly accurate final transcript, with no penalty to first-token latency. A second recognition pass runs in...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "SolarRezaei",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "For the first time, real-time transcription goes multilingual",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/for-the-first-time-real-time-transcription-goes-multilingual/ba-p/4539089",
+      "published": "2026-07-23T21:29:27+00:00",
+      "summary": "When we introduced Post-Stream Refinement earlier this year, it closed the oldest gap in real-time speech: you could finally get instant streaming results and a highly accurate final transcript, with no latency penalty. But it kept one hard requirement — you had to tell the service, up front, which...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "SolarRezaei",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Introducing MAI-Image-2.5 Pro and MAI-Voice-2 Flash in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-mai-image-2-5-pro-and-mai-voice-2-flash-in-microsoft/ba-p/4539446",
+      "published": "2026-07-23T20:41:12+00:00",
+      "summary": "One of the core principles in Microsoft Foundry is giving customers flexibility to choose the right model for the right job. As we've continued to expand the Microsoft AI (MAI) model family, we've heard a consistent theme from developers and enterprises: they want more choice based on their...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Naomi Moneypenny",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "GitHub MCP Server supports the next MCP specification",
       "link": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
@@ -12,6 +56,17 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Changing the engine while the plane is flying: migrating 60,000 apps under live load",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/changing-the-engine-while-the-plane-is-flying-migrating-60-000/ba-p/4539443",
+      "published": "2026-07-23T20:05:25+00:00",
+      "summary": "Summary Azure Logic Apps Consumption Integration Accounts were served by roughly 60,000 per-customer Azure Functions apps on the end-of-life v1/v2 runtime. Over about two years we migrated the entire fleet to Functions v4 (isolated worker), across all Azure regions, with no migration work required...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "AbodeSaafan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "GitHub Mobile: Fix failing Actions checks with Copilot cloud agent",
@@ -25,6 +80,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "Introducing Kubernetes-Native Policy Validation with CEL and VAP in Azure Policy",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/introducing-kubernetes-native-policy-validation-with-cel-and-vap/ba-p/4534585",
+      "published": "2026-07-23T19:27:12+00:00",
+      "summary": "Azure Policy for Kubernetes now supports Gatekeeper’s integration with native Kubernetes Validating Admission Policy (VAP) using Common Expression Language (CEL)! This integration leverages the new VAP feature introduced in Kubernetes 1.30, providing a more efficient, reliable and in-process way to...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "stevenbucher",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "📢 Announcing Built-In Knowledge for Azure Logic Apps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-built-in-knowledge-for-azure-logic-apps/ba-p/4524601",
+      "published": "2026-07-23T19:26:42+00:00",
+      "summary": "Now in Public Preview Turn your documents into a ready-to-use knowledge base without custom RAG pipelines. Today at Microsoft Build 2026, we are announcing the Public Preview of built-in Knowledge for Azure Logic Apps. It is a managed knowledge layer that transforms your documents into a...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "DivSwa",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "The Microsoft 365 Copilot Agent’s Playbook: A Practical Livestream Series for Building Better Agents",
       "link": "https://devblogs.microsoft.com/blog/the-microsoft-365-copilot-agents-playbook-a-practical-livestream-series-for-building-better-agents/",
       "published": "2026-07-23T19:03:53+00:00",
@@ -36,6 +113,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "1 million documents to 300+agents: Building an enterprise-scale Microsoft 365 Copilot connector",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/1-million-documents-to-300-agents-building-an-enterprise-scale/ba-p/4540155",
+      "published": "2026-07-23T18:57:12+00:00",
+      "summary": "1 million documents. 100,000+ monthly users. 300+ Copilot Studio agents. Here's what we learned building the Microsoft 365 Copilot connector behind them. Most enterprise knowledge lives in portals and repositories that people trust but rarely visit in the flow of work. That's the gap this connector...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "supramo",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Multi-select fields for Projects and Issues in public preview",
       "link": "https://github.blog/changelog/2026-07-23-multi-select-fields-for-projects-and-issues-in-public-preview",
       "published": "2026-07-23T18:19:14+00:00",
@@ -45,6 +133,17 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Announcing public preview of Azure DDoS Protection custom policy",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/announcing-public-preview-of-azure-ddos-protection-custom-policy/ba-p/4538963",
+      "published": "2026-07-23T17:16:28+00:00",
+      "summary": "We are excited to announce the public preview of Azure DDoS Protection custom policy, a new capability that gives customers more granular control over how Azure DDoS Protection detects and mitigates attacks against protected workloads. Azure DDoS Protection has always focused on delivering...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "OfirSarfaty",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "v1.16.0-beta1",
@@ -111,6 +210,28 @@
       "author": "Microsoft Threat Intelligence and Microsoft Defender Security Research Team",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Design, test, and ship Foundry hosted agents from a canvas in GitHub Copilot App",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/design-test-and-ship-foundry-hosted-agents-from-a-canvas-in/ba-p/4539921",
+      "published": "2026-07-23T07:50:18+00:00",
+      "summary": "Building a Microsoft Foundry hosted agent has historically meant juggling multiple surfaces — looking up a model deployment in the Foundry portal, wiring toolboxes and skills by hand, copying an endpoint into your editor, then dropping to the CLI to test and deploy. That context-switching adds...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "junjieli",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Hybrid Logic Apps on RKE2: a self-managed cluster with MetalLB",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hybrid-logic-apps-on-rke2-a-self-managed-cluster-with-metallb/ba-p/4539846",
+      "published": "2026-07-23T05:53:29+00:00",
+      "summary": "Azure Logic Apps Hybrid lets you run the Logic Apps runtime on your own Kubernetes cluster and still author, deploy, and monitor from Azure. The previous post walked through Red Hat OpenShift. This one is RKE2. We spun up a single-node RKE2 cluster, gave the ingress an IP with MetalLB, connected it...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "anandgmenon",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Reminder: Path to Production for Agents Webinar Series Starts Next Week",
@@ -465,17 +586,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "GitHub Code Quality is now generally available",
-      "link": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
-      "published": "2026-07-20T13:01:24+00:00",
-      "summary": "GitHub Code Quality is now generally available on GitHub Enterprise Cloud and GitHub Team. It solves an emerging challenge for software development: AI accelerates code output, and Code Quality helps… The post GitHub Code Quality is now generally available appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Join us for our MCP Live! — A free livestream covering all things MCP",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/join-us-for-our-mcp-live-a-free-livestream-covering-all-things/ba-p/4537980",
       "published": "2026-07-20T07:00:00+00:00",
@@ -649,17 +759,6 @@
       "blogId": "azuredevcommunityblog",
       "author": "Lee_Stott",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "(Co)work in Progress",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/co-work-in-progress/ba-p/4511672",
-      "published": "2026-07-16T19:15:11+00:00",
-      "summary": "A complete record of milestones, launches, and newest innovations. Introducing event-triggered tasks in Cowork: delegate the watching, not just the work Scheduled tasks handle the predictable. But most of what matters at work doesn't run on a clock — it just happens: your manager pings you about a...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "ilyagrebnov",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -1178,17 +1277,6 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Azure Front Door: Resiliency Series – Part 2: Faster recovery (RTO)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-front-door-resiliency-series-part-2-faster-recovery-rto/ba-p/4503091",
-      "published": "2026-07-14T17:56:55+00:00",
-      "summary": "Abhishek Tiwari, Vice President of Engineering, Azure NetworkingAmit Srivastava, Partner Director of PM, Azure NetworkingVarun Chawla, Partner Director of Engineering, Azure NetworkingKarthik Uthaman, Principal Engineer, Azure Networking In Part 1 of this blog series, we outlined our four‑pillar...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "AbhishekTiwari",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": ".NET 11 Preview 6 is now available!",
@@ -2709,17 +2797,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Evaluating Multi-Turn Agents: A Quality Study of Microsoft Foundry’s Multi-Turn Evaluators",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/evaluating-multi-turn-agents-a-quality-study-of-microsoft/ba-p/4524106",
-      "published": "2026-06-26T14:00:00+00:00",
-      "summary": "Authors: Ali Mahmoudzadeh, Salma Elshafey, Shuo Qiu, José Santos, Ilya Matiach, Vivek Bhadauria, Morteza Ziyadi, April Kwong LLM-as-judge evaluations are a critical part of any agent lifecycle. Single-turn metrics such as relevance, faithfulness, tone… can be straight forward to prompt and analyze,...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amah",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "v1.16.0-alpha20260626",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260626",
       "published": "2026-06-26T09:03:31+00:00",
@@ -2740,17 +2817,6 @@
       "author": "Olha Konstantinova, Scott Grosenick",
       "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Practice the Hard Call: Real-Time Voice Training with Live Voice Practice",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/practice-the-hard-call-real-time-voice-training-with-live-voice/ba-p/4530723",
-      "published": "2026-06-26T01:16:13+00:00",
-      "summary": "Customer service runs on conversations that are hard to have and harder to practice. A frustrated customer with a billing charge that was never fixed. A cancellation that turns into a retention call. A confused caller who needs patience more than information. These are the moments that decide...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Paulo_Lacerda",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "What IT teams need to know about Linux Secure Boot certificates expiring in 2026",
@@ -2971,17 +3037,6 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Introducing Cohere Command A+ in Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-cohere-command-a-in-foundry/ba-p/4530376",
-      "published": "2026-06-24T17:57:05+00:00",
-      "summary": "Your enterprise agents need to reason across 48 languages, process documents with images and tables, and orchestrate multi-step workflows all without switching models. Command A+, Cohere's 218B-parameter mixture-of-experts model, is now available in Microsoft Foundry to do exactly that Command A+...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "RashaudSavage",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Visual Studio Code 1.126",
@@ -3344,17 +3399,6 @@
       "blogId": "appsonazureblog",
       "author": "samcogan",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Enterprise-ready Claude Desktop with Entra ID, APIM, and Microsoft Foundry (No Backend Required)",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/enterprise-ready-claude-desktop-with-entra-id-apim-and-microsoft/ba-p/4528163",
-      "published": "2026-06-18T03:47:52+00:00",
-      "summary": "How I put corporate sign-in in front of Claude Desktop without writing a single line of backend code. TL;DR — In this post, I show how to securely enable Claude Desktop in enterprise environments using Microsoft Entra ID, Azure API Management, and Microsoft Foundry — without deploying a custom...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "LZhang",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -5074,17 +5118,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "📢 Announcing Knowledge as a Service for Azure Logic Apps",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-knowledge-as-a-service-for-azure-logic-apps/ba-p/4524601",
-      "published": "2026-06-03T15:32:29+00:00",
-      "summary": "Now in Public Preview Turn your documents into a ready-to-use knowledge base without custom RAG pipelines. Today at Microsoft Build 2026, we are announcing the Public Preview of Knowledge as a Service for Azure Logic Apps. It is a managed knowledge layer that transforms your documents into a...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "DivSwa",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "File share migrations simplified with Azure Copilot Migration Agent",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/file-share-migrations-simplified-with-azure-copilot-migration/ba-p/4524563",
       "published": "2026-06-03T12:28:05+00:00",
@@ -5588,28 +5621,6 @@
       "blogId": "azurevirtualdesktopblog",
       "author": "Christian_Montoya",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurevirtualdesktopblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "MCP Test Console and Git Repository synch in Azure API Center",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/mcp-test-console-and-git-repository-synch-in-azure-api-center/ba-p/4524617",
-      "published": "2026-06-02T19:14:03+00:00",
-      "summary": "Why This Matters As organizations race to build AI-powered applications, the Model Context Protocol (MCP) has emerged as the standard way to connect AI agents with external tools and data sources. Managing these MCP servers at enterprise scale, however, has been a growing challenge — until now. AI...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Sreekanth_Thirthala",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "More Control, Less Overhead: Custom Domain Upgrades in Azure API Management v2",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/more-control-less-overhead-custom-domain-upgrades-in-azure-api/ba-p/4524661",
-      "published": "2026-06-02T19:13:25+00:00",
-      "summary": "Multiple custom domains in Premium v2 Large organizations rarely expose APIs under a single domain. A global enterprise might need api.contoso.com for external partners, apis.hrportal.contoso.com for internal teams, and dev.europe.contoso.com for a regional developer portal — all at once. Until...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Sreekanth_Thirthala",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -11938,17 +11949,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "System-Assigned Identity-based Access for Machine Configuration Packages – GA on both Azure and Arc!",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/system-assigned-identity-based-access-for-machine-configuration/ba-p/4446603",
-      "published": "2025-08-25T14:30:00+00:00",
-      "summary": "Background: Azure Machine Configuration remains committed to enabling greater security and simplicity in at-scale server management for all Azure customers. Machine Configuration (previously known as Azure Policy Guest Configuration) enables both built-in and custom configuration as code allowing...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "mutemwamasheke",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Entra ID Sensitive Groups",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-identity/entra-id-sensitive-groups/m-p/4446619#M4266",
       "published": "2025-08-21T20:12:49+00:00",
@@ -12168,6 +12168,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurevirtualdesktopblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s updates were dominated by AI agent development and governance, with Microsoft promoting practical guidance for building and operationalizing agents through the Microsoft 365 Copilot Agent Playbook livestream series and the Azure Architecture “Path to Production for Agents” webinar, while GitHub expanded agentic workflows with Copilot cloud agent support on GitHub Mobile and new automation controls for GitHub Issues. On the platform side, Azure highlighted infrastructure and data announcements including Azure DDoS Protection custom policy in public preview and Azure SQL Developer for local-to-Azure SQL development, while GitHub and Terraform shipped developer productivity updates such as MCP server support for the next Model Context Protocol spec, multi-select fields for Projects and Issues, Dependabot’s new cooldown behavior for version bumps, and Terraform v1.16.0-beta1."
+  ]
 }
