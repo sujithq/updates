@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-07-24T10:52:42.870707+00:00",
+  "lastUpdated": "2026-07-24T13:11:19.994781+00:00",
   "totalArticles": 1106,
   "articles": [
+    {
+      "title": "Native Agent Memory for Microsoft Agent Framework, Powered by Azure Cosmos DB",
+      "link": "https://devblogs.microsoft.com/cosmosdb/native-agent-memory-for-microsoft-agent-framework-powered-by-azure-cosmos-db/",
+      "published": "2026-07-24T11:00:40+00:00",
+      "summary": "Recently we introduced the Agent Memory Toolkit and the Agentic Retrieval Toolkit for Azure Cosmos DB. The Agent Memory Toolkit gives your agents durable, Cosmos-backed memory: it stores raw conversation turns and then distills them into higher-value derived memories (thread summaries, extracted...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Theo van Kraay",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "Your Entire Agentic AI Workflow, Now Inside VS Code: New Course Available",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/your-entire-agentic-ai-workflow-now-inside-vs-code-new-course/ba-p/4539009",
@@ -80,17 +91,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Changing the engine while the plane is flying: migrating 60,000 apps under live load",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/changing-the-engine-while-the-plane-is-flying-migrating-60-000/ba-p/4539443",
-      "published": "2026-07-23T20:05:25+00:00",
-      "summary": "Summary Azure Logic Apps Consumption Integration Accounts were served by roughly 60,000 per-customer Azure Functions apps on the end-of-life v1/v2 runtime. Over about two years we migrated the entire fleet to Functions v4 (isolated worker), across all Azure regions, with no migration work required...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "AbodeSaafan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "GitHub Mobile: Fix failing Actions checks with Copilot cloud agent",
       "link": "https://github.blog/changelog/2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent",
       "published": "2026-07-23T19:47:58+00:00",
@@ -113,15 +113,15 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "📢 Announcing Built-In Knowledge for Azure Logic Apps",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-built-in-knowledge-for-azure-logic-apps/ba-p/4524601",
-      "published": "2026-07-23T19:26:42+00:00",
-      "summary": "Now in Public Preview Turn your documents into a ready-to-use knowledge base without custom RAG pipelines. Today at Microsoft Build 2026, we are announcing the Public Preview of built-in Knowledge for Azure Logic Apps. It is a managed knowledge layer that transforms your documents into a...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "DivSwa",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
+      "title": "The Microsoft 365 Copilot Agent’s Playbook: A Practical Livestream Series for Building Better Agents",
+      "link": "https://devblogs.microsoft.com/blog/the-microsoft-365-copilot-agents-playbook-a-practical-livestream-series-for-building-better-agents/",
+      "published": "2026-07-23T19:03:53+00:00",
+      "summary": "Building on Microsoft 365 Copilot? Here’s your playbook. Declarative agents are quickly becoming one of the most exciting ways to extend Microsoft 365 Copilot and bring organizational knowledge, workflows, and tools directly into the flow of work. But as agent capabilities grow, so does the need...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Shavonna Jackson",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "1 million documents to 300+agents: Building an enterprise-scale Microsoft 365 Copilot connector",
@@ -462,6 +462,17 @@
       "blogId": "githubchangelog",
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "How to test agent experience changes without shipping them",
+      "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-experience-changes-without-shipping-them/",
+      "published": "2026-07-21T07:15:12+00:00",
+      "summary": "Most changes you think will improve AI agent behavior won't. We tested a dozen hypotheses on a real project upgrade scenario and the majority failed. Learn how to emulate documentation, API, and MCP server changes locally so you can validate what works before shipping anything to production.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -2885,17 +2896,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Learn from Microsoft: Transform software development through an agentic platform",
-      "link": "https://devblogs.microsoft.com/blog/learn-from-microsoft-transform-software-development-through-an-agentic-platform/",
-      "published": "2026-06-25T18:00:30+00:00",
-      "summary": "See how Microsoft is transforming software development with agentic workflows, AI-powered automation, and specialized agents across the engineering lifecycle.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Poonam Gupta",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "See your serverless: introducing the Headlamp plugin for Knative",
       "link": "https://kubernetes.io/blog/2026/06/25/headlamp-knative-plugin/",
       "published": "2026-06-25T18:00:00+00:00",
@@ -3080,17 +3080,6 @@
       "blogId": "terraform",
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
-      "title": "When the model has never seen your code",
-      "link": "https://devblogs.microsoft.com/blog/when-the-model-has-never-seen-your-code/",
-      "published": "2026-06-24T14:04:52+00:00",
-      "summary": "This is the fifth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -5118,6 +5107,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "📢 Announcing Knowledge as a Service for Azure Logic Apps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-knowledge-as-a-service-for-azure-logic-apps/ba-p/4524601",
+      "published": "2026-06-03T15:32:29+00:00",
+      "summary": "Now in Public Preview Turn your documents into a ready-to-use knowledge base without custom RAG pipelines. Today at Microsoft Build 2026, we are announcing the Public Preview of Knowledge as a Service for Azure Logic Apps. It is a managed knowledge layer that transforms your documents into a...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "DivSwa",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "File share migrations simplified with Azure Copilot Migration Agent",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/file-share-migrations-simplified-with-azure-copilot-migration/ba-p/4524563",
       "published": "2026-06-03T12:28:05+00:00",
@@ -5591,17 +5591,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Announcing the Public Preview of Integrated Embeddings in Azure Cosmos DB: Build AI Apps With Embeddings That Stay in Sync",
-      "link": "https://devblogs.microsoft.com/cosmosdb/announcing-the-public-preview-of-integrated-embeddings-in-azure-cosmos-db-build-ai-apps-with-embeddings-that-stay-in-sync/",
-      "published": "2026-06-02T19:15:59+00:00",
-      "summary": "AI applications built on Azure Cosmos DB depend on embeddings for grounded results. Keeping them in sync with your data is the hard part: it means building and operating a separate data pipeline to track changes, call an embedding model, and write the results back to Azure Cosmos DB. In practice,...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Abhishek Gupta",
-      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Introducing GitHub Enterprise Local (Preview): DevOps for Sovereign and Private Cloud Environments",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/introducing-github-enterprise-local-preview-devops-for-sovereign/ba-p/4523046",
       "published": "2026-06-02T19:15:00+00:00",
@@ -5621,6 +5610,17 @@
       "blogId": "azurevirtualdesktopblog",
       "author": "Christian_Montoya",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurevirtualdesktopblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "MCP Test Console and Git Repository synch in Azure API Center",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/mcp-test-console-and-git-repository-synch-in-azure-api-center/ba-p/4524617",
+      "published": "2026-06-02T19:14:03+00:00",
+      "summary": "Why This Matters As organizations race to build AI-powered applications, the Model Context Protocol (MCP) has emerged as the standard way to connect AI agents with external tools and data sources. Managing these MCP servers at enterprise scale, however, has been a growing challenge — until now. AI...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Sreekanth_Thirthala",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12169,5 +12169,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure updates focus on streamlining **agentic AI development workflows** across familiar developer tools. Microsoft announced a new **VS Code course** covering the full **agentic AI workflow**, while also highlighting a new way to **design, test, and ship Foundry-hosted agents** directly from a **canvas in the GitHub Copilot app**, bringing **Azure AI Foundry**, **VS Code**, and **GitHub Copilot** more tightly together for building and deploying AI agents."
+  "summary": "Today’s Azure posts center on accelerating **agentic AI development** across Microsoft’s stack. Key announcements include **native agent memory in Microsoft Agent Framework backed by Azure Cosmos DB**, enabling persistent context/state for agents; a new **VS Code-based course** covering end-to-end agentic AI workflows; and new tooling in the **GitHub Copilot app** to **design, test, and ship Azure AI Foundry-hosted agents** from a visual canvas.\n\nTogether, the updates emphasize a more complete developer path for AI agents: **stateful memory with Cosmos DB**, **local workflow education in VS Code**, and **deployment-oriented agent design through GitHub Copilot and Azure AI Foundry**."
 }
