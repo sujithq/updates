@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T09:44:34.443876+00:00",
+  "lastUpdated": "2026-07-25T09:56:28.747584+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -1166,6 +1166,17 @@
       "detected": "2026-07-11T09:44:34.443865+00:00",
       "published": "2026-07-10T21:33:34+00:00",
       "blog": "Azure Updates"
+    },
+    {
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-07-17",
+      "title": "Release 2026-07-17",
+      "severity": "warning",
+      "deadline": "2026-09-14",
+      "impact": "AKS preview enableCustomCATrust retires; clusters using it are affected",
+      "action": "Remove enableCustomCATrust=true and migrate to supported CA trust option",
+      "detected": "2026-07-25T09:56:28.747570+00:00",
+      "published": "2026-07-24T18:39:55+00:00",
+      "blog": "Release notes from AKS"
     }
   ]
 }
