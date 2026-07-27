@@ -1,17 +1,83 @@
 {
-  "lastUpdated": "2026-07-27T16:52:13.135248+00:00",
+  "lastUpdated": "2026-07-27T19:06:15.513087+00:00",
   "totalArticles": 1106,
   "articles": [
     {
-      "title": "AI Gateway tier of API Management now in public preview",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/ai-gateway-tier-of-api-management-now-in-public-preview/ba-p/4540170",
-      "published": "2026-07-27T16:37:53+00:00",
-      "summary": "Today, we are introducing the AI Gateway tier of Azure API Management, now in public preview. It gives platform teams a purpose-built experience built specifically for AI workloads - publishing and governing models and MCP servers. Controls are configured through policy cards rather than XML and...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "vladvino",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
+      "title": "The harness is all you need (mostly)",
+      "link": "https://github.blog/company/the-harness-is-all-you-need-mostly/",
+      "published": "2026-07-27T18:00:00+00:00",
+      "summary": "A practical GitHub Copilot workflow for prototyping, planning, implementing, and reviewing software without chasing every new AI tool. The post The harness is all you need (mostly) appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Burke Holland",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Release 2026-07-17",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-07-17",
+      "published": "2026-07-27T17:09:30+00:00",
+      "summary": "Release Notes - 2026-07-17 Monitor the release status by regions at AKS-Release-Tracker. This release is titled v20260717. Announcements of upcoming changes and retirements On September 14, 2026, the preview property enableCustomCATrust will retire. After that date, the enableCustomCATrust=true...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "alvinli222",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Analyze MSBuild Binary Logs with Copilot in VS Code",
+      "link": "https://devblogs.microsoft.com/dotnet/msbuild-binlog-analyzer-vscode/",
+      "published": "2026-07-27T17:00:00+00:00",
+      "summary": "Meet the MSBuild Binlog Analyzer for VS Code - a Copilot-powered way to read MSBuild binary logs, explain and fix build failures with one click, compare builds, and catch regressions, backed by the Microsoft.AITools.BinlogMcp MCP server. The post Analyze MSBuild Binary Logs with Copilot in VS Code...",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Yuliia Kovalova, Jan Krivanek",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: HTTP header insertion in Azure Firewall",
+      "link": "https://azure.microsoft.com/updates?id=568115",
+      "published": "2026-07-27T16:54:36+00:00",
+      "summary": "Azure Firewall now supports HTTP header insertion, enabling organizations to add or overwrite HTTP/HTTPS request headers directly from Azure Firewall application rules. This capability helps customers enforce security controls, support tenant restriction",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: AI Gateway in Azure API Management",
+      "link": "https://azure.microsoft.com/updates?id=568184",
+      "published": "2026-07-27T16:44:29+00:00",
+      "summary": "The AI Gateway tier for Azure API Management is now available in public preview. Building on the AI gateway capabilities already available across API Management tiers, the new AI Gateway tier provides a dedicated experience optimized for AI workloads.As o",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Rethinking security for the age of AI",
+      "link": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
+      "published": "2026-07-27T16:40:00+00:00",
+      "summary": "Why security needs a new Cyber Stack — Introducing Project Perception The physics of cybersecurity are changing. Autonomous systems can now reason, adapt and operate continuously. At the same time, the cost of offense is falling, while the volume, velocity and complexity of what must be secured...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Hayete Gallot",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Enhancing AI security through global AI red teaming",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
+      "published": "2026-07-27T16:25:00+00:00",
+      "summary": "Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI risks, improve security testing, and strengthen the...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Ram Shankar Siva Kumar",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "GitHub Copilot app for Beginners: Getting started",
@@ -47,17 +113,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "MCP Connect: Why Every AI Engineer and Developer Should Care About the Model Context Protocol",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/mcp-connect-why-every-ai-engineer-and-developer-should-care/ba-p/4537839",
-      "published": "2026-07-27T10:41:51+00:00",
-      "summary": "There is a quiet standardization happening underneath the AI agent boom, and it has a name: the Model Context Protocol (MCP). If you build agents, wire tools into Copilot, or ship anything that lets a language model act on the real world, MCP is fast becoming the layer you cannot ignore. That is...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing the Open-Source Release of ML Video Codec (MLVC)",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/announcing-the-open-source-release-of-ml-video-codec-mlvc/ba-p/4539875",
       "published": "2026-07-24T21:39:05+00:00",
@@ -78,17 +133,6 @@
       "author": "Bas Brekelmans",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Release 2026-07-17",
-      "link": "https://github.com/Azure/AKS/releases/tag/2026-07-17",
-      "published": "2026-07-24T18:39:55+00:00",
-      "summary": "Release Notes - 2026-07-17 Monitor the release status by regions at AKS-Release-Tracker. This release is titled v20260717. Announcements of upcoming changes and retirements On September 14, 2026, the preview property enableCustomCATrust will retire. After that date, the enableCustomCATrust=true...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "alvinli222",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
-      "sourceType": "rss"
     },
     {
       "title": "Claude Opus 5 is available today in Microsoft Foundry",
@@ -1565,17 +1609,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Microsoft Entra ID security updates: Passkeys are the default authentication method in Entra ID",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/microsoft-entra-id-security-updates-passkeys-are-the-default-authentication-method-in-entra-id/",
-      "published": "2026-07-13T17:00:00+00:00",
-      "summary": "Microsoft Entra ID makes passkeys the default sign-in experience and introduces a new model for SMS and voice authentication. Read about how to prepare. The post Microsoft Entra ID security updates: Passkeys are the default authentication method in Entra ID appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Nadim Abdo",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "A message broker is only as reliable as the layer you stopped at",
       "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/a-message-broker-is-only-as-reliable-as-the-layer-you-stopped-at/ba-p/4533259",
       "published": "2026-07-13T14:00:00+00:00",
@@ -1675,17 +1708,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Securing our future: July 2026 progress report on Microsoft’s Secure Future Initiative",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/10/securing-our-future-july-2026-progress-report-on-microsofts-secure-future-initiative/",
-      "published": "2026-07-10T16:00:00+00:00",
-      "summary": "Microsoft’s latest Secure Future Initiative report outlines progress on secure foundations, AI-powered defense, and future-ready cybersecurity. The post Securing our future: July 2026 progress report on Microsoft’s Secure Future Initiative appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Salim Chawro",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Better tools made Copilot code review worse. Here’s how we actually improved it.",
       "link": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
       "published": "2026-07-10T15:57:47+00:00",
@@ -1782,17 +1804,6 @@
       "blogId": "dotnet",
       "author": "Mika Dumont",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "How GitHub gave every repository a durable owner",
-      "link": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
-      "published": "2026-07-09T16:29:37+00:00",
-      "summary": "GitHub had over 14,000 repositories. Fewer than half had clear ownership. Here's how we gave every active repository a validated owner in under 45 days, archived the rest, and made ownership the foundation for everything that followed. The post How GitHub gave every repository a durable owner...",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Michael Recachinas",
-      "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -3270,6 +3281,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "The Token Economics of the Edge: Running Qwen3 on a Windows NPU with WinML CLI",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/the-token-economics-of-the-edge-running-qwen3-on-a-windows-npu/ba-p/4530054",
+      "published": "2026-06-23T09:35:31+00:00",
+      "summary": "The number that changes the conversation Most \"run an LLM locally\" tutorials start with the model. This one starts with a bill. Every token a cloud LLM generates is metered. One request is rounding-error cheap. But agents don't make one request — they make thousands, in loops, with retries, across...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Azure SDK Release (May 2026)",
       "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-may-2026/",
       "published": "2026-06-22T23:37:37+00:00",
@@ -3565,17 +3587,6 @@
       "author": "malaikanazim",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "AI-Powered MSBuild Investigation with the Microsoft Binlog MCP Server",
-      "link": "https://devblogs.microsoft.com/dotnet/msbuild-binlog-mcp-server/",
-      "published": "2026-06-17T17:00:00+00:00",
-      "summary": "Diagnose MSBuild build failures and performance issues with AI using the new Microsoft Binlog MCP Server - 15 specialized tools that let your AI assistant investigate binary logs. The post AI-Powered MSBuild Investigation with the Microsoft Binlog MCP Server appeared first on .NET Blog.",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": "Yuliia Kovalova, Jan Krivanek",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Visual Studio Code 1.125",
@@ -4610,6 +4621,17 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "Hosted MCP Servers in Connector Namespace (Preview)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hosted-mcp-servers-in-connector-namespace-preview/ba-p/4524588",
+      "published": "2026-06-04T21:19:18+00:00",
+      "summary": "Imagine you've built an agent and you want to give it access to tools via MCP servers. Local servers won't work because your agent can't connect to them in production. Wouldn't it be great if you could quickly stand up secure, enterprise-ready remote MCP servers that your agent can use? This is...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "lily-ma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "[In preview] Public Preview: AI pipelines in Azure HorizonDB",
@@ -6464,28 +6486,6 @@
       "link": "https://azure.microsoft.com/updates?id=562924",
       "published": "2026-06-02T19:00:47+00:00",
       "summary": "As organizations move toward agentic automation, developers increasingly need a simpler way to combine workflows, APIs, and AI agents into production-ready business processes. Today, building these systems often requires stitching together multiple Azure",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally available: Generally available: Managed system node pools in AKS Automatic",
-      "link": "https://azure.microsoft.com/updates?id=562919",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Provisioning and maintaining system node pools in AKS requires ongoing work to handle scaling, patching, and availability. Managed system node pools in AKS Automatic remove that responsibility. The platform provisions and operates the infrastructure for c",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure API Center now provides a data plane MCP server for enterprise-wide discovery of APIs and AI assets.",
-      "link": "https://azure.microsoft.com/updates?id=562914",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "As organizations adopt MCP-based tooling and AI agents at scale, developers need a simpler way to discover and connect to the growing ecosystem of enterprise MCP servers, tools, APIs, and AI assets. With this update, Azure API Center introduces a data pl",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -12169,5 +12169,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts centered on AI infrastructure, developer tooling, and modernization: Microsoft announced the **AI Gateway tier in Azure API Management** is now in **public preview**, aimed at governing and securing AI/API traffic, while community content highlighted **MCP (Model Context Protocol)** as an emerging standard AI engineers should watch and introduced the **GitHub Copilot app for Beginners** to help new developers get started with Copilot workflows.  \n\nOn the enterprise side, Azure content also focused on industry transformation and migration: one post detailed **autonomous network operations** for telecom using AI/automation to drive measurable business outcomes, and another showed how to preserve a **legacy IP during Azure migration** using **Private Link Service Direct Connect**, underscoring Azure’s push to modernize complex infrastructure without breaking existing dependencies."
+  "summary": "Today’s Azure and Microsoft cloud posts were dominated by AI, security, and platform modernization. Key announcements included **general availability of HTTP header insertion in Azure Firewall**, **public preview of AI Gateway in Azure API Management** for governing and securing AI traffic, and new guidance on **AI security and global AI red teaming** from Microsoft Security, alongside developer productivity updates like **Copilot support for analyzing MSBuild binary logs in VS Code** and a beginner guide to the **GitHub Copilot app**.\n\nOn the infrastructure side, **AKS released its 2026-07-17 update**, Azure Architecture highlighted using **Private Link Service Direct Connect** to preserve legacy IPs during migrations, and Microsoft’s telecom team focused on **autonomous network operations** with measurable business outcomes. Overall, the themes were securing AI systems, operationalizing AI at scale, and improving cloud migration and Kubernetes workflows."
 }
