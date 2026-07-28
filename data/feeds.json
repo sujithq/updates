@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-07-28T05:36:02.128857+00:00",
-  "totalArticles": 1106,
+  "lastUpdated": "2026-07-28T08:09:48.705481+00:00",
+  "totalArticles": 1107,
   "articles": [
+    {
+      "title": "Cap it with GitHub, make it count with Azure: governing GitHub Copilot spend",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/cap-it-with-github-make-it-count-with-azure-governing-github/ba-p/4539492",
+      "published": "2026-07-28T01:37:12+00:00",
+      "summary": "The good news is that GitHub gives you real native controls, and you should turn them on first. The part worth writing down is where those native controls stop, and what an Azure API Management gateway plus GitHub Copilot bring-your-own-key adds on top. This is a two-layer story, not a replacement...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "tonimontez",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "GitHub Copilot for JetBrains adds improved OpenTelemetry configuration and model management",
       "link": "https://github.blog/changelog/2026-07-27-github-copilot-for-jetbrains-adds-improvved-opentelemetry-configuration-and-model-management",
@@ -56,17 +67,6 @@
       "author": "Burke Holland",
       "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Microsoft Foundry Model Deployment Pricing Update",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/microsoft-foundry-model-deployment-pricing-update/ba-p/4535385",
-      "published": "2026-07-27T17:38:10+00:00",
-      "summary": "Running AI workloads in specific regions—whether for compliance, latency, or data residency—now comes with more options and clearer pricing. Starting September 1, 2026, Microsoft Foundry is updating pricing for EU Data Zone and Regional deployments outside the US, while also launching a new APAC...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Chris Hoder",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Automating Oracle to SQL Migration Using SSMA Console Skill in GitHub Copilot",
@@ -1838,6 +1838,17 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "Microsoft Foundry Model Deployment Pricing Update",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/microsoft-foundry-model-deployment-pricing-update/ba-p/4535385",
+      "published": "2026-07-09T17:22:45+00:00",
+      "summary": "Today, Microsoft Foundry is announcing updated pricing for model deployments in the EU Data Zone and in Regional deployments outside the US, effective September 1, 2026, alongside a new APAC Data Zone. The reason is choice: Foundry keeps widening your options across cost, performance, and data...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Chris Hoder",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Modernize .NET applications in the GitHub Copilot app",
@@ -12169,5 +12180,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-adjacent update centers on developer tooling: GitHub Copilot for JetBrains now improves **OpenTelemetry configuration** handling and adds better **model management**, making it easier for developers to tune observability-related setup and manage AI model behavior directly from the IDE. The key themes are smoother enterprise development workflows, tighter integration between AI coding assistants and telemetry tooling, and more streamlined control over how Copilot-backed models are configured in JetBrains environments."
+  "summary": "Today’s Azure-related updates focus on governing and operationalizing AI coding tools at scale. Microsoft highlighted FinOps practices for **GitHub Copilot on Azure**, emphasizing spend controls, usage visibility, and governance, while a GitHub Changelog update announced that **GitHub Copilot for JetBrains** now improves **OpenTelemetry configuration** and **model management**, giving developers better observability and control over how Copilot integrations are monitored and tuned."
 }
