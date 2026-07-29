@@ -1,17 +1,39 @@
 {
-  "lastUpdated": "2026-07-29T18:47:07.052768+00:00",
+  "lastUpdated": "2026-07-29T21:44:11.411894+00:00",
   "totalArticles": 1108,
   "articles": [
     {
-      "title": "Mastering GitHub Copilot Budgets: How to Prevent Surprise Overages Without Blocking Devs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/mastering-github-copilot-budgets-how-to-prevent-surprise/ba-p/4542073",
-      "published": "2026-07-29T17:33:31+00:00",
-      "summary": "1. The Core Mental Model: The Water Park Analogy To understand Copilot billing, think of your enterprise as a water park: The Shared Pool (Included Usage): Every Copilot Business ($19/mo) and Enterprise ($39/mo) seat license adds a set number of free AI credits into a shared corporate water tank...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "gauravbhardwaj",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
+      "title": "v1.17.0-alpha20260729",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260729",
+      "published": "2026-07-29T19:38:27+00:00",
+      "summary": "1.17.0-alpha20260729 (July 29, 2026) ENHANCEMENTS: command/init: Enrich log messages with provider versions (#38918) BUG FIXES: funcs: pow and log no longer panic when result is not a number (#38912) EXPERIMENTS: Experiments are only enabled in alpha releases of Terraform CLI. The following...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Azure Monitor Logs mirroring into Microsoft Fabric",
+      "link": "https://azure.microsoft.com/updates?id=568322",
+      "published": "2026-07-29T18:52:32+00:00",
+      "summary": "This capability shares telemetry from Azure Monitor Log Analytics workspaces into Microsoft Fabric, making observability data available in OneLake as Delta Parquet, the open format, without duplication and with near real-time availability. All Azure Monit",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Sphere OS version 26.09 is now available for evaluation",
+      "link": "https://azure.microsoft.com/updates?id=568466",
+      "published": "2026-07-29T18:50:00+00:00",
+      "summary": "Azure Sphere OS version 26.09 RC1 is now available for evaluation in the Retail Eval feed. Whilst this release encompasses no customer-facing changes, it represents a major bump in Azure Sphere's underlying Linux kernel version as part of our long-term su",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
     },
     {
       "title": "Azure SDK Release (July 2026)",
@@ -45,28 +67,6 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Terraform AzureRM provider 5.0 now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/terraform-azurerm-provider-5-0-now-generally-available/ba-p/4542085",
-      "published": "2026-07-29T16:57:47+00:00",
-      "summary": "The Terraform AzureRM provider serves as the bridge between Terraform configurations and Azure, giving teams a consistent, scalable, and secure way to define and manage Azure infrastructure as code. Today we're announcing general availability of Terraform AzureRM Provider 5.0. This major release...",
-      "blog": "Azure Tools",
-      "blogId": "azuretoolsblog",
-      "author": "stevenjma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure Arc Server June Forum",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-server-june-forum/ba-p/4542082",
-      "published": "2026-07-29T16:52:01+00:00",
-      "summary": "Please find the recording for the monthly Azure Arc Server Forum on YouTube! During the June 2026 Azure Arc Server Forum, we discussed: Arc Server AI Agent assists with onboarding and troubleshooting through an integrated LLM with plans for surfacing the experience through Azure Copilot and in...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Aurnov_Chattopadhyay",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
@@ -177,6 +177,17 @@
       "author": "Rafia_Aqil",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "MAI-Code-1-Flash: early results from real developer workflows",
+      "link": "https://code.visualstudio.com/blogs/2026/07/29/mai-code-1-flash",
+      "published": "2026-07-29T00:00:00+00:00",
+      "summary": "MAI-Code-1-Flash is a lightweight coding model purpose built for the fast, iterative work developers do every day in GitHub. In this post, we share what the data is telling us about how it performs in real developer workflows. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Faith Xu",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "GitHub Copilot app usage metrics now expand across report rollups",
@@ -1532,17 +1543,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Announcing: GitHub Copilot and Claude Code connectors in Microsoft Agent Framework",
-      "link": "https://azure.microsoft.com/updates?id=563701",
-      "published": "2026-07-15T18:58:30+00:00",
-      "summary": "Microsoft Agent Framework now ships generally available connectors for GitHub Copilot and Claude Code, so developers can build .NET and Python agents that delegate coding tasks to either system without writing custom adapter code. The connectors plug into",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Announcing: Multi-agent orchestration patterns including Magentic in Microsoft Agent Framework",
       "link": "https://azure.microsoft.com/updates?id=563571",
       "published": "2026-07-15T18:57:24+00:00",
@@ -1602,17 +1602,6 @@
       "link": "https://azure.microsoft.com/updates?id=563561",
       "published": "2026-07-15T18:48:54+00:00",
       "summary": "Microsoft Agent Framework adds episodic procedural memory in public preview, a built-in store that lets agents remember successful task patterns and replay them on similar future requests. The framework records action sequences, tool selections, and inter",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Announcing: Agent Channel for Microsoft Agent Framework multi-agent communication",
-      "link": "https://azure.microsoft.com/updates?id=563556",
-      "published": "2026-07-15T18:47:41+00:00",
-      "summary": "Microsoft Agent Framework introduces Agent Channel in public preview, a built-in primitive that lets agents send structured messages to each other without bespoke routing code. Channels carry typed messages, support request and response or fire-and-forget",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -3950,17 +3939,6 @@
       "author": "derricklee",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "v1.16.0-alpha20260617",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260617",
-      "published": "2026-06-17T14:07:50+00:00",
-      "summary": "1.16.0-alpha20260617 (June 17, 2026) NEW FEATURES: Store PlannedPrivate data for providers (#37986) New store block in terraform_data that can handle ephemeral and sensitive values (#38298) Providers can now use nested blocks as computed values (#38305) import: add support for import blocks inside...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
     },
     {
       "title": "Azure Backup for Azure Cosmos DB Public Preview Adds Immutable Backups and Long-Term Retention",
@@ -8198,6 +8176,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Architecture to Resilience: A Decision Guide",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/architecture-to-resilience-a-decision-guide/ba-p/4516552",
+      "published": "2026-05-04T21:24:03+00:00",
+      "summary": "Start with the framework, accelerate with the tool Watch the video walkthrough The Application Resilience Framework originated from a practical gap we saw in resilience reviews: teams had architecture diagrams, monitoring data, incident history, and runbooks, but no consistent way to connect them...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "varghesejoji",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Kubernetes v1.36: Admission Policies That Can't Be Deleted",
       "link": "https://kubernetes.io/blog/2026/05/04/kubernetes-v1-36-manifest-based-admission-control/",
       "published": "2026-05-04T18:35:00+00:00",
@@ -9296,6 +9285,17 @@
       "author": "Swapnil Nagar",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Run the latest Azure Arc agent with Automatic Agent Upgrade (Public Preview)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/run-the-latest-azure-arc-agent-with-automatic-agent-upgrade/ba-p/4508535",
+      "published": "2026-04-03T19:30:06+00:00",
+      "summary": "Customers managing large fleets of Azure Arc servers need a scalable way to ensure the Azure Arc agent stays up to date without manual intervention. Per server configuration does not scale, and gaps in upgrade coverage can lead to operational drift, missed features, and delayed security updates. To...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "yunishussein",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "From Discovery to Executive Presentation: Plan Your Migration with Azure Migrate in Hours",
@@ -12191,5 +12191,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure and adjacent Microsoft/GitHub posts centered on **AI developer productivity, governance, and secure platform operations**: key updates included guidance for managing **GitHub Copilot budgets** to avoid overages, broader **default model enablement for Copilot Business and Enterprise**, and new AI app patterns such as an **Executive AI Avatar Platform on Azure** using **Azure AI Foundry** and **Fireworks AI open-source models**, alongside Visual Studio guidance on prompting models to “think harder.” On the tooling side, Microsoft highlighted the **Azure SDK Release for July 2026**, **Visual Studio Code 1.131** and **1.132 Insiders**, **Terraform AzureRM provider 5.0 GA**, and **CodeQL 2.26.1** with improved analysis accuracy and framework coverage, while security/compliance themes featured **built-in CIS Benchmark auditing for Linux on Azure**, **HIPAA Compliance Security Profile for Azure Databricks**, Dependabot update controls, and broader security strategy discussions."
+  "summary": "Today’s Azure and Microsoft developer news centered on AI tooling, security/compliance, and platform observability. Key announcements included public preview of Azure Monitor Logs mirroring into Microsoft Fabric, GA of built-in CIS Benchmark auditing for Linux on Azure, Azure Sphere OS 26.09 for evaluation, and HIPAA-focused Compliance Security Profile guidance for Azure Databricks, alongside broad SDK and Terraform release updates.\n\nAI developer experience was another major theme: Microsoft highlighted prompting techniques in “Tell your model when to think harder,” early workflow results for MAI-Code-1-Flash, an Executive AI Avatar Platform on Azure using Azure AI Foundry plus Fireworks AI open-source models, and default model enablement changes for GitHub Copilot Business and Enterprise. The ecosystem updates also featured VS Code 1.131 and 1.132 Insiders, CodeQL 2.26.1 accuracy and framework coverage improvements, and GitHub Dependabot controls for grouped updates and slower cadence without delaying security fixes."
 }
