@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T08:01:50.299596+00:00",
+  "lastUpdated": "2026-07-30T10:56:40.905779+00:00",
   "totalArticles": 1110,
   "articles": [
     {
@@ -22,6 +22,17 @@
       "blogId": "finopsblog",
       "author": "demiajayi",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Introducing GPT-transcribe and GPT-live-transcribe in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-gpt-transcribe-and-gpt-live-transcribe-in-microsoft/ba-p/4541740",
+      "published": "2026-07-29T23:07:34+00:00",
+      "summary": "A transcription model hears “account number 8-4-7-2” but returns “account number eighty-four seventy-two.” A single error can break a downstream automation workflow. Developers building voice applications need transcription models that can handle real-world audio conditions, natural speech...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Dave_Jacobs",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -78,6 +89,17 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Bring Your Own Orchestrator to Azure Container Apps Jobs",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bring-your-own-orchestrator-to-azure-container-apps-jobs/ba-p/4541275",
+      "published": "2026-07-29T17:49:33+00:00",
+      "summary": "Azure Container Apps Jobs are a good fit for batch processing, ETL, machine learning, reports, and other tasks that run to completion. But when those tasks have dependencies, retries, or fan-out, you still need an orchestrator. Many teams already have one. The community-maintained Bring Your Own...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "hetvip",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Mastering GitHub Copilot Budgets: How to Prevent Surprise Overages Without Blocking Devs",
@@ -2621,17 +2643,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Introducing Kimi K2.7 Code in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-kimi-k2-7-code-in-microsoft-foundry/ba-p/4532286",
-      "published": "2026-07-06T22:48:17+00:00",
-      "summary": "Modern software engineering rarely happens in a single step, developers must refactor across large codebases, implement features spanning multiple files, and debug issues over long-running sessions. Kimi K2.7 Code from Moonshot AI, available on Microsoft Foundry starting July 1, 2026 in public...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "RashaudSavage",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "See our new Azure Cosmos DB Design Patterns",
       "link": "https://devblogs.microsoft.com/cosmosdb/see-our-new-azure-cosmos-db-design-patterns/",
       "published": "2026-07-06T20:20:06+00:00",
@@ -4488,17 +4499,6 @@
       "blogId": "integrationsonazureblog",
       "author": "ShubhamSachdeva99",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Debug App Startup Faster on Azure App Service for Linux with Startup Logs",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/debug-app-startup-faster-on-azure-app-service-for-linux-with/ba-p/4527521",
-      "published": "2026-06-11T12:34:17+00:00",
-      "summary": "When an app fails to start on Azure App Service for Linux, one of the first things you need is visibility into what happened during startup. This can include container initialization, runtime setup, startup command execution, application output, and warmup probe results. To make this easier, we...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "TulikaC",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12213,5 +12213,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure posts focused on making applications both smarter and more operationally efficient. One article showed how to add persistent customer memory to e-commerce apps using agent-based patterns in Azure, so AI experiences can remember preferences and past interactions instead of treating every session as stateless; the other announced new **Cost Management** and **Pricing** toolsets in the **Azure Resource Manager MCP Server**, aimed at improving **FinOps** workflows by giving teams programmatic access to cost and pricing data for governance and optimization."
+  "summary": "Today’s Azure posts focused on adding more intelligence and operational control to cloud apps. One article from the Azure Dev Community showed how e-commerce applications can use memory-enabled AI agents to retain customer context and personalization over time, while the other announced new Cost Management and Pricing toolsets in the Azure Resource Manager MCP Server, aimed at improving FinOps workflows with better access to Azure cost and pricing data inside management and automation scenarios."
 }
