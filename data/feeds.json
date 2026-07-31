@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-07-31T01:22:23.392998+00:00",
-  "totalArticles": 1111,
+  "lastUpdated": "2026-07-31T05:54:21.815127+00:00",
+  "totalArticles": 1112,
   "articles": [
+    {
+      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
+      "published": "2026-07-30T22:32:12+00:00",
+      "summary": "Microsoft Architect's: Aladdin Alchalabi aalchalabi​, Jessica Reece jareece​, Kiran Raja KiranRaja​, Anishek Kamal anishekkamal​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer Reviewed: Ted Kim tedkim​ Purpose and WHY Azure Databricks has put in place controls to meet the unique compliance...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Had baby, Back September!",
       "link": "https://www.letsdodevops.com/p/had-baby-back-september",
@@ -12,6 +23,28 @@
       "author": "Kyler Middleton",
       "feedUrl": "https://www.letsdodevops.com/feed",
       "sourceType": "rss"
+    },
+    {
+      "title": "Domain controller showing \"Not ready for migration\"",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-identity/domain-controller-showing-quot-not-ready-for-migration-quot/m-p/4542534#M4327",
+      "published": "2026-07-30T20:52:18+00:00",
+      "summary": "I want to get the MDI sensor upgraded to v3 on our domain controllers. When I go into Settings > Sensors, two of our DCs are listed as \"Ready for migration\", but the third says \"Not ready for migration\".As far as I can tell, this DC meets all the prerequisites listed at Migrate from sensor v2.x to...",
+      "blog": "Azure Advanced Threat Protection",
+      "blogId": "azureadvancedthreatprotection",
+      "author": "RyanSteele-CoV",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Skill or Sub-Agent. Choosing AI Capabilities You Will Actually Reuse",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/skill-or-sub-agent-choosing-ai-capabilities-you-will-actually/ba-p/4542099",
+      "published": "2026-07-30T20:50:02+00:00",
+      "summary": "Audience: Cloud architects, platform engineers, engineering leaders The wrong first question Most teams building AI capabilities start with the wrong question. They ask which model to use. The model matters less than the shape of the capability around it. The first real fork is this. Are you...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "KishoreKumarPattabiraman",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Azure Developer CLI (azd) July 2026",
@@ -78,6 +111,39 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "Terraform AzureRM provider 5.0 now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/terraform-azurerm-provider-5-0-now-generally-available/ba-p/4542085",
+      "published": "2026-07-30T18:53:37+00:00",
+      "summary": "The Terraform AzureRM provider serves as the bridge between Terraform configurations and Azure, giving teams a consistent, scalable, and secure way to define and manage Azure infrastructure as code. Today we're announcing general availability of Terraform AzureRM Provider 5.0. This major release...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "stevenjma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Built to Protect: The Architecture Behind Codename MDASH",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/built-to-protect-the-architecture-behind-codename-mdash/ba-p/4541662",
+      "published": "2026-07-30T18:45:00+00:00",
+      "summary": "Information Table Defender Foundations RegionalOperation AI & DataContainment ResponsibleGovernance Built as a production Microsoft Security service, not an isolated research system. Operates alongside Microsoft Defender in the clouds and regions customers already use. Designed to keep source,...",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "JasonWeber",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure Front Door edge actions: programmable compute for a secure, resilient, AI-ready edge",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-front-door-edge-actions-programmable-compute-for-a-secure/ba-p/4542177",
+      "published": "2026-07-30T17:53:35+00:00",
+      "summary": "The need for secure edge programmability As modern web applications increasingly move decision-making closer to users, programmable compute at the edge is becoming a foundational capability for delivering low-latency, personalized, and intelligent experiences. Azure Front Door edge actions...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "AbhishekTiwari",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Reference same-repository actions with self-repository syntax",
@@ -344,17 +410,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Terraform AzureRM provider 5.0 now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/terraform-azurerm-provider-5-0-now-generally-available/ba-p/4542085",
-      "published": "2026-07-29T16:57:47+00:00",
-      "summary": "The Terraform AzureRM provider serves as the bridge between Terraform configurations and Azure, giving teams a consistent, scalable, and secure way to define and manage Azure infrastructure as code. Today we're announcing general availability of Terraform AzureRM Provider 5.0. This major release...",
-      "blog": "Azure Tools",
-      "blogId": "azuretoolsblog",
-      "author": "stevenjma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure Arc Server June Forum",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-server-june-forum/ba-p/4542082",
       "published": "2026-07-29T16:52:01+00:00",
@@ -462,17 +517,6 @@
       "blogId": "linuxandopensourceblog",
       "author": "pallakatos",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
-      "published": "2026-07-29T01:43:28+00:00",
-      "summary": "Microsoft Architect's: Aladdin Alchalabi aalchalabi​, Kiran Raja, Anishek Kamal anishekkamal​ and Rafia Aqil Rafia_Aqil​ Purpose and WHY Azure Databricks has put in place controls to meet the unique compliance needs of highly regulated industries. The requirement for the compliance security profile...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8000,17 +8044,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Governing Agent Sprawl: A Multi‑Region AI Agent Landing Zone on Azure (Reference Architecture)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/governing-agent-sprawl-a-multi-region-ai-agent-landing-zone-on/ba-p/4516036",
-      "published": "2026-05-07T05:19:02+00:00",
-      "summary": "It doesn’t take long for AI agents to get out of hand. In most enterprises, the first few agents are celebrated. A chatbot here. A document summarizer there. Then another team ships an agent that calls APIs. Someone else connects one to internal data. Within months, IT is staring at dozens—or...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "KimVaddi",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "How Validation‑Driven Terraform Made Our Azure Function Deployments Predictable",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/how-validation-driven-terraform-made-our-azure-function/ba-p/4517375",
       "published": "2026-05-07T05:12:06+00:00",
@@ -9683,17 +9716,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Announcing public preview: Cilium mTLS encryption for Azure Kubernetes Service",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/announcing-public-preview-cilium-mtls-encryption-for-azure/ba-p/4504423",
-      "published": "2026-03-23T01:50:18+00:00",
-      "summary": "We are thrilled to announce the public preview of Cilium mTLS encryption in Azure Kubernetes Service (AKS), delivered as part of Advanced Container Networking Services and powered by the Azure CNI dataplane built on Cilium. This capability is the result of a close engineering collaboration between...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "chandanAggarwal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Detect, correlate, contain: New Azure Firewall IDPS detections in Microsoft Sentinel and XDR",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/detect-correlate-contain-new-azure-firewall-idps-detections-in/ba-p/4502128",
       "published": "2026-03-20T21:03:45+00:00",
@@ -10494,17 +10516,6 @@
       "blogId": "azuretoolsblog",
       "author": "Alex-wdy",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Extending Defender’s AI Threat Protection to Microsoft Foundry Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/extending-defender-s-ai-threat-protection-to-microsoft-foundry/ba-p/4491927",
-      "published": "2026-02-03T18:49:00+00:00",
-      "summary": "AI is moving from responses to actions In our previous announcement, we introduced new threat protection capabilities for custom AI applications, helping organizations detect prompt injections, jailbreak attempts, sensitive data exposure, and other AI-specific risks. But the AI landscape is...",
-      "blog": "Microsoft Defender for Cloud",
-      "blogId": "microsoftdefendercloudblog",
-      "author": "danielacardon",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
