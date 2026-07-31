@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T09:56:28.747584+00:00",
+  "lastUpdated": "2026-07-31T10:47:21.468002+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -1177,6 +1177,39 @@
       "detected": "2026-07-25T09:56:28.747570+00:00",
       "published": "2026-07-24T18:39:55+00:00",
       "blog": "Release notes from AKS"
+    },
+    {
+      "link": "https://github.blog/changelog/2026-07-30-github-models-is-now-retired",
+      "title": "GitHub Models is now retired",
+      "severity": "critical",
+      "deadline": "2026-07-30",
+      "impact": "GitHub Models retired; playground, catalog, inference API, and BYOK unavailable.",
+      "action": "Migrate workloads off GitHub Models immediately to supported alternatives.",
+      "detected": "2026-07-31T10:47:21.467982+00:00",
+      "published": "2026-07-30T19:14:22+00:00",
+      "blog": "GitHub Changelog"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=568514",
+      "title": "Announcing: Reservation exchanges for Azure services supported by savings plans will no longer be available starting February 1, 2027",
+      "severity": "warning",
+      "deadline": "2027-02-01",
+      "impact": "Azure reservation exchanges end for services covered by savings plans.",
+      "action": "Review affected reservations and plan to use savings plans or keep reservations.",
+      "detected": "2026-07-31T10:47:21.467994+00:00",
+      "published": "2026-07-30T19:03:21+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/reservation-exchanges-for-azure-services-covered-by-savings/ba-p/4542437",
+      "title": "Reservation exchanges for Azure services covered by savings plans end starting Feb. 1, 2027",
+      "severity": "warning",
+      "deadline": "2027-02-01",
+      "impact": "Azure reservation exchanges end for services covered by savings plans.",
+      "action": "Assess reservation strategy and transition planning before exchange option ends.",
+      "detected": "2026-07-31T10:47:21.467998+00:00",
+      "published": "2026-07-30T13:39:13+00:00",
+      "blog": "FinOps"
     }
   ]
 }
