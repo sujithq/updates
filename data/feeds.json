@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-07-31T05:54:21.815127+00:00",
+  "lastUpdated": "2026-07-31T08:26:20.465111+00:00",
   "totalArticles": 1112,
   "articles": [
+    {
+      "title": "Move a live GitLab project between groups without breaking Terraform state or CI/CD",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/move-a-live-gitlab-project-between-groups-without-breaking/ba-p/4539677",
+      "published": "2026-07-31T08:00:00+00:00",
+      "summary": "Why this is trickier than it looks A group transfer in GitLab isn't just a rename. It re-parents the project under a new namespace, which changes every path-based assumption downstream: inherited group variables, group-scoped runners, and any external system that hardcoded the old...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "HimanshuYadav",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
@@ -8275,17 +8286,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Building an AI Agent for Azure Infrastructure Validation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-an-ai-agent-for-azure-infrastructure-validation/ba-p/4516936",
-      "published": "2026-05-05T06:05:23+00:00",
-      "summary": "1. Introduction Infrastructure consistency is critical in large-scale Azure environments, especially in migration programs and DevOps-driven deployments. While Infrastructure as Code (IaC) using Terraform improves reproducibility, it does not fully eliminate: Manual errors in design specifications...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ranjsharma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "What’s new in Microsoft Sentinel: April 2026",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-april-2026/ba-p/4516354",
       "published": "2026-05-04T21:55:19+00:00",
@@ -12234,5 +12234,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=oracleonazureblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage focuses on a practical DevOps migration scenario: how to move a live GitLab project between groups while preserving Terraform state and keeping CI/CD pipelines running. The post highlights Azure Infrastructure guidance for avoiding broken state backends, pipeline disruptions, and configuration drift during GitLab group transfers, making it especially relevant for teams managing infrastructure as code with Terraform and automated delivery workflows."
 }
