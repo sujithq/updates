@@ -1,17 +1,83 @@
 {
-  "lastUpdated": "2026-08-03T17:03:40.929510+00:00",
+  "lastUpdated": "2026-08-03T19:14:16.228967+00:00",
   "totalArticles": 1111,
   "articles": [
     {
-      "title": "Announcing Azure Linux on WSL - Beta",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/announcing-azure-linux-on-wsl-beta/ba-p/4542903",
-      "published": "2026-08-03T16:08:12+00:00",
-      "summary": "What is Azure Linux? Azure Linux is Microsoft's internal Linux distribution, designed and maintained to support Azure-scale cloud workloads. Today, Azure Linux runs across: Azure infrastructure Azure Kubernetes Service (AKS) Containerized workloads Edge scenarios Azure-hosted services With WSL...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "farhakareem",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "title": "Microsoft Defender for Cloud Customer Newsletter",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-customer-newsletter/ba-p/4543596",
+      "published": "2026-08-03T18:50:45+00:00",
+      "summary": "*This will be the last monthly MDC newsletter. To keep up with the latest, please visit: What's new in MDC What's new in Defender for Cloud? Multiple container security features are now Generally Available: Container-level misconfiguration recommendations for Kubernetes, Upgrade AKS version...",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "Yura_Lee",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Microsoft Foundry Now Has an AI Gateway Control Plane — What Changes for App Service",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/microsoft-foundry-now-has-an-ai-gateway-control-plane-what/ba-p/4538320",
+      "published": "2026-08-03T18:24:20+00:00",
+      "summary": "In May, I published a runnable sample that put Azure API Management in front of an AI agent on Azure App Service. APIM handled token limits, semantic caching, token metrics, and access to the model. The point was simple: keep the agent framework interchangeable and put the production controls at...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Simplify secure, zone-resilient outbound connectivity with Azure Firewall and StandardV2 NAT Gateway",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/simplify-secure-zone-resilient-outbound-connectivity-with-azure/ba-p/4542573",
+      "published": "2026-08-03T18:17:01+00:00",
+      "summary": "As organizations modernize their applications in Azure, secure and resilient outbound connectivity has become just as critical as inbound security. Workloads need reliable access to external APIs, SaaS services, operating system updates, and partner endpoints, while still meeting strong security...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "aimeelittleton",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Strengthening NuGet Supply Chain Security: Reducing API Key Lifetime",
+      "link": "https://devblogs.microsoft.com/dotnet/strengthening-nuget-supply-chain-security-reducing-api-key-lifetime/",
+      "published": "2026-08-03T18:10:00+00:00",
+      "summary": "NuGet API key durations will be reduced to 30 days starting August 17th. This change will significantly strengthen the integrity of the NuGet supply chain. The post Strengthening NuGet Supply Chain Security: Reducing API Key Lifetime appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": ".NET Team",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Immutability to the most recent seven days of backups on Azure SQL Database and Azure SQL Managed Instance",
+      "link": "https://azure.microsoft.com/updates?id=568339",
+      "published": "2026-08-03T17:00:56+00:00",
+      "summary": "To enhance backup protection, Azure SQL Database and Azure SQL Managed Instance now automatically apply immutability to the most recent seven days of backups. This capability is enabled by default for all databases, regardless of the configured point-in-t",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Migrate from GitLab to GitHub with GitHub Enterprise Importer",
+      "link": "https://github.blog/changelog/2026-08-03-migrate-from-gitlab-to-github-with-github-enterprise-importer",
+      "published": "2026-08-03T16:33:13+00:00",
+      "summary": "Migrations from gitlab.com and GitLab Self-Managed to GitHub Enterprise Cloud with GitHub Enterprise Importer (GEI) are now generally available. You can now self-serve these migrations using GEI and the gh… The post Migrate from GitLab to GitHub with GitHub Enterprise Importer appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard",
+      "link": "https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/",
+      "published": "2026-08-03T16:00:00+00:00",
+      "summary": "The Kubernetes SIG Network community is thrilled to share the release of Gateway API v1.6.0, which was released on June 30th of this year! Gateway API has become the standard for modern, role-oriented, and expressive service networking in Kubernetes. In previous releases, Gateway API established a...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "Learn how to use the four IQs: Web IQ, Work IQ, Fabric IQ, Foundry IQ",
@@ -496,17 +562,6 @@
       "author": "Dave_Jacobs",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Copilot code review: Agent skills and MCP now generally available",
-      "link": "https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available",
-      "published": "2026-07-29T21:26:19+00:00",
-      "summary": "Copilot code review support for agent skills and MCP servers is now generally available for all Copilot Pro, Pro+, Business, and Enterprise users. Previously announced in public preview, these capabilities… The post Copilot code review: Agent skills and MCP now generally available appeared first on...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "v1.17.0-alpha20260729",
@@ -1673,17 +1728,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Microsoft Foundry Now Has an AI Gateway Control Plane — What Changes for App Service",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/microsoft-foundry-now-has-an-ai-gateway-control-plane-what/ba-p/4538320",
-      "published": "2026-07-17T17:04:16+00:00",
-      "summary": "In May, I published a runnable sample that put Azure API Management in front of an AI agent on Azure App Service. APIM handled token limits, semantic caching, token metrics, and access to the model. The point was simple: keep the agent framework interchangeable and put the production controls at...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Microsoft at Black Hat USA 2026: Defending trust in the age of AI and supply chain attacks",
@@ -3455,17 +3499,6 @@
       "author": "Srini_Raghavan_Msft",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": ".NET 8 and .NET 9 will reach End of Support on November 10, 2026",
-      "link": "https://devblogs.microsoft.com/dotnet/dotnet-8-9-end-of-support/",
-      "published": "2026-06-29T21:33:20+00:00",
-      "summary": ".NET 8 and .NET 9 will both reach end of support on November 10, 2026. Learn what this means and how to upgrade to .NET 10 (LTS). The post .NET 8 and .NET 9 will reach End of Support on November 10, 2026 appeared first on .NET Blog.",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": "Rahul Bhandari (MSFT)",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Announcing General Availability of Client-Side Data Integrity Protections in Azure Blob Storage",
@@ -6856,17 +6889,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Azure DocumentDB instant free tier clusters",
-      "link": "https://azure.microsoft.com/updates?id=563082",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "With near-instant provisioning of free tier clusters, you can get started immediately on Azure DocumentDB. Learn more.",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Secure, Modern Access to Azure Files on macOS with MS Entra ID",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/secure-modern-access-to-azure-files-on-macos-with-ms-entra-id/ba-p/4524077",
       "published": "2026-06-02T18:55:03+00:00",
@@ -9111,17 +9133,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "A demonstration of Virtual Network TAP",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/a-demonstration-of-virtual-network-tap/ba-p/4479136",
-      "published": "2026-04-15T10:30:01+00:00",
-      "summary": "Azure Virtual Network Terminal Access Point (VTAP), at the time of writing in April 2026 in public preview in select regions, copies network traffic from source Virtual Machines to a collector or traffic analytics tool, running as a Network Virtual Appliance (NVA). VTAP creates a full copy of all...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Marc de Droog",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Choosing the Right Azure Hosting Model for AI Agents: A Deep Dive into Foundry Hosted Agents",
       "link": "https://devblogs.microsoft.com/all-things-azure/hostedagent/",
       "published": "2026-04-15T05:00:56+00:00",
@@ -9219,6 +9230,17 @@
       "author": "Sandeep Sen",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Agent Governance Toolkit: Architecture Deep Dive, Policy Engines, Trust, and SRE for AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/agent-governance-toolkit-architecture-deep-dive-policy-engines/ba-p/4510105",
+      "published": "2026-04-10T04:55:22+00:00",
+      "summary": "Last week we announced the Agent Governance Toolkit on the Microsoft Open Source Blog, an open-source project that brings runtime security governance to autonomous AI agents. In that announcement, we covered the why: AI agents are making autonomous decisions in production, and the security patterns...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "mosiddi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Putting Agentic Platform Engineering to the test",
@@ -10156,17 +10178,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Malware scan results now in blob tags (ADLS Gen2 HNS | Public Preview)",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/malware-scan-results-now-in-blob-tags-adls-gen2-hns-public/ba-p/4498822",
-      "published": "2026-03-03T15:00:17+00:00",
-      "summary": "If you’ve been using Defender for Storage malware scanning with ADLS Gen2 storage accounts that have Hierarchical Namespace (HNS), you probably know that the scan happens, but the result isn’t easy to see right where the file lives. That changes now. Azure Storage just released a public preview...",
-      "blog": "Microsoft Defender for Cloud",
-      "blogId": "microsoftdefendercloudblog",
-      "author": "Fernanda_Vela",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure Databricks Lakebase is now generally available",
       "link": "https://techcommunity.microsoft.com/t5/azure-databricks/azure-databricks-lakebase-is-now-generally-available/ba-p/4498779",
       "published": "2026-03-03T03:34:11+00:00",
@@ -10770,17 +10781,6 @@
       "author": "TomHickling",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurevirtualdesktopblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Announcing the Checkpoint/Restore Working Group",
-      "link": "https://kubernetes.io/blog/2026/01/21/introducing-checkpoint-restore-wg/",
-      "published": "2026-01-21T18:00:00+00:00",
-      "summary": "The community around Kubernetes includes a number of Special Interest Groups (SIGs) and Working Groups (WGs) facilitating discussions on important topics between interested contributors. Today we would like to announce the new Kubernetes Checkpoint Restore WG focusing on the integration of...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
     },
     {
       "title": "Improving Efficiency through Adaptive CPU Uncore Power Management",
@@ -12224,5 +12224,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure posts focus on developer productivity and Microsoft’s platform ecosystem. Microsoft announced **Azure Linux on WSL in beta**, bringing its Azure-optimized Linux distribution to the **Windows Subsystem for Linux** for local development, testing, and cloud-native workflows, while a Dev Community post introduced the “**four IQs**”—**Web IQ, Work IQ, Fabric IQ, and Foundry IQ**—as a framework for understanding how to build across Microsoft’s web, workplace, data, and AI/application platforms."
+  "summary": "Today’s Azure-related posts centered on security, networking resilience, and platform modernization: Microsoft highlighted Defender for Cloud updates, stricter NuGet supply-chain protections by reducing API key lifetime, and general availability of immutable backups for the most recent seven days in Azure SQL Database and Azure SQL Managed Instance. On the infrastructure side, Azure emphasized secure, zone-resilient outbound connectivity using Azure Firewall with StandardV2 NAT Gateway, while the Apps on Azure team announced Microsoft Foundry’s new AI Gateway control plane and its implications for App Service.\n\nThe broader ecosystem news focused on migration and cloud-native platform evolution, including GitHub Enterprise Importer support for moving from GitLab to GitHub, and Kubernetes Gateway API v1.6 promoting TCPRoute and UDPRoute to Standard. Microsoft also pushed AI literacy and usage patterns through guidance on the “four IQs” — Web IQ, Work IQ, Fabric IQ, and Foundry IQ."
 }
