@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-08-03T19:14:16.228967+00:00",
+  "lastUpdated": "2026-08-03T21:56:02.463478+00:00",
   "totalArticles": 1111,
   "articles": [
+    {
+      "title": "Building an operations assistant on Azure that waits for approval before it acts",
+      "link": "https://devblogs.microsoft.com/all-things-azure/building-an-operations-assistant-on-azure-that-waits-for-approval-before-it-acts/",
+      "published": "2026-08-03T21:15:38+00:00",
+      "summary": "Grounding an assistant in runbooks is the easy half. The interesting engineering is in the boundary between what a model proposes and what an authenticated person actually authorizes. An operations assistant stops being a demo the moment it can act. Answering “which runbook covers this alert” is a...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "Ricardo M. Martins",
+      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Trusted Launch as Default",
+      "link": "https://azure.microsoft.com/updates?id=568600",
+      "published": "2026-08-03T19:56:26+00:00",
+      "summary": "Trusted Launch as Default (TLaD) is now generally available for new Azure Gen2 virtual machines and virtual machine scale sets. TLaD automatically enables Secure Boot and vTPM for supported deployments, helping customers establish a stronger security base",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing public preview: Markdown for Agents in Azure App Service",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-public-preview-markdown-for-agents-in-azure-app/ba-p/4537023",
+      "published": "2026-08-03T19:46:29+00:00",
+      "summary": "Why Markdown for Agents? Web pages often contain scripts, styles, and HTML markup that are useful to browsers but add noise when the content is sent to an AI model. Markdown for Agents removes that extra markup and returns a smaller, text-focused response that is easier for agents to process and...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Microsoft Defender for Cloud Customer Newsletter",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-customer-newsletter/ba-p/4543596",
@@ -47,6 +80,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Triage role can bypass issue creation restrictions",
+      "link": "https://github.blog/changelog/2026-08-03-triage-role-can-bypass-issue-creation-restrictions",
+      "published": "2026-08-03T17:04:32+00:00",
+      "summary": "If your repository restricts issue creation to collaborators only, users with the triage role can now create issues. Previously, the restricted setting only allowed users with write access to create… The post Triage role can bypass issue creation restrictions appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "[Launched] Generally Available: Immutability to the most recent seven days of backups on Azure SQL Database and Azure SQL Managed Instance",
       "link": "https://azure.microsoft.com/updates?id=568339",
       "published": "2026-08-03T17:00:56+00:00",
@@ -67,6 +111,17 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Announcing Azure Linux on WSL - Beta",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/announcing-azure-linux-on-wsl-beta/ba-p/4542903",
+      "published": "2026-08-03T16:08:12+00:00",
+      "summary": "What is Azure Linux? Azure Linux is Microsoft's internal Linux distribution, designed and maintained to support Azure-scale cloud workloads. Today, Azure Linux runs across: Azure infrastructure Azure Kubernetes Service (AKS) Containerized workloads Edge scenarios Azure-hosted services With WSL...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "farhakareem",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard",
@@ -518,17 +573,6 @@
       "author": "kyleikeda",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "GitHub Copilot in Visual Studio Code, July 2026 releases",
-      "link": "https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases",
-      "published": "2026-07-30T08:00:00+00:00",
-      "summary": "This changelog covers VS Code v1.127 through v1.131, shipped throughout July 2026. These releases improve how you work with agents, review changes, use chat, and navigate VS Code. They also… The post GitHub Copilot in Visual Studio Code, July 2026 releases appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Give Your E-Commerce App a Memory: Adding Agents That Actually Remember Your Customers",
@@ -4502,17 +4546,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "ArchAngel: Skilling the next developer generation for the Agentic transformation.",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/archangel-skilling-the-next-developer-generation-for-the-agentic/ba-p/4525836",
-      "published": "2026-06-15T15:24:42+00:00",
-      "summary": "AI is transforming the SDLC at speed but there's a quieter question following close behind. If the code is being written for your junior developers, when do they learn the skills to become senior ones and how can they use these tools without losing understanding of what they've made? Most tools try...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "RohitMadhavKrishnan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Make Visual Studio look the way you want",
       "link": "https://devblogs.microsoft.com/visualstudio/make-visual-studio-look-the-way-you-want/",
       "published": "2026-06-15T14:00:40+00:00",
@@ -6878,17 +6911,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[In preview] Public Preview: Azure HorizonDB",
-      "link": "https://azure.microsoft.com/updates?id=563087",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Azure HorizonDB is a PostgreSQL-compatible database service engineered for performance and built for what's next. It delivers future-proof autoscaling storage up to 128 TB, up to three times faster performance than self-managed PostgreSQL, and rapid compu",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Secure, Modern Access to Azure Files on macOS with MS Entra ID",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/secure-modern-access-to-azure-files-on-macos-with-ms-entra-id/ba-p/4524077",
       "published": "2026-06-02T18:55:03+00:00",
@@ -9232,17 +9254,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Agent Governance Toolkit: Architecture Deep Dive, Policy Engines, Trust, and SRE for AI Agents",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/agent-governance-toolkit-architecture-deep-dive-policy-engines/ba-p/4510105",
-      "published": "2026-04-10T04:55:22+00:00",
-      "summary": "Last week we announced the Agent Governance Toolkit on the Microsoft Open Source Blog, an open-source project that brings runtime security governance to autonomous AI agents. In that announcement, we covered the why: AI agents are making autonomous decisions in production, and the security patterns...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "mosiddi",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Putting Agentic Platform Engineering to the test",
       "link": "https://devblogs.microsoft.com/all-things-azure/putting-agentic-platform-engineering-to-the-test/",
       "published": "2026-04-10T01:45:08+00:00",
@@ -9526,17 +9537,6 @@
       "blogId": "letsdodevops",
       "author": "Alex Moore",
       "feedUrl": "https://www.letsdodevops.com/feed",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Project Nighthawk: A Research Agent Built for Field Engineering",
-      "link": "https://devblogs.microsoft.com/all-things-azure/project-nighthawk-a-research-agent-built-for-field-engineering/",
-      "published": "2026-04-01T04:24:38+00:00",
-      "summary": "If you work in field engineering, you know the scenario. A customer is deploying AKS in a regulated environment. They hit an issue during node bootstrapping. They want to know exactly what happens when a node joins the cluster, which components run in which order, and whether the behaviour they’re...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "Diego Casati, Ray Kao",
-      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
       "sourceType": "rss"
     },
     {
@@ -12224,5 +12224,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure-related posts centered on security, networking resilience, and platform modernization: Microsoft highlighted Defender for Cloud updates, stricter NuGet supply-chain protections by reducing API key lifetime, and general availability of immutable backups for the most recent seven days in Azure SQL Database and Azure SQL Managed Instance. On the infrastructure side, Azure emphasized secure, zone-resilient outbound connectivity using Azure Firewall with StandardV2 NAT Gateway, while the Apps on Azure team announced Microsoft Foundry’s new AI Gateway control plane and its implications for App Service.\n\nThe broader ecosystem news focused on migration and cloud-native platform evolution, including GitHub Enterprise Importer support for moving from GitLab to GitHub, and Kubernetes Gateway API v1.6 promoting TCPRoute and UDPRoute to Standard. Microsoft also pushed AI literacy and usage patterns through guidance on the “four IQs” — Web IQ, Work IQ, Fabric IQ, and Foundry IQ."
+  "summary": "Today’s Azure news centered on secure, governed AI and cloud operations: Microsoft highlighted an approval-gated operations assistant on Azure, previewed Markdown for Agents in Azure App Service, and introduced an AI Gateway control plane in Microsoft Foundry that changes how App Service apps can route and manage AI traffic. Security and resilience were also major themes, with Trusted Launch now generally available by default, Azure SQL Database and Azure SQL Managed Instance gaining seven-day recent-backup immutability, Azure Firewall plus StandardV2 NAT Gateway improving secure zone-resilient outbound connectivity, and .NET tightening NuGet supply-chain security by reducing API key lifetimes.\n\nThe broader ecosystem updates included Microsoft Defender for Cloud guidance, Azure Linux on WSL entering beta, Kubernetes Gateway API v1.6 promoting TCPRoute and UDPRoute to Standard, and GitHub adding both GitLab-to-GitHub migration via GitHub Enterprise Importer and a triage-role permissions change. Microsoft also pushed developer productivity and AI literacy with guidance on the “four IQs” framework: Web IQ, Work IQ, Fabric IQ, and Foundry IQ."
 }
