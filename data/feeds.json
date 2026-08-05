@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-08-04T22:01:16.545726+00:00",
+  "lastUpdated": "2026-08-05T01:15:08.566094+00:00",
   "totalArticles": 1112,
   "articles": [
+    {
+      "title": "Retirement: Nested confidential (cc_v5) VMs will be retired on September 1, 2026",
+      "link": "https://azure.microsoft.com/updates?id=568661",
+      "published": "2026-08-05T00:22:49+00:00",
+      "summary": "On September 1, 2026, the cc_v5 confidential VM series will be retired and will no longer be available for use or purchase. Any affected VM that has not been resized before that date will deallocated. The impacted VM sizes that will be retired are: DCas_c",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Use connectors with Managed Identity in the Logic Apps Standard extension",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/use-connectors-with-managed-identity-in-the-logic-apps-standard/ba-p/4539485",
+      "published": "2026-08-04T23:00:51+00:00",
+      "summary": "Managed Identity is Azure’s built-in way to authenticate to Microsoft Entra-protected resources without storing credentials, secrets, or connection strings. Deployed Logic Apps have supported it for a while, but the developer inner loop was a different story. You would wire up one authentication...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Beyond Chat: live Speech-to-Text with Foundry Local and C#",
       "link": "https://devblogs.microsoft.com/dotnet/foundry-local-live-speech-to-text-csharp/",
@@ -12,6 +34,17 @@
       "author": "Bruno Capuano",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Azure Virtual Network routing appliance is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-virtual-network-routing-appliance-is-now-generally/ba-p/4543616",
+      "published": "2026-08-04T20:42:46+00:00",
+      "summary": "Modern cloud networks are evolving faster than ever. Organizations are building larger AI platforms, connecting more services through private connectivity, adopting IPv6, and expanding applications across regions and business units. As these environments grow, the network becomes a critical...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Anshu_Verma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Customize code scanning default setup at scale",
@@ -6086,17 +6119,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Azure Connector Namespaces: managed integration for any Azure compute",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/azure-connector-namespaces-managed-integration-for-any-azure/ba-p/4524250",
-      "published": "2026-06-02T20:33:37+00:00",
-      "summary": "The integration tax nobody budgets for It is always a simple task on paper: connect apps to the systems the business actually runs on — SharePoint, Salesforce, SAP, Outlook — and get back to building features. What gets in the way is rarely the business logic. It's the plumbing. You write a custom...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[In preview] Public Preview: Azure Backup for Cosmos DB",
       "link": "https://azure.microsoft.com/updates?id=562769",
       "published": "2026-06-02T20:15:03+00:00",
@@ -6915,17 +6937,6 @@
       "link": "https://azure.microsoft.com/updates?id=563127",
       "published": "2026-06-02T19:00:47+00:00",
       "summary": "The MSSQL extension for Visual Studio Code now offers data API builder with built-in GitHub Copilot integration as generally available, bringing guided back-end generation into your development workflow. You can generate REST, GraphQL, and Model Context P",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Azure SQL Database provisioning in the MSSQL extension",
-      "link": "https://azure.microsoft.com/updates?id=563122",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "The MSSQL extension for Visual Studio Code now introduces Azure SQL Database provisioning in public preview, starting with the free tier so you can create and connect to a fully managed cloud database directly from your editor at no cost. With a guided wi",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -9142,17 +9153,6 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Enabling fallback to internet for Azure Private DNS Zones in hybrid architectures",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/enabling-fallback-to-internet-for-azure-private-dns-zones-in/ba-p/4511131",
-      "published": "2026-04-15T15:57:15+00:00",
-      "summary": "Introduction Azure Private Endpoint enables secure connectivity to Azure PaaS services such as: Azure SQL Managed Instance Azure Container Registry Azure Key Vault Azure Storage Account through private IP addresses within a virtual network. When Private Endpoint is enabled for a service, Azure DNS...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "kirankumar_manchiwar04",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Your Oracle Data Is Sitting Next to Microsoft AI. Are You Using It?",
@@ -12235,5 +12235,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure-adjacent news was dominated by AI agent development, security, and networking. Microsoft highlighted local AI app patterns with **live Speech-to-Text using Foundry Local and C#/.NET**, safer **multi-agent Kubernetes deployments with Kars**, and broad **Zero Trust for AI** guidance covering AI agents and DevSecOps, while Microsoft 365 Copilot added **Domain Exclusion** controls for web grounding and Agent 365 published its July 2026 updates.\n\nOn the infrastructure side, Azure announced several network features in preview or GA: **Network Security Perimeter Perimeter Link** in preview, **Azure Private Link over IPv6** in preview, **Azure DNS integration with Traffic Manager for DNS-based load balancing** in preview, and the **Azure Virtual Network routing appliance** reaching general availability. GitHub’s updates centered on software supply chain and developer workflow controls, including scalable customization of **code scanning**, **Dependabot branch naming**, automatic **code coverage** enablement, **CodeQL 2.26.2** support for **Swift 6.3.3** and **Kotlin 2.4.10**, plus product changes like the retirement of the **Copilot Billing Preview app** and deprecation of **GitHub Spark on github.com**."
+  "summary": "Today’s Azure update is a retirement notice: Azure **Nested confidential VMs (cc_v5)** will be **retired on September 1, 2026**. The key theme is lifecycle planning for **confidential computing** workloads—customers using **cc_v5** should prepare to migrate to newer Azure confidential VM offerings before the deadline."
 }
