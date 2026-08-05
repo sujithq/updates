@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T13:29:01.165842+00:00",
+  "lastUpdated": "2026-08-05T16:25:29.735214+00:00",
   "totalArticles": 1112,
   "articles": [
     {
@@ -25,6 +25,50 @@
       "sourceType": "rss"
     },
     {
+      "title": "What's new in Agent 365 – July 2026",
+      "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/what-s-new-in-agent-365-july-2026/ba-p/4543654",
+      "published": "2026-08-05T16:18:41+00:00",
+      "summary": "By Alex Pozin and Samer Baroudi Maintaining visibility and control becomes increasingly complex as organizations deploy more agents across multiple Microsoft 365 tenants, through a heterogenous mix of agent platforms, and across different teams or areas in the organization. Microsoft Agent 365 has...",
+      "blog": "Agent 365 Blog",
+      "blogId": "agent-365-blog",
+      "author": "alexpozin",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Public Preview: Nested API Support Comes to Microsoft Sentinel CCF",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/public-preview-nested-api-support-comes-to-microsoft-sentinel/ba-p/4537026",
+      "published": "2026-08-05T16:00:00+00:00",
+      "summary": "Microsoft Sentinel continues to evolve its capabilities to support an expanding ecosystem of partners and data integrations. Recent innovations include the Codeless Connector Framework (CCF) Push feature, the new Sentinel connector builder agent, and the CCF expansion to pull data from Azure...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Robert_Moriarty",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Building a CCF Nested API Pull Connector: A Technical Lab Walkthrough",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/building-a-ccf-nested-api-pull-connector-a-technical-lab/ba-p/4537027",
+      "published": "2026-08-05T16:00:00+00:00",
+      "summary": "This post walks through building a Microsoft Sentinel Codeless Connector Framework (CCF) RestApiPoller connector that uses the nested API polling pattern. The nested pattern exists for a specific reason: many enterprise APIs do not return enriched records from a single call. Instead, they use a...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Robert_Moriarty",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[Launched] Generally Available: Explicit proxy in Azure Firewall",
+      "link": "https://azure.microsoft.com/updates?id=568825",
+      "published": "2026-08-05T14:54:08+00:00",
+      "summary": "Azure Firewall explicit proxy is now generally available. Explicit proxy enables customers to configure applications and browsers to send HTTP and HTTPS traffic directly to Azure Firewall using proxy settings, providing an alternative to route-based traff",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
       "title": "Azure DevOps Remote MCP Server is generally available",
       "link": "https://devblogs.microsoft.com/devops/azure-devops-remote-mcp-server-ga/",
       "published": "2026-08-05T12:58:52+00:00",
@@ -34,6 +78,28 @@
       "author": "Dan Hellem",
       "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
+      "published": "2026-08-05T12:44:25+00:00",
+      "summary": "Microsoft Architect's: Aladdin Alchalabi aalchalabi​, Eric Kwashie ekwashie​, Jessica Reece jareece​, Kiran Raja KiranRaja​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer Reviewed: Ted Kim tedkim​ Purpose and WHY Azure Databricks has put...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "From Build to Run to Distribute: Autonomous Agents with Microsoft Foundry Agent Service Part 1/5",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-build-to-run-to-distribute-autonomous-agents-with-microsoft/ba-p/4541930",
+      "published": "2026-08-05T07:00:00+00:00",
+      "summary": "At Build 2026, we previewed the future of autonomous agents on the Microsoft platform. Now, those promises are delivered. Microsoft Foundry Agent Service, the Microsoft Agent Framework, and the GitHub Copilot SDK have reached General Availability, giving developers a single, end-to-end platform to...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Retirement: Nested confidential (cc_v5) VMs will be retired on September 1, 2026",
@@ -223,17 +289,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "What's new in Agent 365 – July 2026",
-      "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/what-s-new-in-agent-365-july-2026/ba-p/4543654",
-      "published": "2026-08-04T16:00:00+00:00",
-      "summary": "By Alex Pozin and Samer Baroudi Maintaining visibility and control becomes increasingly complex as organizations deploy more agents across multiple Microsoft 365 tenants, through a heterogenous mix of agent platforms, and across different teams or areas in the organization. Microsoft Agent 365 has...",
-      "blog": "Agent 365 Blog",
-      "blogId": "agent-365-blog",
-      "author": "alexpozin",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Upcoming deprecation of GitHub Spark on github.com",
       "link": "https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com",
       "published": "2026-08-04T15:54:47+00:00",
@@ -308,17 +363,6 @@
       "blogId": "integrationsonazureblog",
       "author": "WSilveira",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
-      "published": "2026-08-04T01:08:48+00:00",
-      "summary": "Microsoft Architect's: Aladdin Alchalabi aalchalabi​, Eric Kwashie ekwashie​, Jessica Reece jareece​, Kiran Raja KiranRaja​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer Reviewed: Ted Kim tedkim​ Purpose and WHY Azure Databricks has put...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3576,17 +3620,6 @@
       "author": "Waldek Mastykarz",
       "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Smoke Test Microsoft Foundry Agents with GitHub Actions",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/smoke-test-microsoft-foundry-agents-with-github-actions/ba-p/4531912",
-      "published": "2026-07-01T13:32:47+00:00",
-      "summary": "Introduction This blog is the next part of a series discussing Foundry Hosted Agents and how to properly construct Continuous Integration and Continuous Delivery (CI/CD) for them. This post will specifically go over configuring smoke tests against your recently deployed hosted agents. You can...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "j_folberth",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "What’s new across Microsoft SQL in 2026 so far (SQL Server, Azure SQL, and SQL database in Fabric)",
@@ -6944,17 +6977,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Data API builder with built-in GitHub Copilot in MSSQL extension",
-      "link": "https://azure.microsoft.com/updates?id=563127",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "The MSSQL extension for Visual Studio Code now offers data API builder with built-in GitHub Copilot integration as generally available, bringing guided back-end generation into your development workflow. You can generate REST, GraphQL, and Model Context P",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Secure, Modern Access to Azure Files on macOS with MS Entra ID",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/secure-modern-access-to-azure-files-on-macos-with-ms-entra-id/ba-p/4524077",
       "published": "2026-06-02T18:55:03+00:00",
@@ -8418,17 +8440,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "What’s new in Microsoft Sentinel: April 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-april-2026/ba-p/4516354",
-      "published": "2026-05-04T21:55:19+00:00",
-      "summary": "Welcome to the April 2026 edition of What's new in Microsoft Sentinel. April brings a broad set of updates, with RSAC 2026 announcements rolling out alongside new features. Highlights include cost limit enforcement to prevent runaway query costs, curated open-source intelligence in Threat...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "vkokkengada",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Kubernetes v1.36: Admission Policies That Can't Be Deleted",
       "link": "https://kubernetes.io/blog/2026/05/04/kubernetes-v1-36-manifest-based-admission-control/",
       "published": "2026-05-04T18:35:00+00:00",
@@ -8580,17 +8591,6 @@
       "blogId": "azuregovernanceandmanagementblog",
       "author": "jtracey93msft",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Use Data Wrangler to Streamline Your Microsoft Sentinel data lake Notebook Development",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/use-data-wrangler-to-streamline-your-microsoft-sentinel-data/ba-p/4490214",
-      "published": "2026-04-29T19:18:17+00:00",
-      "summary": "One of the many exciting features of the Microsoft Sentinel data lake is a built-in advanced analytics engine, powered by Apache Spark. This Spark cluster has access to data that is within Sentinel data lake, and can work with this data through Jupyter notebooks in Visual Studio Code. As with any...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "David Hoerster",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12235,5 +12235,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news centers on developer tooling, AI-ready workflows, and infrastructure lifecycle changes. Visual Studio Code 1.132 shipped with updates to core editing and AI-assisted development features, while Azure DevOps announced general availability of its Remote MCP Server, enabling Model Context Protocol-based integrations so AI agents and tools can securely work with Azure DevOps resources.\n\nOn the platform side, Azure also issued an important retirement notice: nested confidential computing VMs in the cc_v5 series will be retired on September 1, 2026, signaling that customers using confidential VM scenarios on that generation should plan migrations to newer offerings."
+  "summary": "Today’s Azure news centers on developer productivity, security/compliance, and AI agents: Visual Studio Code 1.132 shipped, Azure DevOps’ Remote MCP Server reached general availability, and Microsoft highlighted autonomous agent development with Foundry Agent Service and the latest Agent 365 updates. On the security side, Microsoft Sentinel introduced Nested API support for CCF in public preview alongside a technical walkthrough for building a Nested API pull connector, Azure Firewall’s explicit proxy capability became generally available, and Azure Databricks detailed how to enable its HIPAA-focused Compliance Security Profile.\n\nThe update set also includes important platform lifecycle news: Azure announced the retirement of nested confidential cc_v5 VMs effective September 1, 2026, signaling customers should plan migrations for confidential computing workloads. Overall, the big themes are stronger tooling for agentic/AI workflows, expanded security operations and compliance features, and clearer infrastructure modernization guidance."
 }
