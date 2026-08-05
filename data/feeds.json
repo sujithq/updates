@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T16:25:29.735214+00:00",
+  "lastUpdated": "2026-08-05T19:08:33.170512+00:00",
   "totalArticles": 1112,
   "articles": [
     {
@@ -14,6 +14,39 @@
       "sourceType": "rss"
     },
     {
+      "title": "v1.16.0-beta2",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-beta2",
+      "published": "2026-08-05T18:07:50+00:00",
+      "summary": "1.16.0-beta2 (August 05, 2026) NEW FEATURES: Terraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986) terraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298)...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Introducing Real-Time Multichannel Speech-to-Text",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-real-time-multichannel-speech-to-text/ba-p/4541701",
+      "published": "2026-08-05T18:00:00+00:00",
+      "summary": "Organizations working with stereo audio often face a difficult choice. In many contact center, conversational AI, and communication scenarios, participants are already recorded on separate channels. Keeping those channels separate provides valuable conversational context, especially when speakers...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "JanGoergen",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "When Does RL Actually Help Fine-Tuning? A Difficulty-Controlled Study on Structured Generation",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/when-does-rl-actually-help-fine-tuning-a-difficulty-controlled/ba-p/4535077",
+      "published": "2026-08-05T17:11:08+00:00",
+      "summary": "The uncomfortable question Reinforcement learning is often the finishing move of the modern fine-tuning stack: run SFT first, then add RL (GRPO, PPO, DPO) to squeeze out the last few points. In practice the return is wildly inconsistent — sometimes a real jump, sometimes nothing after a burned GPU...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "shihyaolin",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Visual Studio Code 1.132",
       "link": "https://code.visualstudio.com/updates/v1_132",
       "published": "2026-08-05T17:00:00+00:00",
@@ -22,6 +55,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP)",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/microsoft-named-a-leader-in-the-kuppingercole-leadership-compass-for-cloud-native-application-protection-platforms-cnapp/",
+      "published": "2026-08-05T16:30:00+00:00",
+      "summary": "Learn why KuppingerCole named Microsoft a Leader in its Leadership Compass: Cloud Native Application Protection Platforms report. The post ​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP) appeared first on Microsoft...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Ran Rosin",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -58,6 +102,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/",
+      "published": "2026-08-05T15:48:39+00:00",
+      "summary": "A macOS ClickFix campaign shifted tactics from openly serving infostealer lures to hiding them behind a browser-fingerprinting gate. The change makes malicious infrastructure harder to detect while giving defenders new hunting opportunities. The post From open lures to cloaked gates: How a macOS...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Security Research and Srinivasan Govindarajan",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "[Launched] Generally Available: Explicit proxy in Azure Firewall",
       "link": "https://azure.microsoft.com/updates?id=568825",
       "published": "2026-08-05T14:54:08+00:00",
@@ -88,17 +143,6 @@
       "blogId": "analyticsonazure",
       "author": "Rafia_Aqil",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "From Build to Run to Distribute: Autonomous Agents with Microsoft Foundry Agent Service Part 1/5",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-build-to-run-to-distribute-autonomous-agents-with-microsoft/ba-p/4541930",
-      "published": "2026-08-05T07:00:00+00:00",
-      "summary": "At Build 2026, we previewed the future of autonomous agents on the Microsoft platform. Now, those promises are delivered. Microsoft Foundry Agent Service, the Microsoft Agent Framework, and the GitHub Copilot SDK have reached General Availability, giving developers a single, end-to-end platform to...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -1719,17 +1763,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Email threat landscape: Q2 2026 trends and insights",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/",
-      "published": "2026-07-23T15:00:00+00:00",
-      "summary": "In the second quarter of 2026, the continuing effects of Microsoft’s disruption of the Tycoon2FA phishing platform contributed to sustained declines in several major phishing techniques, while threat actors expanded into Teams-based social engineering and employed increasingly automated and...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Threat Intelligence and Microsoft Defender Security Research Team",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Hybrid Logic Apps on RKE2: a self-managed cluster with MetalLB",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hybrid-logic-apps-on-rke2-a-self-managed-cluster-with-metallb/ba-p/4539846",
       "published": "2026-07-23T05:53:29+00:00",
@@ -1827,17 +1860,6 @@
       "author": "richpaw",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
-      "published": "2026-07-22T16:00:00+00:00",
-      "summary": "Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Aarti Borkar",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Design the Network Before You Deploy: Best Practices for Microsoft Foundry Standard Agents BYOVNet",
@@ -2973,28 +2995,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Foundry IQ is now in Copilot Studio: Bring your enterprise data to every agent conversation",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-iq-is-now-in-copilot-studio-bring-your-enterprise-data/ba-p/4534635",
-      "published": "2026-07-08T21:24:32+00:00",
-      "summary": "Your AI agents are only as smart as the data they can access Enterprise teams building Copilot agents face a familiar challenge: connecting agents to organizational knowledge without compromising security, governance, or answer quality. Foundry IQ solves this by providing a unified knowledge layer...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Angie-Silva-Pereyra",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Before You Ship Your Agent: A Five-Step Path to Evaluations You Can Trust",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/before-you-ship-your-agent-a-five-step-path-to-evaluations-you/ba-p/4532311",
-      "published": "2026-07-08T18:41:30+00:00",
-      "summary": "Authors: Caroline Yeh, Ali Mahmoudzadeh, Morteza Ziyadi If you've shipped an agent to production, or you're close, you've already made a quiet bet: that the evals you ran during development reflect what happens when real users interact with the real system. That bet is harder to win than it looks....",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amah",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "v1.15.8",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.8",
       "published": "2026-07-08T17:45:09+00:00",
@@ -3622,6 +3622,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Smoke Test Microsoft Foundry Agents with GitHub Actions",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/smoke-test-microsoft-foundry-agents-with-github-actions/ba-p/4531912",
+      "published": "2026-07-01T13:32:47+00:00",
+      "summary": "Introduction This blog is the next part of a series discussing Foundry Hosted Agents and how to properly construct Continuous Integration and Continuous Delivery (CI/CD) for them. This post will specifically go over configuring smoke tests against your recently deployed hosted agents. You can...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "j_folberth",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "What’s new across Microsoft SQL in 2026 so far (SQL Server, Azure SQL, and SQL database in Fabric)",
       "link": "https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-in-2026-so-far-sql-server-azure-sql-and-sql-database-in-fabric/",
       "published": "2026-07-01T12:52:43+00:00",
@@ -4059,17 +4070,6 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "v1.15.7",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.7",
-      "published": "2026-06-24T16:47:12+00:00",
-      "summary": "1.15.7 (June 24, 2026) BUG FIXES: Add concurrency safety to configs.Parser and SourceBundleParser (#38745) Fix submodule variable validation during init (#38770)",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -12235,5 +12235,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news centers on developer productivity, security/compliance, and AI agents: Visual Studio Code 1.132 shipped, Azure DevOps’ Remote MCP Server reached general availability, and Microsoft highlighted autonomous agent development with Foundry Agent Service and the latest Agent 365 updates. On the security side, Microsoft Sentinel introduced Nested API support for CCF in public preview alongside a technical walkthrough for building a Nested API pull connector, Azure Firewall’s explicit proxy capability became generally available, and Azure Databricks detailed how to enable its HIPAA-focused Compliance Security Profile.\n\nThe update set also includes important platform lifecycle news: Azure announced the retirement of nested confidential cc_v5 VMs effective September 1, 2026, signaling customers should plan migrations for confidential computing workloads. Overall, the big themes are stronger tooling for agentic/AI workflows, expanded security operations and compliance features, and clearer infrastructure modernization guidance."
+  "summary": "Today’s Azure news centered on AI, security, and developer platform updates: Microsoft introduced **Real-Time Multichannel Speech-to-Text** in **Azure AI Foundry**, published new research on when **reinforcement learning** improves fine-tuning for **structured generation**, and shipped **Visual Studio Code 1.132** alongside the **general availability of the Azure DevOps Remote MCP Server**. On the security side, Microsoft highlighted being named a **Leader in CNAPP** by KuppingerCole, detailed a **macOS ClickFix** campaign, and expanded **Microsoft Sentinel CCF** with **public preview Nested API support** plus a technical walkthrough for building nested API pull connectors.\n\nInfrastructure and compliance announcements included **general availability of explicit proxy in Azure Firewall**, **HIPAA-oriented Compliance Security Profile enablement for Azure Databricks**, updates to **Agent 365**, and an important lifecycle notice that **nested confidential cc_v5 VMs** will retire on **September 1, 2026**; the **Terraform v1.16.0-beta2** post also signals continued IaC tooling progress in the Azure ecosystem."
 }
