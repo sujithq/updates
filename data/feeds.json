@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T11:10:57.018796+00:00",
+  "lastUpdated": "2026-08-05T13:29:01.165842+00:00",
   "totalArticles": 1112,
   "articles": [
     {
@@ -25,15 +25,15 @@
       "sourceType": "rss"
     },
     {
-      "title": "From Build to Run to Distribute: Autonomous Agents with Microsoft Foundry Agent Service Part 1/5",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-build-to-run-to-distribute-autonomous-agents-with-microsoft/ba-p/4541930",
-      "published": "2026-08-05T07:00:00+00:00",
-      "summary": "At Build 2026, we previewed the future of autonomous agents on the Microsoft platform. Now, those promises are delivered. Microsoft Foundry Agent Service, the Microsoft Agent Framework, and the GitHub Copilot SDK have reached General Availability, giving developers a single, end-to-end platform to...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
+      "title": "Azure DevOps Remote MCP Server is generally available",
+      "link": "https://devblogs.microsoft.com/devops/azure-devops-remote-mcp-server-ga/",
+      "published": "2026-08-05T12:58:52+00:00",
+      "summary": "Today, we’re excited to announce the general availability of the Azure DevOps MCP Server 🎉 The Azure DevOps MCP Server gives AI assistants secure, contextual access to your Azure DevOps projects so they can help you plan, build, and ship software more effectively. With the Azure DevOps remote MCP...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Dan Hellem",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Retirement: Nested confidential (cc_v5) VMs will be retired on September 1, 2026",
@@ -3578,6 +3578,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Smoke Test Microsoft Foundry Agents with GitHub Actions",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/smoke-test-microsoft-foundry-agents-with-github-actions/ba-p/4531912",
+      "published": "2026-07-01T13:32:47+00:00",
+      "summary": "Introduction This blog is the next part of a series discussing Foundry Hosted Agents and how to properly construct Continuous Integration and Continuous Delivery (CI/CD) for them. This post will specifically go over configuring smoke tests against your recently deployed hosted agents. You can...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "j_folberth",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "What’s new across Microsoft SQL in 2026 so far (SQL Server, Azure SQL, and SQL database in Fabric)",
       "link": "https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-in-2026-so-far-sql-server-azure-sql-and-sql-database-in-fabric/",
       "published": "2026-07-01T12:52:43+00:00",
@@ -5764,17 +5775,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "How Microsoft is migrating repositories to GitHub",
-      "link": "https://devblogs.microsoft.com/devops/how-microsoft-is-migrating-repositories-to-github/",
-      "published": "2026-06-03T18:48:27+00:00",
-      "summary": "For the past decade, Azure DevOps has powered software development at Microsoft, supporting some of our largest repositories and most complex engineering workflows across Azure Repos, Boards, and Pipelines. Software development is being reshaped by AI, and where code lives now have a direct impact...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Poonam Gupta",
-      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "sourceType": "rss"
     },
     {
@@ -12235,5 +12235,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related updates centered on developer tooling, AI agents, and infrastructure lifecycle changes. Microsoft highlighted **Visual Studio Code 1.132** with the latest editor and developer experience updates, introduced **Microsoft Foundry Agent Service** as part of a new series on building, running, and distributing **autonomous agents**, and announced the retirement of **nested confidential cc_v5 virtual machines** effective **September 1, 2026**, signaling required migration planning for customers using confidential computing workloads."
+  "summary": "Today’s Azure news centers on developer tooling, AI-ready workflows, and infrastructure lifecycle changes. Visual Studio Code 1.132 shipped with updates to core editing and AI-assisted development features, while Azure DevOps announced general availability of its Remote MCP Server, enabling Model Context Protocol-based integrations so AI agents and tools can securely work with Azure DevOps resources.\n\nOn the platform side, Azure also issued an important retirement notice: nested confidential computing VMs in the cc_v5 series will be retired on September 1, 2026, signaling that customers using confidential VM scenarios on that generation should plan migrations to newer offerings."
 }
