@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-08-05T08:11:10.451982+00:00",
-  "totalArticles": 1111,
+  "lastUpdated": "2026-08-05T11:10:57.018796+00:00",
+  "totalArticles": 1112,
   "articles": [
+    {
+      "title": "Visual Studio Code 1.133 (Insiders)",
+      "link": "https://code.visualstudio.com/updates/v1_133",
+      "published": "2026-08-11T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.133 (Insiders) Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Visual Studio Code 1.132",
+      "link": "https://code.visualstudio.com/updates/v1_132",
+      "published": "2026-08-05T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.132 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "From Build to Run to Distribute: Autonomous Agents with Microsoft Foundry Agent Service Part 1/5",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-build-to-run-to-distribute-autonomous-agents-with-microsoft/ba-p/4541930",
+      "published": "2026-08-05T07:00:00+00:00",
+      "summary": "At Build 2026, we previewed the future of autonomous agents on the Microsoft platform. Now, those promises are delivered. Microsoft Foundry Agent Service, the Microsoft Agent Framework, and the GitHub Copilot SDK have reached General Availability, giving developers a single, end-to-end platform to...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Retirement: Nested confidential (cc_v5) VMs will be retired on September 1, 2026",
       "link": "https://azure.microsoft.com/updates?id=568661",
@@ -23,6 +56,17 @@
       "author": "Microsoft Security Research, Ravikant Tiwari, Sagar Patil and Suriyaraj Natarajan",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Use connectors with Managed Identity in the Logic Apps Standard extension",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/use-connectors-with-managed-identity-in-the-logic-apps-standard/ba-p/4539485",
+      "published": "2026-08-04T23:00:51+00:00",
+      "summary": "Managed Identity is Azure’s built-in way to authenticate to Microsoft Entra-protected resources without storing credentials, secrets, or connection strings. Deployed Logic Apps have supported it for a while, but the developer inner loop was a different story. You would wire up one authentication...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Beyond Chat: live Speech-to-Text with Foundry Local and C#",
@@ -909,17 +953,6 @@
       "link": "https://code.visualstudio.com/updates/v1_131",
       "published": "2026-07-29T17:00:00+00:00",
       "summary": "Learn what's new in Visual Studio Code 1.131 Read the full article",
-      "blog": "Visual Studio Code",
-      "blogId": "vscode",
-      "author": "Visual Studio Code Team",
-      "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Visual Studio Code 1.132 (Insiders)",
-      "link": "https://code.visualstudio.com/updates/v1_132",
-      "published": "2026-07-29T17:00:00+00:00",
-      "summary": "Learn what's new in Visual Studio Code 1.132 (Insiders) Read the full article",
       "blog": "Visual Studio Code",
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
@@ -3545,17 +3578,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Smoke Test Microsoft Foundry Agents with GitHub Actions",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/smoke-test-microsoft-foundry-agents-with-github-actions/ba-p/4531912",
-      "published": "2026-07-01T13:32:47+00:00",
-      "summary": "Introduction This blog is the next part of a series discussing Foundry Hosted Agents and how to properly construct Continuous Integration and Continuous Delivery (CI/CD) for them. This post will specifically go over configuring smoke tests against your recently deployed hosted agents. You can...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "j_folberth",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "What’s new across Microsoft SQL in 2026 so far (SQL Server, Azure SQL, and SQL database in Fabric)",
       "link": "https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-in-2026-so-far-sql-server-azure-sql-and-sql-database-in-fabric/",
       "published": "2026-07-01T12:52:43+00:00",
@@ -6106,17 +6128,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Azure Connector Namespaces: managed integration for any Azure compute",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/azure-connector-namespaces-managed-integration-for-any-azure/ba-p/4524250",
-      "published": "2026-06-02T20:33:37+00:00",
-      "summary": "The integration tax nobody budgets for It is always a simple task on paper: connect apps to the systems the business actually runs on — SharePoint, Salesforce, SAP, Outlook — and get back to building features. What gets in the way is rarely the business logic. It's the plumbing. You write a custom...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "[In preview] Public Preview: Azure Backup for Cosmos DB",
@@ -12224,5 +12235,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure updates are focused on a single important infrastructure change: Microsoft announced the retirement of **Nested confidential `cc_v5` virtual machines** on **September 1, 2026**. Organizations using **Azure confidential computing** with **nested virtualization** on the **`cc_v5` VM series** should begin planning migration and lifecycle updates now, as this affects workloads that depend on those specific confidential VM capabilities."
+  "summary": "Today’s Azure-related updates centered on developer tooling, AI agents, and infrastructure lifecycle changes. Microsoft highlighted **Visual Studio Code 1.132** with the latest editor and developer experience updates, introduced **Microsoft Foundry Agent Service** as part of a new series on building, running, and distributing **autonomous agents**, and announced the retirement of **nested confidential cc_v5 virtual machines** effective **September 1, 2026**, signaling required migration planning for customers using confidential computing workloads."
 }
