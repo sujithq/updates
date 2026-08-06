@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06T05:37:16.561660+00:00",
+  "lastUpdated": "2026-08-06T08:10:14.742012+00:00",
   "totalArticles": 1111,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Beyond Model Evaluation: Choosing Between Microsoft Foundry and PyRIT for AI Red Teaming",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-model-evaluation-choosing-between-microsoft-foundry-and/ba-p/4538110",
+      "published": "2026-08-06T07:00:00+00:00",
+      "summary": "As enterprise AI systems evolve from standalone models into RAG applications, copilots, and autonomous agents, one question comes up often: Should we use Microsoft Foundry or PyRIT for Red Teaming? After working through evaluation and red teaming scenarios, my recommendation is: 👉 Use both, but for...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Jatin_Garg",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Build and Deploy Confidential Virtual Machines on Azure Local (Public Preview)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/build-and-deploy-confidential-virtual-machines-on-azure-local/ba-p/4543995",
+      "published": "2026-08-06T01:35:53+00:00",
+      "summary": "Estimated read: ~4 minutes Confidential computing has become foundational to how regulated and sovereign organizations run their most sensitive workloads. Today, we're excited to announce that Confidential Virtual Machines on Azure Local are available in public preview — bringing hardware-based...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Dona_Mukherjee",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "[Launched] Generally Available: SharePoint Connector for Azure Databricks",
@@ -36,6 +58,39 @@
       "sourceType": "rss"
     },
     {
+      "title": "Understanding the Standard HDD I/O unit size update and what it means for your workloads",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/understanding-the-standard-hdd-i-o-unit-size-update-and-what-it/ba-p/4499128",
+      "published": "2026-08-05T21:33:32+00:00",
+      "summary": "As Azure continues to evolve to support modern workload patterns, we are refining how transactions are measured for Standard HDD Managed Disks. This update helps align billing more closely with actual I/O behavior while maintaining predictable cost controls for customers. In this post, we’ll walk...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "austin-ma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Update WCF Relay applications to use TLS 1.2 or later",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/update-wcf-relay-applications-to-use-tls-1-2-or-later/ba-p/4544418",
+      "published": "2026-08-05T21:00:00+00:00",
+      "summary": "WCF Relay listeners that still negotiate TLS 1.0 can fail to connect through Azure Relay. The symptom appears on the sender, which connected successfully before and now fails every call with System.ServiceModel.EndpointNotFoundException: no connected listeners accepted the connection within...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Exploring Multi-Agent Workflows with Microsoft Agent Framework",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/exploring-multi-agent-workflows-with-microsoft-agent-framework/ba-p/4542512",
+      "published": "2026-08-05T20:00:00+00:00",
+      "summary": "As organizations race to automate decision-making, content generation, analysis, and execution at scale, the future is shifting from isolated AI agents to multi-agent workflows where specialized agents collaborate, delegate, challenge, and refine each other's work. By allowing multiple AI agents to...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "SonakshiA",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "v1.16.0-beta2",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-beta2",
       "published": "2026-08-05T18:07:50+00:00",
@@ -47,6 +102,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "When Does RL Actually Help Fine-Tuning? A Difficulty-Controlled Study on Structured Generation",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/when-does-rl-actually-help-fine-tuning-a-difficulty-controlled/ba-p/4535077",
+      "published": "2026-08-05T17:11:08+00:00",
+      "summary": "The uncomfortable question Reinforcement learning is often the finishing move of the modern fine-tuning stack: run SFT first, then add RL (GRPO, PPO, DPO) to squeeze out the last few points. In practice the return is wildly inconsistent — sometimes a real jump, sometimes nothing after a burned GPU...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "shihyaolin",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Announcing Public Preview - Azure Private Link over IPv6",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/announcing-public-preview-azure-private-link-over-ipv6/ba-p/4543978",
+      "published": "2026-08-05T17:06:27+00:00",
+      "summary": "1. Overview Private Link over IPv6 (PL IPv6) enables customers to securely access Azure PaaS services over IPv6-based connectivity. This capability is critical for: IPv6 based PE connectivity to PaaS resources Enabling IPv6 in On-prem environments This document is intended to serve as guide to...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "amitmishra",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Visual Studio Code 1.132",
       "link": "https://code.visualstudio.com/updates/v1_132",
       "published": "2026-08-05T17:00:00+00:00",
@@ -56,6 +133,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "ICYMI: Partner Blog | From AI curiosity to Copilot adoption in 30 days",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/icymi-partner-blog-from-ai-curiosity-to-copilot-adoption-in-30/ba-p/4544027",
+      "published": "2026-08-05T17:00:00+00:00",
+      "summary": "Thirty days. Twenty-five users. One clear path to AI. For small and medium-sized businesses, AI is no longer a someday conversation, it's a right-now decision. SMB customers aren't asking whether AI matters anymore; they're asking how to put it to work in ways that are practical, fast, and secure....",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "JillArmourMicrosoft",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP)",
@@ -3006,28 +3094,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Foundry IQ is now in Copilot Studio: Bring your enterprise data to every agent conversation",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-iq-is-now-in-copilot-studio-bring-your-enterprise-data/ba-p/4534635",
-      "published": "2026-07-08T21:24:32+00:00",
-      "summary": "Your AI agents are only as smart as the data they can access Enterprise teams building Copilot agents face a familiar challenge: connecting agents to organizational knowledge without compromising security, governance, or answer quality. Foundry IQ solves this by providing a unified knowledge layer...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Angie-Silva-Pereyra",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Before You Ship Your Agent: A Five-Step Path to Evaluations You Can Trust",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/before-you-ship-your-agent-a-five-step-path-to-evaluations-you/ba-p/4532311",
-      "published": "2026-07-08T18:41:30+00:00",
-      "summary": "Authors: Caroline Yeh, Ali Mahmoudzadeh, Morteza Ziyadi If you've shipped an agent to production, or you're close, you've already made a quiet bet: that the evals you ran during development reflect what happens when real users interact with the real system. That bet is harder to win than it looks....",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amah",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "v1.15.8",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.8",
       "published": "2026-07-08T17:45:09+00:00",
@@ -3487,17 +3553,6 @@
       "blogId": "azureobservabilityblog",
       "author": "yairgil",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Guest Access for Canvas and Model-Driven Apps with Microsoft Entra ID",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/guest-access-for-canvas-and-model-driven-apps-with-microsoft/ba-p/4529462",
-      "published": "2026-07-02T08:24:43+00:00",
-      "summary": "Introduction External collaboration is a common requirement for business applications built on Microsoft Power Platform. Organizations may need to provide controlled access to vendors, partners, contractors, or external business users without creating full internal user accounts. Microsoft Entra ID...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "aakarshdhawan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -4808,17 +4863,6 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "What’s New in Notebooks | May 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-may-2026/ba-p/4519838",
-      "published": "2026-06-12T14:34:37+00:00",
-      "summary": "Copilot Notebooks gets smarter for Microsoft 365 Copilot users Work rarely lives in one place. A single project can span a deck in SharePoint, decisions in a Teams thread, customer context in email, and ideas captured in quick conversations. Copilot Notebooks brings that work together in a shared,...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "ezrapark",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Orchestration Patterns for Multi-Agent Systems: Performance and Trade-offs",
@@ -8836,17 +8880,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Understanding the Standard HDD I/O unit size update and what it means for your workloads",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/understanding-the-standard-hdd-i-o-unit-size-update-and-what-it/ba-p/4499128",
-      "published": "2026-04-22T15:18:03+00:00",
-      "summary": "As Azure continues to evolve to support modern workload patterns, we are refining how transactions are measured for Standard HDD Managed Disks. This update helps align billing more closely with actual I/O behavior while maintaining predictable cost controls for customers. In this post, we’ll walk...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "austin-ma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Getting Started with the SUSE Multi-Linux Manager MCP Server and GitHub Copilot",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/getting-started-with-the-suse-multi-linux-manager-mcp-server-and/ba-p/4513494",
       "published": "2026-04-22T07:00:00+00:00",
@@ -9076,17 +9109,6 @@
       "author": "cindywang",
       "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Introducing the Container Network Insights Agent for AKS: Now in Public Preview",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/introducing-the-container-network-insights-agent-for-aks-now-in/ba-p/4512197",
-      "published": "2026-04-16T21:05:45+00:00",
-      "summary": "We are thrilled to announce public preview of Container Network Insights Agent - Agentic AI network troubleshooting for your workloads running in Azure Kubernetes Service (AKS). The Challenge AKS networking is layered by design. Azure CNI, eBPF, Cilium, CoreDNS, NetworkPolicy, CiliumNetworkPolicy,...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "chandanAggarwal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Free Your Terminal with Detached Mode in Aspire 13.2",
@@ -9340,17 +9362,6 @@
       "author": "Lily Ma",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Simplify Azure Arc Server Onboarding with Ansible and the New Onboarding Role",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/simplify-azure-arc-server-onboarding-with-ansible-and-the-new/ba-p/4509481",
-      "published": "2026-04-08T06:40:42+00:00",
-      "summary": "If you’re already using Ansible to manage your infrastructure, there’s now a simpler—and more secure—way to bring machines under Azure Arc management. We’ve introduced a new Azure Arc onboarding role designed specifically for automated scenarios like Ansible playbooks. This role follows the...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "alinetran",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Azure Container Storage v2.1.0: Now GA with Elastic SAN",
@@ -11817,17 +11828,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "What’s New in Azure Event Grid",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/what-s-new-in-azure-event-grid/ba-p/4458299",
-      "published": "2025-10-01T23:22:50+00:00",
-      "summary": "Azure Event Grid continues to evolve with new capabilities in General Availability and Public Preview – intended to help you enhance performance, security, and interoperability in modern event-driven systems. These enhancements strengthen Azure Event Grid’s foundational messaging layer for...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "Connected-Seth",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Microsoft is headed to Oracle AI World 2025 in Las Vegas!",
       "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/microsoft-is-headed-to-oracle-ai-world-2025-in-las-vegas/ba-p/4457390",
       "published": "2025-09-30T16:33:49+00:00",
@@ -12223,5 +12223,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure posts focus on secure, responsible AI and confidential infrastructure. One article explains how to choose between **Microsoft Foundry** and **PyRIT** for **AI red teaming**, highlighting different approaches to evaluating and stress-testing generative AI systems beyond standard model evaluation. The other announces the **public preview** of **Confidential Virtual Machines on Azure Local** via **Azure Arc**, enabling organizations to build and deploy VMs that use confidential computing protections to help secure sensitive workloads in on-premises or edge environments."
 }
