@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06T08:10:14.742012+00:00",
+  "lastUpdated": "2026-08-06T11:10:51.547309+00:00",
   "totalArticles": 1111,
   "articles": [
     {
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "You can now use the Azure DevOps Service Connection instead of a PAT or Build Session token",
+      "link": "https://devblogs.microsoft.com/devops/you-can-now-use-the-azure-devops-service-connection-instead-of-a-pat-or-build-session-token/",
+      "published": "2026-08-06T08:57:40+00:00",
+      "summary": "We’re excited to announce the Azure DevOps service connection, a new way to access Azure DevOps from your pipelines using a Microsoft Entra workload identity (a service principal or managed identity) instead of a Personal Access Token (PAT) or session token. This post walks through what it is, how...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Eric van Wijk",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "sourceType": "rss"
     },
     {
@@ -5336,17 +5347,6 @@
       "author": "alexpozin",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Enterprise Live Migrations: Moving from Azure DevOps Repo to GitHub with minimal disruption",
-      "link": "https://devblogs.microsoft.com/devops/enterprise-live-migrations/",
-      "published": "2026-06-08T16:13:26+00:00",
-      "summary": "Over the last several years, we’ve encouraged customers to move their repositories from Azure Repos to GitHub to take advantage of the latest AI-powered and agentic development experiences. For many enterprise teams, however, migrating at scale comes with real constraints. Traditional approaches...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Soo Stahl, Bhuvan Shah",
-      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "The Worm in the Supply Chain: How Defender for Endpoint and Sentinel for SAP BTP Caught Shai-Hulud",
@@ -12224,5 +12224,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focus on secure, responsible AI and confidential infrastructure. One article explains how to choose between **Microsoft Foundry** and **PyRIT** for **AI red teaming**, highlighting different approaches to evaluating and stress-testing generative AI systems beyond standard model evaluation. The other announces the **public preview** of **Confidential Virtual Machines on Azure Local** via **Azure Arc**, enabling organizations to build and deploy VMs that use confidential computing protections to help secure sensitive workloads in on-premises or edge environments."
+  "summary": "Today’s Azure updates center on stronger security and streamlined operations across DevOps, AI, and infrastructure. Azure DevOps now supports using an Azure DevOps Service Connection in place of a PAT or Build Session token, reducing secret-management overhead, while Microsoft’s AI red-teaming guidance clarifies when to use Microsoft Foundry versus PyRIT for adversarial testing and model risk evaluation.\n\nOn the infrastructure side, Azure Arc announced public preview support for building and deploying Confidential Virtual Machines on Azure Local, extending confidential computing capabilities to on-premises or hybrid environments with hardware-backed isolation for sensitive workloads."
 }
