@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T15:41:20.104446+00:00",
+  "lastUpdated": "2026-08-07T18:35:46.853239+00:00",
   "totalArticles": 1109,
   "articles": [
     {
@@ -14,6 +14,61 @@
       "sourceType": "rss"
     },
     {
+      "title": "Expanding the Azure Local Security Ecosystem with IBM QRadar and Splunk",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/expanding-the-azure-local-security-ecosystem-with-ibm-qradar-and/ba-p/4535101",
+      "published": "2026-08-07T18:00:00+00:00",
+      "summary": "As regulatory obligations, resilience requirements, and the need for greater control over data and infrastructure continue to grow, we are seeing increasing interest in Azure Local from governments, critical infrastructure operators, defense organizations, and regulated industries looking to deploy...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Ariel Netz",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Public Preview: Nested API Support Comes to Microsoft Sentinel CCF",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/public-preview-nested-api-support-comes-to-microsoft-sentinel/ba-p/4537026",
+      "published": "2026-08-07T17:15:55+00:00",
+      "summary": "Microsoft Sentinel continues to evolve its capabilities to support an expanding ecosystem of partners and data integrations. Recent innovations include the Codeless Connector Framework (CCF) Push feature, the new Sentinel connector builder agent, and the CCF expansion to pull data from Azure...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Robert_Moriarty",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Secret scanning coverage updates",
+      "link": "https://github.blog/changelog/2026-08-07-secret-scanning-coverage-updates",
+      "published": "2026-08-07T16:54:47+00:00",
+      "summary": "This release expands secret scanning’s coverage with more secrets blocked by push protection, one new secret scanning partner, and richer metadata on alerts. Secret scanning partnership program Lovable Labs is… The post Secret scanning coverage updates appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Zero Ops: Agents Operate, Humans Govern",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/zero-ops-agents-operate-humans-govern/ba-p/4545151",
+      "published": "2026-08-07T16:48:45+00:00",
+      "summary": "A note on scope: the patterns in this guide apply to any agentic operations platform. The specifics — the pricing model, the built-in capabilities, the primitives named throughout — are Azure SRE Agent. Where something is a property of the product rather than a universal truth, it’s called out....",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Shamir_AbdulAziz",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[In preview] Public Preview: Azure ExpressRoute resiliency guard",
+      "link": "https://azure.microsoft.com/updates?id=568666",
+      "published": "2026-08-07T15:52:31+00:00",
+      "summary": "Azure ExpressRoute resiliency guard is now available in public preview for ExpressRoute virtual network gateways. The new resiliency model property lets you specify whether a gateway is intended for a single-homed or multi-homed configuration, helping ali",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
       "title": "GitHub Code Quality no longer adds Copilot as a reviewer",
       "link": "https://github.blog/changelog/2026-08-07-github-code-quality-no-longer-adds-copilot-as-a-reviewer",
       "published": "2026-08-07T15:07:25+00:00",
@@ -23,6 +78,28 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "From Good to Great: We Put Agent Optimizer to the Test in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-good-to-great-we-put-agent-optimizer-to-the-test-in/ba-p/4543982",
+      "published": "2026-08-07T14:00:00+00:00",
+      "summary": "Authors: Abi Komma, Charles Kim, Luffy Chen, Morteza Ziyadi Why hand-tuning agents does not scale An agent’s behavior comes mostly from its natural-language configuration: its instructions, skills, and tool descriptions. Most teams tune that configuration by hand. You write the instruction, run...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "abikomma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "The Hidden Reason Your Foundry Agent Can't Reach Any of Your Private (Bring-Your-Own) Resources",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/the-hidden-reason-your-foundry-agent-can-t-reach-any-of-your/ba-p/4543619",
+      "published": "2026-08-07T14:00:00+00:00",
+      "summary": "The setup You've built the deployment the enterprise architecture review asked for. Nothing touches the public internet. Your Microsoft Foundry resource is private — public network access disabled, a private endpoint fronting it inside your virtual network. Every resource the agent depends on is...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "vishal_kalal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
@@ -355,17 +432,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Public Preview: Nested API Support Comes to Microsoft Sentinel CCF",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/public-preview-nested-api-support-comes-to-microsoft-sentinel/ba-p/4537026",
-      "published": "2026-08-05T16:00:00+00:00",
-      "summary": "Microsoft Sentinel continues to evolve its capabilities to support an expanding ecosystem of partners and data integrations. Recent innovations include the Codeless Connector Framework (CCF) Push feature, the new Sentinel connector builder agent, and the CCF expansion to pull data from Azure...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Robert_Moriarty",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Building a CCF Nested API Pull Connector: A Technical Lab Walkthrough",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/building-a-ccf-nested-api-pull-connector-a-technical-lab/ba-p/4537027",
       "published": "2026-08-05T16:00:00+00:00",
@@ -683,17 +749,6 @@
       "author": "WSilveira",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Customize the reasoning level for Copilot cloud agent",
-      "link": "https://github.blog/changelog/2026-08-03-customize-the-reasoning-level-for-copilot-cloud-agent",
-      "published": "2026-08-03T23:27:35+00:00",
-      "summary": "When you delegate a task to GitHub Copilot cloud agent, you can now set the reasoning level for models that support it. This allows you to control how much the… The post Customize the reasoning level for Copilot cloud agent appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Built-In Observability for Serverless AI Agents on Azure Functions",
@@ -1609,6 +1664,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Managing disruption with AKS Node Auto-Provisioning",
+      "link": "https://blog.aks.azure.com/2026/07/28/nap-disruption",
+      "published": "2026-07-28T00:00:00+00:00",
+      "summary": "Learn AKS best practices for managing node disruption when using node auto provisioning (NAP) with pod disruption budgets, node disruption budgets, consolidation policies, and maintenance windows in production.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft",
+      "feedUrl": "https://blog.aks.azure.com/rss.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "Redefining Database Maintenance after Migrating from Db2 on Mainframe to Azure SQL DB Hyperscale",
       "link": "https://techcommunity.microsoft.com/t5/modernization-best-practices-and/redefining-database-maintenance-after-migrating-from-db2-on/ba-p/4471207",
       "published": "2026-07-27T21:10:26+00:00",
@@ -2467,17 +2533,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Answers You Can Trust: Grounding Enterprise Agents with Foundry IQ",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/answers-you-can-trust-grounding-enterprise-agents-with-foundry/ba-p/4536594",
-      "published": "2026-07-15T20:00:00+00:00",
-      "summary": "Enterprise AI has a trust problem, and it is not about fluency. A model will answer almost any question with confidence, whether or not it actually knows. The moment a legal or support team catches it inventing a policy that does not exist, they stop trusting it for anything that matters. What...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Paulo_Lacerda",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "From Policy to Proof: Governing AI to Scale Human Ambition and Machine Intelligence",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-policy-to-proof-governing-ai-to-scale-human-ambition-and/ba-p/4535137",
       "published": "2026-07-15T19:51:51+00:00",
@@ -2553,17 +2608,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Implementing Multi‑Agent Orchestration in Microsoft Copilot Studio",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/implementing-multi-agent-orchestration-in-microsoft-copilot/ba-p/4494717",
-      "published": "2026-07-15T18:35:54+00:00",
-      "summary": "As organizations move beyond simple Q&A copilots, a common challenge quickly emerges: single agents struggle to handle multi-step, cross-domain scenarios. In our work with customers using Microsoft Copilot Studio, this shows up when copilots are expected to combine reasoning, real-time data, and...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "LeoMa",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "[In preview] Public Preview: Azure SQL updates for mid-July 2026",
@@ -4356,17 +4400,6 @@
       "blogId": "agent-365-blog",
       "author": "aarthisk",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "How Many Copies of Each Layer Does Your Container Registry Actually Need?",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-many-copies-of-each-layer-does-your-container-registry/ba-p/4529836",
-      "published": "2026-06-22T15:20:26+00:00",
-      "summary": "Authors: Payal Mahesh and Vicky Lin Azure Container Registry team: Jeanine Burke and Johnson Shi Introduction It's Monday morning. You spin up a fresh 1,000-node AKS cluster for a big training run or a fleet-wide rollout. Every node reaches for the same large container image at the same instant....",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "payalmahesh",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -7043,17 +7076,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[In preview] Public Preview: Benchmark evaluations for fine-tuned models in Microsoft Foundry",
-      "link": "https://azure.microsoft.com/updates?id=563167",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Choosing the right AI system is rarely as simple as picking the newest or largest model — and agents add their own layer of variability on top. A model that wins on a public leaderboard can still underperform on the reasoning, math, or domain-knowledge qu",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Secure, Modern Access to Azure Files on macOS with MS Entra ID",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/secure-modern-access-to-azure-files-on-macos-with-ms-entra-id/ba-p/4524077",
       "published": "2026-06-02T18:55:03+00:00",
@@ -9254,17 +9276,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Azure Arc Server Mar 2026 Forum Recap",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-server-mar-2026-forum-recap/ba-p/4511299",
-      "published": "2026-04-14T17:54:18+00:00",
-      "summary": "Please find the recording for the monthly Azure Arc Server Forum on YouTube! During the March 2026 Azure Arc Server Forum, we discussed: Deploying Ansible Playbooks through Machine Configuration as Azure Policy (Learn more: Announcing Private Preview: Deploy Ansible Playbooks using Azure Policy via...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Aurnov_Chattopadhyay",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Release 2026-04-02",
       "link": "https://github.com/Azure/AKS/releases/tag/2026-04-02",
       "published": "2026-04-14T06:26:28+00:00",
@@ -9934,17 +9945,6 @@
       "author": "AnaviNahar",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-databricks&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Announcing Gateway API support for App Routing",
-      "link": "https://blog.aks.azure.com/2026/03/18/app-routing-gateway-api",
-      "published": "2026-03-18T00:00:00+00:00",
-      "summary": "The AKS app routing add-on now supports the Kubernetes Gateway API via a meshless Istio control plane — the recommended path to migrate from Ingress-NGINX.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft",
-      "feedUrl": "https://blog.aks.azure.com/rss.xml",
-      "sourceType": "rss"
     },
     {
       "title": "PowerToys 0.98 is here: new Keyboard Manager UX, the Command Palette Dock and better CursorWrap!",
@@ -12202,5 +12202,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts center on tighter governance and compliance in developer and data platforms. GitHub announced that **Code Quality will no longer automatically add GitHub Copilot as a reviewer**, signaling a refinement in how AI-assisted code review is surfaced in pull request workflows, while Azure Databricks published guidance on **enabling the Compliance Security Profile (CSP) for HIPAA**, outlining how organizations can configure Databricks on Azure to better meet **HIPAA-regulated healthcare security and compliance requirements**."
+  "summary": "Today’s Azure news centered on security, governance, and maturing AI/agent tooling. Key updates included Azure Arc expanding the Azure Local security ecosystem with IBM QRadar and Splunk integrations, Microsoft Sentinel CCF adding nested API support in public preview, Azure ExpressRoute introducing a resiliency guard preview, GitHub expanding secret scanning coverage, and Azure Databricks outlining how to enable the Compliance Security Profile for HIPAA.\n\nAI and developer-platform themes were also prominent: Azure AI Foundry highlighted Agent Optimizer testing and troubleshooting for agents accessing private bring-your-own resources, while Apps on Azure pushed a “Zero Ops” model where agents handle operations under human governance. On the GitHub side, Code Quality will no longer automatically add Copilot as a reviewer, signaling more deliberate control over AI-assisted development workflows."
 }
