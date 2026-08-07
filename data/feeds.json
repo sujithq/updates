@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T12:34:23.944335+00:00",
+  "lastUpdated": "2026-08-07T15:41:20.104446+00:00",
   "totalArticles": 1109,
   "articles": [
     {
@@ -14,6 +14,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "GitHub Code Quality no longer adds Copilot as a reviewer",
+      "link": "https://github.blog/changelog/2026-08-07-github-code-quality-no-longer-adds-copilot-as-a-reviewer",
+      "published": "2026-08-07T15:07:25+00:00",
+      "summary": "Enabling GitHub Code Quality on a repository no longer creates a ruleset that automatically requests a code review from GitHub Copilot on your pull requests. In repositories that already have… The post GitHub Code Quality no longer adds Copilot as a reviewer appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
       "published": "2026-08-07T01:46:28+00:00",
@@ -23,6 +34,17 @@
       "author": "Rafia_Aqil",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Set pull request limits at the organization level",
+      "link": "https://github.blog/changelog/2026-08-06-set-pull-request-limits-at-the-organization-level",
+      "published": "2026-08-06T23:46:17+00:00",
+      "summary": "You can now set pull request limits at the organization level. Pull request limits let you define how many open pull requests a user without write access can have at… The post Set pull request limits at the organization level appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "A guide to slash commands in the GitHub Copilot app",
@@ -674,17 +696,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Enterprise team specialization for managed settings",
-      "link": "https://github.blog/changelog/2026-08-03-enterprise-team-specialization-for-managed-settings",
-      "published": "2026-08-03T22:55:29+00:00",
-      "summary": "Enterprise administrators can now customize managed settings by targeting enterprise teams with itemized configuration files. Large enterprises can scale governance without bottlenecking every configuration change through central administrators or one-size-fits-all… The post Enterprise team...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Built-In Observability for Serverless AI Agents on Azure Functions",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/built-in-observability-for-serverless-ai-agents-on-azure/ba-p/4542087",
       "published": "2026-08-03T22:29:13+00:00",
@@ -727,17 +738,6 @@
       "author": "jordanselig",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Trigger Copilot automations with comments",
-      "link": "https://github.blog/changelog/2026-08-03-trigger-copilot-automations-with-comments",
-      "published": "2026-08-03T19:14:58+00:00",
-      "summary": "You can now create Copilot cloud agent automations that run when an issue comment or pull request comment is created. Common use cases include: Generate documentation: Comment on a pull… The post Trigger Copilot automations with comments appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Microsoft Defender for Cloud Customer Newsletter",
@@ -12202,5 +12202,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage centers on regulated analytics workloads: Microsoft announced guidance for enabling the **Compliance Security Profile (CSP) for HIPAA on Azure Databricks**, aimed at organizations handling protected health information. The post highlights **Azure Databricks** security and compliance configuration for **HIPAA**-aligned deployments, underscoring Azure’s focus on helping healthcare and other regulated industries run analytics and AI workloads with stronger governance and security controls."
+  "summary": "Today’s Azure-related posts center on tighter governance and compliance in developer and data platforms. GitHub announced that **Code Quality will no longer automatically add GitHub Copilot as a reviewer**, signaling a refinement in how AI-assisted code review is surfaced in pull request workflows, while Azure Databricks published guidance on **enabling the Compliance Security Profile (CSP) for HIPAA**, outlining how organizations can configure Databricks on Azure to better meet **HIPAA-regulated healthcare security and compliance requirements**."
 }
