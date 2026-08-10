@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T07:02:53.557795+00:00",
+  "lastUpdated": "2026-08-10T10:06:46.967430+00:00",
   "totalArticles": 1108,
   "articles": [
     {
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Release 2026-07-17",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-07-17",
+      "published": "2026-08-10T08:28:07+00:00",
+      "summary": "Release Notes - 2026-07-17 Monitor the release status by regions at AKS-Release-Tracker. This release is titled v20260717. Announcements of upcoming changes and retirements On September 14, 2026, the preview property enableCustomCATrust will retire. After that date, the enableCustomCATrust=true...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "alvinli222",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -1761,17 +1772,6 @@
       "author": "KapilSamant",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Release 2026-07-17",
-      "link": "https://github.com/Azure/AKS/releases/tag/2026-07-17",
-      "published": "2026-07-27T17:09:30+00:00",
-      "summary": "Release Notes - 2026-07-17 Monitor the release status by regions at AKS-Release-Tracker. This release is titled v20260717. Announcements of upcoming changes and retirements On September 14, 2026, the preview property enableCustomCATrust will retire. After that date, the enableCustomCATrust=true...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "alvinli222",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
-      "sourceType": "rss"
     },
     {
       "title": "Analyze MSBuild Binary Logs with Copilot in VS Code",
@@ -12191,5 +12191,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog updates focus on developer productivity and easier app operations. The Apps on Azure post announces a simpler way to deploy ZIP packages directly to **Azure App Service** from the **Azure portal**, streamlining web app deployment without extra tooling, while the Azure Dev Community post introduces **Microsoft IQ Live**, a new **biweekly developer series** aimed at sharing technical insights, guidance, and community engagement for developers building on Microsoft platforms."
+  "summary": "Today’s Azure updates centered on developer productivity and platform operations: AKS published its 2026-07-17 release notes, highlighting the latest Kubernetes service changes and platform updates for Azure Kubernetes Service users. Azure App Service also introduced a simpler Azure portal workflow for deploying ZIP packages, reducing friction for web app deployment, while the Azure Dev Community launched **Microsoft IQ Live**, a new biweekly series aimed at developers with ongoing technical insights and community engagement."
 }
