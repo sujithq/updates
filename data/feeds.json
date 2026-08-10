@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T18:38:56.762044+00:00",
+  "lastUpdated": "2026-08-10T21:29:50.044291+00:00",
   "totalArticles": 1108,
   "articles": [
     {
@@ -11,6 +11,28 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Using the GitHub Copilot SDK for Java",
+      "link": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
+      "published": "2026-08-10T19:30:00+00:00",
+      "summary": "Enterprise Java developers have a new superpower—drive GitHub Copilot from idiomatic Java code with annotations, virtual threads, and more. The post Using the GitHub Copilot SDK for Java appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Edward Burns",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Intelligent Terminal 0.2 is here with local model support",
+      "link": "https://devblogs.microsoft.com/commandline/intelligent-terminal-0-2-is-here-with-local-model-support/",
+      "published": "2026-08-10T19:00:01+00:00",
+      "summary": "We’re back, and this is our first minor version bump: 0.1 to 0.2! It’s our biggest release yet. This update adds support for local models, lets you run a different agent in each tab with /agent, brings OpenCode into the built-in agent lineup, runs your agent inside WSL where your work actually...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Hamza Usmani",
+      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
       "sourceType": "rss"
     },
     {
@@ -1860,17 +1882,6 @@
       "author": "vladvino",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "GitHub Copilot app for Beginners: Getting started",
-      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/",
-      "published": "2026-07-27T16:00:00+00:00",
-      "summary": "New to the GitHub Copilot app? Learn how to start projects, work with AI agents, explore canvases, and streamline your development workflow. The post GitHub Copilot app for Beginners: Getting started appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Christopher Harrison",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Building Autonomous Network Operations: From Vision to Measurable Business Impact",
@@ -11289,17 +11300,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "PowerToys 0.96 is here: endpoints for Advanced Paste, metadata support for PowerRename and more!",
-      "link": "https://devblogs.microsoft.com/commandline/powertoys-0-96-is-here-endpoints-for-advanced-paste-metadata-support-for-powerrename-and-more/",
-      "published": "2025-11-19T13:11:02+00:00",
-      "summary": "We are back with a fresh PowerToys release! This month brings a redesigned Advanced Paste experience with support for multiple AI model endpoints, a wave of improvements to Command Palette, and plenty of smaller upgrades across the utility suite. Grab the update by checking for updates in PowerToys...",
-      "blog": "Windows Command Line",
-      "blogId": "commandline",
-      "author": "Niels Laute",
-      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "OracleDatabase@Azure expands footprint to 31 regions and strengthens security with Azure Key Vault",
       "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/oracledatabase-azure-expands-footprint-to-31-regions-and/ba-p/4471109",
       "published": "2025-11-18T23:04:37+00:00",
@@ -12191,5 +12191,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure/Microsoft cloud news centered on resilience, security, and easier operations: Microsoft announced **Fabric Item Recovery** will be turned on by default for tenants without an explicit setting, **Azure App Service** now offers a simpler **ZIP package deployment** flow in the portal, and the latest **AKS 2026-07-17** release delivered routine Kubernetes platform updates. On security, Microsoft highlighted its **2026 IDC MarketScape MDR/MXDR** leadership and published a technical analysis of **DeadLock ransomware**, a **Rust-based encryptor** using decentralized recovery infrastructure, while the **Azure Cosmos DB** team explained common breakages after enabling **RBAC**.\n\nOn the developer side, **GitHub Copilot on web** added expanded conversation controls, **GitHub billing in India** now supports automatic recurring payments, and **custom thread subscriptions** are being deprecated; Microsoft also launched **Microsoft IQ Live**, a new biweekly series for developers."
+  "summary": "Today’s updates centered on developer tooling, security, and Azure platform operations: GitHub and Microsoft highlighted the GitHub Copilot SDK for Java, expanded Copilot on the web conversation controls, Intelligent Terminal 0.2 with local model support, and a new Azure portal flow for deploying ZIP packages to Azure App Service. On the platform side, Azure announced Microsoft Fabric Item Recovery will be enabled by default for tenants without an explicit setting, AKS published its 2026-07-17 release notes, and the Azure Cosmos DB team shared guidance on RBAC misconfigurations that can break access.\n\nSecurity was another major theme, with Microsoft named a Leader in the 2026 IDC MarketScape for MDR/MXDR and publishing a deep technical analysis of the Rust-based DeadLock ransomware and its decentralized recovery infrastructure. Additional updates included GitHub billing in India adding automatic recurring payments, deprecation of custom thread subscriptions, and the launch of Microsoft IQ Live, a new biweekly developer series."
 }
