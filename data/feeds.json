@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T04:20:20.394851+00:00",
+  "lastUpdated": "2026-08-10T07:02:53.557795+00:00",
   "totalArticles": 1108,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "A simpler way to deploy ZIP packages to Azure App Service from the Azure portal",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/a-simpler-way-to-deploy-zip-packages-to-azure-app-service-from/ba-p/4545430",
+      "published": "2026-08-10T06:42:46+00:00",
+      "summary": "We recently introduced a simpler way to deploy applications to Azure App Service for Linux by uploading a ZIP package through Kudu. The experience lets you review the package contents, choose whether to run a server-side build, and follow the deployment through its different stages. This capability...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "TulikaC",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Introducing Microsoft IQ Live: A New Biweekly Series for Developers",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/introducing-microsoft-iq-live-a-new-biweekly-series-for/ba-p/4543480",
+      "published": "2026-08-10T04:30:00+00:00",
+      "summary": "From Deep Dive to Microsoft IQ Live The Microsoft IQ Deep Dive with Python has wrapped up, but our exploration of Microsoft IQ continues. You can revisit the IQ Deep Dive sessions and access the code, notebooks, and other developer resources at https://aka.ms/iqdeepdive. Microsoft IQ Live builds on...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "aycabas",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Zero Ops: Agents Operate, Humans Govern",
@@ -3556,17 +3578,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Token Economics: The New FinOps for Agentic AI",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/token-economics-the-new-finops-for-agentic-ai/ba-p/4533743",
-      "published": "2026-07-06T07:00:00+00:00",
-      "summary": "In AI applications, tokens are now cost — and token economics deserves architectural attention For a long time, AI application design started with model capability: Can the model write code? Can it reason? Can it use tools? Can it handle long context? Those questions still matter, but in the age of...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure SDK Release (June 2026)",
       "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-june-2026/",
       "published": "2026-07-06T05:56:58+00:00",
@@ -4212,17 +4223,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "TulikaC",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "IPv6 Dual-Stack Endpoints for Azure Container Registry (Public Preview)",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/ipv6-dual-stack-endpoints-for-azure-container-registry-public/ba-p/4528422",
-      "published": "2026-06-24T22:28:46+00:00",
-      "summary": "By Johnson Shi, Aviral Takkar, Bin Du Introduction Two of the most common networking questions we hear from teams running Azure Container Registry (ACR) are: \"Can my registry serve clients on IPv6 networks?\" — Teams operating IPv6-only or dual-stack networks need their container registry reachable...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "johnsonshi_msft",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -12190,5 +12190,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog updates focus on developer productivity and easier app operations. The Apps on Azure post announces a simpler way to deploy ZIP packages directly to **Azure App Service** from the **Azure portal**, streamlining web app deployment without extra tooling, while the Azure Dev Community post introduces **Microsoft IQ Live**, a new **biweekly developer series** aimed at sharing technical insights, guidance, and community engagement for developers building on Microsoft platforms."
 }
