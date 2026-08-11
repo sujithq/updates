@@ -1,7 +1,62 @@
 {
-  "lastUpdated": "2026-08-11T18:42:16.918558+00:00",
+  "lastUpdated": "2026-08-11T21:33:08.082304+00:00",
   "totalArticles": 1093,
   "articles": [
+    {
+      "title": "August Patches for Azure DevOps Server",
+      "link": "https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server-4/",
+      "published": "2026-08-11T20:44:54+00:00",
+      "summary": "We are releasing new patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay up to date with the latest, most secure version of Azure DevOps Server. The most recent release, Azure DevOps Server, is available on the download page. The following...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Gloridel Morales",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "GitHub Enterprise Server 3.22 release candidate",
+      "link": "https://github.blog/changelog/2026-08-11-github-enterprise-server-3-22-release-candidate",
+      "published": "2026-08-11T20:26:26+00:00",
+      "summary": "GitHub Enterprise Server (GHES) 3.22 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.22 release: Administrators can configure Copilot CLI to… The post GitHub Enterprise Server 3.22 release candidate appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Copilot memory and Ollama in GitHub Copilot for JetBrains",
+      "link": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
+      "published": "2026-08-11T20:15:55+00:00",
+      "summary": "This update brings persistent memory, local model access, and more enterprise controls to GitHub Copilot for JetBrains. It also improves everyday chat workflows and resolves reliability issues across MCP servers,… The post Copilot memory and Ollama in GitHub Copilot for JetBrains appeared first on...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Automatically migrate branch protection rules to repository rulesets",
+      "link": "https://github.blog/changelog/2026-08-11-automatically-migrate-branch-protection-rules-to-repository-rulesets",
+      "published": "2026-08-11T19:03:57+00:00",
+      "summary": "You can now convert your existing branch protection rules to repository rulesets directly from your repository settings. This helps you migrate to GitHub’s more flexible and scalable policy framework without… The post Automatically migrate branch protection rules to repository rulesets appeared...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Upcoming deprecation of MAI-Code-1-Flash",
+      "link": "https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash",
+      "published": "2026-08-11T18:50:42+00:00",
+      "summary": "With the launch of MAI-Code-1.1-Flash, we will deprecate MAI-Code-1-Flash across all GitHub Copilot experiences on September 10, 2026: Model Deprecation date Suggested alternative MAI-Code-1-Flash 9-10-2026 MAI-Code-1.1-Flash Please update your workflows… The post Upcoming deprecation of...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "From coder to orchestrator: How agents shift the role of a developer",
       "link": "https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/",
@@ -80,50 +135,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "What the New API Management AI Gateway Tier Changes for App Service-Hosted Agents",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-the-new-api-management-ai-gateway-tier-changes-for-app/ba-p/4543974",
-      "published": "2026-08-11T16:39:41+00:00",
-      "summary": "In May, I published a runnable sample that put Azure API Management in front of an AI agent on Azure App Service. The agent framework was replaceable; the gateway was the contribution. APIM handled model access, token limits, semantic caching, token metrics, and the MCP traffic contract. I followed...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure Container Apps Sandboxes (Preview): Giving AI Agents a Safe Place to Work",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-sandboxes-preview-giving-ai-agents-a-safe/ba-p/4545975",
-      "published": "2026-08-11T16:05:08+00:00",
-      "summary": "Co-written by Nikoloz Buligini, Front End Developer at Templafy, and Jan Kalis, Azure Container Apps Sandboxes, Core AI, Microsoft Every team building with multi-tenant AI agent platforms hits the same wall. The agent is smart enough to read your code, reason about a bug, and propose a fix. But the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Jan-Kalis",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Building Microsoft Sentinel Connectors in Minutes with the Sentinel Connector Builder Agent",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/building-microsoft-sentinel-connectors-in-minutes-with-the/ba-p/4544378",
-      "published": "2026-08-11T16:00:00+00:00",
-      "summary": "Overview We previously announced the public preview of the Microsoft Sentinel connector builder agent via VS code extension, that helps developers build Microsoft Sentinel codeless connectors faster with low-code and AI-assisted prompts. This post walks through a hands-on lab using a mock Network...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Robert_Moriarty",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Accelerate Inference on AKS with Azure Blob Storage and NVIDIA Dynamo",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/accelerate-inference-on-aks-with-azure-blob-storage-and-nvidia/ba-p/4543408",
-      "published": "2026-08-11T15:00:00+00:00",
-      "summary": "As agents generate more tokens and use longer context windows, AI platforms must reduce cost per token and optimize inference performance across every layer of the stack. With new native integrations between Azure Blob Storage and the NVIDIA Dynamo stack, users can now combine the scalability,...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "Vishnu Charan TJ",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Per-model token breakdown in the usage report",
       "link": "https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report",
       "published": "2026-08-11T14:41:52+00:00",
@@ -133,28 +144,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "From Azure Container Apps to Microsoft Foundry: building and evaluating a Patch Tuesday MCP server",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-azure-container-apps-to-microsoft-foundry-building-and/ba-p/4541630",
-      "published": "2026-08-11T14:00:00+00:00",
-      "summary": "**Disclaimer:** This is an independent, self-built project and is not an official Microsoft tool or service. It reads public security-update data and is intended as an educational example of building an MCP server, hosting it responsibly on Azure, and evaluating an agent workflow with Microsoft...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "JonButler",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Vector search finds candidates. Reranking decides what your RAG app reads",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/vector-search-finds-candidates-reranking-decides-what-your-rag/ba-p/4543923",
-      "published": "2026-08-11T05:00:00+00:00",
-      "summary": "You ask a retrieval-augmented generation (RAG) application a question. Vector search returns ten passages that are clearly related to the topic. The passage that actually contains the answer, however, is ranked seventh, while the language model receives only the first five. Retrieval did not...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Paul_VicenteH",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Build Locally, Ship to Cloud for $0: Azure SQL for Modern App Developers",
@@ -333,39 +322,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Enterprises can now install third-party GitHub Apps",
-      "link": "https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps",
-      "published": "2026-08-07T21:40:03+00:00",
-      "summary": "Enterprise owners can now install public GitHub Apps created outside their enterprise on their enterprise account. This allows third-party integrators to build apps for enterprise management scenarios. Enterprise installations grant… The post Enterprises can now install third-party GitHub Apps...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Copilot impact dashboard adds a return on investment section",
-      "link": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
-      "published": "2026-08-07T21:05:37+00:00",
-      "summary": "The Copilot impact dashboard now includes a “Potential return on investment” section that connects what you spend on Copilot to the pull request output you get back. What’s new Two… The post Copilot impact dashboard adds a return on investment section appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Copilot code review effort levels are generally available",
-      "link": "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available",
-      "published": "2026-08-07T20:49:26+00:00",
-      "summary": "Lite and Balanced effort levels for GitHub Copilot code review are now generally available. They let you match the depth of a review to the complexity and risk of a… The post Copilot code review effort levels are generally available appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Smarter signals, broader coverage: UEBA anomalies on top of Behaviors layer and new data sources",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/smarter-signals-broader-coverage-ueba-anomalies-on-top-of/ba-p/4544384",
       "published": "2026-08-07T20:14:53+00:00",
@@ -408,17 +364,6 @@
       "author": "Suhel_Parekh",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Copilot usage metrics API adds agent app activity",
-      "link": "https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity",
-      "published": "2026-08-07T18:20:47+00:00",
-      "summary": "Since agent apps arrived on GitHub, teams have been able to run agents from partners like Claude and Codex directly in their GitHub workflows. The Copilot usage metrics API now… The post Copilot usage metrics API adds agent app activity appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Expanding the Azure Local Security Ecosystem with IBM QRadar and Splunk",
@@ -2687,6 +2632,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Choose the right speech and voice model",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/choose-the-right-speech-and-voice-model/ba-p/4533856",
+      "published": "2026-07-16T14:00:00+00:00",
+      "summary": "Choose the right speech and voice model in Microsoft Foundry The practical approach to selecting the right model is simple: do not ask which speech model is best. Ask what the speech system must guarantee. Once you know whether the job is conversation, translation, transcription, diarization,...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Anil_Korkut",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Understanding billing for the Azure Copilot Observability Agent",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/understanding-billing-for-the-azure-copilot-observability-agent/ba-p/4537780",
       "published": "2026-07-16T13:15:47+00:00",
@@ -3157,6 +3113,17 @@
       "blogId": "azurenetworksecurityblog",
       "author": "saikishor",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Optimizing GitHub Copilot Cost in the Usage-Based Billing Era",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/optimizing-github-copilot-cost-in-the-usage-based-billing-era/ba-p/4534186",
+      "published": "2026-07-13T04:15:00+00:00",
+      "summary": "GitHub Copilot has become a core part of the modern developer workflow. We use it to complete code, explain unfamiliar repositories, write tests, refactor legacy applications, review pull requests, generate documentation, and automate repetitive engineering work. But as GitHub Copilot moves further...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "ellisd4",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3996,6 +3963,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Azure Container Apps Express for Shipping Container Apps Fast",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-express-for-shipping-container-apps-fast/ba-p/4531371",
+      "published": "2026-06-30T20:10:51+00:00",
+      "summary": "ACA Express Apps are a strong fit for teams that need to ship quickly and can't afford long platform setup cycles. This includes startups, internal platform teams, and product groups deploying APIs, web apps, or agent endpoints that scale with uneven demand. If the priority is fast...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "hetvip",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Compose your API surface with Data API builder custom paths",
       "link": "https://devblogs.microsoft.com/azure-sql/data-api-builder-custom-rest-paths/",
       "published": "2026-06-30T19:38:31+00:00",
@@ -4313,6 +4291,17 @@
       "author": "Sudhanshu Khera, Iria Osara",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "A Better Way to View Logs in Kudu for Azure App Service on Linux",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/a-better-way-to-view-logs-in-kudu-for-azure-app-service-on-linux/ba-p/4530934",
+      "published": "2026-06-25T09:46:14+00:00",
+      "summary": "Logs are often the fastest way to understand what is happening inside your application. Whether you are investigating startup behavior, runtime errors, failed requests, dependency issues, or unexpected application behavior, having the right log view can make troubleshooting much easier. To make...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "TulikaC",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Azure Confidential Computing for Digital Sovereignty and Regulated Workloads",
@@ -5184,17 +5173,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Copilot Autofix for GitHub Advanced Security for Azure DevOps",
-      "link": "https://devblogs.microsoft.com/devops/copilot-autofix-for-github-advanced-security-for-azure-devops/",
-      "published": "2026-06-11T15:54:32+00:00",
-      "summary": "Over the last few years, we’ve encouraged customers to move their repositories from Azure Repos to GitHub, where the newest AI-powered and agentic development experiences land first. Migrating isn’t equally simple for everyone. A move to GitHub can range from straightforward to a multi-year...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Laura Jiang",
-      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "What’s New in Notebooks | June 2026",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625",
       "published": "2026-06-11T15:03:45+00:00",
@@ -5809,6 +5787,17 @@
       "author": "samkemp, Emma Ning, Inbal Sagiv",
       "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "What’s new in Microsoft Sentinel: May 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-may-2026/ba-p/4523419",
+      "published": "2026-06-04T10:07:32+00:00",
+      "summary": "Welcome to the May edition of What's new in Microsoft Sentinel. This month’s updates focus on unified role-based access control (RBAC), ecosystem breadth, AI-agent security, and high-assurance identity. RBAC and row-level scoping are now generally available, giving security teams a single, granular...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Sowmys",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "How we Decide Between Keyword and Hybrid Search: 5 Enterprise Evaluation Criteria",
@@ -10046,6 +10035,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Public Preview: Restrict usage of user delegation SAS to an Entra ID identity",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/public-preview-restrict-usage-of-user-delegation-sas-to-an-entra/ba-p/4497196",
+      "published": "2026-03-03T22:43:07+00:00",
+      "summary": "Shared access signatures (SAS) grant time-bound, scoped access to Azure Storage resources without sharing account keys. Over time, Azure Storage has continued to strengthen SAS security, moving from account keys to user delegation (UD) SAS secured by Microsoft Entra ID. Today, we’re taking the next...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "ellievail",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "AgentCore: Memory and Tools (3/4)🔥",
       "link": "https://www.letsdodevops.com/p/aws-agentcore-agentic-slack-bot-agentcore",
       "published": "2026-03-03T15:30:32+00:00",
@@ -12026,5 +12026,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft developer news is centered on the AI app stack: building, hosting, securing, and evaluating agents and RAG systems across Azure Container Apps, App Service, API Management’s AI Gateway, Azure AI Foundry, Microsoft Sentinel, and GitHub Copilot. Key announcements include Azure Firewall GA with a 2.2x IDPS performance optimization, Azure Container Apps Sandboxes in preview for isolating agent workloads, faster AKS inference using Azure Blob Storage with NVIDIA Dynamo, and guidance on improving RAG quality with reranking after vector search.\n\nThe developer platform story also emphasized toolchain updates and agent-assisted workflows: .NET 11 Preview 7 shipped alongside August 2026 servicing updates for .NET and .NET Framework, Visual Studio added easier Git submodule management, and VS Code 1.133 Insiders arrived. On the GitHub side, MAI-Code-1.1-Flash is now available in Copilot, usage reports now include per-model token breakdowns, and multiple posts highlighted the shift from traditional coding toward orchestrating AI agents and security/data integrations."
+  "summary": "Today’s Microsoft/Azure ecosystem updates centered on developer productivity, AI-assisted coding, and platform maintenance: GitHub announced Copilot enhancements including memory in JetBrains, Ollama support, per-model token usage reporting, and availability of the MAI-Code-1.1-Flash model while also warning of the MAI-Code-1-Flash deprecation; GitHub Enterprise Server 3.22 RC and automatic migration from branch protection rules to repository rulesets also stood out. On the Microsoft platform side, .NET 11 Preview 7 and August 2026 servicing updates shipped alongside Azure DevOps Server August patches, Visual Studio/VS Code improvements such as Git submodule management and VS Code 1.133 Insiders, while Azure infrastructure news highlighted Azure Firewall’s generally available 2.2x IDPS performance optimization."
 }
