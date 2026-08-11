@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T21:29:50.044291+00:00",
+  "lastUpdated": "2026-08-11T00:42:43.367205+00:00",
   "totalArticles": 1108,
   "articles": [
     {
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Build Locally, Ship to Cloud for $0: Azure SQL for Modern App Developers",
+      "link": "https://devblogs.microsoft.com/azure-sql/build-locally-ship-to-cloud-for-0-azure-sql-for-modern-app-developers/",
+      "published": "2026-08-10T21:35:53+00:00",
+      "summary": "As app developers, our primary focus is building great user experiences, designing APIs, and shipping features quickly. What we don’t want is database friction—wasting hours configuring local DB instances, writing verbose migration scripts by hand, or worrying about unexpected cloud bills while...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Vandana Mahtani, Andrew Carter",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
     },
     {
@@ -7120,17 +7131,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "MSSQL Extension for VS Code: Azure SQL Database Provisioning and More",
-      "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-june-2026/",
-      "published": "2026-06-02T16:05:31+00:00",
-      "summary": "The MSSQL extension for VS Code v1.43 expands what’s possible inside Visual Studio Code with the General Availability of Schema Designer with GitHub Copilot, Data API builder, and SQL Notebooks. We’re also introducing the Public Preview of Azure SQL Database provisioning, giving developers a guided...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Yo-Lei Chen, Carlos Robles, Tauseef Siddique",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "🔥Designing Specialized Agents - Model Selection, Tool Scoping, and Output Contracts🔥",
       "link": "https://www.letsdodevops.com/p/designing-specialized-agents-model",
       "published": "2026-06-02T14:40:34+00:00",
@@ -12191,5 +12191,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s updates centered on developer tooling, security, and Azure platform operations: GitHub and Microsoft highlighted the GitHub Copilot SDK for Java, expanded Copilot on the web conversation controls, Intelligent Terminal 0.2 with local model support, and a new Azure portal flow for deploying ZIP packages to Azure App Service. On the platform side, Azure announced Microsoft Fabric Item Recovery will be enabled by default for tenants without an explicit setting, AKS published its 2026-07-17 release notes, and the Azure Cosmos DB team shared guidance on RBAC misconfigurations that can break access.\n\nSecurity was another major theme, with Microsoft named a Leader in the 2026 IDC MarketScape for MDR/MXDR and publishing a deep technical analysis of the Rust-based DeadLock ransomware and its decentralized recovery infrastructure. Additional updates included GitHub billing in India adding automatic recurring payments, deprecation of custom thread subscriptions, and the launch of Microsoft IQ Live, a new biweekly developer series."
+  "summary": "Today’s Azure-related post is actually a Visual Studio Code update: **Visual Studio Code 1.133 (Insiders)**. The main theme is developer productivity in the editor, with new and experimental improvements landing in the **Insiders** build of **VS Code**, likely spanning core editing, debugging, extensions, and AI-assisted workflows, though the specific announcement details would need the full post text to summarize precisely.\n\nIf you want, I can also turn this into a sharper “daily Azure roundup” blurb once you provide the article text or link."
 }
