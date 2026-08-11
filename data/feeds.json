@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T12:34:26.317659+00:00",
+  "lastUpdated": "2026-08-11T15:46:07.354176+00:00",
   "totalArticles": 1108,
   "articles": [
     {
@@ -14,14 +14,25 @@
       "sourceType": "rss"
     },
     {
-      "title": "Vector search finds candidates. Reranking decides what your RAG app reads",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/vector-search-finds-candidates-reranking-decides-what-your-rag/ba-p/4543923",
-      "published": "2026-08-11T05:00:00+00:00",
-      "summary": "You ask a retrieval-augmented generation (RAG) application a question. Vector search returns ten passages that are clearly related to the topic. The passage that actually contains the answer, however, is ranked seventh, while the language model receives only the first five. Retrieval did not...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Paul_VicenteH",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "title": "Per-model token breakdown in the usage report",
+      "link": "https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report",
+      "published": "2026-08-11T14:41:52+00:00",
+      "summary": "You can now see a per-model breakdown of the tokens behind your AI credits in the usage report. For each model, the AI usage report shows the input, output, cache… The post Per-model token breakdown in the usage report appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "From Azure Container Apps to Microsoft Foundry: building and evaluating a Patch Tuesday MCP server",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-azure-container-apps-to-microsoft-foundry-building-and/ba-p/4541630",
+      "published": "2026-08-11T14:00:00+00:00",
+      "summary": "**Disclaimer:** This is an independent, self-built project and is not an official Microsoft tool or service. It reads public security-update data and is intended as an educational example of building an MCP server, hosting it responsibly on Azure, and evaluating an agent workflow with Microsoft...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "JonButler",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -320,17 +331,6 @@
       "author": "Robert_Moriarty",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Secret scanning coverage updates",
-      "link": "https://github.blog/changelog/2026-08-07-secret-scanning-coverage-updates",
-      "published": "2026-08-07T16:54:47+00:00",
-      "summary": "This release expands secret scanning’s coverage with more secrets blocked by push protection, one new secret scanning partner, and richer metadata on alerts. Secret scanning partnership program Lovable Labs is… The post Secret scanning coverage updates appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "[In preview] Public Preview: Azure ExpressRoute resiliency guard",
@@ -2588,17 +2588,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Choose the right speech and voice model",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/choose-the-right-speech-and-voice-model/ba-p/4533856",
-      "published": "2026-07-16T14:00:00+00:00",
-      "summary": "Choose the right speech and voice model in Microsoft Foundry The practical approach to selecting the right model is simple: do not ask which speech model is best. Ask what the speech system must guarantee. Once you know whether the job is conversation, translation, transcription, diarization,...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Anil_Korkut",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Understanding billing for the Azure Copilot Observability Agent",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/understanding-billing-for-the-azure-copilot-observability-agent/ba-p/4537780",
       "published": "2026-07-16T13:15:47+00:00",
@@ -3091,6 +3080,17 @@
       "blogId": "azurenetworksecurityblog",
       "author": "saikishor",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Optimizing GitHub Copilot Cost in the Usage-Based Billing Era",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/optimizing-github-copilot-cost-in-the-usage-based-billing-era/ba-p/4534186",
+      "published": "2026-07-13T04:15:00+00:00",
+      "summary": "GitHub Copilot has become a core part of the modern developer workflow. We use it to complete code, explain unfamiliar repositories, write tests, refactor legacy applications, review pull requests, generate documentation, and automate repetitive engineering work. But as GitHub Copilot moves further...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "ellisd4",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12191,5 +12191,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts highlight two practical developer themes: improved day-to-day coding workflows in **Visual Studio Code 1.133 (Insiders)** and better **RAG application** quality through smarter retrieval pipelines. The VS Code update centers on upcoming editor productivity features in the Insiders build, while the Azure Dev Community article focuses on using **vector search** to retrieve likely matches and then applying **reranking** to improve which documents an AI system actually reads—an important refinement for apps built with **retrieval-augmented generation**, embeddings, and semantic relevance."
+  "summary": "Today’s Azure-related posts center on AI developer tooling, observability, and secure app deployment workflows. The Azure AI Foundry blog highlights an end-to-end build of a Patch Tuesday MCP server using Azure Container Apps and Microsoft Foundry, emphasizing model evaluation and operationalizing AI services, while GitHub announced per-model token breakdowns in usage reports for finer-grained tracking of AI model consumption and costs.\n\nSeparately, Visual Studio Code 1.133 Insiders introduces the latest preview updates to Microsoft’s developer environment, reinforcing the broader theme of tighter tooling integration for building, monitoring, and iterating on AI-powered and cloud-native applications."
 }
