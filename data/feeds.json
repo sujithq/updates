@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-08-11T21:33:08.082304+00:00",
+  "lastUpdated": "2026-08-12T00:48:52.919138+00:00",
   "totalArticles": 1093,
   "articles": [
+    {
+      "title": "Release 2026-08-07",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-08-07",
+      "published": "2026-08-11T22:09:21+00:00",
+      "summary": "Release Notes - 2026-08-07 Monitor the release status by regions at AKS-Release-Tracker. This release is titled v20260807. Release notes Features Node Auto Provisioning can now be enabled on clusters with restricted publicNetworkAccess, including private API server VNet-integrated clusters using...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "allyford",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure Developer CLI extension framework is GA: build dev workflows for apps using Azure",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azd-extension-framework-ga/",
+      "published": "2026-08-11T21:57:59+00:00",
+      "summary": "What parts of building and shipping on Azure still take too many steps? Maybe you want a command that starts a project with your organization’s approved architecture and infrastructure. Maybe you need to connect deployments to an internal service catalog, run security checks before provisioning, or...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Kristen Womack",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
     {
       "title": "August Patches for Azure DevOps Server",
       "link": "https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server-4/",
@@ -102,6 +124,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "How to Pretty-Print Your Kubernetes YAML as KYAML and Why You'd Want To",
+      "link": "https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml/",
+      "published": "2026-08-11T18:00:00+00:00",
+      "summary": "YAML has been the standard way to write Kubernetes manifests for years. Every example, tutorial, and configuration file you come across is written in it. The problem isn't that YAML is a bad format. It's that YAML gives you a lot of choices, and not all of them are equally good for writing...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "[Launched] Generally Available: 2.2X IDPS performance optimization in Azure Firewall",
       "link": "https://azure.microsoft.com/updates?id=569256",
       "published": "2026-08-11T17:26:51+00:00",
@@ -144,6 +177,17 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "From Azure Container Apps to Microsoft Foundry: building and evaluating a Patch Tuesday MCP server",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-azure-container-apps-to-microsoft-foundry-building-and/ba-p/4541630",
+      "published": "2026-08-11T14:00:00+00:00",
+      "summary": "**Disclaimer:** This is an independent, self-built project and is not an official Microsoft tool or service. It reads public security-update data and is intended as an educational example of building an MCP server, hosting it responsibly on Azure, and evaluating an agent workflow with Microsoft...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "JonButler",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Build Locally, Ship to Cloud for $0: Azure SQL for Modern App Developers",
@@ -2630,17 +2674,6 @@
       "author": "Ruben Rios",
       "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Choose the right speech and voice model",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/choose-the-right-speech-and-voice-model/ba-p/4533856",
-      "published": "2026-07-16T14:00:00+00:00",
-      "summary": "Choose the right speech and voice model in Microsoft Foundry The practical approach to selecting the right model is simple: do not ask which speech model is best. Ask what the speech system must guarantee. Once you know whether the job is conversation, translation, transcription, diarization,...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Anil_Korkut",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Understanding billing for the Azure Copilot Observability Agent",
@@ -9540,17 +9573,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure Developer CLI (azd) – March 2026: Run and Debug AI Agents Locally, GitHub Copilot Integration, & Container App Jobs",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-march-2026/",
-      "published": "2026-03-31T03:31:29+00:00",
-      "summary": "Run, invoke, and monitor AI agents locally or in Microsoft Foundry with the new azd AI agent extension commands. Plus GitHub Copilot-powered project setup, Container App Jobs deployment, local preflight validation, and configurable timeouts. The post Azure Developer CLI (azd) – March 2026: Run and...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "PuiChee (PC) Chan",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Public Preview: Ephemeral OS Disk with full caching for VM/VMSS",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/public-preview-ephemeral-os-disk-with-full-caching-for-vm-vmss/ba-p/4500191",
       "published": "2026-03-30T19:37:31+00:00",
@@ -10640,17 +10662,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Headlamp in 2025: Project Highlights",
-      "link": "https://kubernetes.io/blog/2026/01/22/headlamp-in-2025-project-highlights/",
-      "published": "2026-01-22T02:00:00+00:00",
-      "summary": "This announcement is a recap from a post originally published on the Headlamp blog. Headlamp has come a long way in 2025. The project has continued to grow – reaching more teams across platforms, powering new workflows and integrations through plugins, and seeing increased collaboration from the...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Now in public preview: Azure Virtual Desktop regional host pools",
       "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/now-in-public-preview-azure-virtual-desktop-regional-host-pools/ba-p/4474598",
       "published": "2026-01-21T18:05:02+00:00",
@@ -11509,17 +11520,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Release 2025-09-21",
-      "link": "https://github.com/Azure/AKS/releases/tag/2025-09-21",
-      "published": "2025-10-22T19:26:03+00:00",
-      "summary": "Release Notes 2025-09-21 Monitor the release status by regions at AKS-Release-Tracker. This release is titled v20250921. Announcements AKS Kubernetes version 1.31 standard support will be deprecated by November 1, 2025. Kindly upgrade your clusters to 1.32 community version or enable Long Term...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "dyu1208",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "Expanding Model Choice in VS Code with Bring Your Own Key",
       "link": "https://code.visualstudio.com/blogs/2025/10/22/bring-your-own-key",
       "published": "2025-10-22T00:00:00+00:00",
@@ -12025,6 +12025,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Microsoft/Azure ecosystem updates centered on developer productivity, AI-assisted coding, and platform maintenance: GitHub announced Copilot enhancements including memory in JetBrains, Ollama support, per-model token usage reporting, and availability of the MAI-Code-1.1-Flash model while also warning of the MAI-Code-1-Flash deprecation; GitHub Enterprise Server 3.22 RC and automatic migration from branch protection rules to repository rulesets also stood out. On the Microsoft platform side, .NET 11 Preview 7 and August 2026 servicing updates shipped alongside Azure DevOps Server August patches, Visual Studio/VS Code improvements such as Git submodule management and VS Code 1.133 Insiders, while Azure infrastructure news highlighted Azure Firewall’s generally available 2.2x IDPS performance optimization."
+  ]
 }
