@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T09:51:58.956500+00:00",
+  "lastUpdated": "2026-08-12T12:37:36.826867+00:00",
   "totalArticles": 1093,
   "articles": [
     {
@@ -22,6 +22,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "v1.17.0-alpha20260812",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260812",
+      "published": "2026-08-12T12:01:24+00:00",
+      "summary": "1.17.0-alpha20260812 (August 12, 2026) ENHANCEMENTS: command/init: Enrich log messages with provider versions (#38918) BUG FIXES: funcs: pow and log no longer panic when result is not a number (#38912) ephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -232,6 +243,28 @@
       "author": "Harshada Hole",
       "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "What the New API Management AI Gateway Tier Changes for App Service-Hosted Agents",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-the-new-api-management-ai-gateway-tier-changes-for-app/ba-p/4543974",
+      "published": "2026-08-11T16:39:41+00:00",
+      "summary": "In May, I published a runnable sample that put Azure API Management in front of an AI agent on Azure App Service. The agent framework was replaceable; the gateway was the contribution. APIM handled model access, token limits, semantic caching, token metrics, and the MCP traffic contract. I followed...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure Container Apps Sandboxes (Preview): Giving AI Agents a Safe Place to Work",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-sandboxes-preview-giving-ai-agents-a-safe/ba-p/4545975",
+      "published": "2026-08-11T16:05:08+00:00",
+      "summary": "Co-written by Nikoloz Buligini, Front End Developer at Templafy, and Jan Kalis, Azure Container Apps Sandboxes, Core AI, Microsoft Every team building with multi-tenant AI agent platforms hits the same wall. The agent is smart enough to read your code, reason about a bug, and propose a fix. But the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Jan-Kalis",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Building Microsoft Sentinel Connectors in Minutes with the Sentinel Connector Builder Agent",
@@ -4051,17 +4084,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Azure Container Apps Express for Shipping Container Apps Fast",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-express-for-shipping-container-apps-fast/ba-p/4531371",
-      "published": "2026-06-30T20:10:51+00:00",
-      "summary": "ACA Express Apps are a strong fit for teams that need to ship quickly and can't afford long platform setup cycles. This includes startups, internal platform teams, and product groups deploying APIs, web apps, or agent endpoints that scale with uneven demand. If the priority is fast...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "hetvip",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Compose your API surface with Data API builder custom paths",
       "link": "https://devblogs.microsoft.com/azure-sql/data-api-builder-custom-rest-paths/",
       "published": "2026-06-30T19:38:31+00:00",
@@ -4381,17 +4403,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "A Better Way to View Logs in Kudu for Azure App Service on Linux",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/a-better-way-to-view-logs-in-kudu-for-azure-app-service-on-linux/ba-p/4530934",
-      "published": "2026-06-25T09:46:14+00:00",
-      "summary": "Logs are often the fastest way to understand what is happening inside your application. Whether you are investigating startup behavior, runtime errors, failed requests, dependency issues, or unexpected application behavior, having the right log view can make troubleshooting much easier. To make...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "TulikaC",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure Confidential Computing for Digital Sovereignty and Regulated Workloads",
       "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/azure-confidential-computing-for-digital-sovereignty-and/ba-p/4529932",
       "published": "2026-06-24T20:48:24+00:00",
@@ -4467,17 +4478,6 @@
       "author": "shantanupatankar",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "v1.16.0-alpha20260624",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260624",
-      "published": "2026-06-24T14:07:22+00:00",
-      "summary": "1.16.0-alpha20260624 (June 24, 2026) NEW FEATURES: Store PlannedPrivate data for providers (#37986) New store block in terraform_data that can handle ephemeral and sensitive values (#38298) Providers can now use nested blocks as computed values (#38305) import: add support for import blocks inside...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
     },
     {
       "title": "Boost performance with NFS nconnect on Azure NetApp Files datastores for Azure VMware Solution",
@@ -12026,5 +12026,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news centers on developer tooling, observability, and AI agents. Visual Studio Code 1.133 delivers the latest updates to Microsoft’s editor, while Azure Monitor Auxiliary Logs adds support for Azure tables, log plan switching, and availability in sovereign clouds—expanding flexibility for cost and compliance-sensitive monitoring scenarios. On the AI side, Microsoft’s Agent Framework and the GitHub Copilot SDK are highlighted in a new guide to building autonomous agents, underscoring Azure’s push to make agentic application development more practical for developers."
+  "summary": "Today’s Azure news centers on developer tooling, observability, infrastructure-as-code, and AI agents: Visual Studio Code 1.133 shipped as the latest editor update; Terraform released v1.17.0-alpha20260812 as a new pre-release; and Azure Monitor Auxiliary Logs added support for Azure tables, plan switching, and sovereign cloud availability, expanding lower-cost log ingestion and retention options. On the AI side, Microsoft highlighted autonomous agent development with Microsoft Agent Framework and the GitHub Copilot SDK in Part 2 of its series, signaling continued focus on agentic workflows and developer productivity across Azure and GitHub ecosystems."
 }
