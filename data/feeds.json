@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-08-12T07:02:24.920248+00:00",
+  "lastUpdated": "2026-08-12T09:51:58.956500+00:00",
   "totalArticles": 1093,
   "articles": [
+    {
+      "title": "Visual Studio Code 1.134 (Insiders)",
+      "link": "https://code.visualstudio.com/updates/v1_134",
+      "published": "2026-08-18T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.134 (Insiders) Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Visual Studio Code 1.133",
+      "link": "https://code.visualstudio.com/updates/v1_133",
+      "published": "2026-08-12T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.133 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure Monitor Auxiliary Logs expands with Azure tables support, plan switching, and sovereign clouds",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-auxiliary-logs-expands-with-azure-tables-support/ba-p/4525206",
+      "published": "2026-08-12T09:08:22+00:00",
+      "summary": "Three long-standing customer requests for the Auxiliary table plan in Log Analytics are now generally available: Azure table support. Auxiliary now covers a subset of standard Azure tables, selected by ingestion pattern, in addition to DCR-based custom tables (_CL). In-place plan switching. You can...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "AdiBiran",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Building Autonomous Agents with Microsoft Agent Framework and GitHub Copilot SDK Part 2/5",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-autonomous-agents-with-microsoft-agent-framework-and/ba-p/4541924",
@@ -34,6 +67,17 @@
       "author": "Kristen Womack",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Reliability Starter Kit: SLIs, Health models, and SRE Agent",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/reliability-starter-kit-slis-health-models-and-sre-agent/ba-p/4545733",
+      "published": "2026-08-11T21:36:56+00:00",
+      "summary": "TL;DR This walkthrough uses a small e-commerce demo app to show how Azure Monitor can measure a user journey with service level indicators (SLIs) and service level objectives (SLOs), roll those results into a health model, and have the Azure SRE Agent investigate the alert. When the demo...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "varghesejoji",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "August Patches for Azure DevOps Server",
@@ -190,39 +234,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Visual Studio Code 1.133 (Insiders)",
-      "link": "https://code.visualstudio.com/updates/v1_133",
-      "published": "2026-08-11T17:00:00+00:00",
-      "summary": "Learn what's new in Visual Studio Code 1.133 (Insiders) Read the full article",
-      "blog": "Visual Studio Code",
-      "blogId": "vscode",
-      "author": "Visual Studio Code Team",
-      "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "What the New API Management AI Gateway Tier Changes for App Service-Hosted Agents",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-the-new-api-management-ai-gateway-tier-changes-for-app/ba-p/4543974",
-      "published": "2026-08-11T16:39:41+00:00",
-      "summary": "In May, I published a runnable sample that put Azure API Management in front of an AI agent on Azure App Service. The agent framework was replaceable; the gateway was the contribution. APIM handled model access, token limits, semantic caching, token metrics, and the MCP traffic contract. I followed...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure Container Apps Sandboxes (Preview): Giving AI Agents a Safe Place to Work",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-sandboxes-preview-giving-ai-agents-a-safe/ba-p/4545975",
-      "published": "2026-08-11T16:05:08+00:00",
-      "summary": "Co-written by Nikoloz Buligini, Front End Developer at Templafy, and Jan Kalis, Azure Container Apps Sandboxes, Core AI, Microsoft Every team building with multi-tenant AI agent platforms hits the same wall. The agent is smart enough to read your code, reason about a bug, and propose a fix. But the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Jan-Kalis",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Building Microsoft Sentinel Connectors in Minutes with the Sentinel Connector Builder Agent",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/building-microsoft-sentinel-connectors-in-minutes-with-the/ba-p/4544378",
       "published": "2026-08-11T16:00:00+00:00",
@@ -231,6 +242,17 @@
       "blogId": "microsoftsentinelblog",
       "author": "Robert_Moriarty",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Accelerate Inference on AKS with Azure Blob Storage and NVIDIA Dynamo",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/accelerate-inference-on-aks-with-azure-blob-storage-and-nvidia/ba-p/4543408",
+      "published": "2026-08-11T15:00:00+00:00",
+      "summary": "As agents generate more tokens and use longer context windows, AI platforms must reduce cost per token and optimize inference performance across every layer of the stack. With new native integrations between Azure Blob Storage and the NVIDIA Dynamo stack, users can now combine the scalability,...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "Vishnu Charan TJ",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -4029,6 +4051,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Azure Container Apps Express for Shipping Container Apps Fast",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-express-for-shipping-container-apps-fast/ba-p/4531371",
+      "published": "2026-06-30T20:10:51+00:00",
+      "summary": "ACA Express Apps are a strong fit for teams that need to ship quickly and can't afford long platform setup cycles. This includes startups, internal platform teams, and product groups deploying APIs, web apps, or agent endpoints that scale with uneven demand. If the priority is fast...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "hetvip",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Compose your API surface with Data API builder custom paths",
       "link": "https://devblogs.microsoft.com/azure-sql/data-api-builder-custom-rest-paths/",
       "published": "2026-06-30T19:38:31+00:00",
@@ -4346,6 +4379,17 @@
       "author": "Sudhanshu Khera, Iria Osara",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "A Better Way to View Logs in Kudu for Azure App Service on Linux",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/a-better-way-to-view-logs-in-kudu-for-azure-app-service-on-linux/ba-p/4530934",
+      "published": "2026-06-25T09:46:14+00:00",
+      "summary": "Logs are often the fastest way to understand what is happening inside your application. Whether you are investigating startup behavior, runtime errors, failed requests, dependency issues, or unexpected application behavior, having the right log view can make troubleshooting much easier. To make...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "TulikaC",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Azure Confidential Computing for Digital Sovereignty and Regulated Workloads",
@@ -5624,17 +5668,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure Monitor Health Model (Preview): What's New!",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-health-model-preview-what-s-new/ba-p/4525707",
-      "published": "2026-06-05T01:30:56+00:00",
-      "summary": "Azure Monitor Health Model is a modern observability capability that brings together telemetry, architecture, and business context of your workloads to generate health insights. It continuously aggregates signals across dependencies, producing a single, actionable health state which reduces alert...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "shijain13",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Pod CIDR Expansion Generally Available and IP Address Planning on Azure CNI Overlay",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/pod-cidr-expansion-generally-available-and-ip-address-planning/ba-p/4521700",
       "published": "2026-06-05T00:14:24+00:00",
@@ -6072,17 +6105,6 @@
       "blogId": "messagingonazureblog",
       "author": "Connected-Seth",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Is 94% of your syslog just noise? Now you can filter it out before ingestion.",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/is-94-of-your-syslog-just-noise-now-you-can-filter-it-out-before/ba-p/4524600",
-      "published": "2026-06-03T17:19:40+00:00",
-      "summary": "At Microsoft Build 2026, we are announcing the public preview of multi-stage transformations for Azure Monitor Data Collection Rules (DCRs). Multi-stage transformations let you filter, aggregate, parse, and map your logs at the point of collection, before data is ingested into your workspace....",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Ivan_Varnitski",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -10057,17 +10079,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Public Preview: Restrict usage of user delegation SAS to an Entra ID identity",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/public-preview-restrict-usage-of-user-delegation-sas-to-an-entra/ba-p/4497196",
-      "published": "2026-03-03T22:43:07+00:00",
-      "summary": "Shared access signatures (SAS) grant time-bound, scoped access to Azure Storage resources without sharing account keys. Over time, Azure Storage has continued to strengthen SAS security, moving from account keys to user delegation (UD) SAS secured by Microsoft Entra ID. Today, we’re taking the next...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "ellievail",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "AgentCore: Memory and Tools (3/4)🔥",
       "link": "https://www.letsdodevops.com/p/aws-agentcore-agentic-slack-bot-agentcore",
       "published": "2026-03-03T15:30:32+00:00",
@@ -12013,18 +12024,7 @@
       "author": "Lizzie_Heinze",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Finding the Right Page number in PDFs with AI Search",
-      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/finding-the-right-page-number-in-pdfs-with-ai-search/ba-p/4440758",
-      "published": "2025-08-11T09:10:39+00:00",
-      "summary": "Why Page Numbers Matter in AI Search When users search for content within large PDFs—such as contracts, manuals, or reports—they often need to know not just what was found, but where it was found. Associating search results with page numbers enables: Contextual navigation within documents. Precise...",
-      "blog": "Azure PaaS",
-      "blogId": "azurepaasblog",
-      "author": "samsarka",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage spotlighted autonomous AI development, with the Azure Dev Community publishing **Part 2 of “Building Autonomous Agents”** focused on the **Microsoft Agent Framework** and **GitHub Copilot SDK**. The key theme is practical agent orchestration—showing developers how to build more capable autonomous workflows by combining Microsoft’s agent tooling with GitHub Copilot’s extensibility for coding and automation scenarios."
+  "summary": "Today’s Azure news centers on developer tooling, observability, and AI agents. Visual Studio Code 1.133 delivers the latest updates to Microsoft’s editor, while Azure Monitor Auxiliary Logs adds support for Azure tables, log plan switching, and availability in sovereign clouds—expanding flexibility for cost and compliance-sensitive monitoring scenarios. On the AI side, Microsoft’s Agent Framework and the GitHub Copilot SDK are highlighted in a new guide to building autonomous agents, underscoring Azure’s push to make agentic application development more practical for developers."
 }
