@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T12:37:36.826867+00:00",
+  "lastUpdated": "2026-08-12T15:46:34.479098+00:00",
   "totalArticles": 1093,
   "articles": [
     {
@@ -22,6 +22,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "v1.16.0-rc1",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-rc1",
+      "published": "2026-08-12T15:22:32+00:00",
+      "summary": "1.16.0-rc1 (August 12, 2026) NEW FEATURES: Terraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986) terraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298) Providers...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -4246,17 +4257,6 @@
       "blogId": "azuresdkblog",
       "author": "Kristen Womack",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "v1.16.0-alpha20260626",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260626",
-      "published": "2026-06-26T09:03:31+00:00",
-      "summary": "1.16.0-alpha20260626 (June 26, 2026) NEW FEATURES: Store PlannedPrivate data for providers (#37986) New store block in terraform_data that can handle ephemeral and sensitive values (#38298) Providers can now use nested blocks as computed values (#38305) import: add support for import blocks inside...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -12026,5 +12026,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news centers on developer tooling, observability, infrastructure-as-code, and AI agents: Visual Studio Code 1.133 shipped as the latest editor update; Terraform released v1.17.0-alpha20260812 as a new pre-release; and Azure Monitor Auxiliary Logs added support for Azure tables, plan switching, and sovereign cloud availability, expanding lower-cost log ingestion and retention options. On the AI side, Microsoft highlighted autonomous agent development with Microsoft Agent Framework and the GitHub Copilot SDK in Part 2 of its series, signaling continued focus on agentic workflows and developer productivity across Azure and GitHub ecosystems."
+  "summary": "Today’s Azure-related posts centered on developer tooling, cloud operations, and AI agents: Visual Studio Code 1.133 delivered the latest editor/platform updates, while Terraform published both a 1.16.0 release candidate and a 1.17.0 alpha build, signaling continued iteration on infrastructure-as-code workflows. On the Azure platform side, Azure Monitor Auxiliary Logs expanded to support Azure tables, plan switching, and sovereign cloud deployments, and Microsoft highlighted autonomous agent development using Microsoft Agent Framework with the GitHub Copilot SDK, underscoring ongoing investment in agentic AI and developer productivity."
 }
