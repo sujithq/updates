@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-14T12:34:00.283112+00:00",
-  "totalArticles": 1092,
+  "lastUpdated": "2026-08-14T15:39:40.125633+00:00",
+  "totalArticles": 1094,
   "articles": [
     {
       "title": "Visual Studio Code 1.134 (Insiders)",
@@ -23,6 +23,72 @@
       "author": "davidwright, Arnaud Lheureux, Suzanne Daniels",
       "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876",
+      "published": "2026-08-14T00:38:22+00:00",
+      "summary": "Microsoft's Cloud Architects: Eduardo Dos Santos eduardomdossantos​, Chris Walk cwalk​ and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints in Azure Databricks are not an Azure Databricks product issue. Azure Databricks does not own or reserve compute, it dynamically...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Update WCF Relay applications to use TLS 1.2 or later",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/update-wcf-relay-applications-to-use-tls-1-2-or-later/ba-p/4544418",
+      "published": "2026-08-14T00:30:56+00:00",
+      "summary": "WCF Relay listeners that still negotiate TLS 1.0 can stop passing traffic through Azure Relay. The symptom appears on the sender, which connected successfully before and now fails every call with System.ServiceModel.EndpointNotFoundException: None of the connected listeners accepted the connection...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "From Silicon to Systems: Bending the Cost and Complexity Curves of AI",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-silicon-to-systems-bending-the-cost-and-complexity-curves/ba-p/4545207",
+      "published": "2026-08-13T23:06:16+00:00",
+      "summary": "The next era of AI infrastructure will be defined not by a single breakthrough, but by how well we co-design every layer—from models and software to silicon, servers, racks and datacenters. At the Open Compute Project Asia Pacific Summit, we are proud to share the latest community innovations that...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ceciliaxia",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "From Features to Flow: How Real-World Adoption Reshaped the Azure Architecture Diagram Builder",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-features-to-flow-how-real-world-adoption-reshaped-the-azure/ba-p/4546817",
+      "published": "2026-08-13T22:10:46+00:00",
+      "summary": "In May, I introduced the open-source Azure Architecture Diagram Builder as a way to move from a natural-language prompt to an Azure architecture diagram, cost estimate, Well-Architected assessment, and deployment guidance. In July, I shared how the project had become agent-ready through Model...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "arturoqu",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "No updates to \"Stop clear text credentials exposure\" after migrating our MDI sensors to v3",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-identity/no-updates-to-quot-stop-clear-text-credentials-exposure-quot/m-p/4546845#M4330",
+      "published": "2026-08-13T22:04:07+00:00",
+      "summary": "Since migrating our domain controllers to the v3 sensor, the \"Stop clear text credentials exposure\" recommendation is no longer updating. The latest \"Last seen\" date correlates with the date we performed the migration, and I know we have a couple entities that have not yet been remediated.If I run...",
+      "blog": "Azure Advanced Threat Protection",
+      "blogId": "azureadvancedthreatprotection",
+      "author": "RyanSteele-CoV",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Updates to GPT-chat-latest in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/updates-to-gpt-chat-latest-in-microsoft-foundry/ba-p/4546815",
+      "published": "2026-08-13T21:14:26+00:00",
+      "summary": "GPT-chat-latest in Microsoft Foundry is built on GPT-5.6 Sol, bringing focused responses, improved factual reliability, and consistent behavior to conversational applications without requiring developers to select a newly named model endpoint. This update gives developers access to the latest chat...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "truptiparkar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Routing and Failover for Microsoft.Extensions.AI",
@@ -80,14 +146,14 @@
       "sourceType": "rss"
     },
     {
-      "title": "Update WCF Relay applications to use TLS 1.2 or later",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/update-wcf-relay-applications-to-use-tls-1-2-or-later/ba-p/4544418",
-      "published": "2026-08-13T18:39:11+00:00",
-      "summary": "WCF Relay listeners that still negotiate TLS 1.0 can stop passing traffic through Azure Relay. The symptom appears on the sender, which connected successfully before and now fails every call with System.ServiceModel.EndpointNotFoundException: None of the connected listeners accepted the connection...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "EldertGrootenboer",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
+      "title": "Monitoring Azure Service Fabric with Azure Managed Grafana",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/monitoring-azure-service-fabric-with-azure-managed-grafana/ba-p/4546439",
+      "published": "2026-08-13T18:44:37+00:00",
+      "summary": "1. Why integrate Grafana with Service Fabric? Scope: this walkthrough covers a classic, VMSS-backed Service Fabric cluster running Windows. Service Fabric managed clusters (SFMC) use managed node types instead of VM scale sets, but the same AMA + DCR + Grafana pattern applies once AMA is installed...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "Ahmed_Khaled",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -146,6 +212,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Copilot Notebooks now works with Markdown, plain-text, and rich-text files",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-now-works-with-markdown-plain-text-and-rich/ba-p/4545652",
+      "published": "2026-08-13T16:00:00+00:00",
+      "summary": "Add your READMEs, wikis, logs, and transcripts to your notebook Your most useful project knowledge does not always live in a polished document. It might be captured in a README, project wiki, system log, meeting transcript, research export, or a simple text file. Copilot Notebooks can now use...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "abhkaushik",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Introducing dependency telemetry in Application Insights for Azure API Management policies",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/introducing-dependency-telemetry-in-application-insights-for/ba-p/4545504",
       "published": "2026-08-13T15:00:02+00:00",
@@ -168,14 +245,14 @@
       "sourceType": "rss"
     },
     {
-      "title": "From Silicon to Systems: Bending the Cost and Complexity Curves of AI",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-silicon-to-systems-bending-the-cost-and-complexity-curves/ba-p/4545207",
-      "published": "2026-08-13T06:02:36+00:00",
-      "summary": "The next era of AI infrastructure will be defined not by a single breakthrough, but by how well we co-design every layer—from models and software to silicon, servers, racks and datacenters. At the Open Compute Project Asia Pacific Summit, we are proud to share the latest community innovations that...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ceciliaxia",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "title": "When AI Agents Fail: Engineering Reliable Recovery with Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/when-ai-agents-fail-engineering-reliable-recovery-with-microsoft/ba-p/4546388",
+      "published": "2026-08-13T14:00:00+00:00",
+      "summary": "Introduction: The Failure That Demos Do Not Show A user asks an AI agent a simple question: \"Create a procurement request for 10 laptops for the new project team.\" The agent does what it was designed to do. It checks the procurement policy. It verifies budget availability. It calls the procurement...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "PavanKalyanChilakalapalli",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -190,6 +267,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Add AI to the workflows you already have using Serverless Agents in Azure Functions",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/add-ai-to-the-workflows-you-already-have-using-serverless-agents/ba-p/4544824",
+      "published": "2026-08-12T22:51:34+00:00",
+      "summary": "There are a lot of ways to build with AI right now: chat frontends, copilots, greenfield agent apps, orchestration frameworks. All of them have their place, and some customers are building entirely new applications this way. But across customer engagements, a consistent pattern has emerged: the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Anirudh Garg",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "GitHub availability report: July 2026",
       "link": "https://github.blog/news-insights/company-news/github-availability-report-july-2026/",
       "published": "2026-08-12T22:17:32+00:00",
@@ -199,6 +287,17 @@
       "author": "Jakub Oleksy",
       "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Governing a Risk Operations Agent with the Microsoft Agent Framework Harness and AGT",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/governing-a-risk-operations-agent-with-the-microsoft-agent/ba-p/4546425",
+      "published": "2026-08-12T21:00:13+00:00",
+      "summary": "Introduction I hope you have already found Auditing and Telemetry for the Agent Governance Toolkit - Getting Started with .NET Core. This article demonstrates how you can leverage the Agent Governance Toolkit practically. This time, I'll take it a step further and combine the Microsoft Agent...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "daisami",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Retirement: Containerized data connector agent for the Microsoft Sentinel solution for SAP applications",
@@ -2654,17 +2753,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Design the Network Before You Deploy: Best Practices for Microsoft Foundry Standard Agents BYOVNet",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/design-the-network-before-you-deploy-best-practices-for/ba-p/4537860",
-      "published": "2026-07-22T16:00:00+00:00",
-      "summary": "Ask any enterprise team standing up Microsoft Foundry in production and you'll hear the same non-negotiable: the agent can't run on the open internet. The moment it touches proprietary data, internal APIs, or regulated workloads, security wants it inside the company's own virtual network — behind...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Priya_Kedia",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Microsoft Discovery: Where HPC meets agentic AI for the next era of EDA",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/microsoft-discovery-where-hpc-meets-agentic-ai-for-the-next-era/ba-p/4539212",
       "published": "2026-07-22T15:25:57+00:00",
@@ -2696,17 +2784,6 @@
       "author": "Gloridel Morales",
       "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Choosing the Right Starting Point for Enterprise AI Agents with Copilot Studio and Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/choosing-the-right-starting-point-for-enterprise-ai-agents-with/ba-p/4535024",
-      "published": "2026-07-21T18:00:00+00:00",
-      "summary": "Choosing the Right Starting Point for Enterprise AI Agents with Copilot Studio and Microsoft Foundry Enterprise AI conversations often begin with a familiar question: Should this agent be built with Microsoft Copilot Studio or Microsoft Foundry? While the question is common, it can be misleading if...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "PavanKalyanChilakalapalli",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Take command of your Microsoft Foundry AI agents with the Azure Copilot Observability Agent",
@@ -3157,17 +3234,6 @@
       "blogId": "microsoftsentinelblog",
       "author": "derricklee",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876",
-      "published": "2026-07-15T15:54:55+00:00",
-      "summary": "Microsoft's Cloud Architects: Paul Singh PaulSingh​, Aladdin Alchalabi aalchalabi​, Eduardo Dos Santos eduardomdossantos​, Chris Walk cwalk​, Peter Lo PeterLo​, Tim Orentlikher tim_orentlikher​, Ajmal Hossain ajmalhossain​, Chris Haynes Chris_Haynes​, and Rafia Aqil Rafia_Aqil​ Start Here: Engage...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -4051,17 +4117,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Auditing and Telemetry for the Agent Governance Toolkit - Getting Started with .NET Core",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/auditing-and-telemetry-for-the-agent-governance-toolkit-getting/ba-p/4533073",
-      "published": "2026-07-02T13:35:00+00:00",
-      "summary": "Introduction We've entered an era where AI agents autonomously invoke tools — reading and writing files, calling APIs, querying databases. Convenient as this is, without a mechanism to control who can call what, and under what conditions, you can't put it into production. The Agent Governance...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "daisami",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Find anomalies in Prometheus and OpenTelemetry metrics with Dynamic Thresholds (Preview)",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/find-anomalies-in-prometheus-and-opentelemetry-metrics-with/ba-p/4533069",
       "published": "2026-07-02T13:10:54+00:00",
@@ -4181,17 +4236,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "How to build long-running MCP tools on Azure Functions",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-to-build-long-running-mcp-tools-on-azure-functions/ba-p/4532653",
-      "published": "2026-07-01T16:10:42+00:00",
-      "summary": "Recently, a customer building servers with the Azure Functions MCP extension reached out and asked: How do I handle tools that take longer than the client is willing to wait? This becomes especially relevant when tool calls move beyond simple request/response into multi-step workflows and...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "lily-ma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Now generally available: Serverless posture coverage in Microsoft Defender CSPM",
@@ -7472,17 +7516,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Scaling the reach of finance: what’s next with Finance Agent in Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/scaling-the-reach-of-finance-what-s-next-with-finance-agent-in/ba-p/4522976",
-      "published": "2026-05-27T12:00:00+00:00",
-      "summary": "In most organizations, finance is a small but mighty strategic partner to the business, supporting enterprise-wide decisions while managing core processes from record-to-report and source-to-pay to forecast-to-plan. The insights and guidance finance teams produce are more than just outputs of these...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "April_Olson",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Simplify Virtual WAN Spoke Connectivity at Scale with Azure Virtual Network Manager",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/simplify-virtual-wan-spoke-connectivity-at-scale-with-azure/ba-p/4523055",
       "published": "2026-05-26T20:44:54+00:00",
@@ -8195,17 +8228,6 @@
       "blogId": "azureinfrastructureblog",
       "author": "ranjan_ashish",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Configure DNS forwarding for Azure NetApp Files",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/configure-dns-forwarding-for-azure-netapp-files/ba-p/4516381",
-      "published": "2026-05-11T04:20:10+00:00",
-      "summary": "This post has been written with the collaboration of Rizul Khanna Applies to: Azure NetApp Files — SMB, dual-protocol, and NFSv4.1 Kerberos volumes deployed in hub-spoke or Azure Virtual WAN topologies using an external private DNS forwarder. Overview Azure NetApp Files (ANF) has a hard dependency...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "mkachare",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12015,5 +12037,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage appears focused on **Git-APE SaaS Factory**, highlighted by *All Things Azure* as a solution or framework aimed at accelerating **SaaS application delivery on Azure** using **Git-based workflows**, likely emphasizing automation, repeatability, and cloud-native deployment practices. The key theme is Azure enabling faster, more standardized **software factory** patterns for SaaS builders, with likely relevance to **DevOps/GitOps-style engineering**, infrastructure automation, and scalable application provisioning on the Azure platform."
+  "summary": "Today’s Azure posts focus on scaling cloud operations, modernizing legacy integrations, and tightening security baselines. Highlights include **Git-APE SaaS Factory** from All Things Azure for streamlining SaaS delivery patterns, guidance for handling **capacity constraints in Azure Databricks** through immediate mitigation and longer-term planning, and a required modernization step for **WCF Relay** apps on **Azure Messaging** to use **TLS 1.2 or later** instead of older protocols."
 }
