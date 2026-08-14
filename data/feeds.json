@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-14T18:37:35.215106+00:00",
-  "totalArticles": 1094,
+  "lastUpdated": "2026-08-14T21:13:40.749047+00:00",
+  "totalArticles": 1092,
   "articles": [
     {
       "title": "Visual Studio Code 1.134 (Insiders)",
@@ -47,6 +47,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Running Hosted Agents in Microsoft Foundry Agent Service Part 3/5",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/running-hosted-agents-in-microsoft-foundry-agent-service-part-3/ba-p/4541933",
+      "published": "2026-08-14T07:00:00+00:00",
+      "summary": "This is the third post in our series on the Microsoft agent platform. We focus on the Run in Foundry pillar, taking agents from development to production with Hosted Agents, the Agent Optimizer, Routines, Memory, Toolboxes, and Tracing. All examples reference the FibreOps repository, demonstrated...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Git-APE SaaS Factory",
       "link": "https://devblogs.microsoft.com/all-things-azure/git-ape-saas-factory/",
       "published": "2026-08-14T05:29:31+00:00",
@@ -56,6 +67,17 @@
       "author": "davidwright, Arnaud Lheureux, Suzanne Daniels",
       "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Tableau to Power BI Migration: Semantic Layer-First Approach for Cloud Architects",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/tableau-to-power-bi-migration-semantic-layer-first-approach-for/ba-p/4481009",
+      "published": "2026-08-14T04:27:25+00:00",
+      "summary": "Author's: Mahjabin Ahmed, Yassine El Ouardi, Lavanya Sreedhar LavanyaSreedhar​, Peter Lo PeterLo​, Aryan Anmol aryananmol​, Shreya Harvu shreyaharvu​ and Rafia Aqil Rafia_Aqil​ In this guide, we provide practical guidance for migrating from Tableau to Power BI, with a focus on technical best...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "GitHub Copilot weekly releases — August 10",
@@ -71,7 +93,7 @@
     {
       "title": "What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876",
-      "published": "2026-08-14T00:38:22+00:00",
+      "published": "2026-08-14T00:55:27+00:00",
       "summary": "Microsoft's Cloud Architects: Eduardo Dos Santos eduardomdossantos​, Chris Walk cwalk​ and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints in Azure Databricks are not an Azure Databricks product issue. Azure Databricks does not own or reserve compute, it dynamically...",
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
@@ -99,17 +121,6 @@
       "blogId": "azurearchitectureblog",
       "author": "arturoqu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "No updates to \"Stop clear text credentials exposure\" after migrating our MDI sensors to v3",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-identity/no-updates-to-quot-stop-clear-text-credentials-exposure-quot/m-p/4546845#M4330",
-      "published": "2026-08-13T22:04:07+00:00",
-      "summary": "Since migrating our domain controllers to the v3 sensor, the \"Stop clear text credentials exposure\" recommendation is no longer updating. The latest \"Last seen\" date correlates with the date we performed the migration, and I know we have a couple entities that have not yet been remediated.If I run...",
-      "blog": "Azure Advanced Threat Protection",
-      "blogId": "azureadvancedthreatprotection",
-      "author": "RyanSteele-CoV",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -177,17 +188,6 @@
       "author": "Ariel Kanter",
       "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Monitoring Azure Service Fabric with Azure Managed Grafana",
-      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/monitoring-azure-service-fabric-with-azure-managed-grafana/ba-p/4546439",
-      "published": "2026-08-13T18:44:37+00:00",
-      "summary": "1. Why integrate Grafana with Service Fabric? Scope: this walkthrough covers a classic, VMSS-backed Service Fabric cluster running Windows. Service Fabric managed clusters (SFMC) use managed node types instead of VM scale sets, but the same AMA + DCR + Grafana pattern applies once AMA is installed...",
-      "blog": "Azure PaaS",
-      "blogId": "azurepaasblog",
-      "author": "Ahmed_Khaled",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "MCP Community Connect: Bringing the MCP ecosystem together",
@@ -2497,17 +2497,6 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "amar_badal",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Beyond text: Returning images and interactive apps from MCP servers",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-text-returning-images-and-interactive-apps-from-mcp/ba-p/4535865",
-      "published": "2026-07-24T13:51:21+00:00",
-      "summary": "The Model Context Protocol (MCP) is becoming a richer foundation for agent experiences. Though most servers return plain text from their tool calls, MCP servers can also return binary results and provide interactive apps in clients that support those features, like VS Code. In this post, I'll use...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8319,17 +8308,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Tableau to Power BI Migration: Semantic Layer-First Approach for Cloud Architects",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/tableau-to-power-bi-migration-semantic-layer-first-approach-for/ba-p/4481009",
-      "published": "2026-05-07T18:15:11+00:00",
-      "summary": "Author's: Mahjabin Ahmed, Yassine El Ouardi, Lavanya Sreedhar LavanyaSreedhar​, Peter Lo PeterLo​, Aryan Anmol aryananmol​, Shreya Harvu shreyaharvu​ and Rafia Aqil Rafia_Aqil​ In this guide, we provide practical guidance for migrating from Tableau to Power BI, with a focus on technical best...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "What’s New in Aspire 13.3",
       "link": "https://devblogs.microsoft.com/aspire/whats-new-aspire-13-3/",
       "published": "2026-05-07T17:00:00+00:00",
@@ -12037,5 +12015,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-adjacent updates center on platform lifecycle, AI-assisted development, and operational readiness: Microsoft announced that **Azure Databricks Runtime 10.4 LTS** will reach end of life on **November 1, 2026**, alongside guidance on handling **Azure Databricks capacity constraints**, while Azure messaging customers are being urged to update **WCF Relay** apps to use **TLS 1.2+**. On the developer side, **Grok 4.6** is now available in **GitHub Copilot**, GitHub highlighted new **agent apps** for bringing software delivery workflows into GitHub, and community content like **Git-APE SaaS Factory** reflects continued momentum around GitHub- and Azure-based SaaS delivery patterns."
+  "summary": "Today’s Azure- and GitHub-related posts focused on AI-assisted software delivery, data platform lifecycle management, and modernization. Key announcements included **Azure Databricks Runtime 10.4 LTS reaching end of life on November 1, 2026**, guidance for handling **Azure Databricks capacity limits**, and a security update urging **WCF Relay applications** to move to **TLS 1.2 or later**.\n\nOn the developer tooling side, **Grok 4.6** was added to **GitHub Copilot**, alongside the latest Copilot weekly releases and new guidance on bringing software delivery workflows into **GitHub with agent apps** and running hosted agents in **Microsoft Foundry Agent Service**. Other themes centered on cloud architecture and migration, including a **semantic layer-first Tableau-to-Power BI migration strategy** and SaaS engineering patterns like **Git-APE SaaS Factory**."
 }
