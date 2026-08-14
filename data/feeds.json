@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T04:40:12.999534+00:00",
+  "lastUpdated": "2026-08-14T07:02:55.608222+00:00",
   "totalArticles": 1094,
   "articles": [
     {
@@ -14,9 +14,42 @@
       "sourceType": "rss"
     },
     {
+      "title": "Running Hosted Agents in Microsoft Foundry Agent Service Part 3/5",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/running-hosted-agents-in-microsoft-foundry-agent-service-part-3/ba-p/4541933",
+      "published": "2026-08-14T07:00:00+00:00",
+      "summary": "This is the third post in our series on the Microsoft agent platform. We focus on the Run in Foundry pillar, taking agents from development to production with Hosted Agents, the Agent Optimizer, Routines, Memory, Toolboxes, and Tracing. All examples reference the FibreOps repository, demonstrated...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Git-APE SaaS Factory",
+      "link": "https://devblogs.microsoft.com/all-things-azure/git-ape-saas-factory/",
+      "published": "2026-08-14T05:29:31+00:00",
+      "summary": "Agentic Platform Engineering for SaaS. Accelerating the Path to Market with Git-APE If you are an ISV building SaaS on Azure, the first demo is usually the easy part. The harder work is turning that proof of concept into a secure, scalable, commercial-ready service that can be operated confidently...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "davidwright, Arnaud Lheureux, Suzanne Daniels",
+      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Tableau to Power BI Migration: Semantic Layer-First Approach for Cloud Architects",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/tableau-to-power-bi-migration-semantic-layer-first-approach-for/ba-p/4481009",
+      "published": "2026-08-14T04:27:25+00:00",
+      "summary": "Author's: Mahjabin Ahmed, Yassine El Ouardi, Lavanya Sreedhar LavanyaSreedhar​, Peter Lo PeterLo​, Aryan Anmol aryananmol​, Shreya Harvu shreyaharvu​ and Rafia Aqil Rafia_Aqil​ In this guide, we provide practical guidance for migrating from Tableau to Power BI, with a focus on technical best...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876",
-      "published": "2026-08-14T00:38:22+00:00",
+      "published": "2026-08-14T00:55:27+00:00",
       "summary": "Microsoft's Cloud Architects: Eduardo Dos Santos eduardomdossantos​, Chris Walk cwalk​ and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints in Azure Databricks are not an Azure Databricks product issue. Azure Databricks does not own or reserve compute, it dynamically...",
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
@@ -66,6 +99,17 @@
       "blogId": "azureadvancedthreatprotection",
       "author": "RyanSteele-CoV",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Updates to GPT-chat-latest in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/updates-to-gpt-chat-latest-in-microsoft-foundry/ba-p/4546815",
+      "published": "2026-08-13T21:14:26+00:00",
+      "summary": "GPT-chat-latest in Microsoft Foundry is built on GPT-5.6 Sol, bringing focused responses, improved factual reliability, and consistent behavior to conversational applications without requiring developers to select a newly named model endpoint. This update gives developers access to the latest chat...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "truptiparkar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -2467,17 +2511,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Beyond text: Returning images and interactive apps from MCP servers",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-text-returning-images-and-interactive-apps-from-mcp/ba-p/4535865",
-      "published": "2026-07-24T13:51:21+00:00",
-      "summary": "The Model Context Protocol (MCP) is becoming a richer foundation for agent experiences. Though most servers return plain text from their tool calls, MCP servers can also return binary results and provide interactive apps in clients that support those features, like VS Code. In this post, I'll use...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Native Agent Memory for Microsoft Agent Framework, Powered by Azure Cosmos DB",
       "link": "https://devblogs.microsoft.com/cosmosdb/native-agent-memory-for-microsoft-agent-framework-powered-by-azure-cosmos-db/",
       "published": "2026-07-24T11:00:40+00:00",
@@ -2728,17 +2761,6 @@
       "blogId": "azurehighperformancecomputingblog",
       "author": "richpaw",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Design the Network Before You Deploy: Best Practices for Microsoft Foundry Standard Agents BYOVNet",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/design-the-network-before-you-deploy-best-practices-for/ba-p/4537860",
-      "published": "2026-07-22T16:00:00+00:00",
-      "summary": "Ask any enterprise team standing up Microsoft Foundry in production and you'll hear the same non-negotiable: the agent can't run on the open internet. The moment it touches proprietary data, internal APIs, or regulated workloads, security wants it inside the company's own virtual network — behind...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Priya_Kedia",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8308,17 +8330,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Tableau to Power BI Migration: Semantic Layer-First Approach for Cloud Architects",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/tableau-to-power-bi-migration-semantic-layer-first-approach-for/ba-p/4481009",
-      "published": "2026-05-07T18:15:11+00:00",
-      "summary": "Author's: Mahjabin Ahmed, Yassine El Ouardi, Lavanya Sreedhar LavanyaSreedhar​, Peter Lo PeterLo​, Aryan Anmol aryananmol​, Shreya Harvu shreyaharvu​ and Rafia Aqil Rafia_Aqil​ In this guide, we provide practical guidance for migrating from Tableau to Power BI, with a focus on technical best...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "What’s New in Aspire 13.3",
       "link": "https://devblogs.microsoft.com/aspire/whats-new-aspire-13-3/",
       "published": "2026-05-07T17:00:00+00:00",
@@ -9306,17 +9317,6 @@
       "blogId": "azuresdkblog",
       "author": "Sandeep Sen",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Putting Agentic Platform Engineering to the test",
-      "link": "https://devblogs.microsoft.com/all-things-azure/putting-agentic-platform-engineering-to-the-test/",
-      "published": "2026-04-10T01:45:08+00:00",
-      "summary": "In Part 1 of this blog series set the stage for why platform engineering is being reshaped by agentic AI. (read it here) Basically we outline how instead of humans translating intent through layers of CLIs, SDKs, and bespoke workflows, capable agents can interpret natural-language goals and turn...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "Arnaud Lheureux, davidwright, Suzanne Daniels",
-      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
       "sourceType": "rss"
     },
     {
@@ -12037,5 +12037,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure updates focused on service reliability and security hardening. On the analytics side, Azure detailed how to respond when Azure Databricks hits capacity, emphasizing immediate engagement with Microsoft, short-term mitigation strategies, and longer-term capacity planning to keep Spark-based workloads running smoothly.\n\nOn the messaging side, Azure announced that WCF Relay applications must use TLS 1.2 or later, signaling a security-focused modernization for Azure Relay customers. The key takeaway across both posts is operational readiness: plan ahead for capacity constraints in Azure Databricks and update legacy WCF Relay integrations to meet modern encryption standards."
+  "summary": "Today’s Azure posts centered on modernization and operational resilience: Microsoft highlighted hosted agents in **Microsoft Foundry Agent Service**, a **Git-APE SaaS Factory** pattern for building SaaS on Azure, and a **semantic layer–first** strategy for migrating **Tableau to Power BI** in enterprise analytics architectures. On the platform operations side, Azure shared guidance for handling **capacity limits in Azure Databricks** through escalation, mitigation, and planning, and warned developers to update **WCF Relay** applications to use **TLS 1.2+**, signaling an important security and compatibility deadline for Azure messaging workloads."
 }
