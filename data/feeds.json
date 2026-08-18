@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T09:19:58.024549+00:00",
+  "lastUpdated": "2026-08-18T12:18:26.894520+00:00",
   "totalArticles": 1090,
   "articles": [
     {
@@ -23,6 +23,39 @@
       "author": "Eric van Wijk",
       "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Distributing Agents to Microsoft Teams and Microsoft 365 Copilot Part 4/5",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/distributing-agents-to-microsoft-teams-and-microsoft-365-copilot/ba-p/4541925",
+      "published": "2026-08-18T07:00:00+00:00",
+      "summary": "This is the fourth post in our series on the Microsoft agent platform. We cover the Distribute in M365 pillar — publishing your agents to Microsoft Teams and Microsoft 365 Copilot so they reach users where they already work. All examples reference the FibreOps repository, demonstrated at Microsoft...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Beyond Deployment: What It Really Takes to Run GitHub Actions Runners on AKS",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/beyond-deployment-what-it-really-takes-to-run-github-actions/ba-p/4547638",
+      "published": "2026-08-18T06:44:57+00:00",
+      "summary": "A Successful Demo Is Not a Production Platform Getting GitHub Actions runners working on Azure Kubernetes Service (AKS) with Actions Runner Controller (ARC) is relatively straightforward. Within a short time, you can deploy ARC, register a runner scale set, and execute workflows successfully....",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "aparnabadireddigari",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Why Cloud Browsers Are Becoming Enterprise Infrastructure for AI Agents and Automation",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/why-cloud-browsers-are-becoming-enterprise-infrastructure-for-ai/ba-p/4547583",
+      "published": "2026-08-18T04:30:35+00:00",
+      "summary": "The browser is becoming a new execution environment Over the last decade, enterprises moved compute from desktops to the cloud. Applications that once depended on individual machines now run on scalable, managed infrastructure. A similar shift is beginning to happen with browser automation....",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "AbhinavPremsekhar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "[In preview] Public Preview: Zone redundancy for Azure SQL Managed Instance Next-gen General Purpose",
@@ -3072,17 +3105,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Building Agents in Production with Toolbox, Skills, and Tool Search",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-agents-in-production-with-toolbox-skills-and-tool/ba-p/4537969",
-      "published": "2026-07-16T19:54:13+00:00",
-      "summary": "If you are shipping AI agents beyond a demo, you have felt the pain: every agent needs the same tools, each with its own authentication, and the tool list keeps growing until your prompt is bloated and the model picks the wrong one. On 22 July 2026 at 5:00 PM BST, the Microsoft Foundry community is...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "T-SQL Hygiene: What’s the Big Deal with SET NOCOUNT ON?",
       "link": "https://devblogs.microsoft.com/azure-sql/tsql-nocount/",
       "published": "2026-07-16T17:47:28+00:00",
@@ -3762,17 +3784,6 @@
       "blogId": "agent-365-blog",
       "author": "alexpozin",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "A Paradigm Shift in Cloud Operations with Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/a-paradigm-shift-in-cloud-operations-with-azure-sre-agent/ba-p/4533244",
-      "published": "2026-07-08T22:41:52+00:00",
-      "summary": "Cloud operations are entering a new era. As systems grow in scale and complexity, the traditional model of reactive incident response, where engineers manually piece together signals across dozens of tools and portals, juggling all that context alone, is no longer sustainable. The operational toil...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Nir_Mashkowski",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8484,17 +8495,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Operationalizing Responsible AI in Microsoft Foundry within Enterprise Network Boundaries",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/operationalizing-responsible-ai-in-microsoft-foundry-within/ba-p/4516869",
-      "published": "2026-05-06T05:23:44+00:00",
-      "summary": "Strategic Overview Deploying Microsoft Foundry within a VNet-integrated landing zone requires a thoughtful balance between innovation and enterprise-grade security, especially in highly regulated industries like banking. This architecture enforces Responsible AI (RAI) principles and robust content...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Shruti9162",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Use Azure Container Registry as an Upstream Source for Artifact Cache",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/use-azure-container-registry-as-an-upstream-source-for-artifact/ba-p/4517102",
       "published": "2026-05-05T23:29:10+00:00",
@@ -11993,5 +11993,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure-related updates focus on developer tooling and Apple platform support. The Azure DevOps team announced that Apple Silicon and Xcode 27 images are now available in preview for pay-as-you-go hosted macOS pipelines, giving teams newer ARM-based build environments for iOS and macOS CI/CD. Separately, Visual Studio Code 1.134 Insiders was released, bringing the latest preview features and refinements to the editor for developers testing upcoming VS Code capabilities."
+  "summary": "Today’s Azure posts center on developer tooling, AI agents, and enterprise automation infrastructure. Key announcements include Visual Studio Code 1.134 Insiders, Azure DevOps preview support for Apple Silicon and Xcode 27 images in pay-as-you-go hosted environments, and guidance for distributing custom agents into Microsoft Teams and Microsoft 365 Copilot.\n\nOn the infrastructure side, Azure emphasized the operational realities behind running GitHub Actions self-hosted runners on Azure Kubernetes Service (AKS)—beyond just deployment—as well as the growing role of cloud browsers as enterprise infrastructure for AI agents and automation workloads. Overall, the themes are platform readiness for modern app development, tighter Microsoft 365/Teams AI integration, and scalable infrastructure for CI/CD and autonomous agents."
 }
