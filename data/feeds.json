@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T18:15:06.751999+00:00",
+  "lastUpdated": "2026-08-19T21:14:51.069877+00:00",
   "totalArticles": 1092,
   "articles": [
     {
@@ -14,6 +14,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "Outgrowing SQL Server Express? Upgrade to Azure SQL Database Free Tier in 3 Steps",
+      "link": "https://devblogs.microsoft.com/azure-sql/upgrade-from-sql-server-express-to-azure-sql-database/",
+      "published": "2026-08-19T21:01:30+00:00",
+      "summary": "If you’ve been building local prototypes, internal tools, web backends, or lightweight services on SQL Server Express, you know the routine: it’s free, familiar, and gets the job done – until you hit hardware limits or spend weekends manual backup scripts and handling OS patches. Learn how to...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Vandana Mahtani, Amit Khandelwal",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Expanding Open Model Choice in Microsoft Foundry with New DeepSeek and NVIDIA Nemotron Models",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/expanding-open-model-choice-in-microsoft-foundry-with-new/ba-p/4547926",
+      "published": "2026-08-19T20:21:28+00:00",
+      "summary": "Open models are driving a new wave of AI innovation, giving organizations more freedom to choose the models that best fit their requirements for performance, cost, latency, customization, and governance. As the open model ecosystem evolves rapidly, developers want access to the latest innovations...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Naomi Moneypenny",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "GitHub Copilot app for Beginners: Managing your work",
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
       "published": "2026-08-19T17:50:23+00:00",
@@ -22,6 +44,17 @@
       "blogId": "githubblog",
       "author": "Christopher Harrison",
       "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Microsoft named a Leader in the Frost Radar™: Cloud Workload Protection Platforms, 2026",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/19/microsoft-named-a-leader-in-the-frost-radar-cloud-workload-protection-platforms-2026/",
+      "published": "2026-08-19T17:30:00+00:00",
+      "summary": "Microsoft is named a visionary leader in the 2026 Frost Radar for Cloud Workload Protection Platforms, recognized for unified runtime security with Microsoft Defender for Cloud. The post Microsoft named a Leader in the Frost Radar™: Cloud Workload Protection Platforms, 2026 appeared first on...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Ran Rosin",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -69,6 +102,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Announcing General Availability of Disable Multithreading and Configurable Constrained Cores",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-general-availability-of-disable-multithreading-and/ba-p/4547908",
+      "published": "2026-08-19T16:00:12+00:00",
+      "summary": "Today, we are announcing General Availability of two new capabilities: Disable Simultaneous Multithreading/Hyper-Threading (SMT/HT) and Configurable Constrained Cores. These features give customers control over virtual CPU configurations, enabling performance optimization and potential software...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "misha-bansal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "v1.15.9",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.9",
       "published": "2026-08-19T14:29:32+00:00",
@@ -78,6 +122,28 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
+    },
+    {
+      "title": "Announcing public preview: Markdown for Agents in Azure App Service",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-public-preview-markdown-for-agents-in-azure-app/ba-p/4537023",
+      "published": "2026-08-19T13:57:13+00:00",
+      "summary": "Why Markdown for Agents? Web pages often contain scripts, styles, and HTML markup that are useful to browsers but add noise when the content is sent to an AI model. Markdown for Agents removes that extra markup and returns a smaller, text-focused response that is easier for agents to process and...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "What the New API Management AI Gateway Tier Changes for App Service-Hosted Agents",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-the-new-api-management-ai-gateway-tier-changes-for-app/ba-p/4543974",
+      "published": "2026-08-19T13:54:21+00:00",
+      "summary": "In May, I published a runnable sample that put Azure API Management in front of an AI agent on Azure App Service. The agent framework was replaceable; the gateway was the contribution. APIM handled model access, token limits, semantic caching, token metrics, and the MCP traffic contract. I followed...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Track organization code quality trends",
@@ -1103,17 +1169,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "What the New API Management AI Gateway Tier Changes for App Service-Hosted Agents",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-the-new-api-management-ai-gateway-tier-changes-for-app/ba-p/4543974",
-      "published": "2026-08-11T16:39:41+00:00",
-      "summary": "In May, I published a runnable sample that put Azure API Management in front of an AI agent on Azure App Service. The agent framework was replaceable; the gateway was the contribution. APIM handled model access, token limits, semantic caching, token metrics, and the MCP traffic contract. I followed...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure Container Apps Sandboxes (Preview): Giving AI Agents a Safe Place to Work",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-sandboxes-preview-giving-ai-agents-a-safe/ba-p/4545975",
       "published": "2026-08-11T16:05:08+00:00",
@@ -1884,17 +1939,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Announcing public preview: Markdown for Agents in Azure App Service",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-public-preview-markdown-for-agents-in-azure-app/ba-p/4537023",
-      "published": "2026-08-03T19:46:29+00:00",
-      "summary": "Why Markdown for Agents? Web pages often contain scripts, styles, and HTML markup that are useful to browsers but add noise when the content is sent to an AI model. Markdown for Agents removes that extra markup and returns a smaller, text-focused response that is easier for agents to process and...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Microsoft Defender for Cloud Customer Newsletter",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-customer-newsletter/ba-p/4543596",
       "published": "2026-08-03T18:50:45+00:00",
@@ -2255,17 +2299,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "​​​​What’s new in Microsoft Security: July 2026",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/30/whats-new-in-microsoft-security-july-2026/",
-      "published": "2026-07-30T16:00:00+00:00",
-      "summary": "This month’s updates help security and IT teams secure their AI environments, use AI to defend, and strengthen the foundations that AI-powered operations depend on. The post ​​​​What’s new in Microsoft Security: July 2026 appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Alym Rayani",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -3047,17 +3080,6 @@
       "blogId": "azurearcblog",
       "author": "saniya0307",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Grounding Copilot Studio Agents with Azure AI Search and Foundry IQ",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/grounding-copilot-studio-agents-with-azure-ai-search-and-foundry/ba-p/4539337",
-      "published": "2026-07-22T18:00:00+00:00",
-      "summary": "An employee opens the HR agent and asks, \"How much PTO do I accrue each month?\" A few minutes later, someone else asks, \"Where is the official code of ethics policy?\" Those sound like the same problem. They are not. The first person needs a grounded answer they can understand. The second person...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "BrittanyPugh",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -4390,17 +4412,6 @@
       "author": "gurkansalk",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Fundamentals of Azure DevOps with SQL projects",
-      "link": "https://devblogs.microsoft.com/azure-sql/fundamentals-of-azure-devops-with-sql-projects/",
-      "published": "2026-07-02T13:54:53+00:00",
-      "summary": "Building automated pipelines with your SQL database projects enables you to build a rich CI/CD ecosystem to ensure that your application is being deployed with good quality code and at high confidence of success. SQL Database Projects are compatible with just about every automation environment...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Drew Skwiers-Koballa",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Find anomalies in Prometheus and OpenTelemetry metrics with Dynamic Thresholds (Preview)",
@@ -11179,17 +11190,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Golazo: A Framework for Streamlined Engineering",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/golazo-a-framework-for-streamlined-engineering/ba-p/4471142",
-      "published": "2025-11-20T16:37:24+00:00",
-      "summary": "We’re excited to announce the public open-source release of Golazo! Golazo is an open-source framework designed to help engineering teams work efficiently and transparently. It’s designed for real-world practicality by emphasizing design documentation before code, multiple peer reviews, visual...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "Ben Martens",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure CLI and Azure PowerShell Ignite 2025 Announcement",
       "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-cli-and-azure-powershell-ignite-2025-announcement/ba-p/4471182",
       "published": "2025-11-19T19:13:15+00:00",
@@ -12015,5 +12015,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure-related posts centered on developer productivity, infrastructure control, and enterprise governance. Key announcements included GA support for **vCore customization** to **disable multithreading** and configure **constrained cores**, plus GA for **BYON (Bring Your Own NIC)** in **Azure Site Recovery**, alongside tooling updates like **VS Code 1.134**, new **MSSQL extension for VS Code** features such as **SQL formatting** and **Azure SQL Database provisioning**, and **Terraform** releases tied to automated **Azure Landing Zone** deployments with **Azure DevOps**.\n\nA second major theme was platform and organizational management across **GitHub** and Azure ecosystems: posts covered **GitHub Copilot** workflows for beginners, tracking **organization-wide code quality trends**, and understanding **GitHub billing**, including **license management** and **fair AI credit controls**. Overall, the day’s news emphasized tighter governance, more customizable Azure infrastructure, and improved end-to-end developer experience across **GitHub, VS Code, Azure SQL, Terraform, and Azure DevOps**."
+  "summary": "Today’s Azure news was led by platform and infrastructure updates: Azure Compute and Azure Updates announced general availability of **vCore customization** options to **disable multithreading** and use **configurable constrained cores**, while Azure Site Recovery made **BYON (Bring Your Own NIC)** generally available. On the developer side, Microsoft pushed modernization and productivity with guidance to move from **SQL Server Express to Azure SQL Database Free Tier**, new **MSSQL extension for VS Code** features like **SQL formatting** and **Azure SQL provisioning**, **VS Code 1.134**, and an Azure DevOps + **Terraform** approach for automated **Azure Landing Zone** deployments.\n\nAI was another major theme, with **Azure AI Foundry** expanding model choice through new **DeepSeek** and **NVIDIA Nemotron** models, and **Azure App Service** introducing public preview support for **Markdown for Agents** alongside updates to **API Management AI Gateway** for App Service-hosted agents. Broader ecosystem highlights included GitHub posts on **Copilot for beginners**, **organization code quality trends**, and **billing / AI credit controls**, plus Microsoft Security highlighting its leadership position in **cloud workload protection platforms**."
 }
