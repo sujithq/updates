@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-08-19T09:20:52.359200+00:00",
-  "totalArticles": 1091,
+  "lastUpdated": "2026-08-19T12:18:06.167553+00:00",
+  "totalArticles": 1092,
   "articles": [
+    {
+      "title": "Visual Studio Code 1.135 (Insiders)",
+      "link": "https://code.visualstudio.com/updates/v1_135",
+      "published": "2026-08-25T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.135 (Insiders) Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Visual Studio Code 1.134",
+      "link": "https://code.visualstudio.com/updates/v1_134",
+      "published": "2026-08-19T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.134 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "v1.16.0-rc2",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-rc2",
+      "published": "2026-08-19T12:08:45+00:00",
+      "summary": "1.16.0-rc2 (August 19, 2026) NEW FEATURES: Terraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986) terraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298) Providers...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
     {
       "title": "Building a Fully Automated Azure Landing Zone Deployment Using Azure DevOps and Terraform",
       "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/building-a-fully-automated-azure-landing-zone-deployment-using/ba-p/4547956",
@@ -168,17 +201,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Visual Studio Code 1.134 (Insiders)",
-      "link": "https://code.visualstudio.com/updates/v1_134",
-      "published": "2026-08-18T17:00:00+00:00",
-      "summary": "Learn what's new in Visual Studio Code 1.134 (Insiders) Read the full article",
-      "blog": "Visual Studio Code",
-      "blogId": "vscode",
-      "author": "Visual Studio Code Team",
-      "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Azure DNS introduces Traffic Manager linked records (Public Preview)",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-dns-introduces-traffic-manager-linked-records-public/ba-p/4547112",
       "published": "2026-08-18T16:14:39+00:00",
@@ -198,28 +220,6 @@
       "blogId": "azurearcblog",
       "author": "Mason_Torres",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "[Now Generally Available] What-If for Azure Deployment Stacks",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/now-generally-available-what-if-for-azure-deployment-stacks/ba-p/4547614",
-      "published": "2026-08-18T15:20:36+00:00",
-      "summary": "We are proud to announce that what-if for Azure Deployment Stacks is now generally available, in all regions. To be precise about what this is, since the names are similar: what-if for standard template deployments has been around for a while. This release brings what-if to the deployment stacks...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "torreyt",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Announcing General Availability of Managed Instance on Azure App Service",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-general-availability-of-managed-instance-on-azure-app/ba-p/4541283",
-      "published": "2026-08-18T14:16:56+00:00",
-      "summary": "Today, we are thrilled to announce the General Availability (GA) of Managed Instance on Azure App Service. Following the tremendous response to our Public Preview announcement at Ignite 2025, we've spent the past nine months working closely with customers, partners, and the community to harden the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Gaurav-Seth",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3644,6 +3644,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "From AI Adoption to AI Governance - Using APIM as the Gateway for Azure AI Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/from-ai-adoption-to-ai-governance-using-apim-as-the-gateway-for/ba-p/4536247",
+      "published": "2026-07-14T08:19:35+00:00",
+      "summary": "Co-authored by Gaurav Jain (Senior Cloud Solution Architect @ Microsoft) and Abhishek Mittal (Cloud Solution Architect @ Microsoft) Enterprises move through three phases of AI adoption: evaluating models, building apps and agents, and operationalizing them in production. The first two are easier to...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Abhishek_Mittal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "The Visual Studio Dev/Test Benefit: Freedom to Build, Test, and Experiment in Azure",
       "link": "https://devblogs.microsoft.com/visualstudio/the-visual-studio-dev-test-benefit-freedom-to-build-test-and-experiment-in-azure/",
       "published": "2026-07-13T22:21:36+00:00",
@@ -4018,6 +4029,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Teamcenter on Oracle AI Database@Azure: Architecture, Validation, and Results",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/teamcenter-on-oracle-ai-database-azure-architecture-validation/ba-p/4534252",
+      "published": "2026-07-07T21:41:05+00:00",
+      "summary": "Overview Manufacturing organizations depend on Product Lifecycle Management (PLM) platforms to manage engineering data, product structures, digital twins, and collaborative design processes. As enterprises modernize their infrastructure, many continue to require advanced Oracle database...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "Sunita_AZ0708",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Golden Paths Are a Product. Treat Them Like One.",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/golden-paths-are-a-product-treat-them-like-one/ba-p/4533707",
       "published": "2026-07-07T18:26:04+00:00",
@@ -4378,17 +4400,6 @@
       "blogId": "azuresqlblog",
       "author": "Jerry Nixon",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "v1.16.0-alpha20260701",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260701",
-      "published": "2026-07-01T19:49:44+00:00",
-      "summary": "1.16.0-alpha20260701 (July 01, 2026) NEW FEATURES: Store PlannedPrivate data for providers (#37986) New store block in terraform_data that can handle ephemeral and sensitive values (#38298) Providers can now use nested blocks as computed values (#38305) import: add support for import blocks inside...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -10849,17 +10860,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Announcing Azure CycleCloud Workspace for Slurm: Version 2025.12.01 Release",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/announcing-azure-cyclecloud-workspace-for-slurm-version-2025-12/ba-p/4481953",
-      "published": "2026-01-07T09:22:19+00:00",
-      "summary": "We are excited to announce the latest release of Azure CycleCloud Workspace for Slurm, now available with the powerful features and enhancements introduced in CycleCloud 8.8.1. This update brings significant improvements to cluster management, monitoring, security, and platform support, empowering...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "xpillons",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure Maps: Understanding View vs. Routing Coordinates",
       "link": "https://techcommunity.microsoft.com/t5/azure-maps-blog/azure-maps-understanding-view-vs-routing-coordinates/ba-p/4483532",
       "published": "2026-01-06T20:27:42+00:00",
@@ -11916,6 +11916,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "GA: Enhanced Audit in Azure Security Baseline for Linux",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/ga-enhanced-audit-in-azure-security-baseline-for-linux/ba-p/4446170",
+      "published": "2025-09-02T16:00:00+00:00",
+      "summary": "We’re thrilled to announce the General Availability (GA) of the Enhanced Azure Security Baseline for Linux—a major milestone in cloud-native security and compliance. This release brings powerful, audit-only capabilities to over 1.6 million Linux devices across all Azure regions, helping enterprise...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "AmirB",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Azure Communication Services is now Generally Available in Azure Government",
       "link": "https://techcommunity.microsoft.com/t5/azure-communication-services/azure-communication-services-is-now-generally-available-in-azure/ba-p/4448034",
       "published": "2025-08-29T16:43:59+00:00",
@@ -12004,5 +12015,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure posts focus on cloud platform automation and developer governance. One article details a fully automated Azure Landing Zone deployment using **Azure DevOps** and **Terraform**, highlighting infrastructure-as-code for standardized environment provisioning, policy-driven setup, and scalable enterprise onboarding in Azure.\n\nThe second post centers on **GitHub billing and management**, covering practical controls for **license management** and **fair AI credit allocation**, signaling growing attention to cost governance and responsible use of AI-powered developer tooling within teams."
+  "summary": "Today’s Azure-related posts centered on developer tooling, infrastructure automation, and governance. Microsoft highlighted **Visual Studio Code 1.134** with new editor and workflow updates, **Terraform v1.16.0-rc2** as the latest release candidate for infrastructure-as-code users, and a detailed **Azure Landing Zone** deployment pattern that combines **Azure DevOps** and **Terraform** to fully automate enterprise environment setup.\n\nA second major theme was platform management and cost control: the Azure Dev Community post on **GitHub billing and management** focused on administering **licenses**, spending oversight, and introducing fair-use controls for **AI credits**, signaling growing attention to governance as AI features become more deeply embedded in developer platforms."
 }
