@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T09:21:54.205167+00:00",
+  "lastUpdated": "2026-08-20T12:19:49.459874+00:00",
   "totalArticles": 1092,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "From Detection to Action: Extending Azure Monitor Issues with Action Groups",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/from-detection-to-action-extending-azure-monitor-issues-with/ba-p/4548416",
+      "published": "2026-08-20T11:54:02+00:00",
+      "summary": "When the Azure Copilot Observability Agent detects a problem, correlates related alerts, investigates and creates an Azure Monitor issue, it does more than identify what happened. It creates a durable record that brings together investigation findings, severity, impacted resources, and recommended...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "ronitauber",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Browser automation with Pydantic-AI + Playwright",
@@ -33,6 +44,17 @@
       "blogId": "azuredevcommunityblog",
       "author": "Lee_Stott",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Who Ordered All These Tokens? Giving AI Spend a Name in FOCUS",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/who-ordered-all-these-tokens-giving-ai-spend-a-name-in-focus/ba-p/4547978",
+      "published": "2026-08-20T05:25:22+00:00",
+      "summary": "A pattern to steal, not a product to buy. Your CFO leans over and asks a reasonable question: \"How much are we spending on Copilot versus the agents our own team built?\" You open the cost report, confident. You find… a bucket called \"Other.\" Next to another bucket called \"SaaS.\" Somewhere in there...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "Dirk_Brinkmann",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -5800,17 +5822,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "PUBLIC PREVIEW - Azure Monitor - Collect Azure Resource Platform Logs at Scale with DCRs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-azure-monitor-collect-azure-resource-platform/ba-p/4525296",
-      "published": "2026-06-10T19:34:21+00:00",
-      "summary": "The Challenge of Platform Log Collection at Scale For many platform teams, Azure resource platform log collection starts simple—but becomes difficult to manage at enterprise scale. Imagine a team responsible for more than 8,000 Azure resources across 14 subscriptions. Every new resource needs a...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Mahesh_Sundaram",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Retirement: Azure Synapse Link for Azure Cosmos DB NoSQL",
       "link": "https://azure.microsoft.com/updates?id=558560",
       "published": "2026-06-10T17:00:06+00:00",
@@ -9562,17 +9573,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Understanding the Total Cost of Ownership",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/understanding-the-total-cost-of-ownership/ba-p/4419195",
-      "published": "2026-04-02T05:46:17+00:00",
-      "summary": "Whether you're just beginning your journey in Azure or are already managing workloads in the cloud, it's essential to ground your strategy in proven guidance. The Microsoft Cloud Adoption Framework for Azure offers a comprehensive set of best practices, documentation, and tools to help you align...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "MariaJoseF",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Orchestrating Intrusion Detection and Prevention Signature overrides in Azure Firewall Premium",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/orchestrating-intrusion-detection-and-prevention-signature/ba-p/4502213",
       "published": "2026-04-01T23:08:21+00:00",
@@ -12015,5 +12015,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure posts focused on practical AI agent engineering: one article showed how to build browser automation workflows using **Pydantic-AI** with **Playwright**, combining structured LLM outputs with web interaction for reliable task execution. The other highlighted production-readiness for real-time agents with **Voice Live** and **observability**, emphasizing monitoring, tracing, and operational visibility for deploying and managing **production agent systems** at scale."
+  "summary": "Today’s Azure posts centered on operationalizing AI and cloud governance: Azure Monitor now supports extending “Issues” with **Action Groups** so teams can trigger notifications and automated responses directly from observability workflows, while the FinOps team proposed a way to classify and track **AI token spend** in the **FOCUS** billing framework to make LLM costs more visible and governable. On the developer side, Azure highlighted practical agent-building patterns, including **browser automation with Pydantic-AI and Playwright** and a final installment on production agent systems covering **Voice Live** plus **observability** for real-time AI applications."
 }
