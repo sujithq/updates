@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T15:22:21.522798+00:00",
+  "lastUpdated": "2026-08-20T18:19:22.918244+00:00",
   "totalArticles": 1092,
   "articles": [
     {
@@ -11,6 +11,50 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Give your Copilot agents real tools, without hand-wiring MCP",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/give-your-copilot-agents-real-tools-without-hand-wiring-mcp/ba-p/4548254",
+      "published": "2026-08-20T18:08:19+00:00",
+      "summary": "You’re running agents in the GitHub Copilot app - maybe three at once, each on its own branch, each working a task while you steer. It’s a good way to work, right up until an agent needs to reach outside your repo. It needs to read a SharePoint library, file a Salesforce record, or check an Outlook...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[Launched] Generally Available: Summarized advertised gateway prefixes for route advertisement",
+      "link": "https://azure.microsoft.com/updates?id=569743",
+      "published": "2026-08-20T17:02:23+00:00",
+      "summary": "Summarized advertised gateway prefixes for route advertisement is now generally available. You can specify aggregated (summarized) prefixes for an Azure gateway to advertise to your on-premises networks, rather than having every individual virtual network",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing: Azure Copilot introduces direct access to agents",
+      "link": "https://azure.microsoft.com/updates?id=569685",
+      "published": "2026-08-20T16:08:02+00:00",
+      "summary": "Starting in August 2026, customers can engage directly with Azure Copilot agents to move more quickly from questions to action.With this update:Choose the right agent for your goal. Customers can select the specific agent best suited to their needs and ge",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Code scanning adds a mitigated alert dismissal reason",
+      "link": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
+      "published": "2026-08-20T15:14:31+00:00",
+      "summary": "You can now dismiss a code scanning alert with the reason Mitigated when a vulnerability remains in the code but external controls, such as a web application firewall or network… The post Code scanning adds a mitigated alert dismissal reason appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -803,17 +847,6 @@
       "blogId": "azuresqlblog",
       "author": "Jerry Nixon",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "License data quality improvements",
-      "link": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
-      "published": "2026-08-13T19:14:12+00:00",
-      "summary": "GitHub now uses package registries like npmjs.org and PyPI to determine license information for software components in the dependency graph. This improves the accuracy and completeness of the licenses shown… The post License data quality improvements appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -3047,17 +3080,6 @@
       "blogId": "azuregovernanceandmanagementblog",
       "author": "stevenbucher",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "📢 Announcing Built-In Knowledge for Azure Logic Apps",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-built-in-knowledge-for-azure-logic-apps/ba-p/4524601",
-      "published": "2026-07-23T19:26:42+00:00",
-      "summary": "Now in Public Preview Turn your documents into a ready-to-use knowledge base without custom RAG pipelines. Today at Microsoft Build 2026, we are announcing the Public Preview of built-in Knowledge for Azure Logic Apps. It is a managed knowledge layer that transforms your documents into a...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "DivSwa",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -7322,28 +7344,6 @@
       "link": "https://azure.microsoft.com/updates?id=563586",
       "published": "2026-06-02T19:00:47+00:00",
       "summary": "Microsoft Foundry adds MAI-Transcribe-1.5 to the model catalog in public preview, Microsoft's next-generation speech-to-text model. The release adds improved accuracy with noticeably lower word error rate on long-tail locales than the previous generation,",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: MAI-Image-2.5 in Microsoft Foundry model catalog",
-      "link": "https://azure.microsoft.com/updates?id=563581",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Microsoft Foundry adds MAI-Image-2.5 to the model catalog in public preview, the next generation of Microsoft's in-house image generation model. The release improves photorealism, prompt fidelity, and generation speed compared with MAI-Image-2, and is tun",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Serverless indexers in Azure AI Search",
-      "link": "https://azure.microsoft.com/updates?id=563531",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Azure AI Search now offers a serverless option for native indexers in public preview, removing the requirement to provision and manage indexer compute for ingestion workflows. Indexer execution scales with workload demand, so customers stop paying for idl",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -12015,5 +12015,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure and adjacent Microsoft ecosystem posts centered on **AI agents, observability, and governance/cost control**. On the AI side, Microsoft highlighted building a **SAFE Agent in Microsoft Foundry**, using **Pydantic-AI with Playwright** for browser automation, and improving production agent operations with **Voice Live** plus observability patterns; on the operations side, Azure emphasized extending **Azure Monitor Issues** with **Action Groups** to move from detection to automated response.\n\nA second major theme was **governance and accountability** across both code quality and AI spend. GitHub announced a **separate GitHub Actions path for GitHub Code Quality** and **audit log tracking for Code Quality enablement changes**, while the FinOps post proposed naming and tracking AI token consumption in **FOCUS** to better attribute and manage **LLM/AI costs**."
+  "summary": "Today’s Azure news centered on operationalizing AI agents and governance: Microsoft highlighted easier agent integration through Azure Copilot’s new direct access to agents, Azure integrations that let Copilot agents use real tools without hand-wired MCP, and new guidance for building SAFE agents in Microsoft Foundry, alongside community posts on browser automation with Pydantic-AI + Playwright and production observability for voice/agent systems. On the platform side, Azure announced general availability of summarized advertised gateway prefixes for route advertisement, Azure Monitor Issues can now trigger Action Groups to move from detection to response, and FinOps introduced FOCUS-based framing for tracking AI token spend.\n\nGitHub-related updates focused on software quality and security workflows, including a new mitigated alert dismissal reason for code scanning, a separate GitHub Actions path for GitHub Code Quality, and audit log tracking for GitHub Code Quality enablement changes."
 }
