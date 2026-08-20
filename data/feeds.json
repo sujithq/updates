@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T06:22:11.070581+00:00",
+  "lastUpdated": "2026-08-20T09:21:54.205167+00:00",
   "totalArticles": 1092,
   "articles": [
     {
@@ -14,14 +14,25 @@
       "sourceType": "rss"
     },
     {
-      "title": "Who Ordered All These Tokens? Giving AI Spend a Name in FOCUS",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/who-ordered-all-these-tokens-giving-ai-spend-a-name-in-focus/ba-p/4547978",
-      "published": "2026-08-20T05:25:22+00:00",
-      "summary": "A pattern to steal, not a product to buy. Your CFO leans over and asks a reasonable question: \"How much are we spending on Copilot versus the agents our own team built?\" You open the cost report, confident. You find… a bucket called \"Other.\" Next to another bucket called \"SaaS.\" Somewhere in there...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "Dirk_Brinkmann",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
+      "title": "Browser automation with Pydantic-AI + Playwright",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/browser-automation-with-pydantic-ai-playwright/ba-p/4547971",
+      "published": "2026-08-20T07:00:00+00:00",
+      "summary": "When we build agents, we often want to give them the ability to browse the web: open webpages, navigate from one page to the other, and read the content of a webpage. By combining Pydantic AI with the Playwright capability from Pydantic AI Harness, we can build agents that browse the web safely and...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Pamela_Fox",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Voice Live and Observability for Production Agent Systems Part 5/5",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/voice-live-and-observability-for-production-agent-systems-part-5/ba-p/4541922",
+      "published": "2026-08-20T07:00:00+00:00",
+      "summary": "This is the fifth and final post in our series on the Microsoft agent platform. We cover two critical production concerns: Azure AI Voice Live for accessible, hands-free agent interaction, and observability, the tracing, evaluation, and monitoring infrastructure that keeps autonomous systems...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -33,6 +44,17 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "Naomi Moneypenny",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Choosing the Right Agent in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/choosing-the-right-agent-in-microsoft-foundry/ba-p/4547827",
+      "published": "2026-08-19T22:52:13+00:00",
+      "summary": "Many discussions about Microsoft Foundry Agent Service eventually arrive at the same question: should this workload be implemented as a Prompt Agent or a Hosted Agent? While the documentation explains both options well, the architectural decision usually comes down to something much simpler: where...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "supriyas",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -2555,17 +2577,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Join us for our MCP Live! — A free livestream covering all things MCP",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/join-us-for-our-mcp-live-a-free-livestream-covering-all-things/ba-p/4537980",
-      "published": "2026-07-29T08:38:14+00:00",
-      "summary": "The Model Context Protocol (MCP) is the open standard for connecting AI models to tools and data. It was first introduced to the world by Anthropic in November 2024, and is now the most widely adopted standard in the world of Generative AI. You can now use MCP servers to connect agents to your data...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Now Generally Available: Built-in CIS Benchmark Auditing for Linux on Azure",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/now-generally-available-built-in-cis-benchmark-auditing-for/ba-p/4529819",
       "published": "2026-07-29T08:21:15+00:00",
@@ -2958,17 +2969,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "carlottacaste",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Design, test, and ship Foundry hosted agents from a canvas in GitHub Copilot App",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/design-test-and-ship-foundry-hosted-agents-from-a-canvas-in/ba-p/4539921",
-      "published": "2026-07-24T09:19:54+00:00",
-      "summary": "Building a Microsoft Foundry hosted agent has historically meant juggling multiple surfaces — looking up a model deployment in the Foundry portal, wiring toolboxes and skills by hand, copying an endpoint into your editor, then dropping to the CLI to test and deploy. That context-switching adds...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "junjieli",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -8242,17 +8242,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "How to Secure Azure Databricks without Public Exposure using WAF + Private Endpoints",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/how-to-secure-azure-databricks-without-public-exposure-using-waf/ba-p/4517721",
-      "published": "2026-05-11T23:37:12+00:00",
-      "summary": "While first thing that comes up to mind is that lets configure IP Access List with keeping Azure Databricks in Hybrid Connectivity. This approach is technically doable, but not the best approach for organizations which follows Zero Trust Architecture Framework. This is where organizations has to...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "FaizaanMerchant",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Introducing the Azure Resource Manager MCP Server!",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/introducing-the-azure-resource-manager-mcp-server/ba-p/4517521",
       "published": "2026-05-11T20:49:28+00:00",
@@ -9570,6 +9559,17 @@
       "blogId": "azurestorageblog",
       "author": "dmalbrough",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Understanding the Total Cost of Ownership",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/understanding-the-total-cost-of-ownership/ba-p/4419195",
+      "published": "2026-04-02T05:46:17+00:00",
+      "summary": "Whether you're just beginning your journey in Azure or are already managing workloads in the cloud, it's essential to ground your strategy in proven guidance. The Microsoft Cloud Adoption Framework for Azure offers a comprehensive set of best practices, documentation, and tools to help you align...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "MariaJoseF",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12015,5 +12015,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure blog coverage is centered on **AI cost governance**, with Microsoft highlighting a new FinOps-oriented approach to tracking **token-based AI spending** in the post **“Who Ordered All These Tokens? Giving AI Spend a Name in FOCUS (FinOps)”**. The key theme is making **LLM and generative AI usage costs** more visible and manageable by naming and standardizing AI token consumption within **FOCUS (FinOps Open Cost and Usage Specification)**, helping organizations better allocate, analyze, and optimize spend tied to AI services."
+  "summary": "Today’s Azure posts focused on practical AI agent engineering: one article showed how to build browser automation workflows using **Pydantic-AI** with **Playwright**, combining structured LLM outputs with web interaction for reliable task execution. The other highlighted production-readiness for real-time agents with **Voice Live** and **observability**, emphasizing monitoring, tracing, and operational visibility for deploying and managing **production agent systems** at scale."
 }
