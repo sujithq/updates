@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T03:35:58.537455+00:00",
+  "lastUpdated": "2026-08-20T06:22:11.070581+00:00",
   "totalArticles": 1092,
   "articles": [
     {
@@ -14,6 +14,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Who Ordered All These Tokens? Giving AI Spend a Name in FOCUS",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/who-ordered-all-these-tokens-giving-ai-spend-a-name-in-focus/ba-p/4547978",
+      "published": "2026-08-20T05:25:22+00:00",
+      "summary": "A pattern to steal, not a product to buy. Your CFO leans over and asks a reasonable question: \"How much are we spending on Copilot versus the agents our own team built?\" You open the cost report, confident. You find… a bucket called \"Other.\" Next to another bucket called \"SaaS.\" Somewhere in there...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "Dirk_Brinkmann",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Expanding Open Model Choice in Microsoft Foundry with New DeepSeek and NVIDIA Nemotron Models",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/expanding-open-model-choice-in-microsoft-foundry-with-new/ba-p/4547926",
       "published": "2026-08-19T23:48:50+00:00",
@@ -22,17 +33,6 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "Naomi Moneypenny",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Choosing the Right Agent in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/choosing-the-right-agent-in-microsoft-foundry/ba-p/4547827",
-      "published": "2026-08-19T22:52:13+00:00",
-      "summary": "Many discussions about Microsoft Foundry Agent Service eventually arrive at the same question: should this workload be implemented as a Prompt Agent or a Hosted Agent? While the documentation explains both options well, the architectural decision usually comes down to something much simpler: where...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "supriyas",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8242,6 +8242,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "How to Secure Azure Databricks without Public Exposure using WAF + Private Endpoints",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/how-to-secure-azure-databricks-without-public-exposure-using-waf/ba-p/4517721",
+      "published": "2026-05-11T23:37:12+00:00",
+      "summary": "While first thing that comes up to mind is that lets configure IP Access List with keeping Azure Databricks in Hybrid Connectivity. This approach is technically doable, but not the best approach for organizations which follows Zero Trust Architecture Framework. This is where organizations has to...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "FaizaanMerchant",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Introducing the Azure Resource Manager MCP Server!",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/introducing-the-azure-resource-manager-mcp-server/ba-p/4517521",
       "published": "2026-05-11T20:49:28+00:00",
@@ -9559,17 +9570,6 @@
       "blogId": "azurestorageblog",
       "author": "dmalbrough",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Understanding the Total Cost of Ownership",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/understanding-the-total-cost-of-ownership/ba-p/4419195",
-      "published": "2026-04-02T05:46:17+00:00",
-      "summary": "Whether you're just beginning your journey in Azure or are already managing workloads in the cloud, it's essential to ground your strategy in proven guidance. The Microsoft Cloud Adoption Framework for Azure offers a comprehensive set of best practices, documentation, and tools to help you align...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "MariaJoseF",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12014,5 +12014,6 @@
       "feedUrl": "https://azure.microsoft.com/en-us/blog/product/azure-functions/feed/",
       "sourceType": "rss"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage is centered on **AI cost governance**, with Microsoft highlighting a new FinOps-oriented approach to tracking **token-based AI spending** in the post **“Who Ordered All These Tokens? Giving AI Spend a Name in FOCUS (FinOps)”**. The key theme is making **LLM and generative AI usage costs** more visible and manageable by naming and standardizing AI token consumption within **FOCUS (FinOps Open Cost and Usage Specification)**, helping organizations better allocate, analyze, and optimize spend tied to AI services."
 }
