@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T18:20:27.254443+00:00",
+  "lastUpdated": "2026-08-24T21:17:10.589844+00:00",
   "totalArticles": 1090,
   "articles": [
     {
@@ -11,6 +11,50 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Your alt text passes automated checks. That doesn’t mean it’s any good.",
+      "link": "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/",
+      "published": "2026-08-24T20:56:32+00:00",
+      "summary": "We built a plugin for the GitHub Accessibility Scanner to make sure your alt text is actually accessible. Here's how it works. The post Your alt text passes automated checks. That doesn’t mean it’s any good. appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Taarik Ashenafi",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing: Extended Support for Azure Database for PostgreSQL Flexible Server",
+      "link": "https://azure.microsoft.com/updates?id=569526",
+      "published": "2026-08-24T19:15:05+00:00",
+      "summary": "Extended Support for Azure Database for PostgreSQL Flexible Server helps you maintain secure, supported workloads while transitioning to newer PostgreSQL versions. With access to critical security updates, critical bug fixes, and technical support for eli",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "From dotnet run to Foundry Hosted Agent in 3 lines of C#",
+      "link": "https://devblogs.microsoft.com/dotnet/from-dotnet-run-to-foundry-hosted-agent-in-3-lines-of-csharp/",
+      "published": "2026-08-24T19:00:00+00:00",
+      "summary": "You built an agent with Microsoft Agent Framework and it works great on your machine. Now what? Turns out deploying it to production takes 1 NuGet package, 3 lines of C#, and 2 commands. Let's do it. The post From dotnet run to Foundry Hosted Agent in 3 lines of C# appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Bruno Capuano",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: eBPF host routing in Advanced Container Networking Services for AKS",
+      "link": "https://azure.microsoft.com/updates?id=569873",
+      "published": "2026-08-24T18:36:01+00:00",
+      "summary": "eBPF Host Routing in Advanced Container Networking Services for Azure Kubernetes Service (AKS) is now generally available. eBPF Host Routing improves Kubernetes networking performance by moving packet forwarding and routing decisions directly into the Lin",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -56,17 +100,6 @@
       "author": "Theo van Kraay",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Building Production-Ready AI Agents in Microsoft Foundry: 10 Lessons Learned",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/building-production-ready-ai-agents-in-microsoft-foundry-10/ba-p/4544174",
-      "published": "2026-08-24T14:00:00+00:00",
-      "summary": "A Real-World Scenario Imagine a customer support agent that answers invoice questions. During testing, everything works perfectly. But in production: The Finance API occasionally times out. The knowledge base contains outdated information. Tool calls fail during peak traffic. Token consumption...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "SURENDRATANNEERU1",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
@@ -1376,17 +1409,6 @@
       "author": "JonButler",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "From coder to orchestrator: How agents shift the role of a developer",
-      "link": "https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/",
-      "published": "2026-08-11T18:38:17+00:00",
-      "summary": "Developers are owning more of the delivery system around code, not just code itself. Join us during GitHub Universe to meet other devs, learn something new, and explore what's next. The post From coder to orchestrator: How agents shift the role of a developer appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Natalie Guevara",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": ".NET 11 Preview 7 is now available!",
@@ -2786,17 +2808,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Announcing v2.0 of the official MCP C# SDK",
-      "link": "https://devblogs.microsoft.com/dotnet/announcing-v20-of-the-official-mcp-csharp-sdk/",
-      "published": "2026-07-28T22:00:00+00:00",
-      "summary": "MCP C# SDK v2.0 implements the 2026-07-28 specification with a stateless-first protocol, standardized HTTP headers, and Multi Round-Trip Requests for interactive tools, all while staying backward compatible. The post Announcing v2.0 of the official MCP C# SDK appeared first on .NET Blog.",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": "Jeff Handley",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Surprise AI bill? GitHub Billing controls to the rescue!",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/surprise-ai-bill-github-billing-controls-to-the-rescue/ba-p/4541295",
       "published": "2026-07-28T19:57:24+00:00",
@@ -3135,6 +3146,17 @@
       "blogId": "azuredevcommunityblog",
       "author": "carlottacaste",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Post-Stream Refinement is now generally available in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/post-stream-refinement-is-now-generally-available-in-microsoft/ba-p/4540174",
+      "published": "2026-07-23T21:29:47+00:00",
+      "summary": "When we introduced Post-Stream Refinement in public preview earlier this year, it closed the oldest trade-off in real-time speech: you could finally keep instant streaming results and get a highly accurate final transcript, with no penalty to first-token latency. A second recognition pass runs in...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "SolarRezaei",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -7333,28 +7355,6 @@
       "link": "https://azure.microsoft.com/updates?id=563616",
       "published": "2026-06-02T19:00:47+00:00",
       "summary": "Microsoft Foundry refreshes the Foundry Memory public preview with a redesigned storage model, new retrieval controls, and tighter integration with the Foundry Agent Service tool surface. Agents using Memory can now write, search, and update user-scoped a",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Purview admin access auditing for sensitivity-labeled content in Azure AI Search",
-      "link": "https://azure.microsoft.com/updates?id=563606",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Azure AI Search adds Microsoft Purview admin access auditing for sensitivity-labeled content in public preview. Admin operations that touch Purview-labeled documents inside Azure AI Search, knowledge retrieval, and Foundry IQ knowledge bases now flow into",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Public Preview: Hosted Agents in Microsoft Foundry Agent Service",
-      "link": "https://azure.microsoft.com/updates?id=563596",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Microsoft Foundry Agent Service reaches preview for Hosted Agents, the container-based runtime that lets developers bring their own agent code in any framework and deploy it to Microsoft-managed infrastructure. Each Hosted Agent runs in a per-session VM-i",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -11993,5 +11993,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts center on platform lifecycle updates, security hardening, and building production-grade AI applications. Microsoft announced that support for **Node.js 22 LTS** on Azure ends **April 30, 2027**, made **Application Gateway WAF**’s customizable **block response code and body** generally available, and previewed new language capabilities in **C# 15** for .NET developers.\n\nA second major theme is enterprise AI architecture: Microsoft highlighted using **Azure Cosmos DB** to power long-term memory in **Foundry Agent Service**, and shared practical guidance from **Azure AI Foundry** on deploying production-ready AI agents, emphasizing lessons around reliability, orchestration, and real-world operational readiness."
+  "summary": "Today’s Azure news centered on platform lifecycle updates, cloud-native networking/security, and AI developer tooling. Key announcements included **extended support for Azure Database for PostgreSQL Flexible Server**, **general availability of eBPF host routing in Advanced Container Networking Services for AKS**, **GA of custom block response code/body for Application Gateway WAF**, and a **Node.js 22 LTS retirement notice** ending support on **April 30, 2027**.\n\nOn the developer side, Microsoft highlighted faster AI app workflows with **Foundry Hosted Agent** integration in **C#**, new language capabilities in **C# 15 preview**, and how **Azure Cosmos DB** powers memory for **Foundry Agent Service**. The roundup also included a GitHub accessibility reminder that passing automated checks isn’t enough for **alt text quality**, underscoring continued emphasis on responsible developer experience."
 }
