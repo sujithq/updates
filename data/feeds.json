@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T15:26:58.850908+00:00",
+  "lastUpdated": "2026-08-24T18:20:27.254443+00:00",
   "totalArticles": 1090,
   "articles": [
     {
@@ -11,6 +11,50 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Retirement: Support for Node 22 LTS ends on April 30, 2027",
+      "link": "https://azure.microsoft.com/updates?id=567334",
+      "published": "2026-08-24T17:30:43+00:00",
+      "summary": "On April 30 2027, support for Node 22 LTS will end. Your apps that are hosted on App Service will continue to run, but security updates will no longer be available, and we’ll no longer provide customer service for Node 22 LTS. Required action: To avoid po",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Custom block response code and body for Application Gateway WAF",
+      "link": "https://azure.microsoft.com/updates?id=569504",
+      "published": "2026-08-24T17:25:03+00:00",
+      "summary": "Announcing the General Availability of custom block response code and body for WAF integrated with Application Gateway Azure WAF integrated with Application Gateway now supports customizable response status codes and bodies for blocked requests, enabling",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Explore new features available in C# 15 preview",
+      "link": "https://devblogs.microsoft.com/dotnet/explore-csharp-15/",
+      "published": "2026-08-24T17:00:00+00:00",
+      "summary": "C# 15 ships with .NET 11. It adds union types, closed hierarchies, a preview of the updated unsafe model, and a few smaller changes that remove everyday ceremony. The post Explore new features available in C# 15 preview appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Bill Wagner",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Powering Memory in Foundry Agent Service, with Azure Cosmos DB",
+      "link": "https://devblogs.microsoft.com/cosmosdb/powering-memory-in-foundry-agent-service-with-azure-cosmos-db/",
+      "published": "2026-08-24T16:04:43+00:00",
+      "summary": "Move from a locally composed memory-enabled agent to a deployed Foundry Agent Service agent, with keyless Azure infrastructure and an interactive browser sample. In Native Agent Memory for Microsoft Agent Framework, Powered by Azure Cosmos DB, we introduced CosmosMemoryContextProvider: a Microsoft...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Theo van Kraay",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
     },
     {
@@ -2984,17 +3028,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Analyze MSBuild Binary Logs with Copilot in VS Code",
-      "link": "https://devblogs.microsoft.com/dotnet/msbuild-binlog-analyzer-vscode/",
-      "published": "2026-07-27T17:00:00+00:00",
-      "summary": "Meet the MSBuild Binlog Analyzer for VS Code - a Copilot-powered way to read MSBuild binary logs, explain and fix build failures with one click, compare builds, and catch regressions, backed by the Microsoft.AITools.BinlogMcp MCP server. The post Analyze MSBuild Binary Logs with Copilot in VS Code...",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": "Yuliia Kovalova, Jan Krivanek",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[Launched] Generally Available: HTTP header insertion in Azure Firewall",
       "link": "https://azure.microsoft.com/updates?id=568115",
       "published": "2026-07-27T16:54:36+00:00",
@@ -5127,17 +5160,6 @@
       "author": "aarthisk",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "How to Use Deep Agents with Azure Cosmos DB – Plan, act, and verify against operational data",
-      "link": "https://devblogs.microsoft.com/cosmosdb/deep-agents-to-plan-act-verify-against-operational-data/",
-      "published": "2026-06-22T13:21:18+00:00",
-      "summary": "Deep Agents is an agent harness built on LangGraph, for agents that need to work through a task over many steps instead of a single LLM call. The agent runs tools, looks at the results, and uses that to pick the next one, keeping a todo list as it goes. On top of that loop […] The post How to Use...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Abhishek Gupta",
-      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Retirement of Azure DevOps issuer in Workload identity federation service connections",
@@ -7333,28 +7355,6 @@
       "link": "https://azure.microsoft.com/updates?id=563596",
       "published": "2026-06-02T19:00:47+00:00",
       "summary": "Microsoft Foundry Agent Service reaches preview for Hosted Agents, the container-based runtime that lets developers bring their own agent code in any framework and deploy it to Microsoft-managed infrastructure. Each Hosted Agent runs in a per-session VM-i",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Purview sensitivity labels in Azure AI Search knowledge sources",
-      "link": "https://azure.microsoft.com/updates?id=563591",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Azure AI Search adds Microsoft Purview sensitivity label support to knowledge sources in public preview. Labels applied at the source system flow through ingestion into Azure AI Search and into the knowledge bases that ground Foundry agents and copilots,",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: MAI-Transcribe-1.5 in Microsoft Foundry model catalog",
-      "link": "https://azure.microsoft.com/updates?id=563586",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Microsoft Foundry adds MAI-Transcribe-1.5 to the model catalog in public preview, Microsoft's next-generation speech-to-text model. The release adds improved accuracy with noticeably lower word error rate on long-tail locales than the previous generation,",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -11993,5 +11993,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure coverage focused on operationalizing enterprise AI with **Microsoft Foundry / Azure AI Foundry**, especially the hard-won practices for taking **AI agents** from prototype to production. The key themes were **production readiness, reliability, governance, observability, and iteration**, with the post on **“Building Production-Ready AI Agents in Microsoft Foundry: 10 Lessons Learned”** emphasizing concrete guidance for deploying and managing real-world agentic applications on Microsoft’s AI platform rather than introducing a brand-new product launch."
+  "summary": "Today’s Azure posts center on platform lifecycle updates, security hardening, and building production-grade AI applications. Microsoft announced that support for **Node.js 22 LTS** on Azure ends **April 30, 2027**, made **Application Gateway WAF**’s customizable **block response code and body** generally available, and previewed new language capabilities in **C# 15** for .NET developers.\n\nA second major theme is enterprise AI architecture: Microsoft highlighted using **Azure Cosmos DB** to power long-term memory in **Foundry Agent Service**, and shared practical guidance from **Azure AI Foundry** on deploying production-ready AI agents, emphasizing lessons around reliability, orchestration, and real-world operational readiness."
 }
