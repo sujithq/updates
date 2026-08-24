@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T12:20:24.280507+00:00",
+  "lastUpdated": "2026-08-24T15:26:58.850908+00:00",
   "totalArticles": 1090,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Building Production-Ready AI Agents in Microsoft Foundry: 10 Lessons Learned",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/building-production-ready-ai-agents-in-microsoft-foundry-10/ba-p/4544174",
+      "published": "2026-08-24T14:00:00+00:00",
+      "summary": "A Real-World Scenario Imagine a customer support agent that answers invoice questions. During testing, everything works perfectly. But in production: The Finance API occasionally times out. The knowledge base contains outdated information. Tool calls fail during peak traffic. Token consumption...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "SURENDRATANNEERU1",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
@@ -3091,17 +3102,6 @@
       "blogId": "azuredevcommunityblog",
       "author": "carlottacaste",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Post-Stream Refinement is now generally available in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/post-stream-refinement-is-now-generally-available-in-microsoft/ba-p/4540174",
-      "published": "2026-07-23T21:29:47+00:00",
-      "summary": "When we introduced Post-Stream Refinement in public preview earlier this year, it closed the oldest trade-off in real-time speech: you could finally keep instant streaming results and get a highly accurate final transcript, with no penalty to first-token latency. A second recognition pass runs in...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "SolarRezaei",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -11992,5 +11992,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremapsblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure coverage focused on operationalizing enterprise AI with **Microsoft Foundry / Azure AI Foundry**, especially the hard-won practices for taking **AI agents** from prototype to production. The key themes were **production readiness, reliability, governance, observability, and iteration**, with the post on **“Building Production-Ready AI Agents in Microsoft Foundry: 10 Lessons Learned”** emphasizing concrete guidance for deploying and managing real-world agentic applications on Microsoft’s AI platform rather than introducing a brand-new product launch."
 }
