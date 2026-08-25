@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T21:17:10.589844+00:00",
+  "lastUpdated": "2026-08-25T00:28:30.568785+00:00",
   "totalArticles": 1090,
   "articles": [
     {
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Unlocking the Power of AI for Every Developer in Visual Studio with Bring your Own Model",
+      "link": "https://devblogs.microsoft.com/visualstudio/unlocking-the-power-of-ai-for-every-developer-in-visual-studio-with-bring-your-own-model/",
+      "published": "2026-08-24T22:39:41+00:00",
+      "summary": "The best AI in Visual Studio is the AI you can bring with you. Developers don’t work in a single-model world anymore. You might reach for one model for everyday coding, another for a domain-specific problem, and an approved model for work that must stay within your organization’s governance...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Tanmayee Kamath",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
     },
     {
@@ -45,6 +56,17 @@
       "author": "Bruno Capuano",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Benchmark Retrieval Patterns for Copilot Studio and Foundry IQ",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/benchmark-retrieval-patterns-for-copilot-studio-and-foundry-iq/ba-p/4547920",
+      "published": "2026-08-24T19:00:00+00:00",
+      "summary": "Part 2 of a series. Part 1, Grounding Copilot Studio Agents with Azure AI Search and Foundry IQ, defined five grounding patterns. This article gives you a reproducible way to compare them without mixing latency boundaries, billing units, or quality signals. Reference implementation, not a...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "BrittanyPugh",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "[Launched] Generally Available: eBPF host routing in Advanced Container Networking Services for AKS",
@@ -100,6 +122,39 @@
       "author": "Theo van Kraay",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Enabling A2A endpoint and Agent Card for a Hosted Agent",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/enabling-a2a-endpoint-and-agent-card-for-a-hosted-agent/ba-p/4546979",
+      "published": "2026-08-24T16:00:00+00:00",
+      "summary": "Building an agent shouldn't require you to reinvent platform capabilities. With Microsoft Foundry, hosted agents inherit essential capabilities such as authentication, ingress management, A2A transport, and discovery endpoints, freeing developers to focus on business logic and user value. This...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "srisatyakrishna5",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "When Does RL Actually Help Fine-Tuning? A Difficulty-Controlled Study on Structured Generation",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/when-does-rl-actually-help-fine-tuning-a-difficulty-controlled/ba-p/4535077",
+      "published": "2026-08-24T16:00:00+00:00",
+      "summary": "The uncomfortable question Reinforcement learning is often the finishing move of the modern fine-tuning stack: run SFT first, then add RL (GRPO, PPO, DPO) to squeeze out the last few points. In practice the return is wildly inconsistent — sometimes a real jump, sometimes nothing after a burned GPU...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "shihyaolin",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Building Production-Ready AI Agents in Microsoft Foundry: 10 Lessons Learned",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/building-production-ready-ai-agents-in-microsoft-foundry-10/ba-p/4544174",
+      "published": "2026-08-24T14:00:00+00:00",
+      "summary": "A Real-World Scenario Imagine a customer support agent that answers invoice questions. During testing, everything works perfectly. But in production: The Finance API occasionally times out. The knowledge base contains outdated information. Tool calls fail during peak traffic. Token consumption...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "SURENDRATANNEERU1",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
@@ -1906,17 +1961,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "When Does RL Actually Help Fine-Tuning? A Difficulty-Controlled Study on Structured Generation",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/when-does-rl-actually-help-fine-tuning-a-difficulty-controlled/ba-p/4535077",
-      "published": "2026-08-05T17:11:08+00:00",
-      "summary": "The uncomfortable question Reinforcement learning is often the finishing move of the modern fine-tuning stack: run SFT first, then add RL (GRPO, PPO, DPO) to squeeze out the last few points. In practice the return is wildly inconsistent — sometimes a real jump, sometimes nothing after a burned GPU...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "shihyaolin",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing Public Preview - Azure Private Link over IPv6",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/announcing-public-preview-azure-private-link-over-ipv6/ba-p/4543978",
       "published": "2026-08-05T17:06:27+00:00",
@@ -2852,17 +2896,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Introducing Kimi K3 through Fireworks AI on Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-kimi-k3-through-fireworks-ai-on-microsoft-foundry/ba-p/4540187",
-      "published": "2026-07-28T17:34:17+00:00",
-      "summary": "Need to process entire codebases, lengthy legal documents, or hours of meeting transcripts in a single prompt? Kimi K3's 1 million-token context window—one of the largest available—is now deployable on Microsoft Foundry through Fireworks AI. Here's what that massive context means for your...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "davevoutila",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Microsoft is headed to VMware Explore 2026 in Las Vegas",
       "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/microsoft-is-headed-to-vmware-explore-2026-in-las-vegas/ba-p/4541643",
       "published": "2026-07-28T17:19:52+00:00",
@@ -3116,17 +3149,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Claude Opus 5 is available today in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-opus-5-is-available-today-in-microsoft-foundry/ba-p/4535068",
-      "published": "2026-07-24T17:21:19+00:00",
-      "summary": "Most AI handles one task well. The harder problem is the complex workflow that spans hours. Effective enterprise AI must be capable of managing complex workflows that require planning, adaptation, and persistence over extended periods. We're excited to announce that Claude Opus 5, Anthropic's most...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amar_badal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Native Agent Memory for Microsoft Agent Framework, Powered by Azure Cosmos DB",
       "link": "https://devblogs.microsoft.com/cosmosdb/native-agent-memory-for-microsoft-agent-framework-powered-by-azure-cosmos-db/",
       "published": "2026-07-24T11:00:40+00:00",
@@ -3146,17 +3168,6 @@
       "blogId": "azuredevcommunityblog",
       "author": "carlottacaste",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Post-Stream Refinement is now generally available in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/post-stream-refinement-is-now-generally-available-in-microsoft/ba-p/4540174",
-      "published": "2026-07-23T21:29:47+00:00",
-      "summary": "When we introduced Post-Stream Refinement in public preview earlier this year, it closed the oldest trade-off in real-time speech: you could finally keep instant streaming results and get a highly accurate final transcript, with no penalty to first-token latency. A second recognition pass runs in...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "SolarRezaei",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -4764,17 +4775,6 @@
       "author": "TomerBrand",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Visual Studio June Update – Track Your Usage, Trust Your Tools",
-      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-june-update-track-your-usage-trust-your-tools/",
-      "published": "2026-06-30T16:00:45+00:00",
-      "summary": "The June update includes a Copilot Usage window refresh with proactive alerts as you approach your limits, MCP servers now get a trust check before they run anything new. The post Visual Studio June Update – Track Your Usage, Trust Your Tools appeared first on Visual Studio Blog.",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Mark Downie",
-      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "The AI-first SOC: Copilot, UEBA, threat intelligence, and SOC optimization",
@@ -11993,5 +11993,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news centered on platform lifecycle updates, cloud-native networking/security, and AI developer tooling. Key announcements included **extended support for Azure Database for PostgreSQL Flexible Server**, **general availability of eBPF host routing in Advanced Container Networking Services for AKS**, **GA of custom block response code/body for Application Gateway WAF**, and a **Node.js 22 LTS retirement notice** ending support on **April 30, 2027**.\n\nOn the developer side, Microsoft highlighted faster AI app workflows with **Foundry Hosted Agent** integration in **C#**, new language capabilities in **C# 15 preview**, and how **Azure Cosmos DB** powers memory for **Foundry Agent Service**. The roundup also included a GitHub accessibility reminder that passing automated checks isn’t enough for **alt text quality**, underscoring continued emphasis on responsible developer experience."
+  "summary": "Today’s Azure/Microsoft developer update is centered on **Visual Studio Code 1.135 (Insiders)**, with the main themes being continued **AI-assisted development**, **editor productivity improvements**, and refinements to the **core coding experience** in VS Code. The announcement highlights the latest Insiders features and experiments across the editor, likely including updates tied to **GitHub Copilot**, code editing workflows, debugging, and extension/platform enhancements that preview what may land in a future stable VS Code release."
 }
