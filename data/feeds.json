@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T12:20:51.861553+00:00",
+  "lastUpdated": "2026-08-25T15:31:30.946626+00:00",
   "totalArticles": 1090,
   "articles": [
     {
@@ -11,6 +11,28 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Consume Dataverse MCP server in Microsoft Foundry-Bringing business data to AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/consume-dataverse-mcp-server-in-microsoft-foundry-bringing/ba-p/4548218",
+      "published": "2026-08-25T14:00:00+00:00",
+      "summary": "Introduction Building AI agents that can actually do things in your business systems—create records, update opportunities, trigger workflows—typically requires weeks of custom integration work. The Dataverse MCP Server changes that. In this tutorial, you'll connect a Microsoft Foundry agent to your...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "muafzal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "PowerToys 0.101 is here: Window Hopper, Insider updates, and Command Palette compact mode",
+      "link": "https://devblogs.microsoft.com/commandline/powertoys-0-101-is-here-window-hopper-insider-updates-and-command-palette-compact-mode/",
+      "published": "2026-08-25T13:24:02+00:00",
+      "summary": "We’re back with a fresh PowerToys release! PowerToys 0.101 introduces Window Hopper for quickly moving between windows from the same app, a redesigned update experience with Stable and Insider channels, and compact mode for Command Palette. This release also continues our WinUI 3 modernization,...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Niels Laute",
+      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
       "sourceType": "rss"
     },
     {
@@ -2806,17 +2828,6 @@
       "author": "Rachel Kang (SHE/HER)",
       "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Executive AI Avatar Platform on Azure: Frontier Intelligence Meets Fireworks AI Open-Source",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/executive-ai-avatar-platform-on-azure-frontier-intelligence/ba-p/4541301",
-      "published": "2026-07-29T14:00:00+00:00",
-      "summary": "The 2 a.m. Question Nobody Wants to Answer Twice It is the night before open enrollment closes. An employee in another time zone has a question about HSA eligibility. No HR representative is available, and the FAQ PDF she received three months ago is nowhere to be found. She does not want to submit...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Gana_Chandrasekaran",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Building and Deploying Microsoft Hosted Agents to Microsoft Teams",
@@ -10761,17 +10772,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "PowerToys 0.97 is here: a big Command Palette update and a new mouse utility",
-      "link": "https://devblogs.microsoft.com/commandline/powertoys-0-97-is-here-a-big-command-palette-update-and-a-new-mouse-utility/",
-      "published": "2026-01-20T11:22:46+00:00",
-      "summary": "PowerToys 0.97 is here! This release packs in a ton of improvements to Command Palette, introduces a brand-new mouse utility called CursorWrap, expands CLI support across several utilities, and includes plenty of other refinements. Get the update by checking for updates in PowerToys or heading to...",
-      "blog": "Windows Command Line",
-      "blogId": "commandline",
-      "author": "Niels Laute",
-      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Protect against React RSC CVE-2025-55182 with Azure Web Application Firewall (WAF)",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/protect-against-react-rsc-cve-2025-55182-with-azure-web/ba-p/4475291",
       "published": "2026-01-19T13:52:07+00:00",
@@ -11993,5 +11993,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related blog coverage is narrowly focused on the developer tooling side, with **Visual Studio Code 1.135 (Insiders)** as the featured update. The key theme is continued iteration on the **VS Code Insiders** build, signaling upcoming enhancements to the editor experience and developer productivity ahead of broader release availability.\n\nBecause only this single post was provided, there aren’t broader Azure platform announcements here around services like **Azure AI, Azure Kubernetes Service, or Azure DevOps** today; the notable technology specifically mentioned is **Visual Studio Code** in its **1.135 Insiders** release track."
+  "summary": "Today’s Microsoft developer news centers on AI integration, developer productivity, and desktop tooling. Azure AI Foundry highlighted how the Dataverse MCP server can connect business data from Microsoft Dataverse into AI agents in Foundry, while Visual Studio Code 1.135 Insiders introduced the latest preview updates for the editor, and PowerToys 0.101 added Window Hopper, Command Palette compact mode, and other Insider-driven usability improvements.\n\nThe biggest themes are tighter AI-to-business-data workflows and improved developer ergonomics across Microsoft’s stack. Specifically, the announcements span Azure AI Foundry for agentic AI with Dataverse, Visual Studio Code Insiders for upcoming coding features, and PowerToys enhancements for Windows power users."
 }
