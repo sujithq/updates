@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-08-26T03:42:26.284597+00:00",
-  "totalArticles": 1091,
+  "lastUpdated": "2026-08-26T06:24:40.845387+00:00",
+  "totalArticles": 1092,
   "articles": [
+    {
+      "title": "Cost Management with Azure Resource Manager MCP",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/cost-management-with-azure-resource-manager-mcp/ba-p/4550182",
+      "published": "2026-08-26T02:17:28+00:00",
+      "summary": "Today, we’re announcing new Cost Management capabilities in the Azure Resource Management (ARM) MCP server. A core set of cost tools is now available by default, making it easier for AI agents to bring cost context into Azure workflows without additional configuration. For more advanced scenarios,...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "demiajayi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
     {
       "title": "Maia 200: Software-defined dataflow and all-Ethernet networking for efficient inference on Azure",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/maia-200-software-defined-dataflow-and-all-ethernet-networking/ba-p/4548198",
@@ -23,6 +34,17 @@
       "author": "Mariko Wakabayashi",
       "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Retirement of Microsoft HPC Pack",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/retirement-of-microsoft-hpc-pack/ba-p/4550183",
+      "published": "2026-08-25T21:17:58+00:00",
+      "summary": "Overview Microsoft HPC Pack is a Windows‑based high‑performance computing (HPC) scheduler that enables customers to deploy, manage, and operate HPC workloads in on‑premises and hybrid environments. Since its original release, HPC Pack has supported a range of Windows‑centric HPC scenarios,...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "XinXin",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Rule insights dashboard generally available",
@@ -179,6 +201,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "Azure SRE Agent: Introducing Live Reports",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-introducing-live-reports/ba-p/4549732",
+      "published": "2026-08-25T15:00:00+00:00",
+      "summary": "Today we're introducing Live Reports in Azure SRE Agent, now in public preview. You describe a dashboard in chat; the agent builds it, and it refreshes every time you open it. Ops teams ask the same handful of questions every morning: What's burning right now? What landed overnight? Who's on call?...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "yashnisar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure SRE Agent VNet integration is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-vnet-integration-is-now-generally-available/ba-p/4549774",
+      "published": "2026-08-25T15:00:00+00:00",
+      "summary": "VNet integration for Azure SRE Agent is now generally available. You can route outbound agent traffic through your virtual network to access resources behind private endpoints, including databases, Azure Container Apps, Azure Kubernetes Service (AKS) API servers, and more. Traffic routed through...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Cary_Chai",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Try Azure SRE Agent with no always-on charges",
       "link": "https://devblogs.microsoft.com/blog/try-azure-sre-agent-with-no-always-on-charges/",
       "published": "2026-08-25T15:00:00+00:00",
@@ -188,6 +232,17 @@
       "author": "Nir Mashkowski",
       "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Consume Dataverse MCP server in Microsoft Foundry-Bringing business data to AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/consume-dataverse-mcp-server-in-microsoft-foundry-bringing/ba-p/4548218",
+      "published": "2026-08-25T14:00:00+00:00",
+      "summary": "Introduction Building AI agents that can actually do things in your business systems—create records, update opportunities, trigger workflows—typically requires weeks of custom integration work. The Dataverse MCP Server changes that. In this tutorial, you'll connect a Microsoft Foundry agent to your...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "muafzal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "PowerToys 0.101 is here: Window Hopper, Insider updates, and Command Palette compact mode",
@@ -2907,17 +2962,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Executive AI Avatar Platform on Azure: Frontier Intelligence Meets Fireworks AI Open-Source",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/executive-ai-avatar-platform-on-azure-frontier-intelligence/ba-p/4541301",
-      "published": "2026-07-29T14:00:00+00:00",
-      "summary": "The 2 a.m. Question Nobody Wants to Answer Twice It is the night before open enrollment closes. An employee in another time zone has a question about HSA eligibility. No HR representative is available, and the FAQ PDF she received three months ago is nowhere to be found. She does not want to submit...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Gana_Chandrasekaran",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Building and Deploying Microsoft Hosted Agents to Microsoft Teams",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-and-deploying-microsoft-hosted-agents-to-microsoft/ba-p/4540376",
       "published": "2026-07-29T09:02:11+00:00",
@@ -3743,17 +3787,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "How Microsoft 365 built a platform engineering layer on AKS to ship faster at global scale",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-microsoft-365-built-a-platform-engineering-layer-on-aks-to/ba-p/4537523",
-      "published": "2026-07-16T05:00:13+00:00",
-      "summary": "Challenge: Scaling success without increasing complexity Microsoft 365 runs a broad portfolio of services across global and sovereign clouds. At that scale, the platform has to do more than schedule workloads. It has to enforce security boundaries, meet enterprise compliance requirements, and...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Suma SaganeGowda",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Streaming and Batch Data Architectures with Microsoft Fabric to Azure Databricks",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/streaming-and-batch-data-architectures-with-microsoft-fabric-to/ba-p/4526166",
       "published": "2026-07-16T02:36:35+00:00",
@@ -3873,17 +3906,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Give your AI agent two memories with Azure App Service",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/give-your-ai-agent-two-memories-with-azure-app-service/ba-p/4537400",
-      "published": "2026-07-15T17:23:43+00:00",
-      "summary": "Agents feel continuous only when they can operate across two very different time horizons. They need the recent turns that make the current conversation coherent, and they need a smaller set of durable facts that can follow an authenticated user into a new conversation. This sample implements both...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Visual Studio Code 1.129",
@@ -10904,17 +10926,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Announcing Azure CycleCloud Workspace for Slurm: Version 2025.12.01 Release",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/announcing-azure-cyclecloud-workspace-for-slurm-version-2025-12/ba-p/4481953",
-      "published": "2026-01-07T09:22:19+00:00",
-      "summary": "We are excited to announce the latest release of Azure CycleCloud Workspace for Slurm, now available with the powerful features and enhancements introduced in CycleCloud 8.8.1. This update brings significant improvements to cluster management, monitoring, security, and platform support, empowering...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "xpillons",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure Maps: Understanding View vs. Routing Coordinates",
       "link": "https://techcommunity.microsoft.com/t5/azure-maps-blog/azure-maps-understanding-view-vs-routing-coordinates/ba-p/4483532",
       "published": "2026-01-06T20:27:42+00:00",
@@ -12003,5 +12014,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremapsblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog highlights **FinOps and cost governance** with **Cost Management integration via Azure Resource Manager MCP**, aimed at helping teams better monitor, manage, and optimize Azure spending through programmatic resource management workflows. The main theme is tighter alignment between **Azure Resource Manager** operations and **cost management practices**, giving organizations more actionable visibility and control over cloud costs."
 }
