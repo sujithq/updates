@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-26T16:07:46.726734+00:00",
-  "totalArticles": 1094,
+  "lastUpdated": "2026-08-26T19:28:31.532509+00:00",
+  "totalArticles": 1093,
   "articles": [
     {
       "title": "Visual Studio Code 1.136 (Insiders)",
@@ -14,6 +14,39 @@
       "sourceType": "rss"
     },
     {
+      "title": "Simpler, private connectivity between Azure and AWS with Azure Multicloud Interconnect",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/simpler-private-connectivity-between-azure-and-aws-with-azure/ba-p/4550556",
+      "published": "2026-08-26T18:52:40+00:00",
+      "summary": "Multicloud is no longer the exception — it is how most enterprises operate. Teams run analytics in one cloud and applications in another, place workloads to meet data-residency requirements, and increasingly move large volumes of data between clouds to train and serve AI models. Yet the network...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Sudha_Mahajan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Stop restricting the agent. Start restricting its environment.",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/stop-restricting-the-agent-start-restricting-its-environment/ba-p/4548726",
+      "published": "2026-08-26T18:48:33+00:00",
+      "summary": "Thanks to visagarwal​ for co-authoring this post. Cross-posted from: https://commandline.microsoft.com/azure-sre-agent-restricting-environment-ai-safety/ Azure SRE Agent gives an LLM tools, a code execution environment, and access to production resources. The first question most people ask is: “How...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "sanchitmehta",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Grok 4.6 comes to Microsoft Foundry Models: Built for long-horizon reasoning and complex workflows",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/grok-4-6-comes-to-microsoft-foundry-models-built-for-long/ba-p/4547578",
+      "published": "2026-08-26T17:04:55+00:00",
+      "summary": "The next wave of AI applications won't be defined by how quickly models answer questions. They'll be defined by how much work they can complete. Whether resolving repository issues, navigating codebases, generating engineering designs, or executing multi-step enterprise workflows, developers are...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "MaheshBalachandran",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Visual Studio Code 1.135",
       "link": "https://code.visualstudio.com/updates/v1_135",
       "published": "2026-08-26T17:00:00+00:00",
@@ -22,6 +55,94 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Bastion shareable link expiration",
+      "link": "https://azure.microsoft.com/updates?id=570020",
+      "published": "2026-08-26T16:57:56+00:00",
+      "summary": "Azure Bastion shareable link expiration is now generally available. When creating a shareable link, administrators can specify the date and time when the link should expire. After the configured expiration time, the link can no longer be used to connect t",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: IPv6 dual-stack support for Azure Bastion",
+      "link": "https://azure.microsoft.com/updates?id=570025",
+      "published": "2026-08-26T16:56:29+00:00",
+      "summary": "Azure Bastion support for IPv4 and IPv6 dual-stack configurations is now available in public preview. Customers can configure a newly created Bastion deployment with both IPv4 and IPv6 public IP addresses. IPv6 is supported for connections between the use",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Connect to AKS clusters using Azure Bastion",
+      "link": "https://azure.microsoft.com/updates?id=570030",
+      "published": "2026-08-26T16:55:25+00:00",
+      "summary": "Azure Bastion integration with Azure Kubernetes Service is now generally available. Customers can establish a secure tunnel from their local machine through Azure Bastion to an AKS cluster API server. The integration enables customers to use standard Kube",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Retirement of Microsoft HPC Pack",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/retirement-of-microsoft-hpc-pack/ba-p/4550183",
+      "published": "2026-08-26T16:54:57+00:00",
+      "summary": "Overview Microsoft HPC Pack is a Windows‑based high‑performance computing (HPC) scheduler that enables customers to deploy, manage, and operate HPC workloads in on‑premises and hybrid environments. Since its original release, HPC Pack has supported a range of Windows‑centric HPC scenarios,...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "XinXin",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[In preview] Public Preview: Introducing Live Reports for Azure SRE Agent",
+      "link": "https://azure.microsoft.com/updates?id=569690",
+      "published": "2026-08-26T16:52:23+00:00",
+      "summary": "We're excited to announce Live Reports, now in Public Preview for Azure SRE Agent. Live Reports help operations teams create dynamic operational views directly from SRE Agent conversations and keep them continuously up to date with the latest data from co",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure SRE Agent VNet Integration",
+      "link": "https://azure.microsoft.com/updates?id=569695",
+      "published": "2026-08-26T16:51:31+00:00",
+      "summary": "Azure SRE Agent VNet Integration is now generally available. VNet integration enables Azure SRE Agent to operate within your existing network controls, including Network Security Groups (NSGs), private DNS, and firewall policies, etc. With VNet support, t",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure SRE Agent 30-Day Trial",
+      "link": "https://azure.microsoft.com/updates?id=569760",
+      "published": "2026-08-26T16:50:22+00:00",
+      "summary": "New customers can now get started with Azure SRE Agent through a 30-day trial experience. During the trial, customers can create SRE Agents and connect them to your operational tools and data sources, and explore capabilities at their own pace without bas",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "When AI infrastructure becomes the target: Securing gateways and control points",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/26/when-ai-infrastructure-becomes-target-securing-gateways-control-points/",
+      "published": "2026-08-26T16:43:53+00:00",
+      "summary": "Microsoft Threat Intelligence examines attacks on exposed AI workloads, including LiteLLM gateway exploitation, credential harvesting, persistence, and cryptomining activity. The post When AI infrastructure becomes the target: Securing gateways and control points appeared first on Microsoft...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Security Research, Yash Gund and Sumith Maniath",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -36,6 +157,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Azure DNS + Traffic Manager linked records",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-dns-traffic-manager-linked-records/ba-p/4548221",
+      "published": "2026-08-26T15:59:25+00:00",
+      "summary": "Introduction Traffic Manager linked records creates a direct, managed link between an Azure DNS record set and a Traffic Manager profile. When a query arrives, Azure DNS evaluates the linked Traffic Manager profile internally and returns the appropriate endpoint response directly. For A and AAAA...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "atiy",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Copilot Code Reviews for Azure Repos (public preview)",
       "link": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos-public-preview/",
       "published": "2026-08-26T15:17:16+00:00",
@@ -45,6 +177,17 @@
       "author": "Dan Hellem",
       "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Maia 200: Software-defined dataflow and all-Ethernet networking for efficient inference on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/maia-200-software-defined-dataflow-and-all-ethernet-networking/ba-p/4548198",
+      "published": "2026-08-26T14:40:52+00:00",
+      "summary": "By Sherry Xu, Prashant Ranjan, Torsten Hoefler As we enter the era of frontier-scale intelligence, the economics of AI are increasingly determined not by peak compute performance but by how efficiently an entire system can generate tokens at scale. Production inference workloads are rapidly...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "SherryX19",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "v1.16.0",
@@ -80,6 +223,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Microsoft is headed to VMware Explore 2026 in Las Vegas",
+      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/microsoft-is-headed-to-vmware-explore-2026-in-las-vegas/ba-p/4541643",
+      "published": "2026-08-26T06:37:16+00:00",
+      "summary": "If you want to know about Azure, the work we are doing in partnership with VMware by Broadcom, or have a conversation about your VMware workloads, stop by the Microsoft booth! This year Microsoft will have several break-out sessions on a variety of topics where you will discover how Microsoft can...",
+      "blog": "Azure Migration",
+      "blogId": "azuremigrationblog",
+      "author": "KirstenMegahan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Cost Management with Azure Resource Manager MCP",
       "link": "https://techcommunity.microsoft.com/t5/finops-blog/cost-management-with-azure-resource-manager-mcp/ba-p/4550182",
       "published": "2026-08-26T02:17:28+00:00",
@@ -102,15 +256,15 @@
       "sourceType": "rss"
     },
     {
-      "title": "Maia 200: Software-defined dataflow and all-Ethernet networking for efficient inference on Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/maia-200-software-defined-dataflow-and-all-ethernet-networking/ba-p/4548198",
-      "published": "2026-08-25T22:49:33+00:00",
-      "summary": "By Sherry Xu, Prashant Ranjan, Torsten Hoefler As we enter the era of frontier-scale intelligence, the economics of AI are increasingly determined not by peak compute performance but by how efficiently an entire system can generate tokens at scale. Production inference workloads are rapidly...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "SherryX19",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
+      "title": "Kubernetes v1.37: Garhwal",
+      "link": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/",
+      "published": "2026-08-26T00:00:00+00:00",
+      "summary": "Editors: Arsh Sharma, Christopher Tineo, Kirti Goyal, Sophia Ugochukwu, Swathi Rao, Troy Connor Similar to previous releases, the release of Kubernetes v1.37 introduces new Stable, Beta, and Alpha features. The consistent delivery of high-quality releases underscores the strength of our development...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "How to evaluate LLMs before production",
@@ -122,17 +276,6 @@
       "author": "Mariko Wakabayashi",
       "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Retirement of Microsoft HPC Pack",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/retirement-of-microsoft-hpc-pack/ba-p/4550183",
-      "published": "2026-08-25T21:17:58+00:00",
-      "summary": "Overview Microsoft HPC Pack is a Windows‑based high‑performance computing (HPC) scheduler that enables customers to deploy, manage, and operate HPC workloads in on‑premises and hybrid environments. Since its original release, HPC Pack has supported a range of Windows‑centric HPC scenarios,...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "XinXin",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Rule insights dashboard generally available",
@@ -562,17 +705,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Stop restricting the agent. Start restricting its environment.",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/stop-restricting-the-agent-start-restricting-its-environment/ba-p/4548726",
-      "published": "2026-08-21T15:20:28+00:00",
-      "summary": "Thanks to visagarwal​ for co-authoring this post. Cross-posted from: https://commandline.microsoft.com/azure-sre-agent-restricting-environment-ai-safety/ Azure SRE Agent gives an LLM tools, a code execution environment, and access to production resources. The first question most people ask is: “How...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "sanchitmehta",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Azure Managed Redis Deployment Automation",
@@ -1199,17 +1331,6 @@
       "blogId": "azureobservabilityblog",
       "author": "Harel Broitman",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876",
-      "published": "2026-08-15T16:49:55+00:00",
-      "summary": "Microsoft's Cloud Architects: Eduardo Dos Santos eduardomdossantos​, Chris Walk cwalk​ and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints in Azure Databricks are not an Azure Databricks product issue. Azure Databricks does not own or reserve compute, it dynamically...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -2401,17 +2522,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "128 Seconds to disruption: Microsoft Defender stops ransomware at QNET",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/",
-      "published": "2026-08-04T17:54:04+00:00",
-      "summary": "Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Security Research, David Shiran and Ayelet Artzi",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[In preview] Public Preview: Azure DNS enables DNS-based load balancing through Traffic Manager integration",
       "link": "https://azure.microsoft.com/updates?id=565214",
       "published": "2026-08-04T17:04:55+00:00",
@@ -2896,17 +3006,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Introducing GPT-transcribe and GPT-live-transcribe in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-gpt-transcribe-and-gpt-live-transcribe-in-microsoft/ba-p/4541740",
-      "published": "2026-07-29T23:07:34+00:00",
-      "summary": "A transcription model hears “account number 8-4-7-2” but returns “account number eighty-four seventy-two.” A single error can break a downstream automation workflow. Developers building voice applications need transcription models that can handle real-world audio conditions, natural speech...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Dave_Jacobs",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "v1.17.0-alpha20260729",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260729",
       "published": "2026-07-29T19:38:27+00:00",
@@ -3113,17 +3212,6 @@
       "blogId": "azurearchitectureblog",
       "author": "prateekwrites",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Microsoft is headed to VMware Explore 2026 in Las Vegas",
-      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/microsoft-is-headed-to-vmware-explore-2026-in-las-vegas/ba-p/4541643",
-      "published": "2026-07-28T17:19:52+00:00",
-      "summary": "If you want to know about Azure, the work we are doing in partnership with VMware by Broadcom, or have a conversation about your VMware workloads, stop by the Microsoft booth! This year Microsoft will have several break-out sessions on a variety of topics where you will discover how Microsoft can...",
-      "blog": "Azure Migration",
-      "blogId": "azuremigrationblog",
-      "author": "KirstenMegahan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -7395,72 +7483,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Managed virtual network for evaluations in Microsoft Foundry",
-      "link": "https://azure.microsoft.com/updates?id=564402",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Microsoft Foundry makes managed virtual network support generally available for evaluations, so customers can run cloud evaluation jobs against models and agents that sit behind private endpoints. The Foundry-managed VNET handles outbound connectivity to",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: LLM Speech API in Azure AI Speech",
-      "link": "https://azure.microsoft.com/updates?id=564387",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Azure AI Speech makes the LLM Speech API generally available, delivering state-of-the-art LLM-powered transcription and translation for audio files, with multi-lingual support across 25 languages (90+ locales), improved accuracy, expanded regions, and enh",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Oracle schema conversion to Azure PostgreSQL in Visual Studio Code",
-      "link": "https://azure.microsoft.com/updates?id=563791",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "You can now convert Oracle database schema objects to Azure Database for PostgreSQL-compatible schema directly in the PostgreSQL extension for Visual Studio Code. The experience provides a project-based workflow for Oracle to Microsoft for PostgreSQL offe",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Pre-upgrade validation checks for Azure Database for PostgreSQL",
-      "link": "https://azure.microsoft.com/updates?id=563786",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "You can now proactively validate Major Version Upgrade (MVU) readiness for Azure Database for PostgreSQL flexible server before initiating the actual upgrade process. New pre-upgrade validation checks allow you to independently run upgrade compatibility v",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Microsoft Defender security assessments for Azure Database for PostgreSQL",
-      "link": "https://azure.microsoft.com/updates?id=563781",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "You can now use Microsoft Defender security assessments for Azure Database for PostgreSQL to continuously evaluate your database security posture and identify potential vulnerabilities and misconfigurations. This feature helps you strengthen your security",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Azure Database PostgreSQL - Flexible Server cross-tenant customer-managed keys",
-      "link": "https://azure.microsoft.com/updates?id=563776",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Azure Database for PostgreSQL - Flexible Server now supports cross-tenant customer-managed keys (CMK), in public preview, allowing you to encrypt your data at rest using an Azure Key Vault key that resides in a separate Microsoft Entra tenant from the dat",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Secure, Modern Access to Azure Files on macOS with MS Entra ID",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/secure-modern-access-to-azure-files-on-macos-with-ms-entra-id/ba-p/4524077",
       "published": "2026-06-02T18:55:03+00:00",
@@ -8008,17 +8030,6 @@
       "blogId": "linuxandopensourceblog",
       "author": "abbottkarl",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Metrics Filtering and Log Aggregation Now GA for Advanced Container Networking Services",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/metrics-filtering-and-log-aggregation-now-ga-for-advanced/ba-p/4516508",
-      "published": "2026-05-19T18:13:31+00:00",
-      "summary": "We are thrilled to announce that Advanced Container Networking Services (ACNS) for Azure Kubernetes Service (AKS) now delivers two powerful observability features in General Availability: container network metrics filtering and container network log filtering and aggregation. Together, these...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "chandanAggarwal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -9076,17 +9087,6 @@
       "author": "Kristen Womack",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Private subnets by default in Azure Virtual Networks: What changed and how to use NAT Gateway",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/private-subnets-by-default-in-azure-virtual-networks-what/ba-p/4513778",
-      "published": "2026-04-22T19:09:37+00:00",
-      "summary": "Azure is evolving to better support secure‑by‑default cloud architectures. Starting with API version 2025‑07‑01 (released after March 31, 2026), newly created virtual networks now default to using private subnets. This change removes the long‑standing platform behavior of automatically enabling...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "aimeelittleton",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "SELinux Volume Label Changes goes GA (and likely implications in v1.37)",
@@ -10772,17 +10772,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Cluster API v1.12: Introducing In-place Updates and Chained Upgrades",
-      "link": "https://kubernetes.io/blog/2026/01/27/cluster-api-v1-12-release/",
-      "published": "2026-01-27T16:00:00+00:00",
-      "summary": "Cluster API brings declarative management to Kubernetes cluster lifecycle, allowing users and platform teams to define the desired state of clusters and rely on controllers to continuously reconcile toward it. Similar to how you can use StatefulSets or Deployments in Kubernetes to manage a group of...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Building a Reliable Real Time Data Pipeline with Microsoft Fabric",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/building-a-reliable-real-time-data-pipeline-with-microsoft/ba-p/4489534",
       "published": "2026-01-27T01:34:03+00:00",
@@ -11066,6 +11055,17 @@
       "blogId": "modernizationbestpracticesblog",
       "author": "Ankur_Sinha",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "From Bronze to Gold: Data Quality Strategies for ETL in Microsoft Fabric",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/from-bronze-to-gold-data-quality-strategies-for-etl-in-microsoft/ba-p/4476303",
+      "published": "2025-12-09T08:12:15+00:00",
+      "summary": "Introduction Data fuels analytics, machine learning, and AI but only if it’s trustworthy. Most organizations struggle with inconsistent schemas, nulls, data drift, or unexpected upstream changes that silently break dashboards, models, and business logic. Microsoft Fabric provides a unified...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Sally_Dabbah",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -12024,18 +12024,7 @@
       "author": "Kyler Middleton",
       "feedUrl": "https://www.letsdodevops.com/feed",
       "sourceType": "rss"
-    },
-    {
-      "title": "Transforming Dynamics 365 Customer Data with Azure Maps | Inogic Guest Post",
-      "link": "https://techcommunity.microsoft.com/t5/azure-maps-blog/transforming-dynamics-365-customer-data-with-azure-maps-inogic/ba-p/4441187",
-      "published": "2025-08-25T16:27:05+00:00",
-      "summary": "Location Intelligence Matters in Customer Record Management CRM systems like Microsoft Dynamics 365 provide a centralized view of leads, accounts, and transactions. However, this data is typically presented in rows and columns, with little to no geographic context. This limits a user's ability to:...",
-      "blog": "Azure Maps",
-      "blogId": "azuremapsblog",
-      "author": "IoTGirl",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremapsblog&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure/Microsoft developer news centered on AI-assisted software engineering and cloud operations: Visual Studio Code 1.135 and the new Agent Host introduced more capable, persistent, and portable agent-based workflows, while the Visual Studio Debugger’s upgraded agentic workflow emphasized test-driven debugging. On the DevOps side, Microsoft announced public preview support for Copilot Code Reviews in Azure Repos, alongside FinOps-focused Cost Management via Azure Resource Manager MCP, while Azure SQL got a new Foundations video series with GitHub samples and GitHub expanded enterprise billing integrations through GitHub Apps; the Terraform v1.16.0 release rounded out the day with core infrastructure-as-code updates."
+  "summary": "Microsoft’s Azure updates centered on AI infrastructure, security, and hybrid operations: Microsoft introduced **Azure Multicloud Interconnect** for simpler private Azure–AWS connectivity, detailed **Maia 200**’s software-defined dataflow and all-Ethernet networking for efficient AI inference, and added **Grok 4.6** to **Microsoft Foundry Models** for long-horizon reasoning and complex workflows. Security and agent governance were also major themes, with guidance to restrict an AI agent’s environment rather than the agent itself, plus new protections for AI gateways and control points.\n\nOn the platform side, **Azure Bastion** added **GA shareable link expiration**, **GA connectivity to AKS clusters**, and **preview IPv6 dual-stack support**, while the **Azure SRE Agent** gained **Live Reports** in preview, **VNet Integration** in GA, and a **30-day trial**. Developer tooling also advanced with **Visual Studio Code 1.135**, a test-driven upgrade to the **Visual Studio Debugger Agentic Workflow**, **Copilot Code Reviews for Azure Repos** in public preview, **Azure DNS + Traffic Manager linked records**, and notice of the **retirement of Microsoft HPC Pack**."
 }
