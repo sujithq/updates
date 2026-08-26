@@ -1,7 +1,106 @@
 {
-  "lastUpdated": "2026-08-26T12:22:13.324207+00:00",
-  "totalArticles": 1091,
+  "lastUpdated": "2026-08-26T16:07:46.726734+00:00",
+  "totalArticles": 1094,
   "articles": [
+    {
+      "title": "Visual Studio Code 1.136 (Insiders)",
+      "link": "https://code.visualstudio.com/updates/v1_136",
+      "published": "2026-09-02T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.136 (Insiders) Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Visual Studio Code 1.135",
+      "link": "https://code.visualstudio.com/updates/v1_135",
+      "published": "2026-08-26T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.135 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "The Visual Studio Debugger Agentic Workflow Gets a Test-Driven Upgrade",
+      "link": "https://devblogs.microsoft.com/visualstudio/the-visual-studio-debugger-agentic-workflow-gets-a-test-driven-upgrade/",
+      "published": "2026-08-26T16:00:47+00:00",
+      "summary": "A few months ago, we introduced a new guided agentic workflow in the Visual Studio Debugger Agent designed to help you move from a bug report to a verified fix without spending your morning guessing where to begin. If you missed that announcement, check out Stop Hunting Bugs: Meet the New Visual...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Harshada Hole",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Copilot Code Reviews for Azure Repos (public preview)",
+      "link": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos-public-preview/",
+      "published": "2026-08-26T15:17:16+00:00",
+      "summary": "Today, we’re announcing the public preview of GitHub Copilot Code Review for Azure Repos, making the feature available to all Azure DevOps customers using the service. There’s no longer a need to sign up for early access. Customers can now enable Copilot Code Review for their Azure Repos...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Dan Hellem",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "v1.16.0",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0",
+      "published": "2026-08-26T13:05:28+00:00",
+      "summary": "1.16.0 (August 26, 2026) NEW FEATURES: Terraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986) terraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298) Providers can...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "New Azure SQL Foundations video series with GitHub samples",
+      "link": "https://devblogs.microsoft.com/azure-sql/new-azure-sql-foundations-video-series-with-github-samples/",
+      "published": "2026-08-26T12:37:45+00:00",
+      "summary": "Bob Ward and I recently released a series of videos, read more in the original blog post or go directly to the series on YouTube. The Azure SQL Database Foundations series are four videos that take you from your first Hyperscale database to AI features running against your own operational data. We...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "GitHub Apps can now access enterprise billing data",
+      "link": "https://github.blog/changelog/2026-08-26-github-apps-can-now-access-enterprise-billing-data",
+      "published": "2026-08-26T12:18:59+00:00",
+      "summary": "Enterprise owners can now grant a GitHub App access to enterprise billing data. When you create or configure a GitHub App, you can select the enterprise billing permission and choose… The post GitHub Apps can now access enterprise billing data appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Cost Management with Azure Resource Manager MCP",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/cost-management-with-azure-resource-manager-mcp/ba-p/4550182",
+      "published": "2026-08-26T02:17:28+00:00",
+      "summary": "Today, we’re announcing new Cost Management capabilities in the Azure Resource Management (ARM) MCP server. A core set of cost tools is now available by default, making it easier for AI agents to bring cost context into Azure workflows without additional configuration. For more advanced scenarios,...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "demiajayi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Introducing the Agent Host for persistent, portable agent sessions",
+      "link": "https://code.visualstudio.com/blogs/2026/08/26/agent-host-architecture",
+      "published": "2026-08-26T00:00:00+00:00",
+      "summary": "Explore how the VS Code Agent Host and AHP support multiple agent harnesses with durable, synchronized local and remote sessions. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Rob Lourens, Connor Peet, Brigit Murtaugh",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
     {
       "title": "Maia 200: Software-defined dataflow and all-Ethernet networking for efficient inference on Azure",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/maia-200-software-defined-dataflow-and-all-ethernet-networking/ba-p/4548198",
@@ -110,17 +209,6 @@
       "blogId": "githubchangelog",
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Visual Studio Code 1.135 (Insiders)",
-      "link": "https://code.visualstudio.com/updates/v1_135",
-      "published": "2026-08-25T17:00:00+00:00",
-      "summary": "Learn what's new in Visual Studio Code 1.135 (Insiders) Read the full article",
-      "blog": "Visual Studio Code",
-      "blogId": "vscode",
-      "author": "Visual Studio Code Team",
-      "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -583,17 +671,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Code scanning adds a mitigated alert dismissal reason",
-      "link": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
-      "published": "2026-08-20T15:14:31+00:00",
-      "summary": "You can now dismiss a code scanning alert with the reason Mitigated when a vulnerability remains in the code but external controls, such as a web application firewall or network… The post Code scanning adds a mitigated alert dismissal reason appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -3875,17 +3952,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "MSSQL Extension for VS Code: Shortcuts Configuration, Enhanced Results Grid Experience, and More",
-      "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-july2026/",
-      "published": "2026-07-15T17:42:31+00:00",
-      "summary": "The MSSQL extension for VS Code v1.44 continues to improve the SQL development experience with features that help you work faster and customize your workflow. In this release, we’re introducing the Public Preview of Shortcuts Configuration and an Enhanced Results Grid experience. Together, these...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Yo-Lei Chen",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[Launched] Generally Available: Expanding Azure Arc SQL Migration with SQL Server on Azure Virtual Machines",
       "link": "https://azure.microsoft.com/updates?id=567362",
       "published": "2026-07-15T17:35:31+00:00",
@@ -4004,17 +4070,6 @@
       "blogId": "kubernetes",
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Built-in Agent Skills Bring .NET and Azure Expertise into Visual Studio",
-      "link": "https://devblogs.microsoft.com/visualstudio/built-in-agent-skills-in-visual-studio/",
-      "published": "2026-07-14T17:30:57+00:00",
-      "summary": "Visual Studio now includes built-in Agent Skills, created by experts from the .NET and Azure teams, to help you better customize your agentic workflow and complete development tasks more efficiently, starting with the 18.8 Release. Agent Skills are reusable capabilities that enable your agent to...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Simona Liao, Wendy Breiding (SHE/HER), Yun Jung Choi",
-      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
     },
     {
@@ -4313,17 +4368,6 @@
       "author": "alexpozin",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "v1.15.8",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.15.8",
-      "published": "2026-07-08T17:45:09+00:00",
-      "summary": "1.15.8 (July 8, 2026) BUG FIXES: Fix terraform init error when installing providers sourced from a service-discovery alias advertised by the configured backend (such as localterraform.com) NOTES: command/init: Provider installation was changed to enable future enhancements in the area. This...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
     },
     {
       "title": "Let’s Learn GitHub Copilot App – Free Virtual Training Event",
@@ -5270,17 +5314,6 @@
       "author": "aarthisk",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Retirement of Azure DevOps issuer in Workload identity federation service connections",
-      "link": "https://devblogs.microsoft.com/devops/retirement-of-azure-devops-issuer-in-workload-identity-federation-service-connections/",
-      "published": "2026-06-22T09:35:34+00:00",
-      "summary": "We are announcing the deprecation of the Azure DevOps issuer in workload identity federation (WIF) service connections, with planned retirement on July 1, 2027. The Azure DevOps issuer uses the https://vstoken.dev.azure.com prefix in federated credentials. This change is part of Microsoft’s broader...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Eric van Wijk",
-      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Azure Firewall explicit proxy Migration Guide",
@@ -12003,5 +12036,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremapsblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure/Microsoft developer news centered on AI-assisted software engineering and cloud operations: Visual Studio Code 1.135 and the new Agent Host introduced more capable, persistent, and portable agent-based workflows, while the Visual Studio Debugger’s upgraded agentic workflow emphasized test-driven debugging. On the DevOps side, Microsoft announced public preview support for Copilot Code Reviews in Azure Repos, alongside FinOps-focused Cost Management via Azure Resource Manager MCP, while Azure SQL got a new Foundations video series with GitHub samples and GitHub expanded enterprise billing integrations through GitHub Apps; the Terraform v1.16.0 release rounded out the day with core infrastructure-as-code updates."
 }
