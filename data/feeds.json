@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T00:19:28.869428+00:00",
+  "lastUpdated": "2026-08-27T13:11:38.377812+00:00",
   "totalArticles": 1093,
   "articles": [
     {
@@ -11,6 +11,50 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Manage and retrieve credentials securely inside Browser Automation Tool (BAT) using Azure Key Vault",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/manage-and-retrieve-credentials-securely-inside-browser/ba-p/4550858",
+      "published": "2026-08-27T11:27:16+00:00",
+      "summary": "When do AI agents need a browser Enterprise AI agents are becoming increasingly capable of reasoning over data, calling APIs, and orchestrating workflows. Yet many business-critical systems still expose functionality only through a web interface. ERP systems, supplier portals, internal...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "AbhinavPremsekhar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure DevOps in the GitHub Copilot App",
+      "link": "https://devblogs.microsoft.com/devops/azure-devops-in-the-github-copilot-app/",
+      "published": "2026-08-27T11:24:17+00:00",
+      "summary": "The Azure DevOps plugin is now available for the GitHub Copilot app, allowing you to view and manage Azure DevOps pull requests and work items directly in the Copilot app. What you can do The initial release supports: View your work items and pull requests from My Work Open work items and pull...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Dan Hellem",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "v1.17.0-alpha20260827",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260827",
+      "published": "2026-08-27T10:30:11+00:00",
+      "summary": "1.17.0-alpha20260827 (August 27, 2026) NEW FEATURES: A new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290) ENHANCEMENTS: command/init: Enrich log messages with provider versions (#38918) command/login: display warning after...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Enterprise-managed settings now support autoUpdate for plugin marketplaces",
+      "link": "https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces",
+      "published": "2026-08-27T01:52:19+00:00",
+      "summary": "You can now opt individual plugin marketplaces into automatic updates by setting autoUpdate: true on an extraKnownMarketplaces entry in enterprise managed settings. Supported clients automatically check the marketplace and update… The post Enterprise-managed settings now support autoUpdate for...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -201,6 +245,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Maia 200: Software-defined dataflow and all-Ethernet networking for efficient inference on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/maia-200-software-defined-dataflow-and-all-ethernet-networking/ba-p/4548198",
+      "published": "2026-08-26T14:40:52+00:00",
+      "summary": "By Sherry Xu, Prashant Ranjan, Torsten Hoefler As we enter the era of frontier-scale intelligence, the economics of AI are increasingly determined not by peak compute performance but by how efficiently an entire system can generate tokens at scale. Production inference workloads are rapidly...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "SherryX19",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "v1.16.0",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0",
       "published": "2026-08-26T13:05:28+00:00",
@@ -276,17 +331,6 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Maia 200: Software-defined dataflow and all-Ethernet networking for efficient inference on Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/maia-200-software-defined-dataflow-and-all-ethernet-networking/ba-p/4548198",
-      "published": "2026-08-25T22:49:33+00:00",
-      "summary": "By Sherry Xu, Prashant Ranjan, Torsten Hoefler As we enter the era of frontier-scale intelligence, the economics of AI are increasingly determined not by peak compute performance but by how efficiently an entire system can generate tokens at scale. Production inference workloads are rapidly...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "SherryX19",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "How to evaluate LLMs before production",
@@ -749,17 +793,6 @@
       "author": "kevinguo",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Pinning saved views to the repository issues sidebar is generally available and more",
-      "link": "https://github.blog/changelog/2026-08-20-pin-projects-views-and-milestones-to-the-repository-sidebar",
-      "published": "2026-08-20T23:29:34+00:00",
-      "summary": "Pinning saved views to the repository issues sidebar You can now pin saved views⁠ to the repository issues sidebar, making the views you use most just one click away, even… The post Pinning saved views to the repository issues sidebar is generally available and more appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Browser automation with Pydantic-AI + Playwright",
@@ -1342,17 +1375,6 @@
       "blogId": "azureobservabilityblog",
       "author": "Harel Broitman",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876",
-      "published": "2026-08-15T16:49:55+00:00",
-      "summary": "Microsoft's Cloud Architects: Eduardo Dos Santos eduardomdossantos​, Chris Walk cwalk​ and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints in Azure Databricks are not an Azure Databricks product issue. Azure Databricks does not own or reserve compute, it dynamically...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3908,17 +3930,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "MCP Enterprise Authorization Is Here — What Entra and App Service Can Do Today",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/mcp-enterprise-authorization-is-here-what-entra-and-app-service/ba-p/4537433",
-      "published": "2026-07-16T14:31:39+00:00",
-      "summary": "A few weeks ago I wrote about what the latest MCP changes meant for scaling on Azure App Service. This time, the protocol change is about a different kind of scale: how an enterprise connects hundreds or thousands of employees to MCP servers without making every person authorize every server one at...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Visual Studio Administrator? Join our Private Marketplace Preview!",
       "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-administrator-join-our-private-marketplace-preview/",
       "published": "2026-07-16T14:00:58+00:00",
@@ -4524,17 +4535,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "v1.16.0-alpha20260708",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260708",
-      "published": "2026-07-08T09:19:38+00:00",
-      "summary": "1.16.0-alpha20260708 (July 08, 2026) NEW FEATURES: Store PlannedPrivate data for providers (#37986) New store block in terraform_data that can handle ephemeral and sensitive values (#38298) Providers can now use nested blocks as computed values (#38305) import: add support for import blocks inside...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "Golden Paths Are a Product. Treat Them Like One.",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/golden-paths-are-a-product-treat-them-like-one/ba-p/4533707",
       "published": "2026-07-07T18:26:04+00:00",
@@ -4852,17 +4852,6 @@
       "author": "yairgil",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Upcoming Change: NTLM Removal in Git (libcurl) – Impact to Azure DevOps Server Customers",
-      "link": "https://devblogs.microsoft.com/devops/upcoming-change-ntlm-removal-in-git-libcurl-impact-to-azure-devops-server-customers/",
-      "published": "2026-07-01T23:25:39+00:00",
-      "summary": "Overview In September 2026, NTLM support will be removed from libcurl, which is used by Git for HTTP(S) operations. As a result, Git operations over HTTPS against Azure DevOps Server (on-premises) will stop working for customers who rely on NTLM authentication. This change is part of a broader...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Gloridel Morales",
-      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Behind the Build with Gigamon: Enriching Microsoft Sentinel with Network-Derived Telemetry",
@@ -11069,6 +11058,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "From Bronze to Gold: Data Quality Strategies for ETL in Microsoft Fabric",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/from-bronze-to-gold-data-quality-strategies-for-etl-in-microsoft/ba-p/4476303",
+      "published": "2025-12-09T08:12:15+00:00",
+      "summary": "Introduction Data fuels analytics, machine learning, and AI but only if it’s trustworthy. Most organizations struggle with inconsistent schemas, nulls, data drift, or unexpected upstream changes that silently break dashboards, models, and business logic. Microsoft Fabric provides a unified...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Sally_Dabbah",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Defender for Identity health issues - Not Closing",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-identity/defender-for-identity-health-issues-not-closing/m-p/4476063#M4286",
       "published": "2025-12-08T15:09:42+00:00",
@@ -12025,5 +12025,6 @@
       "feedUrl": "https://www.letsdodevops.com/feed",
       "sourceType": "rss"
     }
-  ]
+  ],
+  "summary": "Today’s Azure-related updates centered on secure automation, AI-assisted developer workflows, and enterprise governance. Microsoft highlighted using **Azure Key Vault** with the **Browser Automation Tool (BAT)** to securely store and retrieve credentials in automation scenarios, while the **Azure DevOps** team announced availability in the **GitHub Copilot App**, extending Copilot-based access to DevOps context and workflows.\n\nThe broader ecosystem updates emphasized platform management and tooling: **Terraform v1.17.0-alpha20260827** signals ongoing infrastructure-as-code iteration, and **GitHub enterprise-managed settings** now support **`autoUpdate` for plugin marketplaces**, giving organizations tighter control over plugin rollout and maintenance."
 }
