@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T15:48:26.455897+00:00",
+  "lastUpdated": "2026-08-29T20:03:25.349932+00:00",
   "totalArticles": 1091,
   "articles": [
     {
@@ -12004,5 +12004,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts centered on three themes: **trustworthy AI**, **resilient data access**, and **active threat defense**. Microsoft highlighted a **verification framework for agentic AI** that stresses validating model outputs and tool use before taking action, announced native retry connection improvements in **SqlClient for Azure SQL/SQL Server** to make application connectivity more resilient, and detailed the **TerminalFix** intrusion campaign, where attackers used a **multistage infection chain** and a **reverse tunnel** for persistence and remote access.\n\nThe most concrete technology callouts were the focus on **agentic AI validation controls**, updated **SqlClient retry behavior** for database connection handling, and Microsoft Security’s analysis of a sophisticated campaign involving **reverse tunneling** techniques. Together, the posts emphasize Azure’s current priorities: making AI systems safer to operationalize, improving cloud database reliability, and strengthening detection of evolving attack tradecraft."
+  "summary": "Today’s Azure blogs centered on trustworthy AI, cloud data resiliency, and active cyberthreats. Microsoft highlighted a validation-first framework for agentic AI in Azure, emphasizing verification mechanisms to ensure agents only act on claims they can substantiate; on the data side, Azure SQL developers introduced newer **SqlClient** capabilities with built-in **native retry connection** behavior to improve application reliability.\n\nSecurity was the other major theme: Microsoft’s security team detailed the **TerminalFix** campaign, describing a **multistage intrusion** that establishes a **reverse tunnel** for attacker persistence and access, underscoring continued risks to enterprise environments and the need for stronger detection and response."
 }
