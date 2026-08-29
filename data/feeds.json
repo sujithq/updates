@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T11:50:46.861492+00:00",
+  "lastUpdated": "2026-08-29T15:48:26.455897+00:00",
   "totalArticles": 1091,
   "articles": [
     {
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Only believe what you can validate: a verification framework for agentic AI",
+      "link": "https://devblogs.microsoft.com/all-things-azure/only-believe-what-you-can-validate/",
+      "published": "2026-08-29T12:45:11+00:00",
+      "summary": "How to read this article This article picks up where my January piece left off. My catch phrase is still the same: “only believe what you can validate”. This article is about validation. If you are new to agentic AI (in modernization contexts), I would highly recommend reading The Realities of...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "jkordick",
+      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
       "sourceType": "rss"
     },
     {
@@ -9430,17 +9441,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "DevOps Playbook for the Agentic Era",
-      "link": "https://devblogs.microsoft.com/all-things-azure/agentic-devops-practices-principles-strategic-direction/",
-      "published": "2026-04-15T00:23:09+00:00",
-      "summary": "Practices, Principles, and Strategic Direction Software delivery has entered a new phase. AI agents are no longer confined to autocomplete suggestions in the editor. They are opening pull requests, generating code across multiple files, proposing infrastructure changes, responding to issues with...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "David Sanchez",
-      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[Launched] Update: Minimum billable object size for cooler storage tiers",
       "link": "https://azure.microsoft.com/updates?id=559756",
       "published": "2026-04-14T21:15:15+00:00",
@@ -12004,5 +12004,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts spotlighted two very different priorities: developer reliability and security threat intelligence. On the developer side, Azure SQL highlighted the new **SqlClient** capabilities for **native connection retry logic**, aimed at improving resiliency for apps connecting to **Azure SQL** without custom retry code; on the security side, Microsoft detailed the **TerminalFix** campaign, describing a **multistage intrusion** that deploys a **reverse tunnel** to maintain attacker access and evade defenses."
+  "summary": "Today’s Azure-related posts centered on three themes: **trustworthy AI**, **resilient data access**, and **active threat defense**. Microsoft highlighted a **verification framework for agentic AI** that stresses validating model outputs and tool use before taking action, announced native retry connection improvements in **SqlClient for Azure SQL/SQL Server** to make application connectivity more resilient, and detailed the **TerminalFix** intrusion campaign, where attackers used a **multistage infection chain** and a **reverse tunnel** for persistence and remote access.\n\nThe most concrete technology callouts were the focus on **agentic AI validation controls**, updated **SqlClient retry behavior** for database connection handling, and Microsoft Security’s analysis of a sophisticated campaign involving **reverse tunneling** techniques. Together, the posts emphasize Azure’s current priorities: making AI systems safer to operationalize, improving cloud database reliability, and strengthening detection of evolving attack tradecraft."
 }
