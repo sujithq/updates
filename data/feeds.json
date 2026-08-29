@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T23:44:58.150606+00:00",
+  "lastUpdated": "2026-08-29T04:24:40.642224+00:00",
   "totalArticles": 1091,
   "articles": [
     {
@@ -56,6 +56,17 @@
       "author": "erikbailey",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Kubernetes v1.37: Pod Certificates and Cluster Trust Bundles",
+      "link": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/",
+      "published": "2026-08-28T18:30:00+00:00",
+      "summary": "Pod Certificate / Cluster Trust Bundles Blog PostKubernetes brings a wealth of features that make it easy to run your production workloads securely and reliably. While aspects like scheduling, health checks and resource limits are probably at the front of your mind, one other important feature of...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "[Launched] Generally Available: Azure VM Image Builder in sovereign and air-gapped clouds",
@@ -10750,17 +10761,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Ingress NGINX: Statement from the Kubernetes Steering and Security Response Committees",
-      "link": "https://kubernetes.io/blog/2026/01/29/ingress-nginx-statement/",
-      "published": "2026-01-29T00:00:00+00:00",
-      "summary": "In March 2026, Kubernetes will retire Ingress NGINX, a piece of critical infrastructure for about half of cloud native environments. The retirement of Ingress NGINX was announced for March 2026, after years of public warnings that the project was in dire need of contributors and maintainers. There...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Announcing General Availability of Azure Da/Ea/Fasv7-series VMs based on AMD ‘Turin’ processors",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-general-availability-of-azure-da-ea-fasv7-series-vms/ba-p/4488627",
       "published": "2026-01-27T21:54:30+00:00",
@@ -12003,6 +12003,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure news was led by several infrastructure and security milestones: Azure Files CSI driver (SMB) now generally supports workload identity, Azure VM Image Builder reached GA in sovereign and air-gapped clouds, and Azure announced Confidential Live Migration for confidential VMs, extending maintenance and mobility capabilities for protected workloads. Azure Networking also detailed advertised gateway prefixes, signaling continued focus on hybrid networking control and route design.\n\nOn the developer tooling side, GitHub Copilot dominated updates with new Visual Studio features, weekly product changes, and upcoming policy and billing adjustments, while the Foundry Toolkit for VS Code received its August 2026 refresh, highlighting Microsoft’s ongoing investment in AI-assisted development across Visual Studio, VS Code, and GitHub-integrated workflows."
+  ]
 }
