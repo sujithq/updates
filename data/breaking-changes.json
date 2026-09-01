@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T08:53:26.012801+00:00",
+  "lastUpdated": "2026-09-01T13:25:50.786454+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -1342,6 +1342,39 @@
       "detected": "2026-08-26T08:53:26.012790+00:00",
       "published": "2026-08-25T21:17:58+00:00",
       "blog": "High Performance Computing"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=569711",
+      "title": "[In preview] Public Preview: Per-disk resiliency for Azure VMs",
+      "severity": "info",
+      "deadline": null,
+      "impact": "Preview VM disk resiliency behavior update; no customer action required",
+      "action": null,
+      "detected": "2026-09-01T13:25:50.786435+00:00",
+      "published": "2026-08-31T23:11:39+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://github.com/Azure/AKS/releases/tag/AppNet-2026-08-19",
+      "title": "AppNet 2026-08-19",
+      "severity": "critical",
+      "deadline": null,
+      "impact": "Retired AppNet versions are no longer supported for self-managed users",
+      "action": "Upgrade self-managed AppNet to a supported version immediately",
+      "detected": "2026-09-01T13:25:50.786448+00:00",
+      "published": "2026-08-31T20:41:07+00:00",
+      "blog": "Release notes from AKS"
+    },
+    {
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/model-migration-process-on-microsoft-foundry-and-azure-openai/ba-p/4541236",
+      "title": "Model Migration Process on Microsoft Foundry and Azure OpenAI",
+      "severity": "info",
+      "deadline": null,
+      "impact": "LLM models may retire; apps using Azure OpenAI/Foundry models must migrate",
+      "action": "Plan model migration testing and update code to newer model versions",
+      "detected": "2026-09-01T13:25:50.786451+00:00",
+      "published": "2026-08-31T20:00:00+00:00",
+      "blog": "Azure AI Foundry Blog"
     }
   ]
 }
