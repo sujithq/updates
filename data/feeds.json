@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-01T13:45:11.229973+00:00",
-  "totalArticles": 1089,
+  "lastUpdated": "2026-09-01T18:01:40.034848+00:00",
+  "totalArticles": 1090,
   "articles": [
     {
       "title": "Visual Studio Code 1.136 (Insiders)",
@@ -14,14 +14,124 @@
       "sourceType": "rss"
     },
     {
+      "title": "[Launched] Generally Available: Azure Firewall auto-learn SNAT routes",
+      "link": "https://azure.microsoft.com/updates?id=570474",
+      "published": "2026-09-01T17:10:38+00:00",
+      "summary": "Azure Firewall’s auto-learn SNAT routes is now generally available, automatically learning registered and private destination prefixes periodically and applying them as No-SNAT ranges to preserve original source IPs and simplify SNAT management.Learn more",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Stop Letting Agents Run the Workflow",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/stop-letting-agents-run-the-workflow/ba-p/4550068",
+      "published": "2026-09-01T17:00:00+00:00",
+      "summary": "A user submits a ticket: \"Please grant temporary admin access to the finance reporting database for month-end close.\" A five-agent system handles it beautifully. A triage agent classifies the request. A policy agent checks entitlements. An approval agent decides a manager needs to sign off. An...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Kalaivanan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Copilot Observability Agent supports Basic and Auxiliary table plans",
+      "link": "https://azure.microsoft.com/updates?id=570250",
+      "published": "2026-09-01T16:31:14+00:00",
+      "summary": "Azure Copilot Observability Agent, an AI-powered operational companion in Azure Monitor, is now covering Log Analytics data in Basic and Auxiliary table plans during interactive analysis and deep investigations. Teams can move high-volume telemetry - incl",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Block users from discussion comments in personal repositories",
+      "link": "https://github.blog/changelog/2026-09-01-block-users-from-discussion-comments-in-personal-repositories",
+      "published": "2026-09-01T16:30:01+00:00",
+      "summary": "You can now block or unblock users directly from discussion comments in repositories owned by personal GitHub accounts, extending the in-context blocking controls already available for issue and pull request… The post Block users from discussion comments in personal repositories appeared first on...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Monitor Auxiliary Logs Plan in Azure Government and China regions",
+      "link": "https://azure.microsoft.com/updates?id=569899",
+      "published": "2026-09-01T16:29:24+00:00",
+      "summary": "The Auxiliary table plan in Azure Monitor Logs is a cost-effective option for ingesting and retaining high-volume, verbose logs used for compliance and auditing. Auxiliary Logs is now generally available in the sovereign clouds: Azure Government (Fairfax)",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Monitor Auxiliary Logs Plan support for Azure tables and plan switching",
+      "link": "https://azure.microsoft.com/updates?id=569904",
+      "published": "2026-09-01T16:25:33+00:00",
+      "summary": "The Auxiliary table plan in Azure Monitor Logs gives you a cost-effective way to ingest and retain high-volume, verbose logs that you keep for compliance and auditing but rarely query. Two highly requested capabilities are now generally available.Auxiliar",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Today I will… review GitHub PRs",
+      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-review-github-prs/",
+      "published": "2026-09-01T16:00:27+00:00",
+      "summary": "Today I will show you how we can tackle one of the most common tasks when working in a development team or managing an open-source project, and that is working with Pull Requests. While we’re going to be using the GitHub tooling within Visual Studio for this, the approach would be very similar with...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Aaron Powell",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Generally Available: Certificate Management for Azure Arc-enabled Kubernetes",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/generally-available-certificate-management-for-azure-arc-enabled/ba-p/4542769",
+      "published": "2026-09-01T16:00:00+00:00",
+      "summary": "We are excited to announce the general availability of a new capability for edge Kubernetes workloads connected with Azure Arc, Certificate Management. Certificate Management enables Arc-enabled Kubernetes customers to install a single Microsoft-supported extension to automate TLS certificate and...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "NicolasMondada",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Microsoft Azure Virtual Desktop Hybrid is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/microsoft-azure-virtual-desktop-hybrid-is-now-generally/ba-p/4550523",
+      "published": "2026-09-01T16:00:00+00:00",
+      "summary": "Extend Azure Virtual Desktop to your on-premises environment. Run desktops where you need them. Manage on-premises session hosts from Azure. Many organizations want to modernize their virtual desktop infrastructure but face practical constraints that make a full cloud migration difficult in the...",
+      "blog": "Azure Virtual Desktop",
+      "blogId": "azurevirtualdesktopblog",
+      "author": "Steve_Downs",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurevirtualdesktopblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Learn What to Do When You Hit Capacity in Azure Databricks!",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/learn-what-to-do-when-you-hit-capacity-in-azure-databricks/ba-p/4550550",
-      "published": "2026-09-01T13:36:04+00:00",
+      "published": "2026-09-01T14:08:19+00:00",
       "summary": "Microsoft's Cloud Architects: Manu Mehta manumehta​, Chris Walk cwalk​, Eduardo Dos Santos eduardomdossantos​, Maria Hito mariahito​, Paul Singh PaulSingh​, Aladdin Alchalabi AladdinAlchalabi​ and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints in Azure Databricks are not...",
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
       "author": "Rafia_Aqil",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Six Lessons for Reliable Agent Optimizer Gains on Harder Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/six-lessons-for-reliable-agent-optimizer-gains-on-harder-agents/ba-p/4551357",
+      "published": "2026-09-01T14:00:00+00:00",
+      "summary": "Authors: Abi Komma, Charles Kim, Luffy Chen, Vivek Bhadauria, Morteza Ziyadi, Victor Dibia, Ilya Matiach What happens when you push agent optimizer to its limits - larger datasets, tool-calling agents, and hybrid evaluators? We found that the optimizer is as good as what surrounds it. Here's what...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "abikomma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -33,6 +143,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Copilot model access update for GitHub Team plans",
+      "link": "https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans",
+      "published": "2026-08-31T21:58:46+00:00",
+      "summary": "We have updated how model access is determined for Copilot users who hold seats in more than one organization. To keep billing and governance in sync, your model access is… The post Copilot model access update for GitHub Team plans appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -454,17 +575,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Close all open contributions authored by a blocked user",
-      "link": "https://github.blog/changelog/2026-08-27-close-all-open-contributions-authored-by-a-blocked-user",
-      "published": "2026-08-27T16:30:52+00:00",
-      "summary": "You can now automatically close all open issues, discussions, and pull requests authored by a user when you block them from your personal account or organization. To use this option,… The post Close all open contributions authored by a blocked user appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "OpenClaw went viral. Meet the maintainers building and securing it.",
       "link": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
       "published": "2026-08-27T16:00:00+00:00",
@@ -528,17 +638,6 @@
       "blogId": "terraform",
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Enterprise-managed settings now support autoUpdate for plugin marketplaces",
-      "link": "https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces",
-      "published": "2026-08-27T01:52:19+00:00",
-      "summary": "You can now opt individual plugin marketplaces into automatic updates by setting autoUpdate: true on an extraKnownMarketplaces entry in enterprise managed settings. Supported clients automatically check the marketplace and update… The post Enterprise-managed settings now support autoUpdate for...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -2621,17 +2720,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "From Distillation to Reinforcement Fine-Tuning: Hill-Climbing in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-distillation-to-reinforcement-fine-tuning-hill-climbing-in/ba-p/4543260",
-      "published": "2026-08-06T14:00:00+00:00",
-      "summary": "TL; DR: Hill climbing means improving the deployable model package one measured step at a time across quality, latency, and cost. SFT made this workload cheaper, but did not transfer the teacher's planning quality. Adding explicit reasoning produced the major quality gain. RFT in Microsoft Foundry...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "srikantan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "You can now use the Azure DevOps Service Connection instead of a PAT or Build Session token",
       "link": "https://devblogs.microsoft.com/devops/you-can-now-use-the-azure-devops-service-connection-instead-of-a-pat-or-build-session-token/",
       "published": "2026-08-06T08:57:40+00:00",
@@ -2685,17 +2773,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Exploring Multi-Agent Workflows with Microsoft Agent Framework",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/exploring-multi-agent-workflows-with-microsoft-agent-framework/ba-p/4542512",
-      "published": "2026-08-05T20:00:00+00:00",
-      "summary": "As organizations race to automate decision-making, content generation, analysis, and execution at scale, the future is shifting from isolated AI agents to multi-agent workflows where specialized agents collaborate, delegate, challenge, and refine each other's work. By allowing multiple AI agents to...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "SonakshiA",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "v1.16.0-beta2",
@@ -4191,17 +4268,6 @@
       "blogId": "azuresdkblog",
       "author": "Lily Ma",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Visual Studio Administrator? Join our Private Marketplace Preview!",
-      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-administrator-join-our-private-marketplace-preview/",
-      "published": "2026-07-16T14:00:58+00:00",
-      "summary": "Organizations are increasingly looking for greater control over extensions within development environments. Driven by security, compliance, and internal governance requirements, teams want more visibility into how developers discover and acquire extensions. To address these needs, we’re excited to...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Ruben Rios",
-      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
     },
     {
@@ -7461,28 +7527,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Rolling updates in Flex Consumption",
-      "link": "https://azure.microsoft.com/updates?id=562365",
-      "published": "2026-06-02T19:30:20+00:00",
-      "summary": "Rolling updates are now generally available in the Flex Consumption plan, delivering zero-downtime deployments with a simple configuration change.Instead of forcefully restarting all instances during code or configuration updates, the platform gracefully",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Dynamic threshold for Log search alerts",
-      "link": "https://azure.microsoft.com/updates?id=561984",
-      "published": "2026-06-02T19:30:20+00:00",
-      "summary": "We’re excited to announce the General Availability of Dynamic threshold for Log search alerts! Using dynamic thresholds means you don't have to know the right threshold for each Log alert rule - Dynamic thresholds calculate the most appropriate thresholds",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Microsoft Planetary Computer Pro is Generally Available",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/microsoft-planetary-computer-pro-is-generally-available/ba-p/4523417",
       "published": "2026-06-02T19:30:00+00:00",
@@ -7580,28 +7624,6 @@
       "author": "VincentLiu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "[In preview] Public Preview: Azure Databricks workspace-wide Genie MCP for Microsoft Copilot Studio",
-      "link": "https://azure.microsoft.com/updates?id=564868",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "A new workspace-wide Genie MCP endpoint enables any Microsoft Copilot Studio agent to query natural-language questions across an entire Azure Databricks workspace through a single endpoint. The endpoint auto-routes across all connected Genie spaces and Un",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Azure Databricks Lakebase branching with GitHub Copilot agent mode",
-      "link": "https://azure.microsoft.com/updates?id=564863",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Developers in Azure Databricks can now create a copy-on-write branch of their Lakebase production database with a single command, connect GitHub Copilot agent mode to the branch endpoint, and debug AI apps and agents against real production data without e",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
     },
     {
       "title": "Secure, Modern Access to Azure Files on macOS with MS Entra ID",
@@ -9109,17 +9131,6 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Azure Local expands to sovereign-scale infrastructure with disaggregated deployments",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-local-expands-to-sovereign-scale-infrastructure-with/ba-p/4514338",
-      "published": "2026-04-27T15:45:00+00:00",
-      "summary": "As organizations accelerate digital transformation across datacenters, sovereign environments, and edge locations, infrastructure architectures must evolve to meet new operational and regulatory demands. The first feature update of Azure Local in CY 2026 (version 2604) marks a significant step...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "troettinger",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Dissecting LLM Container Cold-Start: Where the Time Actually Goes",
@@ -11982,5 +11993,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage is centered on **Azure Databricks capacity management**, with a post explaining what to do when you run into **workspace or compute capacity constraints**. The key theme is practical guidance for maintaining analytics workloads on **Azure Databricks**, including how to respond to capacity-related issues so data engineering and AI/ML jobs can continue running reliably on Azure."
+  "summary": "Today’s Azure news is led by a broad wave of generally available launches across security, observability, hybrid infrastructure, and end-user computing: Azure Firewall now auto-learns SNAT routes; Azure Copilot Observability Agent and Azure Monitor Auxiliary Logs Plan add broader support including Basic/Auxiliary table plans, Azure tables, plan switching, and availability in Azure Government and China; Certificate Management for Azure Arc-enabled Kubernetes is GA; and Azure Virtual Desktop Hybrid is now generally available. On the AI side, Azure AI Foundry emphasized more disciplined agent design and optimization with posts arguing agents shouldn’t control the entire workflow and sharing lessons for improving harder agents, while developer productivity updates highlighted GitHub controls for blocking discussion comments in personal repositories, Visual Studio PR review workflows, and guidance for handling Azure Databricks capacity limits."
 }
