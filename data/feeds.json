@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T08:01:34.824646+00:00",
+  "lastUpdated": "2026-09-01T13:45:11.229973+00:00",
   "totalArticles": 1089,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Learn What to Do When You Hit Capacity in Azure Databricks!",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/learn-what-to-do-when-you-hit-capacity-in-azure-databricks/ba-p/4550550",
+      "published": "2026-09-01T13:36:04+00:00",
+      "summary": "Microsoft's Cloud Architects: Manu Mehta manumehta​, Chris Walk cwalk​, Eduardo Dos Santos eduardomdossantos​, Maria Hito mariahito​, Paul Singh PaulSingh​, Aladdin Alchalabi AladdinAlchalabi​ and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints in Azure Databricks are not...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "[In preview] Public Preview: Per-disk resiliency for Azure VMs",
@@ -6493,7 +6504,7 @@
       "sourceType": "rss"
     },
     {
-      "title": "[In preview] Public Preview: Azure Site Recovery support for Linux Azure VMs with NVMe disk controllers.",
+      "title": "[Launched] Generally Available: Azure Site Recovery support for Linux Azure VMs with NVMe disk controllers.",
       "link": "https://azure.microsoft.com/updates?id=565103",
       "published": "2026-06-08T17:15:43+00:00",
       "summary": "Azure Site Recovery now supports replication and disaster recovery for Linux Azure Virtual Machines running on NVMe-enabled Generation 2 VM families, such as the Da/Ea/Fa v6-series and Ebsv5/Ebdsv5 in the Azure-to-Azure scenario. This support is limited t",
@@ -11069,17 +11080,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "From Bronze to Gold: Data Quality Strategies for ETL in Microsoft Fabric",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/from-bronze-to-gold-data-quality-strategies-for-etl-in-microsoft/ba-p/4476303",
-      "published": "2025-12-09T08:12:15+00:00",
-      "summary": "Introduction Data fuels analytics, machine learning, and AI but only if it’s trustworthy. Most organizations struggle with inconsistent schemas, nulls, data drift, or unexpected upstream changes that silently break dashboards, models, and business logic. Microsoft Fabric provides a unified...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Sally_Dabbah",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Defender for Identity health issues - Not Closing",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-identity/defender-for-identity-health-issues-not-closing/m-p/4476063#M4286",
       "published": "2025-12-08T15:09:42+00:00",
@@ -11981,5 +11981,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecommunicationservicesblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage is centered on **Azure Databricks capacity management**, with a post explaining what to do when you run into **workspace or compute capacity constraints**. The key theme is practical guidance for maintaining analytics workloads on **Azure Databricks**, including how to respond to capacity-related issues so data engineering and AI/ML jobs can continue running reliably on Azure."
 }
