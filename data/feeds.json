@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T22:06:02.849534+00:00",
+  "lastUpdated": "2026-09-01T02:10:44.847627+00:00",
   "totalArticles": 1089,
   "articles": [
     {
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Per-disk resiliency for Azure VMs",
+      "link": "https://azure.microsoft.com/updates?id=569711",
+      "published": "2026-08-31T23:11:39+00:00",
+      "summary": "Azure automatically recovers a VM when it loses access to an attached managed disk for an extended period. The VM is shut down and powered back on after disk connectivity is restored, with no customer action required. This remains the default behavior.Now",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -77,6 +88,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Kubernetes v1.37: Storage Version Migration Enabled by Default",
+      "link": "https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga/",
+      "published": "2026-08-31T18:30:00+00:00",
+      "summary": "I am excited that storage version migration (SVM) has graduated to General Availability (GA) in Kubernetes v1.37! After a number of releases of work and testing, the built-in StorageVersionMigration API (storagemigration.k8s.io/v1) and control plane controller are now fully stable and enabled by...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -7571,17 +7593,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Improved PDF batch document translation in Azure AI Translator",
-      "link": "https://azure.microsoft.com/updates?id=564422",
-      "published": "2026-06-02T19:00:47+00:00",
-      "summary": "Azure AI Translator batch document translation ships generally available improvements for PDF translation. The service uses Azure AI Document Intelligence to recover structure from both digital-native and scanned PDFs, then translates the recognized text",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Secure, Modern Access to Azure Files on macOS with MS Entra ID",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/secure-modern-access-to-azure-files-on-macos-with-ms-entra-id/ba-p/4524077",
       "published": "2026-06-02T18:55:03+00:00",
@@ -10706,17 +10717,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "New Conversion from cgroup v1 CPU Shares to v2 CPU Weight",
-      "link": "https://kubernetes.io/blog/2026/01/30/new-cgroup-v1-to-v2-cpu-conversion-formula/",
-      "published": "2026-01-30T16:00:00+00:00",
-      "summary": "I'm excited to announce the implementation of an improved conversion formula from cgroup v1 CPU shares to cgroup v2 CPU weight. This enhancement addresses critical issues with CPU priority allocation for Kubernetes workloads when running on systems with cgroup v2. BackgroundKubernetes was...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Create next-gen voice agents with Azure AI's Voice Live API and Azure Communication Services",
       "link": "https://techcommunity.microsoft.com/t5/azure-communication-services/create-next-gen-voice-agents-with-azure-ai-s-voice-live-api-and/ba-p/4414735",
       "published": "2026-01-29T13:26:09+00:00",
@@ -11981,6 +11981,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecommunicationservicesblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Azure’s biggest themes today are hybrid/multicloud connectivity, governed AI/app integration, and Copilot/security platform updates. Microsoft highlighted Azure Multicloud Interconnect in public preview for simpler private Azure–AWS connectivity, AKS/AppNet release notes, enterprise live migrations in public preview, and new integration guidance using Azure API Management with Azure Service Bus for asynchronous APIs, alongside platform notes on Azure SQL bacpac vs. dacpac and the BizTalk Server 2020 end-of-sale announcement.\n\nOn the AI side, several Azure AI Foundry posts focused on model migration with Microsoft Foundry and Azure OpenAI, connecting Dataverse MCP server data to Foundry agents, and troubleshooting private BYO resource access for agents, while the Azure SDK blog showed how to equip the Azure SRE Agent with needed tools. Microsoft also rolled out August 2026 updates for Microsoft Copilot, Microsoft Sentinel, and GitHub Copilot in VS Code, signaling continued investment in AI productivity and security operations."
+  ]
 }
