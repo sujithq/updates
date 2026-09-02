@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-02T01:33:42.350689+00:00",
-  "totalArticles": 1090,
+  "lastUpdated": "2026-09-02T07:22:02.103670+00:00",
+  "totalArticles": 1092,
   "articles": [
     {
       "title": "Visual Studio Code 1.136 (Insiders)",
@@ -12,6 +12,39 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Azure Key Vault Control Plane API Update: Required Upgrade for Azure CLI and Azure PowerShell Users",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-key-vault-control-plane-api-update-required-upgrade-for/ba-p/4552476",
+      "published": "2026-09-02T06:16:45+00:00",
+      "summary": "Deadline: February 27, 2027 All Azure Key Vault control plane (management) API versions released before 2026-02-01 will stop working on February 27, 2027. This does NOT affect the data plane (getting/setting secrets, keys, and certificates) — only vault and access-control management operations are...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "Alex-wdy",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Why long-running tasks on Linux Batch pools can restart daily and how to prevent it",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/why-long-running-tasks-on-linux-batch-pools-can-restart-daily/ba-p/4546215",
+      "published": "2026-09-02T04:57:13+00:00",
+      "summary": "In Azure Batch, customers running long tasks on Linux (Ubuntu) compute nodes sometimes observe that a task is interrupted and automatically re-run from the beginning on a recurring basis, often once per day, around the same time, even though no one cancelled or resubmitted the task, and the...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "Sithu",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Automating Compliance Scope Enforcement with Azure Policy",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/automating-compliance-scope-enforcement-with-azure-policy/ba-p/4551921",
+      "published": "2026-09-02T00:08:55+00:00",
+      "summary": "Cloud compliance certifications like C5, ISO 27001, HIPAA, or PCI DSS never cover the whole platform. They only cover a defined set of services, listed in an official document published by Microsoft. A common and costly mistake is to assume that “Azure is certified for X” automatically means every...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "gurjsing",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Counterfeit installers to system compromise: Tracking a deceptive software download campaign",
@@ -157,17 +190,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Claude Fable 5.1 is now available in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-fable-5-1-is-now-available-in-microsoft-foundry/ba-p/4550175",
-      "published": "2026-09-01T18:03:59+00:00",
-      "summary": "Fable 5.1 and Mythos 5.1 are the same underlying model. Claude Fable 5.1 is the generally available version, with safeguards that fallback for cyber and bio capability queries; Claude Mythos 5.1 is Anthropic’s most capable model for cybersecurity and biology research, keeping its full cyber and bio...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amar_badal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[Launched] Generally Available: Azure Firewall auto-learn SNAT routes",
       "link": "https://azure.microsoft.com/updates?id=570474",
       "published": "2026-09-01T17:10:38+00:00",
@@ -177,17 +199,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Stop Letting Agents Run the Workflow",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/stop-letting-agents-run-the-workflow/ba-p/4550068",
-      "published": "2026-09-01T17:00:00+00:00",
-      "summary": "A user submits a ticket: \"Please grant temporary admin access to the finance reporting database for month-end close.\" A five-agent system handles it beautifully. A triage agent classifies the request. A policy agent checks entitlements. An approval agent decides a manager needs to sign off. An...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Kalaivanan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "[Launched] Generally Available: Azure Copilot Observability Agent supports Basic and Auxiliary table plans",
@@ -278,28 +289,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Learn What to Do When You Hit Capacity in Azure Databricks!",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/learn-what-to-do-when-you-hit-capacity-in-azure-databricks/ba-p/4550550",
-      "published": "2026-09-01T14:08:19+00:00",
-      "summary": "Microsoft's Cloud Architects: Manu Mehta manumehta​, Chris Walk cwalk​, Eduardo Dos Santos eduardomdossantos​, Maria Hito mariahito​, Paul Singh PaulSingh​, Aladdin Alchalabi AladdinAlchalabi​ and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints in Azure Databricks are not...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Six Lessons for Reliable Agent Optimizer Gains on Harder Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/six-lessons-for-reliable-agent-optimizer-gains-on-harder-agents/ba-p/4551357",
-      "published": "2026-09-01T14:00:00+00:00",
-      "summary": "Authors: Abi Komma, Charles Kim, Luffy Chen, Vivek Bhadauria, Morteza Ziyadi, Victor Dibia, Ilya Matiach What happens when you push agent optimizer to its limits - larger datasets, tool-calling agents, and hybrid evaluators? We found that the optimizer is as good as what surrounds it. Here's what...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "abikomma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "GitHub CLI: Media in issues, pull requests, and comments",
       "link": "https://github.blog/changelog/2026-09-01-github-cli-media-in-issues-pull-requests-and-comments",
       "published": "2026-09-01T12:35:59+00:00",
@@ -326,6 +315,17 @@
       "link": "https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans",
       "published": "2026-08-31T21:58:46+00:00",
       "summary": "We have updated how model access is determined for Copilot users who hold seats in more than one organization. To keep billing and governance in sync, your model access is… The post Copilot model access update for GitHub Team plans appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Selected GitHub Copilot models deprecated",
+      "link": "https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated",
+      "published": "2026-08-31T21:21:40+00:00",
+      "summary": "As of today, September 1, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note… The post Selected GitHub Copilot models deprecated appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -546,17 +546,6 @@
       "link": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
       "published": "2026-08-28T20:24:20+00:00",
       "summary": "August 2026 brought more control over how GitHub Copilot reasons, which models you use, how teams share specialized agents, and when you ask for a code review. Highlights Here’s what’s… The post GitHub Copilot in Visual Studio — August update appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "GitHub Copilot weekly releases — August 24",
-      "link": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
-      "published": "2026-08-28T20:13:22+00:00",
-      "summary": "This week’s updates give you more control over how Copilot runs, from team sessions in Slack and Teams to customization across the app, CLI, and your IDE. GitHub Copilot in… The post GitHub Copilot weekly releases — August 24 appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -2819,6 +2808,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Microsoft Foundry's New Model Wave",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/microsoft-foundry-s-new-model-wave/ba-p/4543620",
+      "published": "2026-08-06T16:00:00+00:00",
+      "summary": "The era of the single best model is over Microsoft Foundry is no longer just a shelf of foundation models. It is becoming an enterprise model portfolio: frontier models for complex reasoning, cost-optimized models for scale, specialized models for documents and media, and first-party Microsoft AI...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Christian_Coello",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Pull request annotations on work item cards",
       "link": "https://devblogs.microsoft.com/devops/pull-request-annotations-on-work-item-cards/",
       "published": "2026-08-06T14:00:21+00:00",
@@ -2828,6 +2828,17 @@
       "author": "Dan Hellem",
       "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "From Distillation to Reinforcement Fine-Tuning: Hill-Climbing in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-distillation-to-reinforcement-fine-tuning-hill-climbing-in/ba-p/4543260",
+      "published": "2026-08-06T14:00:00+00:00",
+      "summary": "TL; DR: Hill climbing means improving the deployable model package one measured step at a time across quality, latency, and cost. SFT made this workload cheaper, but did not transfer the teacher's planning quality. Adding explicit reasoning produced the major quality gain. RFT in Microsoft Foundry...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "srikantan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "You can now use the Azure DevOps Service Connection instead of a PAT or Build Session token",
@@ -2883,6 +2894,17 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "Exploring Multi-Agent Workflows with Microsoft Agent Framework",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/exploring-multi-agent-workflows-with-microsoft-agent-framework/ba-p/4542512",
+      "published": "2026-08-05T20:00:00+00:00",
+      "summary": "As organizations race to automate decision-making, content generation, analysis, and execution at scale, the future is shifting from isolated AI agents to multi-agent workflows where specialized agents collaborate, delegate, challenge, and refine each other's work. By allowing multiple AI agents to...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "SonakshiA",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "v1.16.0-beta2",
@@ -11091,6 +11113,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "From Bronze to Gold: Data Quality Strategies for ETL in Microsoft Fabric",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/from-bronze-to-gold-data-quality-strategies-for-etl-in-microsoft/ba-p/4476303",
+      "published": "2025-12-09T08:12:15+00:00",
+      "summary": "Introduction Data fuels analytics, machine learning, and AI but only if it’s trustworthy. Most organizations struggle with inconsistent schemas, nulls, data drift, or unexpected upstream changes that silently break dashboards, models, and business logic. Microsoft Fabric provides a unified...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Sally_Dabbah",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Defender for Identity health issues - Not Closing",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-identity/defender-for-identity-health-issues-not-closing/m-p/4476063#M4286",
       "published": "2025-12-08T15:09:42+00:00",
@@ -11839,17 +11872,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Cloud and AI Cost Efficiency: A Strategic Imperative for Long-Term Business Growth",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/cloud-and-ai-cost-efficiency-a-strategic-imperative-for-long/ba-p/4455955",
-      "published": "2025-09-29T17:37:37+00:00",
-      "summary": "Why cost efficiency matters more than ever In today’s digital-first economy, cost efficiency is top of mind for organizations worldwide. As businesses increasingly rely on cloud and AI technologies to drive innovation, streamline operations, and deliver customer value, the pressure to manage...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "Fernando_Vasconcellos",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Developer Tier APIM + Self-hosted Gateway",
       "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/developer-tier-apim-self-hosted-gateway/ba-p/4457556",
       "published": "2025-09-27T16:45:43+00:00",
@@ -11993,5 +12015,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related blog activity is essentially a developer tools update: the main post is **Visual Studio Code 1.136 (Insiders)**, highlighting the latest pre-release changes to **Visual Studio Code**, Microsoft’s cross-platform editor used heavily for Azure and cloud-native development. The key theme is early access to new IDE capabilities and refinements for developers building with Microsoft’s ecosystem, though no major standalone Azure service launch is indicated from the article list provided."
+  "summary": "Today’s Azure updates center on developer tooling, platform reliability, and governance automation: Microsoft highlighted **Visual Studio Code 1.136 (Insiders)**, while also warning that **Azure Key Vault control plane API** changes require **Azure CLI** and **Azure PowerShell** users to upgrade their tooling to avoid management issues. On the operations side, Azure explained why **long-running workloads on Linux Azure Batch pools** may restart daily and how to mitigate that behavior, and it showcased using **Azure Policy** to automate **compliance scope enforcement** for stronger governance at scale."
 }
