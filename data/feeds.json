@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T22:53:22.811661+00:00",
+  "lastUpdated": "2026-09-02T01:33:42.350689+00:00",
   "totalArticles": 1090,
   "articles": [
     {
@@ -11,6 +11,61 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Counterfeit installers to system compromise: Tracking a deceptive software download campaign",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/01/counterfeit-installers-system-compromise-tracking-deceptive-software-download-campaign/",
+      "published": "2026-09-01T22:48:28+00:00",
+      "summary": "An active campaign is impersonating legitimate software vendors to deliver malware through look-alike download pages and regenerated installer archives. Microsoft Defender Experts shares observed attack techniques, Defender XDR detections, indicators of compromise, and practical mitigations to help...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Security Research, Microsoft Defender Experts and Parth Jomadkar",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Microsoft Defender for Cloud support for Azure Container Apps (Serverless Containers Posture)",
+      "link": "https://azure.microsoft.com/updates?id=570282",
+      "published": "2026-09-01T22:34:43+00:00",
+      "summary": "Customers can now bring Azure Container Apps environments into Microsoft Defender for Cloud’s Serverless Containers Posture experience, helping security teams extend posture management across more of their container estate from a single workflow. This mak",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Windows Server 2025 on AKS",
+      "link": "https://azure.microsoft.com/updates?id=570090",
+      "published": "2026-09-01T22:31:50+00:00",
+      "summary": "Organizations running Windows-based workloads on Azure Kubernetes Service (AKS) face increasing pressure to modernize as support timelines for older Windows Server versions approach retirement. To help customers prepare, AKS now offers GA support for Wind",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Artifact Streaming on AKS",
+      "link": "https://azure.microsoft.com/updates?id=570095",
+      "published": "2026-09-01T22:30:59+00:00",
+      "summary": "You can now accelerate your containerized workloads on Azure Kubernetes Service (AKS) using Azure Container Registry (ACR) with Artifact streaming. Artifact streaming will allow you to scale your workloads without having to fully wait for images to be pul",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Confidential VMs for Azure Linux",
+      "link": "https://azure.microsoft.com/updates?id=570100",
+      "published": "2026-09-01T22:30:18+00:00",
+      "summary": "Confidential Virtual Machines (CVM) offer strong security and confidentiality for tenants. CVM for Azure Linux in AKS is now generally available and enables node pools with CVM to target the migration of highly sensitive container workloads to AKS without",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -88,6 +143,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Kubernetes v1.37: etcd RangeStream Cuts Memory Use on Large List Reads",
+      "link": "https://kubernetes.io/blog/2026/09/01/kubernetes-v1-37-etcd-range-stream/",
+      "published": "2026-09-01T18:30:00+00:00",
+      "summary": "I am excited to announce that etcd RangeStream is graduating to beta in Kubernetes v1.37. Paired with etcd v3.7, it reduces the memory the API server and etcd need to read a large collection, and makes peak usage more predictable. The cost of large readsThe API server serves most list and watch...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -199,6 +265,17 @@
       "author": "Steve_Downs",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurevirtualdesktopblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Claude Fable 5.1 is generally available in GitHub Copilot",
+      "link": "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
+      "published": "2026-09-01T14:29:23+00:00",
+      "summary": "Claude Fable 5.1 from Anthropic is now available in GitHub Copilot. The latest model in Anthropic’s Mythos class, Claude Fable 5.1 is designed for long-horizon, autonomous coding and knowledge-work tasks.… The post Claude Fable 5.1 is generally available in GitHub Copilot appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Learn What to Do When You Hit Capacity in Azure Databricks!",
@@ -529,17 +606,6 @@
       "author": "mmcrey",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureconfidentialcomputingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Upcoming changes to GitHub Copilot policies and billing",
-      "link": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
-      "published": "2026-08-28T11:37:19+00:00",
-      "summary": "To provide a strong, consistent Copilot experience, we’re making three separate, upcoming changes to Copilot policies and billing. Please review the upcoming updates to understand what may impact you. Reopening… The post Upcoming changes to GitHub Copilot policies and billing appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "🚀 Foundry Toolkit for VS Code — August 2026 Update",
@@ -2861,17 +2927,6 @@
       "author": "JillArmourMicrosoft",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP)",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/microsoft-named-a-leader-in-the-kuppingercole-leadership-compass-for-cloud-native-application-protection-platforms-cnapp/",
-      "published": "2026-08-05T16:30:00+00:00",
-      "summary": "Learn why KuppingerCole named Microsoft a Leader in its Leadership Compass: Cloud Native Application Protection Platforms report. The post ​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP) appeared first on Microsoft...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Ran Rosin",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Building a CCF Nested API Pull Connector: A Technical Lab Walkthrough",
@@ -7494,50 +7549,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Azure Container Linux (ACL) now generally available on Azure Kubernetes Service (AKS)",
-      "link": "https://azure.microsoft.com/updates?id=564537",
-      "published": "2026-06-02T19:30:20+00:00",
-      "summary": "Azure Container Linux is a container-optimized, immutable operating system for AKS node pools — derived from Flatcar Container Linux and built on Azure Linux RPM packages. It delivers a locked-down, minimal host purpose-built for running containerized wor",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure Event Grid - MQTT v5 Subscription Identifier",
-      "link": "https://azure.microsoft.com/updates?id=564532",
-      "published": "2026-06-02T19:30:20+00:00",
-      "summary": "Azure Event Grid Standard Namespace now supports MQTT v5 subscription identifier capabilities in GA. Now each MQTT subscription can include an identifier that is delivered with incoming messages, enabling applications to route events immediately based on",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In development] Private Preview: multiparty analytics with Azure Confidential Clean Rooms",
-      "link": "https://azure.microsoft.com/updates?id=564495",
-      "published": "2026-06-02T19:30:20+00:00",
-      "summary": "Microsoft is announcing the preview of multiparty analytics with Azure Confidential Clean Rooms, resulting in fully managed service that allows customers and their partners to securely analyze privacy sensitive datasets with Apache Spark based big-data an",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In development] Private Preview: Storage optimized Lasv5 and Laosv5 Azure VM series",
-      "link": "https://azure.microsoft.com/updates?id=564446",
-      "published": "2026-06-02T19:30:20+00:00",
-      "summary": "The Lasv5 and Laosv5 storage optimized VMs, based on the 5th Gen AMD EPYC™ processor (Turin), are in preview. Lasv5-series is designed for storage-intensive workloads requiring high disk capacity, throughput, and I/O, while Laosv5-series is well-suited fo",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Microsoft Planetary Computer Pro is Generally Available",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/microsoft-planetary-computer-pro-is-generally-available/ba-p/4523417",
       "published": "2026-06-02T19:30:00+00:00",
@@ -10695,17 +10706,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Introducing Node Readiness Controller",
-      "link": "https://kubernetes.io/blog/2026/02/03/introducing-node-readiness-controller/",
-      "published": "2026-02-03T02:00:00+00:00",
-      "summary": "In the standard Kubernetes model, a node’s suitability for workloads hinges on a single binary \"Ready\" condition. However, in modern Kubernetes environments, nodes require complex infrastructure dependencies—such as network agents, storage drivers, GPU firmware, or custom health checks—to be fully...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Serverless Workspaces are generally available in Azure Databricks",
       "link": "https://techcommunity.microsoft.com/t5/azure-databricks/serverless-workspaces-are-generally-available-in-azure/ba-p/4491314",
       "published": "2026-02-02T17:15:00+00:00",
@@ -11993,5 +11993,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure ecosystem news was led by AI and developer productivity: Anthropic’s **Claude Fable 5.1** launched in both **Microsoft Copilot** and **Microsoft Foundry/Azure AI Foundry**, while GitHub and Visual Studio added stronger automation with **Copilot code review now able to approve pull requests**, new **PR review workflows in Visual Studio**, and richer **GitHub CLI** support for media in issues and PRs. Azure AI Foundry also emphasized enterprise agent design and operations through the **APIOps CLI**, guidance on **agent workflow control** and **optimizer reliability**, alongside practical platform updates like **Azure Databricks capacity handling**.\n\nOn the infrastructure and operations side, Microsoft announced several GA releases: **Azure Virtual Desktop Hybrid**, **Certificate Management for Azure Arc-enabled Kubernetes**, **Azure Firewall auto-learn SNAT routes**, **purchase order mapping in Microsoft Marketplace**, and expanded **Azure Monitor/Azure Copilot Observability Agent** support for **Auxiliary Logs**, including Azure Government and China regions. GitHub’s enterprise/admin updates also stood out, with **live migrations from GHES to ghe.com** now generally available, **expiration dates for individual user budgets**, and improved moderation controls for **discussion comments in personal repositories**, while Microsoft Security promoted its upcoming **Cybersecurity IR Workshop**."
+  "summary": "Today’s Azure-related blog activity is essentially a developer tools update: the main post is **Visual Studio Code 1.136 (Insiders)**, highlighting the latest pre-release changes to **Visual Studio Code**, Microsoft’s cross-platform editor used heavily for Azure and cloud-native development. The key theme is early access to new IDE capabilities and refinements for developers building with Microsoft’s ecosystem, though no major standalone Azure service launch is indicated from the article list provided."
 }
