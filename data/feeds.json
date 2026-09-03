@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T07:25:07.990508+00:00",
+  "lastUpdated": "2026-09-03T13:03:56.842720+00:00",
   "totalArticles": 1093,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Keep the evidence: Low-cost logs with Azure Copilot Observability Agent (Generally Available)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/keep-the-evidence-low-cost-logs-with-azure-copilot-observability/ba-p/4550844",
+      "published": "2026-09-03T12:00:00+00:00",
+      "summary": "Cloud environments can generate large volumes of application, infrastructure, audit, and platform logs. Moving eligible tables to the Basic or Auxiliary table plan can help control costs while keeping the data available for search. But during an incident, teams may still need those logs to...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "yairgil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "From AI Infrastructure to Secure AI Agent Infrastructure with kars",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-ai-infrastructure-to-secure-ai-agent-infrastructure-with/ba-p/4551519",
+      "published": "2026-09-03T07:00:00+00:00",
+      "summary": "Opening scene: a three-minute bug fix that is still unsafe for an enterprise ByteCraft AI is a four-person startup. Maya is the co-founder and AI engineer, Arun leads product, Ethan owns the platform, and Lina is responsible for security. They have six months of runway and one design partner. Their...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Impersonating IT support: how threat actors turn a remote session into enterprise-wide access",
@@ -3798,17 +3820,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Surprise AI bill? GitHub Billing controls to the rescue!",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/surprise-ai-bill-github-billing-controls-to-the-rescue/ba-p/4541295",
-      "published": "2026-07-28T19:57:24+00:00",
-      "summary": "The AI bill is higher than expected. Now what? Finance wants to understand what is driving the cost. Engineering leaders, on the other hand, want to preserve the productivity gains behind the increased usage. The administrator needs to balance both priorities and put a policy in place that the...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Chris_Noring",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[In preview] Public Preview: Azure Enclave",
       "link": "https://azure.microsoft.com/updates?id=568377",
       "published": "2026-07-28T18:51:02+00:00",
@@ -6508,17 +6519,6 @@
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-slis-now-generally-available/ba-p/4523689",
       "published": "2026-06-11T17:18:29+00:00",
       "summary": "Azure Monitor SLIs are now generally available Service Level Indicators (SLIs) and Service Level Objectives (SLOs) in Azure Monitor are now generally available. Teams can now measure reliability based on customer experience, not just infrastructure signals. SLI: A quantitative measure of how well...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Sokuma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure Monitor Metrics Export Generally Available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-metrics-export-generally-available/ba-p/4523712",
-      "published": "2026-06-11T17:17:35+00:00",
-      "summary": "Today, we’re excited to announce the general availability of Azure Monitor Metrics Export using data collection rules (DCRs). A scalable, flexible way to continuously export platform metrics with dimensional fidelity, lower latency, and more control over what you send downstream. Azure Monitor...",
       "blog": "Azure Observability",
       "blogId": "azureobservabilityblog",
       "author": "Sokuma",
@@ -12025,5 +12025,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecommunicationservicesblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure posts focus on two themes: cutting observability costs and hardening AI agent infrastructure. Microsoft announced general availability of the Azure Copilot Observability Agent for low-cost log retention and evidence preservation in Azure Observability, while a Dev Community post on **kars** shifts the conversation from generic AI infrastructure to **secure AI agent infrastructure**, emphasizing protections and architectural patterns for agent-based systems."
 }
