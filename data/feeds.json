@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T17:52:27.511719+00:00",
+  "lastUpdated": "2026-09-04T19:57:45.152596+00:00",
   "totalArticles": 1093,
   "articles": [
     {
@@ -11,6 +11,50 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Introducing Inside Microsoft Foundry: Quickstart 🎬",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/introducing-inside-microsoft-foundry-quickstart/ba-p/4552692",
+      "published": "2026-09-04T18:29:11+00:00",
+      "summary": "Developers don’t adopt platforms. They solve problems. When you’re building AI agents, the questions are rarely about products. They’re about outcomes: Which model should I choose? How do I ground my agent in my own data? How do I know if the responses are actually good? How do I move from a local...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "carlottacaste",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure SDK Release (August 2026)",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-august-2026/",
+      "published": "2026-09-04T18:20:42+00:00",
+      "summary": "Azure SDK releases every month. In this post, you'll find this month's highlights and release notes. The post Azure SDK Release (August 2026) appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Justin Bettencourt",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "It Wasn't the Private Endpoint: Why the Foundry Playground Breaks Behind Private Networking",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/it-wasn-t-the-private-endpoint-why-the-foundry-playground-breaks/ba-p/4552771",
+      "published": "2026-09-04T18:00:00+00:00",
+      "summary": "A team enables private networking on Microsoft Foundry, disables public access, wires up the private endpoints, and confirms DNS resolves. Then someone opens the chat playground in the portal and gets an error saying private networking is blocking access. Sometimes it works. Then it stops, and once...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Madhura Amlekar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "New API endpoint provides privacy-safe star history data",
+      "link": "https://github.blog/changelog/2026-09-04-new-api-endpoint-provides-privacy-safe-star-history-data",
+      "published": "2026-09-04T16:43:56+00:00",
+      "summary": "Track repository star growth over time with the new star history REST API endpoint without exposing stargazer identities. Earlier this year, stargazer listing endpoints were restricted to admins and collaborators… The post New API endpoint provides privacy-safe star history data appeared first on...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -33,6 +77,28 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "Naomi Moneypenny",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "What’s new in Azure Firewall: Recent innovations",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/what-s-new-in-azure-firewall-recent-innovations/ba-p/4552987",
+      "published": "2026-09-04T15:48:26+00:00",
+      "summary": "Organizations are modernizing their networks while managing a growing mix of applications, protocols, and security requirements. Recent Azure Firewall releases strengthen this journey with simpler traffic routing, expanded protocol support, more flexible application controls, improved health...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "devanshirastogi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Your Private Endpoint Does Not Cover Agent Egress: Locking Down Azure AI Foundry in Both Directions",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/your-private-endpoint-does-not-cover-agent-egress-locking-down/ba-p/4547864",
+      "published": "2026-09-04T14:59:04+00:00",
+      "summary": "I got asked a question a few weeks ago that sounded simple. Lock down Azure AI Foundry with Private Link, and let the agents call an MCP server hosted on a VM in a different virtual network. Everything private, nothing over the public internet, and proof rather than a diagram. I said yes, that is...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "rgarofalo",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -616,17 +682,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
-      "link": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
-      "published": "2026-09-01T22:24:27+00:00",
-      "summary": "Enterprise Live Migrations (ELM) is now generally available, enabling near-zero-downtime repository migrations from GitHub Enterprise Server (GHES) to GitHub Enterprise Cloud with Data Residency (GHEC DR), so you can move… The post Enterprise Live Migrations from GHES to ghe.com generally available...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -2522,17 +2577,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "When AI Agents Fail: Engineering Reliable Recovery with Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/when-ai-agents-fail-engineering-reliable-recovery-with-microsoft/ba-p/4546388",
-      "published": "2026-08-13T14:00:00+00:00",
-      "summary": "Introduction: The Failure That Demos Do Not Show A user asks an AI agent a simple question: \"Create a procurement request for 10 laptops for the new project team.\" The agent does what it was designed to do. It checks the procurement policy. It verifies budget availability. It calls the procurement...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "PavanKalyanChilakalapalli",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Building MCP servers for your database: Flexibility, safety, and tradeoffs",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-mcp-servers-for-your-database-flexibility-safety-and/ba-p/4546385",
       "published": "2026-08-13T04:30:00+00:00",
@@ -3647,7 +3691,7 @@
       "title": "[In preview] Public Preview: Symmetric keys on Azure Key Vault Premium",
       "link": "https://azure.microsoft.com/updates?id=566746",
       "published": "2026-07-30T18:57:18+00:00",
-      "summary": "We’re announcing symmetric keys on Azure Key Vault Premium are now available in public preview. This preview enables customers and partners to evaluate symmetric encryption capabilities using the oct-HSM key type and the Advanced Encryption Standard (AES)",
+      "summary": "We’re announcing post-quantum resilient symmetric keys on Azure Key Vault Premium are now available in public preview. This preview enables customers and partners to evaluate symmetric encryption capabilities using the oct-HSM key type and the Advanced En",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -3851,17 +3895,6 @@
       "author": "Rachel Kang (SHE/HER)",
       "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Building and Deploying Microsoft Hosted Agents to Microsoft Teams",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-and-deploying-microsoft-hosted-agents-to-microsoft/ba-p/4540376",
-      "published": "2026-07-29T09:02:11+00:00",
-      "summary": "A practical, engineer-to-engineer guide to taking an AI agent from a developer laptop, into Microsoft Foundry Agent Service, and out to end users inside Microsoft Teams and Microsoft 365 — using the BRK241 FibreOps reference implementation as a worked example. Introduction: the hard part is no...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Now Generally Available: Built-in CIS Benchmark Auditing for Linux on Azure",
@@ -8132,17 +8165,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Cloud Native Platforms: Run",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/cloud-native-platforms-run/ba-p/4520188",
-      "published": "2026-05-21T22:41:09+00:00",
-      "summary": "Audience: SREs (Site Reliability Engineers), platform engineers, engineering managers running production systems Reading time: 8 minutes Series: Cloud Native Platforms. Build, Run, Evolve. This is Part 2 of 3. Most systems are designed thoughtfully. Most operations are inherited reactively. The...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "KishoreKumarPattabiraman",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Coordinating AI-Assisted Development with AGENTS.md and Skills",
       "link": "https://devblogs.microsoft.com/ise/ai-assisted-development-agents-skills-copilot-cli/",
       "published": "2026-05-21T07:00:00+00:00",
@@ -8152,17 +8174,6 @@
       "author": "Jimmy Kurian, Destiny Hillis",
       "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Summarized Gateway Prefixes for Route Advertisement in Azure Virtual Networks",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/summarized-gateway-prefixes-for-route-advertisement-in-azure/ba-p/4521652",
-      "published": "2026-05-20T19:10:30+00:00",
-      "summary": "Background Many Azure deployments follow a hub-and-spoke topology: one VNet is designated as the hub and holds the connection to on-premises (via ExpressRoute Gateway, VPN Gateway, or both), and workload VNets — the spokes — peer to the hub to reach on-premises and shared services. This centralizes...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Jay-Li",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Your dev loop is full of tribal knowledge",
@@ -9713,17 +9724,6 @@
       "blogId": "aksblog",
       "author": "Microsoft",
       "feedUrl": "https://blog.aks.azure.com/rss.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "MCP as Easy as 1-2-3: Introducing the Fluent API for MCP Apps",
-      "link": "https://devblogs.microsoft.com/azure-sdk/mcp-as-easy-as-1-2-3-introducing-the-fluent-api-for-mcp-apps/",
-      "published": "2026-04-07T21:16:11+00:00",
-      "summary": "Build MCP tools with rich UI experiences using the new Fluent API for MCP Apps in the .NET isolated worker. Configure views, permissions, and security policies with just a few lines of code. The post MCP as Easy as 1-2-3: Introducing the Fluent API for MCP Apps appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Lilian Kasem (she/her)",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
     },
     {
@@ -12026,5 +12026,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Microsoft/Azure posts center on productionizing frontier AI with orchestration, multimodal generation, and real-time voice systems. GitHub’s Project HydraFusion highlights multi-model orchestration to reach frontier-quality outputs, while Azure AI Foundry introduced MAI-Image-2.6 and MAI-Image-2.6-Flash for high-quality image generation with a speed/latency tradeoff tuned for production workloads. Azure AI Foundry also detailed three enterprise real-time voice architecture patterns on Microsoft Foundry, focusing on how to choose scalable designs for low-latency speech experiences."
+  "summary": "Today’s Azure/Microsoft posts centered on **Azure AI Foundry and enterprise AI deployment**, with major announcements spanning **MAI-Image-2.6 and MAI-Image-2.6-Flash** for production image generation, **real-time voice architecture patterns** on Microsoft Foundry, and multiple deep dives on **private networking, agent egress, and why Private Endpoints alone don’t fully secure Foundry workloads**. Broader platform updates included the **Azure SDK Release for August 2026**, **recent Azure Firewall innovations**, a **Quickstart for Inside Microsoft Foundry**, plus adjacent GitHub announcements on a **privacy-safe star history API** and **Project HydraFusion**, which highlights **multi-model orchestration for frontier-quality AI systems**."
 }
