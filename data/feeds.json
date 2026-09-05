@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T01:32:34.787092+00:00",
+  "lastUpdated": "2026-09-05T07:09:01.094344+00:00",
   "totalArticles": 1092,
   "articles": [
     {
@@ -80,6 +80,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "It Wasn't the Private Endpoint: Why the Foundry Playground Breaks Behind Private Networking",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/it-wasn-t-the-private-endpoint-why-the-foundry-playground-breaks/ba-p/4552771",
+      "published": "2026-09-04T18:00:00+00:00",
+      "summary": "A team enables private networking on Microsoft Foundry, disables public access, wires up the private endpoints, and confirms DNS resolves. Then someone opens the chat playground in the portal and gets an error saying private networking is blocking access. Sometimes it works. Then it stops, and once...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Madhura Amlekar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "New API endpoint provides privacy-safe star history data",
       "link": "https://github.blog/changelog/2026-09-04-new-api-endpoint-provides-privacy-safe-star-history-data",
       "published": "2026-09-04T16:43:56+00:00",
@@ -102,6 +113,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "MAI-Image-2.6 and MAI-Image-2.6-Flash: Quality and speed at production scale",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/mai-image-2-6-and-mai-image-2-6-flash-quality-and-speed-at/ba-p/4550970",
+      "published": "2026-09-04T16:02:11+00:00",
+      "summary": "Image generation has moved beyond the demo stage. Marketing teams are shipping campaign assets, retailers are building catalogs, and product teams are generating visuals inside the tools they already use. That shift changes what matters. A model must do more than create a striking one-off image. It...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Naomi Moneypenny",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "What’s new in Azure Firewall: Recent innovations",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/what-s-new-in-azure-firewall-recent-innovations/ba-p/4552987",
+      "published": "2026-09-04T15:48:26+00:00",
+      "summary": "Organizations are modernizing their networks while managing a growing mix of applications, protocols, and security requirements. Recent Azure Firewall releases strengthen this journey with simpler traffic routing, expanded protocol support, more flexible application controls, improved health...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "devanshirastogi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Your Private Endpoint Does Not Cover Agent Egress: Locking Down Azure AI Foundry in Both Directions",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/your-private-endpoint-does-not-cover-agent-egress-locking-down/ba-p/4547864",
       "published": "2026-09-04T14:59:04+00:00",
@@ -110,6 +143,17 @@
       "blogId": "azurearchitectureblog",
       "author": "rgarofalo",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Choosing a real-time voice architecture on Microsoft Foundry: three enterprise patterns",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/choosing-a-real-time-voice-architecture-on-microsoft-foundry/ba-p/4552676",
+      "published": "2026-09-04T14:00:00+00:00",
+      "summary": "A real-time voice agent is not just a model connected to a microphone. It must detect turns, stream audio, ground answers, call tools, enforce user permissions, recover from connection failures, and keep data on approved network paths. The first architecture question is therefore not which model...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Yassine_El_Ghali",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -2544,17 +2588,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "When AI Agents Fail: Engineering Reliable Recovery with Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/when-ai-agents-fail-engineering-reliable-recovery-with-microsoft/ba-p/4546388",
-      "published": "2026-08-13T14:00:00+00:00",
-      "summary": "Introduction: The Failure That Demos Do Not Show A user asks an AI agent a simple question: \"Create a procurement request for 10 laptops for the new project team.\" The agent does what it was designed to do. It checks the procurement policy. It verifies budget availability. It calls the procurement...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "PavanKalyanChilakalapalli",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Building MCP servers for your database: Flexibility, safety, and tradeoffs",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-mcp-servers-for-your-database-flexibility-safety-and/ba-p/4546385",
       "published": "2026-08-13T04:30:00+00:00",
@@ -2709,17 +2742,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Azure Content Understanding announces Synchronous Operations",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/azure-content-understanding-announces-synchronous-operations/ba-p/4544475",
-      "published": "2026-08-12T14:00:00+00:00",
-      "summary": "Workflow automation scenarios—including grounding AI agents, verifying identities, assisting customers with documents in call centers, and triggering document-based workflows—depend on immediate content processing, where every second matters. Now in public preview, synchronous Read, Layout, and...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Krishna_Doss",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "v1.17.0-alpha20260812",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260812",
       "published": "2026-08-12T12:01:24+00:00",
@@ -2794,17 +2816,6 @@
       "blogId": "azuredevcommunityblog",
       "author": "Chris_Noring",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "From Azure Container Apps to Microsoft Foundry: building and evaluating a Patch Tuesday MCP server",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-azure-container-apps-to-microsoft-foundry-building-and/ba-p/4541630",
-      "published": "2026-08-11T18:53:19+00:00",
-      "summary": "**Disclaimer:** This is an independent, self-built project and is not an official Microsoft tool or service. It reads public security-update data and is intended as an educational example of building an MCP server, hosting it responsibly on Azure, and evaluating an agent workflow with Microsoft...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "JonButler",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8174,17 +8185,6 @@
       "author": "Jimmy Kurian, Destiny Hillis",
       "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Summarized Gateway Prefixes for Route Advertisement in Azure Virtual Networks",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/summarized-gateway-prefixes-for-route-advertisement-in-azure/ba-p/4521652",
-      "published": "2026-05-20T19:10:30+00:00",
-      "summary": "Background Many Azure deployments follow a hub-and-spoke topology: one VNet is designated as the hub and holds the connection to on-premises (via ExpressRoute Gateway, VPN Gateway, or both), and workload VNets — the spokes — peer to the hub to reach on-premises and shared services. This centralizes...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Jay-Li",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Your dev loop is full of tribal knowledge",
