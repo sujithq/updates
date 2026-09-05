@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-04T22:36:29.584626+00:00",
-  "totalArticles": 1093,
+  "lastUpdated": "2026-09-05T01:32:34.787092+00:00",
+  "totalArticles": 1092,
   "articles": [
     {
       "title": "Visual Studio Code 1.137 (Insiders)",
@@ -25,28 +25,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Available today: OpenAI GPT-6 Astra in Microsoft Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-gpt-6-astra-in-microsoft-copilot/ba-p/4552808",
-      "published": "2026-09-04T20:28:50+00:00",
-      "summary": "GPT-6 Astra joins the frontier models available in Copilot Cowork and Copilot Studio, giving customers more choice for complex work they want to delegate to AI. Astra expands the range of work that can be handed off to Copilot. Instead of breaking work into smaller pieces and guiding it step by...",
-      "blog": "Microsoft 365 Copilot Blog",
-      "blogId": "microsoft365copilotblog",
-      "author": "Bas Brekelmans",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
-      "published": "2026-09-04T20:14:37+00:00",
-      "summary": "Microsoft Architect's: Aladdin Alchalabi AladdinAlchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "How to secure edge AI in customer-owned environments",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/09/04/secure-edge-ai-customer-owned-environments/",
       "published": "2026-09-04T19:10:10+00:00",
@@ -66,6 +44,17 @@
       "blogId": "githubchangelog",
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Kubernetes v1.37: KubeletInUserNamespace (aka Rootless mode) Graduates to Beta",
+      "link": "https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/",
+      "published": "2026-09-04T18:30:00+00:00",
+      "summary": "Kubernetes v1.37 promotes the KubeletInUserNamespace feature gate to beta. With this feature enabled, all of the node components (kubelet, CRI and OCI runtimes, CNI plugins, and kube-proxy) can run as a non-root user on the host, using a Linux user namespace. This technique is also known as...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -91,17 +80,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "It Wasn't the Private Endpoint: Why the Foundry Playground Breaks Behind Private Networking",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/it-wasn-t-the-private-endpoint-why-the-foundry-playground-breaks/ba-p/4552771",
-      "published": "2026-09-04T18:00:00+00:00",
-      "summary": "A team enables private networking on Microsoft Foundry, disables public access, wires up the private endpoints, and confirms DNS resolves. Then someone opens the chat playground in the portal and gets an error saying private networking is blocking access. Sometimes it works. Then it stops, and once...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Madhura Amlekar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "New API endpoint provides privacy-safe star history data",
       "link": "https://github.blog/changelog/2026-09-04-new-api-endpoint-provides-privacy-safe-star-history-data",
       "published": "2026-09-04T16:43:56+00:00",
@@ -124,28 +102,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "MAI-Image-2.6 and MAI-Image-2.6-Flash: Quality and speed at production scale",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/mai-image-2-6-and-mai-image-2-6-flash-quality-and-speed-at/ba-p/4550970",
-      "published": "2026-09-04T16:02:11+00:00",
-      "summary": "Image generation has moved beyond the demo stage. Marketing teams are shipping campaign assets, retailers are building catalogs, and product teams are generating visuals inside the tools they already use. That shift changes what matters. A model must do more than create a striking one-off image. It...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "What’s new in Azure Firewall: Recent innovations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/what-s-new-in-azure-firewall-recent-innovations/ba-p/4552987",
-      "published": "2026-09-04T15:48:26+00:00",
-      "summary": "Organizations are modernizing their networks while managing a growing mix of applications, protocols, and security requirements. Recent Azure Firewall releases strengthen this journey with simpler traffic routing, expanded protocol support, more flexible application controls, improved health...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "devanshirastogi",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Your Private Endpoint Does Not Cover Agent Egress: Locking Down Azure AI Foundry in Both Directions",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/your-private-endpoint-does-not-cover-agent-egress-locking-down/ba-p/4547864",
       "published": "2026-09-04T14:59:04+00:00",
@@ -154,17 +110,6 @@
       "blogId": "azurearchitectureblog",
       "author": "rgarofalo",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Choosing a real-time voice architecture on Microsoft Foundry: three enterprise patterns",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/choosing-a-real-time-voice-architecture-on-microsoft-foundry/ba-p/4552676",
-      "published": "2026-09-04T14:00:00+00:00",
-      "summary": "A real-time voice agent is not just a model connected to a microphone. It must detect turns, stream audio, ground answers, call tools, enforce user permissions, recover from connection failures, and keep data on approved network paths. The first architecture question is therefore not which model...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Yassine_El_Ghali",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -254,6 +199,17 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
+      "published": "2026-09-03T18:47:52+00:00",
+      "summary": "Microsoft Architect's: Aladdin Alchalabi AladdinAlchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Accelerated AI & Analytics workload on Azure Blob Storage: Up to 25x faster List Blobs operations",
@@ -2588,6 +2544,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "When AI Agents Fail: Engineering Reliable Recovery with Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/when-ai-agents-fail-engineering-reliable-recovery-with-microsoft/ba-p/4546388",
+      "published": "2026-08-13T14:00:00+00:00",
+      "summary": "Introduction: The Failure That Demos Do Not Show A user asks an AI agent a simple question: \"Create a procurement request for 10 laptops for the new project team.\" The agent does what it was designed to do. It checks the procurement policy. It verifies budget availability. It calls the procurement...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "PavanKalyanChilakalapalli",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Building MCP servers for your database: Flexibility, safety, and tradeoffs",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-mcp-servers-for-your-database-flexibility-safety-and/ba-p/4546385",
       "published": "2026-08-13T04:30:00+00:00",
@@ -2742,6 +2709,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Azure Content Understanding announces Synchronous Operations",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/azure-content-understanding-announces-synchronous-operations/ba-p/4544475",
+      "published": "2026-08-12T14:00:00+00:00",
+      "summary": "Workflow automation scenarios—including grounding AI agents, verifying identities, assisting customers with documents in call centers, and triggering document-based workflows—depend on immediate content processing, where every second matters. Now in public preview, synchronous Read, Layout, and...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Krishna_Doss",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "v1.17.0-alpha20260812",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260812",
       "published": "2026-08-12T12:01:24+00:00",
@@ -2816,6 +2794,17 @@
       "blogId": "azuredevcommunityblog",
       "author": "Chris_Noring",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "From Azure Container Apps to Microsoft Foundry: building and evaluating a Patch Tuesday MCP server",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-azure-container-apps-to-microsoft-foundry-building-and/ba-p/4541630",
+      "published": "2026-08-11T18:53:19+00:00",
+      "summary": "**Disclaimer:** This is an independent, self-built project and is not an official Microsoft tool or service. It reads public security-update data and is intended as an educational example of building an MCP server, hosting it responsibly on Azure, and evaluating an agent workflow with Microsoft...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "JonButler",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -6801,6 +6790,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "What’s New in Microsoft 365 Copilot | May 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-microsoft-365-copilot-may-2026/ba-p/4522010",
+      "published": "2026-06-08T21:52:59+00:00",
+      "summary": "Welcome to the May 2026 edition of What's New in Microsoft 365 Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 admins up to date with Copilot features that help your users be more productive and efficient in the apps they use every day. Let’s take a closer...",
+      "blog": "Microsoft 365 Copilot Blog",
+      "blogId": "microsoft365copilotblog",
+      "author": "Seth_Patton",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft365copilotblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "[Launched] Generally Available: Azure NC RTX PRO 6000 Blackwell Server Edition v6 Series Virtual Machines",
       "link": "https://azure.microsoft.com/updates?id=565271",
       "published": "2026-06-08T18:15:14+00:00",
@@ -8174,6 +8174,17 @@
       "author": "Jimmy Kurian, Destiny Hillis",
       "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Summarized Gateway Prefixes for Route Advertisement in Azure Virtual Networks",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/summarized-gateway-prefixes-for-route-advertisement-in-azure/ba-p/4521652",
+      "published": "2026-05-20T19:10:30+00:00",
+      "summary": "Background Many Azure deployments follow a hub-and-spoke topology: one VNet is designated as the hub and holds the connection to on-premises (via ExpressRoute Gateway, VPN Gateway, or both), and workload VNets — the spokes — peer to the hub to reach on-premises and shared services. This centralizes...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Jay-Li",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Your dev loop is full of tribal knowledge",
@@ -10299,17 +10310,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Announcing the AI Gateway Working Group",
-      "link": "https://kubernetes.io/blog/2026/03/09/announcing-ai-gateway-wg/",
-      "published": "2026-03-09T18:00:00+00:00",
-      "summary": "The community around Kubernetes includes a number of Special Interest Groups (SIGs) and Working Groups (WGs) facilitating discussions on important topics between interested contributors. Today, we're excited to announce the formation of the AI Gateway Working Group, a new initiative focused on...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "AI Inferencing in Air-Gapped Environments",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/ai-inferencing-in-air-gapped-environments/ba-p/4498594",
       "published": "2026-03-09T09:18:31+00:00",
@@ -12013,18 +12013,6 @@
       "author": "Tanmayee Kamath",
       "feedUrl": "https://devblogs.microsoft.com/develop-from-the-cloud/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "General Availability of Teams Phone extensibility",
-      "link": "https://techcommunity.microsoft.com/t5/azure-communication-services/general-availability-of-teams-phone-extensibility/ba-p/4446092",
-      "published": "2025-09-04T00:17:57+00:00",
-      "summary": "We are proud to announce the general availability of Teams Phone extensibility (TPE) powered by Azure Communication Services. This enables Contact Center as a Service (CCaaS) vendors to integrate seamlessly with Teams Phone, offering benefits such as consolidated telephony for Unified...",
-      "blog": "Communication Services",
-      "blogId": "azurecommunicationservicesblog",
-      "author": "AnkurAgarwal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecommunicationservicesblog&page.size=50",
-      "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure and Microsoft announcements centered on AI platform expansion, enterprise security, and developer tooling. The biggest launches were **OpenAI GPT-6 Astra** becoming available in **Microsoft Copilot** and generally available in **GitHub Copilot**, alongside **Project HydraFusion** for multi-model orchestration, new **MAI-Image-2.6** and **MAI-Image-2.6-Flash** image models in **Azure AI Foundry**, and guidance on **real-time voice architectures** in Microsoft/Azure Foundry.\n\nA second major theme was securing AI and regulated workloads: Microsoft highlighted **HIPAA Compliance Security Profile support for Azure Databricks**, new **Azure Firewall** innovations, best practices for **securing edge AI in customer-owned environments**, and detailed networking guidance showing that **Private Endpoints alone don’t secure Azure AI Foundry agent egress**. On the developer side, Microsoft also shipped the **August 2026 Azure SDK release**, published a **Foundry quickstart**, and GitHub added a **privacy-safe star history API endpoint** plus its latest **Copilot weekly release** updates."
+  ]
 }
