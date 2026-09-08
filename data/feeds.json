@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-08T13:07:28.136917+00:00",
-  "totalArticles": 1091,
+  "lastUpdated": "2026-09-08T18:10:05.532018+00:00",
+  "totalArticles": 1092,
   "articles": [
     {
       "title": "Visual Studio Code 1.137 (Insiders)",
@@ -11,6 +11,61 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Wiring Azure DevOps Pipeline Templates Without the Parameter Sprawl: The Manifest Facade Pattern",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/wiring-azure-devops-pipeline-templates-without-the-parameter/ba-p/4554182",
+      "published": "2026-09-08T17:28:12+00:00",
+      "summary": "Where reusable pipelines start to hurt Who this is for: Platform and DevOps engineers who build shared Azure DevOps Pipeline Templates and want other teams to adopt them consistently. If you have ever built a set of shared Azure DevOps Pipeline Templates, you probably know how this goes. You write...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "pratikpanda",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Developer CLI (azd) Extension Framework",
+      "link": "https://azure.microsoft.com/updates?id=570881",
+      "published": "2026-09-08T17:18:38+00:00",
+      "summary": "The Azure Developer CLI (azd) Extension Framework is now generally available. The framework enables developers, teams, and partners to extend Azure Developer CLI with custom capabilities that support their preferred application development workflows.With",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Inside Orchestrated Media Intelligence: The Technology Behind Connected Media Workflows",
+      "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/inside-orchestrated-media-intelligence-the-technology-behind/ba-p/4553782",
+      "published": "2026-09-08T17:00:00+00:00",
+      "summary": "What orchestration changes Media workflows are already distributed across specialized creative, content, rights, archive, delivery, audience, and business systems. The technical challenge is not to replace those systems with one monolithic platform. It is to create an orchestration layer that can...",
+      "blog": "Telecommunications",
+      "blogId": "telecommunications-industry-blog",
+      "author": "kshatzkamer",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=telecommunications-industry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Automatic Dependabot access to GitHub-hosted registries",
+      "link": "https://github.blog/changelog/2026-09-08-automatic-dependabot-access-to-github-hosted-registries",
+      "published": "2026-09-08T16:46:05+00:00",
+      "summary": "Dependabot can now read from private GitHub Packages registries without a personal access token. If a package has granted your repository access through “Manage Actions access” in the package settings,… The post Automatic Dependabot access to GitHub-hosted registries appeared first on The GitHub...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Today I will… find hidden latency across a distributed .NET application",
+      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-find-hidden-latency-across-a-distributed-net-application/",
+      "published": "2026-09-08T16:00:22+00:00",
+      "summary": "When a distributed application feels slow, the user sees one delay. The code behind that delay may run across a web frontend, backend services, databases, and external APIs. If you profile only the frontend while the backend is slow, the profiler can show that the frontend is healthy without...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Justin Yoo",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
     },
     {
@@ -452,17 +507,6 @@
       "author": "Dalibor_Kovacevic",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "CodeQL 2.26.4 improves GitHub actions security detections",
-      "link": "https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections",
-      "published": "2026-09-03T14:04:59+00:00",
-      "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.4, which adds support for Go 1.27,… The post CodeQL 2.26.4 improves GitHub actions security detections appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Bringing Open Models to Fireworks on Microsoft Foundry",
@@ -3930,17 +3974,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Tell your model when to think harder",
-      "link": "https://devblogs.microsoft.com/visualstudio/tell-your-model-when-to-think-harder/",
-      "published": "2026-07-29T15:02:36+00:00",
-      "summary": "Not every question deserves the same amount of thought. Renaming a variable isn’t the same as debugging a memory leak, and they don’t need the same level of thinking. So why should your model treat them the same way every time? Starting in Visual Studio 18.9 Insiders 2, it doesn’t have to....",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Rachel Kang (SHE/HER)",
-      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Now Generally Available: Built-in CIS Benchmark Auditing for Linux on Azure",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/now-generally-available-built-in-cis-benchmark-auditing-for/ba-p/4529819",
       "published": "2026-07-29T08:21:15+00:00",
@@ -4368,17 +4401,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "MCP in Azure: Using API Management for Authentication, Access, Logging & Governance",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/mcp-in-azure-using-api-management-for-authentication-access/ba-p/4532139",
-      "published": "2026-07-22T16:51:16+00:00",
-      "summary": "If MCP is becoming the “USB-C for AI,” enterprises need something equally familiar on the other side of that port: a control plane. The Model Context Protocol (MCP) gives AI applications a standard way to discover tools, retrieve context, and call capabilities from external systems. But once you...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Kalaivanan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Connecting Microsoft Discovery App to Azure HPC with Azure NetApp Files and CycleCloud",
@@ -7712,17 +7734,6 @@
       "author": "FloraTaagen",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure Sphere OS version 26.06 is now available",
-      "link": "https://azure.microsoft.com/updates?id=565033",
-      "published": "2026-06-02T19:30:20+00:00",
-      "summary": "Azure Sphere OS version 26.06 is now available in the Retail feed. This release includes updates to Azure Sphere OS only; it does not include an updated SDK. If your devices are connected to the internet, they will receive the updated OS from the cloud.Th",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
     },
     {
       "title": "Microsoft Planetary Computer Pro is Generally Available",
@@ -12004,5 +12015,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage centers on **AI agents for business growth**, with **“The Agentic Road to Revenue”** highlighting how organizations can use **agentic AI** to improve go-to-market execution and drive revenue outcomes. The key theme is Azure’s role in enabling these intelligent, action-oriented systems—likely tying together **Azure AI services**, data, and automation to help teams move from traditional copilots toward more autonomous business agents."
+  "summary": "Today’s Azure news centers on developer productivity, AI-driven workflows, and media/app modernization. Key announcements include the general availability of the Azure Developer CLI (azd) Extension Framework, a new “Manifest Facade Pattern” for reducing Azure DevOps pipeline template parameter sprawl, and Visual Studio guidance for uncovering hidden latency in distributed .NET applications.\n\nOn the platform and business side, Microsoft highlighted orchestrated media intelligence for connected media workflows in telecommunications, alongside an “agentic” AI theme focused on revenue generation. The roundup also notes GitHub’s new automatic Dependabot access to GitHub-hosted registries, improving dependency management and security automation for developers."
 }
