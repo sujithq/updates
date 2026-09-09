@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T23:02:37.324951+00:00",
+  "lastUpdated": "2026-09-09T01:42:30.209780+00:00",
   "totalArticles": 1093,
   "articles": [
     {
@@ -78,6 +78,17 @@
       "author": "Sandip-Khandelwal",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Kubernetes v1.37: Advancing Workload-Aware Scheduling",
+      "link": "https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/",
+      "published": "2026-09-08T18:30:00+00:00",
+      "summary": "AI/ML and complex batch workloads continue to push the boundaries of Kubernetes scheduling. Following the foundational workload-centric enhancements introduced in previous releases, Kubernetes v1.37 delivers the next major milestone in the Workload-Aware Scheduling (WAS) journey. In this release,...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "New customer portal help.github.com",
@@ -10233,17 +10244,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "The Invisible Rewrite: Modernizing the Kubernetes Image Promoter",
-      "link": "https://kubernetes.io/blog/2026/03/17/image-promoter-rewrite/",
-      "published": "2026-03-17T00:00:00+00:00",
-      "summary": "Every container image you pull from registry.k8s.io got there through kpromo, the Kubernetes image promoter. It copies images from staging registries to production, signs them with cosign, replicates signatures across more than 20 regional mirrors, and generates SLSA provenance attestations. If...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Microsoft hits the road with Oracle AI World Tour 2026.",
       "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/microsoft-hits-the-road-with-oracle-ai-world-tour-2026/ba-p/4477598",
       "published": "2026-03-16T15:15:44+00:00",
@@ -12026,5 +12026,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Microsoft’s latest Azure and adjacent announcements center on developer productivity, AI-driven operations, and platform maturity: Azure highlighted using AI to convert customer feedback into product improvements, showcased “agentic” AI for business outcomes, and detailed media-workflow orchestration and Azure DevOps pipeline design patterns, while Azure Updates brought GA launches for the Azure Developer CLI (azd) Extension Framework and Playwright Workspaces in Australia East, Japan East, and Switzerland North. On the developer stack, GitHub Enterprise Server 3.22 reached general availability alongside automatic Dependabot access to GitHub-hosted registries and a new help.github.com portal, and .NET news included .NET 11 Release Candidate 1, September 2026 servicing updates for .NET/.NET Framework, a .NET Conf 2026 Community Days CFP, and Visual Studio guidance for tracing hidden latency in distributed .NET apps.\n\nData and modernization also stood out, with a best-practices post on loading Azure SQL Database Hyperscale data using the Microsoft JDBC Driver instead of the Apache Spark SQL connector, signaling continued focus on performance and streamlined enterprise data integration."
+  "summary": "Today’s Azure-related blog activity centers on the **Visual Studio Code 1.137 Insiders** release, highlighting ongoing rapid iteration in Microsoft’s developer tooling ecosystem. The post focuses on updates to **Visual Studio Code** itself—likely including preview features, editor improvements, and developer experience enhancements—signaling Microsoft’s continued investment in the IDE that underpins workflows across **Azure development, cloud-native apps, and AI-assisted coding**."
 }
