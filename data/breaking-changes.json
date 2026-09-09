@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T12:40:17.768133+00:00",
+  "lastUpdated": "2026-09-09T12:54:06.753282+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -1408,6 +1408,17 @@
       "detected": "2026-09-04T12:40:17.768128+00:00",
       "published": "2026-09-03T19:40:14+00:00",
       "blog": "GitHub Changelog"
+    },
+    {
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-09-04",
+      "title": "Release 2026-09-04",
+      "severity": "critical",
+      "deadline": "2026-09-30",
+      "impact": "AKS will auto-migrate deprecated VMAS clusters; customers using VMAS clusters affected",
+      "action": "Identify VMAS clusters and prepare/test migration to VMSS before 2026-09-30",
+      "detected": "2026-09-09T12:54:06.753269+00:00",
+      "published": "2026-09-09T05:19:01+00:00",
+      "blog": "Release notes from AKS"
     }
   ]
 }
