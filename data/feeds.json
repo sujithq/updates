@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T01:42:30.209780+00:00",
+  "lastUpdated": "2026-09-09T07:36:51.121548+00:00",
   "totalArticles": 1093,
   "articles": [
     {
@@ -11,6 +11,28 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Release 2026-09-04",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-09-04",
+      "published": "2026-09-09T05:19:01+00:00",
+      "summary": "Release Notes - 2026-09-04 Monitor the release status by regions at AKS-Release-Tracker. This release is titled v20260904. Announcements of upcoming changes and retirements Starting September 30, 2026, AKS will automatically migrate deprecated Availability Sets (VMAS) clusters to Virtual Machines...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "AllenWen-at-Azure",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Enterprise-managed sandbox in Copilot for JetBrains",
+      "link": "https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains",
+      "published": "2026-09-09T02:43:38+00:00",
+      "summary": "This update brings support for enterprise-managed sandbox policies, cross-file cursor jumps for next edit suggestions, global project context in chat, enterprise policy diagnostics, and a new connection between terminal Copilot… The post Enterprise-managed sandbox in Copilot for JetBrains appeared...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -418,17 +440,6 @@
       "blogId": "azuresqlblog",
       "author": "Jerry Nixon",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "GitHub CLI Linux package signing key expires September 5",
-      "link": "https://github.blog/changelog/2026-09-03-github-cli-linux-package-signing-key-expires-september-5",
-      "published": "2026-09-03T19:05:40+00:00",
-      "summary": "The current PGP key for the GitHub CLI Linux package repositories expires on Saturday, September 5, 2026. Beginning with the first release after that date, APT and RPM repository metadata… The post GitHub CLI Linux package signing key expires September 5 appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -10497,17 +10508,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Release 2026-01-04",
-      "link": "https://github.com/Azure/AKS/releases/tag/2026-01-04",
-      "published": "2026-02-25T03:49:23+00:00",
-      "summary": "Release Notes 2026-01-04 Monitor the release status by regions at AKS-Release-Tracker. Announcements Ubuntu version updates Ubuntu 24.04 is now generally available and will be the default for OS SKU Ubuntu starting in Kubernetes v1.35. This means that if you upgrade to Kubernetes v1.35 with Ubuntu...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "varora24",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "Introducing Run Oracle Your Way on Oracle Database@Azure – a new technical webinar series",
       "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/introducing-run-oracle-your-way-on-oracle-database-azure-a-new/ba-p/4496593",
       "published": "2026-02-24T17:12:37+00:00",
@@ -12026,5 +12026,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related blog activity centers on the **Visual Studio Code 1.137 Insiders** release, highlighting ongoing rapid iteration in Microsoft’s developer tooling ecosystem. The post focuses on updates to **Visual Studio Code** itself—likely including preview features, editor improvements, and developer experience enhancements—signaling Microsoft’s continued investment in the IDE that underpins workflows across **Azure development, cloud-native apps, and AI-assisted coding**."
+  "summary": "Today’s Azure-adjacent updates center on developer tooling, Kubernetes operations, and secure AI-assisted coding workflows. **Visual Studio Code 1.137 (Insiders)** introduces the latest preview changes to the editor experience, **AKS Release 2026-09-04** delivers new Kubernetes platform updates and fixes for **Azure Kubernetes Service**, and **GitHub Copilot for JetBrains** adds an **enterprise-managed sandbox** to isolate and govern AI code assistance in regulated development environments.\n\nThe main themes are faster iteration for developers, ongoing reliability and feature improvements in managed Kubernetes, and stronger enterprise security controls around AI tooling—specifically across **VS Code**, **AKS**, and **Copilot in JetBrains IDEs**."
 }
