@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-10T13:10:33.798199+00:00",
-  "totalArticles": 1072,
+  "lastUpdated": "2026-09-10T17:56:23.552998+00:00",
+  "totalArticles": 1071,
   "articles": [
     {
       "title": "Visual Studio Code 1.138 (Insiders)",
@@ -14,10 +14,109 @@
       "sourceType": "rss"
     },
     {
+      "title": "Use C# unions and closed hierarchies in ASP.NET Core",
+      "link": "https://devblogs.microsoft.com/dotnet/unions-and-closed-hierarchies-in-aspnetcore/",
+      "published": "2026-09-10T17:00:00+00:00",
+      "summary": "Learn how C# unions and closed hierarchies work with System.Text.Json across ASP.NET Core Minimal APIs, MVC, SignalR, Blazor, and OpenAPI. The post Use C# unions and closed hierarchies in ASP.NET Core appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Dmitrii Korolev",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "MAI-Code-1-Flash deprecated",
+      "link": "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated",
+      "published": "2026-09-10T16:54:01+00:00",
+      "summary": "We have deprecated MAI-Code-1-Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, September 10, 2026. Model Deprecation date Suggested alternative… The post MAI-Code-1-Flash deprecated appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: TLS/SSL certificate and end-to-end TLS encryption support for Azure Functions Flex Consumption",
+      "link": "https://azure.microsoft.com/updates?id=570940",
+      "published": "2026-09-10T16:12:49+00:00",
+      "summary": "Azure Functions Flex Consumption support for TLS/SSL certificates is now generally available through a new site-scoped certificate model. Each function app can hold up to 3 private (.pfx) and 3 public (.cer) certificates uploaded directly, imported from A",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Workload Orchestration in the Azure portal is now available: Deploy in minutes, scale with ease",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/workload-orchestration-in-the-azure-portal-is-now-available/ba-p/4554101",
+      "published": "2026-09-10T16:06:38+00:00",
+      "summary": "Edge deployments rarely stay simple for long. What begins as an application running on a single Kubernetes cluster can quickly expand across stores, factories, branches, or other distributed locations, each having different configuration needs. That is exactly where workload orchestration for Azure...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "mnshnth",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Announcing the public preview of Azure Local workload management in Azure Arc Site Manager",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/announcing-the-public-preview-of-azure-local-workload-management/ba-p/4549703",
+      "published": "2026-09-10T16:00:00+00:00",
+      "summary": "Today, we are excited to announce the public preview of Azure Local workload management in Azure Arc Site Manager. As Azure Local deployments grow across multiple sites, operators need a simpler way to monitor and manage workloads from a centralized location. Operators with multiple Azure Local...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "kchoi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Copilot Troubleshooting Agent",
+      "link": "https://azure.microsoft.com/updates?id=570980",
+      "published": "2026-09-10T15:25:52+00:00",
+      "summary": "Azure Copilot Troubleshooting Agent is now generally available. Troubleshooting Agent is a unified, built-in Azure Copilot capability that helps customers investigate and resolve operational issues faster. Available through both Azure Copilot and Support",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Dell Managed PowerScale for Microsoft Azure is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/dell-managed-powerscale-for-microsoft-azure-is-now-generally/ba-p/4555367",
+      "published": "2026-09-10T15:23:53+00:00",
+      "summary": "Organizations continue to look for practical ways to manage growing volumes of unstructured data while maintaining the performance, resiliency, and familiar filesystem capabilities their applications require. Customers with existing PowerScale environments also want options for extending those...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "AzureAndrewChen",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Xcode 27 runner image now runs on macOS 27",
+      "link": "https://github.blog/changelog/2026-09-10-xcode-27-runner-image-now-runs-on-macos-27",
+      "published": "2026-09-10T15:15:36+00:00",
+      "summary": "You can now validate your Apple apps against macOS 27 using the Xcode 27 runner image for GitHub-hosted macOS runners, available in public preview. The image previously ran on macOS… The post Xcode 27 runner image now runs on macOS 27 appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
+      "published": "2026-09-10T14:52:05+00:00",
+      "summary": "Microsoft Architect's: Aladdin Alchalabi AladdinAlchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "How Azure uses AI to turn feedback into improved customer experience",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-azure-uses-ai-to-turn-feedback-into-improved-customer/ba-p/4552810",
       "published": "2026-09-10T02:27:37+00:00",
-      "summary": "Authors: ebhattad​, jenniferjhan​, lakshminarasimha​, bharadwajr​ The Challenge: Synthesizing fragmented feedback signals, to improve Azure's experience quality at scale Customers experience products and services end to end, but product experiences are often structured around individual service....",
+      "summary": "Authors: eshaanbhattad​, jenniferjhan​, lakshminarasimha​, bharadwajr​ The Challenge: Synthesizing fragmented feedback signals, to improve Azure's experience quality at scale Customers experience products and services end to end, but product experiences are often structured around individual...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "bharadwajr",
@@ -66,6 +165,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "npm extends recovery-code security holds to all accounts",
+      "link": "https://github.blog/changelog/2026-09-09-npm-extends-recovery-code-security-holds-to-all-accounts",
+      "published": "2026-09-09T21:55:55+00:00",
+      "summary": "npm now places a temporary 72-hour security hold on any account after a successful recovery-code sign-in, extending a protection that previously applied only to high-impact accounts. This change applies to… The post npm extends recovery-code security holds to all accounts appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -223,17 +333,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
-      "published": "2026-09-09T16:02:16+00:00",
-      "summary": "Microsoft Architect's: Aladdin Alchalabi AladdinAlchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Can a Harmless Prompt Break an AI Guardrail?",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/can-a-harmless-prompt-break-an-ai-guardrail/ba-p/4553727",
       "published": "2026-09-09T16:00:00+00:00",
@@ -377,17 +476,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "New customer portal help.github.com",
-      "link": "https://github.blog/changelog/2026-09-08-new-customer-portal-help-github-com",
-      "published": "2026-09-08T18:00:10+00:00",
-      "summary": "The support portal has been redesigned and moved to a new home at help.github.com. It brings support, docs, learning, community, and account resources together in one place with Copilot-powered search… The post New customer portal help.github.com appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[Launched] Generally Available: Playwright Workspaces in Australia East, Japan East, and Switzerland North",
       "link": "https://azure.microsoft.com/updates?id=570919",
       "published": "2026-09-08T17:35:32+00:00",
@@ -432,17 +520,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Automatic Dependabot access to GitHub-hosted registries",
-      "link": "https://github.blog/changelog/2026-09-08-automatic-dependabot-access-to-github-hosted-registries",
-      "published": "2026-09-08T16:46:05+00:00",
-      "summary": "Dependabot can now read from private GitHub Packages registries without a personal access token. If a package has granted your repository access through “Manage Actions access” in the package settings,… The post Automatic Dependabot access to GitHub-hosted registries appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Today I will… find hidden latency across a distributed .NET application",
       "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-find-hidden-latency-across-a-distributed-net-application/",
       "published": "2026-09-08T16:00:22+00:00",
@@ -485,17 +562,6 @@
       "author": "SudhirRawat",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "GitHub Copilot weekly releases — August 31",
-      "link": "https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31",
-      "published": "2026-09-04T21:05:01+00:00",
-      "summary": "This week, GitHub Copilot expands model choice and content protections, while VS Code adds new ways to manage agent sessions and get pull requests merge-ready. GitHub Copilot, general Claude Fable… The post GitHub Copilot weekly releases — August 31 appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "How to secure edge AI in customer-owned environments",
@@ -2904,17 +2970,6 @@
       "blogId": "foundryblog",
       "author": "Joe Filcik, Krishnakumar Muthukrishnan",
       "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Instructions Hygiene – What Frontier Models Still Need You to Say",
-      "link": "https://devblogs.microsoft.com/dotnet/instructions-hygiene-what-frontier-models-still-need-you-to-say/",
-      "published": "2026-08-12T17:05:00+00:00",
-      "summary": "Get the most out of the latest models by providing the right level of instructions The post Instructions Hygiene – What Frontier Models Still Need You to Say appeared first on .NET Blog.",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": "Wendy Breiding (SHE/HER)",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
     },
     {
@@ -7571,28 +7626,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Azure API Management Premium v2 and Standard v2 now support wildcard custom hostnames.",
-      "link": "https://azure.microsoft.com/updates?id=562894",
-      "published": "2026-06-02T20:45:52+00:00",
-      "summary": "As API estates grow, managing individual custom domains and certificates for every subdomain can quickly become operationally complex and difficult to scale. Without wildcard support, every new subdomain — whether payments.api.contoso.com, inventory.api.c",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Global PTU Reservations Are Now Region-Agnostic",
-      "link": "https://azure.microsoft.com/updates?id=562657",
-      "published": "2026-06-02T20:45:52+00:00",
-      "summary": "Global Provisioned Throughput (PTU) reservations are now region-agnostic, enabling a single reservation to cover Global PTU deployments across multiple regions. Why it matters:Optimize savings: One reservation can apply across regions, improving utilizati",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Introducing Azure Container Linux (ACL)",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/introducing-azure-container-linux-acl/ba-p/4523411",
       "published": "2026-06-02T20:00:00+00:00",
@@ -8110,17 +8143,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Simplified access to Hotpatching enabled by Azure Arc for Windows Server 2025",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/simplified-access-to-hotpatching-enabled-by-azure-arc-for/ba-p/4521251",
-      "published": "2026-05-19T21:18:34+00:00",
-      "summary": "With Windows Server 2025, we introduced hotpatch enabled by Azure Arc, delivering security updates to Windows Server across hybrid and multicloud environments – minimizing downtime (no reboot), accelerating protection, and unifying patch management. We know that keeping your servers updated with...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "sharmajyoti",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Public preview: Expanded coverage and unified management for SQL VA Express Configuration",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/public-preview-expanded-coverage-and-unified-management-for-sql/ba-p/4514652",
       "published": "2026-05-19T21:11:13+00:00",
@@ -8426,17 +8448,6 @@
       "blogId": "azurecompute",
       "author": "simranparkhe",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Introducing cert-manager for Azure Arc-enabled Kubernetes: now in Public Preview",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/introducing-cert-manager-for-azure-arc-enabled-kubernetes-now-in/ba-p/4514549",
-      "published": "2026-05-13T03:37:38+00:00",
-      "summary": "Today we’re releasing a public preview of cert-manager for Azure Arc-enabled Kubernetes. It’s an Arc extension that automates TLS certificate and trust bundle management for edge Kubernetes clusters. If you’re running Kubernetes at the edge: in factories, retail stores, remote sites, you’ve...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "NicolasMondada",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -9702,17 +9713,6 @@
       "blogId": "microsoftdefendercloudblog",
       "author": "Yura_Lee",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Unlocking AI-Ready Unstructured Data at Scale with Komprise and Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/unlocking-ai-ready-unstructured-data-at-scale-with-komprise-and/ba-p/4507422",
-      "published": "2026-04-02T09:53:30+00:00",
-      "summary": "Why Move Unstructured Data to Azure On-premises storage environments are often over-provisioned to accommodate future growth, driving costs and operational complexity. Azure’s cloud-based storage platform enables organizations to right-size their environments through elastic scaling and Microsoft’s...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "dmalbrough",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -11782,18 +11782,7 @@
       "author": "rickliev",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=telecommunications-industry-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Supercharge Your TM Forum Open API Development with GitHub Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/supercharge-your-tm-forum-open-api-development-with-github/ba-p/4451366",
-      "published": "2025-09-09T14:46:48+00:00",
-      "summary": "Developing applications that implement TM Forum (TMF) Open APIs can be greatly accelerated with the help of GitHub Copilot, an AI-based coding assistant. By combining Copilot’s code-generation capabilities with TMF’s standardized API specifications, developers can speed up coding while adhering to...",
-      "blog": "Telecommunications",
-      "blogId": "telecommunications-industry-blog",
-      "author": "JayantMishra",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=telecommunications-industry-blog&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related updates center on AI-driven product improvement and cloud service reliability. In **“How Azure uses AI to turn feedback into improved customer experience,”** Microsoft explains how **Apps on Azure** applies **AI** to analyze customer feedback at scale and turn it into actionable improvements for the Azure app experience; meanwhile, the **“GitHub availability report: August 2026”** highlights **GitHub’s** ongoing transparency around platform uptime and incident performance, reinforcing the importance of reliability for developers building and deploying in the broader Azure and cloud ecosystem."
+  "summary": "Today’s Azure news centered on platform maturity, hybrid operations, and security/compliance: Azure Functions Flex Consumption is now generally available with TLS/SSL certificates and end-to-end TLS encryption, Azure Copilot Troubleshooting Agent reached GA, and Azure Arc added both portal-based Workload Orchestration and a public preview of Azure Local workload management in Azure Arc Site Manager to simplify deployment and scaling across distributed environments. On the data and enterprise side, Dell Managed PowerScale for Microsoft Azure became generally available, Azure Databricks detailed how to enable the HIPAA Compliance Security Profile, and the .NET team highlighted C# unions and closed hierarchies for ASP.NET Core app design.\n\nOther notable updates came from GitHub and developer tooling: MAI-Code-1-Flash was deprecated, Xcode 27 runner images moved to macOS 27, and GitHub published its August 2026 availability report. Azure also shared how it is using AI to analyze customer feedback and improve product experience."
 }
