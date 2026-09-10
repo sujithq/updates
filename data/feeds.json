@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T22:49:16.209992+00:00",
+  "lastUpdated": "2026-09-10T01:37:22.249014+00:00",
   "totalArticles": 1073,
   "articles": [
     {
@@ -14,6 +14,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "Public Preview: Automatic Zone Placement for Virtual Machine Scale Sets",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/public-preview-automatic-zone-placement-for-virtual-machine/ba-p/4554986",
+      "published": "2026-09-09T22:57:26+00:00",
+      "summary": "We’re excited to announce the public preview of Automatic Zone Placement for Azure Virtual Machine Scale Sets. This new capability lets Azure select availability zones for your scale set based on SKU availability, capacity, and your placement requirements. Automatic Zone Placement simplifies zonal...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "HilaryWang",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[Launched] Generally Available: User-bound user delegation SAS for Azure Storage",
+      "link": "https://azure.microsoft.com/updates?id=569241",
+      "published": "2026-09-09T22:30:41+00:00",
+      "summary": "Announcing the addition of enhanced secure authentication in Azure Storage that combines the flexibility of user-delegation shared access signature (SAS) with the user-bound access of Entra ID. User-bound user delegation SAS is now generally available for",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
       "title": "CodeQL 2.27.0 adds support for Linux ARM64",
       "link": "https://github.blog/changelog/2026-09-09-codeql-2-27-0-adds-support-for-linux-arm64",
       "published": "2026-09-09T21:45:06+00:00",
@@ -22,6 +44,28 @@
       "blogId": "githubchangelog",
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "How Azure uses AI to turn feedback into improved customer experiences",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-azure-uses-ai-to-turn-feedback-into-improved-customer/ba-p/4552810",
+      "published": "2026-09-09T21:34:40+00:00",
+      "summary": "The Challenge: Synthesizing fragmented feedback signals, to improve Azure's experience quality at scale Customers experience products and services end to end, but product experiences are often structured around individual service. One team may only know its top issues, while another may see only...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "bharadwajr",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Threat matrix: Mapping threats across cloud web applications",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/09/threat-matrix-mapping-threats-across-cloud-web-applications/",
+      "published": "2026-09-09T21:30:00+00:00",
+      "summary": "Microsoft introduces the Cloud Web Applications Threat Matrix, a MITRE ATT&CK-aligned framework that helps defenders understand, prioritize, and mitigate threats to cloud-hosted web apps and serverless platforms. The post Threat matrix: Mapping threats across cloud web applications appeared first...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Security Research and Lior Leizerovich",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -36,6 +80,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Choosing a real-time voice architecture on Microsoft Foundry: three enterprise patterns",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/choosing-a-real-time-voice-architecture-on-microsoft-foundry/ba-p/4552676",
+      "published": "2026-09-09T21:13:26+00:00",
+      "summary": "A real-time voice agent is not just a model connected to a microphone. It must detect turns, stream audio, ground answers, call tools, enforce user permissions, recover from connection failures, and keep data on approved network paths. The first architecture question is therefore not which model...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Yassine_El_Ghali",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Enterprise managed permissions for GitHub Copilot agent operations",
       "link": "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations",
       "published": "2026-09-09T20:08:14+00:00",
@@ -44,6 +99,28 @@
       "blogId": "githubchangelog",
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Generally Available: Restrict usage of user delegation SAS to an Entra ID identity",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/generally-available-restrict-usage-of-user-delegation-sas-to-an/ba-p/4554967",
+      "published": "2026-09-09T19:44:54+00:00",
+      "summary": "Shared access signatures (SAS) grant time-bound, scoped access to Azure Storage resources without sharing account keys. Over time, Azure Storage has continued to strengthen SAS security, moving from account keys to user delegation (UD) SAS secured by Microsoft Entra ID. Today, we’re taking the next...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "ellievail",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Kubernetes v1.37: Introducing Node Lifecycle Conditions",
+      "link": "https://kubernetes.io/blog/2026/09/09/kubernetes-v1-37-node-lifecycle-conditions/",
+      "published": "2026-09-09T18:30:00+00:00",
+      "summary": "Kubernetes has many ways to describe what is happening on a Node. Readiness, taints, Pod state, labels, annotations, and provider-specific APIs each expose part of the picture. What has been missing is a shared, Kubernetes-owned way to say that a Node is draining, undergoing maintenance, or...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -210,17 +287,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "How Azure uses AI to turn feedback into improved customer experiences",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-azure-uses-ai-to-turn-feedback-into-improved-customer/ba-p/4552810",
-      "published": "2026-09-08T22:51:21+00:00",
-      "summary": "The Challenge: Synthesizing fragmented feedback signals, to improve Azure's experience quality at scale Customers experience products and services end to end, but product experiences are often structured around individual service. One team may only know its top issues, while another may see only...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "bharadwajr",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "GitHub Enterprise Server 3.22 is now generally available",
@@ -506,17 +572,6 @@
       "blogId": "azurearchitectureblog",
       "author": "rgarofalo",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Choosing a real-time voice architecture on Microsoft Foundry: three enterprise patterns",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/choosing-a-real-time-voice-architecture-on-microsoft-foundry/ba-p/4552676",
-      "published": "2026-09-04T14:00:00+00:00",
-      "summary": "A real-time voice agent is not just a model connected to a microphone. It must detect turns, stream audio, ground answers, call tools, enforce user permissions, recover from connection failures, and keep data on approved network paths. The first architecture question is therefore not which model...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Yassine_El_Ghali",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -1837,17 +1892,6 @@
       "blogId": "visualstudio",
       "author": "Mark Downie",
       "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "The patch window is collapsing: Why security needs a new control plane",
-      "link": "https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/",
-      "published": "2026-08-25T16:00:00+00:00",
-      "summary": "Organizations need protection that operates in the gap between discovery and remediation. The post The patch window is collapsing: Why security needs a new control plane appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Igor Sakhnov",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -5899,17 +5943,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Enterprise Identity Meets Secure File Transfer: Entra ID Public Preview on Azure Blob Storage SFTP",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/enterprise-identity-meets-secure-file-transfer-entra-id-public/ba-p/4501937",
-      "published": "2026-06-23T12:50:37+00:00",
-      "summary": "Updated on June 23 2026: Microsoft Entra ID-based access for Azure Blob Storage SFTP is now Generally Available. GA enhancements: Improved ABAC by resolving inconsistencies with the Storage Blob Data Owner role (eliminating timeout issues) while adding support for sub-operations to enable more...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "JeevanManoj",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure SDK Release (May 2026)",
       "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-may-2026/",
       "published": "2026-06-22T23:37:37+00:00",
@@ -7553,17 +7586,6 @@
       "link": "https://azure.microsoft.com/updates?id=562657",
       "published": "2026-06-02T20:45:52+00:00",
       "summary": "Global Provisioned Throughput (PTU) reservations are now region-agnostic, enabling a single reservation to cover Global PTU deployments across multiple regions. Why it matters:Optimize savings: One reservation can apply across regions, improving utilizati",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Azure Backup for Cosmos DB",
-      "link": "https://azure.microsoft.com/updates?id=562769",
-      "published": "2026-06-02T20:15:03+00:00",
-      "summary": "You can now enable vaulted backups for Azure Cosmos DB accounts, protecting mission-critical data with secure, isolated, and resilient backups. Azure Backup for Cosmos DB, now in preview, supports cyber-resiliency and compliance needs, even in scenarios i",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -10002,17 +10024,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Securing Production Debugging in Kubernetes",
-      "link": "https://kubernetes.io/blog/2026/03/18/securing-production-debugging-in-kubernetes/",
-      "published": "2026-03-18T18:00:00+00:00",
-      "summary": "During production debugging, the fastest route is often broad access such as cluster-admin (a ClusterRole that grants administrator-level access), shared bastions/jump boxes, or long-lived SSH keys. It works in the moment, but it comes with two common problems: auditing becomes difficult, and...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Introducing Lakeflow Connect Free Tier, now available on Azure Databricks",
       "link": "https://techcommunity.microsoft.com/t5/azure-databricks/introducing-lakeflow-connect-free-tier-now-available-on-azure/ba-p/4502755",
       "published": "2026-03-18T16:00:00+00:00",
@@ -10725,17 +10736,6 @@
       "blogId": "analyticsonazure",
       "author": "NaufalPrawironegoro",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Improving Efficiency through Adaptive CPU Uncore Power Management",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/improving-efficiency-through-adaptive-cpu-uncore-power/ba-p/4486456",
-      "published": "2026-01-21T16:00:00+00:00",
-      "summary": "In a competitive landscape, Microsoft Azure, like other major cloud service providers, must continuously balance two competing objectives: maximizing performance and improving power efficiency. By using power more effectively, Azure can deploy more servers within its existing datacenter footprint...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "PulkitMisra",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -11805,6 +11805,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure and GitHub news centered on secure cloud operations, AI-assisted developer productivity, and infrastructure updates. Key announcements included general availability of Azure Ephemeral OS Disk with full caching for VM and VMSS, Azure Copilot’s Troubleshooting Agent reaching GA, AKS release updates, and compliance-focused guidance such as enabling the HIPAA Compliance Security Profile for Azure Databricks and migration planning with Azure Networking intelligence.\n\nSecurity was a major theme across both Azure and GitHub: Microsoft warned about passkey-themed social engineering attacks targeting identity and cloud environments, while GitHub introduced enterprise-managed permissions for Copilot agents, sandboxing for JetBrains, expanded GitHub Advanced Security trials, secret-exposure pull request blocking, and agentic autofix for CodeQL findings. On the tooling side, updates landed for CodeQL 2.27.0 with Linux ARM64 support, Visual Studio Code 1.137, Terraform v1.16.2 and v1.17.0-beta1, plus posts on AI guardrail resilience and building support-email workflows with Power Automate and Microsoft Foundry."
+  ]
 }
