@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T22:50:22.014244+00:00",
+  "lastUpdated": "2026-09-11T01:36:25.356417+00:00",
   "totalArticles": 1070,
   "articles": [
     {
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Release 2026-09-04",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-09-04",
+      "published": "2026-09-11T01:02:56+00:00",
+      "summary": "Release Notes - 2026-09-04 Monitor the release status by regions at AKS-Release-Tracker. This release is titled v20260904. Announcements of upcoming changes and retirements Starting September 30, 2026, AKS will automatically migrate deprecated Availability Sets (VMAS) clusters to Virtual Machines...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "AllenWen-at-Azure",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -47,17 +58,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Release 2026-09-04",
-      "link": "https://github.com/Azure/AKS/releases/tag/2026-09-04",
-      "published": "2026-09-10T20:21:09+00:00",
-      "summary": "Release Notes - 2026-09-04 Monitor the release status by regions at AKS-Release-Tracker. This release is titled v20260904. Announcements of upcoming changes and retirements Starting September 30, 2026, AKS will automatically migrate deprecated Availability Sets (VMAS) clusters to Virtual Machines...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "AllenWen-at-Azure",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "AI Scan for pull request APIs in public preview",
       "link": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
       "published": "2026-09-10T20:20:58+00:00",
@@ -69,15 +69,15 @@
       "sourceType": "rss"
     },
     {
-      "title": "Create multimodal applications with OpenAI models in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/create-multimodal-applications-with-openai-models-in-microsoft/ba-p/4543593",
-      "published": "2026-09-10T20:14:28+00:00",
-      "summary": "Imagine you are building a home design application. A customer says, “Show me a modern kitchen with dark cabinets and a large center island.” Images appear in seconds. Before the application finishes describing the design, the customer interrupts: “Make it brighter and add natural wood accents.”...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Dave_Jacobs",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
+      "title": "Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha)",
+      "link": "https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/",
+      "published": "2026-09-10T18:30:00+00:00",
+      "summary": "In Kubernetes, resource allocation has historically been a static decision made during a Pod's initial scheduling and placement. With the graduation of the core in-Place Pod resize feature to General Availability in v1.35, application developers and cluster operators gained the powerful ability to...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "Announcing Azure AI Speech LLM 2607: Better Multilingual Accuracy, Easier Customization",
@@ -157,6 +157,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "Workload Orchestration in the Azure portal is now available: Deploy in minutes, scale with ease",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/workload-orchestration-in-the-azure-portal-is-now-available/ba-p/4554101",
+      "published": "2026-09-10T16:06:38+00:00",
+      "summary": "Edge deployments rarely stay simple for long. What begins as an application running on a single Kubernetes cluster can quickly expand across stores, factories, branches, or other distributed locations, each having different configuration needs. That is exactly where workload orchestration for Azure...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "mnshnth",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Announcing the public preview of Azure Local workload management in Azure Arc Site Manager",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/announcing-the-public-preview-of-azure-local-workload-management/ba-p/4549703",
+      "published": "2026-09-10T16:00:00+00:00",
+      "summary": "Today, we are excited to announce the public preview of Azure Local workload management in Azure Arc Site Manager. As Azure Local deployments grow across multiple sites, operators need a simpler way to monitor and manage workloads from a centralized location. Operators with multiple Azure Local...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "kchoi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Detect and disrupt AI-themed attacks with Microsoft Defender",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/09/10/detect-and-disrupt-ai-themed-attacks-with-microsoft-defender/",
       "published": "2026-09-10T16:00:00+00:00",
@@ -179,6 +201,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Dell Managed PowerScale for Microsoft Azure is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/dell-managed-powerscale-for-microsoft-azure-is-now-generally/ba-p/4555367",
+      "published": "2026-09-10T15:23:53+00:00",
+      "summary": "Organizations continue to look for practical ways to manage growing volumes of unstructured data while maintaining the performance, resiliency, and familiar filesystem capabilities their applications require. Customers with existing PowerScale environments also want options for extending those...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "AzureAndrewChen",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Xcode 27 runner image now runs on macOS 27",
       "link": "https://github.blog/changelog/2026-09-10-xcode-27-runner-image-now-runs-on-macos-27",
       "published": "2026-09-10T15:15:36+00:00",
@@ -198,6 +231,17 @@
       "blogId": "analyticsonazure",
       "author": "Rafia_Aqil",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "How Azure uses AI to turn feedback into improved customer experience",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-azure-uses-ai-to-turn-feedback-into-improved-customer/ba-p/4552810",
+      "published": "2026-09-10T02:27:37+00:00",
+      "summary": "Authors: eshaanbhattad​, jenniferjhan​, lakshminarasimha​, bharadwajr​ The Challenge: Synthesizing fragmented feedback signals, to improve Azure's experience quality at scale Customers experience products and services end to end, but product experiences are often structured around individual...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "bharadwajr",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -265,17 +309,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "How Azure uses AI to turn feedback into improved customer experiences",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-azure-uses-ai-to-turn-feedback-into-improved-customer/ba-p/4552810",
-      "published": "2026-09-09T21:34:40+00:00",
-      "summary": "The Challenge: Synthesizing fragmented feedback signals, to improve Azure's experience quality at scale Customers experience products and services end to end, but product experiences are often structured around individual service. One team may only know its top issues, while another may see only...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "bharadwajr",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Threat matrix: Mapping threats across cloud web applications",
@@ -2199,6 +2232,17 @@
       "blog": "Azure AI Foundry Blog",
       "blogId": "azure-ai-foundry-blog",
       "author": "SURENDRATANNEERU1",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Model router updates: new regions, a refreshed model pool, and understanding the hill climb",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/model-router-updates-new-regions-a-refreshed-model-pool-and/ba-p/4521310",
+      "published": "2026-08-21T17:47:58+00:00",
+      "summary": "Across Microsoft, \"hill climbing\" has become shorthand for how real AI progress happens: not in one dramatic leap, but through a disciplined loop. Microsoft AI defines the hill climb as an organization that continuously improves, cycle after cycle, through more compute, better data, and sharper...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "sanjeev_jagtap",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -8121,17 +8165,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Simplified access to Hotpatching enabled by Azure Arc for Windows Server 2025",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/simplified-access-to-hotpatching-enabled-by-azure-arc-for/ba-p/4521251",
-      "published": "2026-05-19T21:18:34+00:00",
-      "summary": "With Windows Server 2025, we introduced hotpatch enabled by Azure Arc, delivering security updates to Windows Server across hybrid and multicloud environments – minimizing downtime (no reboot), accelerating protection, and unifying patch management. We know that keeping your servers updated with...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "sharmajyoti",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Public preview: Expanded coverage and unified management for SQL VA Express Configuration",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/public-preview-expanded-coverage-and-unified-management-for-sql/ba-p/4514652",
       "published": "2026-05-19T21:11:13+00:00",
@@ -8437,17 +8470,6 @@
       "blogId": "azurecompute",
       "author": "simranparkhe",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Introducing cert-manager for Azure Arc-enabled Kubernetes: now in Public Preview",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/introducing-cert-manager-for-azure-arc-enabled-kubernetes-now-in/ba-p/4514549",
-      "published": "2026-05-13T03:37:38+00:00",
-      "summary": "Today we’re releasing a public preview of cert-manager for Azure Arc-enabled Kubernetes. It’s an Arc extension that automates TLS certificate and trust bundle management for edge Kubernetes clusters. If you’re running Kubernetes at the edge: in factories, retail stores, remote sites, you’ve...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "NicolasMondada",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -9716,17 +9738,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Unlocking AI-Ready Unstructured Data at Scale with Komprise and Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/unlocking-ai-ready-unstructured-data-at-scale-with-komprise-and/ba-p/4507422",
-      "published": "2026-04-02T09:53:30+00:00",
-      "summary": "Why Move Unstructured Data to Azure On-premises storage environments are often over-provisioned to accommodate future growth, driving costs and operational complexity. Azure’s cloud-based storage platform enables organizations to right-size their environments through elastic scaling and Microsoft’s...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "dmalbrough",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Orchestrating Intrusion Detection and Prevention Signature overrides in Azure Firewall Premium",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/orchestrating-intrusion-detection-and-prevention-signature/ba-p/4502213",
       "published": "2026-04-01T23:08:21+00:00",
@@ -9940,17 +9951,6 @@
       "link": "https://kubernetes.io/blog/2026/03/20/ingress2gateway-1-0-release/",
       "published": "2026-03-20T19:00:00+00:00",
       "summary": "With the Ingress-NGINX retirement scheduled for March 2026, the Kubernetes networking landscape is at a turning point. For most organizations, the question isn't whether to migrate to Gateway API, but how to do so safely. Migrating from Ingress to Gateway API is a fundamental shift in API design....",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Running Agents on Kubernetes with Agent Sandbox",
-      "link": "https://kubernetes.io/blog/2026/03/20/running-agents-on-kubernetes-with-agent-sandbox/",
-      "published": "2026-03-20T18:00:00+00:00",
-      "summary": "The landscape of artificial intelligence is undergoing a massive architectural shift. In the early days of generative AI, interacting with a model was often treated as a transient, stateless function call: a request that spun up, executed for perhaps 50 milliseconds, and terminated. Today, the...",
       "blog": "Kubernetes Official Blog",
       "blogId": "kubernetes",
       "author": "Microsoft",
@@ -11773,5 +11773,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure/Microsoft themes centered on AI app building, security, and platform hardening: Microsoft highlighted multimodal app development with OpenAI models in Azure AI Foundry/Microsoft Foundry, introduced Azure AI Speech LLM 2607 for improved multilingual speech accuracy and easier customization, and shared voice-to-chat guidance for call center scenarios. On the security side, Microsoft warned about AI-assisted executive impersonation and invoice fraud, added guidance for detecting AI-themed attacks with Microsoft Defender, and expanded enterprise readiness with HIPAA Compliance Security Profile support on Azure Databricks plus GA support for TLS/SSL certificates and end-to-end TLS on Azure Functions Flex Consumption.\n\nDeveloper platform updates were also significant: Azure DevOps Server received September patches, AKS published its 2026-09-04 release notes, and Azure Copilot Troubleshooting Agent reached GA. In the broader GitHub ecosystem, key announcements included public previews for a refreshed pull requests page and AI Scan pull request APIs, new cache-mode controls for GitHub Actions cache access, updated GitHub Copilot beginner workflows using diff/terminal/browser, Xcode 27 runners on macOS 27, and the deprecation of MAI-Code-1-Flash."
+  "summary": "Today’s Azure blog activity is centered on **Azure Kubernetes Service (AKS)**, with the only listed post being **“Release 2026-09-04”**, a new set of **AKS release notes**. The key takeaway is continued platform updates to Azure’s managed Kubernetes offering, likely covering the latest changes across **Kubernetes version support, cluster features, node/image updates, networking, and operational improvements** relevant to AKS users."
 }
