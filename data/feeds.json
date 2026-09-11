@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-11T13:04:15.913606+00:00",
-  "totalArticles": 1070,
+  "lastUpdated": "2026-09-11T17:58:38.807016+00:00",
+  "totalArticles": 1068,
   "articles": [
     {
       "title": "Visual Studio Code 1.138 (Insiders)",
@@ -14,6 +14,50 @@
       "sourceType": "rss"
     },
     {
+      "title": "[In preview] Public Preview: Agentless migration of on-premises SMB file shares to Azure Files (SMB)",
+      "link": "https://azure.microsoft.com/updates?id=570910",
+      "published": "2026-09-11T15:58:56+00:00",
+      "summary": "Azure Storage Mover now supports agentless migration of on-premises SMB file shares to Azure Files (SMB), in public preview. You can move file data from Windows Server or NAS shares into Azure without deploying, registering, or maintaining a migration age",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "AI Agent ROI Framework",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/ai-agent-roi-framework/ba-p/4555445",
+      "published": "2026-09-11T15:47:21+00:00",
+      "summary": "Introduction AI agents are rapidly becoming a core component of enterprise transformation strategies. Organizations are deploying agents to assist employees, automate business processes, improve customer experiences, accelerate decision-making, and scale operations. Yet many organizations still...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Yagneswari",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Building on AI Landing Zones: Operationalizing Enterprise AI with the Citadel Architecture",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/building-on-ai-landing-zones-operationalizing-enterprise-ai-with/ba-p/4551078",
+      "published": "2026-09-11T12:14:40+00:00",
+      "summary": "From AI Foundations to a Shared Operating Model In my previous article, AI Azure Landing Zone: Shared Capabilities and Models to Enable AI as a Platform, I explored how organizations establish secure, governed environments for AI workloads. Building on that foundation requires aligning three...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Rohon_Mohapatra",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "From OSDU to Ontology: Why Oil & Gas AI Readiness Lives at the Meaning Layer",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-osdu-to-ontology-why-oil-gas-ai-readiness-lives-at-the/ba-p/4538718",
+      "published": "2026-09-11T12:13:32+00:00",
+      "summary": "The five-answer problem Ask a simple question inside a large operator: “How is this asset producing against plan, and what’s the constraint?” Now watch five systems answer five different things. The production historian knows a “well” as a set of surface sensor tags. The reservoir team reasons...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "KimVaddi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Release 2026-09-04",
       "link": "https://github.com/Azure/AKS/releases/tag/2026-09-04",
       "published": "2026-09-11T01:02:56+00:00",
@@ -22,6 +66,17 @@
       "blogId": "aksreleases",
       "author": "AllenWen-at-Azure",
       "feedUrl": "https://github.com/Azure/AKS/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "GitHub Copilot weekly releases — September 7",
+      "link": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
+      "published": "2026-09-10T22:55:07+00:00",
+      "summary": "This week, GitHub Copilot introduces Jira integration in Copilot app and adaptive model orchestration with Project HydraFusion in Copilot CLI. We also introduced new agent automation in Visual Studio Code… The post GitHub Copilot weekly releases — September 7 appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -414,17 +469,6 @@
       "link": "https://github.blog/changelog/2026-09-09-github-advanced-security-expands-trial-availability",
       "published": "2026-09-09T17:33:34+00:00",
       "summary": "More GitHub Enterprise Cloud customers can now start a self-serve GitHub Advanced Security trial to evaluate GitHub Code Security and GitHub Secret Protection. Eligibility has expanded from enterprises with up… The post GitHub Advanced Security expands trial availability appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Block pull requests with exposed secrets from merging",
-      "link": "https://github.blog/changelog/2026-09-09-block-pull-requests-with-exposed-secrets-from-merging",
-      "published": "2026-09-09T17:14:02+00:00",
-      "summary": "Repository rulesets allow you to easily add scalable protections across your repositories. Starting today, you can use repository rulesets to block pull requests from merging when the pull request introduces… The post Block pull requests with exposed secrets from merging appeared first on The...",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -5382,17 +5426,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Announcing the Path to Production for Agents Webinar Series",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/announcing-the-path-to-production-for-agents-webinar-series/ba-p/4526560",
-      "published": "2026-07-07T14:54:02+00:00",
-      "summary": "Many organizations have made significant progress exploring AI—building pilots, prototypes, and proofs of concept. Yet a common challenge remains: how do you move from promising experiments to production-ready systems that are secure, scalable, and trusted? Join us for the Path to Production...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "brauerblogs",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Don’t rewrite your CLI for agents",
       "link": "https://devblogs.microsoft.com/blog/dont-rewrite-your-cli-for-agents/",
       "published": "2026-07-07T13:52:06+00:00",
@@ -6161,17 +6194,6 @@
       "author": "Julia Kasper",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Revolutionizing Document Intelligence: Scaling Construction Industries with AI-Driven Extraction",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/revolutionizing-document-intelligence-scaling-construction/ba-p/4522393",
-      "published": "2026-06-18T20:52:34+00:00",
-      "summary": "Introduction Generative AI (GenAI) is poised to transform the construction industry by addressing chronic challenges such as low productivity, cost overruns, schedule delays, and labor shortages. By automating the analysis of drawings, specifications, contracts, and project documentation, GenAI can...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "gauravbhardwaj",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Outcome-driven learning systems: Enterprise RL with OpenEnv and Foundry",
@@ -7637,17 +7659,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[In preview] Public Preview: Azure API Management introduces a Unified Model API for multi-model AI applications.",
-      "link": "https://azure.microsoft.com/updates?id=562853",
-      "published": "2026-06-02T21:00:30+00:00",
-      "summary": "As organizations adopt multiple LLM providers, developers often need to handle different API formats, SDKs, and integration patterns for each model vendor. This increases application complexity and makes provider switching, failover, and governance more d",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Introducing Azure Container Linux (ACL)",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/introducing-azure-container-linux-acl/ba-p/4523411",
       "published": "2026-06-02T20:00:00+00:00",
@@ -8096,17 +8107,6 @@
       "blogId": "azure-events",
       "author": "GalimahB",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-events&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Cloud Native Platforms: Build",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/cloud-native-platforms-build/ba-p/4519605",
-      "published": "2026-05-21T22:41:29+00:00",
-      "summary": "Audience: Cloud architects, platform engineers, engineering leaders making design decisions Reading time: 8 minutes Series: Cloud Native Platforms. Build, Run, Evolve. This is Part 1 of 3. Most engineering teams can build systems. Few can scale them without rebuilding them. As platforms grow,...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "KishoreKumarPattabiraman",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -11749,29 +11749,7 @@
       "author": "Isidor Nikolic",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "General Availability: Automatic Identity Management (AIM) for Entra ID on Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/azure-databricks/general-availability-automatic-identity-management-aim-for-entra/ba-p/4452206",
-      "published": "2025-09-10T16:00:00+00:00",
-      "summary": "In February, we announced that Automatic Identity Management in public preview and loved to hear your overwhelmingly positive feedback. Prior to public preview, you either had to set up an Entra Enterprise Application or involve an Azure Databricks account admin to import the appropriate groups....",
-      "blog": "Azure Databricks",
-      "blogId": "azure-databricks",
-      "author": "AnaviNahar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-databricks&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "🔥AWS Strands can't read GitHub Files with MCP🔥",
-      "link": "https://www.letsdodevops.com/p/aws-strands-cant-read-github-files",
-      "published": "2025-09-10T14:30:52+00:00",
-      "summary": "aka, Are you sure you don't want to accept my PR to fix this?",
-      "blog": "Let's do DevOps",
-      "blogId": "letsdodevops",
-      "author": "Kyler Middleton",
-      "feedUrl": "https://www.letsdodevops.com/feed",
-      "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure blog activity is centered on **Azure Kubernetes Service (AKS)**, specifically the **2026-09-04 AKS release notes**. The key theme is platform evolution for managed Kubernetes on Azure, with the post likely outlining the latest **AKS feature updates, fixes, version changes, and operational improvements** affecting cluster management, Kubernetes support, and related Azure-native tooling.\n\nBecause only the release-notes article is listed, the day’s headline takeaway is continued investment in **AKS as Azure’s core container orchestration platform**, with the most important announcements expected to be around **new Kubernetes capabilities, reliability improvements, and service updates for production workloads**."
+  "summary": "Today’s Azure posts focus on operationalizing enterprise AI and modernizing infrastructure. On the AI side, Microsoft highlighted an **AI Agent ROI Framework**, the **Citadel Architecture** for extending **AI Landing Zones** into production-ready enterprise AI operations, and an oil-and-gas data strategy piece emphasizing the “meaning layer” with **OSDU** and ontology-driven readiness for AI.\n\nOn the platform side, Azure announced **public preview support for agentless migration of on-premises SMB file shares to Azure Files (SMB)**, reducing migration complexity, and published the **AKS Release 2026-09-04** notes, signaling ongoing updates to **Azure Kubernetes Service** for container platform users."
 }
