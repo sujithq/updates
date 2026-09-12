@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T12:46:47.611751+00:00",
+  "lastUpdated": "2026-09-12T12:06:56.133276+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -1430,6 +1430,17 @@
       "detected": "2026-09-11T12:46:47.611739+00:00",
       "published": "2026-09-10T16:54:01+00:00",
       "blog": "GitHub Changelog"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=571257",
+      "title": "Retirement: Azure Linux with OS Guard in Azure Kubernetes Service",
+      "severity": "critical",
+      "deadline": "2026-12-10",
+      "impact": "AKS Azure Linux with OS Guard retires; users must move to Azure Container Linux",
+      "action": "Migrate AKS node pools/images to Azure Container Linux before 2026-12-10",
+      "detected": "2026-09-12T12:06:56.133266+00:00",
+      "published": "2026-09-11T18:08:28+00:00",
+      "blog": "Azure Updates"
     }
   ]
 }
