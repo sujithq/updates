@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T22:51:01.644341+00:00",
+  "lastUpdated": "2026-09-12T01:42:36.089020+00:00",
   "totalArticles": 1068,
   "articles": [
     {
@@ -47,6 +47,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Kubernetes v1.37: Native Histograms Graduates to Beta",
+      "link": "https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta/",
+      "published": "2026-09-11T18:30:00+00:00",
+      "summary": "I'm excited to announce that native histogram support for Kubernetes metrics is graduating to Beta and is enabled by default in Kubernetes v1.37! Native histograms (previously introduced as Alpha in Kubernetes v1.36 under KEP-5808) bring high-resolution, low-cardinality observability to Kubernetes...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
       "link": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
       "published": "2026-09-11T18:26:10+00:00",
@@ -88,6 +99,17 @@
       "blogId": "azurearchitectureblog",
       "author": "Yagneswari",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Announcing savings plan for databases: flexible savings for modern, evolving workloads",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/announcing-savings-plan-for-databases-flexible-savings-for/ba-p/4503107",
+      "published": "2026-09-11T14:06:14+00:00",
+      "summary": "As organizations modernize their data platforms, database environments are constantly changing. Teams migrate between services, scale across regions, and evolve architectures to support new applications and AI driven workloads. But optimizing costs in these environments can be challenging,...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "kyleikeda",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8528,17 +8550,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Announcing savings plan for databases: flexible savings for modern, evolving workloads",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/announcing-savings-plan-for-databases-flexible-savings-for/ba-p/4503107",
-      "published": "2026-05-11T20:38:10+00:00",
-      "summary": "As organizations modernize their data platforms, database environments are constantly changing. Teams migrate between services, scale across regions, and evolve architectures to support new applications and AI driven workloads. But optimizing costs in these environments can be challenging,...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "kyleikeda",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure CLI on macOS: Upcoming Installation Changes",
       "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-cli-on-macos-upcoming-installation-changes/ba-p/4518596",
       "published": "2026-05-11T20:12:42+00:00",
@@ -9945,17 +9956,6 @@
       "author": "Mohit_Kumar",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Announcing Ingress2Gateway 1.0: Your Path to Gateway API",
-      "link": "https://kubernetes.io/blog/2026/03/20/ingress2gateway-1-0-release/",
-      "published": "2026-03-20T19:00:00+00:00",
-      "summary": "With the Ingress-NGINX retirement scheduled for March 2026, the Kubernetes networking landscape is at a turning point. For most organizations, the question isn't whether to migrate to Gateway API, but how to do so safely. Migrating from Ingress to Gateway API is a fundamental shift in API design....",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
     },
     {
       "title": "Defending the AI Era: New Microsoft Capabilities to Protect AI",
@@ -11750,6 +11750,5 @@
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     }
-  ],
-  "summary": "Today’s Azure news was dominated by AI agent operations and platform modernization. Microsoft highlighted enterprise AI governance and ROI with the **AI Agent ROI Framework**, **AI Landing Zones/Citadel Architecture**, and an Oil & Gas data-readiness piece centered on **OSDU** and ontology-driven semantics, while GitHub announced **VS Code Agents** support in **Copilot usage metrics** and improved **Copilot code review** with stronger auto-resolution and analysis.\n\nOn the Azure platform side, **Azure App Service** can now act as a trigger destination for **Azure Managed Connectors**, **AKS** published its **2026-09-04 release**, and Microsoft announced both a **public preview of agentless migration** for on-prem **SMB file shares to Azure Files** and the **retirement of Azure Linux with OS Guard in AKS**. A GitHub case study on “marketing ops as code” reinforced the broader theme of using **GitHub automation** and AI-assisted workflows to operationalize business processes end to end."
+  ]
 }
