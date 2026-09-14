@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-14T15:18:45.209339+00:00",
-  "totalArticles": 1058,
+  "lastUpdated": "2026-09-14T21:05:55.827731+00:00",
+  "totalArticles": 1068,
   "articles": [
     {
       "title": "Visual Studio Code 1.138 (Insiders)",
@@ -11,6 +11,61 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Microsoft Foundry Observability: How to Trace, Evaluate, Monitor, and Secure AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/microsoft-foundry-observability-how-to-trace-evaluate-monitor/ba-p/4555846",
+      "published": "2026-09-14T19:42:07+00:00",
+      "summary": "The green check that hid a real problem During a recent customer conversation, I was shown a customer-service refund agent that looked healthy by every traditional measure. Requests completed successfully. The endpoint returned HTTP 200. Latency was within the team's target, and there were no...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "gauravbhardwaj",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Announcing: New Windows App client-side endpoints for Azure Virtual Desktop",
+      "link": "https://azure.microsoft.com/updates?id=571360",
+      "published": "2026-09-14T18:24:04+00:00",
+      "summary": "Beginning in early October 2026, Windows App will begin using three new wildcard fully qualified domain names (FQDNs) for client-side service traffic to Azure Virtual Desktop. These domains are already included in the cloud-side connectivity requirements.",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: HTTP/3 over QUIC support in Azure Application Gateway",
+      "link": "https://azure.microsoft.com/updates?id=571123",
+      "published": "2026-09-14T17:55:00+00:00",
+      "summary": "Announcing public preview support for HTTP/3 over QUIC on Azure Application Gateway. HTTP/3 is the next evolution of HTTP and uses QUIC to improve connection setup time, reduce latency, and provide better resiliency for modern web applications and APIs. W",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Share your .NET story with the community",
+      "link": "https://devblogs.microsoft.com/dotnet/share-your-dotnet-story/",
+      "published": "2026-09-14T17:05:00+00:00",
+      "summary": "Share how your team uses .NET to solve real problems and help us bring more community stories to .NET Conf 2026 and other .NET channels. The post Share your .NET story with the community appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Luis Quintanilla",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Configure cost and quality in Copilot auto model selection",
+      "link": "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection",
+      "published": "2026-09-14T16:05:27+00:00",
+      "summary": "GitHub Copilot auto model selection now offers three tiers: efficiency, balance, and intelligence. Choose the tier that reflects how you want auto to weigh cost, quality, and response time for… The post Configure cost and quality in Copilot auto model selection appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -166,6 +221,17 @@
       "author": "KimVaddi",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Release 2026-09-04",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-09-04",
+      "published": "2026-09-11T01:02:56+00:00",
+      "summary": "Release Notes - 2026-09-04 Monitor the release status by regions at AKS-Release-Tracker. This release is titled v20260904. Announcements of upcoming changes and retirements Starting September 30, 2026, AKS will automatically migrate deprecated Availability Sets (VMAS) clusters to Virtual Machines...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "AllenWen-at-Azure",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
+      "sourceType": "rss"
     },
     {
       "title": "GitHub Copilot weekly releases — September 7",
@@ -458,17 +524,6 @@
       "link": "https://github.blog/changelog/2026-09-09-npm-extends-recovery-code-security-holds-to-all-accounts",
       "published": "2026-09-09T21:55:55+00:00",
       "summary": "npm now places a temporary 72-hour security hold on any account after a successful recovery-code sign-in, extending a protection that previously applied only to high-impact accounts. This change applies to… The post npm extends recovery-code security holds to all accounts appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "CodeQL 2.27.0 adds support for Linux ARM64",
-      "link": "https://github.blog/changelog/2026-09-09-codeql-2-27-0-adds-support-for-linux-arm64",
-      "published": "2026-09-09T21:45:06+00:00",
-      "summary": "CodeQL 2.27.0 is now available on Linux ARM64, adds a new Rust security query, expanded framework coverage for Java/Kotlin and C#, and analysis accuracy improvements across multiple languages. CodeQL is… The post CodeQL 2.27.0 adds support for Linux ARM64 appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -1466,6 +1521,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Intelligent Terminal 0.2.2572: Faster, Smoother, and More Reliable",
+      "link": "https://devblogs.microsoft.com/commandline/intelligent-terminal-0-2-25-performance-reliability/",
+      "published": "2026-09-01T01:36:09+00:00",
+      "summary": "We’re back with Intelligent Terminal v0.2.2572, and this one is all about making things faster, easier to use, more reliable, and more polished. This release lands over 60 fixes and improvements as well as API key support for local models, automatic approval for supported agents, and native slash...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Hamza Usmani",
+      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "[In preview] Public Preview: Per-disk resiliency for Azure VMs",
       "link": "https://azure.microsoft.com/updates?id=569711",
       "published": "2026-08-31T23:11:39+00:00",
@@ -1485,6 +1551,17 @@
       "blogId": "azuredevops",
       "author": "Soo Stahl",
       "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "AppNet 2026-08-19",
+      "link": "https://github.com/Azure/AKS/releases/tag/AppNet-2026-08-19",
+      "published": "2026-08-31T20:41:07+00:00",
+      "summary": "AppNet Release Notes - 2026-08-19 Azure Kubernetes Application Network (AppNet) — initial release notes covering changes since March 2026. AppNet is in public preview. Announcements and retirements The following AppNet versions have been retired and are no longer supported. If using self-managed...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "SanyaKochhar",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -2973,17 +3050,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Routing and Failover for Microsoft.Extensions.AI",
-      "link": "https://devblogs.microsoft.com/dotnet/routing-and-failover-for-microsoft-extensions-ai/",
-      "published": "2026-08-13T19:30:00+00:00",
-      "summary": "Route requests across models and providers natively in Microsoft.Extensions.AI with RoutingChatClient, SemanticRoutingChatClient, and FailoverChatClient — new experimental primitives for content-based routing, failover, and custom routing policies. The post Routing and Failover for...",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": "Joshua Yue",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Your best friend: BlockOnPossibleDataLoss=True",
       "link": "https://devblogs.microsoft.com/azure-sql/blockonpossibledataloss/",
       "published": "2026-08-13T19:25:40+00:00",
@@ -3157,6 +3223,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Release 2026-08-07",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-08-07",
+      "published": "2026-08-12T16:13:41+00:00",
+      "summary": "Release Notes - 2026-08-07 Monitor the release status by regions at AKS-Release-Tracker. This release is titled v20260807. Release notes Features Node Auto Provisioning can now be enabled on clusters with restricted publicNetworkAccess, including private API server VNet-integrated clusters using...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "allyford",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -3344,6 +3421,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Release 2026-07-17",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-07-17",
+      "published": "2026-08-10T08:28:07+00:00",
+      "summary": "Release Notes - 2026-07-17 Monitor the release status by regions at AKS-Release-Tracker. This release is titled v20260717. Announcements of upcoming changes and retirements On September 14, 2026, the preview property enableCustomCATrust will retire. After that date, the enableCustomCATrust=true...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "alvinli222",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -5151,6 +5239,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Release - 2026-06-19",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-06-19",
+      "published": "2026-07-10T20:54:24+00:00",
+      "summary": "Release Notes - 2026-06-19 Monitor the release status by regions at AKS-Release-Tracker. Vulnerabilities addressed by AKS releases can be tracked at CVE API viewer. Announcements Windows Server 2022 retirement has been extended. Please note the following updates: Windows Server 2022 retires on June...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "shashankbarsin",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
+      "sourceType": "rss"
+    },
+    {
       "title": "[In preview] Public Preview: Manage Azure Chaos Studio from the Azure CLI",
       "link": "https://azure.microsoft.com/updates?id=567225",
       "published": "2026-07-09T22:57:33+00:00",
@@ -5413,17 +5512,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Optimizing GitHub Copilot Cost in the Usage-Based Billing Era",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/optimizing-github-copilot-cost-in-the-usage-based-billing-era/ba-p/4534171",
-      "published": "2026-07-07T15:43:49+00:00",
-      "summary": "GitHub Copilot has become a core part of the modern developer workflow. We use it to complete code, explain unfamiliar repositories, write tests, refactor legacy applications, review pull requests, generate documentation, and automate repetitive engineering work. But as GitHub Copilot moves further...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "gauravbhardwaj",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Don’t rewrite your CLI for agents",
@@ -6139,6 +6227,17 @@
       "author": "Nikita_Bajaj",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Release 2026-05-29",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-05-29",
+      "published": "2026-06-19T08:45:11+00:00",
+      "summary": "Release Notes - 2026-05-29 Monitor the release status by regions at AKS-Release-Tracker. Vulnerabilities addressed by AKS releases can be tracked at CVE API viewer. Announcements of upcoming changes and retirements Revision asm-1-27 of the Istio-based service mesh add-on has been deprecated. Please...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "dyu1208",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
+      "sourceType": "rss"
     },
     {
       "title": "Migrating from MSEE Hairpin Routing to AVNM Mesh for Large-Scale VNet-to-VNet Connectivity",
@@ -7593,17 +7692,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: File share centric management model (Microsoft.FileShares) for Azure Files",
-      "link": "https://azure.microsoft.com/updates?id=565062",
-      "published": "2026-06-02T21:30:23+00:00",
-      "summary": "The new file share service management experience for Azure Files is now generally available for NFS 4.1 shares on SSD storage. Powered by the Microsoft.FileShares resource provider, file shares are now top-level Azure resources that you can create, secure",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Start Secure, Stay Secure: How Microsoft is Closing the Gap from Code to Runtime",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/start-secure-stay-secure-how-microsoft-is-closing-the-gap-from/ba-p/4524580",
       "published": "2026-06-02T21:22:01+00:00",
@@ -7613,17 +7701,6 @@
       "author": "JasonWeber",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "[In development] Preview: Azure Cobalt 200 Arm-based Dpsv7, Dplsv7, Epsv7, Mpsv4, and Lpsv5-series Virtual Machines",
-      "link": "https://azure.microsoft.com/updates?id=564451",
-      "published": "2026-06-02T21:00:30+00:00",
-      "summary": "The general purpose Dpsv7 and Dplsv7, memory-optimized Epsv7, high-memory Mpsv4, and dense storage Lpsv5 VMs are now available in preview. These virtual machines deliver significant enhancements over the previous generation Cobalt 100 VMs, offering improv",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
     },
     {
       "title": "Introducing Azure Container Linux (ACL)",
@@ -8583,6 +8660,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Release 2026-04-28",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-04-28",
+      "published": "2026-05-09T00:22:45+00:00",
+      "summary": "Release Notes - 2026-04-28 Monitor the release status by regions at AKS-Release-Tracker. Vulnerabilities addressed by AKS releases can be tracked at CVE API viewer. Announcements AKS-2026-0003: A Linux kernel algif_aead local privilege escalation vulnerability (CVE-2026-31431) lets a pod escalate...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "alvinli222",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
+      "sourceType": "rss"
+    },
+    {
       "title": "Kubernetes v1.36: Moving Volume Group Snapshots to GA",
       "link": "https://kubernetes.io/blog/2026/05/08/kubernetes-v1-36-volume-group-snapshot-ga/",
       "published": "2026-05-08T18:35:00+00:00",
@@ -9474,6 +9562,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Release 2026-04-02",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-04-02",
+      "published": "2026-04-14T06:26:28+00:00",
+      "summary": "Release Notes - 2026-04-02 Monitor the release status by regions at AKS-Release-Tracker. Vulnerabiltiies addressed by AKS releases can be tracked at CVE API viewer. Announcements Starting on June 30, 2027, Azure Kubernetes Service (AKS) no longer supports or provides security updates for Ubuntu...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "shashankbarsin",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
+      "sourceType": "rss"
+    },
+    {
       "title": "Securing multicloud (Azure, AWS & GCP) with Microsoft Defender for Cloud: Connector best practices",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/securing-multicloud-azure-aws-gcp-with-microsoft-defender-for/ba-p/4508563",
       "published": "2026-04-10T18:03:39+00:00",
@@ -9515,6 +9614,17 @@
       "blogId": "aksblog",
       "author": "Microsoft",
       "feedUrl": "https://blog.aks.azure.com/rss.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Release Notes - 2026-03-05",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-03-05",
+      "published": "2026-04-08T20:11:05+00:00",
+      "summary": "Monitor the release status by regions at AKS-Release-Tracker. Announcements Azure Kubernetes Service support for Flatcar Container Linux for AKS (preview) will be retired on 8 June 2026, transition to a supported alternative by that date. From now to 7 June 2026, you can continue to use Flatcar...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "kaarthis",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -10046,6 +10156,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Release 2026-02-08",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-02-08",
+      "published": "2026-03-09T21:38:58+00:00",
+      "summary": "Release Notes 2026-02-08 Monitor the release status by regions at AKS-Release-Tracker. Announcements Windows Server 2019 is scheduled for retirement on March 1, 2026. Please transition to Windows Server 2022+ by that date. After that date, AKS will no longer produce new node images or provide...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "kaysieyu",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
+      "sourceType": "rss"
+    },
+    {
       "title": "AI Inferencing in Air-Gapped Environments",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/ai-inferencing-in-air-gapped-environments/ba-p/4498594",
       "published": "2026-03-09T09:18:31+00:00",
@@ -10077,17 +10198,6 @@
       "author": "Nichole_Peterson",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Windows Terminal Preview 1.25 Release",
-      "link": "https://devblogs.microsoft.com/commandline/windows-terminal-preview-1-25-release/",
-      "published": "2026-03-05T22:28:49+00:00",
-      "summary": "We briefly paused our quarterly release cycle to focus on reliability and performance, but now we’re back with Windows Terminal 1.25! We are also updating Windows Terminal stable to version 1.24, which will include all of the features from this previous blog post. Some notable features to call out...",
-      "blog": "Windows Command Line",
-      "blogId": "commandline",
-      "author": "Dustin Howett",
-      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Making agents practical for real-world development",
@@ -11641,5 +11751,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure posts centered on building secure, portable AI applications across clouds and languages. The Azure Cosmos DB team introduced the **MulticloudDB SDK**, aimed at improving **cross-cloud database portability** for coding agents and modern app workflows, while another post detailed a **Japanese LLM evaluation pipeline** built during a two-day hackathon, highlighting practical lessons for assessing non-English model quality.\n\nSecurity was the other major theme: Azure’s developer community outlined how to secure **AI agent tool calls** using **identity**, **authorization**, and **verified execution** patterns in Azure, reflecting a broader push toward trustworthy agentic systems. Together, the posts show Azure emphasizing **multicloud data development**, **LLM evaluation infrastructure**, and **secure AI agent orchestration**."
+  "summary": "Today’s Azure-related posts centered on productionizing AI agents and modern app infrastructure. Microsoft highlighted **Foundry Observability** plus guidance on **securing AI agent tool calls** with identity, authorization, and verified execution, while related posts covered **LLM evaluation pipelines** for Japanese models and **Copilot auto model selection** controls for balancing cost and quality.\n\nOn the platform side, Microsoft announced new **client-side endpoints for Azure Virtual Desktop’s Windows App**, and put **HTTP/3 over QUIC support for Azure Application Gateway** into public preview, signaling continued investment in lower-latency, more resilient app delivery. Data and developer ecosystem themes also stood out with the **MulticloudDB SDK for Azure Cosmos DB** aimed at cross-cloud portability, alongside a community call for developers to share their **.NET** stories."
 }
