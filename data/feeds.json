@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T01:51:21.169999+00:00",
+  "lastUpdated": "2026-09-14T08:09:45.316543+00:00",
   "totalArticles": 1068,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Building a Japanese LLM Evaluation Pipeline: Lessons from a Two-Day Hackathon",
+      "link": "https://devblogs.microsoft.com/ise/japanese-llm-evaluation-pipeline-hackathon/",
+      "published": "2026-09-14T07:00:00+00:00",
+      "summary": "ISE hackathon produced a reusable Japanese LLM evaluation pipeline with multi-turn, facet-based scoring, cross-provider model support, and publication-ready benchmarking outputs. The post Building a Japanese LLM Evaluation Pipeline: Lessons from a Two-Day Hackathon appeared first on ISE Developer...",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Jaein Tak, Akihiro Inui, Kohei Saito",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Securing AI Agent Tool Calls in Azure: Identity, Authorization, and Verified Execution",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/securing-ai-agent-tool-calls-in-azure-identity-authorization-and/ba-p/4546824",
+      "published": "2026-09-14T04:15:00+00:00",
+      "summary": "When an agent can use tools, untrusted content can influence requests to access sensitive data or change external systems. A retrieved document might tell the agent to send a file to an external address. An attacker-controlled log field might suggest disabling a security setting. A tool result...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kedikala",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Add VS Code Agents to Copilot usage metrics",
@@ -3938,17 +3960,6 @@
       "blogId": "azureobservabilityblog",
       "author": "TomClaes",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "🚀 Foundry Toolkit for VS Code — July 2026 Update",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/foundry-toolkit-for-vs-code-july-2026-update/ba-p/4542786",
-      "published": "2026-07-31T11:02:15+00:00",
-      "summary": "July was a clean-up-and-level-up month. Four releases shipped for the Foundry Toolkit for VS Code: 1.6.3, 1.6.4, 1.6.5, and 1.6.6. The theme this month wasn't a single headline feature — it was making the extension feel like one coherent workspace instead of a pile of tree nodes. Your Foundry...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "junjieli",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8429,17 +8440,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "WebAssembly Data Processing at the Edge with Azure IoT Operations",
-      "link": "https://devblogs.microsoft.com/ise/wasm-edge-data-processing/",
-      "published": "2026-05-14T07:00:00+00:00",
-      "summary": "Safe, composable dataflow operators for Azure IoT Operations, built as WASM modules using the Component Model, WIT interfaces, and WASI Preview 2. The post WebAssembly Data Processing at the Edge with Azure IoT Operations appeared first on ISE Developer Blog.",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Marcel Bindseil",
-      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Announcing the General Availability of the Next Generation of Azure Boost",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-the-general-availability-of-the-next-generation-of/ba-p/4519136",
       "published": "2026-05-13T20:42:57+00:00",
@@ -11750,5 +11750,6 @@
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     }
-  ]
+  ],
+  "summary": "Today’s Azure posts focused on responsible, production-ready AI development across both model quality and security. One article described building a **Japanese LLM evaluation pipeline** during a two-day hackathon, emphasizing multilingual GenAI testing, benchmark design, and practical evaluation workflows for Japanese-language models; the other detailed how to secure **AI agent tool calls in Azure** using **identity**, **authorization**, and **verified execution** patterns to ensure agents invoke tools and downstream services safely and with proper trust controls."
 }
