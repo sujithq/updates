@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-14T08:09:45.316543+00:00",
-  "totalArticles": 1068,
+  "lastUpdated": "2026-09-14T15:18:45.209339+00:00",
+  "totalArticles": 1058,
   "articles": [
     {
       "title": "Visual Studio Code 1.138 (Insiders)",
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "MulticloudDB SDK: Cross-cloud portability in the coding agent era",
+      "link": "https://devblogs.microsoft.com/cosmosdb/multiclouddb-sdk-cross-cloud-portability-in-the-coding-agent-era/",
+      "published": "2026-09-14T13:25:23+00:00",
+      "summary": "Building cross-cloud solutions with best-of-breed cloud-native databases means learning multiple SDKs, translating queries, handling different errors, and testing across providers. The Multicloud DB SDK for Java lets you share that work across Azure Cosmos DB, Amazon DynamoDB, and Google Cloud...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Theo van Kraay",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
     },
     {
@@ -155,17 +166,6 @@
       "author": "KimVaddi",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Release 2026-09-04",
-      "link": "https://github.com/Azure/AKS/releases/tag/2026-09-04",
-      "published": "2026-09-11T01:02:56+00:00",
-      "summary": "Release Notes - 2026-09-04 Monitor the release status by regions at AKS-Release-Tracker. This release is titled v20260904. Announcements of upcoming changes and retirements Starting September 30, 2026, AKS will automatically migrate deprecated Availability Sets (VMAS) clusters to Virtual Machines...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "AllenWen-at-Azure",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
-      "sourceType": "rss"
     },
     {
       "title": "GitHub Copilot weekly releases — September 7",
@@ -1485,17 +1485,6 @@
       "blogId": "azuredevops",
       "author": "Soo Stahl",
       "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "AppNet 2026-08-19",
-      "link": "https://github.com/Azure/AKS/releases/tag/AppNet-2026-08-19",
-      "published": "2026-08-31T20:41:07+00:00",
-      "summary": "AppNet Release Notes - 2026-08-19 Azure Kubernetes Application Network (AppNet) — initial release notes covering changes since March 2026. AppNet is in public preview. Announcements and retirements The following AppNet versions have been retired and are no longer supported. If using self-managed...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "SanyaKochhar",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -3171,17 +3160,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Release 2026-08-07",
-      "link": "https://github.com/Azure/AKS/releases/tag/2026-08-07",
-      "published": "2026-08-12T16:13:41+00:00",
-      "summary": "Release Notes - 2026-08-07 Monitor the release status by regions at AKS-Release-Tracker. This release is titled v20260807. Release notes Features Node Auto Provisioning can now be enabled on clusters with restricted publicNetworkAccess, including private API server VNet-integrated clusters using...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "allyford",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "v1.16.0-rc1",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-rc1",
       "published": "2026-08-12T15:22:32+00:00",
@@ -3366,17 +3344,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Release 2026-07-17",
-      "link": "https://github.com/Azure/AKS/releases/tag/2026-07-17",
-      "published": "2026-08-10T08:28:07+00:00",
-      "summary": "Release Notes - 2026-07-17 Monitor the release status by regions at AKS-Release-Tracker. This release is titled v20260717. Announcements of upcoming changes and retirements On September 14, 2026, the preview property enableCustomCATrust will retire. After that date, the enableCustomCATrust=true...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "alvinli222",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -5184,17 +5151,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Release - 2026-06-19",
-      "link": "https://github.com/Azure/AKS/releases/tag/2026-06-19",
-      "published": "2026-07-10T20:54:24+00:00",
-      "summary": "Release Notes - 2026-06-19 Monitor the release status by regions at AKS-Release-Tracker. Vulnerabilities addressed by AKS releases can be tracked at CVE API viewer. Announcements Windows Server 2022 retirement has been extended. Please note the following updates: Windows Server 2022 retires on June...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "shashankbarsin",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "[In preview] Public Preview: Manage Azure Chaos Studio from the Azure CLI",
       "link": "https://azure.microsoft.com/updates?id=567225",
       "published": "2026-07-09T22:57:33+00:00",
@@ -5844,17 +5800,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Spring AI 2.0 is GA: Vector Search, Memory, and Agents on Azure Cosmos DB",
-      "link": "https://devblogs.microsoft.com/cosmosdb/spring-ai-2-0-is-ga-vector-search-memory-and-agents-on-azure-cosmos-db/",
-      "published": "2026-06-29T07:00:53+00:00",
-      "summary": "The wait is over. Spring AI 2.0 is generally available, and Azure Cosmos DB is right there with it. With this release, Spring AI graduates into a mature, production-ready framework for building AI applications in Java, and Azure Cosmos DB ships dedicated, vendor-maintained integrations that plug...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Theo van Kraay",
-      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Routing agent traffic is really three decisions",
       "link": "https://blog.aks.azure.com/2026/06/29/llm-routing-on-aks",
       "published": "2026-06-29T00:00:00+00:00",
@@ -6194,17 +6139,6 @@
       "author": "Nikita_Bajaj",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Release 2026-05-29",
-      "link": "https://github.com/Azure/AKS/releases/tag/2026-05-29",
-      "published": "2026-06-19T08:45:11+00:00",
-      "summary": "Release Notes - 2026-05-29 Monitor the release status by regions at AKS-Release-Tracker. Vulnerabilities addressed by AKS releases can be tracked at CVE API viewer. Announcements of upcoming changes and retirements Revision asm-1-27 of the Istio-based service mesh add-on has been deprecated. Please...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "dyu1208",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
-      "sourceType": "rss"
     },
     {
       "title": "Migrating from MSEE Hairpin Routing to AVNM Mesh for Large-Scale VNet-to-VNet Connectivity",
@@ -8649,17 +8583,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Release 2026-04-28",
-      "link": "https://github.com/Azure/AKS/releases/tag/2026-04-28",
-      "published": "2026-05-09T00:22:45+00:00",
-      "summary": "Release Notes - 2026-04-28 Monitor the release status by regions at AKS-Release-Tracker. Vulnerabilities addressed by AKS releases can be tracked at CVE API viewer. Announcements AKS-2026-0003: A Linux kernel algif_aead local privilege escalation vulnerability (CVE-2026-31431) lets a pod escalate...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "alvinli222",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "Kubernetes v1.36: Moving Volume Group Snapshots to GA",
       "link": "https://kubernetes.io/blog/2026/05/08/kubernetes-v1-36-volume-group-snapshot-ga/",
       "published": "2026-05-08T18:35:00+00:00",
@@ -9551,17 +9474,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Release 2026-04-02",
-      "link": "https://github.com/Azure/AKS/releases/tag/2026-04-02",
-      "published": "2026-04-14T06:26:28+00:00",
-      "summary": "Release Notes - 2026-04-02 Monitor the release status by regions at AKS-Release-Tracker. Vulnerabiltiies addressed by AKS releases can be tracked at CVE API viewer. Announcements Starting on June 30, 2027, Azure Kubernetes Service (AKS) no longer supports or provides security updates for Ubuntu...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "shashankbarsin",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "Securing multicloud (Azure, AWS & GCP) with Microsoft Defender for Cloud: Connector best practices",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/securing-multicloud-azure-aws-gcp-with-microsoft-defender-for/ba-p/4508563",
       "published": "2026-04-10T18:03:39+00:00",
@@ -9603,17 +9515,6 @@
       "blogId": "aksblog",
       "author": "Microsoft",
       "feedUrl": "https://blog.aks.azure.com/rss.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Release Notes - 2026-03-05",
-      "link": "https://github.com/Azure/AKS/releases/tag/2026-03-05",
-      "published": "2026-04-08T20:11:05+00:00",
-      "summary": "Monitor the release status by regions at AKS-Release-Tracker. Announcements Azure Kubernetes Service support for Flatcar Container Linux for AKS (preview) will be retired on 8 June 2026, transition to a supported alternative by that date. From now to 7 June 2026, you can continue to use Flatcar...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "kaarthis",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -10143,17 +10044,6 @@
       "author": "Rafia_Aqil",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Release 2026-02-08",
-      "link": "https://github.com/Azure/AKS/releases/tag/2026-02-08",
-      "published": "2026-03-09T21:38:58+00:00",
-      "summary": "Release Notes 2026-02-08 Monitor the release status by regions at AKS-Release-Tracker. Announcements Windows Server 2019 is scheduled for retirement on March 1, 2026. Please transition to Windows Server 2022+ by that date. After that date, AKS will no longer produce new node images or provide...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "kaysieyu",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
-      "sourceType": "rss"
     },
     {
       "title": "AI Inferencing in Air-Gapped Environments",
@@ -11751,5 +11641,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure posts focused on responsible, production-ready AI development across both model quality and security. One article described building a **Japanese LLM evaluation pipeline** during a two-day hackathon, emphasizing multilingual GenAI testing, benchmark design, and practical evaluation workflows for Japanese-language models; the other detailed how to secure **AI agent tool calls in Azure** using **identity**, **authorization**, and **verified execution** patterns to ensure agents invoke tools and downstream services safely and with proper trust controls."
+  "summary": "Today’s Azure posts centered on building secure, portable AI applications across clouds and languages. The Azure Cosmos DB team introduced the **MulticloudDB SDK**, aimed at improving **cross-cloud database portability** for coding agents and modern app workflows, while another post detailed a **Japanese LLM evaluation pipeline** built during a two-day hackathon, highlighting practical lessons for assessing non-English model quality.\n\nSecurity was the other major theme: Azure’s developer community outlined how to secure **AI agent tool calls** using **identity**, **authorization**, and **verified execution** patterns in Azure, reflecting a broader push toward trustworthy agentic systems. Together, the posts show Azure emphasizing **multicloud data development**, **LLM evaluation infrastructure**, and **secure AI agent orchestration**."
 }
