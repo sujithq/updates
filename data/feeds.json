@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T18:33:26.333492+00:00",
+  "lastUpdated": "2026-09-15T23:14:09.169141+00:00",
   "totalArticles": 1069,
   "articles": [
     {
@@ -11,6 +11,39 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Enforce GitHub Advanced Security configurations",
+      "link": "https://github.blog/changelog/2026-09-15-enforce-github-advanced-security-configurations",
+      "published": "2026-09-15T19:31:58+00:00",
+      "summary": "Enterprise administrators can now enforce GitHub Advanced Security configurations across their organizations. This prevents both organization and repository administrators from overriding settings defined at the enterprise level, helping security and… The post Enforce GitHub Advanced Security...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "GitHub Copilot suggests custom properties definitions",
+      "link": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions",
+      "published": "2026-09-15T19:07:47+00:00",
+      "summary": "GitHub Copilot can now suggest allowed values when you create a custom property for repositories in your organization. This feature is in public preview for GitHub Copilot Business and Copilot… The post GitHub Copilot suggests custom properties definitions appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Introducing Foundry Dev Pack: One Command to Start Building",
+      "link": "https://devblogs.microsoft.com/foundry/foundry-devpack-announcement/",
+      "published": "2026-09-15T19:00:00+00:00",
+      "summary": "Foundry Dev Pack prepares your machine for Microsoft Foundry development with an all-in-one installer for the tools you need across the terminal, VS Code, and coding agents. The post Introducing Foundry Dev Pack: One Command to Start Building appeared first on Microsoft Foundry Blog.",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "sharonxu",
+      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
       "sourceType": "rss"
     },
     {
@@ -498,17 +531,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Control GitHub Actions cache access with cache-mode",
-      "link": "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode",
-      "published": "2026-09-10T17:26:59+00:00",
-      "summary": "You can now use cache-mode to apply least-privilege access to the GitHub Actions cache at the workflow or job level. By granting each workflow or job only the cache access… The post Control GitHub Actions cache access with cache-mode appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Protecting organizations from AI-assisted executive impersonation and invoice fraud",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/09/10/protecting-organizations-ai-assisted-executive-impersonation-invoice-fraud/",
       "published": "2026-09-10T17:23:05+00:00",
@@ -528,17 +550,6 @@
       "blogId": "dotnet",
       "author": "Dmitrii Korolev",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "MAI-Code-1-Flash deprecated",
-      "link": "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated",
-      "published": "2026-09-10T16:54:01+00:00",
-      "summary": "We have deprecated MAI-Code-1-Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, September 10, 2026. Model Deprecation date Suggested alternative… The post MAI-Code-1-Flash deprecated appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -7373,17 +7384,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Build 2026: From observability to ROI for AI agents on any framework",
-      "link": "https://devblogs.microsoft.com/foundry/build-2026-from-observability-to-roi-for-ai-agents-on-any-framework/",
-      "published": "2026-06-03T22:44:01+00:00",
-      "summary": "9 min read · June 3, 2026 · Sebastian Kohlmeier Shipping an AI agent is the easy part. Keeping it accurate, safe, and accountable in production is where teams get stuck. Agents are non-deterministic. Their behavior shifts as models update, tools change, and traffic patterns evolve and most of that...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Sebastian Kohlmeier",
-      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[Launched] General Availability: Backup your ledger files for audit with Azure confidential ledger’s new tool",
       "link": "https://azure.microsoft.com/updates?id=560810",
       "published": "2026-06-03T22:15:24+00:00",
@@ -11762,5 +11762,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure- and Microsoft-related posts focused on modernizing developer workflows with AI, stronger security baselines, and performance improvements across the stack. Key announcements included GitHub’s sunset of SHA-1 HTTPS support in favor of stronger cryptography, a GitHub Copilot SDK tutorial for building an AI-powered interview coach app, guidance on improving test coverage in Visual Studio, and a spotlight on coding agents increasingly using Azure SQL Database as an application backend.\n\nOn the platform side, Microsoft also highlighted early performance gains in .NET 11 and broader developer experimentation with AI automation in DevOps. The common thread was practical developer productivity: more secure source control, smarter AI-assisted development, better testing practices, faster runtimes, and cloud data services tailored for autonomous coding workflows."
+  "summary": "Today’s Azure- and Microsoft-related posts center on AI-assisted software development, platform security, and developer productivity. Key announcements include the new **Foundry Dev Pack** for one-command environment setup, **GitHub Copilot** gains such as suggesting **custom properties definitions** and powering an **interview coach app** via the **GitHub Copilot SDK**, plus growing use of **Azure SQL Database** by coding agents and early **performance improvements in .NET 11**.\n\nSecurity and quality are also major themes: GitHub is adding ways to **enforce GitHub Advanced Security configurations** and is **sunsetting SHA-1 for HTTPS on GitHub**, while Visual Studio highlights using tooling and AI workflows to **improve test coverage**. Overall, the posts show Microsoft pushing a stack that combines **Copilot/agentic AI**, stronger **secure-by-default DevSecOps**, and faster app development across **Azure**, **GitHub**, and **.NET**."
 }
