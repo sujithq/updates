@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T08:04:07.788839+00:00",
+  "lastUpdated": "2026-09-15T13:55:43.129919+00:00",
   "totalArticles": 1068,
   "articles": [
     {
@@ -14,6 +14,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "Coding agents are picking Azure SQL Database",
+      "link": "https://devblogs.microsoft.com/azure-sql/coding-agents-are-picking-azure-sql-database/",
+      "published": "2026-09-15T12:55:05+00:00",
+      "summary": "I went looking for Azure SQL Database in a recent coding agent benchmark, honestly unsure whether Microsoft SQL would show up. Armature ran a study where real coding agent CLIs (Claude Code, Codex, Cursor) were dropped into six synthetic-but-realistic repositories and asked to pick a database, then...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Performance Improvements in .NET 11",
+      "link": "https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-11/",
+      "published": "2026-09-15T12:00:00+00:00",
+      "summary": "Take a tour through hundreds of performance improvements in .NET 11. The post Performance Improvements in .NET 11 appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Stephen Toub - MSFT",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Public Preview Annoucement: Azure Policy Custom Policy Versioning!",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/public-preview-annoucement-azure-policy-custom-policy-versioning/ba-p/4556461",
       "published": "2026-09-14T23:56:23+00:00",
@@ -22,6 +44,39 @@
       "blogId": "azuregovernanceandmanagementblog",
       "author": "stevenbucher",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "SSL/TLS certificates and end-to-end encryption for Azure Functions Flex Consumption",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/ssl-tls-certificates-and-end-to-end-encryption-for-azure/ba-p/4556425",
+      "published": "2026-09-14T21:01:36+00:00",
+      "summary": "Last week we announced the general availability of TLS/SSL certificate support and end-to-end TLS encryption for Azure Functions Flex Consumption. Flex Consumption is the recommended serverless hosting plan for Azure Functions. It combines event-driven scale-to-zero and execution-based billing with...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "nzthiago",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Dashboards are for AI agents too, not just humans",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/dashboards-are-for-ai-agents-too-not-just-humans/ba-p/4556383",
+      "published": "2026-09-14T20:25:20+00:00",
+      "summary": "A few days ago I opened Azure SRE Agent and typed four prompts. None of them was careful: find grafana dashboard for: GitHub Copilot run the panels queries. list top 3 very long sessions in the past 3 days what session 1 was doing? what was session 2 doing? No KQL. No table names. I didn't say what...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Microsoft Foundry Observability: How to Trace, Evaluate, Monitor, and Secure AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/microsoft-foundry-observability-how-to-trace-evaluate-monitor/ba-p/4555846",
+      "published": "2026-09-14T19:42:07+00:00",
+      "summary": "The green check that hid a real problem During a recent customer conversation, I was shown a customer-service refund agent that looked healthy by every traditional measure. Requests completed successfully. The endpoint returned HTTP 200. Latency was within the team's target, and there were no...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "gauravbhardwaj",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -58,6 +113,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Public Preview: Multi-account support for Microsoft Sentinel codeless connectors",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/public-preview-multi-account-support-for-microsoft-sentinel/ba-p/4544380",
+      "published": "2026-09-14T18:13:41+00:00",
+      "summary": "Security teams rarely have just one of anything. Most SOCs run separate production, staging, and development accounts. Large enterprises segment by region, business unit, or brand. And managed security service providers (MSSPs) watch over many customers at once. Traditionally, ISVs have used the...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "MitchellGulledge",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "[In preview] Public Preview: HTTP/3 over QUIC support in Azure Application Gateway",
       "link": "https://azure.microsoft.com/updates?id=571123",
       "published": "2026-09-14T17:55:00+00:00",
@@ -91,6 +157,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "Data Meets Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/data-meets-agents/ba-p/4553082",
+      "published": "2026-09-14T16:00:00+00:00",
+      "summary": "Introduction Enterprise agents become more valuable when they can securely access the data, knowledge and business systems organisations already rely on. And, Data Meets Agents is a way of framing a recurring architecture question we hear from customers: How should an agent access enterprise data...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Yeliz_Kilinc",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Can a Harmless Prompt Break an AI Guardrail?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/can-a-harmless-prompt-break-an-ai-guardrail/ba-p/4555111",
+      "published": "2026-09-14T14:00:00+00:00",
+      "summary": "Tamara Gaidar, Senior Data Scientist, Microsoft Security Research Team Maor Nissan, Principal Data Scientist, Microsoft Security Research Team Where we left off This is Part 2 of two. Part 1 is — it covers how we ran the challenge, the sixteen attack techniques the crowd produced, and the five...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "tamaragaidar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "MulticloudDB SDK: Cross-cloud portability in the coding agent era",
       "link": "https://devblogs.microsoft.com/cosmosdb/multiclouddb-sdk-cross-cloud-portability-in-the-coding-agent-era/",
       "published": "2026-09-14T13:25:23+00:00",
@@ -122,6 +210,17 @@
       "author": "kedikala",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Profiles now show your highest achievement badge tier",
+      "link": "https://github.blog/changelog/2026-09-11-profiles-now-show-your-highest-achievement-badge-tier",
+      "published": "2026-09-11T22:39:50+00:00",
+      "summary": "Your GitHub profile now displays the highest tier you’ve earned for achievements with multiple levels. Previously, profiles could display the first tier earned, even after you had progressed to a… The post Profiles now show your highest achievement badge tier appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Add VS Code Agents to Copilot usage metrics",
@@ -539,17 +638,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "npm extends recovery-code security holds to all accounts",
-      "link": "https://github.blog/changelog/2026-09-09-npm-extends-recovery-code-security-holds-to-all-accounts",
-      "published": "2026-09-09T21:55:55+00:00",
-      "summary": "npm now places a temporary 72-hour security hold on any account after a successful recovery-code sign-in, extending a protection that previously applied only to high-impact accounts. This change applies to… The post npm extends recovery-code security holds to all accounts appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -2390,17 +2478,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Explore new features available in C# 15 preview",
-      "link": "https://devblogs.microsoft.com/dotnet/explore-csharp-15/",
-      "published": "2026-08-24T17:00:00+00:00",
-      "summary": "C# 15 ships with .NET 11. It adds union types, closed hierarchies, a preview of the updated unsafe model, and a few smaller changes that remove everyday ceremony. The post Explore new features available in C# 15 preview appeared first on .NET Blog.",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": "Bill Wagner",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Powering Memory in Foundry Agent Service, with Azure Cosmos DB",
       "link": "https://devblogs.microsoft.com/cosmosdb/powering-memory-in-foundry-agent-service-with-azure-cosmos-db/",
       "published": "2026-08-24T16:04:43+00:00",
@@ -2412,17 +2489,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Enabling A2A endpoint and Agent Card for a Hosted Agent",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/enabling-a2a-endpoint-and-agent-card-for-a-hosted-agent/ba-p/4546979",
-      "published": "2026-08-24T16:00:00+00:00",
-      "summary": "Building an agent shouldn't require you to reinvent platform capabilities. With Microsoft Foundry, hosted agents inherit essential capabilities such as authentication, ingress management, A2A transport, and discovery endpoints, freeing developers to focus on business logic and user value. This...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "srisatyakrishna5",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Now in public preview: Azure Virtual Desktop regional host pools",
       "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/now-in-public-preview-azure-virtual-desktop-regional-host-pools/ba-p/4474598",
       "published": "2026-08-24T15:19:27+00:00",
@@ -2431,17 +2497,6 @@
       "blogId": "azurevirtualdesktopblog",
       "author": "TomHickling",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurevirtualdesktopblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Building Production-Ready AI Agents in Microsoft Foundry: 10 Lessons Learned",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/building-production-ready-ai-agents-in-microsoft-foundry-10/ba-p/4544174",
-      "published": "2026-08-24T14:00:00+00:00",
-      "summary": "A Real-World Scenario Imagine a customer support agent that answers invoice questions. During testing, everything works perfectly. But in production: The Finance API occasionally times out. The knowledge base contains outdated information. Tool calls fail during peak traffic. Token consumption...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "SURENDRATANNEERU1",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3072,17 +3127,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Your best friend: BlockOnPossibleDataLoss=True",
-      "link": "https://devblogs.microsoft.com/azure-sql/blockonpossibledataloss/",
-      "published": "2026-08-13T19:25:40+00:00",
-      "summary": "BlockOnPossibleDataLoss can frustrate developers, but it's one of the most important safeguards in database deployment. Here's how to keep your local development loop fast while protecting the data that matters. The post Your best friend: BlockOnPossibleDataLoss=True appeared first on Azure SQL Dev...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Monitoring Azure Service Fabric with Azure Managed Grafana",
       "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/monitoring-azure-service-fabric-with-azure-managed-grafana/ba-p/4546439",
       "published": "2026-08-13T18:44:37+00:00",
@@ -3490,17 +3534,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Zero Ops: Agents Operate, Humans Govern",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/zero-ops-agents-operate-humans-govern/ba-p/4545151",
-      "published": "2026-08-08T15:47:47+00:00",
-      "summary": "How to design, build, and grow an agentic operations practice — and what becomes possible once you do. A note on scope: the patterns in this guide apply to any agentic operations platform. The specifics — the pricing model, the built-in capabilities, the primitives named throughout — are Azure SRE...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Shamir_AbdulAziz",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing Grafana 13 Support in Azure Managed Grafana",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-grafana-13-support-in-azure-managed-grafana/ba-p/4545199",
       "published": "2026-08-07T22:24:56+00:00",
@@ -3508,17 +3541,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "nuzhat-minhaz",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Build Durable, Long-Running MCP Tasks on Azure App Service",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/build-durable-long-running-mcp-tasks-on-azure-app-service/ba-p/4545170",
-      "published": "2026-08-07T19:40:32+00:00",
-      "summary": "Not every tool call finishes in a few seconds. A compliance scan might inspect hundreds of resources. A deployment might wait for an approval. A batch import might run for an hour. Holding an HTTP connection open for that entire operation is fragile: clients restart, proxies time out, networks...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -5536,17 +5558,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Optimizing GitHub Copilot Cost in the Usage-Based Billing Era",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/optimizing-github-copilot-cost-in-the-usage-based-billing-era/ba-p/4534171",
-      "published": "2026-07-07T15:43:49+00:00",
-      "summary": "GitHub Copilot has become a core part of the modern developer workflow. We use it to complete code, explain unfamiliar repositories, write tests, refactor legacy applications, review pull requests, generate documentation, and automate repetitive engineering work. But as GitHub Copilot moves further...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "gauravbhardwaj",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Don’t rewrite your CLI for agents",
       "link": "https://devblogs.microsoft.com/blog/dont-rewrite-your-cli-for-agents/",
       "published": "2026-07-07T13:52:06+00:00",
@@ -6623,17 +6634,6 @@
       "author": "Adam Ratzman",
       "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Transform your security operation with a unified experience in Defender",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/transform-your-security-operation-with-a-unified-experience-in/ba-p/4527932",
-      "published": "2026-06-16T16:00:00+00:00",
-      "summary": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl Security operations teams today are being asked to do more than ever: respond faster, manage increasing data volumes, reduce operational complexity, stay ahead of evolving threats, and balance cost and efficiency. That’s why...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Mohit_Kumar1",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "The Case for an Ontology Layer in Telecoms",
@@ -11750,5 +11750,6 @@
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     }
-  ]
+  ],
+  "summary": "Today’s Azure updates spotlight developer productivity and runtime performance. In **Azure SQL Dev Corner**, Microsoft says AI coding agents are increasingly choosing **Azure SQL Database**, underscoring its positioning as a cloud-native relational database for app development and agent-assisted workflows. In the **.NET** blog, Microsoft highlights **performance improvements in .NET 11**, signaling ongoing investment in faster runtime execution and efficiency gains for developers building modern .NET applications."
 }
