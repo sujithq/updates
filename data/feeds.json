@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T13:48:23.625782+00:00",
+  "lastUpdated": "2026-09-16T18:31:30.221076+00:00",
   "totalArticles": 1069,
   "articles": [
     {
@@ -14,6 +14,50 @@
       "sourceType": "rss"
     },
     {
+      "title": "Running GitHub Actions Runner Controller on AKS Automatic",
+      "link": "https://blog.aks.azure.com/2026/09/17/github-actions-runner-controller-aks-automatic",
+      "published": "2026-09-17T00:00:00+00:00",
+      "summary": "Create an AKS Automatic cluster, install Actions Runner Controller, and run a GitHub Actions workflow on ephemeral runner pods in your Azure network.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft",
+      "feedUrl": "https://blog.aks.azure.com/rss.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure SQL DB HS Data Load Using Microsoft JDBC Driver Instead of Apache Spark Connector for SQL",
+      "link": "https://techcommunity.microsoft.com/t5/modernization-best-practices-and/azure-sql-db-hs-data-load-using-microsoft-jdbc-driver-instead-of/ba-p/4544086",
+      "published": "2026-09-16T17:51:24+00:00",
+      "summary": "Introduction Migration from heterogeneous database platforms such as Db2, Oracle, and Sybase to Microsoft SQL platforms has been a common modernization pattern for many years. For large-volume data migrations, customers commonly extract data from the source database in Parquet format, securely...",
+      "blog": "Modernization Best Practices Blog",
+      "blogId": "modernizationbestpracticesblog",
+      "author": "Sandip-Khandelwal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Retirement Update: SAP container images removed October 14, 2026",
+      "link": "https://azure.microsoft.com/updates?id=571342",
+      "published": "2026-09-16T17:19:02+00:00",
+      "summary": "The containerized SAP data connector retired on September 14, 2026 and is unsupported and unmaintained. Existing TLS-compliant agents may continue sending logs through the retired HTTP Data Collector API. Container images will be removed on October 14, 20",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Azure SQL updates for mid-September 2026",
+      "link": "https://azure.microsoft.com/updates?id=571056",
+      "published": "2026-09-16T17:15:10+00:00",
+      "summary": "In mid-September 2026, the following updates and enhancements were made to Azure SQL:Configure soft delete for the Azure SQL logical server. When the logical server is deleted, it goes into a soft deleted state and is self-restorable during the configured",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
       "title": "Visual Studio Code 1.138",
       "link": "https://code.visualstudio.com/updates/v1_138",
       "published": "2026-09-16T17:00:00+00:00",
@@ -22,6 +66,94 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure Delivers Strong MLPerf Inference v6.1 Results with NVIDIA GB300 & GB200",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/azure-delivers-strong-mlperf-inference-v6-1-results-with-nvidia/ba-p/4552364",
+      "published": "2026-09-16T15:25:04+00:00",
+      "summary": "By Mark Gitau and Azin Heidarshenas In the MLPerf Inference v6.1 round, Azure demonstrated strong Deepseek-R1 performance on GB300 NVL72 and GB200 NVL72 platforms. Azure submitted GB200 results at 18-node (1-rack) and 72-node (4-rack) scale, and GB300 results at 18 nodes (1 rack), marking our first...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "Mark_Gitau",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "v1.16.3",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.3",
+      "published": "2026-09-16T14:33:39+00:00",
+      "summary": "1.16.3 (September 16, 2026) BUG FIXES: Fix handling of destroy=false around create_before_destroy instances (#39169) Fix function result comparison when there are multiple marks (#39170) Filter logic for marks could cause values with multiple marks to erroneously fail validations (#39171) Fix issue...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Azure Red Hat OpenShift with hosted control planes",
+      "link": "https://azure.microsoft.com/updates?id=571621",
+      "published": "2026-09-16T14:13:08+00:00",
+      "summary": "Azure Red Hat OpenShift with hosted control planes is now in public preview. It is a new deployment option for Azure Red Hat OpenShift that runs the OpenShift control plane as a fully managed service, separate from the worker nodes that run customer appli",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: PostgreSQL skills and MCP plugin for Azure Database for PostgreSQL",
+      "link": "https://azure.microsoft.com/updates?id=569664",
+      "published": "2026-09-16T14:07:14+00:00",
+      "summary": "The PostgreSQL skills and MCP plugin turns supported AI coding assistants into context-aware PostgreSQL experts that can both provide guidance and act on a connected database. The bundled plugin combines expert-curated skills for PostgreSQL and Azure Data",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "AI Is Changing How We Code. It’s Also Changing How We Learn.",
+      "link": "https://devblogs.microsoft.com/visualstudio/ai-is-changing-how-we-code-its-also-changing-how-we-learn/",
+      "published": "2026-09-16T14:00:09+00:00",
+      "summary": "AI is changing software development at a pace no one can ignore. Developers now have powerful AI tools that can help us write code, understand unfamiliar codebases, troubleshoot problems, learn new frameworks, and get answers in seconds. That is an incredible opportunity. But as these tools become...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "James Rempt",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Practical Local AI for Enterprise Architects: A Workload Placement Approach",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/practical-local-ai-for-enterprise-architects-a-workload/ba-p/4556429",
+      "published": "2026-09-16T14:00:00+00:00",
+      "summary": "Enterprise AI discussions often begin with a use case and end with a deployment constraint. A clinical document assistant may have clear value, yet protected health information cannot leave an approved environment. A factory assistant may improve operations, yet the facility cannot depend on...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "arronhoffer",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Introducing a Guided Copilot Experience for Building Azure Apps in VS Code",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-a-guided-copilot-experience-for-building-azure-apps/ba-p/4557120",
+      "published": "2026-09-16T13:59:47+00:00",
+      "summary": "Today we're previewing a new way to build cloud apps with GitHub Copilot in VS Code: a guided Copilot experience that takes you from idea to a deployed Azure app through a structured, predictable workflow instead of a free-form chat session that may or may not land where you need it to. The...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "fiveisprime",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Code scanning AI Scan no longer requires CodeQL default setup",
+      "link": "https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup",
+      "published": "2026-09-16T13:26:06+00:00",
+      "summary": "You can now use AI Scan for pull requests to find security vulnerabilities, even when CodeQL default setup isn’t enabled on a repository. Previously, AI Scan for pull requests only… The post Code scanning AI Scan no longer requires CodeQL default setup appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -575,17 +707,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "AI Scan for pull request APIs in public preview",
-      "link": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
-      "published": "2026-09-10T20:20:58+00:00",
-      "summary": "You can now manage GitHub code scanning’s AI Scan for pull request enablement with REST API endpoints at the organization and repository levels. This public preview gives teams a programmatic… The post AI Scan for pull request APIs in public preview appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha)",
       "link": "https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/",
       "published": "2026-09-10T18:30:00+00:00",
@@ -969,17 +1090,6 @@
       "author": "Rahul Bhandari (MSFT), Tara Overfield",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Azure SQL DB HS Data Load Using Microsoft JDBC Driver Instead of Apache Spark Connector for SQL",
-      "link": "https://techcommunity.microsoft.com/t5/modernization-best-practices-and/azure-sql-db-hs-data-load-using-microsoft-jdbc-driver-instead-of/ba-p/4544086",
-      "published": "2026-09-08T19:59:27+00:00",
-      "summary": "Introduction Migration from heterogeneous database platforms such as Db2, Oracle, and Sybase to Microsoft SQL platforms has been a common modernization pattern for many years. For large-volume data migrations, customers commonly extract data from the source database in Parquet format, securely...",
-      "blog": "Modernization Best Practices Blog",
-      "blogId": "modernizationbestpracticesblog",
-      "author": "Sandip-Khandelwal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Kubernetes v1.37: Advancing Workload-Aware Scheduling",
@@ -1881,17 +1991,6 @@
       "blogId": "azurenetworkingblog",
       "author": "Sudha_Mahajan",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Consume Dataverse MCP server in Microsoft Foundry-Bringing business data to AI Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/consume-dataverse-mcp-server-in-microsoft-foundry-bringing/ba-p/4548218",
-      "published": "2026-08-31T17:30:00+00:00",
-      "summary": "Introduction Building AI agents that can actually do things in your business systems—create records, update opportunities, trigger workflows—typically requires weeks of custom integration work. The Dataverse MCP Server changes that. In this tutorial, you'll connect a Microsoft Foundry agent to your...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "muafzal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3545,17 +3644,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Today I will… manage Git Submodules without leaving the IDE",
-      "link": "https://devblogs.microsoft.com/visualstudio/managing-git-submodules-without-leaving-the-ide/",
-      "published": "2026-08-11T17:05:31+00:00",
-      "summary": "If you’ve worked with Git submodules for any length of time, you probably have a love-hate relationship with them. They’re genuinely useful for pulling a shared library, an SDK, or common build scripts into your project. But actually working with them usually means tabbing over to a terminal and...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Harshada Hole",
-      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Azure Container Apps Sandboxes (Preview): Giving AI Agents a Safe Place to Work",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-sandboxes-preview-giving-ai-agents-a-safe/ba-p/4545975",
       "published": "2026-08-11T16:05:08+00:00",
@@ -3642,17 +3730,6 @@
       "author": "Sudhanshu Khera, Iria Osara",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "A simpler way to deploy ZIP packages to Azure App Service from the Azure portal",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/a-simpler-way-to-deploy-zip-packages-to-azure-app-service-from/ba-p/4545430",
-      "published": "2026-08-10T06:42:46+00:00",
-      "summary": "We recently introduced a simpler way to deploy applications to Azure App Service for Linux by uploading a ZIP package through Kudu. The experience lets you review the package contents, choose whether to run a server-side build, and follow the deployment through its different stages. This capability...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "TulikaC",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Introducing Microsoft IQ Live: A New Biweekly Series for Developers",
@@ -3817,17 +3894,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "v1.16.0-beta2",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-beta2",
-      "published": "2026-08-05T18:07:50+00:00",
-      "summary": "1.16.0-beta2 (August 05, 2026) NEW FEATURES: Terraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986) terraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298)...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -7725,17 +7791,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[In preview] Public Preview: Code-first observability for Foundry Agents in VS Code",
-      "link": "https://azure.microsoft.com/updates?id=563197",
-      "published": "2026-06-02T23:15:29+00:00",
-      "summary": "Microsoft Foundry brings code-first observability to agent developers in public preview, delivered as an observe skill inside the Foundry Plugin for VS Code Copilot Chat. Developers run the full evaluation-driven optimization loop from the editor through",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "The end of patching era for containers: Microsoft Defender for Cloud expands hardened image support",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/the-end-of-patching-era-for-containers-microsoft-defender-for/ba-p/4524798",
       "published": "2026-06-02T22:53:19+00:00",
@@ -7745,39 +7800,6 @@
       "author": "Yulia_Zhurbinsky",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "[Launched] Generally Available: Agent kit for Azure Cosmos DB",
-      "link": "https://azure.microsoft.com/updates?id=563022",
-      "published": "2026-06-02T22:30:49+00:00",
-      "summary": "Your AI coding agents just got smarter about building high-performance database applications. The Azure Cosmos DB Agent Kit is now generally available, bringing proven best practices directly into your development workflow. Whether you're designing data m",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Azure SQL updates for early-June",
-      "link": "https://azure.microsoft.com/updates?id=563142",
-      "published": "2026-06-02T22:15:55+00:00",
-      "summary": "In early June 2026, the following update and enhancement was made to Azure SQL: Now you can use post-quantum resilient AES 256 symmetric keys to configure transparent data encryption (TDE) with customer-managed keys in Azure SQL Database. Learn more.",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Secure, Modern Access to Azure Files on macOS with MS Entra ID",
-      "link": "https://azure.microsoft.com/updates?id=565073",
-      "published": "2026-06-02T22:00:05+00:00",
-      "summary": "Azure Files now supports access from macOS using Entra ID authentication (Public Preview), enabling secure, identity-based access to file shares for cross-platform teams. This expands support for modern workflows, allowing users on macOS to seamlessly acc",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
     },
     {
       "title": "Start Secure, Stay Secure: How Microsoft is Closing the Gap from Code to Runtime",
@@ -9859,17 +9881,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Optimizing RDMA performance for AI workloads on AKS with DRANET",
-      "link": "https://blog.aks.azure.com/2026/04/01/dranet-rdma-optimization-for-ai-on-aks",
-      "published": "2026-04-01T00:00:00+00:00",
-      "summary": "Use DRANET and DRA on AKS to boost RDMA performance with topology-aware scheduling, GPU/NIC alignment, and fast placement for AI training and inferencing.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft",
-      "feedUrl": "https://blog.aks.azure.com/rss.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Simplify troubleshooting at scale - Centralized Log Management for CycleCloud Workspace for Slurm",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/simplify-troubleshooting-at-scale-centralized-log-management-for/ba-p/4470658",
       "published": "2026-03-31T21:17:04+00:00",
@@ -10860,17 +10871,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "mpi-stage: High-Performance File Distribution for HPC Clusters",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/mpi-stage-high-performance-file-distribution-for-hpc-clusters/ba-p/4484366",
-      "published": "2026-01-09T10:24:34+00:00",
-      "summary": "When running containerized workloads on HPC clusters, one of the first problems you hit is getting container images onto the nodes quickly and repeatably. A .sqsh is a Squashfs image (commonly used by container runtimes on HPC). In some environments you can run a Squashfs image directly from shared...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "pauledwards",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Global expansion—now available in West Europe (Netherlands)",
       "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/global-expansion-now-available-in-west-europe-netherlands/ba-p/4479671",
       "published": "2026-01-08T00:06:13+00:00",
@@ -11762,5 +11762,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts centered on developer tooling and infrastructure automation. **Visual Studio Code 1.138** highlights the latest update to Microsoft’s editor, while the Azure Infrastructure post focuses on **Azure Virtual Machine Scale Sets**, specifically how to **deploy custom VM images** and set up **CI/CD pipelines** to automate image rollout and scale set updates.\n\nThe key themes are **developer productivity** and **repeatable cloud operations**: VS Code continues to evolve as a core development environment, and Azure guidance is pushing teams toward more standardized, automated VM lifecycle management using **custom images**, **scale sets**, and **CI/CD practices**."
+  "summary": "Today’s Azure news was led by data and AI platform updates: Azure highlighted mid-September 2026 Azure SQL preview features, a new Azure Database for PostgreSQL public preview with PostgreSQL skills and an MCP plugin, and modernization guidance showing high-speed Azure SQL Database data loads via the Microsoft JDBC Driver instead of the Apache Spark SQL connector. On the AI and developer side, Microsoft emphasized practical enterprise “local AI” workload placement, a guided Copilot experience for building Azure apps in Visual Studio Code, and broader shifts in coding and learning driven by AI, alongside Visual Studio Code 1.138 and a GitHub code-scanning update that removes the requirement for CodeQL default setup for AI Scan.\n\nInfrastructure and platform announcements were also significant: Azure posted strong MLPerf Inference v6.1 benchmark results using NVIDIA GB300 and GB200 systems, introduced Azure Red Hat OpenShift with hosted control planes in public preview, and published new guidance for custom images and CI/CD with Azure Virtual Machine Scale Sets. Azure Updates also included a retirement notice that SAP container images will be removed on October 14, 2026, while Terraform released v1.16.3."
 }
