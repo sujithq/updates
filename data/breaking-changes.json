@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T12:06:56.133276+00:00",
+  "lastUpdated": "2026-09-16T13:24:14.614537+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -1441,6 +1441,17 @@
       "detected": "2026-09-12T12:06:56.133266+00:00",
       "published": "2026-09-11T18:08:28+00:00",
       "blog": "Azure Updates"
+    },
+    {
+      "link": "https://github.blog/changelog/2026-09-15-sha-1-in-https-on-github-sunset",
+      "title": "SHA-1 in HTTPS on GitHub sunset",
+      "severity": "critical",
+      "deadline": "2026-09-15",
+      "impact": "GitHub HTTPS no longer supports SHA-1; affected are clients using SHA-1 cert support",
+      "action": "Upgrade clients/TLS stacks to support SHA-256+ and verify GitHub HTTPS access",
+      "detected": "2026-09-16T13:24:14.614527+00:00",
+      "published": "2026-09-15T16:47:20+00:00",
+      "blog": "GitHub Changelog"
     }
   ]
 }
