@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-16T23:19:34.653608+00:00",
-  "totalArticles": 1072,
+  "lastUpdated": "2026-09-17T01:55:27.798293+00:00",
+  "totalArticles": 1071,
   "articles": [
     {
       "title": "Visual Studio Code 1.139 (Insiders)",
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
+      "link": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+      "published": "2026-09-17T00:26:43+00:00",
+      "summary": "A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took. The post Migrating the GitHub Copilot runtime to Rust, using Copilot appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Stephen Toub",
+      "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -69,17 +80,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "The bottleneck isn't AI. It's transformation capacity.",
-      "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/the-bottleneck-isn-t-ai-it-s-transformation-capacity/ba-p/4557214",
-      "published": "2026-09-16T19:17:48+00:00",
-      "summary": "AI everywhere, except at scale Ask almost any operator where they are with AI and the answer sounds impressive. Hundreds of potential use cases. Dozens of pilots in play. Multiple foundation models, thousands of agents, several data platforms, and a meaningful share of infrastructure already...",
-      "blog": "Telecommunications",
-      "blogId": "telecommunications-industry-blog",
-      "author": "MOHON",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=telecommunications-industry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Improve Campaign Reach and Measurement with Azure Confidential Clean Rooms",
       "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/improve-campaign-reach-and-measurement-with-azure-confidential/ba-p/4556346",
       "published": "2026-09-16T18:56:16+00:00",
@@ -89,6 +89,17 @@
       "author": "Deepak_JV",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureconfidentialcomputingblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions",
+      "link": "https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/",
+      "published": "2026-09-16T18:30:00+00:00",
+      "summary": "Kubernetes v1.37 brings important storage security features: emptyDir permission modes and bind mount options. They help application programmers and security professionals implement rigorous security policies, for example, prohibiting deletion of files across containers or execution of arbitrary...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "Azure SQL DB HS Data Load Using Microsoft JDBC Driver Instead of Apache Spark Connector for SQL",
@@ -2541,17 +2552,6 @@
       "blogId": "kubernetes",
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "How to evaluate LLMs before production",
-      "link": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
-      "published": "2026-08-25T21:35:11+00:00",
-      "summary": "These are the lessons we learned evaluating LLMs for real-world secret scanning. The post How to evaluate LLMs before production appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Mariko Wakabayashi",
-      "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -9375,17 +9375,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "SELinux Volume Label Changes goes GA (and likely implications in v1.37)",
-      "link": "https://kubernetes.io/blog/2026/04/22/breaking-changes-in-selinux-volume-labeling/",
-      "published": "2026-04-22T18:35:00+00:00",
-      "summary": "If you run Kubernetes on Linux with SELinux in enforcing mode, plan ahead: a future release (anticipated to be v1.37) is expected to turn the SELinuxMount feature gate on by default. This makes volume setup faster for most workloads, but it can break applications that still depend on the older...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Fast cloud migration, measurable ROI: Forrester Total Economic Impact study of Azure VMware Solution",
       "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/fast-cloud-migration-measurable-roi-forrester-total-economic/ba-p/4508136",
       "published": "2026-04-22T17:39:32+00:00",
@@ -11795,5 +11784,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news centered on AI-assisted development, enterprise AI deployment, and platform modernization. Microsoft highlighted building AI agents in C#/.NET, a new guided Copilot experience for building Azure apps in VS Code, local AI workload placement guidance from Azure AI Foundry, and strong Azure MLPerf Inference v6.1 results on NVIDIA GB300 and GB200 systems, while Visual Studio and VS Code posts emphasized how AI is reshaping both coding and developer learning.\n\nOn the platform side, Azure announced previews for Azure Red Hat OpenShift hosted control planes, Azure SQL mid-September 2026 updates, and PostgreSQL skills plus an MCP plugin for Azure Database for PostgreSQL, alongside infrastructure and security updates including VM Scale Set custom image CI/CD, Azure Confidential Clean Rooms for privacy-preserving campaign measurement, GitHub improvements for SSO automation, SCIM `profileUrl`, Copilot budget increase requests, and AI code scanning without CodeQL default setup. Other notable items included SAP container image retirement on October 14, 2026 and SQL high-speed data load guidance using the Microsoft JDBC Driver instead of the Apache Spark SQL connector."
+  "summary": "Today’s Azure-related updates focus on cloud-native developer infrastructure and platform efficiency. GitHub detailed how it migrated the GitHub Copilot runtime to Rust—using Copilot itself in the process—to improve performance, reliability, and systems-level control, while the AKS team showed how to run GitHub Actions Runner Controller (ARC) on AKS Automatic, simplifying self-hosted CI/CD runner management on Azure Kubernetes Service.\n\nThe main technologies highlighted are Rust, GitHub Copilot, GitHub Actions, Actions Runner Controller, and AKS Automatic, underscoring Microsoft’s push to optimize both AI-powered developer tools and Kubernetes-based DevOps operations on Azure."
 }
