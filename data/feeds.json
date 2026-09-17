@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T01:55:27.798293+00:00",
+  "lastUpdated": "2026-09-17T08:01:51.334817+00:00",
   "totalArticles": 1071,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Automating Azure Managed Redis capacity acquisition with bounded retries",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/automating-azure-managed-redis-capacity-acquisition-with-bounded/ba-p/4546462",
+      "published": "2026-09-17T04:15:00+00:00",
+      "summary": "TL;DR: Azure Managed Redis has no capacity-reporting API. This PowerShell poller safely rotates real creation attempts across approved regions and SKUs until one succeeds. Who this is for: Azure platform engineers, application owners, and site reliability engineers who need an Azure Managed Redis...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "varghesejoji",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
@@ -4071,17 +4082,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Cloud-Native Multi-Agent: Running Agents Safely on Kubernetes with Kars",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/cloud-native-multi-agent-running-agents-safely-on-kubernetes/ba-p/4543047",
-      "published": "2026-08-04T07:00:00+00:00",
-      "summary": "Why cloud-native and multi-agent are converging The shift from \"a chatbot\" to \"a fleet of workers\" A single LLM call is a stateless function: text in, text out. A multi-agent system is something else entirely — a set of long-running processes that plan, call tools, spawn helpers, talk to each...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Logic Apps Aviators Newsletter - August 2026",
@@ -11784,5 +11784,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related updates focus on cloud-native developer infrastructure and platform efficiency. GitHub detailed how it migrated the GitHub Copilot runtime to Rust—using Copilot itself in the process—to improve performance, reliability, and systems-level control, while the AKS team showed how to run GitHub Actions Runner Controller (ARC) on AKS Automatic, simplifying self-hosted CI/CD runner management on Azure Kubernetes Service.\n\nThe main technologies highlighted are Rust, GitHub Copilot, GitHub Actions, Actions Runner Controller, and AKS Automatic, underscoring Microsoft’s push to optimize both AI-powered developer tools and Kubernetes-based DevOps operations on Azure."
+  "summary": "Today’s Azure-related posts focused on automation, platform reliability, and developer infrastructure. Azure Dev Community highlighted a pattern for automating **Azure Managed Redis** capacity acquisition with **bounded retries**, addressing how to handle constrained capacity more predictably in deployment workflows; the **GitHub Blog** detailed how the **GitHub Copilot runtime** was migrated to **Rust**—reportedly with help from Copilot itself—to improve performance and efficiency; and the **AKS Blog** showed how to run **GitHub Actions Runner Controller (ARC)** on **AKS Automatic**, combining **Kubernetes**, **Azure Kubernetes Service**, and GitHub Actions to simplify scalable self-hosted CI/CD runners."
 }
