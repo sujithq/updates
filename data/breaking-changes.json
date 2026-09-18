@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T13:20:25.821030+00:00",
+  "lastUpdated": "2026-09-18T12:54:28.160407+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -1463,6 +1463,17 @@
       "detected": "2026-09-17T13:20:25.821019+00:00",
       "published": "2026-09-16T17:19:02+00:00",
       "blog": "Azure Updates"
+    },
+    {
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/action-required-promql-regex-matching-in-azure-monitor-workspace/ba-p/4556437",
+      "title": "Action required: PromQL regex matching in Azure Monitor Workspace is becoming spec-compliant",
+      "severity": "info",
+      "deadline": null,
+      "impact": "AMW PromQL regex =~ becomes fully anchored; queries using substring semantics may break",
+      "action": "Update regex queries to add .* for starts-with/contains behavior",
+      "detected": "2026-09-18T12:54:28.160397+00:00",
+      "published": "2026-09-17T23:10:32+00:00",
+      "blog": "Azure Observability"
     }
   ]
 }
