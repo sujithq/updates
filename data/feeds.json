@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T01:42:49.608335+00:00",
+  "lastUpdated": "2026-09-18T07:40:08.763105+00:00",
   "totalArticles": 1072,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Agent experience with data in Onelake using Fabric IQ",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/agent-experience-with-data-in-onelake-using-fabric-iq/ba-p/4557504",
+      "published": "2026-09-17T23:57:52+00:00",
+      "summary": "Business Scenario A retail organization runs multiple promotional sales events across its store network in different cities, featuring various product categories. Data is captured from: Third-party systems (products, stores, sales events) ERP system i.e. Finance and Operations (customer data)...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Sayanika",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Action required: PromQL regex matching in Azure Monitor Workspace is becoming spec-compliant",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/action-required-promql-regex-matching-in-azure-monitor-workspace/ba-p/4556437",
+      "published": "2026-09-17T23:10:32+00:00",
+      "summary": "TL;DR: Bare regex matchers like pod=~\"foo\" will soon return only exact matches, not substring matches. If you rely on =~ for \"starts with\" or \"contains\" semantics, update your queries to add .* before the change lands. What is changing AMW's Prometheus Query Service is moving to fully-anchored...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Tyler_Kight",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Copilot impact dashboard now shows feature engagement",
@@ -5503,17 +5525,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "The AI Agent Lifecycle: A Simple Guide",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/the-ai-agent-lifecycle-a-simple-guide/ba-p/4535729",
-      "published": "2026-07-13T00:52:49+00:00",
-      "summary": "The Bigger Picture Building an AI agent is fundamentally different from building traditional software. With a website or application, teams typically design, develop, test, and release. Once deployed, the focus shifts primarily to maintenance and feature enhancements. AI agents operate differently....",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "supriyas",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Stream Model Weights to NVIDIA GPU (vLLM) from Azure Blob Storage using the RunAI Model Streamer",
       "link": "https://blog.aks.azure.com/2026/07/13/runai-streamer-vllm",
       "published": "2026-07-13T00:00:00+00:00",
@@ -7019,17 +7030,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Azure Monitor SLIs now Generally Available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-slis-now-generally-available/ba-p/4523689",
-      "published": "2026-06-11T17:18:29+00:00",
-      "summary": "Azure Monitor SLIs are now generally available Service Level Indicators (SLIs) and Service Level Objectives (SLOs) in Azure Monitor are now generally available. Teams can now measure reliability based on customer experience, not just infrastructure signals. SLI: A quantitative measure of how well...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Sokuma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Retirement: Azure Load Balancer Inbound NAT rule version 1 for Azure VMSS (aka Inbound NAT Pools)",
