@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T07:40:08.763105+00:00",
+  "lastUpdated": "2026-09-18T13:13:11.037601+00:00",
   "totalArticles": 1072,
   "articles": [
     {
@@ -14,6 +14,39 @@
       "sourceType": "rss"
     },
     {
+      "title": "Foundry IQ with D365F&O and Fabric IQ",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/foundry-iq-with-d365f-o-and-fabric-iq/ba-p/4557380",
+      "published": "2026-09-18T12:22:02+00:00",
+      "summary": "Business Scenario A retail organization runs multiple promotional sales events across its store network in different cities, featuring various product categories where Data is captured from third-party systems (products, stores, sales events) and D365 Finance and Operations (customer data)...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Sayanika",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Introducing a Guided Copilot Experience for Building Azure Apps in VS Code",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-a-guided-copilot-experience-for-building-azure-apps/ba-p/4557120",
+      "published": "2026-09-18T12:09:35+00:00",
+      "summary": "Today we're previewing a new way to build cloud apps with GitHub Copilot in VS Code: a guided Copilot experience that takes you from idea to a deployed Azure app through a structured, predictable workflow instead of a free-form chat session that may or may not land where you need it to. The...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "fiveisprime",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Automating Azure VM Image Baking and Validation with Packer and Azure DevOps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/automating-azure-vm-image-baking-and-validation-with-packer-and/ba-p/4557578",
+      "published": "2026-09-18T08:15:11+00:00",
+      "summary": "Solution at a glance Source image → Packer build → Azure Compute Gallery → Validation VM → Evidence → Controlled promotion Introduction Maintaining enterprise virtual machine images manually can lead to configuration drift, inconsistent builds, slow remediation and limited release traceability. A...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Prakhar-Sharma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Agent experience with data in Onelake using Fabric IQ",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/agent-experience-with-data-in-onelake-using-fabric-iq/ba-p/4557504",
       "published": "2026-09-17T23:57:52+00:00",
@@ -22,17 +55,6 @@
       "blogId": "azurearchitectureblog",
       "author": "Sayanika",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Action required: PromQL regex matching in Azure Monitor Workspace is becoming spec-compliant",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/action-required-promql-regex-matching-in-azure-monitor-workspace/ba-p/4556437",
-      "published": "2026-09-17T23:10:32+00:00",
-      "summary": "TL;DR: Bare regex matchers like pod=~\"foo\" will soon return only exact matches, not substring matches. If you rely on =~ for \"starts with\" or \"contains\" semantics, update your queries to add .* before the change lands. What is changing AMW's Prometheus Query Service is moving to fully-anchored...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Tyler_Kight",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -396,17 +418,6 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "arronhoffer",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Introducing a Guided Copilot Experience for Building Azure Apps in VS Code",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-a-guided-copilot-experience-for-building-azure-apps/ba-p/4557120",
-      "published": "2026-09-16T13:59:47+00:00",
-      "summary": "Today we're previewing a new way to build cloud apps with GitHub Copilot in VS Code: a guided Copilot experience that takes you from idea to a deployed Azure app through a structured, predictable workflow instead of a free-form chat session that may or may not land where you need it to. The...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "fiveisprime",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -5261,17 +5272,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "From Policy to Proof: Governing AI to Scale Human Ambition and Machine Intelligence",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-policy-to-proof-governing-ai-to-scale-human-ambition-and/ba-p/4535137",
-      "published": "2026-07-15T19:51:51+00:00",
-      "summary": "Enterprises are moving from AI experiments to AI in production. Copilots are in the flow of daily work, custom applications are built on foundation models, and autonomous agents are beginning to take actions on behalf of the business. As organizations combine human ambition with machine...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "manasa_ramalinga",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing: Multi-agent orchestration patterns including Magentic in Microsoft Agent Framework",
       "link": "https://azure.microsoft.com/updates?id=563571",
       "published": "2026-07-15T18:57:24+00:00",
@@ -7032,6 +7032,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Azure Monitor SLIs now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-slis-now-generally-available/ba-p/4523689",
+      "published": "2026-06-11T17:18:29+00:00",
+      "summary": "Azure Monitor SLIs are now generally available Service Level Indicators (SLIs) and Service Level Objectives (SLOs) in Azure Monitor are now generally available. Teams can now measure reliability based on customer experience, not just infrastructure signals. SLI: A quantitative measure of how well...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Sokuma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Retirement: Azure Load Balancer Inbound NAT rule version 1 for Azure VMSS (aka Inbound NAT Pools)",
       "link": "https://azure.microsoft.com/updates?id=565482",
       "published": "2026-06-11T16:15:07+00:00",
@@ -8788,17 +8799,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "Paulams732",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Understanding the deployment quota limitation (800) Error in Azure Bicep and ARM Deployments",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/understanding-the-deployment-quota-limitation-800-error-in-azure/ba-p/4518262",
-      "published": "2026-05-11T05:12:56+00:00",
-      "summary": "Understanding deployment quota limitation (800) Error in Azure Deployments (Bicep/ARM) Introduction When working with Infrastructure as Code (IaC) using Azure Bicep or ARM templates, deployment failures are a common part of day-to-day operations—especially in large-scale enterprise environments....",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ranjan_ashish",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -11794,5 +11794,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure posts focus on AI-assisted development, enterprise data intelligence, and DevOps automation. Microsoft highlighted Foundry IQ integrated with Dynamics 365 Finance & Operations and Fabric IQ in an Azure Architecture scenario, introduced a guided Copilot experience in VS Code to help developers build Azure applications faster, and detailed an Azure Infrastructure workflow using Packer plus Azure DevOps to automate Azure VM image baking and validation."
 }
