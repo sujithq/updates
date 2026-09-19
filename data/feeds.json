@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T22:54:06.189096+00:00",
+  "lastUpdated": "2026-09-19T01:47:29.542467+00:00",
   "totalArticles": 1072,
   "articles": [
     {
@@ -77,17 +77,6 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "Christian_Coello",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "FinOps-Ready Azure Landing Zone - Part 2",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/finops-ready-azure-landing-zone-part-2/ba-p/4555727",
-      "published": "2026-09-18T17:30:45+00:00",
-      "summary": "Author's Note: Vendor names referenced in this article are used solely as illustrative architectural examples and should not be interpreted as endorsements, recommendations, or advertisements. Introduction In Part 1, we looked at how Azure-native services can establish the foundation for a...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "javedeqbal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8803,6 +8792,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Scaling GitHub Advanced Security in Azure DevOps with a single reusable YAML template",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/scaling-github-advanced-security-in-azure-devops-with-a-single/ba-p/4518410",
+      "published": "2026-05-11T10:47:04+00:00",
+      "summary": "Scaling GitHub Advanced Security in Azure DevOps with a single reusable YAML template Managing security scanning across dozens of repositories can quickly become complex—especially when each repository uses different languages, frameworks, and infrastructure patterns. In our environment, we needed...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Paulams732",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Apply Copy Fail and DirtyFrag CVE mitigations at-scale using Azure Kubernetes Fleet Manager",
       "link": "https://blog.aks.azure.com/2026/05/11/kernel-lpe-cve-patching-at-scale-with-fleet-manager",
       "published": "2026-05-11T00:00:00+00:00",
@@ -11794,6 +11794,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure news was dominated by Microsoft Foundry and Copilot: Microsoft introduced public previews for Foundry Routines, A2A Endpoints/A2A Tool, and network egress controls for hosted agents, while also moving key agent capabilities to GA, including publishing Foundry agents to Microsoft 365 Copilot and Teams and admin controls in Agent 365. GitHub and developer tooling updates were also prominent, with an improved GitHub Copilot code review experience, weekly Copilot releases, upcoming mid-October model deprecations, safer stage-only npm tokens, REST API support for managing code coverage ruleset conditions, and a new guided Copilot app-building experience for Azure apps in VS Code.\n\nOn the infrastructure and data side, Azure highlighted FinOps-ready landing zones, preview Mdsv4/Msv4 SAP VMs, Azure Databricks capacity guidance, and automated VM image baking with Packer plus Azure DevOps, alongside several Azure Database for PostgreSQL enhancements such as PG18 support for elastic clusters, a logical replication slot sync status metric for Flexible Server, and improved troubleshooting guides."
+  ]
 }
