@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T08:15:54.706791+00:00",
+  "lastUpdated": "2026-09-21T15:23:59.138509+00:00",
   "totalArticles": 1073,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Demystifying Dynamic AI Routing: Exploring the model router in Foundry Models with RouteLab",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/demystifying-dynamic-ai-routing-exploring-the-model-router-in/ba-p/4557388",
+      "published": "2026-09-21T15:00:00+00:00",
+      "summary": "As enterprise generative AI applications mature, engineering teams face a continuous balancing act between cost, latency, and response quality. Hard-coding a frontier model for every request ensures high quality but maximizes token costs and latency. Conversely, defaulting to smaller, faster models...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "vikaspandey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Elasticsearch Vector Database on Azure: semantic search and RAG without managing a cluster",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/elasticsearch-vector-database-on-azure-semantic-search-and-rag/ba-p/4558647",
+      "published": "2026-09-21T13:34:07+00:00",
+      "summary": "With Elasticsearch Vector Database, Elastic's new serverless offering for vector workloads, Azure customers can build semantic search, retrieval-augmented generation (RAG), and agent-powered experiences. Azure Native Integrations make it easy to discover, deploy, and manage the resource through the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "piyush05",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Spec-Driven Development comes to Azure Cosmos DB: The First Database Extension for GitHub Spec Kit",
@@ -2511,17 +2533,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Introducing Cohere Parse V5",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-cohere-parse-v5/ba-p/4550955",
-      "published": "2026-08-27T19:09:35+00:00",
-      "summary": "Cohere Parse, a vision language model built for converting enterprise documents into structured, machine-readable data, is now available in the Microsoft Foundry. Parse joins Cohere's Embed and Rerank models in Foundry. What Parse does Cohere Parse takes complex, multimodal files and returns clean...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "RashaudSavage",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Kubernetes v1.37: Metrics API graduates to stable",
       "link": "https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/",
       "published": "2026-08-27T18:30:00+00:00",
@@ -3279,17 +3290,6 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "What the New API Management AI Gateway Tier Changes for App Service-Hosted Agents",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-the-new-api-management-ai-gateway-tier-changes-for-app/ba-p/4543974",
-      "published": "2026-08-19T13:54:21+00:00",
-      "summary": "In May, I published a runnable sample that put Azure API Management in front of an AI agent on Azure App Service. The agent framework was replaceable; the gateway was the contribution. APIM handled model access, token limits, semantic caching, token metrics, and the MCP traffic contract. I followed...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "v1.16.0-rc2",
@@ -11806,5 +11806,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts center on developer workflow, AI evaluation, and cloud cost governance. Azure Cosmos DB announced the first database extension for GitHub Spec Kit, bringing spec-driven development to database design so teams can define and validate Cosmos DB schemas and architecture earlier in the software lifecycle; meanwhile, an Azure Dev Community post argues for more rigorous benchmarking of text-to-image models instead of relying on cherry-picked outputs. On the FinOps side, Microsoft highlighted an important policy deadline: organizations using Azure commitments should reassess reservation and savings plan exchange strategies before February 2027, when current flexibility is set to change."
+  "summary": "Today’s Azure posts centered on practical AI and platform optimization: Azure AI Foundry introduced dynamic AI routing with the Foundry Models router and RouteLab to help choose the best model per request, while Azure highlighted Elasticsearch Vector Database on Azure for semantic search and RAG without cluster management, and shared a framework for rigorously evaluating text-to-image models. On the developer and operations side, Azure Cosmos DB added spec-driven development support through the first database extension for GitHub Spec Kit, and FinOps guidance urged customers to reassess Azure commitment and exchange strategies ahead of the February 2027 policy deadline."
 }
