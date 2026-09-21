@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-21T01:50:32.093741+00:00",
-  "totalArticles": 1072,
+  "lastUpdated": "2026-09-21T08:15:54.706791+00:00",
+  "totalArticles": 1073,
   "articles": [
     {
       "title": "Visual Studio Code 1.139 (Insiders)",
@@ -12,6 +12,39 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Spec-Driven Development comes to Azure Cosmos DB: The First Database Extension for GitHub Spec Kit",
+      "link": "https://devblogs.microsoft.com/cosmosdb/spec-driven-development-comes-to-azure-cosmos-db-the-first-database-extension-for-github-spec-kit/",
+      "published": "2026-09-21T07:00:11+00:00",
+      "summary": "AI coding agents can write much of an application’s code, but developers still need to review the decisions behind it. For a Cosmos DB application, that includes choosing partition keys, modeling access patterns, and configuring the client. Those decisions affect cost, performance, and reliability...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Theo van Kraay",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Beyond Cherry-Picking: Evaluating Text-to-Image Models",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-cherry-picking-evaluating-text-to-image-models/ba-p/4558111",
+      "published": "2026-09-21T07:00:00+00:00",
+      "summary": "In the rapidly evolving landscape of generative AI, large language model (LLM) evaluations have matured into standardized benchmark suites, Elo leaderboards, and automated judge pipelines. However, in the realm of Text-to-Image (T2I) synthesis, technical teams frequently slip back into what can...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "You Get One Exchange Left: Rethinking Azure Commitments Before February 2027",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/you-get-one-exchange-left-rethinking-azure-commitments-before/ba-p/4552401",
+      "published": "2026-09-21T00:03:58+00:00",
+      "summary": "Azure gives you two main ways to pay less by committing up front. A reservation gets you the deepest discount, but you are locking in a specific SKU in a specific region. A savings plan gives up some of that discount in exchange for freedom: you are only committing to spend a certain amount per...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "Madhura Amlekar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Copilot code review: An improved review experience",
@@ -4216,17 +4249,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "From Build to Run to Distribute: Autonomous Agents with Microsoft Foundry Agent Service Part 1/5",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-build-to-run-to-distribute-autonomous-agents-with-microsoft/ba-p/4541930",
-      "published": "2026-08-05T07:00:00+00:00",
-      "summary": "At Build 2026, we previewed the future of autonomous agents on the Microsoft platform. Now, those promises are delivered. Microsoft Foundry Agent Service, the Microsoft Agent Framework, and the GitHub Copilot SDK have reached General Availability, giving developers a single, end-to-end platform to...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Retirement: Nested confidential (cc_v5) VMs will be retired on September 1, 2026",
       "link": "https://azure.microsoft.com/updates?id=568661",
       "published": "2026-08-05T00:22:49+00:00",
@@ -5996,17 +6018,6 @@
       "author": "WSilveira",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Need a different partition key in Azure Cosmos DB? Pick the right approach",
-      "link": "https://devblogs.microsoft.com/cosmosdb/need-a-different-partition-key-in-azure-cosmos-db-pick-the-right-approach/",
-      "published": "2026-07-06T13:37:33+00:00",
-      "summary": "Once you create a container, its partition key is fixed at creation, and you can’t change it in place. However, if your original key starts causing problems like cross-partition queries or hot partitions, you need to consider your options for changing it. This post explains the mechanics of...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Abhishek Gupta",
-      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Azure SDK Release (June 2026)",
@@ -11794,5 +11805,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure posts center on developer workflow, AI evaluation, and cloud cost governance. Azure Cosmos DB announced the first database extension for GitHub Spec Kit, bringing spec-driven development to database design so teams can define and validate Cosmos DB schemas and architecture earlier in the software lifecycle; meanwhile, an Azure Dev Community post argues for more rigorous benchmarking of text-to-image models instead of relying on cherry-picked outputs. On the FinOps side, Microsoft highlighted an important policy deadline: organizations using Azure commitments should reassess reservation and savings plan exchange strategies before February 2027, when current flexibility is set to change."
 }
