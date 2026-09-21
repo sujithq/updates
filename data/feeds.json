@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T15:23:59.138509+00:00",
+  "lastUpdated": "2026-09-21T21:17:38.335484+00:00",
   "totalArticles": 1073,
   "articles": [
     {
@@ -14,6 +14,72 @@
       "sourceType": "rss"
     },
     {
+      "title": "Release 2026-09-04",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-09-04",
+      "published": "2026-09-21T20:20:38+00:00",
+      "summary": "Release Notes - 2026-09-04 Monitor the release status by regions at AKS-Release-Tracker. This release is titled v20260904. Announcements of upcoming changes and retirements Starting September 30, 2026, AKS will automatically migrate deprecated Availability Sets (VMAS) clusters to Virtual Machines...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "AllenWen-at-Azure",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Sphere OS version 26.09 is now available",
+      "link": "https://azure.microsoft.com/updates?id=572579",
+      "published": "2026-09-21T18:44:49+00:00",
+      "summary": "Azure Sphere OS version 26.09 is now available in the Retail feed. This release includes updates to the Azure Sphere OS only, with no update to the SDK. If your devices are connected to the internet, they will receive the updated OS from the cloud.The 26.",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Introducing a Guided Copilot Experience for Building Azure Apps in VS Code",
+      "link": "https://azure.microsoft.com/updates?id=572214",
+      "published": "2026-09-21T16:58:19+00:00",
+      "summary": "Today we're previewing a new way to build cloud apps with GitHub Copilot in VS Code: a guided Copilot experience that takes you from idea to a deployed Azure app through a structured, predictable workflow instead of a free-form chat session that may or ma",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Functions support for PowerShell 7.6",
+      "link": "https://azure.microsoft.com/updates?id=572219",
+      "published": "2026-09-21T16:55:34+00:00",
+      "summary": "Azure Functions support for PowerShell 7.6 is now generally available. You can now develop apps using PowerShell 7.6 locally and deploy them to Azure Functions plans. Learn more: Updating your app to PowerShell 7.6 What's new in PowerShell 7.6? Azure",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Virtual nodes on Azure Container Instances: a new compute layer for AKS",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/virtual-nodes-on-azure-container-instances-a-new-compute-layer/ba-p/4558080",
+      "published": "2026-09-21T16:44:41+00:00",
+      "summary": "Meet virtual nodes on ACI Azure Kubernetes Service (AKS) gives you managed Kubernetes: the full Kubernetes API without operating the control plane yourself. Virtual nodes on Azure Container Instances go a step further, letting your pods run directly on Azure's serverless container platform, with...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "hailukassa",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "What the Azure API Management integration means for Azure Service Bus",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/what-the-azure-api-management-integration-means-for-azure/ba-p/4558087",
+      "published": "2026-09-21T16:00:00+00:00",
+      "summary": "Azure API Management now provides a generally available policy for sending messages to Azure Service Bus. Using the send-service-bus-message policy, an API request can send a message directly to a Service Bus queue or topic. This allows you to put a governed HTTP API in front of an asynchronous...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Demystifying Dynamic AI Routing: Exploring the model router in Foundry Models with RouteLab",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/demystifying-dynamic-ai-routing-exploring-the-model-router-in/ba-p/4557388",
       "published": "2026-09-21T15:00:00+00:00",
@@ -23,6 +89,17 @@
       "author": "vikaspandey",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Grok 4.7 is now available in GitHub Copilot",
+      "link": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot",
+      "published": "2026-09-21T14:54:12+00:00",
+      "summary": "Grok 4.7, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. Building on Grok 4.6, it is designed for agentic coding and complex, multistep workflows. This model is… The post Grok 4.7 is now available in GitHub Copilot appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Elasticsearch Vector Database on Azure: semantic search and RAG without managing a cluster",
@@ -506,17 +583,6 @@
       "blogId": "dotnet",
       "author": "Bruno Capuano",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Automate SSO authorization for classic PATs and SSH keys",
-      "link": "https://github.blog/changelog/2026-09-16-automate-sso-authorization-for-classic-pats-and-ssh-keys",
-      "published": "2026-09-16T20:20:16+00:00",
-      "summary": "Enterprise admins can now automate SSO authorization for existing classic personal access tokens (PATs) and SSH keys for organizations in GitHub Enterprise Cloud, replacing manual per-organization authorization by your developers.… The post Automate SSO authorization for classic PATs and SSH keys...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1101,17 +1167,6 @@
       "author": "KimVaddi",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Release 2026-09-04",
-      "link": "https://github.com/Azure/AKS/releases/tag/2026-09-04",
-      "published": "2026-09-11T01:02:56+00:00",
-      "summary": "Release Notes - 2026-09-04 Monitor the release status by regions at AKS-Release-Tracker. This release is titled v20260904. Announcements of upcoming changes and retirements Starting September 30, 2026, AKS will automatically migrate deprecated Availability Sets (VMAS) clusters to Virtual Machines...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "AllenWen-at-Azure",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
-      "sourceType": "rss"
     },
     {
       "title": "September Patches for Azure DevOps Server",
@@ -3743,17 +3798,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Governing a Risk Operations Agent with the Microsoft Agent Framework Harness and AGT",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/governing-a-risk-operations-agent-with-the-microsoft-agent/ba-p/4546425",
-      "published": "2026-08-12T21:00:13+00:00",
-      "summary": "Introduction I hope you have already found Auditing and Telemetry for the Agent Governance Toolkit - Getting Started with .NET Core. This article demonstrates how you can leverage the Agent Governance Toolkit practically. This time, I'll take it a step further and combine the Microsoft Agent...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "daisami",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Retirement: Containerized data connector agent for the Microsoft Sentinel solution for SAP applications",
       "link": "https://azure.microsoft.com/updates?id=568457",
       "published": "2026-08-12T19:41:20+00:00",
@@ -5578,17 +5622,6 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Upcoming Changes to Azure Relay IP Addresses and DNS Support",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/upcoming-changes-to-azure-relay-ip-addresses-and-dns-support/ba-p/4463597",
-      "published": "2026-07-13T20:04:04+00:00",
-      "summary": "Azure Relay is an integral part of modern hybrid cloud architectures, enabling seamless connectivity between on-premises and cloud resources. To ensure continued reliability and security, Microsoft is implementing important updates to the IP addresses and DNS naming conventions used by Azure Relay...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "ashish-chhabria",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Operating AI/ML Workloads on Kubernetes: A Headlamp Plugin for Kubeflow",
@@ -7773,39 +7806,6 @@
       "link": "https://azure.microsoft.com/updates?id=563716",
       "published": "2026-06-03T19:15:46+00:00",
       "summary": "Microsoft Foundry Agent Service adds agent-to-agent (A2A) communication in public preview for Prompt agents and Hosted agents that use the responses protocol. Agents can call other agents by name through a managed endpoint, with identity, content safety,",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Public Preview: Conversational PII NextGen Playground in Microsoft Foundry",
-      "link": "https://azure.microsoft.com/updates?id=564246",
-      "published": "2026-06-03T19:00:25+00:00",
-      "summary": "In public preview, Microsoft Foundry now offers a Conversational PII (ConvPII) NextGen Playground with transcript input and an API Configuration Panel, enabling developers to validate PII detection across multi-speaker dialogue before integrating the API.",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Public Preview: TextPII NextGen Playground updates in Microsoft Foundry",
-      "link": "https://azure.microsoft.com/updates?id=564241",
-      "published": "2026-06-03T19:00:25+00:00",
-      "summary": "In public preview, Microsoft Foundry now offers an updated TextPII NextGen Playground with a refreshed API Configuration Panel, including preview features introduced at Ignite 2025. This update lets developers test predefined PII categories, redaction mod",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Observability developer experience in Azure Developer CLI (azd)",
-      "link": "https://azure.microsoft.com/updates?id=563736",
-      "published": "2026-06-03T19:00:25+00:00",
-      "summary": "Use the Azure Developer CLI (azd) CLI evaluation experience to add a measured quality loop to an agent created with Microsoft Foundry. It empowers users on the hosted-agent lifecycle in azd, where you create, provision, deploy, initialize evaluation asset",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -11806,5 +11806,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on practical AI and platform optimization: Azure AI Foundry introduced dynamic AI routing with the Foundry Models router and RouteLab to help choose the best model per request, while Azure highlighted Elasticsearch Vector Database on Azure for semantic search and RAG without cluster management, and shared a framework for rigorously evaluating text-to-image models. On the developer and operations side, Azure Cosmos DB added spec-driven development support through the first database extension for GitHub Spec Kit, and FinOps guidance urged customers to reassess Azure commitment and exchange strategies ahead of the February 2027 policy deadline."
+  "summary": "Today’s Azure posts center on developer productivity and cloud-native app modernization: Microsoft announced a guided Copilot experience in VS Code for building Azure apps, GA support for PowerShell 7.6 in Azure Functions, AKS release updates, and a new virtual nodes compute layer on Azure Container Instances for AKS. Azure also pushed deeper platform integration across services, including Azure API Management support for Azure Service Bus, spec-driven development for Azure Cosmos DB via GitHub Spec Kit, and managed semantic search/RAG with Elasticsearch Vector Database on Azure.\n\nAI was another major theme, with new tooling and model access updates such as dynamic AI routing in Azure AI Foundry using RouteLab, GitHub Copilot support for Grok 4.7, and guidance on evaluating text-to-image models. On the infrastructure side, Azure Sphere OS 26.09 reached general availability, while FinOps coverage highlighted the approaching February 2027 deadline for rethinking Azure commitment exchange strategies."
 }
