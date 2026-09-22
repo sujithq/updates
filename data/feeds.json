@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-22T13:43:46.964918+00:00",
-  "totalArticles": 1073,
+  "lastUpdated": "2026-09-22T18:23:29.182299+00:00",
+  "totalArticles": 1074,
   "articles": [
     {
       "title": "Visual Studio Code 1.139 (Insiders)",
@@ -11,6 +11,105 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Change Analysis in Azure Resource Graph: Your first stop for “What changed?”",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/change-analysis-in-azure-resource-graph-your-first-stop-for-what/ba-p/4559038",
+      "published": "2026-09-22T17:57:34+00:00",
+      "summary": "Introduction One of the most common questions during Azure networking troubleshooting is: “Did anything change before the issue started?” Whether we are investigating VPN/, connectivity problems, Azure Firewall behavior changes, VM outages, routing issues, or application failures, identifying...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "shyambasnet",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Claude Opus 5.5 is now available in GitHub Copilot",
+      "link": "https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot",
+      "published": "2026-09-22T17:10:23+00:00",
+      "summary": "Claude Opus 5.5, Anthropic’s newest Opus model, is now available in GitHub Copilot. You can use it for agentic coding, long-running agentic tasks, and knowledge work. In early testing, Opus… The post Claude Opus 5.5 is now available in GitHub Copilot appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Today I will… debug a production crash",
+      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-debug-a-production-crash/",
+      "published": "2026-09-22T17:05:25+00:00",
+      "summary": "We’ve all experienced this, the desktop application is hanging, the window is greyed out, and we’re just waiting for it to start to respond. Or we’re on a website and are sure that it was going to load faster than this, but we’re just waiting the loading icon spin around and around. These sorts of...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Aaron Powell",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Creating a memory dump in C#",
+      "link": "https://devblogs.microsoft.com/dotnet/creating-a-memory-dump-in-csharp/",
+      "published": "2026-09-22T17:05:00+00:00",
+      "summary": "Learn how to create a memory dump in C# to capture the state of your application for debugging purposes. The post Creating a memory dump in C# appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Aaron Powell",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-opus-5-5-comes-to-microsoft-foundry-for-long-running/ba-p/4558051",
+      "published": "2026-09-22T16:47:05+00:00",
+      "summary": "AI models are increasingly taking on work that extends far beyond a single prompt: building a feature across a codebase, investigating a complex issue, synthesizing hundreds of pages of information, or working through a multi-step business process. As that work gets longer, raw intelligence is only...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "amar_badal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Using Azure Blob Storage as a durable filesystem for LangChain Deep Agents",
+      "link": "https://devblogs.microsoft.com/azure-sdk/using-azure-blob-storage-as-a-durable-filesystem-for-langchain-deep-agents-2/",
+      "published": "2026-09-22T15:00:44+00:00",
+      "summary": "LangChain Deep Agents is an open-source agent harness with built-in capabilities for building LLM-powered agents and applications, including complex, multi-step workflows. A model can reason and generate responses, but it needs a harness to do useful work over time. The harness provides the tools...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Vishnu Charan TJ",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Unmasking EvilTokens: Getting to the root of device code phishing",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/",
+      "published": "2026-09-22T15:00:00+00:00",
+      "summary": "EvilTokens has quickly become one of the top PhaaS platforms, enabling device code phishing attacks through AI-assisted lures, automated infrastructure, and token theft. In collaboration with partners, Microsoft Digital Crimes Unit (DCU) facilitated a disruption of EvilTokens infrastructure and...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Threat Intelligence, Microsoft Defender Experts and Microsoft Security Research",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Expanding access to specialized GPU infrastructure through Dapple and Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/expanding-access-to-specialized-gpu-infrastructure-through/ba-p/4558663",
+      "published": "2026-09-22T14:53:54+00:00",
+      "summary": "Enterprise AI has entered a new phase. For much of the past decade, the challenge was building enough compute for machine learning. Today, organizations need platforms for foundation model training, fine-tuning, large-scale inference, agentic systems, and enterprise AI. As these workloads grow in...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Trinidad_Salazar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Full SDLC in a Single Skill Command",
+      "link": "https://www.letsdodevops.com/p/full-sdlc-in-a-single-skill-command",
+      "published": "2026-09-22T14:21:51+00:00",
+      "summary": "aka, from Jira to Prod with your team of robots",
+      "blog": "Let's do DevOps",
+      "blogId": "letsdodevops",
+      "author": "Kyler Middleton",
+      "feedUrl": "https://www.letsdodevops.com/feed",
       "sourceType": "rss"
     },
     {
@@ -199,6 +298,17 @@
       "author": "piyush05",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Knowledge cutoff is a poor proxy for model capability",
+      "link": "https://devblogs.microsoft.com/blog/knowledge-cutoff-is-a-poor-proxy-for-model-capability/",
+      "published": "2026-09-21T07:51:46+00:00",
+      "summary": "A model can fail on features released before its knowledge cutoff, then succeed on ones released after it. We tested hundreds of product changes and found that the date tells you far less than the work does.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Spec-Driven Development comes to Azure Cosmos DB: The First Database Extension for GitHub Spec Kit",
@@ -474,17 +584,6 @@
       "author": "Tyler_Kight",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Copilot impact dashboard now shows feature engagement",
-      "link": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
-      "published": "2026-09-17T21:47:27+00:00",
-      "summary": "The Copilot impact dashboard now shows how many active users regularly use key Copilot features. Enterprise administrators can quickly see which experiences are widely adopted and which may need more… The post Copilot impact dashboard now shows feature engagement appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Your Certificate Renewed. Your Gateway Didn't Notice.",
@@ -2214,17 +2313,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Counterfeit installers to system compromise: Tracking a deceptive software download campaign",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/01/counterfeit-installers-system-compromise-tracking-deceptive-software-download-campaign/",
-      "published": "2026-09-01T22:48:28+00:00",
-      "summary": "An active campaign is impersonating legitimate software vendors to deliver malware through look-alike download pages and regenerated installer archives. Microsoft Defender Experts shares observed attack techniques, Defender XDR detections, indicators of compromise, and practical mitigations to help...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Security Research, Microsoft Defender Experts and Parth Jomadkar",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[Launched] Generally Available: Microsoft Defender for Cloud support for Azure Container Apps (Serverless Containers Posture)",
       "link": "https://azure.microsoft.com/updates?id=570282",
       "published": "2026-09-01T22:34:43+00:00",
@@ -2421,17 +2509,6 @@
       "author": "SanyaKochhar",
       "feedUrl": "https://github.com/Azure/AKS/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "Model Migration Process on Microsoft Foundry and Azure OpenAI",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/model-migration-process-on-microsoft-foundry-and-azure-openai/ba-p/4541236",
-      "published": "2026-08-31T20:00:00+00:00",
-      "summary": "Every app built on an LLM will eventually move to a new model. The model you shipped may be retired, or a newer model may offer better quality, cost, or performance. Changing a model name in code from a retiring model such as gpt-4o to a newer one such as gpt-5.1 may take one line. That line hides...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "meera-kurup",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Build governed asynchronous APIs with Azure API Management and Azure Service Bus",
@@ -2973,17 +3050,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": ".NET Conf 2026 – Save the Date",
-      "link": "https://devblogs.microsoft.com/dotnet/dotnet-conf-2026/",
-      "published": "2026-08-25T16:28:27+00:00",
-      "summary": ".NET Conf returns November 10-12, 2026, with three days of sessions, community, and the launch of .NET 11. The post .NET Conf 2026 – Save the Date appeared first on .NET Blog.",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": "Jon Galloway",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Azure Copilot Introduces Direct Access to Agents",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-copilot-introduces-direct-access-to-agents/ba-p/4547932",
       "published": "2026-08-25T16:20:21+00:00",
@@ -3136,17 +3202,6 @@
       "author": "TomHickling",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurevirtualdesktopblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Today I will… Modernize a .NET application",
-      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-modernize-a-net-application/",
-      "published": "2026-08-21T17:00:45+00:00",
-      "summary": "Today I will modernize a .NET Framework application to .NET 10 using the GitHub Copilot modernization tooling built-in to Visual Studio. The tooling helps us upgrade applications running on legacy versions of .NET and also migrate them to Azure. Today we’re going to focus on the upgrade portion....",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Matt Soucoup, Pablo Lopes",
-      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Azure Managed Redis Deployment Automation",
@@ -5866,17 +5921,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Let’s Learn GitHub Copilot App – Free Virtual Training Event",
-      "link": "https://devblogs.microsoft.com/blog/lets-learn-github-copilot-app-free-virtual-training-event/",
-      "published": "2026-07-08T17:30:28+00:00",
-      "summary": "Join us for a free online event series kicking off July 16 to learn how to get started with the GitHub Copilot App!",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Katie Savage",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Visual Studio Code 1.128",
       "link": "https://code.visualstudio.com/updates/v1_128",
       "published": "2026-07-08T17:00:00+00:00",
@@ -7516,17 +7560,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Pod CIDR Expansion Generally Available and IP Address Planning on Azure CNI Overlay",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/pod-cidr-expansion-generally-available-and-ip-address-planning/ba-p/4521700",
-      "published": "2026-06-05T00:14:24+00:00",
-      "summary": "In networking with Azure CNI Overlay, the cluster-wide pod CIDR is logically partitioned into smaller “node” blocks where each node is assigned a fixed CIDR slice (/24) by Azure. This decouples pod networking from the VNet address space entirely because pods receive addresses from a private CIDR...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Sam_Foo",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Frameworks only matter when they force decisions",
       "link": "https://devblogs.microsoft.com/all-things-azure/frameworks-only-matter-when-they-force-decisions/",
       "published": "2026-06-04T22:30:25+00:00",
@@ -8748,17 +8781,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure Arc AKS Explained: Run Kubernetes Beyond Azure Cloud",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-arc-aks-explained-run-kubernetes-beyond-azure-cloud/ba-p/4518443",
-      "published": "2026-05-12T02:57:30+00:00",
-      "summary": "Modern enterprises are no longer running workloads only inside a centralized cloud environment. Applications today operate across: On-premises datacenters Remote branch offices Manufacturing plants Retail stores Edge locations Hybrid infrastructure While Kubernetes has become the standard for...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "mohit-kanojia",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Introducing the Azure Resource Manager MCP Server!",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/introducing-the-azure-resource-manager-mcp-server/ba-p/4517521",
       "published": "2026-05-11T20:49:28+00:00",
@@ -9746,17 +9768,6 @@
       "blogId": "aksreleases",
       "author": "kaarthis",
       "feedUrl": "https://github.com/Azure/AKS/releases.atom",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Give your Foundry Agent Custom Tools with MCP Servers on Azure Functions",
-      "link": "https://devblogs.microsoft.com/azure-sdk/give-your-foundry-agent-custom-tools-with-mcp-servers-on-azure-functions/",
-      "published": "2026-04-08T15:00:50+00:00",
-      "summary": "Learn how to connect your MCP server hosted on Azure Functions to Microsoft Foundry agents. This post covers authentication options and setup steps to give your AI agent access to custom MCP tools. The post Give your Foundry Agent Custom Tools with MCP Servers on Azure Functions appeared first on...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Lily Ma",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
     },
     {
@@ -11806,5 +11817,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s posts center on developer tooling changes across GitHub and Azure. GitHub announced the deprecation of the all-platform CodeQL bundle, signaling a shift in how CodeQL security-analysis tooling is packaged and consumed, and also made the refreshed repository pull requests page generally available, improving the PR review and collaboration experience.\n\nOn the Azure side, the standout technical theme was AI agent infrastructure: the Azure Dev Community post detailed building a multi-runtime coding agent platform with Azure KARS, focused on running agents outside the codebase while coordinating across different runtimes and environments."
+  "summary": "Today’s Azure and GitHub posts were led by AI developer tooling and infrastructure updates: Anthropic’s **Claude Opus 5.5** is now available both in **GitHub Copilot** and **Microsoft/Azure AI Foundry**, while Azure teams also highlighted agent-focused patterns like using **Azure Blob Storage** as durable storage for **LangChain Deep Agents** and building multi-runtime agent systems with **Azure KARS**. On the platform side, Microsoft emphasized observability and debugging with **Change Analysis in Azure Resource Graph**, production crash investigation in **Visual Studio** and **.NET memory dump** guidance, plus security research on **device code phishing** via **EvilTokens**.\n\nOther notable announcements included broader access to specialized **GPU infrastructure** through **Dapple and Azure**, DevOps workflow simplification with a “**Full SDLC in a Single Skill Command**” concept, and several GitHub platform changes, including the **deprecation of the all-platform CodeQL bundle** and general availability of the **refreshed repository pull requests page**."
 }
