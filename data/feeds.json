@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T07:59:26.255380+00:00",
+  "lastUpdated": "2026-09-22T13:43:46.964918+00:00",
   "totalArticles": 1073,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Deprecation notice: All-platform CodeQL bundle",
+      "link": "https://github.blog/changelog/2026-09-22-deprecation-notice-all-platform-codeql-bundle",
+      "published": "2026-09-22T09:21:03+00:00",
+      "summary": "Starting with CodeQL CLI 2.27.0, the all-platform CodeQL bundle (i.e., codeql-bundle.tar.gz and codeql-bundle.tar.zst), which includes the binaries for all supported platforms up to this release, is marked as deprecated. In… The post Deprecation notice: All-platform CodeQL bundle appeared first on...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "When the Coding Agent Leaves the Codebase: Building a Multi-Runtime AI Agent Infra with Azure KARS",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/when-the-coding-agent-leaves-the-codebase-building-a-multi/ba-p/4558449",
+      "published": "2026-09-22T07:00:00+00:00",
+      "summary": "1. The story starts with someone who doesn't write code Let me start with a scene I keep running into at community events. Late last year, after a meetup, I got an email. The sender wasn't a developer — he was a marketing manager at a manufacturing customer. He wrote: \"I installed Claude Code from...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Refreshed repository pull requests page generally available",
@@ -34,6 +56,28 @@
       "author": "Jerry Nixon",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "The Complete Guide to Azure Databricks Cost Optimization",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/the-complete-guide-to-azure-databricks-cost-optimization/ba-p/4550132",
+      "published": "2026-09-21T22:03:58+00:00",
+      "summary": "Co-Authored by: Aladdin Alchalabi AladdinAlchalabi​, Sanjeev Nair Sanjeev Nair​ and Rafia Aqil Rafia_Aqil​ This guide walks through a proven approach to Azure Databricks cost optimization, structured in three phases: 1. Discovery, 2. Cluster/Data/Code Best Practices, and 3. Team Alignment & Next...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Enable Dynamic Workflows in Azure Functions hosted skills",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enable-dynamic-workflows-in-azure-functions-hosted-skills/ba-p/4551993",
+      "published": "2026-09-21T21:29:25+00:00",
+      "summary": "Azure Functions already gives you a familiar way to build event-driven apps. A queue message, HTTP request, timer, or event triggers the code that handles the work. Azure Functions hosted skills (formerly Serverless Agents) add AI reasoning to that model. A hosted skill can read a request, use the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "greenie-msft",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "GitHub Enterprise adds credential inventory exports",
@@ -443,17 +487,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Agentic CLI customizations now in the usage metrics API",
-      "link": "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
-      "published": "2026-09-17T21:08:50+00:00",
-      "summary": "GitHub Copilot expands existing CLI report coverage with agentic activity metrics for skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins. What’s new The fields appear in… The post Agentic CLI customizations now in the usage metrics API appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Your Certificate Renewed. Your Gateway Didn't Notice.",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/your-certificate-renewed-your-gateway-didn-t-notice/ba-p/4552786",
       "published": "2026-09-17T20:56:22+00:00",
@@ -550,17 +583,6 @@
       "blogId": "azurearchitectureblog",
       "author": "Sayanika",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Enable Dynamic Workflows in Azure Functions hosted skills",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enable-dynamic-workflows-in-azure-functions-hosted-skills/ba-p/4551993",
-      "published": "2026-09-17T12:00:00+00:00",
-      "summary": "Azure Functions already gives you a familiar way to build event-driven apps. A queue message, HTTP request, timer, or event triggers the code that handles the work. Azure Functions hosted skills (formerly Serverless Agents) add AI reasoning to that model. A hosted skill can read a request, use the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "greenie-msft",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -2962,17 +2984,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "The Complete Guide to Azure Databricks Cost Optimization",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/the-complete-guide-to-azure-databricks-cost-optimization/ba-p/4550132",
-      "published": "2026-08-25T16:25:03+00:00",
-      "summary": "Co-Authored by: Sanjeev Nair Sanjeev Nair​ and Rafia Aqil Rafia_Aqil​ This guide walks through a proven approach to Azure Databricks cost optimization, structured in three phases: 1. Discovery, 2. Cluster/Data/Code Best Practices, and 3. Team Alignment & Next Steps. Phase 1: Discovery Assessing...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure Copilot Introduces Direct Access to Agents",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-copilot-introduces-direct-access-to-agents/ba-p/4547932",
       "published": "2026-08-25T16:20:21+00:00",
@@ -4203,17 +4214,6 @@
       "author": "Eric van Wijk",
       "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Beyond Model Evaluation: Choosing Between Microsoft Foundry and PyRIT for AI Red Teaming",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-model-evaluation-choosing-between-microsoft-foundry-and/ba-p/4538110",
-      "published": "2026-08-06T07:00:00+00:00",
-      "summary": "As enterprise AI systems evolve from standalone models into RAG applications, copilots, and autonomous agents, one question comes up often: Should we use Microsoft Foundry or PyRIT for Red Teaming? After working through evaluation and red teaming scenarios, my recommendation is: 👉 Use both, but for...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Jatin_Garg",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Build and Deploy Confidential Virtual Machines on Azure Local (Public Preview)",
@@ -11806,5 +11806,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related update is a GitHub platform announcement: the **refreshed repository pull requests page is now generally available**. The new experience is aimed at improving how developers review and manage **pull requests** in **GitHub repositories**, signaling continued investment in developer productivity and collaboration workflows rather than a major Azure infrastructure or AI product launch."
+  "summary": "Today’s posts center on developer tooling changes across GitHub and Azure. GitHub announced the deprecation of the all-platform CodeQL bundle, signaling a shift in how CodeQL security-analysis tooling is packaged and consumed, and also made the refreshed repository pull requests page generally available, improving the PR review and collaboration experience.\n\nOn the Azure side, the standout technical theme was AI agent infrastructure: the Azure Dev Community post detailed building a multi-runtime coding agent platform with Azure KARS, focused on running agents outside the codebase while coordinating across different runtimes and environments."
 }
