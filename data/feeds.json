@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T21:17:38.335484+00:00",
+  "lastUpdated": "2026-09-22T02:00:15.083732+00:00",
   "totalArticles": 1073,
   "articles": [
     {
@@ -11,6 +11,50 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "PostgreSQL to SQL Field Notes: Date & Time",
+      "link": "https://devblogs.microsoft.com/azure-sql/pg-to-sql-date-time/",
+      "published": "2026-09-21T22:44:58+00:00",
+      "summary": "Moving from PostgreSQL to SQL Server? Learn the key differences between timestamp, timestamptz, datetime2, and datetimeoffset, including precision, time zones, offsets, and storage. The post PostgreSQL to SQL Field Notes: Date & Time appeared first on Azure SQL Dev Corner.",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "The Complete Guide to Azure Databricks Cost Optimization",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/the-complete-guide-to-azure-databricks-cost-optimization/ba-p/4550132",
+      "published": "2026-09-21T22:03:58+00:00",
+      "summary": "Co-Authored by: Aladdin Alchalabi AladdinAlchalabi​, Sanjeev Nair Sanjeev Nair​ and Rafia Aqil Rafia_Aqil​ This guide walks through a proven approach to Azure Databricks cost optimization, structured in three phases: 1. Discovery, 2. Cluster/Data/Code Best Practices, and 3. Team Alignment & Next...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Enable Dynamic Workflows in Azure Functions hosted skills",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enable-dynamic-workflows-in-azure-functions-hosted-skills/ba-p/4551993",
+      "published": "2026-09-21T21:29:25+00:00",
+      "summary": "Azure Functions already gives you a familiar way to build event-driven apps. A queue message, HTTP request, timer, or event triggers the code that handles the work. Azure Functions hosted skills (formerly Serverless Agents) add AI reasoning to that model. A hosted skill can read a request, use the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "greenie-msft",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "GitHub Enterprise adds credential inventory exports",
+      "link": "https://github.blog/changelog/2026-09-21-github-enterprise-adds-credential-inventory-exports",
+      "published": "2026-09-21T21:13:18+00:00",
+      "summary": "Enterprise owners can now export a complete inventory of every credential that can access their enterprise (e.g., SSH keys, classic and fine-grained personal access tokens, OAuth App access tokens, and… The post GitHub Enterprise adds credential inventory exports appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -33,6 +77,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Kubernetes v1.37: Tracking When a PersistentVolumeClaim Was Last Used (Beta)",
+      "link": "https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/",
+      "published": "2026-09-21T18:30:00+00:00",
+      "summary": "Kubernetes v1.37 promotes the PersistentVolumeClaimUnusedSinceTime feature gate to Beta (enabled by default). With this feature, the PersistentVolumeClaim (PVC) protection controller adds an Unused condition to each PVC, telling you whether any running pod currently references it — no custom...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -111,6 +166,17 @@
       "author": "piyush05",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Knowledge cutoff is a poor proxy for model capability",
+      "link": "https://devblogs.microsoft.com/blog/knowledge-cutoff-is-a-poor-proxy-for-model-capability/",
+      "published": "2026-09-21T07:51:46+00:00",
+      "summary": "A model can fail on features released before its knowledge cutoff, then succeed on ones released after it. We tested hundreds of product changes and found that the date tells you far less than the work does.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Spec-Driven Development comes to Azure Cosmos DB: The First Database Extension for GitHub Spec Kit",
@@ -498,17 +564,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Workflow execution protections in GitHub Actions generally available",
-      "link": "https://github.blog/changelog/2026-09-17-workflow-execution-protections-in-github-actions-generally-available",
-      "published": "2026-09-17T15:45:26+00:00",
-      "summary": "Workflow execution protections for GitHub Actions, previously in public preview, are now generally available for GitHub Enterprise, organizations, and repositories. Execution protections let you define an allowlist that controls who… The post Workflow execution protections in GitHub Actions...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Automating Private Endpoint DNS Across Azure Tenants with Azure Policy and Azure Lighthouse",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/automating-private-endpoint-dns-across-azure-tenants-with-azure/ba-p/4557495",
       "published": "2026-09-17T14:49:01+00:00",
@@ -528,17 +583,6 @@
       "blogId": "azurearchitectureblog",
       "author": "Sayanika",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Enable Dynamic Workflows in Azure Functions hosted skills",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enable-dynamic-workflows-in-azure-functions-hosted-skills/ba-p/4551993",
-      "published": "2026-09-17T12:00:00+00:00",
-      "summary": "Azure Functions already gives you a familiar way to build event-driven apps. A queue message, HTTP request, timer, or event triggers the code that handles the work. Azure Functions hosted skills (formerly Serverless Agents) add AI reasoning to that model. A hosted skill can read a request, use the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "greenie-msft",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -2940,17 +2984,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "The Complete Guide to Azure Databricks Cost Optimization",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/the-complete-guide-to-azure-databricks-cost-optimization/ba-p/4550132",
-      "published": "2026-08-25T16:25:03+00:00",
-      "summary": "Co-Authored by: Sanjeev Nair Sanjeev Nair​ and Rafia Aqil Rafia_Aqil​ This guide walks through a proven approach to Azure Databricks cost optimization, structured in three phases: 1. Discovery, 2. Cluster/Data/Code Best Practices, and 3. Team Alignment & Next Steps. Phase 1: Discovery Assessing...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure Copilot Introduces Direct Access to Agents",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-copilot-introduces-direct-access-to-agents/ba-p/4547932",
       "published": "2026-08-25T16:20:21+00:00",
@@ -3619,17 +3652,6 @@
       "blogId": "azure-functions-blog",
       "author": "Naga Surendran",
       "feedUrl": "https://azure.microsoft.com/en-us/blog/product/azure-functions/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Beyond Vector Indexes: Azure SQL Brings Optimizer Intelligence to Vector Search",
-      "link": "https://devblogs.microsoft.com/azure-sql/beyond-vector-indexes-azure-sql-brings-optimizer-intelligence-to-vector-search/",
-      "published": "2026-08-17T11:22:09+00:00",
-      "summary": "Why production AI retrieval depends on more than vector index performance. It’s easy to think of AI retrieval as a vector search problem. For many developers, the first conversation starts with vector index benchmarks: How many queries per second can it handle? What’s the latency? What’s the...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Pooja Kamath",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
     },
     {
@@ -5853,17 +5875,6 @@
       "author": "alexpozin",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Let’s Learn GitHub Copilot App – Free Virtual Training Event",
-      "link": "https://devblogs.microsoft.com/blog/lets-learn-github-copilot-app-free-virtual-training-event/",
-      "published": "2026-07-08T17:30:28+00:00",
-      "summary": "Join us for a free online event series kicking off July 16 to learn how to get started with the GitHub Copilot App!",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Katie Savage",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Visual Studio Code 1.128",
@@ -9375,17 +9386,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Kubernetes v1.36: User Namespaces in Kubernetes are finally GA",
-      "link": "https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/",
-      "published": "2026-04-23T18:35:00+00:00",
-      "summary": "After several years of development, User Namespaces support in Kubernetes reached General Availability (GA) with the v1.36 release. This is a Linux-only feature. For those of us working on low level container runtimes and rootless technologies, this has been a long awaited milestone. We finally...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Write azd hooks in Python, JavaScript, TypeScript, or .NET",
       "link": "https://devblogs.microsoft.com/azure-sdk/azd-multi-language-hooks/",
       "published": "2026-04-22T22:04:08+00:00",
@@ -11805,6 +11805,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure posts center on developer productivity and cloud-native app modernization: Microsoft announced a guided Copilot experience in VS Code for building Azure apps, GA support for PowerShell 7.6 in Azure Functions, AKS release updates, and a new virtual nodes compute layer on Azure Container Instances for AKS. Azure also pushed deeper platform integration across services, including Azure API Management support for Azure Service Bus, spec-driven development for Azure Cosmos DB via GitHub Spec Kit, and managed semantic search/RAG with Elasticsearch Vector Database on Azure.\n\nAI was another major theme, with new tooling and model access updates such as dynamic AI routing in Azure AI Foundry using RouteLab, GitHub Copilot support for Grok 4.7, and guidance on evaluating text-to-image models. On the infrastructure side, Azure Sphere OS 26.09 reached general availability, while FinOps coverage highlighted the approaching February 2027 deadline for rethinking Azure commitment exchange strategies."
+  ]
 }
