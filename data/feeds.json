@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T01:57:24.952436+00:00",
+  "lastUpdated": "2026-09-23T08:01:09.858900+00:00",
   "totalArticles": 1074,
   "articles": [
     {
@@ -11,6 +11,28 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Microsoft Foundry Hosted Agents and MCP in Practice: Building Fibey Field Ops",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/microsoft-foundry-hosted-agents-and-mcp-in-practice-building/ba-p/4557526",
+      "published": "2026-09-23T07:00:00+00:00",
+      "summary": "An agent can produce a convincing answer while the system around it is still difficult to deploy, authorize, debug, and recover. For AI engineers and developers, that is often the real gap between a promising prototype and an application people can depend on. Fibey Field Ops makes that gap...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "OpenTelemetry in the GitHub Copilot app",
+      "link": "https://github.blog/changelog/2026-09-22-opentelemetry-in-the-github-copilot-app",
+      "published": "2026-09-23T02:14:54+00:00",
+      "summary": "Understand how Copilot agents perform and interact with models and tools. The GitHub Copilot app now supports OpenTelemetry (OTel) configuration through enterprise-managed settings. OTel is an open source observability framework.… The post OpenTelemetry in the GitHub Copilot app appeared first on...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -485,17 +507,6 @@
       "author": "Madhura Amlekar",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Copilot code review: An improved review experience",
-      "link": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
-      "published": "2026-09-18T20:17:22+00:00",
-      "summary": "Copilot code review now gives you a clearer view of how a review changes over time, more intelligently auto-resolves its own suggestions, and generates useful commit messages when you accept… The post Copilot code review: An improved review experience appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "[In preview] Public Preview: Foundry Routines in Foundry Agent Service",
@@ -4225,17 +4236,6 @@
       "author": "Sudhanshu Khera, Iria Osara",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Introducing Microsoft IQ Live: A New Biweekly Series for Developers",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/introducing-microsoft-iq-live-a-new-biweekly-series-for/ba-p/4543480",
-      "published": "2026-08-10T04:30:00+00:00",
-      "summary": "From Deep Dive to Microsoft IQ Live The Microsoft IQ Deep Dive with Python has wrapped up, but our exploration of Microsoft IQ continues. You can revisit the IQ Deep Dive sessions and access the code, notebooks, and other developer resources at https://aka.ms/iqdeepdive. Microsoft IQ Live builds on...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "aycabas",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "AI-powered playbook generator, now available to more customers",
@@ -11817,5 +11817,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-adjacent developer news centers on AI-assisted coding and IDE updates. **Visual Studio Code 1.139 (Insiders)** highlights the latest preview improvements to the editor experience, while **GitHub’s Copilot for JetBrains** update adds new capabilities and refinements for AI code completion and workflow assistance inside JetBrains IDEs.\n\nThe common theme is tighter integration of developer tooling with AI: Microsoft is advancing the core editor platform in VS Code, and GitHub is expanding **Copilot** features in the **JetBrains** ecosystem to make coding, navigation, and in-IDE assistance more capable and streamlined."
+  "summary": "Today’s Microsoft developer updates centered on AI-assisted tooling and observability across the coding stack. Highlights include Visual Studio Code 1.139 Insiders, new Copilot for JetBrains enhancements, and GitHub’s addition of OpenTelemetry support in the Copilot app to improve tracing and telemetry visibility.\n\nOn the Azure community side, Microsoft also spotlighted practical agentic AI development with Microsoft Foundry Hosted Agents and MCP (Model Context Protocol) through the “Fibey Field Ops” example, emphasizing hosted agent workflows and real-world integration patterns."
 }
