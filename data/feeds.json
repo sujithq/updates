@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T18:43:22.309551+00:00",
+  "lastUpdated": "2026-09-23T23:16:08.793241+00:00",
   "totalArticles": 1075,
   "articles": [
     {
@@ -11,6 +11,39 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "More ways to request and configure Copilot code reviews",
+      "link": "https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews",
+      "published": "2026-09-23T21:25:58+00:00",
+      "summary": "GitHub Copilot code review now offers additional personal configurations to an expanded set of Copilot plans and an enterprise-level default setting. These improvements are now generally available: A dedicated personal… The post More ways to request and configure Copilot code reviews appeared first...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Node 20 is no longer available in GitHub Actions",
+      "link": "https://github.blog/changelog/2026-09-23-node-20-is-no-longer-available-in-github-actions",
+      "published": "2026-09-23T20:46:07+00:00",
+      "summary": "This is the final notification that Node 20 is no longer available on GitHub Actions runners. Runners now use Node 24 for JavaScript actions. The temporary ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION opt-out is no… The post Node 20 is no longer available in GitHub Actions appeared first on The GitHub...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Microsoft is updating its author-signing certificate starting September 23, 2026",
+      "link": "https://devblogs.microsoft.com/dotnet/microsoft-author-signing-certificate-update-2026/",
+      "published": "2026-09-23T20:00:00+00:00",
+      "summary": "Starting September 23, 2026, Microsoft is updating the author-signing certificate used for NuGet packages. Customers using trusted signer policies or certificate fingerprint verification should add the new certificate as soon as possible. The post Microsoft is updating its author-signing...",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "The NuGet Team",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
     },
     {
@@ -377,17 +410,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Refreshed repository pull requests page generally available",
-      "link": "https://github.blog/changelog/2026-09-21-refreshed-repository-pull-requests-page-generally-available",
-      "published": "2026-09-22T01:25:53+00:00",
-      "summary": "The new repository pull requests page is now generally available to all GitHub users. Highlights The new page makes it easier to find and act on pull requests in a… The post Refreshed repository pull requests page generally available appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Announcing the public preview of flex nodes for AKS",
       "link": "https://blog.aks.azure.com/2026/09/22/flex-nodes-for-aks",
       "published": "2026-09-22T00:00:00+00:00",
@@ -430,17 +452,6 @@
       "author": "greenie-msft",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "GitHub Enterprise adds credential inventory exports",
-      "link": "https://github.blog/changelog/2026-09-21-github-enterprise-adds-credential-inventory-exports",
-      "published": "2026-09-21T21:13:18+00:00",
-      "summary": "Enterprise owners can now export a complete inventory of every credential that can access their enterprise (e.g., SSH keys, classic and fine-grained personal access tokens, OAuth App access tokens, and… The post GitHub Enterprise adds credential inventory exports appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Release 2026-09-04",
@@ -2893,17 +2904,6 @@
       "blogId": "azuresdkblog",
       "author": "Kristen Womack, Jeffrey C.",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "How Uno Platform uses .NET, MCP, and AI to build high quality apps",
-      "link": "https://devblogs.microsoft.com/dotnet/how-uno-platform-uses-dotnet-mcp-ai-to-build-high-quality-apps/",
-      "published": "2026-08-27T17:00:00+00:00",
-      "summary": "How Uno Platform built two Model Context Protocol servers in C# so AI agents can ground themselves in real documentation and then see and drive a running cross-platform .NET app. The post How Uno Platform uses .NET, MCP, and AI to build high quality apps appeared first on .NET Blog.",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": "Sam Basu",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
     },
     {
@@ -7868,28 +7868,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] General Availability: Backup your ledger files for audit with Azure confidential ledger’s new tool",
-      "link": "https://azure.microsoft.com/updates?id=560810",
-      "published": "2026-06-03T22:15:24+00:00",
-      "summary": "Ever wondered how to allow auditing personas (i.e. security analyst in your organization or security assessment contractor) the ability to view your ledger files and establish trust in the cryptographic proofs themselves? With the new localized, web ledg",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Text Analytics for Health NextGen Playground in Azure AI Language",
-      "link": "https://azure.microsoft.com/updates?id=563671",
-      "published": "2026-06-03T21:15:57+00:00",
-      "summary": "Azure AI Language brings the next-generation Text Analytics for Health (TA4H) playground to general availability in the Microsoft Foundry portal. Clinical informatics teams and ISVs can paste discharge summaries, doctor's notes, or research abstracts and",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "GA: DCasv6 and ECasv6 confidential VMs based on 4th Generation AMD EPYC™ processors",
       "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/ga-dcasv6-and-ecasv6-confidential-vms-based-on-4th-generation/ba-p/4451460",
       "published": "2026-06-03T20:27:15+00:00",
@@ -8108,6 +8086,17 @@
       "author": "VincentLiu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Container Apps Sandboxes",
+      "link": "https://azure.microsoft.com/updates?id=561262",
+      "published": "2026-06-02T19:00:47+00:00",
+      "summary": "Teams building agentic applications, multi-tenant platforms, development environments, and CI/CD systems have often had to stitch together custom infrastructure to run untrusted code safely, preserve state across sessions, and handle bursty demand without",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
     },
     {
       "title": "Secure, Modern Access to Azure Files on macOS with MS Entra ID",
@@ -8778,6 +8767,17 @@
       "blogId": "kubernetes",
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Container Apps Express",
+      "link": "https://azure.microsoft.com/updates?id=559242",
+      "published": "2026-05-13T17:30:20+00:00",
+      "summary": "Azure Container Apps Express is now generally available. It is the simplest and fastest way to launch and scale powerful applications on Azure, from zero to hyperscale, without infrastructure decisions. It represents the first Azure compute platform purpo",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -11828,5 +11828,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s updates were dominated by developer tooling, AI-assisted workflows, and platform lifecycle planning. GitHub highlighted major Copilot app enhancements—including rendering very large pull requests, local sandboxing, OpenTelemetry support, and new JetBrains features—while Visual Studio Code 1.139 and Terraform releases v1.17.0-beta2 and v1.16.4 underscored ongoing investment in core developer productivity tools.\n\nOn the Azure side, Microsoft issued important retirement notices: support for PowerShell 7.4, .NET 8, and .NET 9 will all end on November 10, 2026, with a clear push for teams to move applications to .NET 10. Security was another key theme, with Microsoft Defender outlining how the SOC is evolving for the “agentic era,” signaling deeper use of AI agents in security operations."
+  "summary": "Today’s updates were dominated by GitHub Copilot and developer tooling: GitHub added more ways to request and configure Copilot code reviews, improved Copilot for JetBrains, enabled local sandboxing and OpenTelemetry in the GitHub Copilot app, and introduced better handling for huge pull requests—all alongside VS Code 1.139 and a GitHub report emphasizing demand for more efficient software development workflows. Platform lifecycle changes were also a major theme, with GitHub Actions dropping Node 20, Azure announcing end of support for PowerShell 7.4 plus .NET 8 and .NET 9 on November 10, 2026 in favor of .NET 10, and Microsoft noting an author-signing certificate update for .NET starting September 23, 2026; separately, Microsoft Defender outlined how SOC operations are evolving for the “agentic era,” while Terraform shipped v1.16.4 and v1.17.0-beta2."
 }
