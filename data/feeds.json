@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-22T23:20:15.423734+00:00",
-  "totalArticles": 938,
+  "lastUpdated": "2026-09-23T01:57:24.952436+00:00",
+  "totalArticles": 1074,
   "articles": [
     {
       "title": "Visual Studio Code 1.139 (Insiders)",
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "New features and improvements in Copilot for JetBrains",
+      "link": "https://github.blog/changelog/2026-09-22-new-features-and-improvements-in-copilot-for-jetbrains",
+      "published": "2026-09-23T00:34:18+00:00",
+      "summary": "GitHub Copilot for JetBrains 1.18.0 brings AI-assisted tool approvals, more control over agent conversations, and shared skills and instructions for your organization. You can also review plans with the Codex… The post New features and improvements in Copilot for JetBrains appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -135,6 +146,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "Today I will… debug a production crash",
+      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-debug-a-production-crash/",
+      "published": "2026-09-22T17:05:25+00:00",
+      "summary": "We’ve all experienced this, the desktop application is hanging, the window is greyed out, and we’re just waiting for it to start to respond. Or we’re on a website and are sure that it was going to load faster than this, but we’re just waiting the loading icon spin around and around. These sorts of...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Aaron Powell",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Creating a memory dump in C#",
+      "link": "https://devblogs.microsoft.com/dotnet/creating-a-memory-dump-in-csharp/",
+      "published": "2026-09-22T17:05:00+00:00",
+      "summary": "Learn how to create a memory dump in C# to capture the state of your application for debugging purposes. The post Creating a memory dump in C# appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Aaron Powell",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "OpenAI’s GPT-6 Sol and GPT-6 Luna now available",
       "link": "https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available",
       "published": "2026-09-22T17:00:14+00:00",
@@ -155,6 +188,17 @@
       "author": "amar_badal",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Using Azure Blob Storage as a durable filesystem for LangChain Deep Agents",
+      "link": "https://devblogs.microsoft.com/azure-sdk/using-azure-blob-storage-as-a-durable-filesystem-for-langchain-deep-agents-2/",
+      "published": "2026-09-22T15:00:44+00:00",
+      "summary": "LangChain Deep Agents is an open-source agent harness with built-in capabilities for building LLM-powered agents and applications, including complex, multi-step workflows. A model can reason and generate responses, but it needs a harness to do useful work over time. The harness provides the tools...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Vishnu Charan TJ",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Unmasking EvilTokens: Getting to the root of device code phishing",
@@ -242,6 +286,17 @@
       "blogId": "aksblog",
       "author": "Microsoft",
       "feedUrl": "https://blog.aks.azure.com/rss.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "PostgreSQL to SQL Field Notes: Date & Time",
+      "link": "https://devblogs.microsoft.com/azure-sql/pg-to-sql-date-time/",
+      "published": "2026-09-21T22:44:58+00:00",
+      "summary": "Moving from PostgreSQL to SQL Server? Learn the key differences between timestamp, timestamptz, datetime2, and datetimeoffset, including precision, time zones, offsets, and storage. The post PostgreSQL to SQL Field Notes: Date & Time appeared first on Azure SQL Dev Corner.",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
     },
     {
@@ -388,6 +443,28 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Knowledge cutoff is a poor proxy for model capability",
+      "link": "https://devblogs.microsoft.com/blog/knowledge-cutoff-is-a-poor-proxy-for-model-capability/",
+      "published": "2026-09-21T07:51:46+00:00",
+      "summary": "A model can fail on features released before its knowledge cutoff, then succeed on ones released after it. We tested hundreds of product changes and found that the date tells you far less than the work does.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Spec-Driven Development comes to Azure Cosmos DB: The First Database Extension for GitHub Spec Kit",
+      "link": "https://devblogs.microsoft.com/cosmosdb/spec-driven-development-comes-to-azure-cosmos-db-the-first-database-extension-for-github-spec-kit/",
+      "published": "2026-09-21T07:00:11+00:00",
+      "summary": "AI coding agents can write much of an application’s code, but developers still need to review the decisions behind it. For a Cosmos DB application, that includes choosing partition keys, modeling access patterns, and configuring the client. Those decisions affect cost, performance, and reliability...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Theo van Kraay",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Beyond Cherry-Picking: Evaluating Text-to-Image Models",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-cherry-picking-evaluating-text-to-image-models/ba-p/4558111",
       "published": "2026-09-21T07:00:00+00:00",
@@ -414,17 +491,6 @@
       "link": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
       "published": "2026-09-18T20:17:22+00:00",
       "summary": "Copilot code review now gives you a clearer view of how a review changes over time, more intelligently auto-resolves its own suggestions, and generates useful commit messages when you accept… The post Copilot code review: An improved review experience appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Manage the code coverage ruleset condition with the REST API",
-      "link": "https://github.blog/changelog/2026-09-18-manage-the-code-coverage-ruleset-condition-with-the-rest-api",
-      "published": "2026-09-18T19:23:49+00:00",
-      "summary": "You can now use the generally available REST API to manage the Restrict code coverage repository ruleset option, in addition to the existing UI support. This ruleset lets you enforce… The post Manage the code coverage ruleset condition with the REST API appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -751,6 +817,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Build Your Own AI Agent Harness in C#, the MafClaw Live Series",
+      "link": "https://devblogs.microsoft.com/dotnet/build-your-own-ai-agent-harness-in-csharp-the-maf-claw-live-series/",
+      "published": "2026-09-16T21:00:00+00:00",
+      "summary": "I am building a complete C# agent live, from a single call around an IChatClient to a production-ready, observable, governed agent, using the Microsoft Agent Framework harness in a 4-part Microsoft Reactor series. The post Build Your Own AI Agent Harness in C#, the MafClaw Live Series appeared...",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Bruno Capuano",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "The bottleneck isn't AI. It's transformation capacity.",
       "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/the-bottleneck-isn-t-ai-it-s-transformation-capacity/ba-p/4557214",
       "published": "2026-09-16T19:17:48+00:00",
@@ -861,6 +938,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "AI Is Changing How We Code. It’s Also Changing How We Learn.",
+      "link": "https://devblogs.microsoft.com/visualstudio/ai-is-changing-how-we-code-its-also-changing-how-we-learn/",
+      "published": "2026-09-16T14:00:09+00:00",
+      "summary": "AI is changing software development at a pace no one can ignore. Developers now have powerful AI tools that can help us write code, understand unfamiliar codebases, troubleshoot problems, learn new frameworks, and get answers in seconds. That is an incredible opportunity. But as these tools become...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "James Rempt",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Practical Local AI for Enterprise Architects: A Workload Placement Approach",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/practical-local-ai-for-enterprise-architects-a-workload/ba-p/4556429",
       "published": "2026-09-16T14:00:00+00:00",
@@ -870,6 +958,17 @@
       "author": "arronhoffer",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Your AI coding agent evaluation is only as good as its sandbox",
+      "link": "https://devblogs.microsoft.com/blog/your-ai-coding-agent-evaluation-is-only-as-good-as-its-sandbox/",
+      "published": "2026-09-16T09:09:51+00:00",
+      "summary": "Your AI coding agent passed the eval. But did the model know the answer, or did it find it somewhere on your machine? A correct answer can still invalidate your measurement.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Deploying Custom Images and Implementing CI/CD for Azure Virtual Machine Scale Sets",
@@ -914,6 +1013,17 @@
       "author": "Dave_Jacobs",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Introducing Foundry Dev Pack: One Command to Start Building",
+      "link": "https://devblogs.microsoft.com/foundry/foundry-devpack-announcement/",
+      "published": "2026-09-15T19:00:00+00:00",
+      "summary": "Foundry Dev Pack prepares your machine for Microsoft Foundry development with an all-in-one installer for the tools you need across the terminal, VS Code, and coding agents. The post Introducing Foundry Dev Pack: One Command to Start Building appeared first on Microsoft Foundry Blog.",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "sharonxu",
+      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Kubernetes v1.37: Pod-Level Resource Managers graduated to Beta",
@@ -982,6 +1092,28 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Today I will… improve test coverage",
+      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-improve-test-coverage/",
+      "published": "2026-09-15T16:00:21+00:00",
+      "summary": "Today I want to look at how we can improve on the test coverage that we have in the Interview Coach application. This application has some unit tests in it already, but I’m sure there is room for improvement. Defining our baseline Before we start writing tests, it’s a good idea to have a baseline...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Aaron Powell",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Build an interview coach app with the GitHub Copilot SDK",
+      "link": "https://devblogs.microsoft.com/blog/build-an-interview-coach-app-with-the-github-copilot-sdk/",
+      "published": "2026-09-15T16:00:11+00:00",
+      "summary": "An interview coach has to do more than ask questions. It needs to read a resume, follow up on an incomplete answer, and save enough context to give useful feedback at the end. Some of that work is conversation. Some of it requires calling an application service. The GitHub Copilot SDK lets you use...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Justin Yoo",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "🔥AI makes works for itself",
       "link": "https://www.letsdodevops.com/p/ai-makes-works-for-itself",
       "published": "2026-09-15T15:34:46+00:00",
@@ -990,6 +1122,28 @@
       "blogId": "letsdodevops",
       "author": "Kyler Middleton",
       "feedUrl": "https://www.letsdodevops.com/feed",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Coding agents are picking Azure SQL Database",
+      "link": "https://devblogs.microsoft.com/azure-sql/coding-agents-are-picking-azure-sql-database/",
+      "published": "2026-09-15T12:55:05+00:00",
+      "summary": "I went looking for Azure SQL Database in a recent coding agent benchmark, honestly unsure whether Microsoft SQL would show up. Armature ran a study where real coding agent CLIs (Claude Code, Codex, Cursor) were dropped into six synthetic-but-realistic repositories and asked to pick a database, then...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Performance Improvements in .NET 11",
+      "link": "https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-11/",
+      "published": "2026-09-15T12:00:00+00:00",
+      "summary": "Take a tour through hundreds of performance improvements in .NET 11. The post Performance Improvements in .NET 11 appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Stephen Toub - MSFT",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
     },
     {
@@ -1035,6 +1189,17 @@
       "author": "gauravbhardwaj",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Intelligent Terminal 0.2.2572: Faster, Smoother, and More Reliable",
+      "link": "https://devblogs.microsoft.com/commandline/intelligent-terminal-0-2-25-performance-reliability/",
+      "published": "2026-09-14T19:00:09+00:00",
+      "summary": "We’re back with Intelligent Terminal v0.2.2572, and this one is all about making things faster, easier to use, more reliable, and more polished. This release lands over 60 fixes and improvements as well as API key support for local models, automatic approval for supported agents, and native slash...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Hamza Usmani",
+      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Kubernetes Changed Block Tracking API - Beta Differences",
@@ -1092,6 +1257,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Share your .NET story with the community",
+      "link": "https://devblogs.microsoft.com/dotnet/share-your-dotnet-story/",
+      "published": "2026-09-14T17:05:00+00:00",
+      "summary": "Share how your team uses .NET to solve real problems and help us bring more community stories to .NET Conf 2026 and other .NET channels. The post Share your .NET story with the community appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Luis Quintanilla",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Data Meets Agents",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/data-meets-agents/ba-p/4553082",
       "published": "2026-09-14T16:00:00+00:00",
@@ -1112,6 +1288,28 @@
       "author": "tamaragaidar",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "MulticloudDB SDK: Cross-cloud portability in the coding agent era",
+      "link": "https://devblogs.microsoft.com/cosmosdb/multiclouddb-sdk-cross-cloud-portability-in-the-coding-agent-era/",
+      "published": "2026-09-14T13:25:23+00:00",
+      "summary": "Building cross-cloud solutions with best-of-breed cloud-native databases means learning multiple SDKs, translating queries, handling different errors, and testing across providers. The Multicloud DB SDK for Java lets you share that work across Azure Cosmos DB, Amazon DynamoDB, and Google Cloud...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Theo van Kraay",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Building a Japanese LLM Evaluation Pipeline: Lessons from a Two-Day Hackathon",
+      "link": "https://devblogs.microsoft.com/ise/japanese-llm-evaluation-pipeline-hackathon/",
+      "published": "2026-09-14T07:00:00+00:00",
+      "summary": "ISE hackathon produced a reusable Japanese LLM evaluation pipeline with multi-turn, facet-based scoring, cross-provider model support, and publication-ready benchmarking outputs. The post Building a Japanese LLM Evaluation Pipeline: Lessons from a Two-Day Hackathon appeared first on ISE Developer...",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Jaein Tak, Akihiro Inui, Kohei Saito",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Azure App Service is now a trigger destination for Azure Managed Connectors",
@@ -1213,6 +1411,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "September Patches for Azure DevOps Server",
+      "link": "https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-3/",
+      "published": "2026-09-10T22:25:52+00:00",
+      "summary": "We are releasing new patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay up to date with the latest, most secure version of Azure DevOps Server. The most recent release, Azure DevOps Server, is available on the download page. The following...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Gloridel Morales",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
       "published": "2026-09-10T21:31:19+00:00",
@@ -1235,6 +1444,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Announcing Azure AI Speech LLM 2607: Better Multilingual Accuracy, Easier Customization",
+      "link": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-2607/",
+      "published": "2026-09-10T18:08:42+00:00",
+      "summary": "Learn how Azure AI Speech LLM 2607 improves multilingual and mixed-language recognition, lowers latency, and simplifies domain-specific customization with enhanced phrase lists. The post Announcing Azure AI Speech LLM 2607: Better Multilingual Accuracy, Easier Customization appeared first on...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Rena Liu",
+      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Voice to Chat Best Practice for Call Centre Use Cases",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/voice-to-chat-best-practice-for-call-centre-use-cases/ba-p/4554634",
       "published": "2026-09-10T18:00:00+00:00",
@@ -1254,6 +1474,17 @@
       "blogId": "microsoftsecurity",
       "author": "Microsoft Security Research",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Use C# unions and closed hierarchies in ASP.NET Core",
+      "link": "https://devblogs.microsoft.com/dotnet/unions-and-closed-hierarchies-in-aspnetcore/",
+      "published": "2026-09-10T17:00:00+00:00",
+      "summary": "Learn how C# unions and closed hierarchies work with System.Text.Json across ASP.NET Core Minimal APIs, MVC, SignalR, Blazor, and OpenAPI. The post Use C# unions and closed hierarchies in ASP.NET Core appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Dmitrii Korolev",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
     },
     {
@@ -1353,6 +1584,17 @@
       "blogId": "githubblog",
       "author": "Jakub Oleksy",
       "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "What’s new in Microsoft Foundry: July and August 2026",
+      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-july-august-2026/",
+      "published": "2026-09-09T23:00:39+00:00",
+      "summary": "Catch up on July and August in Microsoft Foundry: stable Hosted Agent and Toolbox SDK paths, Claude tools on Azure-hosted deployments, Model Router updates, local inference improvements, and the SDK migrations worth checking before you upgrade. The post What’s new in Microsoft Foundry: July and...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Nick Brady",
+      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
       "sourceType": "rss"
     },
     {
@@ -1532,6 +1774,50 @@
       "sourceType": "rss"
     },
     {
+      "title": "Your work might not need the smartest model",
+      "link": "https://devblogs.microsoft.com/blog/your-work-might-not-need-the-smartest-model/",
+      "published": "2026-09-09T09:14:04+00:00",
+      "summary": "The smartest model can cost five times more and deliver the same result, or even a worse one. See how evaluating your own work helps you get more value from your agent budget.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing .NET 11 Release Candidate 1",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-11-rc-1/",
+      "published": "2026-09-08T21:30:00+00:00",
+      "summary": ".NET 11 Release Candidate 1 is available with improvements across libraries, runtime, SDK, MSBuild, NuGet, C#, F#, ASP.NET Core, .NET MAUI, and Windows Forms. The post Announcing .NET 11 Release Candidate 1 appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": ".NET Team",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": ".NET Conf 2026 Community Days Call for Presenters Is Open",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-conf-2026-community-days-call-for-presenters/",
+      "published": "2026-09-08T20:30:00+00:00",
+      "summary": "Submit your session proposal for the community-led .NET Conf 2026 Community Days by October 6, 2026. The post .NET Conf 2026 Community Days Call for Presenters Is Open appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Javier Lozano, Chris Sfanos, Jon Galloway",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": ".NET and .NET Framework September 2026 servicing releases updates",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-september-2026-servicing-updates/",
+      "published": "2026-09-08T20:00:00+00:00",
+      "summary": "A recap of the latest servicing updates for .NET and .NET Framework for September 2026. The post .NET and .NET Framework September 2026 servicing releases updates appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Rahul Bhandari (MSFT), Tara Overfield",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Kubernetes v1.37: Advancing Workload-Aware Scheduling",
       "link": "https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/",
       "published": "2026-09-08T18:30:00+00:00",
@@ -1585,6 +1871,28 @@
       "author": "kshatzkamer",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=telecommunications-industry-blog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Today I will… find hidden latency across a distributed .NET application",
+      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-find-hidden-latency-across-a-distributed-net-application/",
+      "published": "2026-09-08T16:00:22+00:00",
+      "summary": "When a distributed application feels slow, the user sees one delay. The code behind that delay may run across a web frontend, backend services, databases, and external APIs. If you profile only the frontend while the backend is slow, the profiler can show that the frontend is healthy without...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Justin Yoo",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "The Agentic Road to Revenue",
+      "link": "https://devblogs.microsoft.com/all-things-azure/the-agentic-road-to-revenue/",
+      "published": "2026-09-08T04:45:34+00:00",
+      "summary": "The Agentic Road to Revenue From SaaS concept to Microsoft Marketplace. Building a SaaS application is only part of becoming a commercial software provider. To sell through the Microsoft Marketplace., the application also needs tenant isolation, subscription lifecycle management, billing...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "davidwright",
+      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "AKS Configurable Scheduler Profiles",
@@ -1653,6 +1961,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Azure SDK Release (August 2026)",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-august-2026/",
+      "published": "2026-09-04T18:20:42+00:00",
+      "summary": "Azure SDK releases every month. In this post, you'll find this month's highlights and release notes. The post Azure SDK Release (August 2026) appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Justin Bettencourt",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "It Wasn't the Private Endpoint: Why the Foundry Playground Breaks Behind Private Networking",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/it-wasn-t-the-private-endpoint-why-the-foundry-playground-breaks/ba-p/4552771",
       "published": "2026-09-04T18:00:00+00:00",
@@ -1708,6 +2027,28 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "SQL Decomposition in a Nutshell",
+      "link": "https://devblogs.microsoft.com/azure-sql/sql-decomposition/",
+      "published": "2026-09-03T20:06:28+00:00",
+      "summary": "Good software design principles apply inside the database too. See how decomposition, encapsulation, statelessness, and clear contracts can make complex T-SQL easier to read, test, reuse, and maintain. The post SQL Decomposition in a Nutshell appeared first on Azure SQL Dev Corner.",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Advocating for Uptime: The 6 Phases of Change",
+      "link": "https://devblogs.microsoft.com/azure-sql/schema-change/",
+      "published": "2026-09-03T19:09:04+00:00",
+      "summary": "Schema changes are inevitable, but downtime doesn’t have to be. Learn a phased approach to safely evolve a production SQL schema while applications remain online. The post Advocating for Uptime: The 6 Phases of Change appeared first on Azure SQL Dev Corner.",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Claude Fable 5.1 is now available in Microsoft Foundry",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-fable-5-1-is-now-available-in-microsoft-foundry/ba-p/4550175",
       "published": "2026-09-03T18:52:06+00:00",
@@ -1738,6 +2079,17 @@
       "blogId": "kubernetes",
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Test what you ship: MSTest and Native AOT",
+      "link": "https://devblogs.microsoft.com/dotnet/mstest-source-generation/",
+      "published": "2026-09-03T18:00:00+00:00",
+      "summary": "MSTest source generation lets test projects use the same Native AOT and trimming deployment model as the applications they validate, while reducing reflection on the test execution path. The post Test what you ship: MSTest and Native AOT appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Amaury Levé",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
     },
     {
@@ -2005,6 +2357,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Stop alt-tabbing into the wrong Visual Studio",
+      "link": "https://devblogs.microsoft.com/visualstudio/stop-alt-tabbing-into-the-wrong-visual-studio/",
+      "published": "2026-09-02T14:00:12+00:00",
+      "summary": "A user asked for per-solution color themes. It already ships, and it goes further than they asked. You run several instances of Visual Studio side by side, one per solution, and they all look identical. Same taskbar icon, same alt-tab thumbnail, same chrome. So, you land in the wrong one, start...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mads Kristensen",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Scaling AI Storage: Azure Managed Lustre excels in MLPerf Storage v3.0",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/scaling-ai-storage-azure-managed-lustre-excels-in-mlperf-storage/ba-p/4552351",
       "published": "2026-09-02T08:27:06+00:00",
@@ -2181,6 +2544,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Today I will… review GitHub PRs",
+      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-review-github-prs/",
+      "published": "2026-09-01T16:00:27+00:00",
+      "summary": "Today I will show you how we can tackle one of the most common tasks when working in a development team or managing an open-source project, and that is working with Pull Requests. While we’re going to be using the GitHub tooling within Visual Studio for this, the approach would be very similar with...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Aaron Powell",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Generally Available: Certificate Management for Azure Arc-enabled Kubernetes",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/generally-available-certificate-management-for-azure-arc-enabled/ba-p/4542769",
       "published": "2026-09-01T16:00:00+00:00",
@@ -2214,6 +2588,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Enterprise Live Migrations is now in public preview",
+      "link": "https://devblogs.microsoft.com/devops/enterprise-live-migrations-public-preview/",
+      "published": "2026-08-31T20:52:38+00:00",
+      "summary": "Move Azure DevOps repositories to GitHub Enterprise Cloud with data residency while minimizing disruption Over the last several years, we’ve encouraged customers to move their repositories from Azure Repos to GitHub to take advantage of the latest AI-powered and agentic development experiences. We...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Soo Stahl",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "AppNet 2026-08-19",
       "link": "https://github.com/Azure/AKS/releases/tag/AppNet-2026-08-19",
       "published": "2026-08-31T20:41:07+00:00",
@@ -2234,6 +2619,17 @@
       "author": "anishta",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Power Azure SRE Agent with the tools it needs",
+      "link": "https://devblogs.microsoft.com/azure-sdk/power-azure-sre-agent-with-connector-namespace/",
+      "published": "2026-08-31T18:37:17+00:00",
+      "summary": "Use Azure Connector Namespace to host MCP servers and give Azure SRE Agent access to the operational tools it needs without managing the server infrastructure yourself. The post Power Azure SRE Agent with the tools it needs appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Lily Ma",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "[In preview] Public Preview: Azure Multicloud Interconnect",
@@ -2280,6 +2676,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Bacpac and Dacpac, the similarities and differences",
+      "link": "https://devblogs.microsoft.com/azure-sql/bacpac-and-dacpac-the-similarities-and-differences/",
+      "published": "2026-08-31T15:13:57+00:00",
+      "summary": "When you need to move an entire database or move the objects in a database, bacpac and dacpac files often come up because of all of the tooling options to interact with them. Bacpac and dacpac files share some core similarities as well as some major differences in how they’re used in SqlPackage and...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Drew Skwiers-Koballa",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "BizTalk Server 2020 End-of-Sale Announcement",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/biztalk-server-2020-end-of-sale-announcement/ba-p/4551317",
       "published": "2026-08-31T09:00:00+00:00",
@@ -2289,6 +2696,28 @@
       "author": "hcamposu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Only believe what you can validate: a verification framework for agentic AI",
+      "link": "https://devblogs.microsoft.com/all-things-azure/only-believe-what-you-can-validate/",
+      "published": "2026-08-29T12:45:11+00:00",
+      "summary": "How to read this article This article picks up where my January piece left off. My catch phrase is still the same: “only believe what you can validate”. This article is about validation. If you are new to agentic AI (in modernization contexts), I would highly recommend reading The Realities of...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "jkordick",
+      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Try the new SqlClient and Retry connections natively",
+      "link": "https://devblogs.microsoft.com/azure-sql/sqlclient-retry/",
+      "published": "2026-08-29T05:47:40+00:00",
+      "summary": "Microsoft.Data.SqlClient includes configurable retry logic for SqlConnection and SqlCommand, giving .NET applications built-in resilience for transient SQL Server failures without requiring Polly. The post Try the new SqlClient and Retry connections natively appeared first on Azure SQL Dev Corner.",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "[Launched] Generally Available: Workload identity support for Azure Files CSI driver (SMB) in Azure",
@@ -2390,6 +2819,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "Azure Developer CLI (azd) – August 2026",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-august-2026/",
+      "published": "2026-08-27T17:39:02+00:00",
+      "summary": "Welcome to the August 2026 edition of the Azure Developer CLI (azd) release blog. This post covers releases 1.30.0, 1.31.0, 1.31.1, 1.31.2, and 1.32.0. To share your feedback and questions, join the August release discussion on GitHub. Highlights: The azd extension framework is generally available....",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Kristen Womack, Jeffrey C.",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "How Uno Platform uses .NET, MCP, and AI to build high quality apps",
+      "link": "https://devblogs.microsoft.com/dotnet/how-uno-platform-uses-dotnet-mcp-ai-to-build-high-quality-apps/",
+      "published": "2026-08-27T17:00:00+00:00",
+      "summary": "How Uno Platform built two Model Context Protocol servers in C# so AI agents can ground themselves in real documentation and then see and drive a running cross-platform .NET app. The post How Uno Platform uses .NET, MCP, and AI to build high quality apps appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Sam Basu",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "OpenClaw went viral. Meet the maintainers building and securing it.",
       "link": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
       "published": "2026-08-27T16:00:00+00:00",
@@ -2398,6 +2849,17 @@
       "blogId": "githubblog",
       "author": "Gregg Cochran",
       "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "VSLive! @ Microsoft HQ: Developer Takeaways and Must-Watch Sessions",
+      "link": "https://devblogs.microsoft.com/visualstudio/vslive-hq-content-sandiego-and-orlando-mentions/",
+      "published": "2026-08-27T14:00:09+00:00",
+      "summary": "VSLive! @ Microsoft HQ 2026 was one of the most energizing VSLive! events I’ve attended. What stood out was the level of engagement over five days of learning and conversation from July 27 through July 31. Developers came ready to dig into the future of Visual Studio, .NET, and AI-assisted software...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "James Rempt",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
     },
     {
@@ -2410,6 +2872,17 @@
       "author": "AbhinavPremsekhar",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure DevOps in the GitHub Copilot App",
+      "link": "https://devblogs.microsoft.com/devops/azure-devops-in-the-github-copilot-app/",
+      "published": "2026-08-27T11:24:17+00:00",
+      "summary": "The Azure DevOps plugin is now available for the GitHub Copilot app, allowing you to view and manage Azure DevOps pull requests and work items directly in the Copilot app. What you can do The initial release supports: View your work items and pull requests from My Work Open work items and pull...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Dan Hellem",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "v1.17.0-alpha20260827",
@@ -2522,6 +2995,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "I Need My CI/CD Pipeline to Access Cosmos DB Without Using a Secret",
+      "link": "https://devblogs.microsoft.com/cosmosdb/i-need-my-ci-cd-pipeline-to-access-cosmos-db-without-using-a-secret/",
+      "published": "2026-08-26T16:47:16+00:00",
+      "summary": "In the last post we walked through why RBAC broke your app and how to fix it. Your app is now running on a managed identity, keys are off, and everything is green. Then your build pipeline runs, and it needs to seed test data. Suddenly you’re staring at a secret in your CI settings […] The post I...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Iria Osara, Sudhanshu Khera",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "The Visual Studio Debugger Agentic Workflow Gets a Test-Driven Upgrade",
+      "link": "https://devblogs.microsoft.com/visualstudio/the-visual-studio-debugger-agentic-workflow-gets-a-test-driven-upgrade/",
+      "published": "2026-08-26T16:00:47+00:00",
+      "summary": "A few months ago, we introduced a new guided agentic workflow in the Visual Studio Debugger Agent designed to help you move from a bug report to a verified fix without spending your morning guessing where to begin. If you missed that announcement, check out Stop Hunting Bugs: Meet the New Visual...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Harshada Hole",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Azure DNS + Traffic Manager linked records",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-dns-traffic-manager-linked-records/ba-p/4548221",
       "published": "2026-08-26T15:59:25+00:00",
@@ -2531,6 +3026,17 @@
       "author": "atiy",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Copilot Code Reviews for Azure Repos (public preview)",
+      "link": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos-public-preview/",
+      "published": "2026-08-26T15:17:16+00:00",
+      "summary": "Today, we’re announcing the public preview of GitHub Copilot Code Review for Azure Repos, making the feature available to all Azure DevOps customers using the service. There’s no longer a need to sign up for early access. Customers can now enable Copilot Code Review for their Azure Repos...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Dan Hellem",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Maia 200: Software-defined dataflow and all-Ethernet networking for efficient inference on Azure",
@@ -2552,6 +3058,17 @@
       "blogId": "terraform",
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "New Azure SQL Foundations video series with GitHub samples",
+      "link": "https://devblogs.microsoft.com/azure-sql/new-azure-sql-foundations-video-series-with-github-samples/",
+      "published": "2026-08-26T12:37:45+00:00",
+      "summary": "Bob Ward and I recently released a series of videos, read more in the original blog post or go directly to the series on YouTube. The Azure SQL Database Foundations series are four videos that take you from your first Hyperscale database to AI features running against your own operational data. We...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
     },
     {
@@ -2643,6 +3160,28 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Start here: Azure SQL Foundations series",
+      "link": "https://devblogs.microsoft.com/blog/start-here-azure-sql-foundations-series/",
+      "published": "2026-08-25T16:00:18+00:00",
+      "summary": "Most developers I talk to aren’t asking whether Azure SQL Database can handle their next app. They’re asking where to start when it comes to modernization, migration, and AI in the database. If you’re reading this, you’re probably in a similar boat: you’ve got an existing schema or databases, a...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Anna Hoffman",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Visual Studio August Update – Work Smarter Across Models and Branches",
+      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-august-update-work-smarter-across-models-and-branches/",
+      "published": "2026-08-25T16:00:00+00:00",
+      "summary": "Tune Copilot model thinking effort, share custom agents across your organization, track usage, and simplify complex Git workflows with worktrees and submodule support. The post Visual Studio August Update – Work Smarter Across Models and Branches appeared first on Visual Studio Blog.",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mark Downie",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Azure SRE Agent: Introducing Live Reports",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-introducing-live-reports/ba-p/4549732",
       "published": "2026-08-25T15:00:00+00:00",
@@ -2663,6 +3202,39 @@
       "author": "Cary_Chai",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Try Azure SRE Agent with no always-on charges",
+      "link": "https://devblogs.microsoft.com/blog/try-azure-sre-agent-with-no-always-on-charges/",
+      "published": "2026-08-25T15:00:00+00:00",
+      "summary": "We are happy to announce a 30-day trial experience for Azure SRE Agent. New customers can create and configure the SRE Agent at their own pace, with no charges for setup time or keeping agents ready. During the trial, you can connect your agents to telemetry, source code, incident management...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Nir Mashkowski",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "PowerToys 0.101 is here: Window Hopper, Insider updates, and Command Palette compact mode",
+      "link": "https://devblogs.microsoft.com/commandline/powertoys-0-101-is-here-window-hopper-insider-updates-and-command-palette-compact-mode/",
+      "published": "2026-08-25T13:24:02+00:00",
+      "summary": "We’re back with a fresh PowerToys release! PowerToys 0.101 introduces Window Hopper for quickly moving between windows from the same app, a redesigned update experience with Stable and Insider channels, and compact mode for Command Palette. This release also continues our WinUI 3 modernization,...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Niels Laute",
+      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Unlocking the Power of AI for Every Developer in Visual Studio with Bring your Own Model",
+      "link": "https://devblogs.microsoft.com/visualstudio/unlocking-the-power-of-ai-for-every-developer-in-visual-studio-with-bring-your-own-model/",
+      "published": "2026-08-24T22:39:41+00:00",
+      "summary": "The best AI in Visual Studio is the AI you can bring with you. Developers don’t work in a single-model world anymore. You might reach for one model for everyday coding, another for a domain-specific problem, and an approved model for work that must stay within your organization’s governance...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Tanmayee Kamath",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Announcing: Extended Support for Azure Database for PostgreSQL Flexible Server",
@@ -2706,6 +3278,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Powering Memory in Foundry Agent Service, with Azure Cosmos DB",
+      "link": "https://devblogs.microsoft.com/cosmosdb/powering-memory-in-foundry-agent-service-with-azure-cosmos-db/",
+      "published": "2026-08-24T16:04:43+00:00",
+      "summary": "Move from a locally composed memory-enabled agent to a deployed Foundry Agent Service agent, with keyless Azure infrastructure and an interactive browser sample. In Native Agent Memory for Microsoft Agent Framework, Powered by Azure Cosmos DB, we introduced CosmosMemoryContextProvider: a Microsoft...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Theo van Kraay",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
     },
     {
@@ -2852,6 +3435,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Outgrowing SQL Server Express? Upgrade to Azure SQL Database Free Tier in 3 Steps",
+      "link": "https://devblogs.microsoft.com/azure-sql/upgrade-from-sql-server-express-to-azure-sql-database/",
+      "published": "2026-08-19T21:01:30+00:00",
+      "summary": "If you’ve been building local prototypes, internal tools, web backends, or lightweight services on SQL Server Express, you know the routine: it’s free, familiar, and gets the job done – until you hit hardware limits or spend weekends manual backup scripts and handling OS patches. Learn how to...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Vandana Mahtani, Amit Khandelwal",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "[In preview] Public Preview: SQL Formatter in MSSQL extension",
       "link": "https://azure.microsoft.com/updates?id=569155",
       "published": "2026-08-19T21:00:19+00:00",
@@ -2882,6 +3476,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "MSSQL Extension for VS Code: SQL Formatter, Azure SQL Database Provisioning, and More",
+      "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-august2026/",
+      "published": "2026-08-19T17:18:32+00:00",
+      "summary": "Writing and maintaining SQL is easier when you can eliminate repetitive steps and keep your scripts cleanly formatted. With the MSSQL extension for VS Code v1.45, we’re introducing the Public Preview of the SQL Formatter alongside the General Availability of Azure SQL Database Provisioning and...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Yo-Lei Chen",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
     },
     {
@@ -2962,6 +3567,28 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Aspire 13.5: Fresh pixels and better workflows",
+      "link": "https://devblogs.microsoft.com/aspire/whats-new-aspire-13-5/",
+      "published": "2026-08-18T22:10:00+00:00",
+      "summary": "Aspire 13.5 refreshes the dashboard and aspire.dev, expands the Interaction Service, adds cross-scope Azure references and Kubernetes persistent volumes, and brings live terminals into the AppHost. The post Aspire 13.5: Fresh pixels and better workflows appeared first on Aspire Blog.",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "Maddy Montaquila",
+      "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure Cosmos DB in the Agentic Era: Data Tools for Developers and AI Agents",
+      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-in-the-agentic-era-data-tools-for-developers-and-ai-agents/",
+      "published": "2026-08-18T20:55:36+00:00",
+      "summary": "Anthropic’s 2026 Agentic Coding Trends Report captures an important tension in how developers use AI. Engineers report using AI in roughly 60% of their work, yet say they can fully delegate only 0–20% of their tasks. AI is becoming a constant collaborator, but it still needs setup, supervision,...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Sajeetharan Sinnathurai",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Power Azure SRE Agent with the tools it needs",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/power-azure-sre-agent-with-the-tools-it-needs/ba-p/4547882",
       "published": "2026-08-18T20:36:37+00:00",
@@ -2981,6 +3608,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "The Two Hybrid Searches in Microsoft SQL",
+      "link": "https://devblogs.microsoft.com/azure-sql/two-hybrid-search/",
+      "published": "2026-08-18T18:40:38+00:00",
+      "summary": "Hybrid search is usually described as combining keyword search with vector search. Microsoft SQL does that, for sure, but we do quite a bit more right out of the box. SQL dynamically evaluates queries and switches between kNN and ANN vector search based on cost and selectivity. These two types of...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
     },
     {
@@ -3072,6 +3710,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Apple Silicon and Xcode 27 images available in pay-as-you-go (preview)",
+      "link": "https://devblogs.microsoft.com/devops/apple-silicon-and-xcode-27-images-availabile-in-pay-as-you-go-preview/",
+      "published": "2026-08-18T08:10:36+00:00",
+      "summary": "Apple developers can now build and test their applications natively on Apple Silicon in Azure Pipelines. New arm64 macOS agents are available in public preview through the pay-as-you-go GitHub-hosted Agents pool. Starting with Apple Silicon, Azure Pipelines is bringing over some of the agent sizes...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Eric van Wijk",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Distributing Agents to Microsoft Teams and Microsoft 365 Copilot Part 4/5",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/distributing-agents-to-microsoft-teams-and-microsoft-365-copilot/ba-p/4541925",
       "published": "2026-08-18T07:00:00+00:00",
@@ -3113,6 +3762,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "From single call to agents: five new Claude capabilities now available in Microsoft Foundry",
+      "link": "https://devblogs.microsoft.com/foundry/five-new-claude-capabilities-now-available-in-foundry/",
+      "published": "2026-08-17T19:20:07+00:00",
+      "summary": "Structured outputs, web search, web fetch, MCP connector, and tool search are now available for Claude models hosted on Azure in Microsoft Foundry, turning a model endpoint into a production agent platform. The post From single call to agents: five new Claude capabilities now available in Microsoft...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Haoran Cheng",
+      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
       "sourceType": "rss"
     },
     {
@@ -3169,6 +3829,17 @@
       "author": "Lee_Stott",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Git-APE SaaS Factory",
+      "link": "https://devblogs.microsoft.com/all-things-azure/git-ape-saas-factory/",
+      "published": "2026-08-14T05:29:31+00:00",
+      "summary": "Agentic Platform Engineering for SaaS. Accelerating the Path to Market with Git-APE If you are an ISV building SaaS on Azure, the first demo is usually the easy part. The harder work is turning that proof of concept into a secure, scalable, commercial-ready service that can be operated confidently...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "davidwright, Arnaud Lheureux, Suzanne Daniels",
+      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Tableau to Power BI Migration: Semantic Layer-First Approach for Cloud Architects",
@@ -3292,6 +3963,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "From Sync APIs to support for the GPT-5 model series and agentic workflows: What’s new in Azure Content Understanding – August 2026",
+      "link": "https://devblogs.microsoft.com/foundry/azure-content-understanding-updates-august-2026/",
+      "published": "2026-08-12T18:43:01+00:00",
+      "summary": "Enterprise content is no longer just something people read. AI apps and agents are only as useful as the information they can understand, yet much of the world’s enterprise knowledge is locked in documents, forms, tables, images, audio, and video. The latest Azure Content Understanding updates help...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Peyton Fraser, Krishnakumar Muthukrishnan, Joe Filcik",
+      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure Content Understanding GPT-5 Series Guide: Model Selection, Grounding Improvements, and Confidence Enhancements",
+      "link": "https://devblogs.microsoft.com/foundry/azure-content-understanding-gpt-5-series-guide-model-selection-grounding-improvements-and-confidence-enhancements/",
+      "published": "2026-08-12T18:42:25+00:00",
+      "summary": "Enterprise content is no longer just something people consume. As organizations increasingly rely on AI to extract and act on information from documents, images, audio, and video, Azure Content Understanding is expanding support for the GPT-5 series and improving grounding and confidence to deliver...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Joe Filcik, Krishnakumar Muthukrishnan",
+      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "[Launched] Generally Available: Batch rule updates for Azure Front Door",
       "link": "https://azure.microsoft.com/updates?id=569246",
       "published": "2026-08-12T17:03:08+00:00",
@@ -3391,6 +4084,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Azure Developer CLI extension framework is GA: build dev workflows for apps using Azure",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azd-extension-framework-ga/",
+      "published": "2026-08-11T21:57:59+00:00",
+      "summary": "What parts of building and shipping on Azure still take too many steps? Maybe you want a command that starts a project with your organization’s approved architecture and infrastructure. Maybe you need to connect deployments to an internal service catalog, run security checks before provisioning, or...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Kristen Womack",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Reliability Starter Kit: SLIs, Health models, and SRE Agent",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/reliability-starter-kit-slis-health-models-and-sre-agent/ba-p/4545733",
       "published": "2026-08-11T21:36:56+00:00",
@@ -3400,6 +4104,17 @@
       "author": "varghesejoji",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "August Patches for Azure DevOps Server",
+      "link": "https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server-4/",
+      "published": "2026-08-11T20:44:54+00:00",
+      "summary": "We are releasing new patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay up to date with the latest, most secure version of Azure DevOps Server. The most recent release, Azure DevOps Server, is available on the download page. The following...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Gloridel Morales",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "GitHub Admin UI + Billing API: Better together for smarter spend decisions",
@@ -3468,6 +4183,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Intelligent Terminal 0.2 is here with local model support",
+      "link": "https://devblogs.microsoft.com/commandline/intelligent-terminal-0-2-is-here-with-local-model-support/",
+      "published": "2026-08-10T19:00:01+00:00",
+      "summary": "We’re back, and this is our first minor version bump: 0.1 to 0.2! It’s our biggest release yet. This update adds support for local models, lets you run a different agent in each tab with /agent, brings OpenCode into the built-in agent lineup, runs your agent inside WSL where your work actually...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Hamza Usmani",
+      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Announcing: Microsoft Fabric Item Recovery will be enabled by default for tenants without an explicit setting",
       "link": "https://azure.microsoft.com/updates?id=569140",
       "published": "2026-08-10T17:50:54+00:00",
@@ -3487,6 +4213,17 @@
       "blogId": "aksreleases",
       "author": "alvinli222",
       "feedUrl": "https://github.com/Azure/AKS/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "I Enabled RBAC and Everything Broke. What Did I Do Wrong?",
+      "link": "https://devblogs.microsoft.com/cosmosdb/i-enabled-rbac-and-everything-broke-what-did-i-do-wrong/",
+      "published": "2026-08-10T07:01:03+00:00",
+      "summary": "We covered the roles your Azure Cosmos DB app needs in our previous post. Now let’s look at what happens after you’ve assigned those roles, switched identities, disabled keys and suddenly staring at a 403. As we continue this security series, we’ll walk through the most common causes, how to...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Sudhanshu Khera, Iria Osara",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
     },
     {
@@ -3589,6 +4326,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "Pull request annotations on work item cards",
+      "link": "https://devblogs.microsoft.com/devops/pull-request-annotations-on-work-item-cards/",
+      "published": "2026-08-06T14:00:21+00:00",
+      "summary": "It’s now easier to track development progress without leaving your Kanban board. Azure Boards now displays pull request annotations directly on work item cards, making it easy to see at a glance when work is actively moving through code review. With pull request status visible directly on the...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Dan Hellem",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "You can now use the Azure DevOps Service Connection instead of a PAT or Build Session token",
+      "link": "https://devblogs.microsoft.com/devops/you-can-now-use-the-azure-devops-service-connection-instead-of-a-pat-or-build-session-token/",
+      "published": "2026-08-06T08:57:40+00:00",
+      "summary": "We’re excited to announce the Azure DevOps service connection, a new way to access Azure DevOps from your pipelines using a Microsoft Entra workload identity (a service principal or managed identity) instead of a Personal Access Token (PAT) or session token. This post walks through what it is, how...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Eric van Wijk",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Build and Deploy Confidential Virtual Machines on Azure Local (Public Preview)",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/build-and-deploy-confidential-virtual-machines-on-azure-local/ba-p/4543995",
       "published": "2026-08-06T01:35:53+00:00",
@@ -3663,6 +4422,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure DevOps Remote MCP Server is generally available",
+      "link": "https://devblogs.microsoft.com/devops/azure-devops-remote-mcp-server-ga/",
+      "published": "2026-08-05T12:58:52+00:00",
+      "summary": "Today, we’re excited to announce the general availability of the Azure DevOps MCP Server 🎉 The Azure DevOps MCP Server gives AI assistants secure, contextual access to your Azure DevOps projects so they can help you plan, build, and ship software more effectively. With the Azure DevOps remote MCP...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Dan Hellem",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "sourceType": "rss"
     },
     {
@@ -3752,6 +4522,17 @@
       "author": "WSilveira",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Building an operations assistant on Azure that waits for approval before it acts",
+      "link": "https://devblogs.microsoft.com/all-things-azure/building-an-operations-assistant-on-azure-that-waits-for-approval-before-it-acts/",
+      "published": "2026-08-03T21:15:38+00:00",
+      "summary": "Grounding an assistant in runbooks is straightforward. The harder part begins when the model proposes an action that requires authorization. An operations assistant needs stronger controls as soon as it can act. Answering “which runbook covers this alert” is a search problem. Opening an incident...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "Ricardo M. Martins",
+      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "[Launched] Generally Available: Trusted Launch as Default",
@@ -3952,6 +4733,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Azure Developer CLI (azd) July 2026",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-july-2026/",
+      "published": "2026-07-30T20:20:10+00:00",
+      "summary": "This is the July round-up for the Azure Developer CLI (azd). Five releases shipped since the last post: 1.27.0, 1.27.1, 1.28.0, 1.28.1, and 1.29.0. Below is what’s new, what changed, and what we fixed, with links to the pull requests if you want to dig in. Have feedback or questions? Join the...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Kristen Womack",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "[Launched] Generally Available: Azure Database for PostgreSQL flexible server in India South Central",
       "link": "https://azure.microsoft.com/updates?id=568334",
       "published": "2026-07-30T19:14:44+00:00",
@@ -4117,6 +4909,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Azure SDK Release (July 2026)",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-july-2026/",
+      "published": "2026-07-29T17:18:25+00:00",
+      "summary": "Azure SDK releases every month. In this post, you'll find this month's highlights and release notes. The post Azure SDK Release (July 2026) appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Justin Bettencourt",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Visual Studio Code 1.131",
       "link": "https://code.visualstudio.com/updates/v1_131",
       "published": "2026-07-29T17:00:00+00:00",
@@ -4271,6 +5074,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Find any commit in seconds: Commit Search comes to Azure DevOps",
+      "link": "https://devblogs.microsoft.com/devops/find-any-commit-in-seconds-commit-search-comes-to-azure-devops/",
+      "published": "2026-07-28T15:24:55+00:00",
+      "summary": "Great code has a long memory. The fix you shipped last quarter, the refactor that touched a dozen files, the one-line change that explained why something works the way it does — it’s all there in your commit history. The hard part has always been finding it. Today, we’re excited to announce that...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Alex Pysanets",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Azure landing zone (ALZ) enters its next chapter",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-landing-zone-alz-enters-its-next-chapter/ba-p/4533520",
       "published": "2026-07-28T10:22:02+00:00",
@@ -4403,6 +5217,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Native Agent Memory for Microsoft Agent Framework, Powered by Azure Cosmos DB",
+      "link": "https://devblogs.microsoft.com/cosmosdb/native-agent-memory-for-microsoft-agent-framework-powered-by-azure-cosmos-db/",
+      "published": "2026-07-24T11:00:40+00:00",
+      "summary": "Recently we introduced the Agent Memory Toolkit and the Agentic Retrieval Toolkit for Azure Cosmos DB. The Agent Memory Toolkit gives your agents durable, Cosmos-backed memory: it stores raw conversation turns and then distills them into higher-value derived memories (thread summaries, extracted...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Theo van Kraay",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Changing the engine while the plane is flying: migrating 60,000 apps under live load",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/changing-the-engine-while-the-plane-is-flying-migrating-60-000/ba-p/4539443",
       "published": "2026-07-23T20:05:25+00:00",
@@ -4423,6 +5248,17 @@
       "author": "stevenbucher",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "The Microsoft 365 Copilot Agent’s Playbook: A Practical Livestream Series for Building Better Agents",
+      "link": "https://devblogs.microsoft.com/blog/the-microsoft-365-copilot-agents-playbook-a-practical-livestream-series-for-building-better-agents/",
+      "published": "2026-07-23T19:03:53+00:00",
+      "summary": "Building on Microsoft 365 Copilot? Here’s your playbook. Declarative agents are quickly becoming one of the most exciting ways to extend Microsoft 365 Copilot and bring organizational knowledge, workflows, and tools directly into the flow of work. But as agent capabilities grow, so does the need...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Shavonna Jackson",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Announcing public preview of Azure DDoS Protection custom policy",
@@ -4524,6 +5360,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Building Agents that Act on Your Behalf with Toolboxes in Foundry",
+      "link": "https://devblogs.microsoft.com/foundry/building-agents-that-act-on-your-behalf-with-toolboxes-in-foundry/",
+      "published": "2026-07-22T15:00:29+00:00",
+      "summary": "How Toolboxes in Foundry simplify user delegation At some point, many agents move from answering questions to taking action. And when it does, the question becomes: whose identity is it acting with? Imagine you are building an internal employee agent. It needs to call a private, Entra-protected MCP...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Linda Li, Maria Naggaga",
+      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Take command of your Microsoft Foundry AI agents with the Azure Copilot Observability Agent",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/take-command-of-your-microsoft-foundry-ai-agents-with-the-azure/ba-p/4538681",
       "published": "2026-07-21T16:28:48+00:00",
@@ -4533,6 +5380,17 @@
       "author": "Ron Frenkel",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "How to test agent experience changes without shipping them",
+      "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-experience-changes-without-shipping-them/",
+      "published": "2026-07-21T07:15:12+00:00",
+      "summary": "Most changes you think will improve AI agent behavior won't. We tested a dozen hypotheses on a real project upgrade scenario and the majority failed. Learn how to emulate documentation, API, and MCP server changes locally so you can validate what works before shipping anything to production.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Hybrid Logic Apps Deployment on Red Hat OpenShift",
@@ -4576,6 +5434,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "AI agents, meet the Azure Cosmos DB vNext emulator",
+      "link": "https://devblogs.microsoft.com/cosmosdb/use-ai-agents-with-cosmosdb-vnext-emulator/",
+      "published": "2026-07-20T14:05:15+00:00",
+      "summary": "If you use the Azure Cosmos DB vNext emulator, you probably know the local development loop: start the emulator, connect to it, create some resources, load test data, run queries, and inspect the results. Each step is straightforward, but together they add setup work before you can test the...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Abhishek Gupta",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
     },
     {
@@ -4634,6 +5503,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "How to test agent skills without hitting real APIs",
+      "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-skills-without-hitting-real-apis/",
+      "published": "2026-07-17T09:27:50+00:00",
+      "summary": "Your agent skill calls an API. The moment you start evaluating it, every run either costs money or mutates production data. Learn how to mock APIs transparently so you can run evals without changing your skill or hitting real endpoints.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Teaching a Vision Model to See Like a Human Annotator—and Catching It When It Lies",
+      "link": "https://devblogs.microsoft.com/ise/ai-asset-enrichment-pipeline/",
+      "published": "2026-07-17T07:00:00+00:00",
+      "summary": "A multimodal LLM enrichment pipeline that extracts structured metadata from visual assets, constrains output to predefined values to minimize hallucinations, and uses a ground truth evaluation template to measure quality—all as a plug-and-play module. The post Teaching a Vision Model to See Like a...",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Deeptanil Saha, Kartheek Palepu",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Azure Cobalt: Workload-Aware Power Management for More Efficient Datacenters",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-cobalt-workload-aware-power-management-for-more-efficient/ba-p/4537049",
       "published": "2026-07-16T21:16:29+00:00",
@@ -4654,6 +5545,17 @@
       "author": "Pritha_Das",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "How to build long-running MCP tools on Azure Functions",
+      "link": "https://devblogs.microsoft.com/azure-sdk/long-running-mcp-tools-azure-functions/",
+      "published": "2026-07-16T15:00:10+00:00",
+      "summary": "Learn how to build long-running MCP tools on Azure Functions using Durable Functions. This post explains why synchronous tool calls break down for long-running work, introduces the MCP Tasks extension, and walks through a sample pattern that works with existing request/response clients today. The...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Lily Ma",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Understanding billing for the Azure Copilot Observability Agent",
@@ -4819,6 +5721,17 @@
       "author": "alyssaschimm",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Building AX evals that actually work",
+      "link": "https://devblogs.microsoft.com/blog/building-ax-evals-that-actually-work/",
+      "published": "2026-07-15T12:53:13+00:00",
+      "summary": "This is the eighth and final article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "[In preview] Public Preview: Azure Front Door edge actions",
@@ -5052,6 +5965,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "From Noisy Queries to Precise Frames: Query Decomposition for Media Asset Search",
+      "link": "https://devblogs.microsoft.com/ise/from_noisy_queries_to_precise_frames/",
+      "published": "2026-07-09T07:00:00+00:00",
+      "summary": "How query decomposition separates metadata filters from visual intent to significantly improve media asset retrieval quality. The post From Noisy Queries to Precise Frames: Query Decomposition for Media Asset Search appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Kartheek Palepu, Deeptanil Saha",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "What's new in Agent 365 – June 2026",
       "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/what-s-new-in-agent-365-june-2026/ba-p/4535107",
       "published": "2026-07-08T23:18:06+00:00",
@@ -5083,6 +6007,17 @@
       "author": "Efrat_Ben_Porat",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Building on Vercel’s eve + Azure Cosmos DB: An Agent That Remembers",
+      "link": "https://devblogs.microsoft.com/cosmosdb/cosmos-db-agent-memory/",
+      "published": "2026-07-08T14:56:27+00:00",
+      "summary": "Most “AI agent” demos forget everything the moment the process exits. That’s fine for a toy project, but useless for anything real. An agent that helps you write, triage, or support needs two things a language model alone can’t give it: durable state and the ability to recall the right context by...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Sajeetharan Sinnathurai",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Announcing etcd v3.7.0",
@@ -5173,6 +6108,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "What’s New in Microsoft Foundry | June 2026",
+      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-june-2026/",
+      "published": "2026-07-07T07:10:25+00:00",
+      "summary": "Claude is now generally available in Microsoft Foundry. Here's everything else that shipped between Build 2026 and the end of June — autopilot agents, expanded Toolboxes and Routines, Agent Optimizer's private preview, and more. The post What’s New in Microsoft Foundry | June 2026 appeared first on...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Nick Brady",
+      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Coding with Logic Apps Standard: Local Functions",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/coding-with-logic-apps-standard-local-functions/ba-p/4534240",
       "published": "2026-07-07T05:38:35+00:00",
@@ -5182,6 +6128,17 @@
       "author": "hcamposu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "See our new Azure Cosmos DB Design Patterns",
+      "link": "https://devblogs.microsoft.com/cosmosdb/see-our-new-azure-cosmos-db-design-patterns/",
+      "published": "2026-07-06T20:20:06+00:00",
+      "summary": "Design patterns are where good data modeling lives or dies. In a NoSQL database like Azure Cosmos DB, the difference between a schema that scales to millions of operations per second and one that fights you at every turn usually comes down to a handful of well‑understood patterns: how you...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Mark Brown",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "[Launched] Generally Available: Microsoft Entra ID-based access for Azure Blob Storage SFTP",
@@ -5217,6 +6174,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Azure SDK Release (June 2026)",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-june-2026/",
+      "published": "2026-07-06T05:56:58+00:00",
+      "summary": "Azure SDK releases every month. In this post, you'll find this month's highlights and release notes. The post Azure SDK Release (June 2026) appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Justin Bettencourt",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "How Prompt Tuning Improved GPT-5.5 in VS Code",
       "link": "https://code.visualstudio.com/blogs/2026/07/06/optimizing-vscode-coding-harness-model-providers",
       "published": "2026-07-06T00:00:00+00:00",
@@ -5225,6 +6193,17 @@
       "blogId": "vscode",
       "author": "VS Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Enabling MLflow OpenAI Autolog on PySpark Workers",
+      "link": "https://devblogs.microsoft.com/ise/mlflow-autolog-pyspark-workers/",
+      "published": "2026-07-03T07:00:00+00:00",
+      "summary": "When distributing LLM calls across PySpark workers via mapInPandas, MLflow autolog silently fails. Here is how to fix it. The post Enabling MLflow OpenAI Autolog on PySpark Workers appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Jaya Kumar",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
       "sourceType": "rss"
     },
     {
@@ -5437,6 +6416,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "WSL container is now available for public preview",
+      "link": "https://devblogs.microsoft.com/commandline/wsl-container-is-now-available-for-public-preview/",
+      "published": "2026-06-29T15:29:48+00:00",
+      "summary": "At Microsoft Build 2026, we introduced WSL containers, bringing Linux container development directly into Windows through the Windows Subsystem for Linux (WSL). Containers have become a foundational part of modern development – from cloud-native applications and AI workloads to testing and...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Craig Loewen",
+      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Routing agent traffic is really three decisions",
       "link": "https://blog.aks.azure.com/2026/06/29/llm-routing-on-aks",
       "published": "2026-06-29T00:00:00+00:00",
@@ -5456,6 +6446,28 @@
       "blogId": "kubernetes",
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure Developer CLI (azd) – May and June 2026",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-may-june-2026/",
+      "published": "2026-06-26T16:53:19+00:00",
+      "summary": "A combined May and June recap. A new azd tool command group, the cross-platform azd exec runner, safer multi-layer provisioning, an interactive Ctrl+C cancel prompt, Go support for Azure Functions, self-contained extension bundles, per-tenant subscription filters, and a long list of correctness...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Kristen Womack",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Passing Context Between Agents in Multi-Agent A2A Systems",
+      "link": "https://devblogs.microsoft.com/ise/a2a-context-passing-multi-agent-systems/",
+      "published": "2026-06-26T07:00:00+00:00",
+      "summary": "How we solved the challenge of passing conversational context between independently deployed agents using the A2A protocol's embedded context pattern, keeping domain agents stateless and secure. The post Passing Context Between Agents in Multi-Agent A2A Systems appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Olha Konstantinova, Scott Grosenick",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
       "sourceType": "rss"
     },
     {
@@ -5569,6 +6581,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Azure Functions MCP Extension: What’s New at Build 2026",
+      "link": "https://devblogs.microsoft.com/azure-sdk/functions-mcp-updates-build-2026/",
+      "published": "2026-06-24T20:20:35+00:00",
+      "summary": "A roundup of what shipped in the Azure Functions MCP extension since preview: resource and prompt triggers, MCP Apps, built-in MCP authentication, structured and rich content, fluent .NET configuration APIs, and what is coming next. The post Azure Functions MCP Extension: What’s New at Build 2026...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Lily Ma",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "[In preview] Public Preview: Application Gateway for Containers – Inference gateway",
       "link": "https://azure.microsoft.com/updates?id=566516",
       "published": "2026-06-24T19:00:43+00:00",
@@ -5668,6 +6691,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Azure SDK Release (May 2026)",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-may-2026/",
+      "published": "2026-06-22T23:37:37+00:00",
+      "summary": "Azure SDK releases every month. In this post, you'll find this month's highlights and release notes. The post Azure SDK Release (May 2026) appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Justin Bettencourt",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Unlocking the next frontier of Local AI on Windows for Telecommunications",
       "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/unlocking-the-next-frontier-of-local-ai-on-windows-for/ba-p/4528911",
       "published": "2026-06-22T17:48:54+00:00",
@@ -5756,6 +6790,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Separating Deterministic Extraction from AI Inference in Industrial Summarization",
+      "link": "https://devblogs.microsoft.com/ise/separating-deterministic-extraction-from-ai-inference/",
+      "published": "2026-06-19T07:00:00+00:00",
+      "summary": "When 100% of our prototype outputs were valid JSON but 0% met the data contract, we discovered the LLM was doing work that software should own. A field classification exercise and 4-pass pipeline brought schema compliance from 0% to 100%. The post Separating Deterministic Extraction from AI...",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Viktor Ciroski",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "What 50,000 Runs of a 5-Line Eval Taught Us",
       "link": "https://code.visualstudio.com/blogs/2026/06/19/what-50000-runs-taught-us",
       "published": "2026-06-19T00:00:00+00:00",
@@ -5764,6 +6809,17 @@
       "blogId": "vscode",
       "author": "Julia Kasper",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Outcome-driven learning systems: Enterprise RL with OpenEnv and Foundry",
+      "link": "https://devblogs.microsoft.com/foundry/outcome-driven-learning-systems-enterprise-rl-with-openenv-and-foundry/",
+      "published": "2026-06-18T20:37:18+00:00",
+      "summary": "We shipped a lot at Build 2026: hosted agents, Toolboxes, Foundry IQ, Memory, Managed Compute, fine‑tuning, Frontier Tuning, and a new evaluation and optimization stack. Read as a feature list, it is a lot to hold in your head. So here is a simpler way to see it: these are the parts you need to […]...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Govind Kamtamneni",
+      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
       "sourceType": "rss"
     },
     {
@@ -5809,6 +6865,17 @@
       "author": "David_Lyth",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Intelligent Terminal 0.1.1 is here: bash support, new slash commands, and more customization",
+      "link": "https://devblogs.microsoft.com/commandline/intelligent-terminal-0-1-1-is-here-bash-support-new-slash-commands-and-customization/",
+      "published": "2026-06-17T22:31:51+00:00",
+      "summary": "We’re back with the first servicing release of Intelligent Terminal! This update brings auto error detection to Bash and WSL, a new /fix command for on-demand help, an on-the-fly /model picker, a customizable agent pane, and Windows 10 support, along with a round of bug fixes and reliability...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Hamza Usmani",
+      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Scaling High-Performance CAD on Azure Virtual Desktop with NVIDIA RTX PRO 6000",
@@ -6053,6 +7120,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Aspire in VS Code: the 13.4 developer loop",
+      "link": "https://devblogs.microsoft.com/aspire/aspire-vscode-extension-13-4/",
+      "published": "2026-06-16T17:00:00+00:00",
+      "summary": "Aspire 13.4 brings more of the local development loop into VS Code: AppHost CodeLens actions, live resource state, dashboard shortcuts, typed resource command prompts, TypeScript AppHost support, and multi-language debugging. The post Aspire in VS Code: the 13.4 developer loop appeared first on...",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "Adam Ratzman",
+      "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "The Case for an Ontology Layer in Telecoms",
       "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/the-case-for-an-ontology-layer-in-telecoms/ba-p/4527091",
       "published": "2026-06-16T12:41:49+00:00",
@@ -6138,6 +7216,17 @@
       "blogId": "kubernetes",
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Orchestration Patterns for Multi-Agent Systems: Performance and Trade-offs",
+      "link": "https://devblogs.microsoft.com/ise/coordinator-patterns-multi-agent-systems/",
+      "published": "2026-06-12T07:00:00+00:00",
+      "summary": "Real-world lessons from evolving a production chatbot into a coordinator-based multi-agent architecture, including performance trade-offs for enterprise-scale agent reuse. The post Orchestration Patterns for Multi-Agent Systems: Performance and Trade-offs appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Lily Jia",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
       "sourceType": "rss"
     },
     {
@@ -6295,6 +7384,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "PowerToys 0.100 is here: new Shortcut Guide, Command Palette improvements and much more!",
+      "link": "https://devblogs.microsoft.com/commandline/powertoys-0-100-is-here-new-shortcut-guide-command-palette-improvements-and-much-more/",
+      "published": "2026-06-10T06:26:45+00:00",
+      "summary": "We’re back with a fresh PowerToys release! This month introduces the brand-new Shortcut Guide, a major Command Palette update with the new Extension Gallery and multi-monitor Dock support, and a wave of improvements to Power Display. We’ve also upgraded PowerToys to .NET 10, improved auto-update...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Niels Laute",
+      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "ACI Sandboxes: A Glimpse into the Future of Agentic Compute",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/aci-sandboxes-a-glimpse-into-the-future-of-agentic-compute/ba-p/4526576",
       "published": "2026-06-10T00:56:34+00:00",
@@ -6347,6 +7447,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Distributed multi-agent systems with Aspire and Microsoft Agent Framework",
+      "link": "https://devblogs.microsoft.com/aspire/building-distributed-multi-agent-systems-with-aspire-and-microsoft-agent-framework/",
+      "published": "2026-06-09T17:05:00+00:00",
+      "summary": "Learn how Aspire, Microsoft Agent Framework, and Microsoft Foundry model, run, observe, and publish a distributed multi-agent AlpineAI ski resort demo. The post Distributed multi-agent systems with Aspire and Microsoft Agent Framework appeared first on Aspire Blog.",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "Tommaso Stocchi",
+      "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
       "sourceType": "rss"
     },
     {
@@ -6515,6 +7626,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Frameworks only matter when they force decisions",
+      "link": "https://devblogs.microsoft.com/all-things-azure/frameworks-only-matter-when-they-force-decisions/",
+      "published": "2026-06-04T22:30:25+00:00",
+      "summary": "Frameworks mean nothing, until they change what gets built! In this article we discuss how Git-Ape turns architecture and governance into delivery controls on Azure because, if frameworks do not shape delivery decisions, they are just decoration. Cloud teams do not have a framework problem. They...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "davidwright, Arnaud Lheureux, Suzanne Daniels",
+      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "[In preview] Public Preview: Voice sync for avatar support in Voice Live API in Microsoft Foundry",
       "link": "https://azure.microsoft.com/updates?id=564176",
       "published": "2026-06-04T22:15:50+00:00",
@@ -6658,6 +7780,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Aspire Multi-repo Rollout at Scale with Agentic AI",
+      "link": "https://devblogs.microsoft.com/aspire/aspire-windows-365-part2/",
+      "published": "2026-06-04T17:05:00+00:00",
+      "summary": "This is part 2 blog of the windows 365 integration journey with Aspire. This blog focus to show how Windows 365 scaled Aspire adoption with reliability patterns and an agentic AI rollout system across 50+ repos. The post Aspire Multi-repo Rollout at Scale with Agentic AI appeared first on Aspire...",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "Jeff Liu",
+      "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "[Launched] Generally Available: Azure Monitor Service Level Indicators (SLI)",
       "link": "https://azure.microsoft.com/updates?id=565159",
       "published": "2026-06-04T16:30:52+00:00",
@@ -6666,6 +7799,28 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Accelerate Edge AI Development with Foundry Local",
+      "link": "https://devblogs.microsoft.com/foundry/accelerate-edge-ai-development-with-foundry-local/",
+      "published": "2026-06-04T13:00:24+00:00",
+      "summary": "Why edge AI development is still hard AI is no longer confined to cloud experiments. Developers are increasingly expected to deliver AI inside apps, devices, and edge systems where responsiveness, privacy, resilience, and local control are essential. But building those experiences for production is...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "samkemp, Emma Ning, Inbal Sagiv",
+      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "How we Decide Between Keyword and Hybrid Search: 5 Enterprise Evaluation Criteria",
+      "link": "https://devblogs.microsoft.com/ise/keyword-vs-hybrid-search/",
+      "published": "2026-06-04T07:00:00+00:00",
+      "summary": "A data-driven framework we use in enterprise deployments to decide between vector-only keyword and hybrid search, based on five measurable evaluation criteria. The post How we Decide Between Keyword and Hybrid Search: 5 Enterprise Evaluation Criteria appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Beijie Zhang",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
       "sourceType": "rss"
     },
     {
@@ -6867,6 +8022,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Introducing azure-functions-skills: An AI-Era Workspace for Azure Functions (Preview)",
+      "link": "https://devblogs.microsoft.com/azure-sdk/introducing-azure-functions-skills-ai-era-workspace/",
+      "published": "2026-06-02T19:19:59+00:00",
+      "summary": "azure-functions-skills gives GitHub Copilot CLI, Claude Code, Codex CLI, and VS Code the skills, MCP configuration, hooks, and instructions needed to create, diagnose, deploy, and validate Azure Functions projects end-to-end. The post Introducing azure-functions-skills: An AI-Era Workspace for...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Tsuyoshi Ushio",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Make any agent enterprise-ready with the Agent 365 SDK",
       "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/make-any-agent-enterprise-ready-with-the-agent-365-sdk/ba-p/4524575",
       "published": "2026-06-02T19:19:00+00:00",
@@ -6944,6 +8110,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Announcing Intelligent Terminal 0.1",
+      "link": "https://devblogs.microsoft.com/commandline/announcing-intelligent-terminal-version-0-1/",
+      "published": "2026-06-02T17:00:09+00:00",
+      "summary": "Today we’re announcing Intelligent Terminal version 0.1, an open-source experimental fork of Windows Terminal with native agent integration. Get started Install from the Microsoft Store: Intelligent Terminal on the Microsoft Store Install via WinGet: winget install Microsoft.IntelligentTerminal...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Hamza Usmani",
+      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Building AI apps and agents with Azure Databricks, Copilot Studio, and GitHub Copilot",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/building-ai-apps-and-agents-with-azure-databricks-copilot-studio/ba-p/4524065",
       "published": "2026-06-02T16:15:00+00:00",
@@ -6963,6 +8140,17 @@
       "blogId": "letsdodevops",
       "author": "Kyler Middleton",
       "feedUrl": "https://www.letsdodevops.com/feed",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Build, scale, and monetize apps and agents with Microsoft Marketplace",
+      "link": "https://devblogs.microsoft.com/all-things-azure/build-scale-and-monetize-apps-and-agents-with-microsoft-marketplace/",
+      "published": "2026-06-02T12:25:05+00:00",
+      "summary": "At Microsoft Build, we are sharing how Microsoft Marketplace brings development, distribution, and monetization together— so apps and agents move beyond prototyping into real-world usage at scale. Microsoft Marketplace connects tens of thousands of cloud and AI solutions built by software...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "Cyril Belikoff",
+      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
       "sourceType": "rss"
     },
     {
@@ -7041,6 +8229,17 @@
       "author": "lisetteranga",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Aspire 13.4 is here",
+      "link": "https://devblogs.microsoft.com/aspire/whats-new-aspire-13-4/",
+      "published": "2026-06-01T17:00:00+00:00",
+      "summary": "Aspire 13.4 is here with TypeScript apphost GA, typed resource commands with results, server-side CLI log and telemetry search, more mature Kubernetes and AKS deployment, and more. The post Aspire 13.4 is here appeared first on Aspire Blog.",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "Maddy Montaquila",
+      "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Four open source projects to explore at Microsoft Build",
@@ -7131,6 +8330,28 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "How Azure Chaos Studio ships with hermetic Aspire end-to-end tests",
+      "link": "https://devblogs.microsoft.com/aspire/hermetic-aspire-tests-chaos-studio/",
+      "published": "2026-05-28T17:00:00+00:00",
+      "summary": "Learn how the Azure Chaos Studio team uses Aspire.Hosting.Testing to run hermetic, per-PR end-to-end tests across four services — with emulators, stubs, and no shared environments. The post How Azure Chaos Studio ships with hermetic Aspire end-to-end tests appeared first on Aspire Blog.",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "Brent Rusinow",
+      "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Verification-driven tooling prompts for fast-moving codebases",
+      "link": "https://devblogs.microsoft.com/ise/verification-driven-tooling-prompts/",
+      "published": "2026-05-28T07:00:00+00:00",
+      "summary": "A practical pattern for using GenAI research agents to produce reliable internal tooling by verifying assumptions with detection classes and a final checklist. The post Verification-driven tooling prompts for fast-moving codebases appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Dexter Williams",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Inspektor Gadget Completes Its First Independent Security Audit",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/inspektor-gadget-completes-its-first-independent-security-audit/ba-p/4517895",
       "published": "2026-05-27T19:04:24+00:00",
@@ -7219,6 +8440,28 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Coordinating AI-Assisted Development with AGENTS.md and Skills",
+      "link": "https://devblogs.microsoft.com/ise/ai-assisted-development-agents-skills-copilot-cli/",
+      "published": "2026-05-21T07:00:00+00:00",
+      "summary": "How to move AI-assisted development from ad-hoc experimentation to a coordinated team-wide capability using AGENTS.md and reusable skills with GitHub Copilot CLI The post Coordinating AI-Assisted Development with AGENTS.md and Skills appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Jimmy Kurian, Destiny Hillis",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Your dev loop is full of tribal knowledge",
+      "link": "https://devblogs.microsoft.com/aspire/dev-loop-tribal-knowledge/",
+      "published": "2026-05-20T17:00:00+00:00",
+      "summary": "Aspire turns a team's scattered tribal knowledge into an explicit, incrementally-adoptable app model that humans, scripts, and AI agents can all use. The post Your dev loop is full of tribal knowledge appeared first on Aspire Blog.",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "David Fowler",
+      "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Golden Image Refresh for Virtual Machines and VM Scale Sets: Driving Consistency at Scale",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/golden-image-refresh-for-virtual-machines-and-vm-scale-sets/ba-p/4521376",
       "published": "2026-05-20T02:56:39+00:00",
@@ -7272,6 +8515,17 @@
       "author": "abbottkarl",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Eliminate LLM Cold starts: Load models up to 6x Faster with Azure Blob Storage and Run:AI Model Streamer",
+      "link": "https://devblogs.microsoft.com/azure-sdk/eliminate-llm-cold-starts-load-models-up-to-6x-faster-with-azure-blob-storage-and-runai-model-streamer/",
+      "published": "2026-05-19T15:00:07+00:00",
+      "summary": "Stop paying for idle GPUs while model weights copy to disk. Stream them straight into GPU memory instead with Run:AI Streamer from Azure Blob Storage. The Problem: Every Cold Start Costs You More Than Money GPU compute is among the most expensive cloud infrastructure, and every second a GPU is...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Vishnu Charan TJ",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "🔥The Orchestrator Pattern - Turning CLAUDE.md Into an Autonomous Agent Team Pipeline🔥",
@@ -7395,6 +8649,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Exponential backoff and circuit breaker for Service Bus-triggered Azure Functions",
+      "link": "https://devblogs.microsoft.com/azure-sdk/exponential-backoff-circuit-breaker-azure-functions/",
+      "published": "2026-05-14T23:04:41+00:00",
+      "summary": "Use exponential backoff and circuit breaker patterns in Azure Functions with Service Bus SDK bindings. Control retry storms, protect dependencies, and degrade gracefully under transient failures. The post Exponential backoff and circuit breaker for Service Bus-triggered Azure Functions appeared...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Swapnil Nagar",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "After the Agent Acts: Proving What Happened and Who Authorized It",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/after-the-agent-acts-proving-what-happened-and-who-authorized-it/ba-p/4519826",
       "published": "2026-05-14T22:28:12+00:00",
@@ -7425,6 +8690,28 @@
       "blogId": "kubernetes",
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Securing Azure apps with Aspire enterprise networking",
+      "link": "https://devblogs.microsoft.com/aspire/aspire-azure-enterprise-networking/",
+      "published": "2026-05-14T17:23:43+00:00",
+      "summary": "Network security has a funny way of showing up late. You start with a web app, an API, storage, and Key Vault. The app works. The demo works. Everyone is happy. Then the production checklist shows up: Can storage and secrets be taken off the public internet? Can this app run inside our virtual...",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "Eric Erhardt",
+      "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "From beta to stable: Announcing the Azure SDK for Rust 🎉🦀",
+      "link": "https://devblogs.microsoft.com/azure-sdk/from-beta-to-stable-announcing-the-azure-sdk-for-rust-ga/",
+      "published": "2026-05-14T15:46:19+00:00",
+      "summary": "Announcing the stable release of the Azure SDK for Rust. This release includes stable libraries for Core, Identity, Key Vault (Secrets, Keys, Certificates), and Storage (Blobs, Queues). The post From beta to stable: Announcing the Azure SDK for Rust 🎉🦀 appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Ronnie Geraghty",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
     },
     {
@@ -7637,6 +8924,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Least privilege AI agents: A new azd template from Curity and Microsoft",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azd-curity-least-privilege-ai-agents/",
+      "published": "2026-05-07T21:26:27+00:00",
+      "summary": "If you ever built an AI agent demo, you probably had this moment. Everything works: the agent interprets natural language, calls the right tools, and returns the right data. Then you start designing for the real users of the app. You think about data boundaries: what if someone tries to get data...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Kristen Womack",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Kubernetes v1.36: More Drivers, New Features, and the Next Era of DRA",
       "link": "https://kubernetes.io/blog/2026/05/07/kubernetes-v1-36-dra-136-updates/",
       "published": "2026-05-07T18:35:00+00:00",
@@ -7645,6 +8943,17 @@
       "blogId": "kubernetes",
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "What’s New in Aspire 13.3",
+      "link": "https://devblogs.microsoft.com/aspire/whats-new-aspire-13-3/",
+      "published": "2026-05-07T17:00:00+00:00",
+      "summary": "Aspire 13.3 is here with the Aspireify skill, command results, browser logs, Kubernetes and AKS deployment, and more. The post What’s New in Aspire 13.3 appeared first on Aspire Blog.",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "Maddy Montaquila",
+      "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
       "sourceType": "rss"
     },
     {
@@ -7868,6 +9177,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Removing The Monkey Work of Migration",
+      "link": "https://devblogs.microsoft.com/all-things-azure/removing-the-monkey-work-of-migration-using-agentic-platform-engineering/",
+      "published": "2026-05-03T22:49:02+00:00",
+      "summary": "Removing The Monkey Work of Migration; in this post we show how Git-Ape analyses an AWS deployment repo and generates an Azure-native replacement, with design critique built in. This post walks through a real migration workflow: start with an AWS deployment repo and end with an Azure deployment...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "davidwright, Arnaud Lheureux, Suzanne Daniels",
+      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Kubernetes v1.36: Pod-Level Resource Managers (Alpha)",
       "link": "https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/",
       "published": "2026-05-01T18:35:00+00:00",
@@ -7876,6 +9196,17 @@
       "blogId": "kubernetes",
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "The new Run dialog: faster, cleaner, and more capable",
+      "link": "https://devblogs.microsoft.com/commandline/the-new-run-dialog-faster-cleaner-and-more-capable/",
+      "published": "2026-05-01T17:00:39+00:00",
+      "summary": "We’ve shipped the new Run dialog – and we want to say thanks. As the team behind Windows Terminal and PowerToys, we’re excited to bring this to Windows 11, and your feedback helped shape it! Run has been rebuilt from the ground up: Modern design: A refreshed look that matches Fluent Design and...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Clint Rutkas",
+      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
       "sourceType": "rss"
     },
     {
@@ -7899,6 +9230,17 @@
       "author": "ashish-chhabria",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure Developer CLI (azd) – April 2026",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-april-2026/",
+      "published": "2026-05-01T00:53:08+00:00",
+      "summary": "The Azure Developer CLI (azd) shipped five releases in April 2026. The biggest theme this month is multi-language hook support: write azd hooks in Python, JavaScript, TypeScript, or .NET alongside the existing Bash and PowerShell options. Here’s what’s in versions 1.23.14, 1.23.15, 1.24.0, 1.24.1,...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Kristen Womack",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "AHEAD helps us launch the Strategic Azure Storage Services Partner Program",
@@ -8000,6 +9342,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "The problem: All-or-nothing batch processing in Azure Service Bus",
+      "link": "https://devblogs.microsoft.com/azure-sdk/per-message-settlement-azure-service-bus/",
+      "published": "2026-04-28T18:47:37+00:00",
+      "summary": "Azure Functions lets you settle each Service Bus message on its own within a batch. Complete, abandon, dead-letter, or defer messages one by one to avoid duplicate processing and handle errors with precision. The post The problem: All-or-nothing batch processing in Azure Service Bus appeared first...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Swapnil Nagar",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Kubernetes v1.36: Staleness Mitigation and Observability for Controllers",
       "link": "https://kubernetes.io/blog/2026/04/28/kubernetes-v1-36-staleness-mitigation-for-controllers/",
       "published": "2026-04-28T18:35:00+00:00",
@@ -8022,6 +9375,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "PowerToys 0.99 is here: new monitor controls, easier window management, and Dock upgrades",
+      "link": "https://devblogs.microsoft.com/commandline/powertoys-0-99-is-here-new-monitor-controls-easier-window-management-and-dock-upgrades/",
+      "published": "2026-04-28T11:32:59+00:00",
+      "summary": "We’re back with a fresh PowerToys release! This month introduces Power Display for controlling your monitors from the system tray, Grab And Move for quickly moving and resizing windows, and a wave of improvements to Command Palette and the Dock, along with updates across the utility suite. You can...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Niels Laute",
+      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Kubernetes v1.36: Mutable Pod Resources for Suspended Jobs (beta)",
       "link": "https://kubernetes.io/blog/2026/04/27/kubernetes-v1-36-mutable-pod-resources-for-suspended-jobs/",
       "published": "2026-04-27T18:35:00+00:00",
@@ -8030,6 +9394,17 @@
       "blogId": "kubernetes",
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure MCP Server now available as an MCP Bundle (.mcpb)",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-mcpb-support/",
+      "published": "2026-04-24T20:32:49+00:00",
+      "summary": "Azure MCP Server is now available as an MCP Bundle (.mcpb), enabling one-click installation into Claude Desktop and other MCP-compatible clients. The post Azure MCP Server now available as an MCP Bundle (.mcpb) appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Victor Colin Amador",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
       "sourceType": "rss"
     },
     {
@@ -8042,6 +9417,17 @@
       "author": "Jon_Andoni_Baranda",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Write azd hooks in Python, JavaScript, TypeScript, or .NET",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azd-multi-language-hooks/",
+      "published": "2026-04-22T22:04:08+00:00",
+      "summary": "Hooks are one of the most popular features in azd, and now you can write them in Python, JavaScript, TypeScript, or .NET, not just Bash and PowerShell. What’s new? The Azure Developer CLI (azd) hook system now supports four more languages beyond Bash and PowerShell. You can write hook scripts in...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Kristen Womack",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Fast cloud migration, measurable ROI: Forrester Total Economic Impact study of Azure VMware Solution",
@@ -8077,6 +9463,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Azure SDK Release (April 2026)",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-april-2026/",
+      "published": "2026-04-21T23:13:33+00:00",
+      "summary": "Azure SDK releases every month. In this post, you'll find this month's highlights and release notes. The post Azure SDK Release (April 2026) appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Ronnie Geraghty",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "From alert overload to decisive action: How Security Copilot agents are transforming security and IT",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-security-copilot-blog/from-alert-overload-to-decisive-action-how-security-copilot/ba-p/4504213",
       "published": "2026-04-21T22:55:44+00:00",
@@ -8097,6 +9494,28 @@
       "author": "Dorothy_Li",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "I Wasted 68 Minutes a Day Re-Explaining My Code. Then I Built auto-memory.",
+      "link": "https://devblogs.microsoft.com/all-things-azure/i-wasted-68-minutes-a-day-re-explaining-my-code-then-i-built-auto-memory/",
+      "published": "2026-04-21T18:06:24+00:00",
+      "summary": "~1,900 lines of Python. Zero dependencies. Saves you an hour a day. GitHub → · pip install auto-memory Now give Copilot CLI enhanced context recall. Point it at deploy/install.md and let it cook. 🍳 Are you tired of using the slash /compact command every 10 min? The Context Window Is a Lie Every AI...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "Desi Villanueva",
+      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Aspire 13.2: Bun Support and Container Enhancements",
+      "link": "https://devblogs.microsoft.com/aspire/aspire-bun-support-and-container-enhancements/",
+      "published": "2026-04-21T17:00:00+00:00",
+      "summary": "Aspire 13.2 keeps the JavaScript story moving with Bun for Vite, more predictable containers, and small but meaningful fixes across debugging and builds. The post Aspire 13.2: Bun Support and Container Enhancements appeared first on Aspire Blog.",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "David Pine",
+      "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Announcing public preview of redundant TCP support for RDP Multipath for Azure Virtual Desktop",
@@ -8121,6 +9540,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Getting Started with Agentic DevOps – Part 1: Foundations",
+      "link": "https://devblogs.microsoft.com/all-things-azure/getting-started-with-agentic-devops-part-1-foundations/",
+      "published": "2026-04-21T13:25:20+00:00",
+      "summary": "This post is the first in a 3-part series: Foundations (this post) Start shipping (context engineering, MCP servers, orchestration) App modernization (Java, .NET, PHP, microservices) Bookmark this post for quick reference as you start exploring Agentic DevOps. It will be updated as the 3 parts...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "Ricardo Fiel",
+      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Leveraging Azure Resource Graph Queries for Azure Redis Configuration",
       "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/leveraging-azure-resource-graph-queries-for-azure-redis/ba-p/4509826",
       "published": "2026-04-21T07:57:08+00:00",
@@ -8141,6 +9571,17 @@
       "author": "jainsourabh",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "GitHub Copilot meets Azure Developer CLI: AI-assisted project setup and error troubleshooting",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azd-copilot-integration/",
+      "published": "2026-04-21T00:38:49+00:00",
+      "summary": "The Azure Developer CLI (azd) now integrates with GitHub Copilot for AI-assisted project scaffolding and intelligent deployment error troubleshooting, helping you resolve common Azure errors like MissingSubscriptionRegistration, SkuNotAvailable, and StorageAccountAlreadyTaken without leaving the...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Kristen Womack",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Secure, Keyless Application Access with Managed Identities - Now GA in Azure Files SMB",
@@ -8195,6 +9636,17 @@
       "blogId": "aksblog",
       "author": "Microsoft",
       "feedUrl": "https://blog.aks.azure.com/rss.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Best of Both Worlds for Agentic Refactoring: GitHub Copilot + MicroVMs via Docker Sandbox",
+      "link": "https://devblogs.microsoft.com/all-things-azure/best-of-both-worlds-for-agentic-refactoring-github-copilot-microvms-via-docker-sandbox/",
+      "published": "2026-04-16T22:09:53+00:00",
+      "summary": "Legacy codebases frequently contain hardcoded logic and complex build scripts that depend on specific filesystem structures, making them notoriously difficult to modernize in isolated environments. Docker Sandbox addresses this challenge through a bidirectional workspace sync that preserves the...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "cindywang",
+      "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
       "sourceType": "rss"
     },
     {
@@ -8253,6 +9705,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Stop juggling package managers—just run `azd update`",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azd-update/",
+      "published": "2026-04-14T19:24:08+00:00",
+      "summary": "Update the Azure Developer CLI with a single command on any platform and switch release channels. The post Stop juggling package managers—just run `azd update` appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Kristen Womack",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Release 2026-04-02",
       "link": "https://github.com/Azure/AKS/releases/tag/2026-04-02",
       "published": "2026-04-14T06:26:28+00:00",
@@ -8273,6 +9736,17 @@
       "author": "ckyalo",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Announcing Azure MCP Server 2.0 Stable Release for Self-Hosted Agentic Cloud Automation",
+      "link": "https://devblogs.microsoft.com/azure-sdk/announcing-azure-mcp-server-2-0-stable-release/",
+      "published": "2026-04-10T17:16:10+00:00",
+      "summary": "Azure MCP Server 2.0 is now generally available, delivering first-class self-hosting, stronger security hardening, and a faster foundation for agentic workflows across Azure. The post Announcing Azure MCP Server 2.0 Stable Release for Self-Hosted Agentic Cloud Automation appeared first on Azure SDK...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Sandeep Sen",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Sovereignty in Azure Belgium Central: A Three-Layer Technical Deep Dive",
@@ -8691,6 +10165,17 @@
       "author": "AnaviNahar",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-databricks&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "PowerToys 0.98 is here: new Keyboard Manager UX, the Command Palette Dock and better CursorWrap!",
+      "link": "https://devblogs.microsoft.com/commandline/powertoys-0-98-is-here-new-keyboard-manager-ux-the-command-palette-dock-and-better-cursorwrap/",
+      "published": "2026-03-17T17:47:43+00:00",
+      "summary": "We’re back with a fresh PowerToys release – PowerToys 0.98! This month introduces the new Command Palette Dock, along with a refreshed Keyboard Manager experience and many other improvements across the utilities. You can grab the update by checking for updates in PowerToys or by heading to the...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Niels Laute",
+      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Porting C++ from IBM Power to x86: Solving Silent Endianness Corruption with C++and Github Copilot",
@@ -10123,6 +11608,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Streamlined Setup, Stronger Guardrails for Microsoft Dev Box",
+      "link": "https://devblogs.microsoft.com/develop-from-the-cloud/streamlined-setup-stronger-guardrails-for-microsoft-dev-box/",
+      "published": "2025-10-17T14:00:42+00:00",
+      "summary": "We’re excited to introduce a new capability that simplifies Dev Box setup—enabling platform engineers and project admins to specify images and SKUs directly when configuring Dev Box pools, without needing to create Dev Box definitions at the Dev Center level. 🔄What’s changing Until now, configuring...",
+      "blog": "Develop from the Cloud",
+      "blogId": "developfromthecloud",
+      "author": "Sagar Chandra Reddy Lankala",
+      "feedUrl": "https://devblogs.microsoft.com/develop-from-the-cloud/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Now in public preview: Ephemeral OS disk support on Azure Virtual Desktop",
       "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/now-in-public-preview-ephemeral-os-disk-support-on-azure-virtual/ba-p/4460172",
       "published": "2025-10-15T20:03:45+00:00",
@@ -10321,5 +11817,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft cloud posts centered on AI platform expansion, Kubernetes app infrastructure, and developer productivity. Key announcements included new AKS capabilities such as **Flex Nodes** in public preview and broader innovations for running and scaling AI apps on **Azure Kubernetes Service**, expanded access to specialized **GPU infrastructure** via **Dapple and Azure**, new AI model availability including **Claude Opus 5.5** in **Microsoft Foundry** and **GitHub Copilot**, plus **OpenAI GPT-6 Sol and GPT-6 Luna** in GitHub, alongside Microsoft’s push toward **context-aware AI**.\n\nA second major theme was modern app operations and secure engineering: Azure highlighted **managed connectors for Azure Functions**, **change-driven programming in Node.js with @drasi/lib**, and **Change Analysis in Azure Resource Graph** for tracking infrastructure drift, while GitHub announced faster **C++ whole-codebase indexing**, **SSH security improvements**, and a **CodeQL bundle deprecation**. Additional notable updates included **Node.js 22 support ending April 30, 2027**, guidance on **Azure Arc/Azure Local Storage architecture**, and security research on **device code phishing** via **EvilTokens**."
+  "summary": "Today’s Azure-adjacent developer news centers on AI-assisted coding and IDE updates. **Visual Studio Code 1.139 (Insiders)** highlights the latest preview improvements to the editor experience, while **GitHub’s Copilot for JetBrains** update adds new capabilities and refinements for AI code completion and workflow assistance inside JetBrains IDEs.\n\nThe common theme is tighter integration of developer tooling with AI: Microsoft is advancing the core editor platform in VS Code, and GitHub is expanding **Copilot** features in the **JetBrains** ecosystem to make coding, navigation, and in-IDE assistance more capable and streamlined."
 }
