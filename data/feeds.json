@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T07:52:36.540439+00:00",
+  "lastUpdated": "2026-09-24T13:51:42.688589+00:00",
   "totalArticles": 1069,
   "articles": [
     {
@@ -47,6 +47,28 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Azure Container Apps Sandboxes, Now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-sandboxes-now-generally-available/ba-p/4559125",
+      "published": "2026-09-23T23:33:57+00:00",
+      "summary": "Agents Act. You Set the Limits. Your platform needs to run untrusted code. Agents choose actions at runtime, from installing packages to calling APIs. In a multi-tenant service, you have to support both without letting one customer's code reach another customer's data. That requires an execution...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Jan-Kalis",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "DeepSeek-V4.1-Flash is coming to Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/deepseek-v4-1-flash-is-coming-to-microsoft-foundry/ba-p/4556431",
+      "published": "2026-09-23T21:44:16+00:00",
+      "summary": "Agentic applications increasingly need to process entire code repositories, large document collections, images, tool results, and long-running conversation histories. As that context grows, the key-value, or KV, cache maintained during inference can become a major constraint on cost, memory, and...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "RashaudSavage",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "More ways to request and configure Copilot code reviews",
       "link": "https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews",
       "published": "2026-09-23T21:25:58+00:00",
@@ -89,6 +111,17 @@
       "author": "Alberto Gimeno",
       "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Catalyst: Frontier stories of AI Infrastructure innovation",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/catalyst-frontier-stories-of-ai-infrastructure-innovation/ba-p/4559362",
+      "published": "2026-09-23T17:05:19+00:00",
+      "summary": "In the Catalyst series, we explore the transformative power of AI by showcasing visionary companies driving scientific and industry breakthroughs powered by Azure and NVIDIA. This video series spotlights how innovation ignites action and how today’s visionaries are shaping tomorrow with the power...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "abbyhamilton",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Visual Studio Code 1.139",
@@ -144,6 +177,17 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
+    },
+    {
+      "title": "Azure Container Apps Express is now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-express-is-now-generally-available/ba-p/4559101",
+      "published": "2026-09-23T15:33:53+00:00",
+      "summary": "For many web apps and APIs, a container image should be enough to get started. Developers should not have to choose and configure an environment before the first deployment. Today, Azure Container Apps Express reaches general availability. It is the fastest way to go from a container image to a...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "simonjj",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Local sandboxing in the GitHub Copilot app",
@@ -2698,17 +2742,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Six Lessons for Reliable Agent Optimizer Gains on Harder Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/six-lessons-for-reliable-agent-optimizer-gains-on-harder-agents/ba-p/4551357",
-      "published": "2026-09-01T14:00:00+00:00",
-      "summary": "Authors: Abi Komma, Charles Kim, Luffy Chen, Vivek Bhadauria, Morteza Ziyadi, Victor Dibia, Ilya Matiach What happens when you push agent optimizer to its limits - larger datasets, tool-calling agents, and hybrid evaluators? We found that the optimizer is as good as what surrounds it. Here's what...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "abikomma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[In preview] Public Preview: Per-disk resiliency for Azure VMs",
       "link": "https://azure.microsoft.com/updates?id=569711",
       "published": "2026-08-31T23:11:39+00:00",
@@ -2971,17 +3004,6 @@
       "author": "James Rempt",
       "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Manage and retrieve credentials securely inside Browser Automation Tool (BAT) using Azure Key Vault",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/manage-and-retrieve-credentials-securely-inside-browser/ba-p/4550858",
-      "published": "2026-08-27T11:27:16+00:00",
-      "summary": "When do AI agents need a browser Enterprise AI agents are becoming increasingly capable of reasoning over data, calling APIs, and orchestrating workflows. Yet many business-critical systems still expose functionality only through a web interface. ERP systems, supplier portals, internal...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "AbhinavPremsekhar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Azure DevOps in the GitHub Copilot App",
@@ -3806,17 +3828,6 @@
       "blogId": "azuregovernanceandmanagementblog",
       "author": "torreyt",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Announcing General Availability of Managed Instance on Azure App Service",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-general-availability-of-managed-instance-on-azure-app/ba-p/4541283",
-      "published": "2026-08-18T14:16:56+00:00",
-      "summary": "Today, we are thrilled to announce the General Availability (GA) of Managed Instance on Azure App Service. Following the tremendous response to our Public Preview announcement at Ignite 2025, we've spent the past nine months working closely with customers, partners, and the community to harden the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Gaurav-Seth",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8671,17 +8682,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "From Pipelines to Agents: Self-Healing CI/CD Workflow",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-pipelines-to-agents-self-healing-ci-cd-workflow/ba-p/4519494",
-      "published": "2026-05-13T20:21:28+00:00",
-      "summary": "The Brain of the Operation: Azure OpenAI. When building a DevOps agent, following are the points which can be considered to select Azure OpenAI as the ideal choice for logical engine: Native Tool Use: It is specifically optimized for function calling, allowing the agent to interact with Azure...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "RavinderGupta",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "You Asked—We Answered: Inside the Agent 365 AMA",
       "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/you-asked-we-answered-inside-the-agent-365-ama/ba-p/4519485",
       "published": "2026-05-13T19:19:13+00:00",
@@ -11762,5 +11762,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focused on building and tuning enterprise AI agents, alongside practical integration diagnostics. The AI-related articles highlighted **agentic recall controls** using **MCP (Model Context Protocol)** and **Microsoft Foundry** to better govern what information agents retrieve, plus expert guidance on identifying the next optimization target for an **AI agent**—likely around performance, quality, and operational effectiveness.\n\nOn the integration side, Azure published a hands-on validation guide for **BizTalk Server’s SB-Messaging Adapter**, showing how to confirm it is actually using **AMQP (Advanced Message Queuing Protocol)** rather than an unexpected transport path. Overall, the themes were **AI agent governance and optimization** paired with **reliable Azure enterprise messaging troubleshooting**."
+  "summary": "Today’s Azure posts center on building and tuning enterprise AI agents, plus a practical integration troubleshooting guide. The Azure Dev Community articles highlight **agentic AI** patterns using **Model Context Protocol (MCP)** and **Microsoft Foundry** to implement recall controls and safer memory behavior, along with guidance on identifying the next optimization opportunities for an AI agent through expert-led evaluation and performance tuning.  \n\nThe third post shifts to integration plumbing, showing BizTalk users how to verify that the **SB-Messaging Adapter** is actually using **AMQP** when connecting to Azure messaging services—a specific but important check for reliability, protocol correctness, and modern Azure integration scenarios."
 }
