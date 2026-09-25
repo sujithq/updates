@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T19:00:07.204024+00:00",
+  "lastUpdated": "2026-09-25T23:40:17.293036+00:00",
   "totalArticles": 1071,
   "articles": [
     {
@@ -11,6 +11,39 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Enterprise managed settings in-product validator",
+      "link": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
+      "published": "2026-09-25T23:24:57+00:00",
+      "summary": "You can now use an in-product validator for enterprise managed settings for GitHub Copilot. The validator detects malformed JSON, unsupported configurations, invalid team mappings, and other errors that can prevent… The post Enterprise managed settings in-product validator appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Usage metrics API adds pull request review stages",
+      "link": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
+      "published": "2026-09-25T21:09:40+00:00",
+      "summary": "The enterprise and organization repository-level Copilot usage metrics reports now break down how long pull requests spend in each stage of review. A new pull_request_review_times array on each repos-1-day row… The post Usage metrics API adds pull request review stages appeared first on The GitHub...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Private saved views for repository issues and “Relates to” issue relationship is generally available",
+      "link": "https://github.blog/changelog/2026-09-25-personal-saved-views-for-repository-issues-and-more",
+      "published": "2026-09-25T19:05:03+00:00",
+      "summary": "Private saved views for repository issues Repository issues pages now support private saved views, making it easier to create and save personalized views of your issues. “Relates to” issue relationship… The post Private saved views for repository issues and “Relates to” issue relationship is...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -127,7 +160,7 @@
       "title": "Improving site performance by shipping more CSS",
       "link": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
       "published": "2026-09-25T15:00:00+00:00",
-      "summary": "A look at how a design system shipped major changes without breaking the world. The post Improving site performance by shipping more CSS appeared first on The GitHub Blog.",
+      "summary": "How we fully migrated github.com away from CSS-in-JS. The post Improving site performance by shipping more CSS appeared first on The GitHub Blog.",
       "blog": "GitHub Blog",
       "blogId": "githubblog",
       "author": "Josh Black",
@@ -232,17 +265,6 @@
       "author": "jaredfholgate",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Expired GitHub Actions artifacts no longer shown in UI and API",
-      "link": "https://github.blog/changelog/2026-09-24-expired-github-actions-artifacts-no-longer-shown-in-ui-and-api",
-      "published": "2026-09-24T19:13:02+00:00",
-      "summary": "Expired artifacts are no longer displayed in the GitHub Actions run summary or returned by the REST API. Previously, an expired artifact remained visible with an “Expired” pill, even though… The post Expired GitHub Actions artifacts no longer shown in UI and API appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "IBC Reflections and Where Media is Headed",
@@ -430,28 +452,6 @@
       "author": "Jan-Kalis",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "More ways to request and configure Copilot code reviews",
-      "link": "https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews",
-      "published": "2026-09-23T21:25:58+00:00",
-      "summary": "GitHub Copilot code review now offers additional personal configurations to an expanded set of Copilot plans and an enterprise-level default setting. These improvements are now generally available: A dedicated personal… The post More ways to request and configure Copilot code reviews appeared first...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Node 20 is no longer available in GitHub Actions",
-      "link": "https://github.blog/changelog/2026-09-23-node-20-is-no-longer-available-in-github-actions",
-      "published": "2026-09-23T20:46:07+00:00",
-      "summary": "This is the final notification that Node 20 is no longer available on GitHub Actions runners. Runners now use Node 24 for JavaScript actions. The temporary ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION opt-out is no… The post Node 20 is no longer available in GitHub Actions appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Microsoft is updating its author-signing certificate starting September 23, 2026",
@@ -11784,5 +11784,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s posts centered on AI agents and developer productivity across Azure and GitHub: Microsoft highlighted a multimodal GenAI architecture that turns shop-floor camera images into work instructions, announced DeepSeek‑V4.1‑Flash coming to Microsoft Foundry, and expanded agent tooling with the AG‑UI Protocol’s new .NET SDK, Copilot canvases for custom workflows, Copilot Memory powering agentic autofix, and broader Copilot integrations for Slack, Teams, Business, and Enterprise. On the platform side, Azure updates included PostgreSQL 18 support in preview for Azure HorizonDB and guidance on Azure Storage deletion blockers tied to immutability/WORM/version retention.\n\nSecurity and engineering quality were also key themes: Microsoft detailed Storm‑3168’s agentic cloud attacks using compromised service principals, while GitHub shipped CodeQL 2.27.1 with new C/C++ queries and Kotlin 2.4.20 support, changed GitHub Actions query results in the API/UI, and shared a performance engineering case study on improving site speed by “shipping more CSS.”"
+  "summary": "Today’s Azure- and Microsoft-adjacent news centered on AI agents, developer tooling, and platform updates: Microsoft highlighted multimodal GenAI on the shop floor in Azure Architecture, announced DeepSeek-V4.1-Flash for Microsoft Foundry, and added PostgreSQL 18 support in preview for Azure HorizonDB, while the new AG-UI Protocol .NET SDK expands agent app development on Microsoft stacks. GitHub’s updates were dominated by Copilot and workflow improvements—including Copilot Memory powering agentic autofix, new Copilot capabilities for Slack and Microsoft Teams, custom workflow “canvases,” default enablement for Business and Enterprise, plus API/UI changes for Actions and usage metrics, issue management enhancements, and CodeQL 2.27.1 support for C/C++ and Kotlin 2.4.20.\n\nOn the security and operations side, Microsoft warned about Storm-3168 cloud attacks leveraging compromised service principals, and Azure guidance focused on storage deletion pitfalls involving immutability, WORM, and version retention—signaling a strong emphasis on securing AI-enabled development and cloud infrastructure."
 }
