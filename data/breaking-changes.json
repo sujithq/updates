@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T13:29:04.620357+00:00",
+  "lastUpdated": "2026-09-25T13:35:45.317956+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -1518,6 +1518,28 @@
       "detected": "2026-09-24T13:29:04.620354+00:00",
       "published": "2026-09-23T16:46:49+00:00",
       "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=557117",
+      "title": "Retirement: Azure Communication Services (ACS) standalone services will be retired on September 30, 2028",
+      "severity": "warning",
+      "deadline": "2028-09-30",
+      "impact": "Standalone ACS services retire; users of listed ACS offerings are affected",
+      "action": "Identify affected ACS services and migrate to supported alternatives before 2028-09-30",
+      "detected": "2026-09-25T13:35:45.317939+00:00",
+      "published": "2026-09-24T17:51:23+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/migrate-data-ingestion-from-data-collector-to-log-ingestion-part/ba-p/4559649",
+      "title": "Migrate Data Ingestion from Data Collector to Log Ingestion - Part 2",
+      "severity": "info",
+      "deadline": null,
+      "impact": "Deprecated Data Collector API users must move ingestion to Log Ingestion API",
+      "action": "Plan migration to Log Ingestion API and handle 1MB payload limit",
+      "detected": "2026-09-25T13:35:45.317951+00:00",
+      "published": "2026-09-24T15:05:05+00:00",
+      "blog": "Integrations on Azure"
     }
   ]
 }
