@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T08:14:54.959683+00:00",
+  "lastUpdated": "2026-09-25T14:14:25.251020+00:00",
   "totalArticles": 1072,
   "articles": [
     {
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "CodeQL 2.27.1 adds C and C++ query and Kotlin 2.4.20 support",
+      "link": "https://github.blog/changelog/2026-09-25-codeql-2-27-1-adds-c-and-c-query-and-kotlin-2-4-20-support",
+      "published": "2026-09-25T09:55:23+00:00",
+      "summary": "CodeQL 2.27.1 adds new queries for C/C++ and C#, support for Kotlin 2.4.20, and query-accuracy improvements. CodeQL is the static analysis engine behind GitHub code scanning, which helps you find… The post CodeQL 2.27.1 adds C and C++ query and Kotlin 2.4.20 support appeared first on The GitHub...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -627,17 +638,6 @@
       "blogId": "dotnet",
       "author": "Aaron Powell",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "OpenAI’s GPT-6 Sol and GPT-6 Luna now available",
-      "link": "https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available",
-      "published": "2026-09-22T17:00:14+00:00",
-      "summary": "OpenAI’s GPT-6 family is expanding in GitHub Copilot with two additional models: GPT-6 Sol, and GPT-6 Luna. Joining the previously released GPT-6 Astra, these new options let you select the… The post OpenAI’s GPT-6 Sol and GPT-6 Luna now available appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -11795,5 +11795,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure updates center on data governance, AI developer tooling, and new model availability. Azure highlighted common causes of failed Azure Storage deletions—especially immutability policies, WORM protections, and blob/container version retention—while GitHub announced default enablement of Copilot features for Copilot Business and Enterprise customers, signaling broader rollout of AI-assisted development capabilities.\n\nOn the AI platform side, Microsoft said DeepSeek-V4.1-Flash is coming to Microsoft Foundry via the Azure AI Foundry ecosystem, underscoring continued expansion of model choices for enterprise AI builders."
+  "summary": "Today’s Azure-related updates centered on AI platform expansion, developer tooling, and governance controls. Microsoft announced DeepSeek‑V4.1‑Flash is coming to Azure AI Foundry / Microsoft Foundry, while GitHub shipped CodeQL 2.27.1 with new C/C++ query support and Kotlin 2.4.20 compatibility, alongside default enablement changes for Copilot features in Copilot Business and Enterprise.  \n\nOn the infrastructure side, Azure highlighted operational guardrails in Azure Storage, specifically how immutability policies, WORM protections, and version retention can prevent blob deletion and complicate cleanup or troubleshooting workflows."
 }
