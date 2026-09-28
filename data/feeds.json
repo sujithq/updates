@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-28T09:01:24.391021+00:00",
-  "totalArticles": 1069,
+  "lastUpdated": "2026-09-28T17:22:52.802876+00:00",
+  "totalArticles": 1067,
   "articles": [
     {
       "title": "Visual Studio Code 1.140 (Insiders)",
@@ -11,6 +11,83 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Introducing voice agents in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-voice-agents-in-microsoft-foundry/ba-p/4557276",
+      "published": "2026-09-28T17:05:46+00:00",
+      "summary": "Voice is quickly becoming a major way people interact with AI agents. Recent research found that 14% of users already prefer speaking with generative AI rather than typing1, signaling that voice interactions are moving beyond early-adopter use cases and toward the mainstream. As adoption grows,...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Yiwen_Rong",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Build Agentic UI with the new Blazor AI components",
+      "link": "https://devblogs.microsoft.com/dotnet/build-agentic-ui-blazor/",
+      "published": "2026-09-28T17:05:00+00:00",
+      "summary": "Build Agentic UI with the new Blazor AI components for streamed content, tools, approvals, shared state, and generative experiences. The post Build Agentic UI with the new Blazor AI components appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Daniel Roth",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "From Camera to Canvas: How Multimodal GenAI Automates Shop Floor Instructions",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-camera-to-canvas-how-multimodal-genai-automates-shop-floor/ba-p/4557740",
+      "published": "2026-09-28T16:41:45+00:00",
+      "summary": "Scenario Across the industry, manufacturing organizations spend significant engineering effort converting tribal knowledge and assembly demonstrations into standardized work instructions. This process is traditionally manual, inconsistent, and difficult to scale across plants, product lines, and...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Matt_Kazanowsky",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "SQLAlchemy 2.1 brings built-in support for mssql-python",
+      "link": "https://devblogs.microsoft.com/azure-sql/sqlalchemy-2-1-brings-built-in-support-for-mssql-python/",
+      "published": "2026-09-28T16:02:00+00:00",
+      "summary": "We’re pleased to share that SQLAlchemy 2.1.0 is now generally available, with built-in support for mssql-python, Microsoft’s Python driver for SQL Server. You can now use it with SQLAlchemy’s ORM and Core APIs through the first-party mssql+mssqlpython dialect. If SQLAlchemy is already part of how...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Matt Hyon, David Levy",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Open Sourcing the Azure Policy Linter!",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/open-sourcing-the-azure-policy-linter/ba-p/4547577",
+      "published": "2026-09-28T15:02:05+00:00",
+      "summary": "Today we’re excited to share that the Azure Policy Linter is now open source on GitHub: github.com/Azure/azure-policy-linter. It’s a command-line linter for Azure Policy definitions that surfaces known issues, gotchas, and best practices that you can run when authoring your policy definition and...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "stevenbucher",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Announcing the Public Preview of Local Time Zone Support in Azure SQL Database",
+      "link": "https://devblogs.microsoft.com/azure-sql/announcing-the-public-preview-of-local-time-zone-support-in-azure-sql-database/",
+      "published": "2026-09-28T15:00:17+00:00",
+      "summary": "We are thrilled to announce the public preview of local time zone support in Azure SQL Database. Starting today, you can configure the time zone directly at the database or session level — all from T-SQL, without changing any infrastructure settings. This feature addresses one of the most...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Umachandar Jayachandran (UC)",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/",
+      "published": "2026-09-28T15:00:00+00:00",
+      "summary": "Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations. The post NeedyMantis: Unpacking a...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Threat Intelligence",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -56,17 +133,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "From Camera to Canvas: How Multimodal GenAI Automates Shop Floor Instructions",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-camera-to-canvas-how-multimodal-genai-automates-shop-floor/ba-p/4557740",
-      "published": "2026-09-25T18:56:13+00:00",
-      "summary": "Scenario Across the industry, manufacturing organizations spend significant engineering effort converting tribal knowledge and assembly demonstrations into standardized work instructions. This process is traditionally manual, inconsistent, and difficult to scale across plants, product lines, and...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Matt_Kazanowsky",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Changes to query results in the GitHub Actions API and UI",
@@ -210,17 +276,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Introducing voice agents in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-voice-agents-in-microsoft-foundry/ba-p/4557276",
-      "published": "2026-09-24T22:02:23+00:00",
-      "summary": "Voice is quickly becoming a major way people interact with AI agents. Recent research found that 14% of users already prefer speaking with generative AI rather than typing1, signaling that voice interactions are moving beyond early-adopter use cases and toward the mainstream. As adoption grows,...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Yiwen_Rong",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Connect Azure Functions to more services with managed connectors",
@@ -2071,17 +2126,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Threat matrix: Mapping threats across cloud web applications",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/09/threat-matrix-mapping-threats-across-cloud-web-applications/",
-      "published": "2026-09-09T21:30:00+00:00",
-      "summary": "Microsoft introduces the Cloud Web Applications Threat Matrix, a MITRE ATT&CK-aligned framework that helps defenders understand, prioritize, and mitigate threats to cloud-hosted web apps and serverless platforms. The post Threat matrix: Mapping threats across cloud web applications appeared first...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Security Research and Lior Leizerovich",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[Launched] Generally Available: Azure Ephemeral OS Disk with full caching for VM/VMSS",
       "link": "https://azure.microsoft.com/updates?id=570551",
       "published": "2026-09-09T21:24:37+00:00",
@@ -2243,17 +2287,6 @@
       "blog": ".NET",
       "blogId": "dotnet",
       "author": "Javier Lozano, Chris Sfanos, Jon Galloway",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": ".NET and .NET Framework September 2026 servicing releases updates",
-      "link": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-september-2026-servicing-updates/",
-      "published": "2026-09-08T20:00:00+00:00",
-      "summary": "A recap of the latest servicing updates for .NET and .NET Framework for September 2026. The post .NET and .NET Framework September 2026 servicing releases updates appeared first on .NET Blog.",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": "Rahul Bhandari (MSFT), Tara Overfield",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
     },
@@ -3754,17 +3787,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "MSSQL Extension for VS Code: SQL Formatter, Azure SQL Database Provisioning, and More",
-      "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-august2026/",
-      "published": "2026-08-19T17:18:32+00:00",
-      "summary": "Writing and maintaining SQL is easier when you can eliminate repetitive steps and keep your scripts cleanly formatted. With the MSSQL extension for VS Code v1.45, we’re introducing the Public Preview of the SQL Formatter alongside the General Availability of Azure SQL Database Provisioning and...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Yo-Lei Chen",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Visual Studio Code 1.134",
       "link": "https://code.visualstudio.com/updates/v1_134",
       "published": "2026-08-19T17:00:00+00:00",
@@ -3883,17 +3905,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "The Two Hybrid Searches in Microsoft SQL",
-      "link": "https://devblogs.microsoft.com/azure-sql/two-hybrid-search/",
-      "published": "2026-08-18T18:40:38+00:00",
-      "summary": "Hybrid search is usually described as combining keyword search with vector search. Microsoft SQL does that, for sure, but we do quite a bit more right out of the box. SQL dynamically evaluates queries and switches between kNN and ANN vector search based on cost and selectivity. These two types of...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
     },
     {
@@ -7824,17 +7835,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Microsoft Foundry IQ",
-      "link": "https://azure.microsoft.com/updates?id=563222",
-      "published": "2026-06-04T19:15:11+00:00",
-      "summary": "Microsoft Foundry IQ reaches general availability, giving developers a managed knowledge layer that grounds agents in enterprise data without rebuilding retrieval pipelines for each project. Teams connect SharePoint, OneLake, Azure Blob, and other sources",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Microsoft Defender for Cloud Customer Newsletter",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-customer-newsletter/ba-p/4525656",
       "published": "2026-06-04T18:30:12+00:00",
@@ -11509,17 +11509,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Empower Smarter AI Agent Investments",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/empower-smarter-ai-agent-investments/ba-p/4466010",
-      "published": "2025-11-05T14:46:02+00:00",
-      "summary": "This curated series of modules is designed to equip technical and business decision-makers, including IT, developers, engineers, AI engineers, administrators, solution architects, business analysts, and technology managers, with the practical knowledge and guidance needed to make cost-conscious...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "Fernando_Vasconcellos",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "A Unified Experience for all Coding Agents",
       "link": "https://code.visualstudio.com/blogs/2025/11/03/unified-agent-experience",
       "published": "2025-11-05T00:00:00+00:00",
@@ -11749,18 +11738,7 @@
       "author": "ManjunathS",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Developer Tier APIM + Self-hosted Gateway",
-      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/developer-tier-apim-self-hosted-gateway/ba-p/4457556",
-      "published": "2025-09-27T16:45:43+00:00",
-      "summary": "Developer tier APIM enjoys many \"premium\" features such as vnet injection. FeatureConsumptionDeveloperBasicBasic v2StandardStandard v2PremiumPremium v2 (preview)Microsoft Entra integration1NoYesNoYesYesYesYesYesVirtual network injection supportNoYesNoNoNoNoYesYesPrivate endpoint support for inbound...",
-      "blog": "Azure PaaS",
-      "blogId": "azurepaasblog",
-      "author": "reve",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage is narrowly focused on AI model portability and local inference: the Azure Dev Community post walks through building “System One” decision models in ONNX using Mobius, emphasizing how models can move from Jev environments to a developer’s laptop. The key technologies highlighted are ONNX for interoperable model packaging and Mobius for creating lightweight decision models that can be executed outside centralized cloud infrastructure."
+  "summary": "Microsoft’s Azure blogs today centered on AI-driven development and operations: Microsoft introduced **voice agents in Azure AI Foundry**, new **Blazor AI components** for building **agentic UI** in .NET apps, and showcased multimodal generative AI pipelines that turn **camera imagery into shop-floor instructions**, alongside an ONNX/Mobius post on local “System One” decision models. On the data and platform side, Azure highlighted **SQLAlchemy 2.1’s native support for `mssql-python`**, plus **public preview local time zone support in Azure SQL Database**, while governance got a boost with the newly **open-sourced Azure Policy Linter**.\n\nSecurity was the other major theme: Microsoft detailed **NeedyMantis**, a post-compromise malware family tied to targeted intrusions, underscoring continued focus on enterprise defense as Azure expands AI, database, and developer tooling."
 }
