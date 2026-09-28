@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T02:06:00.941380+00:00",
+  "lastUpdated": "2026-09-28T09:01:24.391021+00:00",
   "totalArticles": 1069,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "From Jev to Your Laptop: Building \"System One\" Decision Models in ONNX with Mobius",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-jev-to-your-laptop-building-quot-system-one-quot-decision/ba-p/4558843",
+      "published": "2026-09-28T06:11:14+00:00",
+      "summary": "0. Why I'm writing this now Two things landed on my radar in the same week. First, TypeSafe AI published \"Introducing System One Models & Jev\" (Sep 15, 2026) and the developer community immediately started arguing about it. The pitch is unusual: instead of another chat model, Jev is described as \"a...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Enterprise managed settings in-product validator",
@@ -4301,17 +4312,6 @@
       "blogId": "azureobservabilityblog",
       "author": "AdiBiran",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Building Autonomous Agents with Microsoft Agent Framework and GitHub Copilot SDK Part 2/5",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-autonomous-agents-with-microsoft-agent-framework-and/ba-p/4541924",
-      "published": "2026-08-12T07:00:00+00:00",
-      "summary": "This is the second post in our series on the Microsoft agent platform. Here we dive deep into building autonomous agents, the development experience, the Microsoft Agent Framework, tool design patterns, and how the GitHub Copilot SDK brings conversational AI to your agent system. All examples...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -11761,5 +11761,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage is narrowly focused on AI model portability and local inference: the Azure Dev Community post walks through building “System One” decision models in ONNX using Mobius, emphasizing how models can move from Jev environments to a developer’s laptop. The key technologies highlighted are ONNX for interoperable model packaging and Mobius for creating lightweight decision models that can be executed outside centralized cloud infrastructure."
 }
