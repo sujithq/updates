@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T09:09:48.743940+00:00",
+  "lastUpdated": "2026-09-29T17:05:53.682953+00:00",
   "totalArticles": 1067,
   "articles": [
     {
@@ -11,6 +11,61 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "WSLC Architecture deep dive",
+      "link": "https://devblogs.microsoft.com/commandline/wslc-architecture-deep-dive/",
+      "published": "2026-09-29T17:00:19+00:00",
+      "summary": "WSL containers is now generally available! Check out this blog post to learn more about this overall feature enabling seamless access to Linux containers on Windows via the new “wslc.exe” command. This new Linux container platform comes with multiple architectures changes compared to WSL, which...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Pierre Boulay",
+      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Visual Studio September Update – Power Your Workflow with Your Model",
+      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-september-update-power-your-workflow-with-your-model/",
+      "published": "2026-09-29T16:00:04+00:00",
+      "summary": "Bring your own AI model with updates to BYOM, fix NuGet vulnerabilities from the Error List, explore pull requests with the Git agent, see which operand decides an if condition, and attach to Podman containers. The post Visual Studio September Update – Power Your Workflow with Your Model appeared...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mark Downie",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "DiskANN Vector Index and Vector Search Are Now Generally Available in Azure SQL",
+      "link": "https://devblogs.microsoft.com/azure-sql/diskann-vector-index-search-are-now-generally-available-in-azure-sql/",
+      "published": "2026-09-29T15:00:22+00:00",
+      "summary": "Today, we are announcing the general availability of DiskANN Vector Index & Search across Azure SQL Database, Azure SQL Managed Instance with the always-up-to-date update policy, and SQL database in Microsoft Fabric. DiskANN brings scalable approximate nearest-neighbor search directly to the SQL...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Pooja Kamath",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Developer policy update: Transparency, state policy, and what’s ahead",
+      "link": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead/",
+      "published": "2026-09-29T15:00:00+00:00",
+      "summary": "Explore GitHub’s latest transparency data and learn more about policy updates affecting developers and open source. The post Developer policy update: Transparency, state policy, and what’s ahead appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Margaret Tucker",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
+      "published": "2026-09-29T15:00:00+00:00",
+      "summary": "Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”. The post...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Threat Intelligence",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1444,17 +1499,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
-      "link": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
-      "published": "2026-09-17T00:26:43+00:00",
-      "summary": "A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took. The post Migrating the GitHub Copilot runtime to Rust, using Copilot appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Stephen Toub",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Running GitHub Actions Runner Controller on AKS Automatic",
       "link": "https://blog.aks.azure.com/2026/09/17/github-actions-runner-controller-aks-automatic",
       "published": "2026-09-17T00:00:00+00:00",
@@ -2146,17 +2190,6 @@
       "author": "kchoi",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Detect and disrupt AI-themed attacks with Microsoft Defender",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/10/detect-and-disrupt-ai-themed-attacks-with-microsoft-defender/",
-      "published": "2026-09-10T16:00:00+00:00",
-      "summary": "See how Microsoft Defender detects and disrupts AI-themed phishing, malware, and multi-stage attacks across the attack chain. The post Detect and disrupt AI-themed attacks with Microsoft Defender appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Rob Lefferts",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "[Launched] Generally Available: Azure Copilot Troubleshooting Agent",
@@ -3127,17 +3160,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Bacpac and Dacpac, the similarities and differences",
-      "link": "https://devblogs.microsoft.com/azure-sql/bacpac-and-dacpac-the-similarities-and-differences/",
-      "published": "2026-08-31T15:13:57+00:00",
-      "summary": "When you need to move an entire database or move the objects in a database, bacpac and dacpac files often come up because of all of the tooling options to interact with them. Bacpac and dacpac files share some core similarities as well as some major differences in how they’re used in SqlPackage and...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Drew Skwiers-Koballa",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "BizTalk Server 2020 End-of-Sale Announcement",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/biztalk-server-2020-end-of-sale-announcement/ba-p/4551317",
       "published": "2026-08-31T09:00:00+00:00",
@@ -3619,17 +3641,6 @@
       "blogId": "commandline",
       "author": "Niels Laute",
       "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Unlocking the Power of AI for Every Developer in Visual Studio with Bring your Own Model",
-      "link": "https://devblogs.microsoft.com/visualstudio/unlocking-the-power-of-ai-for-every-developer-in-visual-studio-with-bring-your-own-model/",
-      "published": "2026-08-24T22:39:41+00:00",
-      "summary": "The best AI in Visual Studio is the AI you can bring with you. Developers don’t work in a single-model world anymore. You might reach for one model for everyday coding, another for a domain-specific problem, and an approved model for work that must stay within your organization’s governance...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Tanmayee Kamath",
-      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
     },
     {
@@ -10156,17 +10167,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "PowerToys 0.98 is here: new Keyboard Manager UX, the Command Palette Dock and better CursorWrap!",
-      "link": "https://devblogs.microsoft.com/commandline/powertoys-0-98-is-here-new-keyboard-manager-ux-the-command-palette-dock-and-better-cursorwrap/",
-      "published": "2026-03-17T17:47:43+00:00",
-      "summary": "We’re back with a fresh PowerToys release – PowerToys 0.98! This month introduces the new Command Palette Dock, along with a refreshed Keyboard Manager experience and many other improvements across the utilities. You can grab the update by checking for updates in PowerToys or by heading to the...",
-      "blog": "Windows Command Line",
-      "blogId": "commandline",
-      "author": "Niels Laute",
-      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Porting C++ from IBM Power to x86: Solving Silent Endianness Corruption with C++and Github Copilot",
       "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/porting-c-from-ibm-power-to-x86-solving-silent-endianness/ba-p/4501666",
       "published": "2026-03-17T07:36:07+00:00",
@@ -11740,5 +11740,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts center on modernizing data and app development with AI, tighter Microsoft Fabric integration, and more secure cloud-native operations. The biggest announcements include new Microsoft SQL updates unveiled at SQLCon/FabCon Europe 2026, a hands-on pattern for building apps on Azure SQL using an AI coding agent, public preview of Azure Cosmos DB in the Microsoft Fabric Database Hub, and a secretless email-sending approach from Azure Kubernetes Service pods.\n\nAcross the posts, Microsoft is emphasizing developer productivity and security: Azure SQL is positioned as a foundation for AI-assisted app building, Cosmos DB is being brought closer into Fabric’s analytics and database experience, and AKS guidance shows how to use identity-based access instead of stored credentials for outbound email workflows."
+  "summary": "Today’s Azure and Microsoft developer posts centered on AI-assisted development, modern data platforms, and security hardening. Key announcements included the general availability of DiskANN vector indexing and vector search in Azure SQL, new Microsoft SQL capabilities highlighted at SQLCon/FabCon Europe 2026, public preview of Azure Cosmos DB in the Fabric Database Hub, and guidance for building apps on Azure SQL with an AI coding agent; on the tooling side, Visual Studio’s September update emphasized model-powered workflows, while the WSLC architecture deep dive focused on Windows command-line internals.\n\nSecurity and platform trust were also major themes: Microsoft detailed Star Blizzard’s updated RedFlick phishing and malware delivery technique, GitHub published a developer policy update on transparency and state-affiliated activity, and the AKS email post showed how to send email from a pod without storing secrets, pointing to stronger cloud-native identity practices."
 }
