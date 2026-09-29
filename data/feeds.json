@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T02:52:22.767973+00:00",
+  "lastUpdated": "2026-09-29T09:09:48.743940+00:00",
   "totalArticles": 1067,
   "articles": [
     {
@@ -12,6 +12,50 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "What’s new across Microsoft SQL at SQLCon/FabCon Europe 2026",
+      "link": "https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-at-sqlcon-fabcon-europe-2026/",
+      "published": "2026-09-29T07:30:04+00:00",
+      "summary": "Live From Barcelona Woo! I’m posting this live from the first ever European SQLCon (joint conference with FabCon EU), and the second ever SQLCon. The energy here is great, as the community comes together in Barcelona and as we prepare to go on the keynote stage and share what’s new! A heartfelt nod...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "How to build an app on Azure SQL with an AI coding agent",
+      "link": "https://devblogs.microsoft.com/azure-sql/build-app-azure-sql-ai-coding-agent/",
+      "published": "2026-09-29T07:05:16+00:00",
+      "summary": "Developers have trusted SQL for decades, since long before AI existed. Now coding agents help choose the database, and they favor the one they can get running in the first few minutes. So today we’re shipping two things for that moment. Microsoft SQL Agent Skills teach your coding agent how Azure...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Iqra Shaikh",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing Public Preview for Azure Cosmos DB in Fabric Database Hub!",
+      "link": "https://devblogs.microsoft.com/cosmosdb/announcing-public-preview-for-azure-cosmos-db-in-fabric-database-hub/",
+      "published": "2026-09-29T07:00:00+00:00",
+      "summary": "Azure Cosmos DB support in Fabric Database Hub is now available in public preview. For the first time, Azure Cosmos DB customers can discover and monitor their accounts from Database Hub alongside other Microsoft database engines. Database Hub provides a single place to view every Azure Cosmos DB...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Jai Maldonado",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Sending Email from an AKS Pod Without a Single Secret",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/sending-email-from-an-aks-pod-without-a-single-secret/ba-p/4556222",
+      "published": "2026-09-29T04:15:00+00:00",
+      "summary": "The problem You have a workload running in AKS that occasionally needs to send an email — a notification, an alert, a report. The obvious options all come with baggage: An SMTP relay means yet another credential to store, rotate, and eventually leak. A shared \"app password\" mailbox account means an...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Jamesdld23",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "[Launched] Generally Available: Vector search and vector indexes in Azure SQL",
@@ -69,6 +113,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "Claude Sonnet 5.5 is now available in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-sonnet-5-5-is-now-available-in-microsoft-foundry/ba-p/4559774",
+      "published": "2026-09-28T18:18:01+00:00",
+      "summary": "Today, Claude Sonnet 5.5 is available in Microsoft Foundry, bringing Anthropic’s latest Sonnet model to developers building AI applications and agents. Claude Sonnet 5.5 is a smarter, more efficient Sonnet, delivering a clear step forward from Sonnet 5 on coding and knowledge work with a lower cost...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "amar_badal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Introducing voice agents in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-voice-agents-in-microsoft-foundry/ba-p/4557276",
+      "published": "2026-09-28T18:09:24+00:00",
+      "summary": "Voice is quickly becoming a major way people interact with AI agents. Recent research found that 14% of users already prefer speaking with generative AI rather than typing1, signaling that voice interactions are moving beyond early-adopter use cases and toward the mainstream. As adoption grows,...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Yiwen_Rong",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Claude Sonnet 5.5 in GitHub Copilot",
       "link": "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot",
       "published": "2026-09-28T18:03:57+00:00",
@@ -111,17 +177,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Introducing voice agents in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-voice-agents-in-microsoft-foundry/ba-p/4557276",
-      "published": "2026-09-28T17:05:46+00:00",
-      "summary": "Voice is quickly becoming a major way people interact with AI agents. Recent research found that 14% of users already prefer speaking with generative AI rather than typing1, signaling that voice interactions are moving beyond early-adopter use cases and toward the mainstream. As adoption grows,...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Yiwen_Rong",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Build Agentic UI with the new Blazor AI components",
@@ -2654,17 +2709,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Bringing Open Models to Fireworks on Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/bringing-open-models-to-fireworks-on-microsoft-foundry/ba-p/4550173",
-      "published": "2026-09-03T14:00:00+00:00",
-      "summary": "Enterprises want faster access to capable open models, but they also need identity, governance, cost control, and a clear understanding of where data is processed. Fireworks on Microsoft Foundry is designed to bring those needs together: customers can discover and deploy supported open models...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "MuraliKumanduri",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Keep the evidence: Low-cost logs with Azure Copilot Observability Agent (Generally Available)",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/keep-the-evidence-low-cost-logs-with-azure-copilot-observability/ba-p/4550844",
       "published": "2026-09-03T12:00:00+00:00",
@@ -3116,17 +3160,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Try the new SqlClient and Retry connections natively",
-      "link": "https://devblogs.microsoft.com/azure-sql/sqlclient-retry/",
-      "published": "2026-08-29T05:47:40+00:00",
-      "summary": "Microsoft.Data.SqlClient includes configurable retry logic for SqlConnection and SqlCommand, giving .NET applications built-in resilience for transient SQL Server failures without requiring Polly. The post Try the new SqlClient and Retry connections natively appeared first on Azure SQL Dev Corner.",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[Launched] Generally Available: Workload identity support for Azure Files CSI driver (SMB) in Azure",
       "link": "https://azure.microsoft.com/updates?id=570120",
       "published": "2026-08-28T20:25:22+00:00",
@@ -3432,17 +3465,6 @@
       "blogId": "terraform",
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
-      "title": "New Azure SQL Foundations video series with GitHub samples",
-      "link": "https://devblogs.microsoft.com/azure-sql/new-azure-sql-foundations-video-series-with-github-samples/",
-      "published": "2026-08-26T12:37:45+00:00",
-      "summary": "Bob Ward and I recently released a series of videos, read more in the original blog post or go directly to the series on YouTube. The Azure SQL Database Foundations series are four videos that take you from your first Hyperscale database to AI features running against your own operational data. We...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Anna Hoffman",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
     },
     {
@@ -4257,17 +4279,6 @@
       "blogId": "integrationsonazureblog",
       "author": "tomkerkhovemicrosoft",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Building MCP servers for your database: Flexibility, safety, and tradeoffs",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-mcp-servers-for-your-database-flexibility-safety-and/ba-p/4546385",
-      "published": "2026-08-13T04:30:00+00:00",
-      "summary": "Model Context Protocol (MCP) is an open protocol that describes how agents can connect to external tools and data sources, and is now widely supported by the most popular coding agents (like GitHub Copilot, Claude Code, and Codex) and agent frameworks (like LangChain and Pydantic AI). If you want...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -6325,17 +6336,6 @@
       "blogId": "foundryblog",
       "author": "Nick Brady",
       "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "See our new Azure Cosmos DB Design Patterns",
-      "link": "https://devblogs.microsoft.com/cosmosdb/see-our-new-azure-cosmos-db-design-patterns/",
-      "published": "2026-07-06T20:20:06+00:00",
-      "summary": "Design patterns are where good data modeling lives or dies. In a NoSQL database like Azure Cosmos DB, the difference between a schema that scales to millions of operations per second and one that fights you at every turn usually comes down to a handful of well‑understood patterns: how you...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Mark Brown",
-      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
     },
     {
@@ -11739,5 +11739,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure posts center on modernizing data and app development with AI, tighter Microsoft Fabric integration, and more secure cloud-native operations. The biggest announcements include new Microsoft SQL updates unveiled at SQLCon/FabCon Europe 2026, a hands-on pattern for building apps on Azure SQL using an AI coding agent, public preview of Azure Cosmos DB in the Microsoft Fabric Database Hub, and a secretless email-sending approach from Azure Kubernetes Service pods.\n\nAcross the posts, Microsoft is emphasizing developer productivity and security: Azure SQL is positioned as a foundation for AI-assisted app building, Cosmos DB is being brought closer into Fabric’s analytics and database experience, and AKS guidance shows how to use identity-based access instead of stored credentials for outbound email workflows."
 }
