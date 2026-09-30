@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T17:03:29.071170+00:00",
+  "lastUpdated": "2026-09-30T21:35:01.313044+00:00",
   "totalArticles": 1071,
   "articles": [
     {
@@ -12,6 +12,149 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Opt-in dist-tag permissions for npm trusted publishing",
+      "link": "https://github.blog/changelog/2026-09-30-opt-in-dist-tag-permissions-for-npm-trusted-publishing",
+      "published": "2026-09-30T21:03:09+00:00",
+      "summary": "Trusted publishing configurations for npm can now be granted permission to manage dist-tags (e.g., promoting a version to latest, updating next and beta pointers) using short-lived OIDC credentials instead of… The post Opt-in dist-tag permissions for npm trusted publishing appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "​​Secure what’s next: Your guide to Microsoft Security at Microsoft Ignite 2026",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/30/secure-whats-next-your-guide-to-microsoft-security-at-microsoft-ignite-2026/",
+      "published": "2026-09-30T19:31:00+00:00",
+      "summary": "This year at Microsoft Ignite, we spotlight our AI-first, end-to-end security platform designed to protect identities, devices, data, applications, clouds, infrastructure, and the AI agents now working alongside your teams. The post ​​Secure what’s next: Your guide to Microsoft Security at...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Lindsay Myers",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Bring Azure Logic Apps connectors into your .NET applications with the Azure Connectors SDK",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/bring-azure-logic-apps-connectors-into-your-net-applications/ba-p/4555823",
+      "published": "2026-09-30T19:29:35+00:00",
+      "summary": "Modern business applications rarely work in isolation. An order exception might need an email, a support case might need a Teams notification, and a completed document might need to be stored in SharePoint. Developers can build each integration directly against a service API, but that also means...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "David_Burg",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Everything released in September 2026 for Azure Developer CLI",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-september-2026/",
+      "published": "2026-09-30T18:45:59+00:00",
+      "summary": "The September recap for the Azure Developer CLI (`azd`). Extension management gains dependency-aware uninstall and versioned contracts, project configuration adds top-level infrastructure and service layers, deployment phases support concurrency limits, and external authentication hosts can use...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Kristen Womack",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Retirement: NVv3-series Azure Virtual Machines",
+      "link": "https://azure.microsoft.com/updates?id=573414",
+      "published": "2026-09-30T18:26:47+00:00",
+      "summary": "On September 30, 2026, Microsoft Azure retired the Standard_NV12s_v3, Standard_NV12hs_v3, Standard_NV24s_v3, Standard_NV24ms_v3, Standard_NV32ms_v3, and Standard_NV48s_v3 virtual machines (VMs) in the NVv3-series VMs.Any remaining NVv3-series VMs will be",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Retirement: NVv4-series Azure Virtual Machines",
+      "link": "https://azure.microsoft.com/updates?id=573415",
+      "published": "2026-09-30T18:24:01+00:00",
+      "summary": "On September 30, 2026, Microsoft Azure retired the Standard_NV4as_v4, Standard_NV4ahs_v4, Standard_NV8as_v4, Standard_NV8ahs_v4, Standard_NV16as_v4, Standard_NV16ahs_v4, Standard_NV32as_v4, and Standard_NV32ahs_v4 virtual machines (VMs) in the NVv4-series",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "From \"Agent Deployed\" to \"Agent Ready\" - Agent Acceptance Gateway",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-quot-agent-deployed-quot-to-quot-agent-ready-quot-agent/ba-p/4558096",
+      "published": "2026-09-30T18:00:00+00:00",
+      "summary": "A Microsoft Foundry handover story The infrastructure team has finished the AI landing zone. The Microsoft Foundry project exists. The prompt agent is already created, connected to its model, and configured with the tools or connections it needs. That is an important milestone, but it is not the...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "SudhirRawat",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Announcing general availability of Azure Intel® TDX confidential VMs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-general-availability-of-azure-intel-tdx-confidential/ba-p/4495693",
+      "published": "2026-09-30T17:39:21+00:00",
+      "summary": "We’re excited to announce the general availability of Azure’s next generation of confidential virtual machines, powered by 5th Gen Intel® Xeon® processors with Intel® Trust Domain Extensions (Intel® TDX). These new confidential VMs make it easier than ever for organizations to move their most...",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "simranparkhe",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureconfidentialcomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[In preview] Public Preview: Ubuntu 26.04 support in AKS",
+      "link": "https://azure.microsoft.com/updates?id=573214",
+      "published": "2026-09-30T17:11:11+00:00",
+      "summary": "Teams running Ubuntu node pools on AKS need to stay current with Ubuntu LTS releases, but each OS transition can introduce package footprint, security, and compatibility concerns. Ubuntu 26.04 support introduces the Ubuntu2604 OS SKU using Ubuntu Minimal",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing: Azure canvases for GitHub Copilot",
+      "link": "https://azure.microsoft.com/updates?id=573385",
+      "published": "2026-09-30T17:09:51+00:00",
+      "summary": "Discover Azure canvases for GitHub Copilot, interactive shared workspaces that bring Azure tools, dashboards, and guided workflows directly alongside your Copilot conversations. Explore Azure resources, analyze costs, and build hosted skills while keeping",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Retirement: Dv3, Dsv3, Ev3, and Esv3 Azure VMs",
+      "link": "https://azure.microsoft.com/updates?id=572346",
+      "published": "2026-09-30T17:07:30+00:00",
+      "summary": "As part of the Microsoft Azure VM lifecycle policy, Microsoft is announcing the retirement of the Dv3, Dsv3, Ev3, and Esv3 Azure VM series in public cloud Azure regions. These VMs will enter the End-of-Life lifecycle stage and retire on November 15, 2029.",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Updates to Copilot Code Reviews for Azure Repos",
+      "link": "https://devblogs.microsoft.com/devops/updates-to-copilot-code-reviews-for-azure-repos/",
+      "published": "2026-09-30T17:05:16+00:00",
+      "summary": "We announced the public preview of Copilot Code Review for Azure Repos in late August. Since then, we have continued to make improvements, fix bugs, and add new features. We wanted to share an update on some of the recent changes. Effort levels The effort level controls how much time Copilot spends...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Dan Hellem",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Microsoft and IBM bring enterprise-scale workload orchestration to Azure with IBM Spectrum Symphony",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/microsoft-and-ibm-bring-enterprise-scale-workload-orchestration/ba-p/4560890",
+      "published": "2026-09-30T17:00:00+00:00",
+      "summary": "Enterprises running large scale AI, Analytic, and High-Performance Computing (HPC) environments need more than just infrastructure. They need to dynamically match thousands of jobs with available capacity while balancing performance, resilience, availability, and cost. Today, Microsoft Azure and...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "DanaCozmei",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Visual Studio Code 1.140",
@@ -36,6 +179,28 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "GitHub Advanced Security trials for GitHub Team",
+      "link": "https://github.blog/changelog/2026-09-30-github-advanced-security-trials-for-github-team",
+      "published": "2026-09-30T16:48:24+00:00",
+      "summary": "GitHub Team customers can now start self-serve trials of GitHub Advanced Security to evaluate GitHub Code Security and GitHub Secret Protection. Start a trial from your organization’s Overview page, Billing… The post GitHub Advanced Security trials for GitHub Team appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Episode 2: Reduce restarts with Hotpatch for Windows Server 2025 | The Azure Arc Check-In",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/episode-2-reduce-restarts-with-hotpatch-for-windows-server-2025/ba-p/4557249",
+      "published": "2026-09-30T16:37:45+00:00",
+      "summary": "Once a month, the Azure Arc team releases an episode covering a new hybrid and multicloud management scenario. To request a topic or view additional episodes, visit aka.ms/the-azure-arc-check-in. Scenario: Your infrastructure team needs to apply monthly security updates across hybrid Windows...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Mason_Torres",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Now generally available: Regional resiliency for Azure Virtual Desktop",
       "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/now-generally-available-regional-resiliency-for-azure-virtual/ba-p/4540458",
       "published": "2026-09-30T16:06:24+00:00",
@@ -44,6 +209,17 @@
       "blogId": "azurevirtualdesktopblog",
       "author": "Vidya_Iyer",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurevirtualdesktopblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "What’s new in Microsoft Sentinel: September 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-september-2026/ba-p/4560902",
+      "published": "2026-09-30T16:00:00+00:00",
+      "summary": "Welcome back to What's new in Microsoft Sentinel. In September, Case Management brings investigation and collaboration together in Microsoft Defender, with a shared workspace to track work through resolution. Defender unified RBAC custom roles for granular delegated admin privileges (GDAP) give you...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "vkokkengada",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -69,6 +245,28 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "HydraFusion in VS Code and the GitHub Copilot app",
+      "link": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app",
+      "published": "2026-09-30T14:31:19+00:00",
+      "summary": "The HydraFusion research preview is now available in Visual Studio Code and the GitHub Copilot app, expanding beyond Copilot CLI. HydraFusion appears in the model picker, but rather than being… The post HydraFusion in VS Code and the GitHub Copilot app appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Bring managed browser automation to your agent applications",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bring-managed-browser-automation-to-your-agent-applications/ba-p/4561184",
+      "published": "2026-09-30T14:25:38+00:00",
+      "summary": "AI agents become more useful when they can move beyond conversation and complete real workflows. Playwright Cloud Browsers provides managed, on-demand browser capacity that agent applications can access through Model Context Protocol (MCP). You can connect Playwright Cloud Browsers to agent...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Arun_Kumar_Thiagarajan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
       "published": "2026-09-30T14:00:00+00:00",
@@ -88,6 +286,17 @@
       "blogId": "cosmosdbblog",
       "author": "Madeline Egan",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "X25519-only TLS ends for GHE.com on October 7",
+      "link": "https://github.blog/changelog/2026-09-30-x25519-only-tls-ends-for-ghe-com-on-september-15",
+      "published": "2026-09-30T13:30:24+00:00",
+      "summary": "Beginning October 7, 2026, GitHub Enterprise Cloud with data residency will no longer accept TLS connections from clients that offer only X25519 for key agreement. Most customers don’t need to… The post X25519-only TLS ends for GHE.com on October 7 appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -111,6 +320,28 @@
       "author": "Jai Maldonado",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Using Jev with Agents in Microsoft Foundry for Model Evaluation",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/using-jev-with-agents-in-microsoft-foundry-for-model-evaluation/ba-p/4559851",
+      "published": "2026-09-30T07:00:00+00:00",
+      "summary": "What is Jev? Jev is a new AI model from TypeSafe AI, first released in early access on 15 September 2026. TypeSafe describes Jev as its first “System One” model, designed specifically to make fast, structured decisions rather than generate free-form text. You provide Jev with some state or context...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Robin_Lester",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure Databricks Cost and Workload Assessment: a Local Web UI",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/azure-databricks-cost-and-workload-assessment-a-local-web-ui/ba-p/4560943",
+      "published": "2026-09-30T03:26:49+00:00",
+      "summary": "Table of Contents Introduction 1. What you can assess 2. The five-step workflow Configure Validate Run analysis Visualize results Review & export 3. Reopen saved assessments 4. Architecture and collection flow 5. Get started Try it Learn more Contribute Introduction To review an Azure Databricks...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "varghesejoji",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Introducing GPT-6.1 Sol in Microsoft Foundry: Advanced intelligence, optimized for production agents",
@@ -883,39 +1114,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Usage metrics API adds pull request review stages",
-      "link": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
-      "published": "2026-09-25T21:09:40+00:00",
-      "summary": "The enterprise and organization repository-level Copilot usage metrics reports now break down how long pull requests spend in each stage of review. A new pull_request_review_times array on each repos-1-day row… The post Usage metrics API adds pull request review stages appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Private saved views for repository issues and “Relates to” issue relationship is generally available",
-      "link": "https://github.blog/changelog/2026-09-25-personal-saved-views-for-repository-issues-and-more",
-      "published": "2026-09-25T19:05:03+00:00",
-      "summary": "Private saved views for repository issues Repository issues pages now support private saved views, making it easier to create and save personalized views of your issues. “Relates to” issue relationship… The post Private saved views for repository issues and “Relates to” issue relationship is...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Changes to query results in the GitHub Actions API and UI",
-      "link": "https://github.blog/changelog/2026-09-25-changes-to-query-results-in-the-github-actions-api-and-ui",
-      "published": "2026-09-25T18:17:06+00:00",
-      "summary": "Queries for workflow runs in the GitHub Actions API and UI now return a less precise but more accurate count of records when you search by workflow, event, status, branch,… The post Changes to query results in the GitHub Actions API and UI appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[In preview] Public Preview: Azure HorizonDB supports PostgreSQL 18",
       "link": "https://azure.microsoft.com/updates?id=573048",
       "published": "2026-09-25T18:07:26+00:00",
@@ -935,17 +1133,6 @@
       "blogId": "githubblog",
       "author": "Kayla Cinnamon",
       "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Agentic autofix now uses Copilot Memory",
-      "link": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
-      "published": "2026-09-25T17:25:50+00:00",
-      "summary": "Agentic autofix now uses Copilot Memory for customers who’ve enabled it. When you use agentic autofix, it reviews existing memories for context that can help resolve security alerts. When it… The post Agentic autofix now uses Copilot Memory appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1521,17 +1708,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Unmasking EvilTokens: Getting to the root of device code phishing",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/",
-      "published": "2026-09-22T15:00:00+00:00",
-      "summary": "EvilTokens has quickly become one of the top PhaaS platforms, enabling device code phishing attacks through AI-assisted lures, automated infrastructure, and token theft. In collaboration with partners, Microsoft Digital Crimes Unit (DCU) facilitated a disruption of EvilTokens infrastructure and...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Threat Intelligence, Microsoft Defender Experts and Microsoft Security Research",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Expanding access to specialized GPU infrastructure through Dapple and Azure",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/expanding-access-to-specialized-gpu-infrastructure-through/ba-p/4558663",
       "published": "2026-09-22T14:53:54+00:00",
@@ -1604,7 +1780,7 @@
       "summary": "Azure Functions already gives you a familiar way to build event-driven apps. A queue message, HTTP request, timer, or event triggers the code that handles the work. Azure Functions hosted skills (formerly Serverless Agents) add AI reasoning to that model. A hosted skill can read a request, use the...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "greenie-msft",
+      "author": "NickGreenfield",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -3061,17 +3237,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "It Wasn't the Private Endpoint: Why the Foundry Playground Breaks Behind Private Networking",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/it-wasn-t-the-private-endpoint-why-the-foundry-playground-breaks/ba-p/4552771",
-      "published": "2026-09-04T18:00:00+00:00",
-      "summary": "A team enables private networking on Microsoft Foundry, disables public access, wires up the private endpoints, and confirms DNS resolves. Then someone opens the chat playground in the portal and gets an error saying private networking is blocking access. Sometimes it works. Then it stops, and once...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Madhura Amlekar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "What’s new in Azure Firewall: Recent innovations",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/what-s-new-in-azure-firewall-recent-innovations/ba-p/4552987",
       "published": "2026-09-04T15:48:26+00:00",
@@ -4051,17 +4216,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Azure SRE Agent: Introducing Live Reports",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-introducing-live-reports/ba-p/4549732",
-      "published": "2026-08-25T15:00:00+00:00",
-      "summary": "Today we're introducing Live Reports in Azure SRE Agent, now in public preview. You describe a dashboard in chat; the agent builds it, and it refreshes every time you open it. Ops teams ask the same handful of questions every morning: What's burning right now? What landed overnight? Who's on call?...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "yashnisar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Try Azure SRE Agent with no always-on charges",
       "link": "https://devblogs.microsoft.com/blog/try-azure-sre-agent-with-no-always-on-charges/",
       "published": "2026-08-25T15:00:00+00:00",
@@ -4612,17 +4766,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Running Hosted Agents in Microsoft Foundry Agent Service Part 3/5",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/running-hosted-agents-in-microsoft-foundry-agent-service-part-3/ba-p/4541933",
-      "published": "2026-08-14T07:00:00+00:00",
-      "summary": "This is the third post in our series on the Microsoft agent platform. We focus on the Run in Foundry pillar, taking agents from development to production with Hosted Agents, the Agent Optimizer, Routines, Memory, Toolboxes, and Tracing. All examples reference the FibreOps repository, demonstrated...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Git-APE SaaS Factory",
       "link": "https://devblogs.microsoft.com/all-things-azure/git-ape-saas-factory/",
       "published": "2026-08-14T05:29:31+00:00",
@@ -4632,17 +4775,6 @@
       "author": "davidwright, Arnaud Lheureux, Suzanne Daniels",
       "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Tableau to Power BI Migration: Semantic Layer-First Approach for Cloud Architects",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/tableau-to-power-bi-migration-semantic-layer-first-approach-for/ba-p/4481009",
-      "published": "2026-08-14T04:27:25+00:00",
-      "summary": "Author's: Mahjabin Ahmed, Yassine El Ouardi, Lavanya Sreedhar LavanyaSreedhar​, Peter Lo PeterLo​, Aryan Anmol aryananmol​, Shreya Harvu shreyaharvu​ and Rafia Aqil Rafia_Aqil​ In this guide, we provide practical guidance for migrating from Tableau to Power BI, with a focus on technical best...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Update WCF Relay applications to use TLS 1.2 or later",
@@ -5789,17 +5921,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Find any commit in seconds: Commit Search comes to Azure DevOps",
-      "link": "https://devblogs.microsoft.com/devops/find-any-commit-in-seconds-commit-search-comes-to-azure-devops/",
-      "published": "2026-07-28T15:24:55+00:00",
-      "summary": "Great code has a long memory. The fix you shipped last quarter, the refactor that touched a dozen files, the one-line change that explained why something works the way it does — it’s all there in your commit history. The hard part has always been finding it. Today, we’re excited to announce that...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Alex Pysanets",
-      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Azure landing zone (ALZ) enters its next chapter",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-landing-zone-alz-enters-its-next-chapter/ba-p/4533520",
       "published": "2026-07-28T10:22:02+00:00",
@@ -6095,17 +6216,6 @@
       "author": "Waldek Mastykarz",
       "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Hybrid Logic Apps Deployment on Red Hat OpenShift",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hybrid-logic-apps-deployment-on-red-hat-openshift/ba-p/4534828",
-      "published": "2026-07-21T05:13:20+00:00",
-      "summary": "What makes OpenShift different? If you've done this on K3s or AKS, most of the flow is identical as mentioned in Set up your own infrastructure for Standard logic app workflows - Azure Logic Apps | Microsoft Learn. Two OpenShift specifics are worth flagging up front. First, SCCs: the default...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "anandgmenon",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Introducing Azure Front Door edge actions - Bringing secure, programmable logic to the edge",
@@ -7186,17 +7296,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[In preview] Public Preview: Application Gateway for Containers – Inference gateway",
-      "link": "https://azure.microsoft.com/updates?id=566516",
-      "published": "2026-06-24T19:00:43+00:00",
-      "summary": "Application Gateway for Containers is extending its ingress gateway feature set with new AI gateway capabilities. The new inference gateway capability brings the Kubernetes Gateway API Inference Extension to Application Gateway for Containers, enabling lo",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "A guide to innovating threat hunting with Microsoft Sentinel custom graph",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/a-guide-to-innovating-threat-hunting-with-microsoft-sentinel/ba-p/4530287",
       "published": "2026-06-24T18:06:41+00:00",
@@ -7239,17 +7338,6 @@
       "author": "GeertVanTeylingen",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "[In preview] Generally Available: Azure NetApp Files migration assistant",
-      "link": "https://azure.microsoft.com/updates?id=565480",
-      "published": "2026-06-23T20:15:55+00:00",
-      "summary": "Azure NetApp Files migration assistant (with SnapMirror) provides efficient and cost-effective data migration leveraging ONTAP's built-in replication engine for seamless transition from on-premises or CVO/other cloud providers to Azure NetApp Files (ANF).",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
     },
     {
       "title": "Azure Copilot Observability Agent is generally available, with autonomous operations in preview",
@@ -7461,39 +7549,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "[In preview] Public Preview: Azure Migrate – GitHub Copilot Modernization integration for at scale code assessments",
-      "link": "https://azure.microsoft.com/updates?id=566145",
-      "published": "2026-06-17T18:00:18+00:00",
-      "summary": "Azure Migrate now integrates with GitHub Copilot Modernization (public preview) to deliver at scale code insights. This capability brings together Azure Migrate’s portfolio-level discovery and assessment with GitHub Copilot’s context-aware code analysis.",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure Databricks native read access to Microsoft OneLake",
-      "link": "https://azure.microsoft.com/updates?id=565733",
-      "published": "2026-06-17T18:00:18+00:00",
-      "summary": "Azure Databricks now supports native read access to data stored in Microsoft OneLake through Unity Catalog. This capability is generally available. Customers can query and analyze data directly in OneLake without moving or copying data, enabling faster ac",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Azure Databricks natively storing data in Microsoft OneLake",
-      "link": "https://azure.microsoft.com/updates?id=565706",
-      "published": "2026-06-17T18:00:18+00:00",
-      "summary": "Azure Databricks can now natively write managed Delta tables to Microsoft OneLake. This capability enables customers to use OneLake as a unified storage layer for Azure Databricks workloads without managing separate storage accounts. By storing data direc",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "ICMP Support for Azure StandardV2 NAT Gateway",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/icmp-support-for-azure-standardv2-nat-gateway/ba-p/4528374",
       "published": "2026-06-17T17:44:22+00:00",
@@ -7634,17 +7689,6 @@
       "blogId": "azureobservabilityblog",
       "author": "Efrat_Ben_Porat",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Announcing Public Preview: Agent Identities Asset Connector for Microsoft Sentinel",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/announcing-public-preview-agent-identities-asset-connector-for/ba-p/4527960",
-      "published": "2026-06-16T17:00:01+00:00",
-      "summary": "As organizations accelerate adoption of AI agents across Microsoft 365 and enterprise environments, security teams face a fundamental shift: Agents are becoming first-class identities and securing them requires understanding both their behavior and their identity context. We are excited to announce...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Krishna_Sagar_B_V",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -7931,17 +7975,6 @@
       "blogId": "azurestorageblog",
       "author": "grace_kim",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Ansible + Azure Arc: Use Ansible modules to deploy and manage Azure Arc machine extensions at scale",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/ansible-azure-arc-use-ansible-modules-to-deploy-and-manage-azure/ba-p/4521689",
-      "published": "2026-06-05T18:05:16+00:00",
-      "summary": "We are making Azure Arc extensible and increasing the flexibility of the tooling you can use to operate your machines using Azure’s control plane. We are excited to announce new modules in Ansible Galaxy that make it easier to manage Azure Arc machine extensions at scale. With the latest updates to...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "alinetran",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8515,17 +8548,6 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Announcing general availability of Azure Intel® TDX confidential VMs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-general-availability-of-azure-intel-tdx-confidential/ba-p/4495693",
-      "published": "2026-05-26T16:01:24+00:00",
-      "summary": "We’re excited to announce the general availability of Azure’s next generation of confidential virtual machines, powered by 5th Gen Intel® Xeon® processors with Intel® Trust Domain Extensions (Intel® TDX). These new confidential VMs make it easier than ever for organizations to move their most...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "simranparkhe",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureconfidentialcomputingblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "From Scale to Breakthrough: Azure NetApp Files Sets a New Cloud Benchmark for EDA Performance",
@@ -9793,17 +9815,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Stop juggling package managers—just run `azd update`",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azd-update/",
-      "published": "2026-04-14T19:24:08+00:00",
-      "summary": "Update the Azure Developer CLI with a single command on any platform and switch release channels. The post Stop juggling package managers—just run `azd update` appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Kristen Womack",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Release 2026-04-02",
       "link": "https://github.com/Azure/AKS/releases/tag/2026-04-02",
       "published": "2026-04-14T06:26:28+00:00",
@@ -10704,17 +10715,6 @@
       "author": "VS Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Azure Automated Virtual Machine Recovery: Minimizing Downtime",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/azure-automated-virtual-machine-recovery-minimizing-downtime/ba-p/4483166",
-      "published": "2026-02-04T19:23:11+00:00",
-      "summary": "Co-authors: Mukhtar Ahmed, Shekhar Agrawal, Harish Luckshetty, Vinay Nagarajan, Jie Su, Sri Harsha Kanukuntla, David Maldonado, Shardul Dabholkar. Keeping virtual machines running smoothly is essential for businesses across every industry. When a VM stays down for even a short period, the impact...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "Jon_Andoni_Baranda",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Azure Virtual Desktop is now available in US Gov Texas in Azure Government",
@@ -11784,5 +11784,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news centered on AI platform advances in Microsoft Foundry and infrastructure resilience: Microsoft highlighted **Cohere Embed V5** for higher-quality retrieval, **auto retrieval reasoning effort** to let queries dynamically choose retrieval depth, **dynamic AI routing** via the **Foundry Models router/RouteLab**, and the new **GPT-6.1 Sol** model aimed at production-grade agents. On the platform side, Microsoft announced **regional resiliency for Azure Virtual Desktop** is now generally available, **AKS on bare metal now supports Ubuntu**, and **Cosmos DB** added both a **migration path for Elasticsearch users** and **Fabric mirroring support for Virtual Network Data Gateways**.\n\nSecurity and developer tooling were also notable themes: Microsoft published guidance on **CVE-2026-73570**, an **unauthenticated command injection** issue affecting internet-facing mail servers, while **Visual Studio Code 1.140** and the latest **Agent 365** update rounded out the day’s product news."
+  "summary": "Today’s Azure news was led by AI, security, and platform modernization: Microsoft highlighted Ignite 2026 security priorities, September updates for Microsoft Sentinel, GitHub Advanced Security trials for GitHub Team, and new npm trusted publishing controls, while Azure AI Foundry added Agent Acceptance Gateway, Cohere Embed V5 for higher-quality retrieval, and updates across Agent 365. On the developer and app platform side, Microsoft shipped the Azure Connectors SDK to bring Azure Logic Apps connectors into .NET apps, released September updates for Azure Developer CLI, announced Azure canvases for GitHub Copilot and Copilot Code Reviews improvements for Azure Repos, and added preview support for Ubuntu 26.04 in AKS alongside VS Code 1.140.\n\nInfrastructure announcements focused on enterprise readiness and lifecycle changes: Azure Intel TDX confidential VMs reached general availability, Azure Virtual Desktop added regional resiliency, Azure Arc promoted Hotpatch for Windows Server 2025, and Microsoft partnered with IBM to bring Spectrum Symphony workload orchestration to Azure. At the same time, Microsoft issued multiple retirement notices for NVv3, NVv4, Dv3/Dsv3, and Ev3/Esv3 VM series, signaling continued pressure to migrate to newer compute generations."
 }
