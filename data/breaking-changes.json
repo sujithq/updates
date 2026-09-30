@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T13:35:45.317956+00:00",
+  "lastUpdated": "2026-09-30T14:50:34.303491+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -1540,6 +1540,50 @@
       "detected": "2026-09-25T13:35:45.317951+00:00",
       "published": "2026-09-24T15:05:05+00:00",
       "blog": "Integrations on Azure"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=570800",
+      "title": "Retirement: Azure Functions v1 hosting model on Azure Container Apps",
+      "severity": "warning",
+      "deadline": "2027-09-29",
+      "impact": "Functions v1 on Azure Container Apps stops running for existing users",
+      "action": "Migrate Function apps off v1 hosting model before retirement",
+      "detected": "2026-09-30T14:50:34.303469+00:00",
+      "published": "2026-09-29T19:41:09+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=570283",
+      "title": "Retirement: Azure Arc enabled System Center Virtual Machine Manager will be retired September 30, 2029",
+      "severity": "warning",
+      "deadline": "2029-09-30",
+      "impact": "Azure Arc-enabled SCVMM retires; users must move to alternatives",
+      "action": "Plan transition from Arc-enabled SCVMM to alternative solutions",
+      "detected": "2026-09-30T14:50:34.303481+00:00",
+      "published": "2026-09-29T17:36:13+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=570046",
+      "title": "Retirement: Microsoft HPC Pack",
+      "severity": "warning",
+      "deadline": "2027-08-27",
+      "impact": "All HPC Pack versions reach end of support; limited support now",
+      "action": "Plan migration off HPC Pack before end of support",
+      "detected": "2026-09-30T14:50:34.303485+00:00",
+      "published": "2026-09-29T17:26:50+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=569914",
+      "title": "Retirement: Azure IoT Central will be retired on September 20, 2029",
+      "severity": "warning",
+      "deadline": "2029-09-20",
+      "impact": "Azure IoT Central retires; customers should transition before 2029",
+      "action": "Start planning migration from Azure IoT Central early",
+      "detected": "2026-09-30T14:50:34.303488+00:00",
+      "published": "2026-09-29T17:25:10+00:00",
+      "blog": "Azure Updates"
     }
   ]
 }
