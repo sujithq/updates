@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T02:34:02.317483+00:00",
+  "lastUpdated": "2026-09-30T09:04:46.247665+00:00",
   "totalArticles": 1068,
   "articles": [
     {
@@ -12,6 +12,39 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Cosmos DB Mirroring in Fabric Now Supports Virtual Network Data Gateways",
+      "link": "https://devblogs.microsoft.com/cosmosdb/cosmos-db-mirroring-in-fabric-now-supports-virtual-network-data-gateways/",
+      "published": "2026-09-30T07:00:35+00:00",
+      "summary": "Azure Cosmos DB mirroring in Microsoft Fabric now offers a simpler way to connect accounts secured by private endpoints or virtual networks. A virtual network data gateway provisioned inside your own virtual network keeps public network access disabled throughout setup and ongoing replication. This...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Jai Maldonado",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Using Jev with Agents in Microsoft Foundry for Model Evaluation",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/using-jev-with-agents-in-microsoft-foundry-for-model-evaluation/ba-p/4559851",
+      "published": "2026-09-30T07:00:00+00:00",
+      "summary": "What is Jev? Jev is a new AI model from TypeSafe AI, first released in early access on 15 September 2026. TypeSafe describes Jev as its first “System One” model, designed specifically to make fast, structured decisions rather than generate free-form text. You provide Jev with some state or context...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Robin_Lester",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure Databricks Cost and Workload Assessment: a Local Web UI",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/azure-databricks-cost-and-workload-assessment-a-local-web-ui/ba-p/4560943",
+      "published": "2026-09-30T03:26:49+00:00",
+      "summary": "Table of Contents Introduction 1. What you can assess 2. The five-step workflow Configure Validate Run analysis Visualize results Review & export 3. Reopen saved assessments 4. Architecture and collection flow 5. Get started Try it Learn more Contribute Introduction To review an Azure Databricks...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "varghesejoji",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Introducing GPT-6.1 Sol in Microsoft Foundry: Advanced intelligence, optimized for production agents",
@@ -4557,17 +4590,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Running Hosted Agents in Microsoft Foundry Agent Service Part 3/5",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/running-hosted-agents-in-microsoft-foundry-agent-service-part-3/ba-p/4541933",
-      "published": "2026-08-14T07:00:00+00:00",
-      "summary": "This is the third post in our series on the Microsoft agent platform. We focus on the Run in Foundry pillar, taking agents from development to production with Hosted Agents, the Agent Optimizer, Routines, Memory, Toolboxes, and Tracing. All examples reference the FibreOps repository, demonstrated...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Git-APE SaaS Factory",
       "link": "https://devblogs.microsoft.com/all-things-azure/git-ape-saas-factory/",
       "published": "2026-08-14T05:29:31+00:00",
@@ -4577,17 +4599,6 @@
       "author": "davidwright, Arnaud Lheureux, Suzanne Daniels",
       "feedUrl": "https://devblogs.microsoft.com/all-things-azure/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Tableau to Power BI Migration: Semantic Layer-First Approach for Cloud Architects",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/tableau-to-power-bi-migration-semantic-layer-first-approach-for/ba-p/4481009",
-      "published": "2026-08-14T04:27:25+00:00",
-      "summary": "Author's: Mahjabin Ahmed, Yassine El Ouardi, Lavanya Sreedhar LavanyaSreedhar​, Peter Lo PeterLo​, Aryan Anmol aryananmol​, Shreya Harvu shreyaharvu​ and Rafia Aqil Rafia_Aqil​ In this guide, we provide practical guidance for migrating from Tableau to Power BI, with a focus on technical best...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Update WCF Relay applications to use TLS 1.2 or later",
@@ -6623,17 +6634,6 @@
       "author": "Efrat_Ben_Porat",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Building on Vercel’s eve + Azure Cosmos DB: An Agent That Remembers",
-      "link": "https://devblogs.microsoft.com/cosmosdb/cosmos-db-agent-memory/",
-      "published": "2026-07-08T14:56:27+00:00",
-      "summary": "Most “AI agent” demos forget everything the moment the process exits. That’s fine for a toy project, but useless for anything real. An agent that helps you write, triage, or support needs two things a language model alone can’t give it: durable state and the ability to recall the right context by...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Sajeetharan Sinnathurai",
-      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Announcing etcd v3.7.0",
@@ -11751,5 +11751,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts center on developer tooling, production AI agents, and Kubernetes infrastructure. Microsoft highlighted **Visual Studio Code 1.140 (Insiders)** with the latest preview updates to the editor, announced **GPT-6.1 Sol in Microsoft Foundry** as a new model aimed at **production-grade agentic workloads** with stronger intelligence and deployment optimization, and revealed that **AKS on bare metal now supports Ubuntu**, expanding **Azure Kubernetes Service** options for on-premises and hybrid Kubernetes environments."
+  "summary": "Today’s Azure posts center on AI agents, data platform integration, and infrastructure modernization. Microsoft highlighted **GPT-6.1 Sol in Microsoft Foundry** as a new model tuned for **production agents**, alongside a developer post on using **Jev with Agents in Microsoft Foundry** for **model evaluation**, while **Cosmos DB Mirroring in Microsoft Fabric** added support for **Virtual Network Data Gateways** to enable more secure, network-isolated data movement.\n\nOn the platform side, Azure also emphasized developer and ops tooling: **AKS on bare metal now supports Ubuntu**, expanding Kubernetes deployment options beyond traditional environments; **Visual Studio Code 1.140 (Insiders)** delivered the latest editor updates for developers; and the **Azure Databricks Cost and Workload Assessment** local web UI introduced a practical way to analyze **Databricks usage and costs** before optimization or migration work."
 }
