@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T14:50:34.303491+00:00",
+  "lastUpdated": "2026-10-01T15:21:40.740374+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -1583,6 +1583,39 @@
       "action": "Start planning migration from Azure IoT Central early",
       "detected": "2026-09-30T14:50:34.303488+00:00",
       "published": "2026-09-29T17:25:10+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=573414",
+      "title": "Retirement: NVv3-series Azure Virtual Machines",
+      "severity": "critical",
+      "deadline": "2026-09-30",
+      "impact": "NVv3 Azure VMs are retired; remaining users of listed NVv3 sizes are affected.",
+      "action": "Migrate remaining NVv3 VMs to supported sizes immediately.",
+      "detected": "2026-10-01T15:21:40.740352+00:00",
+      "published": "2026-09-30T18:26:47+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=573415",
+      "title": "Retirement: NVv4-series Azure Virtual Machines",
+      "severity": "critical",
+      "deadline": "2026-09-30",
+      "impact": "NVv4 Azure VMs are retired; remaining users of listed NVv4 sizes are affected.",
+      "action": "Migrate remaining NVv4 VMs to supported sizes immediately.",
+      "detected": "2026-10-01T15:21:40.740365+00:00",
+      "published": "2026-09-30T18:24:01+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=572346",
+      "title": "Retirement: Dv3, Dsv3, Ev3, and Esv3 Azure VMs",
+      "severity": "warning",
+      "deadline": "2029-11-15",
+      "impact": "Dv3/Dsv3/Ev3/Esv3 Azure VMs retire in public regions; users must move.",
+      "action": "Plan migration to newer supported VM series before retirement.",
+      "detected": "2026-10-01T15:21:40.740370+00:00",
+      "published": "2026-09-30T17:07:30+00:00",
       "blog": "Azure Updates"
     }
   ]
