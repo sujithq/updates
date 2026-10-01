@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-01T02:36:10.578519+00:00",
-  "totalArticles": 1071,
+  "lastUpdated": "2026-10-01T09:29:18.264338+00:00",
+  "totalArticles": 1070,
   "articles": [
     {
       "title": "Visual Studio Code 1.141 (Insiders)",
@@ -14,14 +14,25 @@
       "sourceType": "rss"
     },
     {
-      "title": "Meet the Hosted Skills Canvas: Build, Run, and Debug in GitHub Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/meet-the-hosted-skills-canvas-build-run-and-debug-in-github/ba-p/4561222",
-      "published": "2026-09-30T22:19:50+00:00",
-      "summary": "We have been evolving Azure Functions from the bottom up: first the infrastructure with Flex Consumption, then the way you write an app, and now the tools you use to build it.We're introducing a new developer experience for event-driven apps: the Azure Functions Hosted Skills canvas in the GitHub...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "paulyuk",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "title": "Migrating Elasticsearch Mappings to Azure Cosmos DB",
+      "link": "https://devblogs.microsoft.com/cosmosdb/migrating-elasticsearch-mappings-to-azure-cosmos-db/",
+      "published": "2026-10-01T07:00:57+00:00",
+      "summary": "This post focuses on one of the most important design tasks when migrating from Elasticsearch to Azure Cosmos DB: translating an Elasticsearch mapping into Azure Cosmos DB container configuration. In Elasticsearch, a mapping defines how document fields are stored and indexed. Azure Cosmos DB is...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Madeline Egan",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "What a Burger Combo Taught Me About Agents: Jev, LLMs, and Model Routers",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/what-a-burger-combo-taught-me-about-agents-jev-llms-and-model/ba-p/4558830",
+      "published": "2026-10-01T07:00:00+00:00",
+      "summary": "Imagine leaving the office and asking an AI assistant: “Find me a grilled chicken burger combo with a medium Coke at a nearby McDonald’s. Pickup, please. Check the price, but don’t place an order.” It sounds simple. To software, however, that sentence contains at least six decisions: which meal,...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -45,6 +56,17 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Network security perimeter metrics are now generally available in Public Cloud",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/network-security-perimeter-metrics-are-now-generally-available/ba-p/4561244",
+      "published": "2026-09-30T19:35:03+00:00",
+      "summary": "We are excited to announce the general availability (GA) of network security perimeter metrics, a capability that helps administrators monitor network access patterns, understand the impact of the access rules, and identify unexpected traffic behaviour across protected resources. These metrics are...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "shashankamalladi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "​​Secure what’s next: Your guide to Microsoft Security at Microsoft Ignite 2026",
@@ -100,6 +122,17 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "From \"Agent Deployed\" to \"Agent Ready\" - Agent Acceptance Gateway",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-quot-agent-deployed-quot-to-quot-agent-ready-quot-agent/ba-p/4558096",
+      "published": "2026-09-30T18:00:00+00:00",
+      "summary": "A Microsoft Foundry handover story The infrastructure team has finished the AI landing zone. The Microsoft Foundry project exists. The prompt agent is already created, connected to its model, and configured with the tools or connections it needs. That is an important milestone, but it is not the...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "SudhirRawat",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Announcing general availability of Azure Intel® TDX confidential VMs",
@@ -3248,17 +3281,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "It Wasn't the Private Endpoint: Why the Foundry Playground Breaks Behind Private Networking",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/it-wasn-t-the-private-endpoint-why-the-foundry-playground-breaks/ba-p/4552771",
-      "published": "2026-09-04T18:00:00+00:00",
-      "summary": "A team enables private networking on Microsoft Foundry, disables public access, wires up the private endpoints, and confirms DNS resolves. Then someone opens the chat playground in the portal and gets an error saying private networking is blocking access. Sometimes it works. Then it stops, and once...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Madhura Amlekar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "What’s new in Azure Firewall: Recent innovations",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/what-s-new-in-azure-firewall-recent-innovations/ba-p/4552987",
       "published": "2026-09-04T15:48:26+00:00",
@@ -3377,6 +3399,17 @@
       "blogId": "integrationsonazureblog",
       "author": "Mohammed_Barqawi",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Build Advanced ServiceNow Response Plans in Azure SRE Agent",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/build-advanced-servicenow-response-plans-in-azure-sre-agent/ba-p/4553059",
+      "published": "2026-09-03T14:07:15+00:00",
+      "summary": "A ServiceNow connection tells Azure SRE Agent which incidents it can see. Advanced filtering narrows that further, so each response plan handles only the incidents it should. Advanced filters let a plan express the rule your on-call team already follows: Send High-priority production network...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Dalibor_Kovacevic",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -4676,17 +4709,6 @@
       "author": "Eric van Wijk",
       "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Distributing Agents to Microsoft Teams and Microsoft 365 Copilot Part 4/5",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/distributing-agents-to-microsoft-teams-and-microsoft-365-copilot/ba-p/4541925",
-      "published": "2026-08-18T07:00:00+00:00",
-      "summary": "This is the fourth post in our series on the Microsoft agent platform. We cover the Distribute in M365 pillar — publishing your agents to Microsoft Teams and Microsoft 365 Copilot so they reach users where they already work. All examples reference the FibreOps repository, demonstrated at Microsoft...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Beyond Deployment: What It Really Takes to Run GitHub Actions Runners on AKS",
@@ -6062,17 +6084,6 @@
       "author": "Naba_Kumar",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Native Agent Memory for Microsoft Agent Framework, Powered by Azure Cosmos DB",
-      "link": "https://devblogs.microsoft.com/cosmosdb/native-agent-memory-for-microsoft-agent-framework-powered-by-azure-cosmos-db/",
-      "published": "2026-07-24T11:00:40+00:00",
-      "summary": "Recently we introduced the Agent Memory Toolkit and the Agentic Retrieval Toolkit for Azure Cosmos DB. The Agent Memory Toolkit gives your agents durable, Cosmos-backed memory: it stores raw conversation turns and then distills them into higher-value derived memories (thread summaries, extracted...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Theo van Kraay",
-      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Changing the engine while the plane is flying: migrating 60,000 apps under live load",
@@ -7711,17 +7722,6 @@
       "blogId": "telecommunications-industry-blog",
       "author": "Alberto_Manuel",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=telecommunications-industry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Network security perimeter for Azure Service Bus & also now available in Azure Gov. Regions",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/network-security-perimeter-for-azure-service-bus-also-now/ba-p/4526413",
-      "published": "2026-06-16T10:56:27+00:00",
-      "summary": "TL; DR Network security perimeter support for Azure Service Bus is now Generally Available. With this, you can now place your Service Bus namespace inside a central security boundary and apply perimeter-based governance for inbound/outbound network access—while keeping key PaaS-to-PaaS scenarios...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "shashankamalladi",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -11771,17 +11771,7 @@
       "author": "Dorothy_Li",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Exclude Prefix in Azure Storage Action: Smarter Blob Management",
-      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/exclude-prefix-in-azure-storage-action-smarter-blob-management/ba-p/4440075",
-      "published": "2025-09-30T09:26:23+00:00",
-      "summary": "Azure Storage Actions is a powerful platform for automating data management tasks across Blob and Data Lake Storage. Among its many features, Exclude Prefix stands out as a subtle yet critical capability that helps fine-tune task assignments. What Is the \"Exclude Prefix\" Feature? The Exclude Prefix...",
-      "blog": "Azure PaaS",
-      "blogId": "azurepaasblog",
-      "author": "ManjunathS",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
-      "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure posts focused on two distinct themes: modernization of data platforms and practical AI architecture. On the data side, Azure highlighted guidance for migrating Elasticsearch mappings to Azure Cosmos DB, pointing to schema and indexing considerations when moving search-oriented workloads into Cosmos DB.\n\nOn the AI side, the Azure Dev Community post used a “burger combo” analogy to explain agent design with Jev, large language models, and model routers, emphasizing how routing requests between models can improve agent behavior, efficiency, and task fit."
 }
