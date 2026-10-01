@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T21:35:01.313044+00:00",
+  "lastUpdated": "2026-10-01T02:36:10.578519+00:00",
   "totalArticles": 1071,
   "articles": [
     {
@@ -11,6 +11,28 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Meet the Hosted Skills Canvas: Build, Run, and Debug in GitHub Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/meet-the-hosted-skills-canvas-build-run-and-debug-in-github/ba-p/4561222",
+      "published": "2026-09-30T22:19:50+00:00",
+      "summary": "We have been evolving Azure Functions from the bottom up: first the infrastructure with Flex Consumption, then the way you write an app, and now the tools you use to build it.We're introducing a new developer experience for event-driven apps: the Azure Functions Hosted Skills canvas in the GitHub...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "paulyuk",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[In preview] Public Preview: SQL performance monitoring for SQL Server on Azure Virtual Machines",
+      "link": "https://azure.microsoft.com/updates?id=571894",
+      "published": "2026-09-30T21:13:13+00:00",
+      "summary": "The public preview of Microsoft-managed performance monitoring for SQL Server on Azure Virtual Machines is now available. You can now monitor SQL Server on Azure Virtual Machines without building custom collection scripts or correlating telemetry across d",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -78,17 +100,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "From \"Agent Deployed\" to \"Agent Ready\" - Agent Acceptance Gateway",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-quot-agent-deployed-quot-to-quot-agent-ready-quot-agent/ba-p/4558096",
-      "published": "2026-09-30T18:00:00+00:00",
-      "summary": "A Microsoft Foundry handover story The infrastructure team has finished the AI landing zone. The Microsoft Foundry project exists. The prompt agent is already created, connected to its model, and configured with the tools or connections it needs. That is an important milestone, but it is not the...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "SudhirRawat",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Announcing general availability of Azure Intel® TDX confidential VMs",
@@ -3237,6 +3248,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "It Wasn't the Private Endpoint: Why the Foundry Playground Breaks Behind Private Networking",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/it-wasn-t-the-private-endpoint-why-the-foundry-playground-breaks/ba-p/4552771",
+      "published": "2026-09-04T18:00:00+00:00",
+      "summary": "A team enables private networking on Microsoft Foundry, disables public access, wires up the private endpoints, and confirms DNS resolves. Then someone opens the chat playground in the portal and gets an error saying private networking is blocking access. Sometimes it works. Then it stops, and once...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Madhura Amlekar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "What’s new in Azure Firewall: Recent innovations",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/what-s-new-in-azure-firewall-recent-innovations/ba-p/4552987",
       "published": "2026-09-04T15:48:26+00:00",
@@ -3355,17 +3377,6 @@
       "blogId": "integrationsonazureblog",
       "author": "Mohammed_Barqawi",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Build Advanced ServiceNow Response Plans in Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/build-advanced-servicenow-response-plans-in-azure-sre-agent/ba-p/4553059",
-      "published": "2026-09-03T14:07:15+00:00",
-      "summary": "A ServiceNow connection tells Azure SRE Agent which incidents it can see. Advanced filtering narrows that further, so each response plan handles only the incidents it should. Advanced filters let a plan express the rule your on-call team already follows: Send High-priority production network...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Dalibor_Kovacevic",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -7249,17 +7260,6 @@
       "blogId": "kubernetes",
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Retirement: Migrate from Azure Blueprints by January 31, 2027",
-      "link": "https://azure.microsoft.com/updates?id=564806",
-      "published": "2026-06-25T16:00:03+00:00",
-      "summary": "In September 2023, we announced Azure Blueprints would retire on July 11, 2026. We're extending that timeline to January 31, 2027, with phased retirement beginning July 31, 2026.What's changing?July 31, 2026, you won't be able to create new blueprint defi",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -11783,6 +11783,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure news was led by AI, security, and platform modernization: Microsoft highlighted Ignite 2026 security priorities, September updates for Microsoft Sentinel, GitHub Advanced Security trials for GitHub Team, and new npm trusted publishing controls, while Azure AI Foundry added Agent Acceptance Gateway, Cohere Embed V5 for higher-quality retrieval, and updates across Agent 365. On the developer and app platform side, Microsoft shipped the Azure Connectors SDK to bring Azure Logic Apps connectors into .NET apps, released September updates for Azure Developer CLI, announced Azure canvases for GitHub Copilot and Copilot Code Reviews improvements for Azure Repos, and added preview support for Ubuntu 26.04 in AKS alongside VS Code 1.140.\n\nInfrastructure announcements focused on enterprise readiness and lifecycle changes: Azure Intel TDX confidential VMs reached general availability, Azure Virtual Desktop added regional resiliency, Azure Arc promoted Hotpatch for Windows Server 2025, and Microsoft partnered with IBM to bring Spectrum Symphony workload orchestration to Azure. At the same time, Microsoft issued multiple retirement notices for NVv3, NVv4, Dv3/Dsv3, and Ev3/Esv3 VM series, signaling continued pressure to migrate to newer compute generations."
+  ]
 }
