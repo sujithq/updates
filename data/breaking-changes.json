@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T15:21:40.740374+00:00",
+  "lastUpdated": "2026-10-02T14:40:05.614456+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -1616,6 +1616,39 @@
       "action": "Plan migration to newer supported VM series before retirement.",
       "detected": "2026-10-01T15:21:40.740370+00:00",
       "published": "2026-09-30T17:07:30+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://github.blog/changelog/2026-10-01-github-actions-macos-14-runner-image-retirement",
+      "title": "GitHub Actions: macOS 14 runner image retirement",
+      "severity": "critical",
+      "deadline": "2026-11-02",
+      "impact": "GitHub Actions macOS 14 runners retire; workflows using macos-14 are affected",
+      "action": "Move workflows to a supported macOS runner image before retirement",
+      "detected": "2026-10-02T14:40:05.614436+00:00",
+      "published": "2026-10-01T19:11:23+00:00",
+      "blog": "GitHub Changelog"
+    },
+    {
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-09-25",
+      "title": "Release Notes 2026-09-25",
+      "severity": "critical",
+      "deadline": "2026-09-30",
+      "impact": "AKS deprecated VMAS clusters auto-migrate to VMSS; VMAS cluster users are affected",
+      "action": "Validate cluster compatibility and prepare for or verify VMAS to VMSS migration",
+      "detected": "2026-10-02T14:40:05.614447+00:00",
+      "published": "2026-10-01T17:45:30+00:00",
+      "blog": "Release notes from AKS"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=569592",
+      "title": "Retirement: DCsv3 and DCdsv3-series Azure Virtual Machines will be retired on October 31, 2029",
+      "severity": "warning",
+      "deadline": "2029-10-31",
+      "impact": "DCsv3/DCdsv3 Azure VMs retire; users of these VM series must migrate",
+      "action": "Plan migration to supported VM series before retirement",
+      "detected": "2026-10-02T14:40:05.614451+00:00",
+      "published": "2026-10-01T17:02:55+00:00",
       "blog": "Azure Updates"
     }
   ]
