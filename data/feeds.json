@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-02T02:42:18.861724+00:00",
-  "totalArticles": 1069,
+  "lastUpdated": "2026-10-02T09:04:49.996561+00:00",
+  "totalArticles": 1068,
   "articles": [
     {
       "title": "Visual Studio Code 1.141 (Insiders)",
@@ -14,6 +14,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Translating an Elasticsearch Search Request to Azure Cosmos DB",
+      "link": "https://devblogs.microsoft.com/cosmosdb/translating-an-elasticsearch-search-request-to-azure-cosmos-db/",
+      "published": "2026-10-02T07:00:14+00:00",
+      "summary": "This tutorial shows how common Elasticsearch search requests can be expressed using Azure Cosmos DB query patterns. Some Elasticsearch capabilities map directly to Cosmos DB full-text search functions, while others require separate queries or application-layer handling. Each step shows the closest...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Madeline Egan",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Streaming and Batch Data Architectures with Microsoft Fabric to Azure Databricks",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/streaming-and-batch-data-architectures-with-microsoft-fabric-to/ba-p/4526166",
       "published": "2026-10-02T02:23:51+00:00",
@@ -22,17 +33,6 @@
       "blogId": "analyticsonazure",
       "author": "Rafia_Aqil",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Microsoft FinOps News - September 2026",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/microsoft-finops-news-september-2026/ba-p/4561596",
-      "published": "2026-10-02T01:27:20+00:00",
-      "summary": "We've scoured product announcements, blogs, videos and more to bring you a monthly wrap-up of news related to FinOps and cost management, including AI - across all of our Microsoft products. Did we miss something? Let us know in the comments! Microsoft Foundry and Azure OpenAI Microsoft Foundry...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "SoniaCuff",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -133,17 +133,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Your Agent Shouldn't Wait for a Prompt: Build an Event-Driven Microsoft Foundry Routine",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/your-agent-shouldn-t-wait-for-a-prompt-build-an-event-driven/ba-p/4559897",
-      "published": "2026-10-01T19:00:00+00:00",
-      "summary": "Most agents are still waiting in a chat window. They may be capable of classifying an incident, finding the right documentation, or recommending an owner - but nothing happens until someone remembers to ask. The hard part is no longer always the reasoning. It is noticing that work has arrived,...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "taniamuley",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Bringing rich terminal experiences to Aspire",
@@ -2896,6 +2885,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Can a Harmless Prompt Break an AI Guardrail?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/can-a-harmless-prompt-break-an-ai-guardrail/ba-p/4555111",
+      "published": "2026-09-14T14:00:00+00:00",
+      "summary": "Tamara Gaidar, Senior Data Scientist, Microsoft Security Research Team Maor Nissan, Principal Data Scientist, Microsoft Security Research Team Where we left off This is Part 2 of two. Part 1 is — it covers how we ran the challenge, the sixteen attack techniques the crowd produced, and the five...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "tamaragaidar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "MulticloudDB SDK: Cross-cloud portability in the coding agent era",
       "link": "https://devblogs.microsoft.com/cosmosdb/multiclouddb-sdk-cross-cloud-portability-in-the-coding-agent-era/",
       "published": "2026-09-14T13:25:23+00:00",
@@ -4444,17 +4444,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Powering Memory in Foundry Agent Service, with Azure Cosmos DB",
-      "link": "https://devblogs.microsoft.com/cosmosdb/powering-memory-in-foundry-agent-service-with-azure-cosmos-db/",
-      "published": "2026-08-24T16:04:43+00:00",
-      "summary": "Move from a locally composed memory-enabled agent to a deployed Foundry Agent Service agent, with keyless Azure infrastructure and an interactive browser sample. In Native Agent Memory for Microsoft Agent Framework, Powered by Azure Cosmos DB, we introduced CosmosMemoryContextProvider: a Microsoft...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Theo van Kraay",
-      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
     },
     {
@@ -11762,5 +11751,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog highlights three clear themes: modern data architecture, cost governance, and developer productivity. The Analytics on Azure post focuses on integrating **Microsoft Fabric** with **Azure Databricks** to support both **streaming and batch data architectures**, while the **Microsoft FinOps News – September 2026** update centers on cloud cost optimization and financial operations practices across Azure environments.\n\nOn the developer side, **Data API builder 2.1.5** introduces notable enhancements for **Azure SQL** scenarios, especially support for **JSON** and **vector data types**, signaling stronger support for modern app patterns including AI- and search-oriented workloads."
+  "summary": "Today’s Azure blog highlights three practical data and AI engineering themes: modernizing app backends, building interoperable analytics pipelines, and adding AI-ready data capabilities. Azure Cosmos DB showed how to map Elasticsearch-style search requests to Cosmos DB query patterns, Microsoft detailed streaming and batch architectures that connect Microsoft Fabric with Azure Databricks for unified analytics, and Data API builder 2.1.5 introduced support for JSON and vector data types—especially relevant for Azure SQL scenarios involving semantic search, embeddings, and API-driven data access.\n\nThe biggest announcements are the growing emphasis on cross-platform data architectures and native support for AI workloads in operational databases. Specifically, Azure is pushing technologies like Azure Cosmos DB, Microsoft Fabric, Azure Databricks, Azure SQL, and Data API builder toward more seamless search, analytics, and vector-enabled application development."
 }
