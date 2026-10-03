@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T21:29:39.276345+00:00",
+  "lastUpdated": "2026-10-03T02:28:34.541865+00:00",
   "totalArticles": 1069,
   "articles": [
     {
@@ -11,6 +11,28 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Stateless GitHub App installation tokens rolled out",
+      "link": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
+      "published": "2026-10-02T22:18:23+00:00",
+      "summary": "The staged rollout of the stateless GitHub App installation token format, which began on April 27, 2026, is complete. By default, all newly minted GitHub App installation tokens will be… The post Stateless GitHub App installation tokens rolled out appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Copilot code review: API support and new default effort level",
+      "link": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
+      "published": "2026-10-02T19:13:50+00:00",
+      "summary": "You can now request a GitHub Copilot code review through the REST and GraphQL APIs and set the review effort level for each request. Balanced is also now the default… The post Copilot code review: API support and new default effort level appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -56,6 +78,17 @@
       "author": "Gwen Davis",
       "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
+      "published": "2026-10-02T13:43:37+00:00",
+      "summary": "Microsoft Architect's: Aladdin Alchalabi AladdinAlchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "New fields for SecurityAdvisory GraphQL API",
@@ -227,28 +260,6 @@
       "link": "https://github.blog/changelog/2026-10-01-github-actions-macos-14-runner-image-retirement",
       "published": "2026-10-01T19:11:23+00:00",
       "summary": "The macOS 14 runner image will be retired on November 2, 2026. To raise awareness of the upcoming removal, jobs using macOS 14 will temporarily fail during the following scheduled… The post GitHub Actions: macOS 14 runner image retirement appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "GitHub Copilot in VS Code, September 2026 releases",
-      "link": "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases",
-      "published": "2026-10-01T19:09:10+00:00",
-      "summary": "This changelog covers VS Code v1.136 through v1.140, shipped throughout September 2026. September’s releases streamline agent-driven development from implementation through pull request merge. Automations handle repeatable tasks, agent merge helps… The post GitHub Copilot in VS Code, September 2026...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Accessibility statements highlighted on repository overview",
-      "link": "https://github.blog/changelog/2026-10-01-accessibility-statements-highlighted-on-repository-overview",
-      "published": "2026-10-01T19:04:32+00:00",
-      "summary": "You can now find an ACCESSIBILITY.md file in your repository’s root, the .github/ directory, or the docs/ directory highlighted on the repository overview. You can also add or propose an… The post Accessibility statements highlighted on repository overview appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -2478,17 +2489,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Foundry IQ with D365F&O and Fabric IQ",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/foundry-iq-with-d365f-o-and-fabric-iq/ba-p/4557381",
-      "published": "2026-09-17T14:47:21+00:00",
-      "summary": "Business Scenario A retail organization runs multiple promotional sales events across its store network in different cities, featuring various product categories where Data is captured from third-party systems (products, stores, sales events) and D365 Finance and Operations (customer data)...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Sayanika",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Automating Azure Managed Redis capacity acquisition with bounded retries",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/automating-azure-managed-redis-capacity-acquisition-with-bounded/ba-p/4546462",
       "published": "2026-09-17T04:15:00+00:00",
@@ -3146,17 +3146,6 @@
       "blogId": "azurestorageblog",
       "author": "AzureAndrewChen",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
-      "published": "2026-09-10T14:52:05+00:00",
-      "summary": "Microsoft Architect's: Aladdin Alchalabi AladdinAlchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -6248,6 +6237,17 @@
       "blogId": "integrationsonazureblog",
       "author": "anandgmenon",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Reminder: Path to Production for Agents Webinar Series Starts Next Week",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/reminder-path-to-production-for-agents-webinar-series-starts/ba-p/4539877",
+      "published": "2026-07-23T00:15:07+00:00",
+      "summary": "Next week, join Microsoft for the Path to Production for Agents webinar series—a free, six-session technical training designed to help organizations move from AI experimentation to secure, scalable, production-ready agent solutions. The series takes place July 27–28 and is aimed at architects,...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Ben_Brauer",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -11761,6 +11761,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure-related posts were dominated by AI developer productivity and operational efficiency: Microsoft highlighted batching evaluators in Azure AI Foundry to cut evaluation costs, shared latency findings from 2,040 measurements to speed up AI responses on Microsoft Foundry, and explored safe AI action-taking with execution boundaries using OpenSandbox and AKS. Data and platform updates were also significant, including public preview major version upgrades for Azure Database for PostgreSQL elastic clusters, new JSON and vector type support in Data API builder 2.1.5 for Azure SQL scenarios, guidance for translating Elasticsearch queries to Azure Cosmos DB, and reference architectures connecting Microsoft Fabric with Azure Databricks for streaming and batch analytics.\n\nSecurity and developer workflow updates rounded out the day: GitHub announced deprecations for selected Copilot models, added new SecurityAdvisory GraphQL API fields, introduced confidential comments and a public preview API for repository security advisory comments, while broader developer guidance focused on skills needed as AI reshapes software engineering."
+  ]
 }
