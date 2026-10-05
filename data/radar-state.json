@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T15:49:00.812141+00:00",
+  "lastUpdated": "2026-10-05T16:20:01.728574+00:00",
   "features": {
     "Azure SQL mid-March 2026 updates": {
       "status": "ga",
@@ -234,12 +234,12 @@
       "published": "2026-03-18T18:30:05+00:00"
     },
     "Database DevOps in SSMS powered by SQL projects": {
-      "status": "preview",
-      "link": "https://azure.microsoft.com/updates?id=558155",
-      "title": "[In preview] Public Preview: Database DevOps in SSMS powered by SQL projects",
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=571852",
+      "title": "[Launched] Generally Available: Database DevOps in SSMS powered by SQL projects",
       "service": "SQL Server Management Studio",
-      "lastSeen": "2026-03-23T08:32:15.477963+00:00",
-      "published": "2026-03-18T18:15:04+00:00"
+      "lastSeen": "2026-10-05T16:20:01.728537+00:00",
+      "published": "2026-09-29T17:42:47+00:00"
     },
     "GitHub Copilot in SSMS 22": {
       "status": "ga",
@@ -562,12 +562,12 @@
       "published": "2026-04-01T18:15:44+00:00"
     },
     "Cool access enhancement": {
-      "status": "preview",
-      "link": "https://azure.microsoft.com/updates?id=559504",
-      "title": "[In development] Public Preview: Azure NetApp Files storage with cool access enhancement",
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=573032",
+      "title": "[Launched] Generally Available: Storage with cool access enhancement",
       "service": "Azure NetApp Files",
-      "lastSeen": "2026-04-06T08:54:40.391523+00:00",
-      "published": "2026-04-01T18:15:44+00:00"
+      "lastSeen": "2026-10-05T16:20:01.728553+00:00",
+      "published": "2026-09-29T17:09:58+00:00"
     },
     "Cross-Tenant Webhook Delivery": {
       "status": "preview",
@@ -1797,9 +1797,9 @@
       "status": "ga",
       "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-general-availability-of-azure-intel-tdx-confidential/ba-p/4495693",
       "title": "Announcing general availability of Azure Intel® TDX confidential VMs",
-      "service": "Azure Confidential Computing",
-      "lastSeen": "2026-05-25T11:36:20.016272+00:00",
-      "published": "2026-05-19T16:44:15+00:00"
+      "service": "Azure Virtual Machines",
+      "lastSeen": "2026-10-05T16:20:01.728499+00:00",
+      "published": "2026-09-30T17:39:21+00:00"
     },
     "Mock runs": {
       "status": "ga",
@@ -5074,12 +5074,12 @@
       "published": "2026-08-19T21:04:18+00:00"
     },
     "SQL Formatter": {
-      "status": "preview",
-      "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-august2026/",
-      "title": "MSSQL Extension for VS Code: SQL Formatter, Azure SQL Database Provisioning, and More",
-      "service": "MSSQL extension for VS Code",
-      "lastSeen": "2026-08-24T08:12:05.614511+00:00",
-      "published": "2026-08-19T17:18:32+00:00"
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=571872",
+      "title": "[Launched] Generally Available: SQL Formatter",
+      "service": "Visual Studio Code SQL tools",
+      "lastSeen": "2026-10-05T16:20:01.728541+00:00",
+      "published": "2026-09-29T17:39:36+00:00"
     },
     "Azure SQL Database provisioning": {
       "status": "ga",
@@ -5603,11 +5603,11 @@
     },
     "Automatic Zone Placement": {
       "status": "preview",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/public-preview-automatic-zone-placement-for-virtual-machine/ba-p/4554986",
-      "title": "Public Preview: Automatic Zone Placement for Virtual Machine Scale Sets",
-      "service": "Azure Virtual Machine Scale Sets",
-      "lastSeen": "2026-09-14T14:22:06.459249+00:00",
-      "published": "2026-09-09T22:57:26+00:00"
+      "link": "https://azure.microsoft.com/updates?id=571075",
+      "title": "[In preview] Public Preview: Automatic Zone Placement for Virtual Machine Scale Sets",
+      "service": "Virtual Machine Scale Sets",
+      "lastSeen": "2026-10-05T16:20:01.728507+00:00",
+      "published": "2026-09-29T19:17:59+00:00"
     },
     "User-bound user delegation SAS": {
       "status": "ga",
@@ -5872,6 +5872,294 @@
       "service": "Azure API Management",
       "lastSeen": "2026-09-28T15:49:00.812138+00:00",
       "published": "2026-09-21T16:00:00+00:00"
+    },
+    "Major version upgrades for elastic clusters": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=571504",
+      "title": "[In preview] Public Preview: Major version upgrades (MVU) for Azure Database for PostgreSQL elastic clusters",
+      "service": "Azure Database for PostgreSQL",
+      "lastSeen": "2026-10-05T16:20:01.728469+00:00",
+      "published": "2026-10-02T17:35:21+00:00"
+    },
+    "Repository security advisory comments API": {
+      "status": "preview",
+      "link": "https://github.blog/changelog/2026-10-02-repository-security-advisory-comments-api-in-public-preview",
+      "title": "Repository security advisory comments API in public preview",
+      "service": "GitHub Security Advisories",
+      "lastSeen": "2026-10-05T16:20:01.728479+00:00",
+      "published": "2026-10-02T13:15:25+00:00"
+    },
+    "Regional resiliency": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/now-generally-available-regional-resiliency-for-azure-virtual/ba-p/4540458",
+      "title": "Now generally available: Regional resiliency for Azure Virtual Desktop",
+      "service": "Azure Virtual Desktop",
+      "lastSeen": "2026-10-05T16:20:01.728483+00:00",
+      "published": "2026-10-01T23:06:57+00:00"
+    },
+    "Computer use": {
+      "status": "preview",
+      "link": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps",
+      "title": "GitHub Copilot can now interact with desktop apps with computer use",
+      "service": "GitHub Copilot",
+      "lastSeen": "2026-10-05T16:20:01.728485+00:00",
+      "published": "2026-10-01T19:11:26+00:00"
+    },
+    "Foundry IQ integration": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-iq-in-microsoft-copilot-studio-is-now-generally/ba-p/4557687",
+      "title": "Foundry IQ in Microsoft Copilot Studio is now generally available",
+      "service": "Microsoft Copilot Studio",
+      "lastSeen": "2026-10-05T16:20:01.728491+00:00",
+      "published": "2026-10-01T16:33:20+00:00"
+    },
+    "GitHub-hosted agents with Pay-as-you-Go pricing": {
+      "status": "ga",
+      "link": "https://devblogs.microsoft.com/devops/github-hosted-agents-with-pay-as-you-go-pricing-are-now-generally-available-in-azure-pipelines/",
+      "title": "GitHub-hosted agents with Pay-as-you-Go pricing are now generally available in Azure Pipelines",
+      "service": "Azure Pipelines",
+      "lastSeen": "2026-10-05T16:20:01.728493+00:00",
+      "published": "2026-10-01T12:27:54+00:00"
+    },
+    "SQL performance monitoring": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=571867",
+      "title": "[In preview] Public Preview: SQL Performance Monitoring for Azure SQL Database",
+      "service": "Azure SQL Database",
+      "lastSeen": "2026-10-05T16:20:01.728518+00:00",
+      "published": "2026-09-29T18:13:31+00:00"
+    },
+    "Network security perimeter metrics": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/network-security-perimeter-metrics-are-now-generally-available/ba-p/4561244",
+      "title": "Network security perimeter metrics are now generally available in Public Cloud",
+      "service": "Azure Networking",
+      "lastSeen": "2026-10-05T16:20:01.728497+00:00",
+      "published": "2026-09-30T19:35:03+00:00"
+    },
+    "Ubuntu 26.04 support": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=573214",
+      "title": "[In preview] Public Preview: Ubuntu 26.04 support in AKS",
+      "service": "Azure Kubernetes Service",
+      "lastSeen": "2026-10-05T16:20:01.728501+00:00",
+      "published": "2026-09-30T17:11:11+00:00"
+    },
+    "GPT-6.1 Sol": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-gpt-6-1-sol-in-microsoft-foundry-advanced/ba-p/4560811",
+      "title": "Introducing GPT-6.1 Sol in Microsoft Foundry: Advanced intelligence, optimized for production agents",
+      "service": "Microsoft Foundry",
+      "lastSeen": "2026-10-05T16:20:01.728503+00:00",
+      "published": "2026-09-30T00:08:07+00:00"
+    },
+    "Lasv5 and Laosv5 VM series": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=572630",
+      "title": "[Launched] Generally Available: Storage optimized Lasv5 and Laosv5 Azure VM series",
+      "service": "Azure Virtual Machines",
+      "lastSeen": "2026-10-05T16:20:01.728505+00:00",
+      "published": "2026-09-29T19:27:09+00:00"
+    },
+    "Azure Arc-enabled SQL Server in Germany West Central": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=570696",
+      "title": "[Launched] Generally Available: Azure Arc-enabled SQL Server in Germany West Central",
+      "service": "Azure Arc-enabled SQL Server",
+      "lastSeen": "2026-10-05T16:20:01.728511+00:00",
+      "published": "2026-09-29T19:07:44+00:00"
+    },
+    "Azure Arc-enabled SQL Server in Italy North": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=570763",
+      "title": "[Launched] Generally Available: Azure Arc-enabled SQL Server Available in Italy North",
+      "service": "Azure Arc-enabled SQL Server",
+      "lastSeen": "2026-10-05T16:20:01.728514+00:00",
+      "published": "2026-09-29T19:06:50+00:00"
+    },
+    "Ultra Disk support": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=571909",
+      "title": "[In preview] Public Preview: Azure Database for PostgreSQL Ultra Disk",
+      "service": "Azure Database for PostgreSQL",
+      "lastSeen": "2026-10-05T16:20:01.728516+00:00",
+      "published": "2026-09-29T18:14:46+00:00"
+    },
+    "Performance monitoring": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=571904",
+      "title": "[In preview] Public Preview: Performance monitoring for Azure Arc–enabled SQL Server",
+      "service": "Azure Arc-enabled SQL Server",
+      "lastSeen": "2026-10-05T16:20:01.728522+00:00",
+      "published": "2026-09-29T18:11:15+00:00"
+    },
+    "Azure SQL late-September 2026 updates": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=571846",
+      "title": "[In preview] Public Preview: Azure SQL updates for late-September 2026",
+      "service": "Azure SQL",
+      "lastSeen": "2026-10-05T16:20:01.728535+00:00",
+      "published": "2026-09-29T17:49:15+00:00"
+    },
+    "Cross-tenant customer-managed keys": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=571783",
+      "title": "[Launched] Generally Available: Azure Database for PostgreSQL Flexible Server supports cross-tenant customer-managed keys (CMK)",
+      "service": "Azure Database for PostgreSQL",
+      "lastSeen": "2026-10-05T16:20:01.728526+00:00",
+      "published": "2026-09-29T17:57:36+00:00"
+    },
+    "Script-based deployment for SQL Server on Linux Azure VM": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=571810",
+      "title": "[In preview] Public preview: Script-based deployment for SQL Server on Linux Azure VM",
+      "service": "SQL Server on Azure Virtual Machines",
+      "lastSeen": "2026-10-05T16:20:01.728527+00:00",
+      "published": "2026-09-29T17:52:59+00:00"
+    },
+    "Azure Local Disconnected (ALDO)": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=571836",
+      "title": "[Launched] Generally Available: SQL Server on Azure Local Disconnected (ALDO)",
+      "service": "SQL Server on Azure Local",
+      "lastSeen": "2026-10-05T16:20:01.728529+00:00",
+      "published": "2026-09-29T17:51:34+00:00"
+    },
+    "Lasv5 and Laosv5 VMs": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-general-availability-of-azure-lasv5-and-laosv5-vms/ba-p/4552700",
+      "title": "Announcing General Availability of Azure Lasv5 and Laosv5 VMs Based on 5th Gen AMD EPYC™ processors",
+      "service": "Azure Virtual Machines",
+      "lastSeen": "2026-10-05T16:20:01.728531+00:00",
+      "published": "2026-09-29T17:50:50+00:00"
+    },
+    "SQL Server support on Azure Local connected mode": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=571841",
+      "title": "[Launched] Generally Available: SQL Server support on Azure Local connected mode",
+      "service": "SQL Server on Azure Local",
+      "lastSeen": "2026-10-05T16:20:01.728533+00:00",
+      "published": "2026-09-29T17:50:20+00:00"
+    },
+    "Hyperscale Serverless auto-pause and auto-resume": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=571857",
+      "title": "[In preview] Public Preview: Azure SQL Database Hyperscale Serverless auto-pause and auto-resume",
+      "service": "Azure SQL Database",
+      "lastSeen": "2026-10-05T16:20:01.728539+00:00",
+      "published": "2026-09-29T17:40:40+00:00"
+    },
+    "SQL Migration Agent Skills": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=571899",
+      "title": "[Launched] Generally Available: SQL Migration Agent Skills for assessment, migration, and validation",
+      "service": "Azure SQL Migration",
+      "lastSeen": "2026-10-05T16:20:01.728543+00:00",
+      "published": "2026-09-29T17:38:16+00:00"
+    },
+    "Direct migration from Azure Arc to Azure SQL Database": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=571795",
+      "title": "[In preview] Public Preview: Migrate directly from Azure Arc to Azure SQL Database, including Hyperscale",
+      "service": "Azure Arc-enabled SQL Server",
+      "lastSeen": "2026-10-05T16:20:01.728545+00:00",
+      "published": "2026-09-29T17:34:44+00:00"
+    },
+    "Microsoft SQL Agent Skills": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=573003",
+      "title": "[In preview] Public Preview: Microsoft SQL Agent Skills",
+      "service": "Microsoft SQL",
+      "lastSeen": "2026-10-05T16:20:01.728547+00:00",
+      "published": "2026-09-29T17:31:11+00:00"
+    },
+    "Long-term retention (LTR) v2": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=571914",
+      "title": "[In preview] Public Preview: Long-term retention (LTR) v2 for Azure Database for PostgreSQL",
+      "service": "Azure Database for PostgreSQL",
+      "lastSeen": "2026-10-05T16:20:01.728549+00:00",
+      "published": "2026-09-29T17:28:57+00:00"
+    },
+    "Large volume breakthrough mode": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=573027",
+      "title": "[Launched] Generally Available: Support for large volume breakthrough mode",
+      "service": "Azure NetApp Files",
+      "lastSeen": "2026-10-05T16:20:01.728551+00:00",
+      "published": "2026-09-29T17:12:40+00:00"
+    },
+    "Microsoft Entra Kerberos authentication": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=573041",
+      "title": "[In preview] Public Preview : Microsoft entra kerberos authentication for Azure NetApp Files",
+      "service": "Azure NetApp Files",
+      "lastSeen": "2026-10-05T16:20:01.728555+00:00",
+      "published": "2026-09-29T17:07:55+00:00"
+    },
+    "WSL containers": {
+      "status": "ga",
+      "link": "https://devblogs.microsoft.com/commandline/wslc-architecture-deep-dive/",
+      "title": "WSLC Architecture deep dive",
+      "service": "Windows Subsystem for Linux",
+      "lastSeen": "2026-10-05T16:20:01.728557+00:00",
+      "published": "2026-09-29T17:00:19+00:00"
+    },
+    "DiskANN Vector Index and Vector Search": {
+      "status": "ga",
+      "link": "https://devblogs.microsoft.com/azure-sql/diskann-vector-index-search-are-now-generally-available-in-azure-sql/",
+      "title": "DiskANN Vector Index and Vector Search Are Now Generally Available in Azure SQL",
+      "service": "Azure SQL",
+      "lastSeen": "2026-10-05T16:20:01.728558+00:00",
+      "published": "2026-09-29T15:00:22+00:00"
+    },
+    "Azure Cosmos DB in Fabric Database Hub": {
+      "status": "preview",
+      "link": "https://devblogs.microsoft.com/cosmosdb/announcing-public-preview-for-azure-cosmos-db-in-fabric-database-hub/",
+      "title": "Announcing Public Preview for Azure Cosmos DB in Fabric Database Hub!",
+      "service": "Microsoft Fabric Database Hub",
+      "lastSeen": "2026-10-05T16:20:01.728560+00:00",
+      "published": "2026-09-29T07:00:00+00:00"
+    },
+    "Vector search and vector indexes": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=571800",
+      "title": "[Launched] Generally Available: Vector search and vector indexes in Azure SQL",
+      "service": "Azure SQL Database",
+      "lastSeen": "2026-10-05T16:20:01.728562+00:00",
+      "published": "2026-09-28T22:07:19+00:00"
+    },
+    "Azure SQL Dev Hub": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=572998",
+      "title": "[In preview] Public Preview: Azure SQL Dev Hub",
+      "service": "Azure SQL",
+      "lastSeen": "2026-10-05T16:20:01.728566+00:00",
+      "published": "2026-09-28T22:06:05+00:00"
+    },
+    "Azure SQL Managed Instance late-September 2026 updates": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=571632",
+      "title": "[Launched] Generally Available: Azure SQL Managed Instance updates for late-September 2026",
+      "service": "Azure SQL Managed Instance",
+      "lastSeen": "2026-10-05T16:20:01.728568+00:00",
+      "published": "2026-09-28T18:52:10+00:00"
+    },
+    "Getting Started page": {
+      "status": "preview",
+      "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-september2026/",
+      "title": "MSSQL Extension for VS Code: New Getting Started Page, Agent skills, SQL Formatter, and more",
+      "service": "MSSQL Extension for Visual Studio Code",
+      "lastSeen": "2026-10-05T16:20:01.728570+00:00",
+      "published": "2026-09-28T17:27:53+00:00"
+    },
+    "Luxembourg Azure Extended Zone": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=572968",
+      "title": "[Launched] Generally Available: Luxembourg - Azure Extended Zones",
+      "service": "Azure Extended Zones",
+      "lastSeen": "2026-10-05T16:20:01.728571+00:00",
+      "published": "2026-09-28T17:08:48+00:00"
     }
   }
 }
