@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T01:35:11.129738+00:00",
+  "lastUpdated": "2026-10-06T09:30:02.128136+00:00",
   "totalArticles": 1068,
   "articles": [
     {
@@ -1136,17 +1136,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Build with Azure Canvases: a shared workspace for agents",
-      "link": "https://devblogs.microsoft.com/blog/azure-canvases/",
-      "published": "2026-09-29T18:30:00+00:00",
-      "summary": "See how Azure Canvases bring plans, code, previews, and deployment feedback together in a collaborative workspace for agent-assisted development.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Matt Hernandez",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Comparing Three Approaches to AI Agent Evaluation and Observability",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/comparing-three-approaches-to-ai-agent-evaluation-and/ba-p/4560833",
       "published": "2026-09-29T18:25:14+00:00",
@@ -1422,17 +1411,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Enabling Consistent AI-Assisted Engineering with GitHub Copilot Plugins",
-      "link": "https://devblogs.microsoft.com/blog/enabling-consistent-ai-assisted-engineering-with-github-copilot-plugins/",
-      "published": "2026-09-29T16:30:35+00:00",
-      "summary": "When an engineer or team creates useful agentic artifacts for their daily work (e.g., instructions, skills, and MCP configurations), others naturally want to adopt them when they see how those artifacts could help with their own work. Sharing the files is straightforward, but keeping those...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Fernando de Oliveira",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Visual Studio September Update – Power Your Workflow with Your Model",
       "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-september-update-power-your-workflow-with-your-model/",
       "published": "2026-09-29T16:00:04+00:00",
@@ -1607,17 +1585,6 @@
       "author": "Yiwen_Rong",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Get started with the GitHub Copilot app: a free, hands-on course",
-      "link": "https://devblogs.microsoft.com/blog/github-copilot-app-for-beginners/",
-      "published": "2026-09-28T18:05:00+00:00",
-      "summary": "Learn to direct AI coding agents, review their work, and build reliable development workflows with this free GitHub Copilot app course.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Dan Wahlin",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "MSSQL Extension for VS Code: New Getting Started Page, Agent skills, SQL Formatter, and more",
@@ -6460,6 +6427,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "How to test agent experience changes without shipping them",
+      "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-experience-changes-without-shipping-them/",
+      "published": "2026-07-21T07:15:12+00:00",
+      "summary": "Most changes you think will improve AI agent behavior won't. We tested a dozen hypotheses on a real project upgrade scenario and the majority failed. Learn how to emulate documentation, API, and MCP server changes locally so you can validate what works before shipping anything to production.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Introducing Azure Front Door edge actions - Bringing secure, programmable logic to the edge",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/introducing-azure-front-door-edge-actions-bringing-secure/ba-p/4531928",
       "published": "2026-07-20T15:32:26+00:00",
@@ -6534,6 +6512,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "How to test agent skills without hitting real APIs",
+      "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-skills-without-hitting-real-apis/",
+      "published": "2026-07-17T09:27:50+00:00",
+      "summary": "Your agent skill calls an API. The moment you start evaluating it, every run either costs money or mutates production data. Learn how to mock APIs transparently so you can run evals without changing your skill or hitting real endpoints.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -6722,6 +6711,17 @@
       "author": "alyssaschimm",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Building AX evals that actually work",
+      "link": "https://devblogs.microsoft.com/blog/building-ax-evals-that-actually-work/",
+      "published": "2026-07-15T12:53:13+00:00",
+      "summary": "This is the eighth and final article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "[In preview] Public Preview: Azure Front Door edge actions",
