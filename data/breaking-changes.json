@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T13:16:23.047147+00:00",
+  "lastUpdated": "2026-10-06T15:00:03.677766+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -1661,6 +1661,17 @@
       "detected": "2026-10-03T13:16:23.047136+00:00",
       "published": "2026-10-02T18:24:19+00:00",
       "blog": "GitHub Changelog"
+    },
+    {
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-ad-graph-api-retirement-action-required-for-older-versions/ba-p/4562225",
+      "title": "Azure AD Graph API retirement: action required for older versions of Azure CLI and Azure PowerShell",
+      "severity": "critical",
+      "deadline": "2025-07-01",
+      "impact": "Older Azure CLI/PowerShell using Azure AD Graph may already fail after shutdown",
+      "action": "Upgrade Azure CLI/Azure PowerShell to versions migrated off Azure AD Graph",
+      "detected": "2026-10-06T15:00:03.677752+00:00",
+      "published": "2026-10-05T22:25:40+00:00",
+      "blog": "Azure Tools"
     }
   ]
 }
