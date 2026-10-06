@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-05T19:54:37.365679+00:00",
-  "totalArticles": 1067,
+  "lastUpdated": "2026-10-06T01:35:11.129738+00:00",
+  "totalArticles": 1068,
   "articles": [
     {
       "title": "Visual Studio Code 1.141 (Insiders)",
@@ -12,6 +12,39 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Secret scanning adds detectors for Lovable, Supabase, and more",
+      "link": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
+      "published": "2026-10-05T22:42:14+00:00",
+      "summary": "Secret scanning now detects new secret types from Lovable Labs, Pydantic Services Inc., and Supabase. New secret scanning partner The following provider joined the secret scanning partnership program. When one… The post Secret scanning adds detectors for Lovable, Supabase, and more appeared first...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Your Agents Need More Than a Place to Run",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/your-agents-need-more-than-a-place-to-run/ba-p/4561565",
+      "published": "2026-10-05T22:35:24+00:00",
+      "summary": "In architecture reviews with enterprise teams moving their first agentic applications toward production, I often hear the same plan: the team has containerized their agent and intends to run it on the managed Kubernetes cluster the organization already trusts. The reasoning is sensible, since the...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "navbhasin",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure AD Graph API retirement: action required for older versions of Azure CLI and Azure PowerShell",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-ad-graph-api-retirement-action-required-for-older-versions/ba-p/4562225",
+      "published": "2026-10-05T22:25:40+00:00",
+      "summary": "Summary Azure AD Graph API (the legacy graph.windows.net API, not to be confused with Microsoft Graph) entered its retirement process in September 2024, with the general shutdown completed on July 1, 2025. Azure CLI and Azure PowerShell completed their migration away from Azure AD Graph well ahead...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "Alex-wdy",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Connect Azure Functions to more services with managed connectors",
@@ -447,17 +480,6 @@
       "link": "https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports",
       "published": "2026-10-01T19:57:39+00:00",
       "summary": "Open source maintainers are receiving more low-quality and automated vulnerability reports, which can bury the reports that matter. Rate limits cap how many new reports a single account can submit… The post Rate limits for private vulnerability reports appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Structured forms for private vulnerability reports",
-      "link": "https://github.blog/changelog/2026-10-01-structured-forms-for-private-vulnerability-reports",
-      "published": "2026-10-01T19:57:28+00:00",
-      "summary": "Private vulnerability reports can now use a structured form that asks reporters for the details you need to assess a vulnerability, including a reproducible proof of concept. A single free-text… The post Structured forms for private vulnerability reports appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -1114,6 +1136,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Build with Azure Canvases: a shared workspace for agents",
+      "link": "https://devblogs.microsoft.com/blog/azure-canvases/",
+      "published": "2026-09-29T18:30:00+00:00",
+      "summary": "See how Azure Canvases bring plans, code, previews, and deployment feedback together in a collaborative workspace for agent-assisted development.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Matt Hernandez",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Comparing Three Approaches to AI Agent Evaluation and Observability",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/comparing-three-approaches-to-ai-agent-evaluation-and/ba-p/4560833",
       "published": "2026-09-29T18:25:14+00:00",
@@ -1389,6 +1422,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Enabling Consistent AI-Assisted Engineering with GitHub Copilot Plugins",
+      "link": "https://devblogs.microsoft.com/blog/enabling-consistent-ai-assisted-engineering-with-github-copilot-plugins/",
+      "published": "2026-09-29T16:30:35+00:00",
+      "summary": "When an engineer or team creates useful agentic artifacts for their daily work (e.g., instructions, skills, and MCP configurations), others naturally want to adopt them when they see how those artifacts could help with their own work. Sharing the files is straightforward, but keeping those...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Fernando de Oliveira",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Visual Studio September Update – Power Your Workflow with Your Model",
       "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-september-update-power-your-workflow-with-your-model/",
       "published": "2026-09-29T16:00:04+00:00",
@@ -1563,6 +1607,17 @@
       "author": "Yiwen_Rong",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Get started with the GitHub Copilot app: a free, hands-on course",
+      "link": "https://devblogs.microsoft.com/blog/github-copilot-app-for-beginners/",
+      "published": "2026-09-28T18:05:00+00:00",
+      "summary": "Learn to direct AI coding agents, review their work, and build reliable development workflows with this free GitHub Copilot app course.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Dan Wahlin",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "MSSQL Extension for VS Code: New Getting Started Page, Agent skills, SQL Formatter, and more",
@@ -2190,17 +2245,6 @@
       "author": "Aaron Powell",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-opus-5-5-comes-to-microsoft-foundry-for-long-running/ba-p/4558051",
-      "published": "2026-09-22T16:47:05+00:00",
-      "summary": "AI models are increasingly taking on work that extends far beyond a single prompt: building a feature across a codebase, investigating a complex issue, synthesizing hundreds of pages of information, or working through a multi-step business process. As that work gets longer, raw intelligence is only...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amar_badal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Using Azure Blob Storage as a durable filesystem for LangChain Deep Agents",
@@ -6416,17 +6460,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "How to test agent experience changes without shipping them",
-      "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-experience-changes-without-shipping-them/",
-      "published": "2026-07-21T07:15:12+00:00",
-      "summary": "Most changes you think will improve AI agent behavior won't. We tested a dozen hypotheses on a real project upgrade scenario and the majority failed. Learn how to emulate documentation, API, and MCP server changes locally so you can validate what works before shipping anything to production.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Introducing Azure Front Door edge actions - Bringing secure, programmable logic to the edge",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/introducing-azure-front-door-edge-actions-bringing-secure/ba-p/4531928",
       "published": "2026-07-20T15:32:26+00:00",
@@ -6501,17 +6534,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "How to test agent skills without hitting real APIs",
-      "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-skills-without-hitting-real-apis/",
-      "published": "2026-07-17T09:27:50+00:00",
-      "summary": "Your agent skill calls an API. The moment you start evaluating it, every run either costs money or mutates production data. Learn how to mock APIs transparently so you can run evals without changing your skill or hitting real endpoints.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -6700,17 +6722,6 @@
       "author": "alyssaschimm",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Building AX evals that actually work",
-      "link": "https://devblogs.microsoft.com/blog/building-ax-evals-that-actually-work/",
-      "published": "2026-07-15T12:53:13+00:00",
-      "summary": "This is the eighth and final article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "[In preview] Public Preview: Azure Front Door edge actions",
@@ -11739,6 +11750,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure news centered on AI agents, retrieval quality, and broader platform integration: Azure AI Foundry published guidance on smarter RAG optimization, low-latency voice agent architecture and trust boundaries, and AI adoption patterns for banking, while Cosmos DB introduced **create-cosmos-agent** and highlighted **RBAC** as essential even for solo developers. On the app and integration side, Microsoft expanded **Azure Functions managed connectors**, added **OneLake Catalog** table discovery search, and covered **MSTest**-based UI testing for **UWP** and **WinUI 3** apps, alongside the latest **Logic Apps** updates.\n\nInfrastructure announcements were heavy on resiliency, data, and regional expansion: **Azure HorizonDB** entered preview in more regions, **Azure Backup for PostgreSQL Flexible Server and Elastic Cluster v2** went into public preview, **IPv6 support for Application Gateway WAF** entered preview, and **Azure Site Recovery for Azure Local** reached GA. Microsoft also announced **SQL Server on Azure Virtual Machines in Azure Bleu** is generally available, while the broader cloud-native ecosystem highlighted Kubernetes scaling improvements via **Node Swap** and GitHub introduced **ReviewBench**, an open benchmark for **AI code review**."
+  ]
 }
