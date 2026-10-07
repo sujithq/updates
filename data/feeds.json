@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T02:50:30.518589+00:00",
+  "lastUpdated": "2026-10-07T09:25:56.111357+00:00",
   "totalArticles": 1068,
   "articles": [
     {
@@ -11751,5 +11751,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focus on developer tooling updates and an urgent identity-platform deprecation. **Visual Studio Code 1.141 (Insiders)** introduces the latest pre-release updates to the editor, while **Azure Tools** warns that the retirement of the **Azure AD Graph API** requires customers using older **Azure CLI** and **Azure PowerShell** versions to upgrade, since those versions still depend on the deprecated API.\n\nThe key takeaway is that Microsoft is pushing both faster developer iteration and platform modernization: try the newest VS Code Insiders features, but more importantly, audit automation and scripts for outdated CLI/PowerShell dependencies tied to **Azure Active Directory Graph** before they break."
+  "summary": "Today’s Azure posts focus on developer tooling updates and an urgent identity-platform deprecation. **Visual Studio Code 1.141 (Insiders)** introduces the latest preview features and fixes in the VS Code editor, while **Azure Tools** warns that the retirement of the **Azure AD Graph API** now requires customers using older **Azure CLI** and **Azure PowerShell** versions to upgrade to versions that use **Microsoft Graph**.\n\nThe most important announcement is the Azure AD Graph retirement: organizations relying on legacy automation or scripts with outdated Azure CLI/Azure PowerShell releases may see breaks and should update immediately to supported tooling. Together, the posts emphasize staying current on both the core developer environment (**VS Code**) and Azure management tools to avoid disruption and access new capabilities."
 }
