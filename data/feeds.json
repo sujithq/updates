@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T18:00:55.770665+00:00",
+  "lastUpdated": "2026-10-07T22:46:05.786234+00:00",
   "totalArticles": 1072,
   "articles": [
     {
@@ -12,6 +12,72 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Introducing the Microsoft Sentinel ASIM EmailEvent schema",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/introducing-the-microsoft-sentinel-asim-emailevent-schema/ba-p/4562581",
+      "published": "2026-10-07T20:21:05+00:00",
+      "summary": "Email remains one of the most common entry points for security threats. Yet email products often describe the same activity with different table names, fields, and values. This makes it harder to build detections and investigations that work consistently across data sources. The Microsoft Sentinel...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "JamesAde",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Claude Haiku 5.5 in GitHub Copilot",
+      "link": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
+      "published": "2026-10-07T20:12:18+00:00",
+      "summary": "Claude Haiku 5.5, Anthropic’s newest lightweight model, is now generally available in GitHub Copilot. It is designed for fast, high-volume work like subagents, quick edits, and terminal tasks. In early… The post Claude Haiku 5.5 in GitHub Copilot appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "v1.17.0-rc1",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-rc1",
+      "published": "2026-10-07T19:46:06+00:00",
+      "summary": "1.17.0-rc1 (October 07, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements (#39153) A new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290) policy: Terraform Policy is now generally...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Making evaluations cost-efficient",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/making-evaluations-cost-efficient/ba-p/4561786",
+      "published": "2026-10-07T19:00:00+00:00",
+      "summary": "Every evaluation run is, under the hood, a stack of LLM-as-judge calls. Behind Microsoft Foundry's evaluation service, every graded row becomes judge traffic: hundreds of thousands of judge calls a day, billions of prompt tokens in any given two-week window, and roughly a dozen judge calls beneath...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "amq",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure Document Intelligence and Azure Content Understanding: a practical guide",
+      "link": "https://devblogs.microsoft.com/foundry/choosing-azure-document-intelligence-and-content-understanding/",
+      "published": "2026-10-07T18:45:01+00:00",
+      "summary": "Compare Azure Document Intelligence and Azure Content Understanding across extraction architectures, workload fit, Layout capabilities, deployment options, and practical evaluation criteria. The post Azure Document Intelligence and Azure Content Understanding: a practical guide appeared first on...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Chu Lahlou",
+      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Claude Haiku 5.5 is now available in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-haiku-5-5-is-now-available-in-microsoft-foundry/ba-p/4562408",
+      "published": "2026-10-07T18:04:23+00:00",
+      "summary": "Claude Haiku 5.5 is now available in Microsoft Foundry. The fastest and most efficient model in the Claude 5.5 family, it is built for high-volume, cost-sensitive agentic work, from live customer support to focused subtasks within larger agent systems. It also costs around 75% less than Claude...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "amar_badal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Secret protection must scale with software",
@@ -80,6 +146,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Purpose-built model for leaked secret detection",
+      "link": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection",
+      "published": "2026-10-07T16:13:56+00:00",
+      "summary": "Secret protection should keep pace with the way you build software, whether you write code yourself or work with an AI agent. With our new purpose-built model, we’re bringing context-aware… The post Purpose-built model for leaked secret detection appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "3 lessons from frontier AI vulnerability research",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
       "published": "2026-10-07T16:00:00+00:00",
@@ -88,6 +165,39 @@
       "blogId": "microsoftsecurity",
       "author": "Taesoo Kim",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Local sandboxing for GitHub Copilot now generally available",
+      "link": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
+      "published": "2026-10-07T15:46:17+00:00",
+      "summary": "Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host. Local sandboxes give developers a secure… The post Local sandboxing for GitHub Copilot now generally available appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Discover local models in GitHub Copilot CLI",
+      "link": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli",
+      "published": "2026-10-07T15:46:13+00:00",
+      "summary": "GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Starting in CLI version 1.0.94-0, use /model to discover supported models from a running… The post Discover local models in GitHub Copilot CLI appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "From Spec-First to Enterprise-Ready: Extending GitHub Spec Kit",
+      "link": "https://devblogs.microsoft.com/blog/from-spec-first-to-enterprise-ready-extending-github-spec-kit/",
+      "published": "2026-10-07T15:00:26+00:00",
+      "summary": "How presets, extensions, bundles, workflows, and governed catalogs make Spec-Driven Development adaptable at scale This article continues Spec-Driven Development: A Spec-First Approach to AI-Native Engineering, which introduced the principles and lifecycle of SDD. Here, we focus on the next...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Apoorv Gupta",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -231,6 +341,17 @@
       "blogId": "githubchangelog",
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Build Azure canvases with the Canvas authoring plugin",
+      "link": "https://devblogs.microsoft.com/blog/build-azure-canvases-with-canvas-authoring/",
+      "published": "2026-10-06T18:30:00+00:00",
+      "summary": "Learn how the Canvas authoring plugin helps you build Azure canvases with Microsoft Canvas Toolkit, from a read-only starter to a working app you can inspect, test, and adapt.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Alex Weininger",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -396,6 +517,17 @@
       "blogId": "githubchangelog",
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "What is Agent Experience (AX)?",
+      "link": "https://devblogs.microsoft.com/blog/what-is-agent-experience-ax/",
+      "published": "2026-10-06T09:18:05+00:00",
+      "summary": "Your agent says it's done, and the code compiles, but did it pick your technology? Did it use it correctly? Learn what Agent Experience (AX) is, how to measure it, and why the obvious fix isn't always the right one.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -641,39 +773,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Unvalidated npm trusted publishing configurations now expire",
-      "link": "https://github.blog/changelog/2026-10-02-unvalidated-npm-trusted-publishing-configurations-now-expire",
-      "published": "2026-10-02T19:07:04+00:00",
-      "summary": "Unvalidated npm trusted publishing configurations now expire 48 hours after creation and can no longer authorize publishing. This limits the risk of trusting a repository or project name that changes… The post Unvalidated npm trusted publishing configurations now expire appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "npm staged publishing now supports creating new packages",
-      "link": "https://github.blog/changelog/2026-10-02-npm-staged-publishing-now-supports-creating-new-packages",
-      "published": "2026-10-02T19:05:17+00:00",
-      "summary": "You can now create a new npm package with npm stage publish, using a local session or a granular access token, including a stage-only token. This lets you create packages… The post npm staged publishing now supports creating new packages appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Selected models in GitHub Copilot deprecated",
-      "link": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
-      "published": "2026-10-02T18:24:19+00:00",
-      "summary": "As of today, October 2, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model… The post Selected models in GitHub Copilot deprecated appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[In preview] Public Preview: Major version upgrades (MVU) for Azure Database for PostgreSQL elastic clusters",
       "link": "https://azure.microsoft.com/updates?id=571504",
       "published": "2026-10-02T17:35:21+00:00",
@@ -704,17 +803,6 @@
       "blogId": "githubblog",
       "author": "Gwen Davis",
       "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "GitHub Copilot weekly releases — September 28",
-      "link": "https://github.blog/changelog/2026-10-02-github-copilot-weekly-releases-september-28",
-      "published": "2026-10-02T14:00:30+00:00",
-      "summary": "This week, put Copilot to work with new models, reusable workflows and desktop app automation, plus Azure canvases and VS Code improvements. GitHub Copilot Claude Sonnet 5.5 is available to… The post GitHub Copilot weekly releases — September 28 appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1334,17 +1422,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Introducing GPT-6.1 Sol in Microsoft Foundry: Advanced intelligence, optimized for production agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-gpt-6-1-sol-in-microsoft-foundry-advanced/ba-p/4560811",
-      "published": "2026-09-30T00:08:07+00:00",
-      "summary": "Today, OpenAI's GPT-6.1 Sol is generally available in Microsoft Foundry. GPT-6.1 Sol is an upgrade to GPT-6 Sol, delivering substantial improvements in agentic coding, computer use, and professional work, with performance approaching GPT-6 Astra across these evaluations. It offers a new balance of...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "AKS on bare metal now on Ubuntu",
       "link": "https://blog.aks.azure.com/2026/09/25/aks-baremetal-ubuntu",
       "published": "2026-09-30T00:00:00+00:00",
@@ -1474,6 +1551,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Build with Azure Canvases: a shared workspace for agents",
+      "link": "https://devblogs.microsoft.com/blog/azure-canvases/",
+      "published": "2026-09-29T18:30:00+00:00",
+      "summary": "See how Azure Canvases bring plans, code, previews, and deployment feedback together in a collaborative workspace for agent-assisted development.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Matt Hernandez",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1752,6 +1840,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Enabling Consistent AI-Assisted Engineering with GitHub Copilot Plugins",
+      "link": "https://devblogs.microsoft.com/blog/enabling-consistent-ai-assisted-engineering-with-github-copilot-plugins/",
+      "published": "2026-09-29T16:30:35+00:00",
+      "summary": "When an engineer or team creates useful agentic artifacts for their daily work (e.g., instructions, skills, and MCP configurations), others naturally want to adopt them when they see how those artifacts could help with their own work. Sharing the files is straightforward, but keeping those...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Fernando de Oliveira",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Visual Studio September Update – Power Your Workflow with Your Model",
       "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-september-update-power-your-workflow-with-your-model/",
       "published": "2026-09-29T16:00:04+00:00",
@@ -1906,15 +2005,15 @@
       "sourceType": "rss"
     },
     {
-      "title": "Claude Sonnet 5.5 is now available in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-sonnet-5-5-is-now-available-in-microsoft-foundry/ba-p/4559774",
-      "published": "2026-09-28T18:18:01+00:00",
-      "summary": "Today, Claude Sonnet 5.5 is available in Microsoft Foundry, bringing Anthropic’s latest Sonnet model to developers building AI applications and agents. Claude Sonnet 5.5 is a smarter, more efficient Sonnet, delivering a clear step forward from Sonnet 5 on coding and knowledge work with a lower cost...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amar_badal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
+      "title": "Get started with the GitHub Copilot app: a free, hands-on course",
+      "link": "https://devblogs.microsoft.com/blog/github-copilot-app-for-beginners/",
+      "published": "2026-09-28T18:05:00+00:00",
+      "summary": "Learn to direct AI coding agents, review their work, and build reliable development workflows with this free GitHub Copilot app course.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Dan Wahlin",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "MSSQL Extension for VS Code: New Getting Started Page, Agent skills, SQL Formatter, and more",
@@ -4711,28 +4810,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Start here: Azure SQL Foundations series",
-      "link": "https://devblogs.microsoft.com/blog/start-here-azure-sql-foundations-series/",
-      "published": "2026-08-25T16:00:18+00:00",
-      "summary": "Most developers I talk to aren’t asking whether Azure SQL Database can handle their next app. They’re asking where to start when it comes to modernization, migration, and AI in the database. If you’re reading this, you’re probably in a similar boat: you’ve got an existing schema or databases, a...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Anna Hoffman",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Try Azure SRE Agent with no always-on charges",
-      "link": "https://devblogs.microsoft.com/blog/try-azure-sre-agent-with-no-always-on-charges/",
-      "published": "2026-08-25T15:00:00+00:00",
-      "summary": "We are happy to announce a 30-day trial experience for Azure SRE Agent. New customers can create and configure the SRE Agent at their own pace, with no charges for setup time or keeping agents ready. During the trial, you can connect your agents to telemetry, source code, incident management...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Nir Mashkowski",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "PowerToys 0.101 is here: Window Hopper, Insider updates, and Command Palette compact mode",
       "link": "https://devblogs.microsoft.com/commandline/powertoys-0-101-is-here-window-hopper-insider-updates-and-command-palette-compact-mode/",
       "published": "2026-08-25T13:24:02+00:00",
@@ -4984,17 +5061,6 @@
       "author": "misha-bansal",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "v1.16.0-rc2",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-rc2",
-      "published": "2026-08-19T12:08:45+00:00",
-      "summary": "1.16.0-rc2 (August 19, 2026) NEW FEATURES: Terraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986) terraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298) Providers...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
     },
     {
       "title": "Building a Fully Automated Azure Landing Zone Deployment Using Azure DevOps and Terraform",
@@ -6504,17 +6570,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "The Microsoft 365 Copilot Agent’s Playbook: A Practical Livestream Series for Building Better Agents",
-      "link": "https://devblogs.microsoft.com/blog/the-microsoft-365-copilot-agents-playbook-a-practical-livestream-series-for-building-better-agents/",
-      "published": "2026-07-23T19:03:53+00:00",
-      "summary": "Building on Microsoft 365 Copilot? Here’s your playbook. Declarative agents are quickly becoming one of the most exciting ways to extend Microsoft 365 Copilot and bring organizational knowledge, workflows, and tools directly into the flow of work. But as agent capabilities grow, so does the need...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Shavonna Jackson",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Announcing public preview of Azure DDoS Protection custom policy",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/announcing-public-preview-of-azure-ddos-protection-custom-policy/ba-p/4538963",
       "published": "2026-07-23T17:16:28+00:00",
@@ -6592,17 +6647,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Building Agents that Act on Your Behalf with Toolboxes in Foundry",
-      "link": "https://devblogs.microsoft.com/foundry/building-agents-that-act-on-your-behalf-with-toolboxes-in-foundry/",
-      "published": "2026-07-22T15:00:29+00:00",
-      "summary": "How Toolboxes in Foundry simplify user delegation At some point, many agents move from answering questions to taking action. And when it does, the question becomes: whose identity is it acting with? Imagine you are building an internal employee agent. It needs to call a private, Entra-protected MCP...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Linda Li, Maria Naggaga",
-      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Take command of your Microsoft Foundry AI agents with the Azure Copilot Observability Agent",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/take-command-of-your-microsoft-foundry-ai-agents-with-the-azure/ba-p/4538681",
       "published": "2026-07-21T16:28:48+00:00",
@@ -6612,17 +6656,6 @@
       "author": "Ron Frenkel",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "How to test agent experience changes without shipping them",
-      "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-experience-changes-without-shipping-them/",
-      "published": "2026-07-21T07:15:12+00:00",
-      "summary": "Most changes you think will improve AI agent behavior won't. We tested a dozen hypotheses on a real project upgrade scenario and the majority failed. Learn how to emulate documentation, API, and MCP server changes locally so you can validate what works before shipping anything to production.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Introducing Azure Front Door edge actions - Bringing secure, programmable logic to the edge",
@@ -6699,17 +6732,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "How to test agent skills without hitting real APIs",
-      "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-skills-without-hitting-real-apis/",
-      "published": "2026-07-17T09:27:50+00:00",
-      "summary": "Your agent skill calls an API. The moment you start evaluating it, every run either costs money or mutates production data. Learn how to mock APIs transparently so you can run evals without changing your skill or hitting real endpoints.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -6898,17 +6920,6 @@
       "author": "alyssaschimm",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Building AX evals that actually work",
-      "link": "https://devblogs.microsoft.com/blog/building-ax-evals-that-actually-work/",
-      "published": "2026-07-15T12:53:13+00:00",
-      "summary": "This is the eighth and final article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "[In preview] Public Preview: Azure Front Door edge actions",
@@ -7799,17 +7810,6 @@
       "blogId": "modernizationbestpracticesblog",
       "author": "Mitch_van_Huuksloot",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=modernizationbestpracticesblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Introducing New Additions to Microsoft Sentinel Normalization and ASIM",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/introducing-new-additions-to-microsoft-sentinel-normalization/ba-p/4524584",
-      "published": "2026-06-17T15:00:00+00:00",
-      "summary": "TL;DR: New ASIM parsers for Azure Firewall, Key Vault, AWS CloudTrail (EC2, S3, IAM), and 10+ third-party products. Two new schemas — Asset Entities and AI Agent Events. Plus changelogs on GitHub and a heads-up on an upcoming breaking change in ProcessEvent parsers. What's New Security teams deal...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "derricklee",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -11795,5 +11795,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Microsoft’s Azure news today centered on AI, cloud operations, and platform availability: **Anyscale on Azure reached General Availability**, bringing managed **Ray-based AI and distributed Python workloads** to Azure, while Microsoft also highlighted **AI agent governance in Azure AI Foundry** and new security guidance from frontier AI vulnerability research. On the developer and infrastructure side, updates included **Visual Studio Code 1.141**, **Azure Arc multicloud connector public preview for onboarding Kubernetes clusters**, **Azure Storage Actions for bulk blob tier changes**, **API Management service tag network rule updates**, and GA support for the **Bulk admin role for SQL Server on Linux**.\n\nA second major theme was modernization and security hygiene: Microsoft warned customers to act on the **Azure AD Graph API retirement** affecting older **Azure CLI** and **Azure PowerShell** versions, while GitHub emphasized that **secret protection must scale with software development**. The list also included ecosystem and community items such as Microsoft’s presence at **Oracle AI World 2026** and a practical DevOps post using **Whisper, FFMPEG, and yt-dlp** for sermon analysis."
+  "summary": "Today’s Azure and Microsoft ecosystem posts centered on AI platform expansion, security, and developer tooling. Key announcements included **Anyscale on Azure reaching General Availability** for running **Ray-based AI workloads**, **Claude Haiku 5.5** becoming available in both **GitHub Copilot** and **Microsoft Foundry/Azure AI Foundry**, and new guidance on building AI systems with **Azure Document Intelligence**, **Azure Content Understanding**, and **AI evaluation** workflows that reduce cost while improving governance.\n\nSecurity was another major theme: Microsoft introduced the **Microsoft Sentinel ASIM EmailEvent schema** to normalize email telemetry for detection and hunting, GitHub expanded **secret protection** with a **purpose-built leaked-secret detection model**, and Microsoft Security shared lessons from **frontier AI vulnerability research**. On the developer side, notable updates included **Visual Studio Code 1.141**, **Terraform v1.17.0-rc1**, **local sandboxing for GitHub Copilot** reaching GA, **local model discovery in Copilot CLI**, and **public preview onboarding of Kubernetes clusters to Azure Arc via the Multicloud Connector**, alongside an Azure SQL/Linux update enabling the **Bulk admin role**."
 }
