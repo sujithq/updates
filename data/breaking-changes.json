@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T15:00:03.677766+00:00",
+  "lastUpdated": "2026-10-07T15:28:16.406819+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -1672,6 +1672,50 @@
       "detected": "2026-10-06T15:00:03.677752+00:00",
       "published": "2026-10-05T22:25:40+00:00",
       "blog": "Azure Tools"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=570232",
+      "title": "Retirement: Pod name dimension in AKS pod platform metrics",
+      "severity": "warning",
+      "deadline": "2027-09-30",
+      "impact": "AKS Azure Monitor pod-name metric dimension retires; users of per-pod metrics affected",
+      "action": "Update dashboards/alerts/queries to use aggregate pod counters",
+      "detected": "2026-10-07T15:28:16.406795+00:00",
+      "published": "2026-10-06T22:37:54+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=568178",
+      "title": "Retirement: Azure App Service on Azure Stack Hub",
+      "severity": "critical",
+      "deadline": "2026-09-30",
+      "impact": "Azure App Service on Azure Stack Hub blocks new installs; Stack Hub operators affected",
+      "action": "Stop planning new installs; plan migration before full retirement in 2029",
+      "detected": "2026-10-07T15:28:16.406808+00:00",
+      "published": "2026-10-06T18:24:43+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=568585",
+      "title": "Retirement: Support for Java 8, 11 and 17 will end on September 1, 2027",
+      "severity": "warning",
+      "deadline": "2027-09-01",
+      "impact": "App Service support ends for Java 8/11/17; apps lose updates and support",
+      "action": "Upgrade App Service apps to a supported Java version before deadline",
+      "detected": "2026-10-07T15:28:16.406812+00:00",
+      "published": "2026-10-06T18:21:59+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=569236",
+      "title": "Retirement: Always Encrypted with Intel SGX Enclaves",
+      "severity": "warning",
+      "deadline": "2027-10-31",
+      "impact": "Azure SQL Always Encrypted with SGX enclaves retires; SGX users affected",
+      "action": "Migrate to VBS enclaves before SGX DC-series support ends",
+      "detected": "2026-10-07T15:28:16.406815+00:00",
+      "published": "2026-10-06T16:42:33+00:00",
+      "blog": "Azure Updates"
     }
   ]
 }
