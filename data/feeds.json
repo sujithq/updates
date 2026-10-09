@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-09T00:44:11.467926+00:00",
-  "totalArticles": 1070,
+  "lastUpdated": "2026-10-09T09:42:53.503123+00:00",
+  "totalArticles": 1071,
   "articles": [
     {
       "title": "Visual Studio Code 1.142 (Insiders)",
@@ -14,6 +14,39 @@
       "sourceType": "rss"
     },
     {
+      "title": "Introducing the Native Confluent Cloud Connector Experience in Azure Cosmos DB!",
+      "link": "https://devblogs.microsoft.com/cosmosdb/introducing-the-native-confluent-cloud-connector-experience-in-azure-cosmos-db/",
+      "published": "2026-10-09T07:00:28+00:00",
+      "summary": "Co-authored with Praveen Raja P Azure Cosmos DB already includes a powerful event foundation: change feed provides a durable, ordered record of item changes within each logical partition. It is ideal for reacting to operational data as it changes, building projections, and driving workflows...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Theo van Kraay",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure CLI on macOS got security upgrade: native broker authentication",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-cli-on-macos-got-security-upgrade-native-broker/ba-p/4563073",
+      "published": "2026-10-09T04:40:50+00:00",
+      "summary": "Why we built this If you manage Azure resources from a Mac today, az login opens a browser tab, you sign in, and a token comes back to the CLI. That's worked well for a long time. As security requirements become more stringent, many enterprise organizations are adopting secure authentication...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "Alex-wdy",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Optimizing Oracle-to-Power BI Performance and the Path to Modern Analytics",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/optimizing-oracle-to-power-bi-performance-and-the-path-to-modern/ba-p/4563061",
+      "published": "2026-10-09T01:46:15+00:00",
+      "summary": "Organizations frequently rely on Oracle databases for large-scale operational workloads while using Microsoft Power BI as their enterprise analytics and visualization platform. Although connecting Power BI directly to Oracle is fully supported, performance can become challenging as datasets grow...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "[Launched] Generally Available: Managed StandardV2 NAT Gateway for AKS",
       "link": "https://azure.microsoft.com/updates?id=574430",
       "published": "2026-10-08T22:51:01+00:00",
@@ -22,17 +55,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Post-quantum authentication: Why organizations should start testing certificate ecosystems now",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/08/post-quantum-authentication-why-organizations-should-start-testing-certificate-ecosystems-now/",
-      "published": "2026-10-08T20:44:28+00:00",
-      "summary": "Prepare for post-quantum authentication by testing certificate ecosystems now. Learn how Microsoft’s PQC TLS Pilot Program helps advance future readiness. The post Post-quantum authentication: Why organizations should start testing certificate ecosystems now appeared first on Microsoft Security...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Security Research, Lora Randolph, Tahmina Ahmad and Karina Sirota Goodley",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -377,17 +399,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "3 lessons from frontier AI vulnerability research",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
-      "published": "2026-10-07T16:00:00+00:00",
-      "summary": "Read how How Microsoft Security's FORGE Lab is scaling vulnerability research from Windows to the Linux kernel. The post 3 lessons from frontier AI vulnerability research appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Taesoo Kim",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Local sandboxing for GitHub Copilot now generally available",
       "link": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
       "published": "2026-10-07T15:46:17+00:00",
@@ -671,17 +682,6 @@
       "blogId": "azuresqlblog",
       "author": "Jerry Nixon",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "CISO perspectives on managing vulnerability risks in the age of AI",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/06/ciso-perspectives-on-managing-vulnerability-risks-in-the-age-of-ai/",
-      "published": "2026-10-06T16:00:00+00:00",
-      "summary": "Learn how CISOs can mitigate cybersecurity risks and increase resilience in the age of AI-powered vulnerability management. The post CISO perspectives on managing vulnerability risks in the age of AI appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Freddy Dezeure and Sesha Mani",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -2269,6 +2269,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/",
+      "published": "2026-09-28T15:00:00+00:00",
+      "summary": "Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations. The post NeedyMantis: Unpacking a...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Threat Intelligence",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "From Jev to Your Laptop: Building \"System One\" Decision Models in ONNX with Mobius",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-jev-to-your-laptop-building-quot-system-one-quot-decision/ba-p/4558843",
       "published": "2026-09-28T06:11:14+00:00",
@@ -2310,6 +2321,17 @@
       "blogId": "dotnet",
       "author": "Daniel Roth",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Storm-3168: Agentic-driven cloud attacks using compromised service principals",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals/",
+      "published": "2026-09-25T15:35:08+00:00",
+      "summary": "Microsoft details JADEPUFFER-linked Azure reconnaissance, resource deletion, and credential access using compromised service principals, identifying the activity as associated with Storm-3168 and providing guidance for defenders. The post Storm-3168: Agentic-driven cloud attacks using compromised...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Security Research, Yossi Weizman and Tushar Mudi",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -2409,6 +2431,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/",
+      "published": "2026-09-24T16:00:00+00:00",
+      "summary": "Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect and disrupt this activity before ransomware deployment. The post Beyond the...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Threat Intelligence",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -2882,17 +2915,6 @@
       "blogId": "msdevblog",
       "author": "Waldek Mastykarz",
       "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Spec-Driven Development comes to Azure Cosmos DB: The First Database Extension for GitHub Spec Kit",
-      "link": "https://devblogs.microsoft.com/cosmosdb/spec-driven-development-comes-to-azure-cosmos-db-the-first-database-extension-for-github-spec-kit/",
-      "published": "2026-09-21T07:00:11+00:00",
-      "summary": "AI coding agents can write much of an application’s code, but developers still need to review the decisions behind it. For a Cosmos DB application, that includes choosing partition keys, modeling access patterns, and configuring the client. Those decisions affect cost, performance, and reliability...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Theo van Kraay",
-      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
     },
     {
@@ -10409,17 +10431,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure Databricks & Fabric Disaster Recovery: The Better Together Story",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/azure-databricks-fabric-disaster-recovery-the-better-together/ba-p/4481323",
-      "published": "2026-03-10T01:46:28+00:00",
-      "summary": "Author's: Amudha Palani amudhapalani​, Oscar Alvarado oscaralvarado​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Disaster recovery (DR) is a critical component of any cloud-native data analytics platform, ensuring business continuity even during rare regional outages...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "AI Inferencing in Air-Gapped Environments",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/ai-inferencing-in-air-gapped-environments/ba-p/4498594",
       "published": "2026-03-09T09:18:31+00:00",
@@ -11772,5 +11783,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure posts focus on tighter data-platform integration, stronger developer security, and analytics modernization. Azure Cosmos DB announced a native Confluent Cloud connector experience to simplify streaming data integration between Confluent/Kafka pipelines and Cosmos DB, while Azure CLI on macOS added native broker authentication to improve sign-in security and align with modern identity protections.\n\nOn the analytics side, Azure highlighted performance optimization for Oracle-to-Power BI workloads and positioned it as a bridge toward modern analytics architectures, emphasizing better query performance, reporting efficiency, and migration from legacy Oracle-centric BI patterns."
 }
