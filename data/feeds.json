@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08T20:17:22.006661+00:00",
+  "lastUpdated": "2026-10-09T00:44:11.467926+00:00",
   "totalArticles": 1070,
   "articles": [
     {
@@ -14,6 +14,50 @@
       "sourceType": "rss"
     },
     {
+      "title": "[Launched] Generally Available: Managed StandardV2 NAT Gateway for AKS",
+      "link": "https://azure.microsoft.com/updates?id=574430",
+      "published": "2026-10-08T22:51:01+00:00",
+      "summary": "AKS will now provision and manage a StandardV2 NAT Gateway for clusters using an AKS-managed virtual network.StandardV2 is now the default managed NAT Gateway SKU for new clusters in supported regions when using the managedNATGateway outbound type. Standa",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Post-quantum authentication: Why organizations should start testing certificate ecosystems now",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/08/post-quantum-authentication-why-organizations-should-start-testing-certificate-ecosystems-now/",
+      "published": "2026-10-08T20:44:28+00:00",
+      "summary": "Prepare for post-quantum authentication by testing certificate ecosystems now. Learn how Microsoft’s PQC TLS Pilot Program helps advance future readiness. The post Post-quantum authentication: Why organizations should start testing certificate ecosystems now appeared first on Microsoft Security...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Security Research, Lora Randolph, Tahmina Ahmad and Karina Sirota Goodley",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Evaluating Voice Agents: How Reliable Are Foundry's Multi-turn Evaluators?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/evaluating-voice-agents-how-reliable-are-foundry-s-multi-turn/ba-p/4559697",
+      "published": "2026-10-08T20:00:00+00:00",
+      "summary": "Teams developing voice agents need automated evaluation because human review alone cannot keep pace with thousands of calls and frequent agent updates. Microsoft Foundry addresses this need with multi-turn evaluators that assess agent behavior and outcomes across complete conversations. To...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "nemo-nano",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Database for PostgreSQL flexible server in East US 3",
+      "link": "https://azure.microsoft.com/updates?id=573691",
+      "published": "2026-10-08T19:56:31+00:00",
+      "summary": "Now you can deploy Azure Database for PostgreSQL flexible server in the East US 3 Azure region. Learn more.",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
       "title": "Dynamic Workflows in Azure Functions Hosted Skills: Durable, AI-Led Work for Event-Driven Apps",
       "link": "https://devblogs.microsoft.com/azure-sdk/dynamic-workflows-azure-functions-hosted-skills/",
       "published": "2026-10-08T19:09:00+00:00",
@@ -22,6 +66,17 @@
       "blogId": "azuresdkblog",
       "author": "Tsuyoshi Ushio",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Triage role users or higher can now archive pull requests",
+      "link": "https://github.blog/changelog/2026-10-08-triage-role-users-or-higher-can-now-archive-pull-requests",
+      "published": "2026-10-08T19:01:42+00:00",
+      "summary": "Users with the triage role or higher in a repository can now archive and unarchive pull requests. Previously, archiving was limited to repository administrators, requiring trusted triagers to hand routine… The post Triage role users or higher can now archive pull requests appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -91,6 +146,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "A closer look at noise reduction in Stacks What-If",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/a-closer-look-at-noise-reduction-in-stacks-what-if/ba-p/4548210",
+      "published": "2026-10-08T16:12:33+00:00",
+      "summary": "Following the general availability of what-if for Azure Deployment Stacks, this article deep dives into the co-released feature of \"noise reduction\", which was a top community feature ask from Deployment Stacks customers. In this article, we will cover what noise reduction solves, how it works, and...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "torreyt",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Screen readers can navigate timelines as lists",
       "link": "https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists",
       "published": "2026-10-08T16:00:56+00:00",
@@ -133,6 +199,50 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "When the Answer Isn’t in the Document: Metadata-Aware Agentic RAG with Foundry IQ",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/when-the-answer-isn-t-in-the-document-metadata-aware-agentic-rag/ba-p/4562237",
+      "published": "2026-10-08T13:00:00+00:00",
+      "summary": "The problem SharePoint libraries often contain years of carefully curated metadata, including root cause, severity, business unit, document type, owner and classification. If that metadata never reaches the retrieval pipeline, however, a RAG system cannot use it. This creates a common blind spot:...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "shikhasinha",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure Key Vault and BYOK: Lessons Learned",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-key-vault-and-byok-lessons-learned/ba-p/4561156",
+      "published": "2026-10-08T12:41:54+00:00",
+      "summary": "Bring Your Own Key (BYOK) lets you import externally generated key material into Azure Key Vault. Importing that material again creates a new version; it does not recreate the original version identifier. If Azure Storage still requires the original customer-managed key (CMK) version to unwrap...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "gurjsing",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "💲Announcing Free Grant and Pricing for Logic Apps Automation",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-free-grant-and-pricing-for-logic-apps-automation/ba-p/4562264",
+      "published": "2026-10-08T08:03:09+00:00",
+      "summary": "Today, we're announcing pricing for Azure Logic Apps Automation, now in public preview, along with monthly free grants that make it easier to start building, experimenting, and bringing automations to life. Logic Apps Automation is Azure's fully managed platform for business process automation and...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "DivSwa",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Claude Haiku 5.5 is now available in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-haiku-5-5-is-now-available-in-microsoft-foundry/ba-p/4562408",
+      "published": "2026-10-08T00:48:21+00:00",
+      "summary": "Claude Haiku 5.5 is now available in Microsoft Foundry. The fastest and most efficient model in the Claude 5.5 family, it is built for high-volume, cost-sensitive agentic work, from live customer support to focused subtasks within larger agent systems. It also costs around 75% less than Claude...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "amar_badal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Introducing the Microsoft Sentinel ASIM EmailEvent schema",
@@ -188,17 +298,6 @@
       "author": "Chu Lahlou",
       "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Claude Haiku 5.5 is now available in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-haiku-5-5-is-now-available-in-microsoft-foundry/ba-p/4562408",
-      "published": "2026-10-07T18:04:23+00:00",
-      "summary": "Claude Haiku 5.5 is now available in Microsoft Foundry. The fastest and most efficient model in the Claude 5.5 family, it is built for high-volume, cost-sensitive agentic work, from live customer support to focused subtasks within larger agent systems. It also costs around 75% less than Claude...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amar_badal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Secret protection must scale with software",
@@ -649,17 +748,6 @@
       "blogId": "msdevblog",
       "author": "Waldek Mastykarz",
       "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Secret scanning adds detectors for Lovable, Supabase, and more",
-      "link": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
-      "published": "2026-10-05T22:42:14+00:00",
-      "summary": "Secret scanning now detects new secret types from Lovable Labs, Pydantic Services Inc., and Supabase. New secret scanning partner The following provider joined the secret scanning partnership program. When one… The post Secret scanning adds detectors for Lovable, Supabase, and more appeared first...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1400,17 +1488,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Cohere Embed V5 brings more relevant retrieval to Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/cohere-embed-v5-brings-more-relevant-retrieval-to-microsoft/ba-p/4560845",
-      "published": "2026-09-30T16:59:02+00:00",
-      "summary": "Today, we’re introducing Cohere Embed V5 Pro and Embed V5 Fast in Microsoft Foundry, bringing stronger multimodal retrieval to enterprise search and AI applications. With Fast and Pro options, support for more than 100 languages, and flexible vector sizes, Embed V5 gives developers more control...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "RashaudSavage",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Episode 2: Reduce restarts with Hotpatch for Windows Server 2025 | The Azure Arc Check-In",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/episode-2-reduce-restarts-with-hotpatch-for-windows-server-2025/ba-p/4557249",
       "published": "2026-09-30T16:37:45+00:00",
@@ -1441,17 +1518,6 @@
       "blogId": "agent-365-blog",
       "author": "joriefoss",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Let the query decide: introducing auto retrieval reasoning effort",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/let-the-query-decide-introducing-auto-retrieval-reasoning-effort/ba-p/4558943",
-      "published": "2026-09-30T16:00:00+00:00",
-      "summary": "Introducing auto: a new retrieval reasoning effort mode that recovers 97.6% of the evidence recall of the highest effort level at 46.9% fewer query planning tokens. Enterprise retrieval workloads mix simple lookup queries with complex questions that require searching across many documents. Today,...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amaias",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -2200,17 +2266,6 @@
       "blogId": "azuresqlblog",
       "author": "Umachandar Jayachandran (UC)",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/",
-      "published": "2026-09-28T15:00:00+00:00",
-      "summary": "Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations. The post NeedyMantis: Unpacking a...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Threat Intelligence",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -6625,17 +6680,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Changing the engine while the plane is flying: migrating 60,000 apps under live load",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/changing-the-engine-while-the-plane-is-flying-migrating-60-000/ba-p/4539443",
-      "published": "2026-07-23T20:05:25+00:00",
-      "summary": "Summary Azure Logic Apps Consumption Integration Accounts were served by roughly 60,000 per-customer Azure Functions apps on the end-of-life v1/v2 runtime. Over about two years we migrated the entire fleet to Functions v4 (isolated worker), across all Azure regions, with no migration work required...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "AbodeSaafan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Introducing Kubernetes-Native Policy Validation with CEL and VAP in Azure Policy",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/introducing-kubernetes-native-policy-validation-with-cel-and-vap/ba-p/4534585",
       "published": "2026-07-23T19:27:12+00:00",
@@ -6999,17 +7043,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "[In preview] Public Preview: Azure Front Door edge actions",
-      "link": "https://azure.microsoft.com/updates?id=567402",
-      "published": "2026-07-14T20:03:32+00:00",
-      "summary": "Announcing the public preview of Azure Front Door edge actions (serverless compute at the edge).With edge actions, customers can execute lightweight JavaScript functions during Azure Front Door request processing to make real-time decisions closer to user",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Building a Custom Metrics Exporter for Kubernetes",
       "link": "https://kubernetes.io/blog/2026/07/14/custom-metrics-exporter-kubernetes/",
       "published": "2026-07-14T18:00:00+00:00",
@@ -7051,17 +7084,6 @@
       "blogId": "kubernetes",
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure Databricks SQL Serverless in UK West",
-      "link": "https://azure.microsoft.com/updates?id=567444",
-      "published": "2026-07-13T17:04:04+00:00",
-      "summary": "Starting July 13th, 2026, customers can use Azure Databricks SQL Serverless in the UK West region to simplify analytics workloads while benefiting from instant compute, automated scaling, and reduced infrastructure management. Eligible UK West workspaces",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -8682,17 +8704,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "[Public Preview] Introducing Customizable Security Baseline Policies in Machine Configuration",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/public-preview-introducing-customizable-security-baseline/ba-p/4469678",
-      "published": "2026-05-28T17:02:04+00:00",
-      "summary": "Background: Azure Machine Configuration remains committed to enabling greater security and simplicity in at-scale server management for all Azure customers. Machine Configuration (previously known as Azure Policy Guest Configuration) enables both built-in and custom configuration as code allowing...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "mutemwamasheke",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "How Azure Chaos Studio ships with hermetic Aspire end-to-end tests",
       "link": "https://devblogs.microsoft.com/aspire/hermetic-aspire-tests-chaos-studio/",
       "published": "2026-05-28T17:00:00+00:00",
@@ -8873,17 +8884,6 @@
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/rundeck-aws-enterprise-rundeck-integration-with-azure-runner/ba-p/4521080",
       "published": "2026-05-19T10:08:59+00:00",
       "summary": "Architecture Overview Rundeck Server (AWS) → https://dev.rundeck.xyz.com Rundeck Runner (Azure Linux VM) Secure Communication over HTTPS (Port 4432) Optional Proxy for enterprise networks 1.Ensure that network connectivity is established between the Rundeck endpoint (dev.rundeck.xyz.com) and the...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ranjsharma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Building a Terraform Drift Validator for Azure with Live Portal Verification",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-a-terraform-drift-validator-for-azure-with-live-portal/ba-p/4520952",
-      "published": "2026-05-19T06:18:13+00:00",
-      "summary": "Architecture: This blog describes how to build a practical Terraform Drift Validator for Azure that compares three sources of truth: Excel sheet or design document containing expected Azure configuration Terraform state file representing IaC-managed deployed intent Live Azure configuration,...",
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "ranjsharma",
@@ -11772,6 +11772,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Microsoft’s Azure news today centers on platform evolution and lifecycle changes: Azure is rolling out generally available WAF exception support for both Azure Application Gateway and Azure Front Door, previewing Microsoft Agent 365 integration with Azure API Management, and adding Marketplace multiparty private offers in Hong Kong. On the developer side, the Azure SDK team highlighted AI-orchestrated, event-driven workflows in Azure Functions using Durable Functions for hosted skills, Aspire added dashboard persistence, and Azure DevOps introduced a new Wiki editor—while Microsoft also announced the retirement timelines for Microsoft Dev Box (Sept. 18, 2028) and Azure Deployment Environments (Feb. 22, 2027).\n\nGitHub’s posts were more workflow- and accessibility-focused: guidance from a bug bounty researcher on selecting security targets, a changelog update making timelines navigable as lists for screen readers, and a policy change where draft pull requests now count toward PR limits."
+  ]
 }
