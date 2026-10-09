@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-09T17:36:09.648730+00:00",
-  "totalArticles": 1070,
+  "lastUpdated": "2026-10-09T21:55:34.389236+00:00",
+  "totalArticles": 1071,
   "articles": [
     {
       "title": "Visual Studio Code 1.142 (Insiders)",
@@ -12,6 +12,61 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Introducing Microsoft-Decision-1 in Microsoft Foundry for decision and classification workloads",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-microsoft-decision-1-in-microsoft-foundry-for/ba-p/4562742",
+      "published": "2026-10-09T21:05:34+00:00",
+      "summary": "Not every step in an AI application needs a large language model to generate a response. Many high-volume application steps are decisions: classify an input, select an option, assign a score, verify a condition, prioritize an item, or control a workflow. To suit these tasks, a new class of models...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Saumil-Shrivastava",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Retirement: Azure Key Vault Secrets Provider Extension for Azure Arc enabled Kubernetes clusters",
+      "link": "https://azure.microsoft.com/updates?id=570313",
+      "published": "2026-10-09T20:27:17+00:00",
+      "summary": "The Azure Key Vault Secrets Provider Extension for Azure Arc-enabled Kubernetes will be retired on October 9, 2027.Customers currently using the extension should plan to migrate to the Azure Key Vault Secret Store Extension before the retirement date. The",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Microsoft Agent 365 and Azure API Management integration for MCP governance",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/microsoft-agent-365-and-azure-api-management-integration-for-mcp/ba-p/4563335",
+      "published": "2026-10-09T20:18:42+00:00",
+      "summary": "As agents gain access to enterprise tools, organizations need consistent ways to govern what those agents can access and enforce those decisions at runtime Today, we're announcing a new integration between Microsoft Agent 365 and Azure API Management now in public preview. The integration connects...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "santiagxf",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure Key Vault Control Plane API Update: Required Upgrade for Azure CLI and Azure PowerShell Users",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-key-vault-control-plane-api-update-required-upgrade-for/ba-p/4552476",
+      "published": "2026-10-09T19:35:00+00:00",
+      "summary": "Deadline: February 27, 2027 All Azure Key Vault control plane (management) API versions released before 2026-02-01 will stop working on February 27, 2027. This does NOT affect the data plane (getting/setting secrets, keys, and certificates) — only vault and access-control management operations are...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "Alex-wdy",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Multi-NIC Support on AKS powered by DRANET – Now in Public Preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/multi-nic-support-on-aks-powered-by-dranet-now-in-public-preview/ba-p/4563257",
+      "published": "2026-10-09T18:24:27+00:00",
+      "summary": "Kubernetes was designed around a simple networking model, every pod gets one network interface, and every pod on a node shares the same flat network. For most stateless microservices, this works well as it keeps the model simple and the platform portable. But a large class of workloads don't fit...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "chandanAggarwal",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Hack the World: Why hackathons are still the best place to learn to build",
@@ -36,6 +91,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Beyond the Script: Evaluating Voice Agents with Voice User Simulator",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/beyond-the-script-evaluating-voice-agents-with-voice-user/ba-p/4559696",
+      "published": "2026-10-09T15:00:00+00:00",
+      "summary": "Voice agents engage with users in real-time, interactive conversations. Their success depends on what users say, how they sound, and when they speak. Static evaluations provide a task without further user interaction, leaving much of this conversational behavior untested. Human testing captures...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "nemo-nano",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Azure Managed Redis Deployment Automation",
       "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/azure-managed-redis-deployment-automation/ba-p/4547874",
       "published": "2026-10-09T12:30:36+00:00",
@@ -56,6 +122,28 @@
       "author": "Theo van Kraay",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Azure CLI on macOS got security upgrade: native broker authentication",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-cli-on-macos-got-security-upgrade-native-broker/ba-p/4563073",
+      "published": "2026-10-09T04:40:50+00:00",
+      "summary": "Why we built this If you manage Azure resources from a Mac today, az login opens a browser tab, you sign in, and a token comes back to the CLI. That's worked well for a long time. As security requirements become more stringent, many enterprise organizations are adopting secure authentication...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "Alex-wdy",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Optimizing Oracle-to-Power BI Performance and the Path to Modern Analytics",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/optimizing-oracle-to-power-bi-performance-and-the-path-to-modern/ba-p/4563061",
+      "published": "2026-10-09T01:46:15+00:00",
+      "summary": "Organizations frequently rely on Oracle databases for large-scale operational workloads while using Microsoft Power BI as their enterprise analytics and visualization platform. Although connecting Power BI directly to Oracle is fully supported, performance can become challenging as datasets grow...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "[Launched] Generally Available: Managed StandardV2 NAT Gateway for AKS",
@@ -99,6 +187,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Copilot code review: New organization billing options and controls",
+      "link": "https://github.blog/changelog/2026-10-08-copilot-code-review-new-organization-billing-options-and-controls",
+      "published": "2026-10-08T19:43:05+00:00",
+      "summary": "This release adds new billing and license controls for Copilot code review admins: Billing: Organization owners can bill Copilot code reviews from members with a Copilot license to the organization’s… The post Copilot code review: New organization billing options and controls appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -773,17 +872,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Code scanning AI Scan enablement status in security overview",
-      "link": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
-      "published": "2026-10-06T10:23:38+00:00",
-      "summary": "Organization and enterprise administrators can now see AI Scan for pull requests enablement status in the security overview coverage view. The code scanning summary shows enabled and not enabled repository… The post Code scanning AI Scan enablement status in security overview appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "What is Agent Experience (AX)?",
       "link": "https://devblogs.microsoft.com/blog/what-is-agent-experience-ax/",
       "published": "2026-10-06T09:18:05+00:00",
@@ -1312,17 +1400,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Beyond Agent Scores: Building Consequence-Aware Release Gates with Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/beyond-agent-scores-building-consequence-aware-release-gates/ba-p/4559709",
-      "published": "2026-10-01T13:00:00+00:00",
-      "summary": "A better score does not always mean a safer release An AI agent can produce a polished response and still take an action it was never permitted to take. Consider a retail support agent handling an over-policy refund request. The response sounds helpful, the tone is appropriate, and a semantic...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Abhishek Kumar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "GitHub-hosted agents with Pay-as-you-Go pricing are now generally available in Azure Pipelines",
       "link": "https://devblogs.microsoft.com/devops/github-hosted-agents-with-pay-as-you-go-pricing-are-now-generally-available-in-azure-pipelines/",
       "published": "2026-10-01T12:27:54+00:00",
@@ -1442,17 +1519,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "From \"Agent Deployed\" to \"Agent Ready\" - Agent Acceptance Gateway",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-quot-agent-deployed-quot-to-quot-agent-ready-quot-agent/ba-p/4558096",
-      "published": "2026-09-30T18:00:00+00:00",
-      "summary": "A Microsoft Foundry handover story The infrastructure team has finished the AI landing zone. The Microsoft Foundry project exists. The prompt agent is already created, connected to its model, and configured with the tools or connections it needs. That is an important milestone, but it is not the...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "SudhirRawat",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Announcing general availability of Azure Intel® TDX confidential VMs",
@@ -4304,17 +4370,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure Key Vault Control Plane API Update: Required Upgrade for Azure CLI and Azure PowerShell Users",
-      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-key-vault-control-plane-api-update-required-upgrade-for/ba-p/4552476",
-      "published": "2026-09-02T06:16:45+00:00",
-      "summary": "Deadline: February 27, 2027 All Azure Key Vault control plane (management) API versions released before 2026-02-01 will stop working on February 27, 2027. This does NOT affect the data plane (getting/setting secrets, keys, and certificates) — only vault and access-control management operations are...",
-      "blog": "Azure Tools",
-      "blogId": "azuretoolsblog",
-      "author": "Alex-wdy",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Why long-running tasks on Linux Batch pools can restart daily and how to prevent it",
       "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/why-long-running-tasks-on-linux-batch-pools-can-restart-daily/ba-p/4546215",
       "published": "2026-09-02T04:57:13+00:00",
@@ -6647,17 +6702,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "AI Gateway tier of API Management now in public preview",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/ai-gateway-tier-of-api-management-now-in-public-preview/ba-p/4540170",
-      "published": "2026-07-27T16:37:53+00:00",
-      "summary": "Today, we are introducing the AI Gateway tier of Azure API Management, now in public preview. It gives platform teams a purpose-built experience built specifically for AI workloads - publishing and governing models and MCP servers. Controls are configured through policy cards rather than XML and...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "vladvino",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Building Autonomous Network Operations: From Vision to Measurable Business Impact",
       "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/building-autonomous-network-operations-from-vision-to-measurable/ba-p/4540483",
       "published": "2026-07-27T13:17:08+00:00",
@@ -7025,17 +7069,6 @@
       "link": "https://azure.microsoft.com/updates?id=567726",
       "published": "2026-07-15T15:30:11+00:00",
       "summary": "Starting July 15, 2026, advanced platform metrics are available in Public Preview. This update provides enhanced visibility into platform performance, resource health, and operational trends across supported Azure services. With advanced platform metrics,",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Announcing: DevUI Agent Inspector for Microsoft Agent Framework",
-      "link": "https://azure.microsoft.com/updates?id=563551",
-      "published": "2026-07-15T15:15:25+00:00",
-      "summary": "Microsoft Agent Framework adds DevUI Agent Inspector in public preview, a local debugging surface that shows agent runs as a navigable tree of model calls, tool invocations, and intermediate state. Developers can pause, replay, and edit prompts mid-run, s",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -7734,17 +7767,6 @@
       "author": "dyu1208",
       "feedUrl": "https://github.com/Azure/AKS/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "Migrating from MSEE Hairpin Routing to AVNM Mesh for Large-Scale VNet-to-VNet Connectivity",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/migrating-from-msee-hairpin-routing-to-avnm-mesh-for-large-scale/ba-p/4529320",
-      "published": "2026-06-19T07:55:59+00:00",
-      "summary": "Introduction A common pattern in large Azure deployments is to route VNet-to-VNet traffic through Microsoft Enterprise Edge (MSEE) routers. This happens when spoke VNets in a hub-and-spoke topology communicate with each other by hairpinning through the ExpressRoute circuit: traffic exits the Azure...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Jay-Li",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Separating Deterministic Extraction from AI Inference in Industrial Summarization",
@@ -10409,17 +10431,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure Databricks & Fabric Disaster Recovery: The Better Together Story",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/azure-databricks-fabric-disaster-recovery-the-better-together/ba-p/4481323",
-      "published": "2026-03-10T01:46:28+00:00",
-      "summary": "Author's: Amudha Palani amudhapalani​, Oscar Alvarado oscaralvarado​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Disaster recovery (DR) is a critical component of any cloud-native data analytics platform, ensuring business continuity even during rare regional outages...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "AI Inferencing in Air-Gapped Environments",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/ai-inferencing-in-air-gapped-environments/ba-p/4498594",
       "published": "2026-03-09T09:18:31+00:00",
@@ -11773,5 +11784,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts center on developer velocity, cloud infrastructure at scale, and tighter data platform integration. Microsoft highlighted open hardware and datacenter innovation at **OCP Global Summit 2026**, introduced **deployment automation for Azure Managed Redis**, and announced a **native Confluent Cloud connector for Azure Cosmos DB** to simplify streaming data pipelines between Cosmos DB and **Apache Kafka/Confluent Cloud**.\n\nA broader developer theme also came through in GitHub’s “**Hack the World**” post, which argues that **hackathons** remain one of the best ways to learn practical building skills quickly—complementing Azure’s focus on faster app delivery, automation, and modern distributed data architectures."
+  "summary": "Today’s Azure posts center on AI, platform modernization, and security/governance: Microsoft introduced **Microsoft-Decision-1** in **Azure AI Foundry** for decisioning and classification workloads, plus new tooling to evaluate **voice agents** with a **Voice User Simulator**, while **Microsoft Agent 365** integrated with **Azure API Management** to strengthen **MCP governance**. On the platform side, Azure highlighted **AKS multi-NIC support via DRANET** in public preview, **Azure Managed Redis** deployment automation, a native **Confluent Cloud connector for Azure Cosmos DB**, and guidance for improving **Oracle-to-Power BI** analytics performance.\n\nA second major theme was security and operational change: Microsoft announced the retirement of the **Azure Key Vault Secrets Provider Extension** for **Azure Arc-enabled Kubernetes**, required upgrades for **Azure CLI** and **Azure PowerShell** due to an **Azure Key Vault Control Plane API** update, and a **macOS Azure CLI** security improvement with **native broker authentication**. Broader ecosystem notes included Microsoft’s presence at **OCP Global Summit 2026** and GitHub’s post on hackathons as a driver for hands-on building and learning."
 }
