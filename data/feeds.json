@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T02:53:26.474417+00:00",
+  "lastUpdated": "2026-10-10T09:09:27.473358+00:00",
   "totalArticles": 1071,
   "articles": [
     {
@@ -14,6 +14,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Qwen3.8-27B on a $2 H100 Azure Spot VM: does it pay off?",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-2-h100-azure-spot-vm-does-it-pay-off/ba-p/4563387",
+      "published": "2026-10-10T07:27:28+00:00",
+      "summary": "For three hours on the morning of October 9, a single H100 in Azure served 1,434 requests to Qwen3.8-27B: 168.7 million input tokens in, 1.27 million output tokens out. At a public list price for this model that day ($0.425 per million input tokens, $0.085 per million cached input tokens and $2.55...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "GitHub Copilot weekly releases — October 5",
       "link": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5",
       "published": "2026-10-09T22:58:23+00:00",
@@ -23,6 +34,17 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "From Form to Action: A Governed, Event-Driven AI Intake Pipeline with Azure Integration Services",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/from-form-to-action-a-governed-event-driven-ai-intake-pipeline/ba-p/4561719",
+      "published": "2026-10-09T22:00:58+00:00",
+      "summary": "A production-minded reference architecture using Azure Integration Services and Microsoft Foundry to turn document-heavy intake into governed, traceable work. TL;DR: Calling a model is one step in AI-powered intake. Production readiness depends on everything around the model: authenticated entry,...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "BrittanyPugh",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "CodeQL 2.27.2 improves C++, Go, Rust, and JavaScript analysis",
@@ -3974,17 +3996,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure Copilot announces general availability of the Troubleshooting Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-copilot-announces-general-availability-of-the/ba-p/4554549",
-      "published": "2026-09-09T15:00:00+00:00",
-      "summary": "Cloud operations are most effective when teams can turn insights into understanding and understanding into action. Whether you’re deploying new services, troubleshooting an issue, assessing resource health, or managing change, you need operational intelligence that helps you make faster, more...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "christinchen",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "v1.16.2",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.2",
       "published": "2026-09-09T13:22:31+00:00",
@@ -6051,17 +6062,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Logic Apps Aviators Newsletter - August 2026",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-august-2026/ba-p/4543662",
-      "published": "2026-08-04T01:22:35+00:00",
-      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month Sonny Gillisen - Integration Architect / Cluster Lead @ Rubicon Cloud Advisor August 2026's Ace Aviator: Sonny Gillissen LinkedIn: https://www.linkedin.com/in/sonnygillissen/ What's...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Building an operations assistant on Azure that waits for approval before it acts",
@@ -11783,5 +11783,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage centered on practical AI cost-performance optimization, with a spotlight on running the **Qwen3.8-27B** model on a **$2 NVIDIA H100 Azure Spot VM**. The key theme was whether discounted **Azure Spot** capacity makes high-end **LLM inference** economically viable, highlighting tradeoffs between **GPU performance, model size, and interrupted/variable-cost infrastructure** for AI workloads on Azure."
 }
