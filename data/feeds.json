@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T09:09:27.473358+00:00",
+  "lastUpdated": "2026-10-10T16:26:30.878836+00:00",
   "totalArticles": 1071,
   "articles": [
     {
@@ -36,17 +36,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "From Form to Action: A Governed, Event-Driven AI Intake Pipeline with Azure Integration Services",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/from-form-to-action-a-governed-event-driven-ai-intake-pipeline/ba-p/4561719",
-      "published": "2026-10-09T22:00:58+00:00",
-      "summary": "A production-minded reference architecture using Azure Integration Services and Microsoft Foundry to turn document-heavy intake into governed, traceable work. TL;DR: Calling a model is one step in AI-powered intake. Production readiness depends on everything around the model: authenticated entry,...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "BrittanyPugh",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "CodeQL 2.27.2 improves C++, Go, Rust, and JavaScript analysis",
       "link": "https://github.blog/changelog/2026-10-09-codeql-2-27-2-improves-c-go-rust-and-javascript-analysis",
       "published": "2026-10-09T21:32:54+00:00",
@@ -78,17 +67,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Microsoft Agent 365 and Azure API Management integration for MCP governance",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/microsoft-agent-365-and-azure-api-management-integration-for-mcp/ba-p/4563335",
-      "published": "2026-10-09T20:18:42+00:00",
-      "summary": "As agents gain access to enterprise tools, organizations need consistent ways to govern what those agents can access and enforce those decisions at runtime Today, we're announcing a new integration between Microsoft Agent 365 and Azure API Management now in public preview. The integration connects...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "santiagxf",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Azure Key Vault Control Plane API Update: Required Upgrade for Azure CLI and Azure PowerShell Users",
@@ -6064,6 +6042,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Logic Apps Aviators Newsletter - August 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-august-2026/ba-p/4543662",
+      "published": "2026-08-04T01:22:35+00:00",
+      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month Sonny Gillisen - Integration Architect / Cluster Lead @ Rubicon Cloud Advisor August 2026's Ace Aviator: Sonny Gillissen LinkedIn: https://www.linkedin.com/in/sonnygillissen/ What's...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Building an operations assistant on Azure that waits for approval before it acts",
       "link": "https://devblogs.microsoft.com/all-things-azure/building-an-operations-assistant-on-azure-that-waits-for-approval-before-it-acts/",
       "published": "2026-08-03T21:15:38+00:00",
@@ -6700,6 +6689,17 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "AI Gateway tier of API Management now in public preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/ai-gateway-tier-of-api-management-now-in-public-preview/ba-p/4540170",
+      "published": "2026-07-27T16:37:53+00:00",
+      "summary": "Today, we are introducing the AI Gateway tier of Azure API Management, now in public preview. It gives platform teams a purpose-built experience built specifically for AI workloads - publishing and governing models and MCP servers. Controls are configured through policy cards rather than XML and...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "vladvino",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Building Autonomous Network Operations: From Vision to Measurable Business Impact",
@@ -11784,5 +11784,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage centered on practical AI cost-performance optimization, with a spotlight on running the **Qwen3.8-27B** model on a **$2 NVIDIA H100 Azure Spot VM**. The key theme was whether discounted **Azure Spot** capacity makes high-end **LLM inference** economically viable, highlighting tradeoffs between **GPU performance, model size, and interrupted/variable-cost infrastructure** for AI workloads on Azure."
+  "summary": "Today’s Azure blog coverage centers on cost-efficient AI experimentation: one post examines running the Qwen3.8-27B model on a $2 H100 Azure Spot VM, focusing on whether discounted spot pricing makes large-model inference or fine-tuning economically worthwhile on high-end NVIDIA GPU infrastructure. The main theme is practical ROI for generative AI workloads on Azure, with specific emphasis on Azure Spot Virtual Machines, H100 GPUs, and deploying open-weight LLMs like Qwen3.8-27B."
 }
