@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T21:55:34.389236+00:00",
+  "lastUpdated": "2026-10-10T02:53:26.474417+00:00",
   "totalArticles": 1071,
   "articles": [
     {
@@ -11,6 +11,28 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "GitHub Copilot weekly releases — October 5",
+      "link": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5",
+      "published": "2026-10-09T22:58:23+00:00",
+      "summary": "This week’s updates make Copilot easier to use across accounts and environments, with more control over what agents can access and how you manage their work. GitHub Copilot Claude Haiku… The post GitHub Copilot weekly releases — October 5 appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "CodeQL 2.27.2 improves C++, Go, Rust, and JavaScript analysis",
+      "link": "https://github.blog/changelog/2026-10-09-codeql-2-27-2-improves-c-go-rust-and-javascript-analysis",
+      "published": "2026-10-09T21:32:54+00:00",
+      "summary": "CodeQL 2.27.2 is now available, adding a C++ regular-expression parser and analysis improvements across several languages. CodeQL is the static analysis engine behind GitHub code scanning, which helps you find… The post CodeQL 2.27.2 improves C++, Go, Rust, and JavaScript analysis appeared first on...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -630,17 +652,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Update your IDE to restore agent activity in Copilot usage metrics",
-      "link": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
-      "published": "2026-10-06T23:43:00+00:00",
-      "summary": "If your Copilot usage metrics have shown agent activity or agent lines of code falling while Copilot usage kept growing, we’ve found the cause, and a fix is rolling out… The post Update your IDE to restore agent activity in Copilot usage metrics appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Try SqlClient’s new connection pool for faster parallel connections",
       "link": "https://devblogs.microsoft.com/azure-sql/try-sqlclients-new-connection-pool-for-faster-parallel-connections/",
       "published": "2026-10-06T22:42:12+00:00",
@@ -693,17 +704,6 @@
       "blogId": "azuresqlblog",
       "author": "Jerry Nixon",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Stacked pull requests generally available",
-      "link": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
-      "published": "2026-10-06T20:16:41+00:00",
-      "summary": "GitHub stacked pull requests are now generally available. Break large changes into smaller, focused pull requests that you can review independently and merge together. Since the feature went into public… The post Stacked pull requests generally available appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -11783,6 +11783,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=securitycopilotblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure posts center on AI, platform modernization, and security/governance: Microsoft introduced **Microsoft-Decision-1** in **Azure AI Foundry** for decisioning and classification workloads, plus new tooling to evaluate **voice agents** with a **Voice User Simulator**, while **Microsoft Agent 365** integrated with **Azure API Management** to strengthen **MCP governance**. On the platform side, Azure highlighted **AKS multi-NIC support via DRANET** in public preview, **Azure Managed Redis** deployment automation, a native **Confluent Cloud connector for Azure Cosmos DB**, and guidance for improving **Oracle-to-Power BI** analytics performance.\n\nA second major theme was security and operational change: Microsoft announced the retirement of the **Azure Key Vault Secrets Provider Extension** for **Azure Arc-enabled Kubernetes**, required upgrades for **Azure CLI** and **Azure PowerShell** due to an **Azure Key Vault Control Plane API** update, and a **macOS Azure CLI** security improvement with **native broker authentication**. Broader ecosystem notes included Microsoft’s presence at **OCP Global Summit 2026** and GitHub’s post on hackathons as a driver for hands-on building and learning."
+  ]
 }
