@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T15:11:52.977793+00:00",
+  "lastUpdated": "2026-10-10T14:24:57.902215+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -1737,6 +1737,17 @@
       "action": "Migrate off Azure Deployment Environments before 2027-02-22.",
       "detected": "2026-10-09T15:11:52.977789+00:00",
       "published": "2026-10-08T18:20:34+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=570313",
+      "title": "Retirement: Azure Key Vault Secrets Provider Extension for Azure Arc enabled Kubernetes clusters",
+      "severity": "warning",
+      "deadline": "2027-10-09",
+      "impact": "Azure Arc K8s Key Vault Secrets Provider retires; current extension users affected",
+      "action": "Migrate to Azure Key Vault Secret Store Extension before 2027-10-09",
+      "detected": "2026-10-10T14:24:57.902204+00:00",
+      "published": "2026-10-09T20:27:17+00:00",
       "blog": "Azure Updates"
     }
   ]
