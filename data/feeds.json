@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T09:51:59.068931+00:00",
+  "lastUpdated": "2026-10-12T20:28:55.376991+00:00",
   "totalArticles": 1070,
   "articles": [
     {
@@ -12,6 +12,83 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+      "published": "2026-10-12T17:43:59+00:00",
+      "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Christopher Harrison",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Qwen3.8-Flash-Next on two H100s in an Azure Spot VM",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-flash-next-on-two-h100s-in-an-azure-spot-vm/ba-p/4563893",
+      "published": "2026-10-12T17:05:45+00:00",
+      "summary": "With 150,000 tokens of context, one request to Qwen3.8-Flash-Next decoded at about 200 tokens a second, and its first token arrived in under a second, because 95% of the prompt came from the cache. That held while the agents kept up to five requests running at once. At seven, one request in twenty...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Push attribution for commits in limited public preview",
+      "link": "https://github.blog/changelog/2026-10-12-push-attribution-public-preview",
+      "published": "2026-10-12T16:30:11+00:00",
+      "summary": "GitHub now durably records the authenticated user who pushed each commit and surfaces that pusher identity in the UI and API alongside the existing author and committer fields. Commit author… The post Push attribution for commits in limited public preview appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Durable Task in the Real World: What Problems Does It Actually Solve?",
+      "link": "https://devblogs.microsoft.com/dotnet/durable-task-in-the-real-world/",
+      "published": "2026-10-12T16:30:00+00:00",
+      "summary": "Five practical examples of when durable execution makes sense, when it does not, and what it means for AI agents. The post Durable Task in the Real World: What Problems Does It Actually Solve? appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Tamir Dresher",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Building Permission-Aware Hosted Agents for SharePoint in Foundry Agent Service",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/building-permission-aware-hosted-agents-for-sharepoint-in/ba-p/4562526",
+      "published": "2026-10-12T16:00:00+00:00",
+      "summary": "Organizations increasingly publish agents to Microsoft Teams and Microsoft 365 Copilot that answer questions using internal knowledge sources. SharePoint is a very common source for this information; where many times access is different for every user. A finance employee, HR employee, and project...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "heenarefai",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Delivering Agent Skills Over MCP",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/delivering-agent-skills-over-mcp/ba-p/4562722",
+      "published": "2026-10-12T13:00:00+00:00",
+      "summary": "Getting a skill working with one agent is a useful start. Sharing it with other agents raises a different question: where should that skill live? You could give each agent its own copy. But when the skill changes, those copies need updating. The official Skills extension for Model Context Protocol...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "pratikpanda",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Advancing AI fleet reliability through industry collaboration",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/advancing-ai-fleet-reliability-through-industry-collaboration/ba-p/4563353",
+      "published": "2026-10-12T02:43:13+00:00",
+      "summary": "Customers depend on reliable infrastructure to run workloads at scale. As AI infrastructure continues to expand, ensuring fleet capacity, availability, and reliability is more important than ever. Large-scale, multi-vendor AI clusters introduce significant operational complexity. Accelerators,...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Rama_Bhimanadhuni",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "New controls and chat improvements in Copilot for JetBrains",
@@ -166,17 +243,6 @@
       "author": "LuisFilipe",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Introducing the Agent Experience (AX) Practitioner Playbook",
-      "link": "https://devblogs.microsoft.com/blog/introducing-the-agent-experience-ax-practitioner-playbook/",
-      "published": "2026-10-09T09:44:25+00:00",
-      "summary": "AI coding agents now pick the SDK, the version, and the pattern for your developers. The AX Practitioner Playbook is our method for finding out whether they get your technology right, and for fixing the sources they rely on when they don't.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Introducing the Native Confluent Cloud Connector Experience in Azure Cosmos DB!",
@@ -594,17 +660,6 @@
       "blogId": "microsoftsecurity",
       "author": "Taesoo Kim",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Local sandboxing for GitHub Copilot now generally available",
-      "link": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
-      "published": "2026-10-07T15:46:17+00:00",
-      "summary": "Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host. Local sandboxes give developers a secure… The post Local sandboxing for GitHub Copilot now generally available appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1312,17 +1367,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Build expressive voice experiences with new MAI models in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/build-expressive-voice-experiences-with-new-mai-models-in/ba-p/4524637",
-      "published": "2026-10-01T17:01:24+00:00",
-      "summary": "A voice agent has to do more than hear a request and produce a reply. It has to keep the interaction moving while it listens, reasons, uses tools, and speaks. A delay at either end can turn a conversation into a series of awkward pauses. Today, we’re introducing three new Microsoft AI (MAI) models...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Deploying hosted agents in Foundry Agent Service via Terraform",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/deploying-hosted-agents-in-foundry-agent-service-via-terraform/ba-p/4560435",
       "published": "2026-10-01T16:44:00+00:00",
@@ -1330,17 +1374,6 @@
       "blog": "Azure AI Foundry Blog",
       "blogId": "azure-ai-foundry-blog",
       "author": "j_folberth",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Foundry IQ in Microsoft Copilot Studio is now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-iq-in-microsoft-copilot-studio-is-now-generally/ba-p/4557687",
-      "published": "2026-10-01T16:33:20+00:00",
-      "summary": "Today, we're announcing the general availability of the Foundry IQ integration with Microsoft Copilot Studio. Users can connect a Foundry IQ knowledge base to an agent in Copilot Studio, giving the agent access to grounded enterprise knowledge and citations. Additionally, for organizations that...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Angie-Silva-Pereyra",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -2332,17 +2365,6 @@
       "blogId": "azuresqlblog",
       "author": "Yo-Lei Chen",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Highlights from Git 2.56",
-      "link": "https://github.blog/open-source/git/highlights-from-git-2-56/",
-      "published": "2026-09-28T17:23:33+00:00",
-      "summary": "The open source Git project just released Git 2.56. Here is GitHub's look at some of the most interesting features and changes introduced since last time. The post Highlights from Git 2.56 appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Elijah Newren",
-      "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -3699,17 +3721,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Azure App Service is now a trigger destination for Azure Managed Connectors",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-app-service-is-now-a-trigger-destination-for-azure-managed/ba-p/4555785",
-      "published": "2026-09-11T18:41:02+00:00",
-      "summary": "Azure Managed Connectors, currently in public preview, now lets you choose Azure App Service as a trigger destination. Connector events can be delivered directly to applications running on App Service, including ASP.NET Core, Java, Node.js, and Python applications. This is a new capability in the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Kubernetes v1.37: Native Histograms Graduates to Beta",
       "link": "https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta/",
       "published": "2026-09-11T18:30:00+00:00",
@@ -3817,17 +3828,6 @@
       "blogId": "foundryblog",
       "author": "Rena Liu",
       "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Use C# unions and closed hierarchies in ASP.NET Core",
-      "link": "https://devblogs.microsoft.com/dotnet/unions-and-closed-hierarchies-in-aspnetcore/",
-      "published": "2026-09-10T17:00:00+00:00",
-      "summary": "Learn how C# unions and closed hierarchies work with System.Text.Json across ASP.NET Core Minimal APIs, MVC, SignalR, Blazor, and OpenAPI. The post Use C# unions and closed hierarchies in ASP.NET Core appeared first on .NET Blog.",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": "Dmitrii Korolev",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
     },
     {
@@ -4015,6 +4015,17 @@
       "blogId": "terraform",
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Your work might not need the smartest model",
+      "link": "https://devblogs.microsoft.com/blog/your-work-might-not-need-the-smartest-model/",
+      "published": "2026-09-09T09:14:04+00:00",
+      "summary": "The smartest model can cost five times more and deliver the same result, or even a worse one. See how evaluating your own work helps you get more value from your agent budget.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -8902,17 +8913,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Building AI Guardian Extension: AI Detection and Enterprise AI Security",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-ai-guardian-extension-ai-detection-and-enterprise-ai/ba-p/4521125",
-      "published": "2026-05-19T11:41:31+00:00",
-      "summary": "Introduction Generative AI tools such as ChatGPT, GitHub Copilot, and Google Gemini are rapidly becoming part of everyday enterprise workflows. Teams use them for code generation, documentation, analysis, support automation, and productivity enhancement. However, this accelerated adoption has also...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ranjsharma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "What's new in FinOps toolkit 14 – April 2026",
       "link": "https://techcommunity.microsoft.com/t5/finops-blog/what-s-new-in-finops-toolkit-14-april-2026/ba-p/4519497",
       "published": "2026-05-15T23:53:55+00:00",
@@ -11772,5 +11772,6 @@
       "feedUrl": "https://www.letsdodevops.com/feed",
       "sourceType": "rss"
     }
-  ]
+  ],
+  "summary": "Today’s Azure-related posts centered on making AI agents and developer tooling more practical, governable, and efficient. Key announcements included Azure AI Foundry guidance for building **permission-aware hosted agents for SharePoint** and delivering **agent skills over MCP (Model Context Protocol)**, alongside infrastructure work on **AI fleet reliability** and a performance-focused demo of running **Qwen3.8-Flash-Next on two NVIDIA H100s in an Azure Spot VM**.\n\nOn the developer side, GitHub highlighted more context-aware coding with a **GitHub Copilot** beginner guide for teaching Copilot about your codebase and a **limited public preview** for **push attribution for commits**, while the .NET team explained where **Durable Task** fits in real-world orchestration scenarios such as long-running, stateful workflows."
 }
