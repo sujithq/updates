@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-05T16:20:01.728574+00:00",
+  "lastUpdated": "2026-10-12T16:56:19.995782+00:00",
   "features": {
     "Azure SQL mid-March 2026 updates": {
       "status": "ga",
@@ -4170,12 +4170,12 @@
       "published": "2026-07-08T16:16:16+00:00"
     },
     "WAF exceptions": {
-      "status": "preview",
-      "link": "https://azure.microsoft.com/updates?id=567218",
-      "title": "[In preview] Public Preview: Exceptions in WAF for Azure Application Gateway and Azure Front Door",
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=574343",
+      "title": "[Launched] Generally Available: Exceptions in WAF for Azure Application Gateway and Azure Front Door",
       "service": "Azure Web Application Firewall",
-      "lastSeen": "2026-07-13T10:39:51.409313+00:00",
-      "published": "2026-07-07T17:42:50+00:00"
+      "lastSeen": "2026-10-12T16:56:19.995747+00:00",
+      "published": "2026-10-08T17:29:30+00:00"
     },
     "Workspaces": {
       "status": "preview",
@@ -6160,6 +6160,142 @@
       "service": "Azure Extended Zones",
       "lastSeen": "2026-10-05T16:20:01.728571+00:00",
       "published": "2026-09-28T17:08:48+00:00"
+    },
+    "Microsoft Agent 365 integration with Azure API Management": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=574204",
+      "title": "[In preview] Public Preview: Microsoft Agent 365 integration with Azure API Management",
+      "service": "Azure API Management",
+      "lastSeen": "2026-10-12T16:56:19.995750+00:00",
+      "published": "2026-10-08T17:24:34+00:00"
+    },
+    "Multi-NIC Support powered by DRANET": {
+      "status": "preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/multi-nic-support-on-aks-powered-by-dranet-now-in-public-preview/ba-p/4563257",
+      "title": "Multi-NIC Support on AKS powered by DRANET – Now in Public Preview",
+      "service": "Azure Kubernetes Service",
+      "lastSeen": "2026-10-12T16:56:19.995739+00:00",
+      "published": "2026-10-09T18:24:27+00:00"
+    },
+    "Managed StandardV2 NAT Gateway": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=574430",
+      "title": "[Launched] Generally Available: Managed StandardV2 NAT Gateway for AKS",
+      "service": "Azure Kubernetes Service",
+      "lastSeen": "2026-10-12T16:56:19.995743+00:00",
+      "published": "2026-10-08T22:51:01+00:00"
+    },
+    "Azure Database for PostgreSQL flexible server in East US 3": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=573691",
+      "title": "[Launched] Generally Available: Azure Database for PostgreSQL flexible server in East US 3",
+      "service": "Azure Database for PostgreSQL",
+      "lastSeen": "2026-10-12T16:56:19.995745+00:00",
+      "published": "2026-10-08T19:56:31+00:00"
+    },
+    "Logic Apps Automation": {
+      "status": "preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-free-grant-and-pricing-for-logic-apps-automation/ba-p/4562264",
+      "title": "💲Announcing Free Grant and Pricing for Logic Apps Automation",
+      "service": "Azure Logic Apps",
+      "lastSeen": "2026-10-12T16:56:19.995752+00:00",
+      "published": "2026-10-08T08:03:09+00:00"
+    },
+    "Claude Haiku 5.5": {
+      "status": "ga",
+      "link": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
+      "title": "Claude Haiku 5.5 in GitHub Copilot",
+      "service": "GitHub Copilot",
+      "lastSeen": "2026-10-12T16:56:19.995754+00:00",
+      "published": "2026-10-07T20:12:18+00:00"
+    },
+    "Anyscale on Azure": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=573744",
+      "title": "[Launched] Generally Available: Anyscale on Azure",
+      "service": "Azure Kubernetes Service",
+      "lastSeen": "2026-10-12T16:56:19.995759+00:00",
+      "published": "2026-10-07T17:06:00+00:00"
+    },
+    "Bulk admin role for SQL Server on Linux": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=573443",
+      "title": "[Launched] Generally Available: Enabling the Bulk admin role for SQL Server on Linux",
+      "service": "SQL Server on Linux",
+      "lastSeen": "2026-10-12T16:56:19.995761+00:00",
+      "published": "2026-10-07T16:57:04+00:00"
+    },
+    "Local sandboxing": {
+      "status": "ga",
+      "link": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
+      "title": "Local sandboxing for GitHub Copilot now generally available",
+      "service": "GitHub Copilot",
+      "lastSeen": "2026-10-12T16:56:19.995763+00:00",
+      "published": "2026-10-07T15:46:17+00:00"
+    },
+    "Onboard Kubernetes clusters with Multicloud Connector": {
+      "status": "preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/public-preview-onboard-kubernetes-clusters-to-azure-arc-with-the/ba-p/4556330",
+      "title": "Public Preview: Onboard Kubernetes Clusters to Azure Arc with the Multicloud Connector",
+      "service": "Azure Arc",
+      "lastSeen": "2026-10-12T16:56:19.995765+00:00",
+      "published": "2026-10-07T13:59:49+00:00"
+    },
+    "Grok 4.7": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-grok-4-7-on-microsoft-foundry/ba-p/4562168",
+      "title": "Introducing Grok 4.7 on Microsoft Foundry",
+      "service": "Microsoft Foundry Models",
+      "lastSeen": "2026-10-12T16:56:19.995767+00:00",
+      "published": "2026-10-06T21:11:11+00:00"
+    },
+    "GitOps with Argo CD extension": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/gitops-with-argo-cd-extension-for-aks-is-now-generally-available/ba-p/4562231",
+      "title": "GitOps with Argo CD extension for AKS is Now Generally Available",
+      "service": "Azure Kubernetes Service",
+      "lastSeen": "2026-10-12T16:56:19.995769+00:00",
+      "published": "2026-10-06T18:00:00+00:00"
+    },
+    "AKS on bare metal on Ubuntu": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=573782",
+      "title": "[In preview] Public Preview: AKS on bare metal now on Ubuntu",
+      "service": "Azure Kubernetes Service",
+      "lastSeen": "2026-10-12T16:56:19.995771+00:00",
+      "published": "2026-10-06T15:44:06+00:00"
+    },
+    "Azure HorizonDB additional regions": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=572940",
+      "title": "[In preview] Public Preview: Azure HorizonDB expands to additional regions",
+      "service": "Azure HorizonDB",
+      "lastSeen": "2026-10-12T16:56:19.995773+00:00",
+      "published": "2026-10-05T18:51:57+00:00"
+    },
+    "SQL Server on Azure Virtual Machines in Azure Bleu": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=571499",
+      "title": "[Launched] Generally Available: SQL Server on Azure Virtual Machines in Azure Bleu",
+      "service": "SQL Server on Azure Virtual Machines",
+      "lastSeen": "2026-10-12T16:56:19.995775+00:00",
+      "published": "2026-10-05T18:12:09+00:00"
+    },
+    "Azure Backup for PostgreSQL flexible server and elastic cluster (v2)": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=573425",
+      "title": "[In preview] Public Preview: Azure Backup for PostgreSQL flexible server and elastic cluster (v2)",
+      "service": "Azure Backup",
+      "lastSeen": "2026-10-12T16:56:19.995777+00:00",
+      "published": "2026-10-05T17:44:31+00:00"
+    },
+    "IPv6 support for Application Gateway WAF": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=573861",
+      "title": "[In preview] Public Preview: IPv6 Support for Application Gateway WAF",
+      "service": "Azure Application Gateway WAF",
+      "lastSeen": "2026-10-12T16:56:19.995779+00:00",
+      "published": "2026-10-05T17:41:41+00:00"
     }
   }
 }
