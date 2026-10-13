@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T20:28:55.376991+00:00",
+  "lastUpdated": "2026-10-13T02:17:42.339509+00:00",
   "totalArticles": 1070,
   "articles": [
     {
@@ -67,6 +67,17 @@
       "author": "heenarefai",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Anonymous organization-level registries for Dependabot",
+      "link": "https://github.blog/changelog/2026-10-12-anonymous-organization-level-registries-for-dependabot",
+      "published": "2026-10-12T14:04:16+00:00",
+      "summary": "You can now select Anonymous as the authentication method for an organization-level private registry. Use it for registries that Dependabot can reach without credentials, such as an internal package mirror… The post Anonymous organization-level registries for Dependabot appeared first on The GitHub...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Delivering Agent Skills Over MCP",
@@ -638,17 +649,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Purpose-built model for leaked secret detection",
-      "link": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection",
-      "published": "2026-10-07T16:13:56+00:00",
-      "summary": "Secret protection should keep pace with the way you build software, whether you write code yourself or work with an AI agent. With our new purpose-built model, we’re bringing context-aware… The post Purpose-built model for leaked secret detection appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -11772,6 +11772,5 @@
       "feedUrl": "https://www.letsdodevops.com/feed",
       "sourceType": "rss"
     }
-  ],
-  "summary": "Today’s Azure-related posts centered on making AI agents and developer tooling more practical, governable, and efficient. Key announcements included Azure AI Foundry guidance for building **permission-aware hosted agents for SharePoint** and delivering **agent skills over MCP (Model Context Protocol)**, alongside infrastructure work on **AI fleet reliability** and a performance-focused demo of running **Qwen3.8-Flash-Next on two NVIDIA H100s in an Azure Spot VM**.\n\nOn the developer side, GitHub highlighted more context-aware coding with a **GitHub Copilot** beginner guide for teaching Copilot about your codebase and a **limited public preview** for **push attribution for commits**, while the .NET team explained where **Durable Task** fits in real-world orchestration scenarios such as long-running, stateful workflows."
+  ]
 }
