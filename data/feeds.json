@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T03:27:50.200514+00:00",
+  "lastUpdated": "2026-10-14T10:42:30.990884+00:00",
   "totalArticles": 1071,
   "articles": [
     {
@@ -11,6 +11,28 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "v1.17.0-rc2",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-rc2",
+      "published": "2026-10-14T10:37:18+00:00",
+      "summary": "1.17.0-rc2 (October 14, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements (#39153) A new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290) policy: Terraform Policy is now generally...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "v1.16.6",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.6",
+      "published": "2026-10-14T09:31:54+00:00",
+      "summary": "1.16.6 (October 14, 2026) BUG FIXES: cloud: terraform init can now find workspaces selected by key/value tags whose keys contain uppercase letters. (#39306) test: Allow module under test to use deprecated outputs. (#39207) NOTES: Prevent a HTTP/2 resource exhaustion via CVE-2026-78669. Exploitation...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
     },
     {
@@ -4876,17 +4898,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "v1.17.0-alpha20260827",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260827",
-      "published": "2026-08-27T10:30:11+00:00",
-      "summary": "1.17.0-alpha20260827 (August 27, 2026) NEW FEATURES: A new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290) ENHANCEMENTS: command/init: Enrich log messages with provider versions (#38918) command/login: display warning after...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "Visual Studio Code 1.135",
       "link": "https://code.visualstudio.com/updates/v1_135",
       "published": "2026-08-26T17:00:00+00:00",
@@ -5017,17 +5028,6 @@
       "author": "SherryX19",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "v1.16.0",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0",
-      "published": "2026-08-26T13:05:28+00:00",
-      "summary": "1.16.0 (August 26, 2026) NEW FEATURES: Terraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986) terraform_data: The new store block can hold ephemeral and sensitive values across plan and apply. (#38298) Providers can...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
     },
     {
       "title": "Microsoft is headed to VMware Explore 2026 in Las Vegas",
@@ -11784,5 +11784,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure-adjacent blog coverage is narrowly focused on developer tooling, with the main item being **Visual Studio Code 1.142 (Insiders)**. The key theme is early access to upcoming **VS Code** improvements for developers, signaling new editor, productivity, and extensibility updates in the **Insiders** build rather than broad Azure platform announcements."
+  "summary": "Today’s Azure-related updates center on developer tooling and infrastructure-as-code stability. Microsoft released **Visual Studio Code 1.142 (Insiders)**, signaling new preview enhancements for the editor and developer workflow, while HashiCorp published **Terraform v1.17.0-rc2** as a release candidate and **Terraform v1.16.6** as a patch update, highlighting continued iteration on Terraform’s core CLI for provisioning and managing cloud infrastructure, including Azure environments.\n\nThe biggest theme is **platform reliability plus early access innovation**: VS Code Insiders gives developers a first look at upcoming editor features, while the Terraform releases balance **forward-looking testing in 1.17.0-rc2** with **maintenance and fixes in 1.16.6** for teams that need production stability."
 }
