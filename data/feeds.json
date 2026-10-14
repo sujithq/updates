@@ -1,16 +1,71 @@
 {
-  "lastUpdated": "2026-10-14T10:42:30.990884+00:00",
+  "lastUpdated": "2026-10-14T16:01:36.528513+00:00",
   "totalArticles": 1071,
   "articles": [
     {
-      "title": "Visual Studio Code 1.142 (Insiders)",
-      "link": "https://code.visualstudio.com/updates/v1_142",
-      "published": "2026-10-14T17:00:00+00:00",
-      "summary": "Learn what's new in Visual Studio Code 1.142 (Insiders) Read the full article",
+      "title": "Visual Studio Code 1.143 (Insiders)",
+      "link": "https://code.visualstudio.com/updates/v1_143",
+      "published": "2026-10-21T17:00:00+00:00",
+      "summary": "Learn what is new in Visual Studio Code Insiders, including the latest features and improvements. Read the full article",
       "blog": "Visual Studio Code",
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "From extraction to action: Using grounding and confidence to build reliable document workflows",
+      "link": "https://devblogs.microsoft.com/foundry/content-understanding-confidence-grounding-hitl/",
+      "published": "2026-10-14T15:38:56+00:00",
+      "summary": "Learn how Azure Content Understanding grounding, field-level confidence, and calibration help teams prioritize human review and build reliable document workflows. The post From extraction to action: Using grounding and confidence to build reliable document workflows appeared first on Microsoft...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Joe Filcik, Colin Murphy",
+      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "New Tools, New Workflows and the Value of the Visual Studio Subscription: What We Learned at VSLive! San Diego",
+      "link": "https://devblogs.microsoft.com/visualstudio/new-tools-new-workflows-and-the-value-of-the-visual-studio-subscription-what-we-learned-at-vslive-san-diego/",
+      "published": "2026-10-14T14:00:25+00:00",
+      "summary": "What happens when developers who have spent decades working with Visual Studio start rethinking how they write code, learn new skills, and expand their access to development tools? At VSLive! San Diego, we had an opportunity to find out as developers gathered for five days of technical sessions,...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "James Rempt",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "GitHub Actions workflow lockfiles in public preview",
+      "link": "https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview",
+      "published": "2026-10-14T13:49:15+00:00",
+      "summary": "GitHub Actions workflow dependency lockfiles are now in public preview for GitHub Enterprise Cloud and GitHub Enterprise Cloud with data residency. Tags and branches can move after you review a… The post GitHub Actions workflow lockfiles in public preview appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Build a Simple GPU-Enabled Kubernetes Cluster on Azure N-Series VMs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/build-a-simple-gpu-enabled-kubernetes-cluster-on-azure-n-series/ba-p/4564410",
+      "published": "2026-10-14T13:39:03+00:00",
+      "summary": "Audience: Platform engineers, ML engineers, and developers who need a small, understandable GPU development cluster without the abstraction of a managed Kubernetes service. Reference topology: Role Azure VM size Operating system Purpose Control plane Standard_D8s_v6 Ubuntu 24.04 LTS API server,...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "vinilv",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/",
+      "published": "2026-10-14T13:00:00+00:00",
+      "summary": "Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Threat Intelligence and Microsoft Digital Crimes Unit",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -287,17 +342,6 @@
       "author": "Wuyi_Weng",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Push attribution for commits in limited public preview",
-      "link": "https://github.blog/changelog/2026-10-12-push-attribution-public-preview",
-      "published": "2026-10-12T16:30:11+00:00",
-      "summary": "GitHub now durably records the authenticated user who pushed each commit and surfaces that pusher identity in the UI and API alongside the existing author and committer fields. Commit author… The post Push attribution for commits in limited public preview appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Durable Task in the Real World: What Problems Does It Actually Solve?",
@@ -2376,17 +2420,6 @@
       "blogId": "githubblog",
       "author": "Margaret Tucker",
       "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
-      "published": "2026-09-29T15:00:00+00:00",
-      "summary": "Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”. The post...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Threat Intelligence",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -4986,17 +5019,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "The Visual Studio Debugger Agentic Workflow Gets a Test-Driven Upgrade",
-      "link": "https://devblogs.microsoft.com/visualstudio/the-visual-studio-debugger-agentic-workflow-gets-a-test-driven-upgrade/",
-      "published": "2026-08-26T16:00:47+00:00",
-      "summary": "A few months ago, we introduced a new guided agentic workflow in the Visual Studio Debugger Agent designed to help you move from a bug report to a verified fix without spending your morning guessing where to begin. If you missed that announcement, check out Stop Hunting Bugs: Meet the New Visual...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Harshada Hole",
-      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Azure DNS + Traffic Manager linked records",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-dns-traffic-manager-linked-records/ba-p/4548221",
       "published": "2026-08-26T15:59:25+00:00",
@@ -5687,17 +5709,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "From Sync APIs to support for the GPT-5 model series and agentic workflows: What’s new in Azure Content Understanding – August 2026",
-      "link": "https://devblogs.microsoft.com/foundry/azure-content-understanding-updates-august-2026/",
-      "published": "2026-08-12T18:43:01+00:00",
-      "summary": "Enterprise content is no longer just something people read. AI apps and agents are only as useful as the information they can understand, yet much of the world’s enterprise knowledge is locked in documents, forms, tables, images, audio, and video. The latest Azure Content Understanding updates help...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Peyton Fraser, Krishnakumar Muthukrishnan, Joe Filcik",
-      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
       "sourceType": "rss"
     },
     {
@@ -11047,17 +11058,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Scaling physics-based digital twins: Neural Concept on Azure delivers a New Record in Industrial AI",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/scaling-physics-based-digital-twins-neural-concept-on-azure/ba-p/4483403",
-      "published": "2026-01-12T12:10:23+00:00",
-      "summary": "Automotive Design and the DrivAerNet++ Benchmark In automotive design, external aerodynamics have a direct impact on performance, energy efficiency, and development cost. Even small reductions in drag can translate into significant fuel savings or extended EV range. As development timelines...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "lmiroslaw",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Handling Sybase BIGTIME Data Type During Migration to Azure SQL",
       "link": "https://techcommunity.microsoft.com/t5/modernization-best-practices-and/handling-sybase-bigtime-data-type-during-migration-to-azure-sql/ba-p/4480157",
       "published": "2026-01-12T09:00:00+00:00",
@@ -11784,5 +11784,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure-related updates center on developer tooling and infrastructure-as-code stability. Microsoft released **Visual Studio Code 1.142 (Insiders)**, signaling new preview enhancements for the editor and developer workflow, while HashiCorp published **Terraform v1.17.0-rc2** as a release candidate and **Terraform v1.16.6** as a patch update, highlighting continued iteration on Terraform’s core CLI for provisioning and managing cloud infrastructure, including Azure environments.\n\nThe biggest theme is **platform reliability plus early access innovation**: VS Code Insiders gives developers a first look at upcoming editor features, while the Terraform releases balance **forward-looking testing in 1.17.0-rc2** with **maintenance and fixes in 1.16.6** for teams that need production stability."
+  "summary": "Today’s Azure-related posts centered on trustworthy AI workflows, developer productivity, infrastructure automation, and security. Microsoft highlighted using grounding and confidence scoring in document-processing pipelines via Microsoft Foundry to make extraction workflows more reliable, while the Visual Studio team emphasized new tools and workflows surfaced at VSLive! San Diego and GitHub announced public-preview workflow lockfiles to improve GitHub Actions dependency integrity.\n\nOn the infrastructure side, Azure showcased how to build a GPU-enabled Kubernetes cluster on Azure N-Series VMs for HPC/AI workloads, and HashiCorp published Terraform v1.17.0-rc2 and v1.16.6 updates relevant to IaC users managing cloud environments. Security was another major theme, with Microsoft detailing the phishing infrastructure ecosystem that underpins global cybercrime and the hidden services and networks attackers use to operate at scale."
 }
