@@ -1,12 +1,89 @@
 {
-  "lastUpdated": "2026-10-14T16:01:36.528513+00:00",
-  "totalArticles": 1071,
+  "lastUpdated": "2026-10-14T21:01:53.553944+00:00",
+  "totalArticles": 1072,
   "articles": [
     {
       "title": "Visual Studio Code 1.143 (Insiders)",
       "link": "https://code.visualstudio.com/updates/v1_143",
       "published": "2026-10-21T17:00:00+00:00",
       "summary": "Learn what is new in Visual Studio Code Insiders, including the latest features and improvements. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure MCP Server 3.0 stable release: More tools. More possibilities",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-3-0-stable-release/",
+      "published": "2026-10-14T20:35:34+00:00",
+      "summary": "Explore the new Azure MCP Server 3.0 stable release, with AI agent tools for Terraform, backup, recovery, and troubleshooting, plus stronger security defaults. The post Azure MCP Server 3.0 stable release: More tools. More possibilities appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Sandeep Sen",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "GitHub availability report: September 2026",
+      "link": "https://github.blog/news-insights/company-news/github-availability-report-september-2026/",
+      "published": "2026-10-14T20:01:35+00:00",
+      "summary": "In September, we experienced two incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: September 2026 appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Jakub Oleksy",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "HydraFusion updates and new Max option",
+      "link": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option",
+      "published": "2026-10-14T20:01:35+00:00",
+      "summary": "HydraFusion has an updated model pool, improved orchestration workflows, and introduces HydraFusion Max. Both HydraFusion and HydraFusion Max are available across VS Code, the GitHub Copilot app, and GitHub Copilot… The post HydraFusion updates and new Max option appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Cloud HSM hardware audit logging",
+      "link": "https://azure.microsoft.com/updates?id=576377",
+      "published": "2026-10-14T19:17:47+00:00",
+      "summary": "Hardware Audit Logging for Azure Cloud HSM provides hardware-generated audit records for supported HSM management operations, helping organizations strengthen security monitoring, compliance reporting, governance, and forensic investigations. Customers ca",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Site Recovery Support for Azure ARC-enabled Windows VMWare/Physical servers",
+      "link": "https://azure.microsoft.com/updates?id=576214",
+      "published": "2026-10-14T19:13:31+00:00",
+      "summary": "Azure Site Recovery (ASR) now supports disaster recovery for Azure ARC-enabled Windows VMWare virtual machines and on-premise physical servers. Customers can protect ARC-managed machines with ASR while continuing to use Azure ARC for governance, inventory",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
+      "link": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/",
+      "published": "2026-10-14T19:11:33+00:00",
+      "summary": "Our new repo star history API now provides trends without returning individual identities or requiring unbounded database work. These are the engineering tradeoffs we made. The post From 2,500 requests to 24: Rebuilding star history without the stargazers appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Taylor Cuilty",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Visual Studio Code 1.142",
+      "link": "https://code.visualstudio.com/updates/v1_142",
+      "published": "2026-10-14T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.142 Read the full article",
       "blog": "Visual Studio Code",
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
@@ -39,23 +116,12 @@
       "title": "GitHub Actions workflow lockfiles in public preview",
       "link": "https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview",
       "published": "2026-10-14T13:49:15+00:00",
-      "summary": "GitHub Actions workflow dependency lockfiles are now in public preview for GitHub Enterprise Cloud and GitHub Enterprise Cloud with data residency. Tags and branches can move after you review a… The post GitHub Actions workflow lockfiles in public preview appeared first on The GitHub Blog.",
+      "summary": "GitHub Actions workflow dependency lockfiles are now in public preview for GitHub Enterprise Cloud, GitHub Enterprise Cloud with data residency, Team, and Free plans. Tags and branches can move after… The post GitHub Actions workflow lockfiles in public preview appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Build a Simple GPU-Enabled Kubernetes Cluster on Azure N-Series VMs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/build-a-simple-gpu-enabled-kubernetes-cluster-on-azure-n-series/ba-p/4564410",
-      "published": "2026-10-14T13:39:03+00:00",
-      "summary": "Audience: Platform engineers, ML engineers, and developers who need a small, understandable GPU development cluster without the abstraction of a managed Kubernetes service. Reference topology: Role Azure VM size Operating system Purpose Control plane Standard_D8s_v6 Ubuntu 24.04 LTS API server,...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "vinilv",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime",
@@ -293,17 +359,6 @@
       "link": "https://github.blog/changelog/2026-10-13-code-scanning-ai-scan-metrics-in-security-overview",
       "published": "2026-10-13T12:03:17+00:00",
       "summary": "Organization and enterprise administrators can now observe the impact of AI Scan for pull requests in security overview. New metrics show how many AI Scan findings were generated, resolved, the… The post Code scanning AI Scan metrics in security overview appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Client telemetry user attribution and configurable capture",
-      "link": "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
-      "published": "2026-10-12T22:38:00+00:00",
-      "summary": "Enterprise administrators can now use telemetry in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content. The telemetry.capture.identity setting adds three… The post Client telemetry user attribution and configurable capture...",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -1587,17 +1642,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "10 technical talks I’m excited about at GitHub Universe 2026",
-      "link": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/",
-      "published": "2026-10-01T15:07:16+00:00",
-      "summary": "From verifying AI-written code to securing npm dependencies, these are the sessions I’m building my Universe agenda around. The post 10 technical talks I’m excited about at GitHub Universe 2026 appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Andrea Griffiths",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Build and govern AI agents across a multitenant organization",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/build-and-govern-ai-agents-across-a-multitenant-organization/ba-p/4559921",
       "published": "2026-10-01T14:23:11+00:00",
@@ -2409,17 +2453,6 @@
       "blogId": "azuresqlblog",
       "author": "Pooja Kamath",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Developer policy update: Transparency, state policy, and what’s ahead",
-      "link": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead/",
-      "published": "2026-09-29T15:00:00+00:00",
-      "summary": "Explore GitHub’s latest transparency data and learn more about policy updates affecting developers and open source. The post Developer policy update: Transparency, state policy, and what’s ahead appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Margaret Tucker",
-      "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -7109,17 +7142,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Expanding Azure Arc SQL Migration with SQL Server on Azure Virtual Machines",
-      "link": "https://azure.microsoft.com/updates?id=567362",
-      "published": "2026-07-15T17:35:31+00:00",
-      "summary": "The Azure Arc migration solution now supports SQL Server on Azure Virtual Machines as a migration target. Arc-enabled SQL Server instances can now be migrated to both Azure SQL Managed Instance and SQL Server on Azure infrastructure using the same unified",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Announcing the ASIM Parser Creation Agentic Experience",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/announcing-the-asim-parser-creation-agentic-experience/ba-p/4532266",
       "published": "2026-07-15T16:00:00+00:00",
@@ -7129,17 +7151,6 @@
       "author": "derricklee",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "[In preview] Public Preview: Advanced platform metrics in Azure Monitor",
-      "link": "https://azure.microsoft.com/updates?id=567726",
-      "published": "2026-07-15T15:30:11+00:00",
-      "summary": "Starting July 15, 2026, advanced platform metrics are available in Public Preview. This update provides enhanced visibility into platform performance, resource health, and operational trends across supported Azure services. With advanced platform metrics,",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
     },
     {
       "title": "Public Preview: Advanced platform metrics in Azure Monitor",
@@ -9705,17 +9716,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Azure MCP Server now available as an MCP Bundle (.mcpb)",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-mcpb-support/",
-      "published": "2026-04-24T20:32:49+00:00",
-      "summary": "Azure MCP Server is now available as an MCP Bundle (.mcpb), enabling one-click installation into Claude Desktop and other MCP-compatible clients. The post Azure MCP Server now available as an MCP Bundle (.mcpb) appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Victor Colin Amador",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "AI-Powered Downtime Investigation for Azure VMs: Automating Root Cause Analysis",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ai-powered-downtime-investigation-for-azure-vms-automating-root/ba-p/4513473",
       "published": "2026-04-24T18:35:28+00:00",
@@ -11058,6 +11058,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Scaling physics-based digital twins: Neural Concept on Azure delivers a New Record in Industrial AI",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/scaling-physics-based-digital-twins-neural-concept-on-azure/ba-p/4483403",
+      "published": "2026-01-12T12:10:23+00:00",
+      "summary": "Automotive Design and the DrivAerNet++ Benchmark In automotive design, external aerodynamics have a direct impact on performance, energy efficiency, and development cost. Even small reductions in drag can translate into significant fuel savings or extended EV range. As development timelines...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "lmiroslaw",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Handling Sybase BIGTIME Data Type During Migration to Azure SQL",
       "link": "https://techcommunity.microsoft.com/t5/modernization-best-practices-and/handling-sybase-bigtime-data-type-during-migration-to-azure-sql/ba-p/4480157",
       "published": "2026-01-12T09:00:00+00:00",
@@ -11784,5 +11795,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure-related posts centered on trustworthy AI workflows, developer productivity, infrastructure automation, and security. Microsoft highlighted using grounding and confidence scoring in document-processing pipelines via Microsoft Foundry to make extraction workflows more reliable, while the Visual Studio team emphasized new tools and workflows surfaced at VSLive! San Diego and GitHub announced public-preview workflow lockfiles to improve GitHub Actions dependency integrity.\n\nOn the infrastructure side, Azure showcased how to build a GPU-enabled Kubernetes cluster on Azure N-Series VMs for HPC/AI workloads, and HashiCorp published Terraform v1.17.0-rc2 and v1.16.6 updates relevant to IaC users managing cloud environments. Security was another major theme, with Microsoft detailing the phishing infrastructure ecosystem that underpins global cybercrime and the hidden services and networks attackers use to operate at scale."
+  "summary": "Today’s Azure- and Microsoft-cloud news centered on stronger developer/AI tooling, security/compliance, and infrastructure reliability. Key announcements included the stable release of **Azure MCP Server 3.0** with expanded tools, **Azure Cloud HSM hardware audit logging** reaching general availability, and **Azure Site Recovery** now generally available for **Azure Arc-enabled Windows VMware/physical servers**, alongside Microsoft Foundry guidance on using **grounding** and **confidence signals** to build more reliable document-processing workflows.\n\nAcross the broader Microsoft ecosystem, the biggest themes were software delivery and platform operations: **Visual Studio Code 1.142** shipped, **GitHub Actions workflow lockfiles** entered public preview to improve workflow integrity, GitHub published its **September 2026 availability report** and a performance-engineering deep dive on rebuilding star history, while Microsoft Security highlighted the phishing-infrastructure networks underpinning global cybercrime."
 }
