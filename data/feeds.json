@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T13:44:55.396995+00:00",
+  "lastUpdated": "2026-10-15T18:44:57.009914+00:00",
   "totalArticles": 1072,
   "articles": [
     {
@@ -11,6 +11,83 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Standard service endpoint",
+      "link": "https://azure.microsoft.com/updates?id=571025",
+      "published": "2026-10-15T17:39:51+00:00",
+      "summary": "Standard service endpoint, a new capability in the Azure Private Link family, provides a scalable and secure approach for connecting Azure IaaS workloads to Azure PaaS services. Standard service endpoint addresses the manageability, and the scale limitati",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Availabile: Automatic zone balance for Virtual Machine Scale Sets",
+      "link": "https://azure.microsoft.com/updates?id=576334",
+      "published": "2026-10-15T16:54:20+00:00",
+      "summary": "Automatic zone balance for Virtual Machine Scale Sets is now generally available. This feature continuously monitors scale sets deployed across availability zones and automatically redistributes VM instances when zonal imbalances occur. This helps reduce",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Introducing dotnetup: A toolchain manager for .NET",
+      "link": "https://devblogs.microsoft.com/dotnet/introducing-dotnetup/",
+      "published": "2026-10-15T16:50:00+00:00",
+      "summary": "Learn how the new dotnetup tool helps macOS and Linux developers install, manage, and update user-local .NET SDKs and runtimes. The post Introducing dotnetup: A toolchain manager for .NET appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Chet Husk",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "AI Scan for pull requests generally available",
+      "link": "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available",
+      "published": "2026-10-15T15:04:51+00:00",
+      "summary": "Code scanning AI Scan for pull requests is now generally available. It complements CodeQL by finding vulnerabilities in pull request changes for languages and frameworks that CodeQL does not currently… The post AI Scan for pull requests generally available appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Stop waiting on a failed build",
+      "link": "https://devblogs.microsoft.com/visualstudio/stop-waiting-on-a-failed-build/",
+      "published": "2026-10-15T14:00:50+00:00",
+      "summary": "Stop solution builds after the first project failure so you can return to fixing the error sooner. The post Stop waiting on a failed build appeared first on Visual Studio Blog.",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mads Kristensen",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Agentic autofix for code scanning alerts general availability",
+      "link": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability",
+      "published": "2026-10-15T13:49:20+00:00",
+      "summary": "Agentic autofix for code scanning alerts is now generally available. It remediates alerts by working across your codebase the way a developer would: it explores relevant files, proposes a fix,… The post Agentic autofix for code scanning alerts general availability appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Email notifications for repository push events have been retired",
+      "link": "https://github.blog/changelog/2026-10-15-email-notifications-for-repository-push-events-have-been-retired",
+      "published": "2026-10-15T13:42:19+00:00",
+      "summary": "As of October 15, 2026, email notifications for repository push events have been retired and are no longer sent. We shut down this feature to help prevent spam and abuse.… The post Email notifications for repository push events have been retired appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -47,6 +124,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "Enterprise Adoption Guide for Azure SRE Agent, Part 2: From One Team to Enterprise-Wide Adoption",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enterprise-adoption-guide-for-azure-sre-agent-part-2-from-one/ba-p/4564311",
+      "published": "2026-10-15T03:51:09+00:00",
+      "summary": "In Part 1: From First Use Case to Automated Workflows, we focused on identifying use cases and getting setup with your initial SRE Agent. Teams see the value, and now you need to decide how adoption should expand. These are the questions we increasingly hear from teams. Who should share an agent?...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "dchelupati",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Enterprise Adoption Guide for Azure SRE Agent, Part 1: Deploying Your First Azure SRE Agent",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enterprise-adoption-guide-for-azure-sre-agent-part-1-deploying/ba-p/4564306",
+      "published": "2026-10-15T03:50:21+00:00",
+      "summary": "We have learned a lot from talking with teams that are bringing Azure SRE Agent into their day-to-day operations. Across those conversations, we have seen a common set of questions emerge as teams move from exploring an initial use case to adopting SRE Agent more broadly. Some teams are starting...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "dchelupati",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "End of Lifecycle for Windows Server 2012 and 2012 R2",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/end-of-lifecycle-for-windows-server-2012-and-2012-r2/ba-p/4564611",
       "published": "2026-10-15T00:20:15+00:00",
@@ -56,6 +155,17 @@
       "author": "Meagan McCrory",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Modernizing the VS Code UI",
+      "link": "https://code.visualstudio.com/blogs/2026/10/15/modern-ui",
+      "published": "2026-10-15T00:00:00+00:00",
+      "summary": "See how developer feedback is shaping the modern VS Code interface, from layout density and editor tabs to themes and responsiveness. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Lee Murray",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
     },
     {
       "title": "Meet the Hosted Skills Canvas: Build, Run, and Debug in GitHub Copilot",
@@ -440,39 +550,6 @@
       "blogId": "foundryblog",
       "author": "Chu Lahlou",
       "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Improved detection for withdrawn Dependabot alerts",
-      "link": "https://github.blog/changelog/2026-10-13-improved-detection-for-withdrawn-dependabot-alerts",
-      "published": "2026-10-13T14:03:57+00:00",
-      "summary": "You can now more easily detect withdrawn Dependabot alerts. Dependabot withdraws and removes an alert when the advisory or vulnerability that produced it is no longer valid. Two changes help… The post Improved detection for withdrawn Dependabot alerts appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Search and filter for budgets now available",
-      "link": "https://github.blog/changelog/2026-10-13-search-and-filter-for-budgets-now-available",
-      "published": "2026-10-13T12:06:09+00:00",
-      "summary": "The “Budgets and alerts” page in your GitHub billing settings now shows all of your budgets in one list that you can search and filter. Whether you manage budgets for… The post Search and filter for budgets now available appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Code scanning AI Scan metrics in security overview",
-      "link": "https://github.blog/changelog/2026-10-13-code-scanning-ai-scan-metrics-in-security-overview",
-      "published": "2026-10-13T12:03:17+00:00",
-      "summary": "Organization and enterprise administrators can now observe the impact of AI Scan for pull requests in security overview. New metrics show how many AI Scan findings were generated, resolved, the… The post Code scanning AI Scan metrics in security overview appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -3556,17 +3633,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Build Your Own AI Agent Harness in C#, the MafClaw Live Series",
-      "link": "https://devblogs.microsoft.com/dotnet/build-your-own-ai-agent-harness-in-csharp-the-maf-claw-live-series/",
-      "published": "2026-09-16T21:00:00+00:00",
-      "summary": "I am building a complete C# agent live, from a single call around an IChatClient to a production-ready, observable, governed agent, using the Microsoft Agent Framework harness in a 4-part Microsoft Reactor series. The post Build Your Own AI Agent Harness in C#, the MafClaw Live Series appeared...",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": "Bruno Capuano",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "The bottleneck isn't AI. It's transformation capacity.",
       "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/the-bottleneck-isn-t-ai-it-s-transformation-capacity/ba-p/4557214",
       "published": "2026-09-16T19:17:48+00:00",
@@ -3776,17 +3842,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure Red Hat OpenShift with hosted control planes now available in public preview",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-red-hat-openshift-with-hosted-control-planes-now-available/ba-p/4555997",
-      "published": "2026-09-15T17:10:06+00:00",
-      "summary": "Red Hat OpenShift momentum on Azure keeps building, driven by teams standardizing on Kubernetes for application modernization and, increasingly, by AI-enabled applications that need a consistent platform for the services around them. Azure Red Hat OpenShift gives those teams a jointly engineered,...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Mayuri_Gupta",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Explore the latest in MCP: All recordings from MCP Live!",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/explore-the-latest-in-mcp-all-recordings-from-mcp-live/ba-p/4556775",
       "published": "2026-09-15T16:44:03+00:00",
@@ -3839,17 +3894,6 @@
       "blogId": "azuredevcommunityblog",
       "author": "kedikala",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "SSL/TLS certificates and end-to-end encryption for Azure Functions Flex Consumption",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/ssl-tls-certificates-and-end-to-end-encryption-for-azure/ba-p/4556425",
-      "published": "2026-09-14T21:01:36+00:00",
-      "summary": "Last week we announced the general availability of TLS/SSL certificate support and end-to-end TLS encryption for Azure Functions Flex Consumption. Flex Consumption is the recommended serverless hosting plan for Azure Functions. It combines event-driven scale-to-zero and execution-based billing with...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "nzthiago",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -4994,17 +5038,6 @@
       "blogId": "azuresdkblog",
       "author": "Kristen Womack, Jeffrey C.",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "VSLive! @ Microsoft HQ: Developer Takeaways and Must-Watch Sessions",
-      "link": "https://devblogs.microsoft.com/visualstudio/vslive-hq-content-sandiego-and-orlando-mentions/",
-      "published": "2026-08-27T14:00:09+00:00",
-      "summary": "VSLive! @ Microsoft HQ 2026 was one of the most energizing VSLive! events I’ve attended. What stood out was the level of engagement over five days of learning and conversation from July 27 through July 31. Developers came ready to dig into the future of Visual Studio, .NET, and AI-assisted software...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "James Rempt",
-      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
     },
     {
@@ -7157,28 +7190,6 @@
       "link": "https://azure.microsoft.com/updates?id=563566",
       "published": "2026-07-15T18:50:14+00:00",
       "summary": "Microsoft Agent Framework adds the CodeAct pattern in public preview, which lets agents collapse a multi-step plan into a single executable code block rather than chaining one tool call at a time. In representative workloads, CodeAct cut end-to-end latenc",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Announcing: Episodic procedural memory in Microsoft Agent Framework",
-      "link": "https://azure.microsoft.com/updates?id=563561",
-      "published": "2026-07-15T18:48:54+00:00",
-      "summary": "Microsoft Agent Framework adds episodic procedural memory in public preview, a built-in store that lets agents remember successful task patterns and replay them on similar future requests. The framework records action sequences, tool selections, and inter",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Azure SQL updates for mid-July 2026",
-      "link": "https://azure.microsoft.com/updates?id=567426",
-      "published": "2026-07-15T17:50:44+00:00",
-      "summary": "In mid-July 2026, the following updates and enhancements were made to Azure SQL: Shortcut Configuration lets you customize keyboard shortcuts for Quick Queries, the Results Grid, and the Query Editor directly within Visual Studio Code—wit",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -11782,18 +11793,7 @@
       "author": "KalyanKaki",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=oracleonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "🔥Solving AWS Bedrock's Enterprise Logging Problem: Adding Bot Context to Model Invocation Logs🔥",
-      "link": "https://www.letsdodevops.com/p/solving-aws-bedrocks-enterprise-logging",
-      "published": "2025-10-14T14:00:49+00:00",
-      "summary": "aka, who is using up all our AI tokens?",
-      "blog": "Let's do DevOps",
-      "blogId": "letsdodevops",
-      "author": "Kyler Middleton",
-      "feedUrl": "https://www.letsdodevops.com/feed",
-      "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure posts centered on AI application building and platform lifecycle guidance. Microsoft introduced the **Azure Cosmos DB vNext Emulator** for local development and testing of **Azure Cosmos DB** workloads, and highlighted how developers can move beyond chat interfaces by using **small language models (SLMs)** in application logic with **Microsoft Olive** and **ONNX** for optimization and deployment.\n\nOn the operations side, Azure shared important infrastructure updates: guidance for handling **Canada’s 2026 time zone changes** in **Microsoft SQL**, and a reminder that **Windows Server 2012/2012 R2** has reached end of lifecycle, with **Azure Arc** positioned to help manage, govern, and modernize those servers."
+  "summary": "Today’s Azure and Microsoft developer updates were led by infrastructure and automation milestones: Azure announced general availability for Standard service endpoint and automatic zone balancing in Virtual Machine Scale Sets, while GitHub pushed AI deeper into the software lifecycle with AI Scan for pull requests and agentic autofix for code scanning alerts both reaching general availability. Microsoft also highlighted developer productivity upgrades across the stack, including dotnetup for managing .NET toolchains, Visual Studio features to avoid waiting on failed builds, and a modernized VS Code UI.\n\nA second major theme was AI agents and operational modernization: Azure Cosmos DB introduced its vNext Emulator for AI agent scenarios, Microsoft detailed how to embed small language models into application logic using Olive and ONNX, and Azure’s SRE Agent got new enterprise adoption guidance for deployment and scaling. Other notable updates included SQL guidance for Canada’s 2026 time zone changes, Azure Arc lifecycle messaging for Windows Server 2012/2012 R2, and GitHub retiring email notifications for repository push events."
 }
