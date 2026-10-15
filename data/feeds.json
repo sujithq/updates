@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T01:59:18.430292+00:00",
+  "lastUpdated": "2026-10-15T07:46:36.887355+00:00",
   "totalArticles": 1072,
   "articles": [
     {
@@ -12,6 +12,39 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Canada’s 2026 time zone updates: guidance for Microsoft SQL",
+      "link": "https://devblogs.microsoft.com/azure-sql/canadas-2026-time-zone-updates-guidance-for-microsoft-sql/",
+      "published": "2026-10-15T05:21:10+00:00",
+      "summary": "Affected locations in British Columbia, Alberta, and Manitoba will not turn their clocks back at 02:00 local time on November 1, 2026. They will remain at UTC−07:00, UTC−06:00, and UTC−05:00, respectively. Microsoft’s interim guidance for British Columbia, Alberta, and Manitoba describes the new...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Umachandar Jayachandran (UC)",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Enterprise Adoption Guide for Azure SRE Agent, Part 2: From One Team to Enterprise-Wide Adoption",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enterprise-adoption-guide-for-azure-sre-agent-part-2-from-one/ba-p/4564311",
+      "published": "2026-10-15T03:51:09+00:00",
+      "summary": "In Part 1: From First Use Case to Automated Workflows, we focused on identifying use cases and getting setup with your initial SRE Agent. Teams see the value, and now you need to decide how adoption should expand. These are the questions we increasingly hear from teams. Who should share an agent?...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "dchelupati",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Enterprise Adoption Guide for Azure SRE Agent, Part 1: Deploying Your First Azure SRE Agent",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enterprise-adoption-guide-for-azure-sre-agent-part-1-deploying/ba-p/4564306",
+      "published": "2026-10-15T03:50:21+00:00",
+      "summary": "We have learned a lot from talking with teams that are bringing Azure SRE Agent into their day-to-day operations. Across those conversations, we have seen a common set of questions emerge as teams move from exploring an initial use case to adopting SRE Agent more broadly. Some teams are starting...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "dchelupati",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "End of Lifecycle for Windows Server 2012 and 2012 R2",
@@ -2665,17 +2698,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Announcing the Public Preview of Local Time Zone Support in Azure SQL Database",
-      "link": "https://devblogs.microsoft.com/azure-sql/announcing-the-public-preview-of-local-time-zone-support-in-azure-sql-database/",
-      "published": "2026-09-28T15:00:17+00:00",
-      "summary": "We are thrilled to announce the public preview of local time zone support in Azure SQL Database. Starting today, you can configure the time zone directly at the database or session level — all from T-SQL, without changing any infrastructure settings. This feature addresses one of the most...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Umachandar Jayachandran (UC)",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "From Jev to Your Laptop: Building \"System One\" Decision Models in ONNX with Mobius",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-jev-to-your-laptop-building-quot-system-one-quot-decision/ba-p/4558843",
       "published": "2026-09-28T06:11:14+00:00",
@@ -3765,17 +3787,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure Red Hat OpenShift with hosted control planes now available in public preview",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-red-hat-openshift-with-hosted-control-planes-now-available/ba-p/4555997",
-      "published": "2026-09-15T17:10:06+00:00",
-      "summary": "Red Hat OpenShift momentum on Azure keeps building, driven by teams standardizing on Kubernetes for application modernization and, increasingly, by AI-enabled applications that need a consistent platform for the services around them. Azure Red Hat OpenShift gives those teams a jointly engineered,...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Mayuri_Gupta",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Explore the latest in MCP: All recordings from MCP Live!",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/explore-the-latest-in-mcp-all-recordings-from-mcp-live/ba-p/4556775",
       "published": "2026-09-15T16:44:03+00:00",
@@ -3828,17 +3839,6 @@
       "blogId": "azuredevcommunityblog",
       "author": "kedikala",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "SSL/TLS certificates and end-to-end encryption for Azure Functions Flex Consumption",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/ssl-tls-certificates-and-end-to-end-encryption-for-azure/ba-p/4556425",
-      "published": "2026-09-14T21:01:36+00:00",
-      "summary": "Last week we announced the general availability of TLS/SSL certificate support and end-to-end TLS encryption for Azure Functions Flex Consumption. Flex Consumption is the recommended serverless hosting plan for Azure Functions. It combines event-driven scale-to-zero and execution-based billing with...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "nzthiago",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -11795,5 +11795,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure updates are focused on **end-of-support guidance for Windows Server 2012 and 2012 R2**, with a strong emphasis on using **Azure Arc** to manage and modernize remaining on-premises or multicloud server estates. The post highlights the lifecycle deadline and points customers toward Azure-based paths such as **Azure Arc–enabled servers**, **Extended Security Updates (ESUs)**, and migration/management options to maintain security, compliance, and operational continuity for legacy Windows Server workloads."
+  "summary": "Today’s Azure posts focused on enterprise operations and modernization: Microsoft published a two-part Azure SRE Agent adoption guide covering initial deployment and scaling from a single team to enterprise-wide use, emphasizing SRE practices for Azure application environments. Azure also issued a technical advisory for Microsoft SQL users on handling Canada’s 2026 time zone changes, while Azure Arc highlighted the end of lifecycle for Windows Server 2012/2012 R2, reinforcing the need to upgrade or migrate legacy Windows Server workloads under hybrid and cloud management."
 }
