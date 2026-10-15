@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T21:01:53.553944+00:00",
+  "lastUpdated": "2026-10-15T01:59:18.430292+00:00",
   "totalArticles": 1072,
   "articles": [
     {
@@ -12,6 +12,39 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "End of Lifecycle for Windows Server 2012 and 2012 R2",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/end-of-lifecycle-for-windows-server-2012-and-2012-r2/ba-p/4564611",
+      "published": "2026-10-15T00:20:15+00:00",
+      "summary": "On October 13, 2026, the Extended Security Updates (ESU) program for Windows Server 2012 and Windows Server 2012 R2 ended. This closes the three-year extended coverage period that began when these operating systems reached end of support in October 2023. After today, Microsoft will no longer...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Meagan McCrory",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Meet the Hosted Skills Canvas: Build, Run, and Debug in GitHub Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/meet-the-hosted-skills-canvas-build-run-and-debug-in-github/ba-p/4561222",
+      "published": "2026-10-14T23:51:30+00:00",
+      "summary": "We have been evolving Azure Functions from the bottom up: first the infrastructure with Flex Consumption, then the way you write an app, and now the tools you use to build it.We're introducing a new developer experience for event-driven apps: the Azure Functions Hosted Skills canvas in the GitHub...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "paulyuk",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "GPT-chat-latest gets more intelligent, interactive, and personal in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-chat-latest-gets-more-intelligent-interactive-and-personal/ba-p/4564574",
+      "published": "2026-10-14T21:24:46+00:00",
+      "summary": "What if a conversational AI could respond with an interactive chart instead of a wall of text and start delivering useful information before the full answer is even ready? GPT-chat-latest in Microsoft Foundry now makes both possible. This update brings GPT-6-level intelligence to conversational and...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "truptiparkar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Azure MCP Server 3.0 stable release: More tools. More possibilities",
@@ -80,6 +113,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp",
+      "link": "https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/",
+      "published": "2026-10-14T18:35:00+00:00",
+      "summary": "You submit a Kubernetes Job and wait for its Pods to appear. A minute passes. Then another. The Job is still suspended, there are no application logs, and there may not even be a Pod to inspect. In a cluster managed by Kueue, this can be completely normal. Kueue may still be deciding whether the...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Powering Azure infrastructure from grid to chip",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/powering-azure-infrastructure-from-grid-to-chip/ba-p/4563890",
+      "published": "2026-10-14T17:19:23+00:00",
+      "summary": "As AI infrastructure scales, power availability is increasingly setting the ceiling on how much compute we can deploy. With workloads evolving towards long-context reasoning and memory-intensive agentic tasks, the power envelope of operating AI at scale has changed dramatically. High density AI...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "mariozeng",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Visual Studio Code 1.142",
       "link": "https://code.visualstudio.com/updates/v1_142",
       "published": "2026-10-14T17:00:00+00:00",
@@ -89,6 +144,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Bring Azure SRE Agent into your developer workflow with the new canvas",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bring-azure-sre-agent-into-your-developer-workflow-with-the-new/ba-p/4564514",
+      "published": "2026-10-14T16:35:26+00:00",
+      "summary": "You’re on call. A customer-reported incident lands, Azure SRE Agent picks it up from your incident management system, investigates, and gives you a starting diagnosis. If you’re like me, you want to check that diagnosis yourself, and you want to do it where you already work: in GitHub Copilot, with...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "paulyuk",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "From extraction to action: Using grounding and confidence to build reliable document workflows",
@@ -124,6 +190,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Build a Simple GPU-Enabled Kubernetes Cluster on Azure N-Series VMs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/build-a-simple-gpu-enabled-kubernetes-cluster-on-azure-n-series/ba-p/4564410",
+      "published": "2026-10-14T13:39:03+00:00",
+      "summary": "Audience: Platform engineers, ML engineers, and developers who need a small, understandable GPU development cluster without the abstraction of a managed Kubernetes service. Reference topology: Role Azure VM size Operating system Purpose Control plane Standard_D8s_v6 Ubuntu 24.04 LTS API server,...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "vinilv",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/",
       "published": "2026-10-14T13:00:00+00:00",
@@ -154,6 +231,17 @@
       "blogId": "terraform",
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing StandardV2 NAT Gateway for AKS-managed egress",
+      "link": "https://blog.aks.azure.com/2026/10/14/standardv2-nat-gateway-aks-managed-egress",
+      "published": "2026-10-14T00:00:00+00:00",
+      "summary": "AKS-managed StandardV2 NAT Gateway is now generally available, adding zone-redundant egress, higher throughput, IPv6 support, and flexible outbound IPs.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft",
+      "feedUrl": "https://blog.aks.azure.com/rss.xml",
       "sourceType": "rss"
     },
     {
@@ -263,17 +351,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "sdighe",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Powering Azure infrastructure from grid to chip",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/powering-azure-infrastructure-from-grid-to-chip/ba-p/4563890",
-      "published": "2026-10-13T16:00:00+00:00",
-      "summary": "As AI infrastructure scales, power availability is increasingly setting the ceiling on how much compute we can deploy. With workloads evolving towards long-context reasoning and memory-intensive agentic tasks, the power envelope of operating AI at scale has changed dramatically. High density AI...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "mariozeng",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -1565,17 +1642,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Your Agent Shouldn't Wait for a Prompt: Build an Event-Driven Microsoft Foundry Routine",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/your-agent-shouldn-t-wait-for-a-prompt-build-an-event-driven/ba-p/4559897",
-      "published": "2026-10-01T19:00:00+00:00",
-      "summary": "Most agents are still waiting in a chat window. They may be capable of classifying an incident, finding the right documentation, or recommending an owner - but nothing happens until someone remembers to ask. The hard part is no longer always the reasoning. It is noticing that work has arrived,...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "taniamuley",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Bringing rich terminal experiences to Aspire",
       "link": "https://devblogs.microsoft.com/aspire/aspire-terminal-support/",
       "published": "2026-10-01T18:12:09+00:00",
@@ -1716,17 +1782,6 @@
       "blogId": "azuredevcommunityblog",
       "author": "kinfey",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Meet the Hosted Skills Canvas: Build, Run, and Debug in GitHub Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/meet-the-hosted-skills-canvas-build-run-and-debug-in-github/ba-p/4561222",
-      "published": "2026-09-30T22:19:50+00:00",
-      "summary": "We have been evolving Azure Functions from the bottom up: first the infrastructure with Flex Consumption, then the way you write an app, and now the tools you use to build it.We're introducing a new developer experience for event-driven apps: the Azure Functions Hosted Skills canvas in the GitHub...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "paulyuk",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3783,17 +3838,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "nzthiago",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Dashboards are for AI agents too, not just humans",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/dashboards-are-for-ai-agents-too-not-just-humans/ba-p/4556383",
-      "published": "2026-09-14T20:25:20+00:00",
-      "summary": "A few days ago I opened Azure SRE Agent and typed four prompts. None of them was careful: find grafana dashboard for: GitHub Copilot run the panels queries. list top 3 very long sessions in the past 3 days what session 1 was doing? what was session 2 doing? No KQL. No table names. I didn't say what...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Wuyi_Weng",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -8528,17 +8572,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Scale On-Prem AI with Foundry Local on Azure Local: Multi-Node Inference and vLLM Support",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/scale-on-prem-ai-with-foundry-local-on-azure-local-multi-node/ba-p/4516692",
-      "published": "2026-06-02T19:18:28+00:00",
-      "summary": "Since announcing the public preview of Foundry Local on Azure Local for single-node, we’ve seen strong adoption in regulated industries and consistent customer demand to expand the platform for scalable deployments. Today, we’re expanding Foundry Local model offering on Azure Local (preview) with...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "LiranLyabock",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing Preview of new Azure Lasv5 and Laosv5 VMs based on the AMD EPYC™ ‘Turin’ processor",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-preview-of-new-azure-lasv5-and-laosv5-vms-based-on/ba-p/4522407",
       "published": "2026-06-02T19:16:22+00:00",
@@ -9639,17 +9672,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Kubernetes v1.36: Tiered Memory Protection with Memory QoS",
-      "link": "https://kubernetes.io/blog/2026/04/29/kubernetes-v1-36-memory-qos-tiered-protection/",
-      "published": "2026-04-29T18:35:00+00:00",
-      "summary": "On behalf of SIG Node, we are pleased to announce updates to the Memory QoS feature (alpha) in Kubernetes v1.36. Memory QoS uses the cgroup v2 memory controller to give the kernel better guidance on how to treat container memory. It was first introduced in v1.22 and updated in v1.27. In Kubernetes...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Upcoming Compute API Change: Always return non-null securityType",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/upcoming-compute-api-change-always-return-non-null-securitytype/ba-p/4500387",
       "published": "2026-04-29T09:02:08+00:00",
@@ -10044,17 +10066,6 @@
       "author": "ankitsurkar",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "AI Inference on AKS enabled by Azure Arc: Predictive AI using Triton and ResNet-50",
-      "link": "https://blog.aks.azure.com/2026/04/07/ai-inference-on-aks-arc-part-4",
-      "published": "2026-04-07T00:01:03+00:00",
-      "summary": "Run predictive AI at the edge by deploying Triton with the ONNX backend on AKS enabled by Azure Arc for local ResNet 50 GPU inference without cloud dependency.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft",
-      "feedUrl": "https://blog.aks.azure.com/rss.xml",
-      "sourceType": "rss"
     },
     {
       "title": "Announcing Public Preview for Essential Machine Management",
@@ -11058,17 +11069,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Scaling physics-based digital twins: Neural Concept on Azure delivers a New Record in Industrial AI",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/scaling-physics-based-digital-twins-neural-concept-on-azure/ba-p/4483403",
-      "published": "2026-01-12T12:10:23+00:00",
-      "summary": "Automotive Design and the DrivAerNet++ Benchmark In automotive design, external aerodynamics have a direct impact on performance, energy efficiency, and development cost. Even small reductions in drag can translate into significant fuel savings or extended EV range. As development timelines...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "lmiroslaw",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Handling Sybase BIGTIME Data Type During Migration to Azure SQL",
       "link": "https://techcommunity.microsoft.com/t5/modernization-best-practices-and/handling-sybase-bigtime-data-type-during-migration-to-azure-sql/ba-p/4480157",
       "published": "2026-01-12T09:00:00+00:00",
@@ -11795,5 +11795,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure- and Microsoft-cloud news centered on stronger developer/AI tooling, security/compliance, and infrastructure reliability. Key announcements included the stable release of **Azure MCP Server 3.0** with expanded tools, **Azure Cloud HSM hardware audit logging** reaching general availability, and **Azure Site Recovery** now generally available for **Azure Arc-enabled Windows VMware/physical servers**, alongside Microsoft Foundry guidance on using **grounding** and **confidence signals** to build more reliable document-processing workflows.\n\nAcross the broader Microsoft ecosystem, the biggest themes were software delivery and platform operations: **Visual Studio Code 1.142** shipped, **GitHub Actions workflow lockfiles** entered public preview to improve workflow integrity, GitHub published its **September 2026 availability report** and a performance-engineering deep dive on rebuilding star history, while Microsoft Security highlighted the phishing-infrastructure networks underpinning global cybercrime."
+  "summary": "Today’s Azure updates are focused on **end-of-support guidance for Windows Server 2012 and 2012 R2**, with a strong emphasis on using **Azure Arc** to manage and modernize remaining on-premises or multicloud server estates. The post highlights the lifecycle deadline and points customers toward Azure-based paths such as **Azure Arc–enabled servers**, **Extended Security Updates (ESUs)**, and migration/management options to maintain security, compliance, and operational continuity for legacy Windows Server workloads."
 }
