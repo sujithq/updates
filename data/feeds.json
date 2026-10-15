@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-15T18:44:57.009914+00:00",
-  "totalArticles": 1072,
+  "lastUpdated": "2026-10-15T23:21:51.524172+00:00",
+  "totalArticles": 1071,
   "articles": [
     {
       "title": "Visual Studio Code 1.143 (Insiders)",
@@ -11,6 +11,61 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Download GitHub Code Quality license usage as a CSV",
+      "link": "https://github.blog/changelog/2026-10-15-download-github-code-quality-license-usage-as-a-csv",
+      "published": "2026-10-15T20:11:26+00:00",
+      "summary": "You can now download a CSV report of your GitHub Code Quality license usage to reconcile your license count with your own records. The report includes: Each active committer who… The post Download GitHub Code Quality license usage as a CSV appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "The next developer interface is ambient intelligence",
+      "link": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
+      "published": "2026-10-15T19:39:27+00:00",
+      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Martin Woodward",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Upcoming deprecation of selected GitHub Copilot models in mid-November",
+      "link": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november",
+      "published": "2026-10-15T19:35:13+00:00",
+      "summary": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on November 16th, 2026: Model Deprecation date… The post Upcoming deprecation of selected GitHub Copilot models in mid-November appeared...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Azure Files cross-region data copy and synchronization with Azure Storage Mover",
+      "link": "https://azure.microsoft.com/updates?id=576542",
+      "published": "2026-10-15T19:05:18+00:00",
+      "summary": "Azure Files customers can now copy and synchronize file share data across storage accounts, Azure regions, and subscriptions within the same tenant using Azure Storage Mover. Schedule incremental transfers to maintain secondary copies that can support bus",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Staying Evergreen: How we automated secure access and repo hygiene in a shared org",
+      "link": "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/",
+      "published": "2026-10-15T18:00:00+00:00",
+      "summary": "Put native GitHub features to work to review outside collaborator access and archive stale repositories. The post Staying Evergreen: How we automated secure access and repo hygiene in a shared org appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Greg Mohler",
+      "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -122,28 +177,6 @@
       "author": "Umachandar Jayachandran (UC)",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Enterprise Adoption Guide for Azure SRE Agent, Part 2: From One Team to Enterprise-Wide Adoption",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enterprise-adoption-guide-for-azure-sre-agent-part-2-from-one/ba-p/4564311",
-      "published": "2026-10-15T03:51:09+00:00",
-      "summary": "In Part 1: From First Use Case to Automated Workflows, we focused on identifying use cases and getting setup with your initial SRE Agent. Teams see the value, and now you need to decide how adoption should expand. These are the questions we increasingly hear from teams. Who should share an agent?...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "dchelupati",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Enterprise Adoption Guide for Azure SRE Agent, Part 1: Deploying Your First Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enterprise-adoption-guide-for-azure-sre-agent-part-1-deploying/ba-p/4564306",
-      "published": "2026-10-15T03:50:21+00:00",
-      "summary": "We have learned a lot from talking with teams that are bringing Azure SRE Agent into their day-to-day operations. Across those conversations, we have seen a common set of questions emerge as teams move from exploring an initial use case to adopting SRE Agent more broadly. Some teams are starting...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "dchelupati",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "End of Lifecycle for Windows Server 2012 and 2012 R2",
@@ -476,17 +509,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Secret scanning blocks Anthropic keys by default, adds Salesforce",
-      "link": "https://github.blog/changelog/2026-10-13-secret-scanning-blocks-anthropic-keys-by-default-adds-salesforce",
-      "published": "2026-10-13T16:12:36+00:00",
-      "summary": "Secret scanning now detects new secret types from Salesforce, Anthropic, and Cloudsmith, with the new Anthropic secret types blocked with push protection by default. New secret scanning partner Salesforce is… The post Secret scanning blocks Anthropic keys by default, adds Salesforce appeared first...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Networking for the AI era: Building for scale, efficiency, and openness",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/networking-for-the-ai-era-building-for-scale-efficiency-and/ba-p/4563036",
       "published": "2026-10-13T16:00:00+00:00",
@@ -518,17 +540,6 @@
       "author": "Bryankel",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Enterprise managed settings enforcement updates",
-      "link": "https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates",
-      "published": "2026-10-13T15:20:10+00:00",
-      "summary": "Enterprise administrators can now require supported GitHub Copilot clients to retrieve current server-managed settings at startup instead of relying on a cached policy. We are also adding minimum client version… The post Enterprise managed settings enforcement updates appeared first on The GitHub...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Azure Verified Modules (AVM) is now owned by Azure engineering",
@@ -1532,17 +1543,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "ReviewBench: An open benchmark for AI code review",
-      "link": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
-      "published": "2026-10-05T15:59:40+00:00",
-      "summary": "We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned metrics. The post ReviewBench: An open benchmark for AI code review appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Michelle Zhou",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Logic Apps Aviators Newsletter - October 2026",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-october-2026/ba-p/4561308",
       "published": "2026-10-05T15:00:00+00:00",
@@ -1629,17 +1629,6 @@
       "author": "selshafey",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "AI is changing developer work. Here are three skills to strengthen.",
-      "link": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
-      "published": "2026-10-02T15:00:00+00:00",
-      "summary": "Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow. The post AI is changing developer work. Here are three skills to strengthen. appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Gwen Davis",
-      "feedUrl": "https://github.blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
@@ -3842,6 +3831,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Azure Red Hat OpenShift with hosted control planes now available in public preview",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-red-hat-openshift-with-hosted-control-planes-now-available/ba-p/4555997",
+      "published": "2026-09-15T17:10:06+00:00",
+      "summary": "Red Hat OpenShift momentum on Azure keeps building, driven by teams standardizing on Kubernetes for application modernization and, increasingly, by AI-enabled applications that need a consistent platform for the services around them. Azure Red Hat OpenShift gives those teams a jointly engineered,...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Mayuri_Gupta",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Explore the latest in MCP: All recordings from MCP Live!",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/explore-the-latest-in-mcp-all-recordings-from-mcp-live/ba-p/4556775",
       "published": "2026-09-15T16:44:03+00:00",
@@ -3894,6 +3894,17 @@
       "blogId": "azuredevcommunityblog",
       "author": "kedikala",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "SSL/TLS certificates and end-to-end encryption for Azure Functions Flex Consumption",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/ssl-tls-certificates-and-end-to-end-encryption-for-azure/ba-p/4556425",
+      "published": "2026-09-14T21:01:36+00:00",
+      "summary": "Last week we announced the general availability of TLS/SSL certificate support and end-to-end TLS encryption for Azure Functions Flex Consumption. Flex Consumption is the recommended serverless hosting plan for Azure Functions. It combines event-driven scale-to-zero and execution-based billing with...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "nzthiago",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -7179,17 +7190,6 @@
       "link": "https://azure.microsoft.com/updates?id=564071",
       "published": "2026-07-15T18:51:45+00:00",
       "summary": "In public preview, Microsoft Foundry now offers tracing for the Microsoft Agent Framework in both Python and .NET, helping developers observe how agents reason, call tools, and interact with models during execution. This release is part of the broader hos",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Announcing: CodeAct pattern and Hyperlight containers in Microsoft Agent Framework",
-      "link": "https://azure.microsoft.com/updates?id=563566",
-      "published": "2026-07-15T18:50:14+00:00",
-      "summary": "Microsoft Agent Framework adds the CodeAct pattern in public preview, which lets agents collapse a multi-step plan into a single executable code block rather than chaining one tool call at a time. In representative workloads, CodeAct cut end-to-end latenc",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -11782,18 +11782,7 @@
       "author": "AnaviNahar",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-databricks&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Oracle Database@Azure at Oracle AI World 2025: Powering the Next Wave of Enterprise Innovation",
-      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/oracle-database-azure-at-oracle-ai-world-2025-powering-the-next/ba-p/4460749",
-      "published": "2025-10-14T22:55:59+00:00",
-      "summary": "In today’s data-driven economy, organizations face growing pressure to modernize their data platforms, unify operations across on-premises and cloud, and operationalize AI—without compromising on security, compliance, or performance. At Oracle AI World 2025, Microsoft and Oracle are bringing major...",
-      "blog": "Oracle on Azure",
-      "blogId": "oracleonazureblog",
-      "author": "KalyanKaki",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=oracleonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure and Microsoft developer updates were led by infrastructure and automation milestones: Azure announced general availability for Standard service endpoint and automatic zone balancing in Virtual Machine Scale Sets, while GitHub pushed AI deeper into the software lifecycle with AI Scan for pull requests and agentic autofix for code scanning alerts both reaching general availability. Microsoft also highlighted developer productivity upgrades across the stack, including dotnetup for managing .NET toolchains, Visual Studio features to avoid waiting on failed builds, and a modernized VS Code UI.\n\nA second major theme was AI agents and operational modernization: Azure Cosmos DB introduced its vNext Emulator for AI agent scenarios, Microsoft detailed how to embed small language models into application logic using Olive and ONNX, and Azure’s SRE Agent got new enterprise adoption guidance for deployment and scaling. Other notable updates included SQL guidance for Canada’s 2026 time zone changes, Azure Arc lifecycle messaging for Windows Server 2012/2012 R2, and GitHub retiring email notifications for repository push events."
+  "summary": "Today’s posts were dominated by AI-powered developer tooling and platform automation: GitHub announced general availability for **AI Scan for pull requests** and **agentic autofix for code scanning alerts**, while also signaling ecosystem changes with **Copilot model deprecations in mid-November** and a broader vision of an **“ambient intelligence”** developer interface. Microsoft also highlighted developer productivity updates including **dotnetup** as a new **.NET toolchain manager**, Visual Studio improvements to reduce waiting on failed builds, and a modernization of the **VS Code** UI.\n\nOn the Azure side, key infrastructure announcements included **Azure Files cross-region data copy and sync with Azure Storage Mover** in preview, **Standard service endpoint** reaching general availability, and **automatic zone balance for Virtual Machine Scale Sets** going GA. Other notable updates focused on data and operations, including the **Azure Cosmos DB vNext Emulator** for AI agents, guidance for **Microsoft SQL** around **Canada’s 2026 time zone changes**, and reminders about **Windows Server 2012/2012 R2 end of lifecycle** via **Azure Arc**."
 }
