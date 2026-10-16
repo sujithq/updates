@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-16T13:35:24.360023+00:00",
-  "totalArticles": 1071,
+  "lastUpdated": "2026-10-16T18:29:35.896260+00:00",
+  "totalArticles": 1070,
   "articles": [
     {
       "title": "Visual Studio Code 1.143 (Insiders)",
@@ -14,10 +14,131 @@
       "sourceType": "rss"
     },
     {
-      "title": "Multi-repo support and other improvements for GitHub Copilot in Slack and Microsoft Teams",
+      "title": "[In preview] Public Preview: Azure Databricks Private network gateway",
+      "link": "https://azure.microsoft.com/updates?id=576556",
+      "published": "2026-10-16T16:59:02+00:00",
+      "summary": "Private network gateway for Azure Databricks is now in Public Preview, enabling serverless compute to connect to resources in your virtual network (VNet) and transitively connected networks through a single managed gateway. Customers can use the gateway t",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: External key management for Azure Key Vault Managed HSM",
+      "link": "https://azure.microsoft.com/updates?id=574296",
+      "published": "2026-10-16T16:50:27+00:00",
+      "summary": "External key management for Azure Key Vault Managed HSM is now generally available in all Azure public regions. For organizations with regulatory or sovereignty requirements to retain physical control of key-encryption keys, it lets Azure services that su",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Muse Spark Open is available in Microsoft Foundry Models",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/muse-spark-open-is-available-in-microsoft-foundry-models/ba-p/4564585",
+      "published": "2026-10-16T16:46:17+00:00",
+      "summary": "Building useful coding agents takes more than generating code. Agents need to analyze an existing codebase, work across files and dependencies, use tools reliably, and keep making progress as a task evolves. Muse Spark Open, a coding-optimized open-weight model from Meta, is available today in...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "MaheshBalachandran",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Managing open-weight model risk in enterprise deployments",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
+      "published": "2026-10-16T16:00:00+00:00",
+      "summary": "New whitepaper from Microsoft and NVIDIA helps enterprises manage open-weight AI model risks with a shared taxonomy, evaluations, and controls. The post Managing open-weight model risk in enterprise deployments appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Michael Scovetta",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Threat Modeling Azure MCP: Securing AI-Assisted Infrastructure Operations",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/threat-modeling-azure-mcp-securing-ai-assisted-infrastructure/ba-p/4564892",
+      "published": "2026-10-16T15:14:27+00:00",
+      "summary": "An engineer opens an Azure incident and asks an AI assistant: \"Why is this application slow?\" The assistant queries Azure Monitor, reviews Log Analytics results, inspects an App Service configuration, and compares the affected resource with a healthy deployment. The investigation that once required...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "abhilashasr",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Open source license compliance generally available",
+      "link": "https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available",
+      "published": "2026-10-16T14:00:32+00:00",
+      "summary": "Enterprises can now manage their dependencies’ licenses at scale with sophisticated, ruleset-based checks that enforce a centralized policy. Open source license compliance is now generally available for GitHub Enterprise Cloud… The post Open source license compliance generally available appeared...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Information Extraction with Low-Inference-Cost Models: 85% F1 Gain via Foundry Interactive Training",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/information-extraction-with-low-inference-cost-models-85-f1-gain/ba-p/4563661",
+      "published": "2026-10-16T14:00:00+00:00",
+      "summary": "The task: turn documents into structured data Many business workflows need to turn documents into structured data. The model must find the right values, capture the requested records, and return output the next system can use. Long documents and repeated tables make this harder. We tested...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "shihyaolin",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "SQL developer tools at SQL Modernization Day",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/sql-developer-tools-at-sql-modernization-day/ba-p/4562634",
+      "published": "2026-10-16T07:00:00+00:00",
+      "summary": "SQL developers can now do most of their database work without leaving VS Code. The MSSQL extension ships updates every month, GitHub Copilot understands your schema, and the Microsoft SQL drivers keep pace with SQL Server 2025. And new Microsoft SQL skills, now in public preview, let your coding...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "RicardoDuncan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Migrating Azure Cosmos DB Across Regions",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/migrating-azure-cosmos-db-across-regions/ba-p/4564983",
+      "published": "2026-10-16T04:38:18+00:00",
+      "summary": "What this article delivers? A decision-oriented, implementation-ready walkthrough based on a hands-on Azure Cosmos DB for NoSQL lab. It corrects the online copy sequence, includes the required Azure CLI snippets, and separates migration duration from application cutover downtime. Regional migration...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Xcode 27 runner image generally available",
+      "link": "https://github.blog/changelog/2026-10-15-xcode-27-runner-image-generally-available",
+      "published": "2026-10-16T04:36:30+00:00",
+      "summary": "You can now use the generally available Xcode 27 runner image to build and test your Apple applications in GitHub Actions. Previously in public preview, this GitHub-hosted image runs on… The post Xcode 27 runner image generally available appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Optimizing Oracle-to-Power BI Performance and the Path to Modern Analytics",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/optimizing-oracle-to-power-bi-performance-and-the-path-to-modern/ba-p/4563061",
+      "published": "2026-10-16T04:12:58+00:00",
+      "summary": "Organizations frequently rely on Oracle databases for large-scale operational workloads while using Microsoft Power BI as their enterprise analytics and visualization platform. Although connecting Power BI directly to Oracle is fully supported, performance can become challenging as datasets grow...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Multi-repo support and other improvements for GitHub in Slack and Teams",
       "link": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
       "published": "2026-10-16T02:16:35+00:00",
-      "summary": "Multi-repo support in Slack and Microsoft Teams GitHub Copilot in Slack and Microsoft Teams now supports working across multiple repositories in a single conversation. Whether you’re tracking pull requests, investigating… The post Multi-repo support and other improvements for GitHub Copilot in...",
+      "summary": "Multi-repo support in Slack and Teams GitHub Copilot in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you’re tracking pull requests, investigating issues, or… The post Multi-repo support and other improvements for GitHub in Slack and Teams...",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -34,6 +155,28 @@
       "author": "Nick Brady",
       "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Azure Container Apps Sandboxes, Now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-sandboxes-now-generally-available/ba-p/4559125",
+      "published": "2026-10-15T23:31:23+00:00",
+      "summary": "Agents Act. You Set the Limits. Your platform needs to run untrusted code. Agents choose actions at runtime, from installing packages to calling APIs. In a multi-tenant service, you have to support both without letting one customer's code reach another customer's data. That requires an execution...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "JanKalis",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Generally Available: Automatic Zone Balance for Virtual Machine Scale Sets",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/generally-available-automatic-zone-balance-for-virtual-machine/ba-p/4562654",
+      "published": "2026-10-15T22:38:30+00:00",
+      "summary": "We’re excited to announce the general availability of automatic zone balance for Virtual Machine Scale Sets. Automatic zone balance continuously monitors your scale set and redistributes VM instances across availability zones, reducing the risk that a single-zone failure disproportionately impacts...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "HilaryWang",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Download GitHub Code Quality license usage as a CSV",
@@ -199,6 +342,28 @@
       "author": "Umachandar Jayachandran (UC)",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Enterprise Adoption Guide for Azure SRE Agent, Part 2: From One Team to Enterprise-Wide Adoption",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enterprise-adoption-guide-for-azure-sre-agent-part-2-from-one/ba-p/4564311",
+      "published": "2026-10-15T03:51:09+00:00",
+      "summary": "In Part 1: From First Use Case to Automated Workflows, we focused on identifying use cases and getting setup with your initial SRE Agent. Teams see the value, and now you need to decide how adoption should expand. These are the questions we increasingly hear from teams. Who should share an agent?...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "dchelupati",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Enterprise Adoption Guide for Azure SRE Agent, Part 1: Deploying Your First Azure SRE Agent",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enterprise-adoption-guide-for-azure-sre-agent-part-1-deploying/ba-p/4564306",
+      "published": "2026-10-15T03:50:21+00:00",
+      "summary": "We have learned a lot from talking with teams that are bringing Azure SRE Agent into their day-to-day operations. Across those conversations, we have seen a common set of questions emerge as teams move from exploring an initial use case to adopting SRE Agent more broadly. Some teams are starting...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "dchelupati",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "End of Lifecycle for Windows Server 2012 and 2012 R2",
@@ -443,17 +608,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "GitHub App improvements for least privilege and management",
-      "link": "https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management",
-      "published": "2026-10-13T23:17:55+00:00",
-      "summary": "We’re releasing several GitHub Apps improvements today that help developers move off of classic PATs, improve GitHub App management, and request fewer sensitive permissions. We’ve also made it easier for… The post GitHub App improvements for least privilege and management appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "October Patches for Azure DevOps Server",
       "link": "https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server-4/",
       "published": "2026-10-13T20:20:06+00:00",
@@ -473,17 +627,6 @@
       "blogId": "dotnet",
       "author": ".NET Team",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Gemini 4 Argon in GitHub Copilot",
-      "link": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
-      "published": "2026-10-13T18:39:56+00:00",
-      "summary": "Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks. In early testing, Gemini 4 Argon… The post Gemini 4 Argon in GitHub Copilot appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -781,17 +924,6 @@
       "blogId": "azuretoolsblog",
       "author": "Alex-wdy",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Optimizing Oracle-to-Power BI Performance and the Path to Modern Analytics",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/optimizing-oracle-to-power-bi-performance-and-the-path-to-modern/ba-p/4563061",
-      "published": "2026-10-09T01:46:15+00:00",
-      "summary": "Organizations frequently rely on Oracle databases for large-scale operational workloads while using Microsoft Power BI as their enterprise analytics and visualization platform. Although connecting Power BI directly to Oracle is fully supported, performance can become challenging as datasets grow...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -1631,17 +1763,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Evaluate More, Spend Less: Batching Microsoft Foundry Evaluators for Efficient Evaluation",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/evaluate-more-spend-less-batching-microsoft-foundry-evaluators/ba-p/4560841",
-      "published": "2026-10-02T16:00:00+00:00",
-      "summary": "Authors: Salma Elshafey, Ali Mahmoudzadeh, Kayla Ames, Ahmad Qardahji, Vivek Bhadauria, Morteza Ziyadi, April Kwong A single agent trajectory may need to be evaluated for groundedness, coherence, instruction following, task completion, and correct tool use. In a conventional pipeline, each...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "selshafey",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
       "published": "2026-10-02T13:43:37+00:00",
@@ -1662,17 +1783,6 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "How to make AI responses faster on Microsoft Foundry: lessons from 2,040 measurements",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/how-to-make-ai-responses-faster-on-microsoft-foundry-lessons/ba-p/4560073",
-      "published": "2026-10-02T13:00:00+00:00",
-      "summary": "A faster model does not always make an AI application faster. Latency also comes from output length, repeated prompt content, image and document processing, tool selection, connection setup, serial waits, and extra model requests. Comparing complete configurations, optimized software plus verified...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Yassine_El_Ghali",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Translating an Elasticsearch Search Request to Azure Cosmos DB",
@@ -2599,17 +2709,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "​​Beyond source code: A path to the keys to the kingdom",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/",
-      "published": "2026-09-29T16:00:00+00:00",
-      "summary": "Explore how Storm-3068 turned a compromised identity into broader cloud access and the steps organizations can take to defend their identities, pipelines, and cloud infrastructure. The post ​​Beyond source code: A path to the keys to the kingdom appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Defender Experts Cybersecurity Incident Response",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "DiskANN Vector Index and Vector Search Are Now Generally Available in Azure SQL",
       "link": "https://devblogs.microsoft.com/azure-sql/diskann-vector-index-search-are-now-generally-available-in-azure-sql/",
       "published": "2026-09-29T15:00:22+00:00",
@@ -2971,17 +3070,6 @@
       "author": "Microsoft",
       "feedUrl": "https://blog.aks.azure.com/rss.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Azure Container Apps Sandboxes, Now Generally Available",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-sandboxes-now-generally-available/ba-p/4559125",
-      "published": "2026-09-23T23:33:57+00:00",
-      "summary": "Agents Act. You Set the Limits. Your platform needs to run untrusted code. Agents choose actions at runtime, from installing packages to calling APIs. In a multi-tenant service, you have to support both without letting one customer's code reach another customer's data. That requires an execution...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "JanKalis",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Microsoft is updating its author-signing certificate starting September 23, 2026",
@@ -3842,17 +3930,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure Red Hat OpenShift with hosted control planes now available in public preview",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-red-hat-openshift-with-hosted-control-planes-now-available/ba-p/4555997",
-      "published": "2026-09-15T17:10:06+00:00",
-      "summary": "Red Hat OpenShift momentum on Azure keeps building, driven by teams standardizing on Kubernetes for application modernization and, increasingly, by AI-enabled applications that need a consistent platform for the services around them. Azure Red Hat OpenShift gives those teams a jointly engineered,...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Mayuri_Gupta",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Explore the latest in MCP: All recordings from MCP Live!",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/explore-the-latest-in-mcp-all-recordings-from-mcp-live/ba-p/4556775",
       "published": "2026-09-15T16:44:03+00:00",
@@ -3905,17 +3982,6 @@
       "blogId": "azuredevcommunityblog",
       "author": "kedikala",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "SSL/TLS certificates and end-to-end encryption for Azure Functions Flex Consumption",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/ssl-tls-certificates-and-end-to-end-encryption-for-azure/ba-p/4556425",
-      "published": "2026-09-14T21:01:36+00:00",
-      "summary": "Last week we announced the general availability of TLS/SSL certificate support and end-to-end TLS encryption for Azure Functions Flex Consumption. Flex Consumption is the recommended serverless hosting plan for Azure Functions. It combines event-driven scale-to-zero and execution-based billing with...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "nzthiago",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -5346,17 +5412,6 @@
       "blogId": "azurevirtualdesktopblog",
       "author": "TomHickling",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurevirtualdesktopblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Browser automation with Pydantic-AI + Playwright",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/browser-automation-with-pydantic-ai-playwright/ba-p/4547971",
-      "published": "2026-08-20T21:42:16+00:00",
-      "summary": "When we build agents, we often want to give them the ability to browse the web: open webpages, navigate from one page to the other, and read the content of a webpage. By combining Pydantic AI with the Playwright capability from Pydantic AI Harness, we can build agents that browse the web safely and...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -7175,28 +7230,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Announcing: Multi-agent orchestration SDK with the Microsoft Foundry Agent Framework in C# and Python",
-      "link": "https://azure.microsoft.com/updates?id=564312",
-      "published": "2026-07-15T18:53:28+00:00",
-      "summary": "Microsoft Foundry is now introducing Agent Framework, a unified multi-agent orchestration SDK for C# and Python. This release consolidates patterns previously spread across AutoGen and Semantic Kernel, giving developers a consistent set of abstractions fo",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Announcing: Tracing for Microsoft Agent Framework (Python and .NET)",
-      "link": "https://azure.microsoft.com/updates?id=564071",
-      "published": "2026-07-15T18:51:45+00:00",
-      "summary": "In public preview, Microsoft Foundry now offers tracing for the Microsoft Agent Framework in both Python and .NET, helping developers observe how agents reason, call tools, and interact with models during execution. This release is part of the broader hos",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Announcing the ASIM Parser Creation Agentic Experience",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/announcing-the-asim-parser-creation-agentic-experience/ba-p/4532266",
       "published": "2026-07-15T16:00:00+00:00",
@@ -7712,17 +7745,6 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Building Practical Rowhammer Protection into Azure Cobalt 200",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-practical-rowhammer-protection-into-azure-cobalt-200/ba-p/4529297",
-      "published": "2026-06-25T15:00:00+00:00",
-      "summary": "As memory becomes central to cloud and AI infrastructure, so is the need to protect against memory-based vulnerabilities and attacks at cloud scale. With Azure Cobalt 200, Microsoft’s second-generation Arm-based compute processor, we took the opportunity to re-think how to deliver advanced memory...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ssaroiu",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Azure Confidential Computing for Digital Sovereignty and Regulated Workloads",
@@ -10728,17 +10750,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Public Preview: Automatic zone balance for Virtual Machine Scale Sets",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/public-preview-automatic-zone-balance-for-virtual-machine-scale/ba-p/4494476",
-      "published": "2026-02-17T17:30:00+00:00",
-      "summary": "We're excited to announce the public preview of automatic zone balance for Azure Virtual Machine Scale Sets. This new capability helps you maintain zone-resilient workloads with zero manual intervention. Automatic zone balance continuously monitors your scale set and redistributes VMs across...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "HilaryWang",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "RDP Shortpath (UDP) over Private Link is now generally available",
       "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/rdp-shortpath-udp-over-private-link-is-now-generally-available/ba-p/4494644",
       "published": "2026-02-17T17:00:00+00:00",
@@ -11012,17 +11023,6 @@
       "author": "Harald Kirschner, Connor Peet",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "A Technical Implementation Guide for Multi-Store Retail Environments",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/a-technical-implementation-guide-for-multi-store-retail/ba-p/4488418",
-      "published": "2026-01-22T08:39:19+00:00",
-      "summary": "Understanding the Problem Space When organizations first approach multi-source data ingestion, they typically start with explicit configuration. Each database connection is defined individually, each table mapping is specified, and each destination partition is created manually. This works...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "NaufalPrawironegoro",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Protect against React RSC CVE-2025-55182 with Azure Web Application Firewall (WAF)",
@@ -11771,18 +11771,7 @@
       "author": "Ron_Coleman",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurevirtualdesktopblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "SAP Business Data Cloud Connect with Azure Databricks is now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-databricks/sap-business-data-cloud-connect-with-azure-databricks-is-now/ba-p/4459490",
-      "published": "2025-10-15T16:00:00+00:00",
-      "summary": "We are excited to share that SAP Business Data Cloud (SAP BDC) Connect for Azure Databricks is generally available. With this announcement, Azure Databricks customers like you, can connect your SAP BDC environment to your existing Azure Databricks instance – without copying the data – to enable...",
-      "blog": "Azure Databricks",
-      "blogId": "azure-databricks",
-      "author": "AnaviNahar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-databricks&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure/Microsoft updates center on AI developer tooling and platform improvements. GitHub announced multi-repo support for GitHub Copilot in Slack and Microsoft Teams, making it easier for developers to query and work across multiple codebases from collaboration tools, while Microsoft Foundry’s September 2026 update highlighted new capabilities across its AI application platform, including improvements to model and agent workflows, developer tooling, and enterprise governance features."
+  "summary": "Microsoft’s Azure ecosystem updates today center on AI platform expansion, stronger security/compliance, and data modernization. On the AI side, Microsoft Foundry added the **Muse Spark Open** model, published a **September 2026 Foundry roundup**, and highlighted **interactive training** that improved information extraction performance by **85% F1** using lower-inference-cost models; at the same time, Microsoft emphasized governance with guidance on **open-weight model risk** and **threat modeling Azure MCP** for AI-assisted infrastructure operations.\n\nOn the platform and data side, Azure announced **public preview of Azure Databricks Private Network Gateway** and **general availability of external key management for Azure Key Vault Managed HSM**, while analytics posts focused on **Azure Cosmos DB cross-region migration**, **Oracle-to-Power BI optimization**, and **SQL modernization tools**. GitHub updates also reinforced enterprise developer workflow and compliance with **GA open source license compliance**, **GA Xcode 27 runner images**, and improved **multi-repo support in GitHub for Slack and Teams**."
 }
