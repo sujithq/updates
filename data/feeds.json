@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T19:44:18.841548+00:00",
+  "lastUpdated": "2026-10-18T22:40:15.889214+00:00",
   "totalArticles": 1068,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Why AI Agents Need External Grounding",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/why-ai-agents-need-external-grounding/ba-p/4565283",
+      "published": "2026-10-18T15:00:00+00:00",
+      "summary": "Earlier this year, we introduced Microsoft Web IQ, a suite of AI-native web search and grounding APIs that gives LLMs, AI agents, and applications access to current, relevant web information. This post explores why web grounding is becoming a foundational layer of AI, how it helps deliver answers...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "bkingms",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Five Web IQ use cases: bring the outside world into your AI agent",
@@ -4620,17 +4631,6 @@
       "blogId": "azureobservabilityblog",
       "author": "yairgil",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "From AI Infrastructure to Secure AI Agent Infrastructure with kars",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-ai-infrastructure-to-secure-ai-agent-infrastructure-with/ba-p/4551519",
-      "published": "2026-09-03T07:00:00+00:00",
-      "summary": "Opening scene: a three-minute bug fix that is still unsafe for an enterprise ByteCraft AI is a four-person startup. Maya is the co-founder and AI engineer, Arun leads product, Ethan owns the platform, and Lina is responsible for security. They have six months of runway and one design partner. Their...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -11750,5 +11750,6 @@
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog highlights a key AI theme: **agent reliability depends on external grounding**. In the Azure Dev Community post, Microsoft argues that AI agents become more accurate, contextual, and trustworthy when connected to external data sources and tools—rather than relying only on model-internal knowledge—underscoring patterns like retrieval, tool use, and enterprise data integration for real-world agentic applications.\n\nIf you want, I can also turn this into a more newsletter-style blurb or a one-line executive summary."
 }
