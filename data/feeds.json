@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T01:57:27.018207+00:00",
+  "lastUpdated": "2026-10-19T08:09:27.238655+00:00",
   "totalArticles": 1068,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Beyond One-Size-Fits-All: Decision Routing for GitHub Copilot in CLI & VS Code",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-one-size-fits-all-decision-routing-for-github-copilot-in/ba-p/4564778",
+      "published": "2026-10-19T07:00:00+00:00",
+      "summary": "As developer tools move into the age of agentic AI, it is easy to fall into a familiar habit: when a task matters, choose the strongest—and usually most expensive—model available. Real software work is more varied than that. Explaining a function, editing a README, adding a boundary test, debugging...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Deploying Logic Apps Hybrid through an Azure DevOps pipeline",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/deploying-logic-apps-hybrid-through-an-azure-devops-pipeline/ba-p/4556246",
+      "published": "2026-10-19T05:16:43+00:00",
+      "summary": "Overview Logic Apps Hybrid runs Standard workflows on your own infrastructure: an Arc-enabled Kubernetes cluster that appears in Azure as a connected environment. You still author and manage the workflows in Azure, but the runtime is yours. Until now, setting up CI/CD for this meant writing the ARM...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "anandgmenon",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Why AI Agents Need External Grounding",
@@ -4502,17 +4524,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Introducing Inside Microsoft Foundry: Quickstart 🎬",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/introducing-inside-microsoft-foundry-quickstart/ba-p/4552692",
-      "published": "2026-09-04T18:29:11+00:00",
-      "summary": "Developers don’t adopt platforms. They solve problems. When you’re building AI agents, the questions are rarely about products. They’re about outcomes: Which model should I choose? How do I ground my agent in my own data? How do I know if the responses are actually good? How do I move from a local...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "carlottacaste",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure SDK Release (August 2026)",
       "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-august-2026/",
       "published": "2026-09-04T18:20:42+00:00",
@@ -6238,17 +6249,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Use connectors with Managed Identity in the Logic Apps Standard extension",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/use-connectors-with-managed-identity-in-the-logic-apps-standard/ba-p/4539485",
-      "published": "2026-08-04T23:00:51+00:00",
-      "summary": "Managed Identity is Azure’s built-in way to authenticate to Microsoft Entra-protected resources without storing credentials, secrets, or connection strings. Deployed Logic Apps have supported it for a while, but the developer inner loop was a different story. You would wire up one authentication...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Azure Virtual Network routing appliance is now generally available",
@@ -11750,5 +11750,6 @@
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     }
-  ]
+  ],
+  "summary": "Today’s Azure posts focus on practical developer tooling and enterprise integration. One article highlights “decision routing” for GitHub Copilot in the CLI and VS Code, describing a more tailored approach to AI assistance rather than a one-model-fits-all experience, while the other walks through deploying Logic Apps Hybrid using an Azure DevOps pipeline, emphasizing CI/CD automation for hybrid integration scenarios."
 }
