@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T16:56:19.995782+00:00",
+  "lastUpdated": "2026-10-19T14:54:49.922420+00:00",
   "features": {
     "Azure SQL mid-March 2026 updates": {
       "status": "ga",
@@ -4306,12 +4306,12 @@
       "published": "2026-07-16T19:07:14+00:00"
     },
     "Xcode 27 runner image": {
-      "status": "preview",
-      "link": "https://github.blog/changelog/2026-07-16-xcode-27-runner-image-now-in-public-preview",
-      "title": "Xcode 27 runner image now in public preview",
+      "status": "ga",
+      "link": "https://github.blog/changelog/2026-10-15-xcode-27-runner-image-generally-available",
+      "title": "Xcode 27 runner image generally available",
       "service": "GitHub Actions",
-      "lastSeen": "2026-07-20T10:27:43.694425+00:00",
-      "published": "2026-07-16T18:00:07+00:00"
+      "lastSeen": "2026-10-19T14:54:49.922395+00:00",
+      "published": "2026-10-16T04:36:30+00:00"
     },
     "Autoscale": {
       "status": "preview",
@@ -4506,12 +4506,12 @@
       "published": "2026-07-23T15:00:27+00:00"
     },
     "Standard service endpoint": {
-      "status": "preview",
-      "link": "https://azure.microsoft.com/updates?id=561475",
-      "title": "[In preview] Public Preview: Standard service endpoint",
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=571025",
+      "title": "[Launched] Generally Available: Standard service endpoint",
       "service": "Azure Private Link",
-      "lastSeen": "2026-07-27T10:54:50.149058+00:00",
-      "published": "2026-07-22T16:57:10+00:00"
+      "lastSeen": "2026-10-19T14:54:49.922404+00:00",
+      "published": "2026-10-15T17:39:51+00:00"
     },
     "Sensitive generative AI telemetry protection": {
       "status": "preview",
@@ -6296,6 +6296,110 @@
       "service": "Azure Application Gateway WAF",
       "lastSeen": "2026-10-12T16:56:19.995779+00:00",
       "published": "2026-10-05T17:41:41+00:00"
+    },
+    "Private network gateway": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=576556",
+      "title": "[In preview] Public Preview: Azure Databricks Private network gateway",
+      "service": "Azure Databricks",
+      "lastSeen": "2026-10-19T14:54:49.922374+00:00",
+      "published": "2026-10-16T16:59:02+00:00"
+    },
+    "External key management": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=574296",
+      "title": "[Launched] Generally Available: External key management for Azure Key Vault Managed HSM",
+      "service": "Azure Key Vault Managed HSM",
+      "lastSeen": "2026-10-19T14:54:49.922384+00:00",
+      "published": "2026-10-16T16:50:27+00:00"
+    },
+    "Open source license compliance": {
+      "status": "ga",
+      "link": "https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available",
+      "title": "Open source license compliance generally available",
+      "service": "GitHub Enterprise Cloud",
+      "lastSeen": "2026-10-19T14:54:49.922391+00:00",
+      "published": "2026-10-16T14:00:32+00:00"
+    },
+    "Microsoft SQL skills": {
+      "status": "preview",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/sql-developer-tools-at-sql-modernization-day/ba-p/4562634",
+      "title": "SQL developer tools at SQL Modernization Day",
+      "service": "Microsoft SQL",
+      "lastSeen": "2026-10-19T14:54:49.922393+00:00",
+      "published": "2026-10-16T07:00:00+00:00"
+    },
+    "Container Apps Sandboxes": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-sandboxes-now-generally-available/ba-p/4559125",
+      "title": "Azure Container Apps Sandboxes, Now Generally Available",
+      "service": "Azure Container Apps",
+      "lastSeen": "2026-10-19T14:54:49.922398+00:00",
+      "published": "2026-10-15T23:31:23+00:00"
+    },
+    "Automatic zone balance": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=576334",
+      "title": "[Launched] Generally Availabile: Automatic zone balance for Virtual Machine Scale Sets",
+      "service": "Virtual Machine Scale Sets",
+      "lastSeen": "2026-10-19T14:54:49.922406+00:00",
+      "published": "2026-10-15T16:54:20+00:00"
+    },
+    "Azure Files cross-region data copy and synchronization": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=576542",
+      "title": "[In preview] Public Preview: Azure Files cross-region data copy and synchronization with Azure Storage Mover",
+      "service": "Azure Storage Mover",
+      "lastSeen": "2026-10-19T14:54:49.922402+00:00",
+      "published": "2026-10-15T19:05:18+00:00"
+    },
+    "AI Scan for pull requests": {
+      "status": "ga",
+      "link": "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available",
+      "title": "AI Scan for pull requests generally available",
+      "service": "GitHub Code Scanning",
+      "lastSeen": "2026-10-19T14:54:49.922408+00:00",
+      "published": "2026-10-15T15:04:51+00:00"
+    },
+    "Agentic autofix for code scanning alerts": {
+      "status": "ga",
+      "link": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability",
+      "title": "Agentic autofix for code scanning alerts general availability",
+      "service": "GitHub Code Scanning",
+      "lastSeen": "2026-10-19T14:54:49.922410+00:00",
+      "published": "2026-10-15T13:49:20+00:00"
+    },
+    "Hardware audit logging": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=576377",
+      "title": "[Launched] Generally Available: Azure Cloud HSM hardware audit logging",
+      "service": "Azure Cloud HSM",
+      "lastSeen": "2026-10-19T14:54:49.922412+00:00",
+      "published": "2026-10-14T19:17:47+00:00"
+    },
+    "Support for Azure Arc-enabled Windows VMware/Physical servers": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=576214",
+      "title": "[Launched] Generally Available: Azure Site Recovery Support for Azure ARC-enabled Windows VMWare/Physical servers",
+      "service": "Azure Site Recovery",
+      "lastSeen": "2026-10-19T14:54:49.922414+00:00",
+      "published": "2026-10-14T19:13:31+00:00"
+    },
+    "Workflow lockfiles": {
+      "status": "preview",
+      "link": "https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview",
+      "title": "GitHub Actions workflow lockfiles in public preview",
+      "service": "GitHub Actions",
+      "lastSeen": "2026-10-19T14:54:49.922416+00:00",
+      "published": "2026-10-14T13:49:15+00:00"
+    },
+    "StandardV2 NAT Gateway for AKS-managed egress": {
+      "status": "ga",
+      "link": "https://blog.aks.azure.com/2026/10/14/standardv2-nat-gateway-aks-managed-egress",
+      "title": "Announcing StandardV2 NAT Gateway for AKS-managed egress",
+      "service": "Azure Kubernetes Service",
+      "lastSeen": "2026-10-19T14:54:49.922417+00:00",
+      "published": "2026-10-14T00:00:00+00:00"
     }
   }
 }
