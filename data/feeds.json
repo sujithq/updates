@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T18:48:26.735532+00:00",
+  "lastUpdated": "2026-10-20T23:31:04.725301+00:00",
   "totalArticles": 1070,
   "articles": [
     {
@@ -11,6 +11,50 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Data Transfer and Transactions metrics now generally available for Azure Container Registry",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/data-transfer-and-transactions-metrics-now-generally-available/ba-p/4565530",
+      "published": "2026-10-20T19:55:04+00:00",
+      "summary": "Azure Container Registry now provides two new platform metrics that make it easier to understand outbound data transfer, inspect API traffic, and investigate throttled or failed requests without first opening a support request. We're excited to share the general availability of the Data Transfer...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jeburke",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Manage all your Microsoft Sentinel data in one place with Unified Data Management (Public Preview)",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/manage-all-your-microsoft-sentinel-data-in-one-place-with/ba-p/4565940",
+      "published": "2026-10-20T19:34:43+00:00",
+      "summary": "As security teams bring in more data from more sources and use it across SIEM and XDR workflows, decisions about connector health, ingestion volume, and cost optimization get harder. Today, we’re announcing the public preview of Unified Data Management for Microsoft Sentinel, available in the new...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "amybook",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Cloud Security Billing, Simplified: Introducing the Defender Workload Unit",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/cloud-security-billing-simplified-introducing-the-defender/ba-p/4559743",
+      "published": "2026-10-20T19:02:27+00:00",
+      "summary": "That's the thinking behind an upcoming improvement to Microsoft Defender for Cloud: the Defender Workload Unit, or DWU. It's a new billing model and product experience that translates workload-specific usage into a common billing unit, with one unit price and one place to estimate and track costs....",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "danielacardon",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[In preview] Public Preview: Disable VNet peering route",
+      "link": "https://azure.microsoft.com/updates?id=576242",
+      "published": "2026-10-20T18:55:47+00:00",
+      "summary": "Announcing the public preview of disable VNet peering route, a route-table capability that gives you more control over traffic between peered virtual networks. DPR suppresses system-generated peering routes on subnets associated with the route table while",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -146,28 +190,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Manage all your Microsoft Sentinel data in one place with Unified Data Management (Public Preview)",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/manage-all-your-microsoft-sentinel-data-in-one-place-with/ba-p/4565940",
-      "published": "2026-10-20T16:00:00+00:00",
-      "summary": "As security teams bring in more data from more sources and use it across SIEM and XDR workflows, decisions about connector health, ingestion volume, and cost optimization get harder. Today, we’re announcing the public preview of Unified Data Management for Microsoft Sentinel, available in the new...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "amybook",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "What is new in Sovereign Public Cloud",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/what-is-new-in-sovereign-public-cloud/ba-p/4566000",
-      "published": "2026-10-20T15:25:37+00:00",
-      "summary": "To identify which sovereign cloud solution may fit your organization’s needs, take the Microsoft Sovereign Cloud assessment New and upcoming controls, where they apply, and how they fit into sovereign Azure architecture. At the October Frontier Tour, we are announcing new and expanded capabilities...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "StuartRussell",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Can a local git remote replace GitHub in your agent eval?",
       "link": "https://devblogs.microsoft.com/blog/can-a-local-git-remote-replace-github-in-your-agent-eval/",
       "published": "2026-10-20T14:53:27+00:00",
@@ -210,39 +232,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Advancing sovereign AI with Foundry Local and Azure Local",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/advancing-sovereign-ai-with-foundry-local-and-azure-local/ba-p/4566144",
-      "published": "2026-10-20T11:40:28+00:00",
-      "summary": "The next chapter of AI is about more than powerful models. It’s about bringing AI closer to the data, applications, and systems that organizations depend on every day. For governments, regulated industries, and organizations operating critical infrastructure, this means making AI accessible in...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "insagiv",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "GitHub Enterprise Local: Bringing modern development to environments you control",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/github-enterprise-local-bringing-modern-development-to/ba-p/4560556",
-      "published": "2026-10-20T08:30:00+00:00",
-      "summary": "Today at the Frontier Tour in Paris, we’re announcing the next milestone for GitHub Enterprise Local, which will become generally available at Microsoft Ignite. GitHub Enterprise Local brings the GitHub Enterprise Server experience to organizations’ own environments, helping them keep source code...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "sushil_jarwal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Sovereign Private Cloud: Bringing more choice and control to AI and cloud infrastructure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/sovereign-private-cloud-bringing-more-choice-and-control-to-ai/ba-p/4565953",
-      "published": "2026-10-20T08:30:00+00:00",
-      "summary": "To identify which sovereign cloud solution may fit your organization’s needs, take the Microsoft Sovereign Cloud assessment Digital sovereignty is essential for organizations as they modernize critical infrastructure and bring AI into more sensitive and regulated environments. We’re hearing from...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "meenagowdar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Plan Your Java Upgrade Ahead of Microsoft’s 2027 Support Milestones",
@@ -454,6 +443,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Agents are your newest insiders. Security must move at their speed.",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
+      "published": "2026-10-19T13:00:00+00:00",
+      "summary": "New capabilities in Microsoft 365 E7 and Project Perception help organizations contain agent risk and adapt protection continuously. The post Agents are your newest insiders. Security must move at their speed. appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Nadim Abdo",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Some Git over HTTPS may temporarily require authentication",
       "link": "https://github.blog/changelog/2026-10-19-some-git-over-https-may-temporarily-require-authentication",
       "published": "2026-10-19T10:37:30+00:00",
@@ -551,6 +551,17 @@
       "author": "MaheshBalachandran",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Managing open-weight model risk in enterprise deployments",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
+      "published": "2026-10-16T16:00:00+00:00",
+      "summary": "New whitepaper from Microsoft and NVIDIA helps enterprises manage open-weight AI model risks with a shared taxonomy, evaluations, and controls. The post Managing open-weight model risk in enterprise deployments appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Michael Scovetta",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Threat Modeling Azure MCP: Securing AI-Assisted Infrastructure Operations",
@@ -971,6 +982,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/",
+      "published": "2026-10-14T13:00:00+00:00",
+      "summary": "Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Threat Intelligence and Microsoft Digital Crimes Unit",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "v1.17.0-rc2",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-rc2",
       "published": "2026-10-14T10:37:18+00:00",
@@ -1323,6 +1345,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Post-quantum authentication: Why organizations should start testing certificate ecosystems now",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/08/post-quantum-authentication-why-organizations-should-start-testing-certificate-ecosystems-now/",
+      "published": "2026-10-08T20:44:28+00:00",
+      "summary": "Prepare for post-quantum authentication by testing certificate ecosystems now. Learn how Microsoft’s PQC TLS Pilot Program helps advance future readiness. The post Post-quantum authentication: Why organizations should start testing certificate ecosystems now appeared first on Microsoft Security...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Security Research, Lora Randolph, Tahmina Ahmad and Karina Sirota Goodley",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Evaluating Voice Agents: How Reliable Are Foundry's Multi-turn Evaluators?",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/evaluating-voice-agents-how-reliable-are-foundry-s-multi-turn/ba-p/4559697",
       "published": "2026-10-08T20:00:00+00:00",
@@ -1587,6 +1620,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "3 lessons from frontier AI vulnerability research",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
+      "published": "2026-10-07T16:00:00+00:00",
+      "summary": "Read how How Microsoft Security's FORGE Lab is scaling vulnerability research from Windows to the Linux kernel. The post 3 lessons from frontier AI vulnerability research appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Taesoo Kim",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "From Spec-First to Enterprise-Ready: Extending GitHub Spec Kit",
       "link": "https://devblogs.microsoft.com/blog/from-spec-first-to-enterprise-ready-extending-github-spec-kit/",
       "published": "2026-10-07T15:00:26+00:00",
@@ -1815,6 +1859,17 @@
       "blogId": "azuresqlblog",
       "author": "Jerry Nixon",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "CISO perspectives on managing vulnerability risks in the age of AI",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/06/ciso-perspectives-on-managing-vulnerability-risks-in-the-age-of-ai/",
+      "published": "2026-10-06T16:00:00+00:00",
+      "summary": "Learn how CISOs can mitigate cybersecurity risks and increase resilience in the age of AI-powered vulnerability management. The post CISO perspectives on managing vulnerability risks in the age of AI appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Freddy Dezeure and Sesha Mani",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -2588,17 +2643,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Phishing Abuses RMM Tools for Persistent Access",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/",
-      "published": "2026-09-29T21:39:27+00:00",
-      "summary": "Microsoft observed phishing campaigns that abused MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity The post Phishing Abuses RMM Tools for Persistent Access appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Security Research, Parasharan Raghavan, Deva Kanna Kannan, Sai Chakri and Microsoft Defender Experts",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Why content extraction still matters in the GenAI era",
       "link": "https://devblogs.microsoft.com/foundry/why-content-extraction-still-matters-in-the-genai-era/",
       "published": "2026-09-29T21:30:42+00:00",
@@ -3006,17 +3050,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "​​Beyond source code: A path to the keys to the kingdom",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/",
-      "published": "2026-09-29T16:00:00+00:00",
-      "summary": "Explore how Storm-3068 turned a compromised identity into broader cloud access and the steps organizations can take to defend their identities, pipelines, and cloud infrastructure. The post ​​Beyond source code: A path to the keys to the kingdom appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Defender Experts Cybersecurity Incident Response",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "DiskANN Vector Index and Vector Search Are Now Generally Available in Azure SQL",
       "link": "https://devblogs.microsoft.com/azure-sql/diskann-vector-index-search-are-now-generally-available-in-azure-sql/",
       "published": "2026-09-29T15:00:22+00:00",
@@ -3025,17 +3058,6 @@
       "blogId": "azuresqlblog",
       "author": "Pooja Kamath",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
-      "published": "2026-09-29T15:00:00+00:00",
-      "summary": "Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”. The post...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Threat Intelligence",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -3182,17 +3204,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/",
-      "published": "2026-09-28T15:00:00+00:00",
-      "summary": "Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations. The post NeedyMantis: Unpacking a...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Threat Intelligence",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "From Jev to Your Laptop: Building \"System One\" Decision Models in ONNX with Mobius",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-jev-to-your-laptop-building-quot-system-one-quot-decision/ba-p/4558843",
       "published": "2026-09-28T06:11:14+00:00",
@@ -3223,17 +3234,6 @@
       "blogId": "dotnet",
       "author": "Daniel Roth",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Storm-3168: Agentic-driven cloud attacks using compromised service principals",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals/",
-      "published": "2026-09-25T15:35:08+00:00",
-      "summary": "Microsoft details JADEPUFFER-linked Azure reconnaissance, resource deletion, and credential access using compromised service principals, identifying the activity as associated with Storm-3168 and providing guidance for defenders. The post Storm-3168: Agentic-driven cloud attacks using compromised...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Security Research, Yossi Weizman and Tushar Mudi",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -3333,17 +3333,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/",
-      "published": "2026-09-24T16:00:00+00:00",
-      "summary": "Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect and disrupt this activity before ransomware deployment. The post Beyond the...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Threat Intelligence",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -3730,17 +3719,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Virtual nodes on Azure Container Instances: a new compute layer for AKS",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/virtual-nodes-on-azure-container-instances-a-new-compute-layer/ba-p/4558080",
-      "published": "2026-09-21T16:44:41+00:00",
-      "summary": "Meet virtual nodes on ACI Azure Kubernetes Service (AKS) gives you managed Kubernetes: the full Kubernetes API without operating the control plane yourself. Virtual nodes on Azure Container Instances go a step further, letting your pods run directly on Azure's serverless container platform, with...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "hailukassa",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "What the Azure API Management integration means for Azure Service Bus",
@@ -7296,17 +7274,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Azure Functions support for Python 3.14",
-      "link": "https://azure.microsoft.com/updates?id=567646",
-      "published": "2026-07-17T17:47:00+00:00",
-      "summary": "You can now develop functions using Python 3.14 locally and deploy them to Azure Functions plans on Linux. Upgrade your apps to Python 3.14 to take advantage of enhanced security, a longer support window, and continued compatibility with the Azure Functio",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Teaching a Vision Model to See Like a Human Annotator—and Catching It When It Lies",
       "link": "https://devblogs.microsoft.com/ise/ai-asset-enrichment-pipeline/",
       "published": "2026-07-17T07:00:00+00:00",
@@ -7316,6 +7283,17 @@
       "author": "Deeptanil Saha, Kartheek Palepu",
       "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Azure Cobalt: Workload-Aware Power Management for More Efficient Datacenters",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-cobalt-workload-aware-power-management-for-more-efficient/ba-p/4537049",
+      "published": "2026-07-16T21:16:29+00:00",
+      "summary": "As cloud services and AI workloads continue to grow, power has become a key constraint in expanding compute capacity. Using available power more efficiently enables Azure to deploy more servers in each datacenter, helping meet growing customer demand while improving sustainability. To address this...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "redsa",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Announcing Public Preview of Autoscale for Azure Event Grid Namespaces",
@@ -8561,6 +8539,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Your first model deployment on Foundry Local on Azure Local: from catalog to inference in 10 minutes",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/your-first-model-deployment-on-foundry-local-on-azure-local-from/ba-p/4520640",
+      "published": "2026-06-03T16:25:52+00:00",
+      "summary": "Foundry Local on Azure Local lets you run open-source models directly on your own Azure Local cluster, behind an OpenAI-compatible AP. It's the same experience you've gotten used to in the cloud, but the inference runs on hardware you own. Foundry Local on Azure Local is in public preview at the...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "JonathanSchtechel",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Announcing Preview of Guest RDMA for Azure Boost",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-preview-of-guest-rdma-for-azure-boost/ba-p/4524589",
       "published": "2026-06-03T15:54:48+00:00",
@@ -8580,6 +8569,17 @@
       "blogId": "azurestorageblog",
       "author": "madhurinrao",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Build, deploy, and govern sovereign AI with Foundry Local on Azure Local",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/build-deploy-and-govern-sovereign-ai-with-foundry-local-on-azure/ba-p/4522945",
+      "published": "2026-06-03T07:19:19+00:00",
+      "summary": "Not every AI workload can run in the cloud. For many of our customers, data needs to stay within defined boundaries, connectivity may be limited or absent, and latency, governance, and auditability are non-negotiable. With Foundry Local on Azure Local, you can use the same model catalog, developer...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "insagiv",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8624,6 +8624,17 @@
       "blogId": "microsoft-planetary-computer-blog",
       "author": "Yves-Pitsch",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft-planetary-computer-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Unlock On-Prem Productivity with Agentic Retrieval in Foundry Local",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/unlock-on-prem-productivity-with-agentic-retrieval-in-foundry/ba-p/4523646",
+      "published": "2026-06-02T19:20:52+00:00",
+      "summary": "In today’s connected world, customers expect instant, context-rich interactions, even in environments where cloud connectivity isn’t guaranteed. That’s where Retrieval-Augmented Generation at the edge comes in. Since we launched into public preview, we’ve watched teams across regulated,...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "moran_assaf",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -10607,17 +10618,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Microsoft Defender for Cloud Customer Newsletter",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-customer-newsletter/ba-p/4498717",
-      "published": "2026-03-03T15:30:22+00:00",
-      "summary": "Check out monthly news for the rest of the MTP suite here! What's new in Defender for Cloud? Now in public preview, Defender for Cloud provides threat protection for AI agents built with Foundry, as part of the Defender for AI Services plan. Learn more about this in our documentation. Defender for...",
-      "blog": "Microsoft Defender for Cloud",
-      "blogId": "microsoftdefendercloudblog",
-      "author": "Yura_Lee",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftdefendercloudblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure Databricks Lakebase is now generally available",
       "link": "https://techcommunity.microsoft.com/t5/azure-databricks/azure-databricks-lakebase-is-now-generally-available/ba-p/4498779",
       "published": "2026-03-03T03:34:11+00:00",
@@ -11773,5 +11773,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure ecosystem news centered on security, observability, sovereign/local AI, and developer productivity. Key launches included GA of Azure Front Door Premium WAF’s **service tag match condition**, **keyless TLS on Application Gateway** using **Azure Key Vault Managed HSM**, and **advanced platform metrics for Azure Monitor**, alongside Microsoft Sentinel updates such as **expanded cross-tenant delegated access in Microsoft Defender** and **Unified Data Management** in public preview for centralized Sentinel data handling.\n\nOn the developer side, Microsoft highlighted tighter AI-assisted workflows with **Azure DevOps in Microsoft Copilot**, GitHub updates like **bulk migration of branch protections to rulesets**, enhanced **secret scanning**, **Dependabot** improvements including dependency-version data in the REST API and support for **npm 12, pnpm 11/12, and Bun 1.4**, plus **GitHub package firewall** in public preview. A major theme was sovereign and edge AI: posts on **Foundry Local**, **Azure Local**, **GitHub Enterprise Local**, and sovereign public cloud emphasized running modern development and AI workloads in controlled or on-device environments."
+  "summary": "Microsoft’s updates centered on stronger security/governance and better observability across Azure and GitHub: Microsoft Sentinel introduced Unified Data Management in public preview and expanded cross-tenant delegated access reached GA, while Defender for Cloud launched the Defender Workload Unit billing model, GitHub added package firewall in preview plus secret scanning and Dependabot API/runtime upgrades, and Azure networking/security added GA features like Azure Front Door Premium WAF service tag matching and keyless TLS on Application Gateway with Azure Key Vault Managed HSM.  \n\nOn the platform and developer side, Azure Monitor’s advanced platform metrics and Azure Container Registry’s Data Transfer and Transactions metrics both hit general availability, Azure DevOps is now available in Microsoft Copilot, Azure SRE Agent got an October update, and AI/dev tooling news included Foundry Local for on-device voice companions, GitHub Copilot productivity stories, and preview support for disabling VNet peering routes."
 }
