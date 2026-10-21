@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-10-21T08:03:07.737302+00:00",
-  "totalArticles": 1070,
+  "lastUpdated": "2026-10-21T14:11:16.342286+00:00",
+  "totalArticles": 1071,
   "articles": [
     {
-      "title": "Visual Studio Code 1.143 (Insiders)",
-      "link": "https://code.visualstudio.com/updates/v1_143",
-      "published": "2026-10-21T17:00:00+00:00",
-      "summary": "Learn what is new in Visual Studio Code Insiders, including the latest features and improvements. Read the full article",
+      "title": "Visual Studio Code 1.144 (Insiders)",
+      "link": "https://code.visualstudio.com/updates/v1_144",
+      "published": "2026-10-28T17:00:00+00:00",
+      "summary": "Learn what is new in Visual Studio Code 1.144 (Insiders) Read the full article",
       "blog": "Visual Studio Code",
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
@@ -14,26 +14,59 @@
       "sourceType": "rss"
     },
     {
-      "title": "GPU Memory Profiling on AKS: Find the Code Behind Memory Pressure",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/gpu-memory-profiling-on-aks-find-the-code-behind-memory-pressure/ba-p/4566375",
-      "published": "2026-10-21T01:00:40+00:00",
-      "summary": "By Brian Benz, Paul Yu, Maya Singh, Johnson Shi GPU memory allocation can be tricky to get right. Allocate too little and your AI workload can slow down or fail with an out-of-memory error, often during peak traffic when reliability matters most. Allocate too much and expensive GPU capacity sits...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "johnsonshi_msft",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "title": "Visual Studio Code 1.143",
+      "link": "https://code.visualstudio.com/updates/v1_143",
+      "published": "2026-10-21T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.143 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Compare today’s code with an earlier commit",
+      "link": "https://devblogs.microsoft.com/visualstudio/compare-todays-code-with-an-earlier-commit/",
+      "published": "2026-10-21T14:00:30+00:00",
+      "summary": "Compare a historical commit with your working tree without checking out the commit or leaving your branch. The post Compare today’s code with an earlier commit appeared first on Visual Studio Blog.",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Leah Tran",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing GA of Safe Key Rotation in Azure Cosmos DB",
+      "link": "https://devblogs.microsoft.com/cosmosdb/announcing-public-preview-of-safe-key-rotation-in-azure-cosmos-db/",
+      "published": "2026-10-21T14:00:23+00:00",
+      "summary": "In our previous post, we introduced the private preview of Safe Key Rotation, a feature that helps Azure Cosmos DB customers avoid service disruptions during key rotations. By showing when each account key was last used, it helps teams make informed decisions before rotating keys or moving to Entra...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Iria Osara",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Microsoft at NVIDIA GTC Berlin 2026: sovereign AI on your terms",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/microsoft-at-nvidia-gtc-berlin-2026-sovereign-ai-on-your-terms/ba-p/4566171",
+      "published": "2026-10-21T11:32:12+00:00",
+      "summary": "Microsoft is excited to attend NVIDIA GTC Berlin October 20 through 22, bringing news across the AI stack. We are expanding the infrastructure and platform capabilities organizations need to build and run AI across cloud and customer-controlled environments. This includes new capabilities for...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Ben_Sickle",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
-      "title": "🆕Orchestrate Foundry Prompt and Hosted Agents with Logic Apps Automation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/orchestrate-foundry-prompt-and-hosted-agents-with-logic-apps/ba-p/4566381",
-      "published": "2026-10-21T00:45:18+00:00",
-      "summary": "Microsoft Foundry is retiring workflows on December 1, 2026. After that date, the visual workflow designer and running workflows in the Foundry portal won’t be supported. For business process automation that combines deterministic steps with AI reasoning, the Foundry migration guide recommends...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "DivSwa",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
+      "title": "PowerToys 0.102 is here: new mouse utilities, Command Palette improvements and much more",
+      "link": "https://devblogs.microsoft.com/commandline/powertoys-0-102-is-here-new-mouse-utilities-command-palette-improvements-and-much-more/",
+      "published": "2026-10-21T11:06:49+00:00",
+      "summary": "We’re back with a fresh PowerToys release! This one brings two new mouse utilities, Mouse Button Lock and CursorHide, an optional quick-access shelf for Command Palette, snip dictation in ZoomIt, and a set of new command-line tools for automating PowerToys. Color Picker and Text Extractor also move...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Niels Laute",
+      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Introducing Azure Copilot for Azure Local: AI-powered operations for distributed infrastructure",
@@ -2654,17 +2687,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Cosmos DB Mirroring in Fabric Now Supports Virtual Network Data Gateways",
-      "link": "https://devblogs.microsoft.com/cosmosdb/cosmos-db-mirroring-in-fabric-now-supports-virtual-network-data-gateways/",
-      "published": "2026-09-30T07:00:35+00:00",
-      "summary": "Azure Cosmos DB mirroring in Microsoft Fabric now offers a simpler way to connect accounts secured by private endpoints or virtual networks. A virtual network data gateway provisioned inside your own virtual network keeps public network access disabled throughout setup and ongoing replication. This...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Jai Maldonado",
-      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Using Jev with Agents in Microsoft Foundry for Model Evaluation",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/using-jev-with-agents-in-microsoft-foundry-for-model-evaluation/ba-p/4559851",
       "published": "2026-09-30T07:00:00+00:00",
@@ -3322,6 +3344,17 @@
       "blogId": "azurepaasblog",
       "author": "carlosbermudezlopez",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Connect Azure Functions to more services with managed connectors",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/connect-azure-functions-to-more-services-with-managed-connectors/ba-p/4558711",
+      "published": "2026-09-24T20:40:53+00:00",
+      "summary": "Azure Functions can already connect to many Azure services through triggers and bindings. With managed connectors, your functions can access about 1,700 connectors across services such as Microsoft 365, Microsoft Teams, Dataverse, SharePoint, OneDrive, and third-party systems. Connector triggers...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "lily-ma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -4997,17 +5030,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Stop alt-tabbing into the wrong Visual Studio",
-      "link": "https://devblogs.microsoft.com/visualstudio/stop-alt-tabbing-into-the-wrong-visual-studio/",
-      "published": "2026-09-02T14:00:12+00:00",
-      "summary": "A user asked for per-solution color themes. It already ships, and it goes further than they asked. You run several instances of Visual Studio side by side, one per solution, and they all look identical. Same taskbar icon, same alt-tab thumbnail, same chrome. So, you land in the wrong one, start...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Mads Kristensen",
-      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Scaling AI Storage: Azure Managed Lustre excels in MLPerf Storage v3.0",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/scaling-ai-storage-azure-managed-lustre-excels-in-mlperf-storage/ba-p/4552351",
       "published": "2026-09-02T08:27:06+00:00",
@@ -6119,6 +6141,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Introducing dependency telemetry in Application Insights for Azure API Management policies",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/introducing-dependency-telemetry-in-application-insights-for/ba-p/4545504",
+      "published": "2026-08-13T15:00:02+00:00",
+      "summary": "Running A(P)I platforms at-scale is not a walk in the park – As traffic flows through the system, it needs handle the load and provide insights on where the inefficiencies are. Finding the needle in a haystack Azure API Management provides a broad set of observability capabilities across its...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "tomkerkhovemicrosoft",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Retirement: Containerized data connector agent for the Microsoft Sentinel solution for SAP applications",
       "link": "https://azure.microsoft.com/updates?id=568457",
       "published": "2026-08-12T19:41:20+00:00",
@@ -6688,17 +6721,6 @@
       "blogId": "azureobservabilityblog",
       "author": "TomClaes",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Move a live GitLab project between groups without breaking Terraform state or CI/CD",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/move-a-live-gitlab-project-between-groups-without-breaking/ba-p/4539677",
-      "published": "2026-07-31T08:00:00+00:00",
-      "summary": "Why this is trickier than it looks A group transfer in GitLab isn't just a rename. It re-parents the project under a new namespace, which changes every path-based assumption downstream: inherited group variables, group-scoped runners, and any external system that hardcoded the old...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "HimanshuYadav",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -9815,17 +9837,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "PowerToys 0.99 is here: new monitor controls, easier window management, and Dock upgrades",
-      "link": "https://devblogs.microsoft.com/commandline/powertoys-0-99-is-here-new-monitor-controls-easier-window-management-and-dock-upgrades/",
-      "published": "2026-04-28T11:32:59+00:00",
-      "summary": "We’re back with a fresh PowerToys release! This month introduces Power Display for controlling your monitors from the system tray, Grab And Move for quickly moving and resizing windows, and a wave of improvements to Command Palette and the Dock, along with updates across the utility suite. You can...",
-      "blog": "Windows Command Line",
-      "blogId": "commandline",
-      "author": "Niels Laute",
-      "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "AI-Powered Downtime Investigation for Azure VMs: Automating Root Cause Analysis",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ai-powered-downtime-investigation-for-azure-vms-automating-root/ba-p/4513473",
       "published": "2026-04-24T18:35:28+00:00",
@@ -11773,5 +11784,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure updates center on developer tooling, cloud AI orchestration, and Kubernetes performance diagnostics. The biggest themes are Visual Studio Code 1.143 Insiders previewing new editor and developer-experience improvements, Azure Kubernetes Service adding **GPU memory profiling** to help pinpoint the code causing **GPU memory pressure** in AI/ML workloads, and **Azure Logic Apps** introducing automation patterns to orchestrate **Foundry Prompt** and **Hosted Agents** for agentic AI workflows.\n\nIn short, Microsoft is pushing on three fronts at once: faster developer iteration in **VS Code**, better operational visibility for **GPU-backed AKS clusters**, and deeper low-code orchestration for **AI agents and prompts** through **Logic Apps**."
+  "summary": "Today’s Microsoft developer news centers on tooling updates and cloud security: Visual Studio Code 1.143 and PowerToys 0.102 deliver productivity improvements, including new mouse utilities and Command Palette enhancements, while the Visual Studio Blog highlights a workflow for comparing current code against an earlier Git commit. On the Azure side, Microsoft announced general availability of Safe Key Rotation for Azure Cosmos DB to strengthen credential management, and at NVIDIA GTC Berlin 2026 it emphasized sovereign AI infrastructure on Azure, signaling continued investment in regulated, regionally controlled AI deployments."
 }
