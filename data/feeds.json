@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T14:11:16.342286+00:00",
+  "lastUpdated": "2026-10-21T19:01:08.886239+00:00",
   "totalArticles": 1071,
   "articles": [
     {
@@ -14,6 +14,50 @@
       "sourceType": "rss"
     },
     {
+      "title": "Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/addressing-php2shell-cve-2026-109618-and-cve-2026-109619-upgrade/ba-p/4566623",
+      "published": "2026-10-21T18:44:31+00:00",
+      "summary": "Introduction Today, two critical remote code execution (RCE) vulnerabilities were disclosed in PHP. We strongly recommend that customers upgrade to a patched version of PHP as soon as possible. Upgrading is the only way to fully remediate these vulnerabilities. Read more on the PHP official...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Announcing: Choose Your Own Telephony (CYOT) for Microsoft Entra",
+      "link": "https://azure.microsoft.com/updates?id=577273",
+      "published": "2026-10-21T17:38:32+00:00",
+      "summary": "What and whyStarting October 30, 2026, Microsoft Entra ID will make the Choose Your Own Telephony Provider experience available. This feature enables organizations to use a supported third-party telecommunications provider for SMS and voice authentication",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "v1.17.0",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0",
+      "published": "2026-10-21T17:32:54+00:00",
+      "summary": "1.17.0 (October 21, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements (#39153) A new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290) policy: Terraform Policy is now generally available....",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Cosmos DB Safe Key Rotation",
+      "link": "https://azure.microsoft.com/updates?id=576716",
+      "published": "2026-10-21T17:13:16+00:00",
+      "summary": "Safe Key Rotation for Azure Cosmos DB is now generally available. You can view timestamp metadata showing when each account key was last used, helping you identify active keys before rotating or retiring credentials.This visibility helps reduce the risk o",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
       "title": "Visual Studio Code 1.143",
       "link": "https://code.visualstudio.com/updates/v1_143",
       "published": "2026-10-21T17:00:00+00:00",
@@ -22,6 +66,39 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "GitHub CLI: Opt in to expiring, auto-refreshing OAuth tokens",
+      "link": "https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens",
+      "published": "2026-10-21T16:43:23+00:00",
+      "summary": "You can now use expiring, automatically refreshing OAuth credentials in GitHub CLI as part of a public preview. When you opt in, gh stores an expiring access token alongside a… The post GitHub CLI: Opt in to expiring, auto-refreshing OAuth tokens appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "The bridge to agent-scale Git infrastructure",
+      "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+      "published": "2026-10-21T16:00:00+00:00",
+      "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog.",
+      "blog": "GitHub Blog",
+      "blogId": "githubblog",
+      "author": "Eleanor White",
+      "feedUrl": "https://github.blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Introducing Agentic Autofix for code and dependencies",
+      "link": "https://devblogs.microsoft.com/devops/introducing-agentic-autofix-for-code-and-dependencies/",
+      "published": "2026-10-21T15:06:27+00:00",
+      "summary": "Fixing a vulnerability takes more than knowing where it is. You need a change that follows your coding standards and works with the rest of your code. Copilot Autofix for GitHub Advanced Security for Azure DevOps now runs on an agentic foundation. It also supports dependency vulnerability fixes and...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Laura Jiang",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "sourceType": "rss"
     },
     {
@@ -47,17 +124,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Microsoft at NVIDIA GTC Berlin 2026: sovereign AI on your terms",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/microsoft-at-nvidia-gtc-berlin-2026-sovereign-ai-on-your-terms/ba-p/4566171",
-      "published": "2026-10-21T11:32:12+00:00",
-      "summary": "Microsoft is excited to attend NVIDIA GTC Berlin October 20 through 22, bringing news across the AI stack. We are expanding the infrastructure and platform capabilities organizations need to build and run AI across cloud and customer-controlled environments. This includes new capabilities for...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Ben_Sickle",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "PowerToys 0.102 is here: new mouse utilities, Command Palette improvements and much more",
       "link": "https://devblogs.microsoft.com/commandline/powertoys-0-102-is-here-new-mouse-utilities-command-palette-improvements-and-much-more/",
       "published": "2026-10-21T11:06:49+00:00",
@@ -67,6 +133,28 @@
       "author": "Niels Laute",
       "feedUrl": "https://devblogs.microsoft.com/commandline/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "GPU Memory Profiling on AKS: Find the Code Behind Memory Pressure",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/gpu-memory-profiling-on-aks-find-the-code-behind-memory-pressure/ba-p/4566375",
+      "published": "2026-10-21T01:00:40+00:00",
+      "summary": "By Brian Benz, Paul Yu, Maya Singh, Johnson Shi GPU memory allocation can be tricky to get right. Allocate too little and your AI workload can slow down or fail with an out-of-memory error, often during peak traffic when reliability matters most. Allocate too much and expensive GPU capacity sits...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "johnsonshi_msft",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "🆕Orchestrate Foundry Prompt and Hosted Agents with Logic Apps Automation",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/orchestrate-foundry-prompt-and-hosted-agents-with-logic-apps/ba-p/4566381",
+      "published": "2026-10-21T00:45:18+00:00",
+      "summary": "Microsoft Foundry is retiring workflows on December 1, 2026. After that date, the visual workflow designer and running workflows in the Foundry portal won’t be supported. For business process automation that combines deterministic steps with AI reasoning, the Foundry migration guide recommends...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "DivSwa",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Introducing Azure Copilot for Azure Local: AI-powered operations for distributed infrastructure",
@@ -683,17 +771,6 @@
       "author": "abhilashasr",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Open source license compliance generally available",
-      "link": "https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available",
-      "published": "2026-10-16T14:00:32+00:00",
-      "summary": "Enterprises can now manage their dependencies’ licenses at scale with sophisticated, ruleset-based checks that enforce a centralized policy. Open source license compliance is now generally available for GitHub Enterprise Cloud… The post Open source license compliance generally available appeared...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Information Extraction with Low-Inference-Cost Models: 85% F1 Gain via Foundry Interactive Training",
@@ -1540,17 +1617,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "How one bug bounty researcher chooses the features they investigate",
-      "link": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
-      "published": "2026-10-08T17:02:52+00:00",
-      "summary": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub. The post How one bug bounty researcher chooses the features they investigate appeared first on The GitHub Blog.",
-      "blog": "GitHub Blog",
-      "blogId": "githubblog",
-      "author": "Shilpa Kumari",
-      "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -3347,17 +3413,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Connect Azure Functions to more services with managed connectors",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/connect-azure-functions-to-more-services-with-managed-connectors/ba-p/4558711",
-      "published": "2026-09-24T20:40:53+00:00",
-      "summary": "Azure Functions can already connect to many Azure services through triggers and bindings. With managed connectors, your functions can access about 1,700 connectors across services such as Microsoft 365, Microsoft Teams, Dataverse, SharePoint, OneDrive, and third-party systems. Connector triggers...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "lily-ma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Getting the best out of Azure SRE Agent",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/getting-the-best-out-of-azure-sre-agent/ba-p/4559745",
       "published": "2026-09-24T20:24:01+00:00",
@@ -5008,17 +5063,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "v1.16.1",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.1",
-      "published": "2026-09-02T14:49:32+00:00",
-      "summary": "1.16.1 (September 2, 2026) BUG FIXES: cloud: Fixed a bug causing the CLI to pause indefinitely after a run task failure with pending policy evaluations (#38751) Support referencing modules containing dynamic sources in Terraform Test (#38950) stacks: Fixed validation to ensure the provider versions...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "AI Gateway tier of Azure API Management — August 2026 updates",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/ai-gateway-tier-of-azure-api-management-august-2026-updates/ba-p/4552703",
       "published": "2026-09-02T14:26:41+00:00",
@@ -5965,17 +6009,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Apple Silicon and Xcode 27 images available in pay-as-you-go (preview)",
-      "link": "https://devblogs.microsoft.com/devops/apple-silicon-and-xcode-27-images-availabile-in-pay-as-you-go-preview/",
-      "published": "2026-08-18T08:10:36+00:00",
-      "summary": "Apple developers can now build and test their applications natively on Apple Silicon in Azure Pipelines. New arm64 macOS agents are available in public preview through the pay-as-you-go GitHub-hosted Agents pool. Starting with Apple Silicon, Azure Pipelines is bringing over some of the agent sizes...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Eric van Wijk",
-      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Beyond Deployment: What It Really Takes to Run GitHub Actions Runners on AKS",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/beyond-deployment-what-it-really-takes-to-run-github-actions/ba-p/4547638",
       "published": "2026-08-18T06:44:57+00:00",
@@ -6139,17 +6172,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Introducing dependency telemetry in Application Insights for Azure API Management policies",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/introducing-dependency-telemetry-in-application-insights-for/ba-p/4545504",
-      "published": "2026-08-13T15:00:02+00:00",
-      "summary": "Running A(P)I platforms at-scale is not a walk in the park – As traffic flows through the system, it needs handle the load and provide insights on where the inefficiencies are. Finding the needle in a haystack Azure API Management provides a broad set of observability capabilities across its...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "tomkerkhovemicrosoft",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Retirement: Containerized data connector agent for the Microsoft Sentinel solution for SAP applications",
@@ -6721,6 +6743,17 @@
       "blogId": "azureobservabilityblog",
       "author": "TomClaes",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Move a live GitLab project between groups without breaking Terraform state or CI/CD",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/move-a-live-gitlab-project-between-groups-without-breaking/ba-p/4539677",
+      "published": "2026-07-31T08:00:00+00:00",
+      "summary": "Why this is trickier than it looks A group transfer in GitLab isn't just a rename. It re-parents the project under a new namespace, which changes every path-based assumption downstream: inherited group variables, group-scoped runners, and any external system that hardcoded the old...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "HimanshuYadav",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -7327,28 +7360,6 @@
       "author": "akhilkarmalkar",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "[In preview] Public Preview: Protect sensitive generative AI telemetry in Application Insights and Microsoft Foundry",
-      "link": "https://azure.microsoft.com/updates?id=567594",
-      "published": "2026-07-20T15:09:43+00:00",
-      "summary": "Azure Monitor Application Insights now stores generative AI content in a dedicated GenAIContent table (AppGenAIContent in Log Analytics), making it possible to apply newly available access controls to sensitive AI telemetry. Because Application Insights p",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: IPv6 support for Azure VPN Gateway",
-      "link": "https://azure.microsoft.com/updates?id=567847",
-      "published": "2026-07-20T14:59:26+00:00",
-      "summary": "IPv6 support for Azure VPN Gateway enables customers to run IPv6 inner traffic through VPN tunnels in a dual‑stack configuration. IPv6 is supported on all production SKU gateways that use standard public IPs.IPv6 inner traffic can be configured for both n",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
     },
     {
       "title": "Teaching a Vision Model to See Like a Human Annotator—and Catching It When It Lies",
@@ -11707,17 +11718,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Public Preview: Custom WAF Block Status & Body for Azure Application Gateway",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/public-preview-custom-waf-block-status-body-for-azure/ba-p/4467435",
-      "published": "2025-11-05T15:28:03+00:00",
-      "summary": "Introduction Azure Application Gateway Web Application Firewall (WAF) now supports custom HTTP status codes and custom response bodies for blocked requests. This Public Preview feature gives you more control over user experience and client-side handling, aligning with capabilities already available...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "SaleemBseeu",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "A Unified Experience for all Coding Agents",
       "link": "https://code.visualstudio.com/blogs/2025/11/03/unified-agent-experience",
       "published": "2025-11-05T00:00:00+00:00",
@@ -11784,5 +11784,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Microsoft developer news centers on tooling updates and cloud security: Visual Studio Code 1.143 and PowerToys 0.102 deliver productivity improvements, including new mouse utilities and Command Palette enhancements, while the Visual Studio Blog highlights a workflow for comparing current code against an earlier Git commit. On the Azure side, Microsoft announced general availability of Safe Key Rotation for Azure Cosmos DB to strengthen credential management, and at NVIDIA GTC Berlin 2026 it emphasized sovereign AI infrastructure on Azure, signaling continued investment in regulated, regionally controlled AI deployments."
+  "summary": "Today’s Azure and adjacent Microsoft developer news centered on security, platform automation, and AI/agent tooling: Microsoft issued urgent guidance for the PHP2Shell vulnerabilities CVE-2026-109618 and CVE-2026-109619, including upgrade recommendations and Azure WAF mitigations, while Azure Cosmos DB announced general availability of Safe Key Rotation to simplify credential hygiene. On the AI/dev platform side, Azure highlighted Logic Apps orchestration for Foundry Prompt and Hosted Agents, Azure DevOps introduced Agentic Autofix for code and dependency remediation, and Apps on Azure published GPU memory profiling guidance for AKS to diagnose memory pressure at the code level.\n\nOther notable announcements included Microsoft Entra’s “Choose Your Own Telephony” option, Terraform v1.17.0, Visual Studio Code 1.143, GitHub CLI support for expiring auto-refreshing OAuth tokens, GitHub’s push toward agent-scale Git infrastructure, and developer productivity updates across Visual Studio and PowerToys 0.102."
 }
