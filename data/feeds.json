@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T08:00:46.115546+00:00",
+  "lastUpdated": "2026-10-22T14:09:47.174483+00:00",
   "totalArticles": 1071,
   "articles": [
     {
@@ -12,6 +12,61 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Are You Getting Everything You Can from Your Visual Studio Subscription?",
+      "link": "https://devblogs.microsoft.com/visualstudio/what-should-we-blog-about-next/",
+      "published": "2026-10-22T14:00:56+00:00",
+      "summary": "What if you could experiment with a new Azure service without requesting additional budget, prepare for your next technical certification using learning resources you already have, or build a dashboard without creating every UI component from scratch? If you’re a Visual Studio subscriber, you may...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "James Rempt",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Beyond Hub-and-Spoke: Routable and Non-Advertised Azure Networks",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/beyond-hub-and-spoke-routable-and-non-advertised-azure-networks/ba-p/4553044",
+      "published": "2026-10-22T12:19:59+00:00",
+      "summary": "Why Enterprise Azure Networking Needs to Evolve Hub-and-spoke remains a common foundation for enterprise Azure networking. The hub provides shared transit, hybrid connectivity, DNS, and security services, while spokes host application and platform workloads. A conventional design allocates each...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Sunip",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "v1.17.0",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0",
+      "published": "2026-10-22T09:46:11+00:00",
+      "summary": "1.17.0 (October 21, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements (#39153) A new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290) policy: Terraform Policy is now generally available....",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "v1.16.7",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.7",
+      "published": "2026-10-22T09:30:19+00:00",
+      "summary": "1.16.7 (October 22, 2026) BUG FIXES: command/test: Avoid panic when testing schema w/ deprecated values (#39406) NOTES: Terraform is now built with Go 1.26.10, which no longer trusts certificates issued through a set of compromised eMudhra intermediate CAs (CVE-2026-111943) (#39417)",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Built by experience: The journey to Azure Linux 4.0",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/built-by-experience-the-journey-to-azure-linux-4-0/ba-p/4559114",
+      "published": "2026-10-21T21:06:03+00:00",
+      "summary": "Azure Linux 4.0 builds on years of experience creating, operating, securing, and maintaining a Linux distribution for cloud-scale workloads. That journey began with CBL-Mariner, which emerged publicly in 2020 as Microsoft’s open-source Linux distribution for its cloud infrastructure and edge...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "poorvinarang",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations",
@@ -47,17 +102,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "v1.17.0",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0",
-      "published": "2026-10-21T17:32:54+00:00",
-      "summary": "1.17.0 (October 21, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements (#39153) A new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290) policy: Terraform Policy is now generally available....",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "[Launched] Generally Available: Azure Cosmos DB Safe Key Rotation",
       "link": "https://azure.microsoft.com/updates?id=576716",
       "published": "2026-10-21T17:13:16+00:00",
@@ -67,6 +111,17 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "Choosing the Right Azure Virtual Machine for Ansys CFX",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/choosing-the-right-azure-virtual-machine-for-ansys-cfx/ba-p/4559394",
+      "published": "2026-10-21T17:11:34+00:00",
+      "summary": "If you are moving Ansys CFX turbomachinery simulation software to the cloud, the first question is not whether Azure can run your computational fluid dynamics (CFD) workloads, but it is which Virtual Machine (VM) delivers the best balance of performance and cost. Azure offers multiple AMD...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "Hugo_Meiland",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Visual Studio Code 1.143",
@@ -133,6 +188,17 @@
       "author": "Iria Osara",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Microsoft at NVIDIA GTC Berlin 2026: sovereign AI on your terms",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/microsoft-at-nvidia-gtc-berlin-2026-sovereign-ai-on-your-terms/ba-p/4566171",
+      "published": "2026-10-21T11:32:12+00:00",
+      "summary": "Microsoft is excited to attend NVIDIA GTC Berlin October 20 through 22, bringing news across the AI stack. We are expanding the infrastructure and platform capabilities organizations need to build and run AI across cloud and customer-controlled environments. This includes new capabilities for...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Ben_Sickle",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "PowerToys 0.102 is here: new mouse utilities, Command Palette improvements and much more",
@@ -4766,17 +4832,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "v1.16.2",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.2",
-      "published": "2026-09-09T13:22:31+00:00",
-      "summary": "1.16.2 (September 9, 2026) BUG FIXES: Fix panic in module installation when encoutering invalid module calls (#39129)",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "Kubernetes v1.37: Advancing Workload-Aware Scheduling",
       "link": "https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/",
       "published": "2026-09-08T18:30:00+00:00",
@@ -4819,17 +4874,6 @@
       "author": "kshatzkamer",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=telecommunications-industry-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Today I will… find hidden latency across a distributed .NET application",
-      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-find-hidden-latency-across-a-distributed-net-application/",
-      "published": "2026-09-08T16:00:22+00:00",
-      "summary": "When a distributed application feels slow, the user sees one delay. The code behind that delay may run across a web frontend, backend services, databases, and external APIs. If you profile only the frontend while the backend is slow, the profiler can show that the frontend is healthy without...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Justin Yoo",
-      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "The Agentic Road to Revenue",
@@ -6108,17 +6152,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "From Silicon to Systems: Bending the Cost and Complexity Curves of AI",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-silicon-to-systems-bending-the-cost-and-complexity-curves/ba-p/4545207",
-      "published": "2026-08-13T23:06:16+00:00",
-      "summary": "The next era of AI infrastructure will be defined not by a single breakthrough, but by how well we co-design every layer—from models and software to silicon, servers, racks and datacenters. At the Open Compute Project Asia Pacific Summit, we are proud to share the latest community innovations that...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ceciliaxia",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "From Features to Flow: How Real-World Adoption Reshaped the Azure Architecture Diagram Builder",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-features-to-flow-how-real-world-adoption-reshaped-the-azure/ba-p/4546817",
       "published": "2026-08-13T22:10:46+00:00",
@@ -6743,17 +6776,6 @@
       "blogId": "azureobservabilityblog",
       "author": "TomClaes",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Move a live GitLab project between groups without breaking Terraform state or CI/CD",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/move-a-live-gitlab-project-between-groups-without-breaking/ba-p/4539677",
-      "published": "2026-07-31T08:00:00+00:00",
-      "summary": "Why this is trickier than it looks A group transfer in GitLab isn't just a rename. It re-parents the project under a new namespace, which changes every path-based assumption downstream: inherited group variables, group-scoped runners, and any external system that hardcoded the old...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "HimanshuYadav",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -9870,17 +9892,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Getting Started with the SUSE Multi-Linux Manager MCP Server and GitHub Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/getting-started-with-the-suse-multi-linux-manager-mcp-server-and/ba-p/4513494",
-      "published": "2026-04-22T07:00:00+00:00",
-      "summary": "Enterprise Linux environments are heterogeneous. That's not a problem statement - it's just the truth. SUSE, Ubuntu, RHEL, and their downstream variants coexist in every data center I've seen, and increasingly across Azure subscriptions too. AI assistants like GitHub Copilot can already connect to...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "abbottkarl",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Securing Argo CD with Microsoft Entra ID: a step-by-step guide",
       "link": "https://blog.aks.azure.com/2026/04/22/argocd-extension-with-microsoft-entra",
       "published": "2026-04-22T00:00:00+00:00",
@@ -10893,17 +10904,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Centralized cluster performance metrics with ReFrame HPC and Azure Log Analytics",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/centralized-cluster-performance-metrics-with-reframe-hpc-and/ba-p/4488077",
-      "published": "2026-02-06T09:37:24+00:00",
-      "summary": "Imagine having several clusters across different environments (dev, test and prod) or planning a migration between PBS and Slurm or porting codes to a different system. They can all seem like daunting tasks. This is where the combination of ReFrame HPC, a powerful and feature rich testing...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "jimpaine",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Zero Trust with Azure Firewall, Azure DDoS Protection and Azure WAF: A practical use case",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/zero-trust-with-azure-firewall-azure-ddos-protection-and-azure/ba-p/4490595",
       "published": "2026-02-05T05:15:27+00:00",
@@ -11783,5 +11783,6 @@
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     }
-  ]
+  ],
+  "summary": "Today’s Azure-related posts centered on developer productivity and modern cloud networking. Microsoft highlighted how to maximize a Visual Studio subscription with included tools and benefits for development teams, while Azure Infrastructure explored alternatives to traditional hub-and-spoke designs using routable and non-advertised Azure network patterns for more flexible connectivity.\n\nThe Terraform posts were release announcements for versions 1.17.0 and 1.16.7, signaling ongoing updates to core infrastructure-as-code tooling that many Azure users rely on to provision and manage cloud resources."
 }
