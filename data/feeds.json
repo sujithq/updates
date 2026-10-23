@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-23T08:00:04.048701+00:00",
-  "totalArticles": 1070,
+  "lastUpdated": "2026-10-23T13:53:07.552385+00:00",
+  "totalArticles": 1071,
   "articles": [
     {
       "title": "Visual Studio Code 1.144 (Insiders)",
@@ -14,6 +14,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "From Local Development to CI Workflows with the Azure Cosmos DB Emulator",
+      "link": "https://devblogs.microsoft.com/cosmosdb/from-local-development-to-ci-workflows-with-the-azure-cosmos-db-emulator/",
+      "published": "2026-10-23T12:33:30+00:00",
+      "summary": "When you change a database-backed feature, a successful HTTP response isn’t enough. You need to know that the write reached storage, the application retrieved the updated record, and the next answer reflects it. The Azure Cosmos DB Emulator runs locally in Docker and lets us use the SDK we’ll use...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Jay Gordon",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Protect Your Streaming Data in Use: Confidential Computing for Azure Event Hubs Dedicated",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/protect-your-streaming-data-in-use-confidential-computing-for/ba-p/4515219",
+      "published": "2026-10-23T08:11:46+00:00",
+      "summary": "For organizations in regulated industries — financial services, healthcare, government, defense — the security conversation around data has always revolved around two states: data at rest and data in transit. Encrypt your storage. Encrypt your network traffic. Check, check. But there's a third...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "ashish-chhabria",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "GitHub Copilot in Visual Studio — September update",
       "link": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
       "published": "2026-10-23T00:17:51+00:00",
@@ -23,6 +45,17 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Azure Verified Modules (AVM) is now owned by Azure engineering",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-verified-modules-avm-is-now-owned-by-azure-engineering/ba-p/4563822",
+      "published": "2026-10-22T22:48:19+00:00",
+      "summary": "Next community call: Monday 26th October 2026 @ 16:00 UK | 12:00 EDT | 09:00 PDT | 21:30 IST | 03:00 AEDT This call will be streamed to YouTube live so use the \"Set reminder\" / \"Notify Me\" options on YouTube and also put an entry in your calendar to remind you. This means it will automatically be...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "jtracey93msft",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Custom skills, agents, and MCP servers in usage metrics API",
@@ -36,6 +69,28 @@
       "sourceType": "rss"
     },
     {
+      "title": "Foundry Fine-Tuning: open-source model expansion, MAI-Code, and shared multi-LoRA deployments",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-fine-tuning-open-source-model-expansion-mai-code-and/ba-p/4565915",
+      "published": "2026-10-22T21:53:18+00:00",
+      "summary": "Today, Microsoft Foundry Managed Fine-Tuning expands its collection with four new open-source models and brings MAI-Code-1.1-Flash to Foundry resources, all in public preview. Alongside them, Multi-LoRA Managed Compute deployments enter public preview, letting compatible adapters share base-model...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "wujohn",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Simplify private connectivity for Azure Databricks Serverless with Private Network Gateway",
+      "link": "https://techcommunity.microsoft.com/t5/azure-databricks/simplify-private-connectivity-for-azure-databricks-serverless/ba-p/4566980",
+      "published": "2026-10-22T21:13:52+00:00",
+      "summary": "Recently, we announced the public preview of Private Network Gateway (PNG) for Azure Databricks - a simpler way to connect Azure Databricks serverless workloads to resources accessible from your Azure Virtual Network. With a single managed connection into your network, PNG helps reduce connectivity...",
+      "blog": "Azure Databricks",
+      "blogId": "azure-databricks",
+      "author": "Shivani_Tripathi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-databricks&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Global default for Copilot features generally available",
       "link": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available",
       "published": "2026-10-22T20:44:28+00:00",
@@ -45,6 +100,17 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/addressing-php2shell-cve-2026-109618-and-cve-2026-109619-upgrade/ba-p/4566623",
+      "published": "2026-10-22T19:41:32+00:00",
+      "summary": "Written in collaboration with yuvalpery​ and Gunjan Jain​ Introduction Today, two critical remote code execution (RCE) vulnerabilities were disclosed in PHP. We strongly recommend that customers upgrade to a patched version of PHP as soon as possible. Upgrading is the only way to fully remediate...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "What production taught us about reviewing AI translations",
@@ -89,17 +155,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/addressing-php2shell-cve-2026-109618-and-cve-2026-109619-upgrade/ba-p/4566623",
-      "published": "2026-10-22T17:38:29+00:00",
-      "summary": "Written in collaboration with yuvalpery​ and Gunjan Jain​ Introduction Today, two critical remote code execution (RCE) vulnerabilities were disclosed in PHP. We strongly recommend that customers upgrade to a patched version of PHP as soon as possible. Upgrading is the only way to fully remediate...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "saikishor",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Pull requests: Saved whitespace preferences and improved split view",
@@ -575,10 +630,10 @@
       "sourceType": "rss"
     },
     {
-      "title": "Azure DevOps available in Microsoft Copilot",
+      "title": "Azure DevOps available in Microsoft Copilot Cowork",
       "link": "https://devblogs.microsoft.com/devops/azure-devops-available-in-microsoft-copilot/",
       "published": "2026-10-20T16:48:07+00:00",
-      "summary": "The Azure DevOps Plugin is now available in Microsoft Copilot. It brings Azure DevOps directly into Copilot Chat, Cowork, and Code, so you can work with your projects, work items, pull requests, test plans, pipelines, and more without switching to Azure DevOps. The plugin also includes built-in...",
+      "summary": "The Azure DevOps Plugin is now available in Microsoft Copilot. It brings Azure DevOps directly into Copilot Cowork, so you can work with your projects, work items, pull requests, test plans, pipelines, and more without switching to Azure DevOps. The plugin also includes built-in skills to help with...",
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Dan Hellem",
@@ -1510,17 +1565,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure Verified Modules (AVM) is now owned by Azure engineering",
-      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-verified-modules-avm-is-now-owned-by-azure-engineering/ba-p/4563822",
-      "published": "2026-10-13T14:52:59+00:00",
-      "summary": "Azure Verified Modules (AVM) has moved into the Azure Deployments team, inside Microsoft’s Azure engineering organization. That is the headline, and it is a big one for us. AVM started as a community-led project inside Microsoft, built and maintained largely by people who cared about it alongside...",
-      "blog": "Azure Tools",
-      "blogId": "azuretoolsblog",
-      "author": "jtracey93msft",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure Content Understanding Prebuilt Analyzers: packaging domain knowledge for document AI",
       "link": "https://devblogs.microsoft.com/foundry/more-than-a-schema-content-understanding-prebuilt-analyzers/",
       "published": "2026-10-13T14:20:35+00:00",
@@ -2280,17 +2324,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "From Business Brief to Production Agent: Building in Three Stages, Not One",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-business-brief-to-production-agent-building-in-three-stages/ba-p/4561590",
-      "published": "2026-10-06T13:00:00+00:00",
-      "summary": "The problem with \"AI can help my business\" Every non-technical founder has heard some version of \"you should put an AI agent on this.\" Far fewer have seen what it actually costs, in time and money, to find out whether that's true for their specific business — before committing to it. The honest...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "OlivierB123",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "What is Agent Experience (AX)?",
       "link": "https://devblogs.microsoft.com/blog/what-is-agent-experience-ax/",
       "published": "2026-10-06T09:18:05+00:00",
@@ -2894,17 +2927,6 @@
       "author": "Arun_Kumar_Thiagarajan",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure Cosmos DB Migration Guide for Elasticsearch Users",
-      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-migration-guide-for-elasticsearch-users/",
-      "published": "2026-09-30T13:44:08+00:00",
-      "summary": "Azure Cosmos DB’s full-text search capabilities can improve price performance and simplify application architecture by consolidating operational data and search in a single service. For customers currently using Elasticsearch, these capabilities create a practical path to bringing operational data...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Madeline Egan",
-      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Using Jev with Agents in Microsoft Foundry for Model Evaluation",
@@ -9771,17 +9793,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Protect Your Streaming Data in Use: Confidential Computing for Azure Event Hubs Dedicated",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/protect-your-streaming-data-in-use-confidential-computing-for/ba-p/4515219",
-      "published": "2026-05-01T16:11:46+00:00",
-      "summary": "For organizations in regulated industries — financial services, healthcare, government, defense — the security conversation around data has always revolved around two states: data at rest and data in transit. Encrypt your storage. Encrypt your network traffic. Check, check. But there's a third...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "ashish-chhabria",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure Developer CLI (azd) – April 2026",
       "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-april-2026/",
       "published": "2026-05-01T00:53:08+00:00",
@@ -11773,5 +11784,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related coverage highlights developer productivity, with the **GitHub Copilot in Visual Studio — September update** focusing on tighter AI-assisted coding inside **Visual Studio**. The update centers on improvements to **GitHub Copilot** features for code completion and in-IDE assistance, underscoring Microsoft’s broader push to embed generative AI directly into core developer tooling."
+  "summary": "Today’s Azure updates focused on developer productivity, secure data processing, and AI-assisted coding. Microsoft highlighted how the Azure Cosmos DB Emulator can streamline local development and CI workflows for Cosmos DB apps, announced confidential computing support for Azure Event Hubs Dedicated to protect streaming data in use with hardware-backed isolation, and detailed the September GitHub Copilot update in Visual Studio with improvements to the in-IDE AI coding experience."
 }
