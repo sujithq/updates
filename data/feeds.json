@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-22T23:43:13.120965+00:00",
-  "totalArticles": 1072,
+  "lastUpdated": "2026-10-23T02:07:38.253868+00:00",
+  "totalArticles": 1071,
   "articles": [
     {
       "title": "Visual Studio Code 1.144 (Insiders)",
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "GitHub Copilot in Visual Studio — September update",
+      "link": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
+      "published": "2026-10-23T00:17:51+00:00",
+      "summary": "September 2026 brought deeper visibility into your work: explore pull requests without leaving chat, bring the AI model your team trusts, and fix vulnerable packages the moment Visual Studio flags… The post GitHub Copilot in Visual Studio — September update appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -562,17 +573,6 @@
       "author": "Robi Czitron",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Dependabot alerts REST API now includes dependency versions",
-      "link": "https://github.blog/changelog/2026-10-20-dependabot-alerts-rest-api-now-includes-dependency-versions",
-      "published": "2026-10-20T17:13:40+00:00",
-      "summary": "You can now get the version of a vulnerable dependency directly from Dependabot alert responses in the REST API. Each alert’s dependency object includes a new version_requirement field with the… The post Dependabot alerts REST API now includes dependency versions appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "[Launched] Generally Available: Service tag match condition for Azure Front Door Premium WAF",
@@ -11782,18 +11782,7 @@
       "author": "ivaylo_ivanov",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurevirtualdesktopblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Expanding Model Choice in VS Code with Bring Your Own Key",
-      "link": "https://code.visualstudio.com/blogs/2025/10/22/bring-your-own-key",
-      "published": "2025-10-22T00:00:00+00:00",
-      "summary": "Learn how the new Language Model Chat Provider API in VS Code is enabling more model choice and extensibility for chat experiences via the Bring Your Own Key experience. Read the full article",
-      "blog": "Visual Studio Code",
-      "blogId": "vscode",
-      "author": "Olivia Guzzardo McVicker, Pierce Boggan",
-      "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure news was led by AI platform expansion and cloud infrastructure hardening. Azure AI Foundry added broader fine-tuning support for open-source models, MAI-Code, and shared multi-LoRA deployments, alongside new guidance for production RAG systems and Next Best Action implementations with Microsoft-Decision-1; GitHub also expanded Copilot and developer telemetry with global-default Copilot availability, industry comparisons in the Copilot impact dashboard, usage metrics for custom skills/agents/MCP servers, and public monitoring with data residency.\n\nOn the infrastructure side, Microsoft highlighted stronger enterprise operations and security: Azure Databricks Serverless now supports simpler private connectivity through Private Network Gateway, Azure Local gained scheduled backups for disconnected scenarios, Azure Storage Discovery added advanced capacity insights, and Azure Data Lake Storage’s ABFS Vectored Read reached GA for faster read performance. Security and governance were another major theme, with urgent mitigation guidance for PHP2Shell vulnerabilities (CVE-2026-109618 and CVE-2026-109619) via upgrades and Azure WAF custom rules, plus Azure engineering taking ownership of Azure Verified Modules to strengthen standardized IaC module delivery."
+  "summary": "Today’s Azure-related update centers on the **September GitHub Copilot update for Visual Studio**, highlighting deeper AI-assisted developer workflows inside the IDE. The post points to improvements in **GitHub Copilot** for **Visual Studio**, emphasizing faster code generation and in-editor assistance for .NET and broader application development scenarios, reinforcing Microsoft’s ongoing push to embed generative AI directly into everyday developer tooling."
 }
