@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T02:05:45.751518+00:00",
+  "lastUpdated": "2026-10-24T07:39:46.305391+00:00",
   "totalArticles": 1071,
   "articles": [
     {
@@ -36,6 +36,39 @@
       "sourceType": "rss"
     },
     {
+      "title": "Protect against Brotli CVE-2026-111497 with Azure Web Application Firewall (WAF)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/protect-against-brotli-cve-2026-111497-with-azure-web/ba-p/4567288",
+      "published": "2026-10-23T20:17:17+00:00",
+      "summary": "Google Brotli versions 1.0.3 through 1.2.0 contain a buffer overflow vulnerability in the Brotli decoder, according to the recently published CVE-2026-111497. A remote, unauthenticated attacker can send a crafted Brotli-compressed stream to corrupt decoder memory, expose sensitive memory contents,...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "yuvalpery",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure OpenAI Decisions API: Now generally available in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/azure-openai-decisions-api-now-generally-available-in-microsoft/ba-p/4567265",
+      "published": "2026-10-23T19:52:29+00:00",
+      "summary": "AI applications and agents do more than generate content. They constantly make decisions about what should happen next. Which model should handle this request? Is a customer issue urgent? Did an agent’s output meet the required criteria? Should a workflow continue, try another approach, or involve...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "MaheshBalachandran",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Now in Foundry: Meta Muse Spark Open, NVIDIA Nemotron 3.5 Super VL, and Reflection Beam",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/now-in-foundry-meta-muse-spark-open-nvidia-nemotron-3-5-super-vl/ba-p/4565899",
+      "published": "2026-10-23T19:34:09+00:00",
+      "summary": "This week's Model Mondays edition highlights three Hugging Face models newly available in Microsoft Foundry, giving developers more open-weight options for enterprise coding and agentic work: Meta's Muse Spark Open, NVIDIA's Nemotron 3.5 Super VL, and Reflection's Beam 1.0. Models of the week Meta:...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Osi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "[Launched] Generally Available: Item Level Recovery for Azure VMs with Premium SSDv2 and Ultra Disks in Azure Backup",
       "link": "https://azure.microsoft.com/updates?id=577963",
       "published": "2026-10-23T19:21:07+00:00",
@@ -45,6 +78,17 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "Before Your Next Azure VM Refresh, Revisit the PaaS Options",
+      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/before-your-next-azure-vm-refresh-revisit-the-paas-options/ba-p/4562940",
+      "published": "2026-10-23T18:57:34+00:00",
+      "summary": "Why review these changes together? MANA and VM lifecycles MANA can change the network adapter on an eligible existing VM after maintenance or a stop, deallocate, and start cycle, even when the VM size stays the same. With Accelerated Networking enabled, check supported OS and driver versions. When...",
+      "blog": "Azure Migration",
+      "blogId": "azuremigrationblog",
+      "author": "Madhura Amlekar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "EMU deletions fix",
@@ -111,6 +155,17 @@
       "author": "Jay Gordon",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Protect Your Streaming Data in Use: Confidential Computing for Azure Event Hubs Dedicated",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/protect-your-streaming-data-in-use-confidential-computing-for/ba-p/4515219",
+      "published": "2026-10-23T08:11:46+00:00",
+      "summary": "For organizations in regulated industries — financial services, healthcare, government, defense — the security conversation around data has always revolved around two states: data at rest and data in transit. Encrypt your storage. Encrypt your network traffic. Check, check. But there's a third...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "ashish-chhabria",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "GitHub Copilot in Visual Studio — September update",
@@ -891,17 +946,6 @@
       "blogId": "appsonazureblog",
       "author": "brethompson",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Now in Foundry: Meta Muse Spark Open, NVIDIA Nemotron 3.5 Super VL, and Reflection Beam",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/now-in-foundry-meta-muse-spark-open-nvidia-nemotron-3-5-super-vl/ba-p/4565899",
-      "published": "2026-10-19T17:08:14+00:00",
-      "summary": "This week's Model Mondays edition highlights three Hugging Face models newly available in Microsoft Foundry, giving developers more open-weight options for enterprise coding and agentic work: Meta's Muse Spark Open, NVIDIA's Nemotron 3.5 Super VL, and Reflection's Beam 1.0. Models of the week Meta:...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Osi",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -2168,17 +2212,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Introducing Grok 4.7 on Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-grok-4-7-on-microsoft-foundry/ba-p/4562168",
-      "published": "2026-10-06T21:11:11+00:00",
-      "summary": "Today, Grok 4.7 from SpaceXAI is generally available in Microsoft Foundry Models, expanding the portfolio of leading models available to developers and enterprises building the next generation of AI applications. Based on SpaceXAI's latest model release, Grok 4.7 is designed for advanced reasoning,...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "MaheshBalachandran",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Upcoming SQL and AI Events to Put on Your Calendar",
@@ -9782,17 +9815,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Protect Your Streaming Data in Use: Confidential Computing for Azure Event Hubs Dedicated",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/protect-your-streaming-data-in-use-confidential-computing-for/ba-p/4515219",
-      "published": "2026-05-01T16:11:46+00:00",
-      "summary": "For organizations in regulated industries — financial services, healthcare, government, defense — the security conversation around data has always revolved around two states: data at rest and data in transit. Encrypt your storage. Encrypt your network traffic. Check, check. But there's a third...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "ashish-chhabria",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure Developer CLI (azd) – April 2026",
       "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-april-2026/",
       "published": "2026-05-01T00:53:08+00:00",
@@ -11333,17 +11355,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Migrate from Amazon API Gateway to Azure API Management",
-      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/migrate-from-amazon-api-gateway-to-azure-api-management/ba-p/4471524",
-      "published": "2025-12-04T21:23:07+00:00",
-      "summary": "For teams moving from Amazon API Gateway to Azure API Management, we've published a detailed migration guide that addresses the technical considerations and implementation steps for a successful transition: Migrate Amazon API Gateway to Azure API Management. The guide focuses on helping AWS users...",
-      "blog": "Azure Migration",
-      "blogId": "azuremigrationblog",
-      "author": "dan_lepow",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing General Availability for Azure Resource Graph (ARG) GET/LIST API",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/announcing-general-availability-for-azure-resource-graph-arg-get/ba-p/4474188",
       "published": "2025-12-03T04:39:28+00:00",
@@ -11550,17 +11561,6 @@
       "blogId": "azureadvancedthreatprotection",
       "author": "tandersn",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureadvancedthreatprotection&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "General Availability of JavaScript Challenge in Azure Front Door WAF",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/general-availability-of-javascript-challenge-in-azure-front-door/ba-p/4466940",
-      "published": "2025-11-13T14:33:07+00:00",
-      "summary": "We are pleased to announce the General Availability (GA) of the JavaScript Challenge feature for Azure Web Application Firewall (WAF) on Azure Front Door. This capability equips organizations with a seamless, invisible anti-bot verification layer that distinguishes legitimate users from malicious...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "andrewmathu",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
