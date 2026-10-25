@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T17:55:41.045745+00:00",
+  "lastUpdated": "2026-10-25T20:03:50.341470+00:00",
   "totalArticles": 1070,
   "articles": [
     {
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": ".NET October 2026 Out-of-Band Security Updates",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-october-2026-oob-security-updates/",
+      "published": "2026-10-25T18:45:00+00:00",
+      "summary": "Out-of-band security updates for .NET address the Brotli decoder vulnerability and tarball ownership vulnerability. The post .NET October 2026 Out-of-Band Security Updates appeared first on .NET Blog.",
+      "blog": ".NET",
+      "blogId": "dotnet",
+      "author": "Rahul Bhandari (MSFT)",
+      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
     },
     {
@@ -3597,17 +3608,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "AG-UI Protocol now has a first-class .NET SDK",
-      "link": "https://devblogs.microsoft.com/dotnet/ag-ui-dotnet-sdk/",
-      "published": "2026-09-25T17:05:00+00:00",
-      "summary": "The new AG-UI .NET SDK enables .NET services to expose and consume interoperable agent endpoints using Microsoft.Extensions.AI. The post AG-UI Protocol now has a first-class .NET SDK appeared first on .NET Blog.",
-      "blog": ".NET",
-      "blogId": "dotnet",
-      "author": "Daniel Roth",
-      "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
     },
     {
@@ -11772,5 +11772,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog highlights a focused security release for **.NET**, with the post **“.NET October 2026 Out-of-Band Security Updates”** calling attention to an unscheduled update outside the normal patch cadence. The key theme is urgent remediation: organizations using **.NET** should review the announced security fixes promptly and prioritize updating affected runtimes/SDKs and related workloads to address the vulnerabilities covered in this release."
 }
