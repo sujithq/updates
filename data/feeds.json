@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T15:32:48.162072+00:00",
+  "lastUpdated": "2026-10-26T21:58:07.918220+00:00",
   "totalArticles": 1071,
   "articles": [
     {
@@ -14,26 +14,37 @@
       "sourceType": "rss"
     },
     {
-      "title": "Bringing AI-Powered SRE to Your On-Premise Server Estate For Unifying Ops",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bringing-ai-powered-sre-to-your-on-premise-server-estate-for/ba-p/4566884",
-      "published": "2026-10-26T15:15:49+00:00",
-      "summary": "The problem nobody talks about at cloud conferences Walk the floor at any cloud event and you'll hear a lot about AI-assisted operations: agents that triage alerts, correlate signals, and hand your on-call engineer a root cause instead of a wall of logs. It's genuinely useful. But there's a quiet...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "FaizaanMerchant",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
+      "title": "GPT-6.1 Terra in GitHub Copilot",
+      "link": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot",
+      "published": "2026-10-26T19:15:53+00:00",
+      "summary": "GPT-6.1 Terra, OpenAI’s newest model, is now generally available in GitHub Copilot. It is designed for everyday agentic coding and terminal work at a lower cost than GPT-6.1 Sol. In… The post GPT-6.1 Terra in GitHub Copilot appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
     },
     {
-      "title": "From fine-tuning to shared serving: Multi-LoRA deployment on Foundry Managed Compute",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-fine-tuning-to-shared-serving-multi-lora-deployment-on/ba-p/4565959",
-      "published": "2026-10-26T15:00:00+00:00",
-      "summary": "We're introducing Multi-LoRA adapter deployment on Managed Compute in Microsoft Foundry, now in preview. Multi-LoRA lets you deploy multiple compatible fine-tuned LoRA adapters on a shared base-model deployment, so you can serve specialized model experiences without provisioning separate compute...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "GulsimoOsimi",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
+      "title": "Announcing Azure AI Speech LLM 09-2026: Broader locale support",
+      "link": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-09-2026/",
+      "published": "2026-10-26T17:10:00+00:00",
+      "summary": "Learn how Azure AI Speech LLM 09-2026 improves multilingual language and locale support with improved quality and latency. The post Announcing Azure AI Speech LLM 09-2026: Broader locale support appeared first on Microsoft Foundry Blog.",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Rena Liu",
+      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Network Watcher VNet flow logs filtering",
+      "link": "https://azure.microsoft.com/updates?id=577782",
+      "published": "2026-10-26T16:02:05+00:00",
+      "summary": "Azure Network Watcher VNet flow logs filtering is now generally available, enabling you to control which network traffic flows are logged based on specific criteria such as IP addresses, ports, protocols, encryption state, flow state, and traffic directio",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
     },
     {
       "title": "PHP2Shell and Azure DevOps: what to check",
@@ -348,17 +359,6 @@
       "link": "https://github.blog/changelog/2026-10-22-meta-api-endpoints-updated-for-actions-blob-storage",
       "published": "2026-10-22T18:14:16+00:00",
       "summary": "We’re adding blob storage endpoints for GitHub Actions on github.com as part of our ongoing work to improve capacity and reliability. The meta API now includes these new endpoints. If… The post Meta API endpoints updated for Actions blob storage appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Public monitoring now available with data residency",
-      "link": "https://github.blog/changelog/2026-10-22-public-monitoring-now-available-with-data-residency",
-      "published": "2026-10-22T18:12:58+00:00",
-      "summary": "Public monitoring is now available in public preview for GitHub Enterprise Cloud with data residency (GHEC DR). Public monitoring with data residency Public monitoring extends secret scanning beyond internal repositories… The post Public monitoring now available with data residency appeared first...",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -2159,6 +2159,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Closing the AI Agent Governance Gap with Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/closing-the-ai-agent-governance-gap-with-microsoft-foundry/ba-p/4561827",
+      "published": "2026-10-07T17:00:00+00:00",
+      "summary": "Developers are shipping agents faster than security teams can catalog them. As organizations move beyond pilots and begin operating dozens or hundreds of agents, one question keeps coming up: how do we actually get visibility into our AI agents across our environment? In this article, we'll walk...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "AlexandraMiller-Browne",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "[Launched] Generally Available: Enabling the Bulk admin role for SQL Server on Linux",
       "link": "https://azure.microsoft.com/updates?id=573443",
       "published": "2026-10-07T16:57:04+00:00",
@@ -3875,6 +3886,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Azure Container Apps Express is now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-express-is-now-generally-available/ba-p/4559101",
+      "published": "2026-09-23T15:33:53+00:00",
+      "summary": "For many web apps and APIs, a container image should be enough to get started. Developers should not have to choose and configure an environment before the first deployment. Today, Azure Container Apps Express reaches general availability. It is the fastest way to go from a container image to a...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "simonjj",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "v1.16.4",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.4",
       "published": "2026-09-23T12:44:16+00:00",
@@ -4807,17 +4829,6 @@
       "blogId": "kubernetes",
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Announcing Azure AI Speech LLM 2607: Better Multilingual Accuracy, Easier Customization",
-      "link": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-2607/",
-      "published": "2026-09-10T18:08:42+00:00",
-      "summary": "Learn how Azure AI Speech LLM 2607 improves multilingual and mixed-language recognition, lowers latency, and simplifies domain-specific customization with enhanced phrase lists. The post Announcing Azure AI Speech LLM 2607: Better Multilingual Accuracy, Easier Customization appeared first on...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Rena Liu",
-      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
       "sourceType": "rss"
     },
     {
@@ -7355,17 +7366,6 @@
       "link": "https://azure.microsoft.com/updates?id=568115",
       "published": "2026-07-27T16:54:36+00:00",
       "summary": "Azure Firewall now supports HTTP header insertion, enabling organizations to add or overwrite HTTP/HTTPS request headers directly from Azure Firewall application rules. This capability helps customers enforce security controls, support tenant restriction",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: AI Gateway in Azure API Management",
-      "link": "https://azure.microsoft.com/updates?id=568184",
-      "published": "2026-07-27T16:44:29+00:00",
-      "summary": "The AI Gateway tier for Azure API Management is now available in public preview. Building on the AI gateway capabilities already available across API Management tiers, the new AI Gateway tier provides a dedicated experience optimized for AI workloads.As o",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -11784,5 +11784,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on AI-infused operations, developer productivity, and security hardening. Microsoft highlighted AI-powered SRE for on-prem server estates in Apps on Azure, Multi-LoRA deployment on Azure AI Foundry Managed Compute to move from fine-tuning to shared model serving, and a PHP2Shell-focused Azure DevOps security post outlining what teams should check in their pipelines and environments.\n\nOn the tooling side, the Visual Studio team introduced investigation persistence between sessions, while Visual Studio Code added configurable eagerness for GitHub Copilot inline suggestions, giving developers more control over how aggressively AI completions appear."
+  "summary": "Today’s Azure-related news centers on AI developer tooling and platform operations: GitHub and VS Code are expanding Copilot with the new **GPT-6.1 Terra** model and **configurable inline-suggestion eagerness**, while Azure AI adds **Speech LLM 09-2026** with broader locale coverage for multilingual voice experiences. On the infrastructure and security side, Azure announced **general availability of Network Watcher VNet flow logs filtering** for more targeted network telemetry, alongside guidance on **PHP2Shell risks in Azure DevOps** and Visual Studio improvements for persisting investigation context across sessions."
 }
