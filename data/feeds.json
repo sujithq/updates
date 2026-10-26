@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-26T08:10:46.362537+00:00",
-  "totalArticles": 1070,
+  "lastUpdated": "2026-10-26T15:32:48.162072+00:00",
+  "totalArticles": 1071,
   "articles": [
     {
       "title": "Visual Studio Code 1.144 (Insiders)",
@@ -14,6 +14,61 @@
       "sourceType": "rss"
     },
     {
+      "title": "Bringing AI-Powered SRE to Your On-Premise Server Estate For Unifying Ops",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bringing-ai-powered-sre-to-your-on-premise-server-estate-for/ba-p/4566884",
+      "published": "2026-10-26T15:15:49+00:00",
+      "summary": "The problem nobody talks about at cloud conferences Walk the floor at any cloud event and you'll hear a lot about AI-assisted operations: agents that triage alerts, correlate signals, and hand your on-call engineer a root cause instead of a wall of logs. It's genuinely useful. But there's a quiet...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "FaizaanMerchant",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "From fine-tuning to shared serving: Multi-LoRA deployment on Foundry Managed Compute",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-fine-tuning-to-shared-serving-multi-lora-deployment-on/ba-p/4565959",
+      "published": "2026-10-26T15:00:00+00:00",
+      "summary": "We're introducing Multi-LoRA adapter deployment on Managed Compute in Microsoft Foundry, now in preview. Multi-LoRA lets you deploy multiple compatible fine-tuned LoRA adapters on a shared base-model deployment, so you can serve specialized model experiences without provisioning separate compute...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "GulsimoOsimi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "PHP2Shell and Azure DevOps: what to check",
+      "link": "https://devblogs.microsoft.com/devops/php2shell-and-azure-devops-what-to-check/",
+      "published": "2026-10-26T13:00:38+00:00",
+      "summary": "On October 21, 2026, PHP disclosed two critical vulnerabilities that can allow remote code execution. Neither Azure DevOps Services, our cloud-hosted offering, nor Azure DevOps Server, our on-premises product, uses PHP to handle customer requests. PHP runtimes used by pipelines, containers, and...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Josef Sin",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Keep your investigation between sessions",
+      "link": "https://devblogs.microsoft.com/visualstudio/keep-your-investigation-between-sessions/",
+      "published": "2026-10-26T12:00:10+00:00",
+      "summary": "Start a standalone Markdown note and use the opt-in Hot Exit preview to resume unsaved work next session. The post Keep your investigation between sessions appeared first on Visual Studio Blog.",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Jason Chlus, Mads Kristensen",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Tune GitHub Copilot Inline Suggestions with Configurable Eagerness",
+      "link": "https://code.visualstudio.com/blogs/2026/10/27/configurable-eagerness",
+      "published": "2026-10-26T00:00:00+00:00",
+      "summary": "Choose how proactively Copilot offers inline suggestions. Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Ben Steenhoek, Ulugbek Abdullaev",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
       "title": ".NET October 2026 Out-of-Band Security Updates",
       "link": "https://devblogs.microsoft.com/dotnet/dotnet-october-2026-oob-security-updates/",
       "published": "2026-10-25T18:45:00+00:00",
@@ -22,6 +77,17 @@
       "blogId": "dotnet",
       "author": "Rahul Bhandari (MSFT)",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "The paper that split the database in four: inside Azure SQL Database Hyperscale, aka Socrates",
+      "link": "https://devblogs.microsoft.com/azure-sql/the-paper-that-split-the-database-in-four-inside-azure-sql-database-hyperscale-aka-socrates/",
+      "published": "2026-10-25T11:23:29+00:00",
+      "summary": "Under the Hood: The Research Behind Microsoft SQL, part 1 The Microsoft SQL team is always innovating. They do this in day-to-day efforts, but there are also brand new efforts that are constantly being explored, investigated, tested, and researched. Our engineering team partners closely with MSR...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
     },
     {
@@ -2093,17 +2159,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Closing the AI Agent Governance Gap with Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/closing-the-ai-agent-governance-gap-with-microsoft-foundry/ba-p/4561827",
-      "published": "2026-10-07T17:00:00+00:00",
-      "summary": "Developers are shipping agents faster than security teams can catalog them. As organizations move beyond pilots and begin operating dozens or hundreds of agents, one question keeps coming up: how do we actually get visibility into our AI agents across our environment? In this article, we'll walk...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "AlexandraMiller-Browne",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[Launched] Generally Available: Enabling the Bulk admin role for SQL Server on Linux",
       "link": "https://azure.microsoft.com/updates?id=573443",
       "published": "2026-10-07T16:57:04+00:00",
@@ -3567,17 +3622,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "SQLAlchemy 2.1 brings built-in support for mssql-python",
-      "link": "https://devblogs.microsoft.com/azure-sql/sqlalchemy-2-1-brings-built-in-support-for-mssql-python/",
-      "published": "2026-09-28T16:02:00+00:00",
-      "summary": "We’re pleased to share that SQLAlchemy 2.1.0 is now generally available, with built-in support for mssql-python, Microsoft’s Python driver for SQL Server. You can now use it with SQLAlchemy’s ORM and Core APIs through the first-party mssql+mssqlpython dialect. If SQLAlchemy is already part of how...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Matt Hyon, David Levy",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Open Sourcing the Azure Policy Linter!",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/open-sourcing-the-azure-policy-linter/ba-p/4547577",
       "published": "2026-09-28T15:02:05+00:00",
@@ -3829,17 +3873,6 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "Azure Container Apps Express is now Generally Available",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-express-is-now-generally-available/ba-p/4559101",
-      "published": "2026-09-23T15:33:53+00:00",
-      "summary": "For many web apps and APIs, a container image should be enough to get started. Developers should not have to choose and configure an environment before the first deployment. Today, Azure Container Apps Express reaches general availability. It is the fastest way to go from a container image to a...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "simonjj",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "v1.16.4",
@@ -4566,17 +4599,6 @@
       "author": "Pamela_Fox",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Today I will… improve test coverage",
-      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-improve-test-coverage/",
-      "published": "2026-09-15T16:00:21+00:00",
-      "summary": "Today I want to look at how we can improve on the test coverage that we have in the Interview Coach application. This application has some unit tests in it already, but I’m sure there is room for improvement. Defining our baseline Before we start writing tests, it’s a good idea to have a baseline...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Aaron Powell",
-      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "🔥AI makes works for itself",
@@ -5721,17 +5743,6 @@
       "author": "atiy",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Copilot Code Reviews for Azure Repos (public preview)",
-      "link": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos-public-preview/",
-      "published": "2026-08-26T15:17:16+00:00",
-      "summary": "Today, we’re announcing the public preview of GitHub Copilot Code Review for Azure Repos, making the feature available to all Azure DevOps customers using the service. There’s no longer a need to sign up for early access. Customers can now enable Copilot Code Review for their Azure Repos...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Dan Hellem",
-      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Maia 200: Software-defined dataflow and all-Ethernet networking for efficient inference on Azure",
@@ -11772,5 +11783,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure posts centered on AI-infused operations, developer productivity, and security hardening. Microsoft highlighted AI-powered SRE for on-prem server estates in Apps on Azure, Multi-LoRA deployment on Azure AI Foundry Managed Compute to move from fine-tuning to shared model serving, and a PHP2Shell-focused Azure DevOps security post outlining what teams should check in their pipelines and environments.\n\nOn the tooling side, the Visual Studio team introduced investigation persistence between sessions, while Visual Studio Code added configurable eagerness for GitHub Copilot inline suggestions, giving developers more control over how aggressively AI completions appear."
 }
