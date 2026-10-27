@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T21:58:07.918220+00:00",
+  "lastUpdated": "2026-10-27T02:33:02.653397+00:00",
   "totalArticles": 1071,
   "articles": [
     {
@@ -25,6 +25,72 @@
       "sourceType": "rss"
     },
     {
+      "title": "Azure WAF custom rules for PHP2Shell mitigation",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-waf-custom-rules-for-php2shell-mitigation/ba-p/4566684",
+      "published": "2026-10-26T19:00:38+00:00",
+      "summary": "Written in collaboration with Gunjan Jain​ and yuvalpery​ As described in our earlier blog, Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations, we strongly recommend upgrading to a patched version of PHP as soon as possible. Upgrading PHP remains...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Remember, Retrieve, Revalidate-or Forget? Architecting Memory for Production AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/remember-retrieve-revalidate-or-forget-architecting-memory-for/ba-p/4564392",
+      "published": "2026-10-26T19:00:00+00:00",
+      "summary": "An implementation architecture: who decides, which component executes, where the data lives, what source is authoritative, and how each operation fails-traced end to end for Remember, Retrieve, Revalidate, and Forget. A memory‑aware agent is not a cleverer prompt or a bigger vector store. Remember,...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "shrutikakade",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Qwen3.8-27B on a Lenovo laptop: run it on RTX Spark, watch it in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-lenovo-laptop-run-it-on-rtx-spark-watch-it-in/ba-p/4567828",
+      "published": "2026-10-26T18:52:23+00:00",
+      "summary": "In an earlier post I served Qwen3.8-27B from an H100 in Azure. The same model also runs on a laptop: the Lenovo Yoga 9n 2-in-1 (16\", 11) with NVIDIA's RTX Spark N1X and 64 GB of unified memory. On a short code-generation benchmark it decodes 44.7 tokens a second for one request, and it holds the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "GPT-6.1 Terra now generally available in Microsoft Foundry: build agents that see and act",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-6-1-terra-now-generally-available-in-microsoft-foundry-build/ba-p/4567769",
+      "published": "2026-10-26T18:31:26+00:00",
+      "summary": "AI agents that read dense charts, navigate desktop apps, and process scanned documents are only as capable as the model behind them. OpenAI’s GPT-6.1 Terra, now generally available in Microsoft Foundry, delivers significant gains in visual reasoning and computer-use speed, so the apps and agents...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Naomi Moneypenny",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/addressing-php2shell-cve-2026-109618-and-cve-2026-109619-upgrade/ba-p/4566623",
+      "published": "2026-10-26T18:19:55+00:00",
+      "summary": "Written in collaboration with yuvalpery​ and Gunjan Jain​ Introduction Today, two critical remote code execution (RCE) vulnerabilities were disclosed in PHP. We strongly recommend that customers upgrade to a patched version of PHP as soon as possible. Upgrading is the only way to fully remediate...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Protect against Brotli CVE-2026-111497 with Azure Web Application Firewall (WAF)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/protect-against-brotli-cve-2026-111497-with-azure-web/ba-p/4567288",
+      "published": "2026-10-26T18:19:26+00:00",
+      "summary": "Google Brotli versions 1.0.3 through 1.2.0 contain a buffer overflow vulnerability in the Brotli decoder, according to the recently published CVE-2026-111497. A remote, unauthenticated attacker can send a crafted Brotli-compressed stream to corrupt decoder memory, expose sensitive memory contents,...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "yuvalpery",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Announcing Azure AI Speech LLM 09-2026: Broader locale support",
       "link": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-09-2026/",
       "published": "2026-10-26T17:10:00+00:00",
@@ -45,6 +111,39 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "Global enterprise multi-agent systems in production: Design and security (Part 1)",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/global-enterprise-multi-agent-systems-in-production-design-and/ba-p/4564913",
+      "published": "2026-10-26T16:00:00+00:00",
+      "summary": "The work behind this series began with customers while hosted agents in Microsoft Foundry were still in private preview. Customers adopted the service because it took the platform work off their plates: running, scaling, open ecosystem and versioning agents, each with its own identity and built-in...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "dhangerkapil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Bringing AI-Powered SRE to Your On-Premise Server Estate For Unifying Ops",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bringing-ai-powered-sre-to-your-on-premise-server-estate-for/ba-p/4566884",
+      "published": "2026-10-26T15:15:49+00:00",
+      "summary": "The problem nobody talks about at cloud conferences Walk the floor at any cloud event and you'll hear a lot about AI-assisted operations: agents that triage alerts, correlate signals, and hand your on-call engineer a root cause instead of a wall of logs. It's genuinely useful. But there's a quiet...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "FaizaanMerchant",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "From fine-tuning to shared serving: Multi-LoRA deployment on Foundry Managed Compute",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-fine-tuning-to-shared-serving-multi-lora-deployment-on/ba-p/4565959",
+      "published": "2026-10-26T15:00:00+00:00",
+      "summary": "We're introducing Multi-LoRA adapter deployment on Managed Compute in Microsoft Foundry, now in preview. Multi-LoRA lets you deploy multiple compatible fine-tuned LoRA adapters on a shared base-model deployment, so you can serve specialized model experiences without provisioning separate compute...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "GulsimoOsimi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "PHP2Shell and Azure DevOps: what to check",
@@ -133,17 +232,6 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Protect against Brotli CVE-2026-111497 with Azure Web Application Firewall (WAF)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/protect-against-brotli-cve-2026-111497-with-azure-web/ba-p/4567288",
-      "published": "2026-10-23T20:17:17+00:00",
-      "summary": "Google Brotli versions 1.0.3 through 1.2.0 contain a buffer overflow vulnerability in the Brotli decoder, according to the recently published CVE-2026-111497. A remote, unauthenticated attacker can send a crafted Brotli-compressed stream to corrupt decoder memory, expose sensitive memory contents,...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "yuvalpery",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Azure OpenAI Decisions API: Now generally available in Microsoft Foundry",
@@ -333,17 +421,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/addressing-php2shell-cve-2026-109618-and-cve-2026-109619-upgrade/ba-p/4566623",
-      "published": "2026-10-22T19:41:32+00:00",
-      "summary": "Written in collaboration with yuvalpery​ and Gunjan Jain​ Introduction Today, two critical remote code execution (RCE) vulnerabilities were disclosed in PHP. We strongly recommend that customers upgrade to a patched version of PHP as soon as possible. Upgrading is the only way to fully remediate...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "saikishor",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "What production taught us about reviewing AI translations",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/what-production-taught-us-about-reviewing-ai-translations/ba-p/4566948",
       "published": "2026-10-22T18:24:53+00:00",
@@ -440,17 +517,6 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "Akshay-Kireet-18",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure WAF custom rules for PHP2Shell mitigation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-waf-custom-rules-for-php2shell-mitigation/ba-p/4566684",
-      "published": "2026-10-22T13:56:46+00:00",
-      "summary": "Written in collaboration with Gunjan Jain​ and yuvalpery​ As described in our earlier blog, Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations, we strongly recommend upgrading to a patched version of PHP as soon as possible. Upgrading PHP remains...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "saikishor",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -2049,17 +2115,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "When the Answer Isn’t in the Document: Metadata-Aware Agentic RAG with Foundry IQ",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/when-the-answer-isn-t-in-the-document-metadata-aware-agentic-rag/ba-p/4562237",
-      "published": "2026-10-08T13:00:00+00:00",
-      "summary": "The problem SharePoint libraries often contain years of carefully curated metadata, including root cause, severity, business unit, document type, owner and classification. If that metadata never reaches the retrieval pipeline, however, a RAG system cannot use it. This creates a common blind spot:...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "shikhasinha",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure Key Vault and BYOK: Lessons Learned",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-key-vault-and-byok-lessons-learned/ba-p/4561156",
       "published": "2026-10-08T12:41:54+00:00",
@@ -2068,17 +2123,6 @@
       "blogId": "azureinfrastructureblog",
       "author": "gurjsing",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Claude Haiku 5.5 is now available in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-haiku-5-5-is-now-available-in-microsoft-foundry/ba-p/4562408",
-      "published": "2026-10-08T00:48:21+00:00",
-      "summary": "Claude Haiku 5.5 is now available in Microsoft Foundry. The fastest and most efficient model in the Claude 5.5 family, it is built for high-volume, cost-sensitive agentic work, from live customer support to focused subtasks within larger agent systems. It also costs around 75% less than Claude...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amar_badal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -2102,17 +2146,6 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "Making evaluations cost-efficient",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/making-evaluations-cost-efficient/ba-p/4561786",
-      "published": "2026-10-07T19:00:00+00:00",
-      "summary": "Every evaluation run is, under the hood, a stack of LLM-as-judge calls. Behind Microsoft Foundry's evaluation service, every graded row becomes judge traffic: hundreds of thousands of judge calls a day, billions of prompt tokens in any given two-week window, and roughly a dozen judge calls beneath...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amq",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Azure Document Intelligence and Azure Content Understanding: a practical guide",
@@ -2157,17 +2190,6 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Closing the AI Agent Governance Gap with Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/closing-the-ai-agent-governance-gap-with-microsoft-foundry/ba-p/4561827",
-      "published": "2026-10-07T17:00:00+00:00",
-      "summary": "Developers are shipping agents faster than security teams can catalog them. As organizations move beyond pilots and begin operating dozens or hundreds of agents, one question keeps coming up: how do we actually get visibility into our AI agents across our environment? In this article, we'll walk...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "AlexandraMiller-Browne",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "[Launched] Generally Available: Enabling the Bulk admin role for SQL Server on Linux",
@@ -3677,17 +3699,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Getting the best out of Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/getting-the-best-out-of-azure-sre-agent/ba-p/4559745",
-      "published": "2026-09-24T20:24:01+00:00",
-      "summary": "A common question that we get from our customers is \"Hey guys, we are excited about SRE agent and we 've created one but whats the best way to configure it?\". The below guide aims at sharing some of the best practices that anyone can follow to make the most out of our SRE Agent. This guide is based...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "puneetguptams",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Introducing bicep docs: generate documentation from your Bicep modules",
       "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/introducing-bicep-docs-generate-documentation-from-your-bicep/ba-p/4559737",
       "published": "2026-09-24T19:55:33+00:00",
@@ -3884,17 +3895,6 @@
       "author": "hc-github-team-es-release-engineering",
       "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
       "sourceType": "rss"
-    },
-    {
-      "title": "Azure Container Apps Express is now Generally Available",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-express-is-now-generally-available/ba-p/4559101",
-      "published": "2026-09-23T15:33:53+00:00",
-      "summary": "For many web apps and APIs, a container image should be enough to get started. Developers should not have to choose and configure an environment before the first deployment. Today, Azure Container Apps Express reaches general availability. It is the fastest way to go from a container image to a...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "simonjj",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "v1.16.4",
@@ -11783,6 +11783,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure-related news centers on AI developer tooling and platform operations: GitHub and VS Code are expanding Copilot with the new **GPT-6.1 Terra** model and **configurable inline-suggestion eagerness**, while Azure AI adds **Speech LLM 09-2026** with broader locale coverage for multilingual voice experiences. On the infrastructure and security side, Azure announced **general availability of Network Watcher VNet flow logs filtering** for more targeted network telemetry, alongside guidance on **PHP2Shell risks in Azure DevOps** and Visual Studio improvements for persisting investigation context across sessions."
+  ]
 }
