@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T08:26:29.212629+00:00",
+  "lastUpdated": "2026-10-27T14:58:55.742272+00:00",
   "totalArticles": 1071,
   "articles": [
     {
@@ -11,6 +11,39 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Inspecting Local Data with Azure Cosmos DB Shell",
+      "link": "https://devblogs.microsoft.com/cosmosdb/inspecting-local-data-with-azure-cosmos-db-shell/",
+      "published": "2026-10-27T13:31:06+00:00",
+      "summary": "Explore local data from the terminal with Azure Cosmos DB Shell. Connect to the emulator, inspect FleetCharge documents, run queries, and point-read depot partitions. The post Inspecting Local Data with Azure Cosmos DB Shell appeared first on Azure Cosmos DB Blog.",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Jay Gordon",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "How Microsoft Intune team upgraded a .NET service with GitHub Copilot modernization",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-microsoft-intune-team-upgraded-a-net-service-with-github/ba-p/4566987",
+      "published": "2026-10-27T08:51:18+00:00",
+      "summary": "Microsoft's Customer Zero blog series gives an insider view of how Microsoft builds and operates Microsoft using our trusted, enterprise-grade platform. Learn best practices from our engineering teams through real-world lessons, architectural patterns, and operational strategies for building,...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "RamyaSharma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Announcing the Workload Conformance Working Group",
+      "link": "https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/",
+      "published": "2026-10-27T04:30:00+00:00",
+      "summary": "We are excited to announce that the Kubernetes community now has a Workload Conformance Working Group. The working group is writing a shared standard for how workloads behave at runtime on Kubernetes. To get it right, we need input from the people who build those workloads and from the people who...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -47,17 +80,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Azure WAF custom rules for PHP2Shell mitigation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-waf-custom-rules-for-php2shell-mitigation/ba-p/4566684",
-      "published": "2026-10-26T19:00:38+00:00",
-      "summary": "Written in collaboration with Gunjan Jain​ and yuvalpery​ As described in our earlier blog, Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations, we strongly recommend upgrading to a patched version of PHP as soon as possible. Upgrading PHP remains...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "saikishor",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Remember, Retrieve, Revalidate-or Forget? Architecting Memory for Production AI Agents",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/remember-retrieve-revalidate-or-forget-architecting-memory-for/ba-p/4564392",
       "published": "2026-10-26T19:00:00+00:00",
@@ -88,28 +110,6 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "Naomi Moneypenny",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/addressing-php2shell-cve-2026-109618-and-cve-2026-109619-upgrade/ba-p/4566623",
-      "published": "2026-10-26T18:19:55+00:00",
-      "summary": "Written in collaboration with yuvalpery​ and Gunjan Jain​ Introduction Today, two critical remote code execution (RCE) vulnerabilities were disclosed in PHP. We strongly recommend that customers upgrade to a patched version of PHP as soon as possible. Upgrading is the only way to fully remediate...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "saikishor",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Protect against Brotli CVE-2026-111497 with Azure Web Application Firewall (WAF)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/protect-against-brotli-cve-2026-111497-with-azure-web/ba-p/4567288",
-      "published": "2026-10-26T18:19:26+00:00",
-      "summary": "Google Brotli versions 1.0.3 through 1.2.0 contain a buffer overflow vulnerability in the Brotli decoder, according to the recently published CVE-2026-111497. A remote, unauthenticated attacker can send a crafted Brotli-compressed stream to corrupt decoder memory, expose sensitive memory contents,...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "yuvalpery",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -256,6 +256,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Protect against Brotli CVE-2026-111497 with Azure Web Application Firewall (WAF)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/protect-against-brotli-cve-2026-111497-with-azure-web/ba-p/4567288",
+      "published": "2026-10-23T20:17:17+00:00",
+      "summary": "Google Brotli versions 1.0.3 through 1.2.0 contain a buffer overflow vulnerability in the Brotli decoder, according to the recently published CVE-2026-111497. A remote, unauthenticated attacker can send a crafted Brotli-compressed stream to corrupt decoder memory, expose sensitive memory contents,...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "yuvalpery",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Azure OpenAI Decisions API: Now generally available in Microsoft Foundry",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/azure-openai-decisions-api-now-generally-available-in-microsoft/ba-p/4567265",
       "published": "2026-10-23T19:52:29+00:00",
@@ -308,6 +319,17 @@
       "blogId": "githubchangelog",
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
+      "published": "2026-10-23T18:12:19+00:00",
+      "summary": "Microsoft Threat Intelligence analyzes the LiteLLM 1.107.0 compromise, including Python startup hooks, credential theft, remote code loading, detections, and mitigations. The post Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks appeared first on...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Security Research, Mahesh Mandava, Srinivasan Govindarajan, Sagar Patil and Suriyaraj Natarajan",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -432,6 +454,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/addressing-php2shell-cve-2026-109618-and-cve-2026-109619-upgrade/ba-p/4566623",
+      "published": "2026-10-22T19:41:32+00:00",
+      "summary": "Written in collaboration with yuvalpery​ and Gunjan Jain​ Introduction Today, two critical remote code execution (RCE) vulnerabilities were disclosed in PHP. We strongly recommend that customers upgrade to a patched version of PHP as soon as possible. Upgrading is the only way to fully remediate...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "What production taught us about reviewing AI translations",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/what-production-taught-us-about-reviewing-ai-translations/ba-p/4566948",
       "published": "2026-10-22T18:24:53+00:00",
@@ -520,6 +553,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Azure WAF custom rules for PHP2Shell mitigation",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-waf-custom-rules-for-php2shell-mitigation/ba-p/4566684",
+      "published": "2026-10-22T13:56:46+00:00",
+      "summary": "Written in collaboration with Gunjan Jain​ and yuvalpery​ As described in our earlier blog, Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations, we strongly recommend upgrading to a patched version of PHP as soon as possible. Upgrading PHP remains...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Beyond Hub-and-Spoke: Routable and Non-Advertised Azure Networks",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/beyond-hub-and-spoke-routable-and-non-advertised-azure-networks/ba-p/4553044",
       "published": "2026-10-22T12:19:59+00:00",
@@ -595,6 +639,17 @@
       "author": "shihyaolin",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+      "published": "2026-10-21T18:23:55+00:00",
+      "summary": "Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise, enabling application credential abuse across Microsoft 365 environments. The post AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Security Research and Microsoft Threat Intelligence",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Announcing: Choose Your Own Telephony (CYOT) for Microsoft Entra",
@@ -1147,6 +1202,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Agents are your newest insiders. Security must move at their speed.",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
+      "published": "2026-10-19T13:00:00+00:00",
+      "summary": "New capabilities in Microsoft 365 E7 and Project Perception help organizations contain agent risk and adapt protection continuously. The post Agents are your newest insiders. Security must move at their speed. appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Nadim Abdo",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Browser automation tool in Microsoft Foundry is now GA",
       "link": "https://devblogs.microsoft.com/foundry/browser-automation-tool-ga/",
       "published": "2026-10-19T10:32:13+00:00",
@@ -1222,6 +1288,17 @@
       "author": "MaheshBalachandran",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Managing open-weight model risk in enterprise deployments",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
+      "published": "2026-10-16T16:00:00+00:00",
+      "summary": "New whitepaper from Microsoft and NVIDIA helps enterprises manage open-weight AI model risks with a shared taxonomy, evaluations, and controls. The post Managing open-weight model risk in enterprise deployments appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Michael Scovetta",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Threat Modeling Azure MCP: Securing AI-Assisted Infrastructure Operations",
@@ -1609,6 +1686,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/",
+      "published": "2026-10-14T13:00:00+00:00",
+      "summary": "Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Threat Intelligence and Microsoft Digital Crimes Unit",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "v1.17.0-rc2",
       "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-rc2",
       "published": "2026-10-14T10:37:18+00:00",
@@ -1939,6 +2027,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Post-quantum authentication: Why organizations should start testing certificate ecosystems now",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/08/post-quantum-authentication-why-organizations-should-start-testing-certificate-ecosystems-now/",
+      "published": "2026-10-08T20:44:28+00:00",
+      "summary": "Prepare for post-quantum authentication by testing certificate ecosystems now. Learn how Microsoft’s PQC TLS Pilot Program helps advance future readiness. The post Post-quantum authentication: Why organizations should start testing certificate ecosystems now appeared first on Microsoft Security...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Security Research, Lora Randolph, Tahmina Ahmad and Karina Sirota Goodley",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Evaluating Voice Agents: How Reliable Are Foundry's Multi-turn Evaluators?",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/evaluating-voice-agents-how-reliable-are-foundry-s-multi-turn/ba-p/4559697",
       "published": "2026-10-08T20:00:00+00:00",
@@ -2145,6 +2244,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "3 lessons from frontier AI vulnerability research",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
+      "published": "2026-10-07T16:00:00+00:00",
+      "summary": "Read how How Microsoft Security's FORGE Lab is scaling vulnerability research from Windows to the Linux kernel. The post 3 lessons from frontier AI vulnerability research appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Taesoo Kim",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -2365,6 +2475,17 @@
       "blogId": "azuresqlblog",
       "author": "Jerry Nixon",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "CISO perspectives on managing vulnerability risks in the age of AI",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/06/ciso-perspectives-on-managing-vulnerability-risks-in-the-age-of-ai/",
+      "published": "2026-10-06T16:00:00+00:00",
+      "summary": "Learn how CISOs can mitigate cybersecurity risks and increase resilience in the age of AI-powered vulnerability management. The post CISO perspectives on managing vulnerability risks in the age of AI appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Freddy Dezeure and Sesha Mani",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -2720,17 +2841,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Azure Cosmos DB Shell is now available in the Azure portal",
-      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-shell-is-now-available-in-the-azure-portal/",
-      "published": "2026-10-01T15:21:32+00:00",
-      "summary": "You can now open Azure Cosmos DB Shell directly from Data Explorer in the Azure portal. The shell gives you a terminal-style way to work with Azure Cosmos DB. You can move through databases and containers as you would through folders, run NoSQL queries, inspect resources, and update data. When you...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Sajeetharan Sinnathurai",
-      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Build and govern AI agents across a multitenant organization",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/build-and-govern-ai-agents-across-a-multitenant-organization/ba-p/4559921",
       "published": "2026-10-01T14:23:11+00:00",
@@ -2817,17 +2927,6 @@
       "author": "shashankamalladi",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "​​Secure what’s next: Your guide to Microsoft Security at Microsoft Ignite 2026",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/30/secure-whats-next-your-guide-to-microsoft-security-at-microsoft-ignite-2026/",
-      "published": "2026-09-30T19:31:00+00:00",
-      "summary": "This year at Microsoft Ignite, we spotlight our AI-first, end-to-end security platform designed to protect identities, devices, data, applications, clouds, infrastructure, and the AI agents now working alongside your teams. The post ​​Secure what’s next: Your guide to Microsoft Security at...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Lindsay Myers",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Bring Azure Logic Apps connectors into your .NET applications with the Azure Connectors SDK",
@@ -2995,17 +3094,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
-      "published": "2026-09-30T14:00:00+00:00",
-      "summary": "Microsoft Threat Intelligence examines CVE-2026-73570 exploitation in Zimbra, including observed attack paths, detection opportunities, and mitigation guidance. The post Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570 appeared first on Microsoft Security...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Security Research, Mahesh Mandava and Rajesh Kumar Natarajan",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Using Jev with Agents in Microsoft Foundry for Model Evaluation",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/using-jev-with-agents-in-microsoft-foundry-for-model-evaluation/ba-p/4559851",
       "published": "2026-09-30T07:00:00+00:00",
@@ -3058,17 +3146,6 @@
       "blogId": "aspireblog",
       "author": "Maddy Montaquila",
       "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Phishing Abuses RMM Tools for Persistent Access",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/",
-      "published": "2026-09-29T21:39:27+00:00",
-      "summary": "Microsoft observed phishing campaigns that abused MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity The post Phishing Abuses RMM Tools for Persistent Access appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Security Research, Parasharan Raghavan, Deva Kanna Kannan, Sai Chakri and Microsoft Defender Experts",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -3169,17 +3246,6 @@
       "author": "Matt Hernandez",
       "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Comparing Three Approaches to AI Agent Evaluation and Observability",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/comparing-three-approaches-to-ai-agent-evaluation-and/ba-p/4560833",
-      "published": "2026-09-29T18:25:14+00:00",
-      "summary": "Why evaluation and observability belong together Agent evaluation and observability answer two related questions: Is the agent producing the right result? What happened from the initial request through every model and tool call? Evaluation measures quality with repeatable scores (is our system...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "emiller635",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "[In preview] Public Preview: Azure Database for PostgreSQL Ultra Disk",
@@ -3479,17 +3545,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "​​Beyond source code: A path to the keys to the kingdom",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/",
-      "published": "2026-09-29T16:00:00+00:00",
-      "summary": "Explore how Storm-3068 turned a compromised identity into broader cloud access and the steps organizations can take to defend their identities, pipelines, and cloud infrastructure. The post ​​Beyond source code: A path to the keys to the kingdom appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Defender Experts Cybersecurity Incident Response",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "DiskANN Vector Index and Vector Search Are Now Generally Available in Azure SQL",
       "link": "https://devblogs.microsoft.com/azure-sql/diskann-vector-index-search-are-now-generally-available-in-azure-sql/",
       "published": "2026-09-29T15:00:22+00:00",
@@ -3498,17 +3553,6 @@
       "blogId": "azuresqlblog",
       "author": "Pooja Kamath",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
-      "published": "2026-09-29T15:00:00+00:00",
-      "summary": "Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”. The post...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Threat Intelligence",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -3644,17 +3688,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/",
-      "published": "2026-09-28T15:00:00+00:00",
-      "summary": "Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations. The post NeedyMantis: Unpacking a...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Threat Intelligence",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "From Jev to Your Laptop: Building \"System One\" Decision Models in ONNX with Mobius",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-jev-to-your-laptop-building-quot-system-one-quot-decision/ba-p/4558843",
       "published": "2026-09-28T06:11:14+00:00",
@@ -3674,17 +3707,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Storm-3168: Agentic-driven cloud attacks using compromised service principals",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals/",
-      "published": "2026-09-25T15:35:08+00:00",
-      "summary": "Microsoft details JADEPUFFER-linked Azure reconnaissance, resource deletion, and credential access using compromised service principals, identifying the activity as associated with Storm-3168 and providing guidance for defenders. The post Storm-3168: Agentic-driven cloud attacks using compromised...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Security Research, Yossi Weizman and Tushar Mudi",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -3762,17 +3784,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/",
-      "published": "2026-09-24T16:00:00+00:00",
-      "summary": "Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect and disrupt this activity before ransomware deployment. The post Beyond the...",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Threat Intelligence",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -9848,17 +9859,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Kubernetes v1.36: In-Place Vertical Scaling for Pod-Level Resources Graduates to Beta",
-      "link": "https://kubernetes.io/blog/2026/04/30/kubernetes-v1-36-inplace-pod-level-resources-beta/",
-      "published": "2026-04-30T18:35:00+00:00",
-      "summary": "Following the graduation of Pod-Level Resources to Beta in v1.34 and the General Availability (GA) of In-Place Pod Vertical Scaling in v1.35, the Kubernetes community is thrilled to announce that In-Place Pod-Level Resources Vertical Scaling has graduated to Beta in v1.36! This feature is now...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Azure NCv6 Virtual Machines: Enhancements and GA Transition",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/azure-ncv6-virtual-machines-enhancements-and-ga-transition/ba-p/4503578",
       "published": "2026-04-30T18:00:24+00:00",
@@ -11784,5 +11784,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog highlighted a deep dive into **Hybrid Logic Apps** performance, specifically benchmarking **SQL Server as the storage provider** for stateful workflow execution in **Azure Logic Apps**. The key theme was enterprise integration in hybrid environments: the post focused on throughput, latency, and scalability considerations when using **SQL-backed storage** for Logic Apps Standard/Hybrid scenarios, helping customers evaluate architecture tradeoffs for on-premises or mixed-cloud deployments."
+  "summary": "Today’s Azure posts focused on developer productivity, modernization, and cloud-native operations. Microsoft highlighted **Azure Cosmos DB Shell** for inspecting and working with local Cosmos DB data, showed how the **Microsoft Intune** team used **GitHub Copilot** to modernize a **.NET service** on Azure, and shared **Hybrid Logic Apps** benchmarking results using **SQL Server as the storage provider** to evaluate integration performance in hybrid scenarios.\n\nA broader ecosystem theme was standards and operational consistency in Kubernetes, with the **Kubernetes Official Blog** announcing the **Workload Conformance Working Group**, aimed at defining more consistent workload behavior across Kubernetes environments. Overall, the key technologies mentioned were **Azure Cosmos DB**, **.NET**, **GitHub Copilot**, **Hybrid Logic Apps**, **SQL storage**, and **Kubernetes**."
 }
