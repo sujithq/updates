@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T19:47:15.483826+00:00",
+  "lastUpdated": "2026-10-28T00:07:46.216592+00:00",
   "totalArticles": 1071,
   "articles": [
     {
@@ -11,6 +11,50 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Release 2026-10-25",
+      "link": "https://github.com/Azure/AKS/releases/tag/2026-10-25",
+      "published": "2026-10-27T23:42:35+00:00",
+      "summary": "Release Notes - 2026-10-25 Monitor the release status by regions at AKS-Release-Tracker. This release is titled v20261025. Announcements of upcoming changes and retirements Starting on June 1, 2027, AKS automatically upgrades any cluster that stays on an unsupported Kubernetes version after its...",
+      "blog": "Release notes from AKS",
+      "blogId": "aksreleases",
+      "author": "dyu1208",
+      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "GitHub Copilot supports server-to-server authentication",
+      "link": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
+      "published": "2026-10-27T21:36:55+00:00",
+      "summary": "GitHub Copilot now supports server-to-server authentication for GitHub Apps installed on organizations, available in public preview. Services and agents built with the GitHub Copilot SDK can now make requests on… The post GitHub Copilot supports server-to-server authentication appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Higher limit of Azure Blob Storage accounts per region per subscription",
+      "link": "https://azure.microsoft.com/updates?id=578358",
+      "published": "2026-10-27T21:16:52+00:00",
+      "summary": "Higher Azure Storage account resource quotas are now generally available, supporting up to 1,000 storage accounts with standard endpoints per region, per subscription, up from the default of 250. Manage more accounts in a single subscription, reducing the",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure DevOps Server RC (26H2) Is Now Available",
+      "link": "https://devblogs.microsoft.com/devops/azure-devops-server-rc-26h2-is-now-available/",
+      "published": "2026-10-27T20:31:59+00:00",
+      "summary": "Today we’re releasing the release candidate (RC) of the next Azure DevOps Server release. It brings new features previously available in our hosted version, along with security and quality improvements. You can download Azure DevOps Server RC (26H2) today. A direct upgrade to Azure DevOps Server RC...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Gloridel Morales",
+      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "sourceType": "rss"
     },
     {
@@ -47,6 +91,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Global enterprise multi-agent systems in production: Release and operations (Part 2)",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/global-enterprise-multi-agent-systems-in-production-release-and/ba-p/4564916",
+      "published": "2026-10-27T16:00:00+00:00",
+      "summary": "With hosted agents in Microsoft Foundry, the Azure Developer CLI packages and deploys each agent in a multi-agent system. Release work goes further: proving that users reach the exact release you tested, in every region, and that it keeps working. An agent that starts successfully can still be the...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "dhangerkapil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Blazor Welcomes Open-Source Contributions from Infragistics",
       "link": "https://devblogs.microsoft.com/dotnet/blazor-welcomes-infragistics/",
       "published": "2026-10-27T15:00:00+00:00",
@@ -58,6 +113,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "MAI-Image-2.6 and MAI-Image-2.6-Flash are now generally available in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/mai-image-2-6-and-mai-image-2-6-flash-are-now-generally/ba-p/4566327",
+      "published": "2026-10-27T15:00:00+00:00",
+      "summary": "From creative exploration to enterprise workflows Creating a compelling image is one step. Making image generation useful across a business means giving teams the control to refine an idea, adapt it for different audiences, and keep moving when the work scales. MAI-Image-2.6 and MAI-Image-2.6-Flash...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "alexanderhughes",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Inspecting Local Data with Azure Cosmos DB Shell",
       "link": "https://devblogs.microsoft.com/cosmosdb/inspecting-local-data-with-azure-cosmos-db-shell/",
       "published": "2026-10-27T13:31:06+00:00",
@@ -67,17 +133,6 @@
       "author": "Jay Gordon",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "How Microsoft Intune team upgraded a .NET service with GitHub Copilot modernization",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-microsoft-intune-team-upgraded-a-net-service-with-github/ba-p/4566987",
-      "published": "2026-10-27T08:51:18+00:00",
-      "summary": "Microsoft's Customer Zero blog series gives an insider view of how Microsoft builds and operates Microsoft using our trusted, enterprise-grade platform. Learn best practices from our engineering teams through real-world lessons, architectural patterns, and operational strategies for building,...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "RamyaSharma",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Announcing the Workload Conformance Working Group",
@@ -232,6 +287,17 @@
       "author": "FaizaanMerchant",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "PostgreSQL Like A Pro: Build, query, and troubleshoot without leaving VS Code",
+      "link": "https://devblogs.microsoft.com/blog/postgresql-like-a-pro-vscode/",
+      "published": "2026-10-26T15:05:12+00:00",
+      "summary": "Build, query, and troubleshoot without leaving VS Code.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Cynthia Zanoni",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "From fine-tuning to shared serving: Multi-LoRA deployment on Foundry Managed Compute",
@@ -507,17 +573,6 @@
       "author": "Shivani_Tripathi",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-databricks&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Global default for Copilot features generally available",
-      "link": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available",
-      "published": "2026-10-22T20:44:28+00:00",
-      "summary": "In September, we announced a global default policy for generally available GitHub Copilot features and supported client capabilities on Copilot Business and Copilot Enterprise plans. Starting today, we’re gradually rolling… The post Global default for Copilot features generally available appeared...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "What production taught us about reviewing AI translations",
@@ -2005,17 +2060,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Beyond the Script: Evaluating Voice Agents with Voice User Simulator",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/beyond-the-script-evaluating-voice-agents-with-voice-user/ba-p/4559696",
-      "published": "2026-10-09T15:00:00+00:00",
-      "summary": "Voice agents engage with users in real-time, interactive conversations. Their success depends on what users say, how they sound, and when they speak. Static evaluations provide a task without further user interaction, leaving much of this conversational behavior untested. Human testing captures...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "nemo-nano",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure Managed Redis Deployment Automation",
       "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/azure-managed-redis-deployment-automation/ba-p/4547874",
       "published": "2026-10-09T12:30:36+00:00",
@@ -2080,17 +2124,6 @@
       "author": "Microsoft Security Research, Lora Randolph, Tahmina Ahmad and Karina Sirota Goodley",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Evaluating Voice Agents: How Reliable Are Foundry's Multi-turn Evaluators?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/evaluating-voice-agents-how-reliable-are-foundry-s-multi-turn/ba-p/4559697",
-      "published": "2026-10-08T20:00:00+00:00",
-      "summary": "Teams developing voice agents need automated evaluation because human review alone cannot keep pace with thousands of calls and frequent agent updates. Microsoft Foundry addresses this need with multi-turn evaluators that assess agent behavior and outcomes across complete conversations. To...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "nemo-nano",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "[Launched] Generally Available: Azure Database for PostgreSQL flexible server in East US 3",
@@ -3290,6 +3323,17 @@
       "author": "Matt Hernandez",
       "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Comparing Three Approaches to AI Agent Evaluation and Observability",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/comparing-three-approaches-to-ai-agent-evaluation-and/ba-p/4560833",
+      "published": "2026-09-29T18:25:14+00:00",
+      "summary": "Why evaluation and observability belong together Agent evaluation and observability answer two related questions: Is the agent producing the right result? What happened from the initial request through every model and tool call? Evaluation measures quality with repeatable scores (is our system...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "emiller635",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "[In preview] Public Preview: Azure Database for PostgreSQL Ultra Disk",
@@ -4568,17 +4612,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Your AI coding agent evaluation is only as good as its sandbox",
-      "link": "https://devblogs.microsoft.com/blog/your-ai-coding-agent-evaluation-is-only-as-good-as-its-sandbox/",
-      "published": "2026-09-16T09:09:51+00:00",
-      "summary": "Your AI coding agent passed the eval. But did the model know the answer, or did it find it somewhere on your machine? A correct answer can still invalidate your measurement.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Deploying Custom Images and Implementing CI/CD for Azure Virtual Machine Scale Sets",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/deploying-custom-images-and-implementing-ci-cd-for-azure-virtual/ba-p/4556902",
       "published": "2026-09-16T05:26:11+00:00",
@@ -5687,17 +5720,6 @@
       "blogId": "azuresdkblog",
       "author": "Kristen Womack, Jeffrey C.",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Azure DevOps in the GitHub Copilot App",
-      "link": "https://devblogs.microsoft.com/devops/azure-devops-in-the-github-copilot-app/",
-      "published": "2026-08-27T11:24:17+00:00",
-      "summary": "The Azure DevOps plugin is now available for the GitHub Copilot app, allowing you to view and manage Azure DevOps pull requests and work items directly in the Copilot app. What you can do The initial release supports: View your work items and pull requests from My Work Open work items and pull...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Dan Hellem",
-      "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "sourceType": "rss"
     },
     {
@@ -7300,17 +7322,6 @@
       "link": "https://azure.microsoft.com/updates?id=567949",
       "published": "2026-07-28T16:45:37+00:00",
       "summary": "Organizations running large-scale, AI, GPU, Windows, and other performance-sensitive workloads on AKS often experience longer node startup times because new nodes must repeatedly download container images and perform initialization tasks before workloads",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Microsoft Azure now available from new cloud region in India (India South Central)",
-      "link": "https://azure.microsoft.com/updates?id=568013",
-      "published": "2026-07-28T15:40:55+00:00",
-      "summary": "Microsoft announces the opening of its fourth datacenter region in India, India South Central, with campuses in Hyderabad, Telangana. The region will provide customers with local, secure, state-of-the-art cloud infrastructure designed with AI readiness as",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -10211,17 +10222,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Release Notes - 2026-03-05",
-      "link": "https://github.com/Azure/AKS/releases/tag/2026-03-05",
-      "published": "2026-04-08T20:11:05+00:00",
-      "summary": "Monitor the release status by regions at AKS-Release-Tracker. Announcements Azure Kubernetes Service support for Flatcar Container Linux for AKS (preview) will be retired on 8 June 2026, transition to a supported alternative by that date. From now to 7 June 2026, you can continue to use Flatcar...",
-      "blog": "Release notes from AKS",
-      "blogId": "aksreleases",
-      "author": "kaarthis",
-      "feedUrl": "https://github.com/Azure/AKS/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "Azure Container Storage v2.1.0: Now GA with Elastic SAN",
       "link": "https://blog.aks.azure.com/2026/04/08/acstor-v2.1-ga",
       "published": "2026-04-08T00:00:00+00:00",
@@ -11784,5 +11784,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure news centered on platform maturity, developer productivity, and modernization: Microsoft announced general availability for cost management and tagging for Claude models in Microsoft Foundry, plus Azure Front Door profile- and route-level WAF policies for more granular web app protection. Developer tooling also advanced with the Visual Studio October Update adding commit-to-code comparison and bulk conflict resolution, a .NET service upgrade case study using GitHub Copilot modernization from the Microsoft Intune team, and new open-source Blazor contributions from Infragistics.\n\nOn the data, integration, and cloud-native side, Azure Cosmos DB Shell highlighted local data inspection workflows, Hybrid Logic Apps shared SQL storage provider benchmarking results, and the Kubernetes ecosystem introduced a new Workload Conformance Working Group to improve workload portability and consistency across platforms."
+  "summary": "Today’s Azure-related post is actually a Visual Studio Code announcement: **VS Code 1.144 (Insiders)**. The key theme is continued rapid iteration in the editor’s preview channel, with updates centered on the **Visual Studio Code** developer experience and early access to upcoming IDE features; however, no broader set of Azure blog posts or additional Azure service announcements were included in the provided list."
 }
