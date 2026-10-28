@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-28T00:07:46.216592+00:00",
-  "totalArticles": 1071,
+  "lastUpdated": "2026-10-28T09:03:07.239064+00:00",
+  "totalArticles": 1074,
   "articles": [
     {
       "title": "Visual Studio Code 1.144 (Insiders)",
@@ -47,6 +47,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "MANA out-of-tree (OOT) driver for Linux LTS kernels",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/mana-out-of-tree-oot-driver-for-linux-lts-kernels/ba-p/4566923",
+      "published": "2026-10-27T20:40:38+00:00",
+      "summary": "The Microsoft Azure Network Adapter (MANA) driver is part of the upstream Linux kernel and provides networking support for Azure Accelerated Networking. Today, we’re announcing an out-of-tree (OOT) driver, so you can use MANA on supported Linux LTS kernels without upgrading your kernel. MANA...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "KashanK",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Azure DevOps Server RC (26H2) Is Now Available",
       "link": "https://devblogs.microsoft.com/devops/azure-devops-server-rc-26h2-is-now-available/",
       "published": "2026-10-27T20:31:59+00:00",
@@ -56,6 +67,39 @@
       "author": "Gloridel Morales",
       "feedUrl": "https://devblogs.microsoft.com/devops/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Bringing Azure Applications Closer to Oracle AI Database@Azure with Proximity Placement Groups",
+      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/bringing-azure-applications-closer-to-oracle-ai-database-azure/ba-p/4567806",
+      "published": "2026-10-27T19:30:00+00:00",
+      "summary": "Azure proximity placement group (PPG) integration is now generally available for Exadata Database Service on Dedicated Infrastructure in Oracle AI Database@Azure. New PPG-enabled deployments can place supported Azure application virtual machines (VMs) close to Oracle-managed Exadata infrastructure...",
+      "blog": "Oracle on Azure",
+      "blogId": "oracleonazureblog",
+      "author": "Venkat_Ramakrishnan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=oracleonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Sovereign controls for Oracle AI Database@Azure",
+      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/sovereign-controls-for-oracle-ai-database-azure/ba-p/4567321",
+      "published": "2026-10-27T19:30:00+00:00",
+      "summary": "Regulated industries like banking, healthcare, and government face non-negotiable requirements for data localization, privacy, operational control, and compliance. Building on the controls already in Oracle AI Database@Azure, the Oracle Azure Resource Provider now supports the EU Data Boundary, so...",
+      "blog": "Oracle on Azure",
+      "blogId": "oracleonazureblog",
+      "author": "RamKakani",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=oracleonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "What’s new for Oracle AI Database@Azure at Oracle AI World 2026",
+      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/what-s-new-for-oracle-ai-database-azure-at-oracle-ai-world-2026/ba-p/4567429",
+      "published": "2026-10-27T19:30:00+00:00",
+      "summary": "The newest wave of enhancements includes plans to bring Oracle AI Database@Azure to Microsoft Azure Government Cloud, new sovereign controls, like EU Data Boundary and Azure Policy support, and Proximity Placement Group. These new capabilities offer customers more control over where and how they...",
+      "blog": "Oracle on Azure",
+      "blogId": "oracleonazureblog",
+      "author": "KalyanKaki",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=oracleonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "[Launched] Generally Available: Cost management and tagging for Claude models in Microsoft Foundry",
@@ -133,6 +177,17 @@
       "author": "Jay Gordon",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "How Microsoft Intune team upgraded a .NET service with GitHub Copilot modernization",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-microsoft-intune-team-upgraded-a-net-service-with-github/ba-p/4566987",
+      "published": "2026-10-27T08:51:18+00:00",
+      "summary": "Microsoft's Customer Zero blog series gives an insider view of how Microsoft builds and operates Microsoft using our trusted, enterprise-grade platform. Learn best practices from our engineering teams through real-world lessons, architectural patterns, and operational strategies for building,...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "RamyaSharma",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Announcing the Workload Conformance Working Group",
@@ -3323,17 +3378,6 @@
       "author": "Matt Hernandez",
       "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Comparing Three Approaches to AI Agent Evaluation and Observability",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/comparing-three-approaches-to-ai-agent-evaluation-and/ba-p/4560833",
-      "published": "2026-09-29T18:25:14+00:00",
-      "summary": "Why evaluation and observability belong together Agent evaluation and observability answer two related questions: Is the agent producing the right result? What happened from the initial request through every model and tool call? Evaluation measures quality with repeatable scores (is our system...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "emiller635",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "[In preview] Public Preview: Azure Database for PostgreSQL Ultra Disk",
@@ -9947,17 +9991,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Project Pavilion Presence at KubeCon EU 2026",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/project-pavilion-presence-at-kubecon-eu-2026/ba-p/4515518",
-      "published": "2026-04-28T12:50:16+00:00",
-      "summary": "KubeCon + CloudNativeCon Europe 2026 took place from 23 to 26 March at RAI Amsterdam, and it was a strong one. The themes running through the week reflected where the cloud native community is right now: AI moving from experimentation into production, platform engineering continuing to mature, and...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "lexinadolski",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=linuxandopensourceblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "AI-Powered Downtime Investigation for Azure VMs: Automating Root Cause Analysis",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ai-powered-downtime-investigation-for-azure-vms-automating-root/ba-p/4513473",
       "published": "2026-04-24T18:35:28+00:00",
@@ -11784,5 +11817,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related post is actually a Visual Studio Code announcement: **VS Code 1.144 (Insiders)**. The key theme is continued rapid iteration in the editor’s preview channel, with updates centered on the **Visual Studio Code** developer experience and early access to upcoming IDE features; however, no broader set of Azure blog posts or additional Azure service announcements were included in the provided list."
+  "summary": "Today’s Azure-related blog activity is minimal, with the main post highlighting **Visual Studio Code 1.144 (Insiders)**. The announcement centers on the latest **VS Code Insiders** build, signaling upcoming developer productivity updates in Microsoft’s editor platform, though no broader Azure service launches or major cloud platform announcements are included in the provided list."
 }
