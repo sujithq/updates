@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-28T17:29:19.962980+00:00",
-  "totalArticles": 1076,
+  "lastUpdated": "2026-10-28T21:56:37.968202+00:00",
+  "totalArticles": 1075,
   "articles": [
     {
       "title": "Visual Studio Code 1.145 (Insiders)",
@@ -14,6 +14,61 @@
       "sourceType": "rss"
     },
     {
+      "title": "PostgreSQL to SQL Field Notes: Operational Statistics",
+      "link": "https://devblogs.microsoft.com/azure-sql/pg-to-sql-statistics/",
+      "published": "2026-10-28T18:47:53+00:00",
+      "summary": "Welcome to SQL First, welcome to SQL! You’re going to like this. I’ve said this before, but it’s still true: moving from PostgreSQL is real work, and depending on your old database, this process will vary widely in complexity. I am confident that you’re going to love the mindful and modern features...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "v1.17.1",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.1",
+      "published": "2026-10-28T18:02:22+00:00",
+      "summary": "1.17.1 (October 28, 2026) BUG FIXES: fmt: The original content of a file is now preserved if Terraform experiences an error writing to the original file. (#39303) Always evaluate module policies during destroy plan (#39455) stacks: report every policy result for a replaced resource instead of only...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure API Management v2: Restoring Predictable Outbound IP Addresses with NAT Gateway",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/azure-api-management-v2-restoring-predictable-outbound-ip/ba-p/4566574",
+      "published": "2026-10-28T18:01:05+00:00",
+      "summary": "Introduction A key consideration when deploying Azure API Management Standard v2 or Premium v2 is that outbound networking behavior differs from the classic tiers. This applies both when customers manually rebuild an existing solution on one of these tiers and when they create a new deployment...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "JPCalhau",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Announcing: Migrate Azure Container Apps logging destination from Log Analytics to Azure Monitor",
+      "link": "https://azure.microsoft.com/updates?id=577689",
+      "published": "2026-10-28T17:52:51+00:00",
+      "summary": "The Log Analytics logging destination for Azure Container Apps is now a legacy logging option. Existing environments configured with the Log Analytics logging destination will continue to function normally. However, we recommend planning a migration to th",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Cross Tenant Restore with Azure Backup",
+      "link": "https://azure.microsoft.com/updates?id=577117",
+      "published": "2026-10-28T17:09:30+00:00",
+      "summary": "Cross-Tenant Restore (CTR) helps organizations establish an independent recovery path by enabling Azure VM backups to be restored into a separate Azure tenant. It strengthens cyber resilience while using the existing backup copy, without requiring custome",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
       "title": "Visual Studio Code 1.144",
       "link": "https://code.visualstudio.com/updates/v1_144",
       "published": "2026-10-28T17:00:00+00:00",
@@ -22,6 +77,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Publish Visual Studio Marketplace extensions securely with Trusted Publishing",
+      "link": "https://devblogs.microsoft.com/blog/trusted-publishing-visual-studio-marketplace/",
+      "published": "2026-10-28T16:59:00+00:00",
+      "summary": "Publish Visual Studio Code and Visual Studio extensions from GitHub Actions or Azure Pipelines without storing a long-lived personal access token.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Lynn Dai",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -168,6 +234,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "GitHub Copilot in VS Code, Universe releases",
+      "link": "https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases",
+      "published": "2026-10-28T15:33:00+00:00",
+      "summary": "This year, we focused on giving you more choice in how you work with GitHub Copilot in Visual Studio Code: which models you use, where your agents run, and how… The post GitHub Copilot in VS Code, Universe releases appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Generate and edit images directly in Copilot",
       "link": "https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot",
       "published": "2026-10-28T15:30:55+00:00",
@@ -194,17 +271,6 @@
       "link": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available",
       "published": "2026-10-28T15:30:15+00:00",
       "summary": "GitHub Agentic Workflows, an open source project from GitHub Next, is now generally available. With agentic workflows, you can automate reasoning-based tasks like issue triage, CI failure analysis, documentation updates,… The post GitHub Agentic Workflows generally available appeared first on The...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Prioritize Dependabot alerts with reachability analysis",
-      "link": "https://github.blog/changelog/2026-10-28-prioritize-dependabot-alerts-with-reachability-analysis",
-      "published": "2026-10-28T15:30:00+00:00",
-      "summary": "Dependabot alerts can add up faster than a team can work through them. A vulnerable package in your dependency tree doesn’t always mean your code uses the vulnerable part of… The post Prioritize Dependabot alerts with reachability analysis appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -2712,7 +2778,7 @@
       "title": "PostgreSQL to SQL Field Notes: Connections",
       "link": "https://devblogs.microsoft.com/azure-sql/pg-to-sql-connections/",
       "published": "2026-10-06T16:39:17+00:00",
-      "summary": "Welcome to SQL First, welcome to SQL! You’re going to like this. Upgrading from PostgreSQL is real work, and depending on your old database, this process will vary widely in complexity. I am confident that you’re going to love the mindful and modern features of SQL. Take your time, make the most of...",
+      "summary": "Welcome to SQL First, welcome to SQL! You’re going to like this. Moving from PostgreSQL is real work, and depending on your old database, this process will vary widely in complexity. I am confident that you’re going to love the mindful and modern features of SQL. Take your time, make the most of...",
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
       "author": "Jerry Nixon",
@@ -3853,17 +3919,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "MSSQL Extension for VS Code: New Getting Started Page, Agent skills, SQL Formatter, and more",
-      "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-september2026/",
-      "published": "2026-09-28T17:27:53+00:00",
-      "summary": "Get started faster with common SQL workflows and resources in one place. The MSSQL extension for VS Code v1.46 introduces a new Getting Started page experience in Public Preview with quick actions, guided walkthroughs, dev container templates, and one-click installation of the latest Microsoft SQL...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Yo-Lei Chen",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[Launched] Generally Available: Luxembourg - Azure Extended Zones",
       "link": "https://azure.microsoft.com/updates?id=572968",
       "published": "2026-09-28T17:08:48+00:00",
@@ -4368,17 +4423,6 @@
       "author": "EldertGrootenboer",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Knowledge cutoff is a poor proxy for model capability",
-      "link": "https://devblogs.microsoft.com/blog/knowledge-cutoff-is-a-poor-proxy-for-model-capability/",
-      "published": "2026-09-21T07:51:46+00:00",
-      "summary": "A model can fail on features released before its knowledge cutoff, then succeed on ones released after it. We tested hundreds of product changes and found that the date tells you far less than the work does.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Beyond Cherry-Picking: Evaluating Text-to-Image Models",
@@ -5151,17 +5195,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "v1.17.0-beta1",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta1",
-      "published": "2026-09-09T17:13:24+00:00",
-      "summary": "1.17.0-beta1 (September 09, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements (#39153) A new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. (#35290) policy: Terraform Policy is now generally...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
-    },
-    {
       "title": "Visual Studio Code 1.137",
       "link": "https://code.visualstudio.com/updates/v1_137",
       "published": "2026-09-09T17:00:00+00:00",
@@ -5809,17 +5842,6 @@
       "author": "Microsoft",
       "feedUrl": "https://blog.aks.azure.com/rss.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Zonal redundancy in API management Standard v2",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/zonal-redundancy-in-api-management-standard-v2/ba-p/4550977",
-      "published": "2026-08-27T20:57:25+00:00",
-      "summary": "APIs are the backbone of modern applications, powering everything from mobile experiences and microservices to AI-driven applications and business-critical integrations. As customers continue to modernize their platforms on Azure, they increasingly expect their API infrastructure to remain...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Sreekanth_Thirthala",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Kubernetes v1.37: Metrics API graduates to stable",
@@ -7399,28 +7421,6 @@
       "link": "https://azure.microsoft.com/updates?id=567944",
       "published": "2026-07-28T16:54:22+00:00",
       "summary": "Managing ingress routing while adopting newer Kubernetes standards can require balancing modernization efforts with existing deployments. Application Routing with Gateway API is now generally available on AKS, bringing the Kubernetes Gateway API to ingres",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Resource placement in Azure Kubernetes Fleet Manager",
-      "link": "https://azure.microsoft.com/updates?id=567931",
-      "published": "2026-07-28T16:52:51+00:00",
-      "summary": "Managing Kubernetes resources across multiple clusters can require significant manual effort to apply updates and maintain consistency. Resource placement in Azure Kubernetes Fleet Manager is now generally available and enables platform and application te",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Maximum allowed failures for update runs in Azure Kubernetes Fleet Manager",
-      "link": "https://azure.microsoft.com/updates?id=567939",
-      "published": "2026-07-28T16:51:04+00:00",
-      "summary": "In fail-fast update rollouts, a small number of member cluster update failures can halt progress across a broader update deployment. Maximum Allowed Failures for update runs in Azure Kubernetes Fleet Manager, now available in preview, introduces an option",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -11826,18 +11826,7 @@
       "author": "Kyler Middleton",
       "feedUrl": "https://www.letsdodevops.com/feed",
       "sourceType": "rss"
-    },
-    {
-      "title": "Unlock Savings with Copilot Credit Pre-Purchase Plan",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/unlock-savings-with-copilot-credit-pre-purchase-plan/ba-p/4464511",
-      "published": "2025-10-27T21:53:23+00:00",
-      "summary": "Introduction As organizations scale their use of Microsoft Copilot Studio from building custom agents to integrating with Dynamics 365, cost predictability and optimization becomes critical. To help you plan confidently and save more, we’re introducing Copilot Credit Pre-Purchase Plan (P3)*, a...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "kyleikeda",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure- and Microsoft-cloud news was dominated by the rapid expansion of AI agents and developer tooling: Microsoft introduced the **Copilot harness in Foundry Agent Service**, while GitHub Universe 2026 brought a broad wave of **GitHub Copilot** updates including **Copilot Fusion** for model routing/orchestration, support for **local model selection**, **Agentic Workflows GA**, **Copilot Automations**, image generation/editing in Copilot, and **GitHub Enterprise now bundling Copilot**. The accompanying **Octoverse 2026** report underscored that developer activity is hitting new highs as teams increasingly build with agents, while security and governance were emphasized through the **Security extension for the GitHub Copilot app**, **Dependabot reachability analysis**, and Microsoft’s broader focus on the **CISO role in the agentic era**.\n\nOutside AI, the day also featured meaningful Azure platform and operations updates: **Visual Studio Code 1.144**, the new **Logic Apps local CLI** for terminal-based development of **Standard workflows**, an expanded **Microsoft Sentinel connector ecosystem with 500+ connectors**, **Azure SDK Release (October 2026)**, and **Azure Arc Automatic Agent Upgrade GA** to simplify Arc agent lifecycle management. Commercial and marketplace operations also advanced with **general availability of Marketplace private offer enhancements**, signaling continued investment in procurement, hybrid management, integration, and security across the Azure ecosystem."
+  "summary": "Today’s Azure-adjacent news was dominated by AI agents, developer productivity, and platform operations. Microsoft highlighted the new Copilot harness in Foundry Agent Service, GitHub Copilot Fusion for routing and orchestrating models, Copilot Automations and the GitHub Copilot app, while GitHub Universe/Octoverse emphasized rapid growth in agent-assisted development; on the tooling side, Visual Studio Code 1.144, secure Visual Studio Marketplace publishing via Trusted Publishing, Terraform v1.17.1, and the new Logic Apps local CLI all improve day-to-day developer workflows.\n\nOn the Azure platform side, the key announcements focused on enterprise reliability, observability, and governance: Azure API Management v2 can regain predictable outbound IPs using NAT Gateway, Azure Container Apps can migrate logging from Log Analytics to Azure Monitor, Azure Backup added cross-tenant restore in preview, and Azure Marketplace private offer enhancements reached general availability. Security and data themes also stood out, with Microsoft Sentinel expanding to 500+ connectors, guidance on PostgreSQL-to-Azure SQL operational statistics, and broader emphasis on defending organizations in an “agentic era.”"
 }
