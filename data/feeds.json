@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T21:56:37.968202+00:00",
+  "lastUpdated": "2026-10-29T03:02:02.237891+00:00",
   "totalArticles": 1075,
   "articles": [
     {
@@ -11,6 +11,28 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Introducing the Logic Apps local CLI: develop Standard workflows from your terminal",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/introducing-the-logic-apps-local-cli-develop-standard-workflows/ba-p/4567431",
+      "published": "2026-10-29T00:11:26+00:00",
+      "summary": "We're introducing the public preview of the Logic Apps Standard extension for the Azure command-line interface (CLI). It brings local project creation, connector discovery, connection configuration, runtime management, and execution diagnostics into az logicapp. Why a CLI for Logic Apps Standard?...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Preparing for Your Next Certification Could Start with Your Visual Studio Subscription",
+      "link": "https://devblogs.microsoft.com/visualstudio/preparing-for-your-next-certification-could-start-with-your-visual-studio-subscription/",
+      "published": "2026-10-28T22:30:00+00:00",
+      "summary": "Are you thinking about earning a Microsoft certification to help advance your career, build on your existing skills, or meet new requirements at work? If so, you may already be wondering where to start. Which courses, labs, and hands-on exercises will help you prepare? How much time will it take to...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "James Rempt",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
     },
     {
@@ -80,17 +102,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Publish Visual Studio Marketplace extensions securely with Trusted Publishing",
-      "link": "https://devblogs.microsoft.com/blog/trusted-publishing-visual-studio-marketplace/",
-      "published": "2026-10-28T16:59:00+00:00",
-      "summary": "Publish Visual Studio Code and Visual Studio extensions from GitHub Actions or Azure Pipelines without storing a long-lived personal access token.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Lynn Dai",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Introducing the Microsoft Copilot harness in Foundry Agent Service",
       "link": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
       "published": "2026-10-28T16:45:06+00:00",
@@ -133,17 +144,6 @@
       "author": "GitHub Staff",
       "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Introducing the Logic Apps local CLI: develop Standard workflows from your terminal",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/introducing-the-logic-apps-local-cli-develop-standard-workflows/ba-p/4567431",
-      "published": "2026-10-28T16:00:00+00:00",
-      "summary": "We're introducing the public preview of the Logic Apps Standard extension for the Azure command-line interface (CLI). It brings local project creation, connector discovery, connection configuration, runtime management, and execution diagnostics into az logicapp. Why a CLI for Logic Apps Standard?...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Growing our connector ecosystem with 500+ Microsoft Sentinel connectors",
@@ -4293,17 +4293,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Today I will… debug a production crash",
-      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-debug-a-production-crash/",
-      "published": "2026-09-22T17:05:25+00:00",
-      "summary": "We’ve all experienced this, the desktop application is hanging, the window is greyed out, and we’re just waiting for it to start to respond. Or we’re on a website and are sure that it was going to load faster than this, but we’re just waiting the loading icon spin around and around. These sorts of...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Aaron Powell",
-      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Using Azure Blob Storage as a durable filesystem for LangChain Deep Agents",
       "link": "https://devblogs.microsoft.com/azure-sdk/using-azure-blob-storage-as-a-durable-filesystem-for-langchain-deep-agents-2/",
       "published": "2026-09-22T15:00:44+00:00",
@@ -4423,6 +4412,17 @@
       "author": "EldertGrootenboer",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Knowledge cutoff is a poor proxy for model capability",
+      "link": "https://devblogs.microsoft.com/blog/knowledge-cutoff-is-a-poor-proxy-for-model-capability/",
+      "published": "2026-09-21T07:51:46+00:00",
+      "summary": "A model can fail on features released before its knowledge cutoff, then succeed on ones released after it. We tested hundreds of product changes and found that the date tells you far less than the work does.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Beyond Cherry-Picking: Evaluating Text-to-Image Models",
@@ -11828,5 +11828,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure-adjacent news was dominated by AI agents, developer productivity, and platform operations. Microsoft highlighted the new Copilot harness in Foundry Agent Service, GitHub Copilot Fusion for routing and orchestrating models, Copilot Automations and the GitHub Copilot app, while GitHub Universe/Octoverse emphasized rapid growth in agent-assisted development; on the tooling side, Visual Studio Code 1.144, secure Visual Studio Marketplace publishing via Trusted Publishing, Terraform v1.17.1, and the new Logic Apps local CLI all improve day-to-day developer workflows.\n\nOn the Azure platform side, the key announcements focused on enterprise reliability, observability, and governance: Azure API Management v2 can regain predictable outbound IPs using NAT Gateway, Azure Container Apps can migrate logging from Log Analytics to Azure Monitor, Azure Backup added cross-tenant restore in preview, and Azure Marketplace private offer enhancements reached general availability. Security and data themes also stood out, with Microsoft Sentinel expanding to 500+ connectors, guidance on PostgreSQL-to-Azure SQL operational statistics, and broader emphasis on defending organizations in an “agentic era.”"
+  "summary": "Today’s Azure blog coverage is focused on **developer productivity for Azure Logic Apps Standard** with the announcement of the new **Logic Apps local CLI**. The tool lets developers **create, run, debug, and test Logic Apps Standard workflows locally from the terminal**, streamlining inner-loop development and bringing a more code-centric, local-first experience to **integration workflows on Azure**."
 }
