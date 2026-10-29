@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T03:02:02.237891+00:00",
+  "lastUpdated": "2026-10-29T09:25:48.338485+00:00",
   "totalArticles": 1075,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Upgrade Azure CycleCloud Slurm Node OS Images Without Recreating the VM Scale Set",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/upgrade-azure-cyclecloud-slurm-node-os-images-without-recreating/ba-p/4568581",
+      "published": "2026-10-29T04:41:47+00:00",
+      "summary": "Overview Operating-system image updates in an Azure CycleCloud Slurm cluster are not the same as installing ordinary packages inside a running node. A CycleCloud Slurm node is typically an instance in an Azure Virtual Machine Scale Set (VMSS), and the VMSS model defines the image from which its OS...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "vinilv",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Introducing the Logic Apps local CLI: develop Standard workflows from your terminal",
@@ -10882,17 +10893,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure Recognized as an NVIDIA Cloud Exemplar, Setting the Bar for AI Performance in the Cloud",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/azure-recognized-as-an-nvidia-cloud-exemplar-setting-the-bar-for/ba-p/4495747",
-      "published": "2026-02-18T22:31:25+00:00",
-      "summary": "As AI models continue to scale in size and complexity, cloud infrastructure must deliver more than theoretical peak performance. What matters in practice is reliable, end-to-end, workload-level AI performance—where compute, networking, system software, and optimization work together to deliver...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "Fernando_Aznar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Navigating the 2025 holiday season: Insights into Azure’s DDoS defense",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/navigating-the-2025-holiday-season-insights-into-azure-s-ddos/ba-p/4495741",
       "published": "2026-02-18T20:30:34+00:00",
@@ -11828,5 +11828,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure blog coverage is focused on **developer productivity for Azure Logic Apps Standard** with the announcement of the new **Logic Apps local CLI**. The tool lets developers **create, run, debug, and test Logic Apps Standard workflows locally from the terminal**, streamlining inner-loop development and bringing a more code-centric, local-first experience to **integration workflows on Azure**."
+  "summary": "Today’s Azure updates focused on infrastructure flexibility and developer productivity. In High Performance Computing, Azure announced a way to upgrade Azure CycleCloud Slurm node OS images without recreating the underlying VM Scale Set, making it easier to patch or modernize Slurm-based HPC clusters with less disruption. Separately, in Integrations on Azure, Microsoft introduced the Logic Apps local CLI for developing Logic Apps Standard workflows from the terminal, enabling a more local, CLI-driven development experience for integration workflows."
 }
