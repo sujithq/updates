@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T22:04:16.625849+00:00",
+  "lastUpdated": "2026-10-30T03:05:37.967319+00:00",
   "totalArticles": 1074,
   "articles": [
     {
@@ -23,6 +23,17 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
+    },
+    {
+      "title": "Mistral Large 4 in Microsoft Foundry: Build sovereign AI within a consistent platform experience",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/mistral-large-4-in-microsoft-foundry-build-sovereign-ai-within-a/ba-p/4568546",
+      "published": "2026-10-29T17:46:28+00:00",
+      "summary": "What's launching Leading AI delivers more than model quality. For governments, critical infrastructure operators, financial institutions, healthcare organizations, and global enterprises, requirements for data control, deployment location, security, resilience, latency, and operational continuity...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "truptiparkar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Azure API Management v2: Restoring Predictable Outbound IP Addresses with NAT Gateway",
@@ -1651,17 +1662,6 @@
       "author": "Mads Kristensen",
       "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Building Permission-Aware Hosted Agents for SharePoint in Foundry Agent Service",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/building-permission-aware-hosted-agents-for-sharepoint-in/ba-p/4562526",
-      "published": "2026-10-19T14:00:00+00:00",
-      "summary": "Organizations increasingly publish agents to Microsoft Teams and Microsoft 365 Copilot that answer questions using internal knowledge sources. SharePoint is a very common source for this information; where many times access is different for every user. A finance employee, HR employee, and project...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "heenarefai",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Agents are your newest insiders. Security must move at their speed.",
@@ -11816,6 +11816,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure news centered on production AI, security, and infrastructure modernization. Microsoft highlighted **Azure MCP Server 3.0**, new **governed memory state** capabilities for production AI agents in **Microsoft/Azure AI Foundry**, and **BYO telephony for Voice Agents via SIP**, while security announcements included **GA of the HTTP DDoS ruleset for Azure Front Door Premium WAF**, **large OS disk encryption for Azure Confidential VM migrations**, and Microsoft’s research on **North Korean threat actors’ AI adoption** alongside recognition as a leader in **modern endpoint security**.\n\nOn the platform side, Azure emphasized more predictable and manageable operations with **Azure API Management v2 support for stable outbound IPs via NAT Gateway**, a new **Logic Apps local CLI** for terminal-based Standard workflow development, and **Azure CycleCloud** improvements for upgrading **Slurm node OS images** without rebuilding a VM Scale Set. Broader ecosystem updates included **Meta webhook IP ranges** in GitHub’s changelog, **Blazor** opening to **Syncfusion** open-source contributions, and Kubernetes community progress on **AI Conformance** under **SIG Architecture**."
+  ]
 }
