@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T03:05:37.967319+00:00",
+  "lastUpdated": "2026-10-30T11:44:21.297388+00:00",
   "totalArticles": 1074,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Hybrid Logic Apps - SQL as storage provider benchmarking",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hybrid-logic-apps-sql-as-storage-provider-benchmarking/ba-p/4567807",
+      "published": "2026-10-30T04:33:46+00:00",
+      "summary": "Key findings for technical decision makers Hybrid Logic Apps ran a high-volume, file-driven integration workload on deliberately modest on-premises hardware: one host shared by the cluster, file storage and SQL Server 2025. Across both 30-minute tests there were no failed runs, and the one-hour...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "praveensri",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "[Launched] Generally Available: Large OS Disk Encryption for Azure Confidential VM migrations",
@@ -628,17 +639,6 @@
       "author": "Microsoft",
       "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Hybrid Logic Apps - SQL as storage provider benchmarking",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hybrid-logic-apps-sql-as-storage-provider-benchmarking/ba-p/4567807",
-      "published": "2026-10-27T03:49:57+00:00",
-      "summary": "Key findings for technical decision makers Hybrid Logic Apps ran a high-volume, file-driven integration workload on deliberately modest on-premises hardware: one host shared by the cluster, file storage and SQL Server 2025. Across both 30-minute tests there were no failed runs, and the one-hour...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "praveensri",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Azure WAF custom rules for PHP2Shell mitigation",
@@ -11816,5 +11816,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage was focused on **Hybrid Logic Apps**, specifically a new post on **using SQL as the storage provider** and how it performs under benchmark testing. The key theme is operational flexibility for hybrid integration scenarios: Azure is highlighting **Logic Apps running in hybrid environments** with **SQL-backed state/storage**, emphasizing performance characteristics and giving customers more concrete guidance for architectures that extend beyond default storage options."
 }
