@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T17:18:29.581795+00:00",
+  "lastUpdated": "2026-10-30T21:44:00.051667+00:00",
   "totalArticles": 1074,
   "articles": [
     {
@@ -11,6 +11,28 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Everything released in October 2026 for Azure Developer CLI",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-october-2026/",
+      "published": "2026-10-30T19:02:14+00:00",
+      "summary": "The October recap for the Azure Developer CLI (`azd`). Preview service deployments before making changes, deploy to Container Apps express, remove stored environment values, and use extension-defined infrastructure providers in generated pipelines. Extension APIs gain stable contracts, and...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Kristen Womack",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Support database-level managed identity (including FIC) in Create Database Scoped Credential T-SQL",
+      "link": "https://azure.microsoft.com/updates?id=577491",
+      "published": "2026-10-30T17:16:27+00:00",
+      "summary": "With database-level managed identity in Azure SQL Database, you can use a user-assigned managed identity for each database to query files in Azure Blob Storage and Azure Data Lake Storage Gen2 through external tables and OPENROWSET. You can authenticate t",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
     },
     {
@@ -45,6 +67,17 @@
       "author": "vkokkengada",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
+      "published": "2026-10-30T16:11:44+00:00",
+      "summary": "Teams support impersonation led to remote access, malicious runtime execution, and Certificate Services abuse through authentication relay and Kerberos. The post From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Security Research, Sagar Patil, Jesse Birch and Tal Tzhori",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Bring Your Own Telephony to Voice Agents via SIP",
@@ -2673,17 +2706,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "3 lessons from frontier AI vulnerability research",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
-      "published": "2026-10-07T16:00:00+00:00",
-      "summary": "Read how How Microsoft Security's FORGE Lab is scaling vulnerability research from Windows to the Linux kernel. The post 3 lessons from frontier AI vulnerability research appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Taesoo Kim",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -7351,17 +7373,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Azure Sphere OS version 26.09 is now available for evaluation",
-      "link": "https://azure.microsoft.com/updates?id=568466",
-      "published": "2026-07-29T18:50:00+00:00",
-      "summary": "Azure Sphere OS version 26.09 RC1 is now available for evaluation in the Retail Eval feed. Whilst this release encompasses no customer-facing changes, it represents a major bump in Azure Sphere's underlying Linux kernel version as part of our long-term su",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "How the controller-runtime Cache Actually Works, and Why Your Controller Does Not Crash the API Server",
       "link": "https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/",
       "published": "2026-07-29T18:00:00+00:00",
@@ -9936,17 +9947,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure Developer CLI (azd) – April 2026",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-april-2026/",
-      "published": "2026-05-01T00:53:08+00:00",
-      "summary": "The Azure Developer CLI (azd) shipped five releases in April 2026. The biggest theme this month is multi-language hook support: write azd hooks in Python, JavaScript, TypeScript, or .NET alongside the existing Bash and PowerShell options. Here’s what’s in versions 1.23.14, 1.23.15, 1.24.0, 1.24.1,...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Kristen Womack",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "AHEAD helps us launch the Strategic Azure Storage Services Partner Program",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/ahead-helps-us-launch-the-strategic-azure-storage-services/ba-p/4516355",
       "published": "2026-05-01T00:49:28+00:00",
@@ -11817,5 +11817,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts focused on **enterprise AI agents, security/operations, and hybrid data/platform management**. On the AI side, Azure highlighted **Voice Agent in Azure AI Foundry** for quickly building personalized **voice + avatar agents** from enterprise knowledge, added **SIP-based Bring Your Own Telephony** integration, introduced **least-privilege tool access patterns for AI agents**, and showcased **Decision APIs** to improve “Work IQ” and decision orchestration.\n\nOn the platform and security side, Microsoft announced **Automatic Agent Upgrade for Azure Arc is now generally available** and new **Azure Advisor** guidance for monitoring Arc agent health, while **Microsoft Sentinel’s October 2026 updates** delivered the latest SIEM/SOAR enhancements. Azure also published deeper technical content on whether **Azure SQL Database Hyperscale** qualifies as “distributed SQL,” and benchmarked **Hybrid Logic Apps using SQL as the storage provider**, underscoring continued investment in hybrid integration and large-scale cloud data architectures."
+  "summary": "Today’s Azure posts were dominated by AI agent and security/platform management updates: Azure AI Foundry introduced **Voice Agent** for quickly building enterprise voice-and-avatar agents, **SIP-based Bring Your Own Telephony** for connecting those agents to existing phone systems, **Decision APIs** to improve “Work IQ,” and guidance on **least-privilege tool access for AI agents** in Microsoft Foundry. On the data side, Azure highlighted **public preview support for database-level managed identity and federated identity credentials (FIC) in `CREATE DATABASE SCOPED CREDENTIAL` T-SQL**, plus a technical discussion of whether **Azure SQL Database Hyperscale** qualifies as “distributed SQL.”\n\nOperations and security were also major themes: **Azure Arc Automatic Agent Upgrade** reached **general availability** and **Azure Advisor** now helps track Arc agent health, while **Microsoft Sentinel’s October 2026** roundup covered the latest SIEM/SOAR enhancements. Microsoft Security also published a deep-dive on **Active Directory Certificate Services abuse paths (ESC1 and ESC8)**, and developer tooling got attention with the **October 2026 Azure Developer CLI** release and a **Hybrid Logic Apps SQL storage provider benchmarking** post."
 }
