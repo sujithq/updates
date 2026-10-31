@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-31T15:01:11.985326+00:00",
-  "totalArticles": 1074,
+  "lastUpdated": "2026-10-31T19:08:22.049330+00:00",
+  "totalArticles": 1073,
   "articles": [
     {
       "title": "Visual Studio Code 1.145 (Insiders)",
@@ -11804,18 +11804,7 @@
       "author": "VS Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Smarter Cloud, Smarter Spend: How Azure Powers Cost-Efficient Innovation",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/smarter-cloud-smarter-spend-how-azure-powers-cost-efficient/ba-p/4465687",
-      "published": "2025-10-30T17:05:07+00:00",
-      "summary": "In today’s dynamic business environment, organizations are under pressure to innovate rapidly while managing costs effectively. The cloud, especially with AI at the forefront, is driving transformation across industries. But with rising cloud spend and economic uncertainty, cost efficiency has...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "kyleikeda",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on cost/performance tradeoffs for running Qwen3.8 models across Azure and edge hardware, plus a notable security threat report. The Apps on Azure pieces tested **Qwen3.8-27B** and **Qwen3.8-Flash-Next** on **Azure Spot VMs with NVIDIA H100 GPUs**—including a low-cost **$2 H100 setup** and a **dual-H100 configuration**—and also showed **Qwen3.8-27B** running locally on a **Lenovo laptop with RTX Spark** while being observed through **Azure Monitor**.\n\nOn the security side, Microsoft detailed a **malicious Claude Code-branded extension** that installs a **persistent SSH backdoor**, underscoring ongoing software supply-chain and developer-tooling risks. Overall, the day’s themes were **practical AI deployment economics, hybrid local/Azure observability, and extension-based security threats**."
+  "summary": "Today’s Azure posts centered on practical AI deployment and security: three Apps on Azure articles benchmarked Alibaba’s Qwen3.8 models—Qwen3.8-27B and Qwen3.8-Flash-Next—across low-cost Azure Spot VMs with NVIDIA H100 GPUs and even a Lenovo laptop using RTX Spark, with Azure Monitor highlighted for observability. The key announcements were about cost/performance tradeoffs for running frontier LLMs on Azure infrastructure, while Microsoft’s Security Blog warned about a malicious Claude Code–themed extension that installs a persistent SSH backdoor, underscoring software supply chain and developer environment risks."
 }
