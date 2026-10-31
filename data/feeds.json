@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T09:00:30.721146+00:00",
+  "lastUpdated": "2026-10-31T15:01:11.985326+00:00",
   "totalArticles": 1074,
   "articles": [
     {
@@ -11817,5 +11817,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure posts centered on two big themes: cost-efficient AI deployment and AI-adjacent security risk. On the apps side, Azure highlighted running Alibaba’s Qwen3.8 models in multiple environments—including Qwen3.8-27B on a low-cost H100 Azure Spot VM, Qwen3.8-Flash-Next across dual H100s, and even Qwen3.8-27B locally on a Lenovo laptop with RTX Spark while monitoring telemetry in Azure Monitor—showing a strong focus on practical performance, price/performance tradeoffs, and observability.\n\nOn the security side, Microsoft detailed a malicious Claude Code-branded extension that installed a persistent SSH backdoor, underscoring growing threats in the developer tooling and AI extension ecosystem. Together, the posts show Azure pushing accessible generative AI experimentation across cloud and edge hardware while warning that AI-related tooling can also become a serious attack vector."
+  "summary": "Today’s Azure posts centered on cost/performance tradeoffs for running Qwen3.8 models across Azure and edge hardware, plus a notable security threat report. The Apps on Azure pieces tested **Qwen3.8-27B** and **Qwen3.8-Flash-Next** on **Azure Spot VMs with NVIDIA H100 GPUs**—including a low-cost **$2 H100 setup** and a **dual-H100 configuration**—and also showed **Qwen3.8-27B** running locally on a **Lenovo laptop with RTX Spark** while being observed through **Azure Monitor**.\n\nOn the security side, Microsoft detailed a **malicious Claude Code-branded extension** that installs a **persistent SSH backdoor**, underscoring ongoing software supply-chain and developer-tooling risks. Overall, the day’s themes were **practical AI deployment economics, hybrid local/Azure observability, and extension-based security threats**."
 }
