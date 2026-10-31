@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T02:52:22.335645+00:00",
+  "lastUpdated": "2026-10-31T09:00:30.721146+00:00",
   "totalArticles": 1074,
   "articles": [
     {
@@ -12,6 +12,39 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Qwen3.8-27B on a $2 H100 Azure Spot VM: does it pay off?",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-2-h100-azure-spot-vm-does-it-pay-off/ba-p/4563387",
+      "published": "2026-10-31T06:03:11+00:00",
+      "summary": "For three hours on the morning of October 9, a single H100 in Azure served 1,434 requests to Qwen3.8-27B: 168.7 million input tokens in, 1.27 million output tokens out. At a public list price for this model that day ($0.425 per million input tokens, $0.085 per million cached input tokens and $2.55...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Qwen3.8-Flash-Next on two H100s in an Azure Spot VM",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-flash-next-on-two-h100s-in-an-azure-spot-vm/ba-p/4563893",
+      "published": "2026-10-31T06:03:06+00:00",
+      "summary": "With 150,000 tokens of context, one request to Qwen3.8-Flash-Next decoded at about 200 tokens a second, and its first token arrived in under a second, because 95% of the prompt came from the cache. That held while the agents kept up to five requests running at once. At seven, one request in twenty...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Qwen3.8-27B on a Lenovo laptop: run it on RTX Spark, watch it in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-lenovo-laptop-run-it-on-rtx-spark-watch-it-in/ba-p/4567828",
+      "published": "2026-10-31T04:56:48+00:00",
+      "summary": "Updated October 30, 2026: the sample now runs vLLM 0.32 with async scheduling, 14% more decode steps a second on the code benchmark, and the memory bandwidth figure is corrected. See the update at the end. In an earlier post I served Qwen3.8-27B from an H100 in Azure. The same model also runs on a...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
@@ -47,6 +80,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Turn enterprise knowledge into a personalized voice and avatar agent in minutes with Voice Agent",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/turn-enterprise-knowledge-into-a-personalized-voice-and-avatar/ba-p/4564809",
+      "published": "2026-10-30T17:00:00+00:00",
+      "summary": "A customer asks how a product works, then follows up: “Can you give me an example?” They need a useful explanation based on your product documentation, without searching through pages of information. Now imagine that conversation delivered in a voice and with a face that represent your brand. Voice...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "YufangQin",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Is Azure SQL Database Hyperscale “distributed SQL”?",
       "link": "https://devblogs.microsoft.com/azure-sql/is-azure-sql-database-hyperscale-distributed-sql/",
       "published": "2026-10-30T16:52:56+00:00",
@@ -58,6 +102,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "What’s new in Microsoft Sentinel: October 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-october-2026/ba-p/4568804",
+      "published": "2026-10-30T16:44:57+00:00",
+      "summary": "Welcome back to What's new in Microsoft Sentinel. In October, cross-tenant delegated access reaches general availability so you can run security operations across tenants with least privilege, the Advanced Security Information Model (ASIM) EmailEvent schema gives you one consistent structure for...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "vkokkengada",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
       "published": "2026-10-30T16:11:44+00:00",
@@ -67,6 +122,17 @@
       "author": "Microsoft Security Research, Sagar Patil, Jesse Birch and Tal Tzhori",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Bring Your Own Telephony to Voice Agents via SIP",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/bring-your-own-telephony-to-voice-agents-via-sip/ba-p/4562702",
+      "published": "2026-10-30T16:07:09+00:00",
+      "summary": "Voice agents in Microsoft Foundry give developers an integrated way to build intelligent, natural voice experiences, bringing together models, agent capabilities, tools, and the platform capabilities needed to move from experimentation to production. Foundry continuously expands channel integration...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "ArcherZ",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Simplify Azure Arc agent updates with Automatic Agent Upgrade, now generally available",
@@ -88,6 +154,28 @@
       "blogId": "azurearcblog",
       "author": "yunishussein",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Designing Least-Privilege Tool Access for AI Agents with Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/designing-least-privilege-tool-access-for-ai-agents-with/ba-p/4567029",
+      "published": "2026-10-30T16:00:00+00:00",
+      "summary": "An AI agent does not need broad access because it might need a tool. It needs the smallest permission set required for the current task, under the correct identity, with a decision trail that explains every allow or deny. That distinction matters. A prompt can tell an agent not to delete data, but...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Abhishek Kumar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Hypercharging Work IQ with Decision APIs",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/hypercharging-work-iq-with-decision-apis/ba-p/4562938",
+      "published": "2026-10-30T14:00:00+00:00",
+      "summary": "The pattern in this post: a Decision API picks the Work IQ tool before it runs. In short A Decision API picks the Work IQ tool (fetch, retrieve or ask) before anything runs, then checks the result. \"Who is my manager?\" took 20 to 25 seconds with ask and 1.3 seconds with fetch, with the same answer....",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "hieunhu",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -166,17 +254,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Bring Your Own Telephony to Voice Agents via SIP",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/bring-your-own-telephony-to-voice-agents-via-sip/ba-p/4562702",
-      "published": "2026-10-29T16:20:09+00:00",
-      "summary": "Voice agents in Microsoft Foundry give developers an integrated way to build intelligent, natural voice experiences, bringing together models, agent capabilities, tools, and the platform capabilities needed to move from experimentation to production. Foundry continuously expands channel integration...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "ArcherZ",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Tracking AI adoption in North Korean threat actor tradecraft",
@@ -726,17 +803,6 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "shrutikakade",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Qwen3.8-27B on a Lenovo laptop: run it on RTX Spark, watch it in Azure Monitor",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-lenovo-laptop-run-it-on-rtx-spark-watch-it-in/ba-p/4567828",
-      "published": "2026-10-26T18:52:23+00:00",
-      "summary": "In an earlier post I served Qwen3.8-27B from an H100 in Azure. The same model also runs on a laptop: the Lenovo Yoga 9n 2-in-1 (16\", 11) with NVIDIA's RTX Spark N1X and 64 GB of unified memory. On a short code-generation benchmark it decodes 44.7 tokens a second for one request, and it holds the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Wuyi_Weng",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -1807,17 +1873,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Muse Spark Open is available in Microsoft Foundry Models",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/muse-spark-open-is-available-in-microsoft-foundry-models/ba-p/4564585",
-      "published": "2026-10-16T16:46:17+00:00",
-      "summary": "Building useful coding agents takes more than generating code. Agents need to analyze an existing codebase, work across files and dependencies, use tools reliably, and keep making progress as a task evolves. Muse Spark Open, a coding-optimized open-weight model from Meta, is available today in...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "MaheshBalachandran",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Managing open-weight model risk in enterprise deployments",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
       "published": "2026-10-16T16:00:00+00:00",
@@ -2071,17 +2126,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "GPT-chat-latest gets more intelligent, interactive, and personal in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-chat-latest-gets-more-intelligent-interactive-and-personal/ba-p/4564574",
-      "published": "2026-10-14T21:24:46+00:00",
-      "summary": "What if a conversational AI could respond with an interactive chart instead of a wall of text and start delivering useful information before the full answer is even ready? GPT-chat-latest in Microsoft Foundry now makes both possible. This update brings GPT-6-level intelligence to conversational and...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "truptiparkar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Azure MCP Server 3.0 stable release: More tools. More possibilities",
       "link": "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-3-0-stable-release/",
       "published": "2026-10-14T20:35:34+00:00",
@@ -2280,17 +2324,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Which Reflection Model Should Power your Agent Optimizer?",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/which-reflection-model-should-power-your-agent-optimizer/ba-p/4562671",
-      "published": "2026-10-13T17:00:00+00:00",
-      "summary": "Authors: Priyanka Paul, Abi Komma, Charles Kim, Luffy Chen, Morteza Ziyadi Agent optimizer in Foundry Agent Service automatically improves prompt agents and hosted agents by evaluating their behavior and generating candidate configurations. Depending on the agent type, it can improve instructions,...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "priyankapaul",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Microsoft at OCP Global Summit 2026",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/microsoft-at-ocp-global-summit-2026/ba-p/4562337",
       "published": "2026-10-13T16:28:02+00:00",
@@ -2357,17 +2390,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Qwen3.8-Flash-Next on two H100s in an Azure Spot VM",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-flash-next-on-two-h100s-in-an-azure-spot-vm/ba-p/4563893",
-      "published": "2026-10-12T17:05:45+00:00",
-      "summary": "With 150,000 tokens of context, one request to Qwen3.8-Flash-Next decoded at about 200 tokens a second, and its first token arrived in under a second, because 95% of the prompt came from the cache. That held while the agents kept up to five requests running at once. At seven, one request in twenty...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Wuyi_Weng",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Durable Task in the Real World: What Problems Does It Actually Solve?",
       "link": "https://devblogs.microsoft.com/dotnet/durable-task-in-the-real-world/",
       "published": "2026-10-12T16:30:00+00:00",
@@ -2377,17 +2399,6 @@
       "author": "Tamir Dresher",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Qwen3.8-27B on a $2 H100 Azure Spot VM: does it pay off?",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-2-h100-azure-spot-vm-does-it-pay-off/ba-p/4563387",
-      "published": "2026-10-10T07:27:28+00:00",
-      "summary": "For three hours on the morning of October 9, a single H100 in Azure served 1,434 requests to Qwen3.8-27B: 168.7 million input tokens in, 1.27 million output tokens out. At a public list price for this model that day ($0.425 per million input tokens, $0.085 per million cached input tokens and $2.55...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Wuyi_Weng",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "From Form to Action: A Governed, Event-Driven AI Intake Pipeline with Azure Integration Services",
@@ -8143,17 +8154,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "The governance shift: RBAC, URBAC, data lake, and MSSP",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/the-governance-shift-rbac-urbac-data-lake-and-mssp/ba-p/4528607",
-      "published": "2026-06-25T20:11:19+00:00",
-      "summary": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl Governance is the silent dependency every transition trips on. Read about how roles, data tiering, and multi-tenant operations evolve in Defender, and why each change unlocks something your old model could not. Detection...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Mohit_Kumar1",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Inspect Volcano workloads faster with Headlamp",
       "link": "https://kubernetes.io/blog/2026/06/25/visual-context-volcano-headlamp-plugin/",
       "published": "2026-06-25T20:00:00+00:00",
@@ -11817,5 +11817,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Microsoft’s Security Blog today highlights a malicious **Claude Code–branded Visual Studio Code extension** that installs a **persistent SSH backdoor**, underscoring growing software supply chain and developer-tooling threats. The post focuses on how the extension abuses trust in AI/developer ecosystems, detailing persistence and remote access techniques, and reinforces the need for tighter vetting of **VS Code extensions**, stronger endpoint monitoring, and defensive controls around **SSH** and developer environments."
+  "summary": "Today’s Azure posts centered on two big themes: cost-efficient AI deployment and AI-adjacent security risk. On the apps side, Azure highlighted running Alibaba’s Qwen3.8 models in multiple environments—including Qwen3.8-27B on a low-cost H100 Azure Spot VM, Qwen3.8-Flash-Next across dual H100s, and even Qwen3.8-27B locally on a Lenovo laptop with RTX Spark while monitoring telemetry in Azure Monitor—showing a strong focus on practical performance, price/performance tradeoffs, and observability.\n\nOn the security side, Microsoft detailed a malicious Claude Code-branded extension that installed a persistent SSH backdoor, underscoring growing threats in the developer tooling and AI extension ecosystem. Together, the posts show Azure pushing accessible generative AI experimentation across cloud and edge hardware while warning that AI-related tooling can also become a serious attack vector."
 }
