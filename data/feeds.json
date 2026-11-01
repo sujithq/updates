@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T02:44:44.191158+00:00",
+  "lastUpdated": "2026-11-01T09:50:12.231545+00:00",
   "totalArticles": 1073,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Building Secure, Ephemeral GitHub Actions Runners on Azure Container Apps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-secure-ephemeral-github-actions-runners-on-azure/ba-p/4569209",
+      "published": "2026-11-01T07:35:00+00:00",
+      "summary": "A practical architecture using KEDA autoscaling, GitHub App authentication, private Key Vault access, Microsoft Container Registry, and GitHub OIDC Implementation guide and field learnings What this architecture delivers · A repository-scoped runner that exists only for one workflow · Automatic...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ibrahimbaig",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Qwen3.8-27B on a $2 H100 Azure Spot VM: does it pay off?",
@@ -6482,17 +6493,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Beyond Deployment: What It Really Takes to Run GitHub Actions Runners on AKS",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/beyond-deployment-what-it-really-takes-to-run-github-actions/ba-p/4547638",
-      "published": "2026-08-18T06:44:57+00:00",
-      "summary": "A Successful Demo Is Not a Production Platform Getting GitHub Actions runners working on Azure Kubernetes Service (AKS) with Actions Runner Controller (ARC) is relatively straightforward. Within a short time, you can deploy ARC, register a runner scale set, and execute workflows successfully....",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "aparnabadireddigari",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "[In preview] Public Preview: Zone redundancy for Azure SQL Managed Instance Next-gen General Purpose",
       "link": "https://azure.microsoft.com/updates?id=568344",
       "published": "2026-08-17T19:54:52+00:00",
@@ -11805,5 +11805,6 @@
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog highlights a security-focused DevOps pattern: running **ephemeral GitHub Actions self-hosted runners** on **Azure Container Apps** so each CI/CD job gets a short-lived, isolated execution environment. The post emphasizes tighter security and operational simplicity for GitHub Actions on Azure by combining **Azure Container Apps** with automated runner lifecycle management, reducing persistent runner risk while supporting scalable build and deployment workflows."
 }
