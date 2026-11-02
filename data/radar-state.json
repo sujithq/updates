@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T14:30:23.173201+00:00",
+  "lastUpdated": "2026-11-02T17:23:15.905405+00:00",
   "features": {
     "Azure SQL mid-March 2026 updates": {
       "status": "ga",
@@ -442,12 +442,12 @@
       "published": "2026-03-23T21:10:57+00:00"
     },
     "Automatic Agent Upgrade": {
-      "status": "preview",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/run-the-latest-azure-arc-agent-with-automatic-agent-upgrade/ba-p/4508535",
-      "title": "Run the latest Azure Arc agent with Automatic Agent Upgrade (Public Preview)",
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/simplify-azure-arc-agent-updates-with-automatic-agent-upgrade/ba-p/4568413",
+      "title": "Simplify Azure Arc agent updates with Automatic Agent Upgrade, now generally available",
       "service": "Azure Arc",
-      "lastSeen": "2026-04-06T08:54:40.391482+00:00",
-      "published": "2026-04-03T19:30:06+00:00"
+      "lastSeen": "2026-11-02T17:23:15.905361+00:00",
+      "published": "2026-10-30T16:00:22+00:00"
     },
     "Network Security Perimeter for Azure Service Bus": {
       "status": "ga",
@@ -5394,12 +5394,12 @@
       "published": "2026-09-02T18:14:16+00:00"
     },
     "Profile and route level WAF policies": {
-      "status": "preview",
-      "link": "https://azure.microsoft.com/updates?id=569804",
-      "title": "[In preview] Public Preview: Azure Front Door profile and route level WAF policies",
-      "service": "Azure Front Door",
-      "lastSeen": "2026-09-07T13:39:07.145926+00:00",
-      "published": "2026-09-02T17:00:51+00:00"
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=578153",
+      "title": "[Launched] Generally Available: Azure Front Door profile and route level WAF policies",
+      "service": "Azure Front Door Premium WAF",
+      "lastSeen": "2026-11-02T17:23:15.905396+00:00",
+      "published": "2026-10-27T16:58:04+00:00"
     },
     "Reader endpoint": {
       "status": "preview",
@@ -6560,6 +6560,150 @@
       "service": "Azure Monitor",
       "lastSeen": "2026-10-26T14:30:23.173195+00:00",
       "published": "2026-10-19T17:58:01+00:00"
+    },
+    "Database-level managed identity in Create Database Scoped Credential T-SQL": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=577491",
+      "title": "[In preview] Public Preview: Support database-level managed identity (including FIC) in Create Database Scoped Credential T-SQL",
+      "service": "Azure SQL Database",
+      "lastSeen": "2026-11-02T17:23:15.905348+00:00",
+      "published": "2026-10-30T17:16:27+00:00"
+    },
+    "Cross-tenant delegated access": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-october-2026/ba-p/4568804",
+      "title": "What’s new in Microsoft Sentinel: October 2026",
+      "service": "Microsoft Sentinel",
+      "lastSeen": "2026-11-02T17:23:15.905358+00:00",
+      "published": "2026-10-30T16:44:57+00:00"
+    },
+    "Large OS Disk Encryption": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=578850",
+      "title": "[Launched] Generally Available: Large OS Disk Encryption for Azure Confidential VM migrations",
+      "service": "Azure Confidential VM",
+      "lastSeen": "2026-11-02T17:23:15.905368+00:00",
+      "published": "2026-10-29T21:19:52+00:00"
+    },
+    "HTTP DDoS ruleset": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=578681",
+      "title": "[Launched] Generally Available: HTTP DDoS ruleset for Azure Front Door Premium WAF",
+      "service": "Azure Front Door Premium WAF",
+      "lastSeen": "2026-11-02T17:23:15.905371+00:00",
+      "published": "2026-10-29T17:09:49+00:00"
+    },
+    "Azure MCP Server 3.0": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=578662",
+      "title": "[Launched] Generally Available: Azure MCP Server 3.0",
+      "service": "Azure MCP Server",
+      "lastSeen": "2026-11-02T17:23:15.905373+00:00",
+      "published": "2026-10-29T17:04:58+00:00"
+    },
+    "Logic Apps Standard CLI extension": {
+      "status": "preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/introducing-the-logic-apps-local-cli-develop-standard-workflows/ba-p/4567431",
+      "title": "Introducing the Logic Apps local CLI: develop Standard workflows from your terminal",
+      "service": "Azure Logic Apps",
+      "lastSeen": "2026-11-02T17:23:15.905375+00:00",
+      "published": "2026-10-29T00:11:26+00:00"
+    },
+    "Cross-Tenant Restore": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=577117",
+      "title": "[In preview] Public Preview: Cross Tenant Restore with Azure Backup",
+      "service": "Azure Backup",
+      "lastSeen": "2026-11-02T17:23:15.905377+00:00",
+      "published": "2026-10-28T17:09:30+00:00"
+    },
+    "Marketplace private offer enhancements": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=576547",
+      "title": "[Launched] Generally Available: Marketplace private offer enhancements",
+      "service": "Microsoft Marketplace",
+      "lastSeen": "2026-11-02T17:23:15.905379+00:00",
+      "published": "2026-10-28T16:23:43+00:00"
+    },
+    "GitHub Copilot Fusion": {
+      "status": "ga",
+      "link": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion",
+      "title": "Route and orchestrate models with GitHub Copilot Fusion",
+      "service": "GitHub Copilot",
+      "lastSeen": "2026-11-02T17:23:15.905381+00:00",
+      "published": "2026-10-28T16:00:00+00:00"
+    },
+    "GitHub security extension": {
+      "status": "preview",
+      "link": "https://github.blog/changelog/2026-10-28-security-extension-for-the-github-copilot-app",
+      "title": "Security extension for the GitHub Copilot app",
+      "service": "GitHub Copilot",
+      "lastSeen": "2026-11-02T17:23:15.905382+00:00",
+      "published": "2026-10-28T15:45:00+00:00"
+    },
+    "Repository plugin defaults": {
+      "status": "ga",
+      "link": "https://github.blog/changelog/2026-10-28-repository-plugin-defaults-and-enterprise-plugin-controls-generally-available",
+      "title": "Repository plugin defaults and enterprise plugin controls generally available",
+      "service": "GitHub Copilot",
+      "lastSeen": "2026-11-02T17:23:15.905384+00:00",
+      "published": "2026-10-28T15:33:00+00:00"
+    },
+    "Enterprise-managed plugin controls": {
+      "status": "ga",
+      "link": "https://github.blog/changelog/2026-10-28-repository-plugin-defaults-and-enterprise-plugin-controls-generally-available",
+      "title": "Repository plugin defaults and enterprise plugin controls generally available",
+      "service": "GitHub Copilot",
+      "lastSeen": "2026-11-02T17:23:15.905389+00:00",
+      "published": "2026-10-28T15:33:00+00:00"
+    },
+    "Higher Azure Blob Storage account quota per region per subscription": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=578358",
+      "title": "[Launched] Generally Available: Higher limit of Azure Blob Storage accounts per region per subscription",
+      "service": "Azure Blob Storage",
+      "lastSeen": "2026-11-02T17:23:15.905390+00:00",
+      "published": "2026-10-27T21:16:52+00:00"
+    },
+    "Proximity Placement Groups integration": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/bringing-azure-applications-closer-to-oracle-ai-database-azure/ba-p/4567806",
+      "title": "Bringing Azure Applications Closer to Oracle AI Database@Azure with Proximity Placement Groups",
+      "service": "Oracle AI Database@Azure",
+      "lastSeen": "2026-11-02T17:23:15.905393+00:00",
+      "published": "2026-10-27T19:30:00+00:00"
+    },
+    "Cost management and tagging for Claude models": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=577260",
+      "title": "[Launched] Generally Available: Cost management and tagging for Claude models in Microsoft Foundry",
+      "service": "Microsoft Foundry",
+      "lastSeen": "2026-11-02T17:23:15.905394+00:00",
+      "published": "2026-10-27T17:19:43+00:00"
+    },
+    "MAI-Image-2.6": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/mai-image-2-6-and-mai-image-2-6-flash-are-now-generally/ba-p/4566327",
+      "title": "MAI-Image-2.6 and MAI-Image-2.6-Flash are now generally available in Microsoft Foundry",
+      "service": "Microsoft Foundry",
+      "lastSeen": "2026-11-02T17:23:15.905399+00:00",
+      "published": "2026-10-27T15:00:00+00:00"
+    },
+    "MAI-Image-2.6-Flash": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/mai-image-2-6-and-mai-image-2-6-flash-are-now-generally/ba-p/4566327",
+      "title": "MAI-Image-2.6 and MAI-Image-2.6-Flash are now generally available in Microsoft Foundry",
+      "service": "Microsoft Foundry",
+      "lastSeen": "2026-11-02T17:23:15.905401+00:00",
+      "published": "2026-10-27T15:00:00+00:00"
+    },
+    "GPT-6.1 Terra": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-6-1-terra-now-generally-available-in-microsoft-foundry-build/ba-p/4567769",
+      "title": "GPT-6.1 Terra now generally available in Microsoft Foundry: build agents that see and act",
+      "service": "Microsoft Foundry",
+      "lastSeen": "2026-11-02T17:23:15.905403+00:00",
+      "published": "2026-10-26T18:31:26+00:00"
     }
   }
 }
