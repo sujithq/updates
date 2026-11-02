@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T10:09:18.013873+00:00",
+  "lastUpdated": "2026-11-02T20:56:29.755591+00:00",
   "totalArticles": 1073,
   "articles": [
     {
@@ -11,6 +11,182 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: On-prem NAS share discovery and assessment are now available using Azure Migrate",
+      "link": "https://azure.microsoft.com/updates?id=577975",
+      "published": "2026-11-02T19:37:11+00:00",
+      "summary": "Azure Migrate now supports discovery and assessment for network-attached storage, allowing customers and partners to plan migrations of Dell PowerScale (OneFS) and NetApp ONTAP storage to Azure. The Azure Migrate appliance connects directly to your NAS cl",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Retirement: OT security in Microsoft Defender for IoT",
+      "link": "https://azure.microsoft.com/updates?id=576255",
+      "published": "2026-11-02T19:22:28+00:00",
+      "summary": "This is the formal notice that Microsoft plans to deprecate the operational technology (OT) security component of Microsoft Defender for IoT. The service will be fully deprecated in October 2029, following a three-year transition period.This change applie",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Change from virtual network integration to a private endpoint capable network configuration in Azure Database for PostgreSQL flexible server",
+      "link": "https://azure.microsoft.com/updates?id=574541",
+      "published": "2026-11-02T19:20:33+00:00",
+      "summary": "You now have greater flexibility in network design for Azure Database for PostgreSQL Flexible Server workloads. Now you can change existing VNet-integrated servers from delegated-subnet networking to a private endpoint-capable configuration, enabling secu",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Retirement: Azure Fluid Relay",
+      "link": "https://azure.microsoft.com/updates?id=570498",
+      "published": "2026-11-02T19:01:41+00:00",
+      "summary": "On February 2, 2027, we will retire Azure Fluid Relay. After this date, Azure Fluid Relay will reach end of availability, and workloads that continue to depend on the service may experience disruption.The Fluid Framework remains available as an open-sourc",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Protect against Brotli CVE-2026-111497 with Azure Web Application Firewall (WAF)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/protect-against-brotli-cve-2026-111497-with-azure-web/ba-p/4567288",
+      "published": "2026-11-02T18:53:26+00:00",
+      "summary": "Google Brotli versions 1.0.3 through 1.2.0 contain a buffer overflow vulnerability in the Brotli decoder, according to the recently published CVE-2026-111497. A remote, unauthenticated attacker can send a crafted Brotli-compressed stream to corrupt decoder memory, expose sensitive memory contents,...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "yuvalpery",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Storage Actions adds automatic task updates, execution controls, and case-sensitive matching",
+      "link": "https://azure.microsoft.com/updates?id=578628",
+      "published": "2026-11-02T18:34:01+00:00",
+      "summary": "Azure Storage Actions is introducing three enhancements to simplify task management and give you more control over automated data operations across Azure Blob and Data Lake Storage:Automatic propagation of task definition updates: When you update a storag",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Restart databases in Azure SQL DB via the Azure portal",
+      "link": "https://azure.microsoft.com/updates?id=577992",
+      "published": "2026-11-02T18:02:48+00:00",
+      "summary": "You can now restart or fail over databases directly from the Azure portal, including single databases, Hyperscale databases, and databases in elastic pools, without writing scripts against the Rest API or contacting support. Learn more.",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Geo-Replication on partitioned namespaces for Azure Service Bus Premium",
+      "link": "https://azure.microsoft.com/updates?id=579021",
+      "published": "2026-11-02T18:00:51+00:00",
+      "summary": "Geo-Replication on partitioned namespaces for Azure Service Bus Premium is now generally available. You can now combine the throughput benefits of partitioning with the reliability of replicating your messages and metadata to a secondary Azure region. Par",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Site Recovery for Azure Local",
+      "link": "https://azure.microsoft.com/updates?id=579111",
+      "published": "2026-11-02T17:49:48+00:00",
+      "summary": "Azure Site Recovery support for Azure Local is now generally available, making enterprise-grade disaster recovery simpler, accessible, easier to setup and secure than ever before. Customers can protect supported Windows and Linux virtual machines by repli",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing general availability of Geo-Replication on partitioned namespaces for Service Bus Premium",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/announcing-general-availability-of-geo-replication-on/ba-p/4569139",
+      "published": "2026-11-02T17:00:00+00:00",
+      "summary": "Today we are excited to announce the general availability of Geo-Replication on partitioned namespaces for Azure Service Bus Premium. You can now combine the throughput benefits of partitioning with the reliability of replicating your messages and metadata to a secondary Azure region. Throughput...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Logic Apps Aviators Newsletter - November 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-november-2026/ba-p/4569378",
+      "published": "2026-11-02T16:00:00+00:00",
+      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month November 2026's Ace Aviator: Steef-Jan Wiggers Domain Architect @ Coöperatie VGZ What's your role and title? What are your responsibilities? I'm a Domain Architect Technology in the...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Security risk assessments include repository protection status",
+      "link": "https://github.blog/changelog/2026-11-02-security-risk-assessments-include-repository-protection-status",
+      "published": "2026-11-02T15:47:21+00:00",
+      "summary": "The GitHub code security risk assessment and secret risk assessment now show whether findings are in protected or unprotected repositories, helping you identify where to extend your security coverage. Organization… The post Security risk assessments include repository protection status appeared...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "pull_request_target blocked by default December 2",
+      "link": "https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2",
+      "published": "2026-11-02T15:14:46+00:00",
+      "summary": "Starting December 2, 2026, GitHub Actions will block pull_request_target events by default in all public repositories, unless an applicable Actions event policy explicitly allows them. Enforcement was previously scheduled for… The post pull_request_target blocked by default December 2 appeared...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing flex nodes for AKS (preview) in Azure portal",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-flex-nodes-for-aks-preview-in-azure-portal/ba-p/4569460",
+      "published": "2026-11-02T13:00:00+00:00",
+      "summary": "What’s new? Today, we’re announcing Azure portal support for flex nodes for AKS (preview), offering an intuitive, guided experience that helps users create Flex node pools and connect supported user-managed compute to their existing AKS clusters. Flex nodes for AKS lets you extend an existing...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Samantha_Fernandez",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "My Team Is Growing, How Do I Structure Who Gets Access to What?",
+      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-access-control-growing-teams/",
+      "published": "2026-11-02T12:00:45+00:00",
+      "summary": "Your project started with one or two people. Now developers, operators, analysts, and applications all need access to Azure Cosmos DB. Giving everyone the same permissions might feel efficient, but it makes every identity more powerful than its job requires. As your team grows, organize access...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Iria Osara, Sudhanshu Khera",
+      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "How Microsoft SQL learned to recover without undoing everything first",
+      "link": "https://devblogs.microsoft.com/azure-sql/your-server-wasnt-slow-it-was-waiting-we-fixed-it-with-constant-time-recovery/",
+      "published": "2026-11-02T11:49:03+00:00",
+      "summary": "Under the Hood: The Research Behind Microsoft SQL, part 2 Here’s a scenario that used to be genuinely frightening: you kick off a bulk load of a few hundred million rows in a single transaction. Somewhere in the middle, the server goes down. Not because of your load, just an unlucky reboot. When...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
     },
     {
@@ -564,28 +740,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Repository plugin defaults and enterprise plugin controls generally available",
-      "link": "https://github.blog/changelog/2026-10-28-repository-plugin-defaults-and-enterprise-plugin-controls-generally-available",
-      "published": "2026-10-28T15:33:00+00:00",
-      "summary": "Repository plugin defaults and enterprise-managed plugin controls are now generally available in VS Code, Copilot CLI, and the GitHub Copilot app. Trusted repositories can install and enable default plugins for… The post Repository plugin defaults and enterprise plugin controls generally available...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Generate and edit images directly in Copilot",
-      "link": "https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot",
-      "published": "2026-10-28T15:30:55+00:00",
-      "summary": "You can now generate and edit images using natural language in GitHub Copilot. When you ask for an image, your selected reasoning model calls a dedicated image-generation tool powered by… The post Generate and edit images directly in Copilot appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Azure SDK Release (October 2026)",
       "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-october-2026/",
       "published": "2026-10-28T15:00:44+00:00",
@@ -846,17 +1000,6 @@
       "blog": "Azure Network Security",
       "blogId": "azurenetworksecurityblog",
       "author": "saikishor",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Protect against Brotli CVE-2026-111497 with Azure Web Application Firewall (WAF)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/protect-against-brotli-cve-2026-111497-with-azure-web/ba-p/4567288",
-      "published": "2026-10-26T18:19:26+00:00",
-      "summary": "Google Brotli versions 1.0.3 through 1.2.0 contain a buffer overflow vulnerability in the Brotli decoder, according to the recently published CVE-2026-111497. A remote, unauthenticated attacker can send a crafted Brotli-compressed stream to corrupt decoder memory, expose sensitive memory contents,...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "yuvalpery",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -3149,17 +3292,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Translating an Elasticsearch Search Request to Azure Cosmos DB",
-      "link": "https://devblogs.microsoft.com/cosmosdb/translating-an-elasticsearch-search-request-to-azure-cosmos-db/",
-      "published": "2026-10-02T07:00:14+00:00",
-      "summary": "This tutorial shows how common Elasticsearch search requests can be expressed using Azure Cosmos DB query patterns. Some Elasticsearch capabilities map directly to Cosmos DB full-text search functions, while others require separate queries or application-layer handling. Each step shows the closest...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Madeline Egan",
-      "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "When AI Starts Taking Action: Building Execution Boundaries with OpenSandbox and AKS",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/when-ai-starts-taking-action-building-execution-boundaries-with/ba-p/4561601",
       "published": "2026-10-02T06:26:45+00:00",
@@ -3578,17 +3710,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Bring Your Azure DevOps Repos to Azure SRE Agent Plugins",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bring-your-azure-devops-repos-to-azure-sre-agent-plugins/ba-p/4560857",
-      "published": "2026-09-29T20:00:25+00:00",
-      "summary": "Plugins package the skills, agents, and connector settings your team wants every SRE Agent to have. A plugin marketplace is a Git repository that lists those plugins so any agent can install them. Until now, that repository had to be on GitHub. If your team keeps its runbooks and tooling in Azure...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Dalibor_Kovacevic",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Retirement: Functions on Azure Container Apps V1",
       "link": "https://azure.microsoft.com/updates?id=570800",
       "published": "2026-09-29T19:41:09+00:00",
@@ -3970,17 +4091,6 @@
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
       "author": "Anna Hoffman",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "How to build an app on Azure SQL with an AI coding agent",
-      "link": "https://devblogs.microsoft.com/azure-sql/build-app-azure-sql-ai-coding-agent/",
-      "published": "2026-09-29T07:05:16+00:00",
-      "summary": "Developers have trusted SQL for decades, since long before AI existed. Now coding agents help choose the database, and they favor the one they can get running in the first few minutes. So today we’re shipping two things for that moment. Microsoft SQL Agent Skills teach your coding agent how Azure...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Iqra Shaikh",
       "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
     },
@@ -5877,17 +5987,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "BizTalk Server 2020 End-of-Sale Announcement",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/biztalk-server-2020-end-of-sale-announcement/ba-p/4551317",
-      "published": "2026-08-31T09:00:00+00:00",
-      "summary": "Executive Summary: BizTalk Server 2020 is the final release of BizTalk Server, and Microsoft expects sales of BizTalk Server 2020 and Host Integration Server 2020 to end March 31, 2027. Mainstream support for BizTalk Server 2020 continues through April 12, 2028, after which the product remains...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "hcamposu",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Only believe what you can validate: a verification framework for agentic AI",
       "link": "https://devblogs.microsoft.com/all-things-azure/only-believe-what-you-can-validate/",
       "published": "2026-08-29T12:45:11+00:00",
@@ -7131,28 +7230,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[In preview] Public Preview: Route-Maps for Azure Route Server",
-      "link": "https://azure.microsoft.com/updates?id=568631",
-      "published": "2026-07-31T20:48:35+00:00",
-      "summary": "Route maps for Azure Route Server are now available in public preview, providing fine-grained control over inbound and outbound routing across hybrid connections. Customers can manage routes advertised to and from Azure Route Server BGP peerings with Netw",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Azure SQL updates for late-July",
-      "link": "https://azure.microsoft.com/updates?id=568139",
-      "published": "2026-07-31T18:16:23+00:00",
-      "summary": "In late-July 2026, the following update and enhancement was made to Azure SQL: Regex-based dynamic data masking (DDM) extends the built-in DDM feature with pattern‑based masking to hide sensitive data like emails, phone numbers, and identifiers—centrally",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Scale limits in network security perimeter",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/scale-limits-in-network-security-perimeter/ba-p/4542911",
       "published": "2026-07-31T17:24:48+00:00",
@@ -7252,50 +7329,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Azure Database for PostgreSQL flexible server in India South Central",
-      "link": "https://azure.microsoft.com/updates?id=568334",
-      "published": "2026-07-30T19:14:44+00:00",
-      "summary": "Now you can deploy Azure Database for PostgreSQL flexible server in the India South Central Azure region. Learn more.",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure Automation supports PowerShell 7.6 runbooks and Runtime environment",
-      "link": "https://azure.microsoft.com/updates?id=568102",
-      "published": "2026-07-30T19:10:35+00:00",
-      "summary": "Azure Automation is pleased to announce: General Availability of in-support PowerShell 7.6 runbooksRuntime Environment GA, enabling customers to seamlessly upgrade their outdated scripts to supported runtime versions. Support for Azure CLI commands in P",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Announcing: Reservation exchanges for Azure services supported by savings plans will no longer be available starting February 1, 2027",
-      "link": "https://azure.microsoft.com/updates?id=568514",
-      "published": "2026-07-30T19:03:21+00:00",
-      "summary": "Starting February 1, 2027, Azure reservations exchanges will no longer be available for services covered by savings plans. At the time of this announcement, this includes reservations for the following services: Compute services: Azure Virtual Machine",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Symmetric keys on Azure Key Vault Premium",
-      "link": "https://azure.microsoft.com/updates?id=566746",
-      "published": "2026-07-30T18:57:18+00:00",
-      "summary": "We’re announcing post-quantum resilient symmetric keys on Azure Key Vault Premium are now available in public preview. This preview enables customers and partners to evaluate symmetric encryption capabilities using the oct-HSM key type and the Advanced En",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Terraform AzureRM provider 5.0 now generally available",
       "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/terraform-azurerm-provider-5-0-now-generally-available/ba-p/4542085",
       "published": "2026-07-30T18:53:37+00:00",
@@ -7329,17 +7362,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "[In preview] Public Preview: Support for SMB Opportunistic Locking (Oplocks) configuration",
-      "link": "https://azure.microsoft.com/updates?id=568396",
-      "published": "2026-07-30T16:38:15+00:00",
-      "summary": "Azure NetApp Files now supports configuration of SMB opportunistic locking (oplocks) for SMB and dual-protocol volumes. Opportunistic locks (Oplocks) improve SMB client caching and are enabled by default. You can configure oplocks on new volumes or update",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Reservation exchanges for Azure services covered by savings plans end starting Feb. 1, 2027",
       "link": "https://techcommunity.microsoft.com/t5/finops-blog/reservation-exchanges-for-azure-services-covered-by-savings/ba-p/4542437",
       "published": "2026-07-30T13:39:13+00:00",
@@ -7360,17 +7382,6 @@
       "author": "demiajayi",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "[In preview] Public Preview: Azure Monitor Logs mirroring into Microsoft Fabric",
-      "link": "https://azure.microsoft.com/updates?id=568322",
-      "published": "2026-07-29T18:52:32+00:00",
-      "summary": "This capability shares telemetry from Azure Monitor Log Analytics workspaces into Microsoft Fabric, making observability data available in OneLake as Delta Parquet, the open format, without duplication and with near real-time availability. All Azure Monit",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
     },
     {
       "title": "How the controller-runtime Cache Actually Works, and Why Your Controller Does Not Crash the API Server",
@@ -11344,17 +11355,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Message brokers as the cornerstone of the next generation of agentic AI backends",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/message-brokers-as-the-cornerstone-of-the-next-generation-of/ba-p/4478088",
-      "published": "2025-12-15T19:00:00+00:00",
-      "summary": "We are seeing changes in the way Agentic AI behaves. Instead of one-off model calls, we are starting to see networks of agents and MCP services working together. These are going to bring powerful integrations, with a variety of distributed components. Work is going to arrive in unpredictable...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "EldertGrootenboer",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Key Considerations for Modernizing and Migrating Custom Applications to Azure",
       "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/key-considerations-for-modernizing-and-migrating-custom/ba-p/4476580",
       "published": "2025-12-12T18:04:26+00:00",
@@ -11805,5 +11805,6 @@
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     }
-  ]
+  ],
+  "summary": "Today’s Azure news centered on infrastructure modernization, resilience, and security: Microsoft introduced Azure Migrate public preview support for discovering and assessing on-prem NAS shares, launched Azure Site Recovery for Azure Local, added geo-replication for partitioned namespaces in Azure Service Bus Premium, and enabled Azure SQL Database restarts directly in the Azure portal. Data and app platform updates also included GA network changes for Azure Database for PostgreSQL flexible server moving toward private endpoint-capable configuration, Azure Storage Actions enhancements like automatic task updates and execution controls, and AKS flex nodes in preview via the Azure portal.\n\nSecurity and lifecycle changes were also prominent: Azure WAF guidance was published to mitigate Brotli CVE-2026-111497, GitHub added repository protection status to security risk assessments and will block `pull_request_target` by default starting December 2, while Microsoft announced retirements for OT security in Defender for IoT and Azure Fluid Relay. Additional developer-focused highlights included Cosmos DB guidance on access structuring for growing teams, Logic Apps ecosystem updates, and a deeper look at SQL Server recovery innovations that reduce the need to “undo” long transactions during failover or restart."
 }
