@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T13:41:44.796173+00:00",
+  "lastUpdated": "2026-11-03T16:03:23.617893+00:00",
   "items": [
     {
       "link": "https://azure.microsoft.com/updates?id=548543",
@@ -1825,6 +1825,28 @@
       "action": "Review key last-used metadata and adopt safe key rotation practices",
       "detected": "2026-10-22T13:41:44.796157+00:00",
       "published": "2026-10-21T17:13:16+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=576255",
+      "title": "Retirement: OT security in Microsoft Defender for IoT",
+      "severity": "warning",
+      "deadline": "2029-10-01",
+      "impact": "Defender for IoT OT security retires; customers using OT security are affected",
+      "action": "Plan migration off OT security during the transition period",
+      "detected": "2026-11-03T16:03:23.617878+00:00",
+      "published": "2026-11-02T19:22:28+00:00",
+      "blog": "Azure Updates"
+    },
+    {
+      "link": "https://azure.microsoft.com/updates?id=570498",
+      "title": "Retirement: Azure Fluid Relay",
+      "severity": "critical",
+      "deadline": "2027-02-02",
+      "impact": "Azure Fluid Relay retires; apps depending on the service may be disrupted",
+      "action": "Migrate off Azure Fluid Relay before retirement",
+      "detected": "2026-11-03T16:03:23.617889+00:00",
+      "published": "2026-11-02T19:01:41+00:00",
       "blog": "Azure Updates"
     }
   ]
