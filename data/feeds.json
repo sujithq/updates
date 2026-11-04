@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T10:00:53.456932+00:00",
+  "lastUpdated": "2026-11-04T18:56:21.787827+00:00",
   "totalArticles": 1074,
   "articles": [
     {
@@ -14,6 +14,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "[In preview] Public Preview: Multi-disk crash-consistent VM restore points for Premium SSD v2 and Ultra Disks on VMs with SCSI disk controller",
+      "link": "https://azure.microsoft.com/updates?id=579162",
+      "published": "2026-11-04T17:13:51+00:00",
+      "summary": "Multi-disk crash-consistent restore points for Azure virtual machines with Premium SSD v2 and Ultra data disks are now available in public preview on VMs with SCSI disk controllers. You can use this to capture the agent-less crash consistent restore point",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
       "title": "Visual Studio Code 1.145",
       "link": "https://code.visualstudio.com/updates/v1_145",
       "published": "2026-11-04T17:00:00+00:00",
@@ -22,6 +33,39 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/addressing-php2shell-cve-2026-109618-and-cve-2026-109619-upgrade/ba-p/4566623",
+      "published": "2026-11-04T15:56:30+00:00",
+      "summary": "Written in collaboration with yuvalpery​ and Gunjan Jain​ Introduction Today, two critical remote code execution (RCE) vulnerabilities were disclosed in PHP. We strongly recommend that customers upgrade to a patched version of PHP as soon as possible. Upgrading is the only way to fully remediate...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Your guide to FinOps for AI at Microsoft Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/your-guide-to-finops-for-ai-at-microsoft-ignite-2026/ba-p/4569117",
+      "published": "2026-11-04T15:43:50+00:00",
+      "summary": "AI has moved from pilots to production, and the questions have changed with it. It is no longer enough to know what AI costs. Leaders want to know whether spend is predictable, who is driving it, and which investments are delivering real business value. That is the job of FinOps for AI: bringing...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "Fernando_Vasconcellos",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Keep learning, keep building! Make the most of VSLive! with your Visual Studio Subscription",
+      "link": "https://devblogs.microsoft.com/visualstudio/keep-learning-keep-building-make-the-most-of-vslive-with-your-visual-studio-subscription/",
+      "published": "2026-11-04T15:30:28+00:00",
+      "summary": "Keeping up with new technology is one thing. Finding worthwhile opportunities to explore what matters most to your work is another. That’s where VSLive! can help. It brings technical learning, hands-on experience, expert guidance, and a community of developers together in one place, giving you...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "James Rempt",
+      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
       "sourceType": "rss"
     },
     {
@@ -146,6 +190,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "An engineering guide to Claude Code on Microsoft Foundry with Azure API Management",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/an-engineering-guide-to-claude-code-on-microsoft-foundry-with/ba-p/4569334",
+      "published": "2026-11-03T20:00:00+00:00",
+      "summary": "How do you give developers Claude Code while keeping identity, model access, budgets and private networking under enterprise control? I built Claude Code on Foundry (CCOF) to address that challenge, and I have taken this implementation live in multiple enterprises using this architecture. This...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "NaveenGopalakrishna",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Delivering Skills in NuGet packages",
       "link": "https://devblogs.microsoft.com/dotnet/delivering-skills-in-nuget-packages/",
       "published": "2026-11-03T19:00:14+00:00",
@@ -190,6 +245,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "What if your Azure Databricks workspaces have overlapping CIDRs?",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/what-if-your-azure-databricks-workspaces-have-overlapping-cidrs/ba-p/4569360",
+      "published": "2026-11-03T17:41:11+00:00",
+      "summary": "Consider a common enterprise networking challenge: You have three Azure Databricks workspaces. Each workspace uses classic VNet-injected compute, and each compute VNet uses the same address space: 10.100.0.0/20 Your networking team immediately sees the problem: If multiple networks advertise...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "vamsiboya_microsoft",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
       "published": "2026-11-03T17:32:47+00:00",
@@ -221,6 +287,17 @@
       "author": "Nadim Abdo and Ray Smith",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Build a Grounded Package Upgrade Advisor with Microsoft-Decision-1",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/build-a-grounded-package-upgrade-advisor-with-microsoft-decision/ba-p/4568374",
+      "published": "2026-11-03T17:00:00+00:00",
+      "summary": "About the Microsoft Decision Model In October 2026, Microsoft announced Microsoft-Decision-1, the latest model for fast decision-scoring available on Microsoft Foundry. Unlike LLMs that generate textual outputs, decision models return structured outputs that allow software to immediately act on,...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "SonakshiA",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Go beyond the basics: Explore specialized Azure plugins for your AI agent",
@@ -729,6 +806,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Does ‘eval’ in the workspace path change what your agent does?",
+      "link": "https://devblogs.microsoft.com/blog/does-eval-in-the-workspace-path-change-what-your-agent-does/",
+      "published": "2026-10-30T12:49:14+00:00",
+      "summary": "Your eval might be telling the agent it’s a test before the agent reads a single instruction. Eval tools need a fresh folder for every run, and the easiest way to get one is a temp directory with a random name like /tmp/eval-7f3a2c. The agent sees that path on every turn, in the system prompt […]",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Hybrid Logic Apps - SQL as storage provider benchmarking",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hybrid-logic-apps-sql-as-storage-provider-benchmarking/ba-p/4567807",
       "published": "2026-10-30T04:33:46+00:00",
@@ -1026,17 +1114,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Information Extraction with Low-Inference-Cost Models: 85% F1 Gain via Foundry Interactive Training",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/information-extraction-with-low-inference-cost-models-85-f1-gain/ba-p/4563661",
-      "published": "2026-10-28T14:00:00+00:00",
-      "summary": "Authors: Shih-Yao Lin, Apurva Saksena The task: turn documents into structured data Many business workflows need to turn documents into structured data. The model must find the right values, capture the requested records, and return output the next system can use. Long documents and repeated tables...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "shihyaolin",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Agentic CI/CD with Azure Cosmos DB: Isolated Environments for a Swarm of AI Agents",
       "link": "https://devblogs.microsoft.com/cosmosdb/agentic-ci-cd-with-azure-cosmos-db-isolated-environments-for-a-swarm-of-ai-agents/",
       "published": "2026-10-28T11:00:02+00:00",
@@ -1257,17 +1334,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/addressing-php2shell-cve-2026-109618-and-cve-2026-109619-upgrade/ba-p/4566623",
-      "published": "2026-10-26T18:19:55+00:00",
-      "summary": "Written in collaboration with yuvalpery​ and Gunjan Jain​ Introduction Today, two critical remote code execution (RCE) vulnerabilities were disclosed in PHP. We strongly recommend that customers upgrade to a patched version of PHP as soon as possible. Upgrading is the only way to fully remediate...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "saikishor",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing Azure AI Speech LLM 09-2026: Broader locale support",
       "link": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-09-2026/",
       "published": "2026-10-26T17:10:00+00:00",
@@ -1407,17 +1473,6 @@
       "blog": "Azure AI Foundry Blog",
       "blogId": "azure-ai-foundry-blog",
       "author": "MaheshBalachandran",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Now in Foundry: Meta Muse Spark Open, NVIDIA Nemotron 3.5 Super VL, and Reflection Beam",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/now-in-foundry-meta-muse-spark-open-nvidia-nemotron-3-5-super-vl/ba-p/4565899",
-      "published": "2026-10-23T19:34:09+00:00",
-      "summary": "This week's Model Mondays edition highlights three Hugging Face models newly available in Microsoft Foundry, giving developers more open-weight options for enterprise coding and agentic work: Meta's Muse Spark Open, NVIDIA's Nemotron 3.5 Super VL, and Reflection's Beam 1.0. Models of the week Meta:...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Osi",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -4227,17 +4282,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Visual Studio September Update – Power Your Workflow with Your Model",
-      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-september-update-power-your-workflow-with-your-model/",
-      "published": "2026-09-29T16:00:04+00:00",
-      "summary": "Bring your own AI model with updates to BYOM, fix NuGet vulnerabilities from the Error List, explore pull requests with the Git agent, see which operand decides an if condition, and attach to Podman containers. The post Visual Studio September Update – Power Your Workflow with Your Model appeared...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Mark Downie",
-      "feedUrl": "https://devblogs.microsoft.com/visualstudio/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "More EDA Job Sets per Volume: Azure NetApp Files Raises the Performance Bar",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/more-eda-job-sets-per-volume-azure-netapp-files-raises-the/ba-p/4558993",
       "published": "2026-09-29T16:00:00+00:00",
@@ -4301,17 +4345,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Get started with the GitHub Copilot app: a free, hands-on course",
-      "link": "https://devblogs.microsoft.com/blog/github-copilot-app-for-beginners/",
-      "published": "2026-09-28T18:05:00+00:00",
-      "summary": "Learn to direct AI coding agents, review their work, and build reliable development workflows with this free GitHub Copilot app course.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Dan Wahlin",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -7208,17 +7241,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Retirement: Nested confidential (cc_v5) VMs will be retired on September 1, 2026",
-      "link": "https://azure.microsoft.com/updates?id=568661",
-      "published": "2026-08-05T00:22:49+00:00",
-      "summary": "On September 1, 2026, the cc_v5 confidential VM series will be retired and will no longer be available for use or purchase. Any affected VM that has not been resized before that date will deallocated. The impacted VM sizes that will be retired are: DCas_c",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Azure Virtual Network routing appliance is now generally available",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-virtual-network-routing-appliance-is-now-generally/ba-p/4543616",
       "published": "2026-08-04T20:42:46+00:00",
@@ -7228,17 +7250,6 @@
       "author": "Anshu_Verma",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "[In preview] Public Preview: Perimeter link feature in network security perimeter",
-      "link": "https://azure.microsoft.com/updates?id=568837",
-      "published": "2026-08-04T18:30:09+00:00",
-      "summary": "Perimeter link (cross-perimeter connectivity) is a network security perimeter capability that allows trusted resources in two different network security perimeters to securely communicate with each other using Managed Identity (MSI), without requiring add",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
     },
     {
       "title": "Building an operations assistant on Azure that waits for approval before it acts",
@@ -8371,17 +8382,6 @@
       "blogId": "agent-365-blog",
       "author": "aarthisk",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure Firewall explicit proxy Migration Guide",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-firewall-explicit-proxy-migration-guide/ba-p/4528899",
-      "published": "2026-06-19T18:21:40+00:00",
-      "summary": "Purpose of the blog This blog outlines the key upcoming changes to Azure Firewall explicit proxy and provides detailed migration guidance for customers using PAC file–based configurations. It also covers the supported deployment options for enabling explicit proxy after the changes are released,...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "devanshirastogi",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -11817,5 +11817,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure-related updates center on developer tooling, cloud infrastructure automation, Kubernetes networking, and enterprise AI governance. Microsoft highlighted **Visual Studio Code 1.145**, new guidance for adding an **MCP operations layer** to **Azure VM Image Builder/image automation**, and a walkthrough for running **Traefik as an ingress controller on Azure Kubernetes Service (AKS)** to manage HTTP/TCP routing in Kubernetes environments.\n\nOn the AI and enterprise platform side, GitHub announced **BYOK (bring your own key)** and **enterprise custom model** support in the **Copilot usage API**, giving organizations more control over encryption, model usage tracking, and governance for Copilot deployments."
+  "summary": "Today’s Azure news centered on infrastructure resilience, security, and AI/cloud operations: Azure announced **public preview support for multi-disk crash-consistent VM restore points** for **Premium SSD v2** and **Ultra Disks** on VMs using the **SCSI disk controller**, while Azure Infrastructure highlighted both an **MCP operations layer for Azure VM Image Automation** and guidance for running **Traefik as an ingress controller on AKS**. Security was another major theme, with Azure Network Security publishing mitigation and upgrade guidance for **PHP2Shell CVE-2026-109618 and CVE-2026-109619**, including use of **Azure WAF** protections.\n\nDeveloper and AI platform updates also stood out: **Visual Studio Code 1.145** shipped as the latest editor release, GitHub added **BYOK** and **enterprise custom models** support to the **Copilot usage API**, and Microsoft promoted **FinOps for AI** guidance from **Ignite 2026** to help organizations control AI spending. Rounding out the day, the Visual Studio team encouraged subscribers to use **Visual Studio Subscription** benefits tied to **VSLive!** training and events."
 }
