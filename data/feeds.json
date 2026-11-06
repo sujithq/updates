@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T01:13:07.635503+00:00",
+  "lastUpdated": "2026-11-06T10:00:10.809558+00:00",
   "totalArticles": 1073,
   "articles": [
     {
@@ -33,6 +33,17 @@
       "blogId": "githubchangelog",
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
+      "published": "2026-11-05T23:46:50+00:00",
+      "summary": "Microsoft Threat Intelligence has observed threat actors using the agentic offensive security framework ARTEX to search GitHub for OAuth application secrets, which can be used to compromise the associated OAuth application and perform authenticated actions in the application’s tenant. Agents...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Threat Intelligence and Microsoft Security Research",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1198,17 +1209,6 @@
       "blog": "Microsoft Security Blog",
       "blogId": "microsoftsecurity",
       "author": "Microsoft Threat Intelligence",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/idc-marketscape-names-microsoft-a-leader-in-the-2026-worldwide-modern-endpoint-security-for-enterprises-vendor-assessment/",
-      "published": "2026-10-29T16:00:00+00:00",
-      "summary": "IDC has named Microsoft a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises. The post IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Rob Lefferts",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
@@ -11806,5 +11806,5 @@
       "sourceType": "rss"
     }
   ],
-  "summary": "Today’s notable Azure-adjacent developer update is actually from **GitHub Changelog**: the **Usage metrics API** now exposes **code review details** and an **addressed rate** metric, giving teams more granular visibility into how pull requests are reviewed and acted on. GitHub also added API signals for **telemetry flags** and **version gaps**, helping engineering teams track feature instrumentation and identify adoption or compatibility differences across client and platform versions."
+  "summary": "Today’s Azure blog roundup is centered on **GitHub’s Usage Metrics API** gaining deeper engineering productivity and observability signals. The updates add **code review details** and an **addressed rate** metric to help teams quantify review throughput and how effectively feedback is resolved, while a separate update introduces flags for **telemetry availability** and **version gaps** so organizations can better interpret incomplete or inconsistent metrics data across tool versions.\n\nTogether, these announcements suggest a push toward more reliable, audit-friendly **developer analytics** in GitHub, with clearer insight into both **pull request review workflows** and the **quality/completeness of collected usage data**."
 }
