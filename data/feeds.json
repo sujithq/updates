@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T09:20:24.891866+00:00",
+  "lastUpdated": "2026-11-07T17:02:39.893149+00:00",
   "totalArticles": 1071,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Repairs and Renovation Should Not Compete Blindly for the Same Capacity",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/repairs-and-renovation-should-not-compete-blindly-for-the-same/ba-p/4571312",
+      "published": "2026-11-07T16:06:48+00:00",
+      "summary": "Consider an illustrative ground-floor apartment in a 1960s portiekflat, a Dutch walk-up apartment building. In February, the tenant reports a back door that sticks and lets in drafts. A repair contractor adjusts the frame and orders a part; a second visit in March installs it. In April, another...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Jiri Binko",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Dutch Social Housing Transformation: Smarter Repairs, Faster Renovations, Accountable Tech",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/dutch-social-housing-transformation-smarter-repairs-faster/ba-p/4571311",
+      "published": "2026-11-07T15:38:21+00:00",
+      "summary": "Picture an ordinary week at a Dutch housing association. A tenant reports bedroom mold for the third time, and the repair desk books a contractor to treat it. Across the office, the asset team is finalizing next year’s insulation and ventilation program for the same building. Each team acts...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Jiri Binko",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "ARTEX abuse expands as cybercriminals target financial sector",
@@ -7703,17 +7725,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Preserve a Legacy IP During Azure Migration with Private Link Service Direct Connect",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/preserve-a-legacy-ip-during-azure-migration-with-private-link/ba-p/4540575",
-      "published": "2026-07-27T12:31:30+00:00",
-      "summary": "Why this matters Phased migrations to Azure frequently stall on a single, unglamorous constraint: an application with a hard-coded dependency address. The usual options are to re-address the application or change its configuration, and both add development effort, regression testing, and risk to a...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "kumarshashikaushal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing the Open-Source Release of ML Video Codec (MLVC)",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/announcing-the-open-source-release-of-ml-video-codec-mlvc/ba-p/4539875",
       "published": "2026-07-24T21:39:05+00:00",
@@ -7744,17 +7755,6 @@
       "blogId": "azurenetworkingblog",
       "author": "OfirSarfaty",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Reminder: Path to Production for Agents Webinar Series Starts Next Week",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/reminder-path-to-production-for-agents-webinar-series-starts/ba-p/4539877",
-      "published": "2026-07-23T00:15:07+00:00",
-      "summary": "Next week, join Microsoft for the Path to Production for Agents webinar series—a free, six-session technical training designed to help organizations move from AI experimentation to secure, scalable, production-ready agent solutions. The series takes place July 27–28 and is aimed at architects,...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Ben_Brauer",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -11784,5 +11784,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-related posts center on security hardening, developer extensibility, and AI-assisted software governance. Microsoft warned that the ARTEX malware campaign is expanding against the financial sector, while Azure Logic Apps Standard added custom code support for **.NET 10**, giving integration developers access to newer runtime capabilities; meanwhile, GitHub updated **Copilot code review** with improvements tied to **API management** and review workflows.\n\nThe biggest themes are a stronger focus on defending regulated industries from evolving cybercrime and continued modernization of cloud developer tooling. Specifically, the announcements highlight **Microsoft Security** threat intelligence on ARTEX, **Azure Logic Apps Standard** runtime extensibility with **.NET 10**, and **GitHub Copilot** enhancements for automated code review and API-related development oversight."
+  "summary": "Today’s Azure-related posts centered on enterprise modernization, security, and developer productivity. On the Azure Architecture side, Microsoft highlighted capacity-planning patterns for housing repairs and renovations and a Dutch social housing transformation using accountable, data-driven Azure architecture to speed repairs and renovations without resource conflicts.  \n\nOn the platform and tooling front, Logic Apps Standard now supports custom code with .NET 10, improving extensibility for integration workflows, while GitHub updated Copilot code review with API management and review workflow enhancements. Microsoft Security also warned that ARTEX malware abuse is expanding into attacks on the financial sector, underscoring a strong security theme alongside cloud modernization."
 }
