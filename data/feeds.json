@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-09T03:09:30.581274+00:00",
+  "lastUpdated": "2026-11-09T14:28:18.524492+00:00",
   "totalArticles": 1069,
   "articles": [
     {
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "How do you run a query against data the database can’t read?",
+      "link": "https://devblogs.microsoft.com/azure-sql/how-do-you-run-a-query-against-data-the-database-cant-read/",
+      "published": "2026-11-09T11:56:57+00:00",
+      "summary": "Under the Hood: The Research Behind Microsoft SQL, part 3 Encryption at rest solves one threat. It stops someone who walks off with the disk. It does nothing about someone with administrative access to the running server, because the database decrypts data into memory to do anything useful with it....",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
     },
     {
@@ -1255,17 +1266,6 @@
       "author": "hieunhu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Does ‘eval’ in the workspace path change what your agent does?",
-      "link": "https://devblogs.microsoft.com/blog/does-eval-in-the-workspace-path-change-what-your-agent-does/",
-      "published": "2026-10-30T12:49:14+00:00",
-      "summary": "Your eval might be telling the agent it’s a test before the agent reads a single instruction. Eval tools need a fresh folder for every run, and the easiest way to get one is a temp directory with a random name like /tmp/eval-7f3a2c. The agent sees that path on every turn, in the system prompt […]",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Hybrid Logic Apps - SQL as storage provider benchmarking",
@@ -4513,17 +4513,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "DiskANN Vector Index and Vector Search Are Now Generally Available in Azure SQL",
-      "link": "https://devblogs.microsoft.com/azure-sql/diskann-vector-index-search-are-now-generally-available-in-azure-sql/",
-      "published": "2026-09-29T15:00:22+00:00",
-      "summary": "Today, we are announcing the general availability of DiskANN Vector Index & Search across Azure SQL Database, Azure SQL Managed Instance with the always-up-to-date update policy, and SQL database in Microsoft Fabric. DiskANN brings scalable approximate nearest-neighbor search directly to the SQL...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Pooja Kamath",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Sending Email from an AKS Pod Without a Single Secret",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/sending-email-from-an-aks-pod-without-a-single-secret/ba-p/4556222",
       "published": "2026-09-29T04:15:00+00:00",
@@ -4565,6 +4554,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Get started with the GitHub Copilot app: a free, hands-on course",
+      "link": "https://devblogs.microsoft.com/blog/github-copilot-app-for-beginners/",
+      "published": "2026-09-28T18:05:00+00:00",
+      "summary": "Learn to direct AI coding agents, review their work, and build reliable development workflows with this free GitHub Copilot app course.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Dan Wahlin",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -11761,5 +11761,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremapsblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog highlights a developer-focused Azure SQL post on querying data that the database engine can’t directly read, centered on Azure SQL Dev Corner. The key theme is extending Azure SQL’s reach to external or unsupported data sources—likely through patterns such as virtualization, external access, or integration-based querying—showing how developers can work with data beyond the database’s native readers while keeping SQL as the primary interface."
 }
