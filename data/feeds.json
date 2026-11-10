@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T04:52:33.810257+00:00",
+  "lastUpdated": "2026-11-10T13:50:52.327778+00:00",
   "totalArticles": 1069,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Azure Local: 10 mistakes that can derail your deployment before it starts",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-local-10-mistakes-that-can-derail-your-deployment-before/ba-p/4569922",
+      "published": "2026-11-10T11:20:16+00:00",
+      "summary": "Over the past few years, starting back when it was still called Azure Stack HCI, I've spent most of my time on Azure Local: scoping calls, design reviews, workshops, assessments and more escalations than I'd like to count. When I look back at the projects that went sideways, very few started with a...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Azure-Hacker",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Retirement: Support for .NET 8 and .NET 9 on Static Web Apps is ending November 10, 2026",
@@ -284,7 +295,7 @@
       "summary": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer’s guide to agentic engineering appeared first on The...",
       "blog": "GitHub Blog",
       "blogId": "githubblog",
-      "author": "Nick Liffen",
+      "author": "Philip Holleran",
       "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
     },
@@ -352,17 +363,6 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "kedikala",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure Local: 10 mistakes that can derail your deployment before it starts",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-local-10-mistakes-that-can-derail-your-deployment-before/ba-p/4569922",
-      "published": "2026-11-06T13:47:24+00:00",
-      "summary": "Over the past few years, starting back when it was still called Azure Stack HCI, I've spent most of my time on Azure Local: scoping calls, design reviews, workshops, assessments and more escalations than I'd like to count. When I look back at the projects that went sideways, very few started with a...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Azure-Hacker",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -449,7 +449,7 @@
       "summary": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works. The post Inside GitHub’s new Git storage architecture appeared first on The GitHub Blog.",
       "blog": "GitHub Blog",
       "blogId": "githubblog",
-      "author": "Karthik Raman",
+      "author": "Brian Celenza",
       "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
     },
@@ -594,6 +594,17 @@
       "blogId": "githubchangelog",
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Your best AX fixes are hiding in agent trajectories",
+      "link": "https://devblogs.microsoft.com/blog/your-best-ax-fixes-are-hiding-in-agent-trajectories/",
+      "published": "2026-11-05T15:40:49+00:00",
+      "summary": "All five agent runs produced a working script, and nothing in the eval score looked wrong. The trajectories told a different story. Every run read a DLL as raw bytes to find plugin names, and three scripts would quietly reroute a CI runner's network traffic. Here are the patterns to look for in...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1398,6 +1409,17 @@
       "author": "hieunhu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Does ‘eval’ in the workspace path change what your agent does?",
+      "link": "https://devblogs.microsoft.com/blog/does-eval-in-the-workspace-path-change-what-your-agent-does/",
+      "published": "2026-10-30T12:49:14+00:00",
+      "summary": "Your eval might be telling the agent it’s a test before the agent reads a single instruction. Eval tools need a fresh folder for every run, and the easiest way to get one is a temp directory with a random name like /tmp/eval-7f3a2c. The agent sees that path on every turn, in the system prompt […]",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Hybrid Logic Apps - SQL as storage provider benchmarking",
@@ -2242,7 +2264,7 @@
       "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog.",
       "blog": "GitHub Blog",
       "blogId": "githubblog",
-      "author": "Eleanor White",
+      "author": "Victoria Dye",
       "feedUrl": "https://github.blog/feed/",
       "sourceType": "rss"
     },
@@ -4557,17 +4579,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Enabling Consistent AI-Assisted Engineering with GitHub Copilot Plugins",
-      "link": "https://devblogs.microsoft.com/blog/enabling-consistent-ai-assisted-engineering-with-github-copilot-plugins/",
-      "published": "2026-09-29T16:30:35+00:00",
-      "summary": "When an engineer or team creates useful agentic artifacts for their daily work (e.g., instructions, skills, and MCP configurations), others naturally want to adopt them when they see how those artifacts could help with their own work. Sharing the files is straightforward, but keeping those...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Fernando de Oliveira",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "More EDA Job Sets per Volume: Azure NetApp Files Raises the Performance Bar",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/more-eda-job-sets-per-volume-azure-netapp-files-raises-the/ba-p/4558993",
       "published": "2026-09-29T16:00:00+00:00",
@@ -4620,17 +4631,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Get started with the GitHub Copilot app: a free, hands-on course",
-      "link": "https://devblogs.microsoft.com/blog/github-copilot-app-for-beginners/",
-      "published": "2026-09-28T18:05:00+00:00",
-      "summary": "Learn to direct AI coding agents, review their work, and build reliable development workflows with this free GitHub Copilot app course.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Dan Wahlin",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -11761,5 +11761,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremapsblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage centers on **Azure Local** deployment readiness, with Microsoft outlining the **10 most common pre-deployment mistakes** that can undermine an **Azure Infrastructure** rollout before implementation even begins. The post’s main theme is operational discipline—highlighting the importance of upfront planning around areas like **environment validation, hardware and network readiness, configuration consistency, and deployment prerequisites** to avoid delays, instability, or failed deployments."
 }
