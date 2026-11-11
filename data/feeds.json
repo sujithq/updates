@@ -1,17 +1,72 @@
 {
-  "lastUpdated": "2026-11-11T03:17:42.929817+00:00",
-  "totalArticles": 1070,
+  "lastUpdated": "2026-11-11T13:01:42.026039+00:00",
+  "totalArticles": 1071,
   "articles": [
     {
-      "title": "Visual Studio Code 1.146 (Insiders)",
-      "link": "https://code.visualstudio.com/updates/v1_146",
-      "published": "2026-11-11T17:00:00+00:00",
-      "summary": "Learn what is new in Visual Studio Code Insiders. Read the full article",
+      "title": "Visual Studio Code 1.147 (Insiders)",
+      "link": "https://code.visualstudio.com/updates/v1_147",
+      "published": "2026-11-18T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.147 (Insiders) Read the full article",
       "blog": "Visual Studio Code",
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Visual Studio Code 1.146",
+      "link": "https://code.visualstudio.com/updates/v1_146",
+      "published": "2026-11-11T17:00:00+00:00",
+      "summary": "Learn what's new in Visual Studio Code 1.146 Read the full article",
+      "blog": "Visual Studio Code",
+      "blogId": "vscode",
+      "author": "Visual Studio Code Team",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "v1.17.2",
+      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.17.2",
+      "published": "2026-11-11T11:56:51+00:00",
+      "summary": "1.17.2 (November 11, 2026) ENHANCEMENTS: query: Improve performance and reduce allocations when generating configuration from large HCP Terraform queries. (#39470) BUG FIXES: Providers referencing a managed resource with detroy=false can cause a cycle (#39507) init: Fix repeated...",
+      "blog": "Terraform",
+      "blogId": "terraform",
+      "author": "hc-github-team-es-release-engineering",
+      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure NetApp Files: The Data Backbone for NVIDIA AI Model Training, Inference, and Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-netapp-files-the-data-backbone-for-nvidia-ai-model/ba-p/4571839",
+      "published": "2026-11-11T11:12:28+00:00",
+      "summary": "Table of Contents Introduction Data Mobility Before Compute and AI Azure NetApp Files: Your Data Gateway to Advanced AI Services in Azure Where Azure NetApp Files meets the stack AI Domain-Specific Model Training with HPC Infrastructure Built to keep NVIDIA GPUs fed Short-Term Clones for Rapid...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "GeertVanTeylingen",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Engineering an Agentic Scheduler",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/engineering-an-agentic-scheduler/ba-p/4564637",
+      "published": "2026-11-11T08:00:00+00:00",
+      "summary": "Authors: Gabriel Sze and Weixian Zhang 1. Engineering an Agentic Scheduler Scheduling looks deceptively simple until multiple constraints, shared resources, and partial commitments start interacting. This post walks through how we built an agentic scheduler that lets an LLM reason about placements...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "gabrielsze",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Logic Apps Standard custom code now supports .NET 10",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-standard-custom-code-now-supports-net-10/ba-p/4570808",
+      "published": "2026-11-11T03:45:03+00:00",
+      "summary": "The latest Azure Logic Apps (Standard) extension for Visual Studio Code (VS Code) now supports .NET 10 custom code. You can create new .NET 10 local-function projects and migrate your existing .NET 8 projects without turning them into separate Azure Functions apps. Check your prerequisites Install...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "GitHub App support for Enterprise Copilot seat management",
@@ -44,28 +99,6 @@
       "blogId": "appsonazureblog",
       "author": "Wuyi_Weng",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Building a Trusted Ecosystem for Sovereign Private Cloud: Azure Local validated partner solutions",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/building-a-trusted-ecosystem-for-sovereign-private-cloud-azure/ba-p/4567325",
-      "published": "2026-11-10T22:00:00+00:00",
-      "summary": "When organizations move critical workloads to Azure Local, the first question usually isn't about the platform. It's about everything that runs on and around it: Will my backup tool work? Can my Security Operations Center (SOC) still see the workloads it needs to monitor? Will my identity provider...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Bandhan",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Build a dual-mode voice agent in Microsoft Foundry with native subagents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/build-a-dual-mode-voice-agent-in-microsoft-foundry-with-native/ba-p/4570650",
-      "published": "2026-11-10T21:30:00+00:00",
-      "summary": "Voice agents are changing how companies interact with customers. From service questions to technical support, the expectation is the same: a natural conversation that leads to useful, reliable answers. But responding quickly and resolving a complex request are not always the same task. Some...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "LauraVerghote",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -155,17 +188,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Logic Apps Standard custom code now supports .NET 10",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-standard-custom-code-now-supports-net-10/ba-p/4570808",
-      "published": "2026-11-10T18:55:47+00:00",
-      "summary": "The latest Azure Logic Apps (Standard) extension for Visual Studio Code (VS Code) now supports .NET 10 custom code. You can create new .NET 10 local-function projects and migrate your existing .NET 8 projects without turning them into separate Azure Functions apps. Check your prerequisites Install...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "[Launched] Generally Available: Azure Front Door edge actions",
@@ -2047,6 +2069,17 @@
       "author": "Daniel Roth",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "MAI-Image-2.6 and MAI-Image-2.6-Flash are now generally available in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/mai-image-2-6-and-mai-image-2-6-flash-are-now-generally/ba-p/4566327",
+      "published": "2026-10-27T15:00:00+00:00",
+      "summary": "From creative exploration to enterprise workflows Creating a compelling image is one step. Making image generation useful across a business means giving teams the control to refine an idea, adapt it for different audiences, and keep moving when the work scales. MAI-Image-2.6 and MAI-Image-2.6-Flash...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "alexanderhughes",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Inspecting Local Data with Azure Cosmos DB Shell",
@@ -5459,17 +5492,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Automating Azure Managed Redis capacity acquisition with bounded retries",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/automating-azure-managed-redis-capacity-acquisition-with-bounded/ba-p/4546462",
-      "published": "2026-09-17T04:15:00+00:00",
-      "summary": "TL;DR: Azure Managed Redis has no capacity-reporting API. This PowerShell poller safely rotates real creation attempts across approved regions and SKUs until one succeeds. Who this is for: Azure platform engineers, application owners, and site reliability engineers who need an Azure Managed Redis...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "varghesejoji",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Running GitHub Actions Runner Controller on AKS Automatic",
       "link": "https://blog.aks.azure.com/2026/09/17/github-actions-runner-controller-aks-automatic",
       "published": "2026-09-17T00:00:00+00:00",
@@ -5556,17 +5578,6 @@
       "author": "Mark_Gitau",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "v1.16.3",
-      "link": "https://github.com/hashicorp/terraform/releases/tag/v1.16.3",
-      "published": "2026-09-16T14:33:39+00:00",
-      "summary": "1.16.3 (September 16, 2026) BUG FIXES: Fix handling of destroy=false around create_before_destroy instances (#39169) Fix function result comparison when there are multiple marks (#39170) Filter logic for marks could cause values with multiple marks to erroneously fail validations (#39171) Fix issue...",
-      "blog": "Terraform",
-      "blogId": "terraform",
-      "author": "hc-github-team-es-release-engineering",
-      "feedUrl": "https://github.com/hashicorp/terraform/releases.atom",
-      "sourceType": "rss"
     },
     {
       "title": "[In preview] Public Preview: Azure Red Hat OpenShift with hosted control planes",
@@ -7381,6 +7392,17 @@
       "blogId": "microsoftsentinelblog",
       "author": "Robert_Moriarty",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Generally Available: Windows Server 2016 Extended Security Updates enabled by Azure Arc",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/generally-available-windows-server-2016-extended-security/ba-p/4543640",
+      "published": "2026-08-06T19:27:34+00:00",
+      "summary": "Today, the Azure Arc team is pleased to announce that Extended Security Updates (ESUs) enabled by Azure Arc is now generally available for Windows Server 2016. By connecting your Windows Server 2016 machines to Azure Arc-enabled servers, you can enroll in ESUs and receive security updates. Enroll...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Mason_Torres",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -10068,17 +10090,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Modernizing Azure Virtual Desktop with Nerdio and Azure Files",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/modernizing-azure-virtual-desktop-with-nerdio-and-azure-files/ba-p/4516542",
-      "published": "2026-05-04T16:05:17+00:00",
-      "summary": "Coauthored with Nerdio Organizations adopting Azure Virtual Desktop (AVD) typically begin with small pilot deployments that perform well under limited load. As these environments scale to hundreds or thousands of users, a consistent set of challenges emerges. At the center of that shift is the user...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "Vybava_Ramadoss",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Removing The Monkey Work of Migration",
       "link": "https://devblogs.microsoft.com/all-things-azure/removing-the-monkey-work-of-migration-using-agentic-platform-engineering/",
       "published": "2026-05-03T22:49:02+00:00",
@@ -11773,5 +11784,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure-adjacent developer news centers on tooling and enterprise AI governance. **Visual Studio Code 1.146 (Insiders)** signals ongoing updates to Microsoft’s core developer IDE, while **GitHub** announced **GitHub App support for Enterprise Copilot seat management**, giving organizations a more scalable way to automate and control **GitHub Copilot Enterprise** license assignment and administration.\n\nThe main themes are **developer productivity** and **enterprise management of AI coding tools**: VS Code continues to evolve as the foundational editor, and GitHub is adding more IT-friendly controls around deploying Copilot at scale through **GitHub Apps** and enterprise seat management workflows."
+  "summary": "Today’s Azure-related updates centered on AI infrastructure, developer tooling, and automation. Microsoft highlighted **Azure NetApp Files** as high-performance storage for **NVIDIA AI** training and inference workloads, including support for **Microsoft Foundry**, while **Logic Apps Standard** added custom code support for **.NET 10**, and Azure engineering shared work on an **agentic scheduler** for more autonomous orchestration.\n\nOn the tooling side, **Visual Studio Code 1.146** shipped, **Terraform v1.17.2** was released, and GitHub introduced **GitHub App** support for **Enterprise Copilot** seat management, pointing to continued investment in cloud-native development workflows and enterprise AI governance."
 }
