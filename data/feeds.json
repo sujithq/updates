@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T21:04:37.240563+00:00",
+  "lastUpdated": "2026-11-11T03:17:42.929817+00:00",
   "totalArticles": 1070,
   "articles": [
     {
@@ -14,6 +14,61 @@
       "sourceType": "rss"
     },
     {
+      "title": "GitHub App support for Enterprise Copilot seat management",
+      "link": "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management",
+      "published": "2026-11-11T00:10:31+00:00",
+      "summary": "Enterprise GitHub Apps can now call the enterprise-level Copilot seat management APIs to control which users and enterprise teams are assigned Copilot seats. The Copilot seat management APIs are accessible… The post GitHub App support for Enterprise Copilot seat management appeared first on The...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Detecting sleeper agents hiding in AI model neurons",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
+      "published": "2026-11-10T23:00:00+00:00",
+      "summary": "Microsoft Research has released new threat research detailing how a capable agent model could be turned into a sleeper agent by editing fewer than ten neurons to inject a short payload; Microsoft Research has also found that this threat is detectable by frontier agents, which can identify anomalous...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Microsoft Threat Intelligence",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Introducing Azure Monitor dashboards with Grafana MCP: Telemetry for AI Agents, Signed In as You",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-monitor-dashboards-with-grafana-mcp-telemetry/ba-p/4572228",
+      "published": "2026-11-10T22:21:47+00:00",
+      "summary": "We're introducing the Azure Monitor dashboards with Grafana remote MCP server, a global Model Context Protocol (MCP) endpoint at https://mcp.dashboard.azure.com. It lets AI agents such as GitHub Copilot query Azure Monitor metrics and logs, Azure Resource Graph, Prometheus in Azure Monitor...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Building a Trusted Ecosystem for Sovereign Private Cloud: Azure Local validated partner solutions",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/building-a-trusted-ecosystem-for-sovereign-private-cloud-azure/ba-p/4567325",
+      "published": "2026-11-10T22:00:00+00:00",
+      "summary": "When organizations move critical workloads to Azure Local, the first question usually isn't about the platform. It's about everything that runs on and around it: Will my backup tool work? Can my Security Operations Center (SOC) still see the workloads it needs to monitor? Will my identity provider...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Bandhan",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Build a dual-mode voice agent in Microsoft Foundry with native subagents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/build-a-dual-mode-voice-agent-in-microsoft-foundry-with-native/ba-p/4570650",
+      "published": "2026-11-10T21:30:00+00:00",
+      "summary": "Voice agents are changing how companies interact with customers. From service questions to technical support, the expectation is the same: a natural conversation that leads to useful, reliable answers. But responding quickly and resolving a complex request are not always the same task. Some...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "LauraVerghote",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Retirement of Microsoft HPC Pack",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/retirement-of-microsoft-hpc-pack/ba-p/4550183",
       "published": "2026-11-10T20:15:05+00:00",
@@ -23,6 +78,28 @@
       "author": "XinXin",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "[In preview] Public Preview: Distributed accelerator for cloud storage on AKS",
+      "link": "https://azure.microsoft.com/updates?id=578454",
+      "published": "2026-11-10T20:08:32+00:00",
+      "summary": "Distributed accelerator for cloud storage (DACS) is now in public preview for AI workloads running on Azure Kubernetes Service (AKS). DACS is a distributed read-through cache that runs within your AKS cluster and uses local NVMe disks across nodes to keep",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Functions support for .NET 11",
+      "link": "https://azure.microsoft.com/updates?id=578773",
+      "published": "2026-11-10T20:07:45+00:00",
+      "summary": "Azure Functions support for .NET 11 is now generally available.You can now build Azure Functions apps targeting .NET 11 using the isolated worker model, while continuing to use the Azure Functions programming model and host integration. Your serverless ap",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
     },
     {
       "title": ".NET 11 is now generally available in Azure Functions",
@@ -377,6 +454,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Do AI coding agents care about SemVer?",
+      "link": "https://devblogs.microsoft.com/blog/do-ai-coding-agents-care-about-semver/",
+      "published": "2026-11-09T16:01:03+00:00",
+      "summary": "We gave AI coding agents the same breaking upgrade twice. Labeled 2.0.0, Claude Sonnet 5.5 checked it in all 10 runs. Labeled 1.4.3, it checked in two and often left the app broken. Nearly 1,000 runs show which agents still read your version numbers, and what a patch label talks them out of.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Azure Arc at Microsoft Ignite 2026: Sessions, hands-on labs, and ways to connect",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-at-microsoft-ignite-2026-sessions-hands-on-labs-and/ba-p/4571203",
       "published": "2026-11-09T16:00:00+00:00",
@@ -562,17 +650,6 @@
       "author": "JorgeGX",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "@GitHub in Slack and Teams is generally available and more",
-      "link": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available",
-      "published": "2026-11-06T20:31:08+00:00",
-      "summary": "Turn conversations into code with @GitHub in Slack and Teams! Investigate bugs, create issues, implement changes, and open pull requests—all without leaving your conversation. What’s new Build and review together… The post @GitHub in Slack and Teams is generally available and more appeared first on...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "Building the next generation of multimodal AI experiences with fal in Microsoft Foundry",
@@ -792,6 +869,17 @@
       "blogId": "microsoftsecurity",
       "author": "Microsoft Threat Intelligence and Microsoft Defender Security Research Team",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Your best AX fixes are hiding in agent trajectories",
+      "link": "https://devblogs.microsoft.com/blog/your-best-ax-fixes-are-hiding-in-agent-trajectories/",
+      "published": "2026-11-05T15:40:49+00:00",
+      "summary": "All five agent runs produced a working script, and nothing in the eval score looked wrong. The trajectories told a different story. Every run read a DLL as raw bytes to find plugin names, and three scripts would quietly reroute a CI runner's network traffic. Here are the patterns to look for in...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -1444,17 +1532,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
-      "published": "2026-10-31T01:02:57+00:00",
-      "summary": "Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it. The post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Microsoft Security Research",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Everything released in October 2026 for Azure Developer CLI",
       "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-october-2026/",
       "published": "2026-10-30T19:02:14+00:00",
@@ -1563,6 +1640,17 @@
       "author": "hieunhu",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Does ‘eval’ in the workspace path change what your agent does?",
+      "link": "https://devblogs.microsoft.com/blog/does-eval-in-the-workspace-path-change-what-your-agent-does/",
+      "published": "2026-10-30T12:49:14+00:00",
+      "summary": "Your eval might be telling the agent it’s a test before the agent reads a single instruction. Eval tools need a fresh folder for every run, and the easiest way to get one is a temp directory with a random name like /tmp/eval-7f3a2c. The agent sees that path on every turn, in the system prompt […]",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz",
+      "feedUrl": "https://developer.microsoft.com/blog/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Hybrid Logic Apps - SQL as storage provider benchmarking",
@@ -1959,17 +2047,6 @@
       "author": "Daniel Roth",
       "feedUrl": "https://devblogs.microsoft.com/dotnet/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "MAI-Image-2.6 and MAI-Image-2.6-Flash are now generally available in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/mai-image-2-6-and-mai-image-2-6-flash-are-now-generally/ba-p/4566327",
-      "published": "2026-10-27T15:00:00+00:00",
-      "summary": "From creative exploration to enterprise workflows Creating a compelling image is one step. Making image generation useful across a business means giving teams the control to refine an idea, adapt it for different audiences, and keep moving when the work scales. MAI-Image-2.6 and MAI-Image-2.6-Flash...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "alexanderhughes",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Inspecting Local Data with Azure Cosmos DB Shell",
@@ -3125,17 +3202,6 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "Bring Azure SRE Agent into your developer workflow with the new canvas",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bring-azure-sre-agent-into-your-developer-workflow-with-the-new/ba-p/4564514",
-      "published": "2026-10-14T16:35:26+00:00",
-      "summary": "You’re on call. A customer-reported incident lands, Azure SRE Agent picks it up from your incident management system, investigates, and gives you a starting diagnosis. If you’re like me, you want to check that diagnosis yourself, and you want to do it where you already work: in GitHub Copilot, with...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "paulyuk",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "From extraction to action: Using grounding and confidence to build reliable document workflows",
@@ -4370,17 +4436,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Build with Azure Canvases: a shared workspace for agents",
-      "link": "https://devblogs.microsoft.com/blog/azure-canvases/",
-      "published": "2026-09-29T18:30:00+00:00",
-      "summary": "See how Azure Canvases bring plans, code, previews, and deployment feedback together in a collaborative workspace for agent-assisted development.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Matt Hernandez",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[In preview] Public Preview: Azure Database for PostgreSQL Ultra Disk",
       "link": "https://azure.microsoft.com/updates?id=571909",
       "published": "2026-09-29T18:14:46+00:00",
@@ -4645,17 +4700,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Enabling Consistent AI-Assisted Engineering with GitHub Copilot Plugins",
-      "link": "https://devblogs.microsoft.com/blog/enabling-consistent-ai-assisted-engineering-with-github-copilot-plugins/",
-      "published": "2026-09-29T16:30:35+00:00",
-      "summary": "When an engineer or team creates useful agentic artifacts for their daily work (e.g., instructions, skills, and MCP configurations), others naturally want to adopt them when they see how those artifacts could help with their own work. Sharing the files is straightforward, but keeping those...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Fernando de Oliveira",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "More EDA Job Sets per Volume: Azure NetApp Files Raises the Performance Bar",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/more-eda-job-sets-per-volume-azure-netapp-files-raises-the/ba-p/4558993",
       "published": "2026-09-29T16:00:00+00:00",
@@ -4708,17 +4752,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Get started with the GitHub Copilot app: a free, hands-on course",
-      "link": "https://devblogs.microsoft.com/blog/github-copilot-app-for-beginners/",
-      "published": "2026-09-28T18:05:00+00:00",
-      "summary": "Learn to direct AI coding agents, review their work, and build reliable development workflows with this free GitHub Copilot app course.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Dan Wahlin",
-      "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
     },
     {
@@ -7208,28 +7241,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "[Launched] Generally Available: Batch rule updates for Azure Front Door",
-      "link": "https://azure.microsoft.com/updates?id=569246",
-      "published": "2026-08-12T17:03:08+00:00",
-      "summary": "Batch rule updates are now generally available for Azure Front Door Standard and Premium. This capability enables customers to add, update, delete, or reorder multiple rules in a rule set as a coordinated operation, ensuring that all changes are applied t",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Azure Front Door mutual TLS",
-      "link": "https://azure.microsoft.com/updates?id=569251",
-      "published": "2026-08-12T17:01:19+00:00",
-      "summary": "Mutual TLS, also known as client certificate authentication, enables Azure Front Door to authenticate clients using X.509 certificates before requests reach an application. It helps protect sensitive applications and APIs across business-to-business, Inte",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
       "title": "Visual Studio Code 1.133",
       "link": "https://code.visualstudio.com/updates/v1_133",
       "published": "2026-08-12T17:00:00+00:00",
@@ -7370,17 +7381,6 @@
       "blogId": "microsoftsentinelblog",
       "author": "Robert_Moriarty",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Generally Available: Windows Server 2016 Extended Security Updates enabled by Azure Arc",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/generally-available-windows-server-2016-extended-security/ba-p/4543640",
-      "published": "2026-08-06T19:27:34+00:00",
-      "summary": "Today, the Azure Arc team is pleased to announce that Extended Security Updates (ESUs) enabled by Azure Arc is now generally available for Windows Server 2016. By connecting your Windows Server 2016 machines to Azure Arc-enabled servers, you can enroll in ESUs and receive security updates. Enroll...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Mason_Torres",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearcblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -11773,5 +11773,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Microsoft’s updates centered on AI, cloud app modernization, and infrastructure performance: Azure AI Foundry added Kimi K3.1 Pro via Fireworks and made native real-time multilingual transcription generally available with faster performance, while GitHub Copilot introduced Gemini 4 Carbon and Microsoft previewed “Agent 365” for Ignite 2026. On the developer platform side, .NET 11 reached general availability and is now supported in Azure Functions, Logic Apps Standard custom code added .NET 10 support, Visual Studio 2026 LTSC 18.11 was announced, and GitHub highlighted security changes including newly announced Git vulnerabilities and Dependabot alert pausing for inactive repositories.\n\nOn Azure infrastructure, Microsoft announced major networking and operations improvements across AKS networking, Azure Front Door, and Azure Route Server, including native gRPC support in Front Door preview, GA of Front Door edge actions, and dual-stack IPv4/IPv6 support for Route Server. It also emphasized workload optimization with new Azure HDv2 VMs for AI data processing, HPC, and agentic workloads, practical immutable infrastructure through Azure Container Linux, App Service plan scheduled start/stop in public preview, and the retirement of Microsoft HPC Pack."
+  "summary": "Today’s Azure-adjacent developer news centers on tooling and enterprise AI governance. **Visual Studio Code 1.146 (Insiders)** signals ongoing updates to Microsoft’s core developer IDE, while **GitHub** announced **GitHub App support for Enterprise Copilot seat management**, giving organizations a more scalable way to automate and control **GitHub Copilot Enterprise** license assignment and administration.\n\nThe main themes are **developer productivity** and **enterprise management of AI coding tools**: VS Code continues to evolve as the foundational editor, and GitHub is adding more IT-friendly controls around deploying Copilot at scale through **GitHub Apps** and enterprise seat management workflows."
 }
