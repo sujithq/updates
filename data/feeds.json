@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-12T04:29:14.417063+00:00",
-  "totalArticles": 1056,
+  "lastUpdated": "2026-11-12T14:03:24.539694+00:00",
+  "totalArticles": 1066,
   "articles": [
     {
       "title": "Visual Studio Code 1.147 (Insiders)",
@@ -12,6 +12,39 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Redefining Application Load Balancing in Azure Application Gateway",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/redefining-application-load-balancing-in-azure-application/ba-p/4572687",
+      "published": "2026-11-12T07:29:59+00:00",
+      "summary": "By Jay Soni (Senior Product Manager) and Jordi Rey (Product Manager), Azure Application Gateway Modern applications change quickly. Teams run A/B experiments, version their APIs, tailor experiences by client and tenant, and serve AI models across reserved and pay-as-you-go capacity. Azure...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "vnamani",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Introducing Azure Container Apps as a target workload in Azure Migrate",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-container-apps-as-a-target-workload-in-azure/ba-p/4571669",
+      "published": "2026-11-12T05:51:04+00:00",
+      "summary": "We are excited to announce Azure Container Apps as a target workload for assessment in Azure Migrate, helping organizations evaluate existing web applications for migration to a managed, serverless container platform. This capability extends the Azure Migrate assessment experience to Azure...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "DeepGanguly",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "What's new in FinOps toolkit 15 – October 2026",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/what-s-new-in-finops-toolkit-15-october-2026/ba-p/4571153",
+      "published": "2026-11-12T05:28:48+00:00",
+      "summary": "Most of us already keep an AI assistant open all day. It writes, summarizes, and answers questions, so why shouldn't it help you understand and optimize your cloud costs, too? FinOps toolkit 15 makes that happen with a new agent plugin that brings FinOps expertise and your cost data into the AI...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "Michael_Flanakin",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Mistral Large 4 in Microsoft Foundry: Build sovereign AI within a consistent platform experience",
@@ -187,6 +220,17 @@
       "blogId": "azure-ai-foundry-blog",
       "author": "majianfe",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Python support has arrived in the guided Copilot experience for VS Code",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/python-support-has-arrived-in-the-guided-copilot-experience-for/ba-p/4572591",
+      "published": "2026-11-11T16:56:47+00:00",
+      "summary": "When we introduced the guided Copilot experience for building Azure apps in VS Code, we started with JavaScript and TypeScript, with Python on the roadmap. Since then, we've seen people creating Python projects with the experience, and we wanted to make sure our Python lovers had proper support....",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "fiveisprime",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3237,28 +3281,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Enterprise Adoption Guide for Azure SRE Agent, Part 2: From One Team to Enterprise-Wide Adoption",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enterprise-adoption-guide-for-azure-sre-agent-part-2-from-one/ba-p/4564311",
-      "published": "2026-10-15T03:51:09+00:00",
-      "summary": "In Part 1: From First Use Case to Automated Workflows, we focused on identifying use cases and getting setup with your initial SRE Agent. Teams see the value, and now you need to decide how adoption should expand. These are the questions we increasingly hear from teams. Who should share an agent?...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "dchelupati",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Enterprise Adoption Guide for Azure SRE Agent, Part 1: Deploying Your First Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enterprise-adoption-guide-for-azure-sre-agent-part-1-deploying/ba-p/4564306",
-      "published": "2026-10-15T03:50:21+00:00",
-      "summary": "We have learned a lot from talking with teams that are bringing Azure SRE Agent into their day-to-day operations. Across those conversations, we have seen a common set of questions emerge as teams move from exploring an initial use case to adopting SRE Agent more broadly. Some teams are starting...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "dchelupati",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "End of Lifecycle for Windows Server 2012 and 2012 R2",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/end-of-lifecycle-for-windows-server-2012-and-2012-r2/ba-p/4564611",
       "published": "2026-10-15T00:20:15+00:00",
@@ -5008,6 +5030,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Documentation Is the New Source Code",
+      "link": "https://devblogs.microsoft.com/ise/documentation-is-the-new-source-code/",
+      "published": "2026-09-24T07:00:00+00:00",
+      "summary": "A field guide to building a layered, AI-readable documentation system — instruction files, skills, ADRs, and tests — that turns your repo into a reliable substrate for Copilot, agents, and high-velocity engineering workflows. The post Documentation Is the New Source Code appeared first on ISE...",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Liza Shakury",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "How to Validate That Your BizTalk SB-Messaging Adapter Is Really Using AMQP",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/how-to-validate-that-your-biztalk-sb-messaging-adapter-is-really/ba-p/4559391",
       "published": "2026-09-24T04:15:15+00:00",
@@ -5797,6 +5830,17 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Building a Japanese LLM Evaluation Pipeline: Lessons from a Two-Day Hackathon",
+      "link": "https://devblogs.microsoft.com/ise/japanese-llm-evaluation-pipeline-hackathon/",
+      "published": "2026-09-14T07:00:00+00:00",
+      "summary": "ISE hackathon produced a reusable Japanese LLM evaluation pipeline with multi-turn, facet-based scoring, cross-provider model support, and publication-ready benchmarking outputs. The post Building a Japanese LLM Evaluation Pipeline: Lessons from a Two-Day Hackathon appeared first on ISE Developer...",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Jaein Tak, Akihiro Inui, Kohei Saito",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
       "sourceType": "rss"
     },
     {
@@ -7868,17 +7912,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Announcing public preview of Azure DDoS Protection custom policy",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/announcing-public-preview-of-azure-ddos-protection-custom-policy/ba-p/4538963",
-      "published": "2026-07-23T17:16:28+00:00",
-      "summary": "We are excited to announce the public preview of Azure DDoS Protection custom policy, a new capability that gives customers more granular control over how Azure DDoS Protection detects and mitigates attacks against protected workloads. Azure DDoS Protection has always focused on delivering...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "OfirSarfaty",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworkingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Connecting Microsoft Discovery App to Azure HPC with Azure NetApp Files and CycleCloud",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/connecting-microsoft-discovery-app-to-azure-hpc-with-azure/ba-p/4539224",
       "published": "2026-07-22T16:47:17+00:00",
@@ -7910,6 +7943,17 @@
       "author": "Ron Frenkel",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
+    },
+    {
+      "title": "Teaching a Vision Model to See Like a Human Annotator—and Catching It When It Lies",
+      "link": "https://devblogs.microsoft.com/ise/ai-asset-enrichment-pipeline/",
+      "published": "2026-07-17T07:00:00+00:00",
+      "summary": "A multimodal LLM enrichment pipeline that extracts structured metadata from visual assets, constrains output to predefined values to minimize hallucinations, and uses a ground truth evaluation template to measure quality—all as a plug-and-play module. The post Teaching a Vision Model to See Like a...",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Deeptanil Saha, Kartheek Palepu",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
+      "sourceType": "rss"
     },
     {
       "title": "Announcing Public Preview of Autoscale for Azure Event Grid Namespaces",
@@ -8110,6 +8154,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "From Noisy Queries to Precise Frames: Query Decomposition for Media Asset Search",
+      "link": "https://devblogs.microsoft.com/ise/from_noisy_queries_to_precise_frames/",
+      "published": "2026-07-09T07:00:00+00:00",
+      "summary": "How query decomposition separates metadata filters from visual intent to significantly improve media asset retrieval quality. The post From Noisy Queries to Precise Frames: Query Decomposition for Media Asset Search appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Kartheek Palepu, Deeptanil Saha",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "What's new in Agent 365 – June 2026",
       "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/what-s-new-in-agent-365-june-2026/ba-p/4535107",
       "published": "2026-07-08T23:18:06+00:00",
@@ -8173,6 +8228,17 @@
       "blogId": "vscode",
       "author": "VS Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Enabling MLflow OpenAI Autolog on PySpark Workers",
+      "link": "https://devblogs.microsoft.com/ise/mlflow-autolog-pyspark-workers/",
+      "published": "2026-07-03T07:00:00+00:00",
+      "summary": "When distributing LLM calls across PySpark workers via mapInPandas, MLflow autolog silently fails. Here is how to fix it. The post Enabling MLflow OpenAI Autolog on PySpark Workers appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Jaya Kumar",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
       "sourceType": "rss"
     },
     {
@@ -8305,6 +8371,17 @@
       "blogId": "azuresdkblog",
       "author": "Kristen Womack",
       "feedUrl": "https://devblogs.microsoft.com/azure-sdk/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Passing Context Between Agents in Multi-Agent A2A Systems",
+      "link": "https://devblogs.microsoft.com/ise/a2a-context-passing-multi-agent-systems/",
+      "published": "2026-06-26T07:00:00+00:00",
+      "summary": "How we solved the challenge of passing conversational context between independently deployed agents using the A2A protocol's embedded context pattern, keeping domain agents stateless and secure. The post Passing Context Between Agents in Multi-Agent A2A Systems appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Olha Konstantinova, Scott Grosenick",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
       "sourceType": "rss"
     },
     {
@@ -8528,6 +8605,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Separating Deterministic Extraction from AI Inference in Industrial Summarization",
+      "link": "https://devblogs.microsoft.com/ise/separating-deterministic-extraction-from-ai-inference/",
+      "published": "2026-06-19T07:00:00+00:00",
+      "summary": "When 100% of our prototype outputs were valid JSON but 0% met the data contract, we discovered the LLM was doing work that software should own. A field classification exercise and 4-pass pipeline brought schema compliance from 0% to 100%. The post Separating Deterministic Extraction from AI...",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Viktor Ciroski",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "What 50,000 Runs of a 5-Line Eval Taught Us",
       "link": "https://code.visualstudio.com/blogs/2026/06/19/what-50000-runs-taught-us",
       "published": "2026-06-19T00:00:00+00:00",
@@ -8748,6 +8836,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Orchestration Patterns for Multi-Agent Systems: Performance and Trade-offs",
+      "link": "https://devblogs.microsoft.com/ise/coordinator-patterns-multi-agent-systems/",
+      "published": "2026-06-12T07:00:00+00:00",
+      "summary": "Real-world lessons from evolving a production chatbot into a coordinator-based multi-agent architecture, including performance trade-offs for enterprise-scale agent reuse. The post Orchestration Patterns for Multi-Agent Systems: Performance and Trade-offs appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Lily Jia",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Right‑sizing Azure Savings Plans, one hour at a time",
       "link": "https://techcommunity.microsoft.com/t5/finops-blog/right-sizing-azure-savings-plans-one-hour-at-a-time/ba-p/4527507",
       "published": "2026-06-11T20:21:40+00:00",
@@ -8943,6 +9042,17 @@
       "blogId": "aspireblog",
       "author": "Jeff Liu",
       "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "How we Decide Between Keyword and Hybrid Search: 5 Enterprise Evaluation Criteria",
+      "link": "https://devblogs.microsoft.com/ise/keyword-vs-hybrid-search/",
+      "published": "2026-06-04T07:00:00+00:00",
+      "summary": "A data-driven framework we use in enterprise deployments to decide between vector-only keyword and hybrid search, based on five measurable evaluation criteria. The post How we Decide Between Keyword and Hybrid Search: 5 Enterprise Evaluation Criteria appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Beijie Zhang",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
       "sourceType": "rss"
     },
     {
@@ -9328,6 +9438,17 @@
       "blogId": "aspireblog",
       "author": "Brent Rusinow",
       "feedUrl": "https://devblogs.microsoft.com/aspire/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Verification-driven tooling prompts for fast-moving codebases",
+      "link": "https://devblogs.microsoft.com/ise/verification-driven-tooling-prompts/",
+      "published": "2026-05-28T07:00:00+00:00",
+      "summary": "A practical pattern for using GenAI research agents to produce reliable internal tooling by verifying assumptions with detection classes and a final checklist. The post Verification-driven tooling prompts for fast-moving codebases appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Dexter Williams",
+      "feedUrl": "https://devblogs.microsoft.com/ise/feed/",
       "sourceType": "rss"
     },
     {
@@ -11606,18 +11727,7 @@
       "author": "GalimahB",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-events&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Deriving expiry days and remaining retention days for blobs through blob inventory",
-      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/deriving-expiry-days-and-remaining-retention-days-for-blobs/ba-p/4466586",
-      "published": "2025-11-11T05:35:25+00:00",
-      "summary": "In managing data within Azure blob storage accounts and Azure data lake gen 2 storage accounts, organizations often encounter scenarios where blobs have been deleted but remain in a soft-deleted state. To calculate the remaining retention days for all such blobs across an entire storage account can...",
-      "blog": "Azure PaaS",
-      "blogId": "azurepaasblog",
-      "author": "Harshi_mrinal",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurepaasblog&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog highlights two core themes: expanding enterprise AI capabilities in **Azure AI Foundry** and deepening infrastructure security with **confidential computing**. Microsoft announced **Mistral Large 4** in Foundry, emphasizing sovereign AI deployment within a consistent platform experience, while a separate post details how Azure is extending **confidential computing protections to data disks**, strengthening protection for sensitive workloads and stored data beyond compute and memory."
+  "summary": "Today’s Azure blogs focused on modernizing core cloud infrastructure, migration, cost management, AI, and security. Key announcements included a redefined Azure Application Gateway approach to application load balancing, Azure Container Apps being added as a target workload in Azure Migrate, FinOps toolkit 15 introducing new October 2026 cost-optimization updates, Mistral Large 4 arriving in Microsoft Foundry for sovereign AI scenarios, and expanded confidential computing protections to data disks.\n\nThe biggest themes were platform consistency and enterprise readiness: Azure is making it easier to migrate and run containerized apps, build governed AI with Mistral Large 4 in Azure AI Foundry/Microsoft Foundry, and strengthen security with confidential computing that now covers stored data disks in addition to compute protections."
 }
