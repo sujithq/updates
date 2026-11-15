@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T00:28:29.861232+00:00",
+  "lastUpdated": "2026-11-15T10:00:57.908891+00:00",
   "totalArticles": 1047,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Deploying an AI Application on Azure Container Apps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/deploying-an-ai-application-on-azure-container-apps/ba-p/4572612",
+      "published": "2026-11-15T09:51:38+00:00",
+      "summary": "AI applications often start as prototypes running locally on a developer’s machine. A Streamlit application may work perfectly in a development environment, but making it accessible to users introduces a different set of infrastructure and operational considerations. From an infrastructure...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Devi_Priya",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Your guide to FinOps for AI at Microsoft Ignite 2026",
@@ -474,17 +485,6 @@
       "author": "Yash Gund, Sumith Maniath and Microsoft Security Research",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Deploying an AI Application on Azure Container Apps",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/deploying-an-ai-application-on-azure-container-apps/ba-p/4572612",
-      "published": "2026-11-11T19:12:23+00:00",
-      "summary": "AI applications often start as prototypes running locally on a developer’s machine. A Streamlit application may work perfectly in a development environment, but making it accessible to users introduces a different set of infrastructure and operational considerations. From an infrastructure...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Devi_Priya",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Content Understanding adds GPT-6.1, 6, and 5.6: Choose the right model for your workload",
@@ -11519,5 +11519,6 @@
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage centers on **AI application deployment on Azure Container Apps**, with a practical focus on running modern AI workloads in a managed container environment. The key themes are likely **containerized app architecture, Azure Container Apps as the hosting platform, and Azure infrastructure patterns for deploying AI-powered services**, highlighting how developers can operationalize AI applications on Azure with scalable, cloud-native components."
 }
