@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-09T17:45:34.201894+00:00",
+  "lastUpdated": "2026-11-16T17:20:39.640405+00:00",
   "features": {
     "Azure SQL mid-March 2026 updates": {
       "status": "ga",
@@ -1283,11 +1283,11 @@
     },
     "Bring Your Own Model": {
       "status": "ga",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/bring-your-own-model-to-foundry-agent-service-is-now-generally/ba-p/4515133",
-      "title": "Bring Your Own Model to Foundry Agent Service Is Now Generally Available",
-      "service": "Foundry Agent Service",
-      "lastSeen": "2026-05-04T09:39:15.460047+00:00",
-      "published": "2026-04-27T21:15:00+00:00"
+      "link": "https://devblogs.microsoft.com/visualstudio/bring-your-own-model-is-now-generally-available-in-visual-studio/",
+      "title": "Bring Your Own Model is now generally available in Visual Studio",
+      "service": "Visual Studio",
+      "lastSeen": "2026-11-16T17:20:39.640372+00:00",
+      "published": "2026-11-11T17:00:48+00:00"
     },
     "Bring your own AI Gateway": {
       "status": "ga",
@@ -4434,12 +4434,12 @@
       "published": "2026-07-15T15:15:25+00:00"
     },
     "Edge actions": {
-      "status": "preview",
-      "link": "https://azure.microsoft.com/updates?id=567402",
-      "title": "[In preview] Public Preview: Azure Front Door edge actions",
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=579310",
+      "title": "[Launched] Generally Available: Azure Front Door edge actions",
       "service": "Azure Front Door",
-      "lastSeen": "2026-07-20T10:27:43.694466+00:00",
-      "published": "2026-07-14T20:03:32+00:00"
+      "lastSeen": "2026-11-16T17:20:39.640387+00:00",
+      "published": "2026-11-10T18:55:09+00:00"
     },
     "SQL Serverless in UK West": {
       "status": "ga",
@@ -5894,8 +5894,8 @@
       "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/now-generally-available-regional-resiliency-for-azure-virtual/ba-p/4540458",
       "title": "Now generally available: Regional resiliency for Azure Virtual Desktop",
       "service": "Azure Virtual Desktop",
-      "lastSeen": "2026-10-05T16:20:01.728483+00:00",
-      "published": "2026-10-01T23:06:57+00:00"
+      "lastSeen": "2026-11-16T17:20:39.640341+00:00",
+      "published": "2026-11-13T21:05:09+00:00"
     },
     "Computer use": {
       "status": "preview",
@@ -5923,11 +5923,11 @@
     },
     "SQL performance monitoring": {
       "status": "preview",
-      "link": "https://azure.microsoft.com/updates?id=571867",
-      "title": "[In preview] Public Preview: SQL Performance Monitoring for Azure SQL Database",
-      "service": "Azure SQL Database",
-      "lastSeen": "2026-10-05T16:20:01.728518+00:00",
-      "published": "2026-09-29T18:13:31+00:00"
+      "link": "https://azure.microsoft.com/updates?id=574158",
+      "title": "[In preview] Public Preview: SQL performance monitoring for Azure SQL Managed Instance",
+      "service": "Azure SQL Managed Instance",
+      "lastSeen": "2026-11-16T17:20:39.640365+00:00",
+      "published": "2026-11-12T16:59:40+00:00"
     },
     "Network security perimeter metrics": {
       "status": "ga",
@@ -6888,6 +6888,150 @@
       "service": "Azure Site Recovery",
       "lastSeen": "2026-11-09T17:45:34.201892+00:00",
       "published": "2026-11-02T17:49:48+00:00"
+    },
+    "App Service plan start/stop": {
+      "status": "preview",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/run-on-your-schedule-app-service-plan-start-stop-now-in-public/ba-p/4566184",
+      "title": "Run on your schedule: App Service plan start/stop now in public preview",
+      "service": "Azure App Service",
+      "lastSeen": "2026-11-16T17:20:39.640351+00:00",
+      "published": "2026-11-13T20:42:33+00:00"
+    },
+    "Gemini 4 Hydrogen": {
+      "status": "ga",
+      "link": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+      "title": "Gemini 4 Hydrogen in GitHub Copilot",
+      "service": "GitHub Copilot",
+      "lastSeen": "2026-11-16T17:20:39.640355+00:00",
+      "published": "2026-11-13T18:23:48+00:00"
+    },
+    "AI Scan REST API management": {
+      "status": "preview",
+      "link": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
+      "title": "Manage AI Scan for repositories using the REST API",
+      "service": "GitHub code scanning",
+      "lastSeen": "2026-11-16T17:20:39.640357+00:00",
+      "published": "2026-11-13T12:22:41+00:00"
+    },
+    "JWT validation with Auth Policy": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=577673",
+      "title": "[In preview] Public Preview: JWT validation with Azure Front Door Auth Policy",
+      "service": "Azure Front Door",
+      "lastSeen": "2026-11-16T17:20:39.640359+00:00",
+      "published": "2026-11-12T22:36:37+00:00"
+    },
+    "Mutual TLS authentication": {
+      "status": "ga",
+      "link": "https://azure.microsoft.com/updates?id=577678",
+      "title": "[Launched] Generally Available: Azure Front Door mutual TLS authentication",
+      "service": "Azure Front Door",
+      "lastSeen": "2026-11-16T17:20:39.640362+00:00",
+      "published": "2026-11-12T22:27:35+00:00"
+    },
+    "Auto scaling of ingestion limits": {
+      "status": "preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-auto-scaling-of-ingestion-limits-in-azure-monitor/ba-p/4570377",
+      "title": "Public preview: Auto scaling of ingestion limits in Azure Monitor workspace",
+      "service": "Azure Monitor",
+      "lastSeen": "2026-11-16T17:20:39.640374+00:00",
+      "published": "2026-11-11T16:00:00+00:00"
+    },
+    "Rate limit grouping": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=580155",
+      "title": "[In preview] Public Preview: Rate limit grouping for Azure Front Door Premium WAF",
+      "service": "Azure Front Door",
+      "lastSeen": "2026-11-16T17:20:39.640368+00:00",
+      "published": "2026-11-11T18:18:27+00:00"
+    },
+    "Issue types and fields for personal accounts": {
+      "status": "ga",
+      "link": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts",
+      "title": "Issue types and fields are available for personal accounts",
+      "service": "GitHub Issues",
+      "lastSeen": "2026-11-16T17:20:39.640370+00:00",
+      "published": "2026-11-11T17:16:46+00:00"
+    },
+    "Distributed accelerator for cloud storage": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=578454",
+      "title": "[In preview] Public Preview: Distributed accelerator for cloud storage on AKS",
+      "service": "Azure Kubernetes Service",
+      "lastSeen": "2026-11-16T17:20:39.640377+00:00",
+      "published": "2026-11-10T20:08:32+00:00"
+    },
+    ".NET 11 support": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/net-11-is-now-generally-available-in-azure-functions/ba-p/4571176",
+      "title": ".NET 11 is now generally available in Azure Functions",
+      "service": "Azure Functions",
+      "lastSeen": "2026-11-16T17:20:39.640381+00:00",
+      "published": "2026-11-10T19:58:09+00:00"
+    },
+    "Gemini 4 Carbon": {
+      "status": "ga",
+      "link": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot",
+      "title": "Gemini 4 Carbon in GitHub Copilot",
+      "service": "GitHub Copilot",
+      "lastSeen": "2026-11-16T17:20:39.640383+00:00",
+      "published": "2026-11-10T19:26:51+00:00"
+    },
+    "Native gRPC support": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=579383",
+      "title": "[In preview] Public Preview: Azure Front Door adds native gRPC support",
+      "service": "Azure Front Door",
+      "lastSeen": "2026-11-16T17:20:39.640385+00:00",
+      "published": "2026-11-10T18:55:53+00:00"
+    },
+    "Dual-stack IPv4/IPv6 support": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=579746",
+      "title": "Public Preview: Azure Route Server dual-stack IPv4/IPv6 support",
+      "service": "Azure Route Server",
+      "lastSeen": "2026-11-16T17:20:39.640389+00:00",
+      "published": "2026-11-10T18:21:41+00:00"
+    },
+    "Native real-time multilingual transcription": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/native-real-time-multilingual-transcription-is-now-generally/ba-p/4569665",
+      "title": "Native real-time multilingual transcription is now generally available, and faster",
+      "service": "Azure AI Speech",
+      "lastSeen": "2026-11-16T17:20:39.640391+00:00",
+      "published": "2026-11-10T14:00:00+00:00"
+    },
+    "Durable Task extension": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/durable-task-extension-for-microsoft-agent-framework-is-now/ba-p/4571100",
+      "title": "Durable Task extension for Microsoft Agent Framework is now Generally Available",
+      "service": "Microsoft Agent Framework",
+      "lastSeen": "2026-11-16T17:20:39.640393+00:00",
+      "published": "2026-11-09T20:43:58+00:00"
+    },
+    "Scoped enforcement actions": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/granular-control-with-scoped-enforcement-actions-in-azure-policy/ba-p/4571773",
+      "title": "Granular control with scoped enforcement actions in Azure Policy for AKS",
+      "service": "Azure Policy for AKS",
+      "lastSeen": "2026-11-16T17:20:39.640395+00:00",
+      "published": "2026-11-09T18:34:10+00:00"
+    },
+    "Validating Admission Policy": {
+      "status": "ga",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/granular-control-with-scoped-enforcement-actions-in-azure-policy/ba-p/4571773",
+      "title": "Granular control with scoped enforcement actions in Azure Policy for AKS",
+      "service": "Azure Policy for AKS",
+      "lastSeen": "2026-11-16T17:20:39.640397+00:00",
+      "published": "2026-11-09T18:34:10+00:00"
+    },
+    "Modernize Arc-enabled Windows Servers with Azure File Sync": {
+      "status": "preview",
+      "link": "https://azure.microsoft.com/updates?id=579854",
+      "title": "[In preview] Public Preview: Modernize Arc-enabled Windows Servers with Azure File Sync",
+      "service": "Azure File Sync",
+      "lastSeen": "2026-11-16T17:20:39.640402+00:00",
+      "published": "2026-11-09T17:20:57+00:00"
     }
   }
 }
