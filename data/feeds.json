@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T05:21:34.468461+00:00",
+  "lastUpdated": "2026-11-17T14:59:15.398791+00:00",
   "totalArticles": 1050,
   "articles": [
     {
@@ -121,6 +121,17 @@
       "blogId": "microsoftsecurity",
       "author": "Shreya Kale",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Strengthening AKS security with platform-initiated upgrades",
+      "link": "https://blog.aks.azure.com/2026/11/17/platform-initiated-upgrades",
+      "published": "2026-11-17T00:00:00+00:00",
+      "summary": "AKS platform-initiated upgrades begin June 1, 2027. Find unsupported clusters and pick an upgrade plan that fits your workloads with Fleet Manager and LTS.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft",
+      "feedUrl": "https://blog.aks.azure.com/rss.xml",
       "sourceType": "rss"
     },
     {
@@ -9320,17 +9331,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Announcing the public preview of AKS on bare metal",
-      "link": "https://blog.aks.azure.com/2026/06/02/aks-baremetal-public-preview",
-      "published": "2026-06-02T00:00:00+00:00",
-      "summary": "AKS on bare metal is now available in public preview!",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft",
-      "feedUrl": "https://blog.aks.azure.com/rss.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Scaling multi-node LLM inference with NVIDIA Dynamo-Grove on AKS (Part 4)",
       "link": "https://blog.aks.azure.com/2026/06/02/dynamo-on-aks-part-4",
       "published": "2026-06-02T00:00:00+00:00",
@@ -11552,5 +11552,6 @@
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     }
-  ]
+  ],
+  "summary": "Today’s Azure news centered on cloud operations, AI app hosting, and platform security: Microsoft introduced task queues in Durable Task Scheduler for Azure apps, added LangGraph hosting support through Microsoft Foundry Agents in Azure AI Foundry, previewed SqlPackage Deployment History and Fast Comparison for Azure SQL, and expanded Kubernetes Center plus AKS security with platform-initiated upgrades. Observability was another major theme, with Azure Monitor highlighting large-scale distributed tracing, general availability of OpenTelemetry-based troubleshooting, and a new Azure Observability Skills Plugin announced at Ignite 2026.\n\nBroader platform announcements focused on sovereignty and security: Microsoft emphasized sovereignty capabilities at Ignite, GitHub extended Dependabot alert dismissal requests to one year, and Microsoft warned of a high-volume phishing campaign exploiting Microsoft 365 outage themes across multiple industries."
 }
