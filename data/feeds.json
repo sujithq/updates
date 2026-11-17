@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-16T21:18:51.346942+00:00",
-  "totalArticles": 1047,
+  "lastUpdated": "2026-11-17T05:21:34.468461+00:00",
+  "totalArticles": 1050,
   "articles": [
     {
       "title": "Visual Studio Code 1.147 (Insiders)",
@@ -11,6 +11,204 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Task queues in Durable Task Scheduler",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/task-queues-in-durable-task-scheduler/ba-p/4573962",
+      "published": "2026-11-17T04:37:03+00:00",
+      "summary": "Task queues in Durable Task Scheduler: control the pace of your work As teams scale their workflows on Durable Task Scheduler (DTS), many of them hit the same problem: the scheduler is fast, but the systems they call are not. A batch job starts 50,000 orchestrations. Each one calls a partner API...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Anirudh Garg",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Hosting your LangGraph application on Microsoft Foundry Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/hosting-your-langgraph-application-on-microsoft-foundry-agents/ba-p/4573342",
+      "published": "2026-11-17T04:16:42+00:00",
+      "summary": "This post was co-authored my Maira Ladeira Tanke and Muzz Imam Consider a sales team that wants an assistant to handle customer returns. A customer asks, “Can I return my order?” The assistant needs to understand the request, look up the order, and use the available tools to help the customer...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "mairatanke",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "SqlPackage Deployment History and Fast Comparison Preview",
+      "link": "https://devblogs.microsoft.com/azure-sql/sqlpackage-deployment-history-and-fast-comparison-preview/",
+      "published": "2026-11-17T03:11:04+00:00",
+      "summary": "Database deployments should be repeatable. A SQL database project describes the desired schema, its build produces a .dacpac, and SqlPackage compares that model with a target database to work out the changes to apply. But what happens when a pipeline publishes the same database model again? Even...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Matt Hyon",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Sovereignty at Microsoft Ignite",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/sovereignty-at-microsoft-ignite/ba-p/4573780",
+      "published": "2026-11-17T02:58:19+00:00",
+      "summary": "Planning for sovereignty means making choices about specific workloads, controls, and operating environments. At Microsoft Ignite, use the sessions, demos, and conversations below to find the guidance that fits your priorities and leave with practical next steps for your team. Start with the...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "pangn",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Announcing Azure Observability Skills Plugin at Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-azure-observability-skills-plugin-at-ignite-2026/ba-p/4573940",
+      "published": "2026-11-17T01:24:42+00:00",
+      "summary": "What if you could start troubleshooting without first figuring out how to assemble the entire observability toolbox? Your API is slow. Your agent is failing. An alert just fired. Before you can investigate, you may need to work out which telemetry source, MCP server, API, or skill can answer your...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "nuzhat-minhaz",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Introducing new experiences in Kubernetes Center at Microsoft Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/introducing-new-experiences-in-kubernetes-center-at-microsoft/ba-p/4569688",
+      "published": "2026-11-17T01:02:26+00:00",
+      "summary": "We are thrilled to announce new Kubernetes Center experiences designed to help you understand your Kubernetes estate and act across clusters from unified management experience. Building on the Security capabilities already available, these additions bring Multicluster update and insights,...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Harsha_Nair",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "See the Patterns, Then the Trace: Distributed Tracing at Scale with Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/see-the-patterns-then-the-trace-distributed-tracing-at-scale/ba-p/4573318",
+      "published": "2026-11-17T01:00:00+00:00",
+      "summary": "Analyze distributed traces at scale We are excited to announce the public preview of Azure Monitor traces. You can now analyze application transactions at-scale using end-to-end traces and their derived metrics to identify patterns in usage, performance, and failures. Trace-based metrics...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "KayodePrince",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Troubleshoot with OpenTelemetry in Azure Monitor – Now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/troubleshoot-with-opentelemetry-in-azure-monitor-now-generally/ba-p/4573810",
+      "published": "2026-11-17T01:00:00+00:00",
+      "summary": "OpenTelemetry is fast becoming the industry standard for modern telemetry pipelines. Now Azure Monitor speaks it natively. With OpenTelemetry Protocol (OTLP) support generally available, you can ship logs, metrics, and traces from wherever your workloads run to analyze and act on it in one place....",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "KayodePrince",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Dependabot alert dismissal requests now last one year",
+      "link": "https://github.blog/changelog/2026-11-16-dependabot-alert-dismissal-requests-now-last-one-year",
+      "published": "2026-11-17T00:09:27+00:00",
+      "summary": "If you use delegated alert dismissal for Dependabot, dismissal requests now stay open for one year instead of one week. Reviewers have more time to respond before a request expires… The post Dependabot alert dismissal requests now last one year appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
+      "published": "2026-11-17T00:08:41+00:00",
+      "summary": "Microsoft Threat Intelligence observed a high-volume phishing campaign using Microsoft 365 outage-themed lures to target organizations across multiple sectors worldwide. The post High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors appeared first on...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "microsoftsecurity",
+      "author": "Shreya Kale",
+      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "DDoS Support for NATGWv2 IP - Public Preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/ddos-support-for-natgwv2-ip-public-preview/ba-p/4573913",
+      "published": "2026-11-16T22:52:35+00:00",
+      "summary": "Introduction Azure DDoS Protection now covers the public IP addresses used by Azure NAT Gateway StandardV2, in public preview. Customers can protect the StandardV2 IPv4 and IPv6 public IPs that carry their outbound internet traffic from network-layer DDoS attacks, using the same DDoS Network...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "Jdasari",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Production Touch Ledger (PTL): Verifiable records for operator transparency in the Sovereign Cloud",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/production-touch-ledger-ptl-verifiable-records-for-operator/ba-p/4573858",
+      "published": "2026-11-16T22:47:19+00:00",
+      "summary": "This post follows the broader Sovereign Public Cloud update by focusing on one technical mechanism for operational transparency: how PTL is designed to turn supported production-access event flows into reviewable tamper-evident records. As of October 2026, PTL is being rolled out in phases. Today,...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Shashwat_Chandra",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Accelerating AI Data Processing, HPC, and Agentic Workloads with Azure HDv2 Virtual Machines",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/accelerating-ai-data-processing-hpc-and-agentic-workloads-with/ba-p/4567877",
+      "published": "2026-11-16T22:41:12+00:00",
+      "summary": "Advancing model intelligence starts with training, and training starts with data. Before GPU supercomputers can train a model, enormous fleets of CPUs must collect, clean, filter, and format that data. If CPUs fall behind, expensive GPU capacity becomes underutilized and delays the delivery of...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "jvenkatesh",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Azure DDoS Custom Policy GA",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-ddos-custom-policy-ga/ba-p/4573866",
+      "published": "2026-11-16T22:30:24+00:00",
+      "summary": "More control, broader coverage with Azure DDoS Protection custom policy Fine-tune protocol-specific DDoS detection for internet-facing workloads while keeping Azure’s adaptive protection as the default. Organizations depend on Azure DDoS Protection to monitor traffic continuously and mitigate...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "Jdasari",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Unlock trusted data collaboration in financial services with Azure Confidential Clean Rooms",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/unlock-trusted-data-collaboration-in-financial-services-with/ba-p/4570666",
+      "published": "2026-11-16T21:54:05+00:00",
+      "summary": "Why trusted data collaboration is now a business imperative Financial institutions increasingly need insights that no organization can produce alone. A bank may need another institution’s signals to detect a fraud network; prime brokers may need a consolidated view of counterparty exposure; and...",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "Deepak_JV",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureconfidentialcomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Enterprise Architecture with Microsoft Foundry: Capability Hosts, BYO Resources, Private Networking",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/enterprise-architecture-with-microsoft-foundry-capability-hosts/ba-p/4568936",
+      "published": "2026-11-16T21:48:15+00:00",
+      "summary": "Introduction An AI agent can deliver an impressive demo—and still face a production roadblock when enterprise data must stay in organization-controlled storage behind private endpoints. Moving to production means deciding not just what an agent can do, but where its data lives and how it reaches...",
+      "blog": "Azure AI Foundry Blog",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Subhasish_Mukhopadhyay",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "GitHub Copilot weekly releases — November 9",
+      "link": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
+      "published": "2026-11-16T21:34:53+00:00",
+      "summary": "This week, bring GitHub Enterprise Server repositories into the Copilot app and see which agent sessions need you first in VS Code. You can also try two new models, Claude… The post GitHub Copilot weekly releases — November 9 appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Budget limit increased to 40,000 budgets per account",
+      "link": "https://github.blog/changelog/2026-11-16-budget-limit-increased-to-40000-budgets-per-account",
+      "published": "2026-11-16T21:30:49+00:00",
+      "summary": "You can now create up to 40,000 budgets per GitHub Enterprise Cloud account, up from 10,000. If you set budgets for individual users, or manage budgets across many cost centers… The post Budget limit increased to 40,000 budgets per account appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -36,6 +234,28 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "A year of Azure Deployments: highlights from 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/a-year-of-azure-deployments-highlights-from-2026/ba-p/4571780",
+      "published": "2026-11-16T20:52:58+00:00",
+      "summary": "This year we had a lot of highlights to celebrate - we put out more than ten Bicep releases, What-If for Deployment Stacks went GA, the Bicep MCP server got new tools, and the Azure Verified Modules team joined us. A lot of these features started as GitHub issues, community call questions, or \"why...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "torreyt",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Machine Configuration @ Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/machine-configuration-ignite-2026/ba-p/4573872",
+      "published": "2026-11-16T20:52:24+00:00",
+      "summary": "This year at Microsoft Ignite, we are excited to share some big updates to Azure Machine Configuration that will allow you to more efficiently understand and govern your machines in Azure. In this blog, we will share details of the new Machine Configuration hub in Azure Portal and the new features...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "sydneykarimi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "GitHub Copilot models deprecated on November 16, 2026",
       "link": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
       "published": "2026-11-16T20:25:20+00:00",
@@ -44,6 +264,50 @@
       "blogId": "githubchangelog",
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Control where GitHub Copilot customizations come from",
+      "link": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
+      "published": "2026-11-16T19:48:33+00:00",
+      "summary": "As an enterprise administrator, you can now require selected GitHub Copilot customizations to come from plugins or managed settings, rather than standalone user or project configuration. Combined with marketplace restrictions,… The post Control where GitHub Copilot customizations come from appeared...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "VS Code retires the Local harness in February 2027",
+      "link": "https://github.blog/changelog/2026-11-16-vs-code-retires-the-local-harness-in-february-2027",
+      "published": "2026-11-16T19:22:56+00:00",
+      "summary": "Visual Studio Code 1.146 deprecates the Local harness, the older software that coordinates the model, context, and tools for GitHub Copilot agent sessions in the editor. The Local harness will… The post VS Code retires the Local harness in February 2027 appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Join us in using AI Workflow Preview Feature in Microsoft Planetary Computer Pro",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/join-us-in-using-ai-workflow-preview-feature-in-microsoft/ba-p/4571817",
+      "published": "2026-11-16T18:59:18+00:00",
+      "summary": "The adoption of models continues to grow across industries. As highlighted in a prior blog post, we’ve released a range of geospatial AI models designed to extract valuable insights from satellite imagery. While these models are accessible through Microsoft Foundry, operationalizing these models...",
+      "blog": "Planetary Computer",
+      "blogId": "microsoft-planetary-computer-blog",
+      "author": "nelsontam",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft-planetary-computer-blog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Scheduling the removal of the kube-proxy IPVS backend",
+      "link": "https://kubernetes.io/blog/2026/11/16/ipvs-removal/",
+      "published": "2026-11-16T18:35:00+00:00",
+      "summary": "The ipvs backend for kube-proxy was an experiment in providing a service proxy implementation with better performance than the iptables backend. While it succeeded in that goal, the kernel IPVS API has turned out to be a bad match for the Kubernetes Services API, and the ipvs backend was never able...",
+      "blog": "Kubernetes Official Blog",
+      "blogId": "kubernetes",
+      "author": "Microsoft",
+      "feedUrl": "https://kubernetes.io/feed.xml",
       "sourceType": "rss"
     },
     {
@@ -69,6 +333,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Engineering an Agentic Scheduler",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/engineering-an-agentic-scheduler/ba-p/4564637",
+      "published": "2026-11-16T15:05:10+00:00",
+      "summary": "Authors: Gabriel Sze and Weixian Zhang 1. Engineering an Agentic Scheduler Moving from low-code to pro-code AI development brings greater flexibility and control, but also raises an important engineering question: how do we give AI the freedom to reason while ensuring its decisions remain reliable,...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "gabrielsze",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Take GitHub Mobile with you on iPhone Duo",
       "link": "https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo",
       "published": "2026-11-16T14:30:07+00:00",
@@ -78,6 +353,28 @@
       "author": "Allison",
       "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
+    },
+    {
+      "title": "Unlock multi-region HPC capabilities with Azure CycleCloud",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/unlock-multi-region-hpc-capabilities-with-azure-cyclecloud/ba-p/4573517",
+      "published": "2026-11-16T14:03:28+00:00",
+      "summary": "As HPC workloads grow, organizations need the flexibility to access more compute capacity without adding complexity to how they manage data. Expanding across regions can unlock new resources, but moving data between environments often introduces additional operational overhead. The Azure CycleCloud...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "wolfgangdesalvador",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "From Purview Data Governance to the Fabric OneLake Catalog",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/from-purview-data-governance-to-the-fabric-onelake-catalog/ba-p/4573422",
+      "published": "2026-11-16T13:38:38+00:00",
+      "summary": "Paul Singh: PaulSingh and Rafia Aqil: Rafia_Aqil What is changing, What is available today, and How to transition without losing GOVERNANCE outcomes! Microsoft's data governance story is moving closer to the data. In Microsoft Fabric, the OneLake catalog is now the primary experience for...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Introducing Azure Durable Task for Pydantic AI agents",
@@ -99,6 +396,17 @@
       "blogId": "microsoftsentinelblog",
       "author": "MartinPankraz",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Designing a Reliable AI Workflow on Azure: Production Lessons from Translation Automation",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/designing-a-reliable-ai-workflow-on-azure-production-lessons/ba-p/4571175",
+      "published": "2026-11-16T08:00:00+00:00",
+      "summary": "Many teams can build an AI prototype that works. A trigger arrives, the model produces a plausible response, and the demo ends with the expected file or message. But what happens when that prototype becomes a workflow that other people depend on? Imagine an AI-assisted process that prepares a...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "MinseokSong",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -124,24 +432,13 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "From Purview Data Governance to the Fabric OneLake Catalog",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/from-purview-data-governance-to-the-fabric-onelake-catalog/ba-p/4573422",
-      "published": "2026-11-14T04:13:46+00:00",
-      "summary": "What is changing, What is available today, and How to transition without losing GOVERNANCE outcomes! Microsoft's data governance story is moving closer to the data. In Microsoft Fabric, the OneLake catalog is now the primary experience for discovering and governing Fabric data, while Microsoft...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=analyticsonazure&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/",
       "published": "2026-11-13T21:31:44+00:00",
       "summary": "SCKit abuses ScreenConnect to deploy unauthorized remote access and target technicians. Explore the attack chain, mitigations, and Microsoft Defender XDR hunting. The post SCKit abuses ScreenConnect to deploy remote access and target technician sessions appeared first on Microsoft Security Blog.",
       "blog": "Microsoft Security Blog",
       "blogId": "microsoftsecurity",
-      "author": "Microsoft Security Research, Sagar Patil and Jeremiah Jasmin",
+      "author": "Jeremiah Jasmin",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
@@ -234,17 +531,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Gemini 4 Hydrogen in GitHub Copilot",
-      "link": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
-      "published": "2026-11-13T18:23:48+00:00",
-      "summary": "Gemini 4 Hydrogen, Google’s latest Flash model, is now generally available in GitHub Copilot. It is designed for fast, efficient agentic coding, tool use, and multistep workflows, with improved instruction… The post Gemini 4 Hydrogen in GitHub Copilot appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "From Silicon to Service: Bringing AMD Helios™ to Azure",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/from-silicon-to-service-bringing-amd-helios-to-azure/ba-p/4573029",
       "published": "2026-11-13T17:00:00+00:00",
@@ -265,17 +551,6 @@
       "author": "anhoward",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Manage AI Scan for repositories using the REST API",
-      "link": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
-      "published": "2026-11-13T12:22:41+00:00",
-      "summary": "You can now turn GitHub code scanning’s AI Scan for repositories on or off with the REST API at the organization and repository levels. This public preview adds a repository_scan… The post Manage AI Scan for repositories using the REST API appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
     },
     {
       "title": "GitHub availability report: October 2026",
@@ -355,17 +630,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Actions for ARM32 Linux & Windows retirement",
-      "link": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
-      "published": "2026-11-12T20:59:36+00:00",
-      "summary": "GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node… The post Actions for ARM32 Linux & Windows retirement appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "What’s new in AKS networking: Connectivity, performance, and observability",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/what-s-new-in-aks-networking-connectivity-performance-and/ba-p/4571806",
       "published": "2026-11-12T19:14:38+00:00",
@@ -427,7 +691,7 @@
       "summary": "Microsoft Defender Research and the AI Red Team discuss how poisoned datasets and poisoned model checkpoints can trigger remote code execution and other malicious activities. The post Trained to betray: How post-training supply chain attacks hijack coding agents appeared first on Microsoft Security...",
       "blog": "Microsoft Security Blog",
       "blogId": "microsoftsecurity",
-      "author": "Microsoft Security Research, Microsoft AI Red Team, Amanda Minnich, Amit Eliahu, Blake Bullwinkel, Dor Edry and Giorgio Severi",
+      "author": "Giorgio Severi",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
@@ -454,28 +718,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Secret scanning detects Cloudflare service tokens",
-      "link": "https://github.blog/changelog/2026-11-12-secret-scanning-adds-a-detector-for-cloudflare",
-      "published": "2026-11-12T14:38:25+00:00",
-      "summary": "Secret scanning now detects Cloudflare service tokens. Detectors added Secret scanning now automatically detects the following new secret type in your repositories. Provider Secret type Cloudflare cloudflare_access_service_token Partner secrets are… The post Secret scanning detects Cloudflare...",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Public monitoring alerts now have direct links",
-      "link": "https://github.blog/changelog/2026-11-12-public-monitoring-alerts-now-have-direct-links",
-      "published": "2026-11-12T14:37:38+00:00",
-      "summary": "You can now access individual public monitoring alerts with a direct link to each alert. In your enterprise’s Public monitoring view, click an alert number to open the alert. You… The post Public monitoring alerts now have direct links appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Introducing Azure Container Apps as a target workload in Azure Migrate",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-container-apps-as-a-target-workload-in-azure/ba-p/4571669",
       "published": "2026-11-12T05:51:04+00:00",
@@ -495,17 +737,6 @@
       "blogId": "finopsblog",
       "author": "Michael_Flanakin",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Mistral Large 4 in Microsoft Foundry: Build sovereign AI within a consistent platform experience",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/mistral-large-4-in-microsoft-foundry-build-sovereign-ai-within-a/ba-p/4568546",
-      "published": "2026-11-12T00:14:15+00:00",
-      "summary": "What's launching Leading AI delivers more than model quality. For governments, critical infrastructure operators, financial institutions, healthcare organizations, and global enterprises, requirements for data control, deployment location, security, resilience, latency, and operational continuity...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "truptiparkar",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -559,7 +790,7 @@
       "summary": "Threat actors are deploying GSocket on compromised Linux servers to keep encrypted remote access after the original vulnerability is patched. Learn how to detect, investigate, and remediate this activity. The post The global socket: how threat actors are weaponizing GSocket for stealthy C2 appeared...",
       "blog": "Microsoft Security Blog",
       "blogId": "microsoftsecurity",
-      "author": "Yash Gund, Sumith Maniath and Microsoft Security Research",
+      "author": "Microsoft Security Research",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
@@ -647,7 +878,7 @@
       "summary": "Microsoft FORGE Lab researchers used codename MDASH to investigate Linux kernel vulnerabilities, resulting in 59 upstream bug reports, 33 assigned CVEs, and 38 merged fixes. The research includes eight demonstrated local root privilege-escalation exploits and examines the challenges of turning...",
       "blog": "Microsoft Security Blog",
       "blogId": "microsoftsecurity",
-      "author": "FORGE Lab and Cen Zhang",
+      "author": "Cen Zhang",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
@@ -693,17 +924,6 @@
       "blogId": "azurestorageblog",
       "author": "GeertVanTeylingen",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Engineering an Agentic Scheduler",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/engineering-an-agentic-scheduler/ba-p/4564637",
-      "published": "2026-11-11T08:00:00+00:00",
-      "summary": "Authors: Gabriel Sze and Weixian Zhang 1. Engineering an Agentic Scheduler Scheduling looks deceptively simple until multiple constraints, shared resources, and partial commitments start interacting. This post walks through how we built an agentic scheduler that lets an LLM reason about placements...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "gabrielsze",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -872,17 +1092,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Accelerating AI Data Processing, HPC, and Agentic Workloads with Azure HDv2 Virtual Machines",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/accelerating-ai-data-processing-hpc-and-agentic-workloads-with/ba-p/4567877",
-      "published": "2026-11-10T16:25:29+00:00",
-      "summary": "Advancing model intelligence starts with training, and training starts with data. Before GPU supercomputers can train a model, enormous fleets of CPUs must collect, clean, filter, and format that data. If CPUs fall behind, expensive GPU capacity becomes underutilized and delays the delivery of...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "jvenkatesh",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing .NET 11",
       "link": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/",
       "published": "2026-11-10T16:11:00+00:00",
@@ -977,7 +1186,7 @@
       "summary": "Microsoft FORGE Lab researchers found memory-safety bugs in Rust's core and std libraries, including cases where safe Rust code can trigger undefined behavior. Using Hyenas, FORGE's frontier research version of codename MDASH, the team investigated three patterns of misplaced trust in unsafe code...",
       "blog": "Microsoft Security Blog",
       "blogId": "microsoftsecurity",
-      "author": "Yechan Bae and FORGE Lab",
+      "author": "FORGE Lab",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
@@ -1230,7 +1439,7 @@
       "summary": "Microsoft Threat Intelligence has observed threat actors using the agentic offensive security framework ARTEX to search GitHub for OAuth application secrets, which can be used to compromise the associated OAuth application and perform authenticated actions in the application’s tenant. Agents...",
       "blog": "Microsoft Security Blog",
       "blogId": "microsoftsecurity",
-      "author": "Microsoft Threat Intelligence and Microsoft Security Research",
+      "author": "Microsoft Security Research",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
@@ -1363,17 +1572,6 @@
       "blog": "Microsoft Security Blog",
       "blogId": "microsoftsecurity",
       "author": "Paul Lorimer",
-      "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "​​​​What’s new in Microsoft Security: November 2026",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/whats-new-in-microsoft-security-november-2026/",
-      "published": "2026-11-05T17:00:00+00:00",
-      "summary": "Microsoft Security’s November 2026 updates strengthen AI agent security, least privilege, threat protection, and exposure management. The post ​​​​What’s new in Microsoft Security: November 2026 appeared first on Microsoft Security Blog.",
-      "blog": "Microsoft Security Blog",
-      "blogId": "microsoftsecurity",
-      "author": "Alym Rayani",
       "feedUrl": "https://www.microsoft.com/en-us/security/blog/feed/",
       "sourceType": "rss"
     },
@@ -2068,17 +2266,6 @@
       "blogId": "microsoftsentinelblog",
       "author": "vkokkengada",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoftsentinelblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Bring Your Own Telephony to Voice Agents via SIP",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/bring-your-own-telephony-to-voice-agents-via-sip/ba-p/4562702",
-      "published": "2026-10-30T16:07:09+00:00",
-      "summary": "Voice agents in Microsoft Foundry give developers an integrated way to build intelligent, natural voice experiences, bringing together models, agent capabilities, tools, and the platform capabilities needed to move from experimentation to production. Foundry continuously expands channel integration...",
-      "blog": "Azure AI Foundry Blog",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "ArcherZ",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -2984,17 +3171,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Data Transfer and Transactions metrics now generally available for Azure Container Registry",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/data-transfer-and-transactions-metrics-now-generally-available/ba-p/4565530",
-      "published": "2026-10-20T19:55:04+00:00",
-      "summary": "Azure Container Registry now provides two new platform metrics that make it easier to understand outbound data transfer, inspect API traffic, and investigate throttled or failed requests without first opening a support request. We're excited to share the general availability of the Data Transfer...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jeburke",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Manage all your Microsoft Sentinel data in one place with Unified Data Management (Public Preview)",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/manage-all-your-microsoft-sentinel-data-in-one-place-with/ba-p/4565940",
       "published": "2026-10-20T19:34:43+00:00",
@@ -3091,17 +3267,6 @@
       "blogId": "azureobservabilityblog",
       "author": "alyssaschimm",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "What’s new in Azure SRE Agent: October Update",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-sre-agent-october-update/ba-p/4566004",
-      "published": "2026-10-20T16:00:00+00:00",
-      "summary": "There’s been a lot happening with Azure SRE Agent lately, with new guidance, examples, and resources to help teams get more out of the service. Whether you’re thinking through security and architecture, connecting tools like Splunk, or looking for practical ways to improve how your agents work,...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "sonjagu",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -3897,17 +4062,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Azure Key Vault and BYOK: Lessons Learned",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-key-vault-and-byok-lessons-learned/ba-p/4561156",
-      "published": "2026-10-08T12:41:54+00:00",
-      "summary": "Bring Your Own Key (BYOK) lets you import externally generated key material into Azure Key Vault. Importing that material again creates a new version; it does not recreate the original version identifier. If Azure Storage still requires the original customer-managed key (CMK) version to unwrap...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "gurjsing",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Introducing the Microsoft Sentinel ASIM EmailEvent schema",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/introducing-the-microsoft-sentinel-asim-emailevent-schema/ba-p/4562581",
       "published": "2026-10-07T20:21:05+00:00",
@@ -4059,17 +4213,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Upcoming SQL and AI Events to Put on Your Calendar",
-      "link": "https://devblogs.microsoft.com/azure-sql/sql-calendar-2027q4/",
-      "published": "2026-10-06T20:50:48+00:00",
-      "summary": "Developers, database administrators, data professionals, architects and technology decision makers have several opportunities to connect, learn and gain hands-on experience this fall. 2027 Q4 SQL Events Date Event City & region Registration Fri, Oct 16, 2026 💻 SQL AI App in a Day workshop Sanford,...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
       "sourceType": "rss"
     },
     {
@@ -4401,17 +4544,6 @@
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
       "sourceType": "rss"
-    },
-    {
-      "title": "Scaling distributed AI infrastructure with Azure’s ExpressRoute and AI Points of Presence (AI PoPs)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/scaling-distributed-ai-infrastructure-with-azure-s-expressroute/ba-p/4560483",
-      "published": "2026-10-01T16:00:27+00:00",
-      "summary": "Rethinking connectivity for distributed AI infrastructure AI is changing more than the applications organizations build. It is reshaping where the infrastructure powering those applications is deployed. For years, cloud computing has been anchored by hyperscale regions that combine compute,...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "frrey",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Build and govern AI agents across a multitenant organization",
@@ -5250,17 +5382,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Catalyst: Frontier stories of AI Infrastructure innovation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/catalyst-frontier-stories-of-ai-infrastructure-innovation/ba-p/4559362",
-      "published": "2026-09-23T17:05:19+00:00",
-      "summary": "In the Catalyst series, we explore the transformative power of AI by showcasing visionary companies driving scientific and industry breakthroughs powered by Azure and NVIDIA. This video series spotlights how innovation ignites action and how today’s visionaries are shaping tomorrow with the power...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "abbyhamilton",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Visual Studio Code 1.139",
       "link": "https://code.visualstudio.com/updates/v1_139",
       "published": "2026-09-23T17:00:00+00:00",
@@ -5522,17 +5643,6 @@
       "blogId": "messagingonazureblog",
       "author": "EldertGrootenboer",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=messagingonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Beyond Cherry-Picking: Evaluating Text-to-Image Models",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-cherry-picking-evaluating-text-to-image-models/ba-p/4558111",
-      "published": "2026-09-21T07:00:00+00:00",
-      "summary": "In the rapidly evolving landscape of generative AI, large language model (LLM) evaluations have matured into standardized benchmark suites, Elo leaderboards, and automated judge pipelines. However, in the realm of Text-to-Image (T2I) synthesis, technical teams frequently slip back into what can...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -8495,17 +8605,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure Copilot Observability Agent is generally available, with autonomous operations in preview",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-copilot-observability-agent-is-generally-available-with/ba-p/4528213",
-      "published": "2026-06-23T19:38:23+00:00",
-      "summary": "Complex cloud environments have outpaced manual operations. Agentic cloud operations connect people, tools, and data to streamline investigation workflows and move teams from scattered signals to evidence-backed next steps. With unified observability, teams can investigate Azure-monitored...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "EfratNauerman",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "🔥Agent Skills - Towards Autonomous Development, Deployment, and Validation🔥",
       "link": "https://www.letsdodevops.com/p/agent-skills-towards-autonomous-development",
       "published": "2026-06-23T14:20:52+00:00",
@@ -8657,17 +8756,6 @@
       "blogId": "azurehighperformancecomputingblog",
       "author": "Sunita_AZ0708",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Accelerating AKS troubleshooting with the Azure Copilot Observability Agent",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/accelerating-aks-troubleshooting-with-the-azure-copilot/ba-p/4528517",
-      "published": "2026-06-17T16:27:27+00:00",
-      "summary": "AKS incidents rarely stay within one Kubernetes object, signal, or tool. A latency spike might first appear in application telemetry, but the root cause may sit elsewhere: pod restarts, node pressure, scheduling failures, or a recent configuration change. The Azure Copilot Observability Agent in...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "yairgil",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -10024,17 +10112,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Kubernetes v1.36: Admission Policies That Can't Be Deleted",
-      "link": "https://kubernetes.io/blog/2026/05/04/kubernetes-v1-36-manifest-based-admission-control/",
-      "published": "2026-05-04T18:35:00+00:00",
-      "summary": "If you've ever tried to enforce a security policy across a fleet of Kubernetes clusters, you've probably run into a frustrating chicken-and-egg problem. Your admission policies are API objects, which means they don't exist until someone creates them, and they can be deleted by anyone with the right...",
-      "blog": "Kubernetes Official Blog",
-      "blogId": "kubernetes",
-      "author": "Microsoft",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "sourceType": "rss"
-    },
-    {
       "title": "Microsoft Defender for Cloud Customer Newsletter",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-customer-newsletter/ba-p/4516842",
       "published": "2026-05-04T16:47:10+00:00",
@@ -10428,17 +10505,6 @@
       "blogId": "azuremigrationblog",
       "author": "sakshimalhotra",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuremigrationblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Simplify troubleshooting at scale - Centralized Log Management for CycleCloud Workspace for Slurm",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/simplify-troubleshooting-at-scale-centralized-log-management-for/ba-p/4470658",
-      "published": "2026-03-31T21:17:04+00:00",
-      "summary": "Training large AI models on hundreds or thousands of nodes introduces a critical operational challenge: when a distributed job fails, quickly identifying the root cause across scattered logs can become incredibly time-consuming. This manual process delays recovery and reduces cluster utilization....",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "jesselopez",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -11278,17 +11344,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Azure Policy: Required Actions for Docker Content Trust Deprecation in Azure Container Registry",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-policy-required-actions-for-docker-content-trust/ba-p/4478951",
-      "published": "2025-12-17T22:36:46+00:00",
-      "summary": "As Azure evolves, certain features are deprecated to streamline services and improve security and performance. One such upcoming change is the deprecation of the Docker Content Trust (DCT) feature in Azure Container Registry (ACR) which is ongoing over a three-year period. This change will...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "ShannonHicks",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Announcing General Availability of Geo-Replication for Azure Service Bus Premium",
       "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/announcing-general-availability-of-geo-replication-for-azure/ba-p/4413164",
       "published": "2025-12-17T17:00:00+00:00",
@@ -11377,17 +11432,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Announcing General Availability for Azure Resource Graph (ARG) GET/LIST API",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/announcing-general-availability-for-azure-resource-graph-arg-get/ba-p/4474188",
-      "published": "2025-12-03T04:39:28+00:00",
-      "summary": "ARG GET/LIST API delivers 10X higher throttling quotas to callers compared to ARG query unlocking a more scalable, resilient way to perform resource lookups in Azure. ARG GET/LIST API is a new platform capability within Azure Resource Graph that provides a high-performance experience for both Point...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "JaspreetKaur",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuregovernanceandmanagementblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Introducing the VS Code Insiders Podcast",
       "link": "https://code.visualstudio.com/blogs/2025/12/03/introducing-vs-code-insiders-podcast",
       "published": "2025-12-03T00:00:00+00:00",
@@ -11430,17 +11474,6 @@
       "author": "Kyler Middleton",
       "feedUrl": "https://www.letsdodevops.com/feed",
       "sourceType": "rss"
-    },
-    {
-      "title": "Public Preview: Entra ID support for RDP connections in portal",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/public-preview-entra-id-support-for-rdp-connections-in-portal/ba-p/4472675",
-      "published": "2025-11-24T20:15:00+00:00",
-      "summary": "Overview Azure Bastion provides secure RDP and SSH access to Azure virtual machines directly via the Azure portal or via the native SSH/RDP client already installed on your local computer. Previously, Bastion supported Entra ID authentication (formerly AAD) for RDP and SSH connections via native...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "aarontsang",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurenetworksecurityblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Streamline Analytics Spend on Microsoft Fabric with Azure Reservations",
@@ -11519,6 +11552,5 @@
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
     }
-  ],
-  "summary": "Today’s Azure-related posts centered on enterprise AI, governance, and secure hybrid infrastructure: Microsoft highlighted Azure Architecture patterns for domain-specific AI, including forestry-planning models that prioritize fuel-reduction work and Lantern, an agentic AI system on Azure for records management and provenance, plus a new Azure Durable Task integration for Pydantic AI agents to support orchestrated agent workflows. Security and regulated-cloud themes were also prominent, with Azure Arc announcing Azure Local validated partner solutions for sovereign private cloud deployments and Microsoft Sentinel detailing protection for Microsoft’s SAP environment, including RISE with SAP, using Sentinel for SAP.\n\nOn the GitHub side, the key announcements were operational: GitHub said some Copilot models will be deprecated on November 16, 2026, added bulk start for AI Scan across repositories, and expanded GitHub Mobile support to iPhone Duo devices."
+  ]
 }
