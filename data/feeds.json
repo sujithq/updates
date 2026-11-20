@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-20T04:31:11.856274+00:00",
-  "totalArticles": 1068,
+  "lastUpdated": "2026-11-20T14:27:55.188893+00:00",
+  "totalArticles": 1069,
   "articles": [
     {
       "title": "Visual Studio Code 1.148 (Insiders)",
@@ -11,6 +11,72 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Announcing the MSMQ built-in connector for Azure Logic Apps Standard",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-the-msmq-built-in-connector-for-azure-logic-apps/ba-p/4574215",
+      "published": "2026-11-20T14:17:23+00:00",
+      "summary": "MSMQ remains an important messaging technology in many long-running enterprise environments, particularly solutions built on BizTalk Server and other Windows-based middleware. Modernizing these environments can be challenging when existing applications still depend on MSMQ queues and changing the...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Shree_Divya_M_V",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Announcing General Availability of SQL as a Storage Provider for Hybrid Logic Apps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-general-availability-of-sql-as-a-storage-provider-for/ba-p/4574517",
+      "published": "2026-11-20T13:51:28+00:00",
+      "summary": "Important scope clarification SQL as a storage provider is supported only for Hybrid Logic Apps. It is not supported as a storage provider for regular Azure-hosted Logic Apps Standard. We are excited to announce the general availability of SQL as a storage provider for Hybrid Logic Apps, giving...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Shree_Divya_M_V",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Announcing Semi-Connected Integration Account Support for Hybrid Logic Apps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-semi-connected-integration-account-support-for-hybrid/ba-p/4573784",
+      "published": "2026-11-20T13:43:37+00:00",
+      "summary": "We are excited to introduce semi-connected Integration Account support for Azure Logic Apps Hybrid, helping customers continue running integration workflows when connectivity to Azure is temporarily unavailable. With this capability, Hybrid Logic Apps can cache supported Integration Account...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Shree_Divya_M_V",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Designing GitHub Actions Runners on Private AKS with a Secured Azure Virtual WAN Hub",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/designing-github-actions-runners-on-private-aks-with-a-secured/ba-p/4574649",
+      "published": "2026-11-20T09:40:07+00:00",
+      "summary": "Self-hosted GitHub Actions runners can execute workflows close to private deployment targets without making those targets publicly reachable. That network access also makes the runner environment part of the security boundary. A workflow can use the connectivity and credentials available to its...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Gapandey",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Introducing Azure SRE Agent in Azure Managed Grafana: The Dashboard as Command Center",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-sre-agent-in-azure-managed-grafana-the/ba-p/4575039",
+      "published": "2026-11-20T06:01:47+00:00",
+      "summary": "We're introducing the Azure SRE Agent integration in Azure Managed Grafana, now in preview. Pair an Azure SRE Agent with your Grafana workspace, and an agent icon appears in the toolbar of your dashboards. Select it, and the agent opens in a pane beside the dashboard you're looking at. It reads...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "GitHub Desktop now supports multiple accounts per host",
+      "link": "https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host",
+      "published": "2026-11-20T02:06:01+00:00",
+      "summary": "GitHub Desktop now lets you sign in with more than one account on the same host, including GitHub.com, GitHub Enterprise Server, and GHE.com. This has been one of the most… The post GitHub Desktop now supports multiple accounts per host appeared first on The GitHub Blog.",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -113,17 +179,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Build trusted autonomous agents for your team with Microsoft Foundry",
-      "link": "https://devblogs.microsoft.com/foundry/build-trusted-autonomous-agents-for-your-team-with-microsoft-foundry/",
-      "published": "2026-11-19T19:53:30+00:00",
-      "summary": "A new kind of agent can work alongside your team in Microsoft 365, with its own identity, permissions, and a manager accountable for its work. Enterprises are all-in on AI agents, but the ROI hasn’t followed. What’s holding those agents back isn’t capability. Today’s agents can do remarkable work...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Amanda Foster",
-      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Enterprise Live Migrations from Azure DevOps generally available",
       "link": "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available",
       "published": "2026-11-19T18:50:57+00:00",
@@ -157,6 +212,17 @@
       "sourceType": "techcommunity"
     },
     {
+      "title": "Azure Infrastructure for Agentic AI",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/azure-infrastructure-for-agentic-ai/ba-p/4574616",
+      "published": "2026-11-19T18:29:01+00:00",
+      "summary": "From AI that answers to AI that acts Enterprises didn’t move to the cloud by adopting a turnkey platform on day one. They started with services they could trust, like virtual machines and storage, and expanded from there as new applications and operating models emerged. AI is following a similar...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "DanaCozmei",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "What's new in Azure Monitor at Ignite 2026",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/what-s-new-in-azure-monitor-at-ignite-2026/ba-p/4573974",
       "published": "2026-11-19T18:23:36+00:00",
@@ -165,6 +231,17 @@
       "blogId": "azureobservabilityblog",
       "author": "Richa_Thakur",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureobservabilityblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Announcing the Inside the Game Developer Hackathon winners",
+      "link": "https://techcommunity.microsoft.com/t5/azure-events/announcing-the-inside-the-game-developer-hackathon-winners/ba-p/4574639",
+      "published": "2026-11-19T17:58:43+00:00",
+      "summary": "Football stories don't start and end with the scoreline. We’re excited to celebrate the six winning teams, from five countries of Inside the Game: Developer Hackathon, presented by Microsoft and the Premier League. The winners were announced at Microsoft Ignite 2026. During Inside the Game,...",
+      "blog": "Azure Events",
+      "blogId": "azure-events",
+      "author": "natiwo",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-events&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -209,6 +286,17 @@
       "blogId": "finopsblog",
       "author": "AdityAgarwal",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Databases on confidential computing: the foundation for sovereign AI",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/databases-on-confidential-computing-the-foundation-for-sovereign/ba-p/4572327",
+      "published": "2026-11-19T16:14:58+00:00",
+      "summary": "Co-authored with Thierry Fevrier, Amir Bredy, Danyal Bukhari, Jakub Szymaszek, Pam Lahoud Introduction Databases are the most valuable assets an organization has. They hold enterprise data, intellectual property, conversations, and institutional knowledge, making them the systems of record for AI....",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "michamcr",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureconfidentialcomputingblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -297,17 +385,6 @@
       "blogId": "azurestorageblog",
       "author": "Vybava_Ramadoss",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Designing GitHub Actions Runners on Private AKS with a Secured Azure Virtual WAN Hub",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/designing-github-actions-runners-on-private-aks-with-a-secured/ba-p/4574649",
-      "published": "2026-11-19T05:09:10+00:00",
-      "summary": "Self-hosted GitHub Actions runners can execute workflows close to private deployment targets without making those targets publicly reachable. That network access also makes the runner environment part of the security boundary. A workflow can use the connectivity and credentials available to its...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Gapandey",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -993,17 +1070,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Azure Catalyst: one connected, agent-led modernization experience across apps, data, and infra",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-catalyst-one-connected-agent-led-modernization-experience/ba-p/4573988",
-      "published": "2026-11-18T06:29:16+00:00",
-      "summary": "Preparing applications for AI requires teams to understand how their systems share data, where business rules reside, and what needs to change. Teams must do this work while keeping critical applications running, putting a strain on IT and developers while delaying innovation. In Forrester’s Q1...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "NateCeres",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "From canvas to run: a better Logic Apps Automation experience",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/from-canvas-to-run-a-better-logic-apps-automation-experience/ba-p/4573879",
       "published": "2026-11-18T04:16:56+00:00",
@@ -1650,17 +1716,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available",
-      "link": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
-      "published": "2026-11-17T20:20:29+00:00",
-      "summary": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol are now generally available in GitHub Copilot. Both models are designed for agentic coding and code review, with stronger coding judgment than earlier GPT-6… The post OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -4656,17 +4711,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Logic Apps Standard custom code now supports .NET 10",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-standard-custom-code-now-supports-net-10/ba-p/4570808",
-      "published": "2026-11-11T03:45:03+00:00",
-      "summary": "The latest Azure Logic Apps (Standard) extension for Visual Studio Code (VS Code) now supports .NET 10 custom code. You can create new .NET 10 local-function projects and migrate your existing .NET 8 projects without turning them into separate Azure Functions apps. Check your prerequisites Install...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Detecting sleeper agents hiding in AI model neurons",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
       "published": "2026-11-10T23:00:00+00:00",
@@ -5151,6 +5195,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "What’s new in Microsoft Foundry | October 2026",
+      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-october-2026/",
+      "published": "2026-11-05T11:40:48+00:00",
+      "summary": "Plan your Microsoft Ignite November 17-20 viewing, then explore October's Copilot harness preview, GA browser automation and hosted-agent resilience, Decisions API, and SDK updates with chapter-linked Handoff demos. The post What’s new in Microsoft Foundry | October 2026 appeared first on Microsoft...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Nick Brady",
+      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Build an AI-assisted invoice approval workflow with Power Automate and AI Builder",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/build-an-ai-assisted-invoice-approval-workflow-with-power/ba-p/4569292",
       "published": "2026-11-05T08:00:00+00:00",
@@ -5525,17 +5580,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Logic Apps Aviators Newsletter - November 2026",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-november-2026/ba-p/4569378",
-      "published": "2026-11-02T16:00:00+00:00",
-      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month November 2026's Ace Aviator: Steef-Jan Wiggers Domain Architect @ Coöperatie VGZ What's your role and title? What are your responsibilities? I'm a Domain Architect Technology in the...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "My Team Is Growing, How Do I Structure Who Gets Access to What?",
       "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-access-control-growing-teams/",
       "published": "2026-11-02T12:00:45+00:00",
@@ -5622,17 +5666,6 @@
       "author": "Waldek Mastykarz",
       "feedUrl": "https://developer.microsoft.com/blog/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "Azure API Management v2: Restoring Predictable Outbound IP Addresses with NAT Gateway",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/azure-api-management-v2-restoring-predictable-outbound-ip/ba-p/4566574",
-      "published": "2026-10-29T17:36:31+00:00",
-      "summary": "Introduction A key consideration when deploying Azure API Management Standard v2 or Premium v2 is that outbound networking behavior differs from the classic tiers. This applies both when customers manually rebuild an existing solution on one of these tiers and when they create a new deployment...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "JPCalhau",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Blazor Welcomes Open-Source Contributions from Syncfusion",
@@ -9617,17 +9650,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "ACI Sandboxes: A Glimpse into the Future of Agentic Compute",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/aci-sandboxes-a-glimpse-into-the-future-of-agentic-compute/ba-p/4526576",
-      "published": "2026-06-10T00:56:34+00:00",
-      "summary": "Emerging Technology Preview We are delighted to share innovation in the world of AI. At Build, we demonstrated several innovations that showcase where Azure Container Instances (ACI) is heading and how it can become a foundational platform for the next generation of AI workloads. As AI agents...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "DanaCozmei",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "App Routing Gateway API is GA: Here's a Demo",
       "link": "https://blog.aks.azure.com/2026/06/10/app-routing-gateway-api-ga",
       "published": "2026-06-10T00:00:00+00:00",
@@ -11685,17 +11707,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Securing Confidential VM Backups with Azure Recovery Services Vault and Private Endpoints",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/securing-confidential-vm-backups-with-azure-recovery-services/ba-p/4458965",
-      "published": "2025-11-29T08:26:10+00:00",
-      "summary": "When working with Confidential VMs (CVMs) in Azure, ensuring secure backups is just as important as protecting workloads in use. Confidential VMs use hardware-based Trusted Execution Environments (TEEs) such as AMD SEV-SNP or Intel TDX to keep your data safe. But how do you securely back up this...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "PramodPalukuru",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureconfidentialcomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "🔥Building Audit Logging for Multi-Platform AI Bots with Python, AWS Cloudwatch🔥",
       "link": "https://www.letsdodevops.com/p/building-audit-logging-for-multi",
       "published": "2025-11-25T15:30:51+00:00",
@@ -11750,6 +11761,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=telecommunications-industry-blog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure-related updates focused on developer workflow improvements and broader cloud marketplace reach. GitHub announced a public preview of enhancements to the pull request overview, aimed at making PR status, review context, and key signals easier to understand for developers, while Microsoft also expanded Multiparty Private Offers in Microsoft Marketplace to Malaysia and Saudi Arabia, extending Azure commerce capabilities for partners and customers in those regions."
+  ]
 }
