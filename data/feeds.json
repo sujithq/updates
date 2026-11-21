@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T22:01:19.162478+00:00",
+  "lastUpdated": "2026-11-21T04:24:35.251205+00:00",
   "totalArticles": 1067,
   "articles": [
     {
@@ -11,6 +11,94 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[Launched] Generally Available: Governance policy guidance in Foundry Canvas and VS Code",
+      "link": "https://azure.microsoft.com/updates?id=581463",
+      "published": "2026-11-21T00:45:13+00:00",
+      "summary": "Microsoft Foundry governance guidance is now available in Foundry Canvas and the Foundry Toolkit for Visual Studio Code. As developers build agents, both experiences surface relevant policies for agent types, models, toolboxes, and guardrails, with warnin",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Microsoft Copilot harness support in Foundry Toolkit for VS Code",
+      "link": "https://azure.microsoft.com/updates?id=581468",
+      "published": "2026-11-21T00:43:13+00:00",
+      "summary": "Agent Builder in Microsoft Foundry Toolkit for Visual Studio Code supports prompt agents that use the Microsoft Copilot harness in public preview. Developers can configure tools and skills, edit local YAML definitions, deploy changes to Foundry, and run d",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Retirement: Support for Azure Functions OpenAI Extension ends on April 20, 2027",
+      "link": "https://azure.microsoft.com/updates?id=579952",
+      "published": "2026-11-20T23:16:31+00:00",
+      "summary": "Support for Azure Functions OpenAI extension will end on April 20, 2027. Please migrate to OpenAI, Microsoft Foundry, or Azure AI Search SDKs directly, depending on your scenario, by that date. Until you migrate to the appropriate scenario SDK, .NET app",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Programmed Training in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=581713",
+      "published": "2026-11-20T22:58:28+00:00",
+      "summary": "Programmed Training, an API for building your own post-training loop over open-weight models, is available in public preview in Microsoft Foundry. Access is available by request through the preview sign-up form.Managed training jobs work well when you onl",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "[In preview] Public Preview: Multi-turn evaluation in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=581746",
+      "published": "2026-11-20T22:56:51+00:00",
+      "summary": "Multi-turn evaluation is now in public preview in Microsoft Foundry. You can assess complete agent conversations against your quality standards, not only individual responses.A response can look correct on its own and still be part of a conversation that",
+      "blog": "Azure Updates",
+      "blogId": "azureupdates",
+      "author": "Microsoft",
+      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+      "sourceType": "rss"
+    },
+    {
+      "title": "How to Chunk Documents in Azure SQL Database for RAG",
+      "link": "https://devblogs.microsoft.com/azure-sql/how-to-chunk-documents-in-azure-sql-database-for-rag/",
+      "published": "2026-11-20T22:23:17+00:00",
+      "summary": "Quick answer Azure SQL Database can split text into fixed-size chunks using AI_GENERATE_CHUNKS, with the OVERLAP percentage controlling repeated text between chunks. Store embeddings generated through an external Azure OpenAI endpoint in VECTOR columns, then retrieve passages with VECTOR_DISTANCE...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Dhruv Malik",
+      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Azure Elastic SAN Next Generation public preview: Mission-critical performance & cloud-native scale",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-elastic-san-next-generation-public-preview-mission/ba-p/4573949",
+      "published": "2026-11-20T22:08:45+00:00",
+      "summary": "Mission-critical applications such as SAP HANA, Epic, and core transactional databases demand consistently high performance and predictable low latency. Cloud-native platforms running stateful applications, vector databases, and fast-growing fleets of AI agent environments need persistent storage...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "Kiran_Cherukuwada",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Security advisory permissions are now generally available",
+      "link": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available",
+      "published": "2026-11-20T21:49:29+00:00",
+      "summary": "Organization owners can now let people work on repository security advisories, including private vulnerability reports, through custom repository roles. You no longer have to make them repository administrators or give… The post Security advisory permissions are now generally available appeared...",
+      "blog": "GitHub Changelog",
+      "blogId": "githubchangelog",
+      "author": "Allison",
+      "feedUrl": "https://github.blog/changelog/feed/",
       "sourceType": "rss"
     },
     {
@@ -333,6 +421,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Build trusted autonomous agents for your team with Microsoft Foundry",
+      "link": "https://devblogs.microsoft.com/foundry/build-trusted-autonomous-agents-for-your-team-with-microsoft-foundry/",
+      "published": "2026-11-19T19:53:30+00:00",
+      "summary": "Enterprises are all-in on AI agents, but the ROI hasn’t followed. What’s holding those agents back isn’t capability. Today’s agents can do remarkable work on their own. They can solve math problems that stumped mathematicians for decades, build functional operating systems from scratch, and teach...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Amanda Foster",
+      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
+      "sourceType": "rss"
+    },
+    {
       "title": "Enterprise Live Migrations from Azure DevOps generally available",
       "link": "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available",
       "published": "2026-11-19T18:50:57+00:00",
@@ -601,17 +700,6 @@
       "link": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
       "published": "2026-11-18T22:04:50+00:00",
       "summary": "You can now connect eight more services to Copilot using GitHub-verified MCP servers, or connectors, available in public preview. They join more than 25 services you can already connect, like… The post Connect Supabase, Box, Calendly, and more to Copilot appeared first on The GitHub Blog.",
-      "blog": "GitHub Changelog",
-      "blogId": "githubchangelog",
-      "author": "Allison",
-      "feedUrl": "https://github.blog/changelog/feed/",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Gemini 4 Neon in GitHub Copilot",
-      "link": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
-      "published": "2026-11-18T21:49:21+00:00",
-      "summary": "Gemini 4 Neon is now generally available in GitHub Copilot. It is designed for agentic coding, multistep tool use, and knowledge work. According to Google, Gemini 4 Neon delivers quality… The post Gemini 4 Neon in GitHub Copilot appeared first on The GitHub Blog.",
       "blog": "GitHub Changelog",
       "blogId": "githubchangelog",
       "author": "Allison",
@@ -1099,17 +1187,6 @@
       "blog": "Azure Storage",
       "blogId": "azurestorageblog",
       "author": "dmalbrough",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Azure Elastic SAN Next Generation public preview: Mission-critical performance & cloud-native scale",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-elastic-san-next-generation-public-preview-mission/ba-p/4573949",
-      "published": "2026-11-18T09:14:47+00:00",
-      "summary": "Mission-critical applications such as SAP HANA, Epic, and core transactional databases demand consistently high performance and predictable low latency. Cloud-native platforms running stateful applications, vector databases, and fast-growing fleets of AI agent environments need persistent storage...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "Kiran_Cherukuwada",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
       "sourceType": "techcommunity"
     },
@@ -5228,17 +5305,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Bring Agentic Coding On-Device with Foundry Local",
-      "link": "https://devblogs.microsoft.com/foundry/foundry-local-agentic-coding-qwen3-8-27b/",
-      "published": "2026-11-05T14:00:38+00:00",
-      "summary": "Foundry Local brings agentic coding directly to developer hardware. The post Bring Agentic Coding On-Device with Foundry Local appeared first on Microsoft Foundry Blog.",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Baiju Meswani, Emma Ning, Tianlei Wu",
-      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "Build an AI-assisted invoice approval workflow with Power Automate and AI Builder",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/build-an-ai-assisted-invoice-approval-workflow-with-power/ba-p/4569292",
       "published": "2026-11-05T08:00:00+00:00",
@@ -5393,54 +5459,10 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "My Favorite Undocumented Feature in SQL MCP Server",
-      "link": "https://devblogs.microsoft.com/azure-sql/sql-mcp-server-hidden-feature-default-configuration/",
-      "published": "2026-11-03T21:29:25+00:00",
-      "summary": "Deploy Microsoft's SQL MCP Server in minutes without a configuration file. Learn how DAB_CONNSTRING enables fast deployment using Docker, Azure Container Apps, ACI, or AKS. The post My Favorite Undocumented Feature in SQL MCP Server appeared first on Azure SQL Dev Corner.",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon",
-      "feedUrl": "https://devblogs.microsoft.com/azure-sql/feed/",
-      "sourceType": "rss"
-    },
-    {
       "title": "[In preview] Public Preview: JWT validation for Application Gateway for Containers",
       "link": "https://azure.microsoft.com/updates?id=576382",
       "published": "2026-11-03T21:17:08+00:00",
       "summary": "Application Gateway for Containers now supports centralized JSON Web Token validation through the AuthPolicy custom resource. Teams can validate a token signature, issuer, lifetime, and configured audience by using signing keys retrieved from a trusted HT",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: MCP gateway for Application Gateway for Containers",
-      "link": "https://azure.microsoft.com/updates?id=576388",
-      "published": "2026-11-03T21:16:36+00:00",
-      "summary": "Application Gateway for Containers now supports Model Context Protocol routing through the new MCPRoute custom resource. Platform teams can publish MCP servers behind a stable hostname and path while centralizing TLS, JWT validation, Web Application Firew",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Private ingress for Application Gateway for Containers",
-      "link": "https://azure.microsoft.com/updates?id=576393",
-      "published": "2026-11-03T21:15:46+00:00",
-      "summary": "Application Gateway for Containers now supports private frontends that are reachable only through approved Azure Private Link private endpoints. This enables organizations to keep internal applications, shared services, and cross-cluster traffic on privat",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[In preview] Public Preview: Advanced capacity insights are now available in Azure Storage Discovery",
-      "link": "https://azure.microsoft.com/updates?id=578655",
-      "published": "2026-11-03T20:20:29+00:00",
-      "summary": "Advanced capacity insights are now available for preview in Azure Storage Discovery. Storage Discovery now provides greater visibility into storage usage through insights such as access patterns, data age, storage tiers, object size distribution, retentio",
       "blog": "Azure Updates",
       "blogId": "azureupdates",
       "author": "Microsoft",
@@ -5479,28 +5501,6 @@
       "author": "RamKakani",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=oracleonazureblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "[In preview] Public Preview: Extend immutability for PITR backups for Azure SQL Database and Azure SQL Managed Instance",
-      "link": "https://azure.microsoft.com/updates?id=579305",
-      "published": "2026-11-03T18:36:12+00:00",
-      "summary": "With this enhancement, you have the ability to lock your retention to the configured PITR retention, beyond the default 7 days of immutable backups that are already available. This is especially useful for financial customers who typically have 35 days of",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "[Launched] Generally Available: Enhanced Azure Site Recovery support for VMSS Flex",
-      "link": "https://azure.microsoft.com/updates?id=578926",
-      "published": "2026-11-03T18:32:01+00:00",
-      "summary": "Azure Site Recovery now offers an enhanced disaster recovery experience for virtual machines in Virtual Machine Scale Sets with flexible orchestration. The update improves target configuration and end-to-end recovery workflows, including failover, reprote",
-      "blog": "Azure Updates",
-      "blogId": "azureupdates",
-      "author": "Microsoft",
-      "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
     },
     {
       "title": "What if your Azure Databricks workspaces have overlapping CIDRs?",
@@ -11739,6 +11739,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Microsoft’s Azure news today was dominated by enterprise AI infrastructure, with major emphasis on Azure AI Foundry, confidential computing, and operational tooling: Microsoft highlighted sovereign AI foundations using confidential databases and Intel TDX, launched Foundry Managed Compute for serving open models in production, added Microsoft-Decision-1 as a judge in Foundry Evaluations, and shared customer/quality workflows spanning human feedback reuse and Gulf Air’s Foundry adoption. Infrastructure and platform updates also stood out, including Ignite 2026 announcements around Azure SRE Agent and its integration with Azure Managed Grafana, the public preview of Azure Firewall for Containers, and broader messaging that the next era of enterprise AI depends on secure compute, observability, and resilient cloud infrastructure.\n\nDeveloper and integration news focused on shipping practical tooling: Copilot Code Reviews for Azure Repos reached GA, GitHub Enterprise Server 3.23 entered release candidate, GitHub Desktop added multi-account support, and Azure integration services expanded with an MSMQ connector, SQL storage provider GA for Hybrid Logic Apps, and semi-connected Integration Account support. Other notable items included Microsoft being named a Leader in the 2026 Gartner Magic Quadrant for SIEM, guidance on private AKS-based GitHub Actions runners with Azure Virtual WAN, and a .NET post examining how AI is reshaping cross-platform app strategy."
+  ]
 }
