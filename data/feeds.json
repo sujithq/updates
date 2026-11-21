@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T13:46:50.363685+00:00",
+  "lastUpdated": "2026-11-21T20:42:14.492294+00:00",
   "totalArticles": 1067,
   "articles": [
     {
@@ -11,6 +11,17 @@
       "blogId": "vscode",
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "sourceType": "rss"
+    },
+    {
+      "title": "Hosted agents in your own virtual network: five checks when the Agents page times out",
+      "link": "https://devblogs.microsoft.com/foundry/hosted-agents-private-network-setup/",
+      "published": "2026-11-21T18:12:21+00:00",
+      "summary": "The five questions teams ask most when they run hosted agents in their own virtual network: which subnet is the agent subnet, why listing agents times out, why a TLS-inspecting firewall still breaks after you add your CA, how peered VNets and DNS fit, and why a subnet stays in use after you delete...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Muzz Imam",
+      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
       "sourceType": "rss"
     },
     {
@@ -5203,17 +5214,6 @@
       "blogId": "azureupdates",
       "author": "Microsoft",
       "feedUrl": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-      "sourceType": "rss"
-    },
-    {
-      "title": "Microsoft Foundry extension for Azure Developer CLI is generally available",
-      "link": "https://devblogs.microsoft.com/foundry/microsoft-foundry-azure-developer-cli-ga/",
-      "published": "2026-11-05T20:55:45+00:00",
-      "summary": "Set up, test, evaluate, and deploy hosted agents with the generally available Microsoft Foundry extension for Azure Developer CLI, keeping agent and deployment configuration alongside your code. The post Microsoft Foundry extension for Azure Developer CLI is generally available appeared first on...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "John Miller",
-      "feedUrl": "https://devblogs.microsoft.com/foundry/feed/",
       "sourceType": "rss"
     },
     {
@@ -11739,5 +11739,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure posts focused on enterprise AI governance and secure networking. Microsoft highlighted **Governance policy guidance** reaching **general availability** in **Foundry Canvas** and **VS Code**, while also previewing **Microsoft Copilot harness support** in the **Foundry Toolkit for VS Code** to help developers build and evaluate AI experiences more effectively.\n\nOn the infrastructure side, Azure shared troubleshooting guidance for **hosted agents running in a customer’s own virtual network** when the **Agents** page times out, and detailed how to deploy **Virtual WAN Secure Hub** with **customer-owned public IPs** for **Azure Firewall** using **Azure Verified Modules (AVM)**."
 }
