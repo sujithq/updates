@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-22T10:25:48.538371+00:00",
-  "totalArticles": 1067,
+  "lastUpdated": "2026-11-22T18:44:54.493162+00:00",
+  "totalArticles": 1066,
   "articles": [
     {
       "title": "Visual Studio Code 1.148 (Insiders)",
@@ -14,6 +14,17 @@
       "sourceType": "rss"
     },
     {
+      "title": "Rotating credentials in Azure API Management",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/rotating-credentials-in-azure-api-management/ba-p/4575478",
+      "published": "2026-11-22T17:49:19+00:00",
+      "summary": "Credentials covered Subscription keys Named values that contain secrets Backend credentials (headers, query parameters, client certificates) OAuth 2.0 and OpenID Connect client secrets Connection strings (for example, Event Hubs loggers) Credentials written directly into policies How to rotate...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "vladvino",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
       "title": "Ignite 2026: The next era of enterprise AI starts with the infrastructure beneath it",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the/ba-p/4574943",
       "published": "2026-11-22T02:13:31+00:00",
@@ -22,17 +33,6 @@
       "blogId": "azurecompute",
       "author": "Arun Kishan",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurecompute&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Rotating credentials in Azure API Management",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/rotating-credentials-in-azure-api-management/ba-p/4575478",
-      "published": "2026-11-21T22:12:12+00:00",
-      "summary": "Credentials covered by this guidance Subscription keys Named values that contain secrets Backend credentials (headers, query parameters, client certificates) OAuth 2.0 and OpenID Connect client secrets Connection strings (for example, Event Hubs loggers) Credentials written directly into policies...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "vladvino",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -11727,18 +11727,7 @@
       "author": "kyleikeda",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=finopsblog&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "Gaining Confidence with Az CLI and Az PowerShell: Introducing What if & Export Bicep",
-      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/gaining-confidence-with-az-cli-and-az-powershell-introducing/ba-p/4472147",
-      "published": "2025-11-21T18:39:06+00:00",
-      "summary": "Ever hesitated before hitting Enter on a command, wondering what changes it might make? You’re not alone. Whether you’re deploying resources or updating configurations, the fear of unintended consequences can slow you down. That’s why we’re introducing new powerful features in Azure CLI and Azure...",
-      "blog": "Azure Tools",
-      "blogId": "azuretoolsblog",
-      "author": "stevenbucher",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
-      "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage centers on **Ignite 2026** and a clear message: the next phase of enterprise AI depends on **cloud infrastructure upgrades**, especially in **Azure Compute**. The post emphasizes that large-scale AI adoption will be enabled by advances in the underlying platform—think **GPU-optimized compute, high-performance networking, scalable storage, and infrastructure designed for demanding AI training and inference workloads**.\n\nThe main theme is that Azure is positioning its compute stack as the foundation for enterprise AI, not just by adding raw capacity but by improving the full infrastructure layer required to run modern AI systems reliably and at scale."
+  "summary": "Today’s Azure blog highlights two core priorities: stronger cloud security hygiene and the infrastructure foundation for enterprise AI. On the integration side, Azure API Management is emphasizing credential rotation best practices to reduce secret sprawl and improve secure access management for APIs and backends.\n\nFrom Azure Compute, the Ignite 2026 post centers on the infrastructure needed for the next wave of enterprise AI, pointing to Azure’s investment in AI-ready compute, scalable cloud platforms, and the underlying systems that support production-grade AI workloads."
 }
