@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T20:42:14.492294+00:00",
+  "lastUpdated": "2026-11-22T00:44:46.058570+00:00",
   "totalArticles": 1067,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Rotating credentials in Azure API Management",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/rotating-credentials-in-azure-api-management/ba-p/4575478",
+      "published": "2026-11-21T22:12:12+00:00",
+      "summary": "Credentials covered by this guidance Subscription keys Named values that contain secrets Backend credentials (headers, query parameters, client certificates) OAuth 2.0 and OpenID Connect client secrets Connection strings (for example, Event Hubs loggers) Credentials written directly into policies...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "vladvino",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Hosted agents in your own virtual network: five checks when the Agents page times out",
@@ -4203,17 +4214,6 @@
       "author": "Kyler Middleton",
       "feedUrl": "https://www.letsdodevops.com/feed",
       "sourceType": "rss"
-    },
-    {
-      "title": "Tune your Logic Apps Standard runtime from the portal",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/tune-your-logic-apps-standard-runtime-from-the-portal/ba-p/4573619",
-      "published": "2026-11-17T15:27:16+00:00",
-      "summary": "Until now, the answer lived in host.json. To change a value in Azure, you opened Advanced Tools, went into Kudu, stopped your logic app, hand-edited JSON with a key you copied from the docs, saved, and restarted. Nothing on screen told you the default, or whether someone had already changed it....",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=integrationsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "The risks of device code authentication for AI coding agents",
@@ -11739,6 +11739,5 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuretoolsblog&page.size=50",
       "sourceType": "techcommunity"
     }
-  ],
-  "summary": "Today’s Azure posts focused on enterprise AI governance and secure networking. Microsoft highlighted **Governance policy guidance** reaching **general availability** in **Foundry Canvas** and **VS Code**, while also previewing **Microsoft Copilot harness support** in the **Foundry Toolkit for VS Code** to help developers build and evaluate AI experiences more effectively.\n\nOn the infrastructure side, Azure shared troubleshooting guidance for **hosted agents running in a customer’s own virtual network** when the **Agents** page times out, and detailed how to deploy **Virtual WAN Secure Hub** with **customer-owned public IPs** for **Azure Firewall** using **Azure Verified Modules (AVM)**."
+  ]
 }
