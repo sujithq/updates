@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-26T01:14:16.710395+00:00",
+  "lastUpdated": "2026-11-26T11:35:41.682918+00:00",
   "totalArticles": 1070,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Azure Functions and AWS Lambda: One Trigger vs. Multiple Triggers—What Changes in Your Design?",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-functions-and-aws-lambda-one-trigger-vs-multiple-triggers/ba-p/4574749",
+      "published": "2026-11-26T02:28:19+00:00",
+      "summary": "When moving between Azure Functions and AWS Lambda, one difference quickly stands out: An individual Azure function must have exactly one trigger. An AWS Lambda function can have multiple triggers. At first glance, Lambda appears more flexible. But what does this difference actually mean for code...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "singh_abhi",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "[In preview] Public Preview: ECMP Nexthop",
@@ -4511,17 +4522,6 @@
       "author": "Richa Gaur",
       "feedUrl": "https://devblogs.microsoft.com/cosmosdb/feed/",
       "sourceType": "rss"
-    },
-    {
-      "title": "What's new in Azure Container Apps at Ignite'26",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-container-apps-at-ignite-26/ba-p/4573042",
-      "published": "2026-11-17T18:45:12+00:00",
-      "summary": "Azure Container Apps (ACA) is a fully managed serverless container platform that enables developers to design and deploy microservices and modern apps without requiring container expertise or needing infrastructure management. With built-in autoscaling (including scale to zero), per-second billing,...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "vyomnagrani",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=appsonazureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Improve search relevance with semantic reranking and BM25 score projection in Azure Cosmos DB",
@@ -11772,5 +11772,6 @@
       "feedUrl": "https://www.letsdodevops.com/feed",
       "sourceType": "rss"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage focused on serverless architecture design, specifically comparing **Azure Functions** with **AWS Lambda** through the lens of **trigger models**. The key theme was how Azure Functions’ support for **multiple trigger types across functions within an app** changes application design, operational structure, and event-driven integration patterns compared with AWS Lambda’s more isolated per-function trigger approach."
 }
