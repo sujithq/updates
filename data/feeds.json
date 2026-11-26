@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-26T11:35:41.682918+00:00",
-  "totalArticles": 1070,
+  "lastUpdated": "2026-11-26T20:36:25.702919+00:00",
+  "totalArticles": 1069,
   "articles": [
     {
       "title": "Visual Studio Code 1.149 (Insiders)",
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Azure Local: 10 anti-patterns that quietly break a running cluster",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-local-10-anti-patterns-that-quietly-break-a-running/ba-p/4577143",
+      "published": "2026-11-26T18:00:52+00:00",
+      "summary": "Part 2: Design and operations anti-patterns for Azure Local An anti-pattern is a recurring design or operating choice that looks like a good solution to an immediate problem but creates a bigger problem elsewhere. A storage optimization can look good on a capacity report, for example, and still be...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Azure-Hacker",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Where should LLM weights live on AKS? Three options for GPU cold starts, measured",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/where-should-llm-weights-live-on-aks-three-options-for-gpu-cold/ba-p/4574887",
+      "published": "2026-11-26T05:30:00+00:00",
+      "summary": "Summary When you self-host an open-weight large language model (LLM) on Azure Kubernetes Service (AKS), each new replica needs two payloads before it can answer a request: the container image that holds the inference runtime, and the model weights. That wait is the cold start. On CPU services it is...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kumarsagar",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Azure Functions and AWS Lambda: One Trigger vs. Multiple Triggers—What Changes in Your Design?",
@@ -6537,17 +6559,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "What is new in Sovereign Public Cloud",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/what-is-new-in-sovereign-public-cloud/ba-p/4566000",
-      "published": "2026-10-20T15:25:37+00:00",
-      "summary": "To identify which sovereign cloud solution may fit your organization’s needs, take the Microsoft Sovereign Cloud assessment New and upcoming controls, where they apply, and how they fit into sovereign Azure architecture. At the October Frontier Tour, we are announcing new and expanded capabilities...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "StuartRussell",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azureinfrastructureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Can a local git remote replace GitHub in your agent eval?",
       "link": "https://devblogs.microsoft.com/blog/can-a-local-git-remote-replace-github-in-your-agent-eval/",
       "published": "2026-10-20T14:53:27+00:00",
@@ -7348,17 +7359,6 @@
       "blogId": "azurestorageblog",
       "author": "GeertVanTeylingen",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurestorageblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
-      "title": "Sending Email from an AKS Pod Without a Single Secret",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/sending-email-from-an-aks-pod-without-a-single-secret/ba-p/4556222",
-      "published": "2026-09-29T04:15:00+00:00",
-      "summary": "The problem You have a workload running in AKS that occasionally needs to send an email — a notification, an alert, a report. The obvious options all come with baggage: An SMTP relay means yet another credential to store, rotate, and eventually leak. A shared \"app password\" mailbox account means an...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Jamesdld23",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azuredevcommunityblog&page.size=50",
       "sourceType": "techcommunity"
     },
     {
@@ -11760,18 +11760,7 @@
       "author": "AnaviNahar",
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-databricks&page.size=50",
       "sourceType": "techcommunity"
-    },
-    {
-      "title": "🔥Building Audit Logging for Multi-Platform AI Bots with Python, AWS Cloudwatch🔥",
-      "link": "https://www.letsdodevops.com/p/building-audit-logging-for-multi",
-      "published": "2025-11-25T15:30:51+00:00",
-      "summary": "aka, who is actually using our bots today?",
-      "blog": "Let's do DevOps",
-      "blogId": "letsdodevops",
-      "author": "Kyler Middleton",
-      "feedUrl": "https://www.letsdodevops.com/feed",
-      "sourceType": "rss"
     }
   ],
-  "summary": "Today’s Azure blog coverage focused on serverless architecture design, specifically comparing **Azure Functions** with **AWS Lambda** through the lens of **trigger models**. The key theme was how Azure Functions’ support for **multiple trigger types across functions within an app** changes application design, operational structure, and event-driven integration patterns compared with AWS Lambda’s more isolated per-function trigger approach."
+  "summary": "Today’s Azure posts focused on reliability and architecture choices across infrastructure, Kubernetes AI workloads, and serverless design. Azure Infrastructure highlighted “10 anti-patterns” that can destabilize an Azure Local cluster, while the AKS post compared three ways to place LLM model weights to reduce GPU cold-start delays—specifically around Azure Kubernetes Service, GPUs, and large language model serving.\n\nOn the application side, Apps on Azure examined how eventing models differ between Azure Functions and AWS Lambda, contrasting Azure Functions’ support for multiple triggers with Lambda’s one-trigger-per-function pattern and explaining how that changes serverless application design. Overall, the themes were operational resilience, performance optimization for AI on AKS, and cloud-native architecture tradeoffs across platforms."
 }
