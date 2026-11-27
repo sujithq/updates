@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T03:20:42.508139+00:00",
+  "lastUpdated": "2026-11-27T15:41:33.457162+00:00",
   "totalArticles": 1070,
   "articles": [
     {
@@ -12,6 +12,28 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "Agentic disruption recovery for airlines on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/agentic-disruption-recovery-for-airlines-on-azure/ba-p/4577378",
+      "published": "2026-11-27T14:44:17+00:00",
+      "summary": "The business problem Disruption is a network problem: 44% of Europe's average departure delay in 2025 was knock-on delay from earlier flights [1]. Lisbon, on one runway near capacity, was the least punctual of Europe's 30 busiest airports [2]. A minute of delay at the gate costs an airline about...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "simon10",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
+    },
+    {
+      "title": "Run Slurm on Kubernetes with Slinky",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/run-slurm-on-kubernetes-with-slinky/ba-p/4577289",
+      "published": "2026-11-27T08:08:25+00:00",
+      "summary": "Run Slurm on Kubernetes with Slinky What Slinky does Slurm is a workload manager for jobs with explicit resource requirements: a simulation needs a number of nodes, a training run needs GPUs, and a parameter sweep needs hundreds of independent tasks. It provides queues, priorities, reservations,...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "Hugo_Meiland",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Maps Visualization",
@@ -8121,17 +8143,6 @@
       "sourceType": "rss"
     },
     {
-      "title": "Building 3IQ Retail Assistant Demo – Part 1",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/building-3iq-retail-assistant-demo-part-1/ba-p/4547228",
-      "published": "2026-09-03T17:24:53+00:00",
-      "summary": "Introduction Recently I received a request from one of our GSI partners to demonstrate them 4IQs on a retail industry scenario. Unfortunately, Web IQ is still not in public preview. Hence, I promised them to come back with an example later with Web IQ. But even with the remaining Fabric IQ, Foundry...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "pranabpaul",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Keep the evidence: Low-cost logs with Azure Copilot Observability Agent (Generally Available)",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/keep-the-evidence-low-cost-logs-with-azure-copilot-observability/ba-p/4550844",
       "published": "2026-09-03T12:00:00+00:00",
@@ -10145,17 +10156,6 @@
       "sourceType": "techcommunity"
     },
     {
-      "title": "Training 100B+ Models on a Single GPU: What MegaTrain Changes - and What It Means for Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/training-100b-models-on-a-single-gpu-what-megatrain-changes-and/ba-p/4519562",
-      "published": "2026-05-29T06:08:50+00:00",
-      "summary": "The Paradigm Shift in Model Training The conventional wisdom in deep learning has been simple: bigger models require bigger infrastructure. Training a 100-billion parameter language model traditionally demands massive GPU clusters with terabytes of combined memory, where each GPU holds portions of...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "yuvmaz",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurehighperformancecomputingblog&page.size=50",
-      "sourceType": "techcommunity"
-    },
-    {
       "title": "Governing AI Agents Against Every OWASP Agentic Risk: A Deep Dive with the Agent Governance Toolkit",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/governing-ai-agents-against-every-owasp-agentic-risk-a-deep-dive/ba-p/4523749",
       "published": "2026-05-28T22:04:55+00:00",
@@ -11773,5 +11773,5 @@
       "sourceType": "techcommunity"
     }
   ],
-  "summary": "Today’s Azure blog coverage highlighted **Azure Maps Visualization**, focusing on richer geospatial data rendering and map-based experiences for developers building location-aware applications. The key theme was improving how teams visualize spatial data in Azure, likely emphasizing tighter integration with Azure Maps services for interactive mapping, analytics, and operational dashboards."
+  "summary": "Today’s Azure posts focused on applied AI, HPC orchestration, and geospatial app experiences. The Azure Architecture post outlined an “agentic” disruption-recovery pattern for airlines on Azure, using AI agents to help manage irregular operations; the HPC post introduced running Slurm on Kubernetes with Slinky, aimed at modernizing cluster scheduling for high-performance workloads; and the Azure Maps post highlighted Maps Visualization capabilities for building location-aware apps with richer mapping and geospatial data presentation."
 }
