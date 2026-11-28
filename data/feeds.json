@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T10:59:17.894622+00:00",
+  "lastUpdated": "2026-11-28T19:12:27.026225+00:00",
   "totalArticles": 1070,
   "articles": [
     {
@@ -12,6 +12,17 @@
       "author": "Visual Studio Code Team",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "sourceType": "rss"
+    },
+    {
+      "title": "The Model Isn’t the Boss: An Azure Architecture for Accountable AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/the-model-isn-t-the-boss-an-azure-architecture-for-accountable/ba-p/4571335",
+      "published": "2026-11-28T11:09:22+00:00",
+      "summary": "Imagine a housing organization that maintains several thousand rented homes. Tenants report repairs through a website, an app, a phone line or a support worker who completes the form with them, and many reports include a photo. Asset history, approved repair guidance, contractor availability and...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Jiri Binko",
+      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
+      "sourceType": "techcommunity"
     },
     {
       "title": "Agentic disruption recovery for airlines on Azure",
@@ -5666,17 +5677,6 @@
       "author": "Microsoft",
       "feedUrl": "https://blog.aks.azure.com/rss.xml",
       "sourceType": "rss"
-    },
-    {
-      "title": "The Model Isn’t the Boss: An Azure Architecture for Accountable AI Agents",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/the-model-isn-t-the-boss-an-azure-architecture-for-accountable/ba-p/4571335",
-      "published": "2026-11-07T20:50:12+00:00",
-      "summary": "Imagine a housing organization that maintains several thousand rented homes. Tenants report repairs through a website, an app, a phone line or a support worker who completes the form with them, and many reports include a photo. Asset history, approved repair guidance, contractor availability and...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Jiri Binko",
-      "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azurearchitectureblog&page.size=50",
-      "sourceType": "techcommunity"
     },
     {
       "title": "Repairs and Renovation Should Not Compete Blindly for the Same Capacity",
@@ -11772,5 +11772,6 @@
       "feedUrl": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-databricks&page.size=50",
       "sourceType": "techcommunity"
     }
-  ]
+  ],
+  "summary": "Today’s Azure blog coverage centers on **accountable AI agent architecture**, with the featured post, **“The Model Isn’t the Boss: An Azure Architecture for Accountable AI Agents,”** emphasizing that LLMs should be orchestrated within governed systems rather than acting autonomously. The architecture highlights **Azure Architecture** patterns for agentic AI that combine models with **control layers, policy enforcement, tool orchestration, and human oversight** to improve reliability, auditability, and safety in enterprise deployments."
 }
